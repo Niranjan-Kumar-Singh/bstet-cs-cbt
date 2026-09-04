@@ -31,3 +31,9 @@ sample_*.txt
 node_modules/
 dist/
 build/
+
+# Raw Question Papers & Syllabus PDFs (Private Source Documents)
+*.pdf
+*.PDF
+syllabus_extracted.txt
+
