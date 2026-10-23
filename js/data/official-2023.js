@@ -47,7 +47,16 @@ window.official_2023 = {
         "D": "A'B'C'D' + A'BC'D' + A'BCD + ABCD"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) A'B'C'D' + A'B'C'D + A'BC'D + AB'C'D + ABCD**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (A) A'B'C'D' + A'B'C'D + A'BC'D + AB'C'D + ABCD**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "What is the simplified expression for the Boolean function F(A, B, C, D) = Σ(0, 1, 2, 4, 5, 6, 8, 9, 10, 12, 13, 14) using the कॉर्नो मैप (K-Map) method?",
+      "options_hi": {
+        "A": "A'B'C'D' + A'B'C'D + A'BC'D + AB'C'D + ABCD?",
+        "B": "A'B'C'D' + A'BC'D + AB'C'D + ABC'D + ABCD?",
+        "C": "A'B'C'D' + A'BC'D + ABC'D + ABCD?",
+        "D": "A'B'C'D' + A'BC'D' + A'BCD + ABCD?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) A'B'C'D' + A'B'C'D + A'BC'D + AB'C'D + ABCD?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 2,
@@ -64,13 +73,22 @@ window.official_2023 = {
         "D": "NOT gates and multiplexers"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) AND gates and OR gates**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (A) AND gates and OR gates**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "In a PLA, what components are used to implement the combinational logic functions?",
+      "options_hi": {
+        "A": "AND gates and OR gates?",
+        "B": "NAND gates and XOR gates?",
+        "C": "NOR gates and XNOR gates?",
+        "D": "NOT gates and मल्टीप्लेक्सर (MUX)s?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) AND gates and OR gates?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 3,
       "questionNumber": 3,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Operating Systems",
       "marks": 1,
       "negativeMarks": 0,
       "question": "Which type of register is primarily used to temporarily hold data during arithmetic and logical operations in a microprocessor?",
@@ -81,13 +99,22 @@ window.official_2023 = {
         "D": "Counter register"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Accumulator register**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (C) Accumulator register**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "Which type of register is primarily used to temporarily hold data during arithmetic and logical operations in a microprocessor?",
+      "options_hi": {
+        "A": "Shift register?",
+        "B": "Parallel register?",
+        "C": "Accumulator register?",
+        "D": "काउंटर register?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Accumulator register?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 4,
       "questionNumber": 4,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Science",
       "marks": 1,
       "negativeMarks": 0,
       "question": "Which logic family uses both depletion and enhancement mode MOSFETs for its operation?",
@@ -98,7 +125,16 @@ window.official_2023 = {
         "D": "CMOS"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) CMOS**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (D) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (D) CMOS**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (D) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "Which logic family uses both depletion and enhancement mode MOSFETs for its operation?",
+      "options_hi": {
+        "A": "TTL?",
+        "B": "ECL?",
+        "C": "PMOS?",
+        "D": "CMOS?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) CMOS?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 5,
@@ -115,7 +151,16 @@ window.official_2023 = {
         "D": "ROM stores permanent data that cannot be changed, while RAM stores temporary data that can be read and written"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) ROM stores permanent data that cannot be changed, while RAM stores temporary data that can be read and written**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (D) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (D) ROM stores permanent data that cannot be changed, while RAM stores temporary data that can be read and written**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (D) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "What is the primary difference between ROM and RAM?",
+      "options_hi": {
+        "A": "ROM is faster than RAM?",
+        "B": "ROM is volatile, while RAM is non-volatile?",
+        "C": "ROM is used for data storage, while RAM is used for program execution?",
+        "D": "ROM stores permanent data that cannot be changed, while RAM stores temporary data that can be read and written?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) ROM stores permanent data that cannot be changed, while RAM stores temporary data that can be read and written?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 6,
@@ -132,13 +177,22 @@ window.official_2023 = {
         "D": "A'B'C'"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) A'B' + AB' + AB + AC**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (A) A'B' + AB' + AB + AC**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "Given a Boolean function F(A, B, C) = Σ(0, 1, 2, 3, 5), what is the expression in SOP form?",
+      "options_hi": {
+        "A": "A'B' + AB' + AB + AC?",
+        "B": "A + B + C?",
+        "C": "AB' + C'?",
+        "D": "A'B'C'?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) A'B' + AB' + AB + AC?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 7,
       "questionNumber": 7,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Networks",
       "marks": 1,
       "negativeMarks": 0,
       "question": "If the sum of two positive binary numbers is 11010 and there is a carry-out from the MSB, what should be done to obtain the correct result?",
@@ -149,7 +203,16 @@ window.official_2023 = {
         "D": "Subtract the carry from the MSB"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Add the carry to the least significant bit (LSB)**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (B) Add the carry to the least significant bit (LSB)**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "If the sum of two positive binary numbers is 11010 and there is a carry-out from the MSB, what should be done to obtain the correct result?",
+      "options_hi": {
+        "A": "Discard the carry?",
+        "B": "Add the carry to the least significant bit (LSB)?",
+        "C": "Add the carry to the most significant bit (MSB)?",
+        "D": "Subtract the carry from the MSB?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Add the carry to the least significant bit (LSB)?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 8,
@@ -166,13 +229,22 @@ window.official_2023 = {
         "D": "Multiply the most significant bit (MSB) by the multiplicand"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Multiply the least significant bit (LSB) by the multiplier**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (A) Multiply the least significant bit (LSB) by the multiplier**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "In binary multiplication using the simple method, what is the first step after aligning the digits and preparing for multiplication?",
+      "options_hi": {
+        "A": "Multiply the least significant bit (LSB) by the multiplier?",
+        "B": "Multiply the most significant bit (MSB) by the multiplier?",
+        "C": "Multiply the least significant bit (LSB) by the multiplicand?",
+        "D": "Multiply the most significant bit (MSB) by the multiplicand?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Multiply the least significant bit (LSB) by the multiplier?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 9,
       "questionNumber": 9,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Networks",
       "marks": 1,
       "negativeMarks": 0,
       "question": "What is the relationship between the distance between parity bits and their error detection and correction capability in Hamming Code?",
@@ -183,7 +255,16 @@ window.official_2023 = {
         "D": "The position of parity bits is irrelevant in Hamming Code"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Closer parity bits provide lower error correction capability**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (B) Closer parity bits provide lower error correction capability**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "What is the relationship between the distance between parity bits and their error detection and correction capability in Hamming Code?",
+      "options_hi": {
+        "A": "Closer parity bits provide higher error correction capability?",
+        "B": "Closer parity bits provide lower error correction capability?",
+        "C": "Distance between parity bits has no impact on error correction capability?",
+        "D": "The position of parity bits is irrelevant in Hamming Code?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Closer parity bits provide lower error correction capability?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 10,
@@ -200,13 +281,22 @@ window.official_2023 = {
         "D": "Division method"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Exclusive OR (XOR) operation**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (C) Exclusive OR (XOR) operation**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "To convert a Gray Code to its binary equivalent, which technique is commonly used?",
+      "options_hi": {
+        "A": "Subtraction method?",
+        "B": "Addition method?",
+        "C": "Exclusive OR (XOR) operation?",
+        "D": "Division method?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Exclusive OR (XOR) operation?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 11,
       "questionNumber": 11,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Operating Systems",
       "marks": 1,
       "negativeMarks": 0,
       "question": "Which component of an ideal microcomputer is responsible for temporarily holding data and instructions during processing?",
@@ -217,7 +307,16 @@ window.official_2023 = {
         "D": "Output devices"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Memory**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (C) Memory**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "Which component of an ideal microcomputer is responsible for temporarily holding data and instructions during processing?",
+      "options_hi": {
+        "A": "CPU?",
+        "B": "ALU?",
+        "C": "Memory?",
+        "D": "Output devices?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Memory?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 12,
@@ -234,13 +333,22 @@ window.official_2023 = {
         "D": "In address lines"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) In bits**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (C) In bits**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "How is the width of the data bus typically measured in a microcomputer system?",
+      "options_hi": {
+        "A": "In kilobytes (KB)?",
+        "B": "In megahertz (MHz)?",
+        "C": "In bits?",
+        "D": "In address lines?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) In bits?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 13,
       "questionNumber": 13,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Operating Systems",
       "marks": 1,
       "negativeMarks": 0,
       "question": "Microcontrollers find application in various fields. What is a typical application of microcontrollers in the automotive industry?",
@@ -251,7 +359,16 @@ window.official_2023 = {
         "D": "Weather forecasting systems"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Engine control in cars**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (C) Engine control in cars**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "Microcontrollers find application in various fields. What is a typical application of microcontrollers in the automotive industry?",
+      "options_hi": {
+        "A": "Operating systems for computers?",
+        "B": "Entertainment systems in airplanes?",
+        "C": "Engine control in cars?",
+        "D": "Weather forecasting systems?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Engine control in cars?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 14,
@@ -268,13 +385,22 @@ window.official_2023 = {
         "D": "Stacks"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Hash tables**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (C) reflects the standard behavior and complexity bounds."
+      "explanation": "**Correct Answer: (C) Hash tables**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (C) reflects the standard behavior and complexity bounds.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "Which data structure often results in a time-space tradeoff by using extra memory to speed up operations?",
+      "options_hi": {
+        "A": "ऐरे (Array)s?",
+        "B": "लिंक्ड लिस्ट (Linked List)s?",
+        "C": "Hash tables?",
+        "D": "स्टैक (Stack)s?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Hash tables?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 15,
       "questionNumber": 15,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Algorithms",
       "marks": 1,
       "negativeMarks": 0,
       "question": "Which term refers to the strategy of optimizing an algorithm's use of resources, often by making sacrifices in one aspect for improvements in another?",
@@ -285,7 +411,16 @@ window.official_2023 = {
         "D": "Tradeoff"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Tradeoff**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (D) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (D) Tradeoff**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (D) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
+      "question_hi": "Which term refers to the strategy of optimizing an algorithm's use of resources, often by making sacrifices in one aspect for improvements in another?",
+      "options_hi": {
+        "A": "Greedy algorithm?",
+        "B": "Divide and conquer?",
+        "C": "Dynamic programming?",
+        "D": "Tradeoff?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Tradeoff?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 16,
@@ -302,7 +437,16 @@ window.official_2023 = {
         "D": "Algorithm behavior varies based on certain input characteristics"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Algorithm behavior varies based on certain input characteristics**\n\n**Algorithm Analysis**: Algorithmic paradigms (Divide-and-Conquer, Dynamic Programming, Greedy) balance space and time tradeoffs.\n- Option (D) correctly identifies the algorithmic property."
+      "explanation": "**Correct Answer: (D) Algorithm behavior varies based on certain input characteristics**\n\n**Algorithm Analysis**: Algorithmic paradigms (Divide-and-Conquer, Dynamic Programming, Greedy) balance space and time tradeoffs.\n- Option (D) correctly identifies the algorithmic property.",
+      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
+      "question_hi": "Conditional asymptotic notation allows for a more nuanced analysis of algorithm behavior under specific conditions. This is particularly useful when:?",
+      "options_hi": {
+        "A": "Analyzing algorithms with constant time complexity?",
+        "B": "The input size is fixed?",
+        "C": "The input data is random?",
+        "D": "Algorithm behavior varies based on certain input characteristics?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Algorithm behavior varies based on certain input characteristics?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 17,
@@ -319,13 +463,22 @@ window.official_2023 = {
         "D": "o(f(n) * g(n))"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) o(f(n))**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (A) o(f(n))**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": ".If an algorithm's behavior is bounded by \"o(f(n)) if g(n)\", what notation does it become when the condition is removed?",
+      "options_hi": {
+        "A": "o(f(n))?",
+        "B": "o(g(n))?",
+        "C": "o(f(n) + g(n))?",
+        "D": "o(f(n) * g(n))?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) o(f(n))?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 18,
       "questionNumber": 18,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Algorithms",
       "marks": 1,
       "negativeMarks": 0,
       "question": "The recurrence equation T(n) = T(n/2) + 1 represents the time complexity of which algorithmic paradigm?",
@@ -336,7 +489,16 @@ window.official_2023 = {
         "D": "Brute Force"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Divide and Conquer**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (A) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (A) Divide and Conquer**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (A) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
+      "question_hi": "The recurrence equation T(n) = T(n/2) + 1 represents the time complexity of which algorithmic paradigm?",
+      "options_hi": {
+        "A": "Divide and Conquer?",
+        "B": "Greedy Algorithms?",
+        "C": "Dynamic Programming?",
+        "D": "Brute Force?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Divide and Conquer?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 19,
@@ -353,13 +515,22 @@ window.official_2023 = {
         "D": "Greedily combining solutions"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Recursively solving subproblems**\n\n**Algorithm Analysis**: Algorithmic paradigms (Divide-and-Conquer, Dynamic Programming, Greedy) balance space and time tradeoffs.\n- Option (B) correctly identifies the algorithmic property."
+      "explanation": "**Correct Answer: (B) Recursively solving subproblems**\n\n**Algorithm Analysis**: Algorithmic paradigms (Divide-and-Conquer, Dynamic Programming, Greedy) balance space and time tradeoffs.\n- Option (B) correctly identifies the algorithmic property.",
+      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
+      "question_hi": "Divide and Conquer is an algorithmic paradigm that solves problems by:?",
+      "options_hi": {
+        "A": "Iteratively solving subproblems?",
+        "B": "Recursively solving subproblems?",
+        "C": "Using heuristics to find solutions?",
+        "D": "Greedily combining solutions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Recursively solving subproblems?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 20,
       "questionNumber": 20,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Operating Systems",
       "marks": 1,
       "negativeMarks": 0,
       "question": "A threaded binary tree is a binary tree in which:",
@@ -370,13 +541,22 @@ window.official_2023 = {
         "D": "Each node has a thread connecting it to its predecessor or successor"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Each node has a thread connecting it to its predecessor or successor**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (D) reflects the standard behavior and complexity bounds."
+      "explanation": "**Correct Answer: (D) Each node has a thread connecting it to its predecessor or successor**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (D) reflects the standard behavior and complexity bounds.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "A threaded binary tree is a binary tree in which:?",
+      "options_hi": {
+        "A": "Each node has two children?",
+        "B": "Each node has at most one child?",
+        "C": "Each node is connected to its parent?",
+        "D": "Each node has a thread connecting it to its predecessor or successor?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Each node has a thread connecting it to its predecessor or successor?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 21,
       "questionNumber": 21,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Programming & Data Structures",
       "marks": 1,
       "negativeMarks": 0,
       "question": "Which traversal algorithm is typically implemented using a stack data structure?",
@@ -387,7 +567,16 @@ window.official_2023 = {
         "D": "Neither DFS nor BFS"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) DFS**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (A) DFS**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "Which traversal algorithm is typically implemented using a स्टैक (Stack) data structure?",
+      "options_hi": {
+        "A": "DFS?",
+        "B": "BFS?",
+        "C": "Both DFS and BFS?",
+        "D": "Neither DFS nor BFS?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) DFS?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 22,
@@ -404,7 +593,16 @@ window.official_2023 = {
         "D": "{A, B}"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) (A, B)**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (A) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (A) (A, B)**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (A) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "In a directed graph, an edge that points from vertex A to vertex B is denoted as:?",
+      "options_hi": {
+        "A": "(A, B)?",
+        "B": "[A, B]?",
+        "C": "<A, B>?",
+        "D": "{A, B}?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) (A, B)?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 23,
@@ -421,13 +619,22 @@ window.official_2023 = {
         "D": "Queues"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Linked lists**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (A) reflects the standard behavior and complexity bounds."
+      "explanation": "**Correct Answer: (A) Linked lists**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (A) reflects the standard behavior and complexity bounds.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "Separate chaining involves storing collided elements in separate data structures, typically in:?",
+      "options_hi": {
+        "A": "लिंक्ड लिस्ट (Linked List)s?",
+        "B": "ऐरे (Array)s?",
+        "C": "स्टैक (Stack)s?",
+        "D": "क्यू (Queue)s?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) लिंक्ड लिस्ट (Linked List)s?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 24,
       "questionNumber": 24,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Programming & Data Structures",
       "marks": 1,
       "negativeMarks": 0,
       "question": "Which collision resolution technique involves placing collided elements in the next available empty slot in the hash table?",
@@ -438,7 +645,16 @@ window.official_2023 = {
         "D": "Double hashing"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Linear probing**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (A) Linear probing**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "Which collision resolution technique involves placing collided elements in the next available empty slot in the hash table?",
+      "options_hi": {
+        "A": "Linear probing?",
+        "B": "Quadratic probing?",
+        "C": "Separate chaining?",
+        "D": "Double hashing?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Linear probing?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 25,
@@ -455,13 +671,22 @@ window.official_2023 = {
         "D": "2^n"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) n**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (A) n**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "In the Tower of Hanoi problem with \"n\" disks, कितने moves are required to solve the problem?",
+      "options_hi": {
+        "A": "n?",
+        "B": "2n?",
+        "C": "2^n -?",
+        "D": "2^n?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) n?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 26,
       "questionNumber": 26,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Operating Systems",
       "marks": 1,
       "negativeMarks": 0,
       "question": "The process of removing recursion involves replacing recursive function calls with:",
@@ -472,13 +697,22 @@ window.official_2023 = {
         "D": "Non-recursive function calls"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Loops**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (B) Loops**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "The process of removing recursion involves replacing recursive function calls with:?",
+      "options_hi": {
+        "A": "More recursive function calls?",
+        "B": "Loops?",
+        "C": "Additional memory allocation?",
+        "D": "Non-recursive function calls?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Loops?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 27,
       "questionNumber": 27,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Operating Systems",
       "marks": 1,
       "negativeMarks": 0,
       "question": "A formal model of protection in an operating system provides:",
@@ -489,13 +723,22 @@ window.official_2023 = {
         "D": "Techniques for improving CPU utilization"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) A mathematical framework for analyzing resource allocation**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (A) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (A) A mathematical framework for analyzing resource allocation**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (A) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "A formal model of protection in an operating system provides:?",
+      "options_hi": {
+        "A": "A mathematical framework for analyzing resource allocation?",
+        "B": "Guidelines for designing user interfaces?",
+        "C": "Methods for optimizing memory management?",
+        "D": "Techniques for improving CPU utilization?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) A mathematical framework for analyzing resource allocation?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 28,
       "questionNumber": 28,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Operating Systems",
       "marks": 1,
       "negativeMarks": 0,
       "question": "In an operating system, a \"buffer cache\" is used to:",
@@ -506,13 +749,22 @@ window.official_2023 = {
         "D": "Store input/output devices"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Store copies of frequently used files in memory**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (B) Store copies of frequently used files in memory**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "In an operating system, a \"buffer cache\" is used to:?",
+      "options_hi": {
+        "A": "Store files in memory?",
+        "B": "Store copies of frequently used files in memory?",
+        "C": "Store the operating system kernel?",
+        "D": "Store input/output devices?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Store copies of frequently used files in memory?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 29,
       "questionNumber": 29,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Operating Systems",
       "marks": 1,
       "negativeMarks": 0,
       "question": "File manipulation operations in an operating system include:",
@@ -523,13 +775,22 @@ window.official_2023 = {
         "D": "Reading, writing, and modifying file content"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Reading, writing, and modifying file content**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (D) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (D) Reading, writing, and modifying file content**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (D) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "File manipulation operations in an operating system include:?",
+      "options_hi": {
+        "A": "Allocating memory to files?",
+        "B": "Assigning file names to processes?",
+        "C": "Loading files into CPU registers?",
+        "D": "Reading, writing, and modifying file content?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Reading, writing, and modifying file content?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 30,
       "questionNumber": 30,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Operating Systems",
       "marks": 1,
       "negativeMarks": 0,
       "question": "The I/O subsystem in an operating system is responsible for:",
@@ -540,13 +801,22 @@ window.official_2023 = {
         "D": "Allocating CPU time to processes"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Managing input/output operations between processes and input/output devices**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (C) Managing input/output operations between processes and input/output devices**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "The I/O subsystem in an operating system is responsible for:?",
+      "options_hi": {
+        "A": "Allocating memory for processes?",
+        "B": "Managing the file system?",
+        "C": "Managing input/output operations between processes and input/output devices?",
+        "D": "Allocating CPU time to processes?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Managing input/output operations between processes and input/output devices?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 31,
       "questionNumber": 31,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Operating Systems",
       "marks": 1,
       "negativeMarks": 0,
       "question": "The primary goal of load control is to:",
@@ -557,13 +827,22 @@ window.official_2023 = {
         "D": "Maximize the usage of virtual memory"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Ensure that CPU time is evenly distributed among processes**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (C) Ensure that CPU time is evenly distributed among processes**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "The primary goal of load control is to:?",
+      "options_hi": {
+        "A": "Prevent processes from running concurrently?",
+        "B": "Avoid context स्विचing between processes?",
+        "C": "Ensure that CPU time is evenly distributed among processes?",
+        "D": "Maximize the usage of वर्चुअल मेमोरी (Virtual Memory)?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Ensure that CPU time is evenly distributed among processes?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 32,
       "questionNumber": 32,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Operating Systems",
       "marks": 1,
       "negativeMarks": 0,
       "question": "The purpose of a page table in a paging system is to:",
@@ -574,13 +853,22 @@ window.official_2023 = {
         "D": "Store program instructions"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Translate virtual addresses to physical addresses**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (C) Translate virtual addresses to physical addresses**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "The purpose of a page table in a पेजिंग (Paging) system is to:?",
+      "options_hi": {
+        "A": "Store pages of memory?",
+        "B": "Manage input/output operations?",
+        "C": "Translate virtual addresses to physical addresses?",
+        "D": "Store program instructions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Translate virtual addresses to physical addresses?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 33,
       "questionNumber": 33,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Operating Systems",
       "marks": 1,
       "negativeMarks": 0,
       "question": "In multiprogramming with fixed partitions, if a process requires more memory than is available in a partition, it may lead to:",
@@ -591,13 +879,22 @@ window.official_2023 = {
         "D": "Starvation"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Fragmentation**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (A) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (A) Fragmentation**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (A) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "In multiprogramming with fixed partitions, if a process requires more memory than is available in a partition, it may lead to:?",
+      "options_hi": {
+        "A": "Fragmentation?",
+        "B": "डेडलॉक (Deadlock)?",
+        "C": "Priority inversion?",
+        "D": "Starvation?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Fragmentation?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 34,
       "questionNumber": 34,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Computer Networks",
       "marks": 1,
       "negativeMarks": 0,
       "question": "What is DBMS?",
@@ -608,7 +905,16 @@ window.official_2023 = {
         "D": "DBMS stores, modifies and retrieves data"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) DBMS stores, modifies and retrieves data**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (D) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (D) DBMS stores, modifies and retrieves data**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (D) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "What is DBMS?",
+      "options_hi": {
+        "A": "DBMS is a collection of queries?",
+        "B": ") DBMS is a high-level language?",
+        "C": "DBMS is a programming language?",
+        "D": "DBMS stores, modifies and retrieves data?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) DBMS stores, modifies and retrieves data?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 35,
@@ -625,7 +931,16 @@ window.official_2023 = {
         "D": "Triggers are used to maintain transactional integrity and consistency"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Locks are used to maintain transactional integrity and consistency**\n\n**Database Concept**: Relational integrity, ACID transaction properties, and normalization rules (1NF to BCNF) eliminate anomalies and preserve data consistency.\n- Option (C) strictly adheres to relational database theory."
+      "explanation": "**Correct Answer: (C) Locks are used to maintain transactional integrity and consistency**\n\n**Database Concept**: Relational integrity, ACID transaction properties, and normalization rules (1NF to BCNF) eliminate anomalies and preserve data consistency.\n- Option (C) strictly adheres to relational database theory.",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
+      "question_hi": "निम्नलिखित में से कौन सा correct according to the technology deployed by DBMS है?",
+      "options_hi": {
+        "A": "Pointers are used to maintain transactional integrity and consistency?",
+        "B": "Cursors are used to maintain transactional integrity and consistency?",
+        "C": "Locks are used to maintain transactional integrity and consistency?",
+        "D": "Triggers are used to maintain transactional integrity and consistency?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Locks are used to maintain transactional integrity and consistency?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 36,
@@ -642,7 +957,16 @@ window.official_2023 = {
         "D": "Both A and C"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) New Technology File System**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (A) reflects the standard behavior and complexity bounds."
+      "explanation": "**Correct Answer: (A) New Technology File System**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (A) reflects the standard behavior and complexity bounds.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "The term \"NTFS\" refers to which one of the following?",
+      "options_hi": {
+        "A": "New Technology File System?",
+        "B": "New Tree File System?",
+        "C": "New Table type File System?",
+        "D": "Both A and C?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) New Technology File System?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 37,
@@ -659,7 +983,16 @@ window.official_2023 = {
         "D": "All of the above"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Specialization**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (C) Specialization**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "निम्नलिखित में से कौन सा a top-down approach in which the entity's higher level can be divided into two lower sub-entities है?",
+      "options_hi": {
+        "A": "Aggregation?",
+        "B": "Generalization?",
+        "C": "Specialization?",
+        "D": "उपरोक्त सभी"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Specialization?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 38,
@@ -676,13 +1009,22 @@ window.official_2023 = {
         "D": "None of the above"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Data flow diagram**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (C) Data flow diagram**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "DFD का पूर्ण रूप (Full Form) क्या है?",
+      "options_hi": {
+        "A": "Data file diagram?",
+        "B": "Data flow document?",
+        "C": "Data flow diagram?",
+        "D": "उपरोक्त में से कोई नहीं"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Data flow diagram?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 39,
       "questionNumber": 39,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Operating Systems",
       "marks": 1,
       "negativeMarks": 0,
       "question": "The term \"FAT\" is stands for_____",
@@ -693,7 +1035,16 @@ window.official_2023 = {
         "D": "All of the above"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) File Allocation Table**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (B) reflects the standard behavior and complexity bounds."
+      "explanation": "**Correct Answer: (B) File Allocation Table**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (B) reflects the standard behavior and complexity bounds.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "FAT का पूर्ण रूप (Full Form) क्या है?",
+      "options_hi": {
+        "A": "File Allocation Tree?",
+        "B": "File Allocation Table?",
+        "C": "File Allocation Graph?",
+        "D": "उपरोक्त सभी"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) File Allocation Table?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 40,
@@ -710,7 +1061,16 @@ window.official_2023 = {
         "D": "Both A and C"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Row Facts and figures**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (C) Row Facts and figures**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "The term \"Data\" refers to:?",
+      "options_hi": {
+        "A": "The electronic representation of the information(or data)?",
+        "B": "Basic information?",
+        "C": "Row Facts and figures?",
+        "D": "Both A and C?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Row Facts and figures?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 41,
@@ -727,7 +1087,16 @@ window.official_2023 = {
         "D": "Flow control"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Finding the best path for data**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (C) Finding the best path for data**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "What is the primary function of routing in the network layer?",
+      "options_hi": {
+        "A": "Data framing?",
+        "B": "Error correction?",
+        "C": "Finding the best path for data?",
+        "D": "Flow control?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Finding the best path for data?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 42,
@@ -744,7 +1113,16 @@ window.official_2023 = {
         "D": "type of network topology"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) A software interface for network communication**\n\n**Operating System Principle**: The OS kernel orchestrates resource virtualization, process synchronization, memory paging, and file management.\n- Option (B) is the definitive mechanism implemented in modern operating systems."
+      "explanation": "**Correct Answer: (B) A software interface for network communication**\n\n**Operating System Principle**: The OS kernel orchestrates resource virtualization, process synchronization, memory paging, and file management.\n- Option (B) is the definitive mechanism implemented in modern operating systems.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "What is a socket in the context of process-to-process communication?",
+      "options_hi": {
+        "A": "A hardware device for data transmission?",
+        "B": "A software interface for network communication?",
+        "C": "A type of cable used for high-speed data transmission?",
+        "D": "type of network topology?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) A software interface for network communication?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 43,
@@ -761,7 +1139,16 @@ window.official_2023 = {
         "D": "Half-duplex Transmission"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Parallel Transmission**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (A) Parallel Transmission**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "Data transmission using multiple pathways simultaneously is known as:?",
+      "options_hi": {
+        "A": "Parallel Transmission?",
+        "B": "Serial Transmission?",
+        "C": "Duplex Transmission?",
+        "D": "Half-duplex Transmission?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Parallel Transmission?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 44,
@@ -778,7 +1165,16 @@ window.official_2023 = {
         "D": "Mesh"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Disk**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (C) is the standard specification."
+      "explanation": "**Correct Answer: (C) Disk**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (C) is the standard specification.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "निम्नलिखित में से कौन सा a network topology नहीं है?",
+      "options_hi": {
+        "A": "Star?",
+        "B": "Ring?",
+        "C": "Disk?",
+        "D": "Mesh?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Disk?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 45,
@@ -795,7 +1191,16 @@ window.official_2023 = {
         "D": "Point-to-Point networks"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Ethernet networks**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (A) is the standard specification."
+      "explanation": "**Correct Answer: (A) Ethernet networks**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (A) is the standard specification.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "Contention-based MAC protocols are commonly used in:?",
+      "options_hi": {
+        "A": "Ethernet networks?",
+        "B": "Token Ring networks?",
+        "C": "ATM networks?",
+        "D": "Point-to-Point networks?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Ethernet networks?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 46,
@@ -812,13 +1217,22 @@ window.official_2023 = {
         "D": "Correcting errors in data transmission"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Determining the best path for data packets**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (C) Determining the best path for data packets**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Routing involves:?",
+      "options_hi": {
+        "A": "Dividing data into frames?",
+        "B": "Managing flow control?",
+        "C": "Determining the best path for data packets?",
+        "D": "Correcting errors in data transmission?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Determining the best path for data packets?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 47,
       "questionNumber": 47,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Networks",
       "marks": 1,
       "negativeMarks": 0,
       "question": "What is the purpose of ARP (Address Resolution Protocol)?",
@@ -829,7 +1243,16 @@ window.official_2023 = {
         "D": "To manage network congestion"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) To map MAC addresses to IP addresses**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (C) To map MAC addresses to IP addresses**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "का उद्देश्य क्या है ARP (Address Resolution Protocol)?",
+      "options_hi": {
+        "A": "To assign IP पताes to devices?",
+        "B": "To resolve domain names to IP पताes?",
+        "C": "To map MAC addresses to IP पताes?",
+        "D": "To manage network congestion?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) To map MAC addresses to IP पताes?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 48,
@@ -846,13 +1269,22 @@ window.official_2023 = {
         "D": "Agile model"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Spiral model**\n\n**Software Engineering Methodology**: High-quality software development requires structured life cycles (SDLC), formal requirement specifications (SRS), and comprehensive testing verification.\n- Option (C) correctly describes the software engineering standard."
+      "explanation": "**Correct Answer: (C) Spiral model**\n\n**Software Engineering Methodology**: High-quality software development requires structured life cycles (SDLC), formal requirement specifications (SRS), and comprehensive testing verification.\n- Option (C) correctly describes the software engineering standard.",
+      "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
+      "question_hi": "Which software life cycle model allows for iterative development and incorporates risk analysis?",
+      "options_hi": {
+        "A": "Waterfall model?",
+        "B": "Prototype model?",
+        "C": "Spiral model?",
+        "D": "Agile model?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Spiral model?**\n\n**विषय अवधारणा (सॉफ्टवेयर इंजीनियरिंग)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 49,
       "questionNumber": 49,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Operating Systems",
       "marks": 1,
       "negativeMarks": 0,
       "question": "What is the main goal of software quality assurance?",
@@ -863,7 +1295,16 @@ window.official_2023 = {
         "D": "To test software under different conditions"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) To establish and enforce standards and processes to improve software quality**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (C) To establish and enforce standards and processes to improve software quality**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "What is the main goal of software quality assurance?",
+      "options_hi": {
+        "A": "To eliminate all defects from the software?",
+        "B": "To ensure the software is defect-free before release?",
+        "C": "To establish and enforce standards and processes to improve software quality?",
+        "D": "To test software under different conditions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) To establish and enforce standards and processes to improve software quality?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 50,
@@ -880,13 +1321,22 @@ window.official_2023 = {
         "D": "Testing software components"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Understanding and documenting existing software**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (C) Understanding and documenting existing software**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Reverse engineering is primarily used for:?",
+      "options_hi": {
+        "A": "Creating new software from scratch?",
+        "B": "Improving software performance?",
+        "C": "Understanding and documenting existing software?",
+        "D": "Testing software components?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Understanding and documenting existing software?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 51,
       "questionNumber": 51,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Software Engineering",
       "marks": 1,
       "negativeMarks": 0,
       "question": "Which testing approach involves testing individual components or units of code?",
@@ -897,7 +1347,16 @@ window.official_2023 = {
         "D": "Acceptance Testing"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Unit Testing**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (C) Unit Testing**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
+      "question_hi": "Which testing approach involves testing individual components or units of code?",
+      "options_hi": {
+        "A": "Integration Testing?",
+        "B": "System Testing?",
+        "C": "Unit Testing?",
+        "D": "Acceptance Testing?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Unit Testing?**\n\n**विषय अवधारणा (सॉफ्टवेयर इंजीनियरिंग)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 52,
@@ -914,7 +1373,16 @@ window.official_2023 = {
         "D": "Identifying defects in the source code"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Testing software functionality from the user's perspective**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (C) Testing software functionality from the user's perspective**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "What is the main goal of System Testing?",
+      "options_hi": {
+        "A": "Testing individual components in isolation?",
+        "B": "Testing the integration between different software components?",
+        "C": "Testing software functionality from the user's perspective?",
+        "D": "Identifying defects in the source code?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Testing software functionality from the user's perspective?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 53,
@@ -931,7 +1399,16 @@ window.official_2023 = {
         "D": "Software Reliability Index"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Function Points (FP)**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (B) Function Points (FP)**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "Which metric is used for estimating the size of a software project?",
+      "options_hi": {
+        "A": "Cyclomatic Complexity?",
+        "B": "Function Points (FP)?",
+        "C": "Defect Density?",
+        "D": "Software Reliability Index?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Function Points (FP)?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 54,
@@ -948,13 +1425,22 @@ window.official_2023 = {
         "D": "To estimate the maintenance costs of the software"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) To identify potential risks in the project**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (B) To identify potential risks in the project**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "का उद्देश्य क्या है staffing level estimation in software project management?",
+      "options_hi": {
+        "A": "To determine the number of hardware components required?",
+        "B": "To identify potential risks in the project?",
+        "C": "To allocate appropriate resources to the project?",
+        "D": "To estimate the maintenance costs of the software?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) To identify potential risks in the project?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 55,
       "questionNumber": 55,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Object Oriented Programming",
       "marks": 1,
       "negativeMarks": 0,
       "question": "Which keyword is used to create an instance of a class in most programming languages?",
@@ -965,13 +1451,22 @@ window.official_2023 = {
         "D": "instance"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) new**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (B) new**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "Which keyword is used to create an instance of a class in most programming languages?",
+      "options_hi": {
+        "A": "alloc?",
+        "B": "new?",
+        "C": "create?",
+        "D": "instance?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) new?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 56,
       "questionNumber": 56,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Object Oriented Programming",
       "marks": 1,
       "negativeMarks": 0,
       "question": "What is an abstract class in OOP?",
@@ -982,13 +1477,22 @@ window.official_2023 = {
         "D": "A class that cannot have methods with parameters"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) A class that cannot be instantiated**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (B) A class that cannot be instantiated**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "What is an abstract class ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP) में?",
+      "options_hi": {
+        "A": "A class with no methods?",
+        "B": "A class that cannot be instantiated?",
+        "C": "A class that can only have private members?",
+        "D": "A class that cannot have methods with parameters?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) A class that cannot be instantiated?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 57,
       "questionNumber": 57,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Object Oriented Programming",
       "marks": 1,
       "negativeMarks": 0,
       "question": "What is the purpose of the \"super\" keyword in Java and other similar languages?",
@@ -999,13 +1503,22 @@ window.official_2023 = {
         "D": "It handles exceptions"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) It refers to the superclass in inheritance**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (A) It refers to the superclass in inheritance**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "का उद्देश्य क्या है the \"super\" keyword जावा (Java) में and other similar languages?",
+      "options_hi": {
+        "A": "It refers to the superclass in संबद्धता (Inheritance)?",
+        "B": "It creates a new object instance?",
+        "C": "It defines a new class?",
+        "D": "It handles exceptions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) It refers to the superclass in संबद्धता (Inheritance)?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 58,
       "questionNumber": 58,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Object Oriented Programming",
       "marks": 1,
       "negativeMarks": 0,
       "question": "Which of the following best defines a class?",
@@ -1016,13 +1529,22 @@ window.official_2023 = {
         "D": "A function with a return value"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) A blueprint for creating objects**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (B) A blueprint for creating objects**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "निम्नलिखित में से कौन सा best defines a class?",
+      "options_hi": {
+        "A": "An instance of an object?",
+        "B": "A blueprint for creating objects?",
+        "C": "A variable holding data?",
+        "D": "A function with a return value?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) A blueprint for creating objects?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 59,
       "questionNumber": 59,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Object Oriented Programming",
       "marks": 1,
       "negativeMarks": 0,
       "question": "Which principle ensures that only essential information is visible to the outside world?",
@@ -1033,13 +1555,22 @@ window.official_2023 = {
         "D": "Abstraction"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Information hiding**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (B) reflects the standard behavior and complexity bounds."
+      "explanation": "**Correct Answer: (B) Information hiding**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (B) reflects the standard behavior and complexity bounds.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "Which principle ensures that only essential information is visible to the outside world?",
+      "options_hi": {
+        "A": "बहुरूपता (Polymorphism)?",
+        "B": "Information hiding?",
+        "C": "एनकैप्सुलेशन (Encapsulation)?",
+        "D": "Abstraction?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Information hiding?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 60,
       "questionNumber": 60,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Object Oriented Programming",
       "marks": 1,
       "negativeMarks": 0,
       "question": "What is the main purpose of inheritance in OOP?",
@@ -1050,13 +1581,22 @@ window.official_2023 = {
         "D": "To define exceptions"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) To establish a parent-child relationship between classes**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (C) To establish a parent-child relationship between classes**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "OOP में inheritance का मुख्य उद्देश्य क्या है?",
+      "options_hi": {
+        "A": "To create instances of classes?",
+        "B": "To prevent डेटा एब्स्ट्रैक्शन?",
+        "C": "To establish a parent-child relationship between classes?",
+        "D": "To define exceptions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) To establish a parent-child relationship between classes?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 61,
       "questionNumber": 61,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Object Oriented Programming",
       "marks": 1,
       "negativeMarks": 0,
       "question": "What are abstract methods?",
@@ -1067,7 +1607,16 @@ window.official_2023 = {
         "D": "Methods that cannot be inherited"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Methods without a body, defined in an abstract class**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (C) reflects the standard behavior and complexity bounds."
+      "explanation": "**Correct Answer: (C) Methods without a body, defined in an abstract class**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (C) reflects the standard behavior and complexity bounds.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "What are abstract methods?",
+      "options_hi": {
+        "A": "Methods that are inaccessible to the outside world?",
+        "B": "Methods that have implementation details?",
+        "C": "Methods without a body, defined in an abstract class?",
+        "D": "Methods that cannot be inherited?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Methods without a body, defined in an abstract class?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 62,
@@ -1084,13 +1633,22 @@ window.official_2023 = {
         "D": "TCP"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) SMTP**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (C) is the standard specification."
+      "explanation": "**Correct Answer: (C) SMTP**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (C) is the standard specification.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "Which protocol is commonly used for sending emails?",
+      "options_hi": {
+        "A": ".HTTPS?",
+        "B": "FTP?",
+        "C": "SMTP?",
+        "D": "TCP?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) SMTP?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 63,
       "questionNumber": 63,
       "section": "Computer Science",
-      "topic": "Web Development",
+      "topic": "Web-Based Application Development",
       "marks": 1,
       "negativeMarks": 0,
       "question": "What does CSS stand for?",
@@ -1101,7 +1659,16 @@ window.official_2023 = {
         "D": "Cascading Style Sheets"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Cascading Style Sheets**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (D) Cascading Style Sheets**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "वेब डेवलपमेंट (Web Tech)",
+      "question_hi": "What does CSS stand for?",
+      "options_hi": {
+        "A": "Cascading Style System?",
+        "B": "Creative Styling Script?",
+        "C": "Computer Style Sheets?",
+        "D": "Cascading Style Sheets?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Cascading Style Sheets?**\n\n**विषय अवधारणा (वेब डेवलपमेंट (Web Tech))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 64,
@@ -1118,13 +1685,22 @@ window.official_2023 = {
         "D": "jQuery"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) jQuery**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (D) reflects the standard behavior and complexity bounds."
+      "explanation": "**Correct Answer: (D) jQuery**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (D) reflects the standard behavior and complexity bounds.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "Which library simplifies JavaScript tasks like HTML document traversal and manipulation?",
+      "options_hi": {
+        "A": "JavaFX?",
+        "B": "Bootstrap?",
+        "C": "React?",
+        "D": "jQuery?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) jQuery?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 65,
       "questionNumber": 65,
       "section": "Computer Science",
-      "topic": "Web Development",
+      "topic": "Web-Based Application Development",
       "marks": 1,
       "negativeMarks": 0,
       "question": "What does AJAX stand for?",
@@ -1135,7 +1711,16 @@ window.official_2023 = {
         "D": "Asynchronous JSON and XHTML"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Asynchronous JavaScript and XML**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (A) Asynchronous JavaScript and XML**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "वेब डेवलपमेंट (Web Tech)",
+      "question_hi": "What does AJAX stand for?",
+      "options_hi": {
+        "A": "Asynchronous JavaScript and XML?",
+        "B": "Automated JavaScript and XHTML?",
+        "C": "Advanced JavaScript and XML?",
+        "D": "Asynchronous JSON and XHTML?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Asynchronous JavaScript and XML?**\n\n**विषय अवधारणा (वेब डेवलपमेंट (Web Tech))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 66,
@@ -1152,7 +1737,16 @@ window.official_2023 = {
         "D": "According to the element's color"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) In a parent-child relationship**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (C) reflects the standard behavior and complexity bounds."
+      "explanation": "**Correct Answer: (C) In a parent-child relationship**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (C) reflects the standard behavior and complexity bounds.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "How does the DOM tree structure reflect the hierarchy of HTML elements?",
+      "options_hi": {
+        "A": "In alphabetical order?",
+        "B": "Based on the element's size?",
+        "C": "In a parent-child relationship?",
+        "D": "According to the element's color?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) In a parent-child relationship?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 67,
@@ -1169,7 +1763,16 @@ window.official_2023 = {
         "D": "tag"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) id**\n\n**OOP Principle**: Core pillars include Encapsulation (data hiding), Abstraction (interface separation), Inheritance (code reuse), and Polymorphism (runtime dispatch).\n- Option (A) correctly implements these principles."
+      "explanation": "**Correct Answer: (A) id**\n\n**OOP Principle**: Core pillars include Encapsulation (data hiding), Abstraction (interface separation), Inheritance (code reuse), and Polymorphism (runtime dispatch).\n- Option (A) correctly implements these principles.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "In XML, which attribute is used to uniquely identify an element?",
+      "options_hi": {
+        "A": "id?",
+        "B": "class?",
+        "C": "name?",
+        "D": "tag?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) id?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 68,
@@ -1186,7 +1789,16 @@ window.official_2023 = {
         "D": "ε, 0011,"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) 0011,**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (B) 0011,**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "The Kleene Star operation accepts the following string of finite length over set A = {0,1} | where string s contains even number of 0 and 1.",
+      "options_hi": {
+        "A": "01, 0011,?",
+        "B": "0011,?",
+        "C": "ε, 0011,?",
+        "D": "ε, 0011,?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 0011,?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 69,
@@ -1203,7 +1815,16 @@ window.official_2023 = {
         "D": "Cannot be said"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Regular Language**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (A) is the standard specification."
+      "explanation": "**Correct Answer: (A) Regular Language**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (A) is the standard specification.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "A Language for which DFA exist is a________?",
+      "options_hi": {
+        "A": "Regular Language?",
+        "B": "Non-Regular Language?",
+        "C": "Any language?",
+        "D": "Cannot be said?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Regular Language?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 70,
@@ -1220,7 +1841,16 @@ window.official_2023 = {
         "D": "ε"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) ε**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (D) ε**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "Let u=’1101’, v=’0001’, then uv=11010001 and vu= 00011101.Using the given information what is the identity element for the string?",
+      "options_hi": {
+        "A": "u-?",
+        "B": "v-?",
+        "C": "u-1v-?",
+        "D": "ε?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) ε?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 71,
@@ -1237,7 +1867,16 @@ window.official_2023 = {
         "D": "0,1,2,"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) **\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (A) **\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "For a DFA accepting binary numbers whose decimal equivalent is divisible by 3, what are all the possible remainders?",
+      "options_hi": {
+        "A": "",
+        "B": "0,?",
+        "C": "0,1,?",
+        "D": "0,1,2,?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) **\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 72,
@@ -1254,7 +1893,16 @@ window.official_2023 = {
         "D": "can’t be represented"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) **\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (A) **\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "Minimum Number of states require to accept string ends with 101.",
+      "options_hi": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "can’t be represented?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) **\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 73,
@@ -1271,7 +1919,16 @@ window.official_2023 = {
         "D": ""
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) **\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (A) **\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "If NFA of 5 states excluding the initial state is converted into DFA, maximum possible number of states for the DFA is?",
+      "options_hi": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) **\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 74,
@@ -1288,7 +1945,16 @@ window.official_2023 = {
         "D": "Repeated Concatenation."
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Concatenation**\n\n**OOP Principle**: Core pillars include Encapsulation (data hiding), Abstraction (interface separation), Inheritance (code reuse), and Polymorphism (runtime dispatch).\n- Option (A) correctly implements these principles."
+      "explanation": "**Correct Answer: (A) Concatenation**\n\n**OOP Principle**: Core pillars include Encapsulation (data hiding), Abstraction (interface separation), Inheritance (code reuse), and Polymorphism (runtime dispatch).\n- Option (A) correctly implements these principles.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "The class of CFG is not closed under?",
+      "options_hi": {
+        "A": "Concatenation?",
+        "B": "Intersection?",
+        "C": "Union?",
+        "D": "Repeated Concatenation."
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Concatenation?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 75,
@@ -1305,7 +1971,16 @@ window.official_2023 = {
         "D": "IoT uses wireless technology"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) IoT is fully safe**\n\n**IoT Architecture**: Interconnected smart devices employ lightweight communication protocols (Zigbee, MQTT, CoAP) and edge/cloud integration.\n- Option (B) correctly represents the IoT standard."
+      "explanation": "**Correct Answer: (B) IoT is fully safe**\n\n**IoT Architecture**: Interconnected smart devices employ lightweight communication protocols (Zigbee, MQTT, CoAP) and edge/cloud integration.\n- Option (B) correctly represents the IoT standard.",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
+      "question_hi": "Which among the following is not true about IoT?",
+      "options_hi": {
+        "A": "IoT uses Micro Controllers?",
+        "B": "IoT is fully safe?",
+        "C": "IoT uses Sensors and Actuators?",
+        "D": "IoT uses wireless technology?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) IoT is fully safe?**\n\n**विषय अवधारणा (इंटरनेट ऑफ थिंग्स (IoT))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 76,
@@ -1322,7 +1997,16 @@ window.official_2023 = {
         "D": "Push button is a digital Sensor"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) microphone is a digital sensor**\n\n**IoT Architecture**: Interconnected smart devices employ lightweight communication protocols (Zigbee, MQTT, CoAP) and edge/cloud integration.\n- Option (B) correctly represents the IoT standard."
+      "explanation": "**Correct Answer: (B) microphone is a digital sensor**\n\n**IoT Architecture**: Interconnected smart devices employ lightweight communication protocols (Zigbee, MQTT, CoAP) and edge/cloud integration.\n- Option (B) correctly represents the IoT standard.",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
+      "question_hi": "About IoT, which among the followings isnot correct?",
+      "options_hi": {
+        "A": "Light sensor is analog?",
+        "B": "microphone is a digital sensor?",
+        "C": "Keyboard is a digital sensor?",
+        "D": "Push button is a digital Sensor?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) microphone is a digital sensor?**\n\n**विषय अवधारणा (इंटरनेट ऑफ थिंग्स (IoT))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 77,
@@ -1339,7 +2023,16 @@ window.official_2023 = {
         "D": "Bluetooth long energy"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Bluetooth low energy**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (B) Bluetooth low energy**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "BLE का पूर्ण रूप (Full Form) क्या है?",
+      "options_hi": {
+        "A": "Bluetooth large energy?",
+        "B": "Bluetooth low energy?",
+        "C": "Bluetooth light energy?",
+        "D": "Bluetooth long energy?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Bluetooth low energy?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 78,
@@ -1356,13 +2049,22 @@ window.official_2023 = {
         "D": "Wireless Single Protocol"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Wireless Sensor Protocol**\n\n**IoT Architecture**: Interconnected smart devices employ lightweight communication protocols (Zigbee, MQTT, CoAP) and edge/cloud integration.\n- Option (B) correctly represents the IoT standard."
+      "explanation": "**Correct Answer: (B) Wireless Sensor Protocol**\n\n**IoT Architecture**: Interconnected smart devices employ lightweight communication protocols (Zigbee, MQTT, CoAP) and edge/cloud integration.\n- Option (B) correctly represents the IoT standard.",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
+      "question_hi": "WSN का पूर्ण रूप (Full Form) क्या है?",
+      "options_hi": {
+        "A": "Wireless Standard Protocol?",
+        "B": "Wireless Sensor Protocol?",
+        "C": "Wireless Serial Protocol?",
+        "D": "Wireless Single Protocol?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Wireless Sensor Protocol?**\n\n**विषय अवधारणा (इंटरनेट ऑफ थिंग्स (IoT))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 79,
       "questionNumber": 79,
       "section": "Computer Science",
-      "topic": "Internet of Things",
+      "topic": "Computer Science",
       "marks": 1,
       "negativeMarks": 0,
       "question": "A complex SCADA system has _______levels?",
@@ -1373,13 +2075,22 @@ window.official_2023 = {
         "D": ""
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) **\n\n**IoT Architecture**: Interconnected smart devices employ lightweight communication protocols (Zigbee, MQTT, CoAP) and edge/cloud integration.\n- Option (A) correctly represents the IoT standard."
+      "explanation": "**Correct Answer: (A) **\n\n**IoT Architecture**: Interconnected smart devices employ lightweight communication protocols (Zigbee, MQTT, CoAP) and edge/cloud integration.\n- Option (A) correctly represents the IoT standard.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "A complex SCADA system has _______levels?",
+      "options_hi": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) **\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 80,
       "questionNumber": 80,
       "section": "Computer Science",
-      "topic": "Internet of Things",
+      "topic": "Computer Science",
       "marks": 1,
       "negativeMarks": 0,
       "question": "What is the role of the MISO pin in the RFID Module?",
@@ -1390,7 +2101,16 @@ window.official_2023 = {
         "D": "Manage Input Slave Op"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Master In Slave Out**\n\n**IoT Architecture**: Interconnected smart devices employ lightweight communication protocols (Zigbee, MQTT, CoAP) and edge/cloud integration.\n- Option (A) correctly represents the IoT standard."
+      "explanation": "**Correct Answer: (A) Master In Slave Out**\n\n**IoT Architecture**: Interconnected smart devices employ lightweight communication protocols (Zigbee, MQTT, CoAP) and edge/cloud integration.\n- Option (A) correctly represents the IoT standard.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "What is the role of the MISO pin in the RFID Module?",
+      "options_hi": {
+        "A": "Master In Slave Out?",
+        "B": "Manage Internal Slave Output?",
+        "C": "Master Internal Search Optimization?",
+        "D": "Manage Input Slave Op?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Master In Slave Out?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 81,
@@ -1407,13 +2127,22 @@ window.official_2023 = {
         "D": "Allen Newell"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) John McCarthy**\n\n**Operating System Principle**: The OS kernel orchestrates resource virtualization, process synchronization, memory paging, and file management.\n- Option (C) is the definitive mechanism implemented in modern operating systems."
+      "explanation": "**Correct Answer: (C) John McCarthy**\n\n**Operating System Principle**: The OS kernel orchestrates resource virtualization, process synchronization, memory paging, and file management.\n- Option (C) is the definitive mechanism implemented in modern operating systems.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "Who is known as the father of AI?",
+      "options_hi": {
+        "A": "Fisher Ada?",
+        "B": "Alan Turing?",
+        "C": "John McCarthy?",
+        "D": "Allen Newell?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) John McCarthy?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 82,
       "questionNumber": 82,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Object Oriented Programming",
       "marks": 1,
       "negativeMarks": 0,
       "question": "Programming language commonly used for AI is___?",
@@ -1424,7 +2153,16 @@ window.official_2023 = {
         "D": "C++"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Perl**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (B) Perl**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "Programming language commonly used for AI is___?",
+      "options_hi": {
+        "A": "Lisp?",
+        "B": "Perl?",
+        "C": "Prolog?",
+        "D": "C++?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Perl?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 83,
@@ -1441,7 +2179,16 @@ window.official_2023 = {
         "D": "Min/Max algorithm"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Min/Max algorithm**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (D) reflects the standard behavior and complexity bounds."
+      "explanation": "**Correct Answer: (D) Min/Max algorithm**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (D) reflects the standard behavior and complexity bounds.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "The algorithm used in the Game tree to make decisions of Win/Lose is ________________?",
+      "options_hi": {
+        "A": "Heuristic Search Algorithm?",
+        "B": "DFS/ BFL algorithm?",
+        "C": "Greedy Search algorithm?",
+        "D": "Min/Max algorithm?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Min/Max algorithm?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 84,
@@ -1458,13 +2205,22 @@ window.official_2023 = {
         "D": "Average path cost"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Lowest path cost**\n\n**AI & Knowledge Engineering**: Intelligent agents utilize heuristic search, logical inference (resolution, forward/backward chaining), and knowledge representation.\n- Option (A) is the established method."
+      "explanation": "**Correct Answer: (A) Lowest path cost**\n\n**AI & Knowledge Engineering**: Intelligent agents utilize heuristic search, logical inference (resolution, forward/backward chaining), and knowledge representation.\n- Option (A) is the established method.",
+      "topic_hi": "आर्टिफिशियल इंटेलिजेंस (AI)",
+      "question_hi": "Uniform-cost search expands the node n with the __________?",
+      "options_hi": {
+        "A": "Lowest path cost?",
+        "B": "Heuristic cost?",
+        "C": "Highest path cost?",
+        "D": "Average path cost?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Lowest path cost?**\n\n**विषय अवधारणा (आर्टिफिशियल इंटेलिजेंस (AI))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 85,
       "questionNumber": 85,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Operating Systems",
       "marks": 1,
       "negativeMarks": 0,
       "question": "The process of removing detail from a given state representation is called ______",
@@ -1475,13 +2231,22 @@ window.official_2023 = {
         "D": "Information Retrieval"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Abstraction**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (B) Abstraction**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "The process of removing detail from a given state representation is called ______?",
+      "options_hi": {
+        "A": "Extraction?",
+        "B": "Abstraction?",
+        "C": "Data Mining?",
+        "D": "Information Retrieval?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Abstraction?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 86,
       "questionNumber": 86,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Object Oriented Programming",
       "marks": 1,
       "negativeMarks": 0,
       "question": "What does a first order predicate logic contain?",
@@ -1492,7 +2257,16 @@ window.official_2023 = {
         "D": "None of the above"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Predicate and a subject**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (A) Predicate and a subject**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "What does a first order predicate logic contain?",
+      "options_hi": {
+        "A": "Predicate and a subject?",
+        "B": "Predicate and a Preposition?",
+        "C": "Subject and an object?",
+        "D": "उपरोक्त में से कोई नहीं"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Predicate and a subject?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 87,
@@ -1509,7 +2283,16 @@ window.official_2023 = {
         "D": "All of the above"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Learning**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (B) Learning**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "निम्नलिखित में से कौन सा can improve the performance of AI agent?",
+      "options_hi": {
+        "A": "Precision?",
+        "B": "Learning?",
+        "C": "Observing?",
+        "D": "उपरोक्त सभी"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Learning?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 88,
@@ -1526,13 +2309,22 @@ window.official_2023 = {
         "D": "All of the above"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) All of the above**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (D) All of the above**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "निम्नलिखित में से कौन सा part of the four main types for e‐commerce है?",
+      "options_hi": {
+        "A": "B2B?",
+        "B": "B2C?",
+        "C": "C2B?",
+        "D": "उपरोक्त सभी"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) उपरोक्त सभी**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 89,
       "questionNumber": 89,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Operating Systems",
       "marks": 1,
       "negativeMarks": 0,
       "question": "What is the process in which a buyer posts its interest in buying a certain quantity of items, and sellers compete for the business by submitting successively lower bids until there is only one seller left?",
@@ -1543,7 +2335,16 @@ window.official_2023 = {
         "D": "Intranet"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Auction**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (B) Auction**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "What is the process in which a buyer posts its interest in buying a certain quantity of items, and sellers compete for the business by submitting successively lower bids until there is only one seller left?",
+      "options_hi": {
+        "A": "B2B Marketplace?",
+        "B": "Auction?",
+        "C": "Reverse Auction?",
+        "D": "Intranet?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Auction?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 90,
@@ -1560,7 +2361,16 @@ window.official_2023 = {
         "D": "Negligible"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) High**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (B) High**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "If it is easy for competitors to enter the market, the threat of new entrants is considered:?",
+      "options_hi": {
+        "A": "Low?",
+        "B": "High?",
+        "C": "Moderate?",
+        "D": "Negligible?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) High?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 91,
@@ -1577,13 +2387,22 @@ window.official_2023 = {
         "D": "Auction"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Customization**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (A) Customization**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "निम्नलिखित में से कौन सा refers to creating products tailored to individual customers?",
+      "options_hi": {
+        "A": "Customization?",
+        "B": "Adaptation?",
+        "C": "Direct material?",
+        "D": "Auction?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Customization?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 92,
       "questionNumber": 92,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Organization & Architecture",
       "marks": 1,
       "negativeMarks": 0,
       "question": "Which form of e‐marketplace brings together buyers and sellers from the same industry?",
@@ -1594,13 +2413,22 @@ window.official_2023 = {
         "D": "isolated"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Vertical**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (B) Vertical**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Which form of e‐marketplace brings together buyers and sellers from the same industry?",
+      "options_hi": {
+        "A": "Horizontal?",
+        "B": "Vertical?",
+        "C": "integrated?",
+        "D": "isolated?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Vertical?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 93,
       "questionNumber": 93,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Computer Science",
       "marks": 1,
       "negativeMarks": 0,
       "question": "Which of the following is done by Secure Sockets Layers?",
@@ -1611,13 +2439,22 @@ window.official_2023 = {
         "D": "All of the above"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) All of the above**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (D) is the standard specification."
+      "explanation": "**Correct Answer: (D) All of the above**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (D) is the standard specification.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "निम्नलिखित में से कौन सा done by Secure Sockets Layers है?",
+      "options_hi": {
+        "A": "creates a secure, private connection to a web server?",
+        "B": "Encrypts information?",
+        "C": "Sends information over the internet?",
+        "D": "उपरोक्त सभी"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) उपरोक्त सभी**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 94,
       "questionNumber": 94,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Science",
       "marks": 1,
       "negativeMarks": 0,
       "question": "The delay that occur during the playback of a stream is called ___________",
@@ -1628,7 +2465,16 @@ window.official_2023 = {
         "D": "Event delay"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Jitter**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties."
+      "explanation": "**Correct Answer: (C) Jitter**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "The delay that occur during the playback of a stream is called ___________?",
+      "options_hi": {
+        "A": "Stream delay?",
+        "B": "Playback delay?",
+        "C": "Jitter?",
+        "D": "Event delay?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Jitter?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 95,
@@ -1645,7 +2491,16 @@ window.official_2023 = {
         "D": "server breaks down the connection"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) server breaks down the connection**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (D) server breaks down the connection**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "In teardown state of real time streaming protocol is ___________?",
+      "options_hi": {
+        "A": "the server resources for client?",
+        "B": "server delivers the stream to client?",
+        "C": "server suspends delivery of stream?",
+        "D": "server breaks down the connection?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) server breaks down the connection?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 96,
@@ -1662,7 +2517,16 @@ window.official_2023 = {
         "D": "packets"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) packets**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (D) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (D) packets**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (D) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "In Real Time Interactive Audio Video, Jitter is introduced in real-time data by delay between____?",
+      "options_hi": {
+        "A": "pixels?",
+        "B": "layers?",
+        "C": "frames?",
+        "D": "packets?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) packets?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 97,
@@ -1679,7 +2543,16 @@ window.official_2023 = {
         "D": "6 bits per sample"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 8 bits per sample**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (A) 8 bits per sample**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "मल्टीमीडिया तकनीक",
+      "question_hi": "In Audio and Video Compression, voice is sampled at 8000 samples per second with_____________?",
+      "options_hi": {
+        "A": "8 bits per sample?",
+        "B": "5 bits per sample?",
+        "C": "7 bits per sample?",
+        "D": "6 bits per sample?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 8 bits per sample?**\n\n**विषय अवधारणा (मल्टीमीडिया तकनीक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 98,
@@ -1696,7 +2569,16 @@ window.official_2023 = {
         "D": "picture and colors"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) speech or music**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (C) speech or music**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "मल्टीमीडिया तकनीक",
+      "question_hi": "Audio compression can be used for____________?",
+      "options_hi": {
+        "A": "voice and data?",
+        "B": "video and voice?",
+        "C": "speech or music?",
+        "D": "picture and colors?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) speech or music?**\n\n**विषय अवधारणा (मल्टीमीडिया तकनीक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 99,
@@ -1713,13 +2595,22 @@ window.official_2023 = {
         "D": "None of the above"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Pixel value**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality."
+      "explanation": "**Correct Answer: (C) Pixel value**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Each ___ represents a particular colour.",
+      "options_hi": {
+        "A": "Frame?",
+        "B": "Character?",
+        "C": "Pixel value?",
+        "D": "उपरोक्त में से कोई नहीं"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Pixel value?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 100,
       "questionNumber": 100,
       "section": "Computer Science",
-      "topic": "Multimedia",
+      "topic": "Computer Science",
       "marks": 1,
       "negativeMarks": 0,
       "question": "___________ is basically a form of pictorial presentation.",
@@ -1730,7 +2621,16 @@ window.official_2023 = {
         "D": "Creativity"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Animations**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (B) Animations**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "कंप्यूटर साइंस",
+      "question_hi": "___________ is basically a form of pictorial presentation.",
+      "options_hi": {
+        "A": "Photography?",
+        "B": "Animations?",
+        "C": "Drawing?",
+        "D": "Creativity?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Animations?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 101,
@@ -1747,7 +2647,16 @@ window.official_2023 = {
         "D": "to develop personality"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) to develop personality**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (D) to develop personality**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "The main aim of classroom teaching is?",
+      "options_hi": {
+        "A": "to give information?",
+        "B": "help to pass examination?",
+        "C": "syllabus coverage?",
+        "D": "to develop personality?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) to develop personality?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 102,
@@ -1764,7 +2673,16 @@ window.official_2023 = {
         "D": "illustration"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) discussion**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (C) discussion**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "To ensure participation of students we use?",
+      "options_hi": {
+        "A": "demonstration?",
+        "B": "little man's lecture?",
+        "C": "discussion?",
+        "D": "illustration?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) discussion?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 103,
@@ -1781,7 +2699,16 @@ window.official_2023 = {
         "D": "all the above"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) autonomous learning**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (A) autonomous learning**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "learning through independent effort is?",
+      "options_hi": {
+        "A": "autonomous learning?",
+        "B": "autocratic learning?",
+        "C": "democratic learning?",
+        "D": "all the above?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) autonomous learning?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 104,
@@ -1798,7 +2725,16 @@ window.official_2023 = {
         "D": "All the above"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) All the above**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (D) All the above**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Aims?",
+      "options_hi": {
+        "A": "may include abstract concepts?",
+        "B": "difficult to measure?",
+        "C": "may include appreciation?",
+        "D": "All the above?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) All the above?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 105,
@@ -1815,7 +2751,16 @@ window.official_2023 = {
         "D": "all the above"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) all the above**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (D) all the above**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "psychomotor domain relates to?",
+      "options_hi": {
+        "A": "map making?",
+        "B": "project making?",
+        "C": "playing?",
+        "D": "all the above?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) all the above?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 106,
@@ -1832,7 +2777,16 @@ window.official_2023 = {
         "D": "to act"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) to invertigate**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (A) to invertigate**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Heuristic means?",
+      "options_hi": {
+        "A": "to invertigate?",
+        "B": "to show?",
+        "C": "to do?",
+        "D": "to act?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) to invertigate?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 107,
@@ -1849,7 +2803,16 @@ window.official_2023 = {
         "D": "blended method"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) heuristic method**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (B) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (B) heuristic method**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (B) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Armstrong gifted teaching with?",
+      "options_hi": {
+        "A": "Project method?",
+        "B": "अनुसंधान / ह्यूरिस्टिक विधि?",
+        "C": "team teaching?",
+        "D": "blended method?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) अनुसंधान / ह्यूरिस्टिक विधि?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 108,
@@ -1866,7 +2829,16 @@ window.official_2023 = {
         "D": "statement of aim"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) previous knowledge**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (A) previous knowledge**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Set induction relates to?",
+      "options_hi": {
+        "A": "previous knowledge?",
+        "B": "new knowledge?",
+        "C": "specific objectives?",
+        "D": "statement of aim?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) previous knowledge?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 109,
@@ -1883,7 +2855,16 @@ window.official_2023 = {
         "D": "Dewey"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Montessori**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (C) Montessori**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Diadactic teaching materials was introduced by?",
+      "options_hi": {
+        "A": "Pestalozzi?",
+        "B": "froebel?",
+        "C": "Montessori?",
+        "D": "Dewey?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Montessori?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 110,
@@ -1900,7 +2881,16 @@ window.official_2023 = {
         "D": "none of the above"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) student**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (C) student**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "The centre point of a पाठ योजना (Lesson Plan) is?",
+      "options_hi": {
+        "A": "principal?",
+        "B": "teacher?",
+        "C": "student?",
+        "D": "उपरोक्त में से कोई नहीं"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) student?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 111,
@@ -1917,7 +2907,16 @@ window.official_2023 = {
         "D": "intrapersonal; spatial"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) intrapersonal; spatial**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (D) intrapersonal; spatial**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "According to Howard Gardner, a philosopher has …………. Type of intelligence and a sculptor has more ………… type of intelligence.",
+      "options_hi": {
+        "A": "interpersonal; linguistic?",
+        "B": "linguistic; interpersonal?",
+        "C": "spatial; intrapersonal?",
+        "D": "intrapersonal; spatial?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) intrapersonal; spatial?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 112,
@@ -1934,7 +2933,16 @@ window.official_2023 = {
         "D": "I didn't get good marks because the teacher was biased."
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) I failed the test because I didn't study enough.**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (C) I failed the test because I didn't study enough.**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "निम्नलिखित में से कौन सा an example of an internal attribution for failure है?",
+      "options_hi": {
+        "A": "I failed the test because my friends were distracting me.",
+        "B": "I received a low grade because the teacher is a tough grader.",
+        "C": "I failed the test because I didn't study enough.",
+        "D": "I didn't get good marks because the teacher was biased."
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) I failed the test because I didn't study enough.**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 113,
@@ -1951,7 +2959,16 @@ window.official_2023 = {
         "D": "how do you change a verb to the present tense?"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) how has your thinking about the use of verbs changed since the beginning of the class ?**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (A) how has your thinking about the use of verbs changed since the beginning of the class ?**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "निम्नलिखित में से कौन सा an example of a question that requires students to reflect on their own thinking है?",
+      "options_hi": {
+        "A": "how has your thinking about the use of verbs changed since the beginning of the class ?",
+        "B": "what is the relationship between nouns and verbs in a sentence?",
+        "C": "what is the definition of a verb?",
+        "D": "how do you change a verb to the present tense?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) how has your thinking about the use of verbs changed since the beginning of the class ?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 114,
@@ -1968,7 +2985,16 @@ window.official_2023 = {
         "D": "during the preparation for teaching-practice"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) during the teaching-practice**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (C) during the teaching-practice**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Micro teaching is more effective?",
+      "options_hi": {
+        "A": "always?",
+        "B": "after the teaching-practice?",
+        "C": "during the teaching-practice?",
+        "D": "during the preparation for teaching-practice?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) during the teaching-practice?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 115,
@@ -1985,7 +3011,16 @@ window.official_2023 = {
         "D": "Sharp memory"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Objectivity**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (B) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (B) Objectivity**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (B) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "निम्नलिखित में से कौन सा are the characteristics of a person with scientific attitude?",
+      "options_hi": {
+        "A": "Brevity?",
+        "B": "Objectivity?",
+        "C": "Adventure?",
+        "D": "Sharp memory?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Objectivity?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 116,
@@ -2002,7 +3037,16 @@ window.official_2023 = {
         "D": "None of these"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Both A & B**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (C) Both A & B**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Library man Provide?",
+      "options_hi": {
+        "A": "Physical mateial?",
+        "B": "Digital material?",
+        "C": "Both A & B?",
+        "D": "None of these?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Both A & B?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 117,
@@ -2019,7 +3063,16 @@ window.official_2023 = {
         "D": "None of these"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Learning**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (A) Learning**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "निम्नलिखित में से कौन सा components are essential for library?",
+      "options_hi": {
+        "A": "Learning?",
+        "B": "Walking?",
+        "C": "Playing?",
+        "D": "None of these?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Learning?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 118,
@@ -2036,7 +3089,16 @@ window.official_2023 = {
         "D": "None of these"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) meaningful question**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (A) meaningful question**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "A teacher should ask-?",
+      "options_hi": {
+        "A": "meaningful question?",
+        "B": "maximum number of question in a fixed time?",
+        "C": "as many question as possible?",
+        "D": "None of these?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) meaningful question?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 119,
@@ -2053,7 +3115,16 @@ window.official_2023 = {
         "D": "None of the above"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) lack of command over the knowledge of subject**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (C) lack of command over the knowledge of subject**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "निम्नलिखित में से कौन सा important cause of failure for teacher?",
+      "options_hi": {
+        "A": "interpersonal relationship?",
+        "B": "verbal ability?",
+        "C": "lack of command over the knowledge of subject?",
+        "D": "उपरोक्त में से कोई नहीं"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) lack of command over the knowledge of subject?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 120,
@@ -2070,7 +3141,16 @@ window.official_2023 = {
         "D": "None of these"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) equally acros all teaching method**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (B) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (B) equally acros all teaching method**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (B) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Teacher should master during his teaching period?",
+      "options_hi": {
+        "A": "in one of the teaching method?",
+        "B": "equally acros all teaching method?",
+        "C": "Both A & B?",
+        "D": "None of these?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) equally acros all teaching method?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 121,
@@ -2087,7 +3167,16 @@ window.official_2023 = {
         "D": "Understanding"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Information**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (A) Information**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Knowledge is-?",
+      "options_hi": {
+        "A": "Information?",
+        "B": "Application?",
+        "C": "Analysis?",
+        "D": "Understanding?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Information?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 122,
@@ -2104,7 +3193,16 @@ window.official_2023 = {
         "D": "All of the above"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) During the teaching learning process**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (C) During the teaching learning process**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "रचनात्मक मूल्यांकन (Formative Evaluation) is conducted?",
+      "options_hi": {
+        "A": "After the teaching learning process?",
+        "B": "Before the teaching learning process?",
+        "C": "During the teaching learning process?",
+        "D": "उपरोक्त सभी"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) During the teaching learning process?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 123,
@@ -2121,7 +3219,16 @@ window.official_2023 = {
         "D": "Projective Technique"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Rating scale**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (C) Rating scale**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which technique is used for evaluation of interest?",
+      "options_hi": {
+        "A": "Observation technique?",
+        "B": "Check list?",
+        "C": "Rating scale?",
+        "D": "Projective Technique?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Rating scale?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 124,
@@ -2138,7 +3245,16 @@ window.official_2023 = {
         "D": "Teacher-Centered"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Teacher-Centered**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (D) Teacher-Centered**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "निम्नलिखित में से कौन सा a type of curriculum design नहीं है?",
+      "options_hi": {
+        "A": "Subject-centered?",
+        "B": "Problem Centered?",
+        "C": "Learner-Centered?",
+        "D": "Teacher-Centered?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Teacher-Centered?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 125,
@@ -2155,7 +3271,16 @@ window.official_2023 = {
         "D": "Active"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Active**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (D) Active**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "निम्नलिखित में से कौन सा the nature of curriculum नहीं है?",
+      "options_hi": {
+        "A": "Critical?",
+        "B": "Creative?",
+        "C": "Conservative?",
+        "D": "Active?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Active?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 126,
@@ -2172,7 +3297,16 @@ window.official_2023 = {
         "D": "All the above"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Fundamentalism**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (A) Fundamentalism**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "The biggest challenge before democracy is -?",
+      "options_hi": {
+        "A": "Fundamentalism?",
+        "B": "Castism?",
+        "C": "Regionalism?",
+        "D": "All the above?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Fundamentalism?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 127,
@@ -2189,7 +3323,16 @@ window.official_2023 = {
         "D": "personally"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) as a friend**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (A) as a friend**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "A teacher shoul behave with all the student as -?",
+      "options_hi": {
+        "A": "as a friend?",
+        "B": "as a master?",
+        "C": "equally?",
+        "D": "personally?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) as a friend?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 128,
@@ -2206,7 +3349,16 @@ window.official_2023 = {
         "D": "none of the above"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) we work harder than before**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (A) we work harder than before**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Failure can be our best teacher if-?",
+      "options_hi": {
+        "A": "we work harder than before?",
+        "B": "we know the reasons of failure?",
+        "C": "we know the reasons of failure and then being encouraged we work harder than before?",
+        "D": "उपरोक्त में से कोई नहीं"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) we work harder than before?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 129,
@@ -2223,7 +3375,16 @@ window.official_2023 = {
         "D": "All of the above"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Visual**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (A) Visual**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Chal-Board is a kind of teaching aid-?",
+      "options_hi": {
+        "A": "Visual?",
+        "B": "Audio?",
+        "C": "Audio-Visual?",
+        "D": "उपरोक्त सभी"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Visual?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 130,
@@ -2240,7 +3401,16 @@ window.official_2023 = {
         "D": "None of the above"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Visual aid**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks."
+      "explanation": "**Correct Answer: (A) Visual aid**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Television is?",
+      "options_hi": {
+        "A": "Visual aid?",
+        "B": "Audio-visual aid?",
+        "C": "Audio aid?",
+        "D": "उपरोक्त में से कोई नहीं"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Visual aid?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 131,
@@ -2257,7 +3427,16 @@ window.official_2023 = {
         "D": "Ramosi"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Santhals**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (A) Santhals**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "There were widespread rises against the British in the 1820s. Which one of the following did not revolt in the 1820s?",
+      "options_hi": {
+        "A": "Santhals?",
+        "B": "Ahoms?",
+        "C": "Pagal Panthis?",
+        "D": "Ramosi?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Santhals?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 132,
@@ -2274,7 +3453,16 @@ window.official_2023 = {
         "D": "About 7.00 a.m."
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) About 7.00 a.m.**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (D) About 7.00 a.m.**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "If the Sun rises at Tirap in Arunachal Pradesh at 5.00 am (IST), then when (IST) the Sun will rise in Kandla, Gujarat?",
+      "options_hi": {
+        "A": "About 5.00 a.m.",
+        "B": "About 6.20 a.m.",
+        "C": "About 7.30 a.m.",
+        "D": "About 7.00 a.m."
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) About 7.00 a.m.**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 133,
@@ -2291,7 +3479,16 @@ window.official_2023 = {
         "D": "25%"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 10%**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (A) 10%**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "What is the maximum investment by any single investor in an Indian company?",
+      "options_hi": {
+        "A": "10%?",
+        "B": "15%?",
+        "C": "20%?",
+        "D": "25%?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 10%?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 134,
@@ -2308,7 +3505,16 @@ window.official_2023 = {
         "D": "Jai Prakash Narayan"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Jai Prakash Narayan**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (D) Jai Prakash Narayan**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "Who among the following was not related to Champaran Satyagraha?",
+      "options_hi": {
+        "A": "Dr. Rajendra Prasad?",
+        "B": "Anugrah Narayan Singh?",
+        "C": "JB Kriplani?",
+        "D": "Jai Prakash Narayan?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Jai Prakash Narayan?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 135,
@@ -2325,7 +3531,16 @@ window.official_2023 = {
         "D": "Odisha"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) West Bengal**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (C) West Bengal**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "Visva-Bharati University, which was seen in the news recently, is located in which state?",
+      "options_hi": {
+        "A": "Uttar Pradesh?",
+        "B": "Bihar?",
+        "C": "West Bengal?",
+        "D": "Odisha?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) West Bengal?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 136,
@@ -2342,7 +3557,16 @@ window.official_2023 = {
         "D": "Muscular energy"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Muscular energy**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (D) Muscular energy**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "Rama plays cricket with his friends every evening. Which energy does he use to play cricket?",
+      "options_hi": {
+        "A": "Sound energy?",
+        "B": "Light energy?",
+        "C": "Chemical energy?",
+        "D": "Muscular energy?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Muscular energy?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 137,
@@ -2359,7 +3583,16 @@ window.official_2023 = {
         "D": "Bomba rice"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Bora rice**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (B) Bora rice**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "Which one of the following is 'sticky rice' and is a common variety of rice in Assam?",
+      "options_hi": {
+        "A": "Ponni rice?",
+        "B": "Bora rice?",
+        "C": "Arborio rice?",
+        "D": "Bomba rice?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Bora rice?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 138,
@@ -2376,7 +3609,16 @@ window.official_2023 = {
         "D": "Mechanical and Light energy"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Heat and light energy**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (C) Heat and light energy**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "When we burn fuels, we get :?",
+      "options_hi": {
+        "A": "Light and sound energy?",
+        "B": "Only light energy?",
+        "C": "Heat and light energy?",
+        "D": "Mechanical and Light energy?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Heat and light energy?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 139,
@@ -2393,7 +3635,16 @@ window.official_2023 = {
         "D": "Poisonous snakes have fangs."
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) They chew up their prey**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (A) They chew up their prey**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "Consider the following statements about snakes and identify the Incorrect one from the following:?",
+      "options_hi": {
+        "A": "They chew up their prey?",
+        "B": "They swallow their food whole?",
+        "C": "Snakes have sharp teeth?",
+        "D": "Poisonous snakes have fangs."
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) They chew up their prey?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 140,
@@ -2410,7 +3661,16 @@ window.official_2023 = {
         "D": "North-East; South-East"
       },
       "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) North-East; South-East**\n\n**Reasoning Logic**: Analyzing the pattern, sequence progression, or syllogistic validity demonstrates that option (D) uniquely satisfies the given conditions."
+      "explanation": "**Correct Answer: (D) North-East; South-East**\n\n**Reasoning Logic**: Analyzing the pattern, sequence progression, or syllogistic validity demonstrates that option (D) uniquely satisfies the given conditions.",
+      "topic_hi": "तार्किक विचार",
+      "question_hi": "With respect to Gujarat, the locations of Uttar Pradesh and Andhra Pradesh, respectively, are:?",
+      "options_hi": {
+        "A": "North-West; Saouth-East?",
+        "B": "North-West; South-West?",
+        "C": "North-East; South-West?",
+        "D": "North-East; South-East?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) North-East; South-East?**\n\n**विषय अवधारणा (तार्किक विचार)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
     },
     {
       "id": 141,
@@ -2427,7 +3687,16 @@ window.official_2023 = {
         "D": "Cube, Cuboid, Circle, Triangle"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Cube, Cuboid, Sphere, Cylinder**\n\n**Mathematical Principle**: Solve using standard mathematical formulas and proportional relationships.\n- The correct step-by-step simplification leads directly to option (A): **Cube, Cuboid, Sphere, Cylinder**."
+      "explanation": "**Correct Answer: (A) Cube, Cuboid, Sphere, Cylinder**\n\n**Mathematical Principle**: Solve using standard mathematical formulas and proportional relationships.\n- The correct step-by-step simplification leads directly to option (A): **Cube, Cuboid, Sphere, Cylinder**.",
+      "topic_hi": "गणितीय अभिरुचि",
+      "question_hi": "Which one of the following groups have all 3-dimensional shapes?",
+      "options_hi": {
+        "A": "Cube, Cuboid, Sphere, Cylinder?",
+        "B": "Cube, Cuboid, Semi-Circle, Cone?",
+        "C": "Cube, Cuboid, Circle, Cone?",
+        "D": "Cube, Cuboid, Circle, Triangle?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Cube, Cuboid, Sphere, Cylinder?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 142,
@@ -2444,7 +3713,16 @@ window.official_2023 = {
         "D": ""
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) **\n\n**Reasoning Logic**: Analyzing the pattern, sequence progression, or syllogistic validity demonstrates that option (A) uniquely satisfies the given conditions."
+      "explanation": "**Correct Answer: (A) **\n\n**Reasoning Logic**: Analyzing the pattern, sequence progression, or syllogistic validity demonstrates that option (A) uniquely satisfies the given conditions.",
+      "topic_hi": "तार्किक विचार",
+      "question_hi": "What is the missing number in the pattern given below? 1, 6, 15, -------45, 66, 91?",
+      "options_hi": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) **\n\n**विषय अवधारणा (तार्किक विचार)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 143,
@@ -2461,7 +3739,16 @@ window.official_2023 = {
         "D": ""
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) **\n\n**Mathematical Principle**: Solve using standard mathematical formulas and proportional relationships.\n- The correct step-by-step simplification leads directly to option (A): ****."
+      "explanation": "**Correct Answer: (A) **\n\n**Mathematical Principle**: Solve using standard mathematical formulas and proportional relationships.\n- The correct step-by-step simplification leads directly to option (A): ****.",
+      "topic_hi": "गणितीय अभिरुचि",
+      "question_hi": "A whole number is added to 100 and the same number is subtracted from 100. the sum of the two resulting numbers so obtained is :?",
+      "options_hi": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) **\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 144,
@@ -2478,7 +3765,16 @@ window.official_2023 = {
         "D": "-"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) **\n\n**Mathematical Principle**: Solve using standard mathematical formulas and proportional relationships.\n- The correct step-by-step simplification leads directly to option (A): ****."
+      "explanation": "**Correct Answer: (A) **\n\n**Mathematical Principle**: Solve using standard mathematical formulas and proportional relationships.\n- The correct step-by-step simplification leads directly to option (A): ****.",
+      "topic_hi": "गणितीय अभिरुचि",
+      "question_hi": "The sum of 5 - 5 + 5 - 5 + 5 - 5 …………… , to odd number of terms is :?",
+      "options_hi": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "-?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) **\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 145,
@@ -2495,7 +3791,16 @@ window.official_2023 = {
         "D": "10.5, 1.05, 1.055, 1.50, 1.005, 0."
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) 10.5, 1.50, 1.055, 1.05, 1.005, 0.**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (B) 10.5, 1.50, 1.055, 1.05, 1.005, 0.**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "निम्नलिखित में से कौन सा arrangements represents a descending order of numbers?",
+      "options_hi": {
+        "A": "10.5, 1.50, 1.05, 1.055, 1.005, 0.",
+        "B": "10.5, 1.50, 1.055, 1.05, 1.005, 0.",
+        "C": "1.05, 1.005, 1.50, 1.055, 10.5, 0.",
+        "D": "10.5, 1.05, 1.055, 1.50, 1.005, 0."
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 10.5, 1.50, 1.055, 1.05, 1.005, 0.**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 146,
@@ -2512,7 +3817,16 @@ window.official_2023 = {
         "D": "Tuesday"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) August**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (C) August**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "Monday : April : : Friday : ?",
+      "options_hi": {
+        "A": "July?",
+        "B": "Saturday?",
+        "C": "August?",
+        "D": "Tuesday?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) August?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 147,
@@ -2529,7 +3843,16 @@ window.official_2023 = {
         "D": "Ear"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Heart**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (B) Heart**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "Choose the word which is least like the other words in the group.",
+      "options_hi": {
+        "A": "Kidney?",
+        "B": "Heart?",
+        "C": "Lung?",
+        "D": "Ear?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Heart?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 148,
@@ -2546,7 +3869,16 @@ window.official_2023 = {
         "D": "71/"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) **\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (A) **\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "60,30,120,15,240?",
+      "options_hi": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": "71/?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) **\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 149,
@@ -2563,7 +3895,16 @@ window.official_2023 = {
         "D": "ORVW"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) ORUV**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (A) ORUV**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "In a certain code, if BAD is written as YZW and SAID is written as HZRW, then LIFE will be written as:?",
+      "options_hi": {
+        "A": "ORUV?",
+        "B": "OSUV?",
+        "C": "OQVU?",
+        "D": "ORVW?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) ORUV?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 150,
@@ -2580,7 +3921,16 @@ window.official_2023 = {
         "D": "Cousin"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Aunt**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key."
+      "explanation": "**Correct Answer: (A) Aunt**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "Pointing towards Sita, Nikhil said, \"I am the only son of her mother's son\". How is Sita related to Nikhil?",
+      "options_hi": {
+        "A": "Aunt?",
+        "B": "Niece?",
+        "C": "Mother?",
+        "D": "Cousin?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Aunt?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     }
   ]
 };

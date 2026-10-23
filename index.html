@@ -7,8 +7,8 @@
   
   <!-- Primary Meta & SEO Tags -->
   <meta name="title" content="Bihar STET Paper II (Class 11-12) Computer Science CBT Mock Exam Portal">
-  <meta name="description" content="Authentic Computer Based Test (CBT) mock exam platform for Bihar STET Paper II Computer Science (Code 226). Features 18 full-length papers (2,450+ questions), official PYQs with verified answer keys, 2026 predicted mock sets, real-time timer, authentic palette, scorecards, and in-depth solutions. Created by Niranjan Kumar Singh.">
-  <meta name="keywords" content="Bihar STET, STET Computer Science, Bihar STET Paper II, Code 226, Class 11-12 Computer Teacher, Mock Test, CBT Exam, Niranjan Kumar Singh, Official PYQ, 2026 Predicted Papers, Computer Science Pedagogy">
+  <meta name="description" content="Authentic Computer Based Test (CBT) mock exam platform for Bihar STET Paper II Computer Science (Code 226). Features 23 full-length papers (3,000+ questions), bilingual English & Hindi support, official PYQs with verified keys, 2026 predicted mock sets, real-time timer, authentic palette, scorecards, and in-depth conceptual explanations. Created by Niranjan Kumar Singh.">
+  <meta name="keywords" content="Bihar STET, STET Computer Science, Bihar STET Paper II, Code 226, Class 11-12 Computer Teacher, Mock Test, CBT Exam, Niranjan Kumar Singh, Official PYQ, 2026 Predicted Papers, Computer Science Pedagogy, Hindi Mock Test">
   
   <!-- Author & Contact Metadata -->
   <meta name="author" content="Niranjan Kumar Singh">
@@ -23,14 +23,14 @@
   <!-- Open Graph / Social Sharing -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Bihar STET Paper II Computer Science CBT Mock Portal">
-  <meta property="og:description" content="Comprehensive mock exam portal for Bihar STET Higher Secondary Computer Science (Code 226) with 18 papers and 2,450+ questions with explanations. By Niranjan Kumar Singh.">
+  <meta property="og:description" content="Comprehensive mock exam portal for Bihar STET Higher Secondary Computer Science (Code 226) with 23 papers and 3,000+ questions with bilingual explanations. By Niranjan Kumar Singh.">
   <meta property="og:site_name" content="Bihar STET CBT Mock Exam Portal">
   <meta property="og:locale" content="en_IN">
 
   <!-- Twitter / X Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Bihar STET Paper II Computer Science CBT Mock Portal">
-  <meta name="twitter:description" content="Comprehensive mock exam portal for Bihar STET Computer Science. 18 papers, real timer, authentic palette. Created by Niranjan Kumar Singh.">
+  <meta name="twitter:description" content="Comprehensive mock exam portal for Bihar STET Computer Science. 23 papers, real timer, authentic palette, bilingual Hindi & English. Created by Niranjan Kumar Singh.">
   <meta name="twitter:creator" content="@niranjan_ks_in">
 
   <!-- Author Profile Links -->
@@ -42,7 +42,7 @@
     "@context": "https://schema.org",
     "@type": "WebApplication",
     "name": "Bihar STET Paper II Computer Science CBT Mock Exam Portal",
-    "description": "Authentic Computer Based Test (CBT) mock exam platform for Bihar STET Paper II Computer Science (Class 11-12 Code 226) featuring 18 full papers, live timer, and detailed conceptual explanations.",
+    "description": "Authentic Computer Based Test (CBT) mock exam platform for Bihar STET Paper II Computer Science (Class 11-12 Code 226) featuring 23 full papers, bilingual Hindi & English, live timer, and detailed conceptual explanations.",
     "applicationCategory": "EducationalApplication",
     "operatingSystem": "All",
     "author": {
@@ -74,11 +74,15 @@
     <div class="brand-container">
       <div class="brand-logo">CS</div>
       <div class="brand-details">
-        <h1>Bihar STET Paper II (Computer Science)</h1>
-        <p>Official CBT Mock Exam & Readiness Portal • Class 11-12 (Code 226)</p>
+        <h1 id="nav-brand-title">Bihar STET Paper II (Computer Science)</h1>
+        <p id="nav-brand-subtitle">Official CBT Mock Exam & Readiness Portal • Class 11-12 (Code 226)</p>
       </div>
     </div>
     <div class="nav-actions">
+      <!-- Global Portal Language Toggle -->
+      <button class="btn btn-secondary" id="lang-toggle-btn" title="Switch Portal Language (English / हिन्दी)">
+        🌐 <span id="lang-toggle-text">हिन्दी</span>
+      </button>
       <button class="btn btn-secondary" id="font-smaller-btn" title="Decrease Font Size">A-</button>
       <button class="btn btn-secondary" id="font-larger-btn" title="Increase Font Size">A+</button>
       <button class="btn btn-secondary" id="fullscreen-btn" title="Toggle Fullscreen">⛶ Fullscreen</button>
@@ -94,44 +98,44 @@
       <!-- Hero Banner & Motivation -->
       <section class="hero-banner">
         <div class="motivational-pill">
-          <span>🔥 MISSION BSTET 2026</span>
+          <span id="hero-mission-pill">🔥 MISSION BSTET 2026</span>
           <span>•</span>
-          <span>"मेहनत इतनी खामोशी से करो कि तुम्हारी सफलता शोर मचा दे!"</span>
+          <span id="hero-quote">"मेहनत इतनी खामोशी से करो कि तुम्हारी सफलता शोर मचा दे!"</span>
         </div>
-        <h2 class="hero-title">BSTET Paper II (Computer Science) CBT Portal</h2>
-        <p class="hero-subtitle">
-          Official Examination Simulator for Higher Secondary Teachers (Class 11-12 Code 226). Practice with 18 comprehensive full-length sets (150 Questions each) under authentic CBT conditions with in-depth conceptual explanations.
+        <h2 class="hero-title" id="hero-heading">BSTET Paper II (Computer Science) CBT Portal</h2>
+        <p class="hero-subtitle" id="hero-desc">
+          Official Examination Simulator for Higher Secondary Teachers (Class 11-12 Code 226). Practice with 23 comprehensive mock papers (3,000+ Questions) under authentic TCS iON CBT conditions with in-depth conceptual explanations.
         </p>
         <div class="exam-meta-grid">
           <div class="meta-box">
-            <span>Subject Knowledge</span>
-            <strong>100 Qs / 100 Marks</strong>
+            <span id="meta-subj-title">Subject Knowledge</span>
+            <strong id="meta-subj-val">100 Qs / 100 Marks</strong>
           </div>
           <div class="meta-box">
-            <span>Art of Teaching</span>
-            <strong>30 Qs / 30 Marks</strong>
+            <span id="meta-pedagogy-title">Art of Teaching</span>
+            <strong id="meta-pedagogy-val">30 Qs / 30 Marks</strong>
           </div>
           <div class="meta-box">
-            <span>General Skills</span>
-            <strong>20 Qs / 20 Marks</strong>
+            <span id="meta-skills-title">General Skills</span>
+            <strong id="meta-skills-val">20 Qs / 20 Marks</strong>
           </div>
           <div class="meta-box">
-            <span>Total Duration</span>
-            <strong>150 Minutes</strong>
+            <span id="meta-dur-title">Total Duration</span>
+            <strong id="meta-dur-val">150 Minutes</strong>
           </div>
           <div class="meta-box">
-            <span>Qualifying Cutoff</span>
-            <strong>Gen 50% (75 Marks)</strong>
+            <span id="meta-cut-title">Qualifying Cutoff</span>
+            <strong id="meta-cut-val">Gen 50% (75 Marks)</strong>
           </div>
         </div>
       </section>
 
       <!-- Filter Tabs -->
       <div class="filter-tabs">
-        <button class="filter-tab active" data-filter="all">All Mock Tests (18)</button>
-        <button class="filter-tab" data-filter="official">Official PYQ Papers (5)</button>
-        <button class="filter-tab" data-filter="predicted">2026 Predicted Mock Sets (10)</button>
-        <button class="filter-tab" data-filter="drill">Sectional Drills (3)</button>
+        <button class="filter-tab active" data-filter="all" id="tab-filter-all">All Mock Tests (23)</button>
+        <button class="filter-tab" data-filter="official" id="tab-filter-official">Official PYQ Papers (5)</button>
+        <button class="filter-tab" data-filter="predicted" id="tab-filter-predicted">2026 Predicted Mock Sets (12)</button>
+        <button class="filter-tab" data-filter="drill" id="tab-filter-drill">Sectional & Topic Drills (6)</button>
       </div>
 
       <!-- Question Papers Grid -->
@@ -142,24 +146,24 @@
       <!-- History Section -->
       <section class="history-section">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 12px;">
-          <h3 class="section-heading" style="margin-bottom: 0;">My Test History & Solutions Review</h3>
+          <h3 class="section-heading" id="history-heading" style="margin-bottom: 0;">My Test History & Solutions Review</h3>
           <button class="btn btn-secondary" id="clear-history-btn" style="font-size: 12px; padding: 6px 12px;">
             🗑 Clear History
           </button>
         </div>
-        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">
+        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;" id="history-subtext">
           All your completed tests are stored securely in your browser. Click <strong>"Review Solutions"</strong> on any past attempt to analyze your mistakes and study detailed explanations anytime!
         </p>
         <div style="overflow-x: auto;">
           <table class="history-table">
             <thead>
               <tr>
-                <th>Mock Paper</th>
-                <th>Date & Time</th>
-                <th>Score & Percentage</th>
-                <th>Accuracy</th>
-                <th>Status</th>
-                <th>Action</th>
+                <th id="th-paper">Mock Paper</th>
+                <th id="th-date">Date & Time</th>
+                <th id="th-score">Score & %</th>
+                <th id="th-accuracy">Accuracy</th>
+                <th id="th-status">Status</th>
+                <th id="th-action">Action</th>
               </tr>
             </thead>
             <tbody id="history-table-body">
@@ -212,7 +216,7 @@
       <div class="exam-header" id="exam-header">
         <div class="exam-info">
           <div class="exam-title-badge">
-            <span class="badge badge-official">CBT LIVE</span>
+            <span class="badge badge-official" id="badge-cbt-live">CBT LIVE</span>
             <span id="exam-title-text">Bihar STET Computer Science Paper II</span>
           </div>
         </div>
@@ -224,11 +228,16 @@
             <span id="timer-display">02:30:00</span>
           </div>
 
+          <!-- Prominent In-Exam Language Switcher Button -->
+          <button class="btn btn-secondary exam-ctrl-btn lang-exam-toggle-btn" id="exam-lang-toggle-btn" title="Toggle Question Language (English / हिन्दी) [Shortcut: L or H]">
+            🌐 <span id="exam-lang-text">Switch to हिन्दी</span>
+          </button>
+
           <button class="btn btn-secondary exam-ctrl-btn" id="pause-btn" title="Pause / Resume Exam">
-            <span class="btn-icon">⏸</span> <span class="btn-text">Pause</span>
+            <span class="btn-icon">⏸</span> <span class="btn-text" id="pause-btn-text">Pause</span>
           </button>
           <button class="btn btn-secondary exam-ctrl-btn" id="view-qp-btn" title="View Full Question Paper">
-            <span class="btn-icon">📄</span> <span class="btn-text">Paper</span>
+            <span class="btn-icon">📄</span> <span class="btn-text" id="qp-btn-text">Paper</span>
           </button>
           <button class="btn btn-outline exam-ctrl-btn" id="reveal-explanation-btn" style="display: none;">💡 Concept</button>
 
@@ -254,8 +263,19 @@
               <span id="q-number-text">Question 1 of 150</span>
               <span class="topic-tag" id="q-topic-tag">Digital Logic</span>
             </div>
-            <div class="marks-info">
-              Marks: <span class="pos">+1.0</span> | Negative: <span class="neg">0.0</span>
+            <div class="q-header-right">
+              <!-- Inline Question Language Switcher -->
+              <div class="q-lang-control-group">
+                <span class="q-lang-label" title="Switch language if you don't understand the question">View Question:</span>
+                <div class="q-lang-segmented-control" id="q-lang-segmented">
+                  <button class="q-lang-btn active" id="btn-lang-en" data-lang="en" title="View question in English (Default)">🇬🇧 English</button>
+                  <button class="q-lang-btn" id="btn-lang-hi" data-lang="hi" title="Switch to Hindi if you don't understand the question">🇮🇳 हिन्दी</button>
+                  <button class="q-lang-btn" id="btn-lang-both" data-lang="both" title="View both English and Hindi together">👁️ Dual (Both)</button>
+                </div>
+              </div>
+              <div class="marks-info" id="q-marks-info">
+                Marks: <span class="pos">+1.0</span> | Negative: <span class="neg">0.0</span>
+              </div>
             </div>
           </div>
 
@@ -266,7 +286,7 @@
 
           <!-- Practice Mode Instant Explanation Box -->
           <div class="practice-explanation-box" id="practice-explanation-box">
-            <strong>📖 Immediate Concept Explanation:</strong>
+            <strong id="practice-box-title">📖 Immediate Concept Explanation:</strong>
             <div id="practice-explanation-content" style="margin-top: 6px;"></div>
           </div>
 
@@ -295,23 +315,23 @@
           <div class="palette-legend">
             <div class="legend-item">
               <div class="legend-box answered" id="legend-answered">0</div>
-              <span>Answered</span>
+              <span id="leg-text-answered">Answered</span>
             </div>
             <div class="legend-item">
               <div class="legend-box not-answered" id="legend-not-answered">0</div>
-              <span>Not Answered</span>
+              <span id="leg-text-not-answered">Not Answered</span>
             </div>
             <div class="legend-item">
               <div class="legend-box not-visited" id="legend-not-visited">0</div>
-              <span>Not Visited</span>
+              <span id="leg-text-not-visited">Not Visited</span>
             </div>
             <div class="legend-item">
               <div class="legend-box marked" id="legend-marked">0</div>
-              <span>Marked for Review</span>
+              <span id="leg-text-marked">Marked for Review</span>
             </div>
             <div class="legend-item" style="grid-column: span 2;">
               <div class="legend-box ans-marked" id="legend-ans-marked">0</div>
-              <span>Answered & Marked for Review</span>
+              <span id="leg-text-ans-marked">Answered & Marked for Review</span>
             </div>
           </div>
 
@@ -350,15 +370,15 @@
   </main>
 
   <!-- =========================================================================
-       VIEW 3: SCORECARD & PERFORMANCE ANALYTICS
+       VIEW 3: PRODUCTION-GRADE SCORECARD & PERFORMANCE ANALYTICS
        ========================================================================= -->
   <main class="view-container" id="result-view">
     <div class="result-content">
-      <!-- Grand Scorecard Banner -->
+      <!-- Grand Scorecard Banner with SVG Circular Gauges -->
       <section class="scorecard-banner">
         <div class="score-display">
           <h2 id="res-paper-title">Bihar STET Exam Result</h2>
-          <p style="color: #cbd5e1;">Class 11-12 Computer Science Examination Analysis</p>
+          <p style="color: #cbd5e1;" id="res-report-subtitle">Class 11-12 Computer Science Examination Analysis</p>
           <div class="score-main">
             <span id="res-score">0</span>
             <span id="res-max-score">/ 150</span>
@@ -368,57 +388,160 @@
           </div>
         </div>
 
-        <div class="scorecard-stats-grid">
-          <div class="score-stat-card">
-            <div class="label">Percentage</div>
-            <div class="value" id="res-percentage">0%</div>
+        <!-- SVG Circular Donut Chart Gauges -->
+        <div class="scorecard-gauges-grid">
+          <!-- Circular Gauge 1: Score & Percentage -->
+          <div class="gauge-card">
+            <div class="gauge-svg-wrap">
+              <svg viewBox="0 0 100 100" class="gauge-svg">
+                <circle class="gauge-bg" cx="50" cy="50" r="40" />
+                <circle class="gauge-fill score-gauge-fill" id="gauge-score-fill" cx="50" cy="50" r="40" />
+              </svg>
+              <div class="gauge-value" id="res-percentage">0%</div>
+            </div>
+            <div class="gauge-label" id="lbl-gauge-score">Total Score</div>
           </div>
-          <div class="score-stat-card">
-            <div class="label">Accuracy Rate</div>
-            <div class="value" id="res-accuracy">0%</div>
+
+          <!-- Circular Gauge 2: Accuracy Rate -->
+          <div class="gauge-card">
+            <div class="gauge-svg-wrap">
+              <svg viewBox="0 0 100 100" class="gauge-svg">
+                <circle class="gauge-bg" cx="50" cy="50" r="40" />
+                <circle class="gauge-fill accuracy-gauge-fill" id="gauge-accuracy-fill" cx="50" cy="50" r="40" />
+              </svg>
+              <div class="gauge-value" id="res-accuracy">0%</div>
+            </div>
+            <div class="gauge-label" id="lbl-gauge-acc">Accuracy Rate</div>
           </div>
-          <div class="score-stat-card">
-            <div class="label">Attempted</div>
-            <div class="value" id="res-attempted">0 / 150</div>
+
+          <!-- Circular Gauge 3: Exam Pace & Speed -->
+          <div class="gauge-card">
+            <div class="gauge-icon-center" id="res-pace-icon">⚡</div>
+            <div class="gauge-value" id="res-pace-value">-- s/Q</div>
+            <div class="gauge-label" id="lbl-gauge-pace">Avg Question Pace</div>
           </div>
-          <div class="score-stat-card">
-            <div class="label">Passing Cutoff (General)</div>
-            <div class="value">75 Marks (50%)</div>
+
+          <!-- Circular Gauge 4: Projected Percentile -->
+          <div class="gauge-card">
+            <div class="gauge-icon-center">🏆</div>
+            <div class="gauge-value" id="res-percentile">--%</div>
+            <div class="gauge-label" id="lbl-gauge-percentile">Est. Percentile</div>
           </div>
         </div>
       </section>
 
-      <!-- Action Row -->
-      <div style="display: flex; gap: 12px; margin-bottom: 32px; justify-content: flex-end;">
-        <button class="btn btn-secondary" id="back-to-lobby-btn">← Back to Exam Portal</button>
-        <button class="btn btn-primary" id="retake-exam-btn">🔄 Retake This Test</button>
+      <!-- Action Toolbar -->
+      <div class="scorecard-action-bar">
+        <div class="scorecard-action-left">
+          <button class="btn btn-secondary" id="back-to-lobby-btn">← Back to Exam Portal</button>
+          <button class="btn btn-primary" id="retake-exam-btn">🔄 Retake This Test</button>
+        </div>
+        <div class="scorecard-action-right">
+          <button class="btn btn-secondary" id="share-scorecard-btn" title="Copy score summary to clipboard">
+            📋 Share Summary
+          </button>
+          <button class="btn btn-primary print-btn" id="print-scorecard-btn" title="Print or save as PDF">
+            🖨️ Print / Save PDF
+          </button>
+        </div>
       </div>
 
+      <!-- Official Bihar STET Reservation Category Cutoff Table -->
+      <section class="cutoff-section">
+        <h3 class="section-heading" id="cutoff-table-title">Official Bihar STET Reservation Cutoff Qualification Matrix</h3>
+        <div class="cutoff-table-wrapper">
+          <table class="cutoff-table">
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Qualifying %</th>
+                <th>Cutoff Marks</th>
+                <th>Your Score</th>
+                <th>Qualification Status</th>
+                <th>Margin</th>
+              </tr>
+            </thead>
+            <tbody id="cutoff-table-body">
+              <!-- Injected via app.js -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
       <!-- Section-wise Breakdown -->
-      <h3 class="section-heading">Sectional Performance Analysis</h3>
+      <h3 class="section-heading" id="sec-breakdown-heading">Sectional Performance Analysis</h3>
       <div class="breakdown-grid" id="res-sections-breakdown">
         <!-- Section cards injected here -->
       </div>
 
-      <!-- Topic-wise Breakdown -->
-      <h3 class="section-heading">Syllabus Topic Strength Radar (Revision Recommendations)</h3>
-      <div class="breakdown-card" style="margin-bottom: 36px;" id="res-topic-breakdown">
-        <!-- Topic progress bars injected here -->
-      </div>
+      <!-- Three-Tier Topic Strength & Revision Diagnostic Matrix -->
+      <section class="topic-diagnostic-section">
+        <h3 class="section-heading" id="topic-matrix-heading">Syllabus Topic Diagnostic & Targeted Revision Matrix</h3>
+        <div class="diagnostic-matrix-grid">
+          <!-- Strengths -->
+          <div class="diagnostic-card strengths-card">
+            <div class="diagnostic-card-header">
+              <span class="diagnostic-pill pill-strong">🟢 Strong Mastery (≥ 75%)</span>
+            </div>
+            <div class="diagnostic-items" id="diag-strong-items">
+              <!-- Topics injected here -->
+            </div>
+          </div>
+
+          <!-- Moderate -->
+          <div class="diagnostic-card moderate-card">
+            <div class="diagnostic-card-header">
+              <span class="diagnostic-pill pill-mod">🟡 Moderate Practice Needed (50% - 74%)</span>
+            </div>
+            <div class="diagnostic-items" id="diag-mod-items">
+              <!-- Topics injected here -->
+            </div>
+          </div>
+
+          <!-- Weak Areas / Actionable Revision -->
+          <div class="diagnostic-card weak-card">
+            <div class="diagnostic-card-header">
+              <span class="diagnostic-pill pill-weak">🔴 High Priority Revision (&lt; 50%)</span>
+            </div>
+            <div class="diagnostic-items" id="diag-weak-items">
+              <!-- Topics injected here -->
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- Detailed Question Solutions Review -->
       <section class="solutions-section">
-        <h3 class="section-heading">Comprehensive Question Review & Conceptual Solutions</h3>
-        <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 20px;">
-          Review each question, compare your choice with the verified official answer key, and study the conceptual theory behind each topic.
-        </p>
+        <div class="sol-section-header">
+          <div>
+            <h3 class="section-heading" style="margin-bottom: 4px;" id="sol-heading">Comprehensive Question Review & Conceptual Solutions</h3>
+            <p style="color: var(--text-muted); font-size: 14px;" id="sol-subtext">
+              Review each question, compare your choice with the verified official answer key, and study the conceptual theory behind each topic.
+            </p>
+          </div>
+          <!-- Bilingual Explanation Toggle -->
+          <button class="btn btn-secondary" id="sol-lang-toggle-btn">
+            🌐 <span id="sol-lang-text">हिन्दी में व्याख्या</span>
+          </button>
+        </div>
 
-        <!-- Solution Filter Pills -->
-        <div class="solutions-filter-bar">
-          <button class="sol-filter-btn active" data-sol-filter="all">All Questions (150)</button>
-          <button class="sol-filter-btn" data-sol-filter="incorrect">Incorrect Only (Review Mistakes)</button>
-          <button class="sol-filter-btn" data-sol-filter="unattempted">Unattempted / Skipped</button>
-          <button class="sol-filter-btn" data-sol-filter="correct">Correct (Confirmed)</button>
+        <!-- Solutions Filter Controls Row -->
+        <div class="solutions-controls-row">
+          <!-- Solution Filter Pills -->
+          <div class="solutions-filter-bar">
+            <button class="sol-filter-btn active" data-sol-filter="all" id="sol-tab-all">All Questions (150)</button>
+            <button class="sol-filter-btn" data-sol-filter="incorrect" id="sol-tab-inc">Incorrect Only</button>
+            <button class="sol-filter-btn" data-sol-filter="unattempted" id="sol-tab-unatt">Unattempted</button>
+            <button class="sol-filter-btn" data-sol-filter="correct" id="sol-tab-cor">Correct</button>
+          </div>
+
+          <!-- Topic Filter Dropdown -->
+          <div class="sol-topic-filter-wrap">
+            <label for="sol-topic-select" style="font-size: 13px; font-weight: 600; color: var(--text-secondary);">Topic Filter:</label>
+            <select id="sol-topic-select" class="sol-topic-select">
+              <option value="all">All Topics (15 Units + Pedagogy)</option>
+            </select>
+          </div>
         </div>
 
         <!-- Solutions List -->
@@ -446,8 +569,8 @@
         <div class="mode-option selected" data-mode="cbt">
           <input type="radio" name="exam_mode" value="cbt" checked class="mode-radio">
           <div>
-            <div class="mode-title">⚡ Real CBT Exam Simulation Mode (Recommended)</div>
-            <div class="mode-desc">
+            <div class="mode-title" id="m-cbt-title">⚡ Real CBT Exam Simulation Mode (Recommended)</div>
+            <div class="mode-desc" id="m-cbt-desc">
               Strict 150-minute countdown timer, official question palette, hidden answers until final submission. Simulates authentic Bihar STET exam pressure.
             </div>
           </div>
@@ -457,8 +580,8 @@
         <div class="mode-option" data-mode="practice">
           <input type="radio" name="exam_mode" value="practice" class="mode-radio">
           <div>
-            <div class="mode-title">📖 Practice & Study Mode</div>
-            <div class="mode-desc">
+            <div class="mode-title" id="m-prac-title">📖 Practice & Study Mode</div>
+            <div class="mode-desc" id="m-prac-desc">
               No timer pressure. Immediate "Show Concept Explanation" button enabled to verify official answers and study theoretical explanations on the spot.
             </div>
           </div>
@@ -475,33 +598,33 @@
   <div class="modal-overlay" id="submit-modal">
     <div class="modal-card">
       <div class="modal-header">
-        <h3 class="modal-title">Confirm Final Exam Submission</h3>
+        <h3 class="modal-title" id="sub-modal-title">Confirm Final Exam Submission</h3>
       </div>
       <div class="modal-body">
-        <p style="margin-bottom: 16px; font-size: 14px; color: var(--text-secondary);">
+        <p style="margin-bottom: 16px; font-size: 14px; color: var(--text-secondary);" id="sub-modal-desc">
           Please review your attempt summary below before final submission. Once submitted, you cannot change your answers.
         </p>
 
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px;">
           <div class="meta-box" style="background: var(--bg-subtle); border-color: var(--border-subtle);">
-            <span style="color: var(--text-muted);">Total Questions</span>
+            <span style="color: var(--text-muted);" id="sub-lbl-total">Total Questions</span>
             <strong style="color: var(--text-primary);" id="submit-sum-total">150</strong>
           </div>
           <div class="meta-box" style="background: #dcfce7; border-color: #86efac;">
-            <span style="color: #166534;">Answered</span>
+            <span style="color: #166534;" id="sub-lbl-ans">Answered</span>
             <strong style="color: #15803d;" id="submit-sum-answered">0</strong>
           </div>
           <div class="meta-box" style="background: #fee2e2; border-color: #fca5a5;">
-            <span style="color: #991b1b;">Unanswered</span>
+            <span style="color: #991b1b;" id="sub-lbl-unans">Unanswered</span>
             <strong style="color: #b91c1c;" id="submit-sum-unanswered">150</strong>
           </div>
           <div class="meta-box" style="background: #ede9fe; border-color: #c4b5fd;">
-            <span style="color: #5b21b6;">Marked for Review</span>
+            <span style="color: #5b21b6;" id="sub-lbl-marked">Marked for Review</span>
             <strong style="color: #6d28d9;" id="submit-sum-marked">0</strong>
           </div>
         </div>
 
-        <p style="font-size: 13px; font-weight: 600; color: #dc2626;">
+        <p style="font-size: 13px; font-weight: 600; color: #dc2626;" id="sub-modal-prompt">
           Are you sure you want to end and submit this exam session?
         </p>
       </div>
@@ -544,6 +667,9 @@
   <!-- =========================================================================
        DATA & APPLICATION SCRIPTS
        ========================================================================= -->
+  <!-- Internationalization & Localization Engine -->
+  <script src="js/i18n.js"></script>
+
   <!-- Master Paper Directory -->
   <script src="js/data/papers-index.js"></script>
 
@@ -554,7 +680,7 @@
   <script src="js/data/official-shift4.js"></script>
   <script src="js/data/official-2023.js"></script>
 
-  <!-- 2026 Predicted Mock Papers -->
+  <!-- 2026 Predicted Mock Papers (Sets 1 to 12) -->
   <script src="js/data/predicted-set1.js"></script>
   <script src="js/data/predicted-set2.js"></script>
   <script src="js/data/predicted-set3.js"></script>
@@ -565,9 +691,12 @@
   <script src="js/data/predicted-set8.js"></script>
   <script src="js/data/predicted-set9.js"></script>
   <script src="js/data/predicted-set10.js"></script>
+  <script src="js/data/predicted-set11.js"></script>
+  <script src="js/data/predicted-set12.js"></script>
 
-  <!-- Sectional Drills -->
+  <!-- Sectional & Specialized Mastery Drills -->
   <script src="js/data/topical-drills.js"></script>
+  <script src="js/data/specialized-drills.js"></script>
 
   <!-- Core Exam Platform Engines -->
   <script src="js/exam-engine.js"></script>

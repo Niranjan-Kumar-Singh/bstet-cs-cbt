@@ -19,6 +19,9 @@ scratch_img_*.*
 sample_*.txt
 *.tmp
 *.log
+.tempmediaStorage/
+.system_generated/
+scratch/
 
 # Editor & IDE settings
 .vscode/

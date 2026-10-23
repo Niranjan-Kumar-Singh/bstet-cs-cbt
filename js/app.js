@@ -1,5 +1,7 @@
 /**
  * Bihar STET CBT Portal - Main Application Controller
+ * High-performance, production-grade exam controller with full bilingual support,
+ * authentic CBT simulation, circular gauge performance scorecards, and topic diagnostic matrices.
  */
 
 class App {
@@ -10,10 +12,13 @@ class App {
     this.fontSizeLevel = 1; // 0: small, 1: normal, 2: large
     this.lastAnalyticsReport = null;
     this.solFilter = 'all';
+    this.solTopicFilter = 'all';
+    this.solLang = (window.BSTET_I18N && window.BSTET_I18N.currentLang) || 'en';
 
     this.initElements();
     this.bindEvents();
     this.initTheme();
+    this.initLanguage();
     this.renderLobby();
   }
 
@@ -27,6 +32,17 @@ class App {
     this.papersGrid = document.getElementById('papers-grid');
     this.filterTabs = document.querySelectorAll('.filter-tab');
     this.historyTableBody = document.getElementById('history-table-body');
+
+    // Language Toggles
+    this.langToggleBtn = document.getElementById('lang-toggle-btn');
+    this.langToggleText = document.getElementById('lang-toggle-text');
+    this.examLangToggleBtn = document.getElementById('exam-lang-toggle-btn');
+    this.examLangText = document.getElementById('exam-lang-text');
+    this.btnLangEn = document.getElementById('btn-lang-en');
+    this.btnLangHi = document.getElementById('btn-lang-hi');
+    this.btnLangBoth = document.getElementById('btn-lang-both');
+    this.solLangToggleBtn = document.getElementById('sol-lang-toggle-btn');
+    this.solLangText = document.getElementById('sol-lang-text');
 
     // Mode Selection Modal
     this.modeModal = document.getElementById('mode-modal');
@@ -105,15 +121,27 @@ class App {
     this.resScore = document.getElementById('res-score');
     this.resMaxScore = document.getElementById('res-max-score');
     this.resVerdictBadge = document.getElementById('res-verdict-badge');
-    this.resAccuracy = document.getElementById('res-accuracy');
-    this.resAttempted = document.getElementById('res-attempted');
+    this.gaugeScoreFill = document.getElementById('gauge-score-fill');
+    this.gaugeAccuracyFill = document.getElementById('gauge-accuracy-fill');
     this.resPercentage = document.getElementById('res-percentage');
+    this.resAccuracy = document.getElementById('res-accuracy');
+    this.resPaceValue = document.getElementById('res-pace-value');
+    this.resPaceIcon = document.getElementById('res-pace-icon');
+    this.resPercentile = document.getElementById('res-percentile');
+
+    this.cutoffTableBody = document.getElementById('cutoff-table-body');
     this.resSectionsBreakdown = document.getElementById('res-sections-breakdown');
-    this.resTopicBreakdown = document.getElementById('res-topic-breakdown');
+    this.diagStrongItems = document.getElementById('diag-strong-items');
+    this.diagModItems = document.getElementById('diag-mod-items');
+    this.diagWeakItems = document.getElementById('diag-weak-items');
+
     this.solutionsList = document.getElementById('solutions-list');
     this.solFilterBtns = document.querySelectorAll('.sol-filter-btn');
+    this.solTopicSelect = document.getElementById('sol-topic-select');
     this.retakeExamBtn = document.getElementById('retake-exam-btn');
     this.backToLobbyBtn = document.getElementById('back-to-lobby-btn');
+    this.printScorecardBtn = document.getElementById('print-scorecard-btn');
+    this.shareScorecardBtn = document.getElementById('share-scorecard-btn');
   }
 
   bindEvents() {
@@ -126,6 +154,32 @@ class App {
         this.renderLobby();
       });
     });
+
+    // Language Toggles
+    if (this.langToggleBtn) {
+      this.langToggleBtn.addEventListener('click', () => this.toggleAppLanguage());
+    }
+    if (this.examLangToggleBtn) {
+      this.examLangToggleBtn.addEventListener('click', () => this.toggleQuestionLanguage());
+    }
+    if (this.btnLangEn) {
+      this.btnLangEn.addEventListener('click', () => this.setQuestionLanguage('en'));
+    }
+    if (this.btnLangHi) {
+      this.btnLangHi.addEventListener('click', () => this.setQuestionLanguage('hi'));
+    }
+    if (this.btnLangBoth) {
+      this.btnLangBoth.addEventListener('click', () => this.setQuestionLanguage('both'));
+    }
+    if (this.solLangToggleBtn) {
+      this.solLangToggleBtn.addEventListener('click', () => {
+        this.solLang = this.solLang === 'en' ? 'hi' : 'en';
+        if (this.solLangText) {
+          this.solLangText.innerText = this.solLang === 'en' ? 'हिन्दी में व्याख्या' : 'View in English';
+        }
+        this.renderSolutions();
+      });
+    }
 
     // Theme Toggle (Navbar + Exam Header)
     if (this.themeToggleBtn) {
@@ -143,7 +197,7 @@ class App {
       this.fontLargerBtn.addEventListener('click', () => this.changeFontSize(1));
     }
 
-    // Fullscreen (Navbar + Exam Header)
+    // Fullscreen
     if (this.fullscreenBtn) {
       this.fullscreenBtn.addEventListener('click', () => this.toggleFullscreen());
     }
@@ -151,7 +205,7 @@ class App {
       this.examFullscreenBtn.addEventListener('click', () => this.toggleFullscreen());
     }
 
-    // Pause / Resume Handling with Modal
+    // Exam Pause / Resume
     if (this.pauseBtn) {
       this.pauseBtn.addEventListener('click', () => {
         const isPaused = this.engine.togglePause();
@@ -165,7 +219,63 @@ class App {
       });
     }
 
-    // Mode Modal Selection
+    // Mobile Palette Drawer
+    if (this.mobilePaletteToggle) {
+      this.mobilePaletteToggle.addEventListener('click', () => {
+        this.palettePane.classList.add('open');
+        this.paletteBackdrop.classList.add('active');
+      });
+    }
+
+    const mobileClosePaletteBtn = document.getElementById('mobile-close-palette-btn');
+    if (mobileClosePaletteBtn) {
+      mobileClosePaletteBtn.addEventListener('click', () => {
+        this.palettePane.classList.remove('open');
+        this.paletteBackdrop.classList.remove('active');
+      });
+    }
+
+    if (this.paletteBackdrop) {
+      this.paletteBackdrop.addEventListener('click', () => {
+        this.palettePane.classList.remove('open');
+        this.paletteBackdrop.classList.remove('active');
+      });
+    }
+
+    // Exam Nav Controls
+    if (this.prevBtn) {
+      this.prevBtn.addEventListener('click', () => this.engine.prevQuestion());
+    }
+    if (this.nextBtn) {
+      this.nextBtn.addEventListener('click', () => this.engine.nextQuestion());
+    }
+    if (this.clearBtn) {
+      this.clearBtn.addEventListener('click', () => {
+        this.engine.clearResponse();
+        this.renderQuestionView();
+        this.renderPalette();
+      });
+    }
+    if (this.markReviewBtn) {
+      this.markReviewBtn.addEventListener('click', () => this.engine.markForReview());
+    }
+    if (this.saveNextBtn) {
+      this.saveNextBtn.addEventListener('click', () => this.engine.saveAndNext());
+    }
+    if (this.submitExamBtn) {
+      this.submitExamBtn.addEventListener('click', () => this.openSubmitModal());
+    }
+
+    // Mode Modal Actions
+    if (this.cancelModeBtn) {
+      this.cancelModeBtn.addEventListener('click', () => {
+        this.modeModal.classList.remove('active');
+      });
+    }
+    if (this.startExamBtn) {
+      this.startExamBtn.addEventListener('click', () => this.onStartExamConfirmed());
+    }
+
     this.modeOptions.forEach(opt => {
       opt.addEventListener('click', () => {
         this.modeOptions.forEach(o => o.classList.remove('selected'));
@@ -175,78 +285,16 @@ class App {
       });
     });
 
-    this.startExamBtn.addEventListener('click', () => this.onStartExamConfirmed());
-    this.cancelModeBtn.addEventListener('click', () => this.modeModal.classList.remove('active'));
-
-    // Exam Navigation Buttons
-    this.prevBtn.addEventListener('click', () => this.engine.prevQuestion());
-    this.nextBtn.addEventListener('click', () => this.engine.nextQuestion());
-    this.clearBtn.addEventListener('click', () => {
-      this.engine.clearResponse();
-      this.renderQuestionView();
-      this.renderPalette();
-    });
-    this.markReviewBtn.addEventListener('click', () => {
-      this.engine.markForReview();
-      this.renderQuestionView();
-      this.renderPalette();
-    });
-    this.saveNextBtn.addEventListener('click', () => {
-      this.engine.saveAndNext();
-      this.renderQuestionView();
-      this.renderPalette();
-    });
-    // Submit Exam Button
-    if (this.submitExamBtn) {
-      this.submitExamBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        this.openSubmitModal();
-      });
-    }
-
-    // Submit Modal Confirm & Cancel Actions
+    // Submit Modal Actions
     if (this.cancelSubmitBtn) {
-      this.cancelSubmitBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        if (this.submitModal) this.submitModal.classList.remove('active');
+      this.cancelSubmitBtn.addEventListener('click', () => {
+        this.submitModal.classList.remove('active');
       });
     }
     if (this.confirmSubmitBtn) {
-      this.confirmSubmitBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        if (this.submitModal) this.submitModal.classList.remove('active');
+      this.confirmSubmitBtn.addEventListener('click', () => {
+        this.submitModal.classList.remove('active');
         this.finishAndEvaluateExam();
-      });
-    }
-    if (this.submitModal) {
-      this.submitModal.addEventListener('click', (e) => {
-        if (e.target === this.submitModal) {
-          this.submitModal.classList.remove('active');
-        }
-      });
-    }
-
-    // Mobile Palette Drawer Toggle
-    if (this.mobilePaletteToggle) {
-      this.mobilePaletteToggle.addEventListener('click', () => {
-        this.palettePane.classList.toggle('open');
-        this.paletteBackdrop.classList.toggle('active');
-      });
-    }
-    const mobileClosePalette = document.getElementById('mobile-close-palette-btn');
-    if (mobileClosePalette) {
-      mobileClosePalette.addEventListener('click', () => {
-        this.palettePane.classList.remove('open');
-        if (this.paletteBackdrop) this.paletteBackdrop.classList.remove('active');
-      });
-    }
-    if (this.paletteBackdrop) {
-      this.paletteBackdrop.addEventListener('click', () => {
-        this.palettePane.classList.remove('open');
-        this.paletteBackdrop.classList.remove('active');
       });
     }
 
@@ -254,7 +302,10 @@ class App {
     const clearHistoryBtn = document.getElementById('clear-history-btn');
     if (clearHistoryBtn) {
       clearHistoryBtn.addEventListener('click', () => {
-        if (confirm('Are you sure you want to clear your test attempt history?')) {
+        const confirmMsg = (window.BSTET_I18N && window.BSTET_I18N.currentLang === 'hi')
+          ? 'क्या आप वाकई अपना टेस्ट इतिहास साफ़ करना चाहते हैं?'
+          : 'Are you sure you want to clear your test attempt history?';
+        if (confirm(confirmMsg)) {
           ExamAnalytics.clearHistory();
           this.renderHistory();
         }
@@ -274,7 +325,8 @@ class App {
       this.revealExplanationBtn.addEventListener('click', () => {
         const q = this.engine.getCurrentQuestion();
         if (q) {
-          this.practiceContent.innerHTML = q.explanation.replace(/\n/g, '<br>');
+          const expl = this.engine.getQuestionExplanation(q);
+          this.practiceContent.innerHTML = expl.replace(/\n/g, '<br>');
           this.practiceBox.classList.toggle('active');
         }
       });
@@ -290,6 +342,14 @@ class App {
       });
     });
 
+    // Solutions Topic Select Filter
+    if (this.solTopicSelect) {
+      this.solTopicSelect.addEventListener('change', () => {
+        this.solTopicFilter = this.solTopicSelect.value;
+        this.renderSolutions();
+      });
+    }
+
     // Scorecard Action Buttons
     if (this.retakeExamBtn) {
       this.retakeExamBtn.addEventListener('click', () => {
@@ -302,6 +362,16 @@ class App {
       this.backToLobbyBtn.addEventListener('click', () => this.showLobbyView());
     }
 
+    // Print Scorecard
+    if (this.printScorecardBtn) {
+      this.printScorecardBtn.addEventListener('click', () => window.print());
+    }
+
+    // Share Scorecard Summary
+    if (this.shareScorecardBtn) {
+      this.shareScorecardBtn.addEventListener('click', () => this.shareScorecard());
+    }
+
     // Engine Callbacks
     this.engine.onTick = (secs) => this.updateTimerDisplay(secs);
     this.engine.onQuestionChange = (q, idx) => {
@@ -309,14 +379,17 @@ class App {
       this.renderPalette();
     };
     this.engine.onAutoSubmit = () => {
-      alert('Time is up! Your exam is being submitted automatically.');
+      const timeUpMsg = (window.BSTET_I18N && window.BSTET_I18N.currentLang === 'hi')
+        ? 'समय समाप्त! आपकी परीक्षा स्वतः जमा की जा रही है।'
+        : 'Time is up! Your exam is being submitted automatically.';
+      alert(timeUpMsg);
       this.finishAndEvaluateExam();
     };
 
     // Keyboard Shortcuts
     window.addEventListener('keydown', (e) => {
       if (!this.examView.classList.contains('active')) return;
-      if (['input', 'textarea'].includes(document.activeElement.tagName.toLowerCase())) return;
+      if (['input', 'textarea', 'select'].includes(document.activeElement.tagName.toLowerCase())) return;
 
       if (['1', 'a', 'A'].includes(e.key)) this.handleOptionKey('A');
       else if (['2', 'b', 'B'].includes(e.key)) this.handleOptionKey('B');
@@ -325,9 +398,167 @@ class App {
       else if (e.key === 'n' || e.key === 'N') this.engine.saveAndNext();
       else if (e.key === 'p' || e.key === 'P') this.engine.prevQuestion();
       else if (e.key === 'm' || e.key === 'M') this.engine.markForReview();
+      else if (e.key === 'l' || e.key === 'L' || e.key === 'h' || e.key === 'H') this.toggleQuestionLanguage();
     });
   }
 
+  /* ================= IN-EXAM QUESTION LANGUAGE SWITCHER ================= */
+  setQuestionLanguage(lang) {
+    this.engine.setLanguage(lang);
+    this.updateExamLanguageControls();
+    this.renderQuestionView();
+  }
+
+  toggleQuestionLanguage() {
+    this.engine.toggleLanguage();
+    this.updateExamLanguageControls();
+    this.renderQuestionView();
+  }
+
+  updateExamLanguageControls() {
+    const current = this.engine.lang || 'en';
+    if (this.btnLangEn) this.btnLangEn.classList.toggle('active', current === 'en');
+    if (this.btnLangHi) this.btnLangHi.classList.toggle('active', current === 'hi');
+    if (this.btnLangBoth) this.btnLangBoth.classList.toggle('active', current === 'both');
+
+    if (this.examLangText) {
+      if (current === 'hi' || current === 'both') {
+        this.examLangText.innerText = 'Switch to English';
+      } else {
+        this.examLangText.innerText = 'Switch to हिन्दी';
+      }
+    }
+  }
+
+  /* ================= LANGUAGE (i18n) ENGINE ================= */
+  initLanguage() {
+    const saved = localStorage.getItem('BSTET_LANG') || 'en';
+    if (window.BSTET_I18N) window.BSTET_I18N.setLang(saved);
+    this.applyLanguage(saved);
+  }
+
+  toggleAppLanguage() {
+    const nextLang = window.BSTET_I18N ? window.BSTET_I18N.toggleLang() : 'en';
+    this.applyLanguage(nextLang);
+  }
+
+  setAppLanguage(lang) {
+    if (window.BSTET_I18N) window.BSTET_I18N.setLang(lang);
+    this.applyLanguage(lang);
+  }
+
+  applyLanguage(lang) {
+    const i18n = window.BSTET_I18N;
+    if (!i18n) return;
+
+    this.engine.setLanguage(lang);
+    this.updateExamLanguageControls();
+
+    // Update Language Toggle Buttons text
+    const otherLangName = lang === 'en' ? 'हिन्दी' : 'English';
+    if (this.langToggleText) this.langToggleText.innerText = otherLangName;
+
+    // Navbar Brand
+    const navTitle = document.getElementById('nav-brand-title');
+    const navSub = document.getElementById('nav-brand-subtitle');
+    if (navTitle) navTitle.innerText = i18n.t('portal_title');
+    if (navSub) navSub.innerText = i18n.t('portal_tagline');
+
+    // Hero Section
+    const heroMission = document.getElementById('hero-mission-pill');
+    const heroQuote = document.getElementById('hero-quote');
+    const heroHeading = document.getElementById('hero-heading');
+    const heroDesc = document.getElementById('hero-desc');
+    if (heroMission) heroMission.innerText = i18n.t('mission_pill');
+    if (heroQuote) heroQuote.innerText = i18n.t('motivational_quote');
+    if (heroHeading) heroHeading.innerText = i18n.t('hero_title');
+    if (heroDesc) heroDesc.innerText = i18n.t('hero_subtitle');
+
+    // Meta Grid
+    const metaSubj = document.getElementById('meta-subj-title');
+    const metaSubjVal = document.getElementById('meta-subj-val');
+    const metaPed = document.getElementById('meta-pedagogy-title');
+    const metaPedVal = document.getElementById('meta-pedagogy-val');
+    const metaSkills = document.getElementById('meta-skills-title');
+    const metaSkillsVal = document.getElementById('meta-skills-val');
+    const metaDur = document.getElementById('meta-dur-title');
+    const metaDurVal = document.getElementById('meta-dur-val');
+    const metaCut = document.getElementById('meta-cut-title');
+    const metaCutVal = document.getElementById('meta-cut-val');
+
+    if (metaSubj) metaSubj.innerText = i18n.t('meta_subject');
+    if (metaSubjVal) metaSubjVal.innerText = i18n.t('meta_subject_val');
+    if (metaPed) metaPed.innerText = i18n.t('meta_pedagogy');
+    if (metaPedVal) metaPedVal.innerText = i18n.t('meta_pedagogy_val');
+    if (metaSkills) metaSkills.innerText = i18n.t('meta_skills');
+    if (metaSkillsVal) metaSkillsVal.innerText = i18n.t('meta_skills_val');
+    if (metaDur) metaDur.innerText = i18n.t('meta_duration');
+    if (metaDurVal) metaDurVal.innerText = i18n.t('meta_duration_val');
+    if (metaCut) metaCut.innerText = i18n.t('meta_cutoff');
+    if (metaCutVal) metaCutVal.innerText = i18n.t('meta_cutoff_val');
+
+    // Filter Tabs
+    const tabAll = document.getElementById('tab-filter-all');
+    const tabOff = document.getElementById('tab-filter-official');
+    const tabPred = document.getElementById('tab-filter-predicted');
+    const tabDrill = document.getElementById('tab-filter-drill');
+    if (tabAll) tabAll.innerText = i18n.t('filter_all');
+    if (tabOff) tabOff.innerText = i18n.t('filter_official');
+    if (tabPred) tabPred.innerText = i18n.t('filter_predicted');
+    if (tabDrill) tabDrill.innerText = i18n.t('filter_drill');
+
+    // History Table Headers
+    const histHead = document.getElementById('history-heading');
+    const histSub = document.getElementById('history-subtext');
+    if (histHead) histHead.innerText = i18n.t('my_history');
+    if (histSub) histSub.innerHTML = i18n.t('history_desc');
+    const thPaper = document.getElementById('th-paper');
+    const thDate = document.getElementById('th-date');
+    const thScore = document.getElementById('th-score');
+    const thAcc = document.getElementById('th-accuracy');
+    const thStat = document.getElementById('th-status');
+    const thAct = document.getElementById('th-action');
+    if (thPaper) thPaper.innerText = i18n.t('table_paper');
+    if (thDate) thDate.innerText = i18n.t('table_date');
+    if (thScore) thScore.innerText = i18n.t('table_score');
+    if (thAcc) thAcc.innerText = i18n.t('table_accuracy');
+    if (thStat) thStat.innerText = i18n.t('table_status');
+    if (thAct) thAct.innerText = i18n.t('table_action');
+
+    // Exam Controls
+    if (this.prevBtn) this.prevBtn.innerText = i18n.t('btn_prev');
+    if (this.nextBtn) this.nextBtn.innerText = i18n.t('btn_next');
+    if (this.clearBtn) this.clearBtn.innerText = i18n.t('btn_clear');
+    if (this.markReviewBtn) this.markReviewBtn.innerText = i18n.t('btn_mark_review');
+    if (this.saveNextBtn) this.saveNextBtn.innerText = i18n.t('btn_save_next');
+    if (this.submitExamBtn) this.submitExamBtn.innerText = i18n.t('btn_submit');
+
+    // Legends
+    const legAns = document.getElementById('leg-text-answered');
+    const legNotAns = document.getElementById('leg-text-not-answered');
+    const legNotVis = document.getElementById('leg-text-not-visited');
+    const legMarked = document.getElementById('leg-text-marked');
+    const legAnsMarked = document.getElementById('leg-text-ans-marked');
+    if (legAns) legAns.innerText = i18n.t('legend_answered');
+    if (legNotAns) legNotAns.innerText = i18n.t('legend_not_answered');
+    if (legNotVis) legNotVis.innerText = i18n.t('legend_not_visited');
+    if (legMarked) legMarked.innerText = i18n.t('legend_marked');
+    if (legAnsMarked) legAnsMarked.innerText = i18n.t('legend_ans_marked');
+
+    // Re-render current active view components
+    if (this.lobbyView.classList.contains('active')) {
+      this.renderLobby();
+      this.renderHistory();
+    } else if (this.examView.classList.contains('active')) {
+      this.renderSectionTabs();
+      this.renderQuestionView();
+      this.renderPalette();
+    } else if (this.resultView.classList.contains('active') && this.lastAnalyticsReport) {
+      this.showResultView(this.lastAnalyticsReport);
+    }
+  }
+
+  /* ================= THEME & DISPLAY ================= */
   initTheme() {
     const saved = localStorage.getItem('BSTET_THEME') || 'light';
     document.documentElement.setAttribute('data-theme', saved);
@@ -346,12 +577,8 @@ class App {
     const isDark = theme === 'dark';
     const text = isDark ? '☀️ Light' : '🌙 Dark';
     const icon = isDark ? '☀️' : '🌙';
-    if (this.themeToggleBtn) {
-      this.themeToggleBtn.innerHTML = text;
-    }
-    if (this.examThemeToggleBtn) {
-      this.examThemeToggleBtn.innerHTML = icon;
-    }
+    if (this.themeToggleBtn) this.themeToggleBtn.innerHTML = text;
+    if (this.examThemeToggleBtn) this.examThemeToggleBtn.innerHTML = icon;
   }
 
   changeFontSize(delta) {
@@ -375,8 +602,9 @@ class App {
   }
 
   updatePauseState(isPaused) {
+    const i18n = window.BSTET_I18N;
     const icon = isPaused ? '▶' : '⏸';
-    const label = isPaused ? 'Resume' : 'Pause';
+    const label = isPaused ? (i18n ? i18n.t('resume') : 'Resume') : (i18n ? i18n.t('pause') : 'Pause');
     if (this.pauseBtn) {
       this.pauseBtn.innerHTML = `<span class="btn-icon">${icon}</span> <span class="btn-text">${label}</span>`;
     }
@@ -393,6 +621,7 @@ class App {
   renderLobby() {
     this.papersGrid.innerHTML = '';
     const catalog = window.PAPERS_CATALOG || [];
+    const i18n = window.BSTET_I18N;
 
     const filtered = catalog.filter(p => {
       if (this.currentFilter === 'all') return true;
@@ -405,6 +634,13 @@ class App {
     filtered.forEach(paper => {
       const card = document.createElement('div');
       card.className = 'paper-card';
+      const cbtLabel = i18n ? i18n.t('start_cbt') : '⚡ Start CBT Mock';
+      const practiceLabel = i18n ? i18n.t('practice_mode') : '📖 Practice Mode';
+      const qLabel = i18n ? i18n.t('questions_label') : 'Questions';
+      const mLabel = i18n ? i18n.t('marks_label') : 'Total Marks';
+      const dLabel = i18n ? i18n.t('duration_label') : 'Duration';
+      const minsWord = i18n ? i18n.t('mins') : 'Mins';
+
       card.innerHTML = `
         <div>
           <div class="paper-header">
@@ -415,25 +651,25 @@ class App {
           <p class="paper-subtitle">${paper.subtitle}</p>
           <div class="paper-stats-list">
             <div class="stat-item">
-              <span class="label">Questions</span>
+              <span class="label">${qLabel}</span>
               <span class="val">${paper.totalQuestions} Qs</span>
             </div>
             <div class="stat-item">
-              <span class="label">Total Marks</span>
-              <span class="val">${paper.totalMarks} Marks</span>
+              <span class="label">${mLabel}</span>
+              <span class="val">${paper.totalMarks}</span>
             </div>
             <div class="stat-item">
-              <span class="label">Duration</span>
-              <span class="val">${paper.durationMinutes} Mins</span>
+              <span class="label">${dLabel}</span>
+              <span class="val">${paper.durationMinutes} ${minsWord}</span>
             </div>
           </div>
         </div>
         <div class="paper-card-actions">
           <button class="btn btn-primary" data-action="cbt" data-id="${paper.id}">
-            ⚡ Start CBT Mock
+            ${cbtLabel}
           </button>
           <button class="btn btn-outline" data-action="practice" data-id="${paper.id}">
-            📖 Practice Mode
+            ${practiceLabel}
           </button>
         </div>
       `;
@@ -452,54 +688,57 @@ class App {
   }
 
   renderHistory() {
+    this.historyTableBody.innerHTML = '';
     const history = ExamAnalytics.getHistory();
-    if (!this.historyTableBody) return;
+    const i18n = window.BSTET_I18N;
 
     if (history.length === 0) {
+      const emptyMsg = i18n ? i18n.t('no_history') : 'No test attempts recorded yet. Launch a mock test above to see your analytics!';
       this.historyTableBody.innerHTML = `
         <tr>
           <td colspan="6" style="text-align: center; color: var(--text-muted); padding: 24px;">
-            No mock test attempts recorded yet. Choose a paper above and take your first CBT mock test!
+            ${emptyMsg}
           </td>
         </tr>
       `;
       return;
     }
 
-    this.historyTableBody.innerHTML = history.map(item => {
-      const dateStr = new Date(item.timestamp).toLocaleDateString() + ' ' + new Date(item.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-      const verdict = item.isQualified 
-        ? `<span style="color: #16a34a; font-weight: 700;">QUALIFIED</span>`
-        : `<span style="color: #dc2626; font-weight: 700;">NOT QUALIFIED</span>`;
+    history.forEach(item => {
+      const row = document.createElement('tr');
+      const dateStr = new Date(item.timestamp).toLocaleString('en-IN', {
+        dateStyle: 'medium',
+        timeStyle: 'short'
+      });
+      const isQualified = item.isQualified;
+      const statusHtml = isQualified 
+        ? '<span class="status-badge-qual">🎉 Qualified</span>' 
+        : '<span class="status-badge-miss">⚠️ Needs Prep</span>';
 
-      return `
-        <tr>
-          <td style="font-weight: 600;">${item.paperTitle}</td>
-          <td>${dateStr}</td>
-          <td><strong>${item.score}</strong> / ${item.maxMarks} (${item.percentage}%)</td>
-          <td>${item.accuracy}%</td>
-          <td>${verdict}</td>
-          <td>
-            <button class="btn btn-outline" data-review-attempt="${item.id}" style="padding: 4px 10px; font-size: 12px; white-space: nowrap;">
-              📖 Review Solutions
-            </button>
-          </td>
-        </tr>
+      row.innerHTML = `
+        <td><strong>${item.paperTitle}</strong></td>
+        <td style="color: var(--text-secondary); font-size: 13px;">${dateStr}</td>
+        <td><strong style="color: var(--primary);">${item.score} / ${item.maxMarks}</strong> (${item.percentage}%)</td>
+        <td><strong>${item.accuracy}%</strong></td>
+        <td>${statusHtml}</td>
+        <td>
+          <button class="btn btn-secondary" style="font-size: 12px; padding: 5px 10px;" data-review-id="${item.id}">
+            📖 ${i18n ? i18n.t('review_solutions') : 'Review Solutions'}
+          </button>
+        </td>
       `;
-    }).join('');
 
-    // Bind review buttons
-    this.historyTableBody.querySelectorAll('[data-review-attempt]').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const attemptId = btn.dataset.reviewAttempt;
-        const attempt = ExamAnalytics.getAttempt(attemptId);
-        if (attempt) {
-          this.lastAnalyticsReport = attempt;
-          this.showResultView(attempt);
+      row.querySelector('[data-review-id]').addEventListener('click', () => {
+        const fullReport = ExamAnalytics.getAttempt(item.id);
+        if (fullReport) {
+          this.lastAnalyticsReport = fullReport;
+          this.showResultView(fullReport);
         } else {
           alert('Full detailed attempt report not found for this attempt.');
         }
       });
+
+      this.historyTableBody.appendChild(row);
     });
   }
 
@@ -550,8 +789,11 @@ class App {
   launchPaper(paperData, mode = 'cbt') {
     this.currentPaper = paperData;
     this.engine.init(paperData, mode, true);
+    // Start questions matching candidate preference (or default English)
+    const initialLang = (window.BSTET_I18N && window.BSTET_I18N.currentLang === 'hi') ? 'hi' : 'en';
+    this.engine.setLanguage(initialLang);
+    this.updateExamLanguageControls();
 
-    // Lock screen to full viewport CBT mode & reset scroll
     document.body.classList.add('in-exam-mode');
     window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
     document.documentElement.scrollTop = 0;
@@ -563,13 +805,11 @@ class App {
 
     this.examTitle.innerText = paperData.title;
 
-    // Reset pause state if needed
     if (this.pauseModal) this.pauseModal.classList.remove('active');
     if (this.pauseBtn) {
       this.pauseBtn.innerHTML = `<span class="btn-icon">⏸</span> <span class="btn-text">Pause</span>`;
     }
 
-    // Show/hide timer based on mode
     if (mode === 'practice') {
       this.timerBox.style.display = 'none';
       if (this.revealExplanationBtn) this.revealExplanationBtn.style.display = 'inline-flex';
@@ -586,12 +826,15 @@ class App {
   renderSectionTabs() {
     this.sectionsTabsContainer.innerHTML = '';
     const currentSec = this.engine.getCurrentSection();
+    const i18n = window.BSTET_I18N;
 
     this.currentPaper.sections.forEach(sec => {
       const tab = document.createElement('button');
       tab.className = `section-tab-btn ${currentSec && currentSec.id === sec.id ? 'active' : ''}`;
+      const secDisplayName = i18n ? i18n.translateSection(sec.name) : sec.name;
+
       tab.innerHTML = `
-        <span>${sec.name}</span>
+        <span>${secDisplayName}</span>
         <span class="badge-count">${sec.total} Qs</span>
       `;
       tab.addEventListener('click', () => {
@@ -604,19 +847,32 @@ class App {
   renderQuestionView() {
     const q = this.engine.getCurrentQuestion();
     if (!q) return;
+    const i18n = window.BSTET_I18N;
 
-    this.qNumberText.innerText = `Question ${q.questionNumber} of ${this.currentPaper.questions.length}`;
-    this.qTopicTag.innerText = q.topic || "Computer Science";
+    const qPrefix = 'Question';
+    const ofLabel = 'of';
+    this.qNumberText.innerText = `${qPrefix} ${q.questionNumber} ${ofLabel} ${this.currentPaper.questions.length}`;
     
-    // Question text
-    this.qStatement.innerHTML = q.question.replace(/\n/g, '<br>');
+    // Topic translation
+    this.qTopicTag.innerText = this.engine.getQuestionTopic(q);
+    
+    // Question text (Bilingual supported)
+    const statement = this.engine.getQuestionStatement(q);
+    if (this.engine.lang === 'both') {
+      this.qStatement.innerHTML = statement;
+    } else {
+      this.qStatement.innerHTML = statement.replace(/\n/g, '<br>');
+    }
 
-    // Options
+    // Sync language control buttons
+    this.updateExamLanguageControls();
+
+    // Options (Bilingual)
     this.optionsContainer.innerHTML = '';
     const currentResp = this.engine.responses[q.id];
 
     ['A', 'B', 'C', 'D'].forEach(letter => {
-      const optText = q.options[letter];
+      const optText = this.engine.getOptionText(q, letter);
       if (!optText) return;
 
       const card = document.createElement('div');
@@ -637,13 +893,16 @@ class App {
 
     // Update section tabs active state
     const currSec = this.engine.getCurrentSection();
-    document.querySelectorAll('.section-tab-btn').forEach(btn => {
-      if (btn.innerText.includes(currSec.name)) {
-        btn.classList.add('active');
-      } else {
-        btn.classList.remove('active');
-      }
-    });
+    if (currSec) {
+      document.querySelectorAll('.section-tab-btn').forEach(btn => {
+        const secDisplayName = i18n ? i18n.translateSection(currSec.name) : currSec.name;
+        if (btn.innerText.includes(secDisplayName) || btn.innerText.includes(currSec.name)) {
+          btn.classList.add('active');
+        } else {
+          btn.classList.remove('active');
+        }
+      });
+    }
 
     // Practice explanation box reset
     this.practiceBox.classList.remove('active');
@@ -682,7 +941,6 @@ class App {
 
       btn.addEventListener('click', () => {
         this.engine.jumpToQuestion(idx);
-        // On mobile, close palette drawer after click
         if (window.innerWidth <= 900) {
           this.palettePane.classList.remove('open');
           this.paletteBackdrop.classList.remove('active');
@@ -764,23 +1022,31 @@ class App {
   /* ================= QUESTION PAPER PREVIEW MODAL ================= */
   openQuestionPaperModal() {
     if (!this.currentPaper) return;
-    this.qpModalBody.innerHTML = this.currentPaper.questions.map(q => `
-      <div style="padding: 16px 0; border-bottom: 1px solid var(--border-subtle);">
-        <p style="font-weight: 700; color: var(--text-primary); margin-bottom: 8px;">
-          Q.${q.questionNumber} ${q.question}
-        </p>
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 13px; color: var(--text-secondary);">
-          <div>(A) ${q.options.A}</div>
-          <div>(B) ${q.options.B}</div>
-          <div>(C) ${q.options.C}</div>
-          <div>(D) ${q.options.D}</div>
+    this.qpModalBody.innerHTML = this.currentPaper.questions.map(q => {
+      const statement = this.engine.getQuestionStatement(q);
+      const optA = this.engine.getOptionText(q, 'A');
+      const optB = this.engine.getOptionText(q, 'B');
+      const optC = this.engine.getOptionText(q, 'C');
+      const optD = this.engine.getOptionText(q, 'D');
+
+      return `
+        <div style="padding: 16px 0; border-bottom: 1px solid var(--border-subtle);">
+          <p style="font-weight: 700; color: var(--text-primary); margin-bottom: 8px;">
+            Q.${q.questionNumber} ${statement}
+          </p>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 13px; color: var(--text-secondary);">
+            <div>(A) ${optA}</div>
+            <div>(B) ${optB}</div>
+            <div>(C) ${optC}</div>
+            <div>(D) ${optD}</div>
+          </div>
         </div>
-      </div>
-    `).join('');
+      `;
+    }).join('');
     this.qpModal.classList.add('active');
   }
 
-  /* ================= SCORECARD & ANALYTICS VIEW ================= */
+  /* ================= SCORECARD & PRODUCTION-GRADE ANALYTICS VIEW ================= */
   showResultView(report) {
     document.body.classList.remove('in-exam-mode');
     window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
@@ -792,31 +1058,82 @@ class App {
     this.lobbyView.classList.remove('active');
     this.resultView.classList.add('active');
 
+    const i18n = window.BSTET_I18N;
+    const isHindi = i18n && i18n.currentLang === 'hi';
+
     this.resPaperTitle.innerText = report.paperTitle;
     this.resScore.innerText = report.totalScore;
     this.resMaxScore.innerText = `/ ${report.maxMarks}`;
 
+    // Verdict Badge
     if (report.isQualified) {
       this.resVerdictBadge.className = 'verdict-badge qualified';
-      this.resVerdictBadge.innerHTML = `🎉 QUALIFIED (Score: ${report.totalScore} / 75 Gen Cutoff)`;
+      this.resVerdictBadge.innerHTML = isHindi
+        ? `🎉 उत्तीर्ण (QUALIFIED) • स्कोर: ${report.totalScore} (सामान्य कट-ऑफ 75 अंक)`
+        : `🎉 QUALIFIED • Score: ${report.totalScore} (Gen Cutoff 75 Marks)`;
     } else {
       this.resVerdictBadge.className = 'verdict-badge not-qualified';
-      this.resVerdictBadge.innerHTML = `⚠️ NOT QUALIFIED (Score: ${report.totalScore} / 75 Gen Cutoff Needed)`;
+      this.resVerdictBadge.innerHTML = isHindi
+        ? `⚠️ अनुत्तीर्ण (NOT QUALIFIED) • स्कोर: ${report.totalScore} (सामान्य कट-ऑफ 75 अंक आवश्यक)`
+        : `⚠️ NOT QUALIFIED • Score: ${report.totalScore} (75 Marks Needed for Gen Cutoff)`;
     }
 
-    this.resAccuracy.innerText = `${report.accuracy}%`;
-    this.resAttempted.innerText = `${report.attemptedCount} / ${report.totalQuestions}`;
+    // Animate Circular Gauges
+    const circumference = 2 * Math.PI * 40; // ~251.2
+    if (this.gaugeScoreFill) {
+      const pctOffset = circumference - (report.percentage / 100) * circumference;
+      this.gaugeScoreFill.style.strokeDasharray = `${circumference}`;
+      this.gaugeScoreFill.style.strokeDashoffset = `${Math.max(0, pctOffset)}`;
+    }
+    if (this.gaugeAccuracyFill) {
+      const accOffset = circumference - (report.accuracy / 100) * circumference;
+      this.gaugeAccuracyFill.style.strokeDasharray = `${circumference}`;
+      this.gaugeAccuracyFill.style.strokeDashoffset = `${Math.max(0, accOffset)}`;
+    }
+
     this.resPercentage.innerText = `${report.percentage}%`;
+    this.resAccuracy.innerText = `${report.accuracy}%`;
+    this.resPaceValue.innerText = `${report.avgTimePerAttempt}s / Q`;
+    if (this.resPaceIcon) {
+      this.resPaceIcon.innerText = report.paceCategory === 'Rapid' ? '🚀' : (report.paceCategory === 'Slow' ? '⏳' : '⚡');
+    }
+    this.resPercentile.innerText = `${report.estPercentile}th`;
+
+    // Render Official Cutoff Qualification Matrix Table
+    if (this.cutoffTableBody && report.cutoffs) {
+      this.cutoffTableBody.innerHTML = Object.entries(report.cutoffs).map(([key, cat]) => {
+        const catName = isHindi ? cat.category_hi : cat.category;
+        const statusBadge = cat.qualified
+          ? `<span class="status-badge-qual">🎉 ${isHindi ? 'उत्तीर्ण (Qualified)' : 'Qualified'}</span>`
+          : `<span class="status-badge-miss">⚠️ ${isHindi ? 'कम रह गए (Missed)' : 'Missed'}</span>`;
+        const marginColor = parseFloat(cat.margin) >= 0 ? '#16a34a' : '#dc2626';
+        const sign = parseFloat(cat.margin) >= 0 ? '+' : '';
+
+        return `
+          <tr>
+            <td><strong>${catName}</strong></td>
+            <td>${cat.minPct}%</td>
+            <td><strong>${cat.minMarks}</strong></td>
+            <td><strong style="color: var(--primary);">${report.totalScore}</strong></td>
+            <td>${statusBadge}</td>
+            <td style="color: ${marginColor}; font-weight: 700;">${sign}${cat.margin}</td>
+          </tr>
+        `;
+      }).join('');
+    }
 
     // Render Section Breakdown Cards
     this.resSectionsBreakdown.innerHTML = Object.values(report.sectionStats).map(sec => {
       const pct = sec.total > 0 ? ((sec.score / sec.total) * 100).toFixed(0) : 0;
+      const secName = isHindi ? sec.name_hi : sec.name;
+      const secMins = Math.round(sec.timeSpent / 60);
+
       return `
         <div class="breakdown-card">
-          <h4>${sec.name}</h4>
+          <h4>${secName}</h4>
           <div style="display: flex; justify-content: space-between; font-size: 14px;">
             <span style="font-weight: 700; color: var(--primary);">${sec.score} / ${sec.total} Marks</span>
-            <span style="color: var(--text-muted);">${pct}%</span>
+            <span style="color: var(--text-muted);">${pct}% • ⏱ ${secMins}m</span>
           </div>
           <div class="progress-bar-bg">
             <div class="progress-bar-fill" style="width: ${pct}%;"></div>
@@ -830,40 +1147,108 @@ class App {
       `;
     }).join('');
 
-    // Render Topic Breakdown
-    const sortedTopics = Object.entries(report.topicStats).sort((a, b) => b[1].total - a[1].total);
-    this.resTopicBreakdown.innerHTML = sortedTopics.map(([topicName, stat]) => {
-      const accuracyPct = stat.total > 0 ? ((stat.correct / stat.total) * 100).toFixed(0) : 0;
-      return `
-        <div style="margin-bottom: 12px;">
-          <div style="display: flex; justify-content: space-between; font-size: 13px; font-weight: 600;">
-            <span>${topicName} (${stat.correct}/${stat.total})</span>
-            <span style="color: ${accuracyPct >= 60 ? '#16a34a' : '#dc2626'};">${accuracyPct}%</span>
+    // Render Three-Tier Diagnostic Matrix
+    if (this.diagStrongItems) {
+      if (report.strongTopics && report.strongTopics.length > 0) {
+        this.diagStrongItems.innerHTML = report.strongTopics.map(t => `
+          <div class="diag-item">
+            <div class="diag-item-row">
+              <span>${isHindi ? t.name_hi : t.name}</span>
+              <span style="color: #16a34a;">${t.accuracy}% (${t.correct}/${t.total})</span>
+            </div>
+            <div class="diag-item-tip">Excellent conceptual mastery. Practice speed drills to sustain consistency.</div>
           </div>
-          <div class="progress-bar-bg">
-            <div class="progress-bar-fill" style="width: ${accuracyPct}%; background-color: ${accuracyPct >= 60 ? '#16a34a' : '#ef4444'};"></div>
+        `).join('');
+      } else {
+        this.diagStrongItems.innerHTML = `<p style="font-size: 13px; color: var(--text-muted); padding: 8px;">Focus on core units to elevate topics to this tier.</p>`;
+      }
+    }
+
+    if (this.diagModItems) {
+      if (report.moderateTopics && report.moderateTopics.length > 0) {
+        this.diagModItems.innerHTML = report.moderateTopics.map(t => `
+          <div class="diag-item">
+            <div class="diag-item-row">
+              <span>${isHindi ? t.name_hi : t.name}</span>
+              <span style="color: #f59e0b;">${t.accuracy}% (${t.correct}/${t.total})</span>
+            </div>
+            <div class="diag-item-tip">Good foundation; revise formulas and edge-case exceptions to cross 75%.</div>
           </div>
-        </div>
-      `;
-    }).join('');
+        `).join('');
+      } else {
+        this.diagModItems.innerHTML = `<p style="font-size: 13px; color: var(--text-muted); padding: 8px;">No topics currently in moderate range.</p>`;
+      }
+    }
+
+    if (this.diagWeakItems) {
+      if (report.weakTopics && report.weakTopics.length > 0) {
+        this.diagWeakItems.innerHTML = report.weakTopics.map(t => `
+          <div class="diag-item">
+            <div class="diag-item-row">
+              <span>${isHindi ? t.name_hi : t.name}</span>
+              <span style="color: #dc2626;">${t.accuracy}% (${t.correct}/${t.total})</span>
+            </div>
+            <div class="diag-item-tip">⚠️ <strong>Action Plan:</strong> Read conceptual solutions below, review syllabus notes, and re-attempt sectional drills.</div>
+          </div>
+        `).join('');
+      } else {
+        this.diagWeakItems.innerHTML = `<p style="font-size: 13px; color: #16a34a; font-weight: 600; padding: 8px;">Outstanding! No weak topics detected below 50% threshold.</p>`;
+      }
+    }
+
+    // Populate Solutions Topic Filter Dropdown
+    if (this.solTopicSelect) {
+      const uniqueTopics = [...new Set(report.questionReviews.map(q => q.topic))].filter(Boolean);
+      this.solTopicSelect.innerHTML = `<option value="all">All Topics (15 Units + Pedagogy)</option>` + uniqueTopics.map(topic => {
+        const topicName = (isHindi && i18n) ? i18n.translateTopic(topic) : topic;
+        return `<option value="${topic}">${topicName}</option>`;
+      }).join('');
+      this.solTopicFilter = 'all';
+    }
 
     this.renderSolutions();
+  }
+
+  shareScorecard() {
+    if (!this.lastAnalyticsReport) return;
+    const r = this.lastAnalyticsReport;
+    const summary = `🎯 Bihar STET Paper II (Computer Science) CBT Mock Scorecard\n` +
+      `📝 Paper: ${r.paperTitle}\n` +
+      `📊 Score: ${r.totalScore} / ${r.maxMarks} (${r.percentage}%)\n` +
+      `🎯 Accuracy: ${r.accuracy}%\n` +
+      `🏆 Projected Percentile: ${r.estPercentile}th\n` +
+      `✅ Result: ${r.isQualified ? 'QUALIFIED for STET 2026! 🎉' : 'Needs Practice (75 Marks Cutoff)'}\n` +
+      `⏱ Exam Simulator: https://bstet-cs-cbt.vercel.app`;
+    
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(summary).then(() => {
+        alert('Scorecard summary copied to clipboard! You can share it on WhatsApp or Telegram.');
+      }).catch(() => {
+        prompt('Copy your scorecard summary below:', summary);
+      });
+    } else {
+      prompt('Copy your scorecard summary below:', summary);
+    }
   }
 
   renderSolutions() {
     if (!this.lastAnalyticsReport) return;
     const reviews = this.lastAnalyticsReport.questionReviews;
+    const isHindi = this.solLang === 'hi';
+    const i18n = window.BSTET_I18N;
 
     const filtered = reviews.filter(q => {
-      if (this.solFilter === 'all') return true;
-      if (this.solFilter === 'incorrect') return !q.isCorrect && q.isAttempted;
-      if (this.solFilter === 'unattempted') return !q.isAttempted;
-      if (this.solFilter === 'correct') return q.isCorrect;
+      // Status filter
+      if (this.solFilter === 'incorrect' && (q.isCorrect || !q.isAttempted)) return false;
+      if (this.solFilter === 'unattempted' && q.isAttempted) return false;
+      if (this.solFilter === 'correct' && !q.isCorrect) return false;
+      // Topic filter
+      if (this.solTopicFilter !== 'all' && q.topic !== this.solTopicFilter) return false;
       return true;
     });
 
     if (filtered.length === 0) {
-      this.solutionsList.innerHTML = `<p style="color: var(--text-muted); padding: 20px; text-align: center;">No questions match the '${this.solFilter}' filter.</p>`;
+      this.solutionsList.innerHTML = `<p style="color: var(--text-muted); padding: 30px; text-align: center;">No questions match the current status & topic filter criteria.</p>`;
       return;
     }
 
@@ -873,8 +1258,12 @@ class App {
         ? '<span style="color: #16a34a; font-weight: 700;">✔ Correct</span>' 
         : (q.isAttempted ? '<span style="color: #dc2626; font-weight: 700;">✘ Incorrect</span>' : '<span style="color: #64748b; font-weight: 700;">○ Unattempted</span>');
 
+      const questionStatement = isHindi && q.question_hi ? q.question_hi : q.question;
+      const topicName = (isHindi && (q.topic_hi || (i18n && i18n.translateTopic(q.topic)))) || q.topic;
+      const explanation = isHindi && q.explanation_hi ? q.explanation_hi : q.explanation;
+
       const optionsHtml = ['A', 'B', 'C', 'D'].map(letter => {
-        const text = q.options[letter];
+        const text = (isHindi && q.options_hi && q.options_hi[letter]) ? q.options_hi[letter] : (q.options ? q.options[letter] : '');
         if (!text) return '';
         const isOfficialCorrect = q.correctAnswer === letter;
         const isUserChoice = q.userResponse === letter;
@@ -884,10 +1273,10 @@ class App {
 
         if (isOfficialCorrect) {
           optClass += ' is-correct';
-          badge = '<span style="font-weight: 700; margin-left: auto;">[Correct Answer]</span>';
+          badge = `<span style="font-weight: 700; margin-left: auto;">[${isHindi ? 'आधिकारिक सही उत्तर' : 'Official Correct Answer'}]</span>`;
         } else if (isUserChoice && !isOfficialCorrect) {
           optClass += ' user-wrong';
-          badge = '<span style="font-weight: 700; margin-left: auto;">[Your Choice - Wrong]</span>';
+          badge = `<span style="font-weight: 700; margin-left: auto;">[${isHindi ? 'आपका उत्तर - गलत' : 'Your Choice - Incorrect'}]</span>`;
         }
 
         return `
@@ -899,25 +1288,32 @@ class App {
         `;
       }).join('');
 
+      const timeSpentSecs = q.timeSpent || 0;
+
       return `
         <div class="solution-card ${statusClass}">
           <div class="sol-header">
             <div class="sol-tag-row">
               <strong style="font-size: 15px;">Q.${q.questionNumber}</strong>
-              <span class="topic-tag">${q.topic}</span>
+              <span class="topic-tag">${topicName}</span>
               <span style="font-size: 12px; color: var(--text-muted);">[${q.section}]</span>
+              <span style="font-size: 11px; background: var(--bg-subtle); padding: 2px 6px; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); color: var(--text-secondary);">
+                ⏱ ${timeSpentSecs}s spent
+              </span>
             </div>
             <div>${statusText}</div>
           </div>
           <p style="font-size: 16px; font-weight: 500; color: var(--text-primary); margin-bottom: 12px;">
-            ${q.question}
+            ${questionStatement}
           </p>
           <div class="sol-options-grid">
             ${optionsHtml}
           </div>
           <div class="explanation-box">
-            <div style="font-weight: 700; margin-bottom: 6px; color: var(--primary);">📖 Conceptual Explanation & Theory:</div>
-            <div>${q.explanation.replace(/\n/g, '<br>')}</div>
+            <div style="font-weight: 700; margin-bottom: 6px; color: var(--primary);">
+              ${isHindi ? '📖 अवधारणात्मक सिद्धांत एवं विस्तृत समाधान:' : '📖 Conceptual Theory & Detailed Explanation:'}
+            </div>
+            <div>${explanation ? explanation.replace(/\n/g, '<br>') : 'Official answer confirmed.'}</div>
           </div>
         </div>
       `;
@@ -938,7 +1334,7 @@ class App {
   }
 }
 
-// Initialize on DOM load
+// Initialize application on DOM load
 window.addEventListener('DOMContentLoaded', () => {
   window.app = new App();
 });

@@ -1,6 +1,7 @@
 /**
  * Bihar STET CBT Exam Engine
- * High-performance, robust state machine managing timer, question palette, responses, and persistence.
+ * High-performance, robust state machine managing timer, question palette, responses, persistence,
+ * and bilingual language switching.
  */
 
 class ExamEngine {
@@ -17,6 +18,7 @@ class ExamEngine {
     this.startTime = null;
     this.timeSpentPerQ = {}; // qId -> seconds
     this.lastTickTime = null;
+    this.lang = (window.BSTET_I18N && window.BSTET_I18N.currentLang) || localStorage.getItem('BSTET_LANG') || 'en';
     this.onTick = null;
     this.onQuestionChange = null;
     this.onAutoSubmit = null;
@@ -26,6 +28,7 @@ class ExamEngine {
     this.paper = paperData;
     this.mode = mode;
     this.totalDuration = (this.paper.durationMinutes || 150) * 60;
+    this.lang = (window.BSTET_I18N && window.BSTET_I18N.currentLang) || localStorage.getItem('BSTET_LANG') || 'en';
     
     const saved = resume ? this.loadSession(this.paper.id) : null;
     
@@ -36,6 +39,7 @@ class ExamEngine {
       this.timeRemaining = saved.timeRemaining !== undefined ? saved.timeRemaining : this.totalDuration;
       this.timeSpentPerQ = saved.timeSpentPerQ || {};
       this.startTime = saved.startTime || Date.now();
+      if (saved.lang) this.lang = saved.lang;
     } else {
       this.currentIndex = 0;
       this.responses = {};
@@ -53,6 +57,66 @@ class ExamEngine {
 
     this.startTimer();
     this.saveSession();
+  }
+
+  setLanguage(newLang) {
+    if (newLang !== 'en' && newLang !== 'hi' && newLang !== 'both') newLang = 'en';
+    this.lang = newLang;
+    this.saveSession();
+    return this.lang;
+  }
+
+  toggleLanguage() {
+    const next = this.lang === 'en' ? 'hi' : 'en';
+    return this.setLanguage(next);
+  }
+
+  getQuestionStatement(q) {
+    if (!q) return "";
+    if (this.lang === 'hi' && q.question_hi) {
+      return q.question_hi;
+    }
+    if (this.lang === 'both' && q.question_hi) {
+      return `<div class="dual-question-en">${q.question.replace(/\n/g, '<br>')}</div><div class="dual-question-hi"><span class="dual-tag">हिन्दी अनुवाद:</span> ${q.question_hi.replace(/\n/g, '<br>')}</div>`;
+    }
+    return q.question;
+  }
+
+  getOptionText(q, optKey) {
+    if (!q || !q.options) return "";
+    const enOpt = q.options[optKey] || "";
+    const hiOpt = (q.options_hi && q.options_hi[optKey]) ? q.options_hi[optKey] : "";
+
+    if (this.lang === 'hi') {
+      return hiOpt || enOpt;
+    }
+    if (this.lang === 'both' && hiOpt && hiOpt !== enOpt) {
+      return `<div class="option-text-dual"><span class="opt-en">${enOpt}</span><span class="opt-hi">${hiOpt}</span></div>`;
+    }
+    return enOpt;
+  }
+
+  getQuestionTopic(q) {
+    if (!q) return "Computer Science";
+    if (this.lang === 'hi' || this.lang === 'both') {
+      if (q.topic_hi) return q.topic_hi;
+      if (window.BSTET_I18N) return window.BSTET_I18N.translateTopic(q.topic);
+    }
+    return q.topic || "Computer Science";
+  }
+
+  getQuestionExplanation(q) {
+    if (!q) return "";
+    const enExp = q.explanation || "";
+    const hiExp = q.explanation_hi || "";
+
+    if (this.lang === 'hi') {
+      return hiExp || enExp;
+    }
+    if (this.lang === 'both' && hiExp && hiExp !== enExp) {
+      return `<div class="dual-explanation-en">${enExp}</div><div class="dual-question-hi" style="margin-top:8px;"><span class="dual-tag">हिन्दी व्याख्या:</span> ${hiExp}</div>`;
+    }
+    return enExp;
   }
 
   startTimer() {
@@ -242,6 +306,7 @@ class ExamEngine {
       timeRemaining: this.timeRemaining,
       timeSpentPerQ: this.timeSpentPerQ,
       startTime: this.startTime,
+      lang: this.lang,
       lastUpdated: Date.now()
     };
     try {

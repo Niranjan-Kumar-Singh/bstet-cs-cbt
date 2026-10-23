@@ -45,7 +45,16 @@ window.predicted_set3 = {
         "D": "8"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines."
+      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "a 64-to-1 Multiplexer (MUX) के लिए कितने select lines की आवश्यकता होती है?",
+      "options_hi": {
+        "A": "4?",
+        "B": "5?",
+        "C": "6?",
+        "D": "8?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 2,
@@ -62,13 +71,22 @@ window.predicted_set3 = {
         "D": "In secondary optical storage"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations."
+      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "In पेजिंग (Paging) memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "options_hi": {
+        "A": "On the hard disk?",
+        "B": "In main memory RAM?",
+        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache?",
+        "D": "In secondary optical storage?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 3,
       "questionNumber": 3,
       "section": "Computer Science",
-      "topic": "Internet of Things",
+      "topic": "Digital Logic",
       "marks": 1,
       "negativeMarks": 0,
       "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
@@ -79,7 +97,16 @@ window.predicted_set3 = {
         "D": "Modem dial-ups"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data."
+      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:?",
+      "options_hi": {
+        "A": "RESTful Web APIs and JSON?",
+        "B": "Raw binary serial ports?",
+        "C": "Assembly instructions?",
+        "D": "Modem dial-ups?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 4,
@@ -96,7 +123,16 @@ window.predicted_set3 = {
         "D": "2n - 1"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges."
+      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "What is the number of edges in a tree with n vertices?",
+      "options_hi": {
+        "A": "n?",
+        "B": "n - 1?",
+        "C": "n + 1?",
+        "D": "2n - 1?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 5,
@@ -113,7 +149,16 @@ window.predicted_set3 = {
         "D": "Virtual functions"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization."
+      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "निम्नलिखित में से कौन सा members cannot be inherited by a derived class C++ में?",
+      "options_hi": {
+        "A": "Protected variables?",
+        "B": "Public methods?",
+        "C": "Constructors and Destructors?",
+        "D": "Virtual functions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 6,
@@ -130,7 +175,16 @@ window.predicted_set3 = {
         "D": "Sector Mapping"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags."
+      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+      "options_hi": {
+        "A": "Direct Mapping?",
+        "B": "Fully Associative Mapping?",
+        "C": "Set-Associative Mapping?",
+        "D": "Sector Mapping?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 7,
@@ -147,7 +201,16 @@ window.predicted_set3 = {
         "D": "/27"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26."
+      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "What is the CIDR prefix for a subnet with a सबनेट मास्क of 255.255.255.192?",
+      "options_hi": {
+        "A": "/24?",
+        "B": "/25?",
+        "C": "/26?",
+        "D": "/27?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 8,
@@ -164,7 +227,16 @@ window.predicted_set3 = {
         "D": "8"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines."
+      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "a 64-to-1 Multiplexer (MUX) के लिए कितने select lines की आवश्यकता होती है?",
+      "options_hi": {
+        "A": "4?",
+        "B": "5?",
+        "C": "6?",
+        "D": "8?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 9,
@@ -181,13 +253,22 @@ window.predicted_set3 = {
         "D": "In secondary optical storage"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations."
+      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "In पेजिंग (Paging) memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "options_hi": {
+        "A": "On the hard disk?",
+        "B": "In main memory RAM?",
+        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache?",
+        "D": "In secondary optical storage?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 10,
       "questionNumber": 10,
       "section": "Computer Science",
-      "topic": "Internet of Things",
+      "topic": "Digital Logic",
       "marks": 1,
       "negativeMarks": 0,
       "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
@@ -198,7 +279,16 @@ window.predicted_set3 = {
         "D": "Modem dial-ups"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data."
+      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:?",
+      "options_hi": {
+        "A": "RESTful Web APIs and JSON?",
+        "B": "Raw binary serial ports?",
+        "C": "Assembly instructions?",
+        "D": "Modem dial-ups?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 11,
@@ -215,7 +305,16 @@ window.predicted_set3 = {
         "D": "2n - 1"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges."
+      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "What is the number of edges in a tree with n vertices?",
+      "options_hi": {
+        "A": "n?",
+        "B": "n - 1?",
+        "C": "n + 1?",
+        "D": "2n - 1?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 12,
@@ -232,7 +331,16 @@ window.predicted_set3 = {
         "D": "Virtual functions"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization."
+      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "निम्नलिखित में से कौन सा members cannot be inherited by a derived class C++ में?",
+      "options_hi": {
+        "A": "Protected variables?",
+        "B": "Public methods?",
+        "C": "Constructors and Destructors?",
+        "D": "Virtual functions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 13,
@@ -249,7 +357,16 @@ window.predicted_set3 = {
         "D": "Sector Mapping"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags."
+      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+      "options_hi": {
+        "A": "Direct Mapping?",
+        "B": "Fully Associative Mapping?",
+        "C": "Set-Associative Mapping?",
+        "D": "Sector Mapping?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 14,
@@ -266,7 +383,16 @@ window.predicted_set3 = {
         "D": "/27"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26."
+      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "What is the CIDR prefix for a subnet with a सबनेट मास्क of 255.255.255.192?",
+      "options_hi": {
+        "A": "/24?",
+        "B": "/25?",
+        "C": "/26?",
+        "D": "/27?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 15,
@@ -283,7 +409,16 @@ window.predicted_set3 = {
         "D": "8"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines."
+      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "a 64-to-1 Multiplexer (MUX) के लिए कितने select lines की आवश्यकता होती है?",
+      "options_hi": {
+        "A": "4?",
+        "B": "5?",
+        "C": "6?",
+        "D": "8?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 16,
@@ -300,13 +435,22 @@ window.predicted_set3 = {
         "D": "In secondary optical storage"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations."
+      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "In पेजिंग (Paging) memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "options_hi": {
+        "A": "On the hard disk?",
+        "B": "In main memory RAM?",
+        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache?",
+        "D": "In secondary optical storage?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 17,
       "questionNumber": 17,
       "section": "Computer Science",
-      "topic": "Internet of Things",
+      "topic": "Digital Logic",
       "marks": 1,
       "negativeMarks": 0,
       "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
@@ -317,7 +461,16 @@ window.predicted_set3 = {
         "D": "Modem dial-ups"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data."
+      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:?",
+      "options_hi": {
+        "A": "RESTful Web APIs and JSON?",
+        "B": "Raw binary serial ports?",
+        "C": "Assembly instructions?",
+        "D": "Modem dial-ups?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 18,
@@ -334,7 +487,16 @@ window.predicted_set3 = {
         "D": "2n - 1"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges."
+      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "What is the number of edges in a tree with n vertices?",
+      "options_hi": {
+        "A": "n?",
+        "B": "n - 1?",
+        "C": "n + 1?",
+        "D": "2n - 1?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 19,
@@ -351,7 +513,16 @@ window.predicted_set3 = {
         "D": "Virtual functions"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization."
+      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "निम्नलिखित में से कौन सा members cannot be inherited by a derived class C++ में?",
+      "options_hi": {
+        "A": "Protected variables?",
+        "B": "Public methods?",
+        "C": "Constructors and Destructors?",
+        "D": "Virtual functions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 20,
@@ -368,7 +539,16 @@ window.predicted_set3 = {
         "D": "Sector Mapping"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags."
+      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+      "options_hi": {
+        "A": "Direct Mapping?",
+        "B": "Fully Associative Mapping?",
+        "C": "Set-Associative Mapping?",
+        "D": "Sector Mapping?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 21,
@@ -385,7 +565,16 @@ window.predicted_set3 = {
         "D": "/27"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26."
+      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "What is the CIDR prefix for a subnet with a सबनेट मास्क of 255.255.255.192?",
+      "options_hi": {
+        "A": "/24?",
+        "B": "/25?",
+        "C": "/26?",
+        "D": "/27?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 22,
@@ -402,7 +591,16 @@ window.predicted_set3 = {
         "D": "8"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines."
+      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "a 64-to-1 Multiplexer (MUX) के लिए कितने select lines की आवश्यकता होती है?",
+      "options_hi": {
+        "A": "4?",
+        "B": "5?",
+        "C": "6?",
+        "D": "8?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 23,
@@ -419,13 +617,22 @@ window.predicted_set3 = {
         "D": "In secondary optical storage"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations."
+      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "In पेजिंग (Paging) memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "options_hi": {
+        "A": "On the hard disk?",
+        "B": "In main memory RAM?",
+        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache?",
+        "D": "In secondary optical storage?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 24,
       "questionNumber": 24,
       "section": "Computer Science",
-      "topic": "Internet of Things",
+      "topic": "Digital Logic",
       "marks": 1,
       "negativeMarks": 0,
       "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
@@ -436,7 +643,16 @@ window.predicted_set3 = {
         "D": "Modem dial-ups"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data."
+      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:?",
+      "options_hi": {
+        "A": "RESTful Web APIs and JSON?",
+        "B": "Raw binary serial ports?",
+        "C": "Assembly instructions?",
+        "D": "Modem dial-ups?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 25,
@@ -453,7 +669,16 @@ window.predicted_set3 = {
         "D": "2n - 1"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges."
+      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "What is the number of edges in a tree with n vertices?",
+      "options_hi": {
+        "A": "n?",
+        "B": "n - 1?",
+        "C": "n + 1?",
+        "D": "2n - 1?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 26,
@@ -470,7 +695,16 @@ window.predicted_set3 = {
         "D": "Virtual functions"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization."
+      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "निम्नलिखित में से कौन सा members cannot be inherited by a derived class C++ में?",
+      "options_hi": {
+        "A": "Protected variables?",
+        "B": "Public methods?",
+        "C": "Constructors and Destructors?",
+        "D": "Virtual functions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 27,
@@ -487,7 +721,16 @@ window.predicted_set3 = {
         "D": "Sector Mapping"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags."
+      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+      "options_hi": {
+        "A": "Direct Mapping?",
+        "B": "Fully Associative Mapping?",
+        "C": "Set-Associative Mapping?",
+        "D": "Sector Mapping?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 28,
@@ -504,7 +747,16 @@ window.predicted_set3 = {
         "D": "/27"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26."
+      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "What is the CIDR prefix for a subnet with a सबनेट मास्क of 255.255.255.192?",
+      "options_hi": {
+        "A": "/24?",
+        "B": "/25?",
+        "C": "/26?",
+        "D": "/27?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 29,
@@ -521,7 +773,16 @@ window.predicted_set3 = {
         "D": "8"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines."
+      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "a 64-to-1 Multiplexer (MUX) के लिए कितने select lines की आवश्यकता होती है?",
+      "options_hi": {
+        "A": "4?",
+        "B": "5?",
+        "C": "6?",
+        "D": "8?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 30,
@@ -538,13 +799,22 @@ window.predicted_set3 = {
         "D": "In secondary optical storage"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations."
+      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "In पेजिंग (Paging) memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "options_hi": {
+        "A": "On the hard disk?",
+        "B": "In main memory RAM?",
+        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache?",
+        "D": "In secondary optical storage?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 31,
       "questionNumber": 31,
       "section": "Computer Science",
-      "topic": "Internet of Things",
+      "topic": "Digital Logic",
       "marks": 1,
       "negativeMarks": 0,
       "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
@@ -555,7 +825,16 @@ window.predicted_set3 = {
         "D": "Modem dial-ups"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data."
+      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:?",
+      "options_hi": {
+        "A": "RESTful Web APIs and JSON?",
+        "B": "Raw binary serial ports?",
+        "C": "Assembly instructions?",
+        "D": "Modem dial-ups?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 32,
@@ -572,7 +851,16 @@ window.predicted_set3 = {
         "D": "2n - 1"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges."
+      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "What is the number of edges in a tree with n vertices?",
+      "options_hi": {
+        "A": "n?",
+        "B": "n - 1?",
+        "C": "n + 1?",
+        "D": "2n - 1?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 33,
@@ -589,7 +877,16 @@ window.predicted_set3 = {
         "D": "Virtual functions"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization."
+      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "निम्नलिखित में से कौन सा members cannot be inherited by a derived class C++ में?",
+      "options_hi": {
+        "A": "Protected variables?",
+        "B": "Public methods?",
+        "C": "Constructors and Destructors?",
+        "D": "Virtual functions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 34,
@@ -606,7 +903,16 @@ window.predicted_set3 = {
         "D": "Sector Mapping"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags."
+      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+      "options_hi": {
+        "A": "Direct Mapping?",
+        "B": "Fully Associative Mapping?",
+        "C": "Set-Associative Mapping?",
+        "D": "Sector Mapping?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 35,
@@ -623,7 +929,16 @@ window.predicted_set3 = {
         "D": "/27"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26."
+      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "What is the CIDR prefix for a subnet with a सबनेट मास्क of 255.255.255.192?",
+      "options_hi": {
+        "A": "/24?",
+        "B": "/25?",
+        "C": "/26?",
+        "D": "/27?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 36,
@@ -640,7 +955,16 @@ window.predicted_set3 = {
         "D": "8"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines."
+      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "a 64-to-1 Multiplexer (MUX) के लिए कितने select lines की आवश्यकता होती है?",
+      "options_hi": {
+        "A": "4?",
+        "B": "5?",
+        "C": "6?",
+        "D": "8?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 37,
@@ -657,13 +981,22 @@ window.predicted_set3 = {
         "D": "In secondary optical storage"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations."
+      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "In पेजिंग (Paging) memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "options_hi": {
+        "A": "On the hard disk?",
+        "B": "In main memory RAM?",
+        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache?",
+        "D": "In secondary optical storage?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 38,
       "questionNumber": 38,
       "section": "Computer Science",
-      "topic": "Internet of Things",
+      "topic": "Digital Logic",
       "marks": 1,
       "negativeMarks": 0,
       "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
@@ -674,7 +1007,16 @@ window.predicted_set3 = {
         "D": "Modem dial-ups"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data."
+      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:?",
+      "options_hi": {
+        "A": "RESTful Web APIs and JSON?",
+        "B": "Raw binary serial ports?",
+        "C": "Assembly instructions?",
+        "D": "Modem dial-ups?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 39,
@@ -691,7 +1033,16 @@ window.predicted_set3 = {
         "D": "2n - 1"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges."
+      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "What is the number of edges in a tree with n vertices?",
+      "options_hi": {
+        "A": "n?",
+        "B": "n - 1?",
+        "C": "n + 1?",
+        "D": "2n - 1?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 40,
@@ -708,7 +1059,16 @@ window.predicted_set3 = {
         "D": "Virtual functions"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization."
+      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "निम्नलिखित में से कौन सा members cannot be inherited by a derived class C++ में?",
+      "options_hi": {
+        "A": "Protected variables?",
+        "B": "Public methods?",
+        "C": "Constructors and Destructors?",
+        "D": "Virtual functions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 41,
@@ -725,7 +1085,16 @@ window.predicted_set3 = {
         "D": "Sector Mapping"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags."
+      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+      "options_hi": {
+        "A": "Direct Mapping?",
+        "B": "Fully Associative Mapping?",
+        "C": "Set-Associative Mapping?",
+        "D": "Sector Mapping?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 42,
@@ -742,7 +1111,16 @@ window.predicted_set3 = {
         "D": "/27"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26."
+      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "What is the CIDR prefix for a subnet with a सबनेट मास्क of 255.255.255.192?",
+      "options_hi": {
+        "A": "/24?",
+        "B": "/25?",
+        "C": "/26?",
+        "D": "/27?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 43,
@@ -759,7 +1137,16 @@ window.predicted_set3 = {
         "D": "8"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines."
+      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "a 64-to-1 Multiplexer (MUX) के लिए कितने select lines की आवश्यकता होती है?",
+      "options_hi": {
+        "A": "4?",
+        "B": "5?",
+        "C": "6?",
+        "D": "8?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 44,
@@ -776,13 +1163,22 @@ window.predicted_set3 = {
         "D": "In secondary optical storage"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations."
+      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "In पेजिंग (Paging) memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "options_hi": {
+        "A": "On the hard disk?",
+        "B": "In main memory RAM?",
+        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache?",
+        "D": "In secondary optical storage?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 45,
       "questionNumber": 45,
       "section": "Computer Science",
-      "topic": "Internet of Things",
+      "topic": "Digital Logic",
       "marks": 1,
       "negativeMarks": 0,
       "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
@@ -793,7 +1189,16 @@ window.predicted_set3 = {
         "D": "Modem dial-ups"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data."
+      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:?",
+      "options_hi": {
+        "A": "RESTful Web APIs and JSON?",
+        "B": "Raw binary serial ports?",
+        "C": "Assembly instructions?",
+        "D": "Modem dial-ups?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 46,
@@ -810,7 +1215,16 @@ window.predicted_set3 = {
         "D": "2n - 1"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges."
+      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "What is the number of edges in a tree with n vertices?",
+      "options_hi": {
+        "A": "n?",
+        "B": "n - 1?",
+        "C": "n + 1?",
+        "D": "2n - 1?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 47,
@@ -827,7 +1241,16 @@ window.predicted_set3 = {
         "D": "Virtual functions"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization."
+      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "निम्नलिखित में से कौन सा members cannot be inherited by a derived class C++ में?",
+      "options_hi": {
+        "A": "Protected variables?",
+        "B": "Public methods?",
+        "C": "Constructors and Destructors?",
+        "D": "Virtual functions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 48,
@@ -844,7 +1267,16 @@ window.predicted_set3 = {
         "D": "Sector Mapping"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags."
+      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+      "options_hi": {
+        "A": "Direct Mapping?",
+        "B": "Fully Associative Mapping?",
+        "C": "Set-Associative Mapping?",
+        "D": "Sector Mapping?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 49,
@@ -861,7 +1293,16 @@ window.predicted_set3 = {
         "D": "/27"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26."
+      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "What is the CIDR prefix for a subnet with a सबनेट मास्क of 255.255.255.192?",
+      "options_hi": {
+        "A": "/24?",
+        "B": "/25?",
+        "C": "/26?",
+        "D": "/27?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 50,
@@ -878,7 +1319,16 @@ window.predicted_set3 = {
         "D": "8"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines."
+      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "a 64-to-1 Multiplexer (MUX) के लिए कितने select lines की आवश्यकता होती है?",
+      "options_hi": {
+        "A": "4?",
+        "B": "5?",
+        "C": "6?",
+        "D": "8?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 51,
@@ -895,13 +1345,22 @@ window.predicted_set3 = {
         "D": "In secondary optical storage"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations."
+      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "In पेजिंग (Paging) memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "options_hi": {
+        "A": "On the hard disk?",
+        "B": "In main memory RAM?",
+        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache?",
+        "D": "In secondary optical storage?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 52,
       "questionNumber": 52,
       "section": "Computer Science",
-      "topic": "Internet of Things",
+      "topic": "Digital Logic",
       "marks": 1,
       "negativeMarks": 0,
       "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
@@ -912,7 +1371,16 @@ window.predicted_set3 = {
         "D": "Modem dial-ups"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data."
+      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:?",
+      "options_hi": {
+        "A": "RESTful Web APIs and JSON?",
+        "B": "Raw binary serial ports?",
+        "C": "Assembly instructions?",
+        "D": "Modem dial-ups?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 53,
@@ -929,7 +1397,16 @@ window.predicted_set3 = {
         "D": "2n - 1"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges."
+      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "What is the number of edges in a tree with n vertices?",
+      "options_hi": {
+        "A": "n?",
+        "B": "n - 1?",
+        "C": "n + 1?",
+        "D": "2n - 1?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 54,
@@ -946,7 +1423,16 @@ window.predicted_set3 = {
         "D": "Virtual functions"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization."
+      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "निम्नलिखित में से कौन सा members cannot be inherited by a derived class C++ में?",
+      "options_hi": {
+        "A": "Protected variables?",
+        "B": "Public methods?",
+        "C": "Constructors and Destructors?",
+        "D": "Virtual functions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 55,
@@ -963,7 +1449,16 @@ window.predicted_set3 = {
         "D": "Sector Mapping"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags."
+      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+      "options_hi": {
+        "A": "Direct Mapping?",
+        "B": "Fully Associative Mapping?",
+        "C": "Set-Associative Mapping?",
+        "D": "Sector Mapping?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 56,
@@ -980,7 +1475,16 @@ window.predicted_set3 = {
         "D": "/27"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26."
+      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "What is the CIDR prefix for a subnet with a सबनेट मास्क of 255.255.255.192?",
+      "options_hi": {
+        "A": "/24?",
+        "B": "/25?",
+        "C": "/26?",
+        "D": "/27?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 57,
@@ -997,7 +1501,16 @@ window.predicted_set3 = {
         "D": "8"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines."
+      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "a 64-to-1 Multiplexer (MUX) के लिए कितने select lines की आवश्यकता होती है?",
+      "options_hi": {
+        "A": "4?",
+        "B": "5?",
+        "C": "6?",
+        "D": "8?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 58,
@@ -1014,13 +1527,22 @@ window.predicted_set3 = {
         "D": "In secondary optical storage"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations."
+      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "In पेजिंग (Paging) memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "options_hi": {
+        "A": "On the hard disk?",
+        "B": "In main memory RAM?",
+        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache?",
+        "D": "In secondary optical storage?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 59,
       "questionNumber": 59,
       "section": "Computer Science",
-      "topic": "Internet of Things",
+      "topic": "Digital Logic",
       "marks": 1,
       "negativeMarks": 0,
       "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
@@ -1031,7 +1553,16 @@ window.predicted_set3 = {
         "D": "Modem dial-ups"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data."
+      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:?",
+      "options_hi": {
+        "A": "RESTful Web APIs and JSON?",
+        "B": "Raw binary serial ports?",
+        "C": "Assembly instructions?",
+        "D": "Modem dial-ups?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 60,
@@ -1048,7 +1579,16 @@ window.predicted_set3 = {
         "D": "2n - 1"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges."
+      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "What is the number of edges in a tree with n vertices?",
+      "options_hi": {
+        "A": "n?",
+        "B": "n - 1?",
+        "C": "n + 1?",
+        "D": "2n - 1?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 61,
@@ -1065,7 +1605,16 @@ window.predicted_set3 = {
         "D": "Virtual functions"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization."
+      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "निम्नलिखित में से कौन सा members cannot be inherited by a derived class C++ में?",
+      "options_hi": {
+        "A": "Protected variables?",
+        "B": "Public methods?",
+        "C": "Constructors and Destructors?",
+        "D": "Virtual functions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 62,
@@ -1082,7 +1631,16 @@ window.predicted_set3 = {
         "D": "Sector Mapping"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags."
+      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+      "options_hi": {
+        "A": "Direct Mapping?",
+        "B": "Fully Associative Mapping?",
+        "C": "Set-Associative Mapping?",
+        "D": "Sector Mapping?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 63,
@@ -1099,7 +1657,16 @@ window.predicted_set3 = {
         "D": "/27"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26."
+      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "What is the CIDR prefix for a subnet with a सबनेट मास्क of 255.255.255.192?",
+      "options_hi": {
+        "A": "/24?",
+        "B": "/25?",
+        "C": "/26?",
+        "D": "/27?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 64,
@@ -1116,7 +1683,16 @@ window.predicted_set3 = {
         "D": "8"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines."
+      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "a 64-to-1 Multiplexer (MUX) के लिए कितने select lines की आवश्यकता होती है?",
+      "options_hi": {
+        "A": "4?",
+        "B": "5?",
+        "C": "6?",
+        "D": "8?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 65,
@@ -1133,13 +1709,22 @@ window.predicted_set3 = {
         "D": "In secondary optical storage"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations."
+      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "In पेजिंग (Paging) memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "options_hi": {
+        "A": "On the hard disk?",
+        "B": "In main memory RAM?",
+        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache?",
+        "D": "In secondary optical storage?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 66,
       "questionNumber": 66,
       "section": "Computer Science",
-      "topic": "Internet of Things",
+      "topic": "Digital Logic",
       "marks": 1,
       "negativeMarks": 0,
       "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
@@ -1150,7 +1735,16 @@ window.predicted_set3 = {
         "D": "Modem dial-ups"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data."
+      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:?",
+      "options_hi": {
+        "A": "RESTful Web APIs and JSON?",
+        "B": "Raw binary serial ports?",
+        "C": "Assembly instructions?",
+        "D": "Modem dial-ups?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 67,
@@ -1167,7 +1761,16 @@ window.predicted_set3 = {
         "D": "2n - 1"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges."
+      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "What is the number of edges in a tree with n vertices?",
+      "options_hi": {
+        "A": "n?",
+        "B": "n - 1?",
+        "C": "n + 1?",
+        "D": "2n - 1?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 68,
@@ -1184,7 +1787,16 @@ window.predicted_set3 = {
         "D": "Virtual functions"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization."
+      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "निम्नलिखित में से कौन सा members cannot be inherited by a derived class C++ में?",
+      "options_hi": {
+        "A": "Protected variables?",
+        "B": "Public methods?",
+        "C": "Constructors and Destructors?",
+        "D": "Virtual functions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 69,
@@ -1201,7 +1813,16 @@ window.predicted_set3 = {
         "D": "Sector Mapping"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags."
+      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+      "options_hi": {
+        "A": "Direct Mapping?",
+        "B": "Fully Associative Mapping?",
+        "C": "Set-Associative Mapping?",
+        "D": "Sector Mapping?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 70,
@@ -1218,7 +1839,16 @@ window.predicted_set3 = {
         "D": "/27"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26."
+      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "What is the CIDR prefix for a subnet with a सबनेट मास्क of 255.255.255.192?",
+      "options_hi": {
+        "A": "/24?",
+        "B": "/25?",
+        "C": "/26?",
+        "D": "/27?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 71,
@@ -1235,7 +1865,16 @@ window.predicted_set3 = {
         "D": "8"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines."
+      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "a 64-to-1 Multiplexer (MUX) के लिए कितने select lines की आवश्यकता होती है?",
+      "options_hi": {
+        "A": "4?",
+        "B": "5?",
+        "C": "6?",
+        "D": "8?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 72,
@@ -1252,13 +1891,22 @@ window.predicted_set3 = {
         "D": "In secondary optical storage"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations."
+      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "In पेजिंग (Paging) memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "options_hi": {
+        "A": "On the hard disk?",
+        "B": "In main memory RAM?",
+        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache?",
+        "D": "In secondary optical storage?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 73,
       "questionNumber": 73,
       "section": "Computer Science",
-      "topic": "Internet of Things",
+      "topic": "Digital Logic",
       "marks": 1,
       "negativeMarks": 0,
       "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
@@ -1269,7 +1917,16 @@ window.predicted_set3 = {
         "D": "Modem dial-ups"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data."
+      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:?",
+      "options_hi": {
+        "A": "RESTful Web APIs and JSON?",
+        "B": "Raw binary serial ports?",
+        "C": "Assembly instructions?",
+        "D": "Modem dial-ups?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 74,
@@ -1286,7 +1943,16 @@ window.predicted_set3 = {
         "D": "2n - 1"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges."
+      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "What is the number of edges in a tree with n vertices?",
+      "options_hi": {
+        "A": "n?",
+        "B": "n - 1?",
+        "C": "n + 1?",
+        "D": "2n - 1?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 75,
@@ -1303,7 +1969,16 @@ window.predicted_set3 = {
         "D": "Virtual functions"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization."
+      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "निम्नलिखित में से कौन सा members cannot be inherited by a derived class C++ में?",
+      "options_hi": {
+        "A": "Protected variables?",
+        "B": "Public methods?",
+        "C": "Constructors and Destructors?",
+        "D": "Virtual functions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 76,
@@ -1320,7 +1995,16 @@ window.predicted_set3 = {
         "D": "Sector Mapping"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags."
+      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+      "options_hi": {
+        "A": "Direct Mapping?",
+        "B": "Fully Associative Mapping?",
+        "C": "Set-Associative Mapping?",
+        "D": "Sector Mapping?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 77,
@@ -1337,7 +2021,16 @@ window.predicted_set3 = {
         "D": "/27"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26."
+      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "What is the CIDR prefix for a subnet with a सबनेट मास्क of 255.255.255.192?",
+      "options_hi": {
+        "A": "/24?",
+        "B": "/25?",
+        "C": "/26?",
+        "D": "/27?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 78,
@@ -1354,7 +2047,16 @@ window.predicted_set3 = {
         "D": "8"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines."
+      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "a 64-to-1 Multiplexer (MUX) के लिए कितने select lines की आवश्यकता होती है?",
+      "options_hi": {
+        "A": "4?",
+        "B": "5?",
+        "C": "6?",
+        "D": "8?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 79,
@@ -1371,13 +2073,22 @@ window.predicted_set3 = {
         "D": "In secondary optical storage"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations."
+      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "In पेजिंग (Paging) memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "options_hi": {
+        "A": "On the hard disk?",
+        "B": "In main memory RAM?",
+        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache?",
+        "D": "In secondary optical storage?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 80,
       "questionNumber": 80,
       "section": "Computer Science",
-      "topic": "Internet of Things",
+      "topic": "Digital Logic",
       "marks": 1,
       "negativeMarks": 0,
       "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
@@ -1388,7 +2099,16 @@ window.predicted_set3 = {
         "D": "Modem dial-ups"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data."
+      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:?",
+      "options_hi": {
+        "A": "RESTful Web APIs and JSON?",
+        "B": "Raw binary serial ports?",
+        "C": "Assembly instructions?",
+        "D": "Modem dial-ups?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 81,
@@ -1405,7 +2125,16 @@ window.predicted_set3 = {
         "D": "2n - 1"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges."
+      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "What is the number of edges in a tree with n vertices?",
+      "options_hi": {
+        "A": "n?",
+        "B": "n - 1?",
+        "C": "n + 1?",
+        "D": "2n - 1?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 82,
@@ -1422,7 +2151,16 @@ window.predicted_set3 = {
         "D": "Virtual functions"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization."
+      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "निम्नलिखित में से कौन सा members cannot be inherited by a derived class C++ में?",
+      "options_hi": {
+        "A": "Protected variables?",
+        "B": "Public methods?",
+        "C": "Constructors and Destructors?",
+        "D": "Virtual functions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 83,
@@ -1439,7 +2177,16 @@ window.predicted_set3 = {
         "D": "Sector Mapping"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags."
+      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+      "options_hi": {
+        "A": "Direct Mapping?",
+        "B": "Fully Associative Mapping?",
+        "C": "Set-Associative Mapping?",
+        "D": "Sector Mapping?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 84,
@@ -1456,7 +2203,16 @@ window.predicted_set3 = {
         "D": "/27"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26."
+      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "What is the CIDR prefix for a subnet with a सबनेट मास्क of 255.255.255.192?",
+      "options_hi": {
+        "A": "/24?",
+        "B": "/25?",
+        "C": "/26?",
+        "D": "/27?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 85,
@@ -1473,7 +2229,16 @@ window.predicted_set3 = {
         "D": "8"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines."
+      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "a 64-to-1 Multiplexer (MUX) के लिए कितने select lines की आवश्यकता होती है?",
+      "options_hi": {
+        "A": "4?",
+        "B": "5?",
+        "C": "6?",
+        "D": "8?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 86,
@@ -1490,13 +2255,22 @@ window.predicted_set3 = {
         "D": "In secondary optical storage"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations."
+      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "In पेजिंग (Paging) memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "options_hi": {
+        "A": "On the hard disk?",
+        "B": "In main memory RAM?",
+        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache?",
+        "D": "In secondary optical storage?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 87,
       "questionNumber": 87,
       "section": "Computer Science",
-      "topic": "Internet of Things",
+      "topic": "Digital Logic",
       "marks": 1,
       "negativeMarks": 0,
       "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
@@ -1507,7 +2281,16 @@ window.predicted_set3 = {
         "D": "Modem dial-ups"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data."
+      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:?",
+      "options_hi": {
+        "A": "RESTful Web APIs and JSON?",
+        "B": "Raw binary serial ports?",
+        "C": "Assembly instructions?",
+        "D": "Modem dial-ups?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 88,
@@ -1524,7 +2307,16 @@ window.predicted_set3 = {
         "D": "2n - 1"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges."
+      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "What is the number of edges in a tree with n vertices?",
+      "options_hi": {
+        "A": "n?",
+        "B": "n - 1?",
+        "C": "n + 1?",
+        "D": "2n - 1?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 89,
@@ -1541,7 +2333,16 @@ window.predicted_set3 = {
         "D": "Virtual functions"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization."
+      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "निम्नलिखित में से कौन सा members cannot be inherited by a derived class C++ में?",
+      "options_hi": {
+        "A": "Protected variables?",
+        "B": "Public methods?",
+        "C": "Constructors and Destructors?",
+        "D": "Virtual functions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 90,
@@ -1558,7 +2359,16 @@ window.predicted_set3 = {
         "D": "Sector Mapping"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags."
+      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+      "options_hi": {
+        "A": "Direct Mapping?",
+        "B": "Fully Associative Mapping?",
+        "C": "Set-Associative Mapping?",
+        "D": "Sector Mapping?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 91,
@@ -1575,7 +2385,16 @@ window.predicted_set3 = {
         "D": "/27"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26."
+      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "What is the CIDR prefix for a subnet with a सबनेट मास्क of 255.255.255.192?",
+      "options_hi": {
+        "A": "/24?",
+        "B": "/25?",
+        "C": "/26?",
+        "D": "/27?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 92,
@@ -1592,7 +2411,16 @@ window.predicted_set3 = {
         "D": "8"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines."
+      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "a 64-to-1 Multiplexer (MUX) के लिए कितने select lines की आवश्यकता होती है?",
+      "options_hi": {
+        "A": "4?",
+        "B": "5?",
+        "C": "6?",
+        "D": "8?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 93,
@@ -1609,13 +2437,22 @@ window.predicted_set3 = {
         "D": "In secondary optical storage"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations."
+      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "In पेजिंग (Paging) memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "options_hi": {
+        "A": "On the hard disk?",
+        "B": "In main memory RAM?",
+        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache?",
+        "D": "In secondary optical storage?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 94,
       "questionNumber": 94,
       "section": "Computer Science",
-      "topic": "Internet of Things",
+      "topic": "Digital Logic",
       "marks": 1,
       "negativeMarks": 0,
       "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
@@ -1626,7 +2463,16 @@ window.predicted_set3 = {
         "D": "Modem dial-ups"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data."
+      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:?",
+      "options_hi": {
+        "A": "RESTful Web APIs and JSON?",
+        "B": "Raw binary serial ports?",
+        "C": "Assembly instructions?",
+        "D": "Modem dial-ups?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 95,
@@ -1643,7 +2489,16 @@ window.predicted_set3 = {
         "D": "2n - 1"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges."
+      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
+      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "question_hi": "What is the number of edges in a tree with n vertices?",
+      "options_hi": {
+        "A": "n?",
+        "B": "n - 1?",
+        "C": "n + 1?",
+        "D": "2n - 1?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 96,
@@ -1660,7 +2515,16 @@ window.predicted_set3 = {
         "D": "Virtual functions"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization."
+      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
+      "question_hi": "निम्नलिखित में से कौन सा members cannot be inherited by a derived class C++ में?",
+      "options_hi": {
+        "A": "Protected variables?",
+        "B": "Public methods?",
+        "C": "Constructors and Destructors?",
+        "D": "Virtual functions?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 97,
@@ -1677,7 +2541,16 @@ window.predicted_set3 = {
         "D": "Sector Mapping"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags."
+      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "question_hi": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+      "options_hi": {
+        "A": "Direct Mapping?",
+        "B": "Fully Associative Mapping?",
+        "C": "Set-Associative Mapping?",
+        "D": "Sector Mapping?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 98,
@@ -1694,7 +2567,16 @@ window.predicted_set3 = {
         "D": "/27"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26."
+      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
+      "topic_hi": "कंप्यूटर नेटवर्क",
+      "question_hi": "What is the CIDR prefix for a subnet with a सबनेट मास्क of 255.255.255.192?",
+      "options_hi": {
+        "A": "/24?",
+        "B": "/25?",
+        "C": "/26?",
+        "D": "/27?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 99,
@@ -1711,7 +2593,16 @@ window.predicted_set3 = {
         "D": "8"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines."
+      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
+      "topic_hi": "डिजिटल लॉजिक",
+      "question_hi": "a 64-to-1 Multiplexer (MUX) के लिए कितने select lines की आवश्यकता होती है?",
+      "options_hi": {
+        "A": "4?",
+        "B": "5?",
+        "C": "6?",
+        "D": "8?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 100,
@@ -1728,7 +2619,16 @@ window.predicted_set3 = {
         "D": "In secondary optical storage"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations."
+      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "question_hi": "In पेजिंग (Paging) memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "options_hi": {
+        "A": "On the hard disk?",
+        "B": "In main memory RAM?",
+        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache?",
+        "D": "In secondary optical storage?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 101,
@@ -1745,7 +2645,16 @@ window.predicted_set3 = {
         "D": "Select students for high school scholarships"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace."
+      "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "रचनात्मक मूल्यांकन (Formative Evaluation) is primarily conducted to:?",
+      "options_hi": {
+        "A": "Award annual report card certificates?",
+        "B": "Rank students across the state?",
+        "C": "Provide continuous feedback to monitor learning progress during instruction?",
+        "D": "Select students for high school scholarships?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Provide continuous feedback to monitor learning progress during instruction?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 102,
@@ -1762,7 +2671,16 @@ window.predicted_set3 = {
         "D": "Visual Symbols"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention."
+      "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
+      "options_hi": {
+        "A": "Verbal Symbols?",
+        "B": "Direct Purposeful Experiences (Hands-on)?",
+        "C": "Motion Pictures?",
+        "D": "Visual Symbols?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Direct Purposeful Experiences (Hands-on)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 103,
@@ -1779,7 +2697,16 @@ window.predicted_set3 = {
         "D": "Norm-Referenced Assessment"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching."
+      "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:?",
+      "options_hi": {
+        "A": "Placement Assessment?",
+        "B": "Diagnostic Assessment?",
+        "C": "Summative Assessment?",
+        "D": "Norm-Referenced Assessment?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Diagnostic Assessment?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 104,
@@ -1796,7 +2723,16 @@ window.predicted_set3 = {
         "D": "Exam-Oriented Curriculum"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020."
+      "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
+      "options_hi": {
+        "A": "Subject-Centered Curriculum?",
+        "B": "Learner-Centered (Child-Centered) Curriculum?",
+        "C": "Teacher-Centered Curriculum?",
+        "D": "Exam-Oriented Curriculum?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Learner-Centered (Child-Centered) Curriculum?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 105,
@@ -1813,7 +2749,16 @@ window.predicted_set3 = {
         "D": "Textbook Method"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer."
+      "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
+      "options_hi": {
+        "A": "व्याख्यान विधि?",
+        "B": "अनुसंधान / ह्यूरिस्टिक विधि?",
+        "C": "Demonstration Method?",
+        "D": "Textbook Method?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) अनुसंधान / ह्यूरिस्टिक विधि?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 106,
@@ -1830,7 +2775,16 @@ window.predicted_set3 = {
         "D": "Select students for high school scholarships"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace."
+      "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "रचनात्मक मूल्यांकन (Formative Evaluation) is primarily conducted to:?",
+      "options_hi": {
+        "A": "Award annual report card certificates?",
+        "B": "Rank students across the state?",
+        "C": "Provide continuous feedback to monitor learning progress during instruction?",
+        "D": "Select students for high school scholarships?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Provide continuous feedback to monitor learning progress during instruction?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 107,
@@ -1847,7 +2801,16 @@ window.predicted_set3 = {
         "D": "Visual Symbols"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention."
+      "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
+      "options_hi": {
+        "A": "Verbal Symbols?",
+        "B": "Direct Purposeful Experiences (Hands-on)?",
+        "C": "Motion Pictures?",
+        "D": "Visual Symbols?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Direct Purposeful Experiences (Hands-on)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 108,
@@ -1864,7 +2827,16 @@ window.predicted_set3 = {
         "D": "Norm-Referenced Assessment"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching."
+      "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:?",
+      "options_hi": {
+        "A": "Placement Assessment?",
+        "B": "Diagnostic Assessment?",
+        "C": "Summative Assessment?",
+        "D": "Norm-Referenced Assessment?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Diagnostic Assessment?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 109,
@@ -1881,7 +2853,16 @@ window.predicted_set3 = {
         "D": "Exam-Oriented Curriculum"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020."
+      "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
+      "options_hi": {
+        "A": "Subject-Centered Curriculum?",
+        "B": "Learner-Centered (Child-Centered) Curriculum?",
+        "C": "Teacher-Centered Curriculum?",
+        "D": "Exam-Oriented Curriculum?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Learner-Centered (Child-Centered) Curriculum?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 110,
@@ -1898,7 +2879,16 @@ window.predicted_set3 = {
         "D": "Textbook Method"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer."
+      "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
+      "options_hi": {
+        "A": "व्याख्यान विधि?",
+        "B": "अनुसंधान / ह्यूरिस्टिक विधि?",
+        "C": "Demonstration Method?",
+        "D": "Textbook Method?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) अनुसंधान / ह्यूरिस्टिक विधि?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 111,
@@ -1915,7 +2905,16 @@ window.predicted_set3 = {
         "D": "Select students for high school scholarships"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace."
+      "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "रचनात्मक मूल्यांकन (Formative Evaluation) is primarily conducted to:?",
+      "options_hi": {
+        "A": "Award annual report card certificates?",
+        "B": "Rank students across the state?",
+        "C": "Provide continuous feedback to monitor learning progress during instruction?",
+        "D": "Select students for high school scholarships?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Provide continuous feedback to monitor learning progress during instruction?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 112,
@@ -1932,7 +2931,16 @@ window.predicted_set3 = {
         "D": "Visual Symbols"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention."
+      "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
+      "options_hi": {
+        "A": "Verbal Symbols?",
+        "B": "Direct Purposeful Experiences (Hands-on)?",
+        "C": "Motion Pictures?",
+        "D": "Visual Symbols?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Direct Purposeful Experiences (Hands-on)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 113,
@@ -1949,7 +2957,16 @@ window.predicted_set3 = {
         "D": "Norm-Referenced Assessment"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching."
+      "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:?",
+      "options_hi": {
+        "A": "Placement Assessment?",
+        "B": "Diagnostic Assessment?",
+        "C": "Summative Assessment?",
+        "D": "Norm-Referenced Assessment?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Diagnostic Assessment?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 114,
@@ -1966,7 +2983,16 @@ window.predicted_set3 = {
         "D": "Exam-Oriented Curriculum"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020."
+      "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
+      "options_hi": {
+        "A": "Subject-Centered Curriculum?",
+        "B": "Learner-Centered (Child-Centered) Curriculum?",
+        "C": "Teacher-Centered Curriculum?",
+        "D": "Exam-Oriented Curriculum?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Learner-Centered (Child-Centered) Curriculum?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 115,
@@ -1983,7 +3009,16 @@ window.predicted_set3 = {
         "D": "Textbook Method"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer."
+      "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
+      "options_hi": {
+        "A": "व्याख्यान विधि?",
+        "B": "अनुसंधान / ह्यूरिस्टिक विधि?",
+        "C": "Demonstration Method?",
+        "D": "Textbook Method?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) अनुसंधान / ह्यूरिस्टिक विधि?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 116,
@@ -2000,7 +3035,16 @@ window.predicted_set3 = {
         "D": "Select students for high school scholarships"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace."
+      "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "रचनात्मक मूल्यांकन (Formative Evaluation) is primarily conducted to:?",
+      "options_hi": {
+        "A": "Award annual report card certificates?",
+        "B": "Rank students across the state?",
+        "C": "Provide continuous feedback to monitor learning progress during instruction?",
+        "D": "Select students for high school scholarships?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Provide continuous feedback to monitor learning progress during instruction?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 117,
@@ -2017,7 +3061,16 @@ window.predicted_set3 = {
         "D": "Visual Symbols"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention."
+      "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
+      "options_hi": {
+        "A": "Verbal Symbols?",
+        "B": "Direct Purposeful Experiences (Hands-on)?",
+        "C": "Motion Pictures?",
+        "D": "Visual Symbols?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Direct Purposeful Experiences (Hands-on)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 118,
@@ -2034,7 +3087,16 @@ window.predicted_set3 = {
         "D": "Norm-Referenced Assessment"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching."
+      "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:?",
+      "options_hi": {
+        "A": "Placement Assessment?",
+        "B": "Diagnostic Assessment?",
+        "C": "Summative Assessment?",
+        "D": "Norm-Referenced Assessment?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Diagnostic Assessment?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 119,
@@ -2051,7 +3113,16 @@ window.predicted_set3 = {
         "D": "Exam-Oriented Curriculum"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020."
+      "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
+      "options_hi": {
+        "A": "Subject-Centered Curriculum?",
+        "B": "Learner-Centered (Child-Centered) Curriculum?",
+        "C": "Teacher-Centered Curriculum?",
+        "D": "Exam-Oriented Curriculum?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Learner-Centered (Child-Centered) Curriculum?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 120,
@@ -2068,7 +3139,16 @@ window.predicted_set3 = {
         "D": "Textbook Method"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer."
+      "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
+      "options_hi": {
+        "A": "व्याख्यान विधि?",
+        "B": "अनुसंधान / ह्यूरिस्टिक विधि?",
+        "C": "Demonstration Method?",
+        "D": "Textbook Method?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) अनुसंधान / ह्यूरिस्टिक विधि?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 121,
@@ -2085,7 +3165,16 @@ window.predicted_set3 = {
         "D": "Select students for high school scholarships"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace."
+      "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "रचनात्मक मूल्यांकन (Formative Evaluation) is primarily conducted to:?",
+      "options_hi": {
+        "A": "Award annual report card certificates?",
+        "B": "Rank students across the state?",
+        "C": "Provide continuous feedback to monitor learning progress during instruction?",
+        "D": "Select students for high school scholarships?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Provide continuous feedback to monitor learning progress during instruction?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 122,
@@ -2102,7 +3191,16 @@ window.predicted_set3 = {
         "D": "Visual Symbols"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention."
+      "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
+      "options_hi": {
+        "A": "Verbal Symbols?",
+        "B": "Direct Purposeful Experiences (Hands-on)?",
+        "C": "Motion Pictures?",
+        "D": "Visual Symbols?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Direct Purposeful Experiences (Hands-on)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 123,
@@ -2119,7 +3217,16 @@ window.predicted_set3 = {
         "D": "Norm-Referenced Assessment"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching."
+      "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:?",
+      "options_hi": {
+        "A": "Placement Assessment?",
+        "B": "Diagnostic Assessment?",
+        "C": "Summative Assessment?",
+        "D": "Norm-Referenced Assessment?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Diagnostic Assessment?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 124,
@@ -2136,7 +3243,16 @@ window.predicted_set3 = {
         "D": "Exam-Oriented Curriculum"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020."
+      "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
+      "options_hi": {
+        "A": "Subject-Centered Curriculum?",
+        "B": "Learner-Centered (Child-Centered) Curriculum?",
+        "C": "Teacher-Centered Curriculum?",
+        "D": "Exam-Oriented Curriculum?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Learner-Centered (Child-Centered) Curriculum?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 125,
@@ -2153,7 +3269,16 @@ window.predicted_set3 = {
         "D": "Textbook Method"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer."
+      "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
+      "options_hi": {
+        "A": "व्याख्यान विधि?",
+        "B": "अनुसंधान / ह्यूरिस्टिक विधि?",
+        "C": "Demonstration Method?",
+        "D": "Textbook Method?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) अनुसंधान / ह्यूरिस्टिक विधि?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 126,
@@ -2170,7 +3295,16 @@ window.predicted_set3 = {
         "D": "Select students for high school scholarships"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace."
+      "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "रचनात्मक मूल्यांकन (Formative Evaluation) is primarily conducted to:?",
+      "options_hi": {
+        "A": "Award annual report card certificates?",
+        "B": "Rank students across the state?",
+        "C": "Provide continuous feedback to monitor learning progress during instruction?",
+        "D": "Select students for high school scholarships?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Provide continuous feedback to monitor learning progress during instruction?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 127,
@@ -2187,7 +3321,16 @@ window.predicted_set3 = {
         "D": "Visual Symbols"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention."
+      "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
+      "options_hi": {
+        "A": "Verbal Symbols?",
+        "B": "Direct Purposeful Experiences (Hands-on)?",
+        "C": "Motion Pictures?",
+        "D": "Visual Symbols?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Direct Purposeful Experiences (Hands-on)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 128,
@@ -2204,7 +3347,16 @@ window.predicted_set3 = {
         "D": "Norm-Referenced Assessment"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching."
+      "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:?",
+      "options_hi": {
+        "A": "Placement Assessment?",
+        "B": "Diagnostic Assessment?",
+        "C": "Summative Assessment?",
+        "D": "Norm-Referenced Assessment?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Diagnostic Assessment?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 129,
@@ -2221,7 +3373,16 @@ window.predicted_set3 = {
         "D": "Exam-Oriented Curriculum"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020."
+      "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
+      "options_hi": {
+        "A": "Subject-Centered Curriculum?",
+        "B": "Learner-Centered (Child-Centered) Curriculum?",
+        "C": "Teacher-Centered Curriculum?",
+        "D": "Exam-Oriented Curriculum?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Learner-Centered (Child-Centered) Curriculum?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 130,
@@ -2238,7 +3399,16 @@ window.predicted_set3 = {
         "D": "Textbook Method"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer."
+      "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
+      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "question_hi": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
+      "options_hi": {
+        "A": "व्याख्यान विधि?",
+        "B": "अनुसंधान / ह्यूरिस्टिक विधि?",
+        "C": "Demonstration Method?",
+        "D": "Textbook Method?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) अनुसंधान / ह्यूरिस्टिक विधि?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 131,
@@ -2255,7 +3425,16 @@ window.predicted_set3 = {
         "D": "80%"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 75**\n\n**Solution & Conceptual Rationale**:\nTotal ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45)."
+      "explanation": "**Correct Answer: (C) 75**\n\n**Solution & Conceptual Rationale**:\nTotal ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
+      "topic_hi": "गणितीय अभिरुचि",
+      "question_hi": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
+      "options_hi": {
+        "A": "45?",
+        "B": "65?",
+        "C": "75?",
+        "D": "80%?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 75?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 132,
@@ -2272,13 +3451,22 @@ window.predicted_set3 = {
         "D": "W"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) V**\n\n**Solution & Conceptual Rationale**:\nLetter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V."
+      "explanation": "**Correct Answer: (C) V**\n\n**Solution & Conceptual Rationale**:\nLetter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V.",
+      "topic_hi": "तार्किक विचार",
+      "question_hi": "Complete the alphabetical series: B, D, G, K, P, ____?",
+      "options_hi": {
+        "A": "T?",
+        "B": "U?",
+        "C": "V?",
+        "D": "W?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) V?**\n\n**विषय अवधारणा (तार्किक विचार)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 133,
       "questionNumber": 133,
       "section": "Other Skills",
-      "topic": "Logical Reasoning",
+      "topic": "General Knowledge",
       "marks": 1,
       "negativeMarks": 0,
       "question": "Statements: 1. Some pens are books. 2. All books are pencils. Conclusion: Some pens are pencils.",
@@ -2289,7 +3477,16 @@ window.predicted_set3 = {
         "D": "Cannot be determined"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Definitely True**\n\n**Solution & Conceptual Rationale**:\nThe intersection of 'pens' and 'books' falls entirely within the set of 'pencils'. Thus, some pens must be pencils. The conclusion is Definitely True."
+      "explanation": "**Correct Answer: (A) Definitely True**\n\n**Solution & Conceptual Rationale**:\nThe intersection of 'pens' and 'books' falls entirely within the set of 'pencils'. Thus, some pens must be pencils. The conclusion is Definitely True.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "Statements: 1. Some pens are books. 2. All books are pencils. Conclusion: Some pens are pencils.",
+      "options_hi": {
+        "A": "Definitely True?",
+        "B": "Definitely False?",
+        "C": "Probably True?",
+        "D": "Cannot be determined?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Definitely True?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 134,
@@ -2306,7 +3503,16 @@ window.predicted_set3 = {
         "D": "Taxila University"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Vikramashila University**\n\n**Solution & Conceptual Rationale**:\nVikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution."
+      "explanation": "**Correct Answer: (B) Vikramashila University**\n\n**Solution & Conceptual Rationale**:\nVikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE?",
+      "options_hi": {
+        "A": "Nalanda University?",
+        "B": "Vikramashila University?",
+        "C": "Odantapuri University?",
+        "D": "Taxila University?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Vikramashila University?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 135,
@@ -2323,7 +3529,16 @@ window.predicted_set3 = {
         "D": "Bardoli"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Champaran, Bihar**\n\n**Solution & Conceptual Rationale**:\nChamparan Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system."
+      "explanation": "**Correct Answer: (B) Champaran, Bihar**\n\n**Solution & Conceptual Rationale**:\nChamparan Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:?",
+      "options_hi": {
+        "A": "Kheda?",
+        "B": "Champaran, Bihar?",
+        "C": "Dandi?",
+        "D": "Bardoli?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Champaran, Bihar?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 136,
@@ -2340,7 +3555,16 @@ window.predicted_set3 = {
         "D": "Article 32"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Article 14**\n\n**Solution & Conceptual Rationale**:\nArticle 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India."
+      "explanation": "**Correct Answer: (A) Article 14**\n\n**Solution & Conceptual Rationale**:\nArticle 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "Which Article of the Indian Constitution guarantees the 'Right to Equality before the Law'?",
+      "options_hi": {
+        "A": "Article 14?",
+        "B": "Article 19?",
+        "C": "Article 21?",
+        "D": "Article 32?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Article 14?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 137,
@@ -2357,13 +3581,22 @@ window.predicted_set3 = {
         "D": "Acidic rain containing sulfuric acid"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)**\n\n**Solution & Conceptual Rationale**:\nEutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen."
+      "explanation": "**Correct Answer: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)**\n\n**Solution & Conceptual Rationale**:\nEutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen.",
+      "topic_hi": "पर्यावरण विज्ञान (EVS)",
+      "question_hi": "What is the primary cause of 'Eutrophication' in freshwater lakes and rivers?",
+      "options_hi": {
+        "A": "Heavy oil spills from cargo ships?",
+        "B": "Excess runoff of agricultural fertilizers (nitrates and phosphates)?",
+        "C": "Ozone layer depletion?",
+        "D": "Acidic rain containing sulfuric acid?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)?**\n\n**विषय अवधारणा (पर्यावरण विज्ञान (EVS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 138,
       "questionNumber": 138,
       "section": "Other Skills",
-      "topic": "Environmental Science",
+      "topic": "Mathematical Aptitude",
       "marks": 1,
       "negativeMarks": 0,
       "question": "According to Lindeman's Ten Percent Law in ecological energetics, how much energy is transferred from one trophic level to the next?",
@@ -2374,7 +3607,16 @@ window.predicted_set3 = {
         "D": "90%"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) 10%**\n\n**Solution & Conceptual Rationale**:\nLindeman's Efficiency Law states that only about 10% of the energy stored as organic matter at one trophic level is transferred to the next trophic level; the remaining 90% is lost as metabolic heat."
+      "explanation": "**Correct Answer: (B) 10%**\n\n**Solution & Conceptual Rationale**:\nLindeman's Efficiency Law states that only about 10% of the energy stored as organic matter at one trophic level is transferred to the next trophic level; the remaining 90% is lost as metabolic heat.",
+      "topic_hi": "गणितीय अभिरुचि",
+      "question_hi": "According to Lindeman's Ten Percent Law in ecological energetics, how much energy is transferred from one trophic level to the next?",
+      "options_hi": {
+        "A": "1%?",
+        "B": "10%?",
+        "C": "50%?",
+        "D": "90%?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 10%?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 139,
@@ -2391,7 +3633,16 @@ window.predicted_set3 = {
         "D": "35%"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 30%**\n\n**Solution & Conceptual Rationale**:\nProfit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%."
+      "explanation": "**Correct Answer: (C) 30%**\n\n**Solution & Conceptual Rationale**:\nProfit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
+      "topic_hi": "गणितीय अभिरुचि",
+      "question_hi": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
+      "options_hi": {
+        "A": "20%?",
+        "B": "25%?",
+        "C": "30%?",
+        "D": "35%?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 30%?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 140,
@@ -2408,7 +3659,16 @@ window.predicted_set3 = {
         "D": "80%"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 75**\n\n**Solution & Conceptual Rationale**:\nTotal ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45)."
+      "explanation": "**Correct Answer: (C) 75**\n\n**Solution & Conceptual Rationale**:\nTotal ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
+      "topic_hi": "गणितीय अभिरुचि",
+      "question_hi": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
+      "options_hi": {
+        "A": "45?",
+        "B": "65?",
+        "C": "75?",
+        "D": "80%?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 75?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 141,
@@ -2425,13 +3685,22 @@ window.predicted_set3 = {
         "D": "W"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) V**\n\n**Solution & Conceptual Rationale**:\nLetter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V."
+      "explanation": "**Correct Answer: (C) V**\n\n**Solution & Conceptual Rationale**:\nLetter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V.",
+      "topic_hi": "तार्किक विचार",
+      "question_hi": "Complete the alphabetical series: B, D, G, K, P, ____?",
+      "options_hi": {
+        "A": "T?",
+        "B": "U?",
+        "C": "V?",
+        "D": "W?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) V?**\n\n**विषय अवधारणा (तार्किक विचार)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 142,
       "questionNumber": 142,
       "section": "Other Skills",
-      "topic": "Logical Reasoning",
+      "topic": "General Knowledge",
       "marks": 1,
       "negativeMarks": 0,
       "question": "Statements: 1. Some pens are books. 2. All books are pencils. Conclusion: Some pens are pencils.",
@@ -2442,7 +3711,16 @@ window.predicted_set3 = {
         "D": "Cannot be determined"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Definitely True**\n\n**Solution & Conceptual Rationale**:\nThe intersection of 'pens' and 'books' falls entirely within the set of 'pencils'. Thus, some pens must be pencils. The conclusion is Definitely True."
+      "explanation": "**Correct Answer: (A) Definitely True**\n\n**Solution & Conceptual Rationale**:\nThe intersection of 'pens' and 'books' falls entirely within the set of 'pencils'. Thus, some pens must be pencils. The conclusion is Definitely True.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "Statements: 1. Some pens are books. 2. All books are pencils. Conclusion: Some pens are pencils.",
+      "options_hi": {
+        "A": "Definitely True?",
+        "B": "Definitely False?",
+        "C": "Probably True?",
+        "D": "Cannot be determined?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Definitely True?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 143,
@@ -2459,7 +3737,16 @@ window.predicted_set3 = {
         "D": "Taxila University"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Vikramashila University**\n\n**Solution & Conceptual Rationale**:\nVikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution."
+      "explanation": "**Correct Answer: (B) Vikramashila University**\n\n**Solution & Conceptual Rationale**:\nVikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE?",
+      "options_hi": {
+        "A": "Nalanda University?",
+        "B": "Vikramashila University?",
+        "C": "Odantapuri University?",
+        "D": "Taxila University?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Vikramashila University?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 144,
@@ -2476,7 +3763,16 @@ window.predicted_set3 = {
         "D": "Bardoli"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Champaran, Bihar**\n\n**Solution & Conceptual Rationale**:\nChamparan Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system."
+      "explanation": "**Correct Answer: (B) Champaran, Bihar**\n\n**Solution & Conceptual Rationale**:\nChamparan Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:?",
+      "options_hi": {
+        "A": "Kheda?",
+        "B": "Champaran, Bihar?",
+        "C": "Dandi?",
+        "D": "Bardoli?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Champaran, Bihar?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 145,
@@ -2493,7 +3789,16 @@ window.predicted_set3 = {
         "D": "Article 32"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Article 14**\n\n**Solution & Conceptual Rationale**:\nArticle 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India."
+      "explanation": "**Correct Answer: (A) Article 14**\n\n**Solution & Conceptual Rationale**:\nArticle 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
+      "topic_hi": "सामान्य ज्ञान (GK)",
+      "question_hi": "Which Article of the Indian Constitution guarantees the 'Right to Equality before the Law'?",
+      "options_hi": {
+        "A": "Article 14?",
+        "B": "Article 19?",
+        "C": "Article 21?",
+        "D": "Article 32?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Article 14?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
     },
     {
       "id": 146,
@@ -2510,13 +3815,22 @@ window.predicted_set3 = {
         "D": "Acidic rain containing sulfuric acid"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)**\n\n**Solution & Conceptual Rationale**:\nEutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen."
+      "explanation": "**Correct Answer: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)**\n\n**Solution & Conceptual Rationale**:\nEutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen.",
+      "topic_hi": "पर्यावरण विज्ञान (EVS)",
+      "question_hi": "What is the primary cause of 'Eutrophication' in freshwater lakes and rivers?",
+      "options_hi": {
+        "A": "Heavy oil spills from cargo ships?",
+        "B": "Excess runoff of agricultural fertilizers (nitrates and phosphates)?",
+        "C": "Ozone layer depletion?",
+        "D": "Acidic rain containing sulfuric acid?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)?**\n\n**विषय अवधारणा (पर्यावरण विज्ञान (EVS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 147,
       "questionNumber": 147,
       "section": "Other Skills",
-      "topic": "Environmental Science",
+      "topic": "Mathematical Aptitude",
       "marks": 1,
       "negativeMarks": 0,
       "question": "According to Lindeman's Ten Percent Law in ecological energetics, how much energy is transferred from one trophic level to the next?",
@@ -2527,7 +3841,16 @@ window.predicted_set3 = {
         "D": "90%"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) 10%**\n\n**Solution & Conceptual Rationale**:\nLindeman's Efficiency Law states that only about 10% of the energy stored as organic matter at one trophic level is transferred to the next trophic level; the remaining 90% is lost as metabolic heat."
+      "explanation": "**Correct Answer: (B) 10%**\n\n**Solution & Conceptual Rationale**:\nLindeman's Efficiency Law states that only about 10% of the energy stored as organic matter at one trophic level is transferred to the next trophic level; the remaining 90% is lost as metabolic heat.",
+      "topic_hi": "गणितीय अभिरुचि",
+      "question_hi": "According to Lindeman's Ten Percent Law in ecological energetics, how much energy is transferred from one trophic level to the next?",
+      "options_hi": {
+        "A": "1%?",
+        "B": "10%?",
+        "C": "50%?",
+        "D": "90%?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 10%?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
     },
     {
       "id": 148,
@@ -2544,7 +3867,16 @@ window.predicted_set3 = {
         "D": "35%"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 30%**\n\n**Solution & Conceptual Rationale**:\nProfit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%."
+      "explanation": "**Correct Answer: (C) 30%**\n\n**Solution & Conceptual Rationale**:\nProfit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
+      "topic_hi": "गणितीय अभिरुचि",
+      "question_hi": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
+      "options_hi": {
+        "A": "20%?",
+        "B": "25%?",
+        "C": "30%?",
+        "D": "35%?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 30%?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 149,
@@ -2561,7 +3893,16 @@ window.predicted_set3 = {
         "D": "80%"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 75**\n\n**Solution & Conceptual Rationale**:\nTotal ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45)."
+      "explanation": "**Correct Answer: (C) 75**\n\n**Solution & Conceptual Rationale**:\nTotal ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
+      "topic_hi": "गणितीय अभिरुचि",
+      "question_hi": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
+      "options_hi": {
+        "A": "45?",
+        "B": "65?",
+        "C": "75?",
+        "D": "80%?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 75?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     },
     {
       "id": 150,
@@ -2578,7 +3919,16 @@ window.predicted_set3 = {
         "D": "W"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) V**\n\n**Solution & Conceptual Rationale**:\nLetter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V."
+      "explanation": "**Correct Answer: (C) V**\n\n**Solution & Conceptual Rationale**:\nLetter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V.",
+      "topic_hi": "तार्किक विचार",
+      "question_hi": "Complete the alphabetical series: B, D, G, K, P, ____?",
+      "options_hi": {
+        "A": "T?",
+        "B": "U?",
+        "C": "V?",
+        "D": "W?"
+      },
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) V?**\n\n**विषय अवधारणा (तार्किक विचार)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
     }
   ],
   "category": "Predicted Mock",

@@ -211,6 +211,34 @@ window.PAPERS_CATALOG = [
     "difficulty": "High Probability"
   },
   {
+    "id": "predicted_set11",
+    "varName": "predicted_set11",
+    "jsFile": "predicted-set11.js",
+    "title": "2026 Predicted Full Mock 11",
+    "subtitle": "State Rank Booster: High-Yield Core CS, Python, AI/IoT, NEP 2020 Art of Teaching & Reasoning",
+    "category": "Predicted Mock",
+    "badge": "2026 Predicted",
+    "badgeClass": "badge-predicted",
+    "totalQuestions": 150,
+    "totalMarks": 150,
+    "durationMinutes": 150,
+    "difficulty": "Bilingual & Rank Booster"
+  },
+  {
+    "id": "predicted_set12",
+    "varName": "predicted_set12",
+    "jsFile": "predicted-set12.js",
+    "title": "2026 Predicted Full Mock 12",
+    "subtitle": "Final All-India Grand Mock: Strict Unit 1 to Unit 15 Distribution & Authentic TCS iON Exam Standard",
+    "category": "Predicted Mock",
+    "badge": "2026 Predicted",
+    "badgeClass": "badge-predicted",
+    "totalQuestions": 150,
+    "totalMarks": 150,
+    "durationMinutes": 150,
+    "difficulty": "Grand Simulation"
+  },
+  {
     "id": "drill_cs_100",
     "varName": "topical_drills.drill_cs_100",
     "jsFile": "topical-drills.js",
@@ -251,5 +279,47 @@ window.PAPERS_CATALOG = [
     "totalMarks": 50,
     "durationMinutes": 50,
     "difficulty": "General Focus"
+  },
+  {
+    "id": "drill_dsa_sql_50",
+    "varName": "specialized_drills.drill_dsa_sql_50",
+    "jsFile": "specialized-drills.js",
+    "title": "Data Structures, Algorithms & SQL Drill",
+    "subtitle": "50 High-Yield Questions on Trees, Graphs, Sorting, Normalization & Relational Algebra",
+    "category": "Sectional Drill",
+    "badge": "DSA & DBMS",
+    "badgeClass": "badge-drill",
+    "totalQuestions": 50,
+    "totalMarks": 50,
+    "durationMinutes": 50,
+    "difficulty": "Core Mastery"
+  },
+  {
+    "id": "drill_os_networks_50",
+    "varName": "specialized_drills.drill_os_networks_50",
+    "jsFile": "specialized-drills.js",
+    "title": "Operating Systems & Networking Drill",
+    "subtitle": "50 High-Yield Questions on Deadlocks, Scheduling, Subnetting, OSI & Protocols",
+    "category": "Sectional Drill",
+    "badge": "OS & Networks",
+    "badgeClass": "badge-drill",
+    "totalQuestions": 50,
+    "totalMarks": 50,
+    "durationMinutes": 50,
+    "difficulty": "Core Systems"
+  },
+  {
+    "id": "drill_modern_tech_50",
+    "varName": "specialized_drills.drill_modern_tech_50",
+    "jsFile": "specialized-drills.js",
+    "title": "Web Development, Python, IoT & AI Drill",
+    "subtitle": "50 High-Yield Questions on HTML5, JS, Python OOP, IoT Protocols & AI Search",
+    "category": "Sectional Drill",
+    "badge": "Modern Tech",
+    "badgeClass": "badge-drill",
+    "totalQuestions": 50,
+    "totalMarks": 50,
+    "durationMinutes": 50,
+    "difficulty": "Emerging Tech"
   }
 ];
