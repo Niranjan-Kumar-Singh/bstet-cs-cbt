@@ -1,7 +1,9 @@
 User-agent: *
+Disallow: /scripts/
 Allow: /
 
 User-agent: Googlebot
+Disallow: /scripts/
 Allow: /
 
 User-agent: Mediapartners-Google

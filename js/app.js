@@ -1550,15 +1550,22 @@ class App {
       `;
     } else if (tabName === 'adsense') {
       this.legalModalBody.innerHTML = `
-        <h4 style="color:var(--text-primary); margin-bottom: 8px;">Google AdSense & Advertising Transparency</h4>
-        <p>This website participates in the <strong>Google AdSense</strong> program to support the free hosting and ongoing maintenance of 23 full-length mock examinations for aspirants.</p>
-        <div style="background:var(--bg-subtle); padding:14px; border-radius:8px; border:1px solid var(--border-subtle); margin:12px 0;">
-          <strong>Authorized Publisher Information:</strong><br>
-          Publisher ID: <code>pub-4208665414964925</code><br>
-          Ads.txt Verification: <code>google.com, pub-4208665414964925, DIRECT, f08c47fec0942fa0</code><br>
-          Verification File: <a href="/ads.txt" target="_blank" style="color:var(--primary);">/ads.txt</a>
-        </div>
-        <p>Google uses cookies to serve ads based on a user's prior visits to this website or other websites. You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener" style="color:var(--primary);">Google Ads Settings</a>.</p>
+        <h4 style="color:var(--text-primary); margin-bottom: 8px;">Advertising & Cookie Transparency</h4>
+        <p style="color:var(--text-muted); font-size: 12px; margin-bottom: 14px;">Compliance with Google Publisher Policies & Privacy Regulations</p>
+
+        <p>This educational website participates in the <strong>Google AdSense</strong> advertising program to cover server hosting, infrastructure costs, and continuous maintenance of all 23 full-length mock examinations for teaching aspirants.</p>
+
+        <h5 style="margin-top: 14px; color:var(--text-primary);">1. How Google Serves Advertisements</h5>
+        <p>Third-party vendors, including Google, use cookies to serve ads based on a candidate's prior visits to this website or other websites across the Internet. Google's use of advertising cookies enables it and its partners to serve relevant advertisements to users.</p>
+
+        <h5 style="margin-top: 14px; color:var(--text-primary);">2. Exam Focus & Non-Intrusive Experience</h5>
+        <p>Ads served on this platform are strictly monitored to ensure they remain educational, clean, and non-distracting. During active examination sessions, advertisements are suppressed to preserve the candidate's focus and authentic test simulation.</p>
+
+        <h5 style="margin-top: 14px; color:var(--text-primary);">3. How You Can Opt Out of Personalized Ads</h5>
+        <p>You may opt out of personalized advertising at any time by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener" style="color:var(--primary); font-weight:700;">Google Ads Settings</a>. You may also opt out of third-party vendor advertising cookies by visiting <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener" style="color:var(--primary); font-weight:700;">AboutAds.info</a>.</p>
+
+        <h5 style="margin-top: 14px; color:var(--text-primary);">4. Authorized Digital Sellers (ads.txt)</h5>
+        <p>In full compliance with Interactive Advertising Bureau (IAB) standards, this website maintains an official authorized digital sellers file accessible at <a href="/ads.txt" target="_blank" style="color:var(--primary); font-weight:700;">/ads.txt</a>.</p>
       `;
     } else if (tabName === 'author') {
       this.legalModalBody.innerHTML = `
