@@ -18,7 +18,9 @@ class ExamEngine {
     this.startTime = null;
     this.timeSpentPerQ = {}; // qId -> seconds
     this.lastTickTime = null;
-    this.lang = (window.BSTET_I18N && window.BSTET_I18N.currentLang) || localStorage.getItem('BSTET_LANG') || 'en';
+    this.baseLang = (window.BSTET_I18N && window.BSTET_I18N.currentLang) || localStorage.getItem('BSTET_LANG') || 'en';
+    this.lang = this.baseLang; // backward compatibility
+    this.questionLangOverrides = {}; // qId -> 'en' | 'hi' | 'both'
     this.onTick = null;
     this.onQuestionChange = null;
     this.onAutoSubmit = null;
@@ -28,7 +30,9 @@ class ExamEngine {
     this.paper = paperData;
     this.mode = mode;
     this.totalDuration = (this.paper.durationMinutes || 150) * 60;
-    this.lang = (window.BSTET_I18N && window.BSTET_I18N.currentLang) || localStorage.getItem('BSTET_LANG') || 'en';
+    this.baseLang = (window.BSTET_I18N && window.BSTET_I18N.currentLang) || localStorage.getItem('BSTET_LANG') || 'en';
+    this.lang = this.baseLang;
+    this.questionLangOverrides = {};
     
     const saved = resume ? this.loadSession(this.paper.id) : null;
     
@@ -39,7 +43,10 @@ class ExamEngine {
       this.timeRemaining = saved.timeRemaining !== undefined ? saved.timeRemaining : this.totalDuration;
       this.timeSpentPerQ = saved.timeSpentPerQ || {};
       this.startTime = saved.startTime || Date.now();
-      if (saved.lang) this.lang = saved.lang;
+      if (saved.baseLang) this.baseLang = saved.baseLang;
+      else if (saved.lang) this.baseLang = saved.lang;
+      this.lang = this.baseLang;
+      if (saved.questionLangOverrides) this.questionLangOverrides = saved.questionLangOverrides;
     } else {
       this.currentIndex = 0;
       this.responses = {};
@@ -59,25 +66,67 @@ class ExamEngine {
     this.saveSession();
   }
 
-  setLanguage(newLang) {
+  /**
+   * Set global base language for the exam.
+   * If clearOverrides is true, all per-question overrides are reset so every question inherits baseLang.
+   */
+  setBaseLanguage(newLang, clearOverrides = true) {
     if (newLang !== 'en' && newLang !== 'hi' && newLang !== 'both') newLang = 'en';
+    this.baseLang = newLang;
     this.lang = newLang;
+    if (clearOverrides) {
+      this.questionLangOverrides = {};
+    }
     this.saveSession();
-    return this.lang;
+    return this.baseLang;
   }
 
-  toggleLanguage() {
-    const next = this.lang === 'en' ? 'hi' : 'en';
-    return this.setLanguage(next);
+  // Alias for backward compatibility
+  setLanguage(newLang) {
+    return this.setBaseLanguage(newLang, true);
+  }
+
+  /**
+   * Set language for a specific question ONLY.
+   */
+  setQuestionLanguage(qId, newLang) {
+    if (newLang !== 'en' && newLang !== 'hi' && newLang !== 'both') newLang = this.baseLang || 'en';
+    if (!this.questionLangOverrides) this.questionLangOverrides = {};
+    this.questionLangOverrides[qId] = newLang;
+    this.saveSession();
+    return newLang;
+  }
+
+  /**
+   * Toggle language for a specific question ONLY (en <-> hi).
+   */
+  toggleCurrentQuestionLanguage(qId) {
+    const cur = this.getQuestionActiveLang({ id: qId });
+    const next = cur === 'en' ? 'hi' : 'en';
+    return this.setQuestionLanguage(qId, next);
+  }
+
+  /**
+   * Get the active language for a specific question:
+   * uses per-question override if present, otherwise defaults to baseLang.
+   */
+  getQuestionActiveLang(q) {
+    if (!q) return this.baseLang || 'en';
+    if (this.questionLangOverrides && this.questionLangOverrides[q.id]) {
+      return this.questionLangOverrides[q.id];
+    }
+    return this.baseLang || 'en';
   }
 
   getQuestionStatement(q) {
     if (!q) return "";
-    if (this.lang === 'hi' && q.question_hi) {
-      return q.question_hi;
+    const activeLang = this.getQuestionActiveLang(q);
+    if (activeLang === 'hi') {
+      return q.question_hi || q.question;
     }
-    if (this.lang === 'both' && q.question_hi) {
-      return `<div class="dual-question-en">${q.question.replace(/\n/g, '<br>')}</div><div class="dual-question-hi"><span class="dual-tag">हिन्दी अनुवाद:</span> ${q.question_hi.replace(/\n/g, '<br>')}</div>`;
+    if (activeLang === 'both') {
+      const hi = q.question_hi || q.question;
+      return `<div class="dual-question-en">${q.question.replace(/\n/g, '<br>')}</div><div class="dual-question-hi"><span class="dual-tag">हिन्दी अनुवाद:</span> ${hi.replace(/\n/g, '<br>')}</div>`;
     }
     return q.question;
   }
@@ -86,11 +135,12 @@ class ExamEngine {
     if (!q || !q.options) return "";
     const enOpt = q.options[optKey] || "";
     const hiOpt = (q.options_hi && q.options_hi[optKey]) ? q.options_hi[optKey] : "";
+    const activeLang = this.getQuestionActiveLang(q);
 
-    if (this.lang === 'hi') {
+    if (activeLang === 'hi') {
       return hiOpt || enOpt;
     }
-    if (this.lang === 'both' && hiOpt && hiOpt !== enOpt) {
+    if (activeLang === 'both' && hiOpt && hiOpt !== enOpt) {
       return `<div class="option-text-dual"><span class="opt-en">${enOpt}</span><span class="opt-hi">${hiOpt}</span></div>`;
     }
     return enOpt;
@@ -98,7 +148,8 @@ class ExamEngine {
 
   getQuestionTopic(q) {
     if (!q) return "Computer Science";
-    if (this.lang === 'hi' || this.lang === 'both') {
+    const activeLang = this.getQuestionActiveLang(q);
+    if (activeLang === 'hi' || activeLang === 'both') {
       if (q.topic_hi) return q.topic_hi;
       if (window.BSTET_I18N) return window.BSTET_I18N.translateTopic(q.topic);
     }
@@ -109,11 +160,12 @@ class ExamEngine {
     if (!q) return "";
     const enExp = q.explanation || "";
     const hiExp = q.explanation_hi || "";
+    const activeLang = this.getQuestionActiveLang(q);
 
-    if (this.lang === 'hi') {
+    if (activeLang === 'hi') {
       return hiExp || enExp;
     }
-    if (this.lang === 'both' && hiExp && hiExp !== enExp) {
+    if (activeLang === 'both' && hiExp && hiExp !== enExp) {
       return `<div class="dual-explanation-en">${enExp}</div><div class="dual-question-hi" style="margin-top:8px;"><span class="dual-tag">हिन्दी व्याख्या:</span> ${hiExp}</div>`;
     }
     return enExp;
@@ -306,7 +358,9 @@ class ExamEngine {
       timeRemaining: this.timeRemaining,
       timeSpentPerQ: this.timeSpentPerQ,
       startTime: this.startTime,
-      lang: this.lang,
+      baseLang: this.baseLang,
+      lang: this.baseLang,
+      questionLangOverrides: this.questionLangOverrides,
       lastUpdated: Date.now()
     };
     try {

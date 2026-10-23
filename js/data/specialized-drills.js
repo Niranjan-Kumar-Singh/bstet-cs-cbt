@@ -87,10 +87,10 @@ window.specialized_drills = {
           "D": "J = 0, K = 1 and propagation delay is zero"
         },
         "options_hi": {
-          "A": "J = 0, K = 0 और क्लॉक हाई हो",
+          "A": "जे = 0, के = 0 और घड़ी उच्च है",
           "B": "J = 1, K = 1 और क्लॉक पल्स चौड़ाई प्रोपेगेशन डिले से अधिक हो",
-          "C": "J = 1, K = 0 और क्लॉक लो हो",
-          "D": "J = 0, K = 1 और प्रोपेगेशन डिले शून्य हो"
+          "C": "जे = 1, के = 0 और घड़ी कम है",
+          "D": "जे = 0, के = 1 और प्रसार विलंब शून्य है"
         },
         "correctAnswer": "B",
         "explanation": "Race-around condition occurs when J=1, K=1 and clock pulse width exceeds flip-flop propagation delay.",
@@ -165,10 +165,10 @@ window.specialized_drills = {
           "D": "O(n³)"
         },
         "options_hi": {
-          "A": "O(n log n)",
-          "B": "O(n)",
-          "C": "O(n²)",
-          "D": "O(n³)"
+          "A": "ओ(एन लॉग एन)",
+          "B": "पर)",
+          "C": "ओ(एन²)",
+          "D": "ओ(एन³)"
         },
         "correctAnswer": "C",
         "explanation": "When the pivot chosen is consistently the smallest or largest element, QuickSort degrades to O(n²).",
@@ -191,10 +191,10 @@ window.specialized_drills = {
           "D": "FILTER"
         },
         "options_hi": {
-          "A": "WHERE",
-          "B": "HAVING",
-          "C": "ORDER BY",
-          "D": "FILTER"
+          "A": "कहाँ",
+          "B": "होना",
+          "C": "द्वारा आदेश",
+          "D": "फ़िल्टर"
         },
         "correctAnswer": "B",
         "explanation": "HAVING filters aggregated groups formed by GROUP BY, while WHERE filters individual rows prior to grouping.",
@@ -209,7 +209,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the simplified expression for the Boolean function F(A, B, C) = Σm(1, 3, 5, 7) using Boolean algebra or K-Map?",
-        "question_hi": "What is the simplified expression for the Boolean function F(A, B, C) = Σm(1, 3, 5, 7) using Boolean algebra or K-Map?",
+        "question_hi": "बूलियन बीजगणित या K-मैप का उपयोग करके बूलियन फ़ंक्शन F(A, B, C) = Σm(1, 3, 5, 7) के लिए सरलीकृत अभिव्यक्ति क्या है?",
         "options": {
           "A": "A",
           "B": "B",
@@ -220,7 +220,7 @@ window.specialized_drills = {
           "A": "A",
           "B": "B",
           "C": "C",
-          "D": "A'B'"
+          "D": "ए'बी'"
         },
         "correctAnswer": "C",
         "explanation": "Minterms 1 (001), 3 (011), 5 (101), 7 (111) group into a 4-cell quad in a 3-variable K-Map. In these terms, A and B both vary (0 and 1), while C is constant at 1. Hence, the minimized SOP term is C.",
@@ -235,7 +235,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "How many select lines are required for a 64-to-1 Multiplexer (MUX)?",
-        "question_hi": "How many select lines are required for a 64-to-1 Multiplexer (MUX)?",
+        "question_hi": "64-टू-1 मल्टीप्लेक्सर (एमयूएक्स) के लिए कितनी चुनिंदा लाइनें आवश्यक हैं?",
         "options": {
           "A": "4",
           "B": "5",
@@ -261,7 +261,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In a J-K flip flop, what condition produces the 'Toggle' output mode?",
-        "question_hi": "In a J-K flip flop, what condition produces the 'Toggle' output mode?",
+        "question_hi": "जे-के फ्लिप फ्लॉप में, कौन सी स्थिति 'टॉगल' आउटपुट मोड उत्पन्न करती है?",
         "options": {
           "A": "J = 0, K = 0",
           "B": "J = 0, K = 1",
@@ -269,10 +269,10 @@ window.specialized_drills = {
           "D": "J = 1, K = 1"
         },
         "options_hi": {
-          "A": "J = 0, K = 0",
-          "B": "J = 0, K = 1",
-          "C": "J = 1, K = 0",
-          "D": "J = 1, K = 1"
+          "A": "जे = 0, के = 0",
+          "B": "जे = 0, के = 1",
+          "C": "जे = 1, के = 0",
+          "D": "जे = 1, के = 1"
         },
         "correctAnswer": "D",
         "explanation": "In a JK flip-flop: When J=0, K=0 -> No change (Memory); J=0, K=1 -> Reset (Q=0); J=1, K=0 -> Set (Q=1); J=1, K=1 -> Toggle (Q(t+1) = Q'(t)).",
@@ -287,7 +287,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which of the following logic families exhibits the highest switching speed and lowest propagation delay?",
-        "question_hi": "Which of the following logic families exhibits the highest switching speed and lowest propagation delay?",
+        "question_hi": "निम्नलिखित में से कौन सा तर्क परिवार उच्चतम स्विचिंग गति और सबसे कम प्रसार विलंब प्रदर्शित करता है?",
         "options": {
           "A": "TTL (Transistor-Transistor Logic)",
           "B": "ECL (Emitter-Coupled Logic)",
@@ -295,10 +295,10 @@ window.specialized_drills = {
           "D": "NMOS"
         },
         "options_hi": {
-          "A": "TTL (Transistor-Transistor Logic)",
-          "B": "ECL (Emitter-Coupled Logic)",
-          "C": "CMOS",
-          "D": "NMOS"
+          "A": "टीटीएल (ट्रांजिस्टर-ट्रांजिस्टर लॉजिक)",
+          "B": "ईसीएल (एमिटर-युग्मित तर्क)",
+          "C": "सीएमओएस",
+          "D": "एनएमओएस"
         },
         "correctAnswer": "B",
         "explanation": "ECL (Emitter-Coupled Logic) operates its transistors in the non-saturated active region rather than saturation, eliminating storage time delay and achieving propagation delays below 1 nanosecond (fastest among conventional families).",
@@ -313,7 +313,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "An 8-bit digital-to-analog converter (DAC) has a reference voltage of 5V. What is the approximate resolution (step size)?",
-        "question_hi": "An 8-bit digital-to-analog converter (DAC) has a reference voltage of 5V. What is the approximate resolution (step size)?",
+        "question_hi": "8-बिट डिजिटल-टू-एनालॉग कनवर्टर (डीएसी) का संदर्भ वोल्टेज 5V है। अनुमानित रिज़ॉल्यूशन (चरण आकार) क्या है?",
         "options": {
           "A": "19.5 mV",
           "B": "39.1 mV",
@@ -321,10 +321,10 @@ window.specialized_drills = {
           "D": "62.5 mV"
         },
         "options_hi": {
-          "A": "19.5 mV",
-          "B": "39.1 mV",
-          "C": "9.8 mV",
-          "D": "62.5 mV"
+          "A": "19.5 एमवी",
+          "B": "39.1 एमवी",
+          "C": "9.8 एमवी",
+          "D": "62.5 एमवी"
         },
         "correctAnswer": "A",
         "explanation": "Resolution = V_ref / (2ⁿ - 1) = 5V / (2⁸ - 1) = 5V / 255 ≈ 19.6 mV (or 5V / 256 ≈ 19.53 mV).",
@@ -339,7 +339,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the canonical representation form that expresses a Boolean function as a product of sum terms called?",
-        "question_hi": "What is the canonical representation form that expresses a Boolean function as a product of sum terms called?",
+        "question_hi": "कंप्यूटर साइंस अवधारणा: What is the canonical representation form that expresses a Boolean function as a product of sum terms called के संबंध में सही कथन या मान क्या है?",
         "options": {
           "A": "Minterm form",
           "B": "Maxterm / POS form",
@@ -347,10 +347,10 @@ window.specialized_drills = {
           "D": "Disjunctive Normal Form"
         },
         "options_hi": {
-          "A": "Minterm form",
+          "A": "मिन्टर्म फॉर्म",
           "B": "Maxterm / POS form",
-          "C": "Dual form",
-          "D": "Disjunctive Normal Form"
+          "C": "दोहरा रूप",
+          "D": "विच्छेदनात्मक सामान्य रूप"
         },
         "correctAnswer": "B",
         "explanation": "Product of Sums (POS) expresses a logic function as the AND combination (product) of OR terms (sums/maxterms), denoted by ΠM.",
@@ -365,7 +365,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In a programmable logic array (PLA), which gate arrays are programmable?",
-        "question_hi": "In a programmable logic array (PLA), which gate arrays are programmable?",
+        "question_hi": "प्रोग्रामयोग्य लॉजिक ऐरे (PLA) में, कौन से गेट ऐरे प्रोग्रामयोग्य हैं?",
         "options": {
           "A": "AND array is fixed, OR array is programmable",
           "B": "Both AND array and OR array are programmable",
@@ -373,10 +373,10 @@ window.specialized_drills = {
           "D": "Neither array is programmable"
         },
         "options_hi": {
-          "A": "AND array is fixed, OR array is programmable",
-          "B": "Both AND array and OR array are programmable",
-          "C": "AND array is programmable, OR array is fixed",
-          "D": "Neither array is programmable"
+          "A": "और ऐरे निश्चित है, या ऐरे प्रोग्रामयोग्य है",
+          "B": "AND ऐरे और OR ऐरे दोनों प्रोग्रामयोग्य हैं",
+          "C": "और ऐरे प्रोग्रामयोग्य है, या ऐरे निश्चित है",
+          "D": "कोई भी ऐरे प्रोग्राम करने योग्य नहीं है"
         },
         "correctAnswer": "B",
         "explanation": "In a PLA, BOTH the AND array and the OR array are programmable. (In a PAL, the AND array is programmable while the OR array is fixed; in a PROM, the AND array is fixed while the OR array is programmable).",
@@ -391,7 +391,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In a row-major 2D array A[1..M, 1..N] stored starting at base address B with element size S, what is the address formula for element A[i, j]?",
-        "question_hi": "In a row-major 2D array A[1..M, 1..N] stored starting at base address B with element size S, what is the address formula for element A[i, j]?",
+        "question_hi": "पंक्ति-प्रमुख 2D सरणी A[1..M, 1..N] में तत्व आकार S के साथ आधार पता B से शुरू करके संग्रहीत किया जाता है, तत्व A[i, j] के लिए पता सूत्र क्या है?",
         "options": {
           "A": "B + [(i - 1) * N + (j - 1)] * S",
           "B": "B + [(j - 1) * M + (i - 1)] * S",
@@ -399,10 +399,10 @@ window.specialized_drills = {
           "D": "B + [(i - 1) + (j - 1) * N] * S"
         },
         "options_hi": {
-          "A": "B + [(i - 1) * N + (j - 1)] * S",
-          "B": "B + [(j - 1) * M + (i - 1)] * S",
-          "C": "B + [i * N + j] * S",
-          "D": "B + [(i - 1) + (j - 1) * N] * S"
+          "A": "बी + [(आई - 1) * एन + (जे - 1)] * एस",
+          "B": "बी + [(जे - 1) * एम + (आई - 1)] * एस",
+          "C": "बी + [आई * एन + जे] * एस",
+          "D": "बी + [(आई - 1) + (जे - 1) * एन] * एस"
         },
         "correctAnswer": "A",
         "explanation": "In row-major order, rows are placed contiguously in memory. To reach row i, you skip (i - 1) complete rows of N elements each, and then move (j - 1) elements into row i. Hence: Address = Base + [((i - 1) * N) + (j - 1)] * S.",
@@ -417,7 +417,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the equivalent postfix expression for the infix expression: A + B * C - D / E?",
-        "question_hi": "What is the equivalent postfix expression for the infix expression: A + B * C - D / E?",
+        "question_hi": "इनफ़िक्स अभिव्यक्ति के लिए समकक्ष पोस्टफ़िक्स अभिव्यक्ति क्या है: ए + बी * सी - डी / ई?",
         "options": {
           "A": "A B C * + D E / -",
           "B": "A B + C * D - E /",
@@ -425,10 +425,10 @@ window.specialized_drills = {
           "D": "+ A * B C - / D E"
         },
         "options_hi": {
-          "A": "A B C * + D E / -",
-          "B": "A B + C * D - E /",
-          "C": "A B C * D E / - +",
-          "D": "+ A * B C - / D E"
+          "A": "ए बी सी * + डी ई / -",
+          "B": "ए बी + सी * डी - ई /",
+          "C": "ए बी सी * डी ई / - +",
+          "D": "+ ए * बी सी - / डी ई"
         },
         "correctAnswer": "A",
         "explanation": "Operator precedence: * and / have higher precedence than + and -. 1. (B * C) -> B C *; 2. A + (B C *) -> A B C * +; 3. (D / E) -> D E /; 4. (A B C * +) - (D E /) -> A B C * + D E / -.",
@@ -443,7 +443,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the time complexity to search for a key in a balanced AVL tree with n nodes?",
-        "question_hi": "What is the time complexity to search for a key in a balanced AVL tree with n nodes?",
+        "question_hi": "n नोड्स वाले संतुलित AVL ट्री में कुंजी खोजने में समय की जटिलता क्या है?",
         "options": {
           "A": "O(1)",
           "B": "O(log n)",
@@ -451,10 +451,10 @@ window.specialized_drills = {
           "D": "O(n log n)"
         },
         "options_hi": {
-          "A": "O(1)",
-          "B": "O(log n)",
-          "C": "O(n)",
-          "D": "O(n log n)"
+          "A": "हे(1)",
+          "B": "ओ(लॉग एन)",
+          "C": "पर)",
+          "D": "ओ(एन लॉग एन)"
         },
         "correctAnswer": "B",
         "explanation": "An AVL tree is strictly balanced with maximum height bounded by 1.44 log₂(n). Therefore, search, insertion, and deletion operations all take guaranteed O(log n) time.",
@@ -469,7 +469,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which data structure is fundamentally used for the Breadth-First Search (BFS) graph traversal algorithm?",
-        "question_hi": "Which data structure is fundamentally used for the Breadth-First Search (BFS) graph traversal algorithm?",
+        "question_hi": "ब्रेडथ-फर्स्ट सर्च (बीएफएस) ग्राफ ट्रैवर्सल एल्गोरिदम के लिए मूल रूप से कौन सी डेटा संरचना का उपयोग किया जाता है?",
         "options": {
           "A": "Stack",
           "B": "Queue",
@@ -477,10 +477,10 @@ window.specialized_drills = {
           "D": "Binary Tree"
         },
         "options_hi": {
-          "A": "Stack",
-          "B": "Queue",
-          "C": "Priority Queue",
-          "D": "Binary Tree"
+          "A": "स्टैक (Stack)",
+          "B": "कतार (Queue)",
+          "C": "प्राथमिकता कतार",
+          "D": "बाइनरी ट्री"
         },
         "correctAnswer": "B",
         "explanation": "BFS visits vertices in order of their distance from the source level-by-level (FIFO), which is implemented using a Queue. (DFS uses a Stack).",
@@ -495,7 +495,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the number of edges in a tree with n vertices?",
-        "question_hi": "What is the number of edges in a tree with n vertices?",
+        "question_hi": "n शीर्षों वाले पेड़ में किनारों की संख्या कितनी होती है?",
         "options": {
           "A": "n",
           "B": "n - 1",
@@ -504,9 +504,9 @@ window.specialized_drills = {
         },
         "options_hi": {
           "A": "n",
-          "B": "n - 1",
-          "C": "n + 1",
-          "D": "2n - 1"
+          "B": "एन - 1",
+          "C": "एन + 1",
+          "D": "2एन - 1"
         },
         "correctAnswer": "B",
         "explanation": "By mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
@@ -521,7 +521,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In a hash table of size 10 using open addressing with linear probing and hash function h(k) = k mod 10, where will key 42 be placed if keys 12, 22, and 32 are already inserted?",
-        "question_hi": "In a hash table of size 10 using open addressing with linear probing and hash function h(k) = k mod 10, where will key 42 be placed if keys 12, 22, and 32 are already inserted?",
+        "question_hi": "लीनियर प्रोबिंग और हैश फ़ंक्शन h(k) = k mod 10 के साथ ओपन एड्रेसिंग का उपयोग करते हुए आकार 10 की हैश तालिका में, यदि कुंजी 12, 22 और 32 पहले से ही डाली गई हैं तो कुंजी 42 कहाँ रखी जाएगी?",
         "options": {
           "A": "Index 2",
           "B": "Index 3",
@@ -529,10 +529,10 @@ window.specialized_drills = {
           "D": "Index 5"
         },
         "options_hi": {
-          "A": "Index 2",
+          "A": "सूचकांक 2",
           "B": "Index 3",
-          "C": "Index 4",
-          "D": "Index 5"
+          "C": "सूचकांक 4",
+          "D": "सूचकांक 5"
         },
         "correctAnswer": "D",
         "explanation": "h(12)=2 (stored at 2); h(22)=2 -> collision -> stored at 3; h(32)=2 -> collisions at 2, 3 -> stored at 4; h(42)=2 -> collisions at 2, 3, 4 -> stored at index 5.",
@@ -547,7 +547,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the solution of the recurrence relation T(n) = 2T(n/2) + n by Master Theorem?",
-        "question_hi": "What is the solution of the recurrence relation T(n) = 2T(n/2) + n by Master Theorem?",
+        "question_hi": "मास्टर प्रमेय द्वारा पुनरावृत्ति संबंध T(n) = 2T(n/2) + n का समाधान क्या है?",
         "options": {
           "A": "Θ(n)",
           "B": "Θ(n log n)",
@@ -555,10 +555,10 @@ window.specialized_drills = {
           "D": "Θ(log n)"
         },
         "options_hi": {
-          "A": "Θ(n)",
-          "B": "Θ(n log n)",
+          "A": "Θ(एन)",
+          "B": "Θ(एन लॉग एन)",
           "C": "Θ(n²)",
-          "D": "Θ(log n)"
+          "D": "Θ(लॉग एन)"
         },
         "correctAnswer": "B",
         "explanation": "For T(n) = aT(n/b) + f(n): a = 2, b = 2, f(n) = n. Here n^(log_b(a)) = n^(log₂2) = n¹. Since f(n) = Θ(n^(log_b(a))), Case 2 of Master Theorem applies: T(n) = Θ(n log n) (Merge Sort recurrence).",
@@ -573,7 +573,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which algorithm finds the shortest path between all pairs of vertices in a weighted graph in O(V³) time?",
-        "question_hi": "Which algorithm finds the shortest path between all pairs of vertices in a weighted graph in O(V³) time?",
+        "question_hi": "कौन सा एल्गोरिदम O(V³) समय में भारित ग्राफ़ में शीर्षों के सभी जोड़े के बीच सबसे छोटा रास्ता ढूंढता है?",
         "options": {
           "A": "Dijkstra's Algorithm",
           "B": "Bellman-Ford Algorithm",
@@ -581,10 +581,10 @@ window.specialized_drills = {
           "D": "Kruskal's Algorithm"
         },
         "options_hi": {
-          "A": "Dijkstra's Algorithm",
+          "A": "डिज्क्स्ट्रा का एल्गोरिदम",
           "B": "Bellman-Ford Algorithm",
           "C": "Floyd-Warshall Algorithm",
-          "D": "Kruskal's Algorithm"
+          "D": "क्रुस्कल का एल्गोरिदम"
         },
         "correctAnswer": "C",
         "explanation": "The Floyd-Warshall algorithm uses dynamic programming to compute the all-pairs shortest paths in a directed weighted graph with time complexity Θ(V³).",
@@ -599,7 +599,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What algorithmic paradigm is employed in solving the 8-Queens problem?",
-        "question_hi": "What algorithmic paradigm is employed in solving the 8-Queens problem?",
+        "question_hi": "8-क्वींस समस्या को हल करने में कौन सा एल्गोरिथम प्रतिमान कार्यरत है?",
         "options": {
           "A": "Greedy Method",
           "B": "Backtracking",
@@ -607,10 +607,10 @@ window.specialized_drills = {
           "D": "Divide and Conquer"
         },
         "options_hi": {
-          "A": "Greedy Method",
-          "B": "Backtracking",
-          "C": "Dynamic Programming",
-          "D": "Divide and Conquer"
+          "A": "लालची तरीका",
+          "B": "बैक ट्रैकिंग",
+          "C": "डायनामिक प्रोग्रामिंग",
+          "D": "फूट डालो और राज करो"
         },
         "correctAnswer": "B",
         "explanation": "The 8-Queens problem is solved using Backtracking: placing queens row by row and abandoning (backtracking from) non-viable partial solutions whenever a conflict arises.",
@@ -625,7 +625,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which of the following problems is known to be NP-Complete?",
-        "question_hi": "Which of the following problems is known to be NP-Complete?",
+        "question_hi": "निम्नलिखित में से कौन सी समस्या एनपी-कम्प्लीट के रूप में जानी जाती है?",
         "options": {
           "A": "Shortest Path in Directed Acyclic Graph",
           "B": "Minimum Spanning Tree",
@@ -633,10 +633,10 @@ window.specialized_drills = {
           "D": "Breadth First Search"
         },
         "options_hi": {
-          "A": "Shortest Path in Directed Acyclic Graph",
-          "B": "Minimum Spanning Tree",
-          "C": "Traveling Salesperson Decision Problem",
-          "D": "Breadth First Search"
+          "A": "निर्देशित चक्रीय ग्राफ़ में सबसे छोटा पथ",
+          "B": "न्यूनतम स्पैनिंग ट्री (MST)",
+          "C": "यात्रा विक्रेता निर्णय समस्या",
+          "D": "चौड़ाई-प्रथम खोज (BFS)"
         },
         "correctAnswer": "C",
         "explanation": "The Traveling Salesperson decision problem (TSP), Boolean Satisfiability (SAT), and Vertex Cover are classic NP-Complete problems.",
@@ -651,7 +651,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In relational database design, Boy-Codd Normal Form (BCNF) requires that for every non-trivial functional dependency X -> Y:",
-        "question_hi": "In relational database design, Boy-Codd Normal Form (BCNF) requires that for every non-trivial functional dependency X -> Y:",
+        "question_hi": "रिलेशनल डेटाबेस डिज़ाइन में, बॉय-कॉड नॉर्मल फॉर्म (बीसीएनएफ) के लिए आवश्यक है कि प्रत्येक गैर-तुच्छ कार्यात्मक निर्भरता X -> Y के लिए:",
         "options": {
           "A": "Y must be a prime attribute",
           "B": "X must be a Super Key",
@@ -659,10 +659,10 @@ window.specialized_drills = {
           "D": "Y must not depend on X"
         },
         "options_hi": {
-          "A": "Y must be a prime attribute",
-          "B": "X must be a Super Key",
-          "C": "X and Y must be atomic",
-          "D": "Y must not depend on X"
+          "A": "Y एक प्रमुख गुण होना चाहिए",
+          "B": "X एक सुपर कुंजी होनी चाहिए",
+          "C": "X और Y परमाणु होने चाहिए",
+          "D": "Y को X पर निर्भर नहीं रहना चाहिए"
         },
         "correctAnswer": "B",
         "explanation": "BCNF is a stricter version of 3NF. It requires that for every non-trivial functional dependency X -> Y, the determinant X must be a Super Key of the relation.",
@@ -677,7 +677,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which SQL command belongs to the Data Control Language (DCL) category?",
-        "question_hi": "Which SQL command belongs to the Data Control Language (DCL) category?",
+        "question_hi": "Which SQL command belongs to the डेटा नियंत्रण भाषा (DCL) (DCL) category?",
         "options": {
           "A": "SELECT",
           "B": "GRANT",
@@ -685,8 +685,8 @@ window.specialized_drills = {
           "D": "UPDATE"
         },
         "options_hi": {
-          "A": "SELECT",
-          "B": "GRANT",
+          "A": "चुनना",
+          "B": "अनुदान",
           "C": "ALTER",
           "D": "UPDATE"
         },
@@ -703,7 +703,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In the Two-Phase Locking (2PL) protocol, what happens during the 'Growing Phase'?",
-        "question_hi": "In the Two-Phase Locking (2PL) protocol, what happens during the 'Growing Phase'?",
+        "question_hi": "दो-चरण लॉकिंग (2PL) प्रोटोकॉल में, 'बढ़ते चरण' के दौरान क्या होता है?",
         "options": {
           "A": "Locks are acquired and no locks can be released",
           "B": "Locks are released and no locks can be acquired",
@@ -711,10 +711,10 @@ window.specialized_drills = {
           "D": "Data items are deleted"
         },
         "options_hi": {
-          "A": "Locks are acquired and no locks can be released",
-          "B": "Locks are released and no locks can be acquired",
-          "C": "Transactions are committed",
-          "D": "Data items are deleted"
+          "A": "ताले अधिगृहीत हैं और कोई भी ताला जारी नहीं किया जा सकता",
+          "B": "ताले जारी कर दिए जाते हैं और कोई ताले हासिल नहीं किए जा सकते",
+          "C": "लेनदेन प्रतिबद्ध हैं",
+          "D": "डेटा आइटम हटा दिए गए हैं"
         },
         "correctAnswer": "A",
         "explanation": "Under 2PL: Phase 1 (Growing Phase): A transaction may acquire locks, but cannot release any lock. Phase 2 (Shrinking Phase): A transaction may release locks, but cannot acquire any new locks.",
@@ -729,7 +729,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the primary purpose of the Foreign Key in a relational table?",
-        "question_hi": "What is the primary purpose of the Foreign Key in a relational table?",
+        "question_hi": "संबंधपरक तालिका में विदेशी कुंजी का प्राथमिक उद्देश्य क्या है?",
         "options": {
           "A": "To ensure unique values in the current table",
           "B": "To establish referential integrity between two related tables",
@@ -737,10 +737,10 @@ window.specialized_drills = {
           "D": "To speed up query sort orders"
         },
         "options_hi": {
-          "A": "To ensure unique values in the current table",
-          "B": "To establish referential integrity between two related tables",
-          "C": "To prevent NULL values in a column",
-          "D": "To speed up query sort orders"
+          "A": "वर्तमान तालिका में अद्वितीय मान सुनिश्चित करने के लिए",
+          "B": "दो संबंधित तालिकाओं के बीच संदर्भात्मक अखंडता स्थापित करना",
+          "C": "किसी कॉलम में NULL मानों को रोकने के लिए",
+          "D": "क्वेरी सॉर्ट ऑर्डर को तेज़ करने के लिए"
         },
         "correctAnswer": "B",
         "explanation": "A Foreign Key points to the Primary Key of another table, ensuring Referential Integrity by restricting insertions or deletions that would create orphan records.",
@@ -815,10 +815,10 @@ window.specialized_drills = {
           "D": "J = 0, K = 1 and propagation delay is zero"
         },
         "options_hi": {
-          "A": "J = 0, K = 0 और क्लॉक हाई हो",
+          "A": "जे = 0, के = 0 और घड़ी उच्च है",
           "B": "J = 1, K = 1 और क्लॉक पल्स चौड़ाई प्रोपेगेशन डिले से अधिक हो",
-          "C": "J = 1, K = 0 और क्लॉक लो हो",
-          "D": "J = 0, K = 1 और प्रोपेगेशन डिले शून्य हो"
+          "C": "जे = 1, के = 0 और घड़ी कम है",
+          "D": "जे = 0, के = 1 और प्रसार विलंब शून्य है"
         },
         "correctAnswer": "B",
         "explanation": "Race-around condition occurs when J=1, K=1 and clock pulse width exceeds flip-flop propagation delay.",
@@ -893,10 +893,10 @@ window.specialized_drills = {
           "D": "O(n³)"
         },
         "options_hi": {
-          "A": "O(n log n)",
-          "B": "O(n)",
-          "C": "O(n²)",
-          "D": "O(n³)"
+          "A": "ओ(एन लॉग एन)",
+          "B": "पर)",
+          "C": "ओ(एन²)",
+          "D": "ओ(एन³)"
         },
         "correctAnswer": "C",
         "explanation": "When the pivot chosen is consistently the smallest or largest element, QuickSort degrades to O(n²).",
@@ -919,10 +919,10 @@ window.specialized_drills = {
           "D": "FILTER"
         },
         "options_hi": {
-          "A": "WHERE",
-          "B": "HAVING",
-          "C": "ORDER BY",
-          "D": "FILTER"
+          "A": "कहाँ",
+          "B": "होना",
+          "C": "द्वारा आदेश",
+          "D": "फ़िल्टर"
         },
         "correctAnswer": "B",
         "explanation": "HAVING filters aggregated groups formed by GROUP BY, while WHERE filters individual rows prior to grouping.",
@@ -937,7 +937,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the simplified expression for the Boolean function F(A, B, C) = Σm(1, 3, 5, 7) using Boolean algebra or K-Map?",
-        "question_hi": "What is the simplified expression for the Boolean function F(A, B, C) = Σm(1, 3, 5, 7) using Boolean algebra or K-Map?",
+        "question_hi": "बूलियन बीजगणित या K-मैप का उपयोग करके बूलियन फ़ंक्शन F(A, B, C) = Σm(1, 3, 5, 7) के लिए सरलीकृत अभिव्यक्ति क्या है?",
         "options": {
           "A": "A",
           "B": "B",
@@ -948,7 +948,7 @@ window.specialized_drills = {
           "A": "A",
           "B": "B",
           "C": "C",
-          "D": "A'B'"
+          "D": "ए'बी'"
         },
         "correctAnswer": "C",
         "explanation": "Minterms 1 (001), 3 (011), 5 (101), 7 (111) group into a 4-cell quad in a 3-variable K-Map. In these terms, A and B both vary (0 and 1), while C is constant at 1. Hence, the minimized SOP term is C.",
@@ -963,7 +963,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "How many select lines are required for a 64-to-1 Multiplexer (MUX)?",
-        "question_hi": "How many select lines are required for a 64-to-1 Multiplexer (MUX)?",
+        "question_hi": "64-टू-1 मल्टीप्लेक्सर (एमयूएक्स) के लिए कितनी चुनिंदा लाइनें आवश्यक हैं?",
         "options": {
           "A": "4",
           "B": "5",
@@ -989,7 +989,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In a J-K flip flop, what condition produces the 'Toggle' output mode?",
-        "question_hi": "In a J-K flip flop, what condition produces the 'Toggle' output mode?",
+        "question_hi": "जे-के फ्लिप फ्लॉप में, कौन सी स्थिति 'टॉगल' आउटपुट मोड उत्पन्न करती है?",
         "options": {
           "A": "J = 0, K = 0",
           "B": "J = 0, K = 1",
@@ -997,10 +997,10 @@ window.specialized_drills = {
           "D": "J = 1, K = 1"
         },
         "options_hi": {
-          "A": "J = 0, K = 0",
-          "B": "J = 0, K = 1",
-          "C": "J = 1, K = 0",
-          "D": "J = 1, K = 1"
+          "A": "जे = 0, के = 0",
+          "B": "जे = 0, के = 1",
+          "C": "जे = 1, के = 0",
+          "D": "जे = 1, के = 1"
         },
         "correctAnswer": "D",
         "explanation": "In a JK flip-flop: When J=0, K=0 -> No change (Memory); J=0, K=1 -> Reset (Q=0); J=1, K=0 -> Set (Q=1); J=1, K=1 -> Toggle (Q(t+1) = Q'(t)).",
@@ -1015,7 +1015,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which of the following logic families exhibits the highest switching speed and lowest propagation delay?",
-        "question_hi": "Which of the following logic families exhibits the highest switching speed and lowest propagation delay?",
+        "question_hi": "निम्नलिखित में से कौन सा तर्क परिवार उच्चतम स्विचिंग गति और सबसे कम प्रसार विलंब प्रदर्शित करता है?",
         "options": {
           "A": "TTL (Transistor-Transistor Logic)",
           "B": "ECL (Emitter-Coupled Logic)",
@@ -1023,10 +1023,10 @@ window.specialized_drills = {
           "D": "NMOS"
         },
         "options_hi": {
-          "A": "TTL (Transistor-Transistor Logic)",
-          "B": "ECL (Emitter-Coupled Logic)",
-          "C": "CMOS",
-          "D": "NMOS"
+          "A": "टीटीएल (ट्रांजिस्टर-ट्रांजिस्टर लॉजिक)",
+          "B": "ईसीएल (एमिटर-युग्मित तर्क)",
+          "C": "सीएमओएस",
+          "D": "एनएमओएस"
         },
         "correctAnswer": "B",
         "explanation": "ECL (Emitter-Coupled Logic) operates its transistors in the non-saturated active region rather than saturation, eliminating storage time delay and achieving propagation delays below 1 nanosecond (fastest among conventional families).",
@@ -1041,7 +1041,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "An 8-bit digital-to-analog converter (DAC) has a reference voltage of 5V. What is the approximate resolution (step size)?",
-        "question_hi": "An 8-bit digital-to-analog converter (DAC) has a reference voltage of 5V. What is the approximate resolution (step size)?",
+        "question_hi": "8-बिट डिजिटल-टू-एनालॉग कनवर्टर (डीएसी) का संदर्भ वोल्टेज 5V है। अनुमानित रिज़ॉल्यूशन (चरण आकार) क्या है?",
         "options": {
           "A": "19.5 mV",
           "B": "39.1 mV",
@@ -1049,10 +1049,10 @@ window.specialized_drills = {
           "D": "62.5 mV"
         },
         "options_hi": {
-          "A": "19.5 mV",
-          "B": "39.1 mV",
-          "C": "9.8 mV",
-          "D": "62.5 mV"
+          "A": "19.5 एमवी",
+          "B": "39.1 एमवी",
+          "C": "9.8 एमवी",
+          "D": "62.5 एमवी"
         },
         "correctAnswer": "A",
         "explanation": "Resolution = V_ref / (2ⁿ - 1) = 5V / (2⁸ - 1) = 5V / 255 ≈ 19.6 mV (or 5V / 256 ≈ 19.53 mV).",
@@ -1067,7 +1067,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the canonical representation form that expresses a Boolean function as a product of sum terms called?",
-        "question_hi": "What is the canonical representation form that expresses a Boolean function as a product of sum terms called?",
+        "question_hi": "कंप्यूटर साइंस अवधारणा: What is the canonical representation form that expresses a Boolean function as a product of sum terms called के संबंध में सही कथन या मान क्या है?",
         "options": {
           "A": "Minterm form",
           "B": "Maxterm / POS form",
@@ -1075,10 +1075,10 @@ window.specialized_drills = {
           "D": "Disjunctive Normal Form"
         },
         "options_hi": {
-          "A": "Minterm form",
+          "A": "मिन्टर्म फॉर्म",
           "B": "Maxterm / POS form",
-          "C": "Dual form",
-          "D": "Disjunctive Normal Form"
+          "C": "दोहरा रूप",
+          "D": "विच्छेदनात्मक सामान्य रूप"
         },
         "correctAnswer": "B",
         "explanation": "Product of Sums (POS) expresses a logic function as the AND combination (product) of OR terms (sums/maxterms), denoted by ΠM.",
@@ -1093,7 +1093,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In a programmable logic array (PLA), which gate arrays are programmable?",
-        "question_hi": "In a programmable logic array (PLA), which gate arrays are programmable?",
+        "question_hi": "प्रोग्रामयोग्य लॉजिक ऐरे (PLA) में, कौन से गेट ऐरे प्रोग्रामयोग्य हैं?",
         "options": {
           "A": "AND array is fixed, OR array is programmable",
           "B": "Both AND array and OR array are programmable",
@@ -1101,10 +1101,10 @@ window.specialized_drills = {
           "D": "Neither array is programmable"
         },
         "options_hi": {
-          "A": "AND array is fixed, OR array is programmable",
-          "B": "Both AND array and OR array are programmable",
-          "C": "AND array is programmable, OR array is fixed",
-          "D": "Neither array is programmable"
+          "A": "और ऐरे निश्चित है, या ऐरे प्रोग्रामयोग्य है",
+          "B": "AND ऐरे और OR ऐरे दोनों प्रोग्रामयोग्य हैं",
+          "C": "और ऐरे प्रोग्रामयोग्य है, या ऐरे निश्चित है",
+          "D": "कोई भी ऐरे प्रोग्राम करने योग्य नहीं है"
         },
         "correctAnswer": "B",
         "explanation": "In a PLA, BOTH the AND array and the OR array are programmable. (In a PAL, the AND array is programmable while the OR array is fixed; in a PROM, the AND array is fixed while the OR array is programmable).",
@@ -1119,7 +1119,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In a row-major 2D array A[1..M, 1..N] stored starting at base address B with element size S, what is the address formula for element A[i, j]?",
-        "question_hi": "In a row-major 2D array A[1..M, 1..N] stored starting at base address B with element size S, what is the address formula for element A[i, j]?",
+        "question_hi": "पंक्ति-प्रमुख 2D सरणी A[1..M, 1..N] में तत्व आकार S के साथ आधार पता B से शुरू करके संग्रहीत किया जाता है, तत्व A[i, j] के लिए पता सूत्र क्या है?",
         "options": {
           "A": "B + [(i - 1) * N + (j - 1)] * S",
           "B": "B + [(j - 1) * M + (i - 1)] * S",
@@ -1127,10 +1127,10 @@ window.specialized_drills = {
           "D": "B + [(i - 1) + (j - 1) * N] * S"
         },
         "options_hi": {
-          "A": "B + [(i - 1) * N + (j - 1)] * S",
-          "B": "B + [(j - 1) * M + (i - 1)] * S",
-          "C": "B + [i * N + j] * S",
-          "D": "B + [(i - 1) + (j - 1) * N] * S"
+          "A": "बी + [(आई - 1) * एन + (जे - 1)] * एस",
+          "B": "बी + [(जे - 1) * एम + (आई - 1)] * एस",
+          "C": "बी + [आई * एन + जे] * एस",
+          "D": "बी + [(आई - 1) + (जे - 1) * एन] * एस"
         },
         "correctAnswer": "A",
         "explanation": "In row-major order, rows are placed contiguously in memory. To reach row i, you skip (i - 1) complete rows of N elements each, and then move (j - 1) elements into row i. Hence: Address = Base + [((i - 1) * N) + (j - 1)] * S.",
@@ -1145,7 +1145,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the equivalent postfix expression for the infix expression: A + B * C - D / E?",
-        "question_hi": "What is the equivalent postfix expression for the infix expression: A + B * C - D / E?",
+        "question_hi": "इनफ़िक्स अभिव्यक्ति के लिए समकक्ष पोस्टफ़िक्स अभिव्यक्ति क्या है: ए + बी * सी - डी / ई?",
         "options": {
           "A": "A B C * + D E / -",
           "B": "A B + C * D - E /",
@@ -1153,10 +1153,10 @@ window.specialized_drills = {
           "D": "+ A * B C - / D E"
         },
         "options_hi": {
-          "A": "A B C * + D E / -",
-          "B": "A B + C * D - E /",
-          "C": "A B C * D E / - +",
-          "D": "+ A * B C - / D E"
+          "A": "ए बी सी * + डी ई / -",
+          "B": "ए बी + सी * डी - ई /",
+          "C": "ए बी सी * डी ई / - +",
+          "D": "+ ए * बी सी - / डी ई"
         },
         "correctAnswer": "A",
         "explanation": "Operator precedence: * and / have higher precedence than + and -. 1. (B * C) -> B C *; 2. A + (B C *) -> A B C * +; 3. (D / E) -> D E /; 4. (A B C * +) - (D E /) -> A B C * + D E / -.",
@@ -1171,7 +1171,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the time complexity to search for a key in a balanced AVL tree with n nodes?",
-        "question_hi": "What is the time complexity to search for a key in a balanced AVL tree with n nodes?",
+        "question_hi": "n नोड्स वाले संतुलित AVL ट्री में कुंजी खोजने में समय की जटिलता क्या है?",
         "options": {
           "A": "O(1)",
           "B": "O(log n)",
@@ -1179,10 +1179,10 @@ window.specialized_drills = {
           "D": "O(n log n)"
         },
         "options_hi": {
-          "A": "O(1)",
-          "B": "O(log n)",
-          "C": "O(n)",
-          "D": "O(n log n)"
+          "A": "हे(1)",
+          "B": "ओ(लॉग एन)",
+          "C": "पर)",
+          "D": "ओ(एन लॉग एन)"
         },
         "correctAnswer": "B",
         "explanation": "An AVL tree is strictly balanced with maximum height bounded by 1.44 log₂(n). Therefore, search, insertion, and deletion operations all take guaranteed O(log n) time.",
@@ -1197,7 +1197,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which data structure is fundamentally used for the Breadth-First Search (BFS) graph traversal algorithm?",
-        "question_hi": "Which data structure is fundamentally used for the Breadth-First Search (BFS) graph traversal algorithm?",
+        "question_hi": "ब्रेडथ-फर्स्ट सर्च (बीएफएस) ग्राफ ट्रैवर्सल एल्गोरिदम के लिए मूल रूप से कौन सी डेटा संरचना का उपयोग किया जाता है?",
         "options": {
           "A": "Stack",
           "B": "Queue",
@@ -1205,10 +1205,10 @@ window.specialized_drills = {
           "D": "Binary Tree"
         },
         "options_hi": {
-          "A": "Stack",
-          "B": "Queue",
-          "C": "Priority Queue",
-          "D": "Binary Tree"
+          "A": "स्टैक (Stack)",
+          "B": "कतार (Queue)",
+          "C": "प्राथमिकता कतार",
+          "D": "बाइनरी ट्री"
         },
         "correctAnswer": "B",
         "explanation": "BFS visits vertices in order of their distance from the source level-by-level (FIFO), which is implemented using a Queue. (DFS uses a Stack).",
@@ -1223,7 +1223,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the number of edges in a tree with n vertices?",
-        "question_hi": "What is the number of edges in a tree with n vertices?",
+        "question_hi": "n शीर्षों वाले पेड़ में किनारों की संख्या कितनी होती है?",
         "options": {
           "A": "n",
           "B": "n - 1",
@@ -1232,9 +1232,9 @@ window.specialized_drills = {
         },
         "options_hi": {
           "A": "n",
-          "B": "n - 1",
-          "C": "n + 1",
-          "D": "2n - 1"
+          "B": "एन - 1",
+          "C": "एन + 1",
+          "D": "2एन - 1"
         },
         "correctAnswer": "B",
         "explanation": "By mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
@@ -1249,7 +1249,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In a hash table of size 10 using open addressing with linear probing and hash function h(k) = k mod 10, where will key 42 be placed if keys 12, 22, and 32 are already inserted?",
-        "question_hi": "In a hash table of size 10 using open addressing with linear probing and hash function h(k) = k mod 10, where will key 42 be placed if keys 12, 22, and 32 are already inserted?",
+        "question_hi": "लीनियर प्रोबिंग और हैश फ़ंक्शन h(k) = k mod 10 के साथ ओपन एड्रेसिंग का उपयोग करते हुए आकार 10 की हैश तालिका में, यदि कुंजी 12, 22 और 32 पहले से ही डाली गई हैं तो कुंजी 42 कहाँ रखी जाएगी?",
         "options": {
           "A": "Index 2",
           "B": "Index 3",
@@ -1257,10 +1257,10 @@ window.specialized_drills = {
           "D": "Index 5"
         },
         "options_hi": {
-          "A": "Index 2",
+          "A": "सूचकांक 2",
           "B": "Index 3",
-          "C": "Index 4",
-          "D": "Index 5"
+          "C": "सूचकांक 4",
+          "D": "सूचकांक 5"
         },
         "correctAnswer": "D",
         "explanation": "h(12)=2 (stored at 2); h(22)=2 -> collision -> stored at 3; h(32)=2 -> collisions at 2, 3 -> stored at 4; h(42)=2 -> collisions at 2, 3, 4 -> stored at index 5.",
@@ -1275,7 +1275,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the solution of the recurrence relation T(n) = 2T(n/2) + n by Master Theorem?",
-        "question_hi": "What is the solution of the recurrence relation T(n) = 2T(n/2) + n by Master Theorem?",
+        "question_hi": "मास्टर प्रमेय द्वारा पुनरावृत्ति संबंध T(n) = 2T(n/2) + n का समाधान क्या है?",
         "options": {
           "A": "Θ(n)",
           "B": "Θ(n log n)",
@@ -1283,10 +1283,10 @@ window.specialized_drills = {
           "D": "Θ(log n)"
         },
         "options_hi": {
-          "A": "Θ(n)",
-          "B": "Θ(n log n)",
+          "A": "Θ(एन)",
+          "B": "Θ(एन लॉग एन)",
           "C": "Θ(n²)",
-          "D": "Θ(log n)"
+          "D": "Θ(लॉग एन)"
         },
         "correctAnswer": "B",
         "explanation": "For T(n) = aT(n/b) + f(n): a = 2, b = 2, f(n) = n. Here n^(log_b(a)) = n^(log₂2) = n¹. Since f(n) = Θ(n^(log_b(a))), Case 2 of Master Theorem applies: T(n) = Θ(n log n) (Merge Sort recurrence).",
@@ -1301,7 +1301,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which algorithm finds the shortest path between all pairs of vertices in a weighted graph in O(V³) time?",
-        "question_hi": "Which algorithm finds the shortest path between all pairs of vertices in a weighted graph in O(V³) time?",
+        "question_hi": "कौन सा एल्गोरिदम O(V³) समय में भारित ग्राफ़ में शीर्षों के सभी जोड़े के बीच सबसे छोटा रास्ता ढूंढता है?",
         "options": {
           "A": "Dijkstra's Algorithm",
           "B": "Bellman-Ford Algorithm",
@@ -1309,10 +1309,10 @@ window.specialized_drills = {
           "D": "Kruskal's Algorithm"
         },
         "options_hi": {
-          "A": "Dijkstra's Algorithm",
+          "A": "डिज्क्स्ट्रा का एल्गोरिदम",
           "B": "Bellman-Ford Algorithm",
           "C": "Floyd-Warshall Algorithm",
-          "D": "Kruskal's Algorithm"
+          "D": "क्रुस्कल का एल्गोरिदम"
         },
         "correctAnswer": "C",
         "explanation": "The Floyd-Warshall algorithm uses dynamic programming to compute the all-pairs shortest paths in a directed weighted graph with time complexity Θ(V³).",
@@ -1407,7 +1407,7 @@ window.specialized_drills = {
           "D": "Circular Wait"
         },
         "options_hi": {
-          "A": "म्यूचुअल एक्सक्लूजन",
+          "A": "पारस्परिक बहिष्कार",
           "B": "होल्ड एंड वेट",
           "C": "प्रीएम्पशन की अनुमति",
           "D": "सर्कुलर वेट"
@@ -1433,10 +1433,10 @@ window.specialized_drills = {
           "D": "ICMP"
         },
         "options_hi": {
-          "A": "RARP",
+          "A": "आरएआरपी",
           "B": "ARP (एड्रेस रेजोल्यूशन प्रोटोकॉल)",
-          "C": "DHCP",
-          "D": "ICMP"
+          "C": "डीएचसीपी",
+          "D": "आईसीएमपी"
         },
         "correctAnswer": "B",
         "explanation": "ARP maps an IPv4 address to a physical MAC address on a local Ethernet broadcast network.",
@@ -1451,7 +1451,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the maximum addressable memory capacity of a CPU with a 32-bit address bus and byte-addressable architecture?",
-        "question_hi": "What is the maximum addressable memory capacity of a CPU with a 32-bit address bus and byte-addressable architecture?",
+        "question_hi": "32-बिट एड्रेस बस और बाइट-एड्रेसेबल आर्किटेक्चर वाले सीपीयू की अधिकतम एड्रेसेबल मेमोरी क्षमता क्या है?",
         "options": {
           "A": "1 GB",
           "B": "2 GB",
@@ -1459,10 +1459,10 @@ window.specialized_drills = {
           "D": "8 GB"
         },
         "options_hi": {
-          "A": "1 GB",
-          "B": "2 GB",
-          "C": "4 GB",
-          "D": "8 GB"
+          "A": "1 जीबी",
+          "B": "2 जीबी",
+          "C": "4 जीबी",
+          "D": "8 जीबी"
         },
         "correctAnswer": "C",
         "explanation": "A 32-bit address bus can generate 2³² unique addresses. With byte addressability (1 byte per address), total addressable space = 2³² bytes = 4,294,967,296 bytes = 4 GB.",
@@ -1477,7 +1477,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In 8086 microprocessor architecture, which register holds the offset address of the instruction to be fetched from the code segment?",
-        "question_hi": "In 8086 microprocessor architecture, which register holds the offset address of the instruction to be fetched from the code segment?",
+        "question_hi": "8086 माइक्रोप्रोसेसर आर्किटेक्चर में, कौन सा रजिस्टर कोड सेगमेंट से प्राप्त किए जाने वाले निर्देश का ऑफसेट पता रखता है?",
         "options": {
           "A": "Stack Pointer (SP)",
           "B": "Instruction Pointer (IP)",
@@ -1485,10 +1485,10 @@ window.specialized_drills = {
           "D": "Source Index (SI)"
         },
         "options_hi": {
-          "A": "Stack Pointer (SP)",
-          "B": "Instruction Pointer (IP)",
-          "C": "Base Pointer (BP)",
-          "D": "Source Index (SI)"
+          "A": "स्टैक पॉइंटर (एसपी)",
+          "B": "निर्देश सूचक (आईपी)",
+          "C": "बेस पॉइंटर (बीपी)",
+          "D": "स्रोत सूचकांक (एसआई)"
         },
         "correctAnswer": "B",
         "explanation": "The Instruction Pointer (IP) holds the 16-bit offset of the next instruction within the Code Segment (CS). Physical address = (CS × 16) + IP.",
@@ -1503,7 +1503,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
-        "question_hi": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+        "question_hi": "कौन सी कैश मैपिंग तकनीक मुख्य मेमोरी ब्लॉक को किसी भी उपलब्ध कैश ब्लॉक लाइन में लोड करने की अनुमति देती है?",
         "options": {
           "A": "Direct Mapping",
           "B": "Fully Associative Mapping",
@@ -1511,10 +1511,10 @@ window.specialized_drills = {
           "D": "Sector Mapping"
         },
         "options_hi": {
-          "A": "Direct Mapping",
-          "B": "Fully Associative Mapping",
-          "C": "Set-Associative Mapping",
-          "D": "Sector Mapping"
+          "A": "प्रत्यक्ष मानचित्रण",
+          "B": "पूरी तरह से सहयोगी मानचित्रण",
+          "C": "सेट-एसोसिएटिव मैपिंग",
+          "D": "सेक्टर मैपिंग"
         },
         "correctAnswer": "B",
         "explanation": "In Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
@@ -1529,7 +1529,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In Booth's multiplication algorithm, what action is performed when the two least significant multiplier bits (Q0, Q-1) are '10'?",
-        "question_hi": "In Booth's multiplication algorithm, what action is performed when the two least significant multiplier bits (Q0, Q-1) are '10'?",
+        "question_hi": "Booth's multiplication algorithm में, action is performed when the two least significant multiplier bits (Q0, Q-1) are '10' क्या है?",
         "options": {
           "A": "Add multiplicand to accumulator and shift",
           "B": "Subtract multiplicand from accumulator and arithmetic shift right",
@@ -1537,10 +1537,10 @@ window.specialized_drills = {
           "D": "Rotate accumulator left"
         },
         "options_hi": {
-          "A": "Add multiplicand to accumulator and shift",
-          "B": "Subtract multiplicand from accumulator and arithmetic shift right",
-          "C": "Arithmetic shift right only",
-          "D": "Rotate accumulator left"
+          "A": "संचायक में गुणक जोड़ें और शिफ्ट करें",
+          "B": "संचायक से गुणक घटाएं और अंकगणित को दाईं ओर शिफ्ट करें",
+          "C": "केवल अंकगणित सही बदलाव",
+          "D": "संचायक को बाएँ घुमाएँ"
         },
         "correctAnswer": "B",
         "explanation": "In Booth's algorithm: '00' or '11' -> Shift right only; '01' -> Add multiplicand and shift right; '10' -> Subtract multiplicand (add 2's complement) and shift right.",
@@ -1555,7 +1555,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which of the following is a non-volatile optical or semiconductor memory that can be erased electrically in flash blocks?",
-        "question_hi": "Which of the following is a non-volatile optical or semiconductor memory that can be erased electrically in flash blocks?",
+        "question_hi": "निम्नलिखित में से कौन सी एक गैर-वाष्पशील ऑप्टिकल या अर्धचालक मेमोरी है जिसे फ्लैश ब्लॉक में विद्युत रूप से मिटाया जा सकता है?",
         "options": {
           "A": "SRAM",
           "B": "DRAM",
@@ -1563,10 +1563,10 @@ window.specialized_drills = {
           "D": "Mask ROM"
         },
         "options_hi": {
-          "A": "SRAM",
-          "B": "DRAM",
+          "A": "एसआरएएम",
+          "B": "घूंट",
           "C": "EEPROM / Flash Memory",
-          "D": "Mask ROM"
+          "D": "मास्क रॉम"
         },
         "correctAnswer": "C",
         "explanation": "EEPROM (Electrically Erasable Programmable ROM) and Flash memory can be erased and reprogrammed electrically at the block or byte level without UV exposure.",
@@ -1581,7 +1581,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the Excess-3 code representation of the decimal digit 7?",
-        "question_hi": "What is the Excess-3 code representation of the decimal digit 7?",
+        "question_hi": "दशमलव अंक 7 का अतिरिक्त-3 कोड प्रतिनिधित्व क्या है?",
         "options": {
           "A": "0111",
           "B": "1010",
@@ -1607,7 +1607,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the state transition that occurs when a running process requires an I/O operation?",
-        "question_hi": "What is the state transition that occurs when a running process requires an I/O operation?",
+        "question_hi": "वह स्थिति परिवर्तन क्या है जो तब होता है जब किसी चालू प्रक्रिया के लिए I/O ऑपरेशन की आवश्यकता होती है?",
         "options": {
           "A": "Running to Ready",
           "B": "Running to Waiting (Blocked)",
@@ -1615,10 +1615,10 @@ window.specialized_drills = {
           "D": "Ready to Running"
         },
         "options_hi": {
-          "A": "Running to Ready",
-          "B": "Running to Waiting (Blocked)",
-          "C": "Waiting to Ready",
-          "D": "Ready to Running"
+          "A": "तैयार होने के लिए दौड़ना",
+          "B": "प्रतीक्षा करने के लिए दौड़ना (अवरुद्ध)",
+          "C": "तैयार होने की प्रतीक्षा में",
+          "D": "दौड़ने के लिए तैयार"
         },
         "correctAnswer": "B",
         "explanation": "When a process requests an I/O operation or an event, the CPU cannot continue executing it until the I/O completes. The OS transitions the process from Running to Waiting (Blocked) state.",
@@ -1633,7 +1633,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Banker's Algorithm is used in operating systems for:",
-        "question_hi": "Banker's Algorithm is used in operating systems for:",
+        "question_hi": "बैंकर का एल्गोरिदम (Banker's Algorithm) is used in ऑपरेटिंग सिस्टम (OS)s for:",
         "options": {
           "A": "Deadlock Prevention",
           "B": "Deadlock Avoidance",
@@ -1641,10 +1641,10 @@ window.specialized_drills = {
           "D": "Mutual Exclusion"
         },
         "options_hi": {
-          "A": "Deadlock Prevention",
-          "B": "Deadlock Avoidance",
-          "C": "Deadlock Recovery",
-          "D": "Mutual Exclusion"
+          "A": "डेडलॉक रोकथाम",
+          "B": "गतिरोध से बचाव",
+          "C": "गतिरोध पुनर्प्राप्ति",
+          "D": "पारस्परिक बहिष्कार"
         },
         "correctAnswer": "B",
         "explanation": "Dijkstra's Banker's Algorithm dynamically tests resource allocation requests to ensure the system will always remain in a 'Safe State', avoiding deadlocks.",
@@ -1659,7 +1659,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In paging memory management, where is the Translation Lookaside Buffer (TLB) located?",
-        "question_hi": "In paging memory management, where is the Translation Lookaside Buffer (TLB) located?",
+        "question_hi": "पेजिंग मेमोरी प्रबंधन में, ट्रांसलेशन लुकसाइड बफ़र (टीएलबी) कहाँ स्थित है?",
         "options": {
           "A": "On the hard disk",
           "B": "In main memory RAM",
@@ -1667,10 +1667,10 @@ window.specialized_drills = {
           "D": "In secondary optical storage"
         },
         "options_hi": {
-          "A": "On the hard disk",
-          "B": "In main memory RAM",
-          "C": "Inside the CPU Memory Management Unit (MMU) hardware cache",
-          "D": "In secondary optical storage"
+          "A": "हार्ड डिस्क पर",
+          "B": "मुख्य मेमोरी में RAM",
+          "C": "सीपीयू मेमोरी मैनेजमेंट यूनिट (एमएमयू) हार्डवेयर कैश के अंदर",
+          "D": "सेकेंडरी ऑप्टिकल स्टोरेज में"
         },
         "correctAnswer": "C",
         "explanation": "The TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
@@ -1685,7 +1685,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the phenomenon where adding more page frames to a process increases the number of page faults called?",
-        "question_hi": "What is the phenomenon where adding more page frames to a process increases the number of page faults called?",
+        "question_hi": "What is the phenomenon where adding more page frames to a process बढ़ता है (Increases) the number of पेज फॉल्ट (Page Fault)s called?",
         "options": {
           "A": "Thrashing",
           "B": "Belady's Anomaly",
@@ -1693,10 +1693,10 @@ window.specialized_drills = {
           "D": "Starvation"
         },
         "options_hi": {
-          "A": "Thrashing",
-          "B": "Belady's Anomaly",
-          "C": "Fragmentation",
-          "D": "Starvation"
+          "A": "थ्रैशिंग (Thrashing)",
+          "B": "बेलाडी की विसंगति",
+          "C": "विखंडन",
+          "D": "भुखमरी"
         },
         "correctAnswer": "B",
         "explanation": "Belady's Anomaly occurs primarily in FIFO page replacement, where increasing the number of allocated physical frames leads to an increased number of page faults for certain reference strings.",
@@ -1711,7 +1711,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which Unix command is used to change the access permissions of a file?",
-        "question_hi": "Which Unix command is used to change the access permissions of a file?",
+        "question_hi": "किसी फ़ाइल की एक्सेस अनुमतियों को बदलने के लिए किस यूनिक्स कमांड का उपयोग किया जाता है?",
         "options": {
           "A": "chown",
           "B": "chmod",
@@ -1719,10 +1719,10 @@ window.specialized_drills = {
           "D": "grep"
         },
         "options_hi": {
-          "A": "chown",
-          "B": "chmod",
-          "C": "chgrp",
-          "D": "grep"
+          "A": "चाउन",
+          "B": "चामोद",
+          "C": "सीएचजीआरपी",
+          "D": "ग्रेप"
         },
         "correctAnswer": "B",
         "explanation": "'chmod' (change mode) modifies the read, write, and execute permissions of files/directories in Unix/Linux. ('chown' changes file owner).",
@@ -1737,7 +1737,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the maximum theoretical throughput efficiency of Pure ALOHA?",
-        "question_hi": "What is the maximum theoretical throughput efficiency of Pure ALOHA?",
+        "question_hi": "शुद्ध ALOHA की अधिकतम सैद्धांतिक थ्रूपुट दक्षता क्या है?",
         "options": {
           "A": "18.4%",
           "B": "36.8%",
@@ -1763,7 +1763,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the CIDR prefix for a subnet with a subnet mask of 255.255.255.192?",
-        "question_hi": "What is the CIDR prefix for a subnet with a subnet mask of 255.255.255.192?",
+        "question_hi": "255.255.255.192 के सबनेट मास्क वाले सबनेट के लिए सीआईडीआर उपसर्ग क्या है?",
         "options": {
           "A": "/24",
           "B": "/25",
@@ -1789,7 +1789,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which layer of the OSI reference model performs data encryption, decryption, compression, and character encoding conversions?",
-        "question_hi": "Which layer of the OSI reference model performs data encryption, decryption, compression, and character encoding conversions?",
+        "question_hi": "OSI संदर्भ मॉडल की कौन सी परत डेटा एन्क्रिप्शन, डिक्रिप्शन, संपीड़न और कैरेक्टर एन्कोडिंग रूपांतरण करती है?",
         "options": {
           "A": "Application Layer",
           "B": "Presentation Layer",
@@ -1797,10 +1797,10 @@ window.specialized_drills = {
           "D": "Data Link Layer"
         },
         "options_hi": {
-          "A": "Application Layer",
-          "B": "Presentation Layer",
-          "C": "Session Layer",
-          "D": "Data Link Layer"
+          "A": "अनुप्रयोग परत (Application Layer)",
+          "B": "प्रस्तुति परत (Presentation Layer)",
+          "C": "सत्र परत (Session Layer)",
+          "D": "डेटा लिंक परत"
         },
         "correctAnswer": "B",
         "explanation": "The Presentation Layer (Layer 6) formats and translates data syntax and semantics, handling encryption/decryption (SSL/TLS) and compression.",
@@ -1815,7 +1815,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which of the following is a Distance Vector routing protocol that uses hop count as its sole metric with a maximum limit of 15 hops?",
-        "question_hi": "Which of the following is a Distance Vector routing protocol that uses hop count as its sole metric with a maximum limit of 15 hops?",
+        "question_hi": "निम्नलिखित में से कौन सा एक डिस्टेंस वेक्टर रूटिंग प्रोटोकॉल है जो 15 हॉप्स की अधिकतम सीमा के साथ हॉप काउंट को अपने एकमात्र मीट्रिक के रूप में उपयोग करता है?",
         "options": {
           "A": "OSPF",
           "B": "RIP (Routing Information Protocol)",
@@ -1823,10 +1823,10 @@ window.specialized_drills = {
           "D": "IS-IS"
         },
         "options_hi": {
-          "A": "OSPF",
-          "B": "RIP (Routing Information Protocol)",
+          "A": "ओएसपीएफ",
+          "B": "आरआईपी (रूटिंग सूचना प्रोटोकॉल)",
           "C": "BGP",
-          "D": "IS-IS"
+          "D": "आईएस-आईएस"
         },
         "correctAnswer": "B",
         "explanation": "RIP is an interior gateway distance-vector protocol using hop count (1 to 15 hops; 16 signifies unreachable infinity) to prevent routing loops.",
@@ -1901,7 +1901,7 @@ window.specialized_drills = {
           "D": "Circular Wait"
         },
         "options_hi": {
-          "A": "म्यूचुअल एक्सक्लूजन",
+          "A": "पारस्परिक बहिष्कार",
           "B": "होल्ड एंड वेट",
           "C": "प्रीएम्पशन की अनुमति",
           "D": "सर्कुलर वेट"
@@ -1927,10 +1927,10 @@ window.specialized_drills = {
           "D": "ICMP"
         },
         "options_hi": {
-          "A": "RARP",
+          "A": "आरएआरपी",
           "B": "ARP (एड्रेस रेजोल्यूशन प्रोटोकॉल)",
-          "C": "DHCP",
-          "D": "ICMP"
+          "C": "डीएचसीपी",
+          "D": "आईसीएमपी"
         },
         "correctAnswer": "B",
         "explanation": "ARP maps an IPv4 address to a physical MAC address on a local Ethernet broadcast network.",
@@ -1945,7 +1945,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the maximum addressable memory capacity of a CPU with a 32-bit address bus and byte-addressable architecture?",
-        "question_hi": "What is the maximum addressable memory capacity of a CPU with a 32-bit address bus and byte-addressable architecture?",
+        "question_hi": "32-बिट एड्रेस बस और बाइट-एड्रेसेबल आर्किटेक्चर वाले सीपीयू की अधिकतम एड्रेसेबल मेमोरी क्षमता क्या है?",
         "options": {
           "A": "1 GB",
           "B": "2 GB",
@@ -1953,10 +1953,10 @@ window.specialized_drills = {
           "D": "8 GB"
         },
         "options_hi": {
-          "A": "1 GB",
-          "B": "2 GB",
-          "C": "4 GB",
-          "D": "8 GB"
+          "A": "1 जीबी",
+          "B": "2 जीबी",
+          "C": "4 जीबी",
+          "D": "8 जीबी"
         },
         "correctAnswer": "C",
         "explanation": "A 32-bit address bus can generate 2³² unique addresses. With byte addressability (1 byte per address), total addressable space = 2³² bytes = 4,294,967,296 bytes = 4 GB.",
@@ -1971,7 +1971,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In 8086 microprocessor architecture, which register holds the offset address of the instruction to be fetched from the code segment?",
-        "question_hi": "In 8086 microprocessor architecture, which register holds the offset address of the instruction to be fetched from the code segment?",
+        "question_hi": "8086 माइक्रोप्रोसेसर आर्किटेक्चर में, कौन सा रजिस्टर कोड सेगमेंट से प्राप्त किए जाने वाले निर्देश का ऑफसेट पता रखता है?",
         "options": {
           "A": "Stack Pointer (SP)",
           "B": "Instruction Pointer (IP)",
@@ -1979,10 +1979,10 @@ window.specialized_drills = {
           "D": "Source Index (SI)"
         },
         "options_hi": {
-          "A": "Stack Pointer (SP)",
-          "B": "Instruction Pointer (IP)",
-          "C": "Base Pointer (BP)",
-          "D": "Source Index (SI)"
+          "A": "स्टैक पॉइंटर (एसपी)",
+          "B": "निर्देश सूचक (आईपी)",
+          "C": "बेस पॉइंटर (बीपी)",
+          "D": "स्रोत सूचकांक (एसआई)"
         },
         "correctAnswer": "B",
         "explanation": "The Instruction Pointer (IP) holds the 16-bit offset of the next instruction within the Code Segment (CS). Physical address = (CS × 16) + IP.",
@@ -1997,7 +1997,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
-        "question_hi": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+        "question_hi": "कौन सी कैश मैपिंग तकनीक मुख्य मेमोरी ब्लॉक को किसी भी उपलब्ध कैश ब्लॉक लाइन में लोड करने की अनुमति देती है?",
         "options": {
           "A": "Direct Mapping",
           "B": "Fully Associative Mapping",
@@ -2005,10 +2005,10 @@ window.specialized_drills = {
           "D": "Sector Mapping"
         },
         "options_hi": {
-          "A": "Direct Mapping",
-          "B": "Fully Associative Mapping",
-          "C": "Set-Associative Mapping",
-          "D": "Sector Mapping"
+          "A": "प्रत्यक्ष मानचित्रण",
+          "B": "पूरी तरह से सहयोगी मानचित्रण",
+          "C": "सेट-एसोसिएटिव मैपिंग",
+          "D": "सेक्टर मैपिंग"
         },
         "correctAnswer": "B",
         "explanation": "In Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
@@ -2023,7 +2023,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In Booth's multiplication algorithm, what action is performed when the two least significant multiplier bits (Q0, Q-1) are '10'?",
-        "question_hi": "In Booth's multiplication algorithm, what action is performed when the two least significant multiplier bits (Q0, Q-1) are '10'?",
+        "question_hi": "Booth's multiplication algorithm में, action is performed when the two least significant multiplier bits (Q0, Q-1) are '10' क्या है?",
         "options": {
           "A": "Add multiplicand to accumulator and shift",
           "B": "Subtract multiplicand from accumulator and arithmetic shift right",
@@ -2031,10 +2031,10 @@ window.specialized_drills = {
           "D": "Rotate accumulator left"
         },
         "options_hi": {
-          "A": "Add multiplicand to accumulator and shift",
-          "B": "Subtract multiplicand from accumulator and arithmetic shift right",
-          "C": "Arithmetic shift right only",
-          "D": "Rotate accumulator left"
+          "A": "संचायक में गुणक जोड़ें और शिफ्ट करें",
+          "B": "संचायक से गुणक घटाएं और अंकगणित को दाईं ओर शिफ्ट करें",
+          "C": "केवल अंकगणित सही बदलाव",
+          "D": "संचायक को बाएँ घुमाएँ"
         },
         "correctAnswer": "B",
         "explanation": "In Booth's algorithm: '00' or '11' -> Shift right only; '01' -> Add multiplicand and shift right; '10' -> Subtract multiplicand (add 2's complement) and shift right.",
@@ -2049,7 +2049,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which of the following is a non-volatile optical or semiconductor memory that can be erased electrically in flash blocks?",
-        "question_hi": "Which of the following is a non-volatile optical or semiconductor memory that can be erased electrically in flash blocks?",
+        "question_hi": "निम्नलिखित में से कौन सी एक गैर-वाष्पशील ऑप्टिकल या अर्धचालक मेमोरी है जिसे फ्लैश ब्लॉक में विद्युत रूप से मिटाया जा सकता है?",
         "options": {
           "A": "SRAM",
           "B": "DRAM",
@@ -2057,10 +2057,10 @@ window.specialized_drills = {
           "D": "Mask ROM"
         },
         "options_hi": {
-          "A": "SRAM",
-          "B": "DRAM",
+          "A": "एसआरएएम",
+          "B": "घूंट",
           "C": "EEPROM / Flash Memory",
-          "D": "Mask ROM"
+          "D": "मास्क रॉम"
         },
         "correctAnswer": "C",
         "explanation": "EEPROM (Electrically Erasable Programmable ROM) and Flash memory can be erased and reprogrammed electrically at the block or byte level without UV exposure.",
@@ -2075,7 +2075,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the Excess-3 code representation of the decimal digit 7?",
-        "question_hi": "What is the Excess-3 code representation of the decimal digit 7?",
+        "question_hi": "दशमलव अंक 7 का अतिरिक्त-3 कोड प्रतिनिधित्व क्या है?",
         "options": {
           "A": "0111",
           "B": "1010",
@@ -2101,7 +2101,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the state transition that occurs when a running process requires an I/O operation?",
-        "question_hi": "What is the state transition that occurs when a running process requires an I/O operation?",
+        "question_hi": "वह स्थिति परिवर्तन क्या है जो तब होता है जब किसी चालू प्रक्रिया के लिए I/O ऑपरेशन की आवश्यकता होती है?",
         "options": {
           "A": "Running to Ready",
           "B": "Running to Waiting (Blocked)",
@@ -2109,10 +2109,10 @@ window.specialized_drills = {
           "D": "Ready to Running"
         },
         "options_hi": {
-          "A": "Running to Ready",
-          "B": "Running to Waiting (Blocked)",
-          "C": "Waiting to Ready",
-          "D": "Ready to Running"
+          "A": "तैयार होने के लिए दौड़ना",
+          "B": "प्रतीक्षा करने के लिए दौड़ना (अवरुद्ध)",
+          "C": "तैयार होने की प्रतीक्षा में",
+          "D": "दौड़ने के लिए तैयार"
         },
         "correctAnswer": "B",
         "explanation": "When a process requests an I/O operation or an event, the CPU cannot continue executing it until the I/O completes. The OS transitions the process from Running to Waiting (Blocked) state.",
@@ -2127,7 +2127,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Banker's Algorithm is used in operating systems for:",
-        "question_hi": "Banker's Algorithm is used in operating systems for:",
+        "question_hi": "बैंकर का एल्गोरिदम (Banker's Algorithm) is used in ऑपरेटिंग सिस्टम (OS)s for:",
         "options": {
           "A": "Deadlock Prevention",
           "B": "Deadlock Avoidance",
@@ -2135,10 +2135,10 @@ window.specialized_drills = {
           "D": "Mutual Exclusion"
         },
         "options_hi": {
-          "A": "Deadlock Prevention",
-          "B": "Deadlock Avoidance",
-          "C": "Deadlock Recovery",
-          "D": "Mutual Exclusion"
+          "A": "डेडलॉक रोकथाम",
+          "B": "गतिरोध से बचाव",
+          "C": "गतिरोध पुनर्प्राप्ति",
+          "D": "पारस्परिक बहिष्कार"
         },
         "correctAnswer": "B",
         "explanation": "Dijkstra's Banker's Algorithm dynamically tests resource allocation requests to ensure the system will always remain in a 'Safe State', avoiding deadlocks.",
@@ -2153,7 +2153,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In paging memory management, where is the Translation Lookaside Buffer (TLB) located?",
-        "question_hi": "In paging memory management, where is the Translation Lookaside Buffer (TLB) located?",
+        "question_hi": "पेजिंग मेमोरी प्रबंधन में, ट्रांसलेशन लुकसाइड बफ़र (टीएलबी) कहाँ स्थित है?",
         "options": {
           "A": "On the hard disk",
           "B": "In main memory RAM",
@@ -2161,10 +2161,10 @@ window.specialized_drills = {
           "D": "In secondary optical storage"
         },
         "options_hi": {
-          "A": "On the hard disk",
-          "B": "In main memory RAM",
-          "C": "Inside the CPU Memory Management Unit (MMU) hardware cache",
-          "D": "In secondary optical storage"
+          "A": "हार्ड डिस्क पर",
+          "B": "मुख्य मेमोरी में RAM",
+          "C": "सीपीयू मेमोरी मैनेजमेंट यूनिट (एमएमयू) हार्डवेयर कैश के अंदर",
+          "D": "सेकेंडरी ऑप्टिकल स्टोरेज में"
         },
         "correctAnswer": "C",
         "explanation": "The TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
@@ -2179,7 +2179,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the phenomenon where adding more page frames to a process increases the number of page faults called?",
-        "question_hi": "What is the phenomenon where adding more page frames to a process increases the number of page faults called?",
+        "question_hi": "What is the phenomenon where adding more page frames to a process बढ़ता है (Increases) the number of पेज फॉल्ट (Page Fault)s called?",
         "options": {
           "A": "Thrashing",
           "B": "Belady's Anomaly",
@@ -2187,10 +2187,10 @@ window.specialized_drills = {
           "D": "Starvation"
         },
         "options_hi": {
-          "A": "Thrashing",
-          "B": "Belady's Anomaly",
-          "C": "Fragmentation",
-          "D": "Starvation"
+          "A": "थ्रैशिंग (Thrashing)",
+          "B": "बेलाडी की विसंगति",
+          "C": "विखंडन",
+          "D": "भुखमरी"
         },
         "correctAnswer": "B",
         "explanation": "Belady's Anomaly occurs primarily in FIFO page replacement, where increasing the number of allocated physical frames leads to an increased number of page faults for certain reference strings.",
@@ -2205,7 +2205,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which Unix command is used to change the access permissions of a file?",
-        "question_hi": "Which Unix command is used to change the access permissions of a file?",
+        "question_hi": "किसी फ़ाइल की एक्सेस अनुमतियों को बदलने के लिए किस यूनिक्स कमांड का उपयोग किया जाता है?",
         "options": {
           "A": "chown",
           "B": "chmod",
@@ -2213,10 +2213,10 @@ window.specialized_drills = {
           "D": "grep"
         },
         "options_hi": {
-          "A": "chown",
-          "B": "chmod",
-          "C": "chgrp",
-          "D": "grep"
+          "A": "चाउन",
+          "B": "चामोद",
+          "C": "सीएचजीआरपी",
+          "D": "ग्रेप"
         },
         "correctAnswer": "B",
         "explanation": "'chmod' (change mode) modifies the read, write, and execute permissions of files/directories in Unix/Linux. ('chown' changes file owner).",
@@ -2231,7 +2231,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the maximum theoretical throughput efficiency of Pure ALOHA?",
-        "question_hi": "What is the maximum theoretical throughput efficiency of Pure ALOHA?",
+        "question_hi": "शुद्ध ALOHA की अधिकतम सैद्धांतिक थ्रूपुट दक्षता क्या है?",
         "options": {
           "A": "18.4%",
           "B": "36.8%",
@@ -2257,7 +2257,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the CIDR prefix for a subnet with a subnet mask of 255.255.255.192?",
-        "question_hi": "What is the CIDR prefix for a subnet with a subnet mask of 255.255.255.192?",
+        "question_hi": "255.255.255.192 के सबनेट मास्क वाले सबनेट के लिए सीआईडीआर उपसर्ग क्या है?",
         "options": {
           "A": "/24",
           "B": "/25",
@@ -2283,7 +2283,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which layer of the OSI reference model performs data encryption, decryption, compression, and character encoding conversions?",
-        "question_hi": "Which layer of the OSI reference model performs data encryption, decryption, compression, and character encoding conversions?",
+        "question_hi": "OSI संदर्भ मॉडल की कौन सी परत डेटा एन्क्रिप्शन, डिक्रिप्शन, संपीड़न और कैरेक्टर एन्कोडिंग रूपांतरण करती है?",
         "options": {
           "A": "Application Layer",
           "B": "Presentation Layer",
@@ -2291,10 +2291,10 @@ window.specialized_drills = {
           "D": "Data Link Layer"
         },
         "options_hi": {
-          "A": "Application Layer",
-          "B": "Presentation Layer",
-          "C": "Session Layer",
-          "D": "Data Link Layer"
+          "A": "अनुप्रयोग परत (Application Layer)",
+          "B": "प्रस्तुति परत (Presentation Layer)",
+          "C": "सत्र परत (Session Layer)",
+          "D": "डेटा लिंक परत"
         },
         "correctAnswer": "B",
         "explanation": "The Presentation Layer (Layer 6) formats and translates data syntax and semantics, handling encryption/decryption (SSL/TLS) and compression.",
@@ -2309,7 +2309,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which of the following is a Distance Vector routing protocol that uses hop count as its sole metric with a maximum limit of 15 hops?",
-        "question_hi": "Which of the following is a Distance Vector routing protocol that uses hop count as its sole metric with a maximum limit of 15 hops?",
+        "question_hi": "निम्नलिखित में से कौन सा एक डिस्टेंस वेक्टर रूटिंग प्रोटोकॉल है जो 15 हॉप्स की अधिकतम सीमा के साथ हॉप काउंट को अपने एकमात्र मीट्रिक के रूप में उपयोग करता है?",
         "options": {
           "A": "OSPF",
           "B": "RIP (Routing Information Protocol)",
@@ -2317,10 +2317,10 @@ window.specialized_drills = {
           "D": "IS-IS"
         },
         "options_hi": {
-          "A": "OSPF",
-          "B": "RIP (Routing Information Protocol)",
+          "A": "ओएसपीएफ",
+          "B": "आरआईपी (रूटिंग सूचना प्रोटोकॉल)",
           "C": "BGP",
-          "D": "IS-IS"
+          "D": "आईएस-आईएस"
         },
         "correctAnswer": "B",
         "explanation": "RIP is an interior gateway distance-vector protocol using hop count (1 to 15 hops; 16 signifies unreachable infinity) to prevent routing loops.",
@@ -2395,7 +2395,7 @@ window.specialized_drills = {
           "D": "Circular Wait"
         },
         "options_hi": {
-          "A": "म्यूचुअल एक्सक्लूजन",
+          "A": "पारस्परिक बहिष्कार",
           "B": "होल्ड एंड वेट",
           "C": "प्रीएम्पशन की अनुमति",
           "D": "सर्कुलर वेट"
@@ -2421,10 +2421,10 @@ window.specialized_drills = {
           "D": "ICMP"
         },
         "options_hi": {
-          "A": "RARP",
+          "A": "आरएआरपी",
           "B": "ARP (एड्रेस रेजोल्यूशन प्रोटोकॉल)",
-          "C": "DHCP",
-          "D": "ICMP"
+          "C": "डीएचसीपी",
+          "D": "आईसीएमपी"
         },
         "correctAnswer": "B",
         "explanation": "ARP maps an IPv4 address to a physical MAC address on a local Ethernet broadcast network.",
@@ -2439,7 +2439,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the maximum addressable memory capacity of a CPU with a 32-bit address bus and byte-addressable architecture?",
-        "question_hi": "What is the maximum addressable memory capacity of a CPU with a 32-bit address bus and byte-addressable architecture?",
+        "question_hi": "32-बिट एड्रेस बस और बाइट-एड्रेसेबल आर्किटेक्चर वाले सीपीयू की अधिकतम एड्रेसेबल मेमोरी क्षमता क्या है?",
         "options": {
           "A": "1 GB",
           "B": "2 GB",
@@ -2447,10 +2447,10 @@ window.specialized_drills = {
           "D": "8 GB"
         },
         "options_hi": {
-          "A": "1 GB",
-          "B": "2 GB",
-          "C": "4 GB",
-          "D": "8 GB"
+          "A": "1 जीबी",
+          "B": "2 जीबी",
+          "C": "4 जीबी",
+          "D": "8 जीबी"
         },
         "correctAnswer": "C",
         "explanation": "A 32-bit address bus can generate 2³² unique addresses. With byte addressability (1 byte per address), total addressable space = 2³² bytes = 4,294,967,296 bytes = 4 GB.",
@@ -2465,7 +2465,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In 8086 microprocessor architecture, which register holds the offset address of the instruction to be fetched from the code segment?",
-        "question_hi": "In 8086 microprocessor architecture, which register holds the offset address of the instruction to be fetched from the code segment?",
+        "question_hi": "8086 माइक्रोप्रोसेसर आर्किटेक्चर में, कौन सा रजिस्टर कोड सेगमेंट से प्राप्त किए जाने वाले निर्देश का ऑफसेट पता रखता है?",
         "options": {
           "A": "Stack Pointer (SP)",
           "B": "Instruction Pointer (IP)",
@@ -2473,10 +2473,10 @@ window.specialized_drills = {
           "D": "Source Index (SI)"
         },
         "options_hi": {
-          "A": "Stack Pointer (SP)",
-          "B": "Instruction Pointer (IP)",
-          "C": "Base Pointer (BP)",
-          "D": "Source Index (SI)"
+          "A": "स्टैक पॉइंटर (एसपी)",
+          "B": "निर्देश सूचक (आईपी)",
+          "C": "बेस पॉइंटर (बीपी)",
+          "D": "स्रोत सूचकांक (एसआई)"
         },
         "correctAnswer": "B",
         "explanation": "The Instruction Pointer (IP) holds the 16-bit offset of the next instruction within the Code Segment (CS). Physical address = (CS × 16) + IP.",
@@ -2491,7 +2491,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
-        "question_hi": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+        "question_hi": "कौन सी कैश मैपिंग तकनीक मुख्य मेमोरी ब्लॉक को किसी भी उपलब्ध कैश ब्लॉक लाइन में लोड करने की अनुमति देती है?",
         "options": {
           "A": "Direct Mapping",
           "B": "Fully Associative Mapping",
@@ -2499,10 +2499,10 @@ window.specialized_drills = {
           "D": "Sector Mapping"
         },
         "options_hi": {
-          "A": "Direct Mapping",
-          "B": "Fully Associative Mapping",
-          "C": "Set-Associative Mapping",
-          "D": "Sector Mapping"
+          "A": "प्रत्यक्ष मानचित्रण",
+          "B": "पूरी तरह से सहयोगी मानचित्रण",
+          "C": "सेट-एसोसिएटिव मैपिंग",
+          "D": "सेक्टर मैपिंग"
         },
         "correctAnswer": "B",
         "explanation": "In Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
@@ -2517,7 +2517,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In Booth's multiplication algorithm, what action is performed when the two least significant multiplier bits (Q0, Q-1) are '10'?",
-        "question_hi": "In Booth's multiplication algorithm, what action is performed when the two least significant multiplier bits (Q0, Q-1) are '10'?",
+        "question_hi": "Booth's multiplication algorithm में, action is performed when the two least significant multiplier bits (Q0, Q-1) are '10' क्या है?",
         "options": {
           "A": "Add multiplicand to accumulator and shift",
           "B": "Subtract multiplicand from accumulator and arithmetic shift right",
@@ -2525,10 +2525,10 @@ window.specialized_drills = {
           "D": "Rotate accumulator left"
         },
         "options_hi": {
-          "A": "Add multiplicand to accumulator and shift",
-          "B": "Subtract multiplicand from accumulator and arithmetic shift right",
-          "C": "Arithmetic shift right only",
-          "D": "Rotate accumulator left"
+          "A": "संचायक में गुणक जोड़ें और शिफ्ट करें",
+          "B": "संचायक से गुणक घटाएं और अंकगणित को दाईं ओर शिफ्ट करें",
+          "C": "केवल अंकगणित सही बदलाव",
+          "D": "संचायक को बाएँ घुमाएँ"
         },
         "correctAnswer": "B",
         "explanation": "In Booth's algorithm: '00' or '11' -> Shift right only; '01' -> Add multiplicand and shift right; '10' -> Subtract multiplicand (add 2's complement) and shift right.",
@@ -2543,7 +2543,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which of the following is a non-volatile optical or semiconductor memory that can be erased electrically in flash blocks?",
-        "question_hi": "Which of the following is a non-volatile optical or semiconductor memory that can be erased electrically in flash blocks?",
+        "question_hi": "निम्नलिखित में से कौन सी एक गैर-वाष्पशील ऑप्टिकल या अर्धचालक मेमोरी है जिसे फ्लैश ब्लॉक में विद्युत रूप से मिटाया जा सकता है?",
         "options": {
           "A": "SRAM",
           "B": "DRAM",
@@ -2551,10 +2551,10 @@ window.specialized_drills = {
           "D": "Mask ROM"
         },
         "options_hi": {
-          "A": "SRAM",
-          "B": "DRAM",
+          "A": "एसआरएएम",
+          "B": "घूंट",
           "C": "EEPROM / Flash Memory",
-          "D": "Mask ROM"
+          "D": "मास्क रॉम"
         },
         "correctAnswer": "C",
         "explanation": "EEPROM (Electrically Erasable Programmable ROM) and Flash memory can be erased and reprogrammed electrically at the block or byte level without UV exposure.",
@@ -2569,7 +2569,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the Excess-3 code representation of the decimal digit 7?",
-        "question_hi": "What is the Excess-3 code representation of the decimal digit 7?",
+        "question_hi": "दशमलव अंक 7 का अतिरिक्त-3 कोड प्रतिनिधित्व क्या है?",
         "options": {
           "A": "0111",
           "B": "1010",
@@ -2595,7 +2595,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the state transition that occurs when a running process requires an I/O operation?",
-        "question_hi": "What is the state transition that occurs when a running process requires an I/O operation?",
+        "question_hi": "वह स्थिति परिवर्तन क्या है जो तब होता है जब किसी चालू प्रक्रिया के लिए I/O ऑपरेशन की आवश्यकता होती है?",
         "options": {
           "A": "Running to Ready",
           "B": "Running to Waiting (Blocked)",
@@ -2603,10 +2603,10 @@ window.specialized_drills = {
           "D": "Ready to Running"
         },
         "options_hi": {
-          "A": "Running to Ready",
-          "B": "Running to Waiting (Blocked)",
-          "C": "Waiting to Ready",
-          "D": "Ready to Running"
+          "A": "तैयार होने के लिए दौड़ना",
+          "B": "प्रतीक्षा करने के लिए दौड़ना (अवरुद्ध)",
+          "C": "तैयार होने की प्रतीक्षा में",
+          "D": "दौड़ने के लिए तैयार"
         },
         "correctAnswer": "B",
         "explanation": "When a process requests an I/O operation or an event, the CPU cannot continue executing it until the I/O completes. The OS transitions the process from Running to Waiting (Blocked) state.",
@@ -2621,7 +2621,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Banker's Algorithm is used in operating systems for:",
-        "question_hi": "Banker's Algorithm is used in operating systems for:",
+        "question_hi": "बैंकर का एल्गोरिदम (Banker's Algorithm) is used in ऑपरेटिंग सिस्टम (OS)s for:",
         "options": {
           "A": "Deadlock Prevention",
           "B": "Deadlock Avoidance",
@@ -2629,10 +2629,10 @@ window.specialized_drills = {
           "D": "Mutual Exclusion"
         },
         "options_hi": {
-          "A": "Deadlock Prevention",
-          "B": "Deadlock Avoidance",
-          "C": "Deadlock Recovery",
-          "D": "Mutual Exclusion"
+          "A": "डेडलॉक रोकथाम",
+          "B": "गतिरोध से बचाव",
+          "C": "गतिरोध पुनर्प्राप्ति",
+          "D": "पारस्परिक बहिष्कार"
         },
         "correctAnswer": "B",
         "explanation": "Dijkstra's Banker's Algorithm dynamically tests resource allocation requests to ensure the system will always remain in a 'Safe State', avoiding deadlocks.",
@@ -2677,7 +2677,7 @@ window.specialized_drills = {
         "options_hi": {
           "A": "ब्लैक-बॉक्स टेस्टिंग",
           "B": "व्हाइट-बॉक्स टेस्टिंग (White-Box)",
-          "C": "स्वीकृति टेस्टिंग",
+          "C": "स्वीकृति परीक्षण",
           "D": "बीटा टेस्टिंग"
         },
         "correctAnswer": "B",
@@ -2701,9 +2701,9 @@ window.specialized_drills = {
           "D": "__main__()"
         },
         "options_hi": {
-          "A": "__new__()",
-          "B": "__init__()",
-          "C": "__create__()",
+          "A": "__नया__()",
+          "B": "__इस में__()",
+          "C": "__बनाएं__()",
           "D": "__main__()"
         },
         "correctAnswer": "B",
@@ -2753,9 +2753,9 @@ window.specialized_drills = {
           "D": "Turing Machine only"
         },
         "options_hi": {
-          "A": "DFA",
+          "A": "नियतात्मक परिमित ऑटोमेटा",
           "B": "पुशडाउन ऑटोमेटा (PDA)",
-          "C": "LBA",
+          "C": "लीनियर बाउंडेड ऑटोमेटा",
           "D": "केवल ट्यूरिंग मशीन"
         },
         "correctAnswer": "B",
@@ -2781,7 +2781,7 @@ window.specialized_drills = {
         "options_hi": {
           "A": "HTTP",
           "B": "CoAP (कंस्ट्रेंड एप्लीकेशन प्रोटोकॉल)",
-          "C": "SMTP",
+          "C": "एसएमटीपी",
           "D": "SSH"
         },
         "correctAnswer": "B",
@@ -2805,10 +2805,10 @@ window.specialized_drills = {
           "D": "Breadth First Search"
         },
         "options_hi": {
-          "A": "ग्रीडी बेस्ट-फर्स्ट सर्च",
-          "B": "A* सर्च (A-Star Search)",
-          "C": "DFS",
-          "D": "BFS"
+          "A": "लालची सर्वोत्तम-प्रथम खोज",
+          "B": "ए* खोजें",
+          "C": "गहराई-प्रथम खोज (DFS)",
+          "D": "चौड़ाई-प्रथम खोज (BFS)"
         },
         "correctAnswer": "B",
         "explanation": "A* search combines g(n) (path cost from start) and h(n) (estimated heuristic cost to goal) for optimal search.",
@@ -2834,7 +2834,7 @@ window.specialized_drills = {
           "A": "BMP",
           "B": "SVG (स्केलेबल वेक्टर ग्राफिक्स)",
           "C": "GIF",
-          "D": "TIFF"
+          "D": "मनमुटाव"
         },
         "correctAnswer": "B",
         "explanation": "Scalable Vector Graphics (SVG) represents shapes and lines mathematically, allowing infinite resolution-independent scaling.",
@@ -2849,7 +2849,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In software metrics, what does 'Function Point' (FP) primarily measure?",
-        "question_hi": "In software metrics, what does 'Function Point' (FP) primarily measure?",
+        "question_hi": "सॉफ़्टवेयर मेट्रिक्स में, 'फ़ंक्शन पॉइंट' (एफपी) मुख्य रूप से क्या मापता है?",
         "options": {
           "A": "The physical lines of code compiled",
           "B": "The functional size and complexity of software from the user's perspective",
@@ -2857,10 +2857,10 @@ window.specialized_drills = {
           "D": "The salary costs of programmers"
         },
         "options_hi": {
-          "A": "The physical lines of code compiled",
-          "B": "The functional size and complexity of software from the user's perspective",
-          "C": "The execution speed of the program in nanoseconds",
-          "D": "The salary costs of programmers"
+          "A": "कोड की भौतिक पंक्तियाँ संकलित",
+          "B": "उपयोगकर्ता के दृष्टिकोण से सॉफ़्टवेयर का कार्यात्मक आकार और जटिलता",
+          "C": "प्रोग्राम की निष्पादन गति नैनोसेकंड में",
+          "D": "प्रोग्रामर की वेतन लागत"
         },
         "correctAnswer": "B",
         "explanation": "Albrecht's Function Point (FP) metric quantifies software functionality based on 5 components: External Inputs, External Outputs, External Inquiries, Internal Logical Files, and External Interface Files.",
@@ -2875,7 +2875,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which level of coupling is considered the MOST desirable (weakest/cleanest) in structured software design?",
-        "question_hi": "Which level of coupling is considered the MOST desirable (weakest/cleanest) in structured software design?",
+        "question_hi": "संरचित सॉफ़्टवेयर डिज़ाइन में युग्मन के किस स्तर को सर्वाधिक वांछनीय (सबसे कमज़ोर/सबसे साफ़) माना जाता है?",
         "options": {
           "A": "Content Coupling",
           "B": "Common Coupling",
@@ -2883,10 +2883,10 @@ window.specialized_drills = {
           "D": "Data Coupling"
         },
         "options_hi": {
-          "A": "Content Coupling",
-          "B": "Common Coupling",
-          "C": "Control Coupling",
-          "D": "Data Coupling"
+          "A": "सामग्री युग्मन",
+          "B": "सामान्य युग्मन",
+          "C": "युग्मन को नियंत्रित करें",
+          "D": "डेटा युग्मन"
         },
         "correctAnswer": "D",
         "explanation": "Good software engineering strives for Low Coupling and High Cohesion. Data Coupling (modules share only simple data parameters) is the cleanest, least dependent coupling.",
@@ -2901,7 +2901,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What type of testing tests whether recent code changes have caused unintended side effects in existing functionality?",
-        "question_hi": "What type of testing tests whether recent code changes have caused unintended side effects in existing functionality?",
+        "question_hi": "कंप्यूटर साइंस अवधारणा: What type of testing tests whether recent code changes have caused unintended side effects in existing functionality के संबंध में सही कथन या मान क्या है?",
         "options": {
           "A": "Unit Testing",
           "B": "Regression Testing",
@@ -2909,10 +2909,10 @@ window.specialized_drills = {
           "D": "Stress Testing"
         },
         "options_hi": {
-          "A": "Unit Testing",
+          "A": "इकाई परीक्षण",
           "B": "Regression Testing",
-          "C": "Alpha Testing",
-          "D": "Stress Testing"
+          "C": "अल्फ़ा परीक्षण",
+          "D": "तनाव परीक्षण"
         },
         "correctAnswer": "B",
         "explanation": "Regression testing reruns existing test suites after bug fixes or modifications to confirm that unchanged features continue to function properly.",
@@ -2927,7 +2927,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In C++, which keyword is used to resolve the 'Diamond Problem' of duplicate base class instances in multiple inheritance?",
-        "question_hi": "In C++, which keyword is used to resolve the 'Diamond Problem' of duplicate base class instances in multiple inheritance?",
+        "question_hi": "C++ में, मल्टीपल इनहेरिटेंस में डुप्लिकेट बेस क्लास इंस्टेंसेस की 'डायमंड प्रॉब्लम' को हल करने के लिए किस कीवर्ड का उपयोग किया जाता है?",
         "options": {
           "A": "abstract",
           "B": "friend",
@@ -2935,10 +2935,10 @@ window.specialized_drills = {
           "D": "static"
         },
         "options_hi": {
-          "A": "abstract",
-          "B": "friend",
-          "C": "virtual",
-          "D": "static"
+          "A": "अमूर्त",
+          "B": "दोस्त",
+          "C": "आभासी",
+          "D": "स्थिर"
         },
         "correctAnswer": "C",
         "explanation": "Declaring the intermediate base classes with 'virtual' inheritance (e.g., class B : virtual public A) ensures only one shared instance of class A is included in derived class D.",
@@ -2953,7 +2953,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the output of the Python expression: [x**2 for x in range(5) if x % 2 == 0]?",
-        "question_hi": "What is the output of the Python expression: [x**2 for x in range(5) if x % 2 == 0]?",
+        "question_hi": "पायथन एक्सप्रेशन का आउटपुट क्या है: [x**2 for x in रेंज(5) if x % 2 == 0]?",
         "options": {
           "A": "[0, 1, 4, 9, 16]",
           "B": "[0, 4, 16]",
@@ -2979,7 +2979,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which of the following members cannot be inherited by a derived class in C++?",
-        "question_hi": "Which of the following members cannot be inherited by a derived class in C++?",
+        "question_hi": "निम्नलिखित में से कौन सा सदस्य C++ में व्युत्पन्न वर्ग द्वारा विरासत में नहीं लिया जा सकता है?",
         "options": {
           "A": "Protected variables",
           "B": "Public methods",
@@ -2987,10 +2987,10 @@ window.specialized_drills = {
           "D": "Virtual functions"
         },
         "options_hi": {
-          "A": "Protected variables",
-          "B": "Public methods",
-          "C": "Constructors and Destructors",
-          "D": "Virtual functions"
+          "A": "संरक्षित चर",
+          "B": "सार्वजनिक तरीके",
+          "C": "निर्माता और विध्वंसक",
+          "D": "आभासी कार्य"
         },
         "correctAnswer": "C",
         "explanation": "Constructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
@@ -3005,7 +3005,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In CSS, what is the default value of the 'position' property of HTML elements?",
-        "question_hi": "In CSS, what is the default value of the 'position' property of HTML elements?",
+        "question_hi": "CSS में, is the default value of the 'position' property of HTML elements क्या है?",
         "options": {
           "A": "relative",
           "B": "absolute",
@@ -3013,10 +3013,10 @@ window.specialized_drills = {
           "D": "fixed"
         },
         "options_hi": {
-          "A": "relative",
-          "B": "absolute",
-          "C": "static",
-          "D": "fixed"
+          "A": "रिश्तेदार",
+          "B": "निरपेक्ष",
+          "C": "स्थिर",
+          "D": "तय"
         },
         "correctAnswer": "C",
         "explanation": "The default value of 'position' is 'static'. Static elements flow naturally in the normal document flow and ignore top, right, bottom, and left properties.",
@@ -3031,7 +3031,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which PHP function is used to establish a connection to a MySQL database?",
-        "question_hi": "Which PHP function is used to establish a connection to a MySQL database?",
+        "question_hi": "MySQL डेटाबेस से कनेक्शन स्थापित करने के लिए किस PHP फ़ंक्शन का उपयोग किया जाता है?",
         "options": {
           "A": "mysql_open()",
           "B": "mysqli_connect()",
@@ -3041,7 +3041,7 @@ window.specialized_drills = {
         "options_hi": {
           "A": "mysql_open()",
           "B": "mysqli_connect()",
-          "C": "db_connect()",
+          "C": "db_कनेक्ट()",
           "D": "sql_link()"
         },
         "correctAnswer": "B",
@@ -3057,7 +3057,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In XML, an XML document that conforms strictly to its associated DTD or XML Schema is said to be:",
-        "question_hi": "In XML, an XML document that conforms strictly to its associated DTD or XML Schema is said to be:",
+        "question_hi": "XML में, एक XML दस्तावेज़ जो अपने संबंधित DTD या XML स्कीमा के अनुरूप होता है, उसे कहा जाता है:",
         "options": {
           "A": "Well-Formed",
           "B": "Valid",
@@ -3065,9 +3065,9 @@ window.specialized_drills = {
           "D": "Parsed"
         },
         "options_hi": {
-          "A": "Well-Formed",
-          "B": "Valid",
-          "C": "Normalized",
+          "A": "सुडौल",
+          "B": "वैध",
+          "C": "सामान्यीकृत",
           "D": "Parsed"
         },
         "correctAnswer": "B",
@@ -3083,7 +3083,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the language recognized by a Deterministic Finite Automaton (DFA) that accepts strings over {0, 1} ending with '00'?",
-        "question_hi": "What is the language recognized by a Deterministic Finite Automaton (DFA) that accepts strings over {0, 1} ending with '00'?",
+        "question_hi": "नियतात्मक परिमित ऑटोमेटन (डीएफए) द्वारा मान्यता प्राप्त भाषा क्या है जो '00' के साथ समाप्त होने वाले {0, 1} से अधिक स्ट्रिंग को स्वीकार करती है?",
         "options": {
           "A": "Context Free Language",
           "B": "Regular Language",
@@ -3091,10 +3091,10 @@ window.specialized_drills = {
           "D": "Non-computable Language"
         },
         "options_hi": {
-          "A": "Context Free Language",
-          "B": "Regular Language",
-          "C": "Recursively Enumerable only",
-          "D": "Non-computable Language"
+          "A": "प्रसंग मुक्त भाषा",
+          "B": "नियमित भाषा",
+          "C": "केवल पुनरावर्ती रूप से गणना योग्य",
+          "D": "गैर संगणनीय भाषा"
         },
         "correctAnswer": "B",
         "explanation": "Any language that can be recognized by a Finite Automaton (DFA or NFA) is by definition a Regular Language, represented by regular expression (0 + 1)*00.",
@@ -3109,7 +3109,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Arden's Theorem states that if P and Q are regular expressions over Σ and P does not contain ε, then the equation R = Q + RP has a unique solution given by:",
-        "question_hi": "Arden's Theorem states that if P and Q are regular expressions over Σ and P does not contain ε, then the equation R = Q + RP has a unique solution given by:",
+        "question_hi": "आर्डेन के प्रमेय में कहा गया है कि यदि P और Q Σ पर नियमित अभिव्यक्ति हैं और P में ε नहीं है, तो समीकरण R = Q + RP का एक अद्वितीय समाधान है:",
         "options": {
           "A": "R = Q*P",
           "B": "R = QP*",
@@ -3117,10 +3117,10 @@ window.specialized_drills = {
           "D": "R = Q+P*"
         },
         "options_hi": {
-          "A": "R = Q*P",
-          "B": "R = QP*",
-          "C": "R = P*Q*",
-          "D": "R = Q+P*"
+          "A": "आर = क्यू*पी",
+          "B": "आर = क्यूपी*",
+          "C": "आर = पी*क्यू*",
+          "D": "आर = क्यू+पी*"
         },
         "correctAnswer": "B",
         "explanation": "Arden's Theorem specifies: R = Q + RP has the unique solution R = QP*.",
@@ -3135,7 +3135,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which of the following grammars is in Chomsky Normal Form (CNF)?",
-        "question_hi": "Which of the following grammars is in Chomsky Normal Form (CNF)?",
+        "question_hi": "निम्नलिखित में से कौन सा व्याकरण चॉम्स्की नॉर्मल फॉर्म (CNF) में है?",
         "options": {
           "A": "S -> aB | b",
           "B": "S -> AB | a",
@@ -3143,10 +3143,10 @@ window.specialized_drills = {
           "D": "S -> a | ε"
         },
         "options_hi": {
-          "A": "S -> aB | b",
-          "B": "S -> AB | a",
-          "C": "S -> ABC | a",
-          "D": "S -> a | ε"
+          "A": "एस -> एबी | बी",
+          "B": "एस -> एबी | ए",
+          "C": "एस -> एबीसी | ए",
+          "D": "एस -> ए | ε"
         },
         "correctAnswer": "B",
         "explanation": "In Chomsky Normal Form (CNF), all production rules must be of the form A -> BC (two non-terminals) or A -> a (single terminal). Hence, S -> AB | a is in CNF.",
@@ -3161,7 +3161,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which lightweight application-layer publish/subscribe messaging protocol is widely used in IoT over TCP?",
-        "question_hi": "Which lightweight application-layer publish/subscribe messaging protocol is widely used in IoT over TCP?",
+        "question_hi": "कौन सा हल्का एप्लिकेशन-लेयर पब्लिश/सब्सक्राइब मैसेजिंग प्रोटोकॉल टीसीपी पर आईओटी में व्यापक रूप से उपयोग किया जाता है?",
         "options": {
           "A": "HTTP",
           "B": "MQTT",
@@ -3170,9 +3170,9 @@ window.specialized_drills = {
         },
         "options_hi": {
           "A": "HTTP",
-          "B": "MQTT",
+          "B": "एमक्यूटीटी",
           "C": "FTP",
-          "D": "SNMP"
+          "D": "एसएनएमपी"
         },
         "correctAnswer": "B",
         "explanation": "MQTT (Message Queuing Telemetry Transport) is an extremely lightweight publish/subscribe network protocol designed for constrained IoT devices and low-bandwidth networks.",
@@ -3187,7 +3187,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
-        "question_hi": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
+        "question_hi": "वेब ऑफ थिंग्स (डब्ल्यूओटी) में, स्मार्ट भौतिक उपकरणों को मुख्य रूप से मानक वेब प्रौद्योगिकियों का उपयोग करके प्रदर्शित और नियंत्रित किया जाता है:",
         "options": {
           "A": "RESTful Web APIs and JSON",
           "B": "Raw binary serial ports",
@@ -3195,10 +3195,10 @@ window.specialized_drills = {
           "D": "Modem dial-ups"
         },
         "options_hi": {
-          "A": "RESTful Web APIs and JSON",
-          "B": "Raw binary serial ports",
-          "C": "Assembly instructions",
-          "D": "Modem dial-ups"
+          "A": "रेस्टफुल वेब एपीआई और JSON",
+          "B": "कच्चे बाइनरी सीरियल पोर्ट",
+          "C": "एकत्र करने के लिए निर्देश",
+          "D": "मॉडेम डायल-अप"
         },
         "correctAnswer": "A",
         "explanation": "The Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
@@ -3213,7 +3213,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In First-Order Predicate Logic, which inference rule derives C from premises (A ∨ B) and (¬A ∨ C)?",
-        "question_hi": "In First-Order Predicate Logic, which inference rule derives C from premises (A ∨ B) and (¬A ∨ C)?",
+        "question_hi": "प्रथम-क्रम विधेय तर्क में, कौन सा अनुमान नियम C को परिसर (A ∨ B) और (¬A ∨ C) से प्राप्त करता है?",
         "options": {
           "A": "Modus Ponens",
           "B": "Resolution",
@@ -3221,10 +3221,10 @@ window.specialized_drills = {
           "D": "Unification"
         },
         "options_hi": {
-          "A": "Modus Ponens",
-          "B": "Resolution",
-          "C": "Universal Instantiation",
-          "D": "Unification"
+          "A": "मोडस पोनेन्स",
+          "B": "संकल्प",
+          "C": "सार्वभौमिक तात्कालिकता",
+          "D": "एकीकरण"
         },
         "correctAnswer": "B",
         "explanation": "Resolution refutation states: (A ∨ B) and (¬A ∨ C) yields the resolvent (B ∨ C). If B is false, it yields C.",
@@ -3239,7 +3239,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which type of search algorithm always expands the lowest cost leaf node first where cost is f(n) = g(n) + h(n)?",
-        "question_hi": "Which type of search algorithm always expands the lowest cost leaf node first where cost is f(n) = g(n) + h(n)?",
+        "question_hi": "किस प्रकार का खोज एल्गोरिदम हमेशा सबसे कम लागत वाले लीफ नोड को पहले विस्तारित करता है जहां लागत f(n) = g(n) + h(n) है?",
         "options": {
           "A": "Greedy Best-First Search",
           "B": "A* Search",
@@ -3247,10 +3247,10 @@ window.specialized_drills = {
           "D": "Breadth First Search"
         },
         "options_hi": {
-          "A": "Greedy Best-First Search",
-          "B": "A* Search",
-          "C": "Depth First Search",
-          "D": "Breadth First Search"
+          "A": "लालची सर्वोत्तम-प्रथम खोज",
+          "B": "ए* खोजें",
+          "C": "गहराई-प्रथम खोज (DFS)",
+          "D": "चौड़ाई-प्रथम खोज (BFS)"
         },
         "correctAnswer": "B",
         "explanation": "A* search evaluates nodes by combining g(n) (cost from start to current node) and h(n) (estimated heuristic cost from current node to goal).",
@@ -3265,7 +3265,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "According to the Nyquist-Shannon sampling theorem, to accurately reconstruct an audio signal with frequencies up to 20 kHz, what is the minimum required sampling rate?",
-        "question_hi": "According to the Nyquist-Shannon sampling theorem, to accurately reconstruct an audio signal with frequencies up to 20 kHz, what is the minimum required sampling rate?",
+        "question_hi": "नाइक्विस्ट-शैनन सैंपलिंग प्रमेय के अनुसार, 20 किलोहर्ट्ज़ तक की आवृत्तियों के साथ एक ऑडियो सिग्नल को सटीक रूप से पुनर्निर्माण करने के लिए, न्यूनतम आवश्यक सैंपलिंग दर क्या है?",
         "options": {
           "A": "10 kHz",
           "B": "20 kHz",
@@ -3273,10 +3273,10 @@ window.specialized_drills = {
           "D": "80 kHz"
         },
         "options_hi": {
-          "A": "10 kHz",
-          "B": "20 kHz",
-          "C": "40 kHz",
-          "D": "80 kHz"
+          "A": "10 किलोहर्ट्ज़",
+          "B": "20 किलोहर्ट्ज़",
+          "C": "40 किलोहर्ट्ज़",
+          "D": "80 किलोहर्ट्ज़"
         },
         "correctAnswer": "C",
         "explanation": "Nyquist rate = 2 × f_max. To capture frequencies up to 20,000 Hz, the sampling frequency must be at least 2 × 20 kHz = 40 kHz (Compact Discs use 44.1 kHz).",
@@ -3291,7 +3291,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which image compression standard utilizes Discrete Cosine Transform (DCT) and is lossy for digital photography?",
-        "question_hi": "Which image compression standard utilizes Discrete Cosine Transform (DCT) and is lossy for digital photography?",
+        "question_hi": "कौन सा छवि संपीड़न मानक डिस्क्रीट कोसाइन ट्रांसफॉर्म (डीसीटी) का उपयोग करता है और डिजिटल फोटोग्राफी के लिए हानिकारक है?",
         "options": {
           "A": "PNG",
           "B": "JPEG",
@@ -3300,7 +3300,7 @@ window.specialized_drills = {
         },
         "options_hi": {
           "A": "PNG",
-          "B": "JPEG",
+          "B": "जेपीईजी",
           "C": "BMP",
           "D": "SVG"
         },
@@ -3327,7 +3327,7 @@ window.specialized_drills = {
         "options_hi": {
           "A": "ब्लैक-बॉक्स टेस्टिंग",
           "B": "व्हाइट-बॉक्स टेस्टिंग (White-Box)",
-          "C": "स्वीकृति टेस्टिंग",
+          "C": "स्वीकृति परीक्षण",
           "D": "बीटा टेस्टिंग"
         },
         "correctAnswer": "B",
@@ -3351,9 +3351,9 @@ window.specialized_drills = {
           "D": "__main__()"
         },
         "options_hi": {
-          "A": "__new__()",
-          "B": "__init__()",
-          "C": "__create__()",
+          "A": "__नया__()",
+          "B": "__इस में__()",
+          "C": "__बनाएं__()",
           "D": "__main__()"
         },
         "correctAnswer": "B",
@@ -3403,9 +3403,9 @@ window.specialized_drills = {
           "D": "Turing Machine only"
         },
         "options_hi": {
-          "A": "DFA",
+          "A": "नियतात्मक परिमित ऑटोमेटा",
           "B": "पुशडाउन ऑटोमेटा (PDA)",
-          "C": "LBA",
+          "C": "लीनियर बाउंडेड ऑटोमेटा",
           "D": "केवल ट्यूरिंग मशीन"
         },
         "correctAnswer": "B",
@@ -3431,7 +3431,7 @@ window.specialized_drills = {
         "options_hi": {
           "A": "HTTP",
           "B": "CoAP (कंस्ट्रेंड एप्लीकेशन प्रोटोकॉल)",
-          "C": "SMTP",
+          "C": "एसएमटीपी",
           "D": "SSH"
         },
         "correctAnswer": "B",
@@ -3455,10 +3455,10 @@ window.specialized_drills = {
           "D": "Breadth First Search"
         },
         "options_hi": {
-          "A": "ग्रीडी बेस्ट-फर्स्ट सर्च",
-          "B": "A* सर्च (A-Star Search)",
-          "C": "DFS",
-          "D": "BFS"
+          "A": "लालची सर्वोत्तम-प्रथम खोज",
+          "B": "ए* खोजें",
+          "C": "गहराई-प्रथम खोज (DFS)",
+          "D": "चौड़ाई-प्रथम खोज (BFS)"
         },
         "correctAnswer": "B",
         "explanation": "A* search combines g(n) (path cost from start) and h(n) (estimated heuristic cost to goal) for optimal search.",
@@ -3484,7 +3484,7 @@ window.specialized_drills = {
           "A": "BMP",
           "B": "SVG (स्केलेबल वेक्टर ग्राफिक्स)",
           "C": "GIF",
-          "D": "TIFF"
+          "D": "मनमुटाव"
         },
         "correctAnswer": "B",
         "explanation": "Scalable Vector Graphics (SVG) represents shapes and lines mathematically, allowing infinite resolution-independent scaling.",
@@ -3499,7 +3499,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In software metrics, what does 'Function Point' (FP) primarily measure?",
-        "question_hi": "In software metrics, what does 'Function Point' (FP) primarily measure?",
+        "question_hi": "सॉफ़्टवेयर मेट्रिक्स में, 'फ़ंक्शन पॉइंट' (एफपी) मुख्य रूप से क्या मापता है?",
         "options": {
           "A": "The physical lines of code compiled",
           "B": "The functional size and complexity of software from the user's perspective",
@@ -3507,10 +3507,10 @@ window.specialized_drills = {
           "D": "The salary costs of programmers"
         },
         "options_hi": {
-          "A": "The physical lines of code compiled",
-          "B": "The functional size and complexity of software from the user's perspective",
-          "C": "The execution speed of the program in nanoseconds",
-          "D": "The salary costs of programmers"
+          "A": "कोड की भौतिक पंक्तियाँ संकलित",
+          "B": "उपयोगकर्ता के दृष्टिकोण से सॉफ़्टवेयर का कार्यात्मक आकार और जटिलता",
+          "C": "प्रोग्राम की निष्पादन गति नैनोसेकंड में",
+          "D": "प्रोग्रामर की वेतन लागत"
         },
         "correctAnswer": "B",
         "explanation": "Albrecht's Function Point (FP) metric quantifies software functionality based on 5 components: External Inputs, External Outputs, External Inquiries, Internal Logical Files, and External Interface Files.",
@@ -3525,7 +3525,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which level of coupling is considered the MOST desirable (weakest/cleanest) in structured software design?",
-        "question_hi": "Which level of coupling is considered the MOST desirable (weakest/cleanest) in structured software design?",
+        "question_hi": "संरचित सॉफ़्टवेयर डिज़ाइन में युग्मन के किस स्तर को सर्वाधिक वांछनीय (सबसे कमज़ोर/सबसे साफ़) माना जाता है?",
         "options": {
           "A": "Content Coupling",
           "B": "Common Coupling",
@@ -3533,10 +3533,10 @@ window.specialized_drills = {
           "D": "Data Coupling"
         },
         "options_hi": {
-          "A": "Content Coupling",
-          "B": "Common Coupling",
-          "C": "Control Coupling",
-          "D": "Data Coupling"
+          "A": "सामग्री युग्मन",
+          "B": "सामान्य युग्मन",
+          "C": "युग्मन को नियंत्रित करें",
+          "D": "डेटा युग्मन"
         },
         "correctAnswer": "D",
         "explanation": "Good software engineering strives for Low Coupling and High Cohesion. Data Coupling (modules share only simple data parameters) is the cleanest, least dependent coupling.",
@@ -3551,7 +3551,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What type of testing tests whether recent code changes have caused unintended side effects in existing functionality?",
-        "question_hi": "What type of testing tests whether recent code changes have caused unintended side effects in existing functionality?",
+        "question_hi": "कंप्यूटर साइंस अवधारणा: What type of testing tests whether recent code changes have caused unintended side effects in existing functionality के संबंध में सही कथन या मान क्या है?",
         "options": {
           "A": "Unit Testing",
           "B": "Regression Testing",
@@ -3559,10 +3559,10 @@ window.specialized_drills = {
           "D": "Stress Testing"
         },
         "options_hi": {
-          "A": "Unit Testing",
+          "A": "इकाई परीक्षण",
           "B": "Regression Testing",
-          "C": "Alpha Testing",
-          "D": "Stress Testing"
+          "C": "अल्फ़ा परीक्षण",
+          "D": "तनाव परीक्षण"
         },
         "correctAnswer": "B",
         "explanation": "Regression testing reruns existing test suites after bug fixes or modifications to confirm that unchanged features continue to function properly.",
@@ -3577,7 +3577,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In C++, which keyword is used to resolve the 'Diamond Problem' of duplicate base class instances in multiple inheritance?",
-        "question_hi": "In C++, which keyword is used to resolve the 'Diamond Problem' of duplicate base class instances in multiple inheritance?",
+        "question_hi": "C++ में, मल्टीपल इनहेरिटेंस में डुप्लिकेट बेस क्लास इंस्टेंसेस की 'डायमंड प्रॉब्लम' को हल करने के लिए किस कीवर्ड का उपयोग किया जाता है?",
         "options": {
           "A": "abstract",
           "B": "friend",
@@ -3585,10 +3585,10 @@ window.specialized_drills = {
           "D": "static"
         },
         "options_hi": {
-          "A": "abstract",
-          "B": "friend",
-          "C": "virtual",
-          "D": "static"
+          "A": "अमूर्त",
+          "B": "दोस्त",
+          "C": "आभासी",
+          "D": "स्थिर"
         },
         "correctAnswer": "C",
         "explanation": "Declaring the intermediate base classes with 'virtual' inheritance (e.g., class B : virtual public A) ensures only one shared instance of class A is included in derived class D.",
@@ -3603,7 +3603,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the output of the Python expression: [x**2 for x in range(5) if x % 2 == 0]?",
-        "question_hi": "What is the output of the Python expression: [x**2 for x in range(5) if x % 2 == 0]?",
+        "question_hi": "पायथन एक्सप्रेशन का आउटपुट क्या है: [x**2 for x in रेंज(5) if x % 2 == 0]?",
         "options": {
           "A": "[0, 1, 4, 9, 16]",
           "B": "[0, 4, 16]",
@@ -3629,7 +3629,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which of the following members cannot be inherited by a derived class in C++?",
-        "question_hi": "Which of the following members cannot be inherited by a derived class in C++?",
+        "question_hi": "निम्नलिखित में से कौन सा सदस्य C++ में व्युत्पन्न वर्ग द्वारा विरासत में नहीं लिया जा सकता है?",
         "options": {
           "A": "Protected variables",
           "B": "Public methods",
@@ -3637,10 +3637,10 @@ window.specialized_drills = {
           "D": "Virtual functions"
         },
         "options_hi": {
-          "A": "Protected variables",
-          "B": "Public methods",
-          "C": "Constructors and Destructors",
-          "D": "Virtual functions"
+          "A": "संरक्षित चर",
+          "B": "सार्वजनिक तरीके",
+          "C": "निर्माता और विध्वंसक",
+          "D": "आभासी कार्य"
         },
         "correctAnswer": "C",
         "explanation": "Constructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
@@ -3655,7 +3655,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In CSS, what is the default value of the 'position' property of HTML elements?",
-        "question_hi": "In CSS, what is the default value of the 'position' property of HTML elements?",
+        "question_hi": "CSS में, is the default value of the 'position' property of HTML elements क्या है?",
         "options": {
           "A": "relative",
           "B": "absolute",
@@ -3663,10 +3663,10 @@ window.specialized_drills = {
           "D": "fixed"
         },
         "options_hi": {
-          "A": "relative",
-          "B": "absolute",
-          "C": "static",
-          "D": "fixed"
+          "A": "रिश्तेदार",
+          "B": "निरपेक्ष",
+          "C": "स्थिर",
+          "D": "तय"
         },
         "correctAnswer": "C",
         "explanation": "The default value of 'position' is 'static'. Static elements flow naturally in the normal document flow and ignore top, right, bottom, and left properties.",
@@ -3681,7 +3681,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which PHP function is used to establish a connection to a MySQL database?",
-        "question_hi": "Which PHP function is used to establish a connection to a MySQL database?",
+        "question_hi": "MySQL डेटाबेस से कनेक्शन स्थापित करने के लिए किस PHP फ़ंक्शन का उपयोग किया जाता है?",
         "options": {
           "A": "mysql_open()",
           "B": "mysqli_connect()",
@@ -3691,7 +3691,7 @@ window.specialized_drills = {
         "options_hi": {
           "A": "mysql_open()",
           "B": "mysqli_connect()",
-          "C": "db_connect()",
+          "C": "db_कनेक्ट()",
           "D": "sql_link()"
         },
         "correctAnswer": "B",
@@ -3707,7 +3707,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In XML, an XML document that conforms strictly to its associated DTD or XML Schema is said to be:",
-        "question_hi": "In XML, an XML document that conforms strictly to its associated DTD or XML Schema is said to be:",
+        "question_hi": "XML में, एक XML दस्तावेज़ जो अपने संबंधित DTD या XML स्कीमा के अनुरूप होता है, उसे कहा जाता है:",
         "options": {
           "A": "Well-Formed",
           "B": "Valid",
@@ -3715,9 +3715,9 @@ window.specialized_drills = {
           "D": "Parsed"
         },
         "options_hi": {
-          "A": "Well-Formed",
-          "B": "Valid",
-          "C": "Normalized",
+          "A": "सुडौल",
+          "B": "वैध",
+          "C": "सामान्यीकृत",
           "D": "Parsed"
         },
         "correctAnswer": "B",
@@ -3733,7 +3733,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "What is the language recognized by a Deterministic Finite Automaton (DFA) that accepts strings over {0, 1} ending with '00'?",
-        "question_hi": "What is the language recognized by a Deterministic Finite Automaton (DFA) that accepts strings over {0, 1} ending with '00'?",
+        "question_hi": "नियतात्मक परिमित ऑटोमेटन (डीएफए) द्वारा मान्यता प्राप्त भाषा क्या है जो '00' के साथ समाप्त होने वाले {0, 1} से अधिक स्ट्रिंग को स्वीकार करती है?",
         "options": {
           "A": "Context Free Language",
           "B": "Regular Language",
@@ -3741,10 +3741,10 @@ window.specialized_drills = {
           "D": "Non-computable Language"
         },
         "options_hi": {
-          "A": "Context Free Language",
-          "B": "Regular Language",
-          "C": "Recursively Enumerable only",
-          "D": "Non-computable Language"
+          "A": "प्रसंग मुक्त भाषा",
+          "B": "नियमित भाषा",
+          "C": "केवल पुनरावर्ती रूप से गणना योग्य",
+          "D": "गैर संगणनीय भाषा"
         },
         "correctAnswer": "B",
         "explanation": "Any language that can be recognized by a Finite Automaton (DFA or NFA) is by definition a Regular Language, represented by regular expression (0 + 1)*00.",
@@ -3759,7 +3759,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Arden's Theorem states that if P and Q are regular expressions over Σ and P does not contain ε, then the equation R = Q + RP has a unique solution given by:",
-        "question_hi": "Arden's Theorem states that if P and Q are regular expressions over Σ and P does not contain ε, then the equation R = Q + RP has a unique solution given by:",
+        "question_hi": "आर्डेन के प्रमेय में कहा गया है कि यदि P और Q Σ पर नियमित अभिव्यक्ति हैं और P में ε नहीं है, तो समीकरण R = Q + RP का एक अद्वितीय समाधान है:",
         "options": {
           "A": "R = Q*P",
           "B": "R = QP*",
@@ -3767,10 +3767,10 @@ window.specialized_drills = {
           "D": "R = Q+P*"
         },
         "options_hi": {
-          "A": "R = Q*P",
-          "B": "R = QP*",
-          "C": "R = P*Q*",
-          "D": "R = Q+P*"
+          "A": "आर = क्यू*पी",
+          "B": "आर = क्यूपी*",
+          "C": "आर = पी*क्यू*",
+          "D": "आर = क्यू+पी*"
         },
         "correctAnswer": "B",
         "explanation": "Arden's Theorem specifies: R = Q + RP has the unique solution R = QP*.",
@@ -3785,7 +3785,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which of the following grammars is in Chomsky Normal Form (CNF)?",
-        "question_hi": "Which of the following grammars is in Chomsky Normal Form (CNF)?",
+        "question_hi": "निम्नलिखित में से कौन सा व्याकरण चॉम्स्की नॉर्मल फॉर्म (CNF) में है?",
         "options": {
           "A": "S -> aB | b",
           "B": "S -> AB | a",
@@ -3793,10 +3793,10 @@ window.specialized_drills = {
           "D": "S -> a | ε"
         },
         "options_hi": {
-          "A": "S -> aB | b",
-          "B": "S -> AB | a",
-          "C": "S -> ABC | a",
-          "D": "S -> a | ε"
+          "A": "एस -> एबी | बी",
+          "B": "एस -> एबी | ए",
+          "C": "एस -> एबीसी | ए",
+          "D": "एस -> ए | ε"
         },
         "correctAnswer": "B",
         "explanation": "In Chomsky Normal Form (CNF), all production rules must be of the form A -> BC (two non-terminals) or A -> a (single terminal). Hence, S -> AB | a is in CNF.",
@@ -3811,7 +3811,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which lightweight application-layer publish/subscribe messaging protocol is widely used in IoT over TCP?",
-        "question_hi": "Which lightweight application-layer publish/subscribe messaging protocol is widely used in IoT over TCP?",
+        "question_hi": "कौन सा हल्का एप्लिकेशन-लेयर पब्लिश/सब्सक्राइब मैसेजिंग प्रोटोकॉल टीसीपी पर आईओटी में व्यापक रूप से उपयोग किया जाता है?",
         "options": {
           "A": "HTTP",
           "B": "MQTT",
@@ -3820,9 +3820,9 @@ window.specialized_drills = {
         },
         "options_hi": {
           "A": "HTTP",
-          "B": "MQTT",
+          "B": "एमक्यूटीटी",
           "C": "FTP",
-          "D": "SNMP"
+          "D": "एसएनएमपी"
         },
         "correctAnswer": "B",
         "explanation": "MQTT (Message Queuing Telemetry Transport) is an extremely lightweight publish/subscribe network protocol designed for constrained IoT devices and low-bandwidth networks.",
@@ -3837,7 +3837,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
-        "question_hi": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
+        "question_hi": "वेब ऑफ थिंग्स (डब्ल्यूओटी) में, स्मार्ट भौतिक उपकरणों को मुख्य रूप से मानक वेब प्रौद्योगिकियों का उपयोग करके प्रदर्शित और नियंत्रित किया जाता है:",
         "options": {
           "A": "RESTful Web APIs and JSON",
           "B": "Raw binary serial ports",
@@ -3845,10 +3845,10 @@ window.specialized_drills = {
           "D": "Modem dial-ups"
         },
         "options_hi": {
-          "A": "RESTful Web APIs and JSON",
-          "B": "Raw binary serial ports",
-          "C": "Assembly instructions",
-          "D": "Modem dial-ups"
+          "A": "रेस्टफुल वेब एपीआई और JSON",
+          "B": "कच्चे बाइनरी सीरियल पोर्ट",
+          "C": "एकत्र करने के लिए निर्देश",
+          "D": "मॉडेम डायल-अप"
         },
         "correctAnswer": "A",
         "explanation": "The Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
@@ -3863,7 +3863,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "In First-Order Predicate Logic, which inference rule derives C from premises (A ∨ B) and (¬A ∨ C)?",
-        "question_hi": "In First-Order Predicate Logic, which inference rule derives C from premises (A ∨ B) and (¬A ∨ C)?",
+        "question_hi": "प्रथम-क्रम विधेय तर्क में, कौन सा अनुमान नियम C को परिसर (A ∨ B) और (¬A ∨ C) से प्राप्त करता है?",
         "options": {
           "A": "Modus Ponens",
           "B": "Resolution",
@@ -3871,10 +3871,10 @@ window.specialized_drills = {
           "D": "Unification"
         },
         "options_hi": {
-          "A": "Modus Ponens",
-          "B": "Resolution",
-          "C": "Universal Instantiation",
-          "D": "Unification"
+          "A": "मोडस पोनेन्स",
+          "B": "संकल्प",
+          "C": "सार्वभौमिक तात्कालिकता",
+          "D": "एकीकरण"
         },
         "correctAnswer": "B",
         "explanation": "Resolution refutation states: (A ∨ B) and (¬A ∨ C) yields the resolvent (B ∨ C). If B is false, it yields C.",
@@ -3889,7 +3889,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which type of search algorithm always expands the lowest cost leaf node first where cost is f(n) = g(n) + h(n)?",
-        "question_hi": "Which type of search algorithm always expands the lowest cost leaf node first where cost is f(n) = g(n) + h(n)?",
+        "question_hi": "किस प्रकार का खोज एल्गोरिदम हमेशा सबसे कम लागत वाले लीफ नोड को पहले विस्तारित करता है जहां लागत f(n) = g(n) + h(n) है?",
         "options": {
           "A": "Greedy Best-First Search",
           "B": "A* Search",
@@ -3897,10 +3897,10 @@ window.specialized_drills = {
           "D": "Breadth First Search"
         },
         "options_hi": {
-          "A": "Greedy Best-First Search",
-          "B": "A* Search",
-          "C": "Depth First Search",
-          "D": "Breadth First Search"
+          "A": "लालची सर्वोत्तम-प्रथम खोज",
+          "B": "ए* खोजें",
+          "C": "गहराई-प्रथम खोज (DFS)",
+          "D": "चौड़ाई-प्रथम खोज (BFS)"
         },
         "correctAnswer": "B",
         "explanation": "A* search evaluates nodes by combining g(n) (cost from start to current node) and h(n) (estimated heuristic cost from current node to goal).",
@@ -3915,7 +3915,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "According to the Nyquist-Shannon sampling theorem, to accurately reconstruct an audio signal with frequencies up to 20 kHz, what is the minimum required sampling rate?",
-        "question_hi": "According to the Nyquist-Shannon sampling theorem, to accurately reconstruct an audio signal with frequencies up to 20 kHz, what is the minimum required sampling rate?",
+        "question_hi": "नाइक्विस्ट-शैनन सैंपलिंग प्रमेय के अनुसार, 20 किलोहर्ट्ज़ तक की आवृत्तियों के साथ एक ऑडियो सिग्नल को सटीक रूप से पुनर्निर्माण करने के लिए, न्यूनतम आवश्यक सैंपलिंग दर क्या है?",
         "options": {
           "A": "10 kHz",
           "B": "20 kHz",
@@ -3923,10 +3923,10 @@ window.specialized_drills = {
           "D": "80 kHz"
         },
         "options_hi": {
-          "A": "10 kHz",
-          "B": "20 kHz",
-          "C": "40 kHz",
-          "D": "80 kHz"
+          "A": "10 किलोहर्ट्ज़",
+          "B": "20 किलोहर्ट्ज़",
+          "C": "40 किलोहर्ट्ज़",
+          "D": "80 किलोहर्ट्ज़"
         },
         "correctAnswer": "C",
         "explanation": "Nyquist rate = 2 × f_max. To capture frequencies up to 20,000 Hz, the sampling frequency must be at least 2 × 20 kHz = 40 kHz (Compact Discs use 44.1 kHz).",
@@ -3941,7 +3941,7 @@ window.specialized_drills = {
         "marks": 1,
         "negativeMarks": 0,
         "question": "Which image compression standard utilizes Discrete Cosine Transform (DCT) and is lossy for digital photography?",
-        "question_hi": "Which image compression standard utilizes Discrete Cosine Transform (DCT) and is lossy for digital photography?",
+        "question_hi": "कौन सा छवि संपीड़न मानक डिस्क्रीट कोसाइन ट्रांसफॉर्म (डीसीटी) का उपयोग करता है और डिजिटल फोटोग्राफी के लिए हानिकारक है?",
         "options": {
           "A": "PNG",
           "B": "JPEG",
@@ -3950,7 +3950,7 @@ window.specialized_drills = {
         },
         "options_hi": {
           "A": "PNG",
-          "B": "JPEG",
+          "B": "जेपीईजी",
           "C": "BMP",
           "D": "SVG"
         },

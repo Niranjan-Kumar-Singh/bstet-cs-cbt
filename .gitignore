@@ -40,3 +40,14 @@ build/
 *.PDF
 syllabus_extracted.txt
 
+# Scratch scripts & temporary translation caches
+scripts/translation_cache.json
+scripts/test_*.py
+scripts/check_devanagari.py
+scripts/find_remaining.py
+scripts/apply_devanagari_enrichment.py
+scripts/batch_translate_cache.py
+scripts/translate_all_devanagari.py
+scripts/translate_papers.py
+
+

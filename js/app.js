@@ -142,6 +142,13 @@ class App {
     this.backToLobbyBtn = document.getElementById('back-to-lobby-btn');
     this.printScorecardBtn = document.getElementById('print-scorecard-btn');
     this.shareScorecardBtn = document.getElementById('share-scorecard-btn');
+
+    // Legal & Privacy Policy Modal (Google AdSense Compliance)
+    this.legalModal = document.getElementById('legal-modal');
+    this.legalModalBody = document.getElementById('legal-modal-body');
+    this.closeLegalModalBtn = document.getElementById('close-legal-modal-btn');
+    this.legalModalOkBtn = document.getElementById('legal-modal-ok-btn');
+    this.legalTabs = document.querySelectorAll('.legal-tab-btn');
   }
 
   bindEvents() {
@@ -160,16 +167,38 @@ class App {
       this.langToggleBtn.addEventListener('click', () => this.toggleAppLanguage());
     }
     if (this.examLangToggleBtn) {
-      this.examLangToggleBtn.addEventListener('click', () => this.toggleQuestionLanguage());
+      this.examLangToggleBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        this.toggleQuestionLanguage();
+      });
+    }
+    const qLangSeg = document.getElementById('q-lang-segmented');
+    if (qLangSeg) {
+      qLangSeg.addEventListener('click', (e) => {
+        const btn = e.target.closest('.q-lang-btn');
+        if (btn && btn.dataset.lang) {
+          e.preventDefault();
+          this.setQuestionLanguage(btn.dataset.lang);
+        }
+      });
     }
     if (this.btnLangEn) {
-      this.btnLangEn.addEventListener('click', () => this.setQuestionLanguage('en'));
+      this.btnLangEn.addEventListener('click', (e) => {
+        e.preventDefault();
+        this.setQuestionLanguage('en');
+      });
     }
     if (this.btnLangHi) {
-      this.btnLangHi.addEventListener('click', () => this.setQuestionLanguage('hi'));
+      this.btnLangHi.addEventListener('click', (e) => {
+        e.preventDefault();
+        this.setQuestionLanguage('hi');
+      });
     }
     if (this.btnLangBoth) {
-      this.btnLangBoth.addEventListener('click', () => this.setQuestionLanguage('both'));
+      this.btnLangBoth.addEventListener('click', (e) => {
+        e.preventDefault();
+        this.setQuestionLanguage('both');
+      });
     }
     if (this.solLangToggleBtn) {
       this.solLangToggleBtn.addEventListener('click', () => {
@@ -320,6 +349,34 @@ class App {
       this.closeQpModalBtn.addEventListener('click', () => this.qpModal.classList.remove('active'));
     }
 
+    // Legal & Privacy Policy Modal Bindings (Google AdSense)
+    const openLegalBtn = document.getElementById('open-legal-contact-btn');
+    const linkPrivacy = document.getElementById('link-privacy-policy');
+    const linkTerms = document.getElementById('link-terms');
+    const linkDisclaimer = document.getElementById('link-disclaimer');
+
+    if (openLegalBtn) openLegalBtn.addEventListener('click', () => this.openLegalModal('author'));
+    if (linkPrivacy) linkPrivacy.addEventListener('click', (e) => { e.preventDefault(); this.openLegalModal('privacy'); });
+    if (linkTerms) linkTerms.addEventListener('click', (e) => { e.preventDefault(); this.openLegalModal('terms'); });
+    if (linkDisclaimer) linkDisclaimer.addEventListener('click', (e) => { e.preventDefault(); this.openLegalModal('disclaimer'); });
+
+    if (this.closeLegalModalBtn) {
+      this.closeLegalModalBtn.addEventListener('click', () => this.legalModal.classList.remove('active'));
+    }
+    if (this.legalModalOkBtn) {
+      this.legalModalOkBtn.addEventListener('click', () => this.legalModal.classList.remove('active'));
+    }
+
+    if (this.legalTabs) {
+      this.legalTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          this.legalTabs.forEach(t => t.classList.remove('active'));
+          tab.classList.add('active');
+          this.renderLegalTabContent(tab.dataset.tab);
+        });
+      });
+    }
+
     // Practice Mode Reveal Explanation
     if (this.revealExplanationBtn) {
       this.revealExplanationBtn.addEventListener('click', () => {
@@ -402,21 +459,59 @@ class App {
     });
   }
 
-  /* ================= IN-EXAM QUESTION LANGUAGE SWITCHER ================= */
+  /* ================= IN-EXAM QUESTION LANGUAGE SWITCHER (PER-QUESTION ONLY) ================= */
   setQuestionLanguage(lang) {
-    this.engine.setLanguage(lang);
-    this.updateExamLanguageControls();
+    const q = this.engine.getCurrentQuestion();
+    if (!q) return;
+
+    this.engine.setQuestionLanguage(q.id, lang);
+    this.updateExamLanguageControls(q);
     this.renderQuestionView();
+
+    const qNum = this.engine.currentIndex + 1;
+    const toastMsg = lang === 'hi' 
+      ? `प्रश्न ${qNum}: भाषा <strong>हिन्दी (Hindi)</strong> में बदली गई (केवल इस प्रश्न के लिए)`
+      : (lang === 'both' 
+          ? `प्रश्न ${qNum}: <strong>द्विभाषी (Dual Mode)</strong> सक्रिय (केवल इस प्रश्न के लिए)` 
+          : `Question ${qNum}: Language switched to <strong>English</strong> (for this question only)`);
+    this.showLanguageToast(toastMsg);
   }
 
   toggleQuestionLanguage() {
-    this.engine.toggleLanguage();
-    this.updateExamLanguageControls();
+    const q = this.engine.getCurrentQuestion();
+    if (!q) return;
+
+    const newLang = this.engine.toggleCurrentQuestionLanguage(q.id);
+    this.updateExamLanguageControls(q);
     this.renderQuestionView();
+
+    const qNum = this.engine.currentIndex + 1;
+    const toastMsg = newLang === 'hi'
+      ? `प्रश्न ${qNum}: भाषा <strong>हिन्दी (Hindi)</strong> में बदली गई (केवल इस प्रश्न के लिए)`
+      : `Question ${qNum}: Language switched to <strong>English</strong> (for this question only)`;
+    this.showLanguageToast(toastMsg);
   }
 
-  updateExamLanguageControls() {
-    const current = this.engine.lang || 'en';
+  showLanguageToast(msg) {
+    let toast = document.getElementById('lang-toast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'lang-toast';
+      toast.className = 'lang-toast';
+      document.body.appendChild(toast);
+    }
+    toast.innerHTML = msg;
+    toast.classList.add('show');
+    clearTimeout(this._langToastTimer);
+    this._langToastTimer = setTimeout(() => {
+      toast.classList.remove('show');
+    }, 2000);
+  }
+
+  updateExamLanguageControls(q) {
+    const targetQ = q || this.engine.getCurrentQuestion();
+    const current = this.engine.getQuestionActiveLang(targetQ);
+
     if (this.btnLangEn) this.btnLangEn.classList.toggle('active', current === 'en');
     if (this.btnLangHi) this.btnLangHi.classList.toggle('active', current === 'hi');
     if (this.btnLangBoth) this.btnLangBoth.classList.toggle('active', current === 'both');
@@ -451,7 +546,7 @@ class App {
     const i18n = window.BSTET_I18N;
     if (!i18n) return;
 
-    this.engine.setLanguage(lang);
+    this.engine.setBaseLanguage(lang, true);
     this.updateExamLanguageControls();
 
     // Update Language Toggle Buttons text
@@ -789,9 +884,10 @@ class App {
   launchPaper(paperData, mode = 'cbt') {
     this.currentPaper = paperData;
     this.engine.init(paperData, mode, true);
-    // Start questions matching candidate preference (or default English)
-    const initialLang = (window.BSTET_I18N && window.BSTET_I18N.currentLang === 'hi') ? 'hi' : 'en';
-    this.engine.setLanguage(initialLang);
+    // Respect saved exam language if available, else match candidate preference
+    const saved = this.engine.loadSession(paperData.id);
+    const activeLang = (saved && (saved.baseLang || saved.lang)) || ((window.BSTET_I18N && window.BSTET_I18N.currentLang === 'hi') ? 'hi' : 'en');
+    this.engine.setBaseLanguage(activeLang, !saved);
     this.updateExamLanguageControls();
 
     document.body.classList.add('in-exam-mode');
@@ -827,11 +923,12 @@ class App {
     this.sectionsTabsContainer.innerHTML = '';
     const currentSec = this.engine.getCurrentSection();
     const i18n = window.BSTET_I18N;
+    const isHindi = this.engine.lang === 'hi' || this.engine.lang === 'both' || (i18n && i18n.currentLang === 'hi');
 
     this.currentPaper.sections.forEach(sec => {
       const tab = document.createElement('button');
       tab.className = `section-tab-btn ${currentSec && currentSec.id === sec.id ? 'active' : ''}`;
-      const secDisplayName = i18n ? i18n.translateSection(sec.name) : sec.name;
+      const secDisplayName = isHindi ? (i18n ? i18n.sectionMap[sec.name] || sec.name : sec.name) : sec.name;
 
       tab.innerHTML = `
         <span>${secDisplayName}</span>
@@ -848,9 +945,12 @@ class App {
     const q = this.engine.getCurrentQuestion();
     if (!q) return;
     const i18n = window.BSTET_I18N;
+    const activeLang = this.engine.getQuestionActiveLang(q);
+    const isHindi = activeLang === 'hi';
+    const isBoth = activeLang === 'both';
 
-    const qPrefix = 'Question';
-    const ofLabel = 'of';
+    const qPrefix = (isHindi || isBoth) ? 'प्रश्न' : 'Question';
+    const ofLabel = (isHindi || isBoth) ? '/' : 'of';
     this.qNumberText.innerText = `${qPrefix} ${q.questionNumber} ${ofLabel} ${this.currentPaper.questions.length}`;
     
     // Topic translation
@@ -858,14 +958,14 @@ class App {
     
     // Question text (Bilingual supported)
     const statement = this.engine.getQuestionStatement(q);
-    if (this.engine.lang === 'both') {
+    if (activeLang === 'both') {
       this.qStatement.innerHTML = statement;
     } else {
       this.qStatement.innerHTML = statement.replace(/\n/g, '<br>');
     }
 
-    // Sync language control buttons
-    this.updateExamLanguageControls();
+    // Sync language control buttons for this specific question
+    this.updateExamLanguageControls(q);
 
     // Options (Bilingual)
     this.optionsContainer.innerHTML = '';
@@ -1331,6 +1431,90 @@ class App {
     this.resultView.classList.remove('active');
     this.lobbyView.classList.add('active');
     this.renderLobby();
+  }
+
+  /* ================= LEGAL & ADSENSE COMPLIANCE MODAL ================= */
+  openLegalModal(tabName = 'privacy') {
+    if (!this.legalModal) return;
+    if (this.legalTabs) {
+      this.legalTabs.forEach(t => t.classList.toggle('active', t.dataset.tab === tabName));
+    }
+    this.renderLegalTabContent(tabName);
+    this.legalModal.classList.add('active');
+  }
+
+  renderLegalTabContent(tabName) {
+    if (!this.legalModalBody) return;
+    if (tabName === 'privacy') {
+      this.legalModalBody.innerHTML = `
+        <h4 style="color:var(--text-primary); margin-bottom: 8px;">Privacy Policy</h4>
+        <p style="color:var(--text-muted); font-size: 12px; margin-bottom: 14px;">Last Updated: October 2026</p>
+        <p>Your privacy is of utmost importance to us at <strong>Bihar STET Paper II Computer Science CBT Portal</strong>, developed by <strong>Niranjan Kumar Singh</strong>. This Privacy Policy documents the types of information collected and how we use it.</p>
+        
+        <h5 style="margin-top: 14px; color:var(--text-primary);">1. Client-Side Data & Zero Private Data Collection</h5>
+        <p>This portal runs entirely client-side. Your test attempts, answers, and scorecards are stored locally in your browser using <code>localStorage</code>. We do not store or sell your test responses to any third parties.</p>
+
+        <h5 style="margin-top: 14px; color:var(--text-primary);">2. Log Files</h5>
+        <p>Like standard web servers, our hosting provider (Vercel) logs visitors when they visit websites. These logs include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and number of clicks. These are not linked to any personally identifiable information.</p>
+
+        <h5 style="margin-top: 14px; color:var(--text-primary);">3. Google DoubleClick DART Cookies & Google AdSense</h5>
+        <p>Google is a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to our site and other sites on the internet. Visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener" style="color:var(--primary);">https://policies.google.com/technologies/ads</a>.</p>
+
+        <h5 style="margin-top: 14px; color:var(--text-primary);">4. Contacting Developer</h5>
+        <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact <strong>Niranjan Kumar Singh</strong> at <a href="mailto:niranjansingh1419@gmail.com" style="color:var(--primary); font-weight:700;">niranjansingh1419@gmail.com</a>.</p>
+      `;
+    } else if (tabName === 'terms') {
+      this.legalModalBody.innerHTML = `
+        <h4 style="color:var(--text-primary); margin-bottom: 8px;">Terms of Service</h4>
+        <p style="color:var(--text-muted); font-size: 12px; margin-bottom: 14px;">Effective Date: October 2026</p>
+        <p>Welcome to <strong>Bihar STET Paper II (Computer Science) CBT Mock Portal</strong>. By accessing this web application, you agree to comply with and be bound by the following terms.</p>
+        
+        <h5 style="margin-top: 14px; color:var(--text-primary);">1. Educational Purpose</h5>
+        <p>This platform is provided solely for educational preparation, self-assessment, and academic mock examination purposes. The simulated test papers, timers, and scoring models are designed to help candidates prepare for the Bihar STET examination under authentic CBT conditions.</p>
+
+        <h5 style="margin-top: 14px; color:var(--text-primary);">2. Intellectual Property & Fair Use</h5>
+        <p>All software architectures, code engines, and simulated mock test frameworks are created and maintained by <strong>Niranjan Kumar Singh</strong>. Examination syllabus and official questions are referenced under fair educational use for candidate readiness.</p>
+
+        <h5 style="margin-top: 14px; color:var(--text-primary);">3. Free Access</h5>
+        <p>This test portal is provided 100% free of charge to all teaching aspirants.</p>
+      `;
+    } else if (tabName === 'disclaimer') {
+      this.legalModalBody.innerHTML = `
+        <h4 style="color:var(--text-primary); margin-bottom: 8px;">Disclaimer & Fair Use Notice</h4>
+        <p><strong>Independent Educational Initiative:</strong> This website is an independent educational portal designed and developed by <strong>Niranjan Kumar Singh</strong> to assist candidates preparing for the Bihar Secondary Teachers Eligibility Test (STET) Paper II in Computer Science (Subject Code: 226).</p>
+        <p style="margin-top: 10px;"><strong>No Government Affiliation:</strong> This platform is NOT affiliated with, sponsored by, or endorsed by the Bihar School Examination Board (BSEB), the Education Department of Bihar, or any government authority. Official examination notifications, forms, and results are published exclusively on the official BSEB website.</p>
+        <p style="margin-top: 10px;">While every effort is made to maintain high accuracy of official answer keys and syllabus coverage, users are encouraged to verify critical notices with official BSEB gazettes.</p>
+      `;
+    } else if (tabName === 'adsense') {
+      this.legalModalBody.innerHTML = `
+        <h4 style="color:var(--text-primary); margin-bottom: 8px;">Google AdSense & Advertising Transparency</h4>
+        <p>This website participates in the <strong>Google AdSense</strong> program to support the free hosting and ongoing maintenance of 23 full-length mock examinations for aspirants.</p>
+        <div style="background:var(--bg-subtle); padding:14px; border-radius:8px; border:1px solid var(--border-subtle); margin:12px 0;">
+          <strong>Authorized Publisher Information:</strong><br>
+          Publisher ID: <code>pub-4208665414964925</code><br>
+          Ads.txt Verification: <code>google.com, pub-4208665414964925, DIRECT, f08c47fec0942fa0</code><br>
+          Verification File: <a href="/ads.txt" target="_blank" style="color:var(--primary);">/ads.txt</a>
+        </div>
+        <p>Google uses cookies to serve ads based on a user's prior visits to this website or other websites. You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener" style="color:var(--primary);">Google Ads Settings</a>.</p>
+      `;
+    } else if (tabName === 'author') {
+      this.legalModalBody.innerHTML = `
+        <h4 style="color:var(--text-primary); margin-bottom: 8px;">About the Developer</h4>
+        <div style="display:flex; gap:16px; align-items:center; margin-bottom:14px;">
+          <div style="width:60px; height:60px; border-radius:50%; background:linear-gradient(135deg,#2563eb,#8b5cf6); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:22px;">NK</div>
+          <div>
+            <h5 style="font-size:18px; margin:0 0 2px 0; color:var(--text-primary);">Niranjan Kumar Singh</h5>
+            <span style="font-size:13px; color:var(--primary); font-weight:700;">Full-Stack Engineer & EdTech System Architect</span>
+          </div>
+        </div>
+        <p>Niranjan Kumar Singh is a passionate software engineer specializing in high-performance web applications, interactive examination state machines, and educational tools.</p>
+        <p style="margin-top: 10px;">This Bihar STET Computer Science CBT Mock Exam Portal was conceived and coded to provide candidates with a zero-friction, authentic TCS iON test environment that works flawlessly on any mobile phone, tablet, or laptop.</p>
+        <div style="margin-top:16px; display:flex; gap:12px; flex-wrap:wrap;">
+          <a href="mailto:niranjansingh1419@gmail.com" style="display:inline-flex; align-items:center; gap:6px; padding:8px 14px; background:var(--primary); color:#fff; text-decoration:none; border-radius:6px; font-weight:700; font-size:13px;">✉ Contact via Email</a>
+          <a href="https://www.instagram.com/niranjan.ks.in" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:6px; padding:8px 14px; background:#e1306c; color:#fff; text-decoration:none; border-radius:6px; font-weight:700; font-size:13px;">📷 Instagram @niranjan.ks.in</a>
+        </div>
+      `;
+    }
   }
 }
 
