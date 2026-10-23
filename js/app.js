@@ -20,6 +20,7 @@ class App {
     this.initTheme();
     this.initLanguage();
     this.renderLobby();
+    this.handleUrlParams();
   }
 
   initElements() {
@@ -411,6 +412,7 @@ class App {
     if (this.retakeExamBtn) {
       this.retakeExamBtn.addEventListener('click', () => {
         if (this.currentPaper) {
+          this.engine.clearSession();
           this.launchPaper(this.currentPaper, this.engine.mode || 'cbt');
         }
       });
@@ -881,6 +883,67 @@ class App {
   }
 
   /* ================= EXAM LAUNCH & SCREEN ================= */
+  launchPaperById(paperId, mode = 'cbt') {
+    if (!window.PAPERS_CATALOG) return false;
+    const norm = (s) => (s || '').toLowerCase().replace(/[-_\s]/g, '');
+    const meta = window.PAPERS_CATALOG.find(p => norm(p.id) === norm(paperId));
+    if (!meta) return false;
+
+    let paperData = null;
+    const varName = meta.varName;
+    if (varName.includes('.')) {
+      const parts = varName.split('.');
+      paperData = window[parts[0]] && window[parts[0]][parts[1]];
+    } else {
+      paperData = window[varName];
+    }
+
+    if (!paperData) {
+      console.warn('Could not locate paper dataset for', paperId, meta);
+      return false;
+    }
+
+    this.selectedPaperMeta = meta;
+    this.launchPaper(paperData, mode);
+    return true;
+  }
+
+  handleUrlParams() {
+    try {
+      const params = new URLSearchParams(window.location.search);
+
+      // 1. Language deep-linking: ?lang=hi or ?lang=en
+      const langParam = params.get('lang');
+      if (langParam && (langParam === 'hi' || langParam === 'en')) {
+        if (window.BSTET_I18N && window.BSTET_I18N.currentLang !== langParam) {
+          this.setAppLanguage(langParam);
+        }
+      }
+
+      // 2. Filter deep-linking: ?filter=official, ?filter=predicted, ?filter=drill, ?filter=all
+      const filterParam = params.get('filter');
+      if (filterParam && ['all', 'official', 'predicted', 'drill'].includes(filterParam)) {
+        this.currentFilter = filterParam;
+        if (this.filterTabs) {
+          this.filterTabs.forEach(t => {
+            if (t.dataset.filter === filterParam) t.classList.add('active');
+            else t.classList.remove('active');
+          });
+        }
+        this.renderLobby();
+      }
+
+      // 3. Paper deep-linking: ?paper=official-shift2&mode=cbt
+      const paperParam = params.get('paper') || params.get('paperId') || params.get('test');
+      if (paperParam) {
+        const modeParam = (params.get('mode') === 'practice' || params.get('mode') === 'study') ? 'practice' : 'cbt';
+        this.launchPaperById(paperParam, modeParam);
+      }
+    } catch (e) {
+      console.warn('Could not process URL query parameters', e);
+    }
+  }
+
   launchPaper(paperData, mode = 'cbt') {
     this.currentPaper = paperData;
     this.engine.init(paperData, mode, true);
