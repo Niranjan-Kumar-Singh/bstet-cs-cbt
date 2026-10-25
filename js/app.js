@@ -14,6 +14,7 @@ class App {
     this.solFilter = 'all';
     this.solTopicFilter = 'all';
     this.solLang = (window.BSTET_I18N && window.BSTET_I18N.currentLang) || 'en';
+    this._paperLoadPromises = {};
 
     this.initElements();
     this.bindEvents();
@@ -21,6 +22,7 @@ class App {
     this.initLanguage();
     this.renderLobby();
     this.handleUrlParams();
+    this.preloadPapersIdle();
   }
 
   initElements() {
@@ -162,6 +164,20 @@ class App {
         this.renderLobby();
       });
     });
+
+    // Event delegation on Papers Grid (supports pre-rendered static cards with zero CLS)
+    if (this.papersGrid) {
+      this.papersGrid.addEventListener('click', (e) => {
+        const btn = e.target.closest('button[data-action]');
+        if (!btn) return;
+        const action = btn.dataset.action;
+        const paperId = btn.dataset.id;
+        const paper = (window.PAPERS_CATALOG || []).find(p => p.id === paperId);
+        if (paper) {
+          this.openModeModal(paper, action === 'practice' ? 'practice' : 'cbt');
+        }
+      });
+    }
 
     // Language Toggles
     if (this.langToggleBtn) {
@@ -604,6 +620,12 @@ class App {
     if (tabPred) tabPred.innerText = i18n.t('filter_predicted');
     if (tabDrill) tabDrill.innerText = i18n.t('filter_drill');
 
+    // Update card action buttons
+    const cbtLabel = i18n.t('start_cbt') || '⚡ Start CBT Mock';
+    const practiceLabel = i18n.t('practice_mode') || '📖 Practice Mode';
+    document.querySelectorAll('.paper-card button[data-action="cbt"]').forEach(b => b.innerText = cbtLabel);
+    document.querySelectorAll('.paper-card button[data-action="practice"]').forEach(b => b.innerText = practiceLabel);
+
     // History Table Headers
     const histHead = document.getElementById('history-heading');
     const histSub = document.getElementById('history-subtext');
@@ -716,9 +738,27 @@ class App {
 
   /* ================= LOBBY RENDERING ================= */
   renderLobby() {
-    this.papersGrid.innerHTML = '';
+    const cards = this.papersGrid ? this.papersGrid.querySelectorAll('.paper-card') : [];
     const catalog = window.PAPERS_CATALOG || [];
     const i18n = window.BSTET_I18N;
+
+    // Fast path: if static cards already exist in DOM, toggle visibility without triggering layout shift
+    if (cards.length > 0) {
+      cards.forEach(card => {
+        const cat = card.dataset.category;
+        let show = false;
+        if (this.currentFilter === 'all') show = true;
+        else if (this.currentFilter === 'official') show = (cat === 'Official PYQ');
+        else if (this.currentFilter === 'predicted') show = (cat === 'Predicted Mock');
+        else if (this.currentFilter === 'drill') show = (cat === 'Sectional Drill');
+        card.style.display = show ? 'flex' : 'none';
+      });
+      this.renderHistory();
+      return;
+    }
+
+    if (!this.papersGrid) return;
+    this.papersGrid.innerHTML = '';
 
     const filtered = catalog.filter(p => {
       if (this.currentFilter === 'all') return true;
@@ -731,6 +771,8 @@ class App {
     filtered.forEach(paper => {
       const card = document.createElement('div');
       card.className = 'paper-card';
+      card.dataset.id = paper.id;
+      card.dataset.category = paper.category;
       const cbtLabel = i18n ? i18n.t('start_cbt') : '⚡ Start CBT Mock';
       const practiceLabel = i18n ? i18n.t('practice_mode') : '📖 Practice Mode';
       const qLabel = i18n ? i18n.t('questions_label') : 'Questions';
@@ -770,13 +812,6 @@ class App {
           </button>
         </div>
       `;
-
-      card.querySelector('[data-action="cbt"]').addEventListener('click', () => {
-        this.openModeModal(paper, 'cbt');
-      });
-      card.querySelector('[data-action="practice"]').addEventListener('click', () => {
-        this.openModeModal(paper, 'practice');
-      });
 
       this.papersGrid.appendChild(card);
     });
@@ -859,53 +894,128 @@ class App {
     this.modeModal.classList.add('active');
   }
 
-  onStartExamConfirmed() {
+  /* ================= PAPER DATA LOADER & PRELOADER ================= */
+  loadPaperData(meta) {
+    if (!meta) return Promise.resolve(null);
+    const varName = meta.varName;
+    const resolveData = () => {
+      if (!varName) return null;
+      if (varName.includes('.')) {
+        const parts = varName.split('.');
+        return window[parts[0]] && window[parts[0]][parts[1]];
+      }
+      return window[varName];
+    };
+
+    const existing = resolveData();
+    if (existing) return Promise.resolve(existing);
+
+    if (!this._paperLoadPromises) this._paperLoadPromises = {};
+    if (this._paperLoadPromises[meta.jsFile]) {
+      return this._paperLoadPromises[meta.jsFile];
+    }
+
+    this._paperLoadPromises[meta.jsFile] = new Promise((resolve, reject) => {
+      const existingScript = document.querySelector(`script[data-paper-file="${meta.jsFile}"]`);
+      if (existingScript) {
+        existingScript.addEventListener('load', () => resolve(resolveData()));
+        existingScript.addEventListener('error', (e) => reject(e));
+        return;
+      }
+
+      const script = document.createElement('script');
+      script.src = `js/data/${meta.jsFile}?v=20261025_01`;
+      script.async = true;
+      script.dataset.paperFile = meta.jsFile;
+      script.onload = () => resolve(resolveData());
+      script.onerror = (err) => {
+        delete this._paperLoadPromises[meta.jsFile];
+        reject(new Error(`Failed to load paper file: ${meta.jsFile}`));
+      };
+      document.body.appendChild(script);
+    });
+
+    return this._paperLoadPromises[meta.jsFile];
+  }
+
+  preloadPapersIdle() {
+    const runIdle = (fn) => {
+      if (typeof window !== 'undefined' && 'requestIdleCallback' in window) {
+        window.requestIdleCallback(fn, { timeout: 3500 });
+      } else {
+        setTimeout(fn, 1500);
+      }
+    };
+
+    runIdle(() => {
+      if (!window.PAPERS_CATALOG) return;
+      const uniqueFiles = [...new Set(window.PAPERS_CATALOG.map(p => p.jsFile))];
+      let idx = 0;
+      const loadNext = () => {
+        if (idx >= uniqueFiles.length) return;
+        const file = uniqueFiles[idx++];
+        const meta = window.PAPERS_CATALOG.find(p => p.jsFile === file);
+        if (meta) {
+          this.loadPaperData(meta)
+            .then(() => runIdle(loadNext))
+            .catch(() => runIdle(loadNext));
+        } else {
+          loadNext();
+        }
+      };
+      loadNext();
+    });
+  }
+
+  async onStartExamConfirmed() {
     const selectedOpt = document.querySelector('.mode-option.selected');
     const mode = selectedOpt ? selectedOpt.dataset.mode : 'cbt';
     this.modeModal.classList.remove('active');
 
-    // Load full paper data from global window variable
-    let paperData = null;
-    const varName = this.selectedPaperMeta.varName;
-    if (varName.includes('.')) {
-      const parts = varName.split('.');
-      paperData = window[parts[0]][parts[1]];
-    } else {
-      paperData = window[varName];
+    const originalText = this.startExamBtn ? this.startExamBtn.innerText : 'Start Exam Now';
+    if (this.startExamBtn) {
+      this.startExamBtn.disabled = true;
+      this.startExamBtn.innerText = 'Loading Paper...';
     }
 
-    if (!paperData) {
-      alert('Error loading question paper data.');
-      return;
+    try {
+      const paperData = await this.loadPaperData(this.selectedPaperMeta);
+      if (!paperData) {
+        alert('Error loading question paper data.');
+        return;
+      }
+      this.launchPaper(paperData, mode);
+    } catch (err) {
+      console.error(err);
+      alert('Failed to load examination paper. Please check your internet connection.');
+    } finally {
+      if (this.startExamBtn) {
+        this.startExamBtn.disabled = false;
+        this.startExamBtn.innerText = originalText;
+      }
     }
-
-    this.launchPaper(paperData, mode);
   }
 
   /* ================= EXAM LAUNCH & SCREEN ================= */
-  launchPaperById(paperId, mode = 'cbt') {
+  async launchPaperById(paperId, mode = 'cbt') {
     if (!window.PAPERS_CATALOG) return false;
     const norm = (s) => (s || '').toLowerCase().replace(/[-_\s]/g, '');
     const meta = window.PAPERS_CATALOG.find(p => norm(p.id) === norm(paperId));
     if (!meta) return false;
 
-    let paperData = null;
-    const varName = meta.varName;
-    if (varName.includes('.')) {
-      const parts = varName.split('.');
-      paperData = window[parts[0]] && window[parts[0]][parts[1]];
-    } else {
-      paperData = window[varName];
-    }
-
-    if (!paperData) {
-      console.warn('Could not locate paper dataset for', paperId, meta);
+    this.selectedPaperMeta = meta;
+    try {
+      const paperData = await this.loadPaperData(meta);
+      if (!paperData) {
+        console.warn('Could not locate paper dataset for', paperId, meta);
+        return false;
+      }
+      this.launchPaper(paperData, mode);
+      return true;
+    } catch (e) {
+      console.error('Error launching paper by ID:', e);
       return false;
     }
-
-    this.selectedPaperMeta = meta;
-    this.launchPaper(paperData, mode);
-    return true;
   }
 
   handleUrlParams() {
