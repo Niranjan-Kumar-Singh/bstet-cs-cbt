@@ -820,21 +820,24 @@ class App {
   }
 
   renderHistory() {
-    this.historyTableBody.innerHTML = '';
     const history = ExamAnalytics.getHistory();
     const i18n = window.BSTET_I18N;
 
     if (history.length === 0) {
-      const emptyMsg = i18n ? i18n.t('no_history') : 'No test attempts recorded yet. Launch a mock test above to see your analytics!';
-      this.historyTableBody.innerHTML = `
-        <tr>
-          <td colspan="6" style="text-align: center; color: var(--text-muted); padding: 24px;">
-            ${emptyMsg}
-          </td>
-        </tr>
-      `;
+      if (!this.historyTableBody.firstElementChild || (i18n && i18n.currentLang !== 'en')) {
+        const emptyMsg = i18n ? i18n.t('no_history') : 'No test attempts recorded yet. Launch a mock test above to see your analytics!';
+        this.historyTableBody.innerHTML = `
+          <tr>
+            <td colspan="6" style="text-align: center; color: var(--text-muted); padding: 24px;">
+              ${emptyMsg}
+            </td>
+          </tr>
+        `;
+      }
       return;
     }
+
+    this.historyTableBody.innerHTML = '';
 
     history.forEach(item => {
       const row = document.createElement('tr');
@@ -1711,7 +1714,11 @@ class App {
   }
 }
 
-// Initialize application on DOM load
-window.addEventListener('DOMContentLoaded', () => {
+// Initialize application on DOM load (safe for deferred scripts)
+if (document.readyState === 'loading') {
+  window.addEventListener('DOMContentLoaded', () => {
+    window.app = new App();
+  });
+} else {
   window.app = new App();
-});
+}

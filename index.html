@@ -5,9 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bihar STET Paper II (Class 11-12) Computer Science CBT Mock Exam Portal</title>
   
-  <!-- Google AdSense Official Script -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4208665414964925" crossorigin="anonymous"></script>
-
   <!-- Google Search Console Verification -->
   <meta name="google-site-verification" content="d91a7ee83e8e89ec">
 
@@ -149,12 +146,8 @@
   <link rel="preconnect" href="https://fundingchoicesmessages.google.com" crossorigin>
   <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
 
-  <!-- Asynchronous Non-blocking Google Fonts with font-display=swap -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap" media="print" onload="this.media='all'">
-  <noscript>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap">
-  </noscript>
+  <!-- Google Fonts (Preconnected & Swap Enabled) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap">
 
   <!-- Core Stylesheets -->
   <link rel="stylesheet" href="css/styles.css?v=20261025_01">
@@ -995,7 +988,11 @@
               </tr>
             </thead>
             <tbody id="history-table-body">
-              <!-- Injected via app.js -->
+              <tr>
+                <td colspan="6" style="text-align: center; color: var(--text-muted); padding: 24px;">
+                  No test attempts recorded yet. Launch a mock test above to see your analytics!
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
@@ -1592,5 +1589,8 @@
   <script defer src="js/exam-engine.js?v=20261025_01"></script>
   <script defer src="js/analytics.js?v=20261025_01"></script>
   <script defer src="js/app.js?v=20261025_01"></script>
+
+  <!-- Google AdSense Official Script (Deferred to prioritize above-the-fold paint) -->
+  <script defer src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4208665414964925" crossorigin="anonymous"></script>
 </body>
 </html>

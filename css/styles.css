@@ -326,6 +326,8 @@ body {
   box-shadow: 0 10px 30px rgba(37, 99, 235, 0.25);
   position: relative;
   overflow: hidden;
+  contain: layout;
+  min-height: 310px;
 }
 
 .hero-banner::after {
@@ -346,6 +348,8 @@ body {
   font-weight: 800;
   margin-bottom: 12px;
   letter-spacing: -0.5px;
+  min-height: 40px;
+  line-height: 1.25;
 }
 
 .hero-subtitle {
@@ -354,12 +358,14 @@ body {
   max-width: 780px;
   line-height: 1.6;
   margin-bottom: 24px;
+  min-height: 52px;
 }
 
 .exam-meta-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 16px;
+  min-height: 74px;
 }
 
 .meta-box {
@@ -394,6 +400,7 @@ body {
   margin-bottom: 24px;
   overflow-x: auto;
   padding-bottom: 4px;
+  min-height: 48px;
 }
 
 .filter-tab {
@@ -427,6 +434,7 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 20px;
   min-height: 800px;
+  contain: layout;
   contain-intrinsic-size: 1px 800px;
 }
 
@@ -513,6 +521,8 @@ body {
   border-radius: var(--radius-lg);
   padding: 24px;
   box-shadow: var(--shadow-sm);
+  contain: layout;
+  min-height: 180px;
 }
 
 .section-heading {
@@ -678,6 +688,7 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  min-height: 32px;
 }
 
 /* Responsiveness */
@@ -810,6 +821,7 @@ body {
   border-radius: var(--radius-lg);
   padding: 24px 20px;
   box-shadow: var(--shadow-sm);
+  contain: layout;
 }
 
 .portal-footer-inner {
