@@ -713,21 +713,29 @@ body {
   .hero-banner {
     padding: 20px 16px;
     margin-bottom: 20px;
+    min-height: 290px;
+    contain: layout;
   }
   .hero-title {
     font-size: 22px;
+    line-height: 1.25;
+    min-height: 56px;
   }
   .hero-subtitle {
     font-size: 14px;
+    line-height: 1.5;
+    min-height: 64px;
     margin-bottom: 16px;
   }
   .motivational-pill {
     font-size: 11px;
     padding: 4px 10px;
+    min-height: 26px;
   }
   .exam-meta-grid {
     grid-template-columns: 1fr 1fr;
     gap: 8px;
+    min-height: 140px;
   }
   .meta-box {
     padding: 10px 12px;
@@ -743,6 +751,7 @@ body {
     margin-bottom: 16px;
     padding-bottom: 8px;
     -webkit-overflow-scrolling: touch;
+    min-height: 48px;
   }
   .filter-tab {
     padding: 6px 12px;
@@ -751,6 +760,7 @@ body {
   .papers-grid {
     grid-template-columns: 1fr;
     gap: 14px;
+    contain: layout style;
   }
   .paper-card {
     padding: 18px 16px;

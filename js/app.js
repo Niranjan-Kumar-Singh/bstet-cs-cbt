@@ -22,7 +22,7 @@ class App {
     this.initLanguage();
     this.renderLobby();
     this.handleUrlParams();
-    this.preloadPapersIdle();
+    this.setupJustInTimePrefetch();
   }
 
   initElements() {
@@ -880,6 +880,9 @@ class App {
     this.modalPaperTitle.innerText = paperMeta.title;
     this.modalPaperDesc.innerText = paperMeta.subtitle;
 
+    // Immediately trigger background fetch of this specific paper while user views mode options
+    this.loadPaperData(paperMeta);
+
     this.modeOptions.forEach(opt => {
       const radio = opt.querySelector('input[type="radio"]');
       if (opt.dataset.mode === preferredMode) {
@@ -894,7 +897,7 @@ class App {
     this.modeModal.classList.add('active');
   }
 
-  /* ================= PAPER DATA LOADER & PRELOADER ================= */
+  /* ================= PAPER DATA LOADER & JUST-IN-TIME PRELOADER ================= */
   loadPaperData(meta) {
     if (!meta) return Promise.resolve(null);
     const varName = meta.varName;
@@ -924,7 +927,7 @@ class App {
       }
 
       const script = document.createElement('script');
-      script.src = `js/data/${meta.jsFile}?v=20261025_01`;
+      script.src = `js/data/${meta.jsFile}?v=20261025_02`;
       script.async = true;
       script.dataset.paperFile = meta.jsFile;
       script.onload = () => resolve(resolveData());
@@ -932,39 +935,49 @@ class App {
         delete this._paperLoadPromises[meta.jsFile];
         reject(new Error(`Failed to load paper file: ${meta.jsFile}`));
       };
-      document.body.appendChild(script);
+      document.head.appendChild(script);
     });
 
     return this._paperLoadPromises[meta.jsFile];
   }
 
-  preloadPapersIdle() {
-    const runIdle = (fn) => {
-      if (typeof window !== 'undefined' && 'requestIdleCallback' in window) {
-        window.requestIdleCallback(fn, { timeout: 3500 });
-      } else {
-        setTimeout(fn, 1500);
+  setupJustInTimePrefetch() {
+    if (!this.papersGrid) return;
+    const onHoverOrTouch = (e) => {
+      const card = e.target.closest('.paper-card');
+      if (!card) return;
+      const paperId = card.dataset.id;
+      const paper = (window.PAPERS_CATALOG || []).find(p => p.id === paperId);
+      if (paper) {
+        this.loadPaperData(paper);
       }
     };
+    this.papersGrid.addEventListener('mouseover', onHoverOrTouch, { passive: true });
+    this.papersGrid.addEventListener('touchstart', onHoverOrTouch, { passive: true });
 
-    runIdle(() => {
-      if (!window.PAPERS_CATALOG) return;
-      const uniqueFiles = [...new Set(window.PAPERS_CATALOG.map(p => p.jsFile))];
-      let idx = 0;
-      const loadNext = () => {
-        if (idx >= uniqueFiles.length) return;
-        const file = uniqueFiles[idx++];
-        const meta = window.PAPERS_CATALOG.find(p => p.jsFile === file);
-        if (meta) {
-          this.loadPaperData(meta)
-            .then(() => runIdle(loadNext))
-            .catch(() => runIdle(loadNext));
-        } else {
-          loadNext();
-        }
-      };
-      loadNext();
-    });
+    // Background idle preload ONLY triggers after candidate begins interacting with the page
+    const startIdleAfterInteraction = () => {
+      ['scroll', 'keydown', 'click'].forEach(evt => window.removeEventListener(evt, startIdleAfterInteraction));
+      setTimeout(() => {
+        if (!window.PAPERS_CATALOG) return;
+        const uniqueFiles = [...new Set(window.PAPERS_CATALOG.map(p => p.jsFile))];
+        let idx = 0;
+        const loadNext = () => {
+          if (idx >= uniqueFiles.length) return;
+          const file = uniqueFiles[idx++];
+          const meta = window.PAPERS_CATALOG.find(p => p.jsFile === file);
+          if (meta) {
+            this.loadPaperData(meta)
+              .then(() => setTimeout(loadNext, 1500))
+              .catch(() => setTimeout(loadNext, 1500));
+          } else {
+            loadNext();
+          }
+        };
+        loadNext();
+      }, 6000);
+    };
+    ['scroll', 'keydown', 'click'].forEach(evt => window.addEventListener(evt, startIdleAfterInteraction, { once: true, passive: true }));
   }
 
   async onStartExamConfirmed() {
