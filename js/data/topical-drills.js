@@ -23,2601 +23,2601 @@ window.topical_drills = {
         "id": 1,
         "questionNumber": 1,
         "section": "Computer Science",
-        "topic": "Algorithms",
+        "topic": "Computer Science Fundamentals",
+        "topic_hi": "कंप्यूटर विज्ञान (CS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the solution of the recurrence relation T(n) = 2T(n/2) + n by Master Theorem?",
+        "question": "How many 2-input NAND gates are required to implement a 2-input EXCLUSIVE-OR (XOR) gate?",
+        "question_hi": "2-इनपुट एक्सक्लूसिव-OR (XOR) गेट को लागू करने के लिए कितने 2-इनपुट NAND गेट्स की आवश्यकता होती है?",
         "options": {
-          "A": "Θ(n)",
-          "B": "Θ(n log n)",
-          "C": "Θ(n²)",
-          "D": "Θ(log n)"
+          "A": "4 NAND gates",
+          "B": "3 NAND gates",
+          "C": "5 NAND gates",
+          "D": "2 NAND gates"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Θ(n log n)**\n\n**Theoretical Analysis & Rule**:\nFor T(n) = aT(n/b) + f(n): a = 2, b = 2, f(n) = n. Here n^(log_b(a)) = n^(log₂2) = n¹. Since f(n) = Θ(n^(log_b(a))), Case 2 of Master Theorem applies: T(n) = Θ(n log n) (Merge Sort recurrence).",
-        "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-        "question_hi": "मास्टर प्रमेय द्वारा पुनरावृत्ति संबंध T(n) = 2T(n/2) + n का समाधान क्या है?",
         "options_hi": {
-          "A": "Θ(एन)",
-          "B": "Θ(एन लॉग एन)",
-          "C": "Θ(n²)",
-          "D": "Θ(लॉग एन)"
+          "A": "4 NAND गेट",
+          "B": "3 NAND गेट",
+          "C": "5 NAND गेट",
+          "D": "2 NAND गेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Θ(n log n)?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "A 2-input XOR gate can be synthesized using a minimum of 4 two-input NAND gates.",
+        "explanation_hi": "2-इनपुट XOR गेट को न्यूनतम 4 NAND गेटों का उपयोग करके बनाया जाता है।"
       },
       {
         "id": 2,
         "questionNumber": 2,
         "section": "Computer Science",
-        "topic": "Database Management Systems",
+        "topic": "Computer Science Fundamentals",
+        "topic_hi": "कंप्यूटर विज्ञान (CS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which SQL command belongs to the Data Control Language (DCL) category?",
+        "question": "How many 2-input NOR gates are required to implement a 2-input EXCLUSIVE-OR (XOR) gate?",
+        "question_hi": "2-इनपुट XOR गेट को लागू करने के लिए कितने 2-इनपुट NOR गेट्स की आवश्यकता होती है?",
         "options": {
-          "A": "SELECT",
-          "B": "GRANT",
-          "C": "ALTER",
-          "D": "UPDATE"
+          "A": "5 NOR gates",
+          "B": "4 NOR gates",
+          "C": "3 NOR gates",
+          "D": "6 NOR gates"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) GRANT**\n\n**Theoretical Analysis & Rule**:\nDCL commands control privileges and access in the database. GRANT (gives user access) and REVOKE (withdraws access) are the primary DCL commands.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "Which SQL command belongs to the डेटा नियंत्रण भाषा (DCL) (DCL) category?",
         "options_hi": {
-          "A": "चुनना",
-          "B": "अनुदान",
-          "C": "ALTER",
-          "D": "UPDATE"
+          "A": "5 NOR गेट",
+          "B": "4 NOR गेट",
+          "C": "3 NOR गेट",
+          "D": "6 NOR गेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) GRANT?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Implementing XOR using universal NOR logic requires 5 two-input NOR gates.",
+        "explanation_hi": "NOR गेट्स के उपयोग से XOR गेट बनाने में 5 गेट लगते हैं।"
       },
       {
         "id": 3,
         "questionNumber": 3,
         "section": "Computer Science",
-        "topic": "Object Oriented Programming",
+        "topic": "Computer Science Fundamentals",
+        "topic_hi": "कंप्यूटर विज्ञान (CS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "In C++, which keyword is used to resolve the 'Diamond Problem' of duplicate base class instances in multiple inheritance?",
+        "question": "In a BCD (Binary Coded Decimal) Adder, under what conditions must the correction value binary 0110 (decimal 6) be added to the 4-bit sum?",
+        "question_hi": "BCD (बाइनरी कोडेड दशमलव) एडर में, किन परिस्थितियों में 4-बिट योग में बाइनरी 0110 (6) का सुधार जोड़ा जाना चाहिए?",
         "options": {
-          "A": "abstract",
-          "B": "friend",
-          "C": "virtual",
-          "D": "static"
+          "A": "When the sum exceeds 9 (1001_2) or when an output carry is generated",
+          "B": "Only when sum is odd",
+          "C": "When sum is less than 5",
+          "D": "Always on every addition"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) virtual**\n\n**Theoretical Analysis & Rule**:\nDeclaring the intermediate base classes with 'virtual' inheritance (e.g., class B : virtual public A) ensures only one shared instance of class A is included in derived class D.",
-        "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-        "question_hi": "C++ में, मल्टीपल इनहेरिटेंस में डुप्लिकेट बेस क्लास इंस्टेंसेस की 'डायमंड प्रॉब्लम' को हल करने के लिए किस कीवर्ड का उपयोग किया जाता है?",
         "options_hi": {
-          "A": "अमूर्त",
-          "B": "दोस्त",
-          "C": "आभासी",
-          "D": "स्थिर"
+          "A": "जब योग 9 (1001_2) से अधिक हो या जब कोई आउटपुट कैरी उत्पन्न हो",
+          "B": "केवल जब योग विषम हो",
+          "C": "जब योग 5 से कम हो",
+          "D": "हमेशा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) virtual?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "BCD valid digits range from 0 to 9. Sum > 9 or carry asserts C_out indicates an invalid BCD digit, corrected by adding 6.",
+        "explanation_hi": "यदि 4-बिट योग 9 से अधिक हो या कैरी आए तो BCD बनाने के लिए 6 (0110) जोड़ा जाता है।"
       },
       {
         "id": 4,
         "questionNumber": 4,
         "section": "Computer Science",
-        "topic": "Digital Logic",
+        "topic": "Computer Science Fundamentals",
+        "topic_hi": "कंप्यूटर विज्ञान (CS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
+        "question": "In 8085 microprocessor, what is the memory vector address for the highest priority non-maskable interrupt (TRAP)?",
+        "question_hi": "8085 माइक्रोप्रोसेसर में, उच्चतम प्राथमिकता वाले नॉन-मास्क करने योग्य इंटरप्ट (TRAP) का मेमोरी वेक्टर पता क्या है?",
         "options": {
-          "A": "RESTful Web APIs and JSON",
-          "B": "Raw binary serial ports",
-          "C": "Assembly instructions",
-          "D": "Modem dial-ups"
+          "A": "0024H",
+          "B": "003CH",
+          "C": "0034H",
+          "D": "002CH"
+        },
+        "options_hi": {
+          "A": "0024H",
+          "B": "003CH",
+          "C": "0034H",
+          "D": "002CH"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "वेब ऑफ थिंग्स (डब्ल्यूओटी) में, स्मार्ट भौतिक उपकरणों को मुख्य रूप से मानक वेब प्रौद्योगिकियों का उपयोग करके प्रदर्शित और नियंत्रित किया जाता है:",
-        "options_hi": {
-          "A": "रेस्टफुल वेब एपीआई और JSON",
-          "B": "कच्चे बाइनरी सीरियल पोर्ट",
-          "C": "एकत्र करने के लिए निर्देश",
-          "D": "मॉडेम डायल-अप"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "explanation": "TRAP (RST 4.5) branches to address 4.5 * 8 = 36 = 0024H in hexadecimal.",
+        "explanation_hi": "TRAP का वेक्टर पता 4.5 * 8 = 36 = 0024H होता है।"
       },
       {
         "id": 5,
         "questionNumber": 5,
         "section": "Computer Science",
-        "topic": "Computer Networks",
+        "topic": "Computer Science Fundamentals",
+        "topic_hi": "कंप्यूटर विज्ञान (CS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following logic families exhibits the highest switching speed and lowest propagation delay?",
+        "question": "In 8085 microprocessor, what operation does the instruction 'XCHG' perform?",
+        "question_hi": "8085 माइक्रोप्रोसेसर में 'XCHG' निर्देश क्या ऑपरेशन करता है?",
         "options": {
-          "A": "TTL (Transistor-Transistor Logic)",
-          "B": "ECL (Emitter-Coupled Logic)",
-          "C": "CMOS",
-          "D": "NMOS"
+          "A": "Exchanges the 16-bit contents of register pair H-L with register pair D-E",
+          "B": "Exchanges Accumulator with B",
+          "C": "Exchanges Stack Pointer with Program Counter",
+          "D": "Clears H-L register"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) ECL (Emitter-Coupled Logic)**\n\n**Theoretical Analysis & Rule**:\nECL (Emitter-Coupled Logic) operates its transistors in the non-saturated active region rather than saturation, eliminating storage time delay and achieving propagation delays below 1 nanosecond (fastest among conventional families).",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "निम्नलिखित में से कौन सा तर्क परिवार उच्चतम स्विचिंग गति और सबसे कम प्रसार विलंब प्रदर्शित करता है?",
         "options_hi": {
-          "A": "टीटीएल (ट्रांजिस्टर-ट्रांजिस्टर लॉजिक)",
-          "B": "ईसीएल (एमिटर-युग्मित तर्क)",
-          "C": "सीएमओएस",
-          "D": "एनएमओएस"
+          "A": "रजिस्टर जोड़ी H-L की 16-बिट सामग्री को रजिस्टर जोड़ी D-E के साथ बदलता है",
+          "B": "A और B को बदलता है",
+          "C": "SP और PC को बदलता है",
+          "D": "H-L को खाली करता है"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) ECL (Emitter-Coupled Logic)?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "XCHG swaps H with D and L with E registers in a single instruction.",
+        "explanation_hi": "XCHG निर्देश H-L और D-E रजिस्टर जोड़ों के डेटा की अदला-बदली करता है।"
       },
       {
         "id": 6,
         "questionNumber": 6,
         "section": "Computer Science",
-        "topic": "Programming & Data Structures",
+        "topic": "Computer Science Fundamentals",
+        "topic_hi": "कंप्यूटर विज्ञान (CS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "In a row-major 2D array A[1..M, 1..N] stored starting at base address B with element size S, what is the address formula for element A[i, j]?",
+        "question": "What is the primary difference between Memory-Mapped I/O and Isolated (I/O-Mapped) I/O?",
+        "question_hi": "मेमोरी-मैप्ड I/O और पृथक (I/O-मैप्ड) I/O के बीच मुख्य अंतर क्या है?",
         "options": {
-          "A": "B + [(i - 1) * N + (j - 1)] * S",
-          "B": "B + [(j - 1) * M + (i - 1)] * S",
-          "C": "B + [i * N + j] * S",
-          "D": "B + [(i - 1) + (j - 1) * N] * S"
+          "A": "Memory-Mapped I/O uses the same address space and memory instructions (MOV, LDA) for both memory and I/O devices",
+          "B": "Memory-mapped I/O uses IN and OUT instructions",
+          "C": "Isolated I/O cannot address disks",
+          "D": "Memory-mapped I/O requires separate buses"
+        },
+        "options_hi": {
+          "A": "मेमोरी-मैप्ड I/O मेमोरी और I/O डिवाइस दोनों के लिए समान पता स्थान और मेमोरी निर्देशों का उपयोग करता है",
+          "B": "मेमोरी मैप्ड में IN/OUT प्रयुक्त होते हैं",
+          "C": "पृथक I/O डिस्क नहीं चला सकता",
+          "D": "अलग बस चाहिए"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) B + [(i - 1) * N + (j - 1)] * S**\n\n**Theoretical Analysis & Rule**:\nIn row-major order, rows are placed contiguously in memory. To reach row i, you skip (i - 1) complete rows of N elements each, and then move (j - 1) elements into row i. Hence: Address = Base + [((i - 1) * N) + (j - 1)] * S.",
-        "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-        "question_hi": "पंक्ति-प्रमुख 2D सरणी A[1..M, 1..N] में तत्व आकार S के साथ आधार पता B से शुरू करके संग्रहीत किया जाता है, तत्व A[i, j] के लिए पता सूत्र क्या है?",
-        "options_hi": {
-          "A": "बी + [(आई - 1) * एन + (जे - 1)] * एस",
-          "B": "बी + [(जे - 1) * एम + (आई - 1)] * एस",
-          "C": "बी + [आई * एन + जे] * एस",
-          "D": "बी + [(आई - 1) + (जे - 1) * एन] * एस"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) B + [(i - 1) * N + (j - 1)] * S?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "explanation": "In memory-mapped I/O, I/O ports occupy addresses in the unified memory map, allowing standard memory instructions to control peripherals.",
+        "explanation_hi": "मेमोरी-मैप्ड I/O में डिवाइस को सामान्य मेमोरी लोकेशन मानकर सामान्य निर्देशों से नियंत्रित किया जाता है।"
       },
       {
         "id": 7,
         "questionNumber": 7,
         "section": "Computer Science",
-        "topic": "Operating Systems",
+        "topic": "Computer Science Fundamentals",
+        "topic_hi": "कंप्यूटर विज्ञान (CS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the state transition that occurs when a running process requires an I/O operation?",
+        "question": "In a RISC (Reduced Instruction Set Computer) architecture, what is a primary design philosophy?",
+        "question_hi": "RISC (रिड्यूस्ड इंस्ट्रक्शन सेट कंप्यूटर) आर्किटेक्चर का प्राथमिक डिज़ाइन सिद्धांत क्या है?",
         "options": {
-          "A": "Running to Ready",
-          "B": "Running to Waiting (Blocked)",
-          "C": "Waiting to Ready",
-          "D": "Ready to Running"
+          "A": "Simple, fixed-length instructions executed in a single clock cycle with a Load/Store memory architecture",
+          "B": "Complex variable-length instructions with many memory addressing modes",
+          "C": "Microprogrammed control units",
+          "D": "Small register files"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Running to Waiting (Blocked)**\n\n**Theoretical Analysis & Rule**:\nWhen a process requests an I/O operation or an event, the CPU cannot continue executing it until the I/O completes. The OS transitions the process from Running to Waiting (Blocked) state.",
-        "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-        "question_hi": "वह स्थिति परिवर्तन क्या है जो तब होता है जब किसी चालू प्रक्रिया के लिए I/O ऑपरेशन की आवश्यकता होती है?",
         "options_hi": {
-          "A": "तैयार होने के लिए दौड़ना",
-          "B": "प्रतीक्षा करने के लिए दौड़ना (अवरुद्ध)",
-          "C": "तैयार होने की प्रतीक्षा में",
-          "D": "दौड़ने के लिए तैयार"
+          "A": "लोड/स्टोर मेमोरी मॉडल के साथ एक ही क्लॉक साइकिल में निष्पादित होने वाले सरल, निश्चित लंबाई के निर्देश",
+          "B": "जटिल चर लंबाई निर्देश",
+          "C": "माइक्रोप्रोग्राम्ड यूनिट",
+          "D": "कम रजिस्टर"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Running to Waiting (Blocked)?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "RISC emphasizes single-cycle execution, uniform instruction formats, hardwired control, and exclusive Load/Store memory access.",
+        "explanation_hi": "RISC में निर्देश सरल, निश्चित लंबाई के तथा लोड/स्टोर सिद्धांत पर आधारित होते हैं।"
       },
       {
         "id": 8,
         "questionNumber": 8,
         "section": "Computer Science",
-        "topic": "Computer Networks",
+        "topic": "Computer Science Fundamentals",
+        "topic_hi": "कंप्यूटर विज्ञान (CS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the CIDR prefix for a subnet with a subnet mask of 255.255.255.192?",
+        "question": "What is the maximum number of nodes in a Binary Tree of height h (where height of root is 0)?",
+        "question_hi": "ऊंचाई h वाले बाइनरी ट्री में नोड्स की अधिकतम संख्या क्या होती है (जहां रूट की ऊंचाई 0 है)?",
         "options": {
-          "A": "/24",
-          "B": "/25",
-          "C": "/26",
-          "D": "/27"
+          "A": "2^(h + 1) - 1",
+          "B": "2^h - 1",
+          "C": "2^h",
+          "D": "2^(h - 1)"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "255.255.255.192 के सबनेट मास्क वाले सबनेट के लिए सीआईडीआर उपसर्ग क्या है?",
         "options_hi": {
-          "A": "/24",
-          "B": "/25",
-          "C": "/26",
-          "D": "/27"
+          "A": "2^(h + 1) - 1",
+          "B": "2^h - 1",
+          "C": "2^h",
+          "D": "2^(h - 1)"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sum of geometric series sum_{i=0}^h 2^i = 2^(h+1) - 1. E.g., for h=2: 1 + 2 + 4 = 7 = 2^3 - 1.",
+        "explanation_hi": "ऊंचाई h के पूर्ण बाइनरी ट्री में अधिकतम नोड = 2^(h+1) - 1 होते हैं।"
       },
       {
         "id": 9,
         "questionNumber": 9,
         "section": "Computer Science",
-        "topic": "Database Management Systems",
+        "topic": "Computer Science Fundamentals",
+        "topic_hi": "कंप्यूटर विज्ञान (CS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which PHP function is used to establish a connection to a MySQL database?",
+        "question": "In a Threaded Binary Tree, what replaces the NULL pointers of leaf nodes?",
+        "question_hi": "थ्रेडेड बाइनरी ट्री (Threaded Binary Tree) में लीफ नोड्स के NULL पॉइंटर्स को किससे बदला जाता है?",
         "options": {
-          "A": "mysql_open()",
-          "B": "mysqli_connect()",
-          "C": "db_connect()",
-          "D": "sql_link()"
+          "A": "Threads (pointers) pointing to the in-order predecessor or in-order successor",
+          "B": "Pointers to the root node",
+          "C": "Pointers to the parent node",
+          "D": "Random hash values"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) mysqli_connect()**\n\n**Theoretical Analysis & Rule**:\nmysqli_connect(host, user, password, dbname) is standard PHP function used to open a connection to a MySQL database server.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "MySQL डेटाबेस से कनेक्शन स्थापित करने के लिए किस PHP फ़ंक्शन का उपयोग किया जाता है?",
         "options_hi": {
-          "A": "mysql_open()",
-          "B": "mysqli_connect()",
-          "C": "db_कनेक्ट()",
-          "D": "sql_link()"
+          "A": "इन-ऑर्डर पूर्ववर्ती या इन-ऑर्डर परवर्ती नोड्स को इंगित करने वाले थ्रेड्स (पॉइंटर्स)",
+          "B": "रूट नोड के पॉइंटर",
+          "C": "पैरेंट नोड के पॉइंटर",
+          "D": "हैश वैल्यू"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) mysqli_connect()?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Threaded binary trees utilize wasted leaf NULL pointers to point to inorder predecessors and successors, enabling stack-free traversal.",
+        "explanation_hi": "थ्रेडेड बाइनरी ट्री में अप्रयुक्त NULL पॉइंटर्स इन-ऑर्डर प्रीसीडर या सक्सेसर की ओर निर्देशित होते हैं।"
       },
       {
         "id": 10,
         "questionNumber": 10,
         "section": "Computer Science",
-        "topic": "Database Management Systems",
+        "topic": "Computer Science Fundamentals",
+        "topic_hi": "कंप्यूटर विज्ञान (CS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "The electronic document interchange standard developed by ANSI for business transactions is called:",
+        "question": "What is the recurrence relation for Strassen's Matrix Multiplication algorithm?",
+        "question_hi": "स्ट्रासेन के मैट्रिक्स गुणन एल्गोरिदम का पुनरावृत्ति संबंध (Recurrence Relation) क्या है?",
         "options": {
-          "A": "ANSI X12",
-          "B": "ISO 9001",
-          "C": "IEEE 802.3",
-          "D": "RFC 2822"
+          "A": "T(n) = 7T(n/2) + O(n^2)",
+          "B": "T(n) = 8T(n/2) + O(n^2)",
+          "C": "T(n) = 4T(n/2) + O(n)",
+          "D": "T(n) = 2T(n/2) + O(n^2)"
+        },
+        "options_hi": {
+          "A": "T(n) = 7T(n/2) + O(n^2)",
+          "B": "T(n) = 8T(n/2) + O(n^2)",
+          "C": "T(n) = 4T(n/2) + O(n)",
+          "D": "T(n) = 2T(n/2) + O(n^2)"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) ANSI X12**\n\n**Theoretical Analysis & Rule**:\nANSI ASC X12 is the official American National Standards Institute standard for Electronic Data Interchange (EDI) used across retail, finance, and transport.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "व्यावसायिक लेनदेन के लिए ANSI द्वारा विकसित इलेक्ट्रॉनिक दस्तावेज़ इंटरचेंज मानक को कहा जाता है:",
-        "options_hi": {
-          "A": "एएनएसआई एक्स12",
-          "B": "ISO 9001",
-          "C": "आईईईई 802.3",
-          "D": "आरएफसी 2822"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) ANSI X12?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "explanation": "Strassen reduces matrix multiplications from 8 to 7 subproblems, yielding T(n) = 7T(n/2) + O(n^2) = O(n^(log_2 7)) = O(n^2.807).",
+        "explanation_hi": "स्ट्रासेन एल्गोरिदम 8 के स्थान पर 7 गुणन करता है जिससे T(n) = 7T(n/2) + O(n^2) = O(n^2.81) प्राप्त होता है।"
       },
       {
         "id": 11,
         "questionNumber": 11,
         "section": "Computer Science",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Computer Science Fundamentals",
+        "topic_hi": "कंप्यूटर विज्ञान (CS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the maximum addressable memory capacity of a CPU with a 32-bit address bus and byte-addressable architecture?",
+        "question": "In the Fractional Knapsack problem, which greedy selection strategy yields the mathematically optimal total value?",
+        "question_hi": "भिन्नात्मक नैपसैक समस्या (Fractional Knapsack) में कौन सी लालची रणनीति इष्टतम कुल मूल्य देती है?",
         "options": {
-          "A": "1 GB",
-          "B": "2 GB",
-          "C": "4 GB",
-          "D": "8 GB"
+          "A": "Sorting items by decreasing ratio of Value to Weight (v_i / w_i)",
+          "B": "Selecting items with maximum absolute value first",
+          "C": "Selecting items with minimum weight first",
+          "D": "Selecting items in random order"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 4 GB**\n\n**Theoretical Analysis & Rule**:\nA 32-bit address bus can generate 2³² unique addresses. With byte addressability (1 byte per address), total addressable space = 2³² bytes = 4,294,967,296 bytes = 4 GB.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "32-बिट एड्रेस बस और बाइट-एड्रेसेबल आर्किटेक्चर वाले सीपीयू की अधिकतम एड्रेसेबल मेमोरी क्षमता क्या है?",
         "options_hi": {
-          "A": "1 जीबी",
-          "B": "2 जीबी",
-          "C": "4 जीबी",
-          "D": "8 जीबी"
+          "A": "वस्तुओं को मूल्य-प्रति-इकाई-भार अनुपात (v_i / w_i) के घटते क्रम में सॉर्ट करना",
+          "B": "अधिकतम मूल्य वाली वस्तुएं पहले",
+          "C": "न्यूनतम भार वाली पहले",
+          "D": "रैंडम क्रम"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 4 GB?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Greedy choice selects items with highest value-per-unit-weight density, provably optimal for fractional relaxation.",
+        "explanation_hi": "भिन्नात्मक नैपसैक में वस्तुओं को मूल्य/भार (Value/Weight) अनुपात के अनुसार छांटकर भरा जाता है।"
       },
       {
         "id": 12,
         "questionNumber": 12,
         "section": "Computer Science",
-        "topic": "Programming & Data Structures",
+        "topic": "Computer Science Fundamentals",
+        "topic_hi": "कंप्यूटर विज्ञान (CS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the number of edges in a tree with n vertices?",
+        "question": "What synchronization primitive combines mutual exclusion with condition synchronization inside a high-level programming language construct?",
+        "question_hi": "उच्च स्तरीय भाषा में परस्पर अपवर्जन और स्थिति सिंक्रोनाइज़ेशन को संयोजित करने वाला प्रिमिटिव कौन सा है?",
         "options": {
-          "A": "n",
-          "B": "n - 1",
-          "C": "n + 1",
-          "D": "2n - 1"
+          "A": "Monitor",
+          "B": "Spinlock",
+          "C": "Counting Semaphore",
+          "D": "Pipe"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
-        "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-        "question_hi": "n शीर्षों वाले पेड़ में किनारों की संख्या कितनी होती है?",
         "options_hi": {
-          "A": "n",
-          "B": "एन - 1",
-          "C": "एन + 1",
-          "D": "2एन - 1"
+          "A": "मॉनिटर (Monitor)",
+          "B": "स्पिनलॉक",
+          "C": "काउंटिंग सेमाफोर",
+          "D": "पाइप"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "A Monitor encapsulates shared data, procedures, and condition variables, guaranteeing that only one process is active inside the monitor at any time.",
+        "explanation_hi": "मॉनिटर भाषा स्तर का कंस्ट्रक्ट है जिसमें एक समय में केवल एक प्रक्रिया प्रवेश कर सकती है।"
       },
       {
         "id": 13,
         "questionNumber": 13,
         "section": "Computer Science",
-        "topic": "Operating Systems",
+        "topic": "Computer Science Fundamentals",
+        "topic_hi": "कंप्यूटर विज्ञान (CS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which Unix command is used to change the access permissions of a file?",
+        "question": "What is a 'Spinlock', and in what environment is it most effective?",
+        "question_hi": "'स्पिनलॉक' (Spinlock) क्या है, और यह किस वातावरण में सबसे प्रभावी है?",
         "options": {
-          "A": "chown",
-          "B": "chmod",
-          "C": "chgrp",
-          "D": "grep"
+          "A": "A lock where a thread loops repeatedly ('busy waits') checking for lock availability; effective on multiprocessor systems for very short wait durations",
+          "B": "A lock for single-core CPUs only",
+          "C": "A deadlock detection algorithm",
+          "D": "A disk block lock"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) chmod**\n\n**Theoretical Analysis & Rule**:\n'chmod' (change mode) modifies the read, write, and execute permissions of files/directories in Unix/Linux. ('chown' changes file owner).",
-        "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-        "question_hi": "किसी फ़ाइल की एक्सेस अनुमतियों को बदलने के लिए किस यूनिक्स कमांड का उपयोग किया जाता है?",
         "options_hi": {
-          "A": "चाउन",
-          "B": "चामोद",
-          "C": "सीएचजीआरपी",
-          "D": "ग्रेप"
+          "A": "एक लॉक जिसमें थ्रेड लॉक मिलने तक व्यस्त प्रतीक्षा (Busy Wait) लूप चलाता है; मल्टीप्रोसेसर में अल्पकालिक प्रतीक्षा के लिए प्रभावी",
+          "B": "सिंगल कोर लॉक",
+          "C": "डेडलॉक चेकर",
+          "D": "डिस्क लॉक"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) chmod?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Spinlocks avoid context switch overhead when waiting time is expected to be less than the cost of two context switches on multiprocessor machines.",
+        "explanation_hi": "स्पिनलॉक में थ्रेड सोता नहीं बल्कि लूप चलाकर इंतज़ार करता है, जो मल्टीकोर पर छोटे समय के लिए तेज़ होता है।"
       },
       {
         "id": 14,
         "questionNumber": 14,
         "section": "Computer Science",
-        "topic": "Computer Science",
+        "topic": "Computer Science Fundamentals",
+        "topic_hi": "कंप्यूटर विज्ञान (CS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which level of coupling is considered the MOST desirable (weakest/cleanest) in structured software design?",
+        "question": "What is the 'Working Set Model' in operating systems used for?",
+        "question_hi": "ऑपरेटिंग सिस्टम में 'वर्किंग सेट मॉडल' (Working Set Model) का उपयोग किस लिए किया जाता है?",
         "options": {
-          "A": "Content Coupling",
-          "B": "Common Coupling",
-          "C": "Control Coupling",
-          "D": "Data Coupling"
+          "A": "Estimates the set of pages an active process is currently referencing to prevent thrashing",
+          "B": "Schedules CPU tasks",
+          "C": "Allocates file descriptors",
+          "D": "Measures disk access speed"
         },
-        "correctAnswer": "D",
-        "explanation": "**Correct Answer: (D) Data Coupling**\n\n**Theoretical Analysis & Rule**:\nGood software engineering strives for Low Coupling and High Cohesion. Data Coupling (modules share only simple data parameters) is the cleanest, least dependent coupling.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "संरचित सॉफ़्टवेयर डिज़ाइन में युग्मन के किस स्तर को सर्वाधिक वांछनीय (सबसे कमज़ोर/सबसे साफ़) माना जाता है?",
         "options_hi": {
-          "A": "सामग्री युग्मन",
-          "B": "सामान्य युग्मन",
-          "C": "युग्मन को नियंत्रित करें",
-          "D": "डेटा युग्मन"
+          "A": "थ्रैशिंग रोकने के लिए किसी प्रक्रिया द्वारा संदर्भित सक्रिय पेजों के सेट का अनुमान लगाता है",
+          "B": "टास्क शेड्यूलिंग",
+          "C": "फाइल डिस्क्रिप्टर",
+          "D": "डिस्क स्पीड"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (D) Data Coupling?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Denning's working-set model defines W(t, Delta) as the pages referenced in the last Delta time units; allocating the working set prevents thrashing.",
+        "explanation_hi": "वर्किंग सेट मॉडल प्रोसेस के हालिया संदर्भित पेजों को ट्रैक कर थ्रैशिंग को रोकता है।"
       },
       {
         "id": 15,
         "questionNumber": 15,
         "section": "Computer Science",
-        "topic": "Digital Logic",
+        "topic": "Computer Science Fundamentals",
+        "topic_hi": "कंप्यूटर विज्ञान (CS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following grammars is in Chomsky Normal Form (CNF)?",
+        "question": "What is the primary advantage of the Indexed File Allocation method over Contiguous Allocation?",
+        "question_hi": "कंटीगुअस (सन्निहित) आवंटन की तुलना में इंडेक्सड फ़ाइल आवंटन (Indexed File Allocation) का प्राथमिक लाभ क्या है?",
         "options": {
-          "A": "S -> aB | b",
-          "B": "S -> AB | a",
-          "C": "S -> ABC | a",
-          "D": "S -> a | ε"
+          "A": "Eliminates external fragmentation and supports fast direct/random access via an index block",
+          "B": "Requires no index overhead",
+          "C": "Stores entire file in one block",
+          "D": "Only allows sequential access"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) S -> AB | a**\n\n**Theoretical Analysis & Rule**:\nIn Chomsky Normal Form (CNF), all production rules must be of the form A -> BC (two non-terminals) or A -> a (single terminal). Hence, S -> AB | a is in CNF.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "निम्नलिखित में से कौन सा व्याकरण चॉम्स्की नॉर्मल फॉर्म (CNF) में है?",
         "options_hi": {
-          "A": "एस -> एबी | बी",
-          "B": "एस -> एबी | ए",
-          "C": "एस -> एबीसी | ए",
-          "D": "एस -> ए | ε"
+          "A": "बाहरी विखंडन को समाप्त करता है और इंडेक्स ब्लॉक के माध्यम से तेज़ रैंडम एक्सेस का समर्थन करता है",
+          "B": "कोई ओवरहेड नहीं",
+          "C": "एक ब्लॉक में पूरी फाइल",
+          "D": "केवल अनुक्रमिक एक्सेस"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) S -> AB | a?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Indexed allocation brings all file pointers together into an index block, avoiding external fragmentation while maintaining random access.",
+        "explanation_hi": "इंडेक्सड आवंटन सभी डेटा ब्लॉकों के पते एक इंडेक्स ब्लॉक में रखकर तेज़ डायरेक्ट एक्सेस देता है।"
       },
       {
         "id": 16,
         "questionNumber": 16,
         "section": "Computer Science",
         "topic": "Digital Logic",
+        "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "How many select lines are required for a 64-to-1 Multiplexer (MUX)?",
+        "question": "Which fundamental logic gate operates according to the truth rule: 'Output is 0 (LOW) if and only if ALL inputs are 1 (HIGH)'?",
+        "question_hi": "कौन सा लॉजिक गेट इस सत्यता नियम के अनुसार कार्य करता है: 'आउटपुट 0 केवल तभी होता है जब सभी इनपुट 1 हों'?",
         "options": {
-          "A": "4",
-          "B": "5",
-          "C": "6",
-          "D": "8"
+          "A": "NAND gate",
+          "B": "AND gate",
+          "C": "OR gate",
+          "D": "Inverter"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "64-टू-1 मल्टीप्लेक्सर (एमयूएक्स) के लिए कितनी चुनिंदा लाइनें आवश्यक हैं?",
         "options_hi": {
-          "A": "4",
-          "B": "5",
-          "C": "6",
-          "D": "8"
+          "A": "नैन्ड (NAND) गेट",
+          "B": "AND गेट",
+          "C": "OR गेट",
+          "D": "नॉट गेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Definition matches the NAND gate. Output is 0 (LOW) if and only if ALL inputs are 1 (HIGH).",
+        "explanation_hi": "यह नैन्ड (NAND) गेट की मानक सत्यता सारणी का नियम है। आउटपुट 0 केवल तभी होता है जब सभी इनपुट 1 हों।"
       },
       {
         "id": 17,
         "questionNumber": 17,
         "section": "Computer Science",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Digital Logic",
+        "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following is a non-volatile optical or semiconductor memory that can be erased electrically in flash blocks?",
+        "question": "Which fundamental logic gate operates according to the truth rule: 'Output is 1 (HIGH) if and only if ALL inputs are 0 (LOW)'?",
+        "question_hi": "कौन सा लॉजिक गेट इस सत्यता नियम के अनुसार कार्य करता है: 'आउटपुट 1 केवल तभी होता है जब सभी इनपुट 0 हों'?",
         "options": {
-          "A": "SRAM",
-          "B": "DRAM",
-          "C": "EEPROM / Flash Memory",
-          "D": "Mask ROM"
+          "A": "NOR gate",
+          "B": "AND gate",
+          "C": "OR gate",
+          "D": "Inverter"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) EEPROM / Flash Memory**\n\n**Theoretical Analysis & Rule**:\nEEPROM (Electrically Erasable Programmable ROM) and Flash memory can be erased and reprogrammed electrically at the block or byte level without UV exposure.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "निम्नलिखित में से कौन सी एक गैर-वाष्पशील ऑप्टिकल या अर्धचालक मेमोरी है जिसे फ्लैश ब्लॉक में विद्युत रूप से मिटाया जा सकता है?",
         "options_hi": {
-          "A": "एसआरएएम",
-          "B": "घूंट",
-          "C": "EEPROM / Flash Memory",
-          "D": "मास्क रॉम"
+          "A": "नॉर (NOR) गेट",
+          "B": "AND गेट",
+          "C": "OR गेट",
+          "D": "नॉट गेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) EEPROM / Flash Memory?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Definition matches the NOR gate. Output is 1 (HIGH) if and only if ALL inputs are 0 (LOW).",
+        "explanation_hi": "यह नॉर (NOR) गेट की मानक सत्यता सारणी का नियम है। आउटपुट 1 केवल तभी होता है जब सभी इनपुट 0 हों।"
       },
       {
         "id": 18,
         "questionNumber": 18,
         "section": "Computer Science",
-        "topic": "Algorithms",
+        "topic": "Digital Logic",
+        "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What algorithmic paradigm is employed in solving the 8-Queens problem?",
+        "question": "Which fundamental logic gate operates according to the truth rule: 'Output is 1 (HIGH) when inputs have an ODD number of 1s'?",
+        "question_hi": "कौन सा लॉजिक गेट इस सत्यता नियम के अनुसार कार्य करता है: 'आउटपुट 1 तब होता है जब इनपुट में 1s की संख्या विषम हो'?",
         "options": {
-          "A": "Greedy Method",
-          "B": "Backtracking",
-          "C": "Dynamic Programming",
-          "D": "Divide and Conquer"
+          "A": "XOR gate",
+          "B": "AND gate",
+          "C": "OR gate",
+          "D": "Inverter"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Backtracking**\n\n**Theoretical Analysis & Rule**:\nThe 8-Queens problem is solved using Backtracking: placing queens row by row and abandoning (backtracking from) non-viable partial solutions whenever a conflict arises.",
-        "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-        "question_hi": "8-क्वींस समस्या को हल करने में कौन सा एल्गोरिथम प्रतिमान कार्यरत है?",
         "options_hi": {
-          "A": "लालची तरीका",
-          "B": "बैक ट्रैकिंग",
-          "C": "डायनामिक प्रोग्रामिंग",
-          "D": "फूट डालो और राज करो"
+          "A": "एक्स-ऑर (XOR) गेट",
+          "B": "AND गेट",
+          "C": "OR गेट",
+          "D": "नॉट गेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Backtracking?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Definition matches the XOR gate. Output is 1 (HIGH) when inputs have an ODD number of 1s.",
+        "explanation_hi": "यह एक्स-ऑर (XOR) गेट की मानक सत्यता सारणी का नियम है। आउटपुट 1 तब होता है जब इनपुट में 1s की संख्या विषम हो।"
       },
       {
         "id": 19,
         "questionNumber": 19,
         "section": "Computer Science",
-        "topic": "Database Management Systems",
+        "topic": "Digital Logic",
+        "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the primary purpose of the Foreign Key in a relational table?",
+        "question": "Which fundamental logic gate operates according to the truth rule: 'Output is 1 (HIGH) when inputs are identical (even parity)'?",
+        "question_hi": "कौन सा लॉजिक गेट इस सत्यता नियम के अनुसार कार्य करता है: 'आउटपुट 1 तब होता है जब इनपुट समान हों'?",
         "options": {
-          "A": "To ensure unique values in the current table",
-          "B": "To establish referential integrity between two related tables",
-          "C": "To prevent NULL values in a column",
-          "D": "To speed up query sort orders"
+          "A": "XNOR gate",
+          "B": "AND gate",
+          "C": "OR gate",
+          "D": "Inverter"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) To establish referential integrity between two related tables**\n\n**Theoretical Analysis & Rule**:\nA Foreign Key points to the Primary Key of another table, ensuring Referential Integrity by restricting insertions or deletions that would create orphan records.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "संबंधपरक तालिका में विदेशी कुंजी का प्राथमिक उद्देश्य क्या है?",
         "options_hi": {
-          "A": "वर्तमान तालिका में अद्वितीय मान सुनिश्चित करने के लिए",
-          "B": "दो संबंधित तालिकाओं के बीच संदर्भात्मक अखंडता स्थापित करना",
-          "C": "किसी कॉलम में NULL मानों को रोकने के लिए",
-          "D": "क्वेरी सॉर्ट ऑर्डर को तेज़ करने के लिए"
+          "A": "एक्स-नॉर (XNOR) गेट",
+          "B": "AND गेट",
+          "C": "OR गेट",
+          "D": "नॉट गेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) To establish referential integrity between two related tables?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Definition matches the XNOR gate. Output is 1 (HIGH) when inputs are identical (even parity).",
+        "explanation_hi": "यह एक्स-नॉर (XNOR) गेट की मानक सत्यता सारणी का नियम है। आउटपुट 1 तब होता है जब इनपुट समान हों।"
       },
       {
         "id": 20,
         "questionNumber": 20,
         "section": "Computer Science",
-        "topic": "Object Oriented Programming",
+        "topic": "Computer Organization & Architecture",
+        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following members cannot be inherited by a derived class in C++?",
+        "question": "What is the dedicated role of the 'Program Counter (PC)' in central processor architecture?",
+        "question_hi": "सीपीयू आर्किटेक्चर में 'प्रोग्राम काउंटर (PC)' का विशिष्ट कार्य क्या है?",
         "options": {
-          "A": "Protected variables",
-          "B": "Public methods",
-          "C": "Constructors and Destructors",
-          "D": "Virtual functions"
+          "A": "Holds the memory address of the next instruction to be fetched and executed",
+          "B": "Buffers peripheral video output",
+          "C": "Acts as virtual swap partition",
+          "D": "Manages network packets"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
-        "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-        "question_hi": "निम्नलिखित में से कौन सा सदस्य C++ में व्युत्पन्न वर्ग द्वारा विरासत में नहीं लिया जा सकता है?",
         "options_hi": {
-          "A": "संरक्षित चर",
-          "B": "सार्वजनिक तरीके",
-          "C": "निर्माता और विध्वंसक",
-          "D": "आभासी कार्य"
+          "A": "Holds the memory address of the next instruction to be fetched and executed",
+          "B": "वीडियो बफर",
+          "C": "स्वैप पार्टीशन",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "The Program Counter (PC) is a specialized CPU register whose primary function is: Holds the memory address of the next instruction to be fetched and executed.",
+        "explanation_hi": "प्रोग्राम काउंटर (PC) का मुख्य कार्य: Holds the memory address of the next instruction to be fetched and executed।"
       },
       {
         "id": 21,
         "questionNumber": 21,
         "section": "Computer Science",
-        "topic": "Algorithms",
+        "topic": "Computer Organization & Architecture",
+        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which type of search algorithm always expands the lowest cost leaf node first where cost is f(n) = g(n) + h(n)?",
+        "question": "What is the dedicated role of the 'Instruction Register (IR)' in central processor architecture?",
+        "question_hi": "सीपीयू आर्किटेक्चर में 'निर्देश रजिस्टर (IR)' का विशिष्ट कार्य क्या है?",
         "options": {
-          "A": "Greedy Best-First Search",
-          "B": "A* Search",
-          "C": "Depth First Search",
-          "D": "Breadth First Search"
+          "A": "Holds the binary instruction word currently being decoded and executed",
+          "B": "Buffers peripheral video output",
+          "C": "Acts as virtual swap partition",
+          "D": "Manages network packets"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) A* Search**\n\n**Theoretical Analysis & Rule**:\nA* search evaluates nodes by combining g(n) (cost from start to current node) and h(n) (estimated heuristic cost from current node to goal).",
-        "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-        "question_hi": "किस प्रकार का खोज एल्गोरिदम हमेशा सबसे कम लागत वाले लीफ नोड को पहले विस्तारित करता है जहां लागत f(n) = g(n) + h(n) है?",
         "options_hi": {
-          "A": "लालची सर्वोत्तम-प्रथम खोज",
-          "B": "ए* खोजें",
-          "C": "गहराई-प्रथम खोज (DFS)",
-          "D": "चौड़ाई-प्रथम खोज (BFS)"
+          "A": "Holds the binary instruction word currently being decoded and executed",
+          "B": "वीडियो बफर",
+          "C": "स्वैप पार्टीशन",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) A* Search?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "The Instruction Register (IR) is a specialized CPU register whose primary function is: Holds the binary instruction word currently being decoded and executed.",
+        "explanation_hi": "निर्देश रजिस्टर (IR) का मुख्य कार्य: Holds the binary instruction word currently being decoded and executed।"
       },
       {
         "id": 22,
         "questionNumber": 22,
         "section": "Computer Science",
-        "topic": "Digital Logic",
+        "topic": "Computer Organization & Architecture",
+        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the canonical representation form that expresses a Boolean function as a product of sum terms called?",
+        "question": "What is the dedicated role of the 'Stack Pointer (SP)' in central processor architecture?",
+        "question_hi": "सीपीयू आर्किटेक्चर में 'स्टैक पॉइंटर (SP)' का विशिष्ट कार्य क्या है?",
         "options": {
-          "A": "Minterm form",
-          "B": "Maxterm / POS form",
-          "C": "Dual form",
-          "D": "Disjunctive Normal Form"
+          "A": "Holds the memory address of the top of the execution call stack",
+          "B": "Buffers peripheral video output",
+          "C": "Acts as virtual swap partition",
+          "D": "Manages network packets"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Maxterm / POS form**\n\n**Theoretical Analysis & Rule**:\nProduct of Sums (POS) expresses a logic function as the AND combination (product) of OR terms (sums/maxterms), denoted by ΠM.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "कंप्यूटर साइंस अवधारणा: What is the canonical representation form that expresses a Boolean function as a product of sum terms called के संबंध में सही कथन या मान क्या है?",
         "options_hi": {
-          "A": "मिन्टर्म फॉर्म",
-          "B": "Maxterm / POS form",
-          "C": "दोहरा रूप",
-          "D": "विच्छेदनात्मक सामान्य रूप"
+          "A": "Holds the memory address of the top of the execution call stack",
+          "B": "वीडियो बफर",
+          "C": "स्वैप पार्टीशन",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Maxterm / POS form?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "The Stack Pointer (SP) is a specialized CPU register whose primary function is: Holds the memory address of the top of the execution call stack.",
+        "explanation_hi": "स्टैक पॉइंटर (SP) का मुख्य कार्य: Holds the memory address of the top of the execution call stack।"
       },
       {
         "id": 23,
         "questionNumber": 23,
         "section": "Computer Science",
-        "topic": "Programming & Data Structures",
+        "topic": "Computer Organization & Architecture",
+        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the time complexity to search for a key in a balanced AVL tree with n nodes?",
+        "question": "What is the dedicated role of the 'Flags / Status Register' in central processor architecture?",
+        "question_hi": "सीपीयू आर्किटेक्चर में 'फ्लैग / स्टेटस रजिस्टर' का विशिष्ट कार्य क्या है?",
         "options": {
-          "A": "O(1)",
-          "B": "O(log n)",
-          "C": "O(n)",
-          "D": "O(n log n)"
+          "A": "Contains condition bits (Zero, Sign, Carry, Overflow, Parity) indicating ALU result status",
+          "B": "Buffers peripheral video output",
+          "C": "Acts as virtual swap partition",
+          "D": "Manages network packets"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) O(log n)**\n\n**Theoretical Analysis & Rule**:\nAn AVL tree is strictly balanced with maximum height bounded by 1.44 log₂(n). Therefore, search, insertion, and deletion operations all take guaranteed O(log n) time.",
-        "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-        "question_hi": "n नोड्स वाले संतुलित AVL ट्री में कुंजी खोजने में समय की जटिलता क्या है?",
         "options_hi": {
-          "A": "हे(1)",
-          "B": "ओ(लॉग एन)",
-          "C": "पर)",
-          "D": "ओ(एन लॉग एन)"
+          "A": "Contains condition bits (Zero, Sign, Carry, Overflow, Parity) indicating ALU result status",
+          "B": "वीडियो बफर",
+          "C": "स्वैप पार्टीशन",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) O(log n)?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "The Flags / Status Register is a specialized CPU register whose primary function is: Contains condition bits (Zero, Sign, Carry, Overflow, Parity) indicating ALU result status.",
+        "explanation_hi": "फ्लैग / स्टेटस रजिस्टर का मुख्य कार्य: Contains condition bits (Zero, Sign, Carry, Overflow, Parity) indicating ALU result status।"
       },
       {
         "id": 24,
         "questionNumber": 24,
         "section": "Computer Science",
-        "topic": "Operating Systems",
+        "topic": "Programming and Data Structures",
+        "topic_hi": "प्रोग्रामिंग और डेटा संरचनाएं (DSA)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "In paging memory management, where is the Translation Lookaside Buffer (TLB) located?",
+        "question": "Which fundamental data structure is utilized by 'Breadth First Search (BFS)' to explore vertices, and what is its time complexity?",
+        "question_hi": "शीर्षों का अन्वेषण करने के लिए 'ब्रेड्थ फर्स्ट सर्च (BFS)' द्वारा किस डेटा संरचना का उपयोग किया जाता है और इसकी समय जटिलता क्या है?",
         "options": {
-          "A": "On the hard disk",
-          "B": "In main memory RAM",
-          "C": "Inside the CPU Memory Management Unit (MMU) hardware cache",
-          "D": "In secondary optical storage"
+          "A": "Data structure: Queue (FIFO); Complexity: O(V + E)",
+          "B": "Data structure: Priority Queue; Complexity: O(V^2)",
+          "C": "Data structure: Binary Heap; Complexity: O(log V)",
+          "D": "Data structure: Array; Complexity: O(E^2)"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
-        "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-        "question_hi": "पेजिंग मेमोरी प्रबंधन में, ट्रांसलेशन लुकसाइड बफ़र (टीएलबी) कहाँ स्थित है?",
         "options_hi": {
-          "A": "हार्ड डिस्क पर",
-          "B": "मुख्य मेमोरी में RAM",
-          "C": "सीपीयू मेमोरी मैनेजमेंट यूनिट (एमएमयू) हार्डवेयर कैश के अंदर",
-          "D": "सेकेंडरी ऑप्टिकल स्टोरेज में"
+          "A": "डेटा संरचना: Queue (FIFO); जटिलता: O(V + E)",
+          "B": "प्रायोरिटी कतार",
+          "C": "बाइनरी हीप",
+          "D": "ऐरे"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Breadth First Search (BFS) uses a Queue (FIFO) and visits each vertex and edge once, taking O(V + E). Finds the shortest path in unweighted graphs level by level.",
+        "explanation_hi": "ब्रेड्थ फर्स्ट सर्च (BFS) Queue (FIFO) का उपयोग करता है और इसकी समय जटिलता O(V + E) होती है। Finds the shortest path in unweighted graphs level by level।"
       },
       {
         "id": 25,
         "questionNumber": 25,
         "section": "Computer Science",
-        "topic": "Computer Science",
+        "topic": "Programming and Data Structures",
+        "topic_hi": "प्रोग्रामिंग और डेटा संरचनाएं (DSA)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following is a Distance Vector routing protocol that uses hop count as its sole metric with a maximum limit of 15 hops?",
+        "question": "Which fundamental data structure is utilized by 'Depth First Search (DFS)' to explore vertices, and what is its time complexity?",
+        "question_hi": "शीर्षों का अन्वेषण करने के लिए 'डेप्थ फर्स्ट सर्च (DFS)' द्वारा किस डेटा संरचना का उपयोग किया जाता है और इसकी समय जटिलता क्या है?",
         "options": {
-          "A": "OSPF",
-          "B": "RIP (Routing Information Protocol)",
-          "C": "BGP",
-          "D": "IS-IS"
+          "A": "Data structure: Stack / Recursion (LIFO); Complexity: O(V + E)",
+          "B": "Data structure: Priority Queue; Complexity: O(V^2)",
+          "C": "Data structure: Binary Heap; Complexity: O(log V)",
+          "D": "Data structure: Array; Complexity: O(E^2)"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) RIP (Routing Information Protocol)**\n\n**Theoretical Analysis & Rule**:\nRIP is an interior gateway distance-vector protocol using hop count (1 to 15 hops; 16 signifies unreachable infinity) to prevent routing loops.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "निम्नलिखित में से कौन सा एक डिस्टेंस वेक्टर रूटिंग प्रोटोकॉल है जो 15 हॉप्स की अधिकतम सीमा के साथ हॉप काउंट को अपने एकमात्र मीट्रिक के रूप में उपयोग करता है?",
         "options_hi": {
-          "A": "ओएसपीएफ",
-          "B": "आरआईपी (रूटिंग सूचना प्रोटोकॉल)",
-          "C": "BGP",
-          "D": "आईएस-आईएस"
+          "A": "डेटा संरचना: Stack / Recursion (LIFO); जटिलता: O(V + E)",
+          "B": "प्रायोरिटी कतार",
+          "C": "बाइनरी हीप",
+          "D": "ऐरे"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) RIP (Routing Information Protocol)?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Depth First Search (DFS) uses a Stack / Recursion (LIFO) and visits each vertex and edge once, taking O(V + E). Explores as deep as possible along each branch before backtracking; used in cycle detection and topological sort.",
+        "explanation_hi": "डेप्थ फर्स्ट सर्च (DFS) Stack / Recursion (LIFO) का उपयोग करता है और इसकी समय जटिलता O(V + E) होती है। Explores as deep as possible along each branch before backtracking; used in cycle detection and topological sort।"
       },
       {
         "id": 26,
         "questionNumber": 26,
         "section": "Computer Science",
-        "topic": "Computer Networks",
+        "topic": "Algorithms",
+        "topic_hi": "एल्गोरिदम (Algorithms)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the language recognized by a Deterministic Finite Automaton (DFA) that accepts strings over {0, 1} ending with '00'?",
+        "question": "Which canonical computer science operation has a time complexity of O(1) (Constant Time)?",
+        "question_hi": "किस मानक कंप्यूटर विज्ञान ऑपरेशन की समय जटिलता O(1) (Constant Time) होती है?",
         "options": {
-          "A": "Context Free Language",
-          "B": "Regular Language",
-          "C": "Recursively Enumerable only",
-          "D": "Non-computable Language"
+          "A": "Direct array element lookup by index A[i]",
+          "B": "Matrix multiplication using standard 3 loops",
+          "C": "Traversing every pair of vertices in a complete graph",
+          "D": "Tower of Hanoi moves"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Regular Language**\n\n**Theoretical Analysis & Rule**:\nAny language that can be recognized by a Finite Automaton (DFA or NFA) is by definition a Regular Language, represented by regular expression (0 + 1)*00.",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "नियतात्मक परिमित ऑटोमेटन (डीएफए) द्वारा मान्यता प्राप्त भाषा क्या है जो '00' के साथ समाप्त होने वाले {0, 1} से अधिक स्ट्रिंग को स्वीकार करती है?",
         "options_hi": {
-          "A": "प्रसंग मुक्त भाषा",
-          "B": "नियमित भाषा",
-          "C": "केवल पुनरावर्ती रूप से गणना योग्य",
-          "D": "गैर संगणनीय भाषा"
+          "A": "Direct array element lookup by index A[i]",
+          "B": "मैट्रिक्स गुणन",
+          "C": "सभी शीर्ष युग्म",
+          "D": "हनोई टॉवर"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Regular Language?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Direct array element lookup by index A[i] runs in O(1) time asymptotically.",
+        "explanation_hi": "Direct array element lookup by index A[i] की समय जटिलता O(1) होती है।"
       },
       {
         "id": 27,
         "questionNumber": 27,
         "section": "Computer Science",
-        "topic": "Computer Networks",
+        "topic": "Algorithms",
+        "topic_hi": "एल्गोरिदम (Algorithms)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which image compression standard utilizes Discrete Cosine Transform (DCT) and is lossy for digital photography?",
+        "question": "Which canonical computer science operation has a time complexity of O(log n) (Logarithmic Time)?",
+        "question_hi": "किस मानक कंप्यूटर विज्ञान ऑपरेशन की समय जटिलता O(log n) (Logarithmic Time) होती है?",
         "options": {
-          "A": "PNG",
-          "B": "JPEG",
-          "C": "BMP",
-          "D": "SVG"
+          "A": "Binary Search on a sorted array of n elements",
+          "B": "Matrix multiplication using standard 3 loops",
+          "C": "Traversing every pair of vertices in a complete graph",
+          "D": "Tower of Hanoi moves"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) JPEG**\n\n**Theoretical Analysis & Rule**:\nJPEG (Joint Photographic Experts Group) uses Discrete Cosine Transform (DCT) lossy compression to discard high-frequency color variations less noticeable to the human eye.",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "कौन सा छवि संपीड़न मानक डिस्क्रीट कोसाइन ट्रांसफॉर्म (डीसीटी) का उपयोग करता है और डिजिटल फोटोग्राफी के लिए हानिकारक है?",
         "options_hi": {
-          "A": "PNG",
-          "B": "जेपीईजी",
-          "C": "BMP",
-          "D": "SVG"
+          "A": "Binary Search on a sorted array of n elements",
+          "B": "मैट्रिक्स गुणन",
+          "C": "सभी शीर्ष युग्म",
+          "D": "हनोई टॉवर"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) JPEG?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Binary Search on a sorted array of n elements runs in O(log n) time asymptotically.",
+        "explanation_hi": "Binary Search on a sorted array of n elements की समय जटिलता O(log n) होती है।"
       },
       {
         "id": 28,
         "questionNumber": 28,
         "section": "Computer Science",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Algorithms",
+        "topic_hi": "एल्गोरिदम (Algorithms)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+        "question": "Which canonical computer science operation has a time complexity of O(n) (Linear Time)?",
+        "question_hi": "किस मानक कंप्यूटर विज्ञान ऑपरेशन की समय जटिलता O(n) (Linear Time) होती है?",
         "options": {
-          "A": "Direct Mapping",
-          "B": "Fully Associative Mapping",
-          "C": "Set-Associative Mapping",
-          "D": "Sector Mapping"
+          "A": "Finding the minimum or maximum element in an unsorted array",
+          "B": "Matrix multiplication using standard 3 loops",
+          "C": "Traversing every pair of vertices in a complete graph",
+          "D": "Tower of Hanoi moves"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "कौन सी कैश मैपिंग तकनीक मुख्य मेमोरी ब्लॉक को किसी भी उपलब्ध कैश ब्लॉक लाइन में लोड करने की अनुमति देती है?",
         "options_hi": {
-          "A": "प्रत्यक्ष मानचित्रण",
-          "B": "पूरी तरह से सहयोगी मानचित्रण",
-          "C": "सेट-एसोसिएटिव मैपिंग",
-          "D": "सेक्टर मैपिंग"
+          "A": "Finding the minimum or maximum element in an unsorted array",
+          "B": "मैट्रिक्स गुणन",
+          "C": "सभी शीर्ष युग्म",
+          "D": "हनोई टॉवर"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Finding the minimum or maximum element in an unsorted array runs in O(n) time asymptotically.",
+        "explanation_hi": "Finding the minimum or maximum element in an unsorted array की समय जटिलता O(n) होती है।"
       },
       {
         "id": 29,
         "questionNumber": 29,
         "section": "Computer Science",
         "topic": "Algorithms",
+        "topic_hi": "एल्गोरिदम (Algorithms)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the solution of the recurrence relation T(n) = 2T(n/2) + n by Master Theorem?",
+        "question": "Which canonical computer science operation has a time complexity of O(n log n) (Linearithmic Time)?",
+        "question_hi": "किस मानक कंप्यूटर विज्ञान ऑपरेशन की समय जटिलता O(n log n) (Linearithmic Time) होती है?",
         "options": {
-          "A": "Θ(n)",
-          "B": "Θ(n log n)",
-          "C": "Θ(n²)",
-          "D": "Θ(log n)"
+          "A": "Merge Sort and Heap Sort in worst case",
+          "B": "Matrix multiplication using standard 3 loops",
+          "C": "Traversing every pair of vertices in a complete graph",
+          "D": "Tower of Hanoi moves"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Θ(n log n)**\n\n**Theoretical Analysis & Rule**:\nFor T(n) = aT(n/b) + f(n): a = 2, b = 2, f(n) = n. Here n^(log_b(a)) = n^(log₂2) = n¹. Since f(n) = Θ(n^(log_b(a))), Case 2 of Master Theorem applies: T(n) = Θ(n log n) (Merge Sort recurrence).",
-        "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-        "question_hi": "मास्टर प्रमेय द्वारा पुनरावृत्ति संबंध T(n) = 2T(n/2) + n का समाधान क्या है?",
         "options_hi": {
-          "A": "Θ(एन)",
-          "B": "Θ(एन लॉग एन)",
-          "C": "Θ(n²)",
-          "D": "Θ(लॉग एन)"
+          "A": "Merge Sort and Heap Sort in worst case",
+          "B": "मैट्रिक्स गुणन",
+          "C": "सभी शीर्ष युग्म",
+          "D": "हनोई टॉवर"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Θ(n log n)?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Merge Sort and Heap Sort in worst case runs in O(n log n) time asymptotically.",
+        "explanation_hi": "Merge Sort and Heap Sort in worst case की समय जटिलता O(n log n) होती है।"
       },
       {
         "id": 30,
         "questionNumber": 30,
         "section": "Computer Science",
-        "topic": "Database Management Systems",
+        "topic": "Algorithms",
+        "topic_hi": "एल्गोरिदम (Algorithms)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which SQL command belongs to the Data Control Language (DCL) category?",
+        "question": "Which canonical computer science operation has a time complexity of O(n^2) (Quadratic Time)?",
+        "question_hi": "किस मानक कंप्यूटर विज्ञान ऑपरेशन की समय जटिलता O(n^2) (Quadratic Time) होती है?",
         "options": {
-          "A": "SELECT",
-          "B": "GRANT",
-          "C": "ALTER",
-          "D": "UPDATE"
+          "A": "Bubble Sort and Selection Sort in worst case",
+          "B": "Matrix multiplication using standard 3 loops",
+          "C": "Traversing every pair of vertices in a complete graph",
+          "D": "Tower of Hanoi moves"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) GRANT**\n\n**Theoretical Analysis & Rule**:\nDCL commands control privileges and access in the database. GRANT (gives user access) and REVOKE (withdraws access) are the primary DCL commands.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "Which SQL command belongs to the डेटा नियंत्रण भाषा (DCL) (DCL) category?",
         "options_hi": {
-          "A": "चुनना",
-          "B": "अनुदान",
-          "C": "ALTER",
-          "D": "UPDATE"
+          "A": "Bubble Sort and Selection Sort in worst case",
+          "B": "मैट्रिक्स गुणन",
+          "C": "सभी शीर्ष युग्म",
+          "D": "हनोई टॉवर"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) GRANT?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Bubble Sort and Selection Sort in worst case runs in O(n^2) time asymptotically.",
+        "explanation_hi": "Bubble Sort and Selection Sort in worst case की समय जटिलता O(n^2) होती है।"
       },
       {
         "id": 31,
         "questionNumber": 31,
         "section": "Computer Science",
-        "topic": "Object Oriented Programming",
+        "topic": "Algorithms",
+        "topic_hi": "एल्गोरिदम (Algorithms)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "In C++, which keyword is used to resolve the 'Diamond Problem' of duplicate base class instances in multiple inheritance?",
+        "question": "Which canonical computer science operation has a time complexity of O(2^n) (Exponential Time)?",
+        "question_hi": "किस मानक कंप्यूटर विज्ञान ऑपरेशन की समय जटिलता O(2^n) (Exponential Time) होती है?",
         "options": {
-          "A": "abstract",
-          "B": "friend",
-          "C": "virtual",
-          "D": "static"
+          "A": "Recursive calculation of Fibonacci numbers without memoization",
+          "B": "Matrix multiplication using standard 3 loops",
+          "C": "Traversing every pair of vertices in a complete graph",
+          "D": "Tower of Hanoi moves"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) virtual**\n\n**Theoretical Analysis & Rule**:\nDeclaring the intermediate base classes with 'virtual' inheritance (e.g., class B : virtual public A) ensures only one shared instance of class A is included in derived class D.",
-        "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-        "question_hi": "C++ में, मल्टीपल इनहेरिटेंस में डुप्लिकेट बेस क्लास इंस्टेंसेस की 'डायमंड प्रॉब्लम' को हल करने के लिए किस कीवर्ड का उपयोग किया जाता है?",
         "options_hi": {
-          "A": "अमूर्त",
-          "B": "दोस्त",
-          "C": "आभासी",
-          "D": "स्थिर"
+          "A": "Recursive calculation of Fibonacci numbers without memoization",
+          "B": "मैट्रिक्स गुणन",
+          "C": "सभी शीर्ष युग्म",
+          "D": "हनोई टॉवर"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) virtual?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Recursive calculation of Fibonacci numbers without memoization runs in O(2^n) time asymptotically.",
+        "explanation_hi": "Recursive calculation of Fibonacci numbers without memoization की समय जटिलता O(2^n) होती है।"
       },
       {
         "id": 32,
         "questionNumber": 32,
         "section": "Computer Science",
-        "topic": "Digital Logic",
+        "topic": "Operating Systems",
+        "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
+        "question": "In operating system process life cycle, what event triggers the state transition 'Running to Ready'?",
+        "question_hi": "ऑपरेटिंग सिस्टम प्रोसेस लाइफ साइकिल में, 'रनिंग से रेडी' अवस्था परिवर्तन किस घटना से होता है?",
         "options": {
-          "A": "RESTful Web APIs and JSON",
-          "B": "Raw binary serial ports",
-          "C": "Assembly instructions",
-          "D": "Modem dial-ups"
+          "A": "Expiration of the allotted CPU time quantum (preemption)",
+          "B": "User logs out",
+          "C": "Memory page fault occurs",
+          "D": "Compiler finishes lexical analysis"
+        },
+        "options_hi": {
+          "A": "Expiration of the allotted CPU time quantum (preemption)",
+          "B": "यूज़र लॉगआउट",
+          "C": "पेज फॉल्ट",
+          "D": "कंपाइलर समाप्ति"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "वेब ऑफ थिंग्स (डब्ल्यूओटी) में, स्मार्ट भौतिक उपकरणों को मुख्य रूप से मानक वेब प्रौद्योगिकियों का उपयोग करके प्रदर्शित और नियंत्रित किया जाता है:",
-        "options_hi": {
-          "A": "रेस्टफुल वेब एपीआई और JSON",
-          "B": "कच्चे बाइनरी सीरियल पोर्ट",
-          "C": "एकत्र करने के लिए निर्देश",
-          "D": "मॉडेम डायल-अप"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "explanation": "The transition Running to Ready occurs when: Expiration of the allotted CPU time quantum (preemption).",
+        "explanation_hi": "रनिंग से रेडी अवस्था परिवर्तन तब होता है जब: Expiration of the allotted CPU time quantum (preemption)।"
       },
       {
         "id": 33,
         "questionNumber": 33,
         "section": "Computer Science",
-        "topic": "Computer Networks",
+        "topic": "Operating Systems",
+        "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following logic families exhibits the highest switching speed and lowest propagation delay?",
+        "question": "In operating system process life cycle, what event triggers the state transition 'Running to Waiting (Blocked)'?",
+        "question_hi": "ऑपरेटिंग सिस्टम प्रोसेस लाइफ साइकिल में, 'रनिंग से वेटिंग (ब्लॉक्ड)' अवस्था परिवर्तन किस घटना से होता है?",
         "options": {
-          "A": "TTL (Transistor-Transistor Logic)",
-          "B": "ECL (Emitter-Coupled Logic)",
-          "C": "CMOS",
-          "D": "NMOS"
+          "A": "Process initiates an I/O request or waits for an event/signal",
+          "B": "User logs out",
+          "C": "Memory page fault occurs",
+          "D": "Compiler finishes lexical analysis"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) ECL (Emitter-Coupled Logic)**\n\n**Theoretical Analysis & Rule**:\nECL (Emitter-Coupled Logic) operates its transistors in the non-saturated active region rather than saturation, eliminating storage time delay and achieving propagation delays below 1 nanosecond (fastest among conventional families).",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "निम्नलिखित में से कौन सा तर्क परिवार उच्चतम स्विचिंग गति और सबसे कम प्रसार विलंब प्रदर्शित करता है?",
         "options_hi": {
-          "A": "टीटीएल (ट्रांजिस्टर-ट्रांजिस्टर लॉजिक)",
-          "B": "ईसीएल (एमिटर-युग्मित तर्क)",
-          "C": "सीएमओएस",
-          "D": "एनएमओएस"
+          "A": "Process initiates an I/O request or waits for an event/signal",
+          "B": "यूज़र लॉगआउट",
+          "C": "पेज फॉल्ट",
+          "D": "कंपाइलर समाप्ति"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) ECL (Emitter-Coupled Logic)?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "The transition Running to Waiting (Blocked) occurs when: Process initiates an I/O request or waits for an event/signal.",
+        "explanation_hi": "रनिंग से वेटिंग (ब्लॉक्ड) अवस्था परिवर्तन तब होता है जब: Process initiates an I/O request or waits for an event/signal।"
       },
       {
         "id": 34,
         "questionNumber": 34,
         "section": "Computer Science",
-        "topic": "Programming & Data Structures",
+        "topic": "Operating Systems",
+        "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "In a row-major 2D array A[1..M, 1..N] stored starting at base address B with element size S, what is the address formula for element A[i, j]?",
+        "question": "In operating system process life cycle, what event triggers the state transition 'Waiting to Ready'?",
+        "question_hi": "ऑपरेटिंग सिस्टम प्रोसेस लाइफ साइकिल में, 'वेटिंग से रेडी' अवस्था परिवर्तन किस घटना से होता है?",
         "options": {
-          "A": "B + [(i - 1) * N + (j - 1)] * S",
-          "B": "B + [(j - 1) * M + (i - 1)] * S",
-          "C": "B + [i * N + j] * S",
-          "D": "B + [(i - 1) + (j - 1) * N] * S"
+          "A": "Completion of the requested I/O operation or arrival of awaited signal",
+          "B": "User logs out",
+          "C": "Memory page fault occurs",
+          "D": "Compiler finishes lexical analysis"
+        },
+        "options_hi": {
+          "A": "Completion of the requested I/O operation or arrival of awaited signal",
+          "B": "यूज़र लॉगआउट",
+          "C": "पेज फॉल्ट",
+          "D": "कंपाइलर समाप्ति"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) B + [(i - 1) * N + (j - 1)] * S**\n\n**Theoretical Analysis & Rule**:\nIn row-major order, rows are placed contiguously in memory. To reach row i, you skip (i - 1) complete rows of N elements each, and then move (j - 1) elements into row i. Hence: Address = Base + [((i - 1) * N) + (j - 1)] * S.",
-        "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-        "question_hi": "पंक्ति-प्रमुख 2D सरणी A[1..M, 1..N] में तत्व आकार S के साथ आधार पता B से शुरू करके संग्रहीत किया जाता है, तत्व A[i, j] के लिए पता सूत्र क्या है?",
-        "options_hi": {
-          "A": "बी + [(आई - 1) * एन + (जे - 1)] * एस",
-          "B": "बी + [(जे - 1) * एम + (आई - 1)] * एस",
-          "C": "बी + [आई * एन + जे] * एस",
-          "D": "बी + [(आई - 1) + (जे - 1) * एन] * एस"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) B + [(i - 1) * N + (j - 1)] * S?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "explanation": "The transition Waiting to Ready occurs when: Completion of the requested I/O operation or arrival of awaited signal.",
+        "explanation_hi": "वेटिंग से रेडी अवस्था परिवर्तन तब होता है जब: Completion of the requested I/O operation or arrival of awaited signal।"
       },
       {
         "id": 35,
         "questionNumber": 35,
         "section": "Computer Science",
         "topic": "Operating Systems",
+        "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the state transition that occurs when a running process requires an I/O operation?",
+        "question": "In operating system process life cycle, what event triggers the state transition 'Ready to Running'?",
+        "question_hi": "ऑपरेटिंग सिस्टम प्रोसेस लाइफ साइकिल में, 'रेडी से रनिंग' अवस्था परिवर्तन किस घटना से होता है?",
         "options": {
-          "A": "Running to Ready",
-          "B": "Running to Waiting (Blocked)",
-          "C": "Waiting to Ready",
-          "D": "Ready to Running"
+          "A": "CPU Scheduler (Dispatcher) assigns processor core to the process",
+          "B": "User logs out",
+          "C": "Memory page fault occurs",
+          "D": "Compiler finishes lexical analysis"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Running to Waiting (Blocked)**\n\n**Theoretical Analysis & Rule**:\nWhen a process requests an I/O operation or an event, the CPU cannot continue executing it until the I/O completes. The OS transitions the process from Running to Waiting (Blocked) state.",
-        "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-        "question_hi": "वह स्थिति परिवर्तन क्या है जो तब होता है जब किसी चालू प्रक्रिया के लिए I/O ऑपरेशन की आवश्यकता होती है?",
         "options_hi": {
-          "A": "तैयार होने के लिए दौड़ना",
-          "B": "प्रतीक्षा करने के लिए दौड़ना (अवरुद्ध)",
-          "C": "तैयार होने की प्रतीक्षा में",
-          "D": "दौड़ने के लिए तैयार"
+          "A": "CPU Scheduler (Dispatcher) assigns processor core to the process",
+          "B": "यूज़र लॉगआउट",
+          "C": "पेज फॉल्ट",
+          "D": "कंपाइलर समाप्ति"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Running to Waiting (Blocked)?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "The transition Ready to Running occurs when: CPU Scheduler (Dispatcher) assigns processor core to the process.",
+        "explanation_hi": "रेडी से रनिंग अवस्था परिवर्तन तब होता है जब: CPU Scheduler (Dispatcher) assigns processor core to the process।"
       },
       {
         "id": 36,
         "questionNumber": 36,
         "section": "Computer Science",
-        "topic": "Computer Networks",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the CIDR prefix for a subnet with a subnet mask of 255.255.255.192?",
+        "question": "In web application development practice 31, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 31 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "/24",
-          "B": "/25",
-          "C": "/26",
-          "D": "/27"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "255.255.255.192 के सबनेट मास्क वाले सबनेट के लिए सीआईडीआर उपसर्ग क्या है?",
         "options_hi": {
-          "A": "/24",
-          "B": "/25",
-          "C": "/26",
-          "D": "/27"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 31 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 37,
         "questionNumber": 37,
         "section": "Computer Science",
-        "topic": "Database Management Systems",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which PHP function is used to establish a connection to a MySQL database?",
+        "question": "In web application development practice 32, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 32 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "mysql_open()",
-          "B": "mysqli_connect()",
-          "C": "db_connect()",
-          "D": "sql_link()"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) mysqli_connect()**\n\n**Theoretical Analysis & Rule**:\nmysqli_connect(host, user, password, dbname) is standard PHP function used to open a connection to a MySQL database server.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "MySQL डेटाबेस से कनेक्शन स्थापित करने के लिए किस PHP फ़ंक्शन का उपयोग किया जाता है?",
         "options_hi": {
-          "A": "mysql_open()",
-          "B": "mysqli_connect()",
-          "C": "db_कनेक्ट()",
-          "D": "sql_link()"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) mysqli_connect()?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 32 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 38,
         "questionNumber": 38,
         "section": "Computer Science",
-        "topic": "Database Management Systems",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "The electronic document interchange standard developed by ANSI for business transactions is called:",
+        "question": "In web application development practice 33, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 33 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "ANSI X12",
-          "B": "ISO 9001",
-          "C": "IEEE 802.3",
-          "D": "RFC 2822"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
+        },
+        "options_hi": {
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) ANSI X12**\n\n**Theoretical Analysis & Rule**:\nANSI ASC X12 is the official American National Standards Institute standard for Electronic Data Interchange (EDI) used across retail, finance, and transport.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "व्यावसायिक लेनदेन के लिए ANSI द्वारा विकसित इलेक्ट्रॉनिक दस्तावेज़ इंटरचेंज मानक को कहा जाता है:",
-        "options_hi": {
-          "A": "एएनएसआई एक्स12",
-          "B": "ISO 9001",
-          "C": "आईईईई 802.3",
-          "D": "आरएफसी 2822"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) ANSI X12?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 33 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 39,
         "questionNumber": 39,
         "section": "Computer Science",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the maximum addressable memory capacity of a CPU with a 32-bit address bus and byte-addressable architecture?",
+        "question": "In web application development practice 34, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 34 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "1 GB",
-          "B": "2 GB",
-          "C": "4 GB",
-          "D": "8 GB"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 4 GB**\n\n**Theoretical Analysis & Rule**:\nA 32-bit address bus can generate 2³² unique addresses. With byte addressability (1 byte per address), total addressable space = 2³² bytes = 4,294,967,296 bytes = 4 GB.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "32-बिट एड्रेस बस और बाइट-एड्रेसेबल आर्किटेक्चर वाले सीपीयू की अधिकतम एड्रेसेबल मेमोरी क्षमता क्या है?",
         "options_hi": {
-          "A": "1 जीबी",
-          "B": "2 जीबी",
-          "C": "4 जीबी",
-          "D": "8 जीबी"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 4 GB?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 34 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 40,
         "questionNumber": 40,
         "section": "Computer Science",
-        "topic": "Programming & Data Structures",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the number of edges in a tree with n vertices?",
+        "question": "In web application development practice 35, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 35 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "n",
-          "B": "n - 1",
-          "C": "n + 1",
-          "D": "2n - 1"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
-        "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-        "question_hi": "n शीर्षों वाले पेड़ में किनारों की संख्या कितनी होती है?",
         "options_hi": {
-          "A": "n",
-          "B": "एन - 1",
-          "C": "एन + 1",
-          "D": "2एन - 1"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 35 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 41,
         "questionNumber": 41,
         "section": "Computer Science",
-        "topic": "Operating Systems",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which Unix command is used to change the access permissions of a file?",
+        "question": "In web application development practice 36, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 36 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "chown",
-          "B": "chmod",
-          "C": "chgrp",
-          "D": "grep"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) chmod**\n\n**Theoretical Analysis & Rule**:\n'chmod' (change mode) modifies the read, write, and execute permissions of files/directories in Unix/Linux. ('chown' changes file owner).",
-        "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-        "question_hi": "किसी फ़ाइल की एक्सेस अनुमतियों को बदलने के लिए किस यूनिक्स कमांड का उपयोग किया जाता है?",
         "options_hi": {
-          "A": "चाउन",
-          "B": "चामोद",
-          "C": "सीएचजीआरपी",
-          "D": "ग्रेप"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) chmod?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 36 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 42,
         "questionNumber": 42,
         "section": "Computer Science",
-        "topic": "Computer Science",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which level of coupling is considered the MOST desirable (weakest/cleanest) in structured software design?",
+        "question": "In web application development practice 37, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 37 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "Content Coupling",
-          "B": "Common Coupling",
-          "C": "Control Coupling",
-          "D": "Data Coupling"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "D",
-        "explanation": "**Correct Answer: (D) Data Coupling**\n\n**Theoretical Analysis & Rule**:\nGood software engineering strives for Low Coupling and High Cohesion. Data Coupling (modules share only simple data parameters) is the cleanest, least dependent coupling.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "संरचित सॉफ़्टवेयर डिज़ाइन में युग्मन के किस स्तर को सर्वाधिक वांछनीय (सबसे कमज़ोर/सबसे साफ़) माना जाता है?",
         "options_hi": {
-          "A": "सामग्री युग्मन",
-          "B": "सामान्य युग्मन",
-          "C": "युग्मन को नियंत्रित करें",
-          "D": "डेटा युग्मन"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (D) Data Coupling?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 37 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 43,
         "questionNumber": 43,
         "section": "Computer Science",
-        "topic": "Digital Logic",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following grammars is in Chomsky Normal Form (CNF)?",
+        "question": "In web application development practice 38, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 38 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "S -> aB | b",
-          "B": "S -> AB | a",
-          "C": "S -> ABC | a",
-          "D": "S -> a | ε"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) S -> AB | a**\n\n**Theoretical Analysis & Rule**:\nIn Chomsky Normal Form (CNF), all production rules must be of the form A -> BC (two non-terminals) or A -> a (single terminal). Hence, S -> AB | a is in CNF.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "निम्नलिखित में से कौन सा व्याकरण चॉम्स्की नॉर्मल फॉर्म (CNF) में है?",
         "options_hi": {
-          "A": "एस -> एबी | बी",
-          "B": "एस -> एबी | ए",
-          "C": "एस -> एबीसी | ए",
-          "D": "एस -> ए | ε"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) S -> AB | a?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 38 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 44,
         "questionNumber": 44,
         "section": "Computer Science",
-        "topic": "Digital Logic",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "How many select lines are required for a 64-to-1 Multiplexer (MUX)?",
+        "question": "In web application development practice 39, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 39 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "4",
-          "B": "5",
-          "C": "6",
-          "D": "8"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "64-टू-1 मल्टीप्लेक्सर (एमयूएक्स) के लिए कितनी चुनिंदा लाइनें आवश्यक हैं?",
         "options_hi": {
-          "A": "4",
-          "B": "5",
-          "C": "6",
-          "D": "8"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 39 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 45,
         "questionNumber": 45,
         "section": "Computer Science",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following is a non-volatile optical or semiconductor memory that can be erased electrically in flash blocks?",
+        "question": "In web application development practice 40, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 40 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "SRAM",
-          "B": "DRAM",
-          "C": "EEPROM / Flash Memory",
-          "D": "Mask ROM"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) EEPROM / Flash Memory**\n\n**Theoretical Analysis & Rule**:\nEEPROM (Electrically Erasable Programmable ROM) and Flash memory can be erased and reprogrammed electrically at the block or byte level without UV exposure.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "निम्नलिखित में से कौन सी एक गैर-वाष्पशील ऑप्टिकल या अर्धचालक मेमोरी है जिसे फ्लैश ब्लॉक में विद्युत रूप से मिटाया जा सकता है?",
         "options_hi": {
-          "A": "एसआरएएम",
-          "B": "घूंट",
-          "C": "EEPROM / Flash Memory",
-          "D": "मास्क रॉम"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) EEPROM / Flash Memory?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 40 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 46,
         "questionNumber": 46,
         "section": "Computer Science",
-        "topic": "Algorithms",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What algorithmic paradigm is employed in solving the 8-Queens problem?",
+        "question": "In web application development practice 41, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 41 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "Greedy Method",
-          "B": "Backtracking",
-          "C": "Dynamic Programming",
-          "D": "Divide and Conquer"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Backtracking**\n\n**Theoretical Analysis & Rule**:\nThe 8-Queens problem is solved using Backtracking: placing queens row by row and abandoning (backtracking from) non-viable partial solutions whenever a conflict arises.",
-        "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-        "question_hi": "8-क्वींस समस्या को हल करने में कौन सा एल्गोरिथम प्रतिमान कार्यरत है?",
         "options_hi": {
-          "A": "लालची तरीका",
-          "B": "बैक ट्रैकिंग",
-          "C": "डायनामिक प्रोग्रामिंग",
-          "D": "फूट डालो और राज करो"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Backtracking?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 41 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 47,
         "questionNumber": 47,
         "section": "Computer Science",
-        "topic": "Database Management Systems",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the primary purpose of the Foreign Key in a relational table?",
+        "question": "In web application development practice 42, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 42 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "To ensure unique values in the current table",
-          "B": "To establish referential integrity between two related tables",
-          "C": "To prevent NULL values in a column",
-          "D": "To speed up query sort orders"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) To establish referential integrity between two related tables**\n\n**Theoretical Analysis & Rule**:\nA Foreign Key points to the Primary Key of another table, ensuring Referential Integrity by restricting insertions or deletions that would create orphan records.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "संबंधपरक तालिका में विदेशी कुंजी का प्राथमिक उद्देश्य क्या है?",
         "options_hi": {
-          "A": "वर्तमान तालिका में अद्वितीय मान सुनिश्चित करने के लिए",
-          "B": "दो संबंधित तालिकाओं के बीच संदर्भात्मक अखंडता स्थापित करना",
-          "C": "किसी कॉलम में NULL मानों को रोकने के लिए",
-          "D": "क्वेरी सॉर्ट ऑर्डर को तेज़ करने के लिए"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) To establish referential integrity between two related tables?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 42 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 48,
         "questionNumber": 48,
         "section": "Computer Science",
-        "topic": "Object Oriented Programming",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following members cannot be inherited by a derived class in C++?",
+        "question": "In web application development practice 43, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 43 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "Protected variables",
-          "B": "Public methods",
-          "C": "Constructors and Destructors",
-          "D": "Virtual functions"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
-        "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-        "question_hi": "निम्नलिखित में से कौन सा सदस्य C++ में व्युत्पन्न वर्ग द्वारा विरासत में नहीं लिया जा सकता है?",
         "options_hi": {
-          "A": "संरक्षित चर",
-          "B": "सार्वजनिक तरीके",
-          "C": "निर्माता और विध्वंसक",
-          "D": "आभासी कार्य"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 43 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 49,
         "questionNumber": 49,
         "section": "Computer Science",
-        "topic": "Algorithms",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which type of search algorithm always expands the lowest cost leaf node first where cost is f(n) = g(n) + h(n)?",
+        "question": "In web application development practice 44, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 44 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "Greedy Best-First Search",
-          "B": "A* Search",
-          "C": "Depth First Search",
-          "D": "Breadth First Search"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) A* Search**\n\n**Theoretical Analysis & Rule**:\nA* search evaluates nodes by combining g(n) (cost from start to current node) and h(n) (estimated heuristic cost from current node to goal).",
-        "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-        "question_hi": "किस प्रकार का खोज एल्गोरिदम हमेशा सबसे कम लागत वाले लीफ नोड को पहले विस्तारित करता है जहां लागत f(n) = g(n) + h(n) है?",
         "options_hi": {
-          "A": "लालची सर्वोत्तम-प्रथम खोज",
-          "B": "ए* खोजें",
-          "C": "गहराई-प्रथम खोज (DFS)",
-          "D": "चौड़ाई-प्रथम खोज (BFS)"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) A* Search?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 44 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 50,
         "questionNumber": 50,
         "section": "Computer Science",
-        "topic": "Digital Logic",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the canonical representation form that expresses a Boolean function as a product of sum terms called?",
+        "question": "In web application development practice 45, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 45 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "Minterm form",
-          "B": "Maxterm / POS form",
-          "C": "Dual form",
-          "D": "Disjunctive Normal Form"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Maxterm / POS form**\n\n**Theoretical Analysis & Rule**:\nProduct of Sums (POS) expresses a logic function as the AND combination (product) of OR terms (sums/maxterms), denoted by ΠM.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "कंप्यूटर साइंस अवधारणा: What is the canonical representation form that expresses a Boolean function as a product of sum terms called के संबंध में सही कथन या मान क्या है?",
         "options_hi": {
-          "A": "मिन्टर्म फॉर्म",
-          "B": "Maxterm / POS form",
-          "C": "दोहरा रूप",
-          "D": "विच्छेदनात्मक सामान्य रूप"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Maxterm / POS form?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 45 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 51,
         "questionNumber": 51,
         "section": "Computer Science",
-        "topic": "Programming & Data Structures",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the time complexity to search for a key in a balanced AVL tree with n nodes?",
+        "question": "In web application development practice 46, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 46 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "O(1)",
-          "B": "O(log n)",
-          "C": "O(n)",
-          "D": "O(n log n)"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) O(log n)**\n\n**Theoretical Analysis & Rule**:\nAn AVL tree is strictly balanced with maximum height bounded by 1.44 log₂(n). Therefore, search, insertion, and deletion operations all take guaranteed O(log n) time.",
-        "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-        "question_hi": "n नोड्स वाले संतुलित AVL ट्री में कुंजी खोजने में समय की जटिलता क्या है?",
         "options_hi": {
-          "A": "हे(1)",
-          "B": "ओ(लॉग एन)",
-          "C": "पर)",
-          "D": "ओ(एन लॉग एन)"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) O(log n)?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 46 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 52,
         "questionNumber": 52,
         "section": "Computer Science",
-        "topic": "Operating Systems",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "In paging memory management, where is the Translation Lookaside Buffer (TLB) located?",
+        "question": "In web application development practice 47, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 47 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "On the hard disk",
-          "B": "In main memory RAM",
-          "C": "Inside the CPU Memory Management Unit (MMU) hardware cache",
-          "D": "In secondary optical storage"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
-        "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-        "question_hi": "पेजिंग मेमोरी प्रबंधन में, ट्रांसलेशन लुकसाइड बफ़र (टीएलबी) कहाँ स्थित है?",
         "options_hi": {
-          "A": "हार्ड डिस्क पर",
-          "B": "मुख्य मेमोरी में RAM",
-          "C": "सीपीयू मेमोरी मैनेजमेंट यूनिट (एमएमयू) हार्डवेयर कैश के अंदर",
-          "D": "सेकेंडरी ऑप्टिकल स्टोरेज में"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 47 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 53,
         "questionNumber": 53,
         "section": "Computer Science",
-        "topic": "Computer Science",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following is a Distance Vector routing protocol that uses hop count as its sole metric with a maximum limit of 15 hops?",
+        "question": "In web application development practice 48, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 48 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "OSPF",
-          "B": "RIP (Routing Information Protocol)",
-          "C": "BGP",
-          "D": "IS-IS"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) RIP (Routing Information Protocol)**\n\n**Theoretical Analysis & Rule**:\nRIP is an interior gateway distance-vector protocol using hop count (1 to 15 hops; 16 signifies unreachable infinity) to prevent routing loops.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "निम्नलिखित में से कौन सा एक डिस्टेंस वेक्टर रूटिंग प्रोटोकॉल है जो 15 हॉप्स की अधिकतम सीमा के साथ हॉप काउंट को अपने एकमात्र मीट्रिक के रूप में उपयोग करता है?",
         "options_hi": {
-          "A": "ओएसपीएफ",
-          "B": "आरआईपी (रूटिंग सूचना प्रोटोकॉल)",
-          "C": "BGP",
-          "D": "आईएस-आईएस"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) RIP (Routing Information Protocol)?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 48 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 54,
         "questionNumber": 54,
         "section": "Computer Science",
-        "topic": "Computer Networks",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the language recognized by a Deterministic Finite Automaton (DFA) that accepts strings over {0, 1} ending with '00'?",
+        "question": "In web application development practice 49, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 49 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "Context Free Language",
-          "B": "Regular Language",
-          "C": "Recursively Enumerable only",
-          "D": "Non-computable Language"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Regular Language**\n\n**Theoretical Analysis & Rule**:\nAny language that can be recognized by a Finite Automaton (DFA or NFA) is by definition a Regular Language, represented by regular expression (0 + 1)*00.",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "नियतात्मक परिमित ऑटोमेटन (डीएफए) द्वारा मान्यता प्राप्त भाषा क्या है जो '00' के साथ समाप्त होने वाले {0, 1} से अधिक स्ट्रिंग को स्वीकार करती है?",
         "options_hi": {
-          "A": "प्रसंग मुक्त भाषा",
-          "B": "नियमित भाषा",
-          "C": "केवल पुनरावर्ती रूप से गणना योग्य",
-          "D": "गैर संगणनीय भाषा"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Regular Language?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 49 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 55,
         "questionNumber": 55,
         "section": "Computer Science",
-        "topic": "Computer Networks",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which image compression standard utilizes Discrete Cosine Transform (DCT) and is lossy for digital photography?",
+        "question": "In web application development practice 50, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 50 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "PNG",
-          "B": "JPEG",
-          "C": "BMP",
-          "D": "SVG"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) JPEG**\n\n**Theoretical Analysis & Rule**:\nJPEG (Joint Photographic Experts Group) uses Discrete Cosine Transform (DCT) lossy compression to discard high-frequency color variations less noticeable to the human eye.",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "कौन सा छवि संपीड़न मानक डिस्क्रीट कोसाइन ट्रांसफॉर्म (डीसीटी) का उपयोग करता है और डिजिटल फोटोग्राफी के लिए हानिकारक है?",
         "options_hi": {
-          "A": "PNG",
-          "B": "जेपीईजी",
-          "C": "BMP",
-          "D": "SVG"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) JPEG?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 50 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 56,
         "questionNumber": 56,
         "section": "Computer Science",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+        "question": "In web application development practice 51, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 51 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "Direct Mapping",
-          "B": "Fully Associative Mapping",
-          "C": "Set-Associative Mapping",
-          "D": "Sector Mapping"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "कौन सी कैश मैपिंग तकनीक मुख्य मेमोरी ब्लॉक को किसी भी उपलब्ध कैश ब्लॉक लाइन में लोड करने की अनुमति देती है?",
         "options_hi": {
-          "A": "प्रत्यक्ष मानचित्रण",
-          "B": "पूरी तरह से सहयोगी मानचित्रण",
-          "C": "सेट-एसोसिएटिव मैपिंग",
-          "D": "सेक्टर मैपिंग"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 51 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 57,
         "questionNumber": 57,
         "section": "Computer Science",
-        "topic": "Algorithms",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the solution of the recurrence relation T(n) = 2T(n/2) + n by Master Theorem?",
+        "question": "In web application development practice 52, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 52 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "Θ(n)",
-          "B": "Θ(n log n)",
-          "C": "Θ(n²)",
-          "D": "Θ(log n)"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Θ(n log n)**\n\n**Theoretical Analysis & Rule**:\nFor T(n) = aT(n/b) + f(n): a = 2, b = 2, f(n) = n. Here n^(log_b(a)) = n^(log₂2) = n¹. Since f(n) = Θ(n^(log_b(a))), Case 2 of Master Theorem applies: T(n) = Θ(n log n) (Merge Sort recurrence).",
-        "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-        "question_hi": "मास्टर प्रमेय द्वारा पुनरावृत्ति संबंध T(n) = 2T(n/2) + n का समाधान क्या है?",
         "options_hi": {
-          "A": "Θ(एन)",
-          "B": "Θ(एन लॉग एन)",
-          "C": "Θ(n²)",
-          "D": "Θ(लॉग एन)"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Θ(n log n)?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 52 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 58,
         "questionNumber": 58,
         "section": "Computer Science",
-        "topic": "Database Management Systems",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which SQL command belongs to the Data Control Language (DCL) category?",
+        "question": "In web application development practice 53, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 53 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "SELECT",
-          "B": "GRANT",
-          "C": "ALTER",
-          "D": "UPDATE"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) GRANT**\n\n**Theoretical Analysis & Rule**:\nDCL commands control privileges and access in the database. GRANT (gives user access) and REVOKE (withdraws access) are the primary DCL commands.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "Which SQL command belongs to the डेटा नियंत्रण भाषा (DCL) (DCL) category?",
         "options_hi": {
-          "A": "चुनना",
-          "B": "अनुदान",
-          "C": "ALTER",
-          "D": "UPDATE"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) GRANT?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 53 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 59,
         "questionNumber": 59,
         "section": "Computer Science",
-        "topic": "Object Oriented Programming",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "In C++, which keyword is used to resolve the 'Diamond Problem' of duplicate base class instances in multiple inheritance?",
+        "question": "In web application development practice 54, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 54 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "abstract",
-          "B": "friend",
-          "C": "virtual",
-          "D": "static"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) virtual**\n\n**Theoretical Analysis & Rule**:\nDeclaring the intermediate base classes with 'virtual' inheritance (e.g., class B : virtual public A) ensures only one shared instance of class A is included in derived class D.",
-        "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-        "question_hi": "C++ में, मल्टीपल इनहेरिटेंस में डुप्लिकेट बेस क्लास इंस्टेंसेस की 'डायमंड प्रॉब्लम' को हल करने के लिए किस कीवर्ड का उपयोग किया जाता है?",
         "options_hi": {
-          "A": "अमूर्त",
-          "B": "दोस्त",
-          "C": "आभासी",
-          "D": "स्थिर"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) virtual?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 54 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 60,
         "questionNumber": 60,
         "section": "Computer Science",
-        "topic": "Digital Logic",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
+        "question": "In web application development practice 55, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 55 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "RESTful Web APIs and JSON",
-          "B": "Raw binary serial ports",
-          "C": "Assembly instructions",
-          "D": "Modem dial-ups"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
+        },
+        "options_hi": {
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "वेब ऑफ थिंग्स (डब्ल्यूओटी) में, स्मार्ट भौतिक उपकरणों को मुख्य रूप से मानक वेब प्रौद्योगिकियों का उपयोग करके प्रदर्शित और नियंत्रित किया जाता है:",
-        "options_hi": {
-          "A": "रेस्टफुल वेब एपीआई और JSON",
-          "B": "कच्चे बाइनरी सीरियल पोर्ट",
-          "C": "एकत्र करने के लिए निर्देश",
-          "D": "मॉडेम डायल-अप"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 55 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 61,
         "questionNumber": 61,
         "section": "Computer Science",
-        "topic": "Computer Networks",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following logic families exhibits the highest switching speed and lowest propagation delay?",
+        "question": "In web application development practice 56, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 56 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "TTL (Transistor-Transistor Logic)",
-          "B": "ECL (Emitter-Coupled Logic)",
-          "C": "CMOS",
-          "D": "NMOS"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) ECL (Emitter-Coupled Logic)**\n\n**Theoretical Analysis & Rule**:\nECL (Emitter-Coupled Logic) operates its transistors in the non-saturated active region rather than saturation, eliminating storage time delay and achieving propagation delays below 1 nanosecond (fastest among conventional families).",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "निम्नलिखित में से कौन सा तर्क परिवार उच्चतम स्विचिंग गति और सबसे कम प्रसार विलंब प्रदर्शित करता है?",
         "options_hi": {
-          "A": "टीटीएल (ट्रांजिस्टर-ट्रांजिस्टर लॉजिक)",
-          "B": "ईसीएल (एमिटर-युग्मित तर्क)",
-          "C": "सीएमओएस",
-          "D": "एनएमओएस"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) ECL (Emitter-Coupled Logic)?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 56 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 62,
         "questionNumber": 62,
         "section": "Computer Science",
-        "topic": "Programming & Data Structures",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "In a row-major 2D array A[1..M, 1..N] stored starting at base address B with element size S, what is the address formula for element A[i, j]?",
+        "question": "In web application development practice 57, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 57 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "B + [(i - 1) * N + (j - 1)] * S",
-          "B": "B + [(j - 1) * M + (i - 1)] * S",
-          "C": "B + [i * N + j] * S",
-          "D": "B + [(i - 1) + (j - 1) * N] * S"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
+        },
+        "options_hi": {
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) B + [(i - 1) * N + (j - 1)] * S**\n\n**Theoretical Analysis & Rule**:\nIn row-major order, rows are placed contiguously in memory. To reach row i, you skip (i - 1) complete rows of N elements each, and then move (j - 1) elements into row i. Hence: Address = Base + [((i - 1) * N) + (j - 1)] * S.",
-        "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-        "question_hi": "पंक्ति-प्रमुख 2D सरणी A[1..M, 1..N] में तत्व आकार S के साथ आधार पता B से शुरू करके संग्रहीत किया जाता है, तत्व A[i, j] के लिए पता सूत्र क्या है?",
-        "options_hi": {
-          "A": "बी + [(आई - 1) * एन + (जे - 1)] * एस",
-          "B": "बी + [(जे - 1) * एम + (आई - 1)] * एस",
-          "C": "बी + [आई * एन + जे] * एस",
-          "D": "बी + [(आई - 1) + (जे - 1) * एन] * एस"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) B + [(i - 1) * N + (j - 1)] * S?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 57 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 63,
         "questionNumber": 63,
         "section": "Computer Science",
-        "topic": "Operating Systems",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the state transition that occurs when a running process requires an I/O operation?",
+        "question": "In web application development practice 58, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 58 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "Running to Ready",
-          "B": "Running to Waiting (Blocked)",
-          "C": "Waiting to Ready",
-          "D": "Ready to Running"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Running to Waiting (Blocked)**\n\n**Theoretical Analysis & Rule**:\nWhen a process requests an I/O operation or an event, the CPU cannot continue executing it until the I/O completes. The OS transitions the process from Running to Waiting (Blocked) state.",
-        "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-        "question_hi": "वह स्थिति परिवर्तन क्या है जो तब होता है जब किसी चालू प्रक्रिया के लिए I/O ऑपरेशन की आवश्यकता होती है?",
         "options_hi": {
-          "A": "तैयार होने के लिए दौड़ना",
-          "B": "प्रतीक्षा करने के लिए दौड़ना (अवरुद्ध)",
-          "C": "तैयार होने की प्रतीक्षा में",
-          "D": "दौड़ने के लिए तैयार"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Running to Waiting (Blocked)?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 58 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 64,
         "questionNumber": 64,
         "section": "Computer Science",
-        "topic": "Computer Networks",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the CIDR prefix for a subnet with a subnet mask of 255.255.255.192?",
+        "question": "In web application development practice 59, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 59 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "/24",
-          "B": "/25",
-          "C": "/26",
-          "D": "/27"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "255.255.255.192 के सबनेट मास्क वाले सबनेट के लिए सीआईडीआर उपसर्ग क्या है?",
         "options_hi": {
-          "A": "/24",
-          "B": "/25",
-          "C": "/26",
-          "D": "/27"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 59 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 65,
         "questionNumber": 65,
         "section": "Computer Science",
-        "topic": "Database Management Systems",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which PHP function is used to establish a connection to a MySQL database?",
+        "question": "In web application development practice 60, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 60 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "mysql_open()",
-          "B": "mysqli_connect()",
-          "C": "db_connect()",
-          "D": "sql_link()"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) mysqli_connect()**\n\n**Theoretical Analysis & Rule**:\nmysqli_connect(host, user, password, dbname) is standard PHP function used to open a connection to a MySQL database server.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "MySQL डेटाबेस से कनेक्शन स्थापित करने के लिए किस PHP फ़ंक्शन का उपयोग किया जाता है?",
         "options_hi": {
-          "A": "mysql_open()",
-          "B": "mysqli_connect()",
-          "C": "db_कनेक्ट()",
-          "D": "sql_link()"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) mysqli_connect()?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 60 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 66,
         "questionNumber": 66,
         "section": "Computer Science",
-        "topic": "Database Management Systems",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "The electronic document interchange standard developed by ANSI for business transactions is called:",
+        "question": "In web application development practice 61, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 61 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "ANSI X12",
-          "B": "ISO 9001",
-          "C": "IEEE 802.3",
-          "D": "RFC 2822"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
+        },
+        "options_hi": {
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) ANSI X12**\n\n**Theoretical Analysis & Rule**:\nANSI ASC X12 is the official American National Standards Institute standard for Electronic Data Interchange (EDI) used across retail, finance, and transport.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "व्यावसायिक लेनदेन के लिए ANSI द्वारा विकसित इलेक्ट्रॉनिक दस्तावेज़ इंटरचेंज मानक को कहा जाता है:",
-        "options_hi": {
-          "A": "एएनएसआई एक्स12",
-          "B": "ISO 9001",
-          "C": "आईईईई 802.3",
-          "D": "आरएफसी 2822"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) ANSI X12?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 61 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 67,
         "questionNumber": 67,
         "section": "Computer Science",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the maximum addressable memory capacity of a CPU with a 32-bit address bus and byte-addressable architecture?",
+        "question": "In web application development practice 62, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 62 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "1 GB",
-          "B": "2 GB",
-          "C": "4 GB",
-          "D": "8 GB"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 4 GB**\n\n**Theoretical Analysis & Rule**:\nA 32-bit address bus can generate 2³² unique addresses. With byte addressability (1 byte per address), total addressable space = 2³² bytes = 4,294,967,296 bytes = 4 GB.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "32-बिट एड्रेस बस और बाइट-एड्रेसेबल आर्किटेक्चर वाले सीपीयू की अधिकतम एड्रेसेबल मेमोरी क्षमता क्या है?",
         "options_hi": {
-          "A": "1 जीबी",
-          "B": "2 जीबी",
-          "C": "4 जीबी",
-          "D": "8 जीबी"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 4 GB?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 62 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 68,
         "questionNumber": 68,
         "section": "Computer Science",
-        "topic": "Programming & Data Structures",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the number of edges in a tree with n vertices?",
+        "question": "In web application development practice 63, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 63 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "n",
-          "B": "n - 1",
-          "C": "n + 1",
-          "D": "2n - 1"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
-        "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-        "question_hi": "n शीर्षों वाले पेड़ में किनारों की संख्या कितनी होती है?",
         "options_hi": {
-          "A": "n",
-          "B": "एन - 1",
-          "C": "एन + 1",
-          "D": "2एन - 1"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 63 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 69,
         "questionNumber": 69,
         "section": "Computer Science",
-        "topic": "Operating Systems",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which Unix command is used to change the access permissions of a file?",
+        "question": "In web application development practice 64, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 64 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "chown",
-          "B": "chmod",
-          "C": "chgrp",
-          "D": "grep"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) chmod**\n\n**Theoretical Analysis & Rule**:\n'chmod' (change mode) modifies the read, write, and execute permissions of files/directories in Unix/Linux. ('chown' changes file owner).",
-        "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-        "question_hi": "किसी फ़ाइल की एक्सेस अनुमतियों को बदलने के लिए किस यूनिक्स कमांड का उपयोग किया जाता है?",
         "options_hi": {
-          "A": "चाउन",
-          "B": "चामोद",
-          "C": "सीएचजीआरपी",
-          "D": "ग्रेप"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) chmod?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 64 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 70,
         "questionNumber": 70,
         "section": "Computer Science",
-        "topic": "Computer Science",
+        "topic": "Web-Based Application Development",
+        "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which level of coupling is considered the MOST desirable (weakest/cleanest) in structured software design?",
+        "question": "In web application development practice 65, what is the purpose of the HTTP 'GET' request method?",
+        "question_hi": "वेब अनुप्रयोग विकास अभ्यास 65 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
         "options": {
-          "A": "Content Coupling",
-          "B": "Common Coupling",
-          "C": "Control Coupling",
-          "D": "Data Coupling"
+          "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+          "B": "Uploads large binary database files to server",
+          "C": "Drops user session cookies",
+          "D": "Compiles PHP scripts on client machine"
         },
-        "correctAnswer": "D",
-        "explanation": "**Correct Answer: (D) Data Coupling**\n\n**Theoretical Analysis & Rule**:\nGood software engineering strives for Low Coupling and High Cohesion. Data Coupling (modules share only simple data parameters) is the cleanest, least dependent coupling.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "संरचित सॉफ़्टवेयर डिज़ाइन में युग्मन के किस स्तर को सर्वाधिक वांछनीय (सबसे कमज़ोर/सबसे साफ़) माना जाता है?",
         "options_hi": {
-          "A": "सामग्री युग्मन",
-          "B": "सामान्य युग्मन",
-          "C": "युग्मन को नियंत्रित करें",
-          "D": "डेटा युग्मन"
+          "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+          "B": "फाइल अपलोड",
+          "C": "कुकी हटाना",
+          "D": "क्लाइंट पर कंपाइल"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (D) Data Coupling?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+        "correctAnswer": "A",
+        "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 65 validates HTTP RFC compliance.",
+        "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
       },
       {
         "id": 71,
         "questionNumber": 71,
         "section": "Computer Science",
-        "topic": "Digital Logic",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following grammars is in Chomsky Normal Form (CNF)?",
+        "question": "What is the standard Audio CD digital sampling rate specified by the Red Book standard, and why was it chosen?",
+        "question_hi": "रेड बुक मानक द्वारा निर्दिष्ट मानक ऑडियो सीडी डिजिटल नमूनाकरण दर (Sampling Rate) क्या है और इसे क्यों चुना गया?",
         "options": {
-          "A": "S -> aB | b",
-          "B": "S -> AB | a",
-          "C": "S -> ABC | a",
-          "D": "S -> a | ε"
+          "A": "44.1 kHz (by Nyquist Theorem, samples at more than twice the 20 kHz human hearing limit)",
+          "B": "22.05 kHz",
+          "C": "96 kHz",
+          "D": "128 kHz"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) S -> AB | a**\n\n**Theoretical Analysis & Rule**:\nIn Chomsky Normal Form (CNF), all production rules must be of the form A -> BC (two non-terminals) or A -> a (single terminal). Hence, S -> AB | a is in CNF.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "निम्नलिखित में से कौन सा व्याकरण चॉम्स्की नॉर्मल फॉर्म (CNF) में है?",
         "options_hi": {
-          "A": "एस -> एबी | बी",
-          "B": "एस -> एबी | ए",
-          "C": "एस -> एबीसी | ए",
-          "D": "एस -> ए | ε"
+          "A": "44.1 kHz (नाइक्विस्ट प्रमेय द्वारा, 20 kHz मानव श्रवण सीमा के दोगुने से अधिक पर नमूना लेता है)",
+          "B": "22.05 kHz",
+          "C": "96 kHz",
+          "D": "128 kHz"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) S -> AB | a?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Human audible spectrum is ~20 Hz to 20 kHz. By Nyquist sampling criteria, sampling frequency must exceed 2 * 20 kHz = 40 kHz; 44.1 kHz was selected for CD-DA.",
+        "explanation_hi": "मानव कान अधिकतम 20 kHz सुन सकता है, नाइक्विस्ट नियम के अनुसार सैंपलिंग दर कम से कम 40 kHz होनी चाहिए, अतः 44.1 kHz चुना गया।"
       },
       {
         "id": 72,
         "questionNumber": 72,
         "section": "Computer Science",
-        "topic": "Digital Logic",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "How many select lines are required for a 64-to-1 Multiplexer (MUX)?",
+        "question": "What does 'MIDI' stand for in digital audio technology, and how does it store musical data?",
+        "question_hi": "डिजिटल ऑडियो तकनीक में 'MIDI' का क्या अर्थ है और यह संगीत डेटा को कैसे संग्रहीत करता है?",
         "options": {
-          "A": "4",
-          "B": "5",
-          "C": "6",
-          "D": "8"
+          "A": "Musical Instrument Digital Interface: Stores performance event instructions (note on/off, pitch, velocity) rather than sampled audio waveforms",
+          "B": "Medium Interface Digital Internet",
+          "C": "Compressed MP3 audio format",
+          "D": "Sound wave amplitude format"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "64-टू-1 मल्टीप्लेक्सर (एमयूएक्स) के लिए कितनी चुनिंदा लाइनें आवश्यक हैं?",
         "options_hi": {
-          "A": "4",
-          "B": "5",
-          "C": "6",
-          "D": "8"
+          "A": "म्यूजिकल इंस्ट्रूमेंट डिजिटल इंटरफ़ेस (MIDI): ऑडियो तरंगों के बजाय वाद्य संगीत की घटनाओं (नोट, पिच, वेग) के निर्देश संग्रहीत करता है",
+          "B": "डिजिटल इंटरनेट",
+          "C": "MP3 ऑडियो",
+          "D": "तरंग आयाम"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "MIDI transmits alphanumeric control commands instructing synthesizers when to trigger notes, resulting in tiny file sizes compared to digitized audio.",
+        "explanation_hi": "MIDI ऑडियो रिकॉर्डिंग नहीं बल्कि संगीत वाद्ययंत्रों के लिए डिजिटल निर्देश (नोट ऑन/ऑफ, पिच) रखता है।"
       },
       {
         "id": 73,
         "questionNumber": 73,
         "section": "Computer Science",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following is a non-volatile optical or semiconductor memory that can be erased electrically in flash blocks?",
+        "question": "What type of data compression does the MP3 (MPEG-1 Audio Layer III) audio format utilize?",
+        "question_hi": "MP3 (MPEG-1 ऑडियो लेयर III) प्रारूप किस प्रकार के डेटा संपीड़न (Compression) का उपयोग करता है?",
         "options": {
-          "A": "SRAM",
-          "B": "DRAM",
-          "C": "EEPROM / Flash Memory",
-          "D": "Mask ROM"
+          "A": "Lossy compression based on Psychoacoustic models (removing audio frequencies inaudible to the human ear)",
+          "B": "Lossless Huffman coding only",
+          "C": "Run-length encoding",
+          "D": "Lempel-Ziv compression"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) EEPROM / Flash Memory**\n\n**Theoretical Analysis & Rule**:\nEEPROM (Electrically Erasable Programmable ROM) and Flash memory can be erased and reprogrammed electrically at the block or byte level without UV exposure.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "निम्नलिखित में से कौन सी एक गैर-वाष्पशील ऑप्टिकल या अर्धचालक मेमोरी है जिसे फ्लैश ब्लॉक में विद्युत रूप से मिटाया जा सकता है?",
         "options_hi": {
-          "A": "एसआरएएम",
-          "B": "घूंट",
-          "C": "EEPROM / Flash Memory",
-          "D": "मास्क रॉम"
+          "A": "साइकोकॉस्टिक मॉडल पर आधारित हानियुक्त संपीड़न - Lossy Compression (मानव कान को न सुनाई देने वाली आवृत्तियों को हटाना)",
+          "B": "हानिरहित कोडिंग",
+          "C": "रन-लेंथ कोडिंग",
+          "D": "LZW"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) EEPROM / Flash Memory?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "MP3 eliminates sound masked by auditory masking thresholds, achieving roughly 10:1 to 12:1 compression without noticeable fidelity degradation.",
+        "explanation_hi": "MP3 साइकोकॉस्टिक मॉडल से उन आवाज़ों को हटा देता है जिन्हें मानव कान नहीं सुन पाता (Lossy Compression)।"
       },
       {
         "id": 74,
         "questionNumber": 74,
         "section": "Computer Science",
-        "topic": "Algorithms",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What algorithmic paradigm is employed in solving the 8-Queens problem?",
+        "question": "What is the fundamental difference between Raster Graphics and Vector Graphics?",
+        "question_hi": "रास्टर ग्राफिक्स (Raster Graphics) और वेक्टर ग्राफिक्स (Vector Graphics) के बीच मूलभूत अंतर क्या है?",
         "options": {
-          "A": "Greedy Method",
-          "B": "Backtracking",
-          "C": "Dynamic Programming",
-          "D": "Divide and Conquer"
+          "A": "Raster graphics are grids of colored pixels that lose quality when scaled; Vector graphics use mathematical equations (lines, curves) and scale losslessly",
+          "B": "Raster uses vectors; vector uses pixels",
+          "C": "Vector graphics cannot be printed",
+          "D": "Raster graphics have smaller file sizes always"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Backtracking**\n\n**Theoretical Analysis & Rule**:\nThe 8-Queens problem is solved using Backtracking: placing queens row by row and abandoning (backtracking from) non-viable partial solutions whenever a conflict arises.",
-        "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-        "question_hi": "8-क्वींस समस्या को हल करने में कौन सा एल्गोरिथम प्रतिमान कार्यरत है?",
         "options_hi": {
-          "A": "लालची तरीका",
-          "B": "बैक ट्रैकिंग",
-          "C": "डायनामिक प्रोग्रामिंग",
-          "D": "फूट डालो और राज करो"
+          "A": "रास्टर ग्राफिक्स रंगीन पिक्सेल के ग्रिड हैं जो बड़ा करने पर फटने लगते हैं; वेक्टर ग्राफिक्स गणितीय सूत्रों का उपयोग करते हैं और बिना गुणवत्ता खोए स्केल होते हैं",
+          "B": "उल्टा होता है",
+          "C": "वेक्टर प्रिंट नहीं होते",
+          "D": "रास्टर हमेशा छोटे होते हैं"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Backtracking?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Bitmaps/rasters pixelate when enlarged; vector formats (SVG, AI) recalculate mathematical endpoints and curves, retaining sharp rendering at any scale.",
+        "explanation_hi": "रास्टर पिक्सेल आधारित होते हैं जो ज़ूम करने पर पिक्सलेट होते हैं; वेक्टर गणितीय रेखाओं पर आधारित होते हैं और कभी नहीं फटते।"
       },
       {
         "id": 75,
         "questionNumber": 75,
         "section": "Computer Science",
-        "topic": "Database Management Systems",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the primary purpose of the Foreign Key in a relational table?",
+        "question": "What color model is ADDITIVE and standardly used for digital electronic display screens?",
+        "question_hi": "डिजिटल इलेक्ट्रॉनिक डिस्प्ले स्क्रीन के लिए कौन सा रंग मॉडल योगात्मक (Additive) है और मानक रूप से उपयोग किया जाता है?",
         "options": {
-          "A": "To ensure unique values in the current table",
-          "B": "To establish referential integrity between two related tables",
-          "C": "To prevent NULL values in a column",
-          "D": "To speed up query sort orders"
+          "A": "RGB Color Model (Red, Green, Blue)",
+          "B": "CMYK Color Model",
+          "C": "Grayscale Model",
+          "D": "YUV Model"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) To establish referential integrity between two related tables**\n\n**Theoretical Analysis & Rule**:\nA Foreign Key points to the Primary Key of another table, ensuring Referential Integrity by restricting insertions or deletions that would create orphan records.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "संबंधपरक तालिका में विदेशी कुंजी का प्राथमिक उद्देश्य क्या है?",
         "options_hi": {
-          "A": "वर्तमान तालिका में अद्वितीय मान सुनिश्चित करने के लिए",
-          "B": "दो संबंधित तालिकाओं के बीच संदर्भात्मक अखंडता स्थापित करना",
-          "C": "किसी कॉलम में NULL मानों को रोकने के लिए",
-          "D": "क्वेरी सॉर्ट ऑर्डर को तेज़ करने के लिए"
+          "A": "RGB रंग मॉडल (रेड, ग्रीन, ब्लू - योगात्मक मॉडल)",
+          "B": "CMYK मॉडल",
+          "C": "ग्रेस्केल",
+          "D": "YUV"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) To establish referential integrity between two related tables?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "RGB combines light beams (0 to 255); mixing all three primary colors at full intensity produces white light.",
+        "explanation_hi": "RGB एक योगात्मक (Additive) रंग मॉडल है जो स्क्रीन और मॉनिटर पर उपयोग होता है।"
       },
       {
         "id": 76,
         "questionNumber": 76,
         "section": "Computer Science",
-        "topic": "Object Oriented Programming",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following members cannot be inherited by a derived class in C++?",
+        "question": "What color model is SUBTRACTIVE and utilized standardly in commercial color printing presses?",
+        "question_hi": "व्यावसायिक रंगीन प्रिंटिंग प्रेसों में किस सबट्रैक्टिव (Subtractive) रंग मॉडल का उपयोग किया जाता है?",
         "options": {
-          "A": "Protected variables",
-          "B": "Public methods",
-          "C": "Constructors and Destructors",
-          "D": "Virtual functions"
+          "A": "CMYK Color Model (Cyan, Magenta, Yellow, Key/Black)",
+          "B": "RGB Model",
+          "C": "HSL Model",
+          "D": "Indexed Color"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
-        "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-        "question_hi": "निम्नलिखित में से कौन सा सदस्य C++ में व्युत्पन्न वर्ग द्वारा विरासत में नहीं लिया जा सकता है?",
         "options_hi": {
-          "A": "संरक्षित चर",
-          "B": "सार्वजनिक तरीके",
-          "C": "निर्माता और विध्वंसक",
-          "D": "आभासी कार्य"
+          "A": "CMYK रंग मॉडल (सियान, मैजेंटा, येलो, ब्लैक)",
+          "B": "RGB मॉडल",
+          "C": "HSL मॉडल",
+          "D": "इंडेक्सड"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "CMYK inks subtract light reflected from paper; combining Cyan, Magenta, and Yellow subtracts wavelengths to yield black (K ink provides true depth).",
+        "explanation_hi": "CMYK एक सबट्रैक्टिव रंग मॉडल है जो प्रिंटिंग और स्याही के लिए मानक है।"
       },
       {
         "id": 77,
         "questionNumber": 77,
         "section": "Computer Science",
-        "topic": "Algorithms",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which type of search algorithm always expands the lowest cost leaf node first where cost is f(n) = g(n) + h(n)?",
+        "question": "What animation technique smoothly transforms one image or shape into another through a seamless digital metamorphosis?",
+        "question_hi": "कौन सी एनीमेशन तकनीक एक सहज डिजिटल परिवर्तन के माध्यम से एक छवि को दूसरी छवि में सुचारू रूप से बदलती है?",
         "options": {
-          "A": "Greedy Best-First Search",
-          "B": "A* Search",
-          "C": "Depth First Search",
-          "D": "Breadth First Search"
+          "A": "Morphing",
+          "B": "Kinematics",
+          "C": "Tweening only",
+          "D": "Motion Capture"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) A* Search**\n\n**Theoretical Analysis & Rule**:\nA* search evaluates nodes by combining g(n) (cost from start to current node) and h(n) (estimated heuristic cost from current node to goal).",
-        "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-        "question_hi": "किस प्रकार का खोज एल्गोरिदम हमेशा सबसे कम लागत वाले लीफ नोड को पहले विस्तारित करता है जहां लागत f(n) = g(n) + h(n) है?",
         "options_hi": {
-          "A": "लालची सर्वोत्तम-प्रथम खोज",
-          "B": "ए* खोजें",
-          "C": "गहराई-प्रथम खोज (DFS)",
-          "D": "चौड़ाई-प्रथम खोज (BFS)"
+          "A": "मॉर्फिंग (Morphing)",
+          "B": "किनेमेटिक्स",
+          "C": "ट्वीनिंग",
+          "D": "मोशन कैप्चर"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) A* Search?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Morphing combines digital image warping with cross-dissolve to smoothly metamorphose a source subject into a target subject.",
+        "explanation_hi": "मॉर्फिंग तकनीक में एक चेहरे या छवि को धीरे-धीरे दूसरी छवि में रूपांतरित किया जाता है।"
       },
       {
         "id": 78,
         "questionNumber": 78,
         "section": "Computer Science",
-        "topic": "Digital Logic",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the canonical representation form that expresses a Boolean function as a product of sum terms called?",
+        "question": "In digital video compression (MPEG standards), what is an 'I-Frame' (Intra-coded frame)?",
+        "question_hi": "डिजिटल वीडियो संपीड़न (MPEG) में, 'I-फ़्रेम' (Intra-coded Frame) क्या है?",
         "options": {
-          "A": "Minterm form",
-          "B": "Maxterm / POS form",
-          "C": "Dual form",
-          "D": "Disjunctive Normal Form"
+          "A": "A completely self-contained video frame compressed using spatial compression only, requiring no other frames for decoding",
+          "B": "A frame that depends on future frames",
+          "C": "A frame that contains only audio",
+          "D": "An uncompressed raw frame"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Maxterm / POS form**\n\n**Theoretical Analysis & Rule**:\nProduct of Sums (POS) expresses a logic function as the AND combination (product) of OR terms (sums/maxterms), denoted by ΠM.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "कंप्यूटर साइंस अवधारणा: What is the canonical representation form that expresses a Boolean function as a product of sum terms called के संबंध में सही कथन या मान क्या है?",
         "options_hi": {
-          "A": "मिन्टर्म फॉर्म",
-          "B": "Maxterm / POS form",
-          "C": "दोहरा रूप",
-          "D": "विच्छेदनात्मक सामान्य रूप"
+          "A": "पूरी तरह से आत्मनिर्भर वीडियो फ़्रेम जो केवल स्थानिक संपीड़न का उपयोग करता है और जिसे डिकोड करने के लिए किसी अन्य फ़्रेम की आवश्यकता नहीं होती",
+          "B": "भविष्य पर निर्भर फ़्रेम",
+          "C": "केवल ऑडियो",
+          "D": "असंपीड़ित फ़्रेम"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Maxterm / POS form?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "I-frames serve as reference keyframes; P-frames and B-frames store only temporal motion differences relative to adjacent I-frames.",
+        "explanation_hi": "I-फ़्रेम एक पूर्ण स्वतंत्र कुंजी फ़्रेम (Keyframe) होता है जिसे पढ़ने के लिए किसी अन्य फ़्रेम की ज़रूरत नहीं होती।"
       },
       {
         "id": 79,
         "questionNumber": 79,
         "section": "Computer Science",
-        "topic": "Programming & Data Structures",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the time complexity to search for a key in a balanced AVL tree with n nodes?",
+        "question": "What is the frame rate of standard television broadcast under the NTSC standard?",
+        "question_hi": "NTSC मानक के तहत मानक टेलीविज़न प्रसारण की फ़्रेम दर क्या है?",
         "options": {
-          "A": "O(1)",
-          "B": "O(log n)",
-          "C": "O(n)",
-          "D": "O(n log n)"
+          "A": "29.97 frames per second (approx. 30 fps, 525 scan lines)",
+          "B": "25 frames per second",
+          "C": "60 frames per second",
+          "D": "24 frames per second"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) O(log n)**\n\n**Theoretical Analysis & Rule**:\nAn AVL tree is strictly balanced with maximum height bounded by 1.44 log₂(n). Therefore, search, insertion, and deletion operations all take guaranteed O(log n) time.",
-        "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-        "question_hi": "n नोड्स वाले संतुलित AVL ट्री में कुंजी खोजने में समय की जटिलता क्या है?",
         "options_hi": {
-          "A": "हे(1)",
-          "B": "ओ(लॉग एन)",
-          "C": "पर)",
-          "D": "ओ(एन लॉग एन)"
+          "A": "29.97 फ़्रेम प्रति सेकंड (लगभग 30 fps, 525 स्कैन लाइनें)",
+          "B": "25 fps",
+          "C": "60 fps",
+          "D": "24 fps"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) O(log n)?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "NTSC broadcast operates at 29.97 fps with 525 lines/60 Hz; PAL and SECAM operate at 25 fps with 625 lines/50 Hz.",
+        "explanation_hi": "NTSC मानक में लगभग 29.97 फ़्रेम प्रति सेकंड होते हैं।"
       },
       {
         "id": 80,
         "questionNumber": 80,
         "section": "Computer Science",
-        "topic": "Operating Systems",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "In paging memory management, where is the Translation Lookaside Buffer (TLB) located?",
+        "question": "What is the frame rate of television broadcast under the PAL (Phase Alternating Line) standard?",
+        "question_hi": "PAL (फेज़ अल्टरनेटिंग लाइन) मानक के तहत टेलीविज़न प्रसारण की फ़्रेम दर क्या है?",
         "options": {
-          "A": "On the hard disk",
-          "B": "In main memory RAM",
-          "C": "Inside the CPU Memory Management Unit (MMU) hardware cache",
-          "D": "In secondary optical storage"
+          "A": "25 frames per second (625 scan lines, 50 Hz field rate)",
+          "B": "29.97 frames per second",
+          "C": "30 frames per second",
+          "D": "120 frames per second"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
-        "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-        "question_hi": "पेजिंग मेमोरी प्रबंधन में, ट्रांसलेशन लुकसाइड बफ़र (टीएलबी) कहाँ स्थित है?",
         "options_hi": {
-          "A": "हार्ड डिस्क पर",
-          "B": "मुख्य मेमोरी में RAM",
-          "C": "सीपीयू मेमोरी मैनेजमेंट यूनिट (एमएमयू) हार्डवेयर कैश के अंदर",
-          "D": "सेकेंडरी ऑप्टिकल स्टोरेज में"
+          "A": "25 फ़्रेम प्रति सेकंड (625 स्कैन लाइनें, 50 Hz फ़ील्ड दर)",
+          "B": "29.97 fps",
+          "C": "30 fps",
+          "D": "120 fps"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "PAL is used widely across Europe, India, and Australia, delivering 25 interlaced frames per second.",
+        "explanation_hi": "भारत और यूरोप में प्रयुक्त PAL मानक में 25 फ़्रेम प्रति सेकंड (625 लाइनें) होती हैं।"
       },
       {
         "id": 81,
         "questionNumber": 81,
         "section": "Computer Science",
-        "topic": "Computer Science",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following is a Distance Vector routing protocol that uses hop count as its sole metric with a maximum limit of 15 hops?",
+        "question": "In multimedia digital production workflow 1, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 1 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "OSPF",
-          "B": "RIP (Routing Information Protocol)",
-          "C": "BGP",
-          "D": "IS-IS"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) RIP (Routing Information Protocol)**\n\n**Theoretical Analysis & Rule**:\nRIP is an interior gateway distance-vector protocol using hop count (1 to 15 hops; 16 signifies unreachable infinity) to prevent routing loops.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "निम्नलिखित में से कौन सा एक डिस्टेंस वेक्टर रूटिंग प्रोटोकॉल है जो 15 हॉप्स की अधिकतम सीमा के साथ हॉप काउंट को अपने एकमात्र मीट्रिक के रूप में उपयोग करता है?",
         "options_hi": {
-          "A": "ओएसपीएफ",
-          "B": "आरआईपी (रूटिंग सूचना प्रोटोकॉल)",
-          "C": "BGP",
-          "D": "आईएस-आईएस"
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) RIP (Routing Information Protocol)?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 1 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 82,
         "questionNumber": 82,
         "section": "Computer Science",
-        "topic": "Computer Networks",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the language recognized by a Deterministic Finite Automaton (DFA) that accepts strings over {0, 1} ending with '00'?",
+        "question": "In multimedia digital production workflow 2, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 2 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "Context Free Language",
-          "B": "Regular Language",
-          "C": "Recursively Enumerable only",
-          "D": "Non-computable Language"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Regular Language**\n\n**Theoretical Analysis & Rule**:\nAny language that can be recognized by a Finite Automaton (DFA or NFA) is by definition a Regular Language, represented by regular expression (0 + 1)*00.",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "नियतात्मक परिमित ऑटोमेटन (डीएफए) द्वारा मान्यता प्राप्त भाषा क्या है जो '00' के साथ समाप्त होने वाले {0, 1} से अधिक स्ट्रिंग को स्वीकार करती है?",
         "options_hi": {
-          "A": "प्रसंग मुक्त भाषा",
-          "B": "नियमित भाषा",
-          "C": "केवल पुनरावर्ती रूप से गणना योग्य",
-          "D": "गैर संगणनीय भाषा"
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Regular Language?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 2 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 83,
         "questionNumber": 83,
         "section": "Computer Science",
-        "topic": "Computer Networks",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which image compression standard utilizes Discrete Cosine Transform (DCT) and is lossy for digital photography?",
+        "question": "In multimedia digital production workflow 3, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 3 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "PNG",
-          "B": "JPEG",
-          "C": "BMP",
-          "D": "SVG"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) JPEG**\n\n**Theoretical Analysis & Rule**:\nJPEG (Joint Photographic Experts Group) uses Discrete Cosine Transform (DCT) lossy compression to discard high-frequency color variations less noticeable to the human eye.",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "कौन सा छवि संपीड़न मानक डिस्क्रीट कोसाइन ट्रांसफॉर्म (डीसीटी) का उपयोग करता है और डिजिटल फोटोग्राफी के लिए हानिकारक है?",
         "options_hi": {
-          "A": "PNG",
-          "B": "जेपीईजी",
-          "C": "BMP",
-          "D": "SVG"
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) JPEG?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 3 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 84,
         "questionNumber": 84,
         "section": "Computer Science",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+        "question": "In multimedia digital production workflow 4, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 4 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "Direct Mapping",
-          "B": "Fully Associative Mapping",
-          "C": "Set-Associative Mapping",
-          "D": "Sector Mapping"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "कौन सी कैश मैपिंग तकनीक मुख्य मेमोरी ब्लॉक को किसी भी उपलब्ध कैश ब्लॉक लाइन में लोड करने की अनुमति देती है?",
         "options_hi": {
-          "A": "प्रत्यक्ष मानचित्रण",
-          "B": "पूरी तरह से सहयोगी मानचित्रण",
-          "C": "सेट-एसोसिएटिव मैपिंग",
-          "D": "सेक्टर मैपिंग"
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 4 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 85,
         "questionNumber": 85,
         "section": "Computer Science",
-        "topic": "Algorithms",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the solution of the recurrence relation T(n) = 2T(n/2) + n by Master Theorem?",
+        "question": "In multimedia digital production workflow 5, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 5 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "Θ(n)",
-          "B": "Θ(n log n)",
-          "C": "Θ(n²)",
-          "D": "Θ(log n)"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Θ(n log n)**\n\n**Theoretical Analysis & Rule**:\nFor T(n) = aT(n/b) + f(n): a = 2, b = 2, f(n) = n. Here n^(log_b(a)) = n^(log₂2) = n¹. Since f(n) = Θ(n^(log_b(a))), Case 2 of Master Theorem applies: T(n) = Θ(n log n) (Merge Sort recurrence).",
-        "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-        "question_hi": "मास्टर प्रमेय द्वारा पुनरावृत्ति संबंध T(n) = 2T(n/2) + n का समाधान क्या है?",
         "options_hi": {
-          "A": "Θ(एन)",
-          "B": "Θ(एन लॉग एन)",
-          "C": "Θ(n²)",
-          "D": "Θ(लॉग एन)"
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Θ(n log n)?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 5 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 86,
         "questionNumber": 86,
         "section": "Computer Science",
-        "topic": "Database Management Systems",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which SQL command belongs to the Data Control Language (DCL) category?",
+        "question": "In multimedia digital production workflow 6, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 6 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "SELECT",
-          "B": "GRANT",
-          "C": "ALTER",
-          "D": "UPDATE"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) GRANT**\n\n**Theoretical Analysis & Rule**:\nDCL commands control privileges and access in the database. GRANT (gives user access) and REVOKE (withdraws access) are the primary DCL commands.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "Which SQL command belongs to the डेटा नियंत्रण भाषा (DCL) (DCL) category?",
         "options_hi": {
-          "A": "चुनना",
-          "B": "अनुदान",
-          "C": "ALTER",
-          "D": "UPDATE"
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) GRANT?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 6 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 87,
         "questionNumber": 87,
         "section": "Computer Science",
-        "topic": "Object Oriented Programming",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "In C++, which keyword is used to resolve the 'Diamond Problem' of duplicate base class instances in multiple inheritance?",
+        "question": "In multimedia digital production workflow 7, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 7 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "abstract",
-          "B": "friend",
-          "C": "virtual",
-          "D": "static"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) virtual**\n\n**Theoretical Analysis & Rule**:\nDeclaring the intermediate base classes with 'virtual' inheritance (e.g., class B : virtual public A) ensures only one shared instance of class A is included in derived class D.",
-        "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-        "question_hi": "C++ में, मल्टीपल इनहेरिटेंस में डुप्लिकेट बेस क्लास इंस्टेंसेस की 'डायमंड प्रॉब्लम' को हल करने के लिए किस कीवर्ड का उपयोग किया जाता है?",
         "options_hi": {
-          "A": "अमूर्त",
-          "B": "दोस्त",
-          "C": "आभासी",
-          "D": "स्थिर"
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) virtual?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 7 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 88,
         "questionNumber": 88,
         "section": "Computer Science",
-        "topic": "Digital Logic",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
+        "question": "In multimedia digital production workflow 8, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 8 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "RESTful Web APIs and JSON",
-          "B": "Raw binary serial ports",
-          "C": "Assembly instructions",
-          "D": "Modem dial-ups"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
+        },
+        "options_hi": {
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "वेब ऑफ थिंग्स (डब्ल्यूओटी) में, स्मार्ट भौतिक उपकरणों को मुख्य रूप से मानक वेब प्रौद्योगिकियों का उपयोग करके प्रदर्शित और नियंत्रित किया जाता है:",
-        "options_hi": {
-          "A": "रेस्टफुल वेब एपीआई और JSON",
-          "B": "कच्चे बाइनरी सीरियल पोर्ट",
-          "C": "एकत्र करने के लिए निर्देश",
-          "D": "मॉडेम डायल-अप"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 8 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 89,
         "questionNumber": 89,
         "section": "Computer Science",
-        "topic": "Computer Networks",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following logic families exhibits the highest switching speed and lowest propagation delay?",
+        "question": "In multimedia digital production workflow 9, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 9 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "TTL (Transistor-Transistor Logic)",
-          "B": "ECL (Emitter-Coupled Logic)",
-          "C": "CMOS",
-          "D": "NMOS"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) ECL (Emitter-Coupled Logic)**\n\n**Theoretical Analysis & Rule**:\nECL (Emitter-Coupled Logic) operates its transistors in the non-saturated active region rather than saturation, eliminating storage time delay and achieving propagation delays below 1 nanosecond (fastest among conventional families).",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "निम्नलिखित में से कौन सा तर्क परिवार उच्चतम स्विचिंग गति और सबसे कम प्रसार विलंब प्रदर्शित करता है?",
         "options_hi": {
-          "A": "टीटीएल (ट्रांजिस्टर-ट्रांजिस्टर लॉजिक)",
-          "B": "ईसीएल (एमिटर-युग्मित तर्क)",
-          "C": "सीएमओएस",
-          "D": "एनएमओएस"
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) ECL (Emitter-Coupled Logic)?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 9 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 90,
         "questionNumber": 90,
         "section": "Computer Science",
-        "topic": "Programming & Data Structures",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "In a row-major 2D array A[1..M, 1..N] stored starting at base address B with element size S, what is the address formula for element A[i, j]?",
+        "question": "In multimedia digital production workflow 10, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 10 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "B + [(i - 1) * N + (j - 1)] * S",
-          "B": "B + [(j - 1) * M + (i - 1)] * S",
-          "C": "B + [i * N + j] * S",
-          "D": "B + [(i - 1) + (j - 1) * N] * S"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
+        },
+        "options_hi": {
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) B + [(i - 1) * N + (j - 1)] * S**\n\n**Theoretical Analysis & Rule**:\nIn row-major order, rows are placed contiguously in memory. To reach row i, you skip (i - 1) complete rows of N elements each, and then move (j - 1) elements into row i. Hence: Address = Base + [((i - 1) * N) + (j - 1)] * S.",
-        "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-        "question_hi": "पंक्ति-प्रमुख 2D सरणी A[1..M, 1..N] में तत्व आकार S के साथ आधार पता B से शुरू करके संग्रहीत किया जाता है, तत्व A[i, j] के लिए पता सूत्र क्या है?",
-        "options_hi": {
-          "A": "बी + [(आई - 1) * एन + (जे - 1)] * एस",
-          "B": "बी + [(जे - 1) * एम + (आई - 1)] * एस",
-          "C": "बी + [आई * एन + जे] * एस",
-          "D": "बी + [(आई - 1) + (जे - 1) * एन] * एस"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) B + [(i - 1) * N + (j - 1)] * S?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 10 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 91,
         "questionNumber": 91,
         "section": "Computer Science",
-        "topic": "Operating Systems",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the state transition that occurs when a running process requires an I/O operation?",
+        "question": "In multimedia digital production workflow 11, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 11 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "Running to Ready",
-          "B": "Running to Waiting (Blocked)",
-          "C": "Waiting to Ready",
-          "D": "Ready to Running"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Running to Waiting (Blocked)**\n\n**Theoretical Analysis & Rule**:\nWhen a process requests an I/O operation or an event, the CPU cannot continue executing it until the I/O completes. The OS transitions the process from Running to Waiting (Blocked) state.",
-        "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-        "question_hi": "वह स्थिति परिवर्तन क्या है जो तब होता है जब किसी चालू प्रक्रिया के लिए I/O ऑपरेशन की आवश्यकता होती है?",
         "options_hi": {
-          "A": "तैयार होने के लिए दौड़ना",
-          "B": "प्रतीक्षा करने के लिए दौड़ना (अवरुद्ध)",
-          "C": "तैयार होने की प्रतीक्षा में",
-          "D": "दौड़ने के लिए तैयार"
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Running to Waiting (Blocked)?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 11 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 92,
         "questionNumber": 92,
         "section": "Computer Science",
-        "topic": "Computer Networks",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the CIDR prefix for a subnet with a subnet mask of 255.255.255.192?",
+        "question": "In multimedia digital production workflow 12, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 12 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "/24",
-          "B": "/25",
-          "C": "/26",
-          "D": "/27"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "255.255.255.192 के सबनेट मास्क वाले सबनेट के लिए सीआईडीआर उपसर्ग क्या है?",
         "options_hi": {
-          "A": "/24",
-          "B": "/25",
-          "C": "/26",
-          "D": "/27"
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 12 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 93,
         "questionNumber": 93,
         "section": "Computer Science",
-        "topic": "Database Management Systems",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which PHP function is used to establish a connection to a MySQL database?",
+        "question": "In multimedia digital production workflow 13, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 13 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "mysql_open()",
-          "B": "mysqli_connect()",
-          "C": "db_connect()",
-          "D": "sql_link()"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) mysqli_connect()**\n\n**Theoretical Analysis & Rule**:\nmysqli_connect(host, user, password, dbname) is standard PHP function used to open a connection to a MySQL database server.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "MySQL डेटाबेस से कनेक्शन स्थापित करने के लिए किस PHP फ़ंक्शन का उपयोग किया जाता है?",
         "options_hi": {
-          "A": "mysql_open()",
-          "B": "mysqli_connect()",
-          "C": "db_कनेक्ट()",
-          "D": "sql_link()"
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) mysqli_connect()?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 13 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 94,
         "questionNumber": 94,
         "section": "Computer Science",
-        "topic": "Database Management Systems",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "The electronic document interchange standard developed by ANSI for business transactions is called:",
+        "question": "In multimedia digital production workflow 14, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 14 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "ANSI X12",
-          "B": "ISO 9001",
-          "C": "IEEE 802.3",
-          "D": "RFC 2822"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
+        },
+        "options_hi": {
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) ANSI X12**\n\n**Theoretical Analysis & Rule**:\nANSI ASC X12 is the official American National Standards Institute standard for Electronic Data Interchange (EDI) used across retail, finance, and transport.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "व्यावसायिक लेनदेन के लिए ANSI द्वारा विकसित इलेक्ट्रॉनिक दस्तावेज़ इंटरचेंज मानक को कहा जाता है:",
-        "options_hi": {
-          "A": "एएनएसआई एक्स12",
-          "B": "ISO 9001",
-          "C": "आईईईई 802.3",
-          "D": "आरएफसी 2822"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) ANSI X12?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 14 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 95,
         "questionNumber": 95,
         "section": "Computer Science",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the maximum addressable memory capacity of a CPU with a 32-bit address bus and byte-addressable architecture?",
+        "question": "In multimedia digital production workflow 15, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 15 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "1 GB",
-          "B": "2 GB",
-          "C": "4 GB",
-          "D": "8 GB"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 4 GB**\n\n**Theoretical Analysis & Rule**:\nA 32-bit address bus can generate 2³² unique addresses. With byte addressability (1 byte per address), total addressable space = 2³² bytes = 4,294,967,296 bytes = 4 GB.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "32-बिट एड्रेस बस और बाइट-एड्रेसेबल आर्किटेक्चर वाले सीपीयू की अधिकतम एड्रेसेबल मेमोरी क्षमता क्या है?",
         "options_hi": {
-          "A": "1 जीबी",
-          "B": "2 जीबी",
-          "C": "4 जीबी",
-          "D": "8 जीबी"
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 4 GB?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 15 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 96,
         "questionNumber": 96,
         "section": "Computer Science",
-        "topic": "Programming & Data Structures",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the number of edges in a tree with n vertices?",
+        "question": "In multimedia digital production workflow 16, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 16 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "n",
-          "B": "n - 1",
-          "C": "n + 1",
-          "D": "2n - 1"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
-        "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-        "question_hi": "n शीर्षों वाले पेड़ में किनारों की संख्या कितनी होती है?",
         "options_hi": {
-          "A": "n",
-          "B": "एन - 1",
-          "C": "एन + 1",
-          "D": "2एन - 1"
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 16 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 97,
         "questionNumber": 97,
         "section": "Computer Science",
-        "topic": "Operating Systems",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which Unix command is used to change the access permissions of a file?",
+        "question": "In multimedia digital production workflow 17, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 17 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "chown",
-          "B": "chmod",
-          "C": "chgrp",
-          "D": "grep"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) chmod**\n\n**Theoretical Analysis & Rule**:\n'chmod' (change mode) modifies the read, write, and execute permissions of files/directories in Unix/Linux. ('chown' changes file owner).",
-        "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-        "question_hi": "किसी फ़ाइल की एक्सेस अनुमतियों को बदलने के लिए किस यूनिक्स कमांड का उपयोग किया जाता है?",
         "options_hi": {
-          "A": "चाउन",
-          "B": "चामोद",
-          "C": "सीएचजीआरपी",
-          "D": "ग्रेप"
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) chmod?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 17 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 98,
         "questionNumber": 98,
         "section": "Computer Science",
-        "topic": "Computer Science",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which level of coupling is considered the MOST desirable (weakest/cleanest) in structured software design?",
+        "question": "In multimedia digital production workflow 18, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 18 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "Content Coupling",
-          "B": "Common Coupling",
-          "C": "Control Coupling",
-          "D": "Data Coupling"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
         },
-        "correctAnswer": "D",
-        "explanation": "**Correct Answer: (D) Data Coupling**\n\n**Theoretical Analysis & Rule**:\nGood software engineering strives for Low Coupling and High Cohesion. Data Coupling (modules share only simple data parameters) is the cleanest, least dependent coupling.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "संरचित सॉफ़्टवेयर डिज़ाइन में युग्मन के किस स्तर को सर्वाधिक वांछनीय (सबसे कमज़ोर/सबसे साफ़) माना जाता है?",
         "options_hi": {
-          "A": "सामग्री युग्मन",
-          "B": "सामान्य युग्मन",
-          "C": "युग्मन को नियंत्रित करें",
-          "D": "डेटा युग्मन"
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (D) Data Coupling?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 18 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 99,
         "questionNumber": 99,
         "section": "Computer Science",
-        "topic": "Digital Logic",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following grammars is in Chomsky Normal Form (CNF)?",
+        "question": "In multimedia digital production workflow 19, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 19 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "S -> aB | b",
-          "B": "S -> AB | a",
-          "C": "S -> ABC | a",
-          "D": "S -> a | ε"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) S -> AB | a**\n\n**Theoretical Analysis & Rule**:\nIn Chomsky Normal Form (CNF), all production rules must be of the form A -> BC (two non-terminals) or A -> a (single terminal). Hence, S -> AB | a is in CNF.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "निम्नलिखित में से कौन सा व्याकरण चॉम्स्की नॉर्मल फॉर्म (CNF) में है?",
         "options_hi": {
-          "A": "एस -> एबी | बी",
-          "B": "एस -> एबी | ए",
-          "C": "एस -> एबीसी | ए",
-          "D": "एस -> ए | ε"
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) S -> AB | a?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 19 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       },
       {
         "id": 100,
         "questionNumber": 100,
         "section": "Computer Science",
-        "topic": "Digital Logic",
+        "topic": "Multimedia",
+        "topic_hi": "मल्टीमीडिया (Multimedia)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "How many select lines are required for a 64-to-1 Multiplexer (MUX)?",
+        "question": "In multimedia digital production workflow 20, what is the role of an Audio Sound Card?",
+        "question_hi": "मल्टीमीडिया डिजिटल उत्पादन वर्कफ़्लो 20 में, एक ऑडियो साउंड कार्ड की क्या भूमिका है?",
         "options": {
-          "A": "4",
-          "B": "5",
-          "C": "6",
-          "D": "8"
+          "A": "Converts analog sound wave signals to digital bitstreams via ADC, and digital audio to audible analog sound via DAC",
+          "B": "Renders 3D polygon graphics",
+          "C": "Compresses video files into ZIP archives",
+          "D": "Routes network packets across subnets"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "64-टू-1 मल्टीप्लेक्सर (एमयूएक्स) के लिए कितनी चुनिंदा लाइनें आवश्यक हैं?",
         "options_hi": {
-          "A": "4",
-          "B": "5",
-          "C": "6",
-          "D": "8"
+          "A": "ADC द्वारा एनालॉग ध्वनि को डिजिटल बिट्स में और DAC द्वारा डिजिटल ऑडियो को सुनने योग्य एनालॉग ध्वनि में बदलता है",
+          "B": "3D ग्राफिक्स",
+          "C": "ZIP बनाना",
+          "D": "नेटवर्क पैकेट"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Sound cards integrate DAC and ADC chips with DSP processing to facilitate recording and sound output. Workflow 20 covers digital audio hardware interfaces.",
+        "explanation_hi": "साउंड कार्ड में ADC और DAC होते हैं जो एनालॉग आवाज़ को डिजिटल और डिजिटल को स्पीकर के लिए एनालॉग में बदलते हैं।"
       }
     ]
   },
@@ -2641,1311 +2641,1311 @@ window.topical_drills = {
     ],
     "questions": [
       {
-        "id": 31,
-        "questionNumber": 31,
+        "id": 1,
+        "questionNumber": 1,
         "section": "Art of Teaching",
-        "topic": "Artificial Intelligence",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
+        "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 26), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+        "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 26) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
         "options": {
-          "A": "Lecture Method",
-          "B": "Heuristic Method",
-          "C": "Demonstration Method",
-          "D": "Textbook Method"
+          "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
-        "topic_hi": "आर्टिफिशियल इंटेलिजेंस (AI)",
-        "question_hi": "शिक्षण की किस पद्धति की शुरुआत एच.ई. ने की थी? आर्मस्ट्रांग, छात्रों को सत्य के स्वतंत्र खोजकर्ता के रूप में कार्य करने के लिए प्रोत्साहित कर रहे हैं?",
         "options_hi": {
-          "A": "व्याख्यान विधि",
-          "B": "अनुमानी विधि",
-          "C": "प्रदर्शन विधि",
-          "D": "पाठ्यपुस्तक विधि"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) अनुसंधान / ह्यूरिस्टिक विधि?**\n\n**विषय अवधारणा (आर्टिफिशियल इंटेलिजेंस (AI))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 26 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
       },
       {
-        "id": 32,
-        "questionNumber": 32,
+        "id": 2,
+        "questionNumber": 2,
         "section": "Art of Teaching",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Formative evaluation is primarily conducted to:",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 1), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 1) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Award annual report card certificates",
-          "B": "Rank students across the state",
-          "C": "Provide continuous feedback to monitor learning progress during instruction",
-          "D": "Select students for high school scholarships"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "रचनात्मक मूल्यांकन मुख्य रूप से निम्न के लिए आयोजित किया जाता है:",
         "options_hi": {
-          "A": "पुरस्कार वार्षिक रिपोर्ट कार्ड प्रमाण पत्र",
-          "B": "राज्य भर में छात्रों की रैंकिंग करें",
-          "C": "निर्देश के दौरान सीखने की प्रगति की निगरानी के लिए निरंतर प्रतिक्रिया प्रदान करें",
-          "D": "हाई स्कूल छात्रवृत्ति के लिए छात्रों का चयन करें"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) Provide continuous feedback to monitor learning progress during instruction?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 1 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 33,
-        "questionNumber": 33,
+        "id": 3,
+        "questionNumber": 3,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 2), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 2) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Verbal Symbols",
-          "B": "Direct Purposeful Experiences (Hands-on)",
-          "C": "Motion Pictures",
-          "D": "Visual Symbols"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "कौन सी शिक्षण सहायता एडगर डेल के 'कोन ऑफ एक्सपीरियंस' के बिल्कुल आधार पर रखी गई है, जो प्रत्यक्ष शिक्षण की उच्चतम डिग्री प्रदान करती है?",
         "options_hi": {
-          "A": "मौखिक प्रतीक",
-          "B": "प्रत्यक्ष उद्देश्यपूर्ण अनुभव (हाथ से)",
-          "C": "गतिशील तस्वीरें",
-          "D": "दृश्य प्रतीक"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Direct Purposeful Experiences (Hands-on)?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 2 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 34,
-        "questionNumber": 34,
+        "id": 4,
+        "questionNumber": 4,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 3), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 3) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Placement Assessment",
-          "B": "Diagnostic Assessment",
-          "C": "Summative Assessment",
-          "D": "Norm-Referenced Assessment"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "एक शिक्षक ने देखा कि एक छात्र कमजोर मौलिक विभाजन कौशल के कारण द्विआधारी रूपांतरण से जूझ रहा है। इस विशिष्ट घाटे का पता लगाने के लिए उपयोग किया जाने वाला मूल्यांकन है:",
         "options_hi": {
-          "A": "प्लेसमेंट मूल्यांकन",
-          "B": "नैदानिक ​​मूल्यांकन",
-          "C": "योगात्मक मूल्यांकन",
-          "D": "मानक-संदर्भित मूल्यांकन"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Diagnostic Assessment?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 3 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 35,
-        "questionNumber": 35,
+        "id": 5,
+        "questionNumber": 5,
         "section": "Art of Teaching",
-        "topic": "Computer Science",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 4), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 4) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Subject-Centered Curriculum",
-          "B": "Learner-Centered (Child-Centered) Curriculum",
-          "C": "Teacher-Centered Curriculum",
-          "D": "Exam-Oriented Curriculum"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "पाठ्यक्रम निर्माण का कौन सा मॉडल कठोर रटंत सामग्री के बजाय बच्चे की मनोवैज्ञानिक आवश्यकताओं, रुचियों, क्षमताओं और सक्रिय सीखने पर केंद्रित है?",
         "options_hi": {
-          "A": "विषय-केन्द्रित पाठ्यचर्या",
-          "B": "शिक्षार्थी-केंद्रित (बाल-केंद्रित) पाठ्यक्रम",
-          "C": "शिक्षक-केन्द्रित पाठ्यचर्या",
-          "D": "परीक्षा-उन्मुख पाठ्यक्रम"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Learner-Centered (Child-Centered) Curriculum?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 4 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 36,
-        "questionNumber": 36,
+        "id": 6,
+        "questionNumber": 6,
         "section": "Art of Teaching",
-        "topic": "Artificial Intelligence",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 5), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 5) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Lecture Method",
-          "B": "Heuristic Method",
-          "C": "Demonstration Method",
-          "D": "Textbook Method"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
-        "topic_hi": "आर्टिफिशियल इंटेलिजेंस (AI)",
-        "question_hi": "शिक्षण की किस पद्धति की शुरुआत एच.ई. ने की थी? आर्मस्ट्रांग, छात्रों को सत्य के स्वतंत्र खोजकर्ता के रूप में कार्य करने के लिए प्रोत्साहित कर रहे हैं?",
         "options_hi": {
-          "A": "व्याख्यान विधि",
-          "B": "अनुमानी विधि",
-          "C": "प्रदर्शन विधि",
-          "D": "पाठ्यपुस्तक विधि"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) अनुसंधान / ह्यूरिस्टिक विधि?**\n\n**विषय अवधारणा (आर्टिफिशियल इंटेलिजेंस (AI))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 5 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 37,
-        "questionNumber": 37,
+        "id": 7,
+        "questionNumber": 7,
         "section": "Art of Teaching",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Formative evaluation is primarily conducted to:",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 6), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 6) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Award annual report card certificates",
-          "B": "Rank students across the state",
-          "C": "Provide continuous feedback to monitor learning progress during instruction",
-          "D": "Select students for high school scholarships"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "रचनात्मक मूल्यांकन मुख्य रूप से निम्न के लिए आयोजित किया जाता है:",
         "options_hi": {
-          "A": "पुरस्कार वार्षिक रिपोर्ट कार्ड प्रमाण पत्र",
-          "B": "राज्य भर में छात्रों की रैंकिंग करें",
-          "C": "निर्देश के दौरान सीखने की प्रगति की निगरानी के लिए निरंतर प्रतिक्रिया प्रदान करें",
-          "D": "हाई स्कूल छात्रवृत्ति के लिए छात्रों का चयन करें"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) Provide continuous feedback to monitor learning progress during instruction?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 6 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 38,
-        "questionNumber": 38,
+        "id": 8,
+        "questionNumber": 8,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 7), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 7) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Verbal Symbols",
-          "B": "Direct Purposeful Experiences (Hands-on)",
-          "C": "Motion Pictures",
-          "D": "Visual Symbols"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "कौन सी शिक्षण सहायता एडगर डेल के 'कोन ऑफ एक्सपीरियंस' के बिल्कुल आधार पर रखी गई है, जो प्रत्यक्ष शिक्षण की उच्चतम डिग्री प्रदान करती है?",
         "options_hi": {
-          "A": "मौखिक प्रतीक",
-          "B": "प्रत्यक्ष उद्देश्यपूर्ण अनुभव (हाथ से)",
-          "C": "गतिशील तस्वीरें",
-          "D": "दृश्य प्रतीक"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Direct Purposeful Experiences (Hands-on)?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 7 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 39,
-        "questionNumber": 39,
+        "id": 9,
+        "questionNumber": 9,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 8), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 8) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Placement Assessment",
-          "B": "Diagnostic Assessment",
-          "C": "Summative Assessment",
-          "D": "Norm-Referenced Assessment"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "एक शिक्षक ने देखा कि एक छात्र कमजोर मौलिक विभाजन कौशल के कारण द्विआधारी रूपांतरण से जूझ रहा है। इस विशिष्ट घाटे का पता लगाने के लिए उपयोग किया जाने वाला मूल्यांकन है:",
         "options_hi": {
-          "A": "प्लेसमेंट मूल्यांकन",
-          "B": "नैदानिक ​​मूल्यांकन",
-          "C": "योगात्मक मूल्यांकन",
-          "D": "मानक-संदर्भित मूल्यांकन"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Diagnostic Assessment?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 8 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 40,
-        "questionNumber": 40,
+        "id": 10,
+        "questionNumber": 10,
         "section": "Art of Teaching",
-        "topic": "Computer Science",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 9), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 9) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Subject-Centered Curriculum",
-          "B": "Learner-Centered (Child-Centered) Curriculum",
-          "C": "Teacher-Centered Curriculum",
-          "D": "Exam-Oriented Curriculum"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "पाठ्यक्रम निर्माण का कौन सा मॉडल कठोर रटंत सामग्री के बजाय बच्चे की मनोवैज्ञानिक आवश्यकताओं, रुचियों, क्षमताओं और सक्रिय सीखने पर केंद्रित है?",
         "options_hi": {
-          "A": "विषय-केन्द्रित पाठ्यचर्या",
-          "B": "शिक्षार्थी-केंद्रित (बाल-केंद्रित) पाठ्यक्रम",
-          "C": "शिक्षक-केन्द्रित पाठ्यचर्या",
-          "D": "परीक्षा-उन्मुख पाठ्यक्रम"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Learner-Centered (Child-Centered) Curriculum?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 9 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 41,
-        "questionNumber": 41,
+        "id": 11,
+        "questionNumber": 11,
         "section": "Art of Teaching",
-        "topic": "Artificial Intelligence",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 10), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 10) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Lecture Method",
-          "B": "Heuristic Method",
-          "C": "Demonstration Method",
-          "D": "Textbook Method"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
-        "topic_hi": "आर्टिफिशियल इंटेलिजेंस (AI)",
-        "question_hi": "शिक्षण की किस पद्धति की शुरुआत एच.ई. ने की थी? आर्मस्ट्रांग, छात्रों को सत्य के स्वतंत्र खोजकर्ता के रूप में कार्य करने के लिए प्रोत्साहित कर रहे हैं?",
         "options_hi": {
-          "A": "व्याख्यान विधि",
-          "B": "अनुमानी विधि",
-          "C": "प्रदर्शन विधि",
-          "D": "पाठ्यपुस्तक विधि"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) अनुसंधान / ह्यूरिस्टिक विधि?**\n\n**विषय अवधारणा (आर्टिफिशियल इंटेलिजेंस (AI))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 10 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 42,
-        "questionNumber": 42,
+        "id": 12,
+        "questionNumber": 12,
         "section": "Art of Teaching",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Formative evaluation is primarily conducted to:",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 11), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 11) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Award annual report card certificates",
-          "B": "Rank students across the state",
-          "C": "Provide continuous feedback to monitor learning progress during instruction",
-          "D": "Select students for high school scholarships"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "रचनात्मक मूल्यांकन मुख्य रूप से निम्न के लिए आयोजित किया जाता है:",
         "options_hi": {
-          "A": "पुरस्कार वार्षिक रिपोर्ट कार्ड प्रमाण पत्र",
-          "B": "राज्य भर में छात्रों की रैंकिंग करें",
-          "C": "निर्देश के दौरान सीखने की प्रगति की निगरानी के लिए निरंतर प्रतिक्रिया प्रदान करें",
-          "D": "हाई स्कूल छात्रवृत्ति के लिए छात्रों का चयन करें"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) Provide continuous feedback to monitor learning progress during instruction?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 11 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 43,
-        "questionNumber": 43,
+        "id": 13,
+        "questionNumber": 13,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 12), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 12) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Verbal Symbols",
-          "B": "Direct Purposeful Experiences (Hands-on)",
-          "C": "Motion Pictures",
-          "D": "Visual Symbols"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "कौन सी शिक्षण सहायता एडगर डेल के 'कोन ऑफ एक्सपीरियंस' के बिल्कुल आधार पर रखी गई है, जो प्रत्यक्ष शिक्षण की उच्चतम डिग्री प्रदान करती है?",
         "options_hi": {
-          "A": "मौखिक प्रतीक",
-          "B": "प्रत्यक्ष उद्देश्यपूर्ण अनुभव (हाथ से)",
-          "C": "गतिशील तस्वीरें",
-          "D": "दृश्य प्रतीक"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Direct Purposeful Experiences (Hands-on)?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 12 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 44,
-        "questionNumber": 44,
+        "id": 14,
+        "questionNumber": 14,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 13), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 13) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Placement Assessment",
-          "B": "Diagnostic Assessment",
-          "C": "Summative Assessment",
-          "D": "Norm-Referenced Assessment"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "एक शिक्षक ने देखा कि एक छात्र कमजोर मौलिक विभाजन कौशल के कारण द्विआधारी रूपांतरण से जूझ रहा है। इस विशिष्ट घाटे का पता लगाने के लिए उपयोग किया जाने वाला मूल्यांकन है:",
         "options_hi": {
-          "A": "प्लेसमेंट मूल्यांकन",
-          "B": "नैदानिक ​​मूल्यांकन",
-          "C": "योगात्मक मूल्यांकन",
-          "D": "मानक-संदर्भित मूल्यांकन"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Diagnostic Assessment?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 13 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 45,
-        "questionNumber": 45,
+        "id": 15,
+        "questionNumber": 15,
         "section": "Art of Teaching",
-        "topic": "Computer Science",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 14), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 14) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Subject-Centered Curriculum",
-          "B": "Learner-Centered (Child-Centered) Curriculum",
-          "C": "Teacher-Centered Curriculum",
-          "D": "Exam-Oriented Curriculum"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "पाठ्यक्रम निर्माण का कौन सा मॉडल कठोर रटंत सामग्री के बजाय बच्चे की मनोवैज्ञानिक आवश्यकताओं, रुचियों, क्षमताओं और सक्रिय सीखने पर केंद्रित है?",
         "options_hi": {
-          "A": "विषय-केन्द्रित पाठ्यचर्या",
-          "B": "शिक्षार्थी-केंद्रित (बाल-केंद्रित) पाठ्यक्रम",
-          "C": "शिक्षक-केन्द्रित पाठ्यचर्या",
-          "D": "परीक्षा-उन्मुख पाठ्यक्रम"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Learner-Centered (Child-Centered) Curriculum?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 14 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 46,
-        "questionNumber": 46,
+        "id": 16,
+        "questionNumber": 16,
         "section": "Art of Teaching",
-        "topic": "Artificial Intelligence",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 15), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 15) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Lecture Method",
-          "B": "Heuristic Method",
-          "C": "Demonstration Method",
-          "D": "Textbook Method"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
-        "topic_hi": "आर्टिफिशियल इंटेलिजेंस (AI)",
-        "question_hi": "शिक्षण की किस पद्धति की शुरुआत एच.ई. ने की थी? आर्मस्ट्रांग, छात्रों को सत्य के स्वतंत्र खोजकर्ता के रूप में कार्य करने के लिए प्रोत्साहित कर रहे हैं?",
         "options_hi": {
-          "A": "व्याख्यान विधि",
-          "B": "अनुमानी विधि",
-          "C": "प्रदर्शन विधि",
-          "D": "पाठ्यपुस्तक विधि"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) अनुसंधान / ह्यूरिस्टिक विधि?**\n\n**विषय अवधारणा (आर्टिफिशियल इंटेलिजेंस (AI))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 15 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 47,
-        "questionNumber": 47,
+        "id": 17,
+        "questionNumber": 17,
         "section": "Art of Teaching",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Formative evaluation is primarily conducted to:",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 16), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 16) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Award annual report card certificates",
-          "B": "Rank students across the state",
-          "C": "Provide continuous feedback to monitor learning progress during instruction",
-          "D": "Select students for high school scholarships"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "रचनात्मक मूल्यांकन मुख्य रूप से निम्न के लिए आयोजित किया जाता है:",
         "options_hi": {
-          "A": "पुरस्कार वार्षिक रिपोर्ट कार्ड प्रमाण पत्र",
-          "B": "राज्य भर में छात्रों की रैंकिंग करें",
-          "C": "निर्देश के दौरान सीखने की प्रगति की निगरानी के लिए निरंतर प्रतिक्रिया प्रदान करें",
-          "D": "हाई स्कूल छात्रवृत्ति के लिए छात्रों का चयन करें"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) Provide continuous feedback to monitor learning progress during instruction?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 16 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 48,
-        "questionNumber": 48,
+        "id": 18,
+        "questionNumber": 18,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 17), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 17) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Verbal Symbols",
-          "B": "Direct Purposeful Experiences (Hands-on)",
-          "C": "Motion Pictures",
-          "D": "Visual Symbols"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "कौन सी शिक्षण सहायता एडगर डेल के 'कोन ऑफ एक्सपीरियंस' के बिल्कुल आधार पर रखी गई है, जो प्रत्यक्ष शिक्षण की उच्चतम डिग्री प्रदान करती है?",
         "options_hi": {
-          "A": "मौखिक प्रतीक",
-          "B": "प्रत्यक्ष उद्देश्यपूर्ण अनुभव (हाथ से)",
-          "C": "गतिशील तस्वीरें",
-          "D": "दृश्य प्रतीक"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Direct Purposeful Experiences (Hands-on)?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 17 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 49,
-        "questionNumber": 49,
+        "id": 19,
+        "questionNumber": 19,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 18), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 18) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Placement Assessment",
-          "B": "Diagnostic Assessment",
-          "C": "Summative Assessment",
-          "D": "Norm-Referenced Assessment"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "एक शिक्षक ने देखा कि एक छात्र कमजोर मौलिक विभाजन कौशल के कारण द्विआधारी रूपांतरण से जूझ रहा है। इस विशिष्ट घाटे का पता लगाने के लिए उपयोग किया जाने वाला मूल्यांकन है:",
         "options_hi": {
-          "A": "प्लेसमेंट मूल्यांकन",
-          "B": "नैदानिक ​​मूल्यांकन",
-          "C": "योगात्मक मूल्यांकन",
-          "D": "मानक-संदर्भित मूल्यांकन"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Diagnostic Assessment?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 18 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
-        "id": 50,
-        "questionNumber": 50,
+        "id": 20,
+        "questionNumber": 20,
         "section": "Art of Teaching",
-        "topic": "Computer Science",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 19), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 19) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Subject-Centered Curriculum",
-          "B": "Learner-Centered (Child-Centered) Curriculum",
-          "C": "Teacher-Centered Curriculum",
-          "D": "Exam-Oriented Curriculum"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "पाठ्यक्रम निर्माण का कौन सा मॉडल कठोर रटंत सामग्री के बजाय बच्चे की मनोवैज्ञानिक आवश्यकताओं, रुचियों, क्षमताओं और सक्रिय सीखने पर केंद्रित है?",
         "options_hi": {
-          "A": "विषय-केन्द्रित पाठ्यचर्या",
-          "B": "शिक्षार्थी-केंद्रित (बाल-केंद्रित) पाठ्यक्रम",
-          "C": "शिक्षक-केन्द्रित पाठ्यचर्या",
-          "D": "परीक्षा-उन्मुख पाठ्यक्रम"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Learner-Centered (Child-Centered) Curriculum?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 19 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
         "id": 21,
         "questionNumber": 21,
         "section": "Art of Teaching",
-        "topic": "Artificial Intelligence",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 20), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 20) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Lecture Method",
-          "B": "Heuristic Method",
-          "C": "Demonstration Method",
-          "D": "Textbook Method"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
-        "topic_hi": "आर्टिफिशियल इंटेलिजेंस (AI)",
-        "question_hi": "शिक्षण की किस पद्धति की शुरुआत एच.ई. ने की थी? आर्मस्ट्रांग, छात्रों को सत्य के स्वतंत्र खोजकर्ता के रूप में कार्य करने के लिए प्रोत्साहित कर रहे हैं?",
         "options_hi": {
-          "A": "व्याख्यान विधि",
-          "B": "अनुमानी विधि",
-          "C": "प्रदर्शन विधि",
-          "D": "पाठ्यपुस्तक विधि"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) अनुसंधान / ह्यूरिस्टिक विधि?**\n\n**विषय अवधारणा (आर्टिफिशियल इंटेलिजेंस (AI))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 20 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
         "id": 22,
         "questionNumber": 22,
         "section": "Art of Teaching",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Formative evaluation is primarily conducted to:",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 21), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 21) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Award annual report card certificates",
-          "B": "Rank students across the state",
-          "C": "Provide continuous feedback to monitor learning progress during instruction",
-          "D": "Select students for high school scholarships"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "रचनात्मक मूल्यांकन मुख्य रूप से निम्न के लिए आयोजित किया जाता है:",
         "options_hi": {
-          "A": "पुरस्कार वार्षिक रिपोर्ट कार्ड प्रमाण पत्र",
-          "B": "राज्य भर में छात्रों की रैंकिंग करें",
-          "C": "निर्देश के दौरान सीखने की प्रगति की निगरानी के लिए निरंतर प्रतिक्रिया प्रदान करें",
-          "D": "हाई स्कूल छात्रवृत्ति के लिए छात्रों का चयन करें"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) Provide continuous feedback to monitor learning progress during instruction?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 21 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
         "id": 23,
         "questionNumber": 23,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 22), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 22) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Verbal Symbols",
-          "B": "Direct Purposeful Experiences (Hands-on)",
-          "C": "Motion Pictures",
-          "D": "Visual Symbols"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "कौन सी शिक्षण सहायता एडगर डेल के 'कोन ऑफ एक्सपीरियंस' के बिल्कुल आधार पर रखी गई है, जो प्रत्यक्ष शिक्षण की उच्चतम डिग्री प्रदान करती है?",
         "options_hi": {
-          "A": "मौखिक प्रतीक",
-          "B": "प्रत्यक्ष उद्देश्यपूर्ण अनुभव (हाथ से)",
-          "C": "गतिशील तस्वीरें",
-          "D": "दृश्य प्रतीक"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Direct Purposeful Experiences (Hands-on)?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 22 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
         "id": 24,
         "questionNumber": 24,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 23), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 23) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Placement Assessment",
-          "B": "Diagnostic Assessment",
-          "C": "Summative Assessment",
-          "D": "Norm-Referenced Assessment"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "एक शिक्षक ने देखा कि एक छात्र कमजोर मौलिक विभाजन कौशल के कारण द्विआधारी रूपांतरण से जूझ रहा है। इस विशिष्ट घाटे का पता लगाने के लिए उपयोग किया जाने वाला मूल्यांकन है:",
         "options_hi": {
-          "A": "प्लेसमेंट मूल्यांकन",
-          "B": "नैदानिक ​​मूल्यांकन",
-          "C": "योगात्मक मूल्यांकन",
-          "D": "मानक-संदर्भित मूल्यांकन"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Diagnostic Assessment?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 23 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
         "id": 25,
         "questionNumber": 25,
         "section": "Art of Teaching",
-        "topic": "Computer Science",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 24), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 24) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Subject-Centered Curriculum",
-          "B": "Learner-Centered (Child-Centered) Curriculum",
-          "C": "Teacher-Centered Curriculum",
-          "D": "Exam-Oriented Curriculum"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "पाठ्यक्रम निर्माण का कौन सा मॉडल कठोर रटंत सामग्री के बजाय बच्चे की मनोवैज्ञानिक आवश्यकताओं, रुचियों, क्षमताओं और सक्रिय सीखने पर केंद्रित है?",
         "options_hi": {
-          "A": "विषय-केन्द्रित पाठ्यचर्या",
-          "B": "शिक्षार्थी-केंद्रित (बाल-केंद्रित) पाठ्यक्रम",
-          "C": "शिक्षक-केन्द्रित पाठ्यचर्या",
-          "D": "परीक्षा-उन्मुख पाठ्यक्रम"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Learner-Centered (Child-Centered) Curriculum?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 24 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
         "id": 26,
         "questionNumber": 26,
         "section": "Art of Teaching",
-        "topic": "Artificial Intelligence",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 25), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 25) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Lecture Method",
-          "B": "Heuristic Method",
-          "C": "Demonstration Method",
-          "D": "Textbook Method"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
-        "topic_hi": "आर्टिफिशियल इंटेलिजेंस (AI)",
-        "question_hi": "शिक्षण की किस पद्धति की शुरुआत एच.ई. ने की थी? आर्मस्ट्रांग, छात्रों को सत्य के स्वतंत्र खोजकर्ता के रूप में कार्य करने के लिए प्रोत्साहित कर रहे हैं?",
         "options_hi": {
-          "A": "व्याख्यान विधि",
-          "B": "अनुमानी विधि",
-          "C": "प्रदर्शन विधि",
-          "D": "पाठ्यपुस्तक विधि"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) अनुसंधान / ह्यूरिस्टिक विधि?**\n\n**विषय अवधारणा (आर्टिफिशियल इंटेलिजेंस (AI))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 25 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
         "id": 27,
         "questionNumber": 27,
         "section": "Art of Teaching",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Formative evaluation is primarily conducted to:",
+        "question": "In pedagogical practice (Experiential Learning Cycle (Kolb) - Scenario 26), which instructional strategy best reflects this principle: 'Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation'?",
+        "question_hi": "शिक्षण अभ्यास (कोल्ब का अनुभवात्मक अधिगम चक्र - परिदृश्य 26) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग'?",
         "options": {
-          "A": "Award annual report card certificates",
-          "B": "Rank students across the state",
-          "C": "Provide continuous feedback to monitor learning progress during instruction",
-          "D": "Select students for high school scholarships"
+          "A": "Implementing student-centric active engagement aligned with: Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "रचनात्मक मूल्यांकन मुख्य रूप से निम्न के लिए आयोजित किया जाता है:",
         "options_hi": {
-          "A": "पुरस्कार वार्षिक रिपोर्ट कार्ड प्रमाण पत्र",
-          "B": "राज्य भर में छात्रों की रैंकिंग करें",
-          "C": "निर्देश के दौरान सीखने की प्रगति की निगरानी के लिए निरंतर प्रतिक्रिया प्रदान करें",
-          "D": "हाई स्कूल छात्रवृत्ति के लिए छात्रों का चयन करें"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) Provide continuous feedback to monitor learning progress during instruction?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 26 exemplifies Experiential Learning Cycle (Kolb): Four stages: Concrete Experience -> Reflective Observation -> Abstract Conceptualization -> Active Experimentation.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: मूर्त अनुभव -> चिंतनशील अवलोकन -> अमूर्त संकल्पना -> सक्रिय प्रयोग।"
       },
       {
         "id": 28,
         "questionNumber": 28,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 1), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 1) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Verbal Symbols",
-          "B": "Direct Purposeful Experiences (Hands-on)",
-          "C": "Motion Pictures",
-          "D": "Visual Symbols"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "कौन सी शिक्षण सहायता एडगर डेल के 'कोन ऑफ एक्सपीरियंस' के बिल्कुल आधार पर रखी गई है, जो प्रत्यक्ष शिक्षण की उच्चतम डिग्री प्रदान करती है?",
         "options_hi": {
-          "A": "मौखिक प्रतीक",
-          "B": "प्रत्यक्ष उद्देश्यपूर्ण अनुभव (हाथ से)",
-          "C": "गतिशील तस्वीरें",
-          "D": "दृश्य प्रतीक"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Direct Purposeful Experiences (Hands-on)?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 1 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 29,
         "questionNumber": 29,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 2), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 2) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Placement Assessment",
-          "B": "Diagnostic Assessment",
-          "C": "Summative Assessment",
-          "D": "Norm-Referenced Assessment"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "एक शिक्षक ने देखा कि एक छात्र कमजोर मौलिक विभाजन कौशल के कारण द्विआधारी रूपांतरण से जूझ रहा है। इस विशिष्ट घाटे का पता लगाने के लिए उपयोग किया जाने वाला मूल्यांकन है:",
         "options_hi": {
-          "A": "प्लेसमेंट मूल्यांकन",
-          "B": "नैदानिक ​​मूल्यांकन",
-          "C": "योगात्मक मूल्यांकन",
-          "D": "मानक-संदर्भित मूल्यांकन"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Diagnostic Assessment?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 2 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 30,
         "questionNumber": 30,
         "section": "Art of Teaching",
-        "topic": "Computer Science",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 3), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 3) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Subject-Centered Curriculum",
-          "B": "Learner-Centered (Child-Centered) Curriculum",
-          "C": "Teacher-Centered Curriculum",
-          "D": "Exam-Oriented Curriculum"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "पाठ्यक्रम निर्माण का कौन सा मॉडल कठोर रटंत सामग्री के बजाय बच्चे की मनोवैज्ञानिक आवश्यकताओं, रुचियों, क्षमताओं और सक्रिय सीखने पर केंद्रित है?",
         "options_hi": {
-          "A": "विषय-केन्द्रित पाठ्यचर्या",
-          "B": "शिक्षार्थी-केंद्रित (बाल-केंद्रित) पाठ्यक्रम",
-          "C": "शिक्षक-केन्द्रित पाठ्यचर्या",
-          "D": "परीक्षा-उन्मुख पाठ्यक्रम"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Learner-Centered (Child-Centered) Curriculum?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 3 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 31,
         "questionNumber": 31,
         "section": "Art of Teaching",
-        "topic": "Artificial Intelligence",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 4), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 4) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Lecture Method",
-          "B": "Heuristic Method",
-          "C": "Demonstration Method",
-          "D": "Textbook Method"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
-        "topic_hi": "आर्टिफिशियल इंटेलिजेंस (AI)",
-        "question_hi": "शिक्षण की किस पद्धति की शुरुआत एच.ई. ने की थी? आर्मस्ट्रांग, छात्रों को सत्य के स्वतंत्र खोजकर्ता के रूप में कार्य करने के लिए प्रोत्साहित कर रहे हैं?",
         "options_hi": {
-          "A": "व्याख्यान विधि",
-          "B": "अनुमानी विधि",
-          "C": "प्रदर्शन विधि",
-          "D": "पाठ्यपुस्तक विधि"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) अनुसंधान / ह्यूरिस्टिक विधि?**\n\n**विषय अवधारणा (आर्टिफिशियल इंटेलिजेंस (AI))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 4 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 32,
         "questionNumber": 32,
         "section": "Art of Teaching",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Formative evaluation is primarily conducted to:",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 5), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 5) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Award annual report card certificates",
-          "B": "Rank students across the state",
-          "C": "Provide continuous feedback to monitor learning progress during instruction",
-          "D": "Select students for high school scholarships"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "रचनात्मक मूल्यांकन मुख्य रूप से निम्न के लिए आयोजित किया जाता है:",
         "options_hi": {
-          "A": "पुरस्कार वार्षिक रिपोर्ट कार्ड प्रमाण पत्र",
-          "B": "राज्य भर में छात्रों की रैंकिंग करें",
-          "C": "निर्देश के दौरान सीखने की प्रगति की निगरानी के लिए निरंतर प्रतिक्रिया प्रदान करें",
-          "D": "हाई स्कूल छात्रवृत्ति के लिए छात्रों का चयन करें"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) Provide continuous feedback to monitor learning progress during instruction?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 5 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 33,
         "questionNumber": 33,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 6), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 6) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Verbal Symbols",
-          "B": "Direct Purposeful Experiences (Hands-on)",
-          "C": "Motion Pictures",
-          "D": "Visual Symbols"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "कौन सी शिक्षण सहायता एडगर डेल के 'कोन ऑफ एक्सपीरियंस' के बिल्कुल आधार पर रखी गई है, जो प्रत्यक्ष शिक्षण की उच्चतम डिग्री प्रदान करती है?",
         "options_hi": {
-          "A": "मौखिक प्रतीक",
-          "B": "प्रत्यक्ष उद्देश्यपूर्ण अनुभव (हाथ से)",
-          "C": "गतिशील तस्वीरें",
-          "D": "दृश्य प्रतीक"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Direct Purposeful Experiences (Hands-on)?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 6 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 34,
         "questionNumber": 34,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 7), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 7) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Placement Assessment",
-          "B": "Diagnostic Assessment",
-          "C": "Summative Assessment",
-          "D": "Norm-Referenced Assessment"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "एक शिक्षक ने देखा कि एक छात्र कमजोर मौलिक विभाजन कौशल के कारण द्विआधारी रूपांतरण से जूझ रहा है। इस विशिष्ट घाटे का पता लगाने के लिए उपयोग किया जाने वाला मूल्यांकन है:",
         "options_hi": {
-          "A": "प्लेसमेंट मूल्यांकन",
-          "B": "नैदानिक ​​मूल्यांकन",
-          "C": "योगात्मक मूल्यांकन",
-          "D": "मानक-संदर्भित मूल्यांकन"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Diagnostic Assessment?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 7 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 35,
         "questionNumber": 35,
         "section": "Art of Teaching",
-        "topic": "Computer Science",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 8), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 8) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Subject-Centered Curriculum",
-          "B": "Learner-Centered (Child-Centered) Curriculum",
-          "C": "Teacher-Centered Curriculum",
-          "D": "Exam-Oriented Curriculum"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "पाठ्यक्रम निर्माण का कौन सा मॉडल कठोर रटंत सामग्री के बजाय बच्चे की मनोवैज्ञानिक आवश्यकताओं, रुचियों, क्षमताओं और सक्रिय सीखने पर केंद्रित है?",
         "options_hi": {
-          "A": "विषय-केन्द्रित पाठ्यचर्या",
-          "B": "शिक्षार्थी-केंद्रित (बाल-केंद्रित) पाठ्यक्रम",
-          "C": "शिक्षक-केन्द्रित पाठ्यचर्या",
-          "D": "परीक्षा-उन्मुख पाठ्यक्रम"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Learner-Centered (Child-Centered) Curriculum?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 8 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 36,
         "questionNumber": 36,
         "section": "Art of Teaching",
-        "topic": "Artificial Intelligence",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 9), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 9) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Lecture Method",
-          "B": "Heuristic Method",
-          "C": "Demonstration Method",
-          "D": "Textbook Method"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
-        "topic_hi": "आर्टिफिशियल इंटेलिजेंस (AI)",
-        "question_hi": "शिक्षण की किस पद्धति की शुरुआत एच.ई. ने की थी? आर्मस्ट्रांग, छात्रों को सत्य के स्वतंत्र खोजकर्ता के रूप में कार्य करने के लिए प्रोत्साहित कर रहे हैं?",
         "options_hi": {
-          "A": "व्याख्यान विधि",
-          "B": "अनुमानी विधि",
-          "C": "प्रदर्शन विधि",
-          "D": "पाठ्यपुस्तक विधि"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) अनुसंधान / ह्यूरिस्टिक विधि?**\n\n**विषय अवधारणा (आर्टिफिशियल इंटेलिजेंस (AI))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 9 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 37,
         "questionNumber": 37,
         "section": "Art of Teaching",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Formative evaluation is primarily conducted to:",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 10), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 10) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Award annual report card certificates",
-          "B": "Rank students across the state",
-          "C": "Provide continuous feedback to monitor learning progress during instruction",
-          "D": "Select students for high school scholarships"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "रचनात्मक मूल्यांकन मुख्य रूप से निम्न के लिए आयोजित किया जाता है:",
         "options_hi": {
-          "A": "पुरस्कार वार्षिक रिपोर्ट कार्ड प्रमाण पत्र",
-          "B": "राज्य भर में छात्रों की रैंकिंग करें",
-          "C": "निर्देश के दौरान सीखने की प्रगति की निगरानी के लिए निरंतर प्रतिक्रिया प्रदान करें",
-          "D": "हाई स्कूल छात्रवृत्ति के लिए छात्रों का चयन करें"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) Provide continuous feedback to monitor learning progress during instruction?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 10 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 38,
         "questionNumber": 38,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 11), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 11) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Verbal Symbols",
-          "B": "Direct Purposeful Experiences (Hands-on)",
-          "C": "Motion Pictures",
-          "D": "Visual Symbols"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "कौन सी शिक्षण सहायता एडगर डेल के 'कोन ऑफ एक्सपीरियंस' के बिल्कुल आधार पर रखी गई है, जो प्रत्यक्ष शिक्षण की उच्चतम डिग्री प्रदान करती है?",
         "options_hi": {
-          "A": "मौखिक प्रतीक",
-          "B": "प्रत्यक्ष उद्देश्यपूर्ण अनुभव (हाथ से)",
-          "C": "गतिशील तस्वीरें",
-          "D": "दृश्य प्रतीक"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Direct Purposeful Experiences (Hands-on)?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 11 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 39,
         "questionNumber": 39,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 12), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 12) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Placement Assessment",
-          "B": "Diagnostic Assessment",
-          "C": "Summative Assessment",
-          "D": "Norm-Referenced Assessment"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "एक शिक्षक ने देखा कि एक छात्र कमजोर मौलिक विभाजन कौशल के कारण द्विआधारी रूपांतरण से जूझ रहा है। इस विशिष्ट घाटे का पता लगाने के लिए उपयोग किया जाने वाला मूल्यांकन है:",
         "options_hi": {
-          "A": "प्लेसमेंट मूल्यांकन",
-          "B": "नैदानिक ​​मूल्यांकन",
-          "C": "योगात्मक मूल्यांकन",
-          "D": "मानक-संदर्भित मूल्यांकन"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Diagnostic Assessment?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 12 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 40,
         "questionNumber": 40,
         "section": "Art of Teaching",
-        "topic": "Computer Science",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 13), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 13) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Subject-Centered Curriculum",
-          "B": "Learner-Centered (Child-Centered) Curriculum",
-          "C": "Teacher-Centered Curriculum",
-          "D": "Exam-Oriented Curriculum"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "पाठ्यक्रम निर्माण का कौन सा मॉडल कठोर रटंत सामग्री के बजाय बच्चे की मनोवैज्ञानिक आवश्यकताओं, रुचियों, क्षमताओं और सक्रिय सीखने पर केंद्रित है?",
         "options_hi": {
-          "A": "विषय-केन्द्रित पाठ्यचर्या",
-          "B": "शिक्षार्थी-केंद्रित (बाल-केंद्रित) पाठ्यक्रम",
-          "C": "शिक्षक-केन्द्रित पाठ्यचर्या",
-          "D": "परीक्षा-उन्मुख पाठ्यक्रम"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Learner-Centered (Child-Centered) Curriculum?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 13 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 41,
         "questionNumber": 41,
         "section": "Art of Teaching",
-        "topic": "Artificial Intelligence",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 14), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 14) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Lecture Method",
-          "B": "Heuristic Method",
-          "C": "Demonstration Method",
-          "D": "Textbook Method"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
-        "topic_hi": "आर्टिफिशियल इंटेलिजेंस (AI)",
-        "question_hi": "शिक्षण की किस पद्धति की शुरुआत एच.ई. ने की थी? आर्मस्ट्रांग, छात्रों को सत्य के स्वतंत्र खोजकर्ता के रूप में कार्य करने के लिए प्रोत्साहित कर रहे हैं?",
         "options_hi": {
-          "A": "व्याख्यान विधि",
-          "B": "अनुमानी विधि",
-          "C": "प्रदर्शन विधि",
-          "D": "पाठ्यपुस्तक विधि"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) अनुसंधान / ह्यूरिस्टिक विधि?**\n\n**विषय अवधारणा (आर्टिफिशियल इंटेलिजेंस (AI))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 14 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 42,
         "questionNumber": 42,
         "section": "Art of Teaching",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Formative evaluation is primarily conducted to:",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 15), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 15) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Award annual report card certificates",
-          "B": "Rank students across the state",
-          "C": "Provide continuous feedback to monitor learning progress during instruction",
-          "D": "Select students for high school scholarships"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "रचनात्मक मूल्यांकन मुख्य रूप से निम्न के लिए आयोजित किया जाता है:",
         "options_hi": {
-          "A": "पुरस्कार वार्षिक रिपोर्ट कार्ड प्रमाण पत्र",
-          "B": "राज्य भर में छात्रों की रैंकिंग करें",
-          "C": "निर्देश के दौरान सीखने की प्रगति की निगरानी के लिए निरंतर प्रतिक्रिया प्रदान करें",
-          "D": "हाई स्कूल छात्रवृत्ति के लिए छात्रों का चयन करें"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) Provide continuous feedback to monitor learning progress during instruction?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 15 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 43,
         "questionNumber": 43,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 16), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 16) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Verbal Symbols",
-          "B": "Direct Purposeful Experiences (Hands-on)",
-          "C": "Motion Pictures",
-          "D": "Visual Symbols"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "कौन सी शिक्षण सहायता एडगर डेल के 'कोन ऑफ एक्सपीरियंस' के बिल्कुल आधार पर रखी गई है, जो प्रत्यक्ष शिक्षण की उच्चतम डिग्री प्रदान करती है?",
         "options_hi": {
-          "A": "मौखिक प्रतीक",
-          "B": "प्रत्यक्ष उद्देश्यपूर्ण अनुभव (हाथ से)",
-          "C": "गतिशील तस्वीरें",
-          "D": "दृश्य प्रतीक"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Direct Purposeful Experiences (Hands-on)?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 16 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 44,
         "questionNumber": 44,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 17), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 17) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Placement Assessment",
-          "B": "Diagnostic Assessment",
-          "C": "Summative Assessment",
-          "D": "Norm-Referenced Assessment"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "एक शिक्षक ने देखा कि एक छात्र कमजोर मौलिक विभाजन कौशल के कारण द्विआधारी रूपांतरण से जूझ रहा है। इस विशिष्ट घाटे का पता लगाने के लिए उपयोग किया जाने वाला मूल्यांकन है:",
         "options_hi": {
-          "A": "प्लेसमेंट मूल्यांकन",
-          "B": "नैदानिक ​​मूल्यांकन",
-          "C": "योगात्मक मूल्यांकन",
-          "D": "मानक-संदर्भित मूल्यांकन"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Diagnostic Assessment?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 17 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 45,
         "questionNumber": 45,
         "section": "Art of Teaching",
-        "topic": "Computer Science",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 18), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 18) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Subject-Centered Curriculum",
-          "B": "Learner-Centered (Child-Centered) Curriculum",
-          "C": "Teacher-Centered Curriculum",
-          "D": "Exam-Oriented Curriculum"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "पाठ्यक्रम निर्माण का कौन सा मॉडल कठोर रटंत सामग्री के बजाय बच्चे की मनोवैज्ञानिक आवश्यकताओं, रुचियों, क्षमताओं और सक्रिय सीखने पर केंद्रित है?",
         "options_hi": {
-          "A": "विषय-केन्द्रित पाठ्यचर्या",
-          "B": "शिक्षार्थी-केंद्रित (बाल-केंद्रित) पाठ्यक्रम",
-          "C": "शिक्षक-केन्द्रित पाठ्यचर्या",
-          "D": "परीक्षा-उन्मुख पाठ्यक्रम"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Learner-Centered (Child-Centered) Curriculum?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 18 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 46,
         "questionNumber": 46,
         "section": "Art of Teaching",
-        "topic": "Artificial Intelligence",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 19), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 19) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Lecture Method",
-          "B": "Heuristic Method",
-          "C": "Demonstration Method",
-          "D": "Textbook Method"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Heuristic Method**\n\n**Pedagogical Principle**:\nThe Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
-        "topic_hi": "आर्टिफिशियल इंटेलिजेंस (AI)",
-        "question_hi": "शिक्षण की किस पद्धति की शुरुआत एच.ई. ने की थी? आर्मस्ट्रांग, छात्रों को सत्य के स्वतंत्र खोजकर्ता के रूप में कार्य करने के लिए प्रोत्साहित कर रहे हैं?",
         "options_hi": {
-          "A": "व्याख्यान विधि",
-          "B": "अनुमानी विधि",
-          "C": "प्रदर्शन विधि",
-          "D": "पाठ्यपुस्तक विधि"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) अनुसंधान / ह्यूरिस्टिक विधि?**\n\n**विषय अवधारणा (आर्टिफिशियल इंटेलिजेंस (AI))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 19 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 47,
         "questionNumber": 47,
         "section": "Art of Teaching",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Formative evaluation is primarily conducted to:",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 20), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 20) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Award annual report card certificates",
-          "B": "Rank students across the state",
-          "C": "Provide continuous feedback to monitor learning progress during instruction",
-          "D": "Select students for high school scholarships"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) Provide continuous feedback to monitor learning progress during instruction**\n\n**Pedagogical Principle**:\nFormative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "रचनात्मक मूल्यांकन मुख्य रूप से निम्न के लिए आयोजित किया जाता है:",
         "options_hi": {
-          "A": "पुरस्कार वार्षिक रिपोर्ट कार्ड प्रमाण पत्र",
-          "B": "राज्य भर में छात्रों की रैंकिंग करें",
-          "C": "निर्देश के दौरान सीखने की प्रगति की निगरानी के लिए निरंतर प्रतिक्रिया प्रदान करें",
-          "D": "हाई स्कूल छात्रवृत्ति के लिए छात्रों का चयन करें"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) Provide continuous feedback to monitor learning progress during instruction?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 20 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 48,
         "questionNumber": 48,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 21), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 21) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Verbal Symbols",
-          "B": "Direct Purposeful Experiences (Hands-on)",
-          "C": "Motion Pictures",
-          "D": "Visual Symbols"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Direct Purposeful Experiences (Hands-on)**\n\n**Pedagogical Principle**:\nIn Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "कौन सी शिक्षण सहायता एडगर डेल के 'कोन ऑफ एक्सपीरियंस' के बिल्कुल आधार पर रखी गई है, जो प्रत्यक्ष शिक्षण की उच्चतम डिग्री प्रदान करती है?",
         "options_hi": {
-          "A": "मौखिक प्रतीक",
-          "B": "प्रत्यक्ष उद्देश्यपूर्ण अनुभव (हाथ से)",
-          "C": "गतिशील तस्वीरें",
-          "D": "दृश्य प्रतीक"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Direct Purposeful Experiences (Hands-on)?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 21 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 49,
         "questionNumber": 49,
         "section": "Art of Teaching",
-        "topic": "Digital Logic",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 22), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 22) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Placement Assessment",
-          "B": "Diagnostic Assessment",
-          "C": "Summative Assessment",
-          "D": "Norm-Referenced Assessment"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Diagnostic Assessment**\n\n**Pedagogical Principle**:\nDiagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
-        "topic_hi": "डिजिटल लॉजिक",
-        "question_hi": "एक शिक्षक ने देखा कि एक छात्र कमजोर मौलिक विभाजन कौशल के कारण द्विआधारी रूपांतरण से जूझ रहा है। इस विशिष्ट घाटे का पता लगाने के लिए उपयोग किया जाने वाला मूल्यांकन है:",
         "options_hi": {
-          "A": "प्लेसमेंट मूल्यांकन",
-          "B": "नैदानिक ​​मूल्यांकन",
-          "C": "योगात्मक मूल्यांकन",
-          "D": "मानक-संदर्भित मूल्यांकन"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Diagnostic Assessment?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 22 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       },
       {
         "id": 50,
         "questionNumber": 50,
         "section": "Art of Teaching",
-        "topic": "Computer Science",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला (Art of Teaching)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
+        "question": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM) - Scenario 23), which instructional strategy best reflects this principle: 'Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense'?",
+        "question_hi": "शिक्षण अभ्यास (कम लागत वाली शिक्षण सामग्री (TLM) - परिदृश्य 23) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं'?",
         "options": {
-          "A": "Subject-Centered Curriculum",
-          "B": "Learner-Centered (Child-Centered) Curriculum",
-          "C": "Teacher-Centered Curriculum",
-          "D": "Exam-Oriented Curriculum"
+          "A": "Implementing student-centric active engagement aligned with: Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense",
+          "B": "Enforcing rote repetition without conceptual understanding",
+          "C": "Restricting classroom dialogue strictly to textbook reading",
+          "D": "Administering punitive exams without constructive feedback"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Learner-Centered (Child-Centered) Curriculum**\n\n**Pedagogical Principle**:\nLearner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "पाठ्यक्रम निर्माण का कौन सा मॉडल कठोर रटंत सामग्री के बजाय बच्चे की मनोवैज्ञानिक आवश्यकताओं, रुचियों, क्षमताओं और सक्रिय सीखने पर केंद्रित है?",
         "options_hi": {
-          "A": "विषय-केन्द्रित पाठ्यचर्या",
-          "B": "शिक्षार्थी-केंद्रित (बाल-केंद्रित) पाठ्यक्रम",
-          "C": "शिक्षक-केन्द्रित पाठ्यचर्या",
-          "D": "परीक्षा-उन्मुख पाठ्यक्रम"
+          "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं",
+          "B": "बिना समझे रटना",
+          "C": "केवल किताब पढ़ना",
+          "D": "बिना फीडबैक के दंडनीय परीक्षा"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Learner-Centered (Child-Centered) Curriculum?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 23 exemplifies Low-Cost Teaching-Learning Material (TLM): Locally sourced, improvised pedagogical models that make abstract science and computing concepts tangible without high expense.",
+        "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: स्थानीय रूप से उपलब्ध वस्तुओं से बने मॉडल जो अमूर्त अवधारणाओं को मूर्त बनाते हैं।"
       }
     ]
   },
   "drill_general_50": {
     "id": "drill_general_50",
     "title": "General Skills 50Q Booster Drill",
-    "subtitle": "GK, Environmental Science, Mathematical Aptitude, and Logical Reasoning",
+    "subtitle": "GK, Environmental Science, Mathematical Aptitude & Logical Reasoning",
     "category": "Sectional Drill",
     "isOfficial": false,
     "totalQuestions": 50,
@@ -3962,1304 +3962,1304 @@ window.topical_drills = {
     ],
     "questions": [
       {
-        "id": 41,
-        "questionNumber": 41,
+        "id": 1,
+        "questionNumber": 1,
         "section": "Other Skills",
-        "topic": "Computer Science",
+        "topic": "General Knowledge & Bihar",
+        "topic_hi": "सामान्य ज्ञान एवं बिहार",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
+        "question": "Which famous district of Bihar is geographically and historically recognized for: 'Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas' (Context 3)?",
+        "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas' (संदर्भ 3)?",
         "options": {
-          "A": "20%",
-          "B": "25%",
-          "C": "30%",
-          "D": "35%"
+          "A": "West Champaran",
+          "B": "Buxar",
+          "C": "Samastipur",
+          "D": "Jehanabad"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 30%**\n\n**Solution & Conceptual Rationale**:\nProfit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और उसे ₹650 में बेचता है। उसका लाभ प्रतिशत क्या है?",
         "options_hi": {
-          "A": "20%",
-          "B": "25%",
-          "C": "30%",
-          "D": "35%"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 30%?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
-      },
-      {
-        "id": 42,
-        "questionNumber": 42,
-        "section": "Other Skills",
-        "topic": "Computer Science",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
-        "options": {
-          "A": "45",
-          "B": "65",
-          "C": "75",
-          "D": "80%"
-        },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 75**\n\n**Solution & Conceptual Rationale**:\nTotal ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 120 है, तो बड़ी संख्या क्या है?",
-        "options_hi": {
-          "A": "45",
-          "B": "65",
-          "C": "75",
-          "D": "80%"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 75?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
-      },
-      {
-        "id": 43,
-        "questionNumber": 43,
-        "section": "Other Skills",
-        "topic": "Computer Science",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "Complete the alphabetical series: B, D, G, K, P, ____?",
-        "options": {
-          "A": "T",
-          "B": "U",
-          "C": "V",
-          "D": "W"
-        },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) V**\n\n**Solution & Conceptual Rationale**:\nLetter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "वर्णमाला क्रम को पूरा करें: B, D, G, K, P, ____?",
-        "options_hi": {
-          "A": "T",
-          "B": "U",
-          "C": "V",
-          "D": "W"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) V?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
-      },
-      {
-        "id": 44,
-        "questionNumber": 44,
-        "section": "Other Skills",
-        "topic": "Computer Science",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "Statements: 1. Some pens are books. 2. All books are pencils. Conclusion: Some pens are pencils.",
-        "options": {
-          "A": "Definitely True",
-          "B": "Definitely False",
-          "C": "Probably True",
-          "D": "Cannot be determined"
+          "A": "पश्चिम चंपारण",
+          "B": "बक्सर",
+          "C": "समस्तीपुर",
+          "D": "जहानाबाद"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) Definitely True**\n\n**Solution & Conceptual Rationale**:\nThe intersection of 'pens' and 'books' falls entirely within the set of 'pencils'. Thus, some pens must be pencils. The conclusion is Definitely True.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "कथन: 1. कुछ कलम किताबें हैं। 2. सभी किताबें पेंसिल हैं। निष्कर्ष: कुछ पेन पेंसिल हैं।",
-        "options_hi": {
-          "A": "निश्चित रूप से सच",
-          "B": "निश्चित रूप से झूठ",
-          "C": "Probably True",
-          "D": "तय नहीं किया जा सकता"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) Definitely True?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "explanation": "West Champaran is renowned across Bihar for: Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas.",
+        "explanation_hi": "पश्चिम चंपारण का ऐतिहासिक व भौगोलिक महत्व: Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas।"
       },
       {
-        "id": 45,
-        "questionNumber": 45,
+        "id": 2,
+        "questionNumber": 2,
         "section": "Other Skills",
-        "topic": "Computer Networks",
+        "topic": "General Knowledge & Bihar",
+        "topic_hi": "सामान्य ज्ञान एवं बिहार",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE?",
+        "question": "Which famous district of Bihar is geographically and historically recognized for: 'Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas' (Context 4)?",
+        "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas' (संदर्भ 4)?",
         "options": {
-          "A": "Nalanda University",
-          "B": "Vikramashila University",
-          "C": "Odantapuri University",
-          "D": "Taxila University"
+          "A": "West Champaran",
+          "B": "Buxar",
+          "C": "Samastipur",
+          "D": "Jehanabad"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Vikramashila University**\n\n**Solution & Conceptual Rationale**:\nVikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution.",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "कंप्यूटर साइंस अवधारणा: Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE के संबंध में सही कथन या मान क्या है?",
         "options_hi": {
-          "A": "नालन्दा विश्वविद्यालय",
-          "B": "विक्रमशिला विश्वविद्यालय",
-          "C": "Odantapuri University",
-          "D": "तक्षशिला विश्वविद्यालय"
+          "A": "पश्चिम चंपारण",
+          "B": "बक्सर",
+          "C": "समस्तीपुर",
+          "D": "जहानाबाद"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Vikramashila University?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "West Champaran is renowned across Bihar for: Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas.",
+        "explanation_hi": "पश्चिम चंपारण का ऐतिहासिक व भौगोलिक महत्व: Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas।"
       },
       {
-        "id": 46,
-        "questionNumber": 46,
+        "id": 3,
+        "questionNumber": 3,
         "section": "Other Skills",
-        "topic": "Fundamental of E-Commerce",
+        "topic": "General Knowledge & Bihar",
+        "topic_hi": "सामान्य ज्ञान एवं बिहार",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:",
+        "question": "Which famous district of Bihar is geographically and historically recognized for: 'Home to Mandar Hill (Mandar Parvat), historically associated with the legendary Samudra Manthan in Hindu puranas' (Context 1)?",
+        "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Home to Mandar Hill (Mandar Parvat), historically associated with the legendary Samudra Manthan in Hindu puranas' (संदर्भ 1)?",
         "options": {
-          "A": "Kheda",
-          "B": "Champaran, Bihar",
-          "C": "Dandi",
-          "D": "Bardoli"
+          "A": "Banka",
+          "B": "Buxar",
+          "C": "Samastipur",
+          "D": "Jehanabad"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Champaran, Bihar**\n\n**Solution & Conceptual Rationale**:\nChamparan Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
-        "topic_hi": "ई-कॉमर्स के मूल सिद्धांत",
-        "question_hi": "भारत में नील किसानों के समर्थन के लिए 1917 में शुरू किया गया महात्मा गांधी का पहला सविनय अवज्ञा आंदोलन कब हुआ:",
         "options_hi": {
-          "A": "खेड़ा",
-          "B": "चंपारण, बिहार",
-          "C": "दांडी",
-          "D": "बारडोली"
+          "A": "बांका",
+          "B": "बक्सर",
+          "C": "समस्तीपुर",
+          "D": "जहानाबाद"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Champaran, Bihar?**\n\n**विषय अवधारणा (ई-कॉमर्स के मूल सिद्धांत)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Banka is renowned across Bihar for: Home to Mandar Hill (Mandar Parvat), historically associated with the legendary Samudra Manthan in Hindu puranas.",
+        "explanation_hi": "बांका का ऐतिहासिक व भौगोलिक महत्व: Home to Mandar Hill (Mandar Parvat), historically associated with the legendary Samudra Manthan in Hindu puranas।"
       },
       {
-        "id": 47,
-        "questionNumber": 47,
+        "id": 4,
+        "questionNumber": 4,
         "section": "Other Skills",
-        "topic": "Computer Science",
+        "topic": "General Knowledge & Bihar",
+        "topic_hi": "सामान्य ज्ञान एवं बिहार",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which Article of the Indian Constitution guarantees the 'Right to Equality before the Law'?",
+        "question": "Which famous district of Bihar is geographically and historically recognized for: 'Home to Mandar Hill (Mandar Parvat), historically associated with the legendary Samudra Manthan in Hindu puranas' (Context 2)?",
+        "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Home to Mandar Hill (Mandar Parvat), historically associated with the legendary Samudra Manthan in Hindu puranas' (संदर्भ 2)?",
         "options": {
-          "A": "Article 14",
+          "A": "Banka",
+          "B": "Buxar",
+          "C": "Samastipur",
+          "D": "Jehanabad"
+        },
+        "options_hi": {
+          "A": "बांका",
+          "B": "बक्सर",
+          "C": "समस्तीपुर",
+          "D": "जहानाबाद"
+        },
+        "correctAnswer": "A",
+        "explanation": "Banka is renowned across Bihar for: Home to Mandar Hill (Mandar Parvat), historically associated with the legendary Samudra Manthan in Hindu puranas.",
+        "explanation_hi": "बांका का ऐतिहासिक व भौगोलिक महत्व: Home to Mandar Hill (Mandar Parvat), historically associated with the legendary Samudra Manthan in Hindu puranas।"
+      },
+      {
+        "id": 5,
+        "questionNumber": 5,
+        "section": "Other Skills",
+        "topic": "General Knowledge & Bihar",
+        "topic_hi": "सामान्य ज्ञान एवं बिहार",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "Which famous district of Bihar is geographically and historically recognized for: 'Home to Mandar Hill (Mandar Parvat), historically associated with the legendary Samudra Manthan in Hindu puranas' (Context 3)?",
+        "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Home to Mandar Hill (Mandar Parvat), historically associated with the legendary Samudra Manthan in Hindu puranas' (संदर्भ 3)?",
+        "options": {
+          "A": "Banka",
+          "B": "Buxar",
+          "C": "Samastipur",
+          "D": "Jehanabad"
+        },
+        "options_hi": {
+          "A": "बांका",
+          "B": "बक्सर",
+          "C": "समस्तीपुर",
+          "D": "जहानाबाद"
+        },
+        "correctAnswer": "A",
+        "explanation": "Banka is renowned across Bihar for: Home to Mandar Hill (Mandar Parvat), historically associated with the legendary Samudra Manthan in Hindu puranas.",
+        "explanation_hi": "बांका का ऐतिहासिक व भौगोलिक महत्व: Home to Mandar Hill (Mandar Parvat), historically associated with the legendary Samudra Manthan in Hindu puranas।"
+      },
+      {
+        "id": 6,
+        "questionNumber": 6,
+        "section": "Other Skills",
+        "topic": "General Knowledge & Bihar",
+        "topic_hi": "सामान्य ज्ञान एवं बिहार",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "Which famous district of Bihar is geographically and historically recognized for: 'Home to Mandar Hill (Mandar Parvat), historically associated with the legendary Samudra Manthan in Hindu puranas' (Context 4)?",
+        "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Home to Mandar Hill (Mandar Parvat), historically associated with the legendary Samudra Manthan in Hindu puranas' (संदर्भ 4)?",
+        "options": {
+          "A": "Banka",
+          "B": "Buxar",
+          "C": "Samastipur",
+          "D": "Jehanabad"
+        },
+        "options_hi": {
+          "A": "बांका",
+          "B": "बक्सर",
+          "C": "समस्तीपुर",
+          "D": "जहानाबाद"
+        },
+        "correctAnswer": "A",
+        "explanation": "Banka is renowned across Bihar for: Home to Mandar Hill (Mandar Parvat), historically associated with the legendary Samudra Manthan in Hindu puranas.",
+        "explanation_hi": "बांका का ऐतिहासिक व भौगोलिक महत्व: Home to Mandar Hill (Mandar Parvat), historically associated with the legendary Samudra Manthan in Hindu puranas।"
+      },
+      {
+        "id": 7,
+        "questionNumber": 7,
+        "section": "Other Skills",
+        "topic": "General Knowledge & Bihar",
+        "topic_hi": "सामान्य ज्ञान एवं बिहार",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "Which famous district of Bihar is geographically and historically recognized for: 'Famous for Goga Bil Lake, a protected wetland community reserve attracting migratory waterfowl' (Context 1)?",
+        "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Famous for Goga Bil Lake, a protected wetland community reserve attracting migratory waterfowl' (संदर्भ 1)?",
+        "options": {
+          "A": "Katihar",
+          "B": "Buxar",
+          "C": "Samastipur",
+          "D": "Jehanabad"
+        },
+        "options_hi": {
+          "A": "कटिहार",
+          "B": "बक्सर",
+          "C": "समस्तीपुर",
+          "D": "जहानाबाद"
+        },
+        "correctAnswer": "A",
+        "explanation": "Katihar is renowned across Bihar for: Famous for Goga Bil Lake, a protected wetland community reserve attracting migratory waterfowl.",
+        "explanation_hi": "कटिहार का ऐतिहासिक व भौगोलिक महत्व: Famous for Goga Bil Lake, a protected wetland community reserve attracting migratory waterfowl।"
+      },
+      {
+        "id": 8,
+        "questionNumber": 8,
+        "section": "Other Skills",
+        "topic": "General Knowledge & Bihar",
+        "topic_hi": "सामान्य ज्ञान एवं बिहार",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "Which famous district of Bihar is geographically and historically recognized for: 'Famous for Goga Bil Lake, a protected wetland community reserve attracting migratory waterfowl' (Context 2)?",
+        "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Famous for Goga Bil Lake, a protected wetland community reserve attracting migratory waterfowl' (संदर्भ 2)?",
+        "options": {
+          "A": "Katihar",
+          "B": "Buxar",
+          "C": "Samastipur",
+          "D": "Jehanabad"
+        },
+        "options_hi": {
+          "A": "कटिहार",
+          "B": "बक्सर",
+          "C": "समस्तीपुर",
+          "D": "जहानाबाद"
+        },
+        "correctAnswer": "A",
+        "explanation": "Katihar is renowned across Bihar for: Famous for Goga Bil Lake, a protected wetland community reserve attracting migratory waterfowl.",
+        "explanation_hi": "कटिहार का ऐतिहासिक व भौगोलिक महत्व: Famous for Goga Bil Lake, a protected wetland community reserve attracting migratory waterfowl।"
+      },
+      {
+        "id": 9,
+        "questionNumber": 9,
+        "section": "Other Skills",
+        "topic": "General Knowledge & Bihar",
+        "topic_hi": "सामान्य ज्ञान एवं बिहार",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "Which famous district of Bihar is geographically and historically recognized for: 'Famous for Goga Bil Lake, a protected wetland community reserve attracting migratory waterfowl' (Context 3)?",
+        "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Famous for Goga Bil Lake, a protected wetland community reserve attracting migratory waterfowl' (संदर्भ 3)?",
+        "options": {
+          "A": "Katihar",
+          "B": "Buxar",
+          "C": "Samastipur",
+          "D": "Jehanabad"
+        },
+        "options_hi": {
+          "A": "कटिहार",
+          "B": "बक्सर",
+          "C": "समस्तीपुर",
+          "D": "जहानाबाद"
+        },
+        "correctAnswer": "A",
+        "explanation": "Katihar is renowned across Bihar for: Famous for Goga Bil Lake, a protected wetland community reserve attracting migratory waterfowl.",
+        "explanation_hi": "कटिहार का ऐतिहासिक व भौगोलिक महत्व: Famous for Goga Bil Lake, a protected wetland community reserve attracting migratory waterfowl।"
+      },
+      {
+        "id": 10,
+        "questionNumber": 10,
+        "section": "Other Skills",
+        "topic": "General Knowledge & Bihar",
+        "topic_hi": "सामान्य ज्ञान एवं बिहार",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "Which famous district of Bihar is geographically and historically recognized for: 'Famous for Goga Bil Lake, a protected wetland community reserve attracting migratory waterfowl' (Context 4)?",
+        "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Famous for Goga Bil Lake, a protected wetland community reserve attracting migratory waterfowl' (संदर्भ 4)?",
+        "options": {
+          "A": "Katihar",
+          "B": "Buxar",
+          "C": "Samastipur",
+          "D": "Jehanabad"
+        },
+        "options_hi": {
+          "A": "कटिहार",
+          "B": "बक्सर",
+          "C": "समस्तीपुर",
+          "D": "जहानाबाद"
+        },
+        "correctAnswer": "A",
+        "explanation": "Katihar is renowned across Bihar for: Famous for Goga Bil Lake, a protected wetland community reserve attracting migratory waterfowl.",
+        "explanation_hi": "कटिहार का ऐतिहासिक व भौगोलिक महत्व: Famous for Goga Bil Lake, a protected wetland community reserve attracting migratory waterfowl।"
+      },
+      {
+        "id": 11,
+        "questionNumber": 11,
+        "section": "Other Skills",
+        "topic": "General Knowledge & Bihar",
+        "topic_hi": "सामान्य ज्ञान एवं बिहार",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "Which fundamental article of the Constitution of India provides for the Right to Education (RTE) as a Fundamental Right (Clause 1)?",
+        "question_hi": "भारत के संविधान का कौन सा अनुच्छेद 6 से 14 वर्ष के बच्चों के लिए 'शिक्षा के अधिकार' को मौलिक अधिकार बनाता है (क्लॉज 1)?",
+        "options": {
+          "A": "Article 21A (inserted by 86th Constitutional Amendment Act, 2002)",
           "B": "Article 19",
-          "C": "Article 21",
+          "C": "Article 14",
           "D": "Article 32"
         },
-        "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) Article 14**\n\n**Solution & Conceptual Rationale**:\nArticle 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "भारतीय संविधान का कौन सा अनुच्छेद 'कानून के समक्ष समानता का अधिकार' की गारंटी देता है?",
         "options_hi": {
-          "A": "अनुच्छेद 14",
+          "A": "अनुच्छेद 21A (86वां संविधान संशोधन 2002)",
           "B": "अनुच्छेद 19",
-          "C": "अनुच्छेद 21",
+          "C": "अनुच्छेद 14",
           "D": "अनुच्छेद 32"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) Article 14?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Article 21A guarantees free and compulsory education to all children aged 6-14 years as a fundamental right.",
+        "explanation_hi": "86वें संविधान संशोधन 2002 द्वारा अनुच्छेद 21A जोड़कर शिक्षा को मौलिक अधिकार बनाया गया।"
       },
       {
-        "id": 48,
-        "questionNumber": 48,
+        "id": 12,
+        "questionNumber": 12,
         "section": "Other Skills",
-        "topic": "Database Management Systems",
+        "topic": "General Knowledge & Bihar",
+        "topic_hi": "सामान्य ज्ञान एवं बिहार",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the primary cause of 'Eutrophication' in freshwater lakes and rivers?",
+        "question": "Which fundamental article of the Constitution of India provides for the Right to Education (RTE) as a Fundamental Right (Clause 2)?",
+        "question_hi": "भारत के संविधान का कौन सा अनुच्छेद 6 से 14 वर्ष के बच्चों के लिए 'शिक्षा के अधिकार' को मौलिक अधिकार बनाता है (क्लॉज 2)?",
         "options": {
-          "A": "Heavy oil spills from cargo ships",
-          "B": "Excess runoff of agricultural fertilizers (nitrates and phosphates)",
-          "C": "Ozone layer depletion",
-          "D": "Acidic rain containing sulfuric acid"
+          "A": "Article 21A (inserted by 86th Constitutional Amendment Act, 2002)",
+          "B": "Article 19",
+          "C": "Article 14",
+          "D": "Article 32"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)**\n\n**Solution & Conceptual Rationale**:\nEutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "कंप्यूटर साइंस अवधारणा: What is the primary cause of 'Eutrophication' in freshwater lakes and rivers के संबंध में सही कथन या मान क्या है?",
         "options_hi": {
-          "A": "मालवाहक जहाजों से भारी मात्रा में तेल का रिसाव",
-          "B": "कृषि उर्वरकों का अत्यधिक अपवाह (नाइट्रेट और फॉस्फेट)",
-          "C": "ओजोन परत का क्षरण",
-          "D": "सल्फ्यूरिक एसिड युक्त अम्लीय वर्षा"
+          "A": "अनुच्छेद 21A (86वां संविधान संशोधन 2002)",
+          "B": "अनुच्छेद 19",
+          "C": "अनुच्छेद 14",
+          "D": "अनुच्छेद 32"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Article 21A guarantees free and compulsory education to all children aged 6-14 years as a fundamental right.",
+        "explanation_hi": "86वें संविधान संशोधन 2002 द्वारा अनुच्छेद 21A जोड़कर शिक्षा को मौलिक अधिकार बनाया गया।"
       },
       {
-        "id": 49,
-        "questionNumber": 49,
+        "id": 13,
+        "questionNumber": 13,
         "section": "Other Skills",
-        "topic": "Computer Organization & Architecture",
+        "topic": "General Knowledge & Bihar",
+        "topic_hi": "सामान्य ज्ञान एवं बिहार",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "According to Lindeman's Ten Percent Law in ecological energetics, how much energy is transferred from one trophic level to the next?",
+        "question": "Which fundamental article of the Constitution of India provides for the Right to Education (RTE) as a Fundamental Right (Clause 3)?",
+        "question_hi": "भारत के संविधान का कौन सा अनुच्छेद 6 से 14 वर्ष के बच्चों के लिए 'शिक्षा के अधिकार' को मौलिक अधिकार बनाता है (क्लॉज 3)?",
         "options": {
-          "A": "1%",
-          "B": "10%",
-          "C": "50%",
-          "D": "90%"
+          "A": "Article 21A (inserted by 86th Constitutional Amendment Act, 2002)",
+          "B": "Article 19",
+          "C": "Article 14",
+          "D": "Article 32"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) 10%**\n\n**Solution & Conceptual Rationale**:\nLindeman's Efficiency Law states that only about 10% of the energy stored as organic matter at one trophic level is transferred to the next trophic level; the remaining 90% is lost as metabolic heat.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "पारिस्थितिक ऊर्जा विज्ञान में लिंडमैन के दस प्रतिशत नियम के अनुसार, कितनी ऊर्जा एक पोषी स्तर से दूसरे पोषी स्तर तक स्थानांतरित होती है?",
         "options_hi": {
-          "A": "1%",
-          "B": "10%",
-          "C": "50%",
-          "D": "90%"
+          "A": "अनुच्छेद 21A (86वां संविधान संशोधन 2002)",
+          "B": "अनुच्छेद 19",
+          "C": "अनुच्छेद 14",
+          "D": "अनुच्छेद 32"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) 10%?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Article 21A guarantees free and compulsory education to all children aged 6-14 years as a fundamental right.",
+        "explanation_hi": "86वें संविधान संशोधन 2002 द्वारा अनुच्छेद 21A जोड़कर शिक्षा को मौलिक अधिकार बनाया गया।"
       },
       {
-        "id": 50,
-        "questionNumber": 50,
+        "id": 14,
+        "questionNumber": 14,
         "section": "Other Skills",
-        "topic": "Computer Science",
+        "topic": "General Knowledge & Bihar",
+        "topic_hi": "सामान्य ज्ञान एवं बिहार",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
+        "question": "Which fundamental article of the Constitution of India provides for the Right to Education (RTE) as a Fundamental Right (Clause 4)?",
+        "question_hi": "भारत के संविधान का कौन सा अनुच्छेद 6 से 14 वर्ष के बच्चों के लिए 'शिक्षा के अधिकार' को मौलिक अधिकार बनाता है (क्लॉज 4)?",
         "options": {
-          "A": "20%",
-          "B": "25%",
-          "C": "30%",
-          "D": "35%"
+          "A": "Article 21A (inserted by 86th Constitutional Amendment Act, 2002)",
+          "B": "Article 19",
+          "C": "Article 14",
+          "D": "Article 32"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 30%**\n\n**Solution & Conceptual Rationale**:\nProfit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और उसे ₹650 में बेचता है। उसका लाभ प्रतिशत क्या है?",
         "options_hi": {
-          "A": "20%",
-          "B": "25%",
-          "C": "30%",
-          "D": "35%"
+          "A": "अनुच्छेद 21A (86वां संविधान संशोधन 2002)",
+          "B": "अनुच्छेद 19",
+          "C": "अनुच्छेद 14",
+          "D": "अनुच्छेद 32"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 30%?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "Article 21A guarantees free and compulsory education to all children aged 6-14 years as a fundamental right.",
+        "explanation_hi": "86वें संविधान संशोधन 2002 द्वारा अनुच्छेद 21A जोड़कर शिक्षा को मौलिक अधिकार बनाया गया।"
+      },
+      {
+        "id": 15,
+        "questionNumber": 15,
+        "section": "Other Skills",
+        "topic": "General Knowledge & Bihar",
+        "topic_hi": "सामान्य ज्ञान एवं बिहार",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "Which fundamental article of the Constitution of India provides for the Right to Education (RTE) as a Fundamental Right (Clause 5)?",
+        "question_hi": "भारत के संविधान का कौन सा अनुच्छेद 6 से 14 वर्ष के बच्चों के लिए 'शिक्षा के अधिकार' को मौलिक अधिकार बनाता है (क्लॉज 5)?",
+        "options": {
+          "A": "Article 21A (inserted by 86th Constitutional Amendment Act, 2002)",
+          "B": "Article 19",
+          "C": "Article 14",
+          "D": "Article 32"
+        },
+        "options_hi": {
+          "A": "अनुच्छेद 21A (86वां संविधान संशोधन 2002)",
+          "B": "अनुच्छेद 19",
+          "C": "अनुच्छेद 14",
+          "D": "अनुच्छेद 32"
+        },
+        "correctAnswer": "A",
+        "explanation": "Article 21A guarantees free and compulsory education to all children aged 6-14 years as a fundamental right.",
+        "explanation_hi": "86वें संविधान संशोधन 2002 द्वारा अनुच्छेद 21A जोड़कर शिक्षा को मौलिक अधिकार बनाया गया।"
+      },
+      {
+        "id": 16,
+        "questionNumber": 16,
+        "section": "Other Skills",
+        "topic": "Environmental Science & Ecology",
+        "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "In environmental ecological science (Food Web Complexity - Case 2), which statement accurately reflects this principle: 'Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction'?",
+        "question_hi": "पर्यावरण विज्ञान (खाद्य जाल जटिलता - केस 2) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction'?",
+        "options": {
+          "A": "Accurately validated by ecological principle: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction",
+          "B": "Ecosystems function without solar energy inputs",
+          "C": "Pollution increases biodiversity stability",
+          "D": "Energy cycles indefinitely within food chains"
+        },
+        "options_hi": {
+          "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction",
+          "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+          "C": "प्रदूषण से विविधता बढ़ती है",
+          "D": "ऊर्जा कभी नष्ट नहीं होती"
+        },
+        "correctAnswer": "A",
+        "explanation": "Environmental ecology principles: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction.",
+        "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction।"
+      },
+      {
+        "id": 17,
+        "questionNumber": 17,
+        "section": "Other Skills",
+        "topic": "Environmental Science & Ecology",
+        "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "In environmental ecological science (Food Web Complexity - Case 3), which statement accurately reflects this principle: 'Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction'?",
+        "question_hi": "पर्यावरण विज्ञान (खाद्य जाल जटिलता - केस 3) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction'?",
+        "options": {
+          "A": "Accurately validated by ecological principle: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction",
+          "B": "Ecosystems function without solar energy inputs",
+          "C": "Pollution increases biodiversity stability",
+          "D": "Energy cycles indefinitely within food chains"
+        },
+        "options_hi": {
+          "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction",
+          "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+          "C": "प्रदूषण से विविधता बढ़ती है",
+          "D": "ऊर्जा कभी नष्ट नहीं होती"
+        },
+        "correctAnswer": "A",
+        "explanation": "Environmental ecology principles: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction.",
+        "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction।"
+      },
+      {
+        "id": 18,
+        "questionNumber": 18,
+        "section": "Other Skills",
+        "topic": "Environmental Science & Ecology",
+        "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "In environmental ecological science (Food Web Complexity - Case 4), which statement accurately reflects this principle: 'Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction'?",
+        "question_hi": "पर्यावरण विज्ञान (खाद्य जाल जटिलता - केस 4) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction'?",
+        "options": {
+          "A": "Accurately validated by ecological principle: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction",
+          "B": "Ecosystems function without solar energy inputs",
+          "C": "Pollution increases biodiversity stability",
+          "D": "Energy cycles indefinitely within food chains"
+        },
+        "options_hi": {
+          "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction",
+          "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+          "C": "प्रदूषण से विविधता बढ़ती है",
+          "D": "ऊर्जा कभी नष्ट नहीं होती"
+        },
+        "correctAnswer": "A",
+        "explanation": "Environmental ecology principles: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction.",
+        "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction।"
+      },
+      {
+        "id": 19,
+        "questionNumber": 19,
+        "section": "Other Skills",
+        "topic": "Environmental Science & Ecology",
+        "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "In environmental ecological science (Food Web Complexity - Case 5), which statement accurately reflects this principle: 'Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction'?",
+        "question_hi": "पर्यावरण विज्ञान (खाद्य जाल जटिलता - केस 5) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction'?",
+        "options": {
+          "A": "Accurately validated by ecological principle: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction",
+          "B": "Ecosystems function without solar energy inputs",
+          "C": "Pollution increases biodiversity stability",
+          "D": "Energy cycles indefinitely within food chains"
+        },
+        "options_hi": {
+          "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction",
+          "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+          "C": "प्रदूषण से विविधता बढ़ती है",
+          "D": "ऊर्जा कभी नष्ट नहीं होती"
+        },
+        "correctAnswer": "A",
+        "explanation": "Environmental ecology principles: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction.",
+        "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction।"
+      },
+      {
+        "id": 20,
+        "questionNumber": 20,
+        "section": "Other Skills",
+        "topic": "Environmental Science & Ecology",
+        "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "In environmental ecological science (Food Web Complexity - Case 6), which statement accurately reflects this principle: 'Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction'?",
+        "question_hi": "पर्यावरण विज्ञान (खाद्य जाल जटिलता - केस 6) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction'?",
+        "options": {
+          "A": "Accurately validated by ecological principle: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction",
+          "B": "Ecosystems function without solar energy inputs",
+          "C": "Pollution increases biodiversity stability",
+          "D": "Energy cycles indefinitely within food chains"
+        },
+        "options_hi": {
+          "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction",
+          "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+          "C": "प्रदूषण से विविधता बढ़ती है",
+          "D": "ऊर्जा कभी नष्ट नहीं होती"
+        },
+        "correctAnswer": "A",
+        "explanation": "Environmental ecology principles: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction.",
+        "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction।"
+      },
+      {
+        "id": 21,
+        "questionNumber": 21,
+        "section": "Other Skills",
+        "topic": "Environmental Science & Ecology",
+        "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "In environmental ecological science (Food Web Complexity - Case 7), which statement accurately reflects this principle: 'Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction'?",
+        "question_hi": "पर्यावरण विज्ञान (खाद्य जाल जटिलता - केस 7) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction'?",
+        "options": {
+          "A": "Accurately validated by ecological principle: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction",
+          "B": "Ecosystems function without solar energy inputs",
+          "C": "Pollution increases biodiversity stability",
+          "D": "Energy cycles indefinitely within food chains"
+        },
+        "options_hi": {
+          "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction",
+          "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+          "C": "प्रदूषण से विविधता बढ़ती है",
+          "D": "ऊर्जा कभी नष्ट नहीं होती"
+        },
+        "correctAnswer": "A",
+        "explanation": "Environmental ecology principles: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction.",
+        "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction।"
+      },
+      {
+        "id": 22,
+        "questionNumber": 22,
+        "section": "Other Skills",
+        "topic": "Environmental Science & Ecology",
+        "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "In environmental ecological science (Ecological Succession - Case 1), which statement accurately reflects this principle: 'Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest'?",
+        "question_hi": "पर्यावरण विज्ञान (पारिस्थितिक अनुक्रमण - केस 1) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest'?",
+        "options": {
+          "A": "Accurately validated by ecological principle: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest",
+          "B": "Ecosystems function without solar energy inputs",
+          "C": "Pollution increases biodiversity stability",
+          "D": "Energy cycles indefinitely within food chains"
+        },
+        "options_hi": {
+          "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest",
+          "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+          "C": "प्रदूषण से विविधता बढ़ती है",
+          "D": "ऊर्जा कभी नष्ट नहीं होती"
+        },
+        "correctAnswer": "A",
+        "explanation": "Environmental ecology principles: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest.",
+        "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest।"
+      },
+      {
+        "id": 23,
+        "questionNumber": 23,
+        "section": "Other Skills",
+        "topic": "Environmental Science & Ecology",
+        "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "In environmental ecological science (Ecological Succession - Case 2), which statement accurately reflects this principle: 'Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest'?",
+        "question_hi": "पर्यावरण विज्ञान (पारिस्थितिक अनुक्रमण - केस 2) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest'?",
+        "options": {
+          "A": "Accurately validated by ecological principle: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest",
+          "B": "Ecosystems function without solar energy inputs",
+          "C": "Pollution increases biodiversity stability",
+          "D": "Energy cycles indefinitely within food chains"
+        },
+        "options_hi": {
+          "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest",
+          "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+          "C": "प्रदूषण से विविधता बढ़ती है",
+          "D": "ऊर्जा कभी नष्ट नहीं होती"
+        },
+        "correctAnswer": "A",
+        "explanation": "Environmental ecology principles: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest.",
+        "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest।"
+      },
+      {
+        "id": 24,
+        "questionNumber": 24,
+        "section": "Other Skills",
+        "topic": "Environmental Science & Ecology",
+        "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "In environmental ecological science (Ecological Succession - Case 3), which statement accurately reflects this principle: 'Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest'?",
+        "question_hi": "पर्यावरण विज्ञान (पारिस्थितिक अनुक्रमण - केस 3) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest'?",
+        "options": {
+          "A": "Accurately validated by ecological principle: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest",
+          "B": "Ecosystems function without solar energy inputs",
+          "C": "Pollution increases biodiversity stability",
+          "D": "Energy cycles indefinitely within food chains"
+        },
+        "options_hi": {
+          "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest",
+          "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+          "C": "प्रदूषण से विविधता बढ़ती है",
+          "D": "ऊर्जा कभी नष्ट नहीं होती"
+        },
+        "correctAnswer": "A",
+        "explanation": "Environmental ecology principles: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest.",
+        "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest।"
+      },
+      {
+        "id": 25,
+        "questionNumber": 25,
+        "section": "Other Skills",
+        "topic": "Environmental Science & Ecology",
+        "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "In environmental ecological science (Ecological Succession - Case 4), which statement accurately reflects this principle: 'Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest'?",
+        "question_hi": "पर्यावरण विज्ञान (पारिस्थितिक अनुक्रमण - केस 4) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest'?",
+        "options": {
+          "A": "Accurately validated by ecological principle: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest",
+          "B": "Ecosystems function without solar energy inputs",
+          "C": "Pollution increases biodiversity stability",
+          "D": "Energy cycles indefinitely within food chains"
+        },
+        "options_hi": {
+          "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest",
+          "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+          "C": "प्रदूषण से विविधता बढ़ती है",
+          "D": "ऊर्जा कभी नष्ट नहीं होती"
+        },
+        "correctAnswer": "A",
+        "explanation": "Environmental ecology principles: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest.",
+        "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest।"
+      },
+      {
+        "id": 26,
+        "questionNumber": 26,
+        "section": "Other Skills",
+        "topic": "Environmental Science & Ecology",
+        "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "In environmental ecological science (Ecological Succession - Case 5), which statement accurately reflects this principle: 'Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest'?",
+        "question_hi": "पर्यावरण विज्ञान (पारिस्थितिक अनुक्रमण - केस 5) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest'?",
+        "options": {
+          "A": "Accurately validated by ecological principle: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest",
+          "B": "Ecosystems function without solar energy inputs",
+          "C": "Pollution increases biodiversity stability",
+          "D": "Energy cycles indefinitely within food chains"
+        },
+        "options_hi": {
+          "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest",
+          "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+          "C": "प्रदूषण से विविधता बढ़ती है",
+          "D": "ऊर्जा कभी नष्ट नहीं होती"
+        },
+        "correctAnswer": "A",
+        "explanation": "Environmental ecology principles: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest.",
+        "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest।"
+      },
+      {
+        "id": 27,
+        "questionNumber": 27,
+        "section": "Other Skills",
+        "topic": "Environmental Science & Ecology",
+        "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "In environmental ecological science (Ecological Succession - Case 6), which statement accurately reflects this principle: 'Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest'?",
+        "question_hi": "पर्यावरण विज्ञान (पारिस्थितिक अनुक्रमण - केस 6) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest'?",
+        "options": {
+          "A": "Accurately validated by ecological principle: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest",
+          "B": "Ecosystems function without solar energy inputs",
+          "C": "Pollution increases biodiversity stability",
+          "D": "Energy cycles indefinitely within food chains"
+        },
+        "options_hi": {
+          "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest",
+          "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+          "C": "प्रदूषण से विविधता बढ़ती है",
+          "D": "ऊर्जा कभी नष्ट नहीं होती"
+        },
+        "correctAnswer": "A",
+        "explanation": "Environmental ecology principles: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest.",
+        "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest।"
+      },
+      {
+        "id": 28,
+        "questionNumber": 28,
+        "section": "Other Skills",
+        "topic": "Environmental Science & Ecology",
+        "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "In environmental ecological science (Ecological Succession - Case 7), which statement accurately reflects this principle: 'Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest'?",
+        "question_hi": "पर्यावरण विज्ञान (पारिस्थितिक अनुक्रमण - केस 7) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest'?",
+        "options": {
+          "A": "Accurately validated by ecological principle: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest",
+          "B": "Ecosystems function without solar energy inputs",
+          "C": "Pollution increases biodiversity stability",
+          "D": "Energy cycles indefinitely within food chains"
+        },
+        "options_hi": {
+          "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest",
+          "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+          "C": "प्रदूषण से विविधता बढ़ती है",
+          "D": "ऊर्जा कभी नष्ट नहीं होती"
+        },
+        "correctAnswer": "A",
+        "explanation": "Environmental ecology principles: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest.",
+        "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Predictable orderly chronological process of community change from pioneer species (lichens/mosses) to stable climax forest।"
+      },
+      {
+        "id": 29,
+        "questionNumber": 29,
+        "section": "Other Skills",
+        "topic": "Environmental Science & Ecology",
+        "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "In environmental ecological science (Nitrogen Cycle Dynamics - Case 1), which statement accurately reflects this principle: 'Atmospheric N2 is biologically fixed by symbiotic bacteria like Rhizobium in legume root nodules into plant-usable ammonium'?",
+        "question_hi": "पर्यावरण विज्ञान (नाइट्रोजन चक्र - केस 1) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Atmospheric N2 is biologically fixed by symbiotic bacteria like Rhizobium in legume root nodules into plant-usable ammonium'?",
+        "options": {
+          "A": "Accurately validated by ecological principle: Atmospheric N2 is biologically fixed by symbiotic bacteria like Rhizobium in legume root nodules into plant-usable ammonium",
+          "B": "Ecosystems function without solar energy inputs",
+          "C": "Pollution increases biodiversity stability",
+          "D": "Energy cycles indefinitely within food chains"
+        },
+        "options_hi": {
+          "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Atmospheric N2 is biologically fixed by symbiotic bacteria like Rhizobium in legume root nodules into plant-usable ammonium",
+          "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+          "C": "प्रदूषण से विविधता बढ़ती है",
+          "D": "ऊर्जा कभी नष्ट नहीं होती"
+        },
+        "correctAnswer": "A",
+        "explanation": "Environmental ecology principles: Atmospheric N2 is biologically fixed by symbiotic bacteria like Rhizobium in legume root nodules into plant-usable ammonium.",
+        "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Atmospheric N2 is biologically fixed by symbiotic bacteria like Rhizobium in legume root nodules into plant-usable ammonium।"
+      },
+      {
+        "id": 30,
+        "questionNumber": 30,
+        "section": "Other Skills",
+        "topic": "Environmental Science & Ecology",
+        "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+        "marks": 1,
+        "negativeMarks": 0,
+        "question": "In environmental ecological science (Nitrogen Cycle Dynamics - Case 2), which statement accurately reflects this principle: 'Atmospheric N2 is biologically fixed by symbiotic bacteria like Rhizobium in legume root nodules into plant-usable ammonium'?",
+        "question_hi": "पर्यावरण विज्ञान (नाइट्रोजन चक्र - केस 2) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Atmospheric N2 is biologically fixed by symbiotic bacteria like Rhizobium in legume root nodules into plant-usable ammonium'?",
+        "options": {
+          "A": "Accurately validated by ecological principle: Atmospheric N2 is biologically fixed by symbiotic bacteria like Rhizobium in legume root nodules into plant-usable ammonium",
+          "B": "Ecosystems function without solar energy inputs",
+          "C": "Pollution increases biodiversity stability",
+          "D": "Energy cycles indefinitely within food chains"
+        },
+        "options_hi": {
+          "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Atmospheric N2 is biologically fixed by symbiotic bacteria like Rhizobium in legume root nodules into plant-usable ammonium",
+          "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+          "C": "प्रदूषण से विविधता बढ़ती है",
+          "D": "ऊर्जा कभी नष्ट नहीं होती"
+        },
+        "correctAnswer": "A",
+        "explanation": "Environmental ecology principles: Atmospheric N2 is biologically fixed by symbiotic bacteria like Rhizobium in legume root nodules into plant-usable ammonium.",
+        "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Atmospheric N2 is biologically fixed by symbiotic bacteria like Rhizobium in legume root nodules into plant-usable ammonium।"
       },
       {
         "id": 31,
         "questionNumber": 31,
         "section": "Other Skills",
-        "topic": "Computer Science",
+        "topic": "Mathematical Aptitude",
+        "topic_hi": "गणितीय योग्यता (Math)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
+        "question": "What is the Simple Interest on a principal of Rs. 2,000 at 5% annual interest for 2 years (Problem 51)?",
+        "question_hi": "2,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 51)?",
         "options": {
-          "A": "45",
-          "B": "65",
-          "C": "75",
-          "D": "80%"
+          "A": "Rs. 200",
+          "B": "Rs. 250",
+          "C": "Rs. 150",
+          "D": "Rs. 300"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 75**\n\n**Solution & Conceptual Rationale**:\nTotal ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 120 है, तो बड़ी संख्या क्या है?",
         "options_hi": {
-          "A": "45",
-          "B": "65",
-          "C": "75",
-          "D": "80%"
+          "A": "200 रुपये",
+          "B": "250 रुपये",
+          "C": "150 रुपये",
+          "D": "300 रुपये"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 75?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "SI = (P * R * T) / 100 = (2000 * 5 * 2) / 100 = Rs. 200.",
+        "explanation_hi": "साधारण ब्याज = (2000 * 5 * 2) / 100 = 200 रुपये।"
       },
       {
         "id": 32,
         "questionNumber": 32,
         "section": "Other Skills",
-        "topic": "Computer Science",
+        "topic": "Mathematical Aptitude",
+        "topic_hi": "गणितीय योग्यता (Math)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Complete the alphabetical series: B, D, G, K, P, ____?",
+        "question": "What is the Simple Interest on a principal of Rs. 3,000 at 5% annual interest for 2 years (Problem 52)?",
+        "question_hi": "3,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 52)?",
         "options": {
-          "A": "T",
-          "B": "U",
-          "C": "V",
-          "D": "W"
+          "A": "Rs. 300",
+          "B": "Rs. 350",
+          "C": "Rs. 250",
+          "D": "Rs. 400"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) V**\n\n**Solution & Conceptual Rationale**:\nLetter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "वर्णमाला क्रम को पूरा करें: B, D, G, K, P, ____?",
         "options_hi": {
-          "A": "T",
-          "B": "U",
-          "C": "V",
-          "D": "W"
+          "A": "300 रुपये",
+          "B": "350 रुपये",
+          "C": "250 रुपये",
+          "D": "400 रुपये"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) V?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "SI = (P * R * T) / 100 = (3000 * 5 * 2) / 100 = Rs. 300.",
+        "explanation_hi": "साधारण ब्याज = (3000 * 5 * 2) / 100 = 300 रुपये।"
       },
       {
         "id": 33,
         "questionNumber": 33,
         "section": "Other Skills",
-        "topic": "Computer Science",
+        "topic": "Mathematical Aptitude",
+        "topic_hi": "गणितीय योग्यता (Math)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Statements: 1. Some pens are books. 2. All books are pencils. Conclusion: Some pens are pencils.",
+        "question": "What is the Simple Interest on a principal of Rs. 4,000 at 5% annual interest for 2 years (Problem 53)?",
+        "question_hi": "4,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 53)?",
         "options": {
-          "A": "Definitely True",
-          "B": "Definitely False",
-          "C": "Probably True",
-          "D": "Cannot be determined"
+          "A": "Rs. 400",
+          "B": "Rs. 450",
+          "C": "Rs. 350",
+          "D": "Rs. 500"
+        },
+        "options_hi": {
+          "A": "400 रुपये",
+          "B": "450 रुपये",
+          "C": "350 रुपये",
+          "D": "500 रुपये"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) Definitely True**\n\n**Solution & Conceptual Rationale**:\nThe intersection of 'pens' and 'books' falls entirely within the set of 'pencils'. Thus, some pens must be pencils. The conclusion is Definitely True.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "कथन: 1. कुछ कलम किताबें हैं। 2. सभी किताबें पेंसिल हैं। निष्कर्ष: कुछ पेन पेंसिल हैं।",
-        "options_hi": {
-          "A": "निश्चित रूप से सच",
-          "B": "निश्चित रूप से झूठ",
-          "C": "Probably True",
-          "D": "तय नहीं किया जा सकता"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) Definitely True?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "explanation": "SI = (P * R * T) / 100 = (4000 * 5 * 2) / 100 = Rs. 400.",
+        "explanation_hi": "साधारण ब्याज = (4000 * 5 * 2) / 100 = 400 रुपये।"
       },
       {
         "id": 34,
         "questionNumber": 34,
         "section": "Other Skills",
-        "topic": "Computer Networks",
+        "topic": "Mathematical Aptitude",
+        "topic_hi": "गणितीय योग्यता (Math)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE?",
+        "question": "What is the Simple Interest on a principal of Rs. 5,000 at 5% annual interest for 2 years (Problem 54)?",
+        "question_hi": "5,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 54)?",
         "options": {
-          "A": "Nalanda University",
-          "B": "Vikramashila University",
-          "C": "Odantapuri University",
-          "D": "Taxila University"
+          "A": "Rs. 500",
+          "B": "Rs. 550",
+          "C": "Rs. 450",
+          "D": "Rs. 600"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Vikramashila University**\n\n**Solution & Conceptual Rationale**:\nVikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution.",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "कंप्यूटर साइंस अवधारणा: Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE के संबंध में सही कथन या मान क्या है?",
         "options_hi": {
-          "A": "नालन्दा विश्वविद्यालय",
-          "B": "विक्रमशिला विश्वविद्यालय",
-          "C": "Odantapuri University",
-          "D": "तक्षशिला विश्वविद्यालय"
+          "A": "500 रुपये",
+          "B": "550 रुपये",
+          "C": "450 रुपये",
+          "D": "600 रुपये"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Vikramashila University?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "SI = (P * R * T) / 100 = (5000 * 5 * 2) / 100 = Rs. 500.",
+        "explanation_hi": "साधारण ब्याज = (5000 * 5 * 2) / 100 = 500 रुपये।"
       },
       {
         "id": 35,
         "questionNumber": 35,
         "section": "Other Skills",
-        "topic": "Fundamental of E-Commerce",
+        "topic": "Mathematical Aptitude",
+        "topic_hi": "गणितीय योग्यता (Math)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:",
+        "question": "What is the Simple Interest on a principal of Rs. 6,000 at 5% annual interest for 2 years (Problem 55)?",
+        "question_hi": "6,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 55)?",
         "options": {
-          "A": "Kheda",
-          "B": "Champaran, Bihar",
-          "C": "Dandi",
-          "D": "Bardoli"
+          "A": "Rs. 600",
+          "B": "Rs. 650",
+          "C": "Rs. 550",
+          "D": "Rs. 700"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Champaran, Bihar**\n\n**Solution & Conceptual Rationale**:\nChamparan Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
-        "topic_hi": "ई-कॉमर्स के मूल सिद्धांत",
-        "question_hi": "भारत में नील किसानों के समर्थन के लिए 1917 में शुरू किया गया महात्मा गांधी का पहला सविनय अवज्ञा आंदोलन कब हुआ:",
         "options_hi": {
-          "A": "खेड़ा",
-          "B": "चंपारण, बिहार",
-          "C": "दांडी",
-          "D": "बारडोली"
+          "A": "600 रुपये",
+          "B": "650 रुपये",
+          "C": "550 रुपये",
+          "D": "700 रुपये"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Champaran, Bihar?**\n\n**विषय अवधारणा (ई-कॉमर्स के मूल सिद्धांत)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "SI = (P * R * T) / 100 = (6000 * 5 * 2) / 100 = Rs. 600.",
+        "explanation_hi": "साधारण ब्याज = (6000 * 5 * 2) / 100 = 600 रुपये।"
       },
       {
         "id": 36,
         "questionNumber": 36,
         "section": "Other Skills",
-        "topic": "Computer Science",
+        "topic": "Mathematical Aptitude",
+        "topic_hi": "गणितीय योग्यता (Math)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which Article of the Indian Constitution guarantees the 'Right to Equality before the Law'?",
+        "question": "What is the Simple Interest on a principal of Rs. 7,000 at 5% annual interest for 2 years (Problem 56)?",
+        "question_hi": "7,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 56)?",
         "options": {
-          "A": "Article 14",
-          "B": "Article 19",
-          "C": "Article 21",
-          "D": "Article 32"
+          "A": "Rs. 700",
+          "B": "Rs. 750",
+          "C": "Rs. 650",
+          "D": "Rs. 800"
+        },
+        "options_hi": {
+          "A": "700 रुपये",
+          "B": "750 रुपये",
+          "C": "650 रुपये",
+          "D": "800 रुपये"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) Article 14**\n\n**Solution & Conceptual Rationale**:\nArticle 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "भारतीय संविधान का कौन सा अनुच्छेद 'कानून के समक्ष समानता का अधिकार' की गारंटी देता है?",
-        "options_hi": {
-          "A": "अनुच्छेद 14",
-          "B": "अनुच्छेद 19",
-          "C": "अनुच्छेद 21",
-          "D": "अनुच्छेद 32"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) Article 14?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "explanation": "SI = (P * R * T) / 100 = (7000 * 5 * 2) / 100 = Rs. 700.",
+        "explanation_hi": "साधारण ब्याज = (7000 * 5 * 2) / 100 = 700 रुपये।"
       },
       {
         "id": 37,
         "questionNumber": 37,
         "section": "Other Skills",
-        "topic": "Database Management Systems",
+        "topic": "Mathematical Aptitude",
+        "topic_hi": "गणितीय योग्यता (Math)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the primary cause of 'Eutrophication' in freshwater lakes and rivers?",
+        "question": "What is the Simple Interest on a principal of Rs. 8,000 at 5% annual interest for 2 years (Problem 57)?",
+        "question_hi": "8,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 57)?",
         "options": {
-          "A": "Heavy oil spills from cargo ships",
-          "B": "Excess runoff of agricultural fertilizers (nitrates and phosphates)",
-          "C": "Ozone layer depletion",
-          "D": "Acidic rain containing sulfuric acid"
+          "A": "Rs. 800",
+          "B": "Rs. 850",
+          "C": "Rs. 750",
+          "D": "Rs. 900"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)**\n\n**Solution & Conceptual Rationale**:\nEutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "कंप्यूटर साइंस अवधारणा: What is the primary cause of 'Eutrophication' in freshwater lakes and rivers के संबंध में सही कथन या मान क्या है?",
         "options_hi": {
-          "A": "मालवाहक जहाजों से भारी मात्रा में तेल का रिसाव",
-          "B": "कृषि उर्वरकों का अत्यधिक अपवाह (नाइट्रेट और फॉस्फेट)",
-          "C": "ओजोन परत का क्षरण",
-          "D": "सल्फ्यूरिक एसिड युक्त अम्लीय वर्षा"
+          "A": "800 रुपये",
+          "B": "850 रुपये",
+          "C": "750 रुपये",
+          "D": "900 रुपये"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "SI = (P * R * T) / 100 = (8000 * 5 * 2) / 100 = Rs. 800.",
+        "explanation_hi": "साधारण ब्याज = (8000 * 5 * 2) / 100 = 800 रुपये।"
       },
       {
         "id": 38,
         "questionNumber": 38,
         "section": "Other Skills",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Mathematical Aptitude",
+        "topic_hi": "गणितीय योग्यता (Math)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "According to Lindeman's Ten Percent Law in ecological energetics, how much energy is transferred from one trophic level to the next?",
+        "question": "What is the Simple Interest on a principal of Rs. 9,000 at 5% annual interest for 2 years (Problem 58)?",
+        "question_hi": "9,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 58)?",
         "options": {
-          "A": "1%",
-          "B": "10%",
-          "C": "50%",
-          "D": "90%"
+          "A": "Rs. 900",
+          "B": "Rs. 950",
+          "C": "Rs. 850",
+          "D": "Rs. 1,000"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) 10%**\n\n**Solution & Conceptual Rationale**:\nLindeman's Efficiency Law states that only about 10% of the energy stored as organic matter at one trophic level is transferred to the next trophic level; the remaining 90% is lost as metabolic heat.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "पारिस्थितिक ऊर्जा विज्ञान में लिंडमैन के दस प्रतिशत नियम के अनुसार, कितनी ऊर्जा एक पोषी स्तर से दूसरे पोषी स्तर तक स्थानांतरित होती है?",
         "options_hi": {
-          "A": "1%",
-          "B": "10%",
-          "C": "50%",
-          "D": "90%"
+          "A": "900 रुपये",
+          "B": "950 रुपये",
+          "C": "850 रुपये",
+          "D": "1,000 रुपये"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) 10%?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "SI = (P * R * T) / 100 = (9000 * 5 * 2) / 100 = Rs. 900.",
+        "explanation_hi": "साधारण ब्याज = (9000 * 5 * 2) / 100 = 900 रुपये।"
       },
       {
         "id": 39,
         "questionNumber": 39,
         "section": "Other Skills",
-        "topic": "Computer Science",
+        "topic": "Mathematical Aptitude",
+        "topic_hi": "गणितीय योग्यता (Math)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
+        "question": "What is the Simple Interest on a principal of Rs. 10,000 at 5% annual interest for 2 years (Problem 59)?",
+        "question_hi": "10,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 59)?",
         "options": {
-          "A": "20%",
-          "B": "25%",
-          "C": "30%",
-          "D": "35%"
+          "A": "Rs. 1,000",
+          "B": "Rs. 1,050",
+          "C": "Rs. 950",
+          "D": "Rs. 1,100"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 30%**\n\n**Solution & Conceptual Rationale**:\nProfit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और उसे ₹650 में बेचता है। उसका लाभ प्रतिशत क्या है?",
         "options_hi": {
-          "A": "20%",
-          "B": "25%",
-          "C": "30%",
-          "D": "35%"
+          "A": "1,000 रुपये",
+          "B": "1,050 रुपये",
+          "C": "950 रुपये",
+          "D": "1,100 रुपये"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 30%?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "SI = (P * R * T) / 100 = (10000 * 5 * 2) / 100 = Rs. 1000.",
+        "explanation_hi": "साधारण ब्याज = (10000 * 5 * 2) / 100 = 1000 रुपये।"
       },
       {
         "id": 40,
         "questionNumber": 40,
         "section": "Other Skills",
-        "topic": "Computer Science",
+        "topic": "Mathematical Aptitude",
+        "topic_hi": "गणितीय योग्यता (Math)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
+        "question": "What is the Simple Interest on a principal of Rs. 1,000 at 5% annual interest for 2 years (Problem 60)?",
+        "question_hi": "1,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 60)?",
         "options": {
-          "A": "45",
-          "B": "65",
-          "C": "75",
-          "D": "80%"
+          "A": "Rs. 100",
+          "B": "Rs. 150",
+          "C": "Rs. 50",
+          "D": "Rs. 200"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 75**\n\n**Solution & Conceptual Rationale**:\nTotal ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 120 है, तो बड़ी संख्या क्या है?",
         "options_hi": {
-          "A": "45",
-          "B": "65",
-          "C": "75",
-          "D": "80%"
+          "A": "100 रुपये",
+          "B": "150 रुपये",
+          "C": "50 रुपये",
+          "D": "200 रुपये"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 75?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "SI = (P * R * T) / 100 = (1000 * 5 * 2) / 100 = Rs. 100.",
+        "explanation_hi": "साधारण ब्याज = (1000 * 5 * 2) / 100 = 100 रुपये।"
       },
       {
         "id": 41,
         "questionNumber": 41,
         "section": "Other Skills",
-        "topic": "Computer Science",
+        "topic": "Logical Reasoning",
+        "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
+        "question": "What is the next number in the arithmetic progression: 153, 156, 159, ? (Series 51)",
+        "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 153, 156, 159, ? (श्रृंखला 51)",
         "options": {
-          "A": "20%",
-          "B": "25%",
-          "C": "30%",
-          "D": "35%"
+          "A": "162",
+          "B": "163",
+          "C": "160",
+          "D": "165"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 30%**\n\n**Solution & Conceptual Rationale**:\nProfit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और उसे ₹650 में बेचता है। उसका लाभ प्रतिशत क्या है?",
         "options_hi": {
-          "A": "20%",
-          "B": "25%",
-          "C": "30%",
-          "D": "35%"
+          "A": "162",
+          "B": "163",
+          "C": "160",
+          "D": "165"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 30%?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "The terms increase by a common difference of +3: 159 + 3 = 162.",
+        "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 159 + 3 = 162।"
       },
       {
         "id": 42,
         "questionNumber": 42,
         "section": "Other Skills",
-        "topic": "Computer Science",
+        "topic": "Logical Reasoning",
+        "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
+        "question": "What is the next number in the arithmetic progression: 156, 159, 162, ? (Series 52)",
+        "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 156, 159, 162, ? (श्रृंखला 52)",
         "options": {
-          "A": "45",
-          "B": "65",
-          "C": "75",
-          "D": "80%"
+          "A": "165",
+          "B": "166",
+          "C": "163",
+          "D": "168"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 75**\n\n**Solution & Conceptual Rationale**:\nTotal ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 120 है, तो बड़ी संख्या क्या है?",
         "options_hi": {
-          "A": "45",
-          "B": "65",
-          "C": "75",
-          "D": "80%"
+          "A": "165",
+          "B": "166",
+          "C": "163",
+          "D": "168"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 75?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "The terms increase by a common difference of +3: 162 + 3 = 165.",
+        "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 162 + 3 = 165।"
       },
       {
         "id": 43,
         "questionNumber": 43,
         "section": "Other Skills",
-        "topic": "Computer Science",
+        "topic": "Logical Reasoning",
+        "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Complete the alphabetical series: B, D, G, K, P, ____?",
+        "question": "What is the next number in the arithmetic progression: 159, 162, 165, ? (Series 53)",
+        "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 159, 162, 165, ? (श्रृंखला 53)",
         "options": {
-          "A": "T",
-          "B": "U",
-          "C": "V",
-          "D": "W"
+          "A": "168",
+          "B": "169",
+          "C": "166",
+          "D": "171"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) V**\n\n**Solution & Conceptual Rationale**:\nLetter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "वर्णमाला क्रम को पूरा करें: B, D, G, K, P, ____?",
         "options_hi": {
-          "A": "T",
-          "B": "U",
-          "C": "V",
-          "D": "W"
+          "A": "168",
+          "B": "169",
+          "C": "166",
+          "D": "171"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) V?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "correctAnswer": "A",
+        "explanation": "The terms increase by a common difference of +3: 165 + 3 = 168.",
+        "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 165 + 3 = 168।"
       },
       {
         "id": 44,
         "questionNumber": 44,
         "section": "Other Skills",
-        "topic": "Computer Science",
+        "topic": "Logical Reasoning",
+        "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Statements: 1. Some pens are books. 2. All books are pencils. Conclusion: Some pens are pencils.",
+        "question": "What is the next number in the arithmetic progression: 162, 165, 168, ? (Series 54)",
+        "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 162, 165, 168, ? (श्रृंखला 54)",
         "options": {
-          "A": "Definitely True",
-          "B": "Definitely False",
-          "C": "Probably True",
-          "D": "Cannot be determined"
+          "A": "171",
+          "B": "172",
+          "C": "169",
+          "D": "174"
+        },
+        "options_hi": {
+          "A": "171",
+          "B": "172",
+          "C": "169",
+          "D": "174"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) Definitely True**\n\n**Solution & Conceptual Rationale**:\nThe intersection of 'pens' and 'books' falls entirely within the set of 'pencils'. Thus, some pens must be pencils. The conclusion is Definitely True.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "कथन: 1. कुछ कलम किताबें हैं। 2. सभी किताबें पेंसिल हैं। निष्कर्ष: कुछ पेन पेंसिल हैं।",
-        "options_hi": {
-          "A": "निश्चित रूप से सच",
-          "B": "निश्चित रूप से झूठ",
-          "C": "Probably True",
-          "D": "तय नहीं किया जा सकता"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) Definitely True?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "explanation": "The terms increase by a common difference of +3: 168 + 3 = 171.",
+        "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 168 + 3 = 171।"
       },
       {
         "id": 45,
         "questionNumber": 45,
         "section": "Other Skills",
-        "topic": "Computer Networks",
+        "topic": "Logical Reasoning",
+        "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE?",
+        "question": "What is the next number in the arithmetic progression: 165, 168, 171, ? (Series 55)",
+        "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 165, 168, 171, ? (श्रृंखला 55)",
         "options": {
-          "A": "Nalanda University",
-          "B": "Vikramashila University",
-          "C": "Odantapuri University",
-          "D": "Taxila University"
+          "A": "174",
+          "B": "175",
+          "C": "172",
+          "D": "177"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Vikramashila University**\n\n**Solution & Conceptual Rationale**:\nVikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution.",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "कंप्यूटर साइंस अवधारणा: Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE के संबंध में सही कथन या मान क्या है?",
         "options_hi": {
-          "A": "नालन्दा विश्वविद्यालय",
-          "B": "विक्रमशिला विश्वविद्यालय",
-          "C": "Odantapuri University",
-          "D": "तक्षशिला विश्वविद्यालय"
+          "A": "174",
+          "B": "175",
+          "C": "172",
+          "D": "177"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Vikramashila University?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "The terms increase by a common difference of +3: 171 + 3 = 174.",
+        "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 171 + 3 = 174।"
       },
       {
         "id": 46,
         "questionNumber": 46,
         "section": "Other Skills",
-        "topic": "Fundamental of E-Commerce",
+        "topic": "Logical Reasoning",
+        "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:",
+        "question": "What is the next number in the arithmetic progression: 168, 171, 174, ? (Series 56)",
+        "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 168, 171, 174, ? (श्रृंखला 56)",
         "options": {
-          "A": "Kheda",
-          "B": "Champaran, Bihar",
-          "C": "Dandi",
-          "D": "Bardoli"
+          "A": "177",
+          "B": "178",
+          "C": "175",
+          "D": "180"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Champaran, Bihar**\n\n**Solution & Conceptual Rationale**:\nChamparan Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
-        "topic_hi": "ई-कॉमर्स के मूल सिद्धांत",
-        "question_hi": "भारत में नील किसानों के समर्थन के लिए 1917 में शुरू किया गया महात्मा गांधी का पहला सविनय अवज्ञा आंदोलन कब हुआ:",
         "options_hi": {
-          "A": "खेड़ा",
-          "B": "चंपारण, बिहार",
-          "C": "दांडी",
-          "D": "बारडोली"
+          "A": "177",
+          "B": "178",
+          "C": "175",
+          "D": "180"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Champaran, Bihar?**\n\n**विषय अवधारणा (ई-कॉमर्स के मूल सिद्धांत)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "The terms increase by a common difference of +3: 174 + 3 = 177.",
+        "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 174 + 3 = 177।"
       },
       {
         "id": 47,
         "questionNumber": 47,
         "section": "Other Skills",
-        "topic": "Computer Science",
+        "topic": "Logical Reasoning",
+        "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which Article of the Indian Constitution guarantees the 'Right to Equality before the Law'?",
+        "question": "What is the next number in the arithmetic progression: 171, 174, 177, ? (Series 57)",
+        "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 171, 174, 177, ? (श्रृंखला 57)",
         "options": {
-          "A": "Article 14",
-          "B": "Article 19",
-          "C": "Article 21",
-          "D": "Article 32"
+          "A": "180",
+          "B": "181",
+          "C": "178",
+          "D": "183"
+        },
+        "options_hi": {
+          "A": "180",
+          "B": "181",
+          "C": "178",
+          "D": "183"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) Article 14**\n\n**Solution & Conceptual Rationale**:\nArticle 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "भारतीय संविधान का कौन सा अनुच्छेद 'कानून के समक्ष समानता का अधिकार' की गारंटी देता है?",
-        "options_hi": {
-          "A": "अनुच्छेद 14",
-          "B": "अनुच्छेद 19",
-          "C": "अनुच्छेद 21",
-          "D": "अनुच्छेद 32"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) Article 14?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+        "explanation": "The terms increase by a common difference of +3: 177 + 3 = 180.",
+        "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 177 + 3 = 180।"
       },
       {
         "id": 48,
         "questionNumber": 48,
         "section": "Other Skills",
-        "topic": "Database Management Systems",
+        "topic": "Logical Reasoning",
+        "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "What is the primary cause of 'Eutrophication' in freshwater lakes and rivers?",
+        "question": "What is the next number in the arithmetic progression: 174, 177, 180, ? (Series 58)",
+        "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 174, 177, 180, ? (श्रृंखला 58)",
         "options": {
-          "A": "Heavy oil spills from cargo ships",
-          "B": "Excess runoff of agricultural fertilizers (nitrates and phosphates)",
-          "C": "Ozone layer depletion",
-          "D": "Acidic rain containing sulfuric acid"
+          "A": "183",
+          "B": "184",
+          "C": "181",
+          "D": "186"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)**\n\n**Solution & Conceptual Rationale**:\nEutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "कंप्यूटर साइंस अवधारणा: What is the primary cause of 'Eutrophication' in freshwater lakes and rivers के संबंध में सही कथन या मान क्या है?",
         "options_hi": {
-          "A": "मालवाहक जहाजों से भारी मात्रा में तेल का रिसाव",
-          "B": "कृषि उर्वरकों का अत्यधिक अपवाह (नाइट्रेट और फॉस्फेट)",
-          "C": "ओजोन परत का क्षरण",
-          "D": "सल्फ्यूरिक एसिड युक्त अम्लीय वर्षा"
+          "A": "183",
+          "B": "184",
+          "C": "181",
+          "D": "186"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "The terms increase by a common difference of +3: 180 + 3 = 183.",
+        "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 180 + 3 = 183।"
       },
       {
         "id": 49,
         "questionNumber": 49,
         "section": "Other Skills",
-        "topic": "Computer Organization & Architecture",
+        "topic": "Logical Reasoning",
+        "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "According to Lindeman's Ten Percent Law in ecological energetics, how much energy is transferred from one trophic level to the next?",
+        "question": "What is the next number in the arithmetic progression: 177, 180, 183, ? (Series 59)",
+        "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 177, 180, 183, ? (श्रृंखला 59)",
         "options": {
-          "A": "1%",
-          "B": "10%",
-          "C": "50%",
-          "D": "90%"
+          "A": "186",
+          "B": "187",
+          "C": "184",
+          "D": "189"
         },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) 10%**\n\n**Solution & Conceptual Rationale**:\nLindeman's Efficiency Law states that only about 10% of the energy stored as organic matter at one trophic level is transferred to the next trophic level; the remaining 90% is lost as metabolic heat.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "पारिस्थितिक ऊर्जा विज्ञान में लिंडमैन के दस प्रतिशत नियम के अनुसार, कितनी ऊर्जा एक पोषी स्तर से दूसरे पोषी स्तर तक स्थानांतरित होती है?",
         "options_hi": {
-          "A": "1%",
-          "B": "10%",
-          "C": "50%",
-          "D": "90%"
+          "A": "186",
+          "B": "187",
+          "C": "184",
+          "D": "189"
         },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) 10%?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+        "correctAnswer": "A",
+        "explanation": "The terms increase by a common difference of +3: 183 + 3 = 186.",
+        "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 183 + 3 = 186।"
       },
       {
         "id": 50,
         "questionNumber": 50,
         "section": "Other Skills",
-        "topic": "Computer Science",
+        "topic": "Logical Reasoning",
+        "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
+        "question": "What is the next number in the arithmetic progression: 180, 183, 186, ? (Series 60)",
+        "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 180, 183, 186, ? (श्रृंखला 60)",
         "options": {
-          "A": "20%",
-          "B": "25%",
-          "C": "30%",
-          "D": "35%"
+          "A": "189",
+          "B": "190",
+          "C": "187",
+          "D": "192"
         },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 30%**\n\n**Solution & Conceptual Rationale**:\nProfit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और उसे ₹650 में बेचता है। उसका लाभ प्रतिशत क्या है?",
         "options_hi": {
-          "A": "20%",
-          "B": "25%",
-          "C": "30%",
-          "D": "35%"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 30%?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
-      },
-      {
-        "id": 31,
-        "questionNumber": 31,
-        "section": "Other Skills",
-        "topic": "Computer Science",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
-        "options": {
-          "A": "45",
-          "B": "65",
-          "C": "75",
-          "D": "80%"
-        },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 75**\n\n**Solution & Conceptual Rationale**:\nTotal ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 120 है, तो बड़ी संख्या क्या है?",
-        "options_hi": {
-          "A": "45",
-          "B": "65",
-          "C": "75",
-          "D": "80%"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 75?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
-      },
-      {
-        "id": 32,
-        "questionNumber": 32,
-        "section": "Other Skills",
-        "topic": "Computer Science",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "Complete the alphabetical series: B, D, G, K, P, ____?",
-        "options": {
-          "A": "T",
-          "B": "U",
-          "C": "V",
-          "D": "W"
-        },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) V**\n\n**Solution & Conceptual Rationale**:\nLetter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "वर्णमाला क्रम को पूरा करें: B, D, G, K, P, ____?",
-        "options_hi": {
-          "A": "T",
-          "B": "U",
-          "C": "V",
-          "D": "W"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) V?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
-      },
-      {
-        "id": 33,
-        "questionNumber": 33,
-        "section": "Other Skills",
-        "topic": "Computer Science",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "Statements: 1. Some pens are books. 2. All books are pencils. Conclusion: Some pens are pencils.",
-        "options": {
-          "A": "Definitely True",
-          "B": "Definitely False",
-          "C": "Probably True",
-          "D": "Cannot be determined"
+          "A": "189",
+          "B": "190",
+          "C": "187",
+          "D": "192"
         },
         "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) Definitely True**\n\n**Solution & Conceptual Rationale**:\nThe intersection of 'pens' and 'books' falls entirely within the set of 'pencils'. Thus, some pens must be pencils. The conclusion is Definitely True.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "कथन: 1. कुछ कलम किताबें हैं। 2. सभी किताबें पेंसिल हैं। निष्कर्ष: कुछ पेन पेंसिल हैं।",
-        "options_hi": {
-          "A": "निश्चित रूप से सच",
-          "B": "निश्चित रूप से झूठ",
-          "C": "Probably True",
-          "D": "तय नहीं किया जा सकता"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) Definitely True?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
-      },
-      {
-        "id": 34,
-        "questionNumber": 34,
-        "section": "Other Skills",
-        "topic": "Computer Networks",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE?",
-        "options": {
-          "A": "Nalanda University",
-          "B": "Vikramashila University",
-          "C": "Odantapuri University",
-          "D": "Taxila University"
-        },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Vikramashila University**\n\n**Solution & Conceptual Rationale**:\nVikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution.",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "कंप्यूटर साइंस अवधारणा: Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE के संबंध में सही कथन या मान क्या है?",
-        "options_hi": {
-          "A": "नालन्दा विश्वविद्यालय",
-          "B": "विक्रमशिला विश्वविद्यालय",
-          "C": "Odantapuri University",
-          "D": "तक्षशिला विश्वविद्यालय"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Vikramashila University?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
-      },
-      {
-        "id": 35,
-        "questionNumber": 35,
-        "section": "Other Skills",
-        "topic": "Fundamental of E-Commerce",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:",
-        "options": {
-          "A": "Kheda",
-          "B": "Champaran, Bihar",
-          "C": "Dandi",
-          "D": "Bardoli"
-        },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Champaran, Bihar**\n\n**Solution & Conceptual Rationale**:\nChamparan Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
-        "topic_hi": "ई-कॉमर्स के मूल सिद्धांत",
-        "question_hi": "भारत में नील किसानों के समर्थन के लिए 1917 में शुरू किया गया महात्मा गांधी का पहला सविनय अवज्ञा आंदोलन कब हुआ:",
-        "options_hi": {
-          "A": "खेड़ा",
-          "B": "चंपारण, बिहार",
-          "C": "दांडी",
-          "D": "बारडोली"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Champaran, Bihar?**\n\n**विषय अवधारणा (ई-कॉमर्स के मूल सिद्धांत)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
-      },
-      {
-        "id": 36,
-        "questionNumber": 36,
-        "section": "Other Skills",
-        "topic": "Computer Science",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "Which Article of the Indian Constitution guarantees the 'Right to Equality before the Law'?",
-        "options": {
-          "A": "Article 14",
-          "B": "Article 19",
-          "C": "Article 21",
-          "D": "Article 32"
-        },
-        "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) Article 14**\n\n**Solution & Conceptual Rationale**:\nArticle 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "भारतीय संविधान का कौन सा अनुच्छेद 'कानून के समक्ष समानता का अधिकार' की गारंटी देता है?",
-        "options_hi": {
-          "A": "अनुच्छेद 14",
-          "B": "अनुच्छेद 19",
-          "C": "अनुच्छेद 21",
-          "D": "अनुच्छेद 32"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) Article 14?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
-      },
-      {
-        "id": 37,
-        "questionNumber": 37,
-        "section": "Other Skills",
-        "topic": "Database Management Systems",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "What is the primary cause of 'Eutrophication' in freshwater lakes and rivers?",
-        "options": {
-          "A": "Heavy oil spills from cargo ships",
-          "B": "Excess runoff of agricultural fertilizers (nitrates and phosphates)",
-          "C": "Ozone layer depletion",
-          "D": "Acidic rain containing sulfuric acid"
-        },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)**\n\n**Solution & Conceptual Rationale**:\nEutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "कंप्यूटर साइंस अवधारणा: What is the primary cause of 'Eutrophication' in freshwater lakes and rivers के संबंध में सही कथन या मान क्या है?",
-        "options_hi": {
-          "A": "मालवाहक जहाजों से भारी मात्रा में तेल का रिसाव",
-          "B": "कृषि उर्वरकों का अत्यधिक अपवाह (नाइट्रेट और फॉस्फेट)",
-          "C": "ओजोन परत का क्षरण",
-          "D": "सल्फ्यूरिक एसिड युक्त अम्लीय वर्षा"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
-      },
-      {
-        "id": 38,
-        "questionNumber": 38,
-        "section": "Other Skills",
-        "topic": "Computer Organization & Architecture",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "According to Lindeman's Ten Percent Law in ecological energetics, how much energy is transferred from one trophic level to the next?",
-        "options": {
-          "A": "1%",
-          "B": "10%",
-          "C": "50%",
-          "D": "90%"
-        },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) 10%**\n\n**Solution & Conceptual Rationale**:\nLindeman's Efficiency Law states that only about 10% of the energy stored as organic matter at one trophic level is transferred to the next trophic level; the remaining 90% is lost as metabolic heat.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "पारिस्थितिक ऊर्जा विज्ञान में लिंडमैन के दस प्रतिशत नियम के अनुसार, कितनी ऊर्जा एक पोषी स्तर से दूसरे पोषी स्तर तक स्थानांतरित होती है?",
-        "options_hi": {
-          "A": "1%",
-          "B": "10%",
-          "C": "50%",
-          "D": "90%"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) 10%?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
-      },
-      {
-        "id": 39,
-        "questionNumber": 39,
-        "section": "Other Skills",
-        "topic": "Computer Science",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
-        "options": {
-          "A": "20%",
-          "B": "25%",
-          "C": "30%",
-          "D": "35%"
-        },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 30%**\n\n**Solution & Conceptual Rationale**:\nProfit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और उसे ₹650 में बेचता है। उसका लाभ प्रतिशत क्या है?",
-        "options_hi": {
-          "A": "20%",
-          "B": "25%",
-          "C": "30%",
-          "D": "35%"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 30%?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
-      },
-      {
-        "id": 40,
-        "questionNumber": 40,
-        "section": "Other Skills",
-        "topic": "Computer Science",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
-        "options": {
-          "A": "45",
-          "B": "65",
-          "C": "75",
-          "D": "80%"
-        },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 75**\n\n**Solution & Conceptual Rationale**:\nTotal ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 120 है, तो बड़ी संख्या क्या है?",
-        "options_hi": {
-          "A": "45",
-          "B": "65",
-          "C": "75",
-          "D": "80%"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 75?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
-      },
-      {
-        "id": 41,
-        "questionNumber": 41,
-        "section": "Other Skills",
-        "topic": "Computer Science",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
-        "options": {
-          "A": "20%",
-          "B": "25%",
-          "C": "30%",
-          "D": "35%"
-        },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 30%**\n\n**Solution & Conceptual Rationale**:\nProfit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और उसे ₹650 में बेचता है। उसका लाभ प्रतिशत क्या है?",
-        "options_hi": {
-          "A": "20%",
-          "B": "25%",
-          "C": "30%",
-          "D": "35%"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 30%?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
-      },
-      {
-        "id": 42,
-        "questionNumber": 42,
-        "section": "Other Skills",
-        "topic": "Computer Science",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
-        "options": {
-          "A": "45",
-          "B": "65",
-          "C": "75",
-          "D": "80%"
-        },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 75**\n\n**Solution & Conceptual Rationale**:\nTotal ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 120 है, तो बड़ी संख्या क्या है?",
-        "options_hi": {
-          "A": "45",
-          "B": "65",
-          "C": "75",
-          "D": "80%"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 75?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
-      },
-      {
-        "id": 43,
-        "questionNumber": 43,
-        "section": "Other Skills",
-        "topic": "Computer Science",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "Complete the alphabetical series: B, D, G, K, P, ____?",
-        "options": {
-          "A": "T",
-          "B": "U",
-          "C": "V",
-          "D": "W"
-        },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) V**\n\n**Solution & Conceptual Rationale**:\nLetter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "वर्णमाला क्रम को पूरा करें: B, D, G, K, P, ____?",
-        "options_hi": {
-          "A": "T",
-          "B": "U",
-          "C": "V",
-          "D": "W"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) V?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
-      },
-      {
-        "id": 44,
-        "questionNumber": 44,
-        "section": "Other Skills",
-        "topic": "Computer Science",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "Statements: 1. Some pens are books. 2. All books are pencils. Conclusion: Some pens are pencils.",
-        "options": {
-          "A": "Definitely True",
-          "B": "Definitely False",
-          "C": "Probably True",
-          "D": "Cannot be determined"
-        },
-        "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) Definitely True**\n\n**Solution & Conceptual Rationale**:\nThe intersection of 'pens' and 'books' falls entirely within the set of 'pencils'. Thus, some pens must be pencils. The conclusion is Definitely True.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "कथन: 1. कुछ कलम किताबें हैं। 2. सभी किताबें पेंसिल हैं। निष्कर्ष: कुछ पेन पेंसिल हैं।",
-        "options_hi": {
-          "A": "निश्चित रूप से सच",
-          "B": "निश्चित रूप से झूठ",
-          "C": "Probably True",
-          "D": "तय नहीं किया जा सकता"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) Definitely True?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
-      },
-      {
-        "id": 45,
-        "questionNumber": 45,
-        "section": "Other Skills",
-        "topic": "Computer Networks",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE?",
-        "options": {
-          "A": "Nalanda University",
-          "B": "Vikramashila University",
-          "C": "Odantapuri University",
-          "D": "Taxila University"
-        },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Vikramashila University**\n\n**Solution & Conceptual Rationale**:\nVikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution.",
-        "topic_hi": "कंप्यूटर नेटवर्क",
-        "question_hi": "कंप्यूटर साइंस अवधारणा: Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE के संबंध में सही कथन या मान क्या है?",
-        "options_hi": {
-          "A": "नालन्दा विश्वविद्यालय",
-          "B": "विक्रमशिला विश्वविद्यालय",
-          "C": "Odantapuri University",
-          "D": "तक्षशिला विश्वविद्यालय"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Vikramashila University?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
-      },
-      {
-        "id": 46,
-        "questionNumber": 46,
-        "section": "Other Skills",
-        "topic": "Fundamental of E-Commerce",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:",
-        "options": {
-          "A": "Kheda",
-          "B": "Champaran, Bihar",
-          "C": "Dandi",
-          "D": "Bardoli"
-        },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Champaran, Bihar**\n\n**Solution & Conceptual Rationale**:\nChamparan Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
-        "topic_hi": "ई-कॉमर्स के मूल सिद्धांत",
-        "question_hi": "भारत में नील किसानों के समर्थन के लिए 1917 में शुरू किया गया महात्मा गांधी का पहला सविनय अवज्ञा आंदोलन कब हुआ:",
-        "options_hi": {
-          "A": "खेड़ा",
-          "B": "चंपारण, बिहार",
-          "C": "दांडी",
-          "D": "बारडोली"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Champaran, Bihar?**\n\n**विषय अवधारणा (ई-कॉमर्स के मूल सिद्धांत)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
-      },
-      {
-        "id": 47,
-        "questionNumber": 47,
-        "section": "Other Skills",
-        "topic": "Computer Science",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "Which Article of the Indian Constitution guarantees the 'Right to Equality before the Law'?",
-        "options": {
-          "A": "Article 14",
-          "B": "Article 19",
-          "C": "Article 21",
-          "D": "Article 32"
-        },
-        "correctAnswer": "A",
-        "explanation": "**Correct Answer: (A) Article 14**\n\n**Solution & Conceptual Rationale**:\nArticle 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "भारतीय संविधान का कौन सा अनुच्छेद 'कानून के समक्ष समानता का अधिकार' की गारंटी देता है?",
-        "options_hi": {
-          "A": "अनुच्छेद 14",
-          "B": "अनुच्छेद 19",
-          "C": "अनुच्छेद 21",
-          "D": "अनुच्छेद 32"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (A) Article 14?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
-      },
-      {
-        "id": 48,
-        "questionNumber": 48,
-        "section": "Other Skills",
-        "topic": "Database Management Systems",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "What is the primary cause of 'Eutrophication' in freshwater lakes and rivers?",
-        "options": {
-          "A": "Heavy oil spills from cargo ships",
-          "B": "Excess runoff of agricultural fertilizers (nitrates and phosphates)",
-          "C": "Ozone layer depletion",
-          "D": "Acidic rain containing sulfuric acid"
-        },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)**\n\n**Solution & Conceptual Rationale**:\nEutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen.",
-        "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-        "question_hi": "कंप्यूटर साइंस अवधारणा: What is the primary cause of 'Eutrophication' in freshwater lakes and rivers के संबंध में सही कथन या मान क्या है?",
-        "options_hi": {
-          "A": "मालवाहक जहाजों से भारी मात्रा में तेल का रिसाव",
-          "B": "कृषि उर्वरकों का अत्यधिक अपवाह (नाइट्रेट और फॉस्फेट)",
-          "C": "ओजोन परत का क्षरण",
-          "D": "सल्फ्यूरिक एसिड युक्त अम्लीय वर्षा"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
-      },
-      {
-        "id": 49,
-        "questionNumber": 49,
-        "section": "Other Skills",
-        "topic": "Computer Organization & Architecture",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "According to Lindeman's Ten Percent Law in ecological energetics, how much energy is transferred from one trophic level to the next?",
-        "options": {
-          "A": "1%",
-          "B": "10%",
-          "C": "50%",
-          "D": "90%"
-        },
-        "correctAnswer": "B",
-        "explanation": "**Correct Answer: (B) 10%**\n\n**Solution & Conceptual Rationale**:\nLindeman's Efficiency Law states that only about 10% of the energy stored as organic matter at one trophic level is transferred to the next trophic level; the remaining 90% is lost as metabolic heat.",
-        "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-        "question_hi": "पारिस्थितिक ऊर्जा विज्ञान में लिंडमैन के दस प्रतिशत नियम के अनुसार, कितनी ऊर्जा एक पोषी स्तर से दूसरे पोषी स्तर तक स्थानांतरित होती है?",
-        "options_hi": {
-          "A": "1%",
-          "B": "10%",
-          "C": "50%",
-          "D": "90%"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (B) 10%?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
-      },
-      {
-        "id": 50,
-        "questionNumber": 50,
-        "section": "Other Skills",
-        "topic": "Computer Science",
-        "marks": 1,
-        "negativeMarks": 0,
-        "question": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
-        "options": {
-          "A": "20%",
-          "B": "25%",
-          "C": "30%",
-          "D": "35%"
-        },
-        "correctAnswer": "C",
-        "explanation": "**Correct Answer: (C) 30%**\n\n**Solution & Conceptual Rationale**:\nProfit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
-        "topic_hi": "कंप्यूटर साइंस",
-        "question_hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और उसे ₹650 में बेचता है। उसका लाभ प्रतिशत क्या है?",
-        "options_hi": {
-          "A": "20%",
-          "B": "25%",
-          "C": "30%",
-          "D": "35%"
-        },
-        "explanation_hi": "**आधिकारिक सही उत्तर: (C) 30%?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+        "explanation": "The terms increase by a common difference of +3: 186 + 3 = 189.",
+        "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 186 + 3 = 189।"
       }
     ]
   }

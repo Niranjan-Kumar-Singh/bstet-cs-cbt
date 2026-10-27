@@ -34,3903 +34,3901 @@ window.predicted_set2 = {
       "id": 1,
       "questionNumber": 1,
       "section": "Computer Science",
-      "topic": "Software Engineering",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What type of testing tests whether recent code changes have caused unintended side effects in existing functionality?",
+      "question": "What is the octal representation of decimal integer 126?",
+      "question_hi": "दशमलव पूर्णांक 126 का अष्टाधारी (Octal) निरूपण क्या होगा?",
       "options": {
-        "A": "Unit Testing",
-        "B": "Regression Testing",
-        "C": "Alpha Testing",
-        "D": "Stress Testing"
+        "A": "(176)₈",
+        "B": "(202)₈",
+        "C": "(174)₈",
+        "D": "(1760)₈"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Regression Testing**\n\n**Theoretical Analysis & Rule**:\nRegression testing reruns existing test suites after bug fixes or modifications to confirm that unchanged features continue to function properly.",
-      "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What type of testing tests whether recent code changes have caused unintended side effects in existing functionality के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "इकाई परीक्षण",
-        "B": "Regression Testing",
-        "C": "अल्फ़ा परीक्षण",
-        "D": "तनाव परीक्षण"
+        "A": "(176)₈",
+        "B": "(202)₈",
+        "C": "(174)₈",
+        "D": "(1760)₈"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Regression Testing?**\n\n**विषय अवधारणा (सॉफ्टवेयर इंजीनियरिंग)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Repeated division of 126 by 8 yields octal digits: 176.",
+      "explanation_hi": "126 को 8 से बार-बार भाग देने पर अष्टाधारी मान (176)₈ प्राप्त होता है।"
     },
     {
       "id": 2,
       "questionNumber": 2,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which image compression standard utilizes Discrete Cosine Transform (DCT) and is lossy for digital photography?",
+      "question": "What is the octal representation of decimal integer 135?",
+      "question_hi": "दशमलव पूर्णांक 135 का अष्टाधारी (Octal) निरूपण क्या होगा?",
       "options": {
-        "A": "PNG",
-        "B": "JPEG",
-        "C": "BMP",
-        "D": "SVG"
+        "A": "(207)₈",
+        "B": "(213)₈",
+        "C": "(205)₈",
+        "D": "(2070)₈"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) JPEG**\n\n**Theoretical Analysis & Rule**:\nJPEG (Joint Photographic Experts Group) uses Discrete Cosine Transform (DCT) lossy compression to discard high-frequency color variations less noticeable to the human eye.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "कौन सा छवि संपीड़न मानक डिस्क्रीट कोसाइन ट्रांसफॉर्म (डीसीटी) का उपयोग करता है और डिजिटल फोटोग्राफी के लिए हानिकारक है?",
       "options_hi": {
-        "A": "PNG",
-        "B": "जेपीईजी",
-        "C": "BMP",
-        "D": "SVG"
+        "A": "(207)₈",
+        "B": "(213)₈",
+        "C": "(205)₈",
+        "D": "(2070)₈"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) JPEG?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Repeated division of 135 by 8 yields octal digits: 207.",
+      "explanation_hi": "135 को 8 से बार-बार भाग देने पर अष्टाधारी मान (207)₈ प्राप्त होता है।"
     },
     {
       "id": 3,
       "questionNumber": 3,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which data structure is fundamentally used for the Breadth-First Search (BFS) graph traversal algorithm?",
+      "question": "What is the octal representation of decimal integer 148?",
+      "question_hi": "दशमलव पूर्णांक 148 का अष्टाधारी (Octal) निरूपण क्या होगा?",
       "options": {
-        "A": "Stack",
-        "B": "Queue",
-        "C": "Priority Queue",
-        "D": "Binary Tree"
+        "A": "(224)₈",
+        "B": "(230)₈",
+        "C": "(222)₈",
+        "D": "(2240)₈"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Queue**\n\n**Theoretical Analysis & Rule**:\nBFS visits vertices in order of their distance from the source level-by-level (FIFO), which is implemented using a Queue. (DFS uses a Stack).",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "ब्रेडथ-फर्स्ट सर्च (बीएफएस) ग्राफ ट्रैवर्सल एल्गोरिदम के लिए मूल रूप से कौन सी डेटा संरचना का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "स्टैक (Stack)",
-        "B": "कतार (Queue)",
-        "C": "प्राथमिकता कतार",
-        "D": "बाइनरी ट्री"
+        "A": "(224)₈",
+        "B": "(230)₈",
+        "C": "(222)₈",
+        "D": "(2240)₈"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) क्यू (Queue)?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Repeated division of 148 by 8 yields octal digits: 224.",
+      "explanation_hi": "148 को 8 से बार-बार भाग देने पर अष्टाधारी मान (224)₈ प्राप्त होता है।"
     },
     {
       "id": 4,
       "questionNumber": 4,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the CIDR prefix for a subnet with a subnet mask of 255.255.255.192?",
+      "question": "What is the octal representation of decimal integer 162?",
+      "question_hi": "दशमलव पूर्णांक 162 का अष्टाधारी (Octal) निरूपण क्या होगा?",
       "options": {
-        "A": "/24",
-        "B": "/25",
-        "C": "/26",
-        "D": "/27"
+        "A": "(242)₈",
+        "B": "(246)₈",
+        "C": "(240)₈",
+        "D": "(2420)₈"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "255.255.255.192 के सबनेट मास्क वाले सबनेट के लिए सीआईडीआर उपसर्ग क्या है?",
       "options_hi": {
-        "A": "/24",
-        "B": "/25",
-        "C": "/26",
-        "D": "/27"
+        "A": "(242)₈",
+        "B": "(246)₈",
+        "C": "(240)₈",
+        "D": "(2420)₈"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Repeated division of 162 by 8 yields octal digits: 242.",
+      "explanation_hi": "162 को 8 से बार-बार भाग देने पर अष्टाधारी मान (242)₈ प्राप्त होता है।"
     },
     {
       "id": 5,
       "questionNumber": 5,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In First-Order Predicate Logic, which inference rule derives C from premises (A ∨ B) and (¬A ∨ C)?",
+      "question": "What is the octal representation of decimal integer 175?",
+      "question_hi": "दशमलव पूर्णांक 175 का अष्टाधारी (Octal) निरूपण क्या होगा?",
       "options": {
-        "A": "Modus Ponens",
-        "B": "Resolution",
-        "C": "Universal Instantiation",
-        "D": "Unification"
+        "A": "(257)₈",
+        "B": "(263)₈",
+        "C": "(255)₈",
+        "D": "(2570)₈"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Resolution**\n\n**Theoretical Analysis & Rule**:\nResolution refutation states: (A ∨ B) and (¬A ∨ C) yields the resolvent (B ∨ C). If B is false, it yields C.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "प्रथम-क्रम विधेय तर्क में, कौन सा अनुमान नियम C को परिसर (A ∨ B) और (¬A ∨ C) से प्राप्त करता है?",
       "options_hi": {
-        "A": "मोडस पोनेन्स",
-        "B": "संकल्प",
-        "C": "सार्वभौमिक तात्कालिकता",
-        "D": "एकीकरण"
+        "A": "(257)₈",
+        "B": "(263)₈",
+        "C": "(255)₈",
+        "D": "(2570)₈"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Resolution?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Repeated division of 175 by 8 yields octal digits: 257.",
+      "explanation_hi": "175 को 8 से बार-बार भाग देने पर अष्टाधारी मान (257)₈ प्राप्त होता है।"
     },
     {
       "id": 6,
       "questionNumber": 6,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is a non-volatile optical or semiconductor memory that can be erased electrically in flash blocks?",
+      "question": "What is the octal representation of decimal integer 188?",
+      "question_hi": "दशमलव पूर्णांक 188 का अष्टाधारी (Octal) निरूपण क्या होगा?",
       "options": {
-        "A": "SRAM",
-        "B": "DRAM",
-        "C": "EEPROM / Flash Memory",
-        "D": "Mask ROM"
+        "A": "(274)₈",
+        "B": "(300)₈",
+        "C": "(272)₈",
+        "D": "(2740)₈"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) EEPROM / Flash Memory**\n\n**Theoretical Analysis & Rule**:\nEEPROM (Electrically Erasable Programmable ROM) and Flash memory can be erased and reprogrammed electrically at the block or byte level without UV exposure.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "निम्नलिखित में से कौन सी एक गैर-वाष्पशील ऑप्टिकल या अर्धचालक मेमोरी है जिसे फ्लैश ब्लॉक में विद्युत रूप से मिटाया जा सकता है?",
       "options_hi": {
-        "A": "एसआरएएम",
-        "B": "घूंट",
-        "C": "EEPROM / Flash Memory",
-        "D": "मास्क रॉम"
+        "A": "(274)₈",
+        "B": "(300)₈",
+        "C": "(272)₈",
+        "D": "(2740)₈"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) EEPROM / Flash Memory?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Repeated division of 188 by 8 yields octal digits: 274.",
+      "explanation_hi": "188 को 8 से बार-बार भाग देने पर अष्टाधारी मान (274)₈ प्राप्त होता है।"
     },
     {
       "id": 7,
       "questionNumber": 7,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In relational database design, Boy-Codd Normal Form (BCNF) requires that for every non-trivial functional dependency X -> Y:",
+      "question": "What is the octal representation of decimal integer 204?",
+      "question_hi": "दशमलव पूर्णांक 204 का अष्टाधारी (Octal) निरूपण क्या होगा?",
       "options": {
-        "A": "Y must be a prime attribute",
-        "B": "X must be a Super Key",
-        "C": "X and Y must be atomic",
-        "D": "Y must not depend on X"
+        "A": "(314)₈",
+        "B": "(320)₈",
+        "C": "(312)₈",
+        "D": "(3140)₈"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) X must be a Super Key**\n\n**Theoretical Analysis & Rule**:\nBCNF is a stricter version of 3NF. It requires that for every non-trivial functional dependency X -> Y, the determinant X must be a Super Key of the relation.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन में, बॉय-कॉड नॉर्मल फॉर्म (बीसीएनएफ) के लिए आवश्यक है कि प्रत्येक गैर-तुच्छ कार्यात्मक निर्भरता X -> Y के लिए:",
       "options_hi": {
-        "A": "Y एक प्रमुख गुण होना चाहिए",
-        "B": "X एक सुपर कुंजी होनी चाहिए",
-        "C": "X और Y परमाणु होने चाहिए",
-        "D": "Y को X पर निर्भर नहीं रहना चाहिए"
+        "A": "(314)₈",
+        "B": "(320)₈",
+        "C": "(312)₈",
+        "D": "(3140)₈"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) X must be a Super Key?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Repeated division of 204 by 8 yields octal digits: 314.",
+      "explanation_hi": "204 को 8 से बार-बार भाग देने पर अष्टाधारी मान (314)₈ प्राप्त होता है।"
     },
     {
       "id": 8,
       "questionNumber": 8,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the language recognized by a Deterministic Finite Automaton (DFA) that accepts strings over {0, 1} ending with '00'?",
+      "question": "What is the octal representation of decimal integer 218?",
+      "question_hi": "दशमलव पूर्णांक 218 का अष्टाधारी (Octal) निरूपण क्या होगा?",
       "options": {
-        "A": "Context Free Language",
-        "B": "Regular Language",
-        "C": "Recursively Enumerable only",
-        "D": "Non-computable Language"
+        "A": "(332)₈",
+        "B": "(336)₈",
+        "C": "(330)₈",
+        "D": "(3320)₈"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Regular Language**\n\n**Theoretical Analysis & Rule**:\nAny language that can be recognized by a Finite Automaton (DFA or NFA) is by definition a Regular Language, represented by regular expression (0 + 1)*00.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "नियतात्मक परिमित ऑटोमेटन (डीएफए) द्वारा मान्यता प्राप्त भाषा क्या है जो '00' के साथ समाप्त होने वाले {0, 1} से अधिक स्ट्रिंग को स्वीकार करती है?",
       "options_hi": {
-        "A": "प्रसंग मुक्त भाषा",
-        "B": "नियमित भाषा",
-        "C": "केवल पुनरावर्ती रूप से गणना योग्य",
-        "D": "गैर संगणनीय भाषा"
+        "A": "(332)₈",
+        "B": "(336)₈",
+        "C": "(330)₈",
+        "D": "(3320)₈"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Regular Language?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Repeated division of 218 by 8 yields octal digits: 332.",
+      "explanation_hi": "218 को 8 से बार-बार भाग देने पर अष्टाधारी मान (332)₈ प्राप्त होता है।"
     },
     {
       "id": 9,
       "questionNumber": 9,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a programmable logic array (PLA), which gate arrays are programmable?",
+      "question": "What is the octal representation of decimal integer 231?",
+      "question_hi": "दशमलव पूर्णांक 231 का अष्टाधारी (Octal) निरूपण क्या होगा?",
       "options": {
-        "A": "AND array is fixed, OR array is programmable",
-        "B": "Both AND array and OR array are programmable",
-        "C": "AND array is programmable, OR array is fixed",
-        "D": "Neither array is programmable"
+        "A": "(347)₈",
+        "B": "(353)₈",
+        "C": "(345)₈",
+        "D": "(3470)₈"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Both AND array and OR array are programmable**\n\n**Theoretical Analysis & Rule**:\nIn a PLA, BOTH the AND array and the OR array are programmable. (In a PAL, the AND array is programmable while the OR array is fixed; in a PROM, the AND array is fixed while the OR array is programmable).",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "प्रोग्रामयोग्य लॉजिक ऐरे (PLA) में, कौन से गेट ऐरे प्रोग्रामयोग्य हैं?",
       "options_hi": {
-        "A": "और ऐरे निश्चित है, या ऐरे प्रोग्रामयोग्य है",
-        "B": "AND ऐरे और OR ऐरे दोनों प्रोग्रामयोग्य हैं",
-        "C": "और ऐरे प्रोग्रामयोग्य है, या ऐरे निश्चित है",
-        "D": "कोई भी ऐरे प्रोग्राम करने योग्य नहीं है"
+        "A": "(347)₈",
+        "B": "(353)₈",
+        "C": "(345)₈",
+        "D": "(3470)₈"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Both AND ऐरे (Array) and OR ऐरे (Array) are programmable?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Repeated division of 231 by 8 yields octal digits: 347.",
+      "explanation_hi": "231 को 8 से बार-बार भाग देने पर अष्टाधारी मान (347)₈ प्राप्त होता है।"
     },
     {
       "id": 10,
       "questionNumber": 10,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the state transition that occurs when a running process requires an I/O operation?",
+      "question": "What is the octal representation of decimal integer 245?",
+      "question_hi": "दशमलव पूर्णांक 245 का अष्टाधारी (Octal) निरूपण क्या होगा?",
       "options": {
-        "A": "Running to Ready",
-        "B": "Running to Waiting (Blocked)",
-        "C": "Waiting to Ready",
-        "D": "Ready to Running"
+        "A": "(365)₈",
+        "B": "(371)₈",
+        "C": "(363)₈",
+        "D": "(3650)₈"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Running to Waiting (Blocked)**\n\n**Theoretical Analysis & Rule**:\nWhen a process requests an I/O operation or an event, the CPU cannot continue executing it until the I/O completes. The OS transitions the process from Running to Waiting (Blocked) state.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "वह स्थिति परिवर्तन क्या है जो तब होता है जब किसी चालू प्रक्रिया के लिए I/O ऑपरेशन की आवश्यकता होती है?",
       "options_hi": {
-        "A": "तैयार होने के लिए दौड़ना",
-        "B": "प्रतीक्षा करने के लिए दौड़ना (अवरुद्ध)",
-        "C": "तैयार होने की प्रतीक्षा में",
-        "D": "दौड़ने के लिए तैयार"
+        "A": "(365)₈",
+        "B": "(371)₈",
+        "C": "(363)₈",
+        "D": "(3650)₈"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Running to Waiting (Blocked)?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Repeated division of 245 by 8 yields octal digits: 365.",
+      "explanation_hi": "245 को 8 से बार-बार भाग देने पर अष्टाधारी मान (365)₈ प्राप्त होता है।"
     },
     {
       "id": 11,
       "questionNumber": 11,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the output of the Python expression: [x**2 for x in range(5) if x % 2 == 0]?",
+      "question": "What is the octal representation of decimal integer 258?",
+      "question_hi": "दशमलव पूर्णांक 258 का अष्टाधारी (Octal) निरूपण क्या होगा?",
       "options": {
-        "A": "[0, 1, 4, 9, 16]",
-        "B": "[0, 4, 16]",
-        "C": "[1, 9]",
-        "D": "[4, 16]"
+        "A": "(402)₈",
+        "B": "(406)₈",
+        "C": "(400)₈",
+        "D": "(4020)₈"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) [0, 4, 16]**\n\n**Theoretical Analysis & Rule**:\nrange(5) produces 0, 1, 2, 3, 4. The filter 'x % 2 == 0' selects 0, 2, 4. The squares are 0²=0, 2²=4, 4²=16. The result is [0, 4, 16].",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "पायथन एक्सप्रेशन का आउटपुट क्या है: [x**2 for x in रेंज(5) if x % 2 == 0]?",
       "options_hi": {
-        "A": "[0, 1, 4, 9, 16]",
-        "B": "[0, 4, 16]",
-        "C": "[1, 9]",
-        "D": "[4, 16]"
+        "A": "(402)₈",
+        "B": "(406)₈",
+        "C": "(400)₈",
+        "D": "(4020)₈"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) [0, 4, 16]?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Repeated division of 258 by 8 yields octal digits: 402.",
+      "explanation_hi": "258 को 8 से बार-बार भाग देने पर अष्टाधारी मान (402)₈ प्राप्त होता है।"
     },
     {
       "id": 12,
       "questionNumber": 12,
       "section": "Computer Science",
       "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "How many select lines are required for a 64-to-1 Multiplexer (MUX)?",
+      "question": "What is the octal representation of decimal integer 275?",
+      "question_hi": "दशमलव पूर्णांक 275 का अष्टाधारी (Octal) निरूपण क्या होगा?",
       "options": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "8"
+        "A": "(423)₈",
+        "B": "(427)₈",
+        "C": "(421)₈",
+        "D": "(4230)₈"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "64-टू-1 मल्टीप्लेक्सर (एमयूएक्स) के लिए कितनी चुनिंदा लाइनें आवश्यक हैं?",
       "options_hi": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "8"
+        "A": "(423)₈",
+        "B": "(427)₈",
+        "C": "(421)₈",
+        "D": "(4230)₈"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Repeated division of 275 by 8 yields octal digits: 423.",
+      "explanation_hi": "275 को 8 से बार-बार भाग देने पर अष्टाधारी मान (423)₈ प्राप्त होता है।"
     },
     {
       "id": 13,
       "questionNumber": 13,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a hash table of size 10 using open addressing with linear probing and hash function h(k) = k mod 10, where will key 42 be placed if keys 12, 22, and 32 are already inserted?",
+      "question": "What is the octal representation of decimal integer 290?",
+      "question_hi": "दशमलव पूर्णांक 290 का अष्टाधारी (Octal) निरूपण क्या होगा?",
       "options": {
-        "A": "Index 2",
-        "B": "Index 3",
-        "C": "Index 4",
-        "D": "Index 5"
+        "A": "(442)₈",
+        "B": "(446)₈",
+        "C": "(440)₈",
+        "D": "(4420)₈"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Index 5**\n\n**Theoretical Analysis & Rule**:\nh(12)=2 (stored at 2); h(22)=2 -> collision -> stored at 3; h(32)=2 -> collisions at 2, 3 -> stored at 4; h(42)=2 -> collisions at 2, 3, 4 -> stored at index 5.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "लीनियर प्रोबिंग और हैश फ़ंक्शन h(k) = k mod 10 के साथ ओपन एड्रेसिंग का उपयोग करते हुए आकार 10 की हैश तालिका में, यदि कुंजी 12, 22 और 32 पहले से ही डाली गई हैं तो कुंजी 42 कहाँ रखी जाएगी?",
       "options_hi": {
-        "A": "सूचकांक 2",
-        "B": "Index 3",
-        "C": "सूचकांक 4",
-        "D": "सूचकांक 5"
+        "A": "(442)₈",
+        "B": "(446)₈",
+        "C": "(440)₈",
+        "D": "(4420)₈"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Index 5?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Repeated division of 290 by 8 yields octal digits: 442.",
+      "explanation_hi": "290 को 8 से बार-बार भाग देने पर अष्टाधारी मान (442)₈ प्राप्त होता है।"
     },
     {
       "id": 14,
       "questionNumber": 14,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is a Distance Vector routing protocol that uses hop count as its sole metric with a maximum limit of 15 hops?",
+      "question": "What is the octal representation of decimal integer 310?",
+      "question_hi": "दशमलव पूर्णांक 310 का अष्टाधारी (Octal) निरूपण क्या होगा?",
       "options": {
-        "A": "OSPF",
-        "B": "RIP (Routing Information Protocol)",
-        "C": "BGP",
-        "D": "IS-IS"
+        "A": "(466)₈",
+        "B": "(472)₈",
+        "C": "(464)₈",
+        "D": "(4660)₈"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) RIP (Routing Information Protocol)**\n\n**Theoretical Analysis & Rule**:\nRIP is an interior gateway distance-vector protocol using hop count (1 to 15 hops; 16 signifies unreachable infinity) to prevent routing loops.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "निम्नलिखित में से कौन सा एक डिस्टेंस वेक्टर रूटिंग प्रोटोकॉल है जो 15 हॉप्स की अधिकतम सीमा के साथ हॉप काउंट को अपने एकमात्र मीट्रिक के रूप में उपयोग करता है?",
       "options_hi": {
-        "A": "ओएसपीएफ",
-        "B": "आरआईपी (रूटिंग सूचना प्रोटोकॉल)",
-        "C": "BGP",
-        "D": "आईएस-आईएस"
+        "A": "(466)₈",
+        "B": "(472)₈",
+        "C": "(464)₈",
+        "D": "(4660)₈"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) RIP (Routing Information Protocol)?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Repeated division of 310 by 8 yields octal digits: 466.",
+      "explanation_hi": "310 को 8 से बार-बार भाग देने पर अष्टाधारी मान (466)₈ प्राप्त होता है।"
     },
     {
       "id": 15,
       "questionNumber": 15,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following encryption protocols provides transport-layer security for credit card transactions over the web?",
+      "question": "What is the octal representation of decimal integer 350?",
+      "question_hi": "दशमलव पूर्णांक 350 का अष्टाधारी (Octal) निरूपण क्या होगा?",
       "options": {
-        "A": "SSL / TLS",
-        "B": "FTP",
-        "C": "TELNET",
-        "D": "TFTP"
+        "A": "(536)₈",
+        "B": "(542)₈",
+        "C": "(534)₈",
+        "D": "(5360)₈"
+      },
+      "options_hi": {
+        "A": "(536)₈",
+        "B": "(542)₈",
+        "C": "(534)₈",
+        "D": "(5360)₈"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) SSL / TLS**\n\n**Theoretical Analysis & Rule**:\nSSL (Secure Sockets Layer) and its modern successor TLS (Transport Layer Security) encrypt browser-server communications (HTTPS) to safeguard financial and personal data.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "निम्नलिखित में से कौन सा एन्क्रिप्शन प्रोटोकॉल वेब पर क्रेडिट कार्ड लेनदेन के लिए ट्रांसपोर्ट-लेयर सुरक्षा प्रदान करता है?",
-      "options_hi": {
-        "A": "एसएसएल/टीएलएस",
-        "B": "FTP",
-        "C": "टेलनेट",
-        "D": "टीएफटीपी"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) SSL / TLS?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Repeated division of 350 by 8 yields octal digits: 536.",
+      "explanation_hi": "350 को 8 से बार-बार भाग देने पर अष्टाधारी मान (536)₈ प्राप्त होता है।"
     },
     {
       "id": 16,
       "questionNumber": 16,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a row-major 2D array A[1..M, 1..N] stored starting at base address B with element size S, what is the address formula for element A[i, j]?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -3?",
+      "question_hi": "दशमलव संख्या -3 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "B + [(i - 1) * N + (j - 1)] * S",
-        "B": "B + [(j - 1) * M + (i - 1)] * S",
-        "C": "B + [i * N + j] * S",
-        "D": "B + [(i - 1) + (j - 1) * N] * S"
+        "A": "11111101",
+        "B": "11111100",
+        "C": "11111111",
+        "D": "00000011"
+      },
+      "options_hi": {
+        "A": "11111101",
+        "B": "11111100",
+        "C": "11111111",
+        "D": "00000011"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) B + [(i - 1) * N + (j - 1)] * S**\n\n**Theoretical Analysis & Rule**:\nIn row-major order, rows are placed contiguously in memory. To reach row i, you skip (i - 1) complete rows of N elements each, and then move (j - 1) elements into row i. Hence: Address = Base + [((i - 1) * N) + (j - 1)] * S.",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "पंक्ति-प्रमुख 2D सरणी A[1..M, 1..N] में तत्व आकार S के साथ आधार पता B से शुरू करके संग्रहीत किया जाता है, तत्व A[i, j] के लिए पता सूत्र क्या है?",
-      "options_hi": {
-        "A": "बी + [(आई - 1) * एन + (जे - 1)] * एस",
-        "B": "बी + [(जे - 1) * एम + (आई - 1)] * एस",
-        "C": "बी + [आई * एन + जे] * एस",
-        "D": "बी + [(आई - 1) + (जे - 1) * एन] * एस"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) B + [(i - 1) * N + (j - 1)] * S?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Binary of +3 is 00000011. 1's complement is 11111100. Adding 1 gives 2's complement = 11111101.",
+      "explanation_hi": "+3 का बाइनरी 00000011 है। 1's पूरक = 11111100। 1 जोड़ने पर 2's पूरक = 11111101।"
     },
     {
       "id": 17,
       "questionNumber": 17,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In the Two-Phase Locking (2PL) protocol, what happens during the 'Growing Phase'?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -8?",
+      "question_hi": "दशमलव संख्या -8 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "Locks are acquired and no locks can be released",
-        "B": "Locks are released and no locks can be acquired",
-        "C": "Transactions are committed",
-        "D": "Data items are deleted"
+        "A": "11111000",
+        "B": "11110111",
+        "C": "11111010",
+        "D": "00001000"
+      },
+      "options_hi": {
+        "A": "11111000",
+        "B": "11110111",
+        "C": "11111010",
+        "D": "00001000"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Locks are acquired and no locks can be released**\n\n**Theoretical Analysis & Rule**:\nUnder 2PL: Phase 1 (Growing Phase): A transaction may acquire locks, but cannot release any lock. Phase 2 (Shrinking Phase): A transaction may release locks, but cannot acquire any new locks.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "दो-चरण लॉकिंग (2PL) प्रोटोकॉल में, 'बढ़ते चरण' के दौरान क्या होता है?",
-      "options_hi": {
-        "A": "ताले अधिगृहीत हैं और कोई भी ताला जारी नहीं किया जा सकता",
-        "B": "ताले जारी कर दिए जाते हैं और कोई ताले हासिल नहीं किए जा सकते",
-        "C": "लेनदेन प्रतिबद्ध हैं",
-        "D": "डेटा आइटम हटा दिए गए हैं"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Locks are acquired and no locks can be released?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Binary of +8 is 00001000. 1's complement is 11110111. Adding 1 gives 2's complement = 11111000.",
+      "explanation_hi": "+8 का बाइनरी 00001000 है। 1's पूरक = 11110111। 1 जोड़ने पर 2's पूरक = 11111000।"
     },
     {
       "id": 18,
       "questionNumber": 18,
       "section": "Computer Science",
       "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following grammars is in Chomsky Normal Form (CNF)?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -12?",
+      "question_hi": "दशमलव संख्या -12 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "S -> aB | b",
-        "B": "S -> AB | a",
-        "C": "S -> ABC | a",
-        "D": "S -> a | ε"
+        "A": "11110100",
+        "B": "11110011",
+        "C": "11110110",
+        "D": "00001100"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) S -> AB | a**\n\n**Theoretical Analysis & Rule**:\nIn Chomsky Normal Form (CNF), all production rules must be of the form A -> BC (two non-terminals) or A -> a (single terminal). Hence, S -> AB | a is in CNF.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "निम्नलिखित में से कौन सा व्याकरण चॉम्स्की नॉर्मल फॉर्म (CNF) में है?",
       "options_hi": {
-        "A": "एस -> एबी | बी",
-        "B": "एस -> एबी | ए",
-        "C": "एस -> एबीसी | ए",
-        "D": "एस -> ए | ε"
+        "A": "11110100",
+        "B": "11110011",
+        "C": "11110110",
+        "D": "00001100"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) S -> AB | a?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Binary of +12 is 00001100. 1's complement is 11110011. Adding 1 gives 2's complement = 11110100.",
+      "explanation_hi": "+12 का बाइनरी 00001100 है। 1's पूरक = 11110011। 1 जोड़ने पर 2's पूरक = 11110100।"
     },
     {
       "id": 19,
       "questionNumber": 19,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In 8086 microprocessor architecture, which register holds the offset address of the instruction to be fetched from the code segment?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -16?",
+      "question_hi": "दशमलव संख्या -16 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "Stack Pointer (SP)",
-        "B": "Instruction Pointer (IP)",
-        "C": "Base Pointer (BP)",
-        "D": "Source Index (SI)"
+        "A": "11110000",
+        "B": "11101111",
+        "C": "11110010",
+        "D": "00010000"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Instruction Pointer (IP)**\n\n**Theoretical Analysis & Rule**:\nThe Instruction Pointer (IP) holds the 16-bit offset of the next instruction within the Code Segment (CS). Physical address = (CS × 16) + IP.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "8086 माइक्रोप्रोसेसर आर्किटेक्चर में, कौन सा रजिस्टर कोड सेगमेंट से प्राप्त किए जाने वाले निर्देश का ऑफसेट पता रखता है?",
       "options_hi": {
-        "A": "स्टैक पॉइंटर (एसपी)",
-        "B": "निर्देश सूचक (आईपी)",
-        "C": "बेस पॉइंटर (बीपी)",
-        "D": "स्रोत सूचकांक (एसआई)"
+        "A": "11110000",
+        "B": "11101111",
+        "C": "11110010",
+        "D": "00010000"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Instruction Pointer (IP)?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Binary of +16 is 00010000. 1's complement is 11101111. Adding 1 gives 2's complement = 11110000.",
+      "explanation_hi": "+16 का बाइनरी 00010000 है। 1's पूरक = 11101111। 1 जोड़ने पर 2's पूरक = 11110000।"
     },
     {
       "id": 20,
       "questionNumber": 20,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In paging memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -22?",
+      "question_hi": "दशमलव संख्या -22 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "On the hard disk",
-        "B": "In main memory RAM",
-        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache",
-        "D": "In secondary optical storage"
+        "A": "11101010",
+        "B": "11101001",
+        "C": "11101100",
+        "D": "00010110"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "पेजिंग मेमोरी प्रबंधन में, ट्रांसलेशन लुकसाइड बफ़र (टीएलबी) कहाँ स्थित है?",
       "options_hi": {
-        "A": "हार्ड डिस्क पर",
-        "B": "मुख्य मेमोरी में RAM",
-        "C": "सीपीयू मेमोरी मैनेजमेंट यूनिट (एमएमयू) हार्डवेयर कैश के अंदर",
-        "D": "सेकेंडरी ऑप्टिकल स्टोरेज में"
+        "A": "11101010",
+        "B": "11101001",
+        "C": "11101100",
+        "D": "00010110"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Binary of +22 is 00010110. 1's complement is 11101001. Adding 1 gives 2's complement = 11101010.",
+      "explanation_hi": "+22 का बाइनरी 00010110 है। 1's पूरक = 11101001। 1 जोड़ने पर 2's पूरक = 11101010।"
     },
     {
       "id": 21,
       "questionNumber": 21,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In CSS, what is the default value of the 'position' property of HTML elements?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -27?",
+      "question_hi": "दशमलव संख्या -27 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "relative",
-        "B": "absolute",
-        "C": "static",
-        "D": "fixed"
+        "A": "11100101",
+        "B": "11100100",
+        "C": "11100111",
+        "D": "00011011"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) static**\n\n**Theoretical Analysis & Rule**:\nThe default value of 'position' is 'static'. Static elements flow naturally in the normal document flow and ignore top, right, bottom, and left properties.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "CSS में, is the default value of the 'position' property of HTML elements क्या है?",
       "options_hi": {
-        "A": "रिश्तेदार",
-        "B": "निरपेक्ष",
-        "C": "स्थिर",
-        "D": "तय"
+        "A": "11100101",
+        "B": "11100100",
+        "C": "11100111",
+        "D": "00011011"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) static?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Binary of +27 is 00011011. 1's complement is 11100100. Adding 1 gives 2's complement = 11100101.",
+      "explanation_hi": "+27 का बाइनरी 00011011 है। 1's पूरक = 11100100। 1 जोड़ने पर 2's पूरक = 11100101।"
     },
     {
       "id": 22,
       "questionNumber": 22,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following logic families exhibits the highest switching speed and lowest propagation delay?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -33?",
+      "question_hi": "दशमलव संख्या -33 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "TTL (Transistor-Transistor Logic)",
-        "B": "ECL (Emitter-Coupled Logic)",
-        "C": "CMOS",
-        "D": "NMOS"
+        "A": "11011111",
+        "B": "11011110",
+        "C": "11100001",
+        "D": "00100001"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) ECL (Emitter-Coupled Logic)**\n\n**Theoretical Analysis & Rule**:\nECL (Emitter-Coupled Logic) operates its transistors in the non-saturated active region rather than saturation, eliminating storage time delay and achieving propagation delays below 1 nanosecond (fastest among conventional families).",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "निम्नलिखित में से कौन सा तर्क परिवार उच्चतम स्विचिंग गति और सबसे कम प्रसार विलंब प्रदर्शित करता है?",
       "options_hi": {
-        "A": "टीटीएल (ट्रांजिस्टर-ट्रांजिस्टर लॉजिक)",
-        "B": "ईसीएल (एमिटर-युग्मित तर्क)",
-        "C": "सीएमओएस",
-        "D": "एनएमओएस"
+        "A": "11011111",
+        "B": "11011110",
+        "C": "11100001",
+        "D": "00100001"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) ECL (Emitter-Coupled Logic)?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Binary of +33 is 00100001. 1's complement is 11011110. Adding 1 gives 2's complement = 11011111.",
+      "explanation_hi": "+33 का बाइनरी 00100001 है। 1's पूरक = 11011110। 1 जोड़ने पर 2's पूरक = 11011111।"
     },
     {
       "id": 23,
       "questionNumber": 23,
       "section": "Computer Science",
-      "topic": "Algorithms",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which algorithm finds the shortest path between all pairs of vertices in a weighted graph in O(V³) time?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -38?",
+      "question_hi": "दशमलव संख्या -38 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "Dijkstra's Algorithm",
-        "B": "Bellman-Ford Algorithm",
-        "C": "Floyd-Warshall Algorithm",
-        "D": "Kruskal's Algorithm"
+        "A": "11011010",
+        "B": "11011001",
+        "C": "11011100",
+        "D": "00100110"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Floyd-Warshall Algorithm**\n\n**Theoretical Analysis & Rule**:\nThe Floyd-Warshall algorithm uses dynamic programming to compute the all-pairs shortest paths in a directed weighted graph with time complexity Θ(V³).",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-      "question_hi": "कौन सा एल्गोरिदम O(V³) समय में भारित ग्राफ़ में शीर्षों के सभी जोड़े के बीच सबसे छोटा रास्ता ढूंढता है?",
       "options_hi": {
-        "A": "डिज्क्स्ट्रा का एल्गोरिदम",
-        "B": "Bellman-Ford Algorithm",
-        "C": "Floyd-Warshall Algorithm",
-        "D": "क्रुस्कल का एल्गोरिदम"
+        "A": "11011010",
+        "B": "11011001",
+        "C": "11011100",
+        "D": "00100110"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Floyd-Warshall Algorithm?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Binary of +38 is 00100110. 1's complement is 11011001. Adding 1 gives 2's complement = 11011010.",
+      "explanation_hi": "+38 का बाइनरी 00100110 है। 1's पूरक = 11011001। 1 जोड़ने पर 2's पूरक = 11011010।"
     },
     {
       "id": 24,
       "questionNumber": 24,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which level of coupling is considered the MOST desirable (weakest/cleanest) in structured software design?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -44?",
+      "question_hi": "दशमलव संख्या -44 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "Content Coupling",
-        "B": "Common Coupling",
-        "C": "Control Coupling",
-        "D": "Data Coupling"
+        "A": "11010100",
+        "B": "11010011",
+        "C": "11010110",
+        "D": "00101100"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Data Coupling**\n\n**Theoretical Analysis & Rule**:\nGood software engineering strives for Low Coupling and High Cohesion. Data Coupling (modules share only simple data parameters) is the cleanest, least dependent coupling.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "संरचित सॉफ़्टवेयर डिज़ाइन में युग्मन के किस स्तर को सर्वाधिक वांछनीय (सबसे कमज़ोर/सबसे साफ़) माना जाता है?",
       "options_hi": {
-        "A": "सामग्री युग्मन",
-        "B": "सामान्य युग्मन",
-        "C": "युग्मन को नियंत्रित करें",
-        "D": "डेटा युग्मन"
+        "A": "11010100",
+        "B": "11010011",
+        "C": "11010110",
+        "D": "00101100"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Data Coupling?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Binary of +44 is 00101100. 1's complement is 11010011. Adding 1 gives 2's complement = 11010100.",
+      "explanation_hi": "+44 का बाइनरी 00101100 है। 1's पूरक = 11010011। 1 जोड़ने पर 2's पूरक = 11010100।"
     },
     {
       "id": 25,
       "questionNumber": 25,
       "section": "Computer Science",
-      "topic": "Multimedia",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Nyquist-Shannon sampling theorem, to accurately reconstruct an audio signal with frequencies up to 20 kHz, what is the minimum required sampling rate?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -51?",
+      "question_hi": "दशमलव संख्या -51 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "10 kHz",
-        "B": "20 kHz",
-        "C": "40 kHz",
-        "D": "80 kHz"
+        "A": "11001101",
+        "B": "11001100",
+        "C": "11001111",
+        "D": "00110011"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 40 kHz**\n\n**Theoretical Analysis & Rule**:\nNyquist rate = 2 × f_max. To capture frequencies up to 20,000 Hz, the sampling frequency must be at least 2 × 20 kHz = 40 kHz (Compact Discs use 44.1 kHz).",
-      "topic_hi": "मल्टीमीडिया तकनीक",
-      "question_hi": "नाइक्विस्ट-शैनन सैंपलिंग प्रमेय के अनुसार, 20 किलोहर्ट्ज़ तक की आवृत्तियों के साथ एक ऑडियो सिग्नल को सटीक रूप से पुनर्निर्माण करने के लिए, न्यूनतम आवश्यक सैंपलिंग दर क्या है?",
       "options_hi": {
-        "A": "10 किलोहर्ट्ज़",
-        "B": "20 किलोहर्ट्ज़",
-        "C": "40 किलोहर्ट्ज़",
-        "D": "80 किलोहर्ट्ज़"
+        "A": "11001101",
+        "B": "11001100",
+        "C": "11001111",
+        "D": "00110011"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 40 kHz?**\n\n**विषय अवधारणा (मल्टीमीडिया तकनीक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Binary of +51 is 00110011. 1's complement is 11001100. Adding 1 gives 2's complement = 11001101.",
+      "explanation_hi": "+51 का बाइनरी 00110011 है। 1's पूरक = 11001100। 1 जोड़ने पर 2's पूरक = 11001101।"
     },
     {
       "id": 26,
       "questionNumber": 26,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the time complexity to search for a key in a balanced AVL tree with n nodes?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -59?",
+      "question_hi": "दशमलव संख्या -59 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "O(1)",
-        "B": "O(log n)",
-        "C": "O(n)",
-        "D": "O(n log n)"
+        "A": "11000101",
+        "B": "11000100",
+        "C": "11000111",
+        "D": "00111011"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) O(log n)**\n\n**Theoretical Analysis & Rule**:\nAn AVL tree is strictly balanced with maximum height bounded by 1.44 log₂(n). Therefore, search, insertion, and deletion operations all take guaranteed O(log n) time.",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "n नोड्स वाले संतुलित AVL ट्री में कुंजी खोजने में समय की जटिलता क्या है?",
       "options_hi": {
-        "A": "हे(1)",
-        "B": "ओ(लॉग एन)",
-        "C": "पर)",
-        "D": "ओ(एन लॉग एन)"
+        "A": "11000101",
+        "B": "11000100",
+        "C": "11000111",
+        "D": "00111011"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) O(log n)?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Binary of +59 is 00111011. 1's complement is 11000100. Adding 1 gives 2's complement = 11000101.",
+      "explanation_hi": "+59 का बाइनरी 00111011 है। 1's पूरक = 11000100। 1 जोड़ने पर 2's पूरक = 11000101।"
     },
     {
       "id": 27,
       "questionNumber": 27,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the maximum theoretical throughput efficiency of Pure ALOHA?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -66?",
+      "question_hi": "दशमलव संख्या -66 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "18.4%",
-        "B": "36.8%",
-        "C": "50%",
-        "D": "100%"
+        "A": "10111110",
+        "B": "10111101",
+        "C": "11000000",
+        "D": "01000010"
+      },
+      "options_hi": {
+        "A": "10111110",
+        "B": "10111101",
+        "C": "11000000",
+        "D": "01000010"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 18.4%**\n\n**Theoretical Analysis & Rule**:\nPure ALOHA maximum efficiency = 1 / (2e) ≈ 18.4% (at G = 0.5). Slotted ALOHA doubles this efficiency to 1 / e ≈ 36.8% (at G = 1.0).",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "शुद्ध ALOHA की अधिकतम सैद्धांतिक थ्रूपुट दक्षता क्या है?",
-      "options_hi": {
-        "A": "18.4%",
-        "B": "36.8%",
-        "C": "50%",
-        "D": "100%"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 18.4%?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Binary of +66 is 01000010. 1's complement is 10111101. Adding 1 gives 2's complement = 10111110.",
+      "explanation_hi": "+66 का बाइनरी 01000010 है। 1's पूरक = 10111101। 1 जोड़ने पर 2's पूरक = 10111110।"
     },
     {
       "id": 28,
       "questionNumber": 28,
       "section": "Computer Science",
       "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
+      "question": "What is the 8-bit two's complement representation of decimal integer -72?",
+      "question_hi": "दशमलव संख्या -72 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "RESTful Web APIs and JSON",
-        "B": "Raw binary serial ports",
-        "C": "Assembly instructions",
-        "D": "Modem dial-ups"
+        "A": "10111000",
+        "B": "10110111",
+        "C": "10111010",
+        "D": "01001000"
+      },
+      "options_hi": {
+        "A": "10111000",
+        "B": "10110111",
+        "C": "10111010",
+        "D": "01001000"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "वेब ऑफ थिंग्स (डब्ल्यूओटी) में, स्मार्ट भौतिक उपकरणों को मुख्य रूप से मानक वेब प्रौद्योगिकियों का उपयोग करके प्रदर्शित और नियंत्रित किया जाता है:",
-      "options_hi": {
-        "A": "रेस्टफुल वेब एपीआई और JSON",
-        "B": "कच्चे बाइनरी सीरियल पोर्ट",
-        "C": "एकत्र करने के लिए निर्देश",
-        "D": "मॉडेम डायल-अप"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Binary of +72 is 01001000. 1's complement is 10110111. Adding 1 gives 2's complement = 10111000.",
+      "explanation_hi": "+72 का बाइनरी 01001000 है। 1's पूरक = 10110111। 1 जोड़ने पर 2's पूरक = 10111000।"
     },
     {
       "id": 29,
       "questionNumber": 29,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Booth's multiplication algorithm, what action is performed when the two least significant multiplier bits (Q0, Q-1) are '10'?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -81?",
+      "question_hi": "दशमलव संख्या -81 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "Add multiplicand to accumulator and shift",
-        "B": "Subtract multiplicand from accumulator and arithmetic shift right",
-        "C": "Arithmetic shift right only",
-        "D": "Rotate accumulator left"
+        "A": "10101111",
+        "B": "10101110",
+        "C": "10110001",
+        "D": "01010001"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Subtract multiplicand from accumulator and arithmetic shift right**\n\n**Theoretical Analysis & Rule**:\nIn Booth's algorithm: '00' or '11' -> Shift right only; '01' -> Add multiplicand and shift right; '10' -> Subtract multiplicand (add 2's complement) and shift right.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "Booth's multiplication algorithm में, action is performed when the two least significant multiplier bits (Q0, Q-1) are '10' क्या है?",
       "options_hi": {
-        "A": "संचायक में गुणक जोड़ें और शिफ्ट करें",
-        "B": "संचायक से गुणक घटाएं और अंकगणित को दाईं ओर शिफ्ट करें",
-        "C": "केवल अंकगणित सही बदलाव",
-        "D": "संचायक को बाएँ घुमाएँ"
+        "A": "10101111",
+        "B": "10101110",
+        "C": "10110001",
+        "D": "01010001"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Subtract multiplicand from accumulator and arithmetic shift right?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Binary of +81 is 01010001. 1's complement is 10101110. Adding 1 gives 2's complement = 10101111.",
+      "explanation_hi": "+81 का बाइनरी 01010001 है। 1's पूरक = 10101110। 1 जोड़ने पर 2's पूरक = 10101111।"
     },
     {
       "id": 30,
       "questionNumber": 30,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which Unix command is used to change the access permissions of a file?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -89?",
+      "question_hi": "दशमलव संख्या -89 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "chown",
-        "B": "chmod",
-        "C": "chgrp",
-        "D": "grep"
+        "A": "10100111",
+        "B": "10100110",
+        "C": "10101001",
+        "D": "01011001"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) chmod**\n\n**Theoretical Analysis & Rule**:\n'chmod' (change mode) modifies the read, write, and execute permissions of files/directories in Unix/Linux. ('chown' changes file owner).",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "किसी फ़ाइल की एक्सेस अनुमतियों को बदलने के लिए किस यूनिक्स कमांड का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "चाउन",
-        "B": "चामोद",
-        "C": "सीएचजीआरपी",
-        "D": "ग्रेप"
+        "A": "10100111",
+        "B": "10100110",
+        "C": "10101001",
+        "D": "01011001"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) chmod?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Binary of +89 is 01011001. 1's complement is 10100110. Adding 1 gives 2's complement = 10100111.",
+      "explanation_hi": "+89 का बाइनरी 01011001 है। 1's पूरक = 10100110। 1 जोड़ने पर 2's पूरक = 10100111।"
     },
     {
       "id": 31,
       "questionNumber": 31,
       "section": "Computer Science",
       "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In XML, an XML document that conforms strictly to its associated DTD or XML Schema is said to be:",
+      "question": "What is the 8-bit two's complement representation of decimal integer -96?",
+      "question_hi": "दशमलव संख्या -96 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "Well-Formed",
-        "B": "Valid",
-        "C": "Normalized",
-        "D": "Parsed"
+        "A": "10100000",
+        "B": "10011111",
+        "C": "10100010",
+        "D": "01100000"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Valid**\n\n**Theoretical Analysis & Rule**:\nAn XML document with correct syntax is 'Well-Formed'. If it additionally conforms to the rules, elements, and attributes specified in its DTD or Schema, it is 'Valid'.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "XML में, एक XML दस्तावेज़ जो अपने संबंधित DTD या XML स्कीमा के अनुरूप होता है, उसे कहा जाता है:",
       "options_hi": {
-        "A": "सुडौल",
-        "B": "वैध",
-        "C": "सामान्यीकृत",
-        "D": "Parsed"
+        "A": "10100000",
+        "B": "10011111",
+        "C": "10100010",
+        "D": "01100000"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Valid?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Binary of +96 is 01100000. 1's complement is 10011111. Adding 1 gives 2's complement = 10100000.",
+      "explanation_hi": "+96 का बाइनरी 01100000 है। 1's पूरक = 10011111। 1 जोड़ने पर 2's पूरक = 10100000।"
     },
     {
       "id": 32,
       "questionNumber": 32,
       "section": "Computer Science",
       "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the canonical representation form that expresses a Boolean function as a product of sum terms called?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -102?",
+      "question_hi": "दशमलव संख्या -102 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "Minterm form",
-        "B": "Maxterm / POS form",
-        "C": "Dual form",
-        "D": "Disjunctive Normal Form"
+        "A": "10011010",
+        "B": "10011001",
+        "C": "10011100",
+        "D": "01100110"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Maxterm / POS form**\n\n**Theoretical Analysis & Rule**:\nProduct of Sums (POS) expresses a logic function as the AND combination (product) of OR terms (sums/maxterms), denoted by ΠM.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the canonical representation form that expresses a Boolean function as a product of sum terms called के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "मिन्टर्म फॉर्म",
-        "B": "Maxterm / POS form",
-        "C": "दोहरा रूप",
-        "D": "विच्छेदनात्मक सामान्य रूप"
+        "A": "10011010",
+        "B": "10011001",
+        "C": "10011100",
+        "D": "01100110"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Maxterm / POS form?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Binary of +102 is 01100110. 1's complement is 10011001. Adding 1 gives 2's complement = 10011010.",
+      "explanation_hi": "+102 का बाइनरी 01100110 है। 1's पूरक = 10011001। 1 जोड़ने पर 2's पूरक = 10011010।"
     },
     {
       "id": 33,
       "questionNumber": 33,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following problems is known to be NP-Complete?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -109?",
+      "question_hi": "दशमलव संख्या -109 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "Shortest Path in Directed Acyclic Graph",
-        "B": "Minimum Spanning Tree",
-        "C": "Traveling Salesperson Decision Problem",
-        "D": "Breadth First Search"
+        "A": "10010011",
+        "B": "10010010",
+        "C": "10010101",
+        "D": "01101101"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Traveling Salesperson Decision Problem**\n\n**Theoretical Analysis & Rule**:\nThe Traveling Salesperson decision problem (TSP), Boolean Satisfiability (SAT), and Vertex Cover are classic NP-Complete problems.",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "निम्नलिखित में से कौन सी समस्या एनपी-कम्प्लीट के रूप में जानी जाती है?",
       "options_hi": {
-        "A": "निर्देशित चक्रीय ग्राफ़ में सबसे छोटा पथ",
-        "B": "न्यूनतम स्पैनिंग ट्री (MST)",
-        "C": "यात्रा विक्रेता निर्णय समस्या",
-        "D": "चौड़ाई-प्रथम खोज (BFS)"
+        "A": "10010011",
+        "B": "10010010",
+        "C": "10010101",
+        "D": "01101101"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Traveling Salesperson Decision Problem?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Binary of +109 is 01101101. 1's complement is 10010010. Adding 1 gives 2's complement = 10010011.",
+      "explanation_hi": "+109 का बाइनरी 01101101 है। 1's पूरक = 10010010। 1 जोड़ने पर 2's पूरक = 10010011।"
     },
     {
       "id": 34,
       "questionNumber": 34,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In C++, which keyword is used to resolve the 'Diamond Problem' of duplicate base class instances in multiple inheritance?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -114?",
+      "question_hi": "दशमलव संख्या -114 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "abstract",
-        "B": "friend",
-        "C": "virtual",
-        "D": "static"
+        "A": "10001110",
+        "B": "10001101",
+        "C": "10010000",
+        "D": "01110010"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) virtual**\n\n**Theoretical Analysis & Rule**:\nDeclaring the intermediate base classes with 'virtual' inheritance (e.g., class B : virtual public A) ensures only one shared instance of class A is included in derived class D.",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "C++ में, मल्टीपल इनहेरिटेंस में डुप्लिकेट बेस क्लास इंस्टेंसेस की 'डायमंड प्रॉब्लम' को हल करने के लिए किस कीवर्ड का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "अमूर्त",
-        "B": "दोस्त",
-        "C": "आभासी",
-        "D": "स्थिर"
+        "A": "10001110",
+        "B": "10001101",
+        "C": "10010000",
+        "D": "01110010"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) virtual?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Binary of +114 is 01110010. 1's complement is 10001101. Adding 1 gives 2's complement = 10001110.",
+      "explanation_hi": "+114 का बाइनरी 01110010 है। 1's पूरक = 10001101। 1 जोड़ने पर 2's पूरक = 10001110।"
     },
     {
       "id": 35,
       "questionNumber": 35,
       "section": "Computer Science",
       "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the simplified expression for the Boolean function F(A, B, C) = Σm(1, 3, 5, 7) using Boolean algebra or K-Map?",
+      "question": "What is the 8-bit two's complement representation of decimal integer -120?",
+      "question_hi": "दशमलव संख्या -120 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
       "options": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "A'B'"
+        "A": "10001000",
+        "B": "10000111",
+        "C": "10001010",
+        "D": "01111000"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) C**\n\n**Theoretical Analysis & Rule**:\nMinterms 1 (001), 3 (011), 5 (101), 7 (111) group into a 4-cell quad in a 3-variable K-Map. In these terms, A and B both vary (0 and 1), while C is constant at 1. Hence, the minimized SOP term is C.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "बूलियन बीजगणित या K-मैप का उपयोग करके बूलियन फ़ंक्शन F(A, B, C) = Σm(1, 3, 5, 7) के लिए सरलीकृत अभिव्यक्ति क्या है?",
       "options_hi": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "ए'बी'"
+        "A": "10001000",
+        "B": "10000111",
+        "C": "10001010",
+        "D": "01111000"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) C?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Binary of +120 is 01111000. 1's complement is 10000111. Adding 1 gives 2's complement = 10001000.",
+      "explanation_hi": "+120 का बाइनरी 01111000 है। 1's पूरक = 10000111। 1 जोड़ने पर 2's पूरक = 10001000।"
     },
     {
       "id": 36,
       "questionNumber": 36,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the number of edges in a tree with n vertices?",
+      "question": "In 5NF (Fifth Normal Form / Project-Join Normal Form - PJNF), what dependency is resolved?",
+      "question_hi": "5NF (पंचम सामान्य रूप / प्रोजेक्ट-जॉइन सामान्य रूप) में किस निर्भरता का समाधान किया जाता है?",
       "options": {
-        "A": "n",
-        "B": "n - 1",
-        "C": "n + 1",
-        "D": "2n - 1"
+        "A": "Join Dependency (JD)",
+        "B": "Multivalued Dependency",
+        "C": "Partial Dependency",
+        "D": "Transitive Dependency"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "n शीर्षों वाले पेड़ में किनारों की संख्या कितनी होती है?",
       "options_hi": {
-        "A": "n",
-        "B": "एन - 1",
-        "C": "एन + 1",
-        "D": "2एन - 1"
+        "A": "जॉइन निर्भरता (Join Dependency)",
+        "B": "बहु-मान निर्भरता",
+        "C": "आंशिक निर्भरता",
+        "D": "संक्रामक निर्भरता"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "5NF ensures that every join dependency in relation R is implied by the candidate keys of R.",
+      "explanation_hi": "5NF जॉइन निर्भरता (Join Dependency) को हल करता है।"
     },
     {
       "id": 37,
       "questionNumber": 37,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which layer of the OSI reference model performs data encryption, decryption, compression, and character encoding conversions?",
+      "question": "What is a 'Clustered Index' in database storage?",
+      "question_hi": "डेटाबेस स्टोरेज में 'क्लस्टर्ड इंडेक्स' (Clustered Index) क्या है?",
       "options": {
-        "A": "Application Layer",
-        "B": "Presentation Layer",
-        "C": "Session Layer",
-        "D": "Data Link Layer"
+        "A": "An index where the physical order of data rows on disk strictly matches the index search key order (at most one per table)",
+        "B": "An index created on non-key columns",
+        "C": "A hash index stored in RAM",
+        "D": "An index with multiple root nodes"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Presentation Layer**\n\n**Theoretical Analysis & Rule**:\nThe Presentation Layer (Layer 6) formats and translates data syntax and semantics, handling encryption/decryption (SSL/TLS) and compression.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "OSI संदर्भ मॉडल की कौन सी परत डेटा एन्क्रिप्शन, डिक्रिप्शन, संपीड़न और कैरेक्टर एन्कोडिंग रूपांतरण करती है?",
       "options_hi": {
-        "A": "अनुप्रयोग परत (Application Layer)",
-        "B": "प्रस्तुति परत (Presentation Layer)",
-        "C": "सत्र परत (Session Layer)",
-        "D": "डेटा लिंक परत"
+        "A": "एक इंडेक्स जहां डिस्क पर डेटा पंक्तियों का भौतिक क्रम इंडेक्स कुंजी के क्रम से मेल खाता है (प्रति टेबल अधिकतम एक)",
+        "B": "गैर-कुंजी इंडेक्स",
+        "C": "रैम इंडेक्स",
+        "D": "मल्टी-रूट इंडेक्स"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Presentation Layer?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Because data rows can be physically sorted in only one way, a table can have at most ONE clustered index.",
+      "explanation_hi": "क्लस्टर्ड इंडेक्स टेबल के भौतिक डेटा को ही उसी क्रम में छांटता है, अतः प्रति टेबल केवल 1 हो सकता है।"
     },
     {
       "id": 38,
       "questionNumber": 38,
       "section": "Computer Science",
-      "topic": "Algorithms",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which type of search algorithm always expands the lowest cost leaf node first where cost is f(n) = g(n) + h(n)?",
+      "question": "What is a 'Non-Clustered (Secondary) Index'?",
+      "question_hi": "'नॉन-क्लस्टर्ड (द्वितीयक) इंडेक्स' क्या है?",
       "options": {
-        "A": "Greedy Best-First Search",
-        "B": "A* Search",
-        "C": "Depth First Search",
-        "D": "Breadth First Search"
+        "A": "An index structure whose logical order does not alter the physical storage order of table rows on disk; pointers refer to data locations",
+        "B": "An index that overwrites table data",
+        "C": "A table with no primary key",
+        "D": "A database view"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) A* Search**\n\n**Theoretical Analysis & Rule**:\nA* search evaluates nodes by combining g(n) (cost from start to current node) and h(n) (estimated heuristic cost from current node to goal).",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-      "question_hi": "किस प्रकार का खोज एल्गोरिदम हमेशा सबसे कम लागत वाले लीफ नोड को पहले विस्तारित करता है जहां लागत f(n) = g(n) + h(n) है?",
       "options_hi": {
-        "A": "लालची सर्वोत्तम-प्रथम खोज",
-        "B": "ए* खोजें",
-        "C": "गहराई-प्रथम खोज (DFS)",
-        "D": "चौड़ाई-प्रथम खोज (BFS)"
+        "A": "एक इंडेक्स संरचना जिसका क्रम डिस्क पर पंक्तियों के भौतिक क्रम को नहीं बदलता; इसमें डेटा स्थानों के पॉइंटर्स होते हैं",
+        "B": "डेटा मिटाने वाला इंडेक्स",
+        "C": "प्राइमरी की रहित",
+        "D": "व्यू"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) A* Search?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Non-clustered indexes contain search keys and row pointers (RID or clustered key), allowing multiple secondary indexes per table.",
+      "explanation_hi": "नॉन-क्लस्टर्ड इंडेक्स अलग पेड़ संरचना में पॉइंटर्स रखता है, एक टेबल में कई नॉन-क्लस्टर्ड इंडेक्स हो सकते हैं।"
     },
     {
       "id": 39,
       "questionNumber": 39,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Excess-3 code representation of the decimal digit 7?",
+      "question": "What is the 'Dirty Read' anomaly in database transaction concurrency?",
+      "question_hi": "डेटाबेस लेन-देन समवर्तीता में 'डर्टी रीड' (Dirty Read) विसंगति क्या है?",
       "options": {
-        "A": "0111",
-        "B": "1010",
-        "C": "1001",
-        "D": "0100"
+        "A": "A transaction reads uncommitted data written by another concurrent transaction that later aborts and rolls back",
+        "B": "A transaction modifies a read lock",
+        "C": "A database crash during backup",
+        "D": "A duplicate row insertion"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) 1010**\n\n**Theoretical Analysis & Rule**:\nExcess-3 code is obtained by adding 3 (0011) to the decimal value: 7 + 3 = 10, which in 4-bit binary is 1010.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "दशमलव अंक 7 का अतिरिक्त-3 कोड प्रतिनिधित्व क्या है?",
       "options_hi": {
-        "A": "0111",
-        "B": "1010",
-        "C": "1001",
-        "D": "0100"
+        "A": "एक लेन-देन दूसरे समवर्ती लेन-देन द्वारा लिखे गए अप्रतिबद्ध (Uncommitted) डेटा को पढ़ लेता है जो बाद में रोलबैक हो जाता है",
+        "B": "लॉक बदलना",
+        "C": "क्रैश",
+        "D": "डुप्लिकेट रो"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 1010?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Dirty read occurs at Read Uncommitted isolation level when transaction T1 reads modifications by T2 before T2 commits.",
+      "explanation_hi": "डर्टी रीड तब होता है जब एक ट्रांजैक्शन किसी अन्य ट्रांजैक्शन का अधूरा डेटा पढ़ लेता है जो बाद में रद्द हो जाता है।"
     },
     {
       "id": 40,
       "questionNumber": 40,
       "section": "Computer Science",
       "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which SQL command belongs to the Data Control Language (DCL) category?",
+      "question": "What is the 'Non-Repeatable Read' anomaly?",
+      "question_hi": "'नॉन-रिपीटेबल रीड' (Non-Repeatable Read) विसंगति क्या है?",
       "options": {
-        "A": "SELECT",
-        "B": "GRANT",
-        "C": "ALTER",
-        "D": "UPDATE"
+        "A": "A transaction reads a row twice and finds different data values because another transaction modified and committed that row in between",
+        "B": "Reading from an empty table",
+        "C": "Reading corrupted disk sectors",
+        "D": "A transaction that cannot be executed twice"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) GRANT**\n\n**Theoretical Analysis & Rule**:\nDCL commands control privileges and access in the database. GRANT (gives user access) and REVOKE (withdraws access) are the primary DCL commands.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "Which SQL command belongs to the डेटा नियंत्रण भाषा (DCL) (DCL) category?",
       "options_hi": {
-        "A": "चुनना",
-        "B": "अनुदान",
-        "C": "ALTER",
-        "D": "UPDATE"
+        "A": "एक लेन-देन एक पंक्ति को दो बार पढ़ता है और अलग मान पाता है क्योंकि बीच में दूसरे लेन-देन ने उसे संशोधित करके कमिट कर दिया",
+        "B": "खाली टेबल पढ़ना",
+        "C": "खराब सेक्टर",
+        "D": "दोबारा न चलना"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) GRANT?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Non-repeatable read occurs when row-level updates occur between successive reads in the same transaction; prevented by Repeatable Read isolation.",
+      "explanation_hi": "जब एक ही ट्रांजैक्शन में दोबारा पढ़ने पर डेटा बदल चुका होता है, तो इसे नॉन-रिपीटेबल रीड कहते हैं।"
     },
     {
       "id": 41,
       "questionNumber": 41,
       "section": "Computer Science",
-      "topic": "Theory of Computation",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Arden's Theorem states that if P and Q are regular expressions over Σ and P does not contain ε, then the equation R = Q + RP has a unique solution given by:",
+      "question": "In relational database design case 1, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 1 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "R = Q*P",
-        "B": "R = QP*",
-        "C": "R = P*Q*",
-        "D": "R = Q+P*"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) R = QP***\n\n**Theoretical Analysis & Rule**:\nArden's Theorem specifies: R = Q + RP has the unique solution R = QP*.",
-      "topic_hi": "गणना का सिद्धांत (TOC)",
-      "question_hi": "आर्डेन के प्रमेय में कहा गया है कि यदि P और Q Σ पर नियमित अभिव्यक्ति हैं और P में ε नहीं है, तो समीकरण R = Q + RP का एक अद्वितीय समाधान है:",
       "options_hi": {
-        "A": "आर = क्यू*पी",
-        "B": "आर = क्यूपी*",
-        "C": "आर = पी*क्यू*",
-        "D": "आर = क्यू+पी*"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) R = QP*?**\n\n**विषय अवधारणा (गणना का सिद्धांत (TOC))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 1 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 42,
       "questionNumber": 42,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the maximum addressable memory capacity of a CPU with a 32-bit address bus and byte-addressable architecture?",
+      "question": "In relational database design case 2, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 2 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "1 GB",
-        "B": "2 GB",
-        "C": "4 GB",
-        "D": "8 GB"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 4 GB**\n\n**Theoretical Analysis & Rule**:\nA 32-bit address bus can generate 2³² unique addresses. With byte addressability (1 byte per address), total addressable space = 2³² bytes = 4,294,967,296 bytes = 4 GB.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "32-बिट एड्रेस बस और बाइट-एड्रेसेबल आर्किटेक्चर वाले सीपीयू की अधिकतम एड्रेसेबल मेमोरी क्षमता क्या है?",
       "options_hi": {
-        "A": "1 जीबी",
-        "B": "2 जीबी",
-        "C": "4 जीबी",
-        "D": "8 जीबी"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 4 GB?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 2 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 43,
       "questionNumber": 43,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Banker's Algorithm is used in operating systems for:",
+      "question": "In relational database design case 3, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 3 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "Deadlock Prevention",
-        "B": "Deadlock Avoidance",
-        "C": "Deadlock Recovery",
-        "D": "Mutual Exclusion"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Deadlock Avoidance**\n\n**Theoretical Analysis & Rule**:\nDijkstra's Banker's Algorithm dynamically tests resource allocation requests to ensure the system will always remain in a 'Safe State', avoiding deadlocks.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "Banker's Algorithm is used ऑपरेटिंग सिस्टम मेंs for:?",
       "options_hi": {
-        "A": "डेडलॉक रोकथाम",
-        "B": "गतिरोध से बचाव",
-        "C": "गतिरोध पुनर्प्राप्ति",
-        "D": "पारस्परिक बहिष्कार"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) डेडलॉक (Deadlock) Avoidance?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 3 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 44,
       "questionNumber": 44,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following members cannot be inherited by a derived class in C++?",
+      "question": "In relational database design case 4, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 4 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "Protected variables",
-        "B": "Public methods",
-        "C": "Constructors and Destructors",
-        "D": "Virtual functions"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "निम्नलिखित में से कौन सा सदस्य C++ में व्युत्पन्न वर्ग द्वारा विरासत में नहीं लिया जा सकता है?",
       "options_hi": {
-        "A": "संरक्षित चर",
-        "B": "सार्वजनिक तरीके",
-        "C": "निर्माता और विध्वंसक",
-        "D": "आभासी कार्य"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 4 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 45,
       "questionNumber": 45,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a J-K flip flop, what condition produces the 'Toggle' output mode?",
+      "question": "In relational database design case 5, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 5 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "J = 0, K = 0",
-        "B": "J = 0, K = 1",
-        "C": "J = 1, K = 0",
-        "D": "J = 1, K = 1"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) J = 1, K = 1**\n\n**Theoretical Analysis & Rule**:\nIn a JK flip-flop: When J=0, K=0 -> No change (Memory); J=0, K=1 -> Reset (Q=0); J=1, K=0 -> Set (Q=1); J=1, K=1 -> Toggle (Q(t+1) = Q'(t)).",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "जे-के फ्लिप फ्लॉप में, कौन सी स्थिति 'टॉगल' आउटपुट मोड उत्पन्न करती है?",
       "options_hi": {
-        "A": "जे = 0, के = 0",
-        "B": "जे = 0, के = 1",
-        "C": "जे = 1, के = 0",
-        "D": "जे = 1, के = 1"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) J = 1, K = 1?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 5 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 46,
       "questionNumber": 46,
       "section": "Computer Science",
-      "topic": "Algorithms",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the solution of the recurrence relation T(n) = 2T(n/2) + n by Master Theorem?",
+      "question": "In relational database design case 6, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 6 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "Θ(n)",
-        "B": "Θ(n log n)",
-        "C": "Θ(n²)",
-        "D": "Θ(log n)"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Θ(n log n)**\n\n**Theoretical Analysis & Rule**:\nFor T(n) = aT(n/b) + f(n): a = 2, b = 2, f(n) = n. Here n^(log_b(a)) = n^(log₂2) = n¹. Since f(n) = Θ(n^(log_b(a))), Case 2 of Master Theorem applies: T(n) = Θ(n log n) (Merge Sort recurrence).",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-      "question_hi": "मास्टर प्रमेय द्वारा पुनरावृत्ति संबंध T(n) = 2T(n/2) + n का समाधान क्या है?",
       "options_hi": {
-        "A": "Θ(एन)",
-        "B": "Θ(एन लॉग एन)",
-        "C": "Θ(n²)",
-        "D": "Θ(लॉग एन)"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Θ(n log n)?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 6 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 47,
       "questionNumber": 47,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In software metrics, what does 'Function Point' (FP) primarily measure?",
+      "question": "In relational database design case 7, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 7 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "The physical lines of code compiled",
-        "B": "The functional size and complexity of software from the user's perspective",
-        "C": "The execution speed of the program in nanoseconds",
-        "D": "The salary costs of programmers"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) The functional size and complexity of software from the user's perspective**\n\n**Theoretical Analysis & Rule**:\nAlbrecht's Function Point (FP) metric quantifies software functionality based on 5 components: External Inputs, External Outputs, External Inquiries, Internal Logical Files, and External Interface Files.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "सॉफ़्टवेयर मेट्रिक्स में, 'फ़ंक्शन पॉइंट' (एफपी) मुख्य रूप से क्या मापता है?",
       "options_hi": {
-        "A": "कोड की भौतिक पंक्तियाँ संकलित",
-        "B": "उपयोगकर्ता के दृष्टिकोण से सॉफ़्टवेयर का कार्यात्मक आकार और जटिलता",
-        "C": "प्रोग्राम की निष्पादन गति नैनोसेकंड में",
-        "D": "प्रोग्रामर की वेतन लागत"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) The functional size and complexity of software from the user's perspective?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 7 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 48,
       "questionNumber": 48,
       "section": "Computer Science",
       "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "The electronic document interchange standard developed by ANSI for business transactions is called:",
+      "question": "In relational database design case 8, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 8 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "ANSI X12",
-        "B": "ISO 9001",
-        "C": "IEEE 802.3",
-        "D": "RFC 2822"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
+      },
+      "options_hi": {
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) ANSI X12**\n\n**Theoretical Analysis & Rule**:\nANSI ASC X12 is the official American National Standards Institute standard for Electronic Data Interchange (EDI) used across retail, finance, and transport.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "व्यावसायिक लेनदेन के लिए ANSI द्वारा विकसित इलेक्ट्रॉनिक दस्तावेज़ इंटरचेंज मानक को कहा जाता है:",
-      "options_hi": {
-        "A": "एएनएसआई एक्स12",
-        "B": "ISO 9001",
-        "C": "आईईईई 802.3",
-        "D": "आरएफसी 2822"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) ANSI X12?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 8 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 49,
       "questionNumber": 49,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the equivalent postfix expression for the infix expression: A + B * C - D / E?",
+      "question": "In relational database design case 9, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 9 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "A B C * + D E / -",
-        "B": "A B + C * D - E /",
-        "C": "A B C * D E / - +",
-        "D": "+ A * B C - / D E"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
+      },
+      "options_hi": {
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) A B C * + D E / -**\n\n**Theoretical Analysis & Rule**:\nOperator precedence: * and / have higher precedence than + and -. 1. (B * C) -> B C *; 2. A + (B C *) -> A B C * +; 3. (D / E) -> D E /; 4. (A B C * +) - (D E /) -> A B C * + D E / -.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "इनफ़िक्स अभिव्यक्ति के लिए समकक्ष पोस्टफ़िक्स अभिव्यक्ति क्या है: ए + बी * सी - डी / ई?",
-      "options_hi": {
-        "A": "ए बी सी * + डी ई / -",
-        "B": "ए बी + सी * डी - ई /",
-        "C": "ए बी सी * डी ई / - +",
-        "D": "+ ए * बी सी - / डी ई"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) A B C * + D E / -?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 9 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 50,
       "questionNumber": 50,
       "section": "Computer Science",
       "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary purpose of the Foreign Key in a relational table?",
+      "question": "In relational database design case 10, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 10 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "To ensure unique values in the current table",
-        "B": "To establish referential integrity between two related tables",
-        "C": "To prevent NULL values in a column",
-        "D": "To speed up query sort orders"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) To establish referential integrity between two related tables**\n\n**Theoretical Analysis & Rule**:\nA Foreign Key points to the Primary Key of another table, ensuring Referential Integrity by restricting insertions or deletions that would create orphan records.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "संबंधपरक तालिका में विदेशी कुंजी का प्राथमिक उद्देश्य क्या है?",
       "options_hi": {
-        "A": "वर्तमान तालिका में अद्वितीय मान सुनिश्चित करने के लिए",
-        "B": "दो संबंधित तालिकाओं के बीच संदर्भात्मक अखंडता स्थापित करना",
-        "C": "किसी कॉलम में NULL मानों को रोकने के लिए",
-        "D": "क्वेरी सॉर्ट ऑर्डर को तेज़ करने के लिए"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) To establish referential integrity between two related tables?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 10 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 51,
       "questionNumber": 51,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which lightweight application-layer publish/subscribe messaging protocol is widely used in IoT over TCP?",
+      "question": "In relational database design case 11, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 11 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "HTTP",
-        "B": "MQTT",
-        "C": "FTP",
-        "D": "SNMP"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) MQTT**\n\n**Theoretical Analysis & Rule**:\nMQTT (Message Queuing Telemetry Transport) is an extremely lightweight publish/subscribe network protocol designed for constrained IoT devices and low-bandwidth networks.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "कौन सा हल्का एप्लिकेशन-लेयर पब्लिश/सब्सक्राइब मैसेजिंग प्रोटोकॉल टीसीपी पर आईओटी में व्यापक रूप से उपयोग किया जाता है?",
       "options_hi": {
-        "A": "HTTP",
-        "B": "एमक्यूटीटी",
-        "C": "FTP",
-        "D": "एसएनएमपी"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) MQTT?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 11 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 52,
       "questionNumber": 52,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+      "question": "In relational database design case 12, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 12 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "Direct Mapping",
-        "B": "Fully Associative Mapping",
-        "C": "Set-Associative Mapping",
-        "D": "Sector Mapping"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "कौन सी कैश मैपिंग तकनीक मुख्य मेमोरी ब्लॉक को किसी भी उपलब्ध कैश ब्लॉक लाइन में लोड करने की अनुमति देती है?",
       "options_hi": {
-        "A": "प्रत्यक्ष मानचित्रण",
-        "B": "पूरी तरह से सहयोगी मानचित्रण",
-        "C": "सेट-एसोसिएटिव मैपिंग",
-        "D": "सेक्टर मैपिंग"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 12 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 53,
       "questionNumber": 53,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the phenomenon where adding more page frames to a process increases the number of page faults called?",
+      "question": "In relational database design case 13, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 13 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "Thrashing",
-        "B": "Belady's Anomaly",
-        "C": "Fragmentation",
-        "D": "Starvation"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Belady's Anomaly**\n\n**Theoretical Analysis & Rule**:\nBelady's Anomaly occurs primarily in FIFO page replacement, where increasing the number of allocated physical frames leads to an increased number of page faults for certain reference strings.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "What is the phenomenon where adding more page frames to a process बढ़ता है (Increases) the number of पेज फॉल्ट (Page Fault)s called?",
       "options_hi": {
-        "A": "थ्रैशिंग (Thrashing)",
-        "B": "बेलाडी की विसंगति",
-        "C": "विखंडन",
-        "D": "भुखमरी"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Belady's Anomaly?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 13 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 54,
       "questionNumber": 54,
       "section": "Computer Science",
       "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which PHP function is used to establish a connection to a MySQL database?",
+      "question": "In relational database design case 14, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 14 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "mysql_open()",
-        "B": "mysqli_connect()",
-        "C": "db_connect()",
-        "D": "sql_link()"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) mysqli_connect()**\n\n**Theoretical Analysis & Rule**:\nmysqli_connect(host, user, password, dbname) is standard PHP function used to open a connection to a MySQL database server.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "MySQL डेटाबेस से कनेक्शन स्थापित करने के लिए किस PHP फ़ंक्शन का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "mysql_open()",
-        "B": "mysqli_connect()",
-        "C": "db_कनेक्ट()",
-        "D": "sql_link()"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) mysqli_connect()?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 14 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 55,
       "questionNumber": 55,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "An 8-bit digital-to-analog converter (DAC) has a reference voltage of 5V. What is the approximate resolution (step size)?",
+      "question": "In relational database design case 15, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 15 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "19.5 mV",
-        "B": "39.1 mV",
-        "C": "9.8 mV",
-        "D": "62.5 mV"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
+      },
+      "options_hi": {
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 19.5 mV**\n\n**Theoretical Analysis & Rule**:\nResolution = V_ref / (2ⁿ - 1) = 5V / (2⁸ - 1) = 5V / 255 ≈ 19.6 mV (or 5V / 256 ≈ 19.53 mV).",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "8-बिट डिजिटल-टू-एनालॉग कनवर्टर (डीएसी) का संदर्भ वोल्टेज 5V है। अनुमानित रिज़ॉल्यूशन (चरण आकार) क्या है?",
-      "options_hi": {
-        "A": "19.5 एमवी",
-        "B": "39.1 एमवी",
-        "C": "9.8 एमवी",
-        "D": "62.5 एमवी"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 19.5 mV?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 15 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 56,
       "questionNumber": 56,
       "section": "Computer Science",
-      "topic": "Algorithms",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What algorithmic paradigm is employed in solving the 8-Queens problem?",
+      "question": "In relational database design case 16, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 16 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "Greedy Method",
-        "B": "Backtracking",
-        "C": "Dynamic Programming",
-        "D": "Divide and Conquer"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Backtracking**\n\n**Theoretical Analysis & Rule**:\nThe 8-Queens problem is solved using Backtracking: placing queens row by row and abandoning (backtracking from) non-viable partial solutions whenever a conflict arises.",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-      "question_hi": "8-क्वींस समस्या को हल करने में कौन सा एल्गोरिथम प्रतिमान कार्यरत है?",
       "options_hi": {
-        "A": "लालची तरीका",
-        "B": "बैक ट्रैकिंग",
-        "C": "डायनामिक प्रोग्रामिंग",
-        "D": "फूट डालो और राज करो"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Backtracking?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 16 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 57,
       "questionNumber": 57,
       "section": "Computer Science",
-      "topic": "Software Engineering",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What type of testing tests whether recent code changes have caused unintended side effects in existing functionality?",
+      "question": "In relational database design case 17, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 17 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "Unit Testing",
-        "B": "Regression Testing",
-        "C": "Alpha Testing",
-        "D": "Stress Testing"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Regression Testing**\n\n**Theoretical Analysis & Rule**:\nRegression testing reruns existing test suites after bug fixes or modifications to confirm that unchanged features continue to function properly.",
-      "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What type of testing tests whether recent code changes have caused unintended side effects in existing functionality के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "इकाई परीक्षण",
-        "B": "Regression Testing",
-        "C": "अल्फ़ा परीक्षण",
-        "D": "तनाव परीक्षण"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Regression Testing?**\n\n**विषय अवधारणा (सॉफ्टवेयर इंजीनियरिंग)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 17 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 58,
       "questionNumber": 58,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which image compression standard utilizes Discrete Cosine Transform (DCT) and is lossy for digital photography?",
+      "question": "In relational database design case 18, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 18 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "PNG",
-        "B": "JPEG",
-        "C": "BMP",
-        "D": "SVG"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) JPEG**\n\n**Theoretical Analysis & Rule**:\nJPEG (Joint Photographic Experts Group) uses Discrete Cosine Transform (DCT) lossy compression to discard high-frequency color variations less noticeable to the human eye.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "कौन सा छवि संपीड़न मानक डिस्क्रीट कोसाइन ट्रांसफॉर्म (डीसीटी) का उपयोग करता है और डिजिटल फोटोग्राफी के लिए हानिकारक है?",
       "options_hi": {
-        "A": "PNG",
-        "B": "जेपीईजी",
-        "C": "BMP",
-        "D": "SVG"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) JPEG?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 18 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 59,
       "questionNumber": 59,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which data structure is fundamentally used for the Breadth-First Search (BFS) graph traversal algorithm?",
+      "question": "In relational database design case 19, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 19 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "Stack",
-        "B": "Queue",
-        "C": "Priority Queue",
-        "D": "Binary Tree"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Queue**\n\n**Theoretical Analysis & Rule**:\nBFS visits vertices in order of their distance from the source level-by-level (FIFO), which is implemented using a Queue. (DFS uses a Stack).",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "ब्रेडथ-फर्स्ट सर्च (बीएफएस) ग्राफ ट्रैवर्सल एल्गोरिदम के लिए मूल रूप से कौन सी डेटा संरचना का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "स्टैक (Stack)",
-        "B": "कतार (Queue)",
-        "C": "प्राथमिकता कतार",
-        "D": "बाइनरी ट्री"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) क्यू (Queue)?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 19 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 60,
       "questionNumber": 60,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the CIDR prefix for a subnet with a subnet mask of 255.255.255.192?",
+      "question": "In relational database design case 20, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 20 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "/24",
-        "B": "/25",
-        "C": "/26",
-        "D": "/27"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "255.255.255.192 के सबनेट मास्क वाले सबनेट के लिए सीआईडीआर उपसर्ग क्या है?",
       "options_hi": {
-        "A": "/24",
-        "B": "/25",
-        "C": "/26",
-        "D": "/27"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 20 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 61,
       "questionNumber": 61,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In First-Order Predicate Logic, which inference rule derives C from premises (A ∨ B) and (¬A ∨ C)?",
+      "question": "In relational database design case 21, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 21 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "Modus Ponens",
-        "B": "Resolution",
-        "C": "Universal Instantiation",
-        "D": "Unification"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Resolution**\n\n**Theoretical Analysis & Rule**:\nResolution refutation states: (A ∨ B) and (¬A ∨ C) yields the resolvent (B ∨ C). If B is false, it yields C.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "प्रथम-क्रम विधेय तर्क में, कौन सा अनुमान नियम C को परिसर (A ∨ B) और (¬A ∨ C) से प्राप्त करता है?",
       "options_hi": {
-        "A": "मोडस पोनेन्स",
-        "B": "संकल्प",
-        "C": "सार्वभौमिक तात्कालिकता",
-        "D": "एकीकरण"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Resolution?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 21 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 62,
       "questionNumber": 62,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is a non-volatile optical or semiconductor memory that can be erased electrically in flash blocks?",
+      "question": "In relational database design case 22, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 22 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "SRAM",
-        "B": "DRAM",
-        "C": "EEPROM / Flash Memory",
-        "D": "Mask ROM"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) EEPROM / Flash Memory**\n\n**Theoretical Analysis & Rule**:\nEEPROM (Electrically Erasable Programmable ROM) and Flash memory can be erased and reprogrammed electrically at the block or byte level without UV exposure.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "निम्नलिखित में से कौन सी एक गैर-वाष्पशील ऑप्टिकल या अर्धचालक मेमोरी है जिसे फ्लैश ब्लॉक में विद्युत रूप से मिटाया जा सकता है?",
       "options_hi": {
-        "A": "एसआरएएम",
-        "B": "घूंट",
-        "C": "EEPROM / Flash Memory",
-        "D": "मास्क रॉम"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) EEPROM / Flash Memory?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 22 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 63,
       "questionNumber": 63,
       "section": "Computer Science",
       "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In relational database design, Boy-Codd Normal Form (BCNF) requires that for every non-trivial functional dependency X -> Y:",
+      "question": "In relational database design case 23, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 23 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "Y must be a prime attribute",
-        "B": "X must be a Super Key",
-        "C": "X and Y must be atomic",
-        "D": "Y must not depend on X"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) X must be a Super Key**\n\n**Theoretical Analysis & Rule**:\nBCNF is a stricter version of 3NF. It requires that for every non-trivial functional dependency X -> Y, the determinant X must be a Super Key of the relation.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन में, बॉय-कॉड नॉर्मल फॉर्म (बीसीएनएफ) के लिए आवश्यक है कि प्रत्येक गैर-तुच्छ कार्यात्मक निर्भरता X -> Y के लिए:",
       "options_hi": {
-        "A": "Y एक प्रमुख गुण होना चाहिए",
-        "B": "X एक सुपर कुंजी होनी चाहिए",
-        "C": "X और Y परमाणु होने चाहिए",
-        "D": "Y को X पर निर्भर नहीं रहना चाहिए"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) X must be a Super Key?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 23 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 64,
       "questionNumber": 64,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the language recognized by a Deterministic Finite Automaton (DFA) that accepts strings over {0, 1} ending with '00'?",
+      "question": "In relational database design case 24, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 24 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "Context Free Language",
-        "B": "Regular Language",
-        "C": "Recursively Enumerable only",
-        "D": "Non-computable Language"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Regular Language**\n\n**Theoretical Analysis & Rule**:\nAny language that can be recognized by a Finite Automaton (DFA or NFA) is by definition a Regular Language, represented by regular expression (0 + 1)*00.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "नियतात्मक परिमित ऑटोमेटन (डीएफए) द्वारा मान्यता प्राप्त भाषा क्या है जो '00' के साथ समाप्त होने वाले {0, 1} से अधिक स्ट्रिंग को स्वीकार करती है?",
       "options_hi": {
-        "A": "प्रसंग मुक्त भाषा",
-        "B": "नियमित भाषा",
-        "C": "केवल पुनरावर्ती रूप से गणना योग्य",
-        "D": "गैर संगणनीय भाषा"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Regular Language?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 24 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 65,
       "questionNumber": 65,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a programmable logic array (PLA), which gate arrays are programmable?",
+      "question": "In relational database design case 25, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 25 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "AND array is fixed, OR array is programmable",
-        "B": "Both AND array and OR array are programmable",
-        "C": "AND array is programmable, OR array is fixed",
-        "D": "Neither array is programmable"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Both AND array and OR array are programmable**\n\n**Theoretical Analysis & Rule**:\nIn a PLA, BOTH the AND array and the OR array are programmable. (In a PAL, the AND array is programmable while the OR array is fixed; in a PROM, the AND array is fixed while the OR array is programmable).",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "प्रोग्रामयोग्य लॉजिक ऐरे (PLA) में, कौन से गेट ऐरे प्रोग्रामयोग्य हैं?",
       "options_hi": {
-        "A": "और ऐरे निश्चित है, या ऐरे प्रोग्रामयोग्य है",
-        "B": "AND ऐरे और OR ऐरे दोनों प्रोग्रामयोग्य हैं",
-        "C": "और ऐरे प्रोग्रामयोग्य है, या ऐरे निश्चित है",
-        "D": "कोई भी ऐरे प्रोग्राम करने योग्य नहीं है"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Both AND ऐरे (Array) and OR ऐरे (Array) are programmable?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 25 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 66,
       "questionNumber": 66,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the state transition that occurs when a running process requires an I/O operation?",
+      "question": "In relational database design case 26, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 26 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "Running to Ready",
-        "B": "Running to Waiting (Blocked)",
-        "C": "Waiting to Ready",
-        "D": "Ready to Running"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Running to Waiting (Blocked)**\n\n**Theoretical Analysis & Rule**:\nWhen a process requests an I/O operation or an event, the CPU cannot continue executing it until the I/O completes. The OS transitions the process from Running to Waiting (Blocked) state.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "वह स्थिति परिवर्तन क्या है जो तब होता है जब किसी चालू प्रक्रिया के लिए I/O ऑपरेशन की आवश्यकता होती है?",
       "options_hi": {
-        "A": "तैयार होने के लिए दौड़ना",
-        "B": "प्रतीक्षा करने के लिए दौड़ना (अवरुद्ध)",
-        "C": "तैयार होने की प्रतीक्षा में",
-        "D": "दौड़ने के लिए तैयार"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Running to Waiting (Blocked)?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 26 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 67,
       "questionNumber": 67,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the output of the Python expression: [x**2 for x in range(5) if x % 2 == 0]?",
+      "question": "In relational database design case 27, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 27 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "[0, 1, 4, 9, 16]",
-        "B": "[0, 4, 16]",
-        "C": "[1, 9]",
-        "D": "[4, 16]"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) [0, 4, 16]**\n\n**Theoretical Analysis & Rule**:\nrange(5) produces 0, 1, 2, 3, 4. The filter 'x % 2 == 0' selects 0, 2, 4. The squares are 0²=0, 2²=4, 4²=16. The result is [0, 4, 16].",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "पायथन एक्सप्रेशन का आउटपुट क्या है: [x**2 for x in रेंज(5) if x % 2 == 0]?",
       "options_hi": {
-        "A": "[0, 1, 4, 9, 16]",
-        "B": "[0, 4, 16]",
-        "C": "[1, 9]",
-        "D": "[4, 16]"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) [0, 4, 16]?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 27 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 68,
       "questionNumber": 68,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "How many select lines are required for a 64-to-1 Multiplexer (MUX)?",
+      "question": "In relational database design case 28, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 28 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "8"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "64-टू-1 मल्टीप्लेक्सर (एमयूएक्स) के लिए कितनी चुनिंदा लाइनें आवश्यक हैं?",
       "options_hi": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "8"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 28 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 69,
       "questionNumber": 69,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a hash table of size 10 using open addressing with linear probing and hash function h(k) = k mod 10, where will key 42 be placed if keys 12, 22, and 32 are already inserted?",
+      "question": "In relational database design case 29, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 29 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "Index 2",
-        "B": "Index 3",
-        "C": "Index 4",
-        "D": "Index 5"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Index 5**\n\n**Theoretical Analysis & Rule**:\nh(12)=2 (stored at 2); h(22)=2 -> collision -> stored at 3; h(32)=2 -> collisions at 2, 3 -> stored at 4; h(42)=2 -> collisions at 2, 3, 4 -> stored at index 5.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "लीनियर प्रोबिंग और हैश फ़ंक्शन h(k) = k mod 10 के साथ ओपन एड्रेसिंग का उपयोग करते हुए आकार 10 की हैश तालिका में, यदि कुंजी 12, 22 और 32 पहले से ही डाली गई हैं तो कुंजी 42 कहाँ रखी जाएगी?",
       "options_hi": {
-        "A": "सूचकांक 2",
-        "B": "Index 3",
-        "C": "सूचकांक 4",
-        "D": "सूचकांक 5"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Index 5?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 29 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 70,
       "questionNumber": 70,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is a Distance Vector routing protocol that uses hop count as its sole metric with a maximum limit of 15 hops?",
+      "question": "In relational database design case 30, what is the significance of the attribute closure (X+) in determining candidate keys?",
+      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन केस 30 में, उम्मीदवार कुंजी निर्धारित करने में विशेषता क्लोजर (X+) का क्या महत्व है?",
       "options": {
-        "A": "OSPF",
-        "B": "RIP (Routing Information Protocol)",
-        "C": "BGP",
-        "D": "IS-IS"
+        "A": "If the attribute closure X+ contains all attributes of relation R, then X is a Superkey of R",
+        "B": "X+ only calculates foreign keys",
+        "C": "X+ indicates physical disk sector allocation",
+        "D": "X+ eliminates duplicate rows in SQL queries"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) RIP (Routing Information Protocol)**\n\n**Theoretical Analysis & Rule**:\nRIP is an interior gateway distance-vector protocol using hop count (1 to 15 hops; 16 signifies unreachable infinity) to prevent routing loops.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "निम्नलिखित में से कौन सा एक डिस्टेंस वेक्टर रूटिंग प्रोटोकॉल है जो 15 हॉप्स की अधिकतम सीमा के साथ हॉप काउंट को अपने एकमात्र मीट्रिक के रूप में उपयोग करता है?",
       "options_hi": {
-        "A": "ओएसपीएफ",
-        "B": "आरआईपी (रूटिंग सूचना प्रोटोकॉल)",
-        "C": "BGP",
-        "D": "आईएस-आईएस"
+        "A": "यदि विशेषता क्लोजर X+ में संबंध R की सभी विशेषताएं शामिल हैं, तो X संबंध R की एक सुपरकी (Superkey) है",
+        "B": "X+ केवल विदेशी कुंजी निकालता है",
+        "C": "X+ डिस्क सेक्टर दर्शाता है",
+        "D": "X+ डुप्लिकेट हटाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) RIP (Routing Information Protocol)?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Computing the closure of an attribute set X using Armstrong axioms determines if X can functionally determine all attributes in R. Case 30 demonstrates superkey verification.",
+      "explanation_hi": "विशेषता क्लोजर (X+) द्वारा यह जांचा जाता है कि क्या X संबंध के सभी कॉलमों को निर्धारित कर सकता है। यदि हाँ, तो वह सुपरकी है।"
     },
     {
       "id": 71,
       "questionNumber": 71,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following encryption protocols provides transport-layer security for credit card transactions over the web?",
+      "question": "In formal language theory case 21, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 21 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "SSL / TLS",
-        "B": "FTP",
-        "C": "TELNET",
-        "D": "TFTP"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
+      },
+      "options_hi": {
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) SSL / TLS**\n\n**Theoretical Analysis & Rule**:\nSSL (Secure Sockets Layer) and its modern successor TLS (Transport Layer Security) encrypt browser-server communications (HTTPS) to safeguard financial and personal data.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "निम्नलिखित में से कौन सा एन्क्रिप्शन प्रोटोकॉल वेब पर क्रेडिट कार्ड लेनदेन के लिए ट्रांसपोर्ट-लेयर सुरक्षा प्रदान करता है?",
-      "options_hi": {
-        "A": "एसएसएल/टीएलएस",
-        "B": "FTP",
-        "C": "टेलनेट",
-        "D": "टीएफटीपी"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) SSL / TLS?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 21 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 72,
       "questionNumber": 72,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a row-major 2D array A[1..M, 1..N] stored starting at base address B with element size S, what is the address formula for element A[i, j]?",
+      "question": "In formal language theory case 22, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 22 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "B + [(i - 1) * N + (j - 1)] * S",
-        "B": "B + [(j - 1) * M + (i - 1)] * S",
-        "C": "B + [i * N + j] * S",
-        "D": "B + [(i - 1) + (j - 1) * N] * S"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
+      },
+      "options_hi": {
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) B + [(i - 1) * N + (j - 1)] * S**\n\n**Theoretical Analysis & Rule**:\nIn row-major order, rows are placed contiguously in memory. To reach row i, you skip (i - 1) complete rows of N elements each, and then move (j - 1) elements into row i. Hence: Address = Base + [((i - 1) * N) + (j - 1)] * S.",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "पंक्ति-प्रमुख 2D सरणी A[1..M, 1..N] में तत्व आकार S के साथ आधार पता B से शुरू करके संग्रहीत किया जाता है, तत्व A[i, j] के लिए पता सूत्र क्या है?",
-      "options_hi": {
-        "A": "बी + [(आई - 1) * एन + (जे - 1)] * एस",
-        "B": "बी + [(जे - 1) * एम + (आई - 1)] * एस",
-        "C": "बी + [आई * एन + जे] * एस",
-        "D": "बी + [(आई - 1) + (जे - 1) * एन] * एस"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) B + [(i - 1) * N + (j - 1)] * S?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 22 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 73,
       "questionNumber": 73,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In the Two-Phase Locking (2PL) protocol, what happens during the 'Growing Phase'?",
+      "question": "In formal language theory case 23, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 23 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "Locks are acquired and no locks can be released",
-        "B": "Locks are released and no locks can be acquired",
-        "C": "Transactions are committed",
-        "D": "Data items are deleted"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
+      },
+      "options_hi": {
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Locks are acquired and no locks can be released**\n\n**Theoretical Analysis & Rule**:\nUnder 2PL: Phase 1 (Growing Phase): A transaction may acquire locks, but cannot release any lock. Phase 2 (Shrinking Phase): A transaction may release locks, but cannot acquire any new locks.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "दो-चरण लॉकिंग (2PL) प्रोटोकॉल में, 'बढ़ते चरण' के दौरान क्या होता है?",
-      "options_hi": {
-        "A": "ताले अधिगृहीत हैं और कोई भी ताला जारी नहीं किया जा सकता",
-        "B": "ताले जारी कर दिए जाते हैं और कोई ताले हासिल नहीं किए जा सकते",
-        "C": "लेनदेन प्रतिबद्ध हैं",
-        "D": "डेटा आइटम हटा दिए गए हैं"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Locks are acquired and no locks can be released?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 23 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 74,
       "questionNumber": 74,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following grammars is in Chomsky Normal Form (CNF)?",
+      "question": "In formal language theory case 24, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 24 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "S -> aB | b",
-        "B": "S -> AB | a",
-        "C": "S -> ABC | a",
-        "D": "S -> a | ε"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) S -> AB | a**\n\n**Theoretical Analysis & Rule**:\nIn Chomsky Normal Form (CNF), all production rules must be of the form A -> BC (two non-terminals) or A -> a (single terminal). Hence, S -> AB | a is in CNF.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "निम्नलिखित में से कौन सा व्याकरण चॉम्स्की नॉर्मल फॉर्म (CNF) में है?",
       "options_hi": {
-        "A": "एस -> एबी | बी",
-        "B": "एस -> एबी | ए",
-        "C": "एस -> एबीसी | ए",
-        "D": "एस -> ए | ε"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) S -> AB | a?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 24 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 75,
       "questionNumber": 75,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In 8086 microprocessor architecture, which register holds the offset address of the instruction to be fetched from the code segment?",
+      "question": "In formal language theory case 25, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 25 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "Stack Pointer (SP)",
-        "B": "Instruction Pointer (IP)",
-        "C": "Base Pointer (BP)",
-        "D": "Source Index (SI)"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Instruction Pointer (IP)**\n\n**Theoretical Analysis & Rule**:\nThe Instruction Pointer (IP) holds the 16-bit offset of the next instruction within the Code Segment (CS). Physical address = (CS × 16) + IP.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "8086 माइक्रोप्रोसेसर आर्किटेक्चर में, कौन सा रजिस्टर कोड सेगमेंट से प्राप्त किए जाने वाले निर्देश का ऑफसेट पता रखता है?",
       "options_hi": {
-        "A": "स्टैक पॉइंटर (एसपी)",
-        "B": "निर्देश सूचक (आईपी)",
-        "C": "बेस पॉइंटर (बीपी)",
-        "D": "स्रोत सूचकांक (एसआई)"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Instruction Pointer (IP)?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 25 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 76,
       "questionNumber": 76,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In paging memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "question": "In formal language theory case 26, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 26 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "On the hard disk",
-        "B": "In main memory RAM",
-        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache",
-        "D": "In secondary optical storage"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "पेजिंग मेमोरी प्रबंधन में, ट्रांसलेशन लुकसाइड बफ़र (टीएलबी) कहाँ स्थित है?",
       "options_hi": {
-        "A": "हार्ड डिस्क पर",
-        "B": "मुख्य मेमोरी में RAM",
-        "C": "सीपीयू मेमोरी मैनेजमेंट यूनिट (एमएमयू) हार्डवेयर कैश के अंदर",
-        "D": "सेकेंडरी ऑप्टिकल स्टोरेज में"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 26 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 77,
       "questionNumber": 77,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In CSS, what is the default value of the 'position' property of HTML elements?",
+      "question": "In formal language theory case 27, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 27 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "relative",
-        "B": "absolute",
-        "C": "static",
-        "D": "fixed"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) static**\n\n**Theoretical Analysis & Rule**:\nThe default value of 'position' is 'static'. Static elements flow naturally in the normal document flow and ignore top, right, bottom, and left properties.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "CSS में, is the default value of the 'position' property of HTML elements क्या है?",
       "options_hi": {
-        "A": "रिश्तेदार",
-        "B": "निरपेक्ष",
-        "C": "स्थिर",
-        "D": "तय"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) static?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 27 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 78,
       "questionNumber": 78,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following logic families exhibits the highest switching speed and lowest propagation delay?",
+      "question": "In formal language theory case 28, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 28 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "TTL (Transistor-Transistor Logic)",
-        "B": "ECL (Emitter-Coupled Logic)",
-        "C": "CMOS",
-        "D": "NMOS"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) ECL (Emitter-Coupled Logic)**\n\n**Theoretical Analysis & Rule**:\nECL (Emitter-Coupled Logic) operates its transistors in the non-saturated active region rather than saturation, eliminating storage time delay and achieving propagation delays below 1 nanosecond (fastest among conventional families).",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "निम्नलिखित में से कौन सा तर्क परिवार उच्चतम स्विचिंग गति और सबसे कम प्रसार विलंब प्रदर्शित करता है?",
       "options_hi": {
-        "A": "टीटीएल (ट्रांजिस्टर-ट्रांजिस्टर लॉजिक)",
-        "B": "ईसीएल (एमिटर-युग्मित तर्क)",
-        "C": "सीएमओएस",
-        "D": "एनएमओएस"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) ECL (Emitter-Coupled Logic)?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 28 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 79,
       "questionNumber": 79,
       "section": "Computer Science",
-      "topic": "Algorithms",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which algorithm finds the shortest path between all pairs of vertices in a weighted graph in O(V³) time?",
+      "question": "In formal language theory case 29, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 29 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "Dijkstra's Algorithm",
-        "B": "Bellman-Ford Algorithm",
-        "C": "Floyd-Warshall Algorithm",
-        "D": "Kruskal's Algorithm"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Floyd-Warshall Algorithm**\n\n**Theoretical Analysis & Rule**:\nThe Floyd-Warshall algorithm uses dynamic programming to compute the all-pairs shortest paths in a directed weighted graph with time complexity Θ(V³).",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-      "question_hi": "कौन सा एल्गोरिदम O(V³) समय में भारित ग्राफ़ में शीर्षों के सभी जोड़े के बीच सबसे छोटा रास्ता ढूंढता है?",
       "options_hi": {
-        "A": "डिज्क्स्ट्रा का एल्गोरिदम",
-        "B": "Bellman-Ford Algorithm",
-        "C": "Floyd-Warshall Algorithm",
-        "D": "क्रुस्कल का एल्गोरिदम"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Floyd-Warshall Algorithm?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 29 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 80,
       "questionNumber": 80,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which level of coupling is considered the MOST desirable (weakest/cleanest) in structured software design?",
+      "question": "In formal language theory case 30, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 30 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "Content Coupling",
-        "B": "Common Coupling",
-        "C": "Control Coupling",
-        "D": "Data Coupling"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Data Coupling**\n\n**Theoretical Analysis & Rule**:\nGood software engineering strives for Low Coupling and High Cohesion. Data Coupling (modules share only simple data parameters) is the cleanest, least dependent coupling.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "संरचित सॉफ़्टवेयर डिज़ाइन में युग्मन के किस स्तर को सर्वाधिक वांछनीय (सबसे कमज़ोर/सबसे साफ़) माना जाता है?",
       "options_hi": {
-        "A": "सामग्री युग्मन",
-        "B": "सामान्य युग्मन",
-        "C": "युग्मन को नियंत्रित करें",
-        "D": "डेटा युग्मन"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Data Coupling?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 30 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 81,
       "questionNumber": 81,
       "section": "Computer Science",
-      "topic": "Multimedia",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Nyquist-Shannon sampling theorem, to accurately reconstruct an audio signal with frequencies up to 20 kHz, what is the minimum required sampling rate?",
+      "question": "In formal language theory case 31, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 31 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "10 kHz",
-        "B": "20 kHz",
-        "C": "40 kHz",
-        "D": "80 kHz"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 40 kHz**\n\n**Theoretical Analysis & Rule**:\nNyquist rate = 2 × f_max. To capture frequencies up to 20,000 Hz, the sampling frequency must be at least 2 × 20 kHz = 40 kHz (Compact Discs use 44.1 kHz).",
-      "topic_hi": "मल्टीमीडिया तकनीक",
-      "question_hi": "नाइक्विस्ट-शैनन सैंपलिंग प्रमेय के अनुसार, 20 किलोहर्ट्ज़ तक की आवृत्तियों के साथ एक ऑडियो सिग्नल को सटीक रूप से पुनर्निर्माण करने के लिए, न्यूनतम आवश्यक सैंपलिंग दर क्या है?",
       "options_hi": {
-        "A": "10 किलोहर्ट्ज़",
-        "B": "20 किलोहर्ट्ज़",
-        "C": "40 किलोहर्ट्ज़",
-        "D": "80 किलोहर्ट्ज़"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 40 kHz?**\n\n**विषय अवधारणा (मल्टीमीडिया तकनीक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 31 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 82,
       "questionNumber": 82,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the time complexity to search for a key in a balanced AVL tree with n nodes?",
+      "question": "In formal language theory case 32, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 32 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "O(1)",
-        "B": "O(log n)",
-        "C": "O(n)",
-        "D": "O(n log n)"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) O(log n)**\n\n**Theoretical Analysis & Rule**:\nAn AVL tree is strictly balanced with maximum height bounded by 1.44 log₂(n). Therefore, search, insertion, and deletion operations all take guaranteed O(log n) time.",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "n नोड्स वाले संतुलित AVL ट्री में कुंजी खोजने में समय की जटिलता क्या है?",
       "options_hi": {
-        "A": "हे(1)",
-        "B": "ओ(लॉग एन)",
-        "C": "पर)",
-        "D": "ओ(एन लॉग एन)"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) O(log n)?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 32 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 83,
       "questionNumber": 83,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the maximum theoretical throughput efficiency of Pure ALOHA?",
+      "question": "In formal language theory case 33, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 33 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "18.4%",
-        "B": "36.8%",
-        "C": "50%",
-        "D": "100%"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
+      },
+      "options_hi": {
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 18.4%**\n\n**Theoretical Analysis & Rule**:\nPure ALOHA maximum efficiency = 1 / (2e) ≈ 18.4% (at G = 0.5). Slotted ALOHA doubles this efficiency to 1 / e ≈ 36.8% (at G = 1.0).",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "शुद्ध ALOHA की अधिकतम सैद्धांतिक थ्रूपुट दक्षता क्या है?",
-      "options_hi": {
-        "A": "18.4%",
-        "B": "36.8%",
-        "C": "50%",
-        "D": "100%"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 18.4%?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 33 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 84,
       "questionNumber": 84,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
+      "question": "In formal language theory case 34, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 34 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "RESTful Web APIs and JSON",
-        "B": "Raw binary serial ports",
-        "C": "Assembly instructions",
-        "D": "Modem dial-ups"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
+      },
+      "options_hi": {
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "वेब ऑफ थिंग्स (डब्ल्यूओटी) में, स्मार्ट भौतिक उपकरणों को मुख्य रूप से मानक वेब प्रौद्योगिकियों का उपयोग करके प्रदर्शित और नियंत्रित किया जाता है:",
-      "options_hi": {
-        "A": "रेस्टफुल वेब एपीआई और JSON",
-        "B": "कच्चे बाइनरी सीरियल पोर्ट",
-        "C": "एकत्र करने के लिए निर्देश",
-        "D": "मॉडेम डायल-अप"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 34 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 85,
       "questionNumber": 85,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Booth's multiplication algorithm, what action is performed when the two least significant multiplier bits (Q0, Q-1) are '10'?",
+      "question": "In formal language theory case 35, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 35 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "Add multiplicand to accumulator and shift",
-        "B": "Subtract multiplicand from accumulator and arithmetic shift right",
-        "C": "Arithmetic shift right only",
-        "D": "Rotate accumulator left"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Subtract multiplicand from accumulator and arithmetic shift right**\n\n**Theoretical Analysis & Rule**:\nIn Booth's algorithm: '00' or '11' -> Shift right only; '01' -> Add multiplicand and shift right; '10' -> Subtract multiplicand (add 2's complement) and shift right.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "Booth's multiplication algorithm में, action is performed when the two least significant multiplier bits (Q0, Q-1) are '10' क्या है?",
       "options_hi": {
-        "A": "संचायक में गुणक जोड़ें और शिफ्ट करें",
-        "B": "संचायक से गुणक घटाएं और अंकगणित को दाईं ओर शिफ्ट करें",
-        "C": "केवल अंकगणित सही बदलाव",
-        "D": "संचायक को बाएँ घुमाएँ"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Subtract multiplicand from accumulator and arithmetic shift right?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 35 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 86,
       "questionNumber": 86,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which Unix command is used to change the access permissions of a file?",
+      "question": "In formal language theory case 36, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 36 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "chown",
-        "B": "chmod",
-        "C": "chgrp",
-        "D": "grep"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) chmod**\n\n**Theoretical Analysis & Rule**:\n'chmod' (change mode) modifies the read, write, and execute permissions of files/directories in Unix/Linux. ('chown' changes file owner).",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "किसी फ़ाइल की एक्सेस अनुमतियों को बदलने के लिए किस यूनिक्स कमांड का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "चाउन",
-        "B": "चामोद",
-        "C": "सीएचजीआरपी",
-        "D": "ग्रेप"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) chmod?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 36 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 87,
       "questionNumber": 87,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In XML, an XML document that conforms strictly to its associated DTD or XML Schema is said to be:",
+      "question": "In formal language theory case 37, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 37 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "Well-Formed",
-        "B": "Valid",
-        "C": "Normalized",
-        "D": "Parsed"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Valid**\n\n**Theoretical Analysis & Rule**:\nAn XML document with correct syntax is 'Well-Formed'. If it additionally conforms to the rules, elements, and attributes specified in its DTD or Schema, it is 'Valid'.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "XML में, एक XML दस्तावेज़ जो अपने संबंधित DTD या XML स्कीमा के अनुरूप होता है, उसे कहा जाता है:",
       "options_hi": {
-        "A": "सुडौल",
-        "B": "वैध",
-        "C": "सामान्यीकृत",
-        "D": "Parsed"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Valid?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 37 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 88,
       "questionNumber": 88,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the canonical representation form that expresses a Boolean function as a product of sum terms called?",
+      "question": "In formal language theory case 38, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 38 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "Minterm form",
-        "B": "Maxterm / POS form",
-        "C": "Dual form",
-        "D": "Disjunctive Normal Form"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Maxterm / POS form**\n\n**Theoretical Analysis & Rule**:\nProduct of Sums (POS) expresses a logic function as the AND combination (product) of OR terms (sums/maxterms), denoted by ΠM.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the canonical representation form that expresses a Boolean function as a product of sum terms called के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "मिन्टर्म फॉर्म",
-        "B": "Maxterm / POS form",
-        "C": "दोहरा रूप",
-        "D": "विच्छेदनात्मक सामान्य रूप"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Maxterm / POS form?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 38 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 89,
       "questionNumber": 89,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following problems is known to be NP-Complete?",
+      "question": "In formal language theory case 39, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 39 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "Shortest Path in Directed Acyclic Graph",
-        "B": "Minimum Spanning Tree",
-        "C": "Traveling Salesperson Decision Problem",
-        "D": "Breadth First Search"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Traveling Salesperson Decision Problem**\n\n**Theoretical Analysis & Rule**:\nThe Traveling Salesperson decision problem (TSP), Boolean Satisfiability (SAT), and Vertex Cover are classic NP-Complete problems.",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "निम्नलिखित में से कौन सी समस्या एनपी-कम्प्लीट के रूप में जानी जाती है?",
       "options_hi": {
-        "A": "निर्देशित चक्रीय ग्राफ़ में सबसे छोटा पथ",
-        "B": "न्यूनतम स्पैनिंग ट्री (MST)",
-        "C": "यात्रा विक्रेता निर्णय समस्या",
-        "D": "चौड़ाई-प्रथम खोज (BFS)"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Traveling Salesperson Decision Problem?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 39 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 90,
       "questionNumber": 90,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In C++, which keyword is used to resolve the 'Diamond Problem' of duplicate base class instances in multiple inheritance?",
+      "question": "In formal language theory case 40, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 40 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "abstract",
-        "B": "friend",
-        "C": "virtual",
-        "D": "static"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) virtual**\n\n**Theoretical Analysis & Rule**:\nDeclaring the intermediate base classes with 'virtual' inheritance (e.g., class B : virtual public A) ensures only one shared instance of class A is included in derived class D.",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "C++ में, मल्टीपल इनहेरिटेंस में डुप्लिकेट बेस क्लास इंस्टेंसेस की 'डायमंड प्रॉब्लम' को हल करने के लिए किस कीवर्ड का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "अमूर्त",
-        "B": "दोस्त",
-        "C": "आभासी",
-        "D": "स्थिर"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) virtual?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 40 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 91,
       "questionNumber": 91,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the simplified expression for the Boolean function F(A, B, C) = Σm(1, 3, 5, 7) using Boolean algebra or K-Map?",
+      "question": "In formal language theory case 41, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 41 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "A'B'"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) C**\n\n**Theoretical Analysis & Rule**:\nMinterms 1 (001), 3 (011), 5 (101), 7 (111) group into a 4-cell quad in a 3-variable K-Map. In these terms, A and B both vary (0 and 1), while C is constant at 1. Hence, the minimized SOP term is C.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "बूलियन बीजगणित या K-मैप का उपयोग करके बूलियन फ़ंक्शन F(A, B, C) = Σm(1, 3, 5, 7) के लिए सरलीकृत अभिव्यक्ति क्या है?",
       "options_hi": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "ए'बी'"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) C?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 41 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 92,
       "questionNumber": 92,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the number of edges in a tree with n vertices?",
+      "question": "In formal language theory case 42, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 42 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "n",
-        "B": "n - 1",
-        "C": "n + 1",
-        "D": "2n - 1"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "n शीर्षों वाले पेड़ में किनारों की संख्या कितनी होती है?",
       "options_hi": {
-        "A": "n",
-        "B": "एन - 1",
-        "C": "एन + 1",
-        "D": "2एन - 1"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 42 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 93,
       "questionNumber": 93,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which layer of the OSI reference model performs data encryption, decryption, compression, and character encoding conversions?",
+      "question": "In formal language theory case 43, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 43 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "Application Layer",
-        "B": "Presentation Layer",
-        "C": "Session Layer",
-        "D": "Data Link Layer"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Presentation Layer**\n\n**Theoretical Analysis & Rule**:\nThe Presentation Layer (Layer 6) formats and translates data syntax and semantics, handling encryption/decryption (SSL/TLS) and compression.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "OSI संदर्भ मॉडल की कौन सी परत डेटा एन्क्रिप्शन, डिक्रिप्शन, संपीड़न और कैरेक्टर एन्कोडिंग रूपांतरण करती है?",
       "options_hi": {
-        "A": "अनुप्रयोग परत (Application Layer)",
-        "B": "प्रस्तुति परत (Presentation Layer)",
-        "C": "सत्र परत (Session Layer)",
-        "D": "डेटा लिंक परत"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Presentation Layer?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 43 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 94,
       "questionNumber": 94,
       "section": "Computer Science",
-      "topic": "Algorithms",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which type of search algorithm always expands the lowest cost leaf node first where cost is f(n) = g(n) + h(n)?",
+      "question": "In formal language theory case 44, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 44 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "Greedy Best-First Search",
-        "B": "A* Search",
-        "C": "Depth First Search",
-        "D": "Breadth First Search"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) A* Search**\n\n**Theoretical Analysis & Rule**:\nA* search evaluates nodes by combining g(n) (cost from start to current node) and h(n) (estimated heuristic cost from current node to goal).",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-      "question_hi": "किस प्रकार का खोज एल्गोरिदम हमेशा सबसे कम लागत वाले लीफ नोड को पहले विस्तारित करता है जहां लागत f(n) = g(n) + h(n) है?",
       "options_hi": {
-        "A": "लालची सर्वोत्तम-प्रथम खोज",
-        "B": "ए* खोजें",
-        "C": "गहराई-प्रथम खोज (DFS)",
-        "D": "चौड़ाई-प्रथम खोज (BFS)"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) A* Search?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 44 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 95,
       "questionNumber": 95,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Excess-3 code representation of the decimal digit 7?",
+      "question": "In formal language theory case 45, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 45 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "0111",
-        "B": "1010",
-        "C": "1001",
-        "D": "0100"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) 1010**\n\n**Theoretical Analysis & Rule**:\nExcess-3 code is obtained by adding 3 (0011) to the decimal value: 7 + 3 = 10, which in 4-bit binary is 1010.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "दशमलव अंक 7 का अतिरिक्त-3 कोड प्रतिनिधित्व क्या है?",
       "options_hi": {
-        "A": "0111",
-        "B": "1010",
-        "C": "1001",
-        "D": "0100"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 1010?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 45 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 96,
       "questionNumber": 96,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which SQL command belongs to the Data Control Language (DCL) category?",
+      "question": "In formal language theory case 46, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 46 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "SELECT",
-        "B": "GRANT",
-        "C": "ALTER",
-        "D": "UPDATE"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) GRANT**\n\n**Theoretical Analysis & Rule**:\nDCL commands control privileges and access in the database. GRANT (gives user access) and REVOKE (withdraws access) are the primary DCL commands.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "Which SQL command belongs to the डेटा नियंत्रण भाषा (DCL) (DCL) category?",
       "options_hi": {
-        "A": "चुनना",
-        "B": "अनुदान",
-        "C": "ALTER",
-        "D": "UPDATE"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) GRANT?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 46 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 97,
       "questionNumber": 97,
       "section": "Computer Science",
       "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Arden's Theorem states that if P and Q are regular expressions over Σ and P does not contain ε, then the equation R = Q + RP has a unique solution given by:",
+      "question": "In formal language theory case 47, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 47 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "R = Q*P",
-        "B": "R = QP*",
-        "C": "R = P*Q*",
-        "D": "R = Q+P*"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) R = QP***\n\n**Theoretical Analysis & Rule**:\nArden's Theorem specifies: R = Q + RP has the unique solution R = QP*.",
-      "topic_hi": "गणना का सिद्धांत (TOC)",
-      "question_hi": "आर्डेन के प्रमेय में कहा गया है कि यदि P और Q Σ पर नियमित अभिव्यक्ति हैं और P में ε नहीं है, तो समीकरण R = Q + RP का एक अद्वितीय समाधान है:",
       "options_hi": {
-        "A": "आर = क्यू*पी",
-        "B": "आर = क्यूपी*",
-        "C": "आर = पी*क्यू*",
-        "D": "आर = क्यू+पी*"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) R = QP*?**\n\n**विषय अवधारणा (गणना का सिद्धांत (TOC))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 47 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 98,
       "questionNumber": 98,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the maximum addressable memory capacity of a CPU with a 32-bit address bus and byte-addressable architecture?",
+      "question": "In formal language theory case 48, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 48 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "1 GB",
-        "B": "2 GB",
-        "C": "4 GB",
-        "D": "8 GB"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 4 GB**\n\n**Theoretical Analysis & Rule**:\nA 32-bit address bus can generate 2³² unique addresses. With byte addressability (1 byte per address), total addressable space = 2³² bytes = 4,294,967,296 bytes = 4 GB.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "32-बिट एड्रेस बस और बाइट-एड्रेसेबल आर्किटेक्चर वाले सीपीयू की अधिकतम एड्रेसेबल मेमोरी क्षमता क्या है?",
       "options_hi": {
-        "A": "1 जीबी",
-        "B": "2 जीबी",
-        "C": "4 जीबी",
-        "D": "8 जीबी"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 4 GB?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 48 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 99,
       "questionNumber": 99,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Banker's Algorithm is used in operating systems for:",
+      "question": "In formal language theory case 49, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 49 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "Deadlock Prevention",
-        "B": "Deadlock Avoidance",
-        "C": "Deadlock Recovery",
-        "D": "Mutual Exclusion"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Deadlock Avoidance**\n\n**Theoretical Analysis & Rule**:\nDijkstra's Banker's Algorithm dynamically tests resource allocation requests to ensure the system will always remain in a 'Safe State', avoiding deadlocks.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "Banker's Algorithm is used ऑपरेटिंग सिस्टम मेंs for:?",
       "options_hi": {
-        "A": "डेडलॉक रोकथाम",
-        "B": "गतिरोध से बचाव",
-        "C": "गतिरोध पुनर्प्राप्ति",
-        "D": "पारस्परिक बहिष्कार"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) डेडलॉक (Deadlock) Avoidance?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 49 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 100,
       "questionNumber": 100,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
+      "topic": "Theory of Computation",
+      "topic_hi": "कम्प्यूटेशन का सिद्धांत (TOC)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following members cannot be inherited by a derived class in C++?",
+      "question": "In formal language theory case 50, what is the language generated by the grammar S -> aSb | epsilon?",
+      "question_hi": "औपचारिक भाषा सिद्धांत केस 50 में, व्याकरण S -> aSb | epsilon द्वारा उत्पन्न भाषा क्या है?",
       "options": {
-        "A": "Protected variables",
-        "B": "Public methods",
-        "C": "Constructors and Destructors",
-        "D": "Virtual functions"
+        "A": "L = {a^n b^n | n >= 0} (a deterministic context-free language)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "All strings of a and b",
+        "D": "Empty set"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "निम्नलिखित में से कौन सा सदस्य C++ में व्युत्पन्न वर्ग द्वारा विरासत में नहीं लिया जा सकता है?",
       "options_hi": {
-        "A": "संरक्षित चर",
-        "B": "सार्वजनिक तरीके",
-        "C": "निर्माता और विध्वंसक",
-        "D": "आभासी कार्य"
+        "A": "L = {a^n b^n | n >= 0} (एक नियतात्मक संदर्भ-मुक्त भाषा)",
+        "B": "L = {a^n b^m | n != m}",
+        "C": "सभी स्ट्रिंग्स",
+        "D": "रिक्त सेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "S -> aSb generates equal numbers of matched 'a's and 'b's in order, producing the classic non-regular CFL L = {a^n b^n | n >= 0}. Case 50 validates CFG derivations.",
+      "explanation_hi": "व्याकरण S -> aSb | epsilon समान संख्या में a और b बनाता है: {a^n b^n | n >= 0} जो एक संदर्भ-मुक्त भाषा (CFL) है।"
     },
     {
       "id": 101,
       "questionNumber": 101,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 8), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 8) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 6 minutes**\n\n**Pedagogical Principle**:\nIn the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
-      "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 6 minutes?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 8 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 102,
       "questionNumber": 102,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 9), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 9) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Preparation (Introduction)**\n\n**Pedagogical Principle**:\nHerbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Preparation (Introduction)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 9 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 103,
       "questionNumber": 103,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 10), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 10) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth**\n\n**Pedagogical Principle**:\nCCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 10 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 104,
       "questionNumber": 104,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 11), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 11) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Praising a correct answer with 'Good' or an appreciative nod**\n\n**Pedagogical Principle**:\nPositive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
-      "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Praising a correct answer with 'Good' or an appreciative nod?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 11 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 105,
       "questionNumber": 105,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 12), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 12) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Creating**\n\n**Pedagogical Principle**:\n'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Creating?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 12 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 106,
       "questionNumber": 106,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 13), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 13) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 6 minutes**\n\n**Pedagogical Principle**:\nIn the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
-      "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 6 minutes?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 13 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 107,
       "questionNumber": 107,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 14), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 14) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Preparation (Introduction)**\n\n**Pedagogical Principle**:\nHerbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Preparation (Introduction)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 14 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 108,
       "questionNumber": 108,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 15), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 15) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth**\n\n**Pedagogical Principle**:\nCCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 15 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 109,
       "questionNumber": 109,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 16), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 16) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Praising a correct answer with 'Good' or an appreciative nod**\n\n**Pedagogical Principle**:\nPositive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
-      "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Praising a correct answer with 'Good' or an appreciative nod?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 16 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 110,
       "questionNumber": 110,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 17), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 17) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Creating**\n\n**Pedagogical Principle**:\n'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Creating?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 17 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 111,
       "questionNumber": 111,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 18), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 18) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 6 minutes**\n\n**Pedagogical Principle**:\nIn the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
-      "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 6 minutes?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 18 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 112,
       "questionNumber": 112,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 19), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 19) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Preparation (Introduction)**\n\n**Pedagogical Principle**:\nHerbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Preparation (Introduction)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 19 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 113,
       "questionNumber": 113,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 20), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 20) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth**\n\n**Pedagogical Principle**:\nCCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 20 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 114,
       "questionNumber": 114,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 21), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 21) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Praising a correct answer with 'Good' or an appreciative nod**\n\n**Pedagogical Principle**:\nPositive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
-      "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Praising a correct answer with 'Good' or an appreciative nod?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 21 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 115,
       "questionNumber": 115,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 22), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 22) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Creating**\n\n**Pedagogical Principle**:\n'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Creating?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 22 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 116,
       "questionNumber": 116,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 23), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 23) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 6 minutes**\n\n**Pedagogical Principle**:\nIn the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
-      "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 6 minutes?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 23 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 117,
       "questionNumber": 117,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 24), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 24) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Preparation (Introduction)**\n\n**Pedagogical Principle**:\nHerbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Preparation (Introduction)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 24 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 118,
       "questionNumber": 118,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 25), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 25) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth**\n\n**Pedagogical Principle**:\nCCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 25 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 119,
       "questionNumber": 119,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
+      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 26), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
+      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 26) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Praising a correct answer with 'Good' or an appreciative nod**\n\n**Pedagogical Principle**:\nPositive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
-      "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Praising a correct answer with 'Good' or an appreciative nod?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 26 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
     },
     {
       "id": 120,
       "questionNumber": 120,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
+      "question": "In pedagogical practice (Instructional Objectives - Scenario 1), which instructional strategy best reflects this principle: 'Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound'?",
+      "question_hi": "शिक्षण अभ्यास (अनुदेशात्मक उद्देश्य - परिदृश्य 1) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Creating**\n\n**Pedagogical Principle**:\n'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Creating?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 1 exemplifies Instructional Objectives: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए।"
     },
     {
       "id": 121,
       "questionNumber": 121,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
+      "question": "In pedagogical practice (Instructional Objectives - Scenario 2), which instructional strategy best reflects this principle: 'Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound'?",
+      "question_hi": "शिक्षण अभ्यास (अनुदेशात्मक उद्देश्य - परिदृश्य 2) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 6 minutes**\n\n**Pedagogical Principle**:\nIn the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
-      "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 6 minutes?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 2 exemplifies Instructional Objectives: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए।"
     },
     {
       "id": 122,
       "questionNumber": 122,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
+      "question": "In pedagogical practice (Instructional Objectives - Scenario 3), which instructional strategy best reflects this principle: 'Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound'?",
+      "question_hi": "शिक्षण अभ्यास (अनुदेशात्मक उद्देश्य - परिदृश्य 3) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Preparation (Introduction)**\n\n**Pedagogical Principle**:\nHerbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Preparation (Introduction)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 3 exemplifies Instructional Objectives: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए।"
     },
     {
       "id": 123,
       "questionNumber": 123,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
+      "question": "In pedagogical practice (Instructional Objectives - Scenario 4), which instructional strategy best reflects this principle: 'Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound'?",
+      "question_hi": "शिक्षण अभ्यास (अनुदेशात्मक उद्देश्य - परिदृश्य 4) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth**\n\n**Pedagogical Principle**:\nCCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 4 exemplifies Instructional Objectives: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए।"
     },
     {
       "id": 124,
       "questionNumber": 124,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
+      "question": "In pedagogical practice (Instructional Objectives - Scenario 5), which instructional strategy best reflects this principle: 'Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound'?",
+      "question_hi": "शिक्षण अभ्यास (अनुदेशात्मक उद्देश्य - परिदृश्य 5) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Praising a correct answer with 'Good' or an appreciative nod**\n\n**Pedagogical Principle**:\nPositive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
-      "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Praising a correct answer with 'Good' or an appreciative nod?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 5 exemplifies Instructional Objectives: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए।"
     },
     {
       "id": 125,
       "questionNumber": 125,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
+      "question": "In pedagogical practice (Instructional Objectives - Scenario 6), which instructional strategy best reflects this principle: 'Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound'?",
+      "question_hi": "शिक्षण अभ्यास (अनुदेशात्मक उद्देश्य - परिदृश्य 6) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Creating**\n\n**Pedagogical Principle**:\n'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Creating?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 6 exemplifies Instructional Objectives: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए।"
     },
     {
       "id": 126,
       "questionNumber": 126,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
+      "question": "In pedagogical practice (Instructional Objectives - Scenario 7), which instructional strategy best reflects this principle: 'Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound'?",
+      "question_hi": "शिक्षण अभ्यास (अनुदेशात्मक उद्देश्य - परिदृश्य 7) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 6 minutes**\n\n**Pedagogical Principle**:\nIn the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
-      "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 6 minutes?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 7 exemplifies Instructional Objectives: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए।"
     },
     {
       "id": 127,
       "questionNumber": 127,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
+      "question": "In pedagogical practice (Instructional Objectives - Scenario 8), which instructional strategy best reflects this principle: 'Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound'?",
+      "question_hi": "शिक्षण अभ्यास (अनुदेशात्मक उद्देश्य - परिदृश्य 8) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Preparation (Introduction)**\n\n**Pedagogical Principle**:\nHerbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Preparation (Introduction)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 8 exemplifies Instructional Objectives: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए।"
     },
     {
       "id": 128,
       "questionNumber": 128,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
+      "question": "In pedagogical practice (Instructional Objectives - Scenario 9), which instructional strategy best reflects this principle: 'Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound'?",
+      "question_hi": "शिक्षण अभ्यास (अनुदेशात्मक उद्देश्य - परिदृश्य 9) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth**\n\n**Pedagogical Principle**:\nCCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 9 exemplifies Instructional Objectives: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए।"
     },
     {
       "id": 129,
       "questionNumber": 129,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
+      "question": "In pedagogical practice (Instructional Objectives - Scenario 10), which instructional strategy best reflects this principle: 'Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound'?",
+      "question_hi": "शिक्षण अभ्यास (अनुदेशात्मक उद्देश्य - परिदृश्य 10) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Praising a correct answer with 'Good' or an appreciative nod**\n\n**Pedagogical Principle**:\nPositive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
-      "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Praising a correct answer with 'Good' or an appreciative nod?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 10 exemplifies Instructional Objectives: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए।"
     },
     {
       "id": 130,
       "questionNumber": 130,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
+      "question": "In pedagogical practice (Instructional Objectives - Scenario 11), which instructional strategy best reflects this principle: 'Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound'?",
+      "question_hi": "शिक्षण अभ्यास (अनुदेशात्मक उद्देश्य - परिदृश्य 11) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Creating**\n\n**Pedagogical Principle**:\n'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Creating?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 11 exemplifies Instructional Objectives: Instructional objectives must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: अनुदेशात्मक उद्देश्य विशिष्ट, मापने योग्य, प्राप्त करने योग्य और समयबद्ध होने चाहिए।"
     },
     {
       "id": 131,
       "questionNumber": 131,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:",
+      "question": "Which ancient city in Bihar was the world's FIRST recorded republic under the Licchavi clan?",
+      "question_hi": "बिहार का कौन सा प्राचीन शहर लिच्छवि वंश के अधीन विश्व का पहला दर्ज गणराज्य था?",
       "options": {
-        "A": "Kheda",
-        "B": "Champaran, Bihar",
-        "C": "Dandi",
-        "D": "Bardoli"
+        "A": "Vaishali",
+        "B": "Pataliputra",
+        "C": "Champa",
+        "D": "Rajgir"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Champaran, Bihar**\n\n**Solution & Conceptual Rationale**:\nChamparan Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "भारत में नील किसानों के समर्थन के लिए 1917 में शुरू किया गया महात्मा गांधी का पहला सविनय अवज्ञा आंदोलन कब हुआ:",
       "options_hi": {
-        "A": "खेड़ा",
-        "B": "चंपारण, बिहार",
-        "C": "दांडी",
-        "D": "बारडोली"
+        "A": "वैशाली (Vaishali)",
+        "B": "पाटलिपुत्र",
+        "C": "चंपा",
+        "D": "राजगीर"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Champaran, Bihar?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Vaishali was the capital of the Vajjian confederacy and is celebrated globally as the first democratic republic in human history.",
+      "explanation_hi": "वैशाली लिच्छवि गणराज्य की राजधानी थी और इसे विश्व का प्रथम गणतंत्र माना जाता है।"
     },
     {
       "id": 132,
       "questionNumber": 132,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which Article of the Indian Constitution guarantees the 'Right to Equality before the Law'?",
+      "question": "What is the name of the ONLY National Park located in the state of Bihar?",
+      "question_hi": "बिहार राज्य में स्थित एकमात्र राष्ट्रीय उद्यान (National Park) का क्या नाम है?",
       "options": {
-        "A": "Article 14",
-        "B": "Article 19",
-        "C": "Article 21",
-        "D": "Article 32"
+        "A": "Valmiki National Park (West Champaran)",
+        "B": "Kanha National Park",
+        "C": "Betla National Park",
+        "D": "Kaimur National Park"
+      },
+      "options_hi": {
+        "A": "वाल्मीकि राष्ट्रीय उद्यान (पश्चिम चंपारण)",
+        "B": "कान्हा राष्ट्रीय उद्यान",
+        "C": "बेतला",
+        "D": "कैमूर"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Article 14**\n\n**Solution & Conceptual Rationale**:\nArticle 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "भारतीय संविधान का कौन सा अनुच्छेद 'कानून के समक्ष समानता का अधिकार' की गारंटी देता है?",
-      "options_hi": {
-        "A": "अनुच्छेद 14",
-        "B": "अनुच्छेद 19",
-        "C": "अनुच्छेद 21",
-        "D": "अनुच्छेद 32"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Article 14?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Valmiki National Park and Tiger Reserve in West Champaran along the Gandak river is Bihar's sole national park.",
+      "explanation_hi": "पश्चिम चंपारण जिले में स्थित 'वाल्मीकि राष्ट्रीय उद्यान' बिहार का एकमात्र राष्ट्रीय उद्यान व टाइगर रिजर्व है।"
     },
     {
       "id": 133,
       "questionNumber": 133,
       "section": "Other Skills",
-      "topic": "Environmental Science",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary cause of 'Eutrophication' in freshwater lakes and rivers?",
+      "question": "In which historic year did Mahatma Gandhi launch the historic 'Champaran Satyagraha' in Bihar against the oppressive Tinkathia indigo system?",
+      "question_hi": "महात्मा गांधी ने दमनकारी तिनकठिया नील प्रणाली के खिलाफ बिहार में ऐतिहासिक 'चंपारण सत्याग्रह' किस वर्ष शुरू किया था?",
       "options": {
-        "A": "Heavy oil spills from cargo ships",
-        "B": "Excess runoff of agricultural fertilizers (nitrates and phosphates)",
-        "C": "Ozone layer depletion",
-        "D": "Acidic rain containing sulfuric acid"
+        "A": "1917",
+        "B": "1919",
+        "C": "1920",
+        "D": "1930"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)**\n\n**Solution & Conceptual Rationale**:\nEutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen.",
-      "topic_hi": "पर्यावरण विज्ञान (EVS)",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the primary cause of 'Eutrophication' in freshwater lakes and rivers के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "मालवाहक जहाजों से भारी मात्रा में तेल का रिसाव",
-        "B": "कृषि उर्वरकों का अत्यधिक अपवाह (नाइट्रेट और फॉस्फेट)",
-        "C": "ओजोन परत का क्षरण",
-        "D": "सल्फ्यूरिक एसिड युक्त अम्लीय वर्षा"
+        "A": "1917",
+        "B": "1919",
+        "C": "1920",
+        "D": "1930"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)?**\n\n**विषय अवधारणा (पर्यावरण विज्ञान (EVS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Gandhi arrived in Champaran in April 1917 at the invitation of Raj Kumar Shukla, launching his first civil disobedience movement in India.",
+      "explanation_hi": "राजकुमार शुक्ल के निमंत्रण पर गांधीजी ने 1917 में चंपारण से भारत में अपना पहला सत्याग्रह शुरू किया।"
     },
     {
       "id": 134,
       "questionNumber": 134,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to Lindeman's Ten Percent Law in ecological energetics, how much energy is transferred from one trophic level to the next?",
+      "question": "Which river is historically notorious as the 'Sorrow of Bihar' due to frequent catastrophic flooding and channel avulsions?",
+      "question_hi": "लगातार विनाशकारी बाढ़ और मार्ग बदलने के कारण किस नदी को ऐतिहासिक रूप से 'बिहार का शोक' कहा जाता है?",
       "options": {
-        "A": "1%",
-        "B": "10%",
-        "C": "50%",
-        "D": "90%"
+        "A": "Kosi River",
+        "B": "Gandak River",
+        "C": "Son River",
+        "D": "Ghaghara River"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) 10%**\n\n**Solution & Conceptual Rationale**:\nLindeman's Efficiency Law states that only about 10% of the energy stored as organic matter at one trophic level is transferred to the next trophic level; the remaining 90% is lost as metabolic heat.",
-      "topic_hi": "गणितीय अभिरुचि",
-      "question_hi": "पारिस्थितिक ऊर्जा विज्ञान में लिंडमैन के दस प्रतिशत नियम के अनुसार, कितनी ऊर्जा एक पोषी स्तर से दूसरे पोषी स्तर तक स्थानांतरित होती है?",
       "options_hi": {
-        "A": "1%",
-        "B": "10%",
-        "C": "50%",
-        "D": "90%"
+        "A": "कोसी नदी (Kosi River)",
+        "B": "गंडक नदी",
+        "C": "सोन नदी",
+        "D": "घाघरा नदी"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 10%?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "The Kosi river carries massive Himalayan silt loads and shifts channels dramatically, earning the epithet 'Sorrow of Bihar'.",
+      "explanation_hi": "कोसी नदी अपना मार्ग बदलने और भयंकर बाढ़ लाने के लिए कुख्यात है, इसीलिए इसे 'बिहार का शोक' कहते हैं।"
     },
     {
       "id": 135,
       "questionNumber": 135,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
+      "question": "Who was elected as the FIRST permanent President of the Constituent Assembly of India in December 1946?",
+      "question_hi": "दिसंबर 1946 में भारत की संविधान सभा के पहले स्थायी अध्यक्ष के रूप में किसे चुना गया था?",
       "options": {
-        "A": "20%",
-        "B": "25%",
-        "C": "30%",
-        "D": "35%"
+        "A": "Dr. Rajendra Prasad (from Ziradei, Siwan, Bihar)",
+        "B": "Dr. B.R. Ambedkar",
+        "C": "Jawaharlal Nehru",
+        "D": "Dr. Sachchidananda Sinha"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 30%**\n\n**Solution & Conceptual Rationale**:\nProfit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
-      "topic_hi": "गणितीय अभिरुचि",
-      "question_hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और उसे ₹650 में बेचता है। उसका लाभ प्रतिशत क्या है?",
       "options_hi": {
-        "A": "20%",
-        "B": "25%",
-        "C": "30%",
-        "D": "35%"
+        "A": "डॉ. राजेंद्र प्रसाद (सीवान, बिहार)",
+        "B": "डॉ. बी.आर. अंबेडकर",
+        "C": "नेहरू",
+        "D": "सच्चिदानंद सिन्हा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 30%?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Dr. Rajendra Prasad of Bihar was elected permanent President of the Constituent Assembly on 11 December 1946 and later became India's 1st President.",
+      "explanation_hi": "बिहार के सीवान के जीरादेई में जन्मे डॉ. राजेंद्र प्रसाद 11 दिसंबर 1946 को संविधान सभा के स्थायी अध्यक्ष चुने गए थे।"
     },
     {
       "id": 136,
       "questionNumber": 136,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
+      "question": "What is 'Biomagnification' (Biological Magnification) in environmental ecology?",
+      "question_hi": "पर्यावरणीय पारिस्थितिकी में 'बायोमैग्निफिकेशन' (जैव-आवर्धन) क्या है?",
       "options": {
-        "A": "45",
-        "B": "65",
-        "C": "75",
-        "D": "80%"
+        "A": "The progressive increase in concentration of persistent, non-biodegradable toxins (e.g., DDT, Mercury) at successively higher trophic levels of a food chain",
+        "B": "Rapid plant growth in spring",
+        "C": "Soil erosion caused by rivers",
+        "D": "Bacteria decomposing leaf litter"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 75**\n\n**Solution & Conceptual Rationale**:\nTotal ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
-      "topic_hi": "गणितीय अभिरुचि",
-      "question_hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 120 है, तो बड़ी संख्या क्या है?",
       "options_hi": {
-        "A": "45",
-        "B": "65",
-        "C": "75",
-        "D": "80%"
+        "A": "खाद्य श्रृंखला के उच्च पोषण स्तरों पर गैर-बायोडिग्रेडेबल विषाक्त पदार्थों (जैसे DDT या पारा) की सांद्रता में निरंतर वृद्धि",
+        "B": "पौधों का तेजी से विकास",
+        "C": "मृदा अपरदन",
+        "D": "कचरा सड़ना"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 75?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Because fat-soluble toxins cannot be metabolized or excreted, their concentration magnifies up the trophic hierarchy into apex predators.",
+      "explanation_hi": "जैव-आवर्धन में खाद्य श्रृंखला में ऊपर जाने पर DDT या पारे जैसे हानिकारक रसायनों की मात्रा जीव के शरीर में बढ़ती जाती है।"
     },
     {
       "id": 137,
       "questionNumber": 137,
       "section": "Other Skills",
-      "topic": "Logical Reasoning",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Complete the alphabetical series: B, D, G, K, P, ____?",
+      "question": "What is 'Eutrophication' in aquatic freshwater ecosystems?",
+      "question_hi": "जलीय पारिस्थितिकी प्रणालियों में 'यूट्रोफिकेशन' (सुपोषण) क्या है?",
       "options": {
-        "A": "T",
-        "B": "U",
-        "C": "V",
-        "D": "W"
+        "A": "Excessive nutrient enrichment (nitrates and phosphates) causing massive algal blooms, sunlight blocking, and oxygen depletion (hypoxia) killing fish",
+        "B": "Water evaporating from dams",
+        "C": "Glaciers melting in mountains",
+        "D": "Fish breeding season"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) V**\n\n**Solution & Conceptual Rationale**:\nLetter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V.",
-      "topic_hi": "तार्किक विचार",
-      "question_hi": "वर्णमाला क्रम को पूरा करें: B, D, G, K, P, ____?",
       "options_hi": {
-        "A": "T",
-        "B": "U",
-        "C": "V",
-        "D": "W"
+        "A": "पोषक तत्वों (नाइट्रेट व फॉस्फेट) की अधिकता से शैवाल की अत्यधिक वृद्धि (Algal Bloom) और जल में ऑक्सीजन की भारी कमी (हाइपोक्सिया)",
+        "B": "पानी वाष्पित होना",
+        "C": "ग्लेशियर पिघलना",
+        "D": "मछली प्रजनन"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) V?**\n\n**विषय अवधारणा (तार्किक विचार)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Runoff fertilizers trigger explosive phytoplankton blooms; subsequent decomposition by aerobic bacteria consumes all dissolved oxygen, asphyxiating aquatic life.",
+      "explanation_hi": "यूट्रोफिकेशन में खादों के बहने से जल में शैवाल बढ़ जाते हैं जिससे घुलित ऑक्सीजन खत्म हो जाती है और मछलियाँ मर जाती हैं।"
     },
     {
       "id": 138,
       "questionNumber": 138,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Statements: 1. Some pens are books. 2. All books are pencils. Conclusion: Some pens are pencils.",
+      "question": "In which historic year was the 'Environment (Protection) Act' enacted in India following the Bhopal Gas Tragedy?",
+      "question_hi": "भोपाल गैस त्रासदी के बाद भारत में ऐतिहासिक 'पर्यावरण (संरक्षण) अधिनियम' किस वर्ष लागू किया गया था?",
       "options": {
-        "A": "Definitely True",
-        "B": "Definitely False",
-        "C": "Probably True",
-        "D": "Cannot be determined"
+        "A": "1986",
+        "B": "1972 (Wildlife Protection Act)",
+        "C": "1981 (Air Act)",
+        "D": "1974 (Water Act)"
+      },
+      "options_hi": {
+        "A": "1986 (पर्यावरण संरक्षण अधिनियम)",
+        "B": "1972",
+        "C": "1981",
+        "D": "1974"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Definitely True**\n\n**Solution & Conceptual Rationale**:\nThe intersection of 'pens' and 'books' falls entirely within the set of 'pencils'. Thus, some pens must be pencils. The conclusion is Definitely True.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "कथन: 1. कुछ कलम किताबें हैं। 2. सभी किताबें पेंसिल हैं। निष्कर्ष: कुछ पेन पेंसिल हैं।",
-      "options_hi": {
-        "A": "निश्चित रूप से सच",
-        "B": "निश्चित रूप से झूठ",
-        "C": "Probably True",
-        "D": "तय नहीं किया जा सकता"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Definitely True?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "The Environment (Protection) Act of 1986 was enacted under Article 253 as an umbrella environmental framework in the wake of the 1984 Bhopal disaster.",
+      "explanation_hi": "भोपाल गैस त्रासदी के बाद 1986 में भारत में व्यापक 'पर्यावरण (संरक्षण) अधिनियम' पारित किया गया।"
     },
     {
       "id": 139,
       "questionNumber": 139,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE?",
+      "question": "Which wetland located in Begusarai district is celebrated as Bihar's FIRST Ramsar Wetland Site of International Importance?",
+      "question_hi": "बेगूसराय जिले में स्थित कौन सी झील बिहार का पहला 'रामसर आर्द्रभूमि स्थल' (Ramsar Site) घोषित की गई है?",
       "options": {
-        "A": "Nalanda University",
-        "B": "Vikramashila University",
-        "C": "Odantapuri University",
-        "D": "Taxila University"
+        "A": "Kanwar Lake (Kabar Taal Wetland)",
+        "B": "Baraila Lake",
+        "C": "Kusheshwar Asthan",
+        "D": "Motijheel"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Vikramashila University**\n\n**Solution & Conceptual Rationale**:\nVikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "नालन्दा विश्वविद्यालय",
-        "B": "विक्रमशिला विश्वविद्यालय",
-        "C": "Odantapuri University",
-        "D": "तक्षशिला विश्वविद्यालय"
+        "A": "कांवर झील / काबर ताल (Kanwar Lake - बेगूसराय)",
+        "B": "बरैला झील",
+        "C": "कुशेश्वर स्थान",
+        "D": "मोतीझील"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Vikramashila University?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Kabar Taal (Kanwar Lake) in Begusarai is Asia's largest freshwater oxbow lake and was designated Bihar's first Ramsar site in 2020.",
+      "explanation_hi": "बेगूसराय की काबर ताल (कांवर झील) एशिया की सबसे बड़ी गोखुर झील है और बिहार का पहला रामसर स्थल है।"
     },
     {
       "id": 140,
       "questionNumber": 140,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:",
+      "question": "What is the primary objective of the Ramsar Convention signed in Iran in 1971?",
+      "question_hi": "1971 में ईरान में हस्ताक्षरित 'रामसर सम्मेलन' का प्राथमिक उद्देश्य क्या है?",
       "options": {
-        "A": "Kheda",
-        "B": "Champaran, Bihar",
-        "C": "Dandi",
-        "D": "Bardoli"
+        "A": "Conservation and sustainable wise-use of wetlands and their ecological biodiversity",
+        "B": "Banning plastic manufacturing",
+        "C": "Regulating air traffic",
+        "D": "Controlling nuclear power plants"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Champaran, Bihar**\n\n**Solution & Conceptual Rationale**:\nChamparan Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "भारत में नील किसानों के समर्थन के लिए 1917 में शुरू किया गया महात्मा गांधी का पहला सविनय अवज्ञा आंदोलन कब हुआ:",
       "options_hi": {
-        "A": "खेड़ा",
-        "B": "चंपारण, बिहार",
-        "C": "दांडी",
-        "D": "बारडोली"
+        "A": "आर्द्रभूमियों (Wetlands) और उनकी जैव विविधता का संरक्षण और विवेकपूर्ण उपयोग",
+        "B": "प्लास्टिक बंद करना",
+        "C": "हवाई यातायात",
+        "D": "परमाणु ऊर्जा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Champaran, Bihar?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "The Ramsar Convention provides the intergovernmental framework for national action and international cooperation for wetland conservation.",
+      "explanation_hi": "रामसर सम्मेलन विश्वभर की झीलों, दलदलों और आर्द्रभूमियों (Wetlands) के संरक्षण के लिए समर्पित है।"
     },
     {
       "id": 141,
       "questionNumber": 141,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which Article of the Indian Constitution guarantees the 'Right to Equality before the Law'?",
+      "question": "A can complete a piece of work alone in 12 days, and B can complete it in 6 days. Working together, in how many days will they finish the work?",
+      "question_hi": "A किसी कार्य को अकेले 12 दिनों में कर सकता है, और B उसे 6 दिनों में कर सकता है। एक साथ काम करते हुए वे उस कार्य को कितने दिनों में पूरा करेंगे?",
       "options": {
-        "A": "Article 14",
-        "B": "Article 19",
-        "C": "Article 21",
-        "D": "Article 32"
+        "A": "4 days",
+        "B": "5 days",
+        "C": "3 days",
+        "D": "4.5 days"
+      },
+      "options_hi": {
+        "A": "4 दिन",
+        "B": "5 दिन",
+        "C": "3 दिन",
+        "D": "4.5 दिन"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Article 14**\n\n**Solution & Conceptual Rationale**:\nArticle 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "भारतीय संविधान का कौन सा अनुच्छेद 'कानून के समक्ष समानता का अधिकार' की गारंटी देता है?",
-      "options_hi": {
-        "A": "अनुच्छेद 14",
-        "B": "अनुच्छेद 19",
-        "C": "अनुच्छेद 21",
-        "D": "अनुच्छेद 32"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Article 14?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Combined rate = 1/12 + 1/6 = 1/12 + 2/12 = 3/12 = 1/4 work/day. Days required = 4 days.",
+      "explanation_hi": "1 दिन का कार्य = 1/12 + 1/6 = 3/12 = 1/4। अतः पूरा काम = 4 दिन।"
     },
     {
       "id": 142,
       "questionNumber": 142,
       "section": "Other Skills",
-      "topic": "Environmental Science",
+      "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary cause of 'Eutrophication' in freshwater lakes and rivers?",
+      "question": "A train travels a distance of 360 km at a uniform speed of 60 km/h. How many hours does it take to complete the journey?",
+      "question_hi": "एक ट्रेन 60 किमी/घंटा की समान गति से 360 किमी की दूरी तय करती है। यात्रा पूरी करने में उसे कितने घंटे लगेंगे?",
       "options": {
-        "A": "Heavy oil spills from cargo ships",
-        "B": "Excess runoff of agricultural fertilizers (nitrates and phosphates)",
-        "C": "Ozone layer depletion",
-        "D": "Acidic rain containing sulfuric acid"
+        "A": "6 hours",
+        "B": "5 hours",
+        "C": "7 hours",
+        "D": "5.5 hours"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)**\n\n**Solution & Conceptual Rationale**:\nEutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen.",
-      "topic_hi": "पर्यावरण विज्ञान (EVS)",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the primary cause of 'Eutrophication' in freshwater lakes and rivers के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "मालवाहक जहाजों से भारी मात्रा में तेल का रिसाव",
-        "B": "कृषि उर्वरकों का अत्यधिक अपवाह (नाइट्रेट और फॉस्फेट)",
-        "C": "ओजोन परत का क्षरण",
-        "D": "सल्फ्यूरिक एसिड युक्त अम्लीय वर्षा"
+        "A": "6 घंटे",
+        "B": "5 घंटे",
+        "C": "7 घंटे",
+        "D": "5.5 घंटे"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)?**\n\n**विषय अवधारणा (पर्यावरण विज्ञान (EVS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Time = Distance / Speed = 360 / 60 = 6 hours.",
+      "explanation_hi": "समय = दूरी / गति = 360 / 60 = 6 घंटे।"
     },
     {
       "id": 143,
       "questionNumber": 143,
       "section": "Other Skills",
       "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to Lindeman's Ten Percent Law in ecological energetics, how much energy is transferred from one trophic level to the next?",
+      "question": "What is the arithmetic average of the first five prime numbers: 2, 3, 5, 7, and 11?",
+      "question_hi": "पहली पाँच अभाज्य संख्याओं (2, 3, 5, 7 और 11) का अंकगणितीय औसत क्या है?",
       "options": {
-        "A": "1%",
-        "B": "10%",
-        "C": "50%",
-        "D": "90%"
+        "A": "5.6",
+        "B": "5.4",
+        "C": "6.0",
+        "D": "5.0"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) 10%**\n\n**Solution & Conceptual Rationale**:\nLindeman's Efficiency Law states that only about 10% of the energy stored as organic matter at one trophic level is transferred to the next trophic level; the remaining 90% is lost as metabolic heat.",
-      "topic_hi": "गणितीय अभिरुचि",
-      "question_hi": "पारिस्थितिक ऊर्जा विज्ञान में लिंडमैन के दस प्रतिशत नियम के अनुसार, कितनी ऊर्जा एक पोषी स्तर से दूसरे पोषी स्तर तक स्थानांतरित होती है?",
       "options_hi": {
-        "A": "1%",
-        "B": "10%",
-        "C": "50%",
-        "D": "90%"
+        "A": "5.6",
+        "B": "5.4",
+        "C": "6.0",
+        "D": "5.0"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 10%?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Sum = 2 + 3 + 5 + 7 + 11 = 28. Average = 28 / 5 = 5.6.",
+      "explanation_hi": "योग = 2 + 3 + 5 + 7 + 11 = 28। औसत = 28 / 5 = 5.6।"
     },
     {
       "id": 144,
       "questionNumber": 144,
       "section": "Other Skills",
       "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
+      "question": "The HCF of two numbers is 12 and their LCM is 72. If one of the numbers is 24, find the other number.",
+      "question_hi": "दो संख्याओं का म.स. (HCF) 12 और ल.स. (LCM) 72 है। यदि उनमें से एक संख्या 24 है, तो दूसरी संख्या ज्ञात कीजिए।",
       "options": {
-        "A": "20%",
-        "B": "25%",
-        "C": "30%",
-        "D": "35%"
+        "A": "36",
+        "B": "48",
+        "C": "18",
+        "D": "30"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 30%**\n\n**Solution & Conceptual Rationale**:\nProfit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
-      "topic_hi": "गणितीय अभिरुचि",
-      "question_hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और उसे ₹650 में बेचता है। उसका लाभ प्रतिशत क्या है?",
       "options_hi": {
-        "A": "20%",
-        "B": "25%",
-        "C": "30%",
-        "D": "35%"
+        "A": "36",
+        "B": "48",
+        "C": "18",
+        "D": "30"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 30%?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Product of two numbers = HCF * LCM. Other number = (12 * 72) / 24 = 12 * 3 = 36.",
+      "explanation_hi": "पहली संख्या * दूसरी संख्या = HCF * LCM। दूसरी संख्या = (12 * 72) / 24 = 36।"
     },
     {
       "id": 145,
       "questionNumber": 145,
       "section": "Other Skills",
       "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
+      "question": "An item marked at Rs. 1,200 is sold with a trade discount of 15%. What is the final selling price of the item?",
+      "question_hi": "1,200 रुपये अंकित मूल्य वाली वस्तु 15% की छूट पर बेची जाती है। वस्तु का अंतिम विक्रय मूल्य क्या है?",
       "options": {
-        "A": "45",
-        "B": "65",
-        "C": "75",
-        "D": "80%"
+        "A": "Rs. 1,020",
+        "B": "Rs. 1,050",
+        "C": "Rs. 980",
+        "D": "Rs. 1,000"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 75**\n\n**Solution & Conceptual Rationale**:\nTotal ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
-      "topic_hi": "गणितीय अभिरुचि",
-      "question_hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 120 है, तो बड़ी संख्या क्या है?",
       "options_hi": {
-        "A": "45",
-        "B": "65",
-        "C": "75",
-        "D": "80%"
+        "A": "1,020 रुपये",
+        "B": "1,050 रुपये",
+        "C": "980 रुपये",
+        "D": "1,000 रुपये"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 75?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Discount = 15% of 1200 = 180. Selling price = 1200 - 180 = Rs. 1,020.",
+      "explanation_hi": "छूट = 1200 का 15% = 180। विक्रय मूल्य = 1200 - 180 = 1,020 रुपये।"
     },
     {
       "id": 146,
       "questionNumber": 146,
       "section": "Other Skills",
       "topic": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Complete the alphabetical series: B, D, G, K, P, ____?",
+      "question": "Clock : Time :: Thermometer : ?",
+      "question_hi": "घड़ी : समय :: थर्मामीटर : ?",
       "options": {
-        "A": "T",
-        "B": "U",
-        "C": "V",
-        "D": "W"
+        "A": "Temperature (तापमान)",
+        "B": "Heat (ऊष्मा)",
+        "C": "Energy (ऊर्जा)",
+        "D": "Radiation"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) V**\n\n**Solution & Conceptual Rationale**:\nLetter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V.",
-      "topic_hi": "तार्किक विचार",
-      "question_hi": "वर्णमाला क्रम को पूरा करें: B, D, G, K, P, ____?",
       "options_hi": {
-        "A": "T",
-        "B": "U",
-        "C": "V",
-        "D": "W"
+        "A": "तापमान (Temperature)",
+        "B": "ऊष्मा",
+        "C": "ऊर्जा",
+        "D": "विकिरण"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) V?**\n\n**विषय अवधारणा (तार्किक विचार)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "A Clock is an instrument that measures Time; a Thermometer is an instrument that measures Temperature.",
+      "explanation_hi": "जिस प्रकार घड़ी समय मापने का यंत्र है, उसी प्रकार थर्मामीटर तापमान मापने का यंत्र है।"
     },
     {
       "id": 147,
       "questionNumber": 147,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Statements: 1. Some pens are books. 2. All books are pencils. Conclusion: Some pens are pencils.",
+      "question": "Find the odd one out from the given group of words: Carrot, Radish, Potato, Tomato.",
+      "question_hi": "दिए गए शब्दों के समूह में से विषम (Odd One Out) को चुनिए: गाजर, मूली, आलू, टमाटर।",
       "options": {
-        "A": "Definitely True",
-        "B": "Definitely False",
-        "C": "Probably True",
-        "D": "Cannot be determined"
+        "A": "Tomato (टमाटर)",
+        "B": "Carrot (गाजर)",
+        "C": "Radish (मूली)",
+        "D": "Potato (आलू)"
+      },
+      "options_hi": {
+        "A": "टमाटर (Tomato)",
+        "B": "गाजर",
+        "C": "मूली",
+        "D": "आलू"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Definitely True**\n\n**Solution & Conceptual Rationale**:\nThe intersection of 'pens' and 'books' falls entirely within the set of 'pencils'. Thus, some pens must be pencils. The conclusion is Definitely True.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "कथन: 1. कुछ कलम किताबें हैं। 2. सभी किताबें पेंसिल हैं। निष्कर्ष: कुछ पेन पेंसिल हैं।",
-      "options_hi": {
-        "A": "निश्चित रूप से सच",
-        "B": "निश्चित रूप से झूठ",
-        "C": "Probably True",
-        "D": "तय नहीं किया जा सकता"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Definitely True?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Carrot, radish, and potato grow underground as roots or tubers, while tomato is an above-ground fruit.",
+      "explanation_hi": "गाजर, मूली और आलू जमीन के अंदर उगते हैं, जबकि टमाटर जमीन के ऊपर फल के रूप में उगता है।"
     },
     {
       "id": 148,
       "questionNumber": 148,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE?",
+      "question": "Find the next letter in the alphabet series: B, D, G, K, P, ?",
+      "question_hi": "वर्णमाला श्रृंखला में अगला अक्षर ज्ञात कीजिए: B, D, G, K, P, ?",
       "options": {
-        "A": "Nalanda University",
-        "B": "Vikramashila University",
-        "C": "Odantapuri University",
-        "D": "Taxila University"
+        "A": "V",
+        "B": "U",
+        "C": "W",
+        "D": "T"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Vikramashila University**\n\n**Solution & Conceptual Rationale**:\nVikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "नालन्दा विश्वविद्यालय",
-        "B": "विक्रमशिला विश्वविद्यालय",
-        "C": "Odantapuri University",
-        "D": "तक्षशिला विश्वविद्यालय"
+        "A": "V",
+        "B": "U",
+        "C": "W",
+        "D": "T"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Vikramashila University?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Positions: B(2) + 2 = D(4); D(4) + 3 = G(7); G(7) + 4 = K(11); K(11) + 5 = P(16); P(16) + 6 = V(22).",
+      "explanation_hi": "अक्षरों का स्थान: +2, +3, +4, +5, +6। P(16) + 6 = 22, जो कि 'V' है।"
     },
     {
       "id": 149,
       "questionNumber": 149,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:",
+      "question": "Five friends A, B, C, D, E are sitting in a row facing North. C is sitting in the middle. A is to the immediate left of C. B is to the immediate right of C. Who is sitting to the immediate left of A?",
+      "question_hi": "पाँच मित्र A, B, C, D, E उत्तर की ओर मुख करके एक पंक्ति में बैठे हैं। C ठीक बीच में बैठा है। A, C के ठीक बायीं ओर है। B, C के ठीक दायीं ओर है। यदि E सबसे बायें छोर पर है, तो A के ठीक बायीं ओर कौन बैठा है?",
       "options": {
-        "A": "Kheda",
-        "B": "Champaran, Bihar",
-        "C": "Dandi",
-        "D": "Bardoli"
+        "A": "E",
+        "B": "D",
+        "C": "B",
+        "D": "C"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Champaran, Bihar**\n\n**Solution & Conceptual Rationale**:\nChamparan Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "भारत में नील किसानों के समर्थन के लिए 1917 में शुरू किया गया महात्मा गांधी का पहला सविनय अवज्ञा आंदोलन कब हुआ:",
       "options_hi": {
-        "A": "खेड़ा",
-        "B": "चंपारण, बिहार",
-        "C": "दांडी",
-        "D": "बारडोली"
+        "A": "E",
+        "B": "D",
+        "C": "B",
+        "D": "C"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Champaran, Bihar?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "The arrangement from left to right is E, A, C, B, D. E sits immediately to the left of A.",
+      "explanation_hi": "बायें से दायें क्रम: E, A, C, B, D बनता है। अतः A के ठीक बायीं ओर E बैठा है।"
     },
     {
       "id": 150,
       "questionNumber": 150,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which Article of the Indian Constitution guarantees the 'Right to Equality before the Law'?",
+      "question": "If 1st January of a non-leap year is a Sunday, what day of the week will 31st December of that same year be?",
+      "question_hi": "यदि किसी साधारण (गैर-लीप) वर्ष का 1 जनवरी रविवार है, तो उसी वर्ष का 31 दिसंबर सप्ताह का कौन सा दिन होगा?",
       "options": {
-        "A": "Article 14",
-        "B": "Article 19",
-        "C": "Article 21",
-        "D": "Article 32"
+        "A": "Sunday (रविवार)",
+        "B": "Monday (सोमवार)",
+        "C": "Saturday",
+        "D": "Tuesday"
+      },
+      "options_hi": {
+        "A": "रविवार (Sunday)",
+        "B": "सोमवार",
+        "C": "शनिवार",
+        "D": "मंगलवार"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Article 14**\n\n**Solution & Conceptual Rationale**:\nArticle 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "भारतीय संविधान का कौन सा अनुच्छेद 'कानून के समक्ष समानता का अधिकार' की गारंटी देता है?",
-      "options_hi": {
-        "A": "अनुच्छेद 14",
-        "B": "अनुच्छेद 19",
-        "C": "अनुच्छेद 21",
-        "D": "अनुच्छेद 32"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Article 14?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "A non-leap year has 365 days = 52 weeks + 1 day. The first day and the last day of a non-leap year are always identical (Sunday).",
+      "explanation_hi": "साधारण वर्ष (365 दिन) का पहला और आखिरी दिन हमेशा एक ही होता है, अतः 31 दिसंबर भी रविवार होगा।"
     }
-  ],
-  "category": "Predicted Mock",
-  "isOfficial": false
+  ]
 };

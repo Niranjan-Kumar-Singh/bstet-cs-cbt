@@ -13,7 +13,7 @@ window.BSTET_I18N = {
       mission_pill: "🔥 MISSION BSTET 2026",
       motivational_quote: '"Work hard in silence, let your success make the noise!"',
       hero_title: "BSTET Paper II (Computer Science) CBT Portal",
-      hero_subtitle: "Official Examination Simulator for Higher Secondary Teachers (Class 11-12 Code 226). Practice with 23 comprehensive mock papers (3,000+ questions) under authentic TCS iON CBT conditions with in-depth conceptual explanations.",
+      hero_subtitle: "Official Examination Simulator for Higher Secondary Teachers (Class 11-12 Code 226). Practice with 30 comprehensive mock papers (3,500+ questions including Sachin Academy PYQ Collection) under authentic TCS iON CBT conditions with in-depth conceptual explanations.",
       
       meta_subject: "Subject Knowledge",
       meta_subject_val: "100 Qs / 100 Marks",
@@ -26,10 +26,10 @@ window.BSTET_I18N = {
       meta_cutoff: "Qualifying Cutoff",
       meta_cutoff_val: "Gen 50% (75 Marks)",
 
-      filter_all: "All Mock Tests (23)",
-      filter_official: "Official PYQ Papers (5)",
+      filter_all: "All Mock Tests (30)",
+      filter_official: "Official PYQ Papers (10)",
       filter_predicted: "2026 Predicted Mock Sets (12)",
-      filter_drill: "Sectional & Topic Drills (6)",
+      filter_drill: "Sectional & Topic Drills (8)",
 
       start_cbt: "⚡ Start CBT Mock",
       practice_mode: "📖 Practice Mode",
@@ -134,7 +134,7 @@ window.BSTET_I18N = {
       mission_pill: "🔥 मिशन BSTET 2026",
       motivational_quote: '"मेहनत इतनी खामोशी से करो कि तुम्हारी सफलता शोर मचा दे!"',
       hero_title: "BSTET पेपर II (कंप्यूटर साइंस) CBT पोर्टल",
-      hero_subtitle: "उच्च माध्यमिक शिक्षक भर्ती (कक्षा 11-12, विषय कोड 226) हेतु आधिकारिक परीक्षा सिमुलेटर। 23 संपूर्ण मॉक पेपर्स (3,000+ प्रश्न) के साथ वास्तविक TCS iON CBT इंटरफ़ेस पर विस्तृत व्याख्या सहित अभ्यास करें।",
+      hero_subtitle: "उच्च माध्यमिक शिक्षक भर्ती (कक्षा 11-12, विषय कोड 226) हेतु आधिकारिक परीक्षा सिमुलेटर। 30 संपूर्ण मॉक पेपर्स (3,500+ प्रश्न जिसमें सचिन एकेडमी शिक्षण कला संग्रह शामिल है) के साथ वास्तविक TCS iON CBT इंटरफ़ेस पर विस्तृत व्याख्या सहित अभ्यास करें।",
 
       meta_subject: "विषय ज्ञान (कंप्यूटर साइंस)",
       meta_subject_val: "100 प्रश्न / 100 अंक",
@@ -147,10 +147,10 @@ window.BSTET_I18N = {
       meta_cutoff: "उत्तीर्ण कट-ऑफ",
       meta_cutoff_val: "सामान्य 50% (75 अंक)",
 
-      filter_all: "सभी मॉक टेस्ट (23)",
-      filter_official: "आधिकारिक पिछले वर्ष के प्रश्न (5)",
+      filter_all: "सभी मॉक टेस्ट (30)",
+      filter_official: "आधिकारिक पिछले वर्ष के प्रश्न (10)",
       filter_predicted: "2026 संभावित मॉक सेट्स (12)",
-      filter_drill: "विषयवार अभ्यास ड्रिल्स (6)",
+      filter_drill: "विषयवार अभ्यास ड्रिल्स (8)",
 
       start_cbt: "⚡ CBT टेस्ट शुरू करें",
       practice_mode: "📖 अभ्यास मोड",

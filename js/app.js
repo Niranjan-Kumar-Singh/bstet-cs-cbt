@@ -738,82 +738,91 @@ class App {
 
   /* ================= LOBBY RENDERING ================= */
   renderLobby() {
-    const cards = this.papersGrid ? this.papersGrid.querySelectorAll('.paper-card') : [];
     const catalog = window.PAPERS_CATALOG || [];
     const i18n = window.BSTET_I18N;
 
-    // Fast path: if static cards already exist in DOM, toggle visibility without triggering layout shift
-    if (cards.length > 0) {
-      cards.forEach(card => {
-        const cat = card.dataset.category;
-        let show = false;
-        if (this.currentFilter === 'all') show = true;
-        else if (this.currentFilter === 'official') show = (cat === 'Official PYQ');
-        else if (this.currentFilter === 'predicted') show = (cat === 'Predicted Mock');
-        else if (this.currentFilter === 'drill') show = (cat === 'Sectional Drill');
-        card.style.display = show ? 'flex' : 'none';
-      });
-      this.renderHistory();
-      return;
-    }
+    // Dynamically update filter tab badge counts
+    const allCount = catalog.length;
+    const officialCount = catalog.filter(p => p.category === 'Official PYQ').length;
+    const predictedCount = catalog.filter(p => p.category === 'Predicted Mock').length;
+    const drillCount = catalog.filter(p => p.category === 'Sectional Drill').length;
+
+    const tabAll = document.getElementById('tab-filter-all');
+    const tabOfficial = document.getElementById('tab-filter-official');
+    const tabPredicted = document.getElementById('tab-filter-predicted');
+    const tabDrill = document.getElementById('tab-filter-drill');
+
+    if (tabAll) tabAll.innerText = i18n ? i18n.t('filter_all') : `All Mock Tests (${allCount})`;
+    if (tabOfficial) tabOfficial.innerText = i18n ? i18n.t('filter_official') : `Official PYQ Papers (${officialCount})`;
+    if (tabPredicted) tabPredicted.innerText = i18n ? i18n.t('filter_predicted') : `2026 Predicted Mock Sets (${predictedCount})`;
+    if (tabDrill) tabDrill.innerText = i18n ? i18n.t('filter_drill') : `Sectional & Topic Drills (${drillCount})`;
 
     if (!this.papersGrid) return;
-    this.papersGrid.innerHTML = '';
+    const cards = this.papersGrid.querySelectorAll('.paper-card');
+    const existingIds = new Set(Array.from(cards).map(c => c.dataset.id));
+    const allCatalogCardsPresent = catalog.length > 0 && catalog.every(p => existingIds.has(p.id));
 
-    const filtered = catalog.filter(p => {
-      if (this.currentFilter === 'all') return true;
-      if (this.currentFilter === 'official') return p.category === 'Official PYQ';
-      if (this.currentFilter === 'predicted') return p.category === 'Predicted Mock';
-      if (this.currentFilter === 'drill') return p.category === 'Sectional Drill';
-      return true;
-    });
+    // If any catalog paper is missing from DOM, re-render cleanly
+    if (!allCatalogCardsPresent || cards.length === 0) {
+      this.papersGrid.innerHTML = '';
+      catalog.forEach(paper => {
+        const card = document.createElement('div');
+        card.className = 'paper-card';
+        card.dataset.id = paper.id;
+        card.dataset.category = paper.category;
+        const cbtLabel = i18n ? i18n.t('start_cbt') : '⚡ Start CBT Mock';
+        const practiceLabel = i18n ? i18n.t('practice_mode') : '📖 Practice Mode';
+        const qLabel = i18n ? i18n.t('questions_label') : 'Questions';
+        const mLabel = i18n ? i18n.t('marks_label') : 'Total Marks';
+        const dLabel = i18n ? i18n.t('duration_label') : 'Duration';
+        const minsWord = i18n ? i18n.t('mins') : 'Mins';
 
-    filtered.forEach(paper => {
-      const card = document.createElement('div');
-      card.className = 'paper-card';
-      card.dataset.id = paper.id;
-      card.dataset.category = paper.category;
-      const cbtLabel = i18n ? i18n.t('start_cbt') : '⚡ Start CBT Mock';
-      const practiceLabel = i18n ? i18n.t('practice_mode') : '📖 Practice Mode';
-      const qLabel = i18n ? i18n.t('questions_label') : 'Questions';
-      const mLabel = i18n ? i18n.t('marks_label') : 'Total Marks';
-      const dLabel = i18n ? i18n.t('duration_label') : 'Duration';
-      const minsWord = i18n ? i18n.t('mins') : 'Mins';
-
-      card.innerHTML = `
-        <div>
-          <div class="paper-header">
-            <span class="badge ${paper.badgeClass}">${paper.badge}</span>
-            <span style="font-size: 12px; font-weight: 600; color: var(--text-muted);">${paper.difficulty}</span>
-          </div>
-          <h3 class="paper-title">${paper.title}</h3>
-          <p class="paper-subtitle">${paper.subtitle}</p>
-          <div class="paper-stats-list">
-            <div class="stat-item">
-              <span class="label">${qLabel}</span>
-              <span class="val">${paper.totalQuestions} Qs</span>
+        card.innerHTML = `
+          <div>
+            <div class="paper-header">
+              <span class="badge ${paper.badgeClass}">${paper.badge}</span>
+              <span style="font-size: 12px; font-weight: 600; color: var(--text-muted);">${paper.difficulty}</span>
             </div>
-            <div class="stat-item">
-              <span class="label">${mLabel}</span>
-              <span class="val">${paper.totalMarks}</span>
-            </div>
-            <div class="stat-item">
-              <span class="label">${dLabel}</span>
-              <span class="val">${paper.durationMinutes} ${minsWord}</span>
+            <h3 class="paper-title">${paper.title}</h3>
+            <p class="paper-subtitle">${paper.subtitle}</p>
+            <div class="paper-stats-list">
+              <div class="stat-item">
+                <span class="label">${qLabel}</span>
+                <span class="val">${paper.totalQuestions} Qs</span>
+              </div>
+              <div class="stat-item">
+                <span class="label">${mLabel}</span>
+                <span class="val">${paper.totalMarks}</span>
+              </div>
+              <div class="stat-item">
+                <span class="label">${dLabel}</span>
+                <span class="val">${paper.durationMinutes} ${minsWord}</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="paper-card-actions">
-          <button class="btn btn-primary" data-action="cbt" data-id="${paper.id}">
-            ${cbtLabel}
-          </button>
-          <button class="btn btn-outline" data-action="practice" data-id="${paper.id}">
-            ${practiceLabel}
-          </button>
-        </div>
-      `;
+          <div class="paper-card-actions">
+            <button class="btn btn-primary" data-action="cbt" data-id="${paper.id}">
+              ${cbtLabel}
+            </button>
+            <button class="btn btn-outline" data-action="practice" data-id="${paper.id}">
+              ${practiceLabel}
+            </button>
+          </div>
+        `;
+        this.papersGrid.appendChild(card);
+      });
+    }
 
-      this.papersGrid.appendChild(card);
+    // Toggle card visibility based on active filter
+    const activeCards = this.papersGrid.querySelectorAll('.paper-card');
+    activeCards.forEach(card => {
+      const cat = card.dataset.category;
+      let show = false;
+      if (this.currentFilter === 'all') show = true;
+      else if (this.currentFilter === 'official') show = (cat === 'Official PYQ');
+      else if (this.currentFilter === 'predicted') show = (cat === 'Predicted Mock');
+      else if (this.currentFilter === 'drill') show = (cat === 'Sectional Drill');
+      card.style.display = show ? 'flex' : 'none';
     });
 
     this.renderHistory();
@@ -918,22 +927,52 @@ class App {
 
     if (!this._paperLoadPromises) this._paperLoadPromises = {};
     if (this._paperLoadPromises[meta.jsFile]) {
-      return this._paperLoadPromises[meta.jsFile];
+      return this._paperLoadPromises[meta.jsFile].then(() => resolveData());
     }
 
     this._paperLoadPromises[meta.jsFile] = new Promise((resolve, reject) => {
+      // Immediate check in case window variable appeared
+      const immediate = resolveData();
+      if (immediate) {
+        resolve(immediate);
+        return;
+      }
+
       const existingScript = document.querySelector(`script[data-paper-file="${meta.jsFile}"]`);
       if (existingScript) {
-        existingScript.addEventListener('load', () => resolve(resolveData()));
+        if (existingScript.dataset.loaded === 'true') {
+          resolve(resolveData());
+          return;
+        }
+        existingScript.addEventListener('load', () => {
+          existingScript.dataset.loaded = 'true';
+          resolve(resolveData());
+        });
         existingScript.addEventListener('error', (e) => reject(e));
+
+        // Fallback polling in case the script completed loading before listener was attached
+        let pollCount = 0;
+        const pollTimer = setInterval(() => {
+          const d = resolveData();
+          if (d) {
+            clearInterval(pollTimer);
+            existingScript.dataset.loaded = 'true';
+            resolve(d);
+          } else if (++pollCount > 50) { // 2.5s timeout
+            clearInterval(pollTimer);
+          }
+        }, 50);
         return;
       }
 
       const script = document.createElement('script');
-      script.src = `js/data/${meta.jsFile}?v=20261025_02`;
+      script.src = `js/data/${meta.jsFile}?v=20261028_sachin_v2`;
       script.async = true;
       script.dataset.paperFile = meta.jsFile;
-      script.onload = () => resolve(resolveData());
+      script.onload = () => {
+        script.dataset.loaded = 'true';
+        resolve(resolveData());
+      };
       script.onerror = (err) => {
         delete this._paperLoadPromises[meta.jsFile];
         reject(new Error(`Failed to load paper file: ${meta.jsFile}`));
@@ -941,7 +980,7 @@ class App {
       document.head.appendChild(script);
     });
 
-    return this._paperLoadPromises[meta.jsFile];
+    return this._paperLoadPromises[meta.jsFile].then(() => resolveData());
   }
 
   setupJustInTimePrefetch() {
@@ -1140,7 +1179,8 @@ class App {
 
     const qPrefix = (isHindi || isBoth) ? 'प्रश्न' : 'Question';
     const ofLabel = (isHindi || isBoth) ? '/' : 'of';
-    this.qNumberText.innerText = `${qPrefix} ${q.questionNumber} ${ofLabel} ${this.currentPaper.questions.length}`;
+    const qNum = this.engine.currentIndex + 1;
+    this.qNumberText.innerText = `${qPrefix} ${qNum} ${ofLabel} ${this.currentPaper.questions.length}`;
     
     // Topic translation
     this.qTopicTag.innerText = this.engine.getQuestionTopic(q);
@@ -1223,10 +1263,11 @@ class App {
       const btn = document.createElement('button');
       const status = this.engine.statuses[q.id] || 'not-visited';
       const isCurrent = idx === this.engine.currentIndex;
+      const qNum = idx + 1;
 
       btn.className = `palette-btn status-${status} ${isCurrent ? 'current' : ''}`;
-      btn.innerText = q.questionNumber;
-      btn.title = `Q${q.questionNumber}: ${status.replace('-', ' ')}`;
+      btn.innerText = qNum;
+      btn.title = `Q${qNum}: ${status.replace('-', ' ')}`;
 
       btn.addEventListener('click', () => {
         this.engine.jumpToQuestion(idx);
@@ -1311,7 +1352,7 @@ class App {
   /* ================= QUESTION PAPER PREVIEW MODAL ================= */
   openQuestionPaperModal() {
     if (!this.currentPaper) return;
-    this.qpModalBody.innerHTML = this.currentPaper.questions.map(q => {
+    this.qpModalBody.innerHTML = this.currentPaper.questions.map((q, idx) => {
       const statement = this.engine.getQuestionStatement(q);
       const optA = this.engine.getOptionText(q, 'A');
       const optB = this.engine.getOptionText(q, 'B');
@@ -1321,7 +1362,7 @@ class App {
       return `
         <div style="padding: 16px 0; border-bottom: 1px solid var(--border-subtle);">
           <p style="font-weight: 700; color: var(--text-primary); margin-bottom: 8px;">
-            Q.${q.questionNumber} ${statement}
+            Q.${idx + 1} ${statement}
           </p>
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 13px; color: var(--text-secondary);">
             <div>(A) ${optA}</div>
@@ -1696,11 +1737,14 @@ class App {
     } else if (tabName === 'author') {
       this.legalModalBody.innerHTML = `
         <h4 style="color:var(--text-primary); margin-bottom: 8px;">About the Developer</h4>
-        <div style="display:flex; gap:16px; align-items:center; margin-bottom:14px;">
-          <div style="width:60px; height:60px; border-radius:50%; background:linear-gradient(135deg,#2563eb,#8b5cf6); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:22px;">NK</div>
+        <div style="display:flex; gap:18px; align-items:center; margin-bottom:16px;">
+          <picture>
+            <source srcset="images/developer-avatar.webp" type="image/webp">
+            <img src="images/developer-avatar.png" alt="Niranjan Kumar Singh" width="72" height="72" style="width:72px; height:72px; border-radius:50%; object-fit:cover; border:2.5px solid var(--primary); box-shadow:0 4px 14px rgba(37,99,235,0.28);">
+          </picture>
           <div>
-            <h5 style="font-size:18px; margin:0 0 2px 0; color:var(--text-primary);">Niranjan Kumar Singh</h5>
-            <span style="font-size:13px; color:var(--primary); font-weight:700;">Full-Stack Engineer & EdTech System Architect</span>
+            <h5 style="font-size:19px; font-weight:800; margin:0 0 3px 0; color:var(--text-primary);">Niranjan Kumar Singh</h5>
+            <span style="font-size:13px; color:var(--primary); font-weight:700;">Lead Software Engineer &amp; EdTech CBT System Architect</span>
           </div>
         </div>
         <p>Niranjan Kumar Singh is a passionate software engineer specializing in high-performance web applications, interactive examination state machines, and educational tools.</p>

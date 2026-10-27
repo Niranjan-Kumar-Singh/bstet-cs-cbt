@@ -2,7 +2,7 @@
 window.predicted_set4 = {
   "id": "predicted_set4",
   "title": "2026 Predicted Full Mock 4",
-  "subtitle": "Full Exam Speed & Accuracy Simulation Test",
+  "subtitle": "Modern Computing: Web Technologies, Object-Oriented Design & Software Engineering",
   "totalQuestions": 150,
   "totalMarks": 150,
   "durationMinutes": 150,
@@ -34,3903 +34,3901 @@ window.predicted_set4 = {
       "id": 1,
       "questionNumber": 1,
       "section": "Computer Science",
-      "topic": "Algorithms",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which algorithm finds the shortest path between all pairs of vertices in a weighted graph in O(V³) time?",
+      "question": "Which logic gate is known as an 'Inverter'?",
+      "question_hi": "किस लॉजिक गेट को 'इन्वर्टर' कहा जाता है?",
       "options": {
-        "A": "Dijkstra's Algorithm",
-        "B": "Bellman-Ford Algorithm",
-        "C": "Floyd-Warshall Algorithm",
-        "D": "Kruskal's Algorithm"
+        "A": "NOT Gate",
+        "B": "AND Gate",
+        "C": "OR Gate",
+        "D": "NAND Gate"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Floyd-Warshall Algorithm**\n\n**Theoretical Analysis & Rule**:\nThe Floyd-Warshall algorithm uses dynamic programming to compute the all-pairs shortest paths in a directed weighted graph with time complexity Θ(V³).",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-      "question_hi": "कौन सा एल्गोरिदम O(V³) समय में भारित ग्राफ़ में शीर्षों के सभी जोड़े के बीच सबसे छोटा रास्ता ढूंढता है?",
       "options_hi": {
-        "A": "डिज्क्स्ट्रा का एल्गोरिदम",
-        "B": "Bellman-Ford Algorithm",
-        "C": "Floyd-Warshall Algorithm",
-        "D": "क्रुस्कल का एल्गोरिदम"
+        "A": "NOT गेट",
+        "B": "AND गेट",
+        "C": "OR गेट",
+        "D": "NAND गेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Floyd-Warshall Algorithm?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "A NOT gate inverts the logic state: output = input'.",
+      "explanation_hi": "NOT गेट इनपुट को उलट देता है: आउटपुट = इनपुट'।"
     },
     {
       "id": 2,
       "questionNumber": 2,
       "section": "Computer Science",
-      "topic": "Algorithms",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which type of search algorithm always expands the lowest cost leaf node first where cost is f(n) = g(n) + h(n)?",
+      "question": "Which Boolean law states that A + B = B + A and A · B = B · A?",
+      "question_hi": "कौन सा बूलियन नियम बताता है कि A + B = B + A और A · B = B · A?",
       "options": {
-        "A": "Greedy Best-First Search",
-        "B": "A* Search",
-        "C": "Depth First Search",
-        "D": "Breadth First Search"
+        "A": "Commutative Law",
+        "B": "Associative Law",
+        "C": "Distributive Law",
+        "D": "Idempotent Law"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) A* Search**\n\n**Theoretical Analysis & Rule**:\nA* search evaluates nodes by combining g(n) (cost from start to current node) and h(n) (estimated heuristic cost from current node to goal).",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-      "question_hi": "किस प्रकार का खोज एल्गोरिदम हमेशा सबसे कम लागत वाले लीफ नोड को पहले विस्तारित करता है जहां लागत f(n) = g(n) + h(n) है?",
       "options_hi": {
-        "A": "लालची सर्वोत्तम-प्रथम खोज",
-        "B": "ए* खोजें",
-        "C": "गहराई-प्रथम खोज (DFS)",
-        "D": "चौड़ाई-प्रथम खोज (BFS)"
+        "A": "क्रमविनिमेय नियम (Commutative Law)",
+        "B": "साहचर्य नियम",
+        "C": "वितरण नियम",
+        "D": "वर्गसम नियम"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) A* Search?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "The Commutative Law states that the order of operands does not affect the logical result.",
+      "explanation_hi": "क्रमविनिमेय नियम के अनुसार ऑपरेंड्स का क्रम बदलने पर परिणाम नहीं बदलता।"
     },
     {
       "id": 3,
       "questionNumber": 3,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the phenomenon where adding more page frames to a process increases the number of page faults called?",
+      "question": "What is the dual of the Boolean expression A + 0 = A?",
+      "question_hi": "बूलियन व्यंजक A + 0 = A का द्वैत (Dual) क्या है?",
       "options": {
-        "A": "Thrashing",
-        "B": "Belady's Anomaly",
-        "C": "Fragmentation",
-        "D": "Starvation"
+        "A": "A · 1 = A",
+        "B": "A · 0 = 0",
+        "C": "A + 1 = 1",
+        "D": "A' + 0 = A'"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Belady's Anomaly**\n\n**Theoretical Analysis & Rule**:\nBelady's Anomaly occurs primarily in FIFO page replacement, where increasing the number of allocated physical frames leads to an increased number of page faults for certain reference strings.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "What is the phenomenon where adding more page frames to a process बढ़ता है (Increases) the number of पेज फॉल्ट (Page Fault)s called?",
       "options_hi": {
-        "A": "थ्रैशिंग (Thrashing)",
-        "B": "बेलाडी की विसंगति",
-        "C": "विखंडन",
-        "D": "भुखमरी"
+        "A": "A · 1 = A",
+        "B": "A · 0 = 0",
+        "C": "A + 1 = 1",
+        "D": "A' + 0 = A'"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Belady's Anomaly?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Duality principle: Replace + with ·, · with +, 0 with 1, and 1 with 0. Thus A + 0 = A becomes A · 1 = A.",
+      "explanation_hi": "द्वैत सिद्धांत: + को · से, · को + से, 0 को 1 से और 1 को 0 से बदलें। अतः A · 1 = A होगा।"
     },
     {
       "id": 4,
       "questionNumber": 4,
       "section": "Computer Science",
       "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "How many select lines are required for a 64-to-1 Multiplexer (MUX)?",
+      "question": "How many inputs does a Full Subtractor have?",
+      "question_hi": "एक फुल सबट्रैक्टर में कितने इनपुट होते हैं?",
       "options": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "8"
+        "A": "3 inputs (Minuend, Subtrahend, Borrow-In)",
+        "B": "2 inputs",
+        "C": "4 inputs",
+        "D": "1 input"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "64-टू-1 मल्टीप्लेक्सर (एमयूएक्स) के लिए कितनी चुनिंदा लाइनें आवश्यक हैं?",
       "options_hi": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "8"
+        "A": "3 इनपुट (Minuend, Subtrahend, Borrow-In)",
+        "B": "2 इनपुट",
+        "C": "4 इनपुट",
+        "D": "1 इनपुट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "A Full Subtractor accepts three inputs: Minuend (A), Subtrahend (B), and previous Borrow (B_in).",
+      "explanation_hi": "फुल सबट्रैक्टर में 3 इनपुट होते हैं: A, B और पिछली बोरो (Borrow)।"
     },
     {
       "id": 5,
       "questionNumber": 5,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the maximum theoretical throughput efficiency of Pure ALOHA?",
+      "question": "Which flip-flop eliminates the invalid state of the S-R flip-flop by connecting an inverter between S and R?",
+      "question_hi": "S और R के बीच एक इन्वर्टर जोड़कर S-R फ्लिप-फ्लॉप की अमान्य स्थिति को कौन सा फ्लिप-फ्लॉप समाप्त करता है?",
       "options": {
-        "A": "18.4%",
-        "B": "36.8%",
-        "C": "50%",
-        "D": "100%"
+        "A": "D Flip-Flop",
+        "B": "T Flip-Flop",
+        "C": "JK Flip-Flop",
+        "D": "Master-Slave Flip-Flop"
+      },
+      "options_hi": {
+        "A": "D फ्लिप-फ्लॉप",
+        "B": "T फ्लिप-फ्लॉप",
+        "C": "JK फ्लिप-फ्लॉप",
+        "D": "मास्टर-स्लेव फ्लिप-फ्लॉप"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 18.4%**\n\n**Theoretical Analysis & Rule**:\nPure ALOHA maximum efficiency = 1 / (2e) ≈ 18.4% (at G = 0.5). Slotted ALOHA doubles this efficiency to 1 / e ≈ 36.8% (at G = 1.0).",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "शुद्ध ALOHA की अधिकतम सैद्धांतिक थ्रूपुट दक्षता क्या है?",
-      "options_hi": {
-        "A": "18.4%",
-        "B": "36.8%",
-        "C": "50%",
-        "D": "100%"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 18.4%?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "A D flip-flop ties R = S', preventing S=R=1 from ever occurring.",
+      "explanation_hi": "D फ्लिप-फ्लॉप में R = S' होता है, जिससे S=1 और R=1 की स्थिति कभी नहीं आ सकती।"
     },
     {
       "id": 6,
       "questionNumber": 6,
       "section": "Computer Science",
       "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the maximum addressable memory capacity of a CPU with a 32-bit address bus and byte-addressable architecture?",
+      "question": "Calculate AMAT for a system with Hit Time = 1 ns, Miss Rate = 2%, and Miss Penalty = 40 ns.",
+      "question_hi": "हिट टाइम = 1 ns, मिस दर = 2%, और मिस पेनल्टी = 40 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "1 GB",
-        "B": "2 GB",
-        "C": "4 GB",
-        "D": "8 GB"
+        "A": "1.8 ns",
+        "B": "2.52 ns",
+        "C": "1.08 ns",
+        "D": "5.80 ns"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 4 GB**\n\n**Theoretical Analysis & Rule**:\nA 32-bit address bus can generate 2³² unique addresses. With byte addressability (1 byte per address), total addressable space = 2³² bytes = 4,294,967,296 bytes = 4 GB.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "32-बिट एड्रेस बस और बाइट-एड्रेसेबल आर्किटेक्चर वाले सीपीयू की अधिकतम एड्रेसेबल मेमोरी क्षमता क्या है?",
       "options_hi": {
-        "A": "1 जीबी",
-        "B": "2 जीबी",
-        "C": "4 जीबी",
-        "D": "8 जीबी"
+        "A": "1.8 ns",
+        "B": "2.52 ns",
+        "C": "1.08 ns",
+        "D": "5.80 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 4 GB?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 1 + (0.02 * 40) = 1.8 ns.",
+      "explanation_hi": "AMAT = 1 + (0.02 * 40) = 1.8 ns।"
     },
     {
       "id": 7,
       "questionNumber": 7,
       "section": "Computer Science",
-      "topic": "Software Engineering",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What type of testing tests whether recent code changes have caused unintended side effects in existing functionality?",
+      "question": "Calculate AMAT for a system with Hit Time = 1 ns, Miss Rate = 2%, and Miss Penalty = 60 ns.",
+      "question_hi": "हिट टाइम = 1 ns, मिस दर = 2%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "Unit Testing",
-        "B": "Regression Testing",
-        "C": "Alpha Testing",
-        "D": "Stress Testing"
+        "A": "2.2 ns",
+        "B": "3.08 ns",
+        "C": "1.32 ns",
+        "D": "6.20 ns"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Regression Testing**\n\n**Theoretical Analysis & Rule**:\nRegression testing reruns existing test suites after bug fixes or modifications to confirm that unchanged features continue to function properly.",
-      "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What type of testing tests whether recent code changes have caused unintended side effects in existing functionality के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "इकाई परीक्षण",
-        "B": "Regression Testing",
-        "C": "अल्फ़ा परीक्षण",
-        "D": "तनाव परीक्षण"
+        "A": "2.2 ns",
+        "B": "3.08 ns",
+        "C": "1.32 ns",
+        "D": "6.20 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Regression Testing?**\n\n**विषय अवधारणा (सॉफ्टवेयर इंजीनियरिंग)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 1 + (0.02 * 60) = 2.2 ns.",
+      "explanation_hi": "AMAT = 1 + (0.02 * 60) = 2.2 ns।"
     },
     {
       "id": 8,
       "questionNumber": 8,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a row-major 2D array A[1..M, 1..N] stored starting at base address B with element size S, what is the address formula for element A[i, j]?",
+      "question": "Calculate AMAT for a system with Hit Time = 1 ns, Miss Rate = 5%, and Miss Penalty = 40 ns.",
+      "question_hi": "हिट टाइम = 1 ns, मिस दर = 5%, और मिस पेनल्टी = 40 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "B + [(i - 1) * N + (j - 1)] * S",
-        "B": "B + [(j - 1) * M + (i - 1)] * S",
-        "C": "B + [i * N + j] * S",
-        "D": "B + [(i - 1) + (j - 1) * N] * S"
+        "A": "3.0 ns",
+        "B": "4.20 ns",
+        "C": "1.80 ns",
+        "D": "7.00 ns"
+      },
+      "options_hi": {
+        "A": "3.0 ns",
+        "B": "4.20 ns",
+        "C": "1.80 ns",
+        "D": "7.00 ns"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) B + [(i - 1) * N + (j - 1)] * S**\n\n**Theoretical Analysis & Rule**:\nIn row-major order, rows are placed contiguously in memory. To reach row i, you skip (i - 1) complete rows of N elements each, and then move (j - 1) elements into row i. Hence: Address = Base + [((i - 1) * N) + (j - 1)] * S.",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "पंक्ति-प्रमुख 2D सरणी A[1..M, 1..N] में तत्व आकार S के साथ आधार पता B से शुरू करके संग्रहीत किया जाता है, तत्व A[i, j] के लिए पता सूत्र क्या है?",
-      "options_hi": {
-        "A": "बी + [(आई - 1) * एन + (जे - 1)] * एस",
-        "B": "बी + [(जे - 1) * एम + (आई - 1)] * एस",
-        "C": "बी + [आई * एन + जे] * एस",
-        "D": "बी + [(आई - 1) + (जे - 1) * एन] * एस"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) B + [(i - 1) * N + (j - 1)] * S?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "AMAT = 1 + (0.05 * 40) = 3.0 ns.",
+      "explanation_hi": "AMAT = 1 + (0.05 * 40) = 3.0 ns।"
     },
     {
       "id": 9,
       "questionNumber": 9,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In XML, an XML document that conforms strictly to its associated DTD or XML Schema is said to be:",
+      "question": "Calculate AMAT for a system with Hit Time = 1 ns, Miss Rate = 5%, and Miss Penalty = 60 ns.",
+      "question_hi": "हिट टाइम = 1 ns, मिस दर = 5%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "Well-Formed",
-        "B": "Valid",
-        "C": "Normalized",
-        "D": "Parsed"
+        "A": "4.0 ns",
+        "B": "5.60 ns",
+        "C": "2.40 ns",
+        "D": "8.00 ns"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Valid**\n\n**Theoretical Analysis & Rule**:\nAn XML document with correct syntax is 'Well-Formed'. If it additionally conforms to the rules, elements, and attributes specified in its DTD or Schema, it is 'Valid'.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "XML में, एक XML दस्तावेज़ जो अपने संबंधित DTD या XML स्कीमा के अनुरूप होता है, उसे कहा जाता है:",
       "options_hi": {
-        "A": "सुडौल",
-        "B": "वैध",
-        "C": "सामान्यीकृत",
-        "D": "Parsed"
+        "A": "4.0 ns",
+        "B": "5.60 ns",
+        "C": "2.40 ns",
+        "D": "8.00 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Valid?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 1 + (0.05 * 60) = 4.0 ns.",
+      "explanation_hi": "AMAT = 1 + (0.05 * 60) = 4.0 ns।"
     },
     {
       "id": 10,
       "questionNumber": 10,
       "section": "Computer Science",
-      "topic": "Algorithms",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the solution of the recurrence relation T(n) = 2T(n/2) + n by Master Theorem?",
+      "question": "Calculate AMAT for a system with Hit Time = 1 ns, Miss Rate = 8%, and Miss Penalty = 40 ns.",
+      "question_hi": "हिट टाइम = 1 ns, मिस दर = 8%, और मिस पेनल्टी = 40 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "Θ(n)",
-        "B": "Θ(n log n)",
-        "C": "Θ(n²)",
-        "D": "Θ(log n)"
+        "A": "4.2 ns",
+        "B": "5.88 ns",
+        "C": "2.52 ns",
+        "D": "8.20 ns"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Θ(n log n)**\n\n**Theoretical Analysis & Rule**:\nFor T(n) = aT(n/b) + f(n): a = 2, b = 2, f(n) = n. Here n^(log_b(a)) = n^(log₂2) = n¹. Since f(n) = Θ(n^(log_b(a))), Case 2 of Master Theorem applies: T(n) = Θ(n log n) (Merge Sort recurrence).",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-      "question_hi": "मास्टर प्रमेय द्वारा पुनरावृत्ति संबंध T(n) = 2T(n/2) + n का समाधान क्या है?",
       "options_hi": {
-        "A": "Θ(एन)",
-        "B": "Θ(एन लॉग एन)",
-        "C": "Θ(n²)",
-        "D": "Θ(लॉग एन)"
+        "A": "4.2 ns",
+        "B": "5.88 ns",
+        "C": "2.52 ns",
+        "D": "8.20 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Θ(n log n)?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 1 + (0.08 * 40) = 4.2 ns.",
+      "explanation_hi": "AMAT = 1 + (0.08 * 40) = 4.2 ns।"
     },
     {
       "id": 11,
       "questionNumber": 11,
       "section": "Computer Science",
       "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In First-Order Predicate Logic, which inference rule derives C from premises (A ∨ B) and (¬A ∨ C)?",
+      "question": "Calculate AMAT for a system with Hit Time = 1 ns, Miss Rate = 8%, and Miss Penalty = 60 ns.",
+      "question_hi": "हिट टाइम = 1 ns, मिस दर = 8%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "Modus Ponens",
-        "B": "Resolution",
-        "C": "Universal Instantiation",
-        "D": "Unification"
+        "A": "5.8 ns",
+        "B": "8.12 ns",
+        "C": "3.48 ns",
+        "D": "9.80 ns"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Resolution**\n\n**Theoretical Analysis & Rule**:\nResolution refutation states: (A ∨ B) and (¬A ∨ C) yields the resolvent (B ∨ C). If B is false, it yields C.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "प्रथम-क्रम विधेय तर्क में, कौन सा अनुमान नियम C को परिसर (A ∨ B) और (¬A ∨ C) से प्राप्त करता है?",
       "options_hi": {
-        "A": "मोडस पोनेन्स",
-        "B": "संकल्प",
-        "C": "सार्वभौमिक तात्कालिकता",
-        "D": "एकीकरण"
+        "A": "5.8 ns",
+        "B": "8.12 ns",
+        "C": "3.48 ns",
+        "D": "9.80 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Resolution?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 1 + (0.08 * 60) = 5.8 ns.",
+      "explanation_hi": "AMAT = 1 + (0.08 * 60) = 5.8 ns।"
     },
     {
       "id": 12,
       "questionNumber": 12,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In paging memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "question": "Calculate AMAT for a system with Hit Time = 1 ns, Miss Rate = 10%, and Miss Penalty = 40 ns.",
+      "question_hi": "हिट टाइम = 1 ns, मिस दर = 10%, और मिस पेनल्टी = 40 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "On the hard disk",
-        "B": "In main memory RAM",
-        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache",
-        "D": "In secondary optical storage"
+        "A": "5.0 ns",
+        "B": "7.00 ns",
+        "C": "3.00 ns",
+        "D": "9.00 ns"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "पेजिंग मेमोरी प्रबंधन में, ट्रांसलेशन लुकसाइड बफ़र (टीएलबी) कहाँ स्थित है?",
       "options_hi": {
-        "A": "हार्ड डिस्क पर",
-        "B": "मुख्य मेमोरी में RAM",
-        "C": "सीपीयू मेमोरी मैनेजमेंट यूनिट (एमएमयू) हार्डवेयर कैश के अंदर",
-        "D": "सेकेंडरी ऑप्टिकल स्टोरेज में"
+        "A": "5.0 ns",
+        "B": "7.00 ns",
+        "C": "3.00 ns",
+        "D": "9.00 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 1 + (0.1 * 40) = 5.0 ns.",
+      "explanation_hi": "AMAT = 1 + (0.1 * 40) = 5.0 ns।"
     },
     {
       "id": 13,
       "questionNumber": 13,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the simplified expression for the Boolean function F(A, B, C) = Σm(1, 3, 5, 7) using Boolean algebra or K-Map?",
+      "question": "Calculate AMAT for a system with Hit Time = 1 ns, Miss Rate = 10%, and Miss Penalty = 60 ns.",
+      "question_hi": "हिट टाइम = 1 ns, मिस दर = 10%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "A'B'"
+        "A": "7.0 ns",
+        "B": "9.80 ns",
+        "C": "4.20 ns",
+        "D": "11.00 ns"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) C**\n\n**Theoretical Analysis & Rule**:\nMinterms 1 (001), 3 (011), 5 (101), 7 (111) group into a 4-cell quad in a 3-variable K-Map. In these terms, A and B both vary (0 and 1), while C is constant at 1. Hence, the minimized SOP term is C.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "बूलियन बीजगणित या K-मैप का उपयोग करके बूलियन फ़ंक्शन F(A, B, C) = Σm(1, 3, 5, 7) के लिए सरलीकृत अभिव्यक्ति क्या है?",
       "options_hi": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "ए'बी'"
+        "A": "7.0 ns",
+        "B": "9.80 ns",
+        "C": "4.20 ns",
+        "D": "11.00 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) C?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 1 + (0.1 * 60) = 7.0 ns.",
+      "explanation_hi": "AMAT = 1 + (0.1 * 60) = 7.0 ns।"
     },
     {
       "id": 14,
       "questionNumber": 14,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary purpose of the Foreign Key in a relational table?",
+      "question": "Calculate AMAT for a system with Hit Time = 2 ns, Miss Rate = 2%, and Miss Penalty = 40 ns.",
+      "question_hi": "हिट टाइम = 2 ns, मिस दर = 2%, और मिस पेनल्टी = 40 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "To ensure unique values in the current table",
-        "B": "To establish referential integrity between two related tables",
-        "C": "To prevent NULL values in a column",
-        "D": "To speed up query sort orders"
+        "A": "2.8 ns",
+        "B": "3.92 ns",
+        "C": "1.68 ns",
+        "D": "6.80 ns"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) To establish referential integrity between two related tables**\n\n**Theoretical Analysis & Rule**:\nA Foreign Key points to the Primary Key of another table, ensuring Referential Integrity by restricting insertions or deletions that would create orphan records.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "संबंधपरक तालिका में विदेशी कुंजी का प्राथमिक उद्देश्य क्या है?",
       "options_hi": {
-        "A": "वर्तमान तालिका में अद्वितीय मान सुनिश्चित करने के लिए",
-        "B": "दो संबंधित तालिकाओं के बीच संदर्भात्मक अखंडता स्थापित करना",
-        "C": "किसी कॉलम में NULL मानों को रोकने के लिए",
-        "D": "क्वेरी सॉर्ट ऑर्डर को तेज़ करने के लिए"
+        "A": "2.8 ns",
+        "B": "3.92 ns",
+        "C": "1.68 ns",
+        "D": "6.80 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) To establish referential integrity between two related tables?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 2 + (0.02 * 40) = 2.8 ns.",
+      "explanation_hi": "AMAT = 2 + (0.02 * 40) = 2.8 ns।"
     },
     {
       "id": 15,
       "questionNumber": 15,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a programmable logic array (PLA), which gate arrays are programmable?",
+      "question": "Calculate AMAT for a system with Hit Time = 2 ns, Miss Rate = 2%, and Miss Penalty = 60 ns.",
+      "question_hi": "हिट टाइम = 2 ns, मिस दर = 2%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "AND array is fixed, OR array is programmable",
-        "B": "Both AND array and OR array are programmable",
-        "C": "AND array is programmable, OR array is fixed",
-        "D": "Neither array is programmable"
+        "A": "3.2 ns",
+        "B": "4.48 ns",
+        "C": "1.92 ns",
+        "D": "7.20 ns"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Both AND array and OR array are programmable**\n\n**Theoretical Analysis & Rule**:\nIn a PLA, BOTH the AND array and the OR array are programmable. (In a PAL, the AND array is programmable while the OR array is fixed; in a PROM, the AND array is fixed while the OR array is programmable).",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "प्रोग्रामयोग्य लॉजिक ऐरे (PLA) में, कौन से गेट ऐरे प्रोग्रामयोग्य हैं?",
       "options_hi": {
-        "A": "और ऐरे निश्चित है, या ऐरे प्रोग्रामयोग्य है",
-        "B": "AND ऐरे और OR ऐरे दोनों प्रोग्रामयोग्य हैं",
-        "C": "और ऐरे प्रोग्रामयोग्य है, या ऐरे निश्चित है",
-        "D": "कोई भी ऐरे प्रोग्राम करने योग्य नहीं है"
+        "A": "3.2 ns",
+        "B": "4.48 ns",
+        "C": "1.92 ns",
+        "D": "7.20 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Both AND ऐरे (Array) and OR ऐरे (Array) are programmable?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 2 + (0.02 * 60) = 3.2 ns.",
+      "explanation_hi": "AMAT = 2 + (0.02 * 60) = 3.2 ns।"
     },
     {
       "id": 16,
       "questionNumber": 16,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which level of coupling is considered the MOST desirable (weakest/cleanest) in structured software design?",
+      "question": "Calculate AMAT for a system with Hit Time = 2 ns, Miss Rate = 5%, and Miss Penalty = 40 ns.",
+      "question_hi": "हिट टाइम = 2 ns, मिस दर = 5%, और मिस पेनल्टी = 40 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "Content Coupling",
-        "B": "Common Coupling",
-        "C": "Control Coupling",
-        "D": "Data Coupling"
+        "A": "4.0 ns",
+        "B": "5.60 ns",
+        "C": "2.40 ns",
+        "D": "8.00 ns"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Data Coupling**\n\n**Theoretical Analysis & Rule**:\nGood software engineering strives for Low Coupling and High Cohesion. Data Coupling (modules share only simple data parameters) is the cleanest, least dependent coupling.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "संरचित सॉफ़्टवेयर डिज़ाइन में युग्मन के किस स्तर को सर्वाधिक वांछनीय (सबसे कमज़ोर/सबसे साफ़) माना जाता है?",
       "options_hi": {
-        "A": "सामग्री युग्मन",
-        "B": "सामान्य युग्मन",
-        "C": "युग्मन को नियंत्रित करें",
-        "D": "डेटा युग्मन"
+        "A": "4.0 ns",
+        "B": "5.60 ns",
+        "C": "2.40 ns",
+        "D": "8.00 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Data Coupling?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 2 + (0.05 * 40) = 4.0 ns.",
+      "explanation_hi": "AMAT = 2 + (0.05 * 40) = 4.0 ns।"
     },
     {
       "id": 17,
       "questionNumber": 17,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Excess-3 code representation of the decimal digit 7?",
+      "question": "Calculate AMAT for a system with Hit Time = 2 ns, Miss Rate = 5%, and Miss Penalty = 60 ns.",
+      "question_hi": "हिट टाइम = 2 ns, मिस दर = 5%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "0111",
-        "B": "1010",
-        "C": "1001",
-        "D": "0100"
+        "A": "5.0 ns",
+        "B": "7.00 ns",
+        "C": "3.00 ns",
+        "D": "9.00 ns"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) 1010**\n\n**Theoretical Analysis & Rule**:\nExcess-3 code is obtained by adding 3 (0011) to the decimal value: 7 + 3 = 10, which in 4-bit binary is 1010.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "दशमलव अंक 7 का अतिरिक्त-3 कोड प्रतिनिधित्व क्या है?",
       "options_hi": {
-        "A": "0111",
-        "B": "1010",
-        "C": "1001",
-        "D": "0100"
+        "A": "5.0 ns",
+        "B": "7.00 ns",
+        "C": "3.00 ns",
+        "D": "9.00 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 1010?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 2 + (0.05 * 60) = 5.0 ns.",
+      "explanation_hi": "AMAT = 2 + (0.05 * 60) = 5.0 ns।"
     },
     {
       "id": 18,
       "questionNumber": 18,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which PHP function is used to establish a connection to a MySQL database?",
+      "question": "Calculate AMAT for a system with Hit Time = 2 ns, Miss Rate = 8%, and Miss Penalty = 40 ns.",
+      "question_hi": "हिट टाइम = 2 ns, मिस दर = 8%, और मिस पेनल्टी = 40 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "mysql_open()",
-        "B": "mysqli_connect()",
-        "C": "db_connect()",
-        "D": "sql_link()"
+        "A": "5.2 ns",
+        "B": "7.28 ns",
+        "C": "3.12 ns",
+        "D": "9.20 ns"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) mysqli_connect()**\n\n**Theoretical Analysis & Rule**:\nmysqli_connect(host, user, password, dbname) is standard PHP function used to open a connection to a MySQL database server.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "MySQL डेटाबेस से कनेक्शन स्थापित करने के लिए किस PHP फ़ंक्शन का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "mysql_open()",
-        "B": "mysqli_connect()",
-        "C": "db_कनेक्ट()",
-        "D": "sql_link()"
+        "A": "5.2 ns",
+        "B": "7.28 ns",
+        "C": "3.12 ns",
+        "D": "9.20 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) mysqli_connect()?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 2 + (0.08 * 40) = 5.2 ns.",
+      "explanation_hi": "AMAT = 2 + (0.08 * 40) = 5.2 ns।"
     },
     {
       "id": 19,
       "questionNumber": 19,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a hash table of size 10 using open addressing with linear probing and hash function h(k) = k mod 10, where will key 42 be placed if keys 12, 22, and 32 are already inserted?",
+      "question": "Calculate AMAT for a system with Hit Time = 2 ns, Miss Rate = 8%, and Miss Penalty = 60 ns.",
+      "question_hi": "हिट टाइम = 2 ns, मिस दर = 8%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "Index 2",
-        "B": "Index 3",
-        "C": "Index 4",
-        "D": "Index 5"
+        "A": "6.8 ns",
+        "B": "9.52 ns",
+        "C": "4.08 ns",
+        "D": "10.80 ns"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Index 5**\n\n**Theoretical Analysis & Rule**:\nh(12)=2 (stored at 2); h(22)=2 -> collision -> stored at 3; h(32)=2 -> collisions at 2, 3 -> stored at 4; h(42)=2 -> collisions at 2, 3, 4 -> stored at index 5.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "लीनियर प्रोबिंग और हैश फ़ंक्शन h(k) = k mod 10 के साथ ओपन एड्रेसिंग का उपयोग करते हुए आकार 10 की हैश तालिका में, यदि कुंजी 12, 22 और 32 पहले से ही डाली गई हैं तो कुंजी 42 कहाँ रखी जाएगी?",
       "options_hi": {
-        "A": "सूचकांक 2",
-        "B": "Index 3",
-        "C": "सूचकांक 4",
-        "D": "सूचकांक 5"
+        "A": "6.8 ns",
+        "B": "9.52 ns",
+        "C": "4.08 ns",
+        "D": "10.80 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Index 5?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 2 + (0.08 * 60) = 6.8 ns.",
+      "explanation_hi": "AMAT = 2 + (0.08 * 60) = 6.8 ns।"
     },
     {
       "id": 20,
       "questionNumber": 20,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
+      "question": "Calculate AMAT for a system with Hit Time = 2 ns, Miss Rate = 10%, and Miss Penalty = 40 ns.",
+      "question_hi": "हिट टाइम = 2 ns, मिस दर = 10%, और मिस पेनल्टी = 40 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "RESTful Web APIs and JSON",
-        "B": "Raw binary serial ports",
-        "C": "Assembly instructions",
-        "D": "Modem dial-ups"
+        "A": "6.0 ns",
+        "B": "8.40 ns",
+        "C": "3.60 ns",
+        "D": "10.00 ns"
+      },
+      "options_hi": {
+        "A": "6.0 ns",
+        "B": "8.40 ns",
+        "C": "3.60 ns",
+        "D": "10.00 ns"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "वेब ऑफ थिंग्स (डब्ल्यूओटी) में, स्मार्ट भौतिक उपकरणों को मुख्य रूप से मानक वेब प्रौद्योगिकियों का उपयोग करके प्रदर्शित और नियंत्रित किया जाता है:",
-      "options_hi": {
-        "A": "रेस्टफुल वेब एपीआई और JSON",
-        "B": "कच्चे बाइनरी सीरियल पोर्ट",
-        "C": "एकत्र करने के लिए निर्देश",
-        "D": "मॉडेम डायल-अप"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "AMAT = 2 + (0.1 * 40) = 6.0 ns.",
+      "explanation_hi": "AMAT = 2 + (0.1 * 40) = 6.0 ns।"
     },
     {
       "id": 21,
       "questionNumber": 21,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Banker's Algorithm is used in operating systems for:",
+      "question": "Calculate AMAT for a system with Hit Time = 2 ns, Miss Rate = 10%, and Miss Penalty = 60 ns.",
+      "question_hi": "हिट टाइम = 2 ns, मिस दर = 10%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "Deadlock Prevention",
-        "B": "Deadlock Avoidance",
-        "C": "Deadlock Recovery",
-        "D": "Mutual Exclusion"
+        "A": "8.0 ns",
+        "B": "11.20 ns",
+        "C": "4.80 ns",
+        "D": "12.00 ns"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Deadlock Avoidance**\n\n**Theoretical Analysis & Rule**:\nDijkstra's Banker's Algorithm dynamically tests resource allocation requests to ensure the system will always remain in a 'Safe State', avoiding deadlocks.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "Banker's Algorithm is used ऑपरेटिंग सिस्टम मेंs for:?",
       "options_hi": {
-        "A": "डेडलॉक रोकथाम",
-        "B": "गतिरोध से बचाव",
-        "C": "गतिरोध पुनर्प्राप्ति",
-        "D": "पारस्परिक बहिष्कार"
+        "A": "8.0 ns",
+        "B": "11.20 ns",
+        "C": "4.80 ns",
+        "D": "12.00 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) डेडलॉक (Deadlock) Avoidance?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 2 + (0.1 * 60) = 8.0 ns.",
+      "explanation_hi": "AMAT = 2 + (0.1 * 60) = 8.0 ns।"
     },
     {
       "id": 22,
       "questionNumber": 22,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which image compression standard utilizes Discrete Cosine Transform (DCT) and is lossy for digital photography?",
+      "question": "Calculate AMAT for a system with Hit Time = 3 ns, Miss Rate = 2%, and Miss Penalty = 40 ns.",
+      "question_hi": "हिट टाइम = 3 ns, मिस दर = 2%, और मिस पेनल्टी = 40 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "PNG",
-        "B": "JPEG",
-        "C": "BMP",
-        "D": "SVG"
+        "A": "3.8 ns",
+        "B": "5.32 ns",
+        "C": "2.28 ns",
+        "D": "7.80 ns"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) JPEG**\n\n**Theoretical Analysis & Rule**:\nJPEG (Joint Photographic Experts Group) uses Discrete Cosine Transform (DCT) lossy compression to discard high-frequency color variations less noticeable to the human eye.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "कौन सा छवि संपीड़न मानक डिस्क्रीट कोसाइन ट्रांसफॉर्म (डीसीटी) का उपयोग करता है और डिजिटल फोटोग्राफी के लिए हानिकारक है?",
       "options_hi": {
-        "A": "PNG",
-        "B": "जेपीईजी",
-        "C": "BMP",
-        "D": "SVG"
+        "A": "3.8 ns",
+        "B": "5.32 ns",
+        "C": "2.28 ns",
+        "D": "7.80 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) JPEG?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 3 + (0.02 * 40) = 3.8 ns.",
+      "explanation_hi": "AMAT = 3 + (0.02 * 40) = 3.8 ns।"
     },
     {
       "id": 23,
       "questionNumber": 23,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In the Two-Phase Locking (2PL) protocol, what happens during the 'Growing Phase'?",
+      "question": "Calculate AMAT for a system with Hit Time = 3 ns, Miss Rate = 2%, and Miss Penalty = 60 ns.",
+      "question_hi": "हिट टाइम = 3 ns, मिस दर = 2%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "Locks are acquired and no locks can be released",
-        "B": "Locks are released and no locks can be acquired",
-        "C": "Transactions are committed",
-        "D": "Data items are deleted"
+        "A": "4.2 ns",
+        "B": "5.88 ns",
+        "C": "2.52 ns",
+        "D": "8.20 ns"
+      },
+      "options_hi": {
+        "A": "4.2 ns",
+        "B": "5.88 ns",
+        "C": "2.52 ns",
+        "D": "8.20 ns"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Locks are acquired and no locks can be released**\n\n**Theoretical Analysis & Rule**:\nUnder 2PL: Phase 1 (Growing Phase): A transaction may acquire locks, but cannot release any lock. Phase 2 (Shrinking Phase): A transaction may release locks, but cannot acquire any new locks.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "दो-चरण लॉकिंग (2PL) प्रोटोकॉल में, 'बढ़ते चरण' के दौरान क्या होता है?",
-      "options_hi": {
-        "A": "ताले अधिगृहीत हैं और कोई भी ताला जारी नहीं किया जा सकता",
-        "B": "ताले जारी कर दिए जाते हैं और कोई ताले हासिल नहीं किए जा सकते",
-        "C": "लेनदेन प्रतिबद्ध हैं",
-        "D": "डेटा आइटम हटा दिए गए हैं"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Locks are acquired and no locks can be released?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "AMAT = 3 + (0.02 * 60) = 4.2 ns.",
+      "explanation_hi": "AMAT = 3 + (0.02 * 60) = 4.2 ns।"
     },
     {
       "id": 24,
       "questionNumber": 24,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the canonical representation form that expresses a Boolean function as a product of sum terms called?",
+      "question": "Calculate AMAT for a system with Hit Time = 3 ns, Miss Rate = 5%, and Miss Penalty = 40 ns.",
+      "question_hi": "हिट टाइम = 3 ns, मिस दर = 5%, और मिस पेनल्टी = 40 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "Minterm form",
-        "B": "Maxterm / POS form",
-        "C": "Dual form",
-        "D": "Disjunctive Normal Form"
+        "A": "5.0 ns",
+        "B": "7.00 ns",
+        "C": "3.00 ns",
+        "D": "9.00 ns"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Maxterm / POS form**\n\n**Theoretical Analysis & Rule**:\nProduct of Sums (POS) expresses a logic function as the AND combination (product) of OR terms (sums/maxterms), denoted by ΠM.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the canonical representation form that expresses a Boolean function as a product of sum terms called के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "मिन्टर्म फॉर्म",
-        "B": "Maxterm / POS form",
-        "C": "दोहरा रूप",
-        "D": "विच्छेदनात्मक सामान्य रूप"
+        "A": "5.0 ns",
+        "B": "7.00 ns",
+        "C": "3.00 ns",
+        "D": "9.00 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Maxterm / POS form?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 3 + (0.05 * 40) = 5.0 ns.",
+      "explanation_hi": "AMAT = 3 + (0.05 * 40) = 5.0 ns।"
     },
     {
       "id": 25,
       "questionNumber": 25,
       "section": "Computer Science",
       "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In software metrics, what does 'Function Point' (FP) primarily measure?",
+      "question": "Calculate AMAT for a system with Hit Time = 3 ns, Miss Rate = 5%, and Miss Penalty = 60 ns.",
+      "question_hi": "हिट टाइम = 3 ns, मिस दर = 5%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "The physical lines of code compiled",
-        "B": "The functional size and complexity of software from the user's perspective",
-        "C": "The execution speed of the program in nanoseconds",
-        "D": "The salary costs of programmers"
+        "A": "6.0 ns",
+        "B": "8.40 ns",
+        "C": "3.60 ns",
+        "D": "10.00 ns"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) The functional size and complexity of software from the user's perspective**\n\n**Theoretical Analysis & Rule**:\nAlbrecht's Function Point (FP) metric quantifies software functionality based on 5 components: External Inputs, External Outputs, External Inquiries, Internal Logical Files, and External Interface Files.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "सॉफ़्टवेयर मेट्रिक्स में, 'फ़ंक्शन पॉइंट' (एफपी) मुख्य रूप से क्या मापता है?",
       "options_hi": {
-        "A": "कोड की भौतिक पंक्तियाँ संकलित",
-        "B": "उपयोगकर्ता के दृष्टिकोण से सॉफ़्टवेयर का कार्यात्मक आकार और जटिलता",
-        "C": "प्रोग्राम की निष्पादन गति नैनोसेकंड में",
-        "D": "प्रोग्रामर की वेतन लागत"
+        "A": "6.0 ns",
+        "B": "8.40 ns",
+        "C": "3.60 ns",
+        "D": "10.00 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) The functional size and complexity of software from the user's perspective?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 3 + (0.05 * 60) = 6.0 ns.",
+      "explanation_hi": "AMAT = 3 + (0.05 * 60) = 6.0 ns।"
     },
     {
       "id": 26,
       "questionNumber": 26,
       "section": "Computer Science",
       "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is a non-volatile optical or semiconductor memory that can be erased electrically in flash blocks?",
+      "question": "Calculate AMAT for a system with Hit Time = 3 ns, Miss Rate = 8%, and Miss Penalty = 40 ns.",
+      "question_hi": "हिट टाइम = 3 ns, मिस दर = 8%, और मिस पेनल्टी = 40 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "SRAM",
-        "B": "DRAM",
-        "C": "EEPROM / Flash Memory",
-        "D": "Mask ROM"
+        "A": "6.2 ns",
+        "B": "8.68 ns",
+        "C": "3.72 ns",
+        "D": "10.20 ns"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) EEPROM / Flash Memory**\n\n**Theoretical Analysis & Rule**:\nEEPROM (Electrically Erasable Programmable ROM) and Flash memory can be erased and reprogrammed electrically at the block or byte level without UV exposure.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "निम्नलिखित में से कौन सी एक गैर-वाष्पशील ऑप्टिकल या अर्धचालक मेमोरी है जिसे फ्लैश ब्लॉक में विद्युत रूप से मिटाया जा सकता है?",
       "options_hi": {
-        "A": "एसआरएएम",
-        "B": "घूंट",
-        "C": "EEPROM / Flash Memory",
-        "D": "मास्क रॉम"
+        "A": "6.2 ns",
+        "B": "8.68 ns",
+        "C": "3.72 ns",
+        "D": "10.20 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) EEPROM / Flash Memory?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 3 + (0.08 * 40) = 6.2 ns.",
+      "explanation_hi": "AMAT = 3 + (0.08 * 40) = 6.2 ns।"
     },
     {
       "id": 27,
       "questionNumber": 27,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In CSS, what is the default value of the 'position' property of HTML elements?",
+      "question": "Calculate AMAT for a system with Hit Time = 3 ns, Miss Rate = 8%, and Miss Penalty = 60 ns.",
+      "question_hi": "हिट टाइम = 3 ns, मिस दर = 8%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "relative",
-        "B": "absolute",
-        "C": "static",
-        "D": "fixed"
+        "A": "7.8 ns",
+        "B": "10.92 ns",
+        "C": "4.68 ns",
+        "D": "11.80 ns"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) static**\n\n**Theoretical Analysis & Rule**:\nThe default value of 'position' is 'static'. Static elements flow naturally in the normal document flow and ignore top, right, bottom, and left properties.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "CSS में, is the default value of the 'position' property of HTML elements क्या है?",
       "options_hi": {
-        "A": "रिश्तेदार",
-        "B": "निरपेक्ष",
-        "C": "स्थिर",
-        "D": "तय"
+        "A": "7.8 ns",
+        "B": "10.92 ns",
+        "C": "4.68 ns",
+        "D": "11.80 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) static?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 3 + (0.08 * 60) = 7.8 ns.",
+      "explanation_hi": "AMAT = 3 + (0.08 * 60) = 7.8 ns।"
     },
     {
       "id": 28,
       "questionNumber": 28,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the number of edges in a tree with n vertices?",
+      "question": "Calculate AMAT for a system with Hit Time = 3 ns, Miss Rate = 10%, and Miss Penalty = 40 ns.",
+      "question_hi": "हिट टाइम = 3 ns, मिस दर = 10%, और मिस पेनल्टी = 40 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "n",
-        "B": "n - 1",
-        "C": "n + 1",
-        "D": "2n - 1"
+        "A": "7.0 ns",
+        "B": "9.80 ns",
+        "C": "4.20 ns",
+        "D": "11.00 ns"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "n शीर्षों वाले पेड़ में किनारों की संख्या कितनी होती है?",
       "options_hi": {
-        "A": "n",
-        "B": "एन - 1",
-        "C": "एन + 1",
-        "D": "2एन - 1"
+        "A": "7.0 ns",
+        "B": "9.80 ns",
+        "C": "4.20 ns",
+        "D": "11.00 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 3 + (0.1 * 40) = 7.0 ns.",
+      "explanation_hi": "AMAT = 3 + (0.1 * 40) = 7.0 ns।"
     },
     {
       "id": 29,
       "questionNumber": 29,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which lightweight application-layer publish/subscribe messaging protocol is widely used in IoT over TCP?",
+      "question": "Calculate AMAT for a system with Hit Time = 3 ns, Miss Rate = 10%, and Miss Penalty = 60 ns.",
+      "question_hi": "हिट टाइम = 3 ns, मिस दर = 10%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
       "options": {
-        "A": "HTTP",
-        "B": "MQTT",
-        "C": "FTP",
-        "D": "SNMP"
+        "A": "9.0 ns",
+        "B": "12.60 ns",
+        "C": "5.40 ns",
+        "D": "13.00 ns"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) MQTT**\n\n**Theoretical Analysis & Rule**:\nMQTT (Message Queuing Telemetry Transport) is an extremely lightweight publish/subscribe network protocol designed for constrained IoT devices and low-bandwidth networks.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "कौन सा हल्का एप्लिकेशन-लेयर पब्लिश/सब्सक्राइब मैसेजिंग प्रोटोकॉल टीसीपी पर आईओटी में व्यापक रूप से उपयोग किया जाता है?",
       "options_hi": {
-        "A": "HTTP",
-        "B": "एमक्यूटीटी",
-        "C": "FTP",
-        "D": "एसएनएमपी"
+        "A": "9.0 ns",
+        "B": "12.60 ns",
+        "C": "5.40 ns",
+        "D": "13.00 ns"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) MQTT?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "AMAT = 3 + (0.1 * 60) = 9.0 ns.",
+      "explanation_hi": "AMAT = 3 + (0.1 * 60) = 9.0 ns।"
     },
     {
       "id": 30,
       "questionNumber": 30,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the state transition that occurs when a running process requires an I/O operation?",
+      "question": "A computer architecture has a 10-bit wide memory address bus. What is the maximum byte-addressable physical RAM space?",
+      "question_hi": "एक कंप्यूटर आर्किटेक्चर में 10-बिट चौड़ी मेमोरी एड्रेस बस है। अधिकतम बाइट-एड्रेसेबल भौतिक रैम क्षमता क्या है?",
       "options": {
-        "A": "Running to Ready",
-        "B": "Running to Waiting (Blocked)",
-        "C": "Waiting to Ready",
-        "D": "Ready to Running"
+        "A": "1 KB",
+        "B": "2 KB",
+        "C": "0 KB",
+        "D": "128 KB"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Running to Waiting (Blocked)**\n\n**Theoretical Analysis & Rule**:\nWhen a process requests an I/O operation or an event, the CPU cannot continue executing it until the I/O completes. The OS transitions the process from Running to Waiting (Blocked) state.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "वह स्थिति परिवर्तन क्या है जो तब होता है जब किसी चालू प्रक्रिया के लिए I/O ऑपरेशन की आवश्यकता होती है?",
       "options_hi": {
-        "A": "तैयार होने के लिए दौड़ना",
-        "B": "प्रतीक्षा करने के लिए दौड़ना (अवरुद्ध)",
-        "C": "तैयार होने की प्रतीक्षा में",
-        "D": "दौड़ने के लिए तैयार"
+        "A": "1 KB",
+        "B": "2 KB",
+        "C": "0 KB",
+        "D": "128 KB"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Running to Waiting (Blocked)?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "2^10 addresses correspond to 1 KB of memory.",
+      "explanation_hi": "2^10 पते = 1 KB मेमोरी क्षमता को दर्शाते हैं।"
     },
     {
       "id": 31,
       "questionNumber": 31,
       "section": "Computer Science",
-      "topic": "Multimedia",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Nyquist-Shannon sampling theorem, to accurately reconstruct an audio signal with frequencies up to 20 kHz, what is the minimum required sampling rate?",
+      "question": "A computer architecture has a 11-bit wide memory address bus. What is the maximum byte-addressable physical RAM space?",
+      "question_hi": "एक कंप्यूटर आर्किटेक्चर में 11-बिट चौड़ी मेमोरी एड्रेस बस है। अधिकतम बाइट-एड्रेसेबल भौतिक रैम क्षमता क्या है?",
       "options": {
-        "A": "10 kHz",
-        "B": "20 kHz",
-        "C": "40 kHz",
-        "D": "80 kHz"
+        "A": "2 KB",
+        "B": "4 KB",
+        "C": "1 KB",
+        "D": "128 KB"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 40 kHz**\n\n**Theoretical Analysis & Rule**:\nNyquist rate = 2 × f_max. To capture frequencies up to 20,000 Hz, the sampling frequency must be at least 2 × 20 kHz = 40 kHz (Compact Discs use 44.1 kHz).",
-      "topic_hi": "मल्टीमीडिया तकनीक",
-      "question_hi": "नाइक्विस्ट-शैनन सैंपलिंग प्रमेय के अनुसार, 20 किलोहर्ट्ज़ तक की आवृत्तियों के साथ एक ऑडियो सिग्नल को सटीक रूप से पुनर्निर्माण करने के लिए, न्यूनतम आवश्यक सैंपलिंग दर क्या है?",
       "options_hi": {
-        "A": "10 किलोहर्ट्ज़",
-        "B": "20 किलोहर्ट्ज़",
-        "C": "40 किलोहर्ट्ज़",
-        "D": "80 किलोहर्ट्ज़"
+        "A": "2 KB",
+        "B": "4 KB",
+        "C": "1 KB",
+        "D": "128 KB"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 40 kHz?**\n\n**विषय अवधारणा (मल्टीमीडिया तकनीक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "2^11 addresses correspond to 2 KB of memory.",
+      "explanation_hi": "2^11 पते = 2 KB मेमोरी क्षमता को दर्शाते हैं।"
     },
     {
       "id": 32,
       "questionNumber": 32,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which SQL command belongs to the Data Control Language (DCL) category?",
+      "question": "A computer architecture has a 13-bit wide memory address bus. What is the maximum byte-addressable physical RAM space?",
+      "question_hi": "एक कंप्यूटर आर्किटेक्चर में 13-बिट चौड़ी मेमोरी एड्रेस बस है। अधिकतम बाइट-एड्रेसेबल भौतिक रैम क्षमता क्या है?",
       "options": {
-        "A": "SELECT",
-        "B": "GRANT",
-        "C": "ALTER",
-        "D": "UPDATE"
+        "A": "8 KB",
+        "B": "16 KB",
+        "C": "4 KB",
+        "D": "128 KB"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) GRANT**\n\n**Theoretical Analysis & Rule**:\nDCL commands control privileges and access in the database. GRANT (gives user access) and REVOKE (withdraws access) are the primary DCL commands.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "Which SQL command belongs to the डेटा नियंत्रण भाषा (DCL) (DCL) category?",
       "options_hi": {
-        "A": "चुनना",
-        "B": "अनुदान",
-        "C": "ALTER",
-        "D": "UPDATE"
+        "A": "8 KB",
+        "B": "16 KB",
+        "C": "4 KB",
+        "D": "128 KB"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) GRANT?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "2^13 addresses correspond to 8 KB of memory.",
+      "explanation_hi": "2^13 पते = 8 KB मेमोरी क्षमता को दर्शाते हैं।"
     },
     {
       "id": 33,
       "questionNumber": 33,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "An 8-bit digital-to-analog converter (DAC) has a reference voltage of 5V. What is the approximate resolution (step size)?",
+      "question": "A computer architecture has a 16-bit wide memory address bus. What is the maximum byte-addressable physical RAM space?",
+      "question_hi": "एक कंप्यूटर आर्किटेक्चर में 16-बिट चौड़ी मेमोरी एड्रेस बस है। अधिकतम बाइट-एड्रेसेबल भौतिक रैम क्षमता क्या है?",
       "options": {
-        "A": "19.5 mV",
-        "B": "39.1 mV",
-        "C": "9.8 mV",
-        "D": "62.5 mV"
+        "A": "64 KB",
+        "B": "128 KB",
+        "C": "32 KB",
+        "D": "128 KB"
+      },
+      "options_hi": {
+        "A": "64 KB",
+        "B": "128 KB",
+        "C": "32 KB",
+        "D": "128 KB"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 19.5 mV**\n\n**Theoretical Analysis & Rule**:\nResolution = V_ref / (2ⁿ - 1) = 5V / (2⁸ - 1) = 5V / 255 ≈ 19.6 mV (or 5V / 256 ≈ 19.53 mV).",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "8-बिट डिजिटल-टू-एनालॉग कनवर्टर (डीएसी) का संदर्भ वोल्टेज 5V है। अनुमानित रिज़ॉल्यूशन (चरण आकार) क्या है?",
-      "options_hi": {
-        "A": "19.5 एमवी",
-        "B": "39.1 एमवी",
-        "C": "9.8 एमवी",
-        "D": "62.5 एमवी"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 19.5 mV?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "2^16 addresses correspond to 64 KB of memory.",
+      "explanation_hi": "2^16 पते = 64 KB मेमोरी क्षमता को दर्शाते हैं।"
     },
     {
       "id": 34,
       "questionNumber": 34,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is a Distance Vector routing protocol that uses hop count as its sole metric with a maximum limit of 15 hops?",
+      "question": "A computer architecture has a 20-bit wide memory address bus. What is the maximum byte-addressable physical RAM space?",
+      "question_hi": "एक कंप्यूटर आर्किटेक्चर में 20-बिट चौड़ी मेमोरी एड्रेस बस है। अधिकतम बाइट-एड्रेसेबल भौतिक रैम क्षमता क्या है?",
       "options": {
-        "A": "OSPF",
-        "B": "RIP (Routing Information Protocol)",
-        "C": "BGP",
-        "D": "IS-IS"
+        "A": "1 MB",
+        "B": "2 MB",
+        "C": "0 MB",
+        "D": "128 KB"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) RIP (Routing Information Protocol)**\n\n**Theoretical Analysis & Rule**:\nRIP is an interior gateway distance-vector protocol using hop count (1 to 15 hops; 16 signifies unreachable infinity) to prevent routing loops.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "निम्नलिखित में से कौन सा एक डिस्टेंस वेक्टर रूटिंग प्रोटोकॉल है जो 15 हॉप्स की अधिकतम सीमा के साथ हॉप काउंट को अपने एकमात्र मीट्रिक के रूप में उपयोग करता है?",
       "options_hi": {
-        "A": "ओएसपीएफ",
-        "B": "आरआईपी (रूटिंग सूचना प्रोटोकॉल)",
-        "C": "BGP",
-        "D": "आईएस-आईएस"
+        "A": "1 MB",
+        "B": "2 MB",
+        "C": "0 MB",
+        "D": "128 KB"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) RIP (Routing Information Protocol)?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "2^20 addresses correspond to 1 MB of memory.",
+      "explanation_hi": "2^20 पते = 1 MB मेमोरी क्षमता को दर्शाते हैं।"
     },
     {
       "id": 35,
       "questionNumber": 35,
       "section": "Computer Science",
       "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Booth's multiplication algorithm, what action is performed when the two least significant multiplier bits (Q0, Q-1) are '10'?",
+      "question": "A computer architecture has a 24-bit wide memory address bus. What is the maximum byte-addressable physical RAM space?",
+      "question_hi": "एक कंप्यूटर आर्किटेक्चर में 24-बिट चौड़ी मेमोरी एड्रेस बस है। अधिकतम बाइट-एड्रेसेबल भौतिक रैम क्षमता क्या है?",
       "options": {
-        "A": "Add multiplicand to accumulator and shift",
-        "B": "Subtract multiplicand from accumulator and arithmetic shift right",
-        "C": "Arithmetic shift right only",
-        "D": "Rotate accumulator left"
+        "A": "16 MB",
+        "B": "32 MB",
+        "C": "8 MB",
+        "D": "128 KB"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Subtract multiplicand from accumulator and arithmetic shift right**\n\n**Theoretical Analysis & Rule**:\nIn Booth's algorithm: '00' or '11' -> Shift right only; '01' -> Add multiplicand and shift right; '10' -> Subtract multiplicand (add 2's complement) and shift right.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "Booth's multiplication algorithm में, action is performed when the two least significant multiplier bits (Q0, Q-1) are '10' क्या है?",
       "options_hi": {
-        "A": "संचायक में गुणक जोड़ें और शिफ्ट करें",
-        "B": "संचायक से गुणक घटाएं और अंकगणित को दाईं ओर शिफ्ट करें",
-        "C": "केवल अंकगणित सही बदलाव",
-        "D": "संचायक को बाएँ घुमाएँ"
+        "A": "16 MB",
+        "B": "32 MB",
+        "C": "8 MB",
+        "D": "128 KB"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Subtract multiplicand from accumulator and arithmetic shift right?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "2^24 addresses correspond to 16 MB of memory.",
+      "explanation_hi": "2^24 पते = 16 MB मेमोरी क्षमता को दर्शाते हैं।"
     },
     {
       "id": 36,
       "questionNumber": 36,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following members cannot be inherited by a derived class in C++?",
+      "question": "In computer network communications case 2, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 2 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "Protected variables",
-        "B": "Public methods",
-        "C": "Constructors and Destructors",
-        "D": "Virtual functions"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "निम्नलिखित में से कौन सा सदस्य C++ में व्युत्पन्न वर्ग द्वारा विरासत में नहीं लिया जा सकता है?",
       "options_hi": {
-        "A": "संरक्षित चर",
-        "B": "सार्वजनिक तरीके",
-        "C": "निर्माता और विध्वंसक",
-        "D": "आभासी कार्य"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 2 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 37,
       "questionNumber": 37,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which data structure is fundamentally used for the Breadth-First Search (BFS) graph traversal algorithm?",
+      "question": "In computer network communications case 3, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 3 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "Stack",
-        "B": "Queue",
-        "C": "Priority Queue",
-        "D": "Binary Tree"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Queue**\n\n**Theoretical Analysis & Rule**:\nBFS visits vertices in order of their distance from the source level-by-level (FIFO), which is implemented using a Queue. (DFS uses a Stack).",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "ब्रेडथ-फर्स्ट सर्च (बीएफएस) ग्राफ ट्रैवर्सल एल्गोरिदम के लिए मूल रूप से कौन सी डेटा संरचना का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "स्टैक (Stack)",
-        "B": "कतार (Queue)",
-        "C": "प्राथमिकता कतार",
-        "D": "बाइनरी ट्री"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) क्यू (Queue)?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 3 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 38,
       "questionNumber": 38,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following grammars is in Chomsky Normal Form (CNF)?",
+      "question": "In computer network communications case 4, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 4 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "S -> aB | b",
-        "B": "S -> AB | a",
-        "C": "S -> ABC | a",
-        "D": "S -> a | ε"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) S -> AB | a**\n\n**Theoretical Analysis & Rule**:\nIn Chomsky Normal Form (CNF), all production rules must be of the form A -> BC (two non-terminals) or A -> a (single terminal). Hence, S -> AB | a is in CNF.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "निम्नलिखित में से कौन सा व्याकरण चॉम्स्की नॉर्मल फॉर्म (CNF) में है?",
       "options_hi": {
-        "A": "एस -> एबी | बी",
-        "B": "एस -> एबी | ए",
-        "C": "एस -> एबीसी | ए",
-        "D": "एस -> ए | ε"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) S -> AB | a?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 4 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 39,
       "questionNumber": 39,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following problems is known to be NP-Complete?",
+      "question": "In computer network communications case 5, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 5 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "Shortest Path in Directed Acyclic Graph",
-        "B": "Minimum Spanning Tree",
-        "C": "Traveling Salesperson Decision Problem",
-        "D": "Breadth First Search"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Traveling Salesperson Decision Problem**\n\n**Theoretical Analysis & Rule**:\nThe Traveling Salesperson decision problem (TSP), Boolean Satisfiability (SAT), and Vertex Cover are classic NP-Complete problems.",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "निम्नलिखित में से कौन सी समस्या एनपी-कम्प्लीट के रूप में जानी जाती है?",
       "options_hi": {
-        "A": "निर्देशित चक्रीय ग्राफ़ में सबसे छोटा पथ",
-        "B": "न्यूनतम स्पैनिंग ट्री (MST)",
-        "C": "यात्रा विक्रेता निर्णय समस्या",
-        "D": "चौड़ाई-प्रथम खोज (BFS)"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Traveling Salesperson Decision Problem?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 5 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 40,
       "questionNumber": 40,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "The electronic document interchange standard developed by ANSI for business transactions is called:",
+      "question": "In computer network communications case 6, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 6 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "ANSI X12",
-        "B": "ISO 9001",
-        "C": "IEEE 802.3",
-        "D": "RFC 2822"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
+      },
+      "options_hi": {
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) ANSI X12**\n\n**Theoretical Analysis & Rule**:\nANSI ASC X12 is the official American National Standards Institute standard for Electronic Data Interchange (EDI) used across retail, finance, and transport.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "व्यावसायिक लेनदेन के लिए ANSI द्वारा विकसित इलेक्ट्रॉनिक दस्तावेज़ इंटरचेंज मानक को कहा जाता है:",
-      "options_hi": {
-        "A": "एएनएसआई एक्स12",
-        "B": "ISO 9001",
-        "C": "आईईईई 802.3",
-        "D": "आरएफसी 2822"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) ANSI X12?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 6 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 41,
       "questionNumber": 41,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In relational database design, Boy-Codd Normal Form (BCNF) requires that for every non-trivial functional dependency X -> Y:",
+      "question": "In computer network communications case 7, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 7 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "Y must be a prime attribute",
-        "B": "X must be a Super Key",
-        "C": "X and Y must be atomic",
-        "D": "Y must not depend on X"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) X must be a Super Key**\n\n**Theoretical Analysis & Rule**:\nBCNF is a stricter version of 3NF. It requires that for every non-trivial functional dependency X -> Y, the determinant X must be a Super Key of the relation.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन में, बॉय-कॉड नॉर्मल फॉर्म (बीसीएनएफ) के लिए आवश्यक है कि प्रत्येक गैर-तुच्छ कार्यात्मक निर्भरता X -> Y के लिए:",
       "options_hi": {
-        "A": "Y एक प्रमुख गुण होना चाहिए",
-        "B": "X एक सुपर कुंजी होनी चाहिए",
-        "C": "X और Y परमाणु होने चाहिए",
-        "D": "Y को X पर निर्भर नहीं रहना चाहिए"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) X must be a Super Key?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 7 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 42,
       "questionNumber": 42,
       "section": "Computer Science",
       "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following logic families exhibits the highest switching speed and lowest propagation delay?",
+      "question": "In computer network communications case 8, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 8 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "TTL (Transistor-Transistor Logic)",
-        "B": "ECL (Emitter-Coupled Logic)",
-        "C": "CMOS",
-        "D": "NMOS"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) ECL (Emitter-Coupled Logic)**\n\n**Theoretical Analysis & Rule**:\nECL (Emitter-Coupled Logic) operates its transistors in the non-saturated active region rather than saturation, eliminating storage time delay and achieving propagation delays below 1 nanosecond (fastest among conventional families).",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "निम्नलिखित में से कौन सा तर्क परिवार उच्चतम स्विचिंग गति और सबसे कम प्रसार विलंब प्रदर्शित करता है?",
       "options_hi": {
-        "A": "टीटीएल (ट्रांजिस्टर-ट्रांजिस्टर लॉजिक)",
-        "B": "ईसीएल (एमिटर-युग्मित तर्क)",
-        "C": "सीएमओएस",
-        "D": "एनएमओएस"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) ECL (Emitter-Coupled Logic)?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 8 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 43,
       "questionNumber": 43,
       "section": "Computer Science",
       "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which layer of the OSI reference model performs data encryption, decryption, compression, and character encoding conversions?",
+      "question": "In computer network communications case 9, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 9 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "Application Layer",
-        "B": "Presentation Layer",
-        "C": "Session Layer",
-        "D": "Data Link Layer"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Presentation Layer**\n\n**Theoretical Analysis & Rule**:\nThe Presentation Layer (Layer 6) formats and translates data syntax and semantics, handling encryption/decryption (SSL/TLS) and compression.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "OSI संदर्भ मॉडल की कौन सी परत डेटा एन्क्रिप्शन, डिक्रिप्शन, संपीड़न और कैरेक्टर एन्कोडिंग रूपांतरण करती है?",
       "options_hi": {
-        "A": "अनुप्रयोग परत (Application Layer)",
-        "B": "प्रस्तुति परत (Presentation Layer)",
-        "C": "सत्र परत (Session Layer)",
-        "D": "डेटा लिंक परत"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Presentation Layer?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 9 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 44,
       "questionNumber": 44,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+      "question": "In computer network communications case 10, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 10 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "Direct Mapping",
-        "B": "Fully Associative Mapping",
-        "C": "Set-Associative Mapping",
-        "D": "Sector Mapping"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "कौन सी कैश मैपिंग तकनीक मुख्य मेमोरी ब्लॉक को किसी भी उपलब्ध कैश ब्लॉक लाइन में लोड करने की अनुमति देती है?",
       "options_hi": {
-        "A": "प्रत्यक्ष मानचित्रण",
-        "B": "पूरी तरह से सहयोगी मानचित्रण",
-        "C": "सेट-एसोसिएटिव मैपिंग",
-        "D": "सेक्टर मैपिंग"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 10 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 45,
       "questionNumber": 45,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the output of the Python expression: [x**2 for x in range(5) if x % 2 == 0]?",
+      "question": "In computer network communications case 11, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 11 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "[0, 1, 4, 9, 16]",
-        "B": "[0, 4, 16]",
-        "C": "[1, 9]",
-        "D": "[4, 16]"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) [0, 4, 16]**\n\n**Theoretical Analysis & Rule**:\nrange(5) produces 0, 1, 2, 3, 4. The filter 'x % 2 == 0' selects 0, 2, 4. The squares are 0²=0, 2²=4, 4²=16. The result is [0, 4, 16].",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "पायथन एक्सप्रेशन का आउटपुट क्या है: [x**2 for x in रेंज(5) if x % 2 == 0]?",
       "options_hi": {
-        "A": "[0, 1, 4, 9, 16]",
-        "B": "[0, 4, 16]",
-        "C": "[1, 9]",
-        "D": "[4, 16]"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) [0, 4, 16]?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 11 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 46,
       "questionNumber": 46,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the time complexity to search for a key in a balanced AVL tree with n nodes?",
+      "question": "In computer network communications case 12, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 12 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "O(1)",
-        "B": "O(log n)",
-        "C": "O(n)",
-        "D": "O(n log n)"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) O(log n)**\n\n**Theoretical Analysis & Rule**:\nAn AVL tree is strictly balanced with maximum height bounded by 1.44 log₂(n). Therefore, search, insertion, and deletion operations all take guaranteed O(log n) time.",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "n नोड्स वाले संतुलित AVL ट्री में कुंजी खोजने में समय की जटिलता क्या है?",
       "options_hi": {
-        "A": "हे(1)",
-        "B": "ओ(लॉग एन)",
-        "C": "पर)",
-        "D": "ओ(एन लॉग एन)"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) O(log n)?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 12 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 47,
       "questionNumber": 47,
       "section": "Computer Science",
-      "topic": "Theory of Computation",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Arden's Theorem states that if P and Q are regular expressions over Σ and P does not contain ε, then the equation R = Q + RP has a unique solution given by:",
+      "question": "In computer network communications case 13, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 13 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "R = Q*P",
-        "B": "R = QP*",
-        "C": "R = P*Q*",
-        "D": "R = Q+P*"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) R = QP***\n\n**Theoretical Analysis & Rule**:\nArden's Theorem specifies: R = Q + RP has the unique solution R = QP*.",
-      "topic_hi": "गणना का सिद्धांत (TOC)",
-      "question_hi": "आर्डेन के प्रमेय में कहा गया है कि यदि P और Q Σ पर नियमित अभिव्यक्ति हैं और P में ε नहीं है, तो समीकरण R = Q + RP का एक अद्वितीय समाधान है:",
       "options_hi": {
-        "A": "आर = क्यू*पी",
-        "B": "आर = क्यूपी*",
-        "C": "आर = पी*क्यू*",
-        "D": "आर = क्यू+पी*"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) R = QP*?**\n\n**विषय अवधारणा (गणना का सिद्धांत (TOC))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 13 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 48,
       "questionNumber": 48,
       "section": "Computer Science",
-      "topic": "Algorithms",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What algorithmic paradigm is employed in solving the 8-Queens problem?",
+      "question": "In computer network communications case 14, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 14 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "Greedy Method",
-        "B": "Backtracking",
-        "C": "Dynamic Programming",
-        "D": "Divide and Conquer"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Backtracking**\n\n**Theoretical Analysis & Rule**:\nThe 8-Queens problem is solved using Backtracking: placing queens row by row and abandoning (backtracking from) non-viable partial solutions whenever a conflict arises.",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-      "question_hi": "8-क्वींस समस्या को हल करने में कौन सा एल्गोरिथम प्रतिमान कार्यरत है?",
       "options_hi": {
-        "A": "लालची तरीका",
-        "B": "बैक ट्रैकिंग",
-        "C": "डायनामिक प्रोग्रामिंग",
-        "D": "फूट डालो और राज करो"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Backtracking?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 14 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 49,
       "questionNumber": 49,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following encryption protocols provides transport-layer security for credit card transactions over the web?",
+      "question": "In computer network communications case 15, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 15 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "SSL / TLS",
-        "B": "FTP",
-        "C": "TELNET",
-        "D": "TFTP"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
+      },
+      "options_hi": {
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) SSL / TLS**\n\n**Theoretical Analysis & Rule**:\nSSL (Secure Sockets Layer) and its modern successor TLS (Transport Layer Security) encrypt browser-server communications (HTTPS) to safeguard financial and personal data.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "निम्नलिखित में से कौन सा एन्क्रिप्शन प्रोटोकॉल वेब पर क्रेडिट कार्ड लेनदेन के लिए ट्रांसपोर्ट-लेयर सुरक्षा प्रदान करता है?",
-      "options_hi": {
-        "A": "एसएसएल/टीएलएस",
-        "B": "FTP",
-        "C": "टेलनेट",
-        "D": "टीएफटीपी"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) SSL / TLS?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 15 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 50,
       "questionNumber": 50,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which Unix command is used to change the access permissions of a file?",
+      "question": "In computer network communications case 16, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 16 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "chown",
-        "B": "chmod",
-        "C": "chgrp",
-        "D": "grep"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) chmod**\n\n**Theoretical Analysis & Rule**:\n'chmod' (change mode) modifies the read, write, and execute permissions of files/directories in Unix/Linux. ('chown' changes file owner).",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "किसी फ़ाइल की एक्सेस अनुमतियों को बदलने के लिए किस यूनिक्स कमांड का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "चाउन",
-        "B": "चामोद",
-        "C": "सीएचजीआरपी",
-        "D": "ग्रेप"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) chmod?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 16 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 51,
       "questionNumber": 51,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a J-K flip flop, what condition produces the 'Toggle' output mode?",
+      "question": "In computer network communications case 17, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 17 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "J = 0, K = 0",
-        "B": "J = 0, K = 1",
-        "C": "J = 1, K = 0",
-        "D": "J = 1, K = 1"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) J = 1, K = 1**\n\n**Theoretical Analysis & Rule**:\nIn a JK flip-flop: When J=0, K=0 -> No change (Memory); J=0, K=1 -> Reset (Q=0); J=1, K=0 -> Set (Q=1); J=1, K=1 -> Toggle (Q(t+1) = Q'(t)).",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "जे-के फ्लिप फ्लॉप में, कौन सी स्थिति 'टॉगल' आउटपुट मोड उत्पन्न करती है?",
       "options_hi": {
-        "A": "जे = 0, के = 0",
-        "B": "जे = 0, के = 1",
-        "C": "जे = 1, के = 0",
-        "D": "जे = 1, के = 1"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) J = 1, K = 1?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 17 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 52,
       "questionNumber": 52,
       "section": "Computer Science",
       "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the CIDR prefix for a subnet with a subnet mask of 255.255.255.192?",
+      "question": "In computer network communications case 18, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 18 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "/24",
-        "B": "/25",
-        "C": "/26",
-        "D": "/27"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) /26**\n\n**Theoretical Analysis & Rule**:\n255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "255.255.255.192 के सबनेट मास्क वाले सबनेट के लिए सीआईडीआर उपसर्ग क्या है?",
       "options_hi": {
-        "A": "/24",
-        "B": "/25",
-        "C": "/26",
-        "D": "/27"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) /26?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 18 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 53,
       "questionNumber": 53,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In 8086 microprocessor architecture, which register holds the offset address of the instruction to be fetched from the code segment?",
+      "question": "In computer network communications case 19, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 19 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "Stack Pointer (SP)",
-        "B": "Instruction Pointer (IP)",
-        "C": "Base Pointer (BP)",
-        "D": "Source Index (SI)"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Instruction Pointer (IP)**\n\n**Theoretical Analysis & Rule**:\nThe Instruction Pointer (IP) holds the 16-bit offset of the next instruction within the Code Segment (CS). Physical address = (CS × 16) + IP.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "8086 माइक्रोप्रोसेसर आर्किटेक्चर में, कौन सा रजिस्टर कोड सेगमेंट से प्राप्त किए जाने वाले निर्देश का ऑफसेट पता रखता है?",
       "options_hi": {
-        "A": "स्टैक पॉइंटर (एसपी)",
-        "B": "निर्देश सूचक (आईपी)",
-        "C": "बेस पॉइंटर (बीपी)",
-        "D": "स्रोत सूचकांक (एसआई)"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Instruction Pointer (IP)?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 19 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 54,
       "questionNumber": 54,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In C++, which keyword is used to resolve the 'Diamond Problem' of duplicate base class instances in multiple inheritance?",
+      "question": "In computer network communications case 20, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 20 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "abstract",
-        "B": "friend",
-        "C": "virtual",
-        "D": "static"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) virtual**\n\n**Theoretical Analysis & Rule**:\nDeclaring the intermediate base classes with 'virtual' inheritance (e.g., class B : virtual public A) ensures only one shared instance of class A is included in derived class D.",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "C++ में, मल्टीपल इनहेरिटेंस में डुप्लिकेट बेस क्लास इंस्टेंसेस की 'डायमंड प्रॉब्लम' को हल करने के लिए किस कीवर्ड का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "अमूर्त",
-        "B": "दोस्त",
-        "C": "आभासी",
-        "D": "स्थिर"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) virtual?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 20 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 55,
       "questionNumber": 55,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the equivalent postfix expression for the infix expression: A + B * C - D / E?",
+      "question": "In computer network communications case 21, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 21 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "A B C * + D E / -",
-        "B": "A B + C * D - E /",
-        "C": "A B C * D E / - +",
-        "D": "+ A * B C - / D E"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
+      },
+      "options_hi": {
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) A B C * + D E / -**\n\n**Theoretical Analysis & Rule**:\nOperator precedence: * and / have higher precedence than + and -. 1. (B * C) -> B C *; 2. A + (B C *) -> A B C * +; 3. (D / E) -> D E /; 4. (A B C * +) - (D E /) -> A B C * + D E / -.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "इनफ़िक्स अभिव्यक्ति के लिए समकक्ष पोस्टफ़िक्स अभिव्यक्ति क्या है: ए + बी * सी - डी / ई?",
-      "options_hi": {
-        "A": "ए बी सी * + डी ई / -",
-        "B": "ए बी + सी * डी - ई /",
-        "C": "ए बी सी * डी ई / - +",
-        "D": "+ ए * बी सी - / डी ई"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) A B C * + D E / -?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 21 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 56,
       "questionNumber": 56,
       "section": "Computer Science",
       "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the language recognized by a Deterministic Finite Automaton (DFA) that accepts strings over {0, 1} ending with '00'?",
+      "question": "In computer network communications case 22, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 22 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "Context Free Language",
-        "B": "Regular Language",
-        "C": "Recursively Enumerable only",
-        "D": "Non-computable Language"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Regular Language**\n\n**Theoretical Analysis & Rule**:\nAny language that can be recognized by a Finite Automaton (DFA or NFA) is by definition a Regular Language, represented by regular expression (0 + 1)*00.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "नियतात्मक परिमित ऑटोमेटन (डीएफए) द्वारा मान्यता प्राप्त भाषा क्या है जो '00' के साथ समाप्त होने वाले {0, 1} से अधिक स्ट्रिंग को स्वीकार करती है?",
       "options_hi": {
-        "A": "प्रसंग मुक्त भाषा",
-        "B": "नियमित भाषा",
-        "C": "केवल पुनरावर्ती रूप से गणना योग्य",
-        "D": "गैर संगणनीय भाषा"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Regular Language?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 22 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 57,
       "questionNumber": 57,
       "section": "Computer Science",
-      "topic": "Algorithms",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which algorithm finds the shortest path between all pairs of vertices in a weighted graph in O(V³) time?",
+      "question": "In computer network communications case 23, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 23 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "Dijkstra's Algorithm",
-        "B": "Bellman-Ford Algorithm",
-        "C": "Floyd-Warshall Algorithm",
-        "D": "Kruskal's Algorithm"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Floyd-Warshall Algorithm**\n\n**Theoretical Analysis & Rule**:\nThe Floyd-Warshall algorithm uses dynamic programming to compute the all-pairs shortest paths in a directed weighted graph with time complexity Θ(V³).",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-      "question_hi": "कौन सा एल्गोरिदम O(V³) समय में भारित ग्राफ़ में शीर्षों के सभी जोड़े के बीच सबसे छोटा रास्ता ढूंढता है?",
       "options_hi": {
-        "A": "डिज्क्स्ट्रा का एल्गोरिदम",
-        "B": "Bellman-Ford Algorithm",
-        "C": "Floyd-Warshall Algorithm",
-        "D": "क्रुस्कल का एल्गोरिदम"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Floyd-Warshall Algorithm?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 23 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 58,
       "questionNumber": 58,
       "section": "Computer Science",
-      "topic": "Algorithms",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which type of search algorithm always expands the lowest cost leaf node first where cost is f(n) = g(n) + h(n)?",
+      "question": "In computer network communications case 24, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 24 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "Greedy Best-First Search",
-        "B": "A* Search",
-        "C": "Depth First Search",
-        "D": "Breadth First Search"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) A* Search**\n\n**Theoretical Analysis & Rule**:\nA* search evaluates nodes by combining g(n) (cost from start to current node) and h(n) (estimated heuristic cost from current node to goal).",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-      "question_hi": "किस प्रकार का खोज एल्गोरिदम हमेशा सबसे कम लागत वाले लीफ नोड को पहले विस्तारित करता है जहां लागत f(n) = g(n) + h(n) है?",
       "options_hi": {
-        "A": "लालची सर्वोत्तम-प्रथम खोज",
-        "B": "ए* खोजें",
-        "C": "गहराई-प्रथम खोज (DFS)",
-        "D": "चौड़ाई-प्रथम खोज (BFS)"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) A* Search?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 24 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 59,
       "questionNumber": 59,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the phenomenon where adding more page frames to a process increases the number of page faults called?",
+      "question": "In computer network communications case 25, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 25 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "Thrashing",
-        "B": "Belady's Anomaly",
-        "C": "Fragmentation",
-        "D": "Starvation"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Belady's Anomaly**\n\n**Theoretical Analysis & Rule**:\nBelady's Anomaly occurs primarily in FIFO page replacement, where increasing the number of allocated physical frames leads to an increased number of page faults for certain reference strings.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "What is the phenomenon where adding more page frames to a process बढ़ता है (Increases) the number of पेज फॉल्ट (Page Fault)s called?",
       "options_hi": {
-        "A": "थ्रैशिंग (Thrashing)",
-        "B": "बेलाडी की विसंगति",
-        "C": "विखंडन",
-        "D": "भुखमरी"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Belady's Anomaly?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 25 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 60,
       "questionNumber": 60,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "How many select lines are required for a 64-to-1 Multiplexer (MUX)?",
+      "question": "In computer network communications case 26, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 26 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "8"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 6**\n\n**Theoretical Analysis & Rule**:\nFor a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "64-टू-1 मल्टीप्लेक्सर (एमयूएक्स) के लिए कितनी चुनिंदा लाइनें आवश्यक हैं?",
       "options_hi": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "8"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 6?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 26 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 61,
       "questionNumber": 61,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the maximum theoretical throughput efficiency of Pure ALOHA?",
+      "question": "In computer network communications case 27, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 27 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "18.4%",
-        "B": "36.8%",
-        "C": "50%",
-        "D": "100%"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
+      },
+      "options_hi": {
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 18.4%**\n\n**Theoretical Analysis & Rule**:\nPure ALOHA maximum efficiency = 1 / (2e) ≈ 18.4% (at G = 0.5). Slotted ALOHA doubles this efficiency to 1 / e ≈ 36.8% (at G = 1.0).",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "शुद्ध ALOHA की अधिकतम सैद्धांतिक थ्रूपुट दक्षता क्या है?",
-      "options_hi": {
-        "A": "18.4%",
-        "B": "36.8%",
-        "C": "50%",
-        "D": "100%"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 18.4%?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 27 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 62,
       "questionNumber": 62,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the maximum addressable memory capacity of a CPU with a 32-bit address bus and byte-addressable architecture?",
+      "question": "In computer network communications case 28, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 28 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "1 GB",
-        "B": "2 GB",
-        "C": "4 GB",
-        "D": "8 GB"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 4 GB**\n\n**Theoretical Analysis & Rule**:\nA 32-bit address bus can generate 2³² unique addresses. With byte addressability (1 byte per address), total addressable space = 2³² bytes = 4,294,967,296 bytes = 4 GB.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "32-बिट एड्रेस बस और बाइट-एड्रेसेबल आर्किटेक्चर वाले सीपीयू की अधिकतम एड्रेसेबल मेमोरी क्षमता क्या है?",
       "options_hi": {
-        "A": "1 जीबी",
-        "B": "2 जीबी",
-        "C": "4 जीबी",
-        "D": "8 जीबी"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 4 GB?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 28 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 63,
       "questionNumber": 63,
       "section": "Computer Science",
-      "topic": "Software Engineering",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What type of testing tests whether recent code changes have caused unintended side effects in existing functionality?",
+      "question": "In computer network communications case 29, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 29 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "Unit Testing",
-        "B": "Regression Testing",
-        "C": "Alpha Testing",
-        "D": "Stress Testing"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Regression Testing**\n\n**Theoretical Analysis & Rule**:\nRegression testing reruns existing test suites after bug fixes or modifications to confirm that unchanged features continue to function properly.",
-      "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What type of testing tests whether recent code changes have caused unintended side effects in existing functionality के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "इकाई परीक्षण",
-        "B": "Regression Testing",
-        "C": "अल्फ़ा परीक्षण",
-        "D": "तनाव परीक्षण"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Regression Testing?**\n\n**विषय अवधारणा (सॉफ्टवेयर इंजीनियरिंग)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 29 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 64,
       "questionNumber": 64,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a row-major 2D array A[1..M, 1..N] stored starting at base address B with element size S, what is the address formula for element A[i, j]?",
+      "question": "In computer network communications case 30, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 30 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "B + [(i - 1) * N + (j - 1)] * S",
-        "B": "B + [(j - 1) * M + (i - 1)] * S",
-        "C": "B + [i * N + j] * S",
-        "D": "B + [(i - 1) + (j - 1) * N] * S"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
+      },
+      "options_hi": {
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) B + [(i - 1) * N + (j - 1)] * S**\n\n**Theoretical Analysis & Rule**:\nIn row-major order, rows are placed contiguously in memory. To reach row i, you skip (i - 1) complete rows of N elements each, and then move (j - 1) elements into row i. Hence: Address = Base + [((i - 1) * N) + (j - 1)] * S.",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "पंक्ति-प्रमुख 2D सरणी A[1..M, 1..N] में तत्व आकार S के साथ आधार पता B से शुरू करके संग्रहीत किया जाता है, तत्व A[i, j] के लिए पता सूत्र क्या है?",
-      "options_hi": {
-        "A": "बी + [(आई - 1) * एन + (जे - 1)] * एस",
-        "B": "बी + [(जे - 1) * एम + (आई - 1)] * एस",
-        "C": "बी + [आई * एन + जे] * एस",
-        "D": "बी + [(आई - 1) + (जे - 1) * एन] * एस"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) B + [(i - 1) * N + (j - 1)] * S?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 30 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 65,
       "questionNumber": 65,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In XML, an XML document that conforms strictly to its associated DTD or XML Schema is said to be:",
+      "question": "In computer network communications case 31, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 31 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "Well-Formed",
-        "B": "Valid",
-        "C": "Normalized",
-        "D": "Parsed"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Valid**\n\n**Theoretical Analysis & Rule**:\nAn XML document with correct syntax is 'Well-Formed'. If it additionally conforms to the rules, elements, and attributes specified in its DTD or Schema, it is 'Valid'.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "XML में, एक XML दस्तावेज़ जो अपने संबंधित DTD या XML स्कीमा के अनुरूप होता है, उसे कहा जाता है:",
       "options_hi": {
-        "A": "सुडौल",
-        "B": "वैध",
-        "C": "सामान्यीकृत",
-        "D": "Parsed"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Valid?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 31 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 66,
       "questionNumber": 66,
       "section": "Computer Science",
-      "topic": "Algorithms",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the solution of the recurrence relation T(n) = 2T(n/2) + n by Master Theorem?",
+      "question": "In computer network communications case 32, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 32 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "Θ(n)",
-        "B": "Θ(n log n)",
-        "C": "Θ(n²)",
-        "D": "Θ(log n)"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Θ(n log n)**\n\n**Theoretical Analysis & Rule**:\nFor T(n) = aT(n/b) + f(n): a = 2, b = 2, f(n) = n. Here n^(log_b(a)) = n^(log₂2) = n¹. Since f(n) = Θ(n^(log_b(a))), Case 2 of Master Theorem applies: T(n) = Θ(n log n) (Merge Sort recurrence).",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-      "question_hi": "मास्टर प्रमेय द्वारा पुनरावृत्ति संबंध T(n) = 2T(n/2) + n का समाधान क्या है?",
       "options_hi": {
-        "A": "Θ(एन)",
-        "B": "Θ(एन लॉग एन)",
-        "C": "Θ(n²)",
-        "D": "Θ(लॉग एन)"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Θ(n log n)?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 32 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 67,
       "questionNumber": 67,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In First-Order Predicate Logic, which inference rule derives C from premises (A ∨ B) and (¬A ∨ C)?",
+      "question": "In computer network communications case 33, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 33 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "Modus Ponens",
-        "B": "Resolution",
-        "C": "Universal Instantiation",
-        "D": "Unification"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Resolution**\n\n**Theoretical Analysis & Rule**:\nResolution refutation states: (A ∨ B) and (¬A ∨ C) yields the resolvent (B ∨ C). If B is false, it yields C.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "प्रथम-क्रम विधेय तर्क में, कौन सा अनुमान नियम C को परिसर (A ∨ B) और (¬A ∨ C) से प्राप्त करता है?",
       "options_hi": {
-        "A": "मोडस पोनेन्स",
-        "B": "संकल्प",
-        "C": "सार्वभौमिक तात्कालिकता",
-        "D": "एकीकरण"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Resolution?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 33 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 68,
       "questionNumber": 68,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In paging memory management, where is the Translation Lookaside Buffer (TLB) located?",
+      "question": "In computer network communications case 34, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 34 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "On the hard disk",
-        "B": "In main memory RAM",
-        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache",
-        "D": "In secondary optical storage"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Inside the CPU Memory Management Unit (MMU) hardware cache**\n\n**Theoretical Analysis & Rule**:\nThe TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "पेजिंग मेमोरी प्रबंधन में, ट्रांसलेशन लुकसाइड बफ़र (टीएलबी) कहाँ स्थित है?",
       "options_hi": {
-        "A": "हार्ड डिस्क पर",
-        "B": "मुख्य मेमोरी में RAM",
-        "C": "सीपीयू मेमोरी मैनेजमेंट यूनिट (एमएमयू) हार्डवेयर कैश के अंदर",
-        "D": "सेकेंडरी ऑप्टिकल स्टोरेज में"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Inside the CPU Memory Management Unit (MMU) hardware cache?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 34 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 69,
       "questionNumber": 69,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the simplified expression for the Boolean function F(A, B, C) = Σm(1, 3, 5, 7) using Boolean algebra or K-Map?",
+      "question": "In computer network communications case 35, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 35 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "A'B'"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) C**\n\n**Theoretical Analysis & Rule**:\nMinterms 1 (001), 3 (011), 5 (101), 7 (111) group into a 4-cell quad in a 3-variable K-Map. In these terms, A and B both vary (0 and 1), while C is constant at 1. Hence, the minimized SOP term is C.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "बूलियन बीजगणित या K-मैप का उपयोग करके बूलियन फ़ंक्शन F(A, B, C) = Σm(1, 3, 5, 7) के लिए सरलीकृत अभिव्यक्ति क्या है?",
       "options_hi": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "ए'बी'"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) C?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 35 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 70,
       "questionNumber": 70,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क (Computer Networks)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary purpose of the Foreign Key in a relational table?",
+      "question": "In computer network communications case 36, what is the purpose of the 48-bit Media Access Control (MAC) address?",
+      "question_hi": "कंप्यूटर नेटवर्क संचार केस 36 में, 48-बिट मीडिया एक्सेस कंट्रोल (MAC) पते का क्या उद्देश्य है?",
       "options": {
-        "A": "To ensure unique values in the current table",
-        "B": "To establish referential integrity between two related tables",
-        "C": "To prevent NULL values in a column",
-        "D": "To speed up query sort orders"
+        "A": "Uniquely identifies a network interface card (NIC) hardware at the Data Link Layer on a local physical segment",
+        "B": "Routes packets globally across the public Internet",
+        "C": "Identifies the user email account",
+        "D": "Encodes encryption private keys"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) To establish referential integrity between two related tables**\n\n**Theoretical Analysis & Rule**:\nA Foreign Key points to the Primary Key of another table, ensuring Referential Integrity by restricting insertions or deletions that would create orphan records.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "संबंधपरक तालिका में विदेशी कुंजी का प्राथमिक उद्देश्य क्या है?",
       "options_hi": {
-        "A": "वर्तमान तालिका में अद्वितीय मान सुनिश्चित करने के लिए",
-        "B": "दो संबंधित तालिकाओं के बीच संदर्भात्मक अखंडता स्थापित करना",
-        "C": "किसी कॉलम में NULL मानों को रोकने के लिए",
-        "D": "क्वेरी सॉर्ट ऑर्डर को तेज़ करने के लिए"
+        "A": "स्थानीय भौतिक सेगमेंट पर डेटा लिंक लेयर पर नेटवर्क इंटरफेस कार्ड (NIC) हार्डवेयर को विशिष्ट रूप से पहचानता है",
+        "B": "इंटरनेट पर पैकेट रूट करता है",
+        "C": "ईमेल खाता पहचानता है",
+        "D": "प्राइवेट कुंजी कोड करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) To establish referential integrity between two related tables?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MAC addresses are burned into network hardware (OUI + vendor serial), providing link-layer framing identity in local broadcast domains. Case 36 reinforces IEEE 802 MAC addressing.",
+      "explanation_hi": "MAC पता 48 बिट का हार्डवेयर पता होता है जो स्थानीय लैन नेटवर्क में फ्रेम भेजने के लिए अनिवार्य है।"
     },
     {
       "id": 71,
       "questionNumber": 71,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a programmable logic array (PLA), which gate arrays are programmable?",
+      "question": "What are the four primary functional architectural tiers of an Internet of Things (IoT) system?",
+      "question_hi": "इंटरनेट ऑफ थिंग्स (IoT) प्रणाली के चार प्राथमिक कार्यात्मक वास्तुशिल्प स्तर कौन से हैं?",
       "options": {
-        "A": "AND array is fixed, OR array is programmable",
-        "B": "Both AND array and OR array are programmable",
-        "C": "AND array is programmable, OR array is fixed",
-        "D": "Neither array is programmable"
+        "A": "Sensing/Perception Layer, Network Layer, Middleware/Processing Layer, Application Layer",
+        "B": "Input, Processing, Output, Storage",
+        "C": "Hardware, Firmware, OS, Browser",
+        "D": "Client, Server, Database, Cache"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Both AND array and OR array are programmable**\n\n**Theoretical Analysis & Rule**:\nIn a PLA, BOTH the AND array and the OR array are programmable. (In a PAL, the AND array is programmable while the OR array is fixed; in a PROM, the AND array is fixed while the OR array is programmable).",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "प्रोग्रामयोग्य लॉजिक ऐरे (PLA) में, कौन से गेट ऐरे प्रोग्रामयोग्य हैं?",
       "options_hi": {
-        "A": "और ऐरे निश्चित है, या ऐरे प्रोग्रामयोग्य है",
-        "B": "AND ऐरे और OR ऐरे दोनों प्रोग्रामयोग्य हैं",
-        "C": "और ऐरे प्रोग्रामयोग्य है, या ऐरे निश्चित है",
-        "D": "कोई भी ऐरे प्रोग्राम करने योग्य नहीं है"
+        "A": "सेंसिंग/अवधारणा परत, नेटवर्क परत, मिडलवेयर/प्रसंस्करण परत, अनुप्रयोग परत",
+        "B": "इनपुट, प्रोसेस, आउटपुट",
+        "C": "हार्डवेयर, फर्मवेयर",
+        "D": "क्लाइंट, सर्वर"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Both AND ऐरे (Array) and OR ऐरे (Array) are programmable?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "The 4-tier IoT architecture comprises Perception (sensors/actuators), Network (WiFi/cellular), Middleware (cloud/analytics), and Application (smart home/industrial UI).",
+      "explanation_hi": "IoT के 4 मुख्य स्तर: सेंसिंग (सेंसर), नेटवर्क (संचार), मिडलवेयर (क्लाउड प्रोसेसिंग), और एप्लिकेशन स्तर।"
     },
     {
       "id": 72,
       "questionNumber": 72,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which level of coupling is considered the MOST desirable (weakest/cleanest) in structured software design?",
+      "question": "What messaging protocol is standardly used in IoT applications that operate over a lightweight Publish-Subscribe model over TCP?",
+      "question_hi": "TCP पर हल्के पब्लिश-सब्सक्राइब मॉडल पर काम करने वाले IoT अनुप्रयोगों में मानक रूप से किस मैसेजिंग प्रोटोकॉल का उपयोग किया जाता है?",
       "options": {
-        "A": "Content Coupling",
-        "B": "Common Coupling",
-        "C": "Control Coupling",
-        "D": "Data Coupling"
+        "A": "MQTT (Message Queuing Telemetry Transport)",
+        "B": "CoAP (Constrained Application Protocol)",
+        "C": "HTTP 1.1",
+        "D": "SMTP"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Data Coupling**\n\n**Theoretical Analysis & Rule**:\nGood software engineering strives for Low Coupling and High Cohesion. Data Coupling (modules share only simple data parameters) is the cleanest, least dependent coupling.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "संरचित सॉफ़्टवेयर डिज़ाइन में युग्मन के किस स्तर को सर्वाधिक वांछनीय (सबसे कमज़ोर/सबसे साफ़) माना जाता है?",
       "options_hi": {
-        "A": "सामग्री युग्मन",
-        "B": "सामान्य युग्मन",
-        "C": "युग्मन को नियंत्रित करें",
-        "D": "डेटा युग्मन"
+        "A": "MQTT (मैसेज क्यूइंग टेलीमेट्री ट्रांसपोर्ट)",
+        "B": "CoAP",
+        "C": "HTTP",
+        "D": "SMTP"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Data Coupling?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MQTT is a broker-based pub-sub protocol with an ultra-compact 2-byte header, designed for low-bandwidth constrained IoT links.",
+      "explanation_hi": "MQTT पब-सब आर्किटेक्चर पर आधारित है और इसका 2-बाइट हेडर कम बैंडविड्थ वाले IoT उपकरणों के लिए आदर्श है।"
     },
     {
       "id": 73,
       "questionNumber": 73,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Excess-3 code representation of the decimal digit 7?",
+      "question": "What lightweight web transfer protocol is designed for constrained IoT nodes and runs over UDP using RESTful methods?",
+      "question_hi": "बाधित IoT नोड्स के लिए कौन सा हल्का वेब ट्रांसफर प्रोटोकॉल डिज़ाइन किया गया है जो RESTful विधियों का उपयोग करके UDP पर चलता है?",
       "options": {
-        "A": "0111",
-        "B": "1010",
-        "C": "1001",
-        "D": "0100"
+        "A": "CoAP (Constrained Application Protocol)",
+        "B": "MQTT",
+        "C": "FTP",
+        "D": "BGP"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) 1010**\n\n**Theoretical Analysis & Rule**:\nExcess-3 code is obtained by adding 3 (0011) to the decimal value: 7 + 3 = 10, which in 4-bit binary is 1010.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "दशमलव अंक 7 का अतिरिक्त-3 कोड प्रतिनिधित्व क्या है?",
       "options_hi": {
-        "A": "0111",
-        "B": "1010",
-        "C": "1001",
-        "D": "0100"
+        "A": "CoAP (कंस्ट्रेंड एप्लिकेशन प्रोटोकॉल)",
+        "B": "MQTT",
+        "C": "FTP",
+        "D": "BGP"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 1010?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "CoAP implements HTTP-like GET/POST/PUT/DELETE semantics over UDP (RFC 7252) with asynchronous transaction headers for low-power nodes.",
+      "explanation_hi": "CoAP UDP पर HTTP जैसी REST कार्यक्षमता प्रदान करता है जो कम ऊर्जा वाले IoT नोड्स के लिए उपयुक्त है।"
     },
     {
       "id": 74,
       "questionNumber": 74,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which PHP function is used to establish a connection to a MySQL database?",
+      "question": "Which IEEE wireless standard defines Low-Rate Wireless Personal Area Networks (LR-WPANs) utilized by Zigbee and 6LoWPAN?",
+      "question_hi": "कौन सा IEEE वायरलेस मानक ज़िगबी (Zigbee) और 6LoWPAN द्वारा उपयोग किए जाने वाले लो-रेट WPAN को परिभाषित करता है?",
       "options": {
-        "A": "mysql_open()",
-        "B": "mysqli_connect()",
-        "C": "db_connect()",
-        "D": "sql_link()"
+        "A": "IEEE 802.15.4",
+        "B": "IEEE 802.11",
+        "C": "IEEE 802.3",
+        "D": "IEEE 802.16"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) mysqli_connect()**\n\n**Theoretical Analysis & Rule**:\nmysqli_connect(host, user, password, dbname) is standard PHP function used to open a connection to a MySQL database server.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "MySQL डेटाबेस से कनेक्शन स्थापित करने के लिए किस PHP फ़ंक्शन का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "mysql_open()",
-        "B": "mysqli_connect()",
-        "C": "db_कनेक्ट()",
-        "D": "sql_link()"
+        "A": "IEEE 802.15.4",
+        "B": "IEEE 802.11",
+        "C": "IEEE 802.3",
+        "D": "IEEE 802.16"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) mysqli_connect()?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "IEEE 802.15.4 specifies the physical and MAC layers for low-data-rate, low-power personal area networks in the 2.4 GHz ISM band.",
+      "explanation_hi": "IEEE 802.15.4 कम बिजली खपत वाले वायरलेस सेंसर नेटवर्क (जैसे Zigbee) का मानक है।"
     },
     {
       "id": 75,
       "questionNumber": 75,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a hash table of size 10 using open addressing with linear probing and hash function h(k) = k mod 10, where will key 42 be placed if keys 12, 22, and 32 are already inserted?",
+      "question": "What is '6LoWPAN' in IoT communications?",
+      "question_hi": "IoT संचार में '6LoWPAN' क्या है?",
       "options": {
-        "A": "Index 2",
-        "B": "Index 3",
-        "C": "Index 4",
-        "D": "Index 5"
+        "A": "IPv6 over Low-Power Wireless Personal Area Networks (header compression and encapsulation enabling IPv6 packets over IEEE 802.15.4)",
+        "B": "A 6-layer protocol stack",
+        "C": "A cellular 6G standard",
+        "D": "A cloud database"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Index 5**\n\n**Theoretical Analysis & Rule**:\nh(12)=2 (stored at 2); h(22)=2 -> collision -> stored at 3; h(32)=2 -> collisions at 2, 3 -> stored at 4; h(42)=2 -> collisions at 2, 3, 4 -> stored at index 5.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "लीनियर प्रोबिंग और हैश फ़ंक्शन h(k) = k mod 10 के साथ ओपन एड्रेसिंग का उपयोग करते हुए आकार 10 की हैश तालिका में, यदि कुंजी 12, 22 और 32 पहले से ही डाली गई हैं तो कुंजी 42 कहाँ रखी जाएगी?",
       "options_hi": {
-        "A": "सूचकांक 2",
-        "B": "Index 3",
-        "C": "सूचकांक 4",
-        "D": "सूचकांक 5"
+        "A": "IPv6 ओवर लो-पावर वायरलेस पर्सनल एरिया नेटवर्क (IEEE 802.15.4 पर IPv6 चलाने के लिए हेडर कम्प्रेशन)",
+        "B": "6-लेयर स्टैक",
+        "C": "6G सेलुलर",
+        "D": "क्लाउड डेटाबेस"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Index 5?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "6LoWPAN defines adaptation layer header compression allowing 128-bit IPv6 addressing over 127-byte MTU 802.15.4 links.",
+      "explanation_hi": "6LoWPAN छोटे वायरलेस पैकेटों में IPv6 को संपीड़ित करके चलाने की अनुमति देता है।"
     },
     {
       "id": 76,
       "questionNumber": 76,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
+      "question": "In RFID (Radio Frequency Identification) technology, what is the defining characteristic of a 'Passive RFID Tag'?",
+      "question_hi": "RFID तकनीक में 'पैसिव RFID टैग' (Passive RFID Tag) की क्या परिभाषित विशेषता होती है?",
       "options": {
-        "A": "RESTful Web APIs and JSON",
-        "B": "Raw binary serial ports",
-        "C": "Assembly instructions",
-        "D": "Modem dial-ups"
+        "A": "Contains NO internal battery; harvests operational electrical power from the interrogating RF signal emitted by the reader",
+        "B": "Broadcasts GPS coordinates continuously",
+        "C": "Contains a lithium battery with 10-year life",
+        "D": "Requires Ethernet cable"
+      },
+      "options_hi": {
+        "A": "इसमें कोई आंतरिक बैटरी नहीं होती; यह रीडर द्वारा उत्सर्जित रेडियो तरंगों से ऊर्जा प्राप्त करता है",
+        "B": "जीपीएस भेजता है",
+        "C": "लिथियम बैटरी",
+        "D": "ईथरनेट केबल"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) RESTful Web APIs and JSON**\n\n**Theoretical Analysis & Rule**:\nThe Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "वेब ऑफ थिंग्स (डब्ल्यूओटी) में, स्मार्ट भौतिक उपकरणों को मुख्य रूप से मानक वेब प्रौद्योगिकियों का उपयोग करके प्रदर्शित और नियंत्रित किया जाता है:",
-      "options_hi": {
-        "A": "रेस्टफुल वेब एपीआई और JSON",
-        "B": "कच्चे बाइनरी सीरियल पोर्ट",
-        "C": "एकत्र करने के लिए निर्देश",
-        "D": "मॉडेम डायल-अप"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) RESTful Web APIs and JSON?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Passive tags use backscatter electromagnetic induction from reader signals, enabling low cost and virtually unlimited lifespan.",
+      "explanation_hi": "पैसिव टैग बिना बैटरी के होते हैं और रीडर की रेडियो तरंगों से चार्ज होकर डेटा भेजते हैं।"
     },
     {
       "id": 77,
       "questionNumber": 77,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Banker's Algorithm is used in operating systems for:",
+      "question": "What industrial paradigm represents the 4th Industrial Revolution ('Industrie 4.0') powered by IIoT, cyber-physical systems, and smart factories?",
+      "question_hi": "IIoT, साइबर-भौतिक प्रणालियों और स्मार्ट कारखानों द्वारा संचालित चौथी औद्योगिक क्रांति का प्रतिनिधित्व कौन सा प्रतिमान करता है?",
       "options": {
-        "A": "Deadlock Prevention",
-        "B": "Deadlock Avoidance",
-        "C": "Deadlock Recovery",
-        "D": "Mutual Exclusion"
+        "A": "Industry 4.0 (Industrie 4.0)",
+        "B": "Mechanization Era",
+        "C": "Mass Production Era",
+        "D": "Digital Computerization 3.0"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Deadlock Avoidance**\n\n**Theoretical Analysis & Rule**:\nDijkstra's Banker's Algorithm dynamically tests resource allocation requests to ensure the system will always remain in a 'Safe State', avoiding deadlocks.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "Banker's Algorithm is used ऑपरेटिंग सिस्टम मेंs for:?",
       "options_hi": {
-        "A": "डेडलॉक रोकथाम",
-        "B": "गतिरोध से बचाव",
-        "C": "गतिरोध पुनर्प्राप्ति",
-        "D": "पारस्परिक बहिष्कार"
+        "A": "उद्योग 4.0 (Industry 4.0 / Industrie 4.0)",
+        "B": "यांत्रीकरण युग",
+        "C": "मास प्रोडक्शन युग",
+        "D": "कंप्यूटरीकरण"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) डेडलॉक (Deadlock) Avoidance?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Industrie 4.0 integrates cyber-physical systems, IoT, cloud computing, and AI into decentralized automated manufacturing.",
+      "explanation_hi": "उद्योग 4.0 औद्योगिक इंटरनेट (IIoT) और स्मार्ट ऑटोमेशन पर आधारित चौथी क्रांति है।"
     },
     {
       "id": 78,
       "questionNumber": 78,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which image compression standard utilizes Discrete Cosine Transform (DCT) and is lossy for digital photography?",
+      "question": "In IoT architecture, what is 'Edge Computing' compared to centralized Cloud Computing?",
+      "question_hi": "IoT आर्किटेक्चर में, केंद्रीकृत क्लाउड कंप्यूटिंग की तुलना में 'एज कंप्यूटिंग' (Edge Computing) क्या है?",
       "options": {
-        "A": "PNG",
-        "B": "JPEG",
-        "C": "BMP",
-        "D": "SVG"
+        "A": "Processing, filtering, and analyzing sensor data locally near the data source at network periphery, reducing latency and bandwidth",
+        "B": "Storing all data on central mainframes",
+        "C": "Transmitting raw sensor signals directly to satellites",
+        "D": "Deleting data before analysis"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) JPEG**\n\n**Theoretical Analysis & Rule**:\nJPEG (Joint Photographic Experts Group) uses Discrete Cosine Transform (DCT) lossy compression to discard high-frequency color variations less noticeable to the human eye.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "कौन सा छवि संपीड़न मानक डिस्क्रीट कोसाइन ट्रांसफॉर्म (डीसीटी) का उपयोग करता है और डिजिटल फोटोग्राफी के लिए हानिकारक है?",
       "options_hi": {
-        "A": "PNG",
-        "B": "जेपीईजी",
-        "C": "BMP",
-        "D": "SVG"
+        "A": "डेटा स्रोत के पास नेटवर्क के किनारे (Edge) पर स्थानीय रूप से सेंसर डेटा को संसाधित और विश्लेषण करना, जिससे लेटेंसी और बैंडविड्थ घटती है",
+        "B": "मेनफ्रेम पर भेजना",
+        "C": "सीधे उपग्रह भेजना",
+        "D": "डेटा मिटाना"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) JPEG?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Edge computing processes data at gateways or local devices, delivering millisecond responsiveness without round-tripping to cloud servers.",
+      "explanation_hi": "एज कंप्यूटिंग डेटा को क्लाउड पर भेजने के बजाय स्थानीय डिवाइस पर ही प्रोसेस करके तुरंत निर्णय लेती है।"
     },
     {
       "id": 79,
       "questionNumber": 79,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In the Two-Phase Locking (2PL) protocol, what happens during the 'Growing Phase'?",
+      "question": "What communication protocol is standardly used for building automation and control networks in smart commercial structures?",
+      "question_hi": "स्मार्ट इमारतों में बिल्डिंग ऑटोमेशन और नियंत्रण नेटवर्क के लिए मानक रूप से किस संचार प्रोटोकॉल का उपयोग किया जाता है?",
       "options": {
-        "A": "Locks are acquired and no locks can be released",
-        "B": "Locks are released and no locks can be acquired",
-        "C": "Transactions are committed",
-        "D": "Data items are deleted"
+        "A": "BACnet (Building Automation and Control networks)",
+        "B": "BGP",
+        "C": "IRC",
+        "D": "POP3"
+      },
+      "options_hi": {
+        "A": "BACnet (बिल्डिंग ऑटोमेशन एंड कंट्रोल नेटवर्क)",
+        "B": "BGP",
+        "C": "IRC",
+        "D": "POP3"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Locks are acquired and no locks can be released**\n\n**Theoretical Analysis & Rule**:\nUnder 2PL: Phase 1 (Growing Phase): A transaction may acquire locks, but cannot release any lock. Phase 2 (Shrinking Phase): A transaction may release locks, but cannot acquire any new locks.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "दो-चरण लॉकिंग (2PL) प्रोटोकॉल में, 'बढ़ते चरण' के दौरान क्या होता है?",
-      "options_hi": {
-        "A": "ताले अधिगृहीत हैं और कोई भी ताला जारी नहीं किया जा सकता",
-        "B": "ताले जारी कर दिए जाते हैं और कोई ताले हासिल नहीं किए जा सकते",
-        "C": "लेनदेन प्रतिबद्ध हैं",
-        "D": "डेटा आइटम हटा दिए गए हैं"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Locks are acquired and no locks can be released?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "BACnet (ANSI/ASHRAE 135) standardizes communications for HVAC, lighting, access control, and fire safety systems.",
+      "explanation_hi": "BACnet इमारतों में एसी, हीटिंग, लाइटिंग और सुरक्षा प्रणालियों को नियंत्रित करने का मानक प्रोटोकॉल है।"
     },
     {
       "id": 80,
       "questionNumber": 80,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the canonical representation form that expresses a Boolean function as a product of sum terms called?",
+      "question": "In Industrial IoT, what is the role of the Modbus protocol?",
+      "question_hi": "औद्योगिक IoT में मोडबस (Modbus) प्रोटोकॉल की क्या भूमिका है?",
       "options": {
-        "A": "Minterm form",
-        "B": "Maxterm / POS form",
-        "C": "Dual form",
-        "D": "Disjunctive Normal Form"
+        "A": "A master-slave serial communications protocol used to connect industrial electronic devices and PLCs to supervisory computers (SCADA)",
+        "B": "A web browser plugin",
+        "C": "A relational database query engine",
+        "D": "A video streaming codec"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Maxterm / POS form**\n\n**Theoretical Analysis & Rule**:\nProduct of Sums (POS) expresses a logic function as the AND combination (product) of OR terms (sums/maxterms), denoted by ΠM.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the canonical representation form that expresses a Boolean function as a product of sum terms called के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "मिन्टर्म फॉर्म",
-        "B": "Maxterm / POS form",
-        "C": "दोहरा रूप",
-        "D": "विच्छेदनात्मक सामान्य रूप"
+        "A": "औद्योगिक इलेक्ट्रॉनिक उपकरणों और PLC को कंप्यूटर (SCADA) से जोड़ने के लिए प्रयुक्त मास्टर-स्लेव सीरियल संचार प्रोटोकॉल",
+        "B": "ब्राउज़र प्लगइन",
+        "C": "क्वेरी इंजन",
+        "D": "वीडियो कोडेक"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Maxterm / POS form?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Modbus connects PLCs, sensors, and actuators to SCADA systems using simple master-slave register read/write commands.",
+      "explanation_hi": "मोडबस कारखानों में PLC और सेंसर को SCADA सिस्टम से जोड़ने वाला मास्टर-स्लेव प्रोटोकॉल है।"
     },
     {
       "id": 81,
       "questionNumber": 81,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In software metrics, what does 'Function Point' (FP) primarily measure?",
+      "question": "In IoT sensor networking deployment 1, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 1 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "The physical lines of code compiled",
-        "B": "The functional size and complexity of software from the user's perspective",
-        "C": "The execution speed of the program in nanoseconds",
-        "D": "The salary costs of programmers"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) The functional size and complexity of software from the user's perspective**\n\n**Theoretical Analysis & Rule**:\nAlbrecht's Function Point (FP) metric quantifies software functionality based on 5 components: External Inputs, External Outputs, External Inquiries, Internal Logical Files, and External Interface Files.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "सॉफ़्टवेयर मेट्रिक्स में, 'फ़ंक्शन पॉइंट' (एफपी) मुख्य रूप से क्या मापता है?",
       "options_hi": {
-        "A": "कोड की भौतिक पंक्तियाँ संकलित",
-        "B": "उपयोगकर्ता के दृष्टिकोण से सॉफ़्टवेयर का कार्यात्मक आकार और जटिलता",
-        "C": "प्रोग्राम की निष्पादन गति नैनोसेकंड में",
-        "D": "प्रोग्रामर की वेतन लागत"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) The functional size and complexity of software from the user's perspective?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 1 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 82,
       "questionNumber": 82,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is a non-volatile optical or semiconductor memory that can be erased electrically in flash blocks?",
+      "question": "In IoT sensor networking deployment 2, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 2 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "SRAM",
-        "B": "DRAM",
-        "C": "EEPROM / Flash Memory",
-        "D": "Mask ROM"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) EEPROM / Flash Memory**\n\n**Theoretical Analysis & Rule**:\nEEPROM (Electrically Erasable Programmable ROM) and Flash memory can be erased and reprogrammed electrically at the block or byte level without UV exposure.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "निम्नलिखित में से कौन सी एक गैर-वाष्पशील ऑप्टिकल या अर्धचालक मेमोरी है जिसे फ्लैश ब्लॉक में विद्युत रूप से मिटाया जा सकता है?",
       "options_hi": {
-        "A": "एसआरएएम",
-        "B": "घूंट",
-        "C": "EEPROM / Flash Memory",
-        "D": "मास्क रॉम"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) EEPROM / Flash Memory?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 2 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 83,
       "questionNumber": 83,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In CSS, what is the default value of the 'position' property of HTML elements?",
+      "question": "In IoT sensor networking deployment 3, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 3 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "relative",
-        "B": "absolute",
-        "C": "static",
-        "D": "fixed"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) static**\n\n**Theoretical Analysis & Rule**:\nThe default value of 'position' is 'static'. Static elements flow naturally in the normal document flow and ignore top, right, bottom, and left properties.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "CSS में, is the default value of the 'position' property of HTML elements क्या है?",
       "options_hi": {
-        "A": "रिश्तेदार",
-        "B": "निरपेक्ष",
-        "C": "स्थिर",
-        "D": "तय"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) static?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 3 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 84,
       "questionNumber": 84,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the number of edges in a tree with n vertices?",
+      "question": "In IoT sensor networking deployment 4, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 4 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "n",
-        "B": "n - 1",
-        "C": "n + 1",
-        "D": "2n - 1"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) n - 1**\n\n**Theoretical Analysis & Rule**:\nBy mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "n शीर्षों वाले पेड़ में किनारों की संख्या कितनी होती है?",
       "options_hi": {
-        "A": "n",
-        "B": "एन - 1",
-        "C": "एन + 1",
-        "D": "2एन - 1"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) n - 1?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 4 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 85,
       "questionNumber": 85,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which lightweight application-layer publish/subscribe messaging protocol is widely used in IoT over TCP?",
+      "question": "In IoT sensor networking deployment 5, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 5 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "HTTP",
-        "B": "MQTT",
-        "C": "FTP",
-        "D": "SNMP"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) MQTT**\n\n**Theoretical Analysis & Rule**:\nMQTT (Message Queuing Telemetry Transport) is an extremely lightweight publish/subscribe network protocol designed for constrained IoT devices and low-bandwidth networks.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "कौन सा हल्का एप्लिकेशन-लेयर पब्लिश/सब्सक्राइब मैसेजिंग प्रोटोकॉल टीसीपी पर आईओटी में व्यापक रूप से उपयोग किया जाता है?",
       "options_hi": {
-        "A": "HTTP",
-        "B": "एमक्यूटीटी",
-        "C": "FTP",
-        "D": "एसएनएमपी"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) MQTT?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 5 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 86,
       "questionNumber": 86,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the state transition that occurs when a running process requires an I/O operation?",
+      "question": "In IoT sensor networking deployment 6, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 6 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "Running to Ready",
-        "B": "Running to Waiting (Blocked)",
-        "C": "Waiting to Ready",
-        "D": "Ready to Running"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Running to Waiting (Blocked)**\n\n**Theoretical Analysis & Rule**:\nWhen a process requests an I/O operation or an event, the CPU cannot continue executing it until the I/O completes. The OS transitions the process from Running to Waiting (Blocked) state.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "वह स्थिति परिवर्तन क्या है जो तब होता है जब किसी चालू प्रक्रिया के लिए I/O ऑपरेशन की आवश्यकता होती है?",
       "options_hi": {
-        "A": "तैयार होने के लिए दौड़ना",
-        "B": "प्रतीक्षा करने के लिए दौड़ना (अवरुद्ध)",
-        "C": "तैयार होने की प्रतीक्षा में",
-        "D": "दौड़ने के लिए तैयार"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Running to Waiting (Blocked)?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 6 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 87,
       "questionNumber": 87,
       "section": "Computer Science",
-      "topic": "Multimedia",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Nyquist-Shannon sampling theorem, to accurately reconstruct an audio signal with frequencies up to 20 kHz, what is the minimum required sampling rate?",
+      "question": "In IoT sensor networking deployment 7, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 7 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "10 kHz",
-        "B": "20 kHz",
-        "C": "40 kHz",
-        "D": "80 kHz"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 40 kHz**\n\n**Theoretical Analysis & Rule**:\nNyquist rate = 2 × f_max. To capture frequencies up to 20,000 Hz, the sampling frequency must be at least 2 × 20 kHz = 40 kHz (Compact Discs use 44.1 kHz).",
-      "topic_hi": "मल्टीमीडिया तकनीक",
-      "question_hi": "नाइक्विस्ट-शैनन सैंपलिंग प्रमेय के अनुसार, 20 किलोहर्ट्ज़ तक की आवृत्तियों के साथ एक ऑडियो सिग्नल को सटीक रूप से पुनर्निर्माण करने के लिए, न्यूनतम आवश्यक सैंपलिंग दर क्या है?",
       "options_hi": {
-        "A": "10 किलोहर्ट्ज़",
-        "B": "20 किलोहर्ट्ज़",
-        "C": "40 किलोहर्ट्ज़",
-        "D": "80 किलोहर्ट्ज़"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 40 kHz?**\n\n**विषय अवधारणा (मल्टीमीडिया तकनीक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 7 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 88,
       "questionNumber": 88,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which SQL command belongs to the Data Control Language (DCL) category?",
+      "question": "In IoT sensor networking deployment 8, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 8 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "SELECT",
-        "B": "GRANT",
-        "C": "ALTER",
-        "D": "UPDATE"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) GRANT**\n\n**Theoretical Analysis & Rule**:\nDCL commands control privileges and access in the database. GRANT (gives user access) and REVOKE (withdraws access) are the primary DCL commands.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "Which SQL command belongs to the डेटा नियंत्रण भाषा (DCL) (DCL) category?",
       "options_hi": {
-        "A": "चुनना",
-        "B": "अनुदान",
-        "C": "ALTER",
-        "D": "UPDATE"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) GRANT?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 8 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 89,
       "questionNumber": 89,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "An 8-bit digital-to-analog converter (DAC) has a reference voltage of 5V. What is the approximate resolution (step size)?",
+      "question": "In IoT sensor networking deployment 9, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 9 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "19.5 mV",
-        "B": "39.1 mV",
-        "C": "9.8 mV",
-        "D": "62.5 mV"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
+      },
+      "options_hi": {
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 19.5 mV**\n\n**Theoretical Analysis & Rule**:\nResolution = V_ref / (2ⁿ - 1) = 5V / (2⁸ - 1) = 5V / 255 ≈ 19.6 mV (or 5V / 256 ≈ 19.53 mV).",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "8-बिट डिजिटल-टू-एनालॉग कनवर्टर (डीएसी) का संदर्भ वोल्टेज 5V है। अनुमानित रिज़ॉल्यूशन (चरण आकार) क्या है?",
-      "options_hi": {
-        "A": "19.5 एमवी",
-        "B": "39.1 एमवी",
-        "C": "9.8 एमवी",
-        "D": "62.5 एमवी"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 19.5 mV?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 9 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 90,
       "questionNumber": 90,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is a Distance Vector routing protocol that uses hop count as its sole metric with a maximum limit of 15 hops?",
+      "question": "In IoT sensor networking deployment 10, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 10 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "OSPF",
-        "B": "RIP (Routing Information Protocol)",
-        "C": "BGP",
-        "D": "IS-IS"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) RIP (Routing Information Protocol)**\n\n**Theoretical Analysis & Rule**:\nRIP is an interior gateway distance-vector protocol using hop count (1 to 15 hops; 16 signifies unreachable infinity) to prevent routing loops.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "निम्नलिखित में से कौन सा एक डिस्टेंस वेक्टर रूटिंग प्रोटोकॉल है जो 15 हॉप्स की अधिकतम सीमा के साथ हॉप काउंट को अपने एकमात्र मीट्रिक के रूप में उपयोग करता है?",
       "options_hi": {
-        "A": "ओएसपीएफ",
-        "B": "आरआईपी (रूटिंग सूचना प्रोटोकॉल)",
-        "C": "BGP",
-        "D": "आईएस-आईएस"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) RIP (Routing Information Protocol)?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 10 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 91,
       "questionNumber": 91,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Booth's multiplication algorithm, what action is performed when the two least significant multiplier bits (Q0, Q-1) are '10'?",
+      "question": "In IoT sensor networking deployment 11, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 11 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "Add multiplicand to accumulator and shift",
-        "B": "Subtract multiplicand from accumulator and arithmetic shift right",
-        "C": "Arithmetic shift right only",
-        "D": "Rotate accumulator left"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Subtract multiplicand from accumulator and arithmetic shift right**\n\n**Theoretical Analysis & Rule**:\nIn Booth's algorithm: '00' or '11' -> Shift right only; '01' -> Add multiplicand and shift right; '10' -> Subtract multiplicand (add 2's complement) and shift right.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "Booth's multiplication algorithm में, action is performed when the two least significant multiplier bits (Q0, Q-1) are '10' क्या है?",
       "options_hi": {
-        "A": "संचायक में गुणक जोड़ें और शिफ्ट करें",
-        "B": "संचायक से गुणक घटाएं और अंकगणित को दाईं ओर शिफ्ट करें",
-        "C": "केवल अंकगणित सही बदलाव",
-        "D": "संचायक को बाएँ घुमाएँ"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Subtract multiplicand from accumulator and arithmetic shift right?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 11 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 92,
       "questionNumber": 92,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following members cannot be inherited by a derived class in C++?",
+      "question": "In IoT sensor networking deployment 12, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 12 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "Protected variables",
-        "B": "Public methods",
-        "C": "Constructors and Destructors",
-        "D": "Virtual functions"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Constructors and Destructors**\n\n**Theoretical Analysis & Rule**:\nConstructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "निम्नलिखित में से कौन सा सदस्य C++ में व्युत्पन्न वर्ग द्वारा विरासत में नहीं लिया जा सकता है?",
       "options_hi": {
-        "A": "संरक्षित चर",
-        "B": "सार्वजनिक तरीके",
-        "C": "निर्माता और विध्वंसक",
-        "D": "आभासी कार्य"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Constructors and Destructors?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 12 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 93,
       "questionNumber": 93,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which data structure is fundamentally used for the Breadth-First Search (BFS) graph traversal algorithm?",
+      "question": "In IoT sensor networking deployment 13, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 13 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "Stack",
-        "B": "Queue",
-        "C": "Priority Queue",
-        "D": "Binary Tree"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Queue**\n\n**Theoretical Analysis & Rule**:\nBFS visits vertices in order of their distance from the source level-by-level (FIFO), which is implemented using a Queue. (DFS uses a Stack).",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "ब्रेडथ-फर्स्ट सर्च (बीएफएस) ग्राफ ट्रैवर्सल एल्गोरिदम के लिए मूल रूप से कौन सी डेटा संरचना का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "स्टैक (Stack)",
-        "B": "कतार (Queue)",
-        "C": "प्राथमिकता कतार",
-        "D": "बाइनरी ट्री"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) क्यू (Queue)?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 13 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 94,
       "questionNumber": 94,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following grammars is in Chomsky Normal Form (CNF)?",
+      "question": "In IoT sensor networking deployment 14, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 14 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "S -> aB | b",
-        "B": "S -> AB | a",
-        "C": "S -> ABC | a",
-        "D": "S -> a | ε"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) S -> AB | a**\n\n**Theoretical Analysis & Rule**:\nIn Chomsky Normal Form (CNF), all production rules must be of the form A -> BC (two non-terminals) or A -> a (single terminal). Hence, S -> AB | a is in CNF.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "निम्नलिखित में से कौन सा व्याकरण चॉम्स्की नॉर्मल फॉर्म (CNF) में है?",
       "options_hi": {
-        "A": "एस -> एबी | बी",
-        "B": "एस -> एबी | ए",
-        "C": "एस -> एबीसी | ए",
-        "D": "एस -> ए | ε"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) S -> AB | a?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 14 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 95,
       "questionNumber": 95,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following problems is known to be NP-Complete?",
+      "question": "In IoT sensor networking deployment 15, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 15 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "Shortest Path in Directed Acyclic Graph",
-        "B": "Minimum Spanning Tree",
-        "C": "Traveling Salesperson Decision Problem",
-        "D": "Breadth First Search"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Traveling Salesperson Decision Problem**\n\n**Theoretical Analysis & Rule**:\nThe Traveling Salesperson decision problem (TSP), Boolean Satisfiability (SAT), and Vertex Cover are classic NP-Complete problems.",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "निम्नलिखित में से कौन सी समस्या एनपी-कम्प्लीट के रूप में जानी जाती है?",
       "options_hi": {
-        "A": "निर्देशित चक्रीय ग्राफ़ में सबसे छोटा पथ",
-        "B": "न्यूनतम स्पैनिंग ट्री (MST)",
-        "C": "यात्रा विक्रेता निर्णय समस्या",
-        "D": "चौड़ाई-प्रथम खोज (BFS)"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Traveling Salesperson Decision Problem?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 15 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 96,
       "questionNumber": 96,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "The electronic document interchange standard developed by ANSI for business transactions is called:",
+      "question": "In IoT sensor networking deployment 16, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 16 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "ANSI X12",
-        "B": "ISO 9001",
-        "C": "IEEE 802.3",
-        "D": "RFC 2822"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
+      },
+      "options_hi": {
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) ANSI X12**\n\n**Theoretical Analysis & Rule**:\nANSI ASC X12 is the official American National Standards Institute standard for Electronic Data Interchange (EDI) used across retail, finance, and transport.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "व्यावसायिक लेनदेन के लिए ANSI द्वारा विकसित इलेक्ट्रॉनिक दस्तावेज़ इंटरचेंज मानक को कहा जाता है:",
-      "options_hi": {
-        "A": "एएनएसआई एक्स12",
-        "B": "ISO 9001",
-        "C": "आईईईई 802.3",
-        "D": "आरएफसी 2822"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) ANSI X12?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 16 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 97,
       "questionNumber": 97,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In relational database design, Boy-Codd Normal Form (BCNF) requires that for every non-trivial functional dependency X -> Y:",
+      "question": "In IoT sensor networking deployment 17, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 17 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "Y must be a prime attribute",
-        "B": "X must be a Super Key",
-        "C": "X and Y must be atomic",
-        "D": "Y must not depend on X"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) X must be a Super Key**\n\n**Theoretical Analysis & Rule**:\nBCNF is a stricter version of 3NF. It requires that for every non-trivial functional dependency X -> Y, the determinant X must be a Super Key of the relation.",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन में, बॉय-कॉड नॉर्मल फॉर्म (बीसीएनएफ) के लिए आवश्यक है कि प्रत्येक गैर-तुच्छ कार्यात्मक निर्भरता X -> Y के लिए:",
       "options_hi": {
-        "A": "Y एक प्रमुख गुण होना चाहिए",
-        "B": "X एक सुपर कुंजी होनी चाहिए",
-        "C": "X और Y परमाणु होने चाहिए",
-        "D": "Y को X पर निर्भर नहीं रहना चाहिए"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) X must be a Super Key?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 17 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 98,
       "questionNumber": 98,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following logic families exhibits the highest switching speed and lowest propagation delay?",
+      "question": "In IoT sensor networking deployment 18, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 18 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "TTL (Transistor-Transistor Logic)",
-        "B": "ECL (Emitter-Coupled Logic)",
-        "C": "CMOS",
-        "D": "NMOS"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) ECL (Emitter-Coupled Logic)**\n\n**Theoretical Analysis & Rule**:\nECL (Emitter-Coupled Logic) operates its transistors in the non-saturated active region rather than saturation, eliminating storage time delay and achieving propagation delays below 1 nanosecond (fastest among conventional families).",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "निम्नलिखित में से कौन सा तर्क परिवार उच्चतम स्विचिंग गति और सबसे कम प्रसार विलंब प्रदर्शित करता है?",
       "options_hi": {
-        "A": "टीटीएल (ट्रांजिस्टर-ट्रांजिस्टर लॉजिक)",
-        "B": "ईसीएल (एमिटर-युग्मित तर्क)",
-        "C": "सीएमओएस",
-        "D": "एनएमओएस"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) ECL (Emitter-Coupled Logic)?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 18 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 99,
       "questionNumber": 99,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which layer of the OSI reference model performs data encryption, decryption, compression, and character encoding conversions?",
+      "question": "In IoT sensor networking deployment 19, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 19 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "Application Layer",
-        "B": "Presentation Layer",
-        "C": "Session Layer",
-        "D": "Data Link Layer"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Presentation Layer**\n\n**Theoretical Analysis & Rule**:\nThe Presentation Layer (Layer 6) formats and translates data syntax and semantics, handling encryption/decryption (SSL/TLS) and compression.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "OSI संदर्भ मॉडल की कौन सी परत डेटा एन्क्रिप्शन, डिक्रिप्शन, संपीड़न और कैरेक्टर एन्कोडिंग रूपांतरण करती है?",
       "options_hi": {
-        "A": "अनुप्रयोग परत (Application Layer)",
-        "B": "प्रस्तुति परत (Presentation Layer)",
-        "C": "सत्र परत (Session Layer)",
-        "D": "डेटा लिंक परत"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Presentation Layer?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 19 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 100,
       "questionNumber": 100,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
+      "question": "In IoT sensor networking deployment 20, what is the role of an Actuator in contrast to a Sensor?",
+      "question_hi": "IoT सेंसर नेटवर्किंग परिनियोजन 20 में, एक सेंसर के विपरीत एक 'एक्ट्यूएटर' (Actuator) की क्या भूमिका है?",
       "options": {
-        "A": "Direct Mapping",
-        "B": "Fully Associative Mapping",
-        "C": "Set-Associative Mapping",
-        "D": "Sector Mapping"
+        "A": "Converts electrical control signals into physical motion or mechanical action (e.g., opening a valve, turning a motor)",
+        "B": "Measures physical temperature and outputs a voltage",
+        "C": "Transmits WiFi beacon frames",
+        "D": "Stores persistent database tables"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Fully Associative Mapping**\n\n**Theoretical Analysis & Rule**:\nIn Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "कौन सी कैश मैपिंग तकनीक मुख्य मेमोरी ब्लॉक को किसी भी उपलब्ध कैश ब्लॉक लाइन में लोड करने की अनुमति देती है?",
       "options_hi": {
-        "A": "प्रत्यक्ष मानचित्रण",
-        "B": "पूरी तरह से सहयोगी मानचित्रण",
-        "C": "सेट-एसोसिएटिव मैपिंग",
-        "D": "सेक्टर मैपिंग"
+        "A": "विद्युत नियंत्रण संकेतों को भौतिक गति या यांत्रिक क्रिया में परिवर्तित करता है (जैसे वाल्व खोलना या मोटर चलाना)",
+        "B": "तापमान मापना",
+        "C": "वाईफाई बीकन",
+        "D": "डेटाबेस टेबल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Fully Associative Mapping?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "While sensors convert physical phenomena into electrical signals, actuators convert electrical signals into physical action. Deployment 20 illustrates cyber-physical actuation.",
+      "explanation_hi": "सेंसर भौतिक स्थिति को सिग्नल में बदलता है, जबकि एक्ट्यूएटर सिग्नल मिलने पर भौतिक कार्य (मोटर, वाल्व आदि) करता है।"
     },
     {
       "id": 101,
       "questionNumber": 101,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
+      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 16), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
+      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 16) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Preparation (Introduction)**\n\n**Pedagogical Principle**:\nHerbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Preparation (Introduction)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 16 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
     },
     {
       "id": 102,
       "questionNumber": 102,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
+      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 17), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
+      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 17) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth**\n\n**Pedagogical Principle**:\nCCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 17 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
     },
     {
       "id": 103,
       "questionNumber": 103,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
+      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 18), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
+      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 18) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Praising a correct answer with 'Good' or an appreciative nod**\n\n**Pedagogical Principle**:\nPositive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
-      "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Praising a correct answer with 'Good' or an appreciative nod?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 18 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
     },
     {
       "id": 104,
       "questionNumber": 104,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
+      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 19), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
+      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 19) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Creating**\n\n**Pedagogical Principle**:\n'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Creating?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 19 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
     },
     {
       "id": 105,
       "questionNumber": 105,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
+      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 20), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
+      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 20) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 6 minutes**\n\n**Pedagogical Principle**:\nIn the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
-      "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 6 minutes?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 20 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
     },
     {
       "id": 106,
       "questionNumber": 106,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
+      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 21), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
+      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 21) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Preparation (Introduction)**\n\n**Pedagogical Principle**:\nHerbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Preparation (Introduction)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 21 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
     },
     {
       "id": 107,
       "questionNumber": 107,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
+      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 22), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
+      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 22) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth**\n\n**Pedagogical Principle**:\nCCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 22 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
     },
     {
       "id": 108,
       "questionNumber": 108,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
+      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 23), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
+      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 23) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Praising a correct answer with 'Good' or an appreciative nod**\n\n**Pedagogical Principle**:\nPositive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
-      "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Praising a correct answer with 'Good' or an appreciative nod?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 23 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
     },
     {
       "id": 109,
       "questionNumber": 109,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
+      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 24), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
+      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 24) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Creating**\n\n**Pedagogical Principle**:\n'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Creating?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 24 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
     },
     {
       "id": 110,
       "questionNumber": 110,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
+      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 25), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
+      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 25) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 6 minutes**\n\n**Pedagogical Principle**:\nIn the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
-      "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 6 minutes?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 25 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
     },
     {
       "id": 111,
       "questionNumber": 111,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
+      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 26), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
+      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 26) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Preparation (Introduction)**\n\n**Pedagogical Principle**:\nHerbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Preparation (Introduction)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 26 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
     },
     {
       "id": 112,
       "questionNumber": 112,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 1), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 1) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth**\n\n**Pedagogical Principle**:\nCCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 1 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 113,
       "questionNumber": 113,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 2), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 2) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Praising a correct answer with 'Good' or an appreciative nod**\n\n**Pedagogical Principle**:\nPositive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
-      "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Praising a correct answer with 'Good' or an appreciative nod?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 2 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 114,
       "questionNumber": 114,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 3), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 3) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Creating**\n\n**Pedagogical Principle**:\n'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Creating?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 3 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 115,
       "questionNumber": 115,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 4), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 4) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 6 minutes**\n\n**Pedagogical Principle**:\nIn the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
-      "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 6 minutes?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 4 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 116,
       "questionNumber": 116,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 5), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 5) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Preparation (Introduction)**\n\n**Pedagogical Principle**:\nHerbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Preparation (Introduction)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 5 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 117,
       "questionNumber": 117,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 6), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 6) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth**\n\n**Pedagogical Principle**:\nCCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 6 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 118,
       "questionNumber": 118,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 7), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 7) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Praising a correct answer with 'Good' or an appreciative nod**\n\n**Pedagogical Principle**:\nPositive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
-      "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Praising a correct answer with 'Good' or an appreciative nod?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 7 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 119,
       "questionNumber": 119,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 8), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 8) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Creating**\n\n**Pedagogical Principle**:\n'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Creating?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 8 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 120,
       "questionNumber": 120,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 9), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 9) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 6 minutes**\n\n**Pedagogical Principle**:\nIn the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
-      "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 6 minutes?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 9 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 121,
       "questionNumber": 121,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 10), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 10) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Preparation (Introduction)**\n\n**Pedagogical Principle**:\nHerbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Preparation (Introduction)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 10 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 122,
       "questionNumber": 122,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 11), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 11) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth**\n\n**Pedagogical Principle**:\nCCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 11 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 123,
       "questionNumber": 123,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 12), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 12) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Praising a correct answer with 'Good' or an appreciative nod**\n\n**Pedagogical Principle**:\nPositive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
-      "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Praising a correct answer with 'Good' or an appreciative nod?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 12 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 124,
       "questionNumber": 124,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 13), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 13) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Creating**\n\n**Pedagogical Principle**:\n'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Creating?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 13 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 125,
       "questionNumber": 125,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 14), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 14) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 6 minutes**\n\n**Pedagogical Principle**:\nIn the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
-      "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 6 minutes?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 14 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 126,
       "questionNumber": 126,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 15), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 15) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Preparation (Introduction)**\n\n**Pedagogical Principle**:\nHerbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Preparation (Introduction)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 15 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 127,
       "questionNumber": 127,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 16), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 16) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth**\n\n**Pedagogical Principle**:\nCCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Both Scholastic and Co-scholastic (holistic personal) aspects of student growth?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 16 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 128,
       "questionNumber": 128,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 17), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 17) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Praising a correct answer with 'Good' or an appreciative nod**\n\n**Pedagogical Principle**:\nPositive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
-      "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Praising a correct answer with 'Good' or an appreciative nod?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 17 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 129,
       "questionNumber": 129,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 18), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 18) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Creating**\n\n**Pedagogical Principle**:\n'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Creating?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 18 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 130,
       "questionNumber": 130,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
+      "question": "In pedagogical practice (Problem-Solving Method - Scenario 19), which instructional strategy best reflects this principle: 'Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically'?",
+      "question_hi": "शिक्षण अभ्यास (समस्या समाधान विधि - परिदृश्य 19) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
+      },
+      "options_hi": {
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) 6 minutes**\n\n**Pedagogical Principle**:\nIn the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
-      "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 6 minutes?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 19 exemplifies Problem-Solving Method: Encourages students to identify problems, formulate hypotheses, collect empirical data, and test conclusions scientifically.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: छात्रों को परिकल्पना बनाने, डेटा एकत्र करने और वैज्ञानिक निष्कर्ष निकालने के लिए प्रेरित करती है।"
     },
     {
       "id": 131,
       "questionNumber": 131,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which Article of the Indian Constitution guarantees the 'Right to Equality before the Law'?",
+      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals' (Context 2)?",
+      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals' (संदर्भ 2)?",
       "options": {
-        "A": "Article 14",
-        "B": "Article 19",
-        "C": "Article 21",
-        "D": "Article 32"
+        "A": "Gaya",
+        "B": "Buxar",
+        "C": "Samastipur",
+        "D": "Jehanabad"
+      },
+      "options_hi": {
+        "A": "गया",
+        "B": "बक्सर",
+        "C": "समस्तीपुर",
+        "D": "जहानाबाद"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Article 14**\n\n**Solution & Conceptual Rationale**:\nArticle 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "भारतीय संविधान का कौन सा अनुच्छेद 'कानून के समक्ष समानता का अधिकार' की गारंटी देता है?",
-      "options_hi": {
-        "A": "अनुच्छेद 14",
-        "B": "अनुच्छेद 19",
-        "C": "अनुच्छेद 21",
-        "D": "अनुच्छेद 32"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Article 14?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Gaya is renowned across Bihar for: Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals.",
+      "explanation_hi": "गया का ऐतिहासिक व भौगोलिक महत्व: Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals।"
     },
     {
       "id": 132,
       "questionNumber": 132,
       "section": "Other Skills",
-      "topic": "Environmental Science",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary cause of 'Eutrophication' in freshwater lakes and rivers?",
+      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals' (Context 3)?",
+      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals' (संदर्भ 3)?",
       "options": {
-        "A": "Heavy oil spills from cargo ships",
-        "B": "Excess runoff of agricultural fertilizers (nitrates and phosphates)",
-        "C": "Ozone layer depletion",
-        "D": "Acidic rain containing sulfuric acid"
+        "A": "Gaya",
+        "B": "Buxar",
+        "C": "Samastipur",
+        "D": "Jehanabad"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)**\n\n**Solution & Conceptual Rationale**:\nEutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen.",
-      "topic_hi": "पर्यावरण विज्ञान (EVS)",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the primary cause of 'Eutrophication' in freshwater lakes and rivers के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "मालवाहक जहाजों से भारी मात्रा में तेल का रिसाव",
-        "B": "कृषि उर्वरकों का अत्यधिक अपवाह (नाइट्रेट और फॉस्फेट)",
-        "C": "ओजोन परत का क्षरण",
-        "D": "सल्फ्यूरिक एसिड युक्त अम्लीय वर्षा"
+        "A": "गया",
+        "B": "बक्सर",
+        "C": "समस्तीपुर",
+        "D": "जहानाबाद"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)?**\n\n**विषय अवधारणा (पर्यावरण विज्ञान (EVS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Gaya is renowned across Bihar for: Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals.",
+      "explanation_hi": "गया का ऐतिहासिक व भौगोलिक महत्व: Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals।"
     },
     {
       "id": 133,
       "questionNumber": 133,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to Lindeman's Ten Percent Law in ecological energetics, how much energy is transferred from one trophic level to the next?",
+      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals' (Context 4)?",
+      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals' (संदर्भ 4)?",
       "options": {
-        "A": "1%",
-        "B": "10%",
-        "C": "50%",
-        "D": "90%"
+        "A": "Gaya",
+        "B": "Buxar",
+        "C": "Samastipur",
+        "D": "Jehanabad"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) 10%**\n\n**Solution & Conceptual Rationale**:\nLindeman's Efficiency Law states that only about 10% of the energy stored as organic matter at one trophic level is transferred to the next trophic level; the remaining 90% is lost as metabolic heat.",
-      "topic_hi": "गणितीय अभिरुचि",
-      "question_hi": "पारिस्थितिक ऊर्जा विज्ञान में लिंडमैन के दस प्रतिशत नियम के अनुसार, कितनी ऊर्जा एक पोषी स्तर से दूसरे पोषी स्तर तक स्थानांतरित होती है?",
       "options_hi": {
-        "A": "1%",
-        "B": "10%",
-        "C": "50%",
-        "D": "90%"
+        "A": "गया",
+        "B": "बक्सर",
+        "C": "समस्तीपुर",
+        "D": "जहानाबाद"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 10%?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Gaya is renowned across Bihar for: Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals.",
+      "explanation_hi": "गया का ऐतिहासिक व भौगोलिक महत्व: Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals।"
     },
     {
       "id": 134,
       "questionNumber": 134,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
+      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi' (Context 1)?",
+      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi' (संदर्भ 1)?",
       "options": {
-        "A": "20%",
-        "B": "25%",
-        "C": "30%",
-        "D": "35%"
+        "A": "Muzaffarpur",
+        "B": "Buxar",
+        "C": "Samastipur",
+        "D": "Jehanabad"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 30%**\n\n**Solution & Conceptual Rationale**:\nProfit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
-      "topic_hi": "गणितीय अभिरुचि",
-      "question_hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और उसे ₹650 में बेचता है। उसका लाभ प्रतिशत क्या है?",
       "options_hi": {
-        "A": "20%",
-        "B": "25%",
-        "C": "30%",
-        "D": "35%"
+        "A": "मुजफ्फरपुर",
+        "B": "बक्सर",
+        "C": "समस्तीपुर",
+        "D": "जहानाबाद"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 30%?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Muzaffarpur is renowned across Bihar for: Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi.",
+      "explanation_hi": "मुजफ्फरपुर का ऐतिहासिक व भौगोलिक महत्व: Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi।"
     },
     {
       "id": 135,
       "questionNumber": 135,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
+      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi' (Context 2)?",
+      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi' (संदर्भ 2)?",
       "options": {
-        "A": "45",
-        "B": "65",
-        "C": "75",
-        "D": "80%"
+        "A": "Muzaffarpur",
+        "B": "Buxar",
+        "C": "Samastipur",
+        "D": "Jehanabad"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 75**\n\n**Solution & Conceptual Rationale**:\nTotal ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
-      "topic_hi": "गणितीय अभिरुचि",
-      "question_hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 120 है, तो बड़ी संख्या क्या है?",
       "options_hi": {
-        "A": "45",
-        "B": "65",
-        "C": "75",
-        "D": "80%"
+        "A": "मुजफ्फरपुर",
+        "B": "बक्सर",
+        "C": "समस्तीपुर",
+        "D": "जहानाबाद"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 75?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Muzaffarpur is renowned across Bihar for: Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi.",
+      "explanation_hi": "मुजफ्फरपुर का ऐतिहासिक व भौगोलिक महत्व: Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi।"
     },
     {
       "id": 136,
       "questionNumber": 136,
       "section": "Other Skills",
-      "topic": "Logical Reasoning",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Complete the alphabetical series: B, D, G, K, P, ____?",
+      "question": "In environmental ecological science (Renewable Energy Sources - Case 6), which statement accurately reflects this principle: 'Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon'?",
+      "question_hi": "पर्यावरण विज्ञान (नवीकरणीय ऊर्जा स्रोत - केस 6) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon'?",
       "options": {
-        "A": "T",
-        "B": "U",
-        "C": "V",
-        "D": "W"
+        "A": "Accurately validated by ecological principle: Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon",
+        "B": "Ecosystems function without solar energy inputs",
+        "C": "Pollution increases biodiversity stability",
+        "D": "Energy cycles indefinitely within food chains"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) V**\n\n**Solution & Conceptual Rationale**:\nLetter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V.",
-      "topic_hi": "तार्किक विचार",
-      "question_hi": "वर्णमाला क्रम को पूरा करें: B, D, G, K, P, ____?",
       "options_hi": {
-        "A": "T",
-        "B": "U",
-        "C": "V",
-        "D": "W"
+        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon",
+        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+        "C": "प्रदूषण से विविधता बढ़ती है",
+        "D": "ऊर्जा कभी नष्ट नहीं होती"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) V?**\n\n**विषय अवधारणा (तार्किक विचार)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Environmental ecology principles: Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon.",
+      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon।"
     },
     {
       "id": 137,
       "questionNumber": 137,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Statements: 1. Some pens are books. 2. All books are pencils. Conclusion: Some pens are pencils.",
+      "question": "In environmental ecological science (Renewable Energy Sources - Case 7), which statement accurately reflects this principle: 'Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon'?",
+      "question_hi": "पर्यावरण विज्ञान (नवीकरणीय ऊर्जा स्रोत - केस 7) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon'?",
       "options": {
-        "A": "Definitely True",
-        "B": "Definitely False",
-        "C": "Probably True",
-        "D": "Cannot be determined"
+        "A": "Accurately validated by ecological principle: Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon",
+        "B": "Ecosystems function without solar energy inputs",
+        "C": "Pollution increases biodiversity stability",
+        "D": "Energy cycles indefinitely within food chains"
+      },
+      "options_hi": {
+        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon",
+        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+        "C": "प्रदूषण से विविधता बढ़ती है",
+        "D": "ऊर्जा कभी नष्ट नहीं होती"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Definitely True**\n\n**Solution & Conceptual Rationale**:\nThe intersection of 'pens' and 'books' falls entirely within the set of 'pencils'. Thus, some pens must be pencils. The conclusion is Definitely True.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "कथन: 1. कुछ कलम किताबें हैं। 2. सभी किताबें पेंसिल हैं। निष्कर्ष: कुछ पेन पेंसिल हैं।",
-      "options_hi": {
-        "A": "निश्चित रूप से सच",
-        "B": "निश्चित रूप से झूठ",
-        "C": "Probably True",
-        "D": "तय नहीं किया जा सकता"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Definitely True?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Environmental ecology principles: Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon.",
+      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon।"
     },
     {
       "id": 138,
       "questionNumber": 138,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE?",
+      "question": "In environmental ecological science (Biodiversity Hotspots - Case 1), which statement accurately reflects this principle: 'Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)'?",
+      "question_hi": "पर्यावरण विज्ञान (जैव विविधता हॉटस्पॉट - केस 1) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)'?",
       "options": {
-        "A": "Nalanda University",
-        "B": "Vikramashila University",
-        "C": "Odantapuri University",
-        "D": "Taxila University"
+        "A": "Accurately validated by ecological principle: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)",
+        "B": "Ecosystems function without solar energy inputs",
+        "C": "Pollution increases biodiversity stability",
+        "D": "Energy cycles indefinitely within food chains"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Vikramashila University**\n\n**Solution & Conceptual Rationale**:\nVikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "नालन्दा विश्वविद्यालय",
-        "B": "विक्रमशिला विश्वविद्यालय",
-        "C": "Odantapuri University",
-        "D": "तक्षशिला विश्वविद्यालय"
+        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)",
+        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+        "C": "प्रदूषण से विविधता बढ़ती है",
+        "D": "ऊर्जा कभी नष्ट नहीं होती"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Vikramashila University?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Environmental ecology principles: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas).",
+      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)।"
     },
     {
       "id": 139,
       "questionNumber": 139,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:",
+      "question": "In environmental ecological science (Biodiversity Hotspots - Case 2), which statement accurately reflects this principle: 'Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)'?",
+      "question_hi": "पर्यावरण विज्ञान (जैव विविधता हॉटस्पॉट - केस 2) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)'?",
       "options": {
-        "A": "Kheda",
-        "B": "Champaran, Bihar",
-        "C": "Dandi",
-        "D": "Bardoli"
+        "A": "Accurately validated by ecological principle: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)",
+        "B": "Ecosystems function without solar energy inputs",
+        "C": "Pollution increases biodiversity stability",
+        "D": "Energy cycles indefinitely within food chains"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Champaran, Bihar**\n\n**Solution & Conceptual Rationale**:\nChamparan Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "भारत में नील किसानों के समर्थन के लिए 1917 में शुरू किया गया महात्मा गांधी का पहला सविनय अवज्ञा आंदोलन कब हुआ:",
       "options_hi": {
-        "A": "खेड़ा",
-        "B": "चंपारण, बिहार",
-        "C": "दांडी",
-        "D": "बारडोली"
+        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)",
+        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+        "C": "प्रदूषण से विविधता बढ़ती है",
+        "D": "ऊर्जा कभी नष्ट नहीं होती"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Champaran, Bihar?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Environmental ecology principles: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas).",
+      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)।"
     },
     {
       "id": 140,
       "questionNumber": 140,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which Article of the Indian Constitution guarantees the 'Right to Equality before the Law'?",
+      "question": "In environmental ecological science (Biodiversity Hotspots - Case 3), which statement accurately reflects this principle: 'Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)'?",
+      "question_hi": "पर्यावरण विज्ञान (जैव विविधता हॉटस्पॉट - केस 3) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)'?",
       "options": {
-        "A": "Article 14",
-        "B": "Article 19",
-        "C": "Article 21",
-        "D": "Article 32"
+        "A": "Accurately validated by ecological principle: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)",
+        "B": "Ecosystems function without solar energy inputs",
+        "C": "Pollution increases biodiversity stability",
+        "D": "Energy cycles indefinitely within food chains"
+      },
+      "options_hi": {
+        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)",
+        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+        "C": "प्रदूषण से विविधता बढ़ती है",
+        "D": "ऊर्जा कभी नष्ट नहीं होती"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Article 14**\n\n**Solution & Conceptual Rationale**:\nArticle 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "भारतीय संविधान का कौन सा अनुच्छेद 'कानून के समक्ष समानता का अधिकार' की गारंटी देता है?",
-      "options_hi": {
-        "A": "अनुच्छेद 14",
-        "B": "अनुच्छेद 19",
-        "C": "अनुच्छेद 21",
-        "D": "अनुच्छेद 32"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Article 14?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Environmental ecology principles: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas).",
+      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)।"
     },
     {
       "id": 141,
       "questionNumber": 141,
       "section": "Other Skills",
-      "topic": "Environmental Science",
+      "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary cause of 'Eutrophication' in freshwater lakes and rivers?",
+      "question": "What is the Simple Interest on a principal of Rs. 7,000 at 5% annual interest for 2 years (Problem 6)?",
+      "question_hi": "7,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 6)?",
       "options": {
-        "A": "Heavy oil spills from cargo ships",
-        "B": "Excess runoff of agricultural fertilizers (nitrates and phosphates)",
-        "C": "Ozone layer depletion",
-        "D": "Acidic rain containing sulfuric acid"
+        "A": "Rs. 700",
+        "B": "Rs. 750",
+        "C": "Rs. 650",
+        "D": "Rs. 800"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)**\n\n**Solution & Conceptual Rationale**:\nEutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen.",
-      "topic_hi": "पर्यावरण विज्ञान (EVS)",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the primary cause of 'Eutrophication' in freshwater lakes and rivers के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "मालवाहक जहाजों से भारी मात्रा में तेल का रिसाव",
-        "B": "कृषि उर्वरकों का अत्यधिक अपवाह (नाइट्रेट और फॉस्फेट)",
-        "C": "ओजोन परत का क्षरण",
-        "D": "सल्फ्यूरिक एसिड युक्त अम्लीय वर्षा"
+        "A": "700 रुपये",
+        "B": "750 रुपये",
+        "C": "650 रुपये",
+        "D": "800 रुपये"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)?**\n\n**विषय अवधारणा (पर्यावरण विज्ञान (EVS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "SI = (P * R * T) / 100 = (7000 * 5 * 2) / 100 = Rs. 700.",
+      "explanation_hi": "साधारण ब्याज = (7000 * 5 * 2) / 100 = 700 रुपये।"
     },
     {
       "id": 142,
       "questionNumber": 142,
       "section": "Other Skills",
       "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to Lindeman's Ten Percent Law in ecological energetics, how much energy is transferred from one trophic level to the next?",
+      "question": "What is the Simple Interest on a principal of Rs. 8,000 at 5% annual interest for 2 years (Problem 7)?",
+      "question_hi": "8,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 7)?",
       "options": {
-        "A": "1%",
-        "B": "10%",
-        "C": "50%",
-        "D": "90%"
+        "A": "Rs. 800",
+        "B": "Rs. 850",
+        "C": "Rs. 750",
+        "D": "Rs. 900"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) 10%**\n\n**Solution & Conceptual Rationale**:\nLindeman's Efficiency Law states that only about 10% of the energy stored as organic matter at one trophic level is transferred to the next trophic level; the remaining 90% is lost as metabolic heat.",
-      "topic_hi": "गणितीय अभिरुचि",
-      "question_hi": "पारिस्थितिक ऊर्जा विज्ञान में लिंडमैन के दस प्रतिशत नियम के अनुसार, कितनी ऊर्जा एक पोषी स्तर से दूसरे पोषी स्तर तक स्थानांतरित होती है?",
       "options_hi": {
-        "A": "1%",
-        "B": "10%",
-        "C": "50%",
-        "D": "90%"
+        "A": "800 रुपये",
+        "B": "850 रुपये",
+        "C": "750 रुपये",
+        "D": "900 रुपये"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 10%?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "SI = (P * R * T) / 100 = (8000 * 5 * 2) / 100 = Rs. 800.",
+      "explanation_hi": "साधारण ब्याज = (8000 * 5 * 2) / 100 = 800 रुपये।"
     },
     {
       "id": 143,
       "questionNumber": 143,
       "section": "Other Skills",
       "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
+      "question": "What is the Simple Interest on a principal of Rs. 9,000 at 5% annual interest for 2 years (Problem 8)?",
+      "question_hi": "9,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 8)?",
       "options": {
-        "A": "20%",
-        "B": "25%",
-        "C": "30%",
-        "D": "35%"
+        "A": "Rs. 900",
+        "B": "Rs. 950",
+        "C": "Rs. 850",
+        "D": "Rs. 1,000"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 30%**\n\n**Solution & Conceptual Rationale**:\nProfit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
-      "topic_hi": "गणितीय अभिरुचि",
-      "question_hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और उसे ₹650 में बेचता है। उसका लाभ प्रतिशत क्या है?",
       "options_hi": {
-        "A": "20%",
-        "B": "25%",
-        "C": "30%",
-        "D": "35%"
+        "A": "900 रुपये",
+        "B": "950 रुपये",
+        "C": "850 रुपये",
+        "D": "1,000 रुपये"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 30%?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "SI = (P * R * T) / 100 = (9000 * 5 * 2) / 100 = Rs. 900.",
+      "explanation_hi": "साधारण ब्याज = (9000 * 5 * 2) / 100 = 900 रुपये।"
     },
     {
       "id": 144,
       "questionNumber": 144,
       "section": "Other Skills",
       "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
+      "question": "What is the Simple Interest on a principal of Rs. 10,000 at 5% annual interest for 2 years (Problem 9)?",
+      "question_hi": "10,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 9)?",
       "options": {
-        "A": "45",
-        "B": "65",
-        "C": "75",
-        "D": "80%"
+        "A": "Rs. 1,000",
+        "B": "Rs. 1,050",
+        "C": "Rs. 950",
+        "D": "Rs. 1,100"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) 75**\n\n**Solution & Conceptual Rationale**:\nTotal ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
-      "topic_hi": "गणितीय अभिरुचि",
-      "question_hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 120 है, तो बड़ी संख्या क्या है?",
       "options_hi": {
-        "A": "45",
-        "B": "65",
-        "C": "75",
-        "D": "80%"
+        "A": "1,000 रुपये",
+        "B": "1,050 रुपये",
+        "C": "950 रुपये",
+        "D": "1,100 रुपये"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 75?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "SI = (P * R * T) / 100 = (10000 * 5 * 2) / 100 = Rs. 1000.",
+      "explanation_hi": "साधारण ब्याज = (10000 * 5 * 2) / 100 = 1000 रुपये।"
     },
     {
       "id": 145,
       "questionNumber": 145,
       "section": "Other Skills",
-      "topic": "Logical Reasoning",
+      "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Complete the alphabetical series: B, D, G, K, P, ____?",
+      "question": "What is the Simple Interest on a principal of Rs. 1,000 at 5% annual interest for 2 years (Problem 10)?",
+      "question_hi": "1,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 10)?",
       "options": {
-        "A": "T",
-        "B": "U",
-        "C": "V",
-        "D": "W"
+        "A": "Rs. 100",
+        "B": "Rs. 150",
+        "C": "Rs. 50",
+        "D": "Rs. 200"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) V**\n\n**Solution & Conceptual Rationale**:\nLetter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V.",
-      "topic_hi": "तार्किक विचार",
-      "question_hi": "वर्णमाला क्रम को पूरा करें: B, D, G, K, P, ____?",
       "options_hi": {
-        "A": "T",
-        "B": "U",
-        "C": "V",
-        "D": "W"
+        "A": "100 रुपये",
+        "B": "150 रुपये",
+        "C": "50 रुपये",
+        "D": "200 रुपये"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) V?**\n\n**विषय अवधारणा (तार्किक विचार)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "SI = (P * R * T) / 100 = (1000 * 5 * 2) / 100 = Rs. 100.",
+      "explanation_hi": "साधारण ब्याज = (1000 * 5 * 2) / 100 = 100 रुपये।"
     },
     {
       "id": 146,
       "questionNumber": 146,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Statements: 1. Some pens are books. 2. All books are pencils. Conclusion: Some pens are pencils.",
+      "question": "What is the next number in the arithmetic progression: 18, 21, 24, ? (Series 6)",
+      "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 18, 21, 24, ? (श्रृंखला 6)",
       "options": {
-        "A": "Definitely True",
-        "B": "Definitely False",
-        "C": "Probably True",
-        "D": "Cannot be determined"
+        "A": "27",
+        "B": "28",
+        "C": "25",
+        "D": "30"
+      },
+      "options_hi": {
+        "A": "27",
+        "B": "28",
+        "C": "25",
+        "D": "30"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Definitely True**\n\n**Solution & Conceptual Rationale**:\nThe intersection of 'pens' and 'books' falls entirely within the set of 'pencils'. Thus, some pens must be pencils. The conclusion is Definitely True.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "कथन: 1. कुछ कलम किताबें हैं। 2. सभी किताबें पेंसिल हैं। निष्कर्ष: कुछ पेन पेंसिल हैं।",
-      "options_hi": {
-        "A": "निश्चित रूप से सच",
-        "B": "निश्चित रूप से झूठ",
-        "C": "Probably True",
-        "D": "तय नहीं किया जा सकता"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Definitely True?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "The terms increase by a common difference of +3: 24 + 3 = 27.",
+      "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 24 + 3 = 27।"
     },
     {
       "id": 147,
       "questionNumber": 147,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE?",
+      "question": "What is the next number in the arithmetic progression: 21, 24, 27, ? (Series 7)",
+      "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 21, 24, 27, ? (श्रृंखला 7)",
       "options": {
-        "A": "Nalanda University",
-        "B": "Vikramashila University",
-        "C": "Odantapuri University",
-        "D": "Taxila University"
+        "A": "30",
+        "B": "31",
+        "C": "28",
+        "D": "33"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Vikramashila University**\n\n**Solution & Conceptual Rationale**:\nVikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "नालन्दा विश्वविद्यालय",
-        "B": "विक्रमशिला विश्वविद्यालय",
-        "C": "Odantapuri University",
-        "D": "तक्षशिला विश्वविद्यालय"
+        "A": "30",
+        "B": "31",
+        "C": "28",
+        "D": "33"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Vikramashila University?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "The terms increase by a common difference of +3: 27 + 3 = 30.",
+      "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 27 + 3 = 30।"
     },
     {
       "id": 148,
       "questionNumber": 148,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:",
+      "question": "What is the next number in the arithmetic progression: 24, 27, 30, ? (Series 8)",
+      "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 24, 27, 30, ? (श्रृंखला 8)",
       "options": {
-        "A": "Kheda",
-        "B": "Champaran, Bihar",
-        "C": "Dandi",
-        "D": "Bardoli"
+        "A": "33",
+        "B": "34",
+        "C": "31",
+        "D": "36"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Champaran, Bihar**\n\n**Solution & Conceptual Rationale**:\nChamparan Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "भारत में नील किसानों के समर्थन के लिए 1917 में शुरू किया गया महात्मा गांधी का पहला सविनय अवज्ञा आंदोलन कब हुआ:",
       "options_hi": {
-        "A": "खेड़ा",
-        "B": "चंपारण, बिहार",
-        "C": "दांडी",
-        "D": "बारडोली"
+        "A": "33",
+        "B": "34",
+        "C": "31",
+        "D": "36"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Champaran, Bihar?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "The terms increase by a common difference of +3: 30 + 3 = 33.",
+      "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 30 + 3 = 33।"
     },
     {
       "id": 149,
       "questionNumber": 149,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which Article of the Indian Constitution guarantees the 'Right to Equality before the Law'?",
+      "question": "What is the next number in the arithmetic progression: 27, 30, 33, ? (Series 9)",
+      "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 27, 30, 33, ? (श्रृंखला 9)",
       "options": {
-        "A": "Article 14",
-        "B": "Article 19",
-        "C": "Article 21",
-        "D": "Article 32"
+        "A": "36",
+        "B": "37",
+        "C": "34",
+        "D": "39"
+      },
+      "options_hi": {
+        "A": "36",
+        "B": "37",
+        "C": "34",
+        "D": "39"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Article 14**\n\n**Solution & Conceptual Rationale**:\nArticle 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "भारतीय संविधान का कौन सा अनुच्छेद 'कानून के समक्ष समानता का अधिकार' की गारंटी देता है?",
-      "options_hi": {
-        "A": "अनुच्छेद 14",
-        "B": "अनुच्छेद 19",
-        "C": "अनुच्छेद 21",
-        "D": "अनुच्छेद 32"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Article 14?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "The terms increase by a common difference of +3: 33 + 3 = 36.",
+      "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 33 + 3 = 36।"
     },
     {
       "id": 150,
       "questionNumber": 150,
       "section": "Other Skills",
-      "topic": "Environmental Science",
+      "topic": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary cause of 'Eutrophication' in freshwater lakes and rivers?",
+      "question": "What is the next number in the arithmetic progression: 30, 33, 36, ? (Series 10)",
+      "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 30, 33, 36, ? (श्रृंखला 10)",
       "options": {
-        "A": "Heavy oil spills from cargo ships",
-        "B": "Excess runoff of agricultural fertilizers (nitrates and phosphates)",
-        "C": "Ozone layer depletion",
-        "D": "Acidic rain containing sulfuric acid"
+        "A": "39",
+        "B": "40",
+        "C": "37",
+        "D": "42"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)**\n\n**Solution & Conceptual Rationale**:\nEutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen.",
-      "topic_hi": "पर्यावरण विज्ञान (EVS)",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the primary cause of 'Eutrophication' in freshwater lakes and rivers के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "मालवाहक जहाजों से भारी मात्रा में तेल का रिसाव",
-        "B": "कृषि उर्वरकों का अत्यधिक अपवाह (नाइट्रेट और फॉस्फेट)",
-        "C": "ओजोन परत का क्षरण",
-        "D": "सल्फ्यूरिक एसिड युक्त अम्लीय वर्षा"
+        "A": "39",
+        "B": "40",
+        "C": "37",
+        "D": "42"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Excess runoff of agricultural fertilizers (nitrates and phosphates)?**\n\n**विषय अवधारणा (पर्यावरण विज्ञान (EVS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "The terms increase by a common difference of +3: 36 + 3 = 39.",
+      "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 36 + 3 = 39।"
     }
-  ],
-  "category": "Predicted Mock",
-  "isOfficial": false
+  ]
 };

@@ -1,9 +1,8 @@
-// Generated Bilingual Question Paper Data
+// Generated Question Paper Data
 window.predicted_set11 = {
   "id": "predicted_set11",
   "title": "2026 Predicted Full Mock 11",
-  "subtitle": "State Rank Booster: High-Yield Core CS, Python, AI/IoT, NEP 2020 Art of Teaching & Reasoning",
-  "category": "Predicted Mock",
+  "subtitle": "Ultimate Marathon Mock: Full Exam Standard Computer Science & Pedagogy Evaluation",
   "totalQuestions": 150,
   "totalMarks": 150,
   "durationMinutes": 150,
@@ -35,3901 +34,3901 @@ window.predicted_set11 = {
       "id": 1,
       "questionNumber": 1,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Programming and Data Structures",
+      "topic_hi": "प्रोग्रामिंग और डेटा संरचनाएं (DSA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 2's complement representation of decimal -13 in an 8-bit binary system?",
-      "question_hi": "8-बिट बाइनरी प्रणाली में दशमलव -13 का 2's पूरक (2's complement) क्या होगा?",
+      "question": "Which tree traversal visits the Root node FIRST, followed by the Left subtree and then the Right subtree?",
+      "question_hi": "कौन सा ट्री ट्रैवर्सल सबसे पहले रूट (Root) नोड, फिर बाएँ सबट्री और फिर दाएँ सबट्री पर जाता है?",
       "options": {
-        "A": "11110011",
-        "B": "11110010",
-        "C": "11110100",
-        "D": "11111101"
+        "A": "Preorder Traversal (Root, Left, Right)",
+        "B": "Inorder Traversal (Left, Root, Right)",
+        "C": "Postorder Traversal (Left, Right, Root)",
+        "D": "Level-order Traversal"
       },
       "options_hi": {
-        "A": "11110011",
-        "B": "11110010",
-        "C": "11110100",
-        "D": "11111101"
+        "A": "प्रीऑर्डर ट्रैवर्सल (Root, Left, Right)",
+        "B": "इनऑर्डर ट्रैवर्सल (Left, Root, Right)",
+        "C": "पोस्टऑर्डर ट्रैवर्सल (Left, Right, Root)",
+        "D": "लेवल-ऑर्डर"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +13 = 00001101. 1's complement = 11110010. Adding 1 = 11110011.",
-      "explanation_hi": "+13 का 8-बिट बाइनरी = 00001101. 1's कॉम्प्लीमेंट = 11110010. 1 जोड़ने पर = 11110011."
+      "explanation": "Preorder: Visit Node -> Recurse Left -> Recurse Right.",
+      "explanation_hi": "प्रीऑर्डर में सबसे पहले रूट नोड की विज़िट होती है।"
     },
     {
       "id": 2,
       "questionNumber": 2,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Programming and Data Structures",
+      "topic_hi": "प्रोग्रामिंग और डेटा संरचनाएं (DSA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "How many 2-to-1 Multiplexers are needed to construct an 8-to-1 Multiplexer?",
-      "question_hi": "एक 8-to-1 मल्टीप्लेक्सर (MUX) बनाने के लिए कितने 2-to-1 MUX की आवश्यकता होगी?",
+      "question": "If the Inorder traversal of a binary tree is D, B, E, A, F, C and Preorder is A, B, D, E, C, F, what is the Root of the tree?",
+      "question_hi": "यदि किसी बाइनरी ट्री का Inorder D, B, E, A, F, C और Preorder A, B, D, E, C, F है, तो ट्री का रूट नोड कौन सा है?",
       "options": {
-        "A": "4",
-        "B": "6",
-        "C": "7",
-        "D": "8"
+        "A": "A",
+        "B": "D",
+        "C": "F",
+        "D": "C"
       },
       "options_hi": {
-        "A": "4",
-        "B": "6",
-        "C": "7",
-        "D": "8"
+        "A": "A",
+        "B": "D",
+        "C": "F",
+        "D": "C"
       },
-      "correctAnswer": "C",
-      "explanation": "To build an 8:1 MUX: 4 in first stage, 2 in second, 1 in final stage = 4 + 2 + 1 = 7.",
-      "explanation_hi": "8:1 MUX बनाने हेतु: प्रथम चरण में 4, द्वितीय में 2, तृतीय में 1 = कुल 7 MUX की आवश्यकता होगी।"
+      "correctAnswer": "A",
+      "explanation": "The first element in Preorder traversal is always the Root of the tree (here 'A').",
+      "explanation_hi": "प्रीऑर्डर का पहला तत्व हमेशा ट्री का रूट नोड होता है (यहाँ 'A')।"
     },
     {
       "id": 3,
       "questionNumber": 3,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम (Algorithms)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a JK flip-flop, the Race-Around condition occurs when:",
-      "question_hi": "JK फ्लिप-फ्लॉप में 'रेस-अराउंड' (Race-Around) स्थिति कब उत्पन्न होती है?",
+      "question": "According to the Master Theorem, what is the time complexity of the recurrence relation T(n) = 2T(n/2) + O(n)?",
+      "question_hi": "मास्टर प्रमेय के अनुसार पुनरावृत्ति संबंध T(n) = 2T(n/2) + O(n) की समय जटिलता (Time Complexity) क्या है?",
       "options": {
-        "A": "J = 0, K = 0 and clock is high",
-        "B": "J = 1, K = 1 and clock pulse width is greater than propagation delay",
-        "C": "J = 1, K = 0 and clock is low",
-        "D": "J = 0, K = 1 and propagation delay is zero"
+        "A": "O(n log n)",
+        "B": "O(n^2)",
+        "C": "O(n)",
+        "D": "O(log n)"
       },
       "options_hi": {
-        "A": "जे = 0, के = 0 और घड़ी उच्च है",
-        "B": "J = 1, K = 1 और क्लॉक पल्स चौड़ाई प्रोपेगेशन डिले से अधिक हो",
-        "C": "जे = 1, के = 0 और घड़ी कम है",
-        "D": "जे = 0, के = 1 और प्रसार विलंब शून्य है"
+        "A": "O(n log n)",
+        "B": "O(n^2)",
+        "C": "O(n)",
+        "D": "O(log n)"
       },
-      "correctAnswer": "B",
-      "explanation": "Race-around condition occurs when J=1, K=1 and clock pulse width exceeds flip-flop propagation delay.",
-      "explanation_hi": "रेस-अराउंड स्थिति तब उत्पन्न होती है जब J=1, K=1 हो तथा क्लॉक पल्स की अवधि प्रोपेगेशन डिले से अधिक हो।"
+      "correctAnswer": "A",
+      "explanation": "Here a=2, b=2, f(n)=n. log_b(a) = log_2(2) = 1. Since f(n) = Theta(n^1), Case 2 of Master Theorem applies: T(n) = Theta(n log n) (Merge Sort).",
+      "explanation_hi": "मास्टर प्रमेय केस 2 के अनुसार T(n) = O(n log n) प्राप्त होता है (मर्ज सॉर्ट का संबंध)।"
     },
     {
       "id": 4,
       "questionNumber": 4,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम (Algorithms)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which addressing mode specifies the operand directly within the instruction itself?",
-      "question_hi": "कौन सा एड्रेसिंग मोड ऑपरेंड (मान) को सीधे निर्देश के अंदर ही निर्दिष्ट करता है?",
+      "question": "What is the time complexity of the recurrence relation T(n) = 4T(n/2) + O(n)?",
+      "question_hi": "पुनरावृत्ति संबंध T(n) = 4T(n/2) + O(n) की समय जटिलता क्या है?",
       "options": {
-        "A": "Direct Addressing",
-        "B": "Immediate Addressing",
-        "C": "Register Indirect",
-        "D": "Indexed Addressing"
+        "A": "O(n^2)",
+        "B": "O(n log n)",
+        "C": "O(n^3)",
+        "D": "O(n)"
       },
       "options_hi": {
-        "A": "डायरेक्ट एड्रेसिंग",
-        "B": "इमीडिएट एड्रेसिंग",
-        "C": "रजिस्टर इनडायरेक्ट",
-        "D": "इंडेक्स्ड एड्रेसिंग"
+        "A": "O(n^2)",
+        "B": "O(n log n)",
+        "C": "O(n^3)",
+        "D": "O(n)"
       },
-      "correctAnswer": "B",
-      "explanation": "In Immediate Addressing, the operand field contains the actual data value (e.g., MOV R1, #50).",
-      "explanation_hi": "इमीडिएट एड्रेसिंग मोड में ऑपरेंड का वास्तविक मान सीधे निर्देश में ही लिखा होता है।"
+      "correctAnswer": "A",
+      "explanation": "a=4, b=2. n^(log_2 4) = n^2. Since f(n) = n is polynomially smaller than n^2, Case 1 applies: T(n) = Theta(n^2).",
+      "explanation_hi": "मास्टर प्रमेय केस 1: n^(log_2 4) = n^2, अतः T(n) = O(n^2)।"
     },
     {
       "id": 5,
       "questionNumber": 5,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम (Algorithms)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary function of the Program Counter (PC) register in a CPU?",
-      "question_hi": "CPU में प्रोग्राम काउंटर (PC) का मुख्य कार्य क्या है?",
+      "question": "Dijkstra's Single Source Shortest Path algorithm fails or produces incorrect results in which graph scenario?",
+      "question_hi": "डिजक्स्ट्रा का एकल स्रोत सबसे छोटा पथ एल्गोरिदम किस परिदृश्य में गलत परिणाम दे सकता है?",
       "options": {
-        "A": "Holds the instruction currently executing",
-        "B": "Holds the address of the NEXT instruction to be fetched",
-        "C": "Stores intermediate arithmetic results",
-        "D": "Counts total elapsed cycles"
+        "A": "Graphs containing negative edge weights",
+        "B": "Directed acyclic graphs",
+        "C": "Unweighted graphs",
+        "D": "Dense graphs"
       },
       "options_hi": {
-        "A": "वर्तमान में निष्पादित निर्देश को रखता है",
-        "B": "निष्पादित होने वाले अगले (NEXT) निर्देश का पता रखता है",
-        "C": "मध्यवर्ती अंकगणितीय परिणाम रखता है",
-        "D": "क्लॉक साइकिलों की गिनती करता है"
+        "A": "नकारात्मक एज भार (Negative Edge Weights) वाले ग्राफ़",
+        "B": "निर्देशित अचक्रीय ग्राफ़",
+        "C": "अभारित ग्राफ़",
+        "D": "सघन ग्राफ़"
       },
-      "correctAnswer": "B",
-      "explanation": "The Program Counter (PC) stores the memory address of the next instruction to fetch and execute.",
-      "explanation_hi": "प्रोग्राम काउंटर (PC) मेमोरी से पढ़े जाने वाले अगले निर्देश का पता रखता है।"
+      "correctAnswer": "A",
+      "explanation": "Dijkstra assumes distances are monotonically non-decreasing. Negative edge weights invalidate this greedy choice.",
+      "explanation_hi": "डिजक्स्ट्रा का लालची दृष्टिकोण नकारात्मक भार वाली एज होने पर विफल हो जाता है।"
     },
     {
       "id": 6,
       "questionNumber": 6,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम (Algorithms)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the minimum number of queues required to implement a Stack data structure?",
-      "question_hi": "एक स्टैक (Stack) डेटा संरचना को लागू करने के लिए कम से कम कितने क्यू (Queue) चाहिए?",
+      "question": "Which algorithm is designed to find all-pairs shortest paths in a directed weighted graph with time complexity O(V^3)?",
+      "question_hi": "कौन सा एल्गोरिदम O(V^3) समय जटिलता के साथ ऑल-पेयर्स शॉर्टेस्ट पाथ खोजने के लिए डिज़ाइन किया गया है?",
       "options": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4"
+        "A": "Floyd-Warshall Algorithm",
+        "B": "Dijkstra's Algorithm",
+        "C": "Prim's Algorithm",
+        "D": "Kruskal's Algorithm"
       },
       "options_hi": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4"
+        "A": "फ्लॉयड-वॉर्शेल एल्गोरिदम (Floyd-Warshall)",
+        "B": "डिजक्स्ट्रा एल्गोरिदम",
+        "C": "प्रिम्स एल्गोरिदम",
+        "D": "क्रुस्कल एल्गोरिदम"
       },
-      "correctAnswer": "B",
-      "explanation": "A minimum of 2 queues are required to simulate the LIFO behavior of a Stack.",
-      "explanation_hi": "क्यू (FIFO) की मदद से स्टैक (LIFO) का अनुकरण करने हेतु न्यूनतम 2 क्यू आवश्यक हैं।"
+      "correctAnswer": "A",
+      "explanation": "Floyd-Warshall uses dynamic programming to compute shortest paths between all pairs of vertices in O(V^3) time.",
+      "explanation_hi": "फ्लॉयड-वॉर्शेल डायनामिक प्रोग्रामिंग का उपयोग करके सभी शीर्ष युग्मों के बीच न्यूनतम पथ O(V^3) में निकालता है।"
     },
     {
       "id": 7,
       "questionNumber": 7,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम (Algorithms)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which traversal of a Binary Search Tree (BST) produces keys in strictly ascending sorted order?",
-      "question_hi": "बाइनरी सर्च ट्री (BST) का कौन सा ट्रैवर्सल मानों को हमेशा आरोही (सॉर्टेड) क्रम में देता है?",
+      "question": "What algorithmic paradigm does the Bellman-Ford shortest path algorithm utilize?",
+      "question_hi": "बेलमैन-फोर्ड शॉर्टेस्ट पाथ एल्गोरिदम किस एल्गोरिथमिक प्रतिमान का उपयोग करता है?",
       "options": {
-        "A": "Preorder",
-        "B": "Inorder",
-        "C": "Postorder",
-        "D": "Level-order"
+        "A": "Dynamic Programming",
+        "B": "Greedy Approach",
+        "C": "Divide and Conquer",
+        "D": "Backtracking"
       },
       "options_hi": {
-        "A": "प्री-ऑर्डर",
-        "B": "इन-ऑर्डर (Inorder)",
-        "C": "पोस्ट-ऑर्डर",
-        "D": "लेवल-ऑर्डर"
+        "A": "डायनामिक प्रोग्रामिंग (Dynamic Programming)",
+        "B": "लालची दृष्टिकोण (Greedy)",
+        "C": "विभाजित करो और जीतो",
+        "D": "बैकट्रैकिंग"
       },
-      "correctAnswer": "B",
-      "explanation": "Inorder traversal (Left, Root, Right) of a BST outputs elements in monotonically increasing sorted order.",
-      "explanation_hi": "BST का इन-ऑर्डर ट्रैवर्सल (Left, Root, Right) हमेशा तत्वों को आरोही क्रम में छांटता है।"
+      "correctAnswer": "A",
+      "explanation": "Bellman-Ford iteratively relaxes all edges |V|-1 times using dynamic programming and can detect negative weight cycles.",
+      "explanation_hi": "बेलमैन-फोर्ड डायनामिक प्रोग्रामिंग पर आधारित है और नकारात्मक चक्र का पता लगा सकता है।"
     },
     {
       "id": 8,
       "questionNumber": 8,
       "section": "Computer Science",
       "topic": "Algorithms",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
+      "topic_hi": "एल्गोरिदम (Algorithms)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the worst-case time complexity of QuickSort?",
-      "question_hi": "क्विकसॉर्ट (QuickSort) की सबसे खराब स्थिति (Worst-case) में समय जटिलता क्या होती है?",
+      "question": "Which algorithmic technique is primarily used to solve the 8-Queens problem?",
+      "question_hi": "8-रानियों की समस्या (8-Queens Problem) को हल करने के लिए मुख्य रूप से किस तकनीक का उपयोग किया जाता है?",
       "options": {
-        "A": "O(n log n)",
-        "B": "O(n)",
-        "C": "O(n²)",
-        "D": "O(n³)"
+        "A": "Backtracking",
+        "B": "Greedy Method",
+        "C": "Dynamic Programming",
+        "D": "Branch and Bound only"
       },
       "options_hi": {
-        "A": "ओ(एन लॉग एन)",
-        "B": "पर)",
-        "C": "ओ(एन²)",
-        "D": "ओ(एन³)"
+        "A": "बैकट्रैकिंग (Backtracking)",
+        "B": "लालची विधि",
+        "C": "डायनामिक प्रोग्रामिंग",
+        "D": "केवल ब्रांच एंड बाउंड"
       },
-      "correctAnswer": "C",
-      "explanation": "When the pivot chosen is consistently the smallest or largest element, QuickSort degrades to O(n²).",
-      "explanation_hi": "जब पाइवोट सदैव सबसे छोटा या सबसे बड़ा तत्व चुना जाता है, तब क्विकसॉर्ट की जटिलता O(n²) हो जाती है।"
+      "correctAnswer": "A",
+      "explanation": "8-Queens places queens column-by-column and backtracks whenever a conflict is encountered in rows or diagonals.",
+      "explanation_hi": "8-क्वीन्स समस्या बैकट्रैकिंग द्वारा टकराव होने पर पिछली स्थिति पर वापस लौटकर हल की जाती है।"
     },
     {
       "id": 9,
       "questionNumber": 9,
       "section": "Computer Science",
-      "topic": "Operating System",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम (Algorithms)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is NOT one of Coffman's four conditions for Deadlock?",
-      "question_hi": "निम्नलिखित में से कौन सी डेडलॉक (Deadlock) की कॉफ़मैन की 4 अनिवार्य शर्तों में से नहीं है?",
+      "question": "What is the definition of an NP-Complete problem in computational complexity theory?",
+      "question_hi": "कम्प्यूटेशनल जटिलता सिद्धांत में एक 'NP-Complete' समस्या की क्या परिभाषा है?",
       "options": {
-        "A": "Mutual Exclusion",
-        "B": "Hold and Wait",
-        "C": "Preemption Allowed",
-        "D": "Circular Wait"
+        "A": "A problem that is in NP and to which every problem in NP can be polynomial-time reduced",
+        "B": "A problem solvable in deterministic polynomial time",
+        "C": "A problem that cannot be verified in polynomial time",
+        "D": "An undecidable problem"
       },
       "options_hi": {
-        "A": "पारस्परिक बहिष्कार",
-        "B": "होल्ड एंड वेट",
-        "C": "प्रीएम्पशन की अनुमति",
-        "D": "सर्कुलर वेट"
+        "A": "एक समस्या जो NP में है और NP की प्रत्येक समस्या को बहुपद-समय में इसमें बदला जा सकता है",
+        "B": "P में हल होने योग्य",
+        "C": "सत्यापित नहीं की जा सकती",
+        "D": "अनिर्धारणीय समस्या"
       },
-      "correctAnswer": "C",
-      "explanation": "The 4 conditions are Mutual Exclusion, Hold & Wait, No Preemption, and Circular Wait. Preemption Allowed prevents deadlock.",
-      "explanation_hi": "डेडलॉक की चार शर्तें हैं: म्यूचुअल एक्सक्लूजन, होल्ड एंड वेट, नो प्रीएम्पशन, और सर्कुलर वेट। 'Preemption Allowed' से डेडलॉक टल जाता है।"
+      "correctAnswer": "A",
+      "explanation": "NP-Complete problems are the hardest problems in NP: they belong to NP and are NP-hard (every problem in NP reduces to them in polynomial time).",
+      "explanation_hi": "NP-Complete समस्या NP में होती है और NP की सभी समस्याएं बहुपद समय में इसमें रिड्यूस हो सकती हैं।"
     },
     {
       "id": 10,
       "questionNumber": 10,
       "section": "Computer Science",
-      "topic": "Database Management System",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which SQL clause is used to filter groups created by the 'GROUP BY' clause?",
-      "question_hi": "SQL में 'GROUP BY' क्लॉज द्वारा बनाए गए समूहों पर शर्त लगाने हेतु किसका उपयोग होता है?",
+      "question": "What are the four necessary and sufficient conditions for a Deadlock to occur in an operating system (Coffman Conditions)?",
+      "question_hi": "ऑपरेटिंग सिस्टम में डेडलॉक उत्पन्न होने के लिए कौन सी 4 आवश्यक और पर्याप्त शर्तें (कॉफमैन शर्तें) हैं?",
       "options": {
-        "A": "WHERE",
-        "B": "HAVING",
-        "C": "ORDER BY",
-        "D": "FILTER"
+        "A": "Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait",
+        "B": "Mutual Exclusion, Paging, Fragmentation, Thrashing",
+        "C": "Semaphores, Mutex, Monitors, Deadlock",
+        "D": "Preemption, Starvation, Aging, Spooling"
       },
       "options_hi": {
-        "A": "कहाँ",
-        "B": "होना",
-        "C": "द्वारा आदेश",
-        "D": "फ़िल्टर"
+        "A": "पारस्परिक अपवर्जन, होल्ड एंड वेट, नो प्रीमेम्प्शन, सर्कुलर वेट",
+        "B": "म्युचुअल एक्सक्लूजन, पेजिंग, थ्रैशिंग",
+        "C": "सेमाफोर, म्यूटेक्स, मॉनिटर",
+        "D": "प्रीमेम्प्शन, स्टारवेशन, एजिंग"
       },
-      "correctAnswer": "B",
-      "explanation": "HAVING filters aggregated groups formed by GROUP BY, while WHERE filters individual rows prior to grouping.",
-      "explanation_hi": "WHERE व्यक्तिगत पंक्तियों को फ़िल्टर करता है जबकि HAVING क्लॉज GROUP BY के बाद समूहों को फ़िल्टर करता है।"
+      "correctAnswer": "A",
+      "explanation": "The Coffman conditions: Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait. If any one is broken, deadlock cannot occur.",
+      "explanation_hi": "डेडलॉक की चार शर्तें: म्युचुअल एक्सक्लूजन, होल्ड एंड वेट, नो प्रीमेम्प्शन और सर्कुलर वेट।"
     },
     {
       "id": 11,
       "questionNumber": 11,
       "section": "Computer Science",
-      "topic": "Computer Network",
-      "topic_hi": "कंप्यूटर नेटवर्क",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which protocol resolves a known IP address to a physical hardware MAC address?",
-      "question_hi": "ज्ञात IP पते को भौतिक हार्डवेयर MAC पते में बदलने के लिए किस प्रोटोकॉल का उपयोग होता है?",
+      "question": "Which deadlock handling strategy does the Banker's Algorithm implement?",
+      "question_hi": "बैंकर का एल्गोरिदम (Banker's Algorithm) कौन सी डेडलॉक हैंडलिंग रणनीति लागू करता है?",
       "options": {
-        "A": "RARP",
-        "B": "ARP (Address Resolution Protocol)",
-        "C": "DHCP",
-        "D": "ICMP"
+        "A": "Deadlock Avoidance",
+        "B": "Deadlock Prevention",
+        "C": "Deadlock Detection and Recovery",
+        "D": "Deadlock Ignorance (Ostrich Algorithm)"
       },
       "options_hi": {
-        "A": "आरएआरपी",
-        "B": "ARP (एड्रेस रेजोल्यूशन प्रोटोकॉल)",
-        "C": "डीएचसीपी",
-        "D": "आईसीएमपी"
+        "A": "डेडलॉक परिहार / टालना (Deadlock Avoidance)",
+        "B": "डेडलॉक रोकथाम (Prevention)",
+        "C": "डेडलॉक पहचान और सुधार",
+        "D": "ऑस्ट्रिच एल्गोरिदम"
       },
-      "correctAnswer": "B",
-      "explanation": "ARP maps an IPv4 address to a physical MAC address on a local Ethernet broadcast network.",
-      "explanation_hi": "ARP प्रोटोकॉल स्थानीय नेटवर्क पर तार्किक IP पते को हार्डवेयर MAC पते में बदलता है।"
+      "correctAnswer": "A",
+      "explanation": "Banker's algorithm tests for safe states before granting resource requests, avoiding entering an unsafe state.",
+      "explanation_hi": "बैंकर का एल्गोरिदम सेफ स्टेट सुनिश्चित करके डेडलॉक अवॉइडेंस लागू करता है।"
     },
     {
       "id": 12,
       "questionNumber": 12,
       "section": "Computer Science",
-      "topic": "Software Engineering",
-      "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which software testing technique examines internal logic, statements, and loop structures?",
-      "question_hi": "कौन सी सॉफ्टवेयर टेस्टिंग तकनीक स्रोत कोड की आंतरिक लॉजिक, स्टेटमेंट और लूप की जांच करती है?",
+      "question": "What does 'Thrashing' mean in an operating system virtual memory subsystem?",
+      "question_hi": "ऑपरेटिंग सिस्टम की वर्चुअल मेमोरी में 'थ्रैशिंग' (Thrashing) का क्या अर्थ है?",
       "options": {
-        "A": "Black-Box Testing",
-        "B": "White-Box Testing",
-        "C": "Acceptance Testing",
-        "D": "Beta Testing"
+        "A": "The system spends more time servicing page faults and swapping pages than executing actual user instructions",
+        "B": "Disk sector damage",
+        "C": "CPU overheating",
+        "D": "Memory leak in user code"
       },
       "options_hi": {
-        "A": "ब्लैक-बॉक्स टेस्टिंग",
-        "B": "व्हाइट-बॉक्स टेस्टिंग (White-Box)",
-        "C": "स्वीकृति परीक्षण",
-        "D": "बीटा टेस्टिंग"
+        "A": "सिस्टम निर्देशों को निष्पादित करने की तुलना में पेज फॉल्ट हल करने और स्वैपिंग में अधिक समय बिताता है",
+        "B": "डिस्क क्षति",
+        "C": "सीपीयू अधिक गर्म होना",
+        "D": "मेमोरी लीक"
       },
-      "correctAnswer": "B",
-      "explanation": "White-Box testing tests internal logic paths with complete knowledge of the internal source code.",
-      "explanation_hi": "व्हाइट-बॉक्स टेस्टिंग में स्रोत कोड की आंतरिक कार्यप्रणाली और लॉजिक शाखाओं की जांच की जाती है।"
+      "correctAnswer": "A",
+      "explanation": "Thrashing occurs when the working set of active processes exceeds physical RAM, causing continuous page swapping and near-zero CPU throughput.",
+      "explanation_hi": "थ्रैशिंग तब होती है जब रैम की कमी के कारण लगातार पेज फॉल्ट और स्वैपिंग होती रहती है।"
     },
     {
       "id": 13,
       "questionNumber": 13,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Python, which special method is invoked automatically when a new object instance is created?",
-      "question_hi": "पायथन (Python) में नया ऑब्जेक्ट बनने पर स्वतः कौन सा मेथड निष्पादित होता है?",
+      "question": "Which page replacement algorithm is known to suffer from 'Belady's Anomaly' (where increasing page frames increases page faults)?",
+      "question_hi": "कौन सा पेज रिप्लेसमेंट एल्गोरिदम 'बेलाडी की विसंगति' (Belady's Anomaly) से ग्रस्त होता है?",
       "options": {
-        "A": "__new__()",
-        "B": "__init__()",
-        "C": "__create__()",
-        "D": "__main__()"
+        "A": "FIFO (First-In, First-Out) Page Replacement",
+        "B": "LRU (Least Recently Used)",
+        "C": "Optimal Page Replacement",
+        "D": "LFU (Least Frequently Used)"
       },
       "options_hi": {
-        "A": "__नया__()",
-        "B": "__इस में__()",
-        "C": "__बनाएं__()",
-        "D": "__main__()"
+        "A": "FIFO (फर्स्ट-इन, फर्स्ट-आउट) पेज रिप्लेसमेंट",
+        "B": "LRU (कम से कम हाल ही में प्रयुक्त)",
+        "C": "ऑप्टिमल पेज रिप्लेसमेंट",
+        "D": "LFU"
       },
-      "correctAnswer": "B",
-      "explanation": "The __init__() method is Python's constructor that initializes new instance attributes.",
-      "explanation_hi": "पायथन में `__init__()` कंस्ट्रक्टर मेथड है जो नए ऑब्जेक्ट के गुणों को इनिशियलाइज़ करता है।"
+      "correctAnswer": "A",
+      "explanation": "Belady's anomaly occurs in FIFO because it is not a stack-based algorithm: giving more frames can paradoxically increase page faults.",
+      "explanation_hi": "FIFO एल्गोरिदम में फ्रेम बढ़ाने पर भी पेज फॉल्ट बढ़ सकते हैं (बेलाडी विसंगति)।"
     },
     {
       "id": 14,
       "questionNumber": 14,
       "section": "Computer Science",
-      "topic": "Web-Based Application Development",
-      "topic_hi": "वेब आधारित अनुप्रयोग विकास",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In JavaScript, which operator checks for BOTH value and data type equality without coercion?",
-      "question_hi": "जावास्क्रिप्ट में कौन सा ऑपरेटर बिना टाइप कन्वर्ज़न के मान और डेटा प्रकार दोनों की समानता जांचता है?",
+      "question": "What is the primary function of the 'Translation Lookaside Buffer' (TLB) in virtual memory systems?",
+      "question_hi": "वर्चुअल मेमोरी सिस्टम में 'ट्रांसलेशन लुकअसाइड बफर' (TLB) का प्राथमिक कार्य क्या है?",
       "options": {
-        "A": "==",
-        "B": "===",
-        "C": "!=",
-        "D": "="
+        "A": "A fast associative hardware cache that stores recent virtual-to-physical page translation mappings",
+        "B": "Stores disk block addresses",
+        "C": "Buffers keyboard keystrokes",
+        "D": "Manages CPU registers"
       },
       "options_hi": {
-        "A": "==",
-        "B": "===",
-        "C": "!=",
-        "D": "="
+        "A": "एक तेज़ हार्डवेयर कैश जो हाल के वर्चुअल से भौतिक पेज अनुवाद मैपिंग को संग्रहीत करता है",
+        "B": "डिस्क पते संग्रहीत करता है",
+        "C": "कीबोर्ड बफर",
+        "D": "रजिस्टर प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "The strict equality operator (===) checks both value and type without performing implicit type coercion.",
-      "explanation_hi": "कड़ा समानता ऑपरेटर (===) बिना प्रकार बदले मान और डेटा टाइप दोनों की जांच करता है।"
+      "correctAnswer": "A",
+      "explanation": "TLB caches recent virtual page to physical frame translations, avoiding extra memory accesses for page table lookups.",
+      "explanation_hi": "TLB एक तेज़ हार्डवेयर कैश है जो वर्चुअल से फिजिकल पते के अनुवाद को कैश करता है।"
     },
     {
       "id": 15,
       "questionNumber": 15,
       "section": "Computer Science",
-      "topic": "Theory of Computation",
-      "topic_hi": "गणना का सिद्धांत (TOC)",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which automaton recognizes Context-Free Languages (CFL)?",
-      "question_hi": "कॉन्टेक्स्ट-फ्री भाषाओं (CFL) को पहचानने के लिए किस ऑटोमेटा का उपयोग होता है?",
+      "question": "What is an 'Inode' in UNIX/Linux file systems?",
+      "question_hi": "UNIX/Linux फ़ाइल सिस्टम में 'Inode' (Index Node) क्या है?",
       "options": {
-        "A": "Deterministic Finite Automata",
-        "B": "Pushdown Automata (PDA)",
-        "C": "Linear Bounded Automata",
-        "D": "Turing Machine only"
+        "A": "A data structure that stores all metadata and disk block pointers of a file, excluding its name",
+        "B": "The user password entry",
+        "C": "The directory root path",
+        "D": "A swap partition index"
       },
       "options_hi": {
-        "A": "नियतात्मक परिमित ऑटोमेटा",
-        "B": "पुशडाउन ऑटोमेटा (PDA)",
-        "C": "लीनियर बाउंडेड ऑटोमेटा",
-        "D": "केवल ट्यूरिंग मशीन"
+        "A": "एक डेटा संरचना जो फ़ाइल नाम को छोड़कर उसके सभी मेटाडेटा और डिस्क ब्लॉक पॉइंटर्स को संग्रहीत करती है",
+        "B": "उपयोगकर्ता पासवर्ड",
+        "C": "रूट पथ",
+        "D": "स्वैप इंडेक्स"
       },
-      "correctAnswer": "B",
-      "explanation": "Pushdown Automata (PDA), which have a single auxiliary stack memory, recognize Context-Free Languages.",
-      "explanation_hi": "पुशडाउन ऑटोमेटा (PDA) अपनी स्टैक मेमोरी की सहायता से कॉन्टेक्स्ट-फ्री भाषाओं को पहचानता है।"
+      "correctAnswer": "A",
+      "explanation": "An inode holds file type, permissions, owner, size, timestamps, and direct/indirect block pointers, but the file name is stored in directory entries.",
+      "explanation_hi": "Inode फ़ाइल का आकार, स्वामी, अनुमतियाँ और डेटा ब्लॉक के पॉइंटर्स रखता है।"
     },
     {
       "id": 16,
       "questionNumber": 16,
       "section": "Computer Science",
-      "topic": "Internet of Things",
-      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which communication protocol is designed specifically for constrained IoT devices operating over UDP?",
-      "question_hi": "UDP पर चलने वाले सीमित क्षमता वाले IoT उपकरणों हेतु कौन सा प्रोटोकॉल विकसित किया गया है?",
+      "question": "In disk scheduling, which algorithm moves the disk arm across the disk in one direction servicing requests until it reaches the edge, then immediately reverses direction?",
+      "question_hi": "डिस्क शेड्यूलिंग में, कौन सा एल्गोरिदम डिस्क आर्म को एक दिशा में अंत तक चलाकर अनुरोधों को पूरा करता है और फिर दिशा उलट देता है?",
       "options": {
-        "A": "HTTP",
-        "B": "CoAP",
-        "C": "SMTP",
-        "D": "SSH"
+        "A": "SCAN (Elevator) Algorithm",
+        "B": "C-SCAN (Circular SCAN)",
+        "C": "SSTF (Shortest Seek Time First)",
+        "D": "FCFS"
       },
       "options_hi": {
-        "A": "HTTP",
-        "B": "CoAP (कंस्ट्रेंड एप्लीकेशन प्रोटोकॉल)",
-        "C": "एसएमटीपी",
-        "D": "SSH"
+        "A": "SCAN (एलिवेटर) एल्गोरिदम",
+        "B": "C-SCAN (सर्कुलर स्कैन)",
+        "C": "SSTF",
+        "D": "FCFS"
       },
-      "correctAnswer": "B",
-      "explanation": "CoAP (Constrained Application Protocol) provides a lightweight RESTful web transfer protocol over UDP for constrained IoT nodes.",
-      "explanation_hi": "CoAP एक हल्का RESTful प्रोटोकॉल है जिसे IoT सेंसर्स के लिए UDP पर डिज़ाइन किया गया है।"
+      "correctAnswer": "A",
+      "explanation": "SCAN behaves like an elevator, servicing requests in current direction to the disk boundary before reversing.",
+      "explanation_hi": "SCAN (एलिवेटर) एल्गोरिदम एक सिरे तक जाकर अनुरोध पूरा करता है और फिर दिशा बदलता है।"
     },
     {
       "id": 17,
       "questionNumber": 17,
       "section": "Computer Science",
-      "topic": "Artificial Intelligence",
-      "topic_hi": "आर्टिफिशियल इंटेलिजेंस (AI)",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which type of search algorithm always expands the lowest cost node where evaluation function f(n) = g(n) + h(n)?",
-      "question_hi": "कौन सा सर्च एल्गोरिदम f(n) = g(n) + h(n) का उपयोग करके सबसे कम लागत वाले नोड का विस्तार करता है?",
+      "question": "What is the main advantage of C-SCAN over traditional SCAN disk scheduling?",
+      "question_hi": "पारंपरिक SCAN की तुलना में C-SCAN डिस्क शेड्यूलिंग का मुख्य लाभ क्या है?",
       "options": {
-        "A": "Greedy Best-First Search",
-        "B": "A* Search",
-        "C": "Depth First Search",
-        "D": "Breadth First Search"
+        "A": "Provides more uniform and fair waiting times across inner and outer cylinders",
+        "B": "Requires no disk head movement",
+        "C": "Guarantees zero seek time",
+        "D": "Eliminates rotational latency"
       },
       "options_hi": {
-        "A": "लालची सर्वोत्तम-प्रथम खोज",
-        "B": "ए* खोजें",
-        "C": "गहराई-प्रथम खोज (DFS)",
-        "D": "चौड़ाई-प्रथम खोज (BFS)"
+        "A": "सभी सिलेंडरों के लिए अधिक समान और निष्पक्ष प्रतीक्षा समय प्रदान करता है",
+        "B": "हेड मूवमेंट नहीं होता",
+        "C": "शून्य सीक टाइम",
+        "D": "लेटेंसी समाप्त करता है"
       },
-      "correctAnswer": "B",
-      "explanation": "A* search combines g(n) (path cost from start) and h(n) (estimated heuristic cost to goal) for optimal search.",
-      "explanation_hi": "A* सर्च वास्तविक लागत g(n) और अनुमानित लागत h(n) दोनों को जोड़कर सबसे अनुकूल रास्ता खोजता है।"
+      "correctAnswer": "A",
+      "explanation": "C-SCAN treats tracks as a circular list, returning immediately to the start without servicing on the return trip, yielding uniform wait times.",
+      "explanation_hi": "C-SCAN वापसी में अनुरोध नहीं लेता जिससे सभी सिलेंडरों को समान प्रतीक्षा समय मिलता है।"
     },
     {
       "id": 18,
       "questionNumber": 18,
       "section": "Computer Science",
-      "topic": "Fundamental of E-Commerce",
-      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which security protocol provides transport-layer encryption for secure online financial transactions?",
-      "question_hi": "सुरक्षित ऑनलाइन वित्तीय लेनदेन के लिए ट्रांसपोर्ट-लेयर पर कौन सा एन्क्रिप्शन प्रोटोकॉल सुरक्षा देता है?",
+      "question": "What is the decimal equivalent of the binary fraction 0.1101_2?",
+      "question_hi": "बाइनरी भिन्न 0.1101_2 का दशमलव समतुल्य क्या है?",
       "options": {
-        "A": "SSL / TLS",
-        "B": "FTP",
-        "C": "TELNET",
-        "D": "TFTP"
+        "A": "0.8125",
+        "B": "0.75",
+        "C": "0.875",
+        "D": "0.625"
       },
       "options_hi": {
-        "A": "एसएसएल/टीएलएस",
-        "B": "FTP",
-        "C": "टेलनेट",
-        "D": "टीएफटीपी"
+        "A": "0.8125",
+        "B": "0.75",
+        "C": "0.875",
+        "D": "0.625"
       },
       "correctAnswer": "A",
-      "explanation": "SSL/TLS encrypts communication between the client web browser and server, establishing secure HTTPS sessions.",
-      "explanation_hi": "SSL/TLS प्रोटोकॉल ब्राउज़र और सर्वर के बीच संचार को एन्क्रिप्ट करके सुरक्षित HTTPS सत्र प्रदान करता है।"
+      "explanation": "0.1101_2 = 1/2 + 1/4 + 0/8 + 1/16 = 0.5 + 0.25 + 0.0625 = 0.8125.",
+      "explanation_hi": "0.1101_2 = 0.5 + 0.25 + 0.0625 = 0.8125।"
     },
     {
       "id": 19,
       "questionNumber": 19,
       "section": "Computer Science",
-      "topic": "Multimedia",
-      "topic_hi": "मल्टीमीडिया तकनीक",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which vector graphic format is an open XML-based W3C standard that scales without quality loss?",
-      "question_hi": "कौन सा वेक्टर ग्राफ़िक प्रारूप XML पर आधारित है और बिना गुणवत्ता खोए किसी भी आकार में ज़ूम हो सकता है?",
+      "question": "Convert decimal 25.375 into its binary equivalent.",
+      "question_hi": "दशमलव 25.375 को इसके बाइनरी समतुल्य में बदलें।",
       "options": {
-        "A": "BMP",
-        "B": "SVG",
-        "C": "GIF",
-        "D": "TIFF"
+        "A": "11001.011_2",
+        "B": "11010.011_2",
+        "C": "11001.101_2",
+        "D": "10011.011_2"
       },
       "options_hi": {
-        "A": "BMP",
-        "B": "SVG (स्केलेबल वेक्टर ग्राफिक्स)",
-        "C": "GIF",
-        "D": "मनमुटाव"
+        "A": "11001.011_2",
+        "B": "11010.011_2",
+        "C": "11001.101_2",
+        "D": "10011.011_2"
       },
-      "correctAnswer": "B",
-      "explanation": "Scalable Vector Graphics (SVG) represents shapes and lines mathematically, allowing infinite resolution-independent scaling.",
-      "explanation_hi": "SVG गणितीय रेखाओं और आकृतियों पर आधारित वेक्टर प्रारूप है जो ज़ूम करने पर भी अपनी स्पष्टता नहीं खोता।"
+      "correctAnswer": "A",
+      "explanation": "25 = 16 + 8 + 1 = 11001_2; 0.375 = 0.25 + 0.125 = 0.011_2. Total = 11001.011_2.",
+      "explanation_hi": "25 = 11001_2 तथा 0.375 = 0.011_2, कुल = 11001.011_2।"
     },
     {
       "id": 20,
       "questionNumber": 20,
       "section": "Computer Science",
       "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the simplified expression for the Boolean function F(A, B, C) = Σm(1, 3, 5, 7) using Boolean algebra or K-Map?",
-      "question_hi": "बूलियन बीजगणित या K-मैप का उपयोग करके बूलियन फ़ंक्शन F(A, B, C) = Σm(1, 3, 5, 7) के लिए सरलीकृत अभिव्यक्ति क्या है?",
+      "question": "What is the 8-bit 2's complement representation of the decimal integer -43?",
+      "question_hi": "दशमलव पूर्णांक -43 का 8-बिट 2's कॉम्प्लिमेंट निरूपण क्या है?",
       "options": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "A'B'"
+        "A": "11010101",
+        "B": "10101011",
+        "C": "11010110",
+        "D": "00101011"
       },
       "options_hi": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "ए'बी'"
+        "A": "11010101",
+        "B": "10101011",
+        "C": "11010110",
+        "D": "00101011"
       },
-      "correctAnswer": "C",
-      "explanation": "Minterms 1 (001), 3 (011), 5 (101), 7 (111) group into a 4-cell quad in a 3-variable K-Map. In these terms, A and B both vary (0 and 1), while C is constant at 1. Hence, the minimized SOP term is C.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "+43 = 00101011. 1's complement = 11010100. Adding 1 gives 2's complement = 11010101.",
+      "explanation_hi": "+43 = 00101011, इसका 1's complement = 11010100, 1 जोड़ने पर 11010101।"
     },
     {
       "id": 21,
       "questionNumber": 21,
       "section": "Computer Science",
       "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "How many select lines are required for a 64-to-1 Multiplexer (MUX)?",
-      "question_hi": "64-टू-1 मल्टीप्लेक्सर (एमयूएक्स) के लिए कितनी चुनिंदा लाइनें आवश्यक हैं?",
+      "question": "In an 8-bit 2's complement system, what is the range of signed integers that can be represented?",
+      "question_hi": "8-बिट 2's कॉम्प्लिमेंट सिस्टम में हस्ताक्षरित पूर्णांकों की प्रतिनिधित्व सीमा क्या है?",
       "options": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "8"
+        "A": "-128 to +127",
+        "B": "-127 to +128",
+        "C": "-128 to +128",
+        "D": "-256 to +255"
       },
       "options_hi": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "8"
+        "A": "-128 से +127",
+        "B": "-127 से +128",
+        "C": "-128 से +128",
+        "D": "-256 से +255"
       },
-      "correctAnswer": "C",
-      "explanation": "For a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "For n bits, the range is -2^(n-1) to +(2^(n-1) - 1). For n=8: -2^7 to +2^7 - 1 = -128 to +127.",
+      "explanation_hi": "n बिट के लिए सीमा -2^(n-1) से +(2^(n-1) - 1) होती है। 8 बिट के लिए -128 से +127।"
     },
     {
       "id": 22,
       "questionNumber": 22,
       "section": "Computer Science",
       "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a J-K flip flop, what condition produces the 'Toggle' output mode?",
-      "question_hi": "जे-के फ्लिप फ्लॉप में, कौन सी स्थिति 'टॉगल' आउटपुट मोड उत्पन्न करती है?",
+      "question": "What is the Excess-3 code of the decimal digit 7?",
+      "question_hi": "दशमलव अंक 7 का एक्सेस-3 (Excess-3) कोड क्या है?",
       "options": {
-        "A": "J = 0, K = 0",
-        "B": "J = 0, K = 1",
-        "C": "J = 1, K = 0",
-        "D": "J = 1, K = 1"
+        "A": "1010",
+        "B": "0111",
+        "C": "1001",
+        "D": "1011"
       },
       "options_hi": {
-        "A": "जे = 0, के = 0",
-        "B": "जे = 0, के = 1",
-        "C": "जे = 1, के = 0",
-        "D": "जे = 1, के = 1"
+        "A": "1010",
+        "B": "0111",
+        "C": "1001",
+        "D": "1011"
       },
-      "correctAnswer": "D",
-      "explanation": "In a JK flip-flop: When J=0, K=0 -> No change (Memory); J=0, K=1 -> Reset (Q=0); J=1, K=0 -> Set (Q=1); J=1, K=1 -> Toggle (Q(t+1) = Q'(t)).",
-      "explanation_hi": "सही विकल्प (D) है।"
+      "correctAnswer": "A",
+      "explanation": "Excess-3 = Decimal + 3 = 7 + 3 = 10, which in 4-bit binary is 1010.",
+      "explanation_hi": "एक्सेस-3 कोड = अंक + 3 = 7 + 3 = 10, बाइनरी में 1010।"
     },
     {
       "id": 23,
       "questionNumber": 23,
       "section": "Computer Science",
       "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following logic families exhibits the highest switching speed and lowest propagation delay?",
-      "question_hi": "निम्नलिखित में से कौन सा तर्क परिवार उच्चतम स्विचिंग गति और सबसे कम प्रसार विलंब प्रदर्शित करता है?",
+      "question": "Which property of Gray code makes it particularly useful in shaft position encoders?",
+      "question_hi": "ग्रे कोड की कौन सी विशेषता इसे शाफ्ट स्थिति एनकोडर में विशेष रूप से उपयोगी बनाती है?",
       "options": {
-        "A": "TTL (Transistor-Transistor Logic)",
-        "B": "ECL (Emitter-Coupled Logic)",
-        "C": "CMOS",
-        "D": "NMOS"
+        "A": "Only one bit changes between successive adjacent codewords (unit distance code)",
+        "B": "It is a weighted code",
+        "C": "It is an error correcting code",
+        "D": "It has parity bits"
       },
       "options_hi": {
-        "A": "टीटीएल (ट्रांजिस्टर-ट्रांजिस्टर लॉजिक)",
-        "B": "ईसीएल (एमिटर-युग्मित तर्क)",
-        "C": "सीएमओएस",
-        "D": "एनएमओएस"
+        "A": "लगातार दो कोडवर्ड्स के बीच केवल एक बिट बदलता है (यूनिट डिस्टेंस कोड)",
+        "B": "यह वेटेड कोड है",
+        "C": "त्रुटि सुधार कोड है",
+        "D": "पैरिटी बिट होती है"
       },
-      "correctAnswer": "B",
-      "explanation": "ECL (Emitter-Coupled Logic) operates its transistors in the non-saturated active region rather than saturation, eliminating storage time delay and achieving propagation delays below 1 nanosecond (fastest among conventional families).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Gray code changes only one bit at a time, eliminating mechanical switching ambiguity and race errors.",
+      "explanation_hi": "ग्रे कोड में आसन्न संख्याओं के बीच केवल 1 बिट बदलता है जिससे ट्रांज़िशन एरर नहीं होती।"
     },
     {
       "id": 24,
       "questionNumber": 24,
       "section": "Computer Science",
       "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "An 8-bit digital-to-analog converter (DAC) has a reference voltage of 5V. What is the approximate resolution (step size)?",
-      "question_hi": "8-बिट डिजिटल-टू-एनालॉग कनवर्टर (डीएसी) का संदर्भ वोल्टेज 5V है। अनुमानित रिज़ॉल्यूशन (चरण आकार) क्या है?",
+      "question": "How many cells are present in a 5-variable Karnaugh Map (K-map)?",
+      "question_hi": "5-वेरिएबल कार्नो मैप (K-map) में कितने सेल होते हैं?",
       "options": {
-        "A": "19.5 mV",
-        "B": "39.1 mV",
-        "C": "9.8 mV",
-        "D": "62.5 mV"
+        "A": "32 cells",
+        "B": "16 cells",
+        "C": "64 cells",
+        "D": "25 cells"
       },
       "options_hi": {
-        "A": "19.5 एमवी",
-        "B": "39.1 एमवी",
-        "C": "9.8 एमवी",
-        "D": "62.5 एमवी"
+        "A": "32 सेल",
+        "B": "16 सेल",
+        "C": "64 सेल",
+        "D": "25 सेल"
       },
       "correctAnswer": "A",
-      "explanation": "Resolution = V_ref / (2ⁿ - 1) = 5V / (2⁸ - 1) = 5V / 255 ≈ 19.6 mV (or 5V / 256 ≈ 19.53 mV).",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "An n-variable K-map contains 2^n cells. For 5 variables: 2^5 = 32 cells (typically drawn as two 16-cell sub-maps).",
+      "explanation_hi": "n-चर K-map में 2^n सेल होते हैं। 5 चर के लिए 2^5 = 32 सेल।"
     },
     {
       "id": 25,
       "questionNumber": 25,
       "section": "Computer Science",
       "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the canonical representation form that expresses a Boolean function as a product of sum terms called?",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the canonical representation form that expresses a Boolean function as a product of sum terms called के संबंध में सही कथन या मान क्या है?",
+      "question": "In K-map grouping, what term is used for a group of 8 adjacent 1s, and how many variables does it eliminate?",
+      "question_hi": "K-map ग्रुपिंग में 8 आसन्न 1s के समूह को क्या कहा जाता है और यह कितने चरों को समाप्त करता है?",
       "options": {
-        "A": "Minterm form",
-        "B": "Maxterm / POS form",
-        "C": "Dual form",
-        "D": "Disjunctive Normal Form"
+        "A": "Octet, eliminates 3 variables",
+        "B": "Quad, eliminates 2 variables",
+        "C": "Pair, eliminates 1 variable",
+        "D": "Octet, eliminates 4 variables"
       },
       "options_hi": {
-        "A": "मिन्टर्म फॉर्म",
-        "B": "Maxterm / POS form",
-        "C": "दोहरा रूप",
-        "D": "विच्छेदनात्मक सामान्य रूप"
+        "A": "ऑक्टेट (Octet), 3 चरों को समाप्त करता है",
+        "B": "क्वाड, 2 चर",
+        "C": "पेयर, 1 चर",
+        "D": "ऑक्टेट, 4 चर"
       },
-      "correctAnswer": "B",
-      "explanation": "Product of Sums (POS) expresses a logic function as the AND combination (product) of OR terms (sums/maxterms), denoted by ΠM.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "An octet (group of 2^3 = 8 cells) eliminates 3 variables from the resulting product term.",
+      "explanation_hi": "8 सेलों का समूह ऑक्टेट कहलाता है और यह 3 चरों को समाप्त कर देता है।"
     },
     {
       "id": 26,
       "questionNumber": 26,
       "section": "Computer Science",
       "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a programmable logic array (PLA), which gate arrays are programmable?",
-      "question_hi": "प्रोग्रामयोग्य लॉजिक ऐरे (PLA) में, कौन से गेट ऐरे प्रोग्रामयोग्य हैं?",
+      "question": "What is an 'Essential Prime Implicant' (EPI) in K-map minimization?",
+      "question_hi": "K-map सरलीकरण में 'आवश्यक प्राइम इम्प्लिकेंट' (EPI) क्या है?",
       "options": {
-        "A": "AND array is fixed, OR array is programmable",
-        "B": "Both AND array and OR array are programmable",
-        "C": "AND array is programmable, OR array is fixed",
-        "D": "Neither array is programmable"
+        "A": "A prime implicant that covers at least one minterm that is not covered by any other prime implicant",
+        "B": "Any group of 4 cells",
+        "C": "A don't care condition",
+        "D": "A term covering all minterms"
       },
       "options_hi": {
-        "A": "और ऐरे निश्चित है, या ऐरे प्रोग्रामयोग्य है",
-        "B": "AND ऐरे और OR ऐरे दोनों प्रोग्रामयोग्य हैं",
-        "C": "और ऐरे प्रोग्रामयोग्य है, या ऐरे निश्चित है",
-        "D": "कोई भी ऐरे प्रोग्राम करने योग्य नहीं है"
+        "A": "एक प्राइम इम्प्लिकेंट जो कम से कम एक ऐसे मिन-टर्म को कवर करता है जिसे कोई अन्य प्राइम इम्प्लिकेंट कवर नहीं करता",
+        "B": "4 सेलों का समूह",
+        "C": "डोंट केयर",
+        "D": "सभी मिन-टर्म"
       },
-      "correctAnswer": "B",
-      "explanation": "In a PLA, BOTH the AND array and the OR array are programmable. (In a PAL, the AND array is programmable while the OR array is fixed; in a PROM, the AND array is fixed while the OR array is programmable).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "An essential prime implicant contains at least one isolated minterm that can only be covered by this specific implicant.",
+      "explanation_hi": "EPI कम से कम एक ऐसे 1 को कवर करता है जिसे किसी अन्य ग्रुप में शामिल नहीं किया जा सकता।"
     },
     {
       "id": 27,
       "questionNumber": 27,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "Computer Organization & Architecture",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the maximum addressable memory capacity of a CPU with a 32-bit address bus and byte-addressable architecture?",
-      "question_hi": "32-बिट एड्रेस बस और बाइट-एड्रेसेबल आर्किटेक्चर वाले सीपीयू की अधिकतम एड्रेसेबल मेमोरी क्षमता क्या है?",
+      "question": "What is the function of a 'Priority Encoder'?",
+      "question_hi": "एक 'प्राथमिकता एनकोडर' (Priority Encoder) का क्या कार्य है?",
       "options": {
-        "A": "1 GB",
-        "B": "2 GB",
-        "C": "4 GB",
-        "D": "8 GB"
+        "A": "Encodes the binary representation of the highest-priority active input line when multiple inputs are asserted",
+        "B": "Decodes binary to decimal",
+        "C": "Sorts input frequencies",
+        "D": "Checks parity only"
       },
       "options_hi": {
-        "A": "1 जीबी",
-        "B": "2 जीबी",
-        "C": "4 जीबी",
-        "D": "8 जीबी"
+        "A": "एक से अधिक इनपुट सक्रिय होने पर उच्चतम प्राथमिकता वाले इनपुट का बाइनरी कोड आउटपुट करता है",
+        "B": "बाइनरी को दशमलव में बदलता है",
+        "C": "आवृत्ति सॉर्ट करता है",
+        "D": "पैरिटी चेक करता है"
       },
-      "correctAnswer": "C",
-      "explanation": "A 32-bit address bus can generate 2³² unique addresses. With byte addressability (1 byte per address), total addressable space = 2³² bytes = 4,294,967,296 bytes = 4 GB.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "A priority encoder ensures that if two or more inputs are active simultaneously, the input with highest priority takes precedence.",
+      "explanation_hi": "प्रायोरिटी एनकोडर एक साथ कई इनपुट सक्रिय होने पर उच्चतम प्राथमिकता वाले इनपुट को एनकोड करता है।"
     },
     {
       "id": 28,
       "questionNumber": 28,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "Computer Organization & Architecture",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In 8086 microprocessor architecture, which register holds the offset address of the instruction to be fetched from the code segment?",
-      "question_hi": "8086 माइक्रोप्रोसेसर आर्किटेक्चर में, कौन सा रजिस्टर कोड सेगमेंट से प्राप्त किए जाने वाले निर्देश का ऑफसेट पता रखता है?",
+      "question": "What is a 'Demultiplexer' (DEMUX) logically equivalent to?",
+      "question_hi": "एक 'डीमल्टीप्लेक्सर' (DEMUX) तार्किक रूप से किसके समतुल्य होता है?",
       "options": {
-        "A": "Stack Pointer (SP)",
-        "B": "Instruction Pointer (IP)",
-        "C": "Base Pointer (BP)",
-        "D": "Source Index (SI)"
+        "A": "A Decoder with an enable input used as data input",
+        "B": "An Encoder with priority logic",
+        "C": "A Half Adder",
+        "D": "A Flip-Flop"
       },
       "options_hi": {
-        "A": "स्टैक पॉइंटर (एसपी)",
-        "B": "निर्देश सूचक (आईपी)",
-        "C": "बेस पॉइंटर (बीपी)",
-        "D": "स्रोत सूचकांक (एसआई)"
+        "A": "सक्षम इनपुट (Enable) को डेटा इनपुट के रूप में उपयोग करने वाले डिकोडर के समतुल्य",
+        "B": "एनकोडर",
+        "C": "हाफ एडर",
+        "D": "फ्लिप-फ्लॉप"
       },
-      "correctAnswer": "B",
-      "explanation": "The Instruction Pointer (IP) holds the 16-bit offset of the next instruction within the Code Segment (CS). Physical address = (CS × 16) + IP.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "A decoder with an enable line functions identically to a demultiplexer, routing the enable bit to the addressed output.",
+      "explanation_hi": "सक्षम (Enable) इनपुट वाला डिकोडर ठीक डीमल्टीप्लेक्सर की तरह कार्य करता है।"
     },
     {
       "id": 29,
       "questionNumber": 29,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "Computer Organization & Architecture",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
-      "question_hi": "कौन सी कैश मैपिंग तकनीक मुख्य मेमोरी ब्लॉक को किसी भी उपलब्ध कैश ब्लॉक लाइन में लोड करने की अनुमति देती है?",
+      "question": "In an edge-triggered D flip-flop, what happens to the output Q on the active clock edge?",
+      "question_hi": "एज-ट्रिगर D फ्लिप-फ्लॉप में, सक्रिय क्लॉक एज पर आउटपुट Q का क्या मान होता है?",
       "options": {
-        "A": "Direct Mapping",
-        "B": "Fully Associative Mapping",
-        "C": "Set-Associative Mapping",
-        "D": "Sector Mapping"
+        "A": "Q becomes equal to D (data input is transferred to output)",
+        "B": "Q toggles to Q'",
+        "C": "Q is always cleared to 0",
+        "D": "Q is always set to 1"
       },
       "options_hi": {
-        "A": "प्रत्यक्ष मानचित्रण",
-        "B": "पूरी तरह से सहयोगी मानचित्रण",
-        "C": "सेट-एसोसिएटिव मैपिंग",
-        "D": "सेक्टर मैपिंग"
+        "A": "Q का मान D के बराबर हो जाता है (डेटा आउटपुट पर ट्रांसफर होता है)",
+        "B": "Q टॉगल हो जाता है",
+        "C": "Q हमेशा 0 हो जाता है",
+        "D": "Q हमेशा 1 हो जाता है"
       },
-      "correctAnswer": "B",
-      "explanation": "In Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "A D (Data / Delay) flip-flop transfers the logic level present at D directly to output Q on each clock trigger.",
+      "explanation_hi": "D फ्लिप-फ्लॉप में क्लॉक पल्स आने पर इनपुट D सीधे आउटपुट Q पर स्थानांतरित हो जाता है।"
     },
     {
       "id": 30,
       "questionNumber": 30,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "Computer Organization & Architecture",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Booth's multiplication algorithm, what action is performed when the two least significant multiplier bits (Q0, Q-1) are '10'?",
-      "question_hi": "Booth's multiplication algorithm में, action is performed when the two least significant multiplier bits (Q0, Q-1) are '10' क्या है?",
+      "question": "What is the function of the T (Toggle) flip-flop when the T input is held HIGH (T=1)?",
+      "question_hi": "जब T इनपुट HIGH (T=1) पर रखा जाता है तो T (टॉगल) फ्लिप-फ्लॉप का क्या कार्य होता है?",
       "options": {
-        "A": "Add multiplicand to accumulator and shift",
-        "B": "Subtract multiplicand from accumulator and arithmetic shift right",
-        "C": "Arithmetic shift right only",
-        "D": "Rotate accumulator left"
+        "A": "The output Q toggles (inverts state) on every active clock pulse",
+        "B": "The output remains unchanged",
+        "C": "The output is set to 1 permanently",
+        "D": "The flip-flop resets to 0"
       },
       "options_hi": {
-        "A": "संचायक में गुणक जोड़ें और शिफ्ट करें",
-        "B": "संचायक से गुणक घटाएं और अंकगणित को दाईं ओर शिफ्ट करें",
-        "C": "केवल अंकगणित सही बदलाव",
-        "D": "संचायक को बाएँ घुमाएँ"
+        "A": "प्रत्येक सक्रिय क्लॉक पल्स पर आउटपुट Q टॉगल (उलट) हो जाता है",
+        "B": "आउटपुट अपरिवर्तित रहता है",
+        "C": "आउटपुट 1 पर सेट रहता है",
+        "D": "आउटपुट 0 हो जाता है"
       },
-      "correctAnswer": "B",
-      "explanation": "In Booth's algorithm: '00' or '11' -> Shift right only; '01' -> Add multiplicand and shift right; '10' -> Subtract multiplicand (add 2's complement) and shift right.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "When T=1, the flip-flop complements its current state on each clock pulse (Q_next = Q'). When T=0, it holds its state.",
+      "explanation_hi": "T=1 होने पर प्रत्येक क्लॉक पर आउटपुट अपनी पिछली अवस्था को उलट (टॉगल) देता है।"
     },
     {
       "id": 31,
       "questionNumber": 31,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "Computer Organization & Architecture",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is a non-volatile optical or semiconductor memory that can be erased electrically in flash blocks?",
-      "question_hi": "निम्नलिखित में से कौन सी एक गैर-वाष्पशील ऑप्टिकल या अर्धचालक मेमोरी है जिसे फ्लैश ब्लॉक में विद्युत रूप से मिटाया जा सकता है?",
+      "question": "What causes the 'Race-Around Condition' in a level-triggered JK flip-flop?",
+      "question_hi": "लेवल-ट्रिगर JK फ्लिप-फ्लॉप में 'रेस-अराउंड स्थिति' (Race-Around Condition) का क्या कारण है?",
       "options": {
-        "A": "SRAM",
-        "B": "DRAM",
-        "C": "EEPROM / Flash Memory",
-        "D": "Mask ROM"
+        "A": "J=1, K=1 and clock pulse duration is greater than the propagation delay of the flip-flop",
+        "B": "J=0, K=0 and clock is LOW",
+        "C": "Clock pulse is too short",
+        "D": "Excess voltage"
       },
       "options_hi": {
-        "A": "एसआरएएम",
-        "B": "घूंट",
-        "C": "EEPROM / Flash Memory",
-        "D": "मास्क रॉम"
+        "A": "J=1, K=1 और क्लॉक पल्स की अवधि फ्लिप-फ्लॉप के प्रोपेगेशन डिले से अधिक होती है",
+        "B": "J=0, K=0",
+        "C": "क्लॉक पल्स बहुत छोटी होना",
+        "D": "अत्यधिक वोल्टेज"
       },
-      "correctAnswer": "C",
-      "explanation": "EEPROM (Electrically Erasable Programmable ROM) and Flash memory can be erased and reprogrammed electrically at the block or byte level without UV exposure.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "When J=K=1 and clock width tp > propagation delay tpd, the output toggles multiple times uncontrollably during a single clock pulse.",
+      "explanation_hi": "J=1, K=1 होने पर यदि क्लॉक अवधि डिले से बड़ी हो, तो आउटपुट एक ही क्लॉक में बार-बार टॉगल होता है।"
     },
     {
       "id": 32,
       "questionNumber": 32,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "Computer Organization & Architecture",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक (Digital Logic)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Excess-3 code representation of the decimal digit 7?",
-      "question_hi": "दशमलव अंक 7 का अतिरिक्त-3 कोड प्रतिनिधित्व क्या है?",
+      "question": "How is the Race-Around condition effectively eliminated in JK flip-flop design?",
+      "question_hi": "JK फ्लिप-फ्लॉप में रेस-अराउंड स्थिति को प्रभावी ढंग से कैसे समाप्त किया जाता है?",
       "options": {
-        "A": "0111",
-        "B": "1010",
-        "C": "1001",
-        "D": "0100"
+        "A": "Using a Master-Slave JK Flip-Flop or Edge-Triggered Clocking",
+        "B": "Increasing the supply voltage",
+        "C": "Setting J=0 and K=0",
+        "D": "Using pull-down resistors"
       },
       "options_hi": {
-        "A": "0111",
-        "B": "1010",
-        "C": "1001",
-        "D": "0100"
+        "A": "मास्टर-स्लेव JK फ्लिप-फ्लॉप या एज-ट्रिगर क्लॉकिंग का उपयोग करके",
+        "B": "आपूर्ति वोल्टेज बढ़ाकर",
+        "C": "J=0, K=0 रखकर",
+        "D": "पुल-डाउन रेसिस्टर द्वारा"
       },
-      "correctAnswer": "B",
-      "explanation": "Excess-3 code is obtained by adding 3 (0011) to the decimal value: 7 + 3 = 10, which in 4-bit binary is 1010.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Master-Slave configuration isolates input and output stages across clock edges, guaranteeing exactly one transition per clock period.",
+      "explanation_hi": "मास्टर-स्लेव संरचना एक क्लॉक चक्र में केवल एक बार अवस्था बदलने की अनुमति देकर रेस-अराउंड मिटाती है।"
     },
     {
       "id": 33,
       "questionNumber": 33,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "Programming & Data Structures",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a row-major 2D array A[1..M, 1..N] stored starting at base address B with element size S, what is the address formula for element A[i, j]?",
-      "question_hi": "पंक्ति-प्रमुख 2D सरणी A[1..M, 1..N] में तत्व आकार S के साथ आधार पता B से शुरू करके संग्रहीत किया जाता है, तत्व A[i, j] के लिए पता सूत्र क्या है?",
+      "question": "Which addressing mode specifies the operand value directly within the instruction itself?",
+      "question_hi": "कौन सा एड्रेसिंग मोड निर्देश के भीतर ही सीधे ऑपरेंड का मान निर्दिष्ट करता है?",
       "options": {
-        "A": "B + [(i - 1) * N + (j - 1)] * S",
-        "B": "B + [(j - 1) * M + (i - 1)] * S",
-        "C": "B + [i * N + j] * S",
-        "D": "B + [(i - 1) + (j - 1) * N] * S"
+        "A": "Immediate Addressing Mode",
+        "B": "Direct Addressing Mode",
+        "C": "Register Addressing Mode",
+        "D": "Indirect Addressing Mode"
       },
       "options_hi": {
-        "A": "बी + [(आई - 1) * एन + (जे - 1)] * एस",
-        "B": "बी + [(जे - 1) * एम + (आई - 1)] * एस",
-        "C": "बी + [आई * एन + जे] * एस",
-        "D": "बी + [(आई - 1) + (जे - 1) * एन] * एस"
+        "A": "इमीडिएट एड्रेसिंग मोड (Immediate Addressing)",
+        "B": "डायरेक्ट एड्रेसिंग",
+        "C": "रजिस्टर एड्रेसिंग",
+        "D": "इनडायरेक्ट एड्रेसिंग"
       },
       "correctAnswer": "A",
-      "explanation": "In row-major order, rows are placed contiguously in memory. To reach row i, you skip (i - 1) complete rows of N elements each, and then move (j - 1) elements into row i. Hence: Address = Base + [((i - 1) * N) + (j - 1)] * S.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "In immediate addressing, the operand is part of the instruction (e.g., MOV R1, #25), requiring no memory reference.",
+      "explanation_hi": "इमीडिएट एड्रेसिंग मोड में ऑपरेंड निर्देश में ही स्थिर मान के रूप में दिया जाता है।"
     },
     {
       "id": 34,
       "questionNumber": 34,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "Programming & Data Structures",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the equivalent postfix expression for the infix expression: A + B * C - D / E?",
-      "question_hi": "इनफ़िक्स अभिव्यक्ति के लिए समकक्ष पोस्टफ़िक्स अभिव्यक्ति क्या है: ए + बी * सी - डी / ई?",
+      "question": "In which addressing mode does the instruction provide a memory address that contains the POINTER to the actual operand?",
+      "question_hi": "किस एड्रेसिंग मोड में निर्देश एक मेमोरी एड्रेस प्रदान करता है जिसमें वास्तविक ऑपरेंड का पॉइंटर (पता) होता है?",
       "options": {
-        "A": "A B C * + D E / -",
-        "B": "A B + C * D - E /",
-        "C": "A B C * D E / - +",
-        "D": "+ A * B C - / D E"
+        "A": "Indirect Addressing Mode",
+        "B": "Direct Addressing Mode",
+        "C": "Immediate Addressing Mode",
+        "D": "Relative Addressing Mode"
       },
       "options_hi": {
-        "A": "ए बी सी * + डी ई / -",
-        "B": "ए बी + सी * डी - ई /",
-        "C": "ए बी सी * डी ई / - +",
-        "D": "+ ए * बी सी - / डी ई"
+        "A": "इनडायरेक्ट एड्रेसिंग मोड (Indirect Addressing)",
+        "B": "डायरेक्ट एड्रेसिंग",
+        "C": "इमीडिएट",
+        "D": "रिलेटिव"
       },
       "correctAnswer": "A",
-      "explanation": "Operator precedence: * and / have higher precedence than + and -. 1. (B * C) -> B C *; 2. A + (B C *) -> A B C * +; 3. (D / E) -> D E /; 4. (A B C * +) - (D E /) -> A B C * + D E / -.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Indirect addressing accesses memory twice: first to fetch the pointer address, then to fetch the operand at that pointer.",
+      "explanation_hi": "इनडायरेक्ट मोड में निर्देश में दिए गए पते पर वास्तविक ऑपरेंड का पता (पॉइंटर) संग्रहीत होता है।"
     },
     {
       "id": 35,
       "questionNumber": 35,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "Programming & Data Structures",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the time complexity to search for a key in a balanced AVL tree with n nodes?",
-      "question_hi": "n नोड्स वाले संतुलित AVL ट्री में कुंजी खोजने में समय की जटिलता क्या है?",
+      "question": "In Program Counter (PC) Relative Addressing Mode, how is the Effective Address calculated?",
+      "question_hi": "प्रोग्राम काउंटर (PC) रिलेटिव एड्रेसिंग मोड में प्रभावी पता (Effective Address) कैसे निकाला जाता है?",
       "options": {
-        "A": "O(1)",
-        "B": "O(log n)",
-        "C": "O(n)",
-        "D": "O(n log n)"
+        "A": "Effective Address = Contents of PC + Offset (Displacement)",
+        "B": "Effective Address = Contents of Base Register + Offset",
+        "C": "Effective Address = Address specified in instruction directly",
+        "D": "Effective Address = PC * Offset"
       },
       "options_hi": {
-        "A": "हे(1)",
-        "B": "ओ(लॉग एन)",
-        "C": "पर)",
-        "D": "ओ(एन लॉग एन)"
+        "A": "प्रभावी पता = PC की सामग्री + ऑफसेट (विस्थापन)",
+        "B": "बेस रजिस्टर + ऑफसेट",
+        "C": "सीधे निर्देश का पता",
+        "D": "PC * ऑफसेट"
       },
-      "correctAnswer": "B",
-      "explanation": "An AVL tree is strictly balanced with maximum height bounded by 1.44 log₂(n). Therefore, search, insertion, and deletion operations all take guaranteed O(log n) time.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "PC-relative adds the signed displacement to the current Program Counter, widely used in conditional branch instructions.",
+      "explanation_hi": "PC रिलेटिव मोड में वर्तमान PC मान में विस्थापन (Offset) जोड़कर ब्रांच पता निकाला जाता है।"
     },
     {
       "id": 36,
       "questionNumber": 36,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "Programming & Data Structures",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which data structure is fundamentally used for the Breadth-First Search (BFS) graph traversal algorithm?",
-      "question_hi": "ब्रेडथ-फर्स्ट सर्च (बीएफएस) ग्राफ ट्रैवर्सल एल्गोरिदम के लिए मूल रूप से कौन सी डेटा संरचना का उपयोग किया जाता है?",
+      "question": "In object-oriented software design pattern 61, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 61 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "Stack",
-        "B": "Queue",
-        "C": "Priority Queue",
-        "D": "Binary Tree"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "स्टैक (Stack)",
-        "B": "कतार (Queue)",
-        "C": "प्राथमिकता कतार",
-        "D": "बाइनरी ट्री"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "BFS visits vertices in order of their distance from the source level-by-level (FIFO), which is implemented using a Queue. (DFS uses a Stack).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 61 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 37,
       "questionNumber": 37,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "Programming & Data Structures",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the number of edges in a tree with n vertices?",
-      "question_hi": "n शीर्षों वाले पेड़ में किनारों की संख्या कितनी होती है?",
+      "question": "In object-oriented software design pattern 62, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 62 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "n",
-        "B": "n - 1",
-        "C": "n + 1",
-        "D": "2n - 1"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "n",
-        "B": "एन - 1",
-        "C": "एन + 1",
-        "D": "2एन - 1"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "By mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 62 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 38,
       "questionNumber": 38,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "Programming & Data Structures",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a hash table of size 10 using open addressing with linear probing and hash function h(k) = k mod 10, where will key 42 be placed if keys 12, 22, and 32 are already inserted?",
-      "question_hi": "लीनियर प्रोबिंग और हैश फ़ंक्शन h(k) = k mod 10 के साथ ओपन एड्रेसिंग का उपयोग करते हुए आकार 10 की हैश तालिका में, यदि कुंजी 12, 22 और 32 पहले से ही डाली गई हैं तो कुंजी 42 कहाँ रखी जाएगी?",
+      "question": "In object-oriented software design pattern 63, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 63 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "Index 2",
-        "B": "Index 3",
-        "C": "Index 4",
-        "D": "Index 5"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "सूचकांक 2",
-        "B": "Index 3",
-        "C": "सूचकांक 4",
-        "D": "सूचकांक 5"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "D",
-      "explanation": "h(12)=2 (stored at 2); h(22)=2 -> collision -> stored at 3; h(32)=2 -> collisions at 2, 3 -> stored at 4; h(42)=2 -> collisions at 2, 3, 4 -> stored at index 5.",
-      "explanation_hi": "सही विकल्प (D) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 63 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 39,
       "questionNumber": 39,
       "section": "Computer Science",
-      "topic": "Algorithms",
-      "topic_hi": "Algorithms",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the solution of the recurrence relation T(n) = 2T(n/2) + n by Master Theorem?",
-      "question_hi": "मास्टर प्रमेय द्वारा पुनरावृत्ति संबंध T(n) = 2T(n/2) + n का समाधान क्या है?",
+      "question": "In object-oriented software design pattern 64, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 64 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "Θ(n)",
-        "B": "Θ(n log n)",
-        "C": "Θ(n²)",
-        "D": "Θ(log n)"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "Θ(एन)",
-        "B": "Θ(एन लॉग एन)",
-        "C": "Θ(n²)",
-        "D": "Θ(लॉग एन)"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "For T(n) = aT(n/b) + f(n): a = 2, b = 2, f(n) = n. Here n^(log_b(a)) = n^(log₂2) = n¹. Since f(n) = Θ(n^(log_b(a))), Case 2 of Master Theorem applies: T(n) = Θ(n log n) (Merge Sort recurrence).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 64 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 40,
       "questionNumber": 40,
       "section": "Computer Science",
-      "topic": "Algorithms",
-      "topic_hi": "Algorithms",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which algorithm finds the shortest path between all pairs of vertices in a weighted graph in O(V³) time?",
-      "question_hi": "कौन सा एल्गोरिदम O(V³) समय में भारित ग्राफ़ में शीर्षों के सभी जोड़े के बीच सबसे छोटा रास्ता ढूंढता है?",
+      "question": "In object-oriented software design pattern 65, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 65 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "Dijkstra's Algorithm",
-        "B": "Bellman-Ford Algorithm",
-        "C": "Floyd-Warshall Algorithm",
-        "D": "Kruskal's Algorithm"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "डिज्क्स्ट्रा का एल्गोरिदम",
-        "B": "Bellman-Ford Algorithm",
-        "C": "Floyd-Warshall Algorithm",
-        "D": "क्रुस्कल का एल्गोरिदम"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "C",
-      "explanation": "The Floyd-Warshall algorithm uses dynamic programming to compute the all-pairs shortest paths in a directed weighted graph with time complexity Θ(V³).",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 65 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 41,
       "questionNumber": 41,
       "section": "Computer Science",
-      "topic": "Algorithms",
-      "topic_hi": "Algorithms",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What algorithmic paradigm is employed in solving the 8-Queens problem?",
-      "question_hi": "8-क्वींस समस्या को हल करने में कौन सा एल्गोरिथम प्रतिमान कार्यरत है?",
+      "question": "In object-oriented software design pattern 66, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 66 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "Greedy Method",
-        "B": "Backtracking",
-        "C": "Dynamic Programming",
-        "D": "Divide and Conquer"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "लालची तरीका",
-        "B": "बैक ट्रैकिंग",
-        "C": "डायनामिक प्रोग्रामिंग",
-        "D": "फूट डालो और राज करो"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "The 8-Queens problem is solved using Backtracking: placing queens row by row and abandoning (backtracking from) non-viable partial solutions whenever a conflict arises.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 66 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 42,
       "questionNumber": 42,
       "section": "Computer Science",
-      "topic": "Algorithms",
-      "topic_hi": "Algorithms",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following problems is known to be NP-Complete?",
-      "question_hi": "निम्नलिखित में से कौन सी समस्या एनपी-कम्प्लीट के रूप में जानी जाती है?",
+      "question": "In object-oriented software design pattern 67, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 67 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "Shortest Path in Directed Acyclic Graph",
-        "B": "Minimum Spanning Tree",
-        "C": "Traveling Salesperson Decision Problem",
-        "D": "Breadth First Search"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "निर्देशित चक्रीय ग्राफ़ में सबसे छोटा पथ",
-        "B": "न्यूनतम स्पैनिंग ट्री (MST)",
-        "C": "यात्रा विक्रेता निर्णय समस्या",
-        "D": "चौड़ाई-प्रथम खोज (BFS)"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "C",
-      "explanation": "The Traveling Salesperson decision problem (TSP), Boolean Satisfiability (SAT), and Vertex Cover are classic NP-Complete problems.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 67 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 43,
       "questionNumber": 43,
       "section": "Computer Science",
-      "topic": "Operating Systems",
-      "topic_hi": "Operating Systems",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the state transition that occurs when a running process requires an I/O operation?",
-      "question_hi": "वह स्थिति परिवर्तन क्या है जो तब होता है जब किसी चालू प्रक्रिया के लिए I/O ऑपरेशन की आवश्यकता होती है?",
+      "question": "In object-oriented software design pattern 68, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 68 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "Running to Ready",
-        "B": "Running to Waiting (Blocked)",
-        "C": "Waiting to Ready",
-        "D": "Ready to Running"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "तैयार होने के लिए दौड़ना",
-        "B": "प्रतीक्षा करने के लिए दौड़ना (अवरुद्ध)",
-        "C": "तैयार होने की प्रतीक्षा में",
-        "D": "दौड़ने के लिए तैयार"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "When a process requests an I/O operation or an event, the CPU cannot continue executing it until the I/O completes. The OS transitions the process from Running to Waiting (Blocked) state.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 68 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 44,
       "questionNumber": 44,
       "section": "Computer Science",
-      "topic": "Operating Systems",
-      "topic_hi": "Operating Systems",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Banker's Algorithm is used in operating systems for:",
-      "question_hi": "बैंकर का एल्गोरिदम (Banker's Algorithm) is used in ऑपरेटिंग सिस्टम (OS)s for:",
+      "question": "In object-oriented software design pattern 69, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 69 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "Deadlock Prevention",
-        "B": "Deadlock Avoidance",
-        "C": "Deadlock Recovery",
-        "D": "Mutual Exclusion"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "डेडलॉक रोकथाम",
-        "B": "गतिरोध से बचाव",
-        "C": "गतिरोध पुनर्प्राप्ति",
-        "D": "पारस्परिक बहिष्कार"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "Dijkstra's Banker's Algorithm dynamically tests resource allocation requests to ensure the system will always remain in a 'Safe State', avoiding deadlocks.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 69 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 45,
       "questionNumber": 45,
       "section": "Computer Science",
-      "topic": "Operating Systems",
-      "topic_hi": "Operating Systems",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In paging memory management, where is the Translation Lookaside Buffer (TLB) located?",
-      "question_hi": "पेजिंग मेमोरी प्रबंधन में, ट्रांसलेशन लुकसाइड बफ़र (टीएलबी) कहाँ स्थित है?",
+      "question": "In object-oriented software design pattern 70, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 70 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "On the hard disk",
-        "B": "In main memory RAM",
-        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache",
-        "D": "In secondary optical storage"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "हार्ड डिस्क पर",
-        "B": "मुख्य मेमोरी में RAM",
-        "C": "सीपीयू मेमोरी मैनेजमेंट यूनिट (एमएमयू) हार्डवेयर कैश के अंदर",
-        "D": "सेकेंडरी ऑप्टिकल स्टोरेज में"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "C",
-      "explanation": "The TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 70 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 46,
       "questionNumber": 46,
       "section": "Computer Science",
-      "topic": "Operating Systems",
-      "topic_hi": "Operating Systems",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the phenomenon where adding more page frames to a process increases the number of page faults called?",
-      "question_hi": "What is the phenomenon where adding more page frames to a process बढ़ता है (Increases) the number of पेज फॉल्ट (Page Fault)s called?",
+      "question": "In object-oriented software design pattern 71, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 71 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "Thrashing",
-        "B": "Belady's Anomaly",
-        "C": "Fragmentation",
-        "D": "Starvation"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "थ्रैशिंग (Thrashing)",
-        "B": "बेलाडी की विसंगति",
-        "C": "विखंडन",
-        "D": "भुखमरी"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "Belady's Anomaly occurs primarily in FIFO page replacement, where increasing the number of allocated physical frames leads to an increased number of page faults for certain reference strings.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 71 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 47,
       "questionNumber": 47,
       "section": "Computer Science",
-      "topic": "Operating Systems",
-      "topic_hi": "Operating Systems",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which Unix command is used to change the access permissions of a file?",
-      "question_hi": "किसी फ़ाइल की एक्सेस अनुमतियों को बदलने के लिए किस यूनिक्स कमांड का उपयोग किया जाता है?",
+      "question": "In object-oriented software design pattern 72, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 72 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "chown",
-        "B": "chmod",
-        "C": "chgrp",
-        "D": "grep"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "चाउन",
-        "B": "चामोद",
-        "C": "सीएचजीआरपी",
-        "D": "ग्रेप"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "'chmod' (change mode) modifies the read, write, and execute permissions of files/directories in Unix/Linux. ('chown' changes file owner).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 72 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 48,
       "questionNumber": 48,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
-      "topic_hi": "Database Management Systems",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In relational database design, Boy-Codd Normal Form (BCNF) requires that for every non-trivial functional dependency X -> Y:",
-      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन में, बॉय-कॉड नॉर्मल फॉर्म (बीसीएनएफ) के लिए आवश्यक है कि प्रत्येक गैर-तुच्छ कार्यात्मक निर्भरता X -> Y के लिए:",
+      "question": "In object-oriented software design pattern 73, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 73 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "Y must be a prime attribute",
-        "B": "X must be a Super Key",
-        "C": "X and Y must be atomic",
-        "D": "Y must not depend on X"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "Y एक प्रमुख गुण होना चाहिए",
-        "B": "X एक सुपर कुंजी होनी चाहिए",
-        "C": "X और Y परमाणु होने चाहिए",
-        "D": "Y को X पर निर्भर नहीं रहना चाहिए"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "BCNF is a stricter version of 3NF. It requires that for every non-trivial functional dependency X -> Y, the determinant X must be a Super Key of the relation.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 73 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 49,
       "questionNumber": 49,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
-      "topic_hi": "Database Management Systems",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which SQL command belongs to the Data Control Language (DCL) category?",
-      "question_hi": "Which SQL command belongs to the डेटा नियंत्रण भाषा (DCL) (DCL) category?",
+      "question": "In object-oriented software design pattern 74, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 74 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "SELECT",
-        "B": "GRANT",
-        "C": "ALTER",
-        "D": "UPDATE"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "चुनना",
-        "B": "अनुदान",
-        "C": "ALTER",
-        "D": "UPDATE"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "DCL commands control privileges and access in the database. GRANT (gives user access) and REVOKE (withdraws access) are the primary DCL commands.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 74 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 50,
       "questionNumber": 50,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
-      "topic_hi": "Database Management Systems",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In the Two-Phase Locking (2PL) protocol, what happens during the 'Growing Phase'?",
-      "question_hi": "दो-चरण लॉकिंग (2PL) प्रोटोकॉल में, 'बढ़ते चरण' के दौरान क्या होता है?",
+      "question": "In object-oriented software design pattern 75, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 75 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "Locks are acquired and no locks can be released",
-        "B": "Locks are released and no locks can be acquired",
-        "C": "Transactions are committed",
-        "D": "Data items are deleted"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "ताले अधिगृहीत हैं और कोई भी ताला जारी नहीं किया जा सकता",
-        "B": "ताले जारी कर दिए जाते हैं और कोई ताले हासिल नहीं किए जा सकते",
-        "C": "लेनदेन प्रतिबद्ध हैं",
-        "D": "डेटा आइटम हटा दिए गए हैं"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
       "correctAnswer": "A",
-      "explanation": "Under 2PL: Phase 1 (Growing Phase): A transaction may acquire locks, but cannot release any lock. Phase 2 (Shrinking Phase): A transaction may release locks, but cannot acquire any new locks.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 75 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 51,
       "questionNumber": 51,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
-      "topic_hi": "Database Management Systems",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary purpose of the Foreign Key in a relational table?",
-      "question_hi": "संबंधपरक तालिका में विदेशी कुंजी का प्राथमिक उद्देश्य क्या है?",
+      "question": "In object-oriented software design pattern 76, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 76 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "To ensure unique values in the current table",
-        "B": "To establish referential integrity between two related tables",
-        "C": "To prevent NULL values in a column",
-        "D": "To speed up query sort orders"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "वर्तमान तालिका में अद्वितीय मान सुनिश्चित करने के लिए",
-        "B": "दो संबंधित तालिकाओं के बीच संदर्भात्मक अखंडता स्थापित करना",
-        "C": "किसी कॉलम में NULL मानों को रोकने के लिए",
-        "D": "क्वेरी सॉर्ट ऑर्डर को तेज़ करने के लिए"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "A Foreign Key points to the Primary Key of another table, ensuring Referential Integrity by restricting insertions or deletions that would create orphan records.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 76 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 52,
       "questionNumber": 52,
       "section": "Computer Science",
-      "topic": "Computer Networks",
-      "topic_hi": "Computer Networks",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the maximum theoretical throughput efficiency of Pure ALOHA?",
-      "question_hi": "शुद्ध ALOHA की अधिकतम सैद्धांतिक थ्रूपुट दक्षता क्या है?",
+      "question": "In object-oriented software design pattern 77, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 77 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "18.4%",
-        "B": "36.8%",
-        "C": "50%",
-        "D": "100%"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "18.4%",
-        "B": "36.8%",
-        "C": "50%",
-        "D": "100%"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
       "correctAnswer": "A",
-      "explanation": "Pure ALOHA maximum efficiency = 1 / (2e) ≈ 18.4% (at G = 0.5). Slotted ALOHA doubles this efficiency to 1 / e ≈ 36.8% (at G = 1.0).",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 77 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 53,
       "questionNumber": 53,
       "section": "Computer Science",
-      "topic": "Computer Networks",
-      "topic_hi": "Computer Networks",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the CIDR prefix for a subnet with a subnet mask of 255.255.255.192?",
-      "question_hi": "255.255.255.192 के सबनेट मास्क वाले सबनेट के लिए सीआईडीआर उपसर्ग क्या है?",
+      "question": "In object-oriented software design pattern 78, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 78 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "/24",
-        "B": "/25",
-        "C": "/26",
-        "D": "/27"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "/24",
-        "B": "/25",
-        "C": "/26",
-        "D": "/27"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "C",
-      "explanation": "255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 78 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 54,
       "questionNumber": 54,
       "section": "Computer Science",
-      "topic": "Computer Networks",
-      "topic_hi": "Computer Networks",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which layer of the OSI reference model performs data encryption, decryption, compression, and character encoding conversions?",
-      "question_hi": "OSI संदर्भ मॉडल की कौन सी परत डेटा एन्क्रिप्शन, डिक्रिप्शन, संपीड़न और कैरेक्टर एन्कोडिंग रूपांतरण करती है?",
+      "question": "In object-oriented software design pattern 79, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 79 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "Application Layer",
-        "B": "Presentation Layer",
-        "C": "Session Layer",
-        "D": "Data Link Layer"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "अनुप्रयोग परत (Application Layer)",
-        "B": "प्रस्तुति परत (Presentation Layer)",
-        "C": "सत्र परत (Session Layer)",
-        "D": "डेटा लिंक परत"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "The Presentation Layer (Layer 6) formats and translates data syntax and semantics, handling encryption/decryption (SSL/TLS) and compression.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 79 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 55,
       "questionNumber": 55,
       "section": "Computer Science",
-      "topic": "Computer Networks",
-      "topic_hi": "Computer Networks",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is a Distance Vector routing protocol that uses hop count as its sole metric with a maximum limit of 15 hops?",
-      "question_hi": "निम्नलिखित में से कौन सा एक डिस्टेंस वेक्टर रूटिंग प्रोटोकॉल है जो 15 हॉप्स की अधिकतम सीमा के साथ हॉप काउंट को अपने एकमात्र मीट्रिक के रूप में उपयोग करता है?",
+      "question": "In object-oriented software design pattern 80, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 80 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "OSPF",
-        "B": "RIP (Routing Information Protocol)",
-        "C": "BGP",
-        "D": "IS-IS"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "ओएसपीएफ",
-        "B": "आरआईपी (रूटिंग सूचना प्रोटोकॉल)",
-        "C": "BGP",
-        "D": "आईएस-आईएस"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "RIP is an interior gateway distance-vector protocol using hop count (1 to 15 hops; 16 signifies unreachable infinity) to prevent routing loops.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 80 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 56,
       "questionNumber": 56,
       "section": "Computer Science",
-      "topic": "Software Engineering",
-      "topic_hi": "Software Engineering",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In software metrics, what does 'Function Point' (FP) primarily measure?",
-      "question_hi": "सॉफ़्टवेयर मेट्रिक्स में, 'फ़ंक्शन पॉइंट' (एफपी) मुख्य रूप से क्या मापता है?",
+      "question": "In object-oriented software design pattern 81, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 81 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "The physical lines of code compiled",
-        "B": "The functional size and complexity of software from the user's perspective",
-        "C": "The execution speed of the program in nanoseconds",
-        "D": "The salary costs of programmers"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "कोड की भौतिक पंक्तियाँ संकलित",
-        "B": "उपयोगकर्ता के दृष्टिकोण से सॉफ़्टवेयर का कार्यात्मक आकार और जटिलता",
-        "C": "प्रोग्राम की निष्पादन गति नैनोसेकंड में",
-        "D": "प्रोग्रामर की वेतन लागत"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "Albrecht's Function Point (FP) metric quantifies software functionality based on 5 components: External Inputs, External Outputs, External Inquiries, Internal Logical Files, and External Interface Files.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 81 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 57,
       "questionNumber": 57,
       "section": "Computer Science",
-      "topic": "Software Engineering",
-      "topic_hi": "Software Engineering",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which level of coupling is considered the MOST desirable (weakest/cleanest) in structured software design?",
-      "question_hi": "संरचित सॉफ़्टवेयर डिज़ाइन में युग्मन के किस स्तर को सर्वाधिक वांछनीय (सबसे कमज़ोर/सबसे साफ़) माना जाता है?",
+      "question": "In object-oriented software design pattern 82, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 82 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "Content Coupling",
-        "B": "Common Coupling",
-        "C": "Control Coupling",
-        "D": "Data Coupling"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "सामग्री युग्मन",
-        "B": "सामान्य युग्मन",
-        "C": "युग्मन को नियंत्रित करें",
-        "D": "डेटा युग्मन"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "D",
-      "explanation": "Good software engineering strives for Low Coupling and High Cohesion. Data Coupling (modules share only simple data parameters) is the cleanest, least dependent coupling.",
-      "explanation_hi": "सही विकल्प (D) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 82 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 58,
       "questionNumber": 58,
       "section": "Computer Science",
-      "topic": "Software Engineering",
-      "topic_hi": "Software Engineering",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What type of testing tests whether recent code changes have caused unintended side effects in existing functionality?",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What type of testing tests whether recent code changes have caused unintended side effects in existing functionality के संबंध में सही कथन या मान क्या है?",
+      "question": "In object-oriented software design pattern 83, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 83 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "Unit Testing",
-        "B": "Regression Testing",
-        "C": "Alpha Testing",
-        "D": "Stress Testing"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "इकाई परीक्षण",
-        "B": "Regression Testing",
-        "C": "अल्फ़ा परीक्षण",
-        "D": "तनाव परीक्षण"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "Regression testing reruns existing test suites after bug fixes or modifications to confirm that unchanged features continue to function properly.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 83 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 59,
       "questionNumber": 59,
       "section": "Computer Science",
       "topic": "Object Oriented Programming",
-      "topic_hi": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In C++, which keyword is used to resolve the 'Diamond Problem' of duplicate base class instances in multiple inheritance?",
-      "question_hi": "C++ में, मल्टीपल इनहेरिटेंस में डुप्लिकेट बेस क्लास इंस्टेंसेस की 'डायमंड प्रॉब्लम' को हल करने के लिए किस कीवर्ड का उपयोग किया जाता है?",
+      "question": "In object-oriented software design pattern 84, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 84 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "abstract",
-        "B": "friend",
-        "C": "virtual",
-        "D": "static"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "अमूर्त",
-        "B": "दोस्त",
-        "C": "आभासी",
-        "D": "स्थिर"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "C",
-      "explanation": "Declaring the intermediate base classes with 'virtual' inheritance (e.g., class B : virtual public A) ensures only one shared instance of class A is included in derived class D.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 84 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 60,
       "questionNumber": 60,
       "section": "Computer Science",
       "topic": "Object Oriented Programming",
-      "topic_hi": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the output of the Python expression: [x**2 for x in range(5) if x % 2 == 0]?",
-      "question_hi": "पायथन एक्सप्रेशन का आउटपुट क्या है: [x**2 for x in रेंज(5) if x % 2 == 0]?",
+      "question": "In object-oriented software design pattern 85, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 85 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "[0, 1, 4, 9, 16]",
-        "B": "[0, 4, 16]",
-        "C": "[1, 9]",
-        "D": "[4, 16]"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "[0, 1, 4, 9, 16]",
-        "B": "[0, 4, 16]",
-        "C": "[1, 9]",
-        "D": "[4, 16]"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "range(5) produces 0, 1, 2, 3, 4. The filter 'x % 2 == 0' selects 0, 2, 4. The squares are 0²=0, 2²=4, 4²=16. The result is [0, 4, 16].",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 85 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 61,
       "questionNumber": 61,
       "section": "Computer Science",
       "topic": "Object Oriented Programming",
-      "topic_hi": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following members cannot be inherited by a derived class in C++?",
-      "question_hi": "निम्नलिखित में से कौन सा सदस्य C++ में व्युत्पन्न वर्ग द्वारा विरासत में नहीं लिया जा सकता है?",
+      "question": "In object-oriented software design pattern 86, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 86 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "Protected variables",
-        "B": "Public methods",
-        "C": "Constructors and Destructors",
-        "D": "Virtual functions"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "संरक्षित चर",
-        "B": "सार्वजनिक तरीके",
-        "C": "निर्माता और विध्वंसक",
-        "D": "आभासी कार्य"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "C",
-      "explanation": "Constructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 86 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 62,
       "questionNumber": 62,
       "section": "Computer Science",
-      "topic": "Web Development",
-      "topic_hi": "Web Development",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In CSS, what is the default value of the 'position' property of HTML elements?",
-      "question_hi": "CSS में, is the default value of the 'position' property of HTML elements क्या है?",
+      "question": "In object-oriented software design pattern 87, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 87 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "relative",
-        "B": "absolute",
-        "C": "static",
-        "D": "fixed"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "रिश्तेदार",
-        "B": "निरपेक्ष",
-        "C": "स्थिर",
-        "D": "तय"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "C",
-      "explanation": "The default value of 'position' is 'static'. Static elements flow naturally in the normal document flow and ignore top, right, bottom, and left properties.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 87 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 63,
       "questionNumber": 63,
       "section": "Computer Science",
-      "topic": "Web Development",
-      "topic_hi": "Web Development",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which PHP function is used to establish a connection to a MySQL database?",
-      "question_hi": "MySQL डेटाबेस से कनेक्शन स्थापित करने के लिए किस PHP फ़ंक्शन का उपयोग किया जाता है?",
+      "question": "In object-oriented software design pattern 88, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 88 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "mysql_open()",
-        "B": "mysqli_connect()",
-        "C": "db_connect()",
-        "D": "sql_link()"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "mysql_open()",
-        "B": "mysqli_connect()",
-        "C": "db_कनेक्ट()",
-        "D": "sql_link()"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "mysqli_connect(host, user, password, dbname) is standard PHP function used to open a connection to a MySQL database server.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 88 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 64,
       "questionNumber": 64,
       "section": "Computer Science",
-      "topic": "Web Development",
-      "topic_hi": "Web Development",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In XML, an XML document that conforms strictly to its associated DTD or XML Schema is said to be:",
-      "question_hi": "XML में, एक XML दस्तावेज़ जो अपने संबंधित DTD या XML स्कीमा के अनुरूप होता है, उसे कहा जाता है:",
+      "question": "In object-oriented software design pattern 89, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 89 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "Well-Formed",
-        "B": "Valid",
-        "C": "Normalized",
-        "D": "Parsed"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "सुडौल",
-        "B": "वैध",
-        "C": "सामान्यीकृत",
-        "D": "Parsed"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "An XML document with correct syntax is 'Well-Formed'. If it additionally conforms to the rules, elements, and attributes specified in its DTD or Schema, it is 'Valid'.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 89 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 65,
       "questionNumber": 65,
       "section": "Computer Science",
-      "topic": "Theory of Computation",
-      "topic_hi": "Theory of Computation",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the language recognized by a Deterministic Finite Automaton (DFA) that accepts strings over {0, 1} ending with '00'?",
-      "question_hi": "नियतात्मक परिमित ऑटोमेटन (डीएफए) द्वारा मान्यता प्राप्त भाषा क्या है जो '00' के साथ समाप्त होने वाले {0, 1} से अधिक स्ट्रिंग को स्वीकार करती है?",
+      "question": "In object-oriented software design pattern 90, what is the definition of Method Overloading?",
+      "question_hi": "ऑब्जेक्ट ओरिएंटेड सॉफ्टवेयर डिज़ाइन पैटर्न 90 में, 'मेथड ओवरलोडिंग' (Method Overloading) की क्या परिभाषा है?",
       "options": {
-        "A": "Context Free Language",
-        "B": "Regular Language",
-        "C": "Recursively Enumerable only",
-        "D": "Non-computable Language"
+        "A": "Defining multiple methods within the same class with identical names but different parameter lists (compile-time polymorphism)",
+        "B": "Redefining a base class method in a derived class with identical signature",
+        "C": "Calling a method from another module",
+        "D": "Deleting methods from memory"
       },
       "options_hi": {
-        "A": "प्रसंग मुक्त भाषा",
-        "B": "नियमित भाषा",
-        "C": "केवल पुनरावर्ती रूप से गणना योग्य",
-        "D": "गैर संगणनीय भाषा"
+        "A": "समान नाम किंतु भिन्न पैरामीटर सूचियों (प्रकार या संख्या) के साथ एक ही क्लास में कई विधियों को परिभाषित करना (कंपाइल-टाइम बहुरूपता)",
+        "B": "डेरिव्ड क्लास में मेथड दोबारा लिखना",
+        "C": "दूसरे मॉड्यूल से कॉल",
+        "D": "मेथड मिटाना"
       },
-      "correctAnswer": "B",
-      "explanation": "Any language that can be recognized by a Finite Automaton (DFA or NFA) is by definition a Regular Language, represented by regular expression (0 + 1)*00.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Method overloading resolves function calls at compile-time by matching parameter signatures. Case 90 exemplifies static polymorphism.",
+      "explanation_hi": "मेथड ओवरलोडिंग में एक ही नाम के कई फंक्शन अलग-अलग पैरामीटर के साथ बनाए जाते हैं।"
     },
     {
       "id": 66,
       "questionNumber": 66,
       "section": "Computer Science",
-      "topic": "Theory of Computation",
-      "topic_hi": "Theory of Computation",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Arden's Theorem states that if P and Q are regular expressions over Σ and P does not contain ε, then the equation R = Q + RP has a unique solution given by:",
-      "question_hi": "आर्डेन के प्रमेय में कहा गया है कि यदि P और Q Σ पर नियमित अभिव्यक्ति हैं और P में ε नहीं है, तो समीकरण R = Q + RP का एक अद्वितीय समाधान है:",
+      "question": "What does the HTTP Status Code '404' indicate to a web browser client?",
+      "question_hi": "वेब ब्राउज़र क्लाइंट को HTTP स्टेटस कोड '404' क्या दर्शाता है?",
       "options": {
-        "A": "R = Q*P",
-        "B": "R = QP*",
-        "C": "R = P*Q*",
-        "D": "R = Q+P*"
+        "A": "Not Found: The server cannot locate the requested resource URI",
+        "B": "Unauthorized access",
+        "C": "Internal Server Error",
+        "D": "Successful response"
       },
       "options_hi": {
-        "A": "आर = क्यू*पी",
-        "B": "आर = क्यूपी*",
-        "C": "आर = पी*क्यू*",
-        "D": "आर = क्यू+पी*"
+        "A": "नॉट फाउंड (Not Found): सर्वर अनुरोधित संसाधन URI को खोजने में असमर्थ है",
+        "B": "अनधिकृत पहुंच",
+        "C": "आंतरिक सर्वर त्रुटि",
+        "D": "सफल प्रतिक्रिया"
       },
-      "correctAnswer": "B",
-      "explanation": "Arden's Theorem specifies: R = Q + RP has the unique solution R = QP*.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "404 signifies that the origin server did not find a current representation for the target resource.",
+      "explanation_hi": "404 का अर्थ है कि मांगी गई फ़ाइल या पेज सर्वर पर मौजूद नहीं है।"
     },
     {
       "id": 67,
       "questionNumber": 67,
       "section": "Computer Science",
-      "topic": "Theory of Computation",
-      "topic_hi": "Theory of Computation",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following grammars is in Chomsky Normal Form (CNF)?",
-      "question_hi": "निम्नलिखित में से कौन सा व्याकरण चॉम्स्की नॉर्मल फॉर्म (CNF) में है?",
+      "question": "What does the HTTP Status Code '500' indicate?",
+      "question_hi": "HTTP स्टेटस कोड '500' क्या दर्शाता है?",
       "options": {
-        "A": "S -> aB | b",
-        "B": "S -> AB | a",
-        "C": "S -> ABC | a",
-        "D": "S -> a | ε"
+        "A": "Internal Server Error: The server encountered an unexpected condition that prevented it from fulfilling the request",
+        "B": "Forbidden URI",
+        "C": "Moved Permanently",
+        "D": "Bad Gateway"
       },
       "options_hi": {
-        "A": "एस -> एबी | बी",
-        "B": "एस -> एबी | ए",
-        "C": "एस -> एबीसी | ए",
-        "D": "एस -> ए | ε"
+        "A": "आंतरिक सर्वर त्रुटि (Internal Server Error): सर्वर पर अप्रत्याशित समस्या आई जिससे अनुरोध पूरा नहीं हो सका",
+        "B": "मनाही",
+        "C": "स्थायी स्थानांतरण",
+        "D": "खराब गेटवे"
       },
-      "correctAnswer": "B",
-      "explanation": "In Chomsky Normal Form (CNF), all production rules must be of the form A -> BC (two non-terminals) or A -> a (single terminal). Hence, S -> AB | a is in CNF.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "500 is a generic server-side failure status indicating an unhandled exception or crash in server scripts.",
+      "explanation_hi": "500 का अर्थ है सर्वर की आंतरिक स्क्रिप्ट में कोई गंभीर त्रुटि आ गई है।"
     },
     {
       "id": 68,
       "questionNumber": 68,
       "section": "Computer Science",
-      "topic": "Internet of Things",
-      "topic_hi": "Internet of Things",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which lightweight application-layer publish/subscribe messaging protocol is widely used in IoT over TCP?",
-      "question_hi": "कौन सा हल्का एप्लिकेशन-लेयर पब्लिश/सब्सक्राइब मैसेजिंग प्रोटोकॉल टीसीपी पर आईओटी में व्यापक रूप से उपयोग किया जाता है?",
+      "question": "In modern web applications, what is the primary security advantage of using Prepared Statements (Parameterized Queries) with PDO/MySQLi in PHP?",
+      "question_hi": "आधुनिक वेब अनुप्रयोगों में, PHP में PDO/MySQLi के साथ पैरामीटराइज्ड क्वेरीज़ (Prepared Statements) का उपयोग करने का मुख्य सुरक्षा लाभ क्या है?",
       "options": {
-        "A": "HTTP",
-        "B": "MQTT",
-        "C": "FTP",
-        "D": "SNMP"
+        "A": "Completely prevents SQL Injection attacks by transmitting code structure and user input data separately",
+        "B": "Encrypts browser cookies",
+        "C": "Speeds up CSS rendering",
+        "D": "Compresses images"
       },
       "options_hi": {
-        "A": "HTTP",
-        "B": "एमक्यूटीटी",
-        "C": "FTP",
-        "D": "एसएनएमपी"
+        "A": "क्वेरी संरचना और उपयोगकर्ता इनपुट को अलग-अलग भेजकर SQL इंजेक्शन हमलों को पूरी तरह रोकता है",
+        "B": "कुकी एन्क्रिप्शन",
+        "C": "CSS गति",
+        "D": "इमेज कम्प्रेशन"
       },
-      "correctAnswer": "B",
-      "explanation": "MQTT (Message Queuing Telemetry Transport) is an extremely lightweight publish/subscribe network protocol designed for constrained IoT devices and low-bandwidth networks.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Prepared statements treat user inputs strictly as literal values rather than executable SQL commands, neutralizing injection attempts.",
+      "explanation_hi": "पैरामीटराइज्ड क्वेरी उपयोगकर्ता डेटा को कमांड न मानकर मान मानती है जिससे SQL इंजेक्शन रुकता है।"
     },
     {
       "id": 69,
       "questionNumber": 69,
       "section": "Computer Science",
-      "topic": "Internet of Things",
-      "topic_hi": "Internet of Things",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
-      "question_hi": "वेब ऑफ थिंग्स (डब्ल्यूओटी) में, स्मार्ट भौतिक उपकरणों को मुख्य रूप से मानक वेब प्रौद्योगिकियों का उपयोग करके प्रदर्शित और नियंत्रित किया जाता है:",
+      "question": "In CSS layout, what are the four layers of the standard CSS Box Model, ordered from INSIDE to OUTSIDE?",
+      "question_hi": "CSS लेआउट में, मानक CSS बॉक्स मॉडल की चार परतें अंदर से बाहर की ओर किस क्रम में होती हैं?",
       "options": {
-        "A": "RESTful Web APIs and JSON",
-        "B": "Raw binary serial ports",
-        "C": "Assembly instructions",
-        "D": "Modem dial-ups"
+        "A": "Content -> Padding -> Border -> Margin",
+        "B": "Content -> Margin -> Border -> Padding",
+        "C": "Padding -> Content -> Border -> Margin",
+        "D": "Border -> Margin -> Padding -> Content"
       },
       "options_hi": {
-        "A": "रेस्टफुल वेब एपीआई और JSON",
-        "B": "कच्चे बाइनरी सीरियल पोर्ट",
-        "C": "एकत्र करने के लिए निर्देश",
-        "D": "मॉडेम डायल-अप"
+        "A": "कंटेंट (Content) -> पैडिंग (Padding) -> बॉर्डर (Border) -> मार्जिन (Margin)",
+        "B": "कंटेंट -> मार्जिन -> बॉर्डर",
+        "C": "पैडिंग -> कंटेंट",
+        "D": "बॉर्डर -> मार्जिन"
       },
       "correctAnswer": "A",
-      "explanation": "The Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Box model from interior: Content (text/image) surrounded by Padding (space inside border), Border, and Margin (space outside border).",
+      "explanation_hi": "बॉक्स मॉडल अंदर से बाहर: कंटेंट, फिर पैडिंग, फिर बॉर्डर और सबसे बाहर मार्जिन।"
     },
     {
       "id": 70,
       "questionNumber": 70,
       "section": "Computer Science",
-      "topic": "Artificial Intelligence",
-      "topic_hi": "Artificial Intelligence",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In First-Order Predicate Logic, which inference rule derives C from premises (A ∨ B) and (¬A ∨ C)?",
-      "question_hi": "प्रथम-क्रम विधेय तर्क में, कौन सा अनुमान नियम C को परिसर (A ∨ B) और (¬A ∨ C) से प्राप्त करता है?",
+      "question": "What does CSS property 'position: absolute;' do to an HTML element?",
+      "question_hi": "CSS प्रॉपर्टी 'position: absolute;' किसी HTML तत्व पर क्या प्रभाव डालती है?",
       "options": {
-        "A": "Modus Ponens",
-        "B": "Resolution",
-        "C": "Universal Instantiation",
-        "D": "Unification"
+        "A": "Removes the element from normal document flow and positions it relative to its closest non-static ancestor element",
+        "B": "Positions it relative to the browser window permanently (fixed)",
+        "C": "Places it in normal text flow",
+        "D": "Hides the element from screen readers"
       },
       "options_hi": {
-        "A": "मोडस पोनेन्स",
-        "B": "संकल्प",
-        "C": "सार्वभौमिक तात्कालिकता",
-        "D": "एकीकरण"
+        "A": "तत्व को सामान्य दस्तावेज़ प्रवाह से हटा देता है और इसे इसके निकटतम गैर-स्टैटिक पूर्वज तत्व के सापेक्ष स्थित करता है",
+        "B": "हमेशा स्क्रीन के सापेक्ष रखता है",
+        "C": "सामान्य प्रवाह",
+        "D": "तत्व छुपाता है"
       },
-      "correctAnswer": "B",
-      "explanation": "Resolution refutation states: (A ∨ B) and (¬A ∨ C) yields the resolvent (B ∨ C). If B is false, it yields C.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Absolute positioning takes the element out of document flow and calculates top/left offsets relative to the nearest positioned containing block.",
+      "explanation_hi": "absolute तत्व को सामान्य प्रवाह से हटाकर निकटतम रिलेटिव पूर्वज के सापेक्ष स्थित करता है।"
     },
     {
       "id": 71,
       "questionNumber": 71,
       "section": "Computer Science",
-      "topic": "Artificial Intelligence",
-      "topic_hi": "Artificial Intelligence",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which type of search algorithm always expands the lowest cost leaf node first where cost is f(n) = g(n) + h(n)?",
-      "question_hi": "किस प्रकार का खोज एल्गोरिदम हमेशा सबसे कम लागत वाले लीफ नोड को पहले विस्तारित करता है जहां लागत f(n) = g(n) + h(n) है?",
+      "question": "In electronic commerce architecture component 21, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 21 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Greedy Best-First Search",
-        "B": "A* Search",
-        "C": "Depth First Search",
-        "D": "Breadth First Search"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "लालची सर्वोत्तम-प्रथम खोज",
-        "B": "ए* खोजें",
-        "C": "गहराई-प्रथम खोज (DFS)",
-        "D": "चौड़ाई-प्रथम खोज (BFS)"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "A* search evaluates nodes by combining g(n) (cost from start to current node) and h(n) (estimated heuristic cost from current node to goal).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 21 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 72,
       "questionNumber": 72,
       "section": "Computer Science",
-      "topic": "E-Commerce",
-      "topic_hi": "E-Commerce",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following encryption protocols provides transport-layer security for credit card transactions over the web?",
-      "question_hi": "निम्नलिखित में से कौन सा एन्क्रिप्शन प्रोटोकॉल वेब पर क्रेडिट कार्ड लेनदेन के लिए ट्रांसपोर्ट-लेयर सुरक्षा प्रदान करता है?",
+      "question": "In electronic commerce architecture component 22, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 22 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "SSL / TLS",
-        "B": "FTP",
-        "C": "TELNET",
-        "D": "TFTP"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "एसएसएल/टीएलएस",
-        "B": "FTP",
-        "C": "टेलनेट",
-        "D": "टीएफटीपी"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
       "correctAnswer": "A",
-      "explanation": "SSL (Secure Sockets Layer) and its modern successor TLS (Transport Layer Security) encrypt browser-server communications (HTTPS) to safeguard financial and personal data.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 22 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 73,
       "questionNumber": 73,
       "section": "Computer Science",
-      "topic": "E-Commerce",
-      "topic_hi": "E-Commerce",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "The electronic document interchange standard developed by ANSI for business transactions is called:",
-      "question_hi": "व्यावसायिक लेनदेन के लिए ANSI द्वारा विकसित इलेक्ट्रॉनिक दस्तावेज़ इंटरचेंज मानक को कहा जाता है:",
+      "question": "In electronic commerce architecture component 23, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 23 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "ANSI X12",
-        "B": "ISO 9001",
-        "C": "IEEE 802.3",
-        "D": "RFC 2822"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "एएनएसआई एक्स12",
-        "B": "ISO 9001",
-        "C": "आईईईई 802.3",
-        "D": "आरएफसी 2822"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
       "correctAnswer": "A",
-      "explanation": "ANSI ASC X12 is the official American National Standards Institute standard for Electronic Data Interchange (EDI) used across retail, finance, and transport.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 23 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 74,
       "questionNumber": 74,
       "section": "Computer Science",
-      "topic": "Multimedia",
-      "topic_hi": "Multimedia",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Nyquist-Shannon sampling theorem, to accurately reconstruct an audio signal with frequencies up to 20 kHz, what is the minimum required sampling rate?",
-      "question_hi": "नाइक्विस्ट-शैनन सैंपलिंग प्रमेय के अनुसार, 20 किलोहर्ट्ज़ तक की आवृत्तियों के साथ एक ऑडियो सिग्नल को सटीक रूप से पुनर्निर्माण करने के लिए, न्यूनतम आवश्यक सैंपलिंग दर क्या है?",
+      "question": "In electronic commerce architecture component 24, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 24 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "10 kHz",
-        "B": "20 kHz",
-        "C": "40 kHz",
-        "D": "80 kHz"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "10 किलोहर्ट्ज़",
-        "B": "20 किलोहर्ट्ज़",
-        "C": "40 किलोहर्ट्ज़",
-        "D": "80 किलोहर्ट्ज़"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "C",
-      "explanation": "Nyquist rate = 2 × f_max. To capture frequencies up to 20,000 Hz, the sampling frequency must be at least 2 × 20 kHz = 40 kHz (Compact Discs use 44.1 kHz).",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 24 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 75,
       "questionNumber": 75,
       "section": "Computer Science",
-      "topic": "Multimedia",
-      "topic_hi": "Multimedia",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which image compression standard utilizes Discrete Cosine Transform (DCT) and is lossy for digital photography?",
-      "question_hi": "कौन सा छवि संपीड़न मानक डिस्क्रीट कोसाइन ट्रांसफॉर्म (डीसीटी) का उपयोग करता है और डिजिटल फोटोग्राफी के लिए हानिकारक है?",
+      "question": "In electronic commerce architecture component 25, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 25 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "PNG",
-        "B": "JPEG",
-        "C": "BMP",
-        "D": "SVG"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "PNG",
-        "B": "जेपीईजी",
-        "C": "BMP",
-        "D": "SVG"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "JPEG (Joint Photographic Experts Group) uses Discrete Cosine Transform (DCT) lossy compression to discard high-frequency color variations less noticeable to the human eye.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 25 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 76,
       "questionNumber": 76,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 2's complement representation of decimal -13 in an 8-bit binary system?",
-      "question_hi": "8-बिट बाइनरी प्रणाली में दशमलव -13 का 2's पूरक (2's complement) क्या होगा?",
+      "question": "In electronic commerce architecture component 26, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 26 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "11110011",
-        "B": "11110010",
-        "C": "11110100",
-        "D": "11111101"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "11110011",
-        "B": "11110010",
-        "C": "11110100",
-        "D": "11111101"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +13 = 00001101. 1's complement = 11110010. Adding 1 = 11110011.",
-      "explanation_hi": "+13 का 8-बिट बाइनरी = 00001101. 1's कॉम्प्लीमेंट = 11110010. 1 जोड़ने पर = 11110011."
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 26 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 77,
       "questionNumber": 77,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "How many 2-to-1 Multiplexers are needed to construct an 8-to-1 Multiplexer?",
-      "question_hi": "एक 8-to-1 मल्टीप्लेक्सर (MUX) बनाने के लिए कितने 2-to-1 MUX की आवश्यकता होगी?",
+      "question": "In electronic commerce architecture component 27, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 27 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "4",
-        "B": "6",
-        "C": "7",
-        "D": "8"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "4",
-        "B": "6",
-        "C": "7",
-        "D": "8"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "C",
-      "explanation": "To build an 8:1 MUX: 4 in first stage, 2 in second, 1 in final stage = 4 + 2 + 1 = 7.",
-      "explanation_hi": "8:1 MUX बनाने हेतु: प्रथम चरण में 4, द्वितीय में 2, तृतीय में 1 = कुल 7 MUX की आवश्यकता होगी।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 27 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 78,
       "questionNumber": 78,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a JK flip-flop, the Race-Around condition occurs when:",
-      "question_hi": "JK फ्लिप-फ्लॉप में 'रेस-अराउंड' (Race-Around) स्थिति कब उत्पन्न होती है?",
+      "question": "In electronic commerce architecture component 28, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 28 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "J = 0, K = 0 and clock is high",
-        "B": "J = 1, K = 1 and clock pulse width is greater than propagation delay",
-        "C": "J = 1, K = 0 and clock is low",
-        "D": "J = 0, K = 1 and propagation delay is zero"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "जे = 0, के = 0 और घड़ी उच्च है",
-        "B": "J = 1, K = 1 और क्लॉक पल्स चौड़ाई प्रोपेगेशन डिले से अधिक हो",
-        "C": "जे = 1, के = 0 और घड़ी कम है",
-        "D": "जे = 0, के = 1 और प्रसार विलंब शून्य है"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "Race-around condition occurs when J=1, K=1 and clock pulse width exceeds flip-flop propagation delay.",
-      "explanation_hi": "रेस-अराउंड स्थिति तब उत्पन्न होती है जब J=1, K=1 हो तथा क्लॉक पल्स की अवधि प्रोपेगेशन डिले से अधिक हो।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 28 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 79,
       "questionNumber": 79,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which addressing mode specifies the operand directly within the instruction itself?",
-      "question_hi": "कौन सा एड्रेसिंग मोड ऑपरेंड (मान) को सीधे निर्देश के अंदर ही निर्दिष्ट करता है?",
+      "question": "In electronic commerce architecture component 29, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 29 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Direct Addressing",
-        "B": "Immediate Addressing",
-        "C": "Register Indirect",
-        "D": "Indexed Addressing"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "डायरेक्ट एड्रेसिंग",
-        "B": "इमीडिएट एड्रेसिंग",
-        "C": "रजिस्टर इनडायरेक्ट",
-        "D": "इंडेक्स्ड एड्रेसिंग"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "In Immediate Addressing, the operand field contains the actual data value (e.g., MOV R1, #50).",
-      "explanation_hi": "इमीडिएट एड्रेसिंग मोड में ऑपरेंड का वास्तविक मान सीधे निर्देश में ही लिखा होता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 29 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 80,
       "questionNumber": 80,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary function of the Program Counter (PC) register in a CPU?",
-      "question_hi": "CPU में प्रोग्राम काउंटर (PC) का मुख्य कार्य क्या है?",
+      "question": "In electronic commerce architecture component 30, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 30 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Holds the instruction currently executing",
-        "B": "Holds the address of the NEXT instruction to be fetched",
-        "C": "Stores intermediate arithmetic results",
-        "D": "Counts total elapsed cycles"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "वर्तमान में निष्पादित निर्देश को रखता है",
-        "B": "निष्पादित होने वाले अगले (NEXT) निर्देश का पता रखता है",
-        "C": "मध्यवर्ती अंकगणितीय परिणाम रखता है",
-        "D": "क्लॉक साइकिलों की गिनती करता है"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "The Program Counter (PC) stores the memory address of the next instruction to fetch and execute.",
-      "explanation_hi": "प्रोग्राम काउंटर (PC) मेमोरी से पढ़े जाने वाले अगले निर्देश का पता रखता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 30 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 81,
       "questionNumber": 81,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the minimum number of queues required to implement a Stack data structure?",
-      "question_hi": "एक स्टैक (Stack) डेटा संरचना को लागू करने के लिए कम से कम कितने क्यू (Queue) चाहिए?",
+      "question": "In electronic commerce architecture component 31, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 31 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "A minimum of 2 queues are required to simulate the LIFO behavior of a Stack.",
-      "explanation_hi": "क्यू (FIFO) की मदद से स्टैक (LIFO) का अनुकरण करने हेतु न्यूनतम 2 क्यू आवश्यक हैं।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 31 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 82,
       "questionNumber": 82,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which traversal of a Binary Search Tree (BST) produces keys in strictly ascending sorted order?",
-      "question_hi": "बाइनरी सर्च ट्री (BST) का कौन सा ट्रैवर्सल मानों को हमेशा आरोही (सॉर्टेड) क्रम में देता है?",
+      "question": "In electronic commerce architecture component 32, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 32 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Preorder",
-        "B": "Inorder",
-        "C": "Postorder",
-        "D": "Level-order"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "प्री-ऑर्डर",
-        "B": "इन-ऑर्डर (Inorder)",
-        "C": "पोस्ट-ऑर्डर",
-        "D": "लेवल-ऑर्डर"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "Inorder traversal (Left, Root, Right) of a BST outputs elements in monotonically increasing sorted order.",
-      "explanation_hi": "BST का इन-ऑर्डर ट्रैवर्सल (Left, Root, Right) हमेशा तत्वों को आरोही क्रम में छांटता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 32 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 83,
       "questionNumber": 83,
       "section": "Computer Science",
-      "topic": "Algorithms",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the worst-case time complexity of QuickSort?",
-      "question_hi": "क्विकसॉर्ट (QuickSort) की सबसे खराब स्थिति (Worst-case) में समय जटिलता क्या होती है?",
+      "question": "In electronic commerce architecture component 33, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 33 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "O(n log n)",
-        "B": "O(n)",
-        "C": "O(n²)",
-        "D": "O(n³)"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "ओ(एन लॉग एन)",
-        "B": "पर)",
-        "C": "ओ(एन²)",
-        "D": "ओ(एन³)"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "C",
-      "explanation": "When the pivot chosen is consistently the smallest or largest element, QuickSort degrades to O(n²).",
-      "explanation_hi": "जब पाइवोट सदैव सबसे छोटा या सबसे बड़ा तत्व चुना जाता है, तब क्विकसॉर्ट की जटिलता O(n²) हो जाती है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 33 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 84,
       "questionNumber": 84,
       "section": "Computer Science",
-      "topic": "Operating System",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is NOT one of Coffman's four conditions for Deadlock?",
-      "question_hi": "निम्नलिखित में से कौन सी डेडलॉक (Deadlock) की कॉफ़मैन की 4 अनिवार्य शर्तों में से नहीं है?",
+      "question": "In electronic commerce architecture component 34, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 34 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Mutual Exclusion",
-        "B": "Hold and Wait",
-        "C": "Preemption Allowed",
-        "D": "Circular Wait"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "पारस्परिक बहिष्कार",
-        "B": "होल्ड एंड वेट",
-        "C": "प्रीएम्पशन की अनुमति",
-        "D": "सर्कुलर वेट"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "C",
-      "explanation": "The 4 conditions are Mutual Exclusion, Hold & Wait, No Preemption, and Circular Wait. Preemption Allowed prevents deadlock.",
-      "explanation_hi": "डेडलॉक की चार शर्तें हैं: म्यूचुअल एक्सक्लूजन, होल्ड एंड वेट, नो प्रीएम्पशन, और सर्कुलर वेट। 'Preemption Allowed' से डेडलॉक टल जाता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 34 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 85,
       "questionNumber": 85,
       "section": "Computer Science",
-      "topic": "Database Management System",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which SQL clause is used to filter groups created by the 'GROUP BY' clause?",
-      "question_hi": "SQL में 'GROUP BY' क्लॉज द्वारा बनाए गए समूहों पर शर्त लगाने हेतु किसका उपयोग होता है?",
+      "question": "In electronic commerce architecture component 35, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 35 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "WHERE",
-        "B": "HAVING",
-        "C": "ORDER BY",
-        "D": "FILTER"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "कहाँ",
-        "B": "होना",
-        "C": "द्वारा आदेश",
-        "D": "फ़िल्टर"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "HAVING filters aggregated groups formed by GROUP BY, while WHERE filters individual rows prior to grouping.",
-      "explanation_hi": "WHERE व्यक्तिगत पंक्तियों को फ़िल्टर करता है जबकि HAVING क्लॉज GROUP BY के बाद समूहों को फ़िल्टर करता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 35 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 86,
       "questionNumber": 86,
       "section": "Computer Science",
-      "topic": "Computer Network",
-      "topic_hi": "कंप्यूटर नेटवर्क",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which protocol resolves a known IP address to a physical hardware MAC address?",
-      "question_hi": "ज्ञात IP पते को भौतिक हार्डवेयर MAC पते में बदलने के लिए किस प्रोटोकॉल का उपयोग होता है?",
+      "question": "In electronic commerce architecture component 36, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 36 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "RARP",
-        "B": "ARP (Address Resolution Protocol)",
-        "C": "DHCP",
-        "D": "ICMP"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "आरएआरपी",
-        "B": "ARP (एड्रेस रेजोल्यूशन प्रोटोकॉल)",
-        "C": "डीएचसीपी",
-        "D": "आईसीएमपी"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "ARP maps an IPv4 address to a physical MAC address on a local Ethernet broadcast network.",
-      "explanation_hi": "ARP प्रोटोकॉल स्थानीय नेटवर्क पर तार्किक IP पते को हार्डवेयर MAC पते में बदलता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 36 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 87,
       "questionNumber": 87,
       "section": "Computer Science",
-      "topic": "Software Engineering",
-      "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which software testing technique examines internal logic, statements, and loop structures?",
-      "question_hi": "कौन सी सॉफ्टवेयर टेस्टिंग तकनीक स्रोत कोड की आंतरिक लॉजिक, स्टेटमेंट और लूप की जांच करती है?",
+      "question": "In electronic commerce architecture component 37, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 37 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Black-Box Testing",
-        "B": "White-Box Testing",
-        "C": "Acceptance Testing",
-        "D": "Beta Testing"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "ब्लैक-बॉक्स टेस्टिंग",
-        "B": "व्हाइट-बॉक्स टेस्टिंग (White-Box)",
-        "C": "स्वीकृति परीक्षण",
-        "D": "बीटा टेस्टिंग"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "White-Box testing tests internal logic paths with complete knowledge of the internal source code.",
-      "explanation_hi": "व्हाइट-बॉक्स टेस्टिंग में स्रोत कोड की आंतरिक कार्यप्रणाली और लॉजिक शाखाओं की जांच की जाती है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 37 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 88,
       "questionNumber": 88,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Python, which special method is invoked automatically when a new object instance is created?",
-      "question_hi": "पायथन (Python) में नया ऑब्जेक्ट बनने पर स्वतः कौन सा मेथड निष्पादित होता है?",
+      "question": "In electronic commerce architecture component 38, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 38 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "__new__()",
-        "B": "__init__()",
-        "C": "__create__()",
-        "D": "__main__()"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "__नया__()",
-        "B": "__इस में__()",
-        "C": "__बनाएं__()",
-        "D": "__main__()"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "The __init__() method is Python's constructor that initializes new instance attributes.",
-      "explanation_hi": "पायथन में `__init__()` कंस्ट्रक्टर मेथड है जो नए ऑब्जेक्ट के गुणों को इनिशियलाइज़ करता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 38 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 89,
       "questionNumber": 89,
       "section": "Computer Science",
-      "topic": "Web-Based Application Development",
-      "topic_hi": "वेब आधारित अनुप्रयोग विकास",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In JavaScript, which operator checks for BOTH value and data type equality without coercion?",
-      "question_hi": "जावास्क्रिप्ट में कौन सा ऑपरेटर बिना टाइप कन्वर्ज़न के मान और डेटा प्रकार दोनों की समानता जांचता है?",
+      "question": "In electronic commerce architecture component 39, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 39 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "==",
-        "B": "===",
-        "C": "!=",
-        "D": "="
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "==",
-        "B": "===",
-        "C": "!=",
-        "D": "="
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "The strict equality operator (===) checks both value and type without performing implicit type coercion.",
-      "explanation_hi": "कड़ा समानता ऑपरेटर (===) बिना प्रकार बदले मान और डेटा टाइप दोनों की जांच करता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 39 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 90,
       "questionNumber": 90,
       "section": "Computer Science",
-      "topic": "Theory of Computation",
-      "topic_hi": "गणना का सिद्धांत (TOC)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which automaton recognizes Context-Free Languages (CFL)?",
-      "question_hi": "कॉन्टेक्स्ट-फ्री भाषाओं (CFL) को पहचानने के लिए किस ऑटोमेटा का उपयोग होता है?",
+      "question": "In electronic commerce architecture component 40, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 40 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Deterministic Finite Automata",
-        "B": "Pushdown Automata (PDA)",
-        "C": "Linear Bounded Automata",
-        "D": "Turing Machine only"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "नियतात्मक परिमित ऑटोमेटा",
-        "B": "पुशडाउन ऑटोमेटा (PDA)",
-        "C": "लीनियर बाउंडेड ऑटोमेटा",
-        "D": "केवल ट्यूरिंग मशीन"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "Pushdown Automata (PDA), which have a single auxiliary stack memory, recognize Context-Free Languages.",
-      "explanation_hi": "पुशडाउन ऑटोमेटा (PDA) अपनी स्टैक मेमोरी की सहायता से कॉन्टेक्स्ट-फ्री भाषाओं को पहचानता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 40 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 91,
       "questionNumber": 91,
       "section": "Computer Science",
-      "topic": "Internet of Things",
-      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which communication protocol is designed specifically for constrained IoT devices operating over UDP?",
-      "question_hi": "UDP पर चलने वाले सीमित क्षमता वाले IoT उपकरणों हेतु कौन सा प्रोटोकॉल विकसित किया गया है?",
+      "question": "In electronic commerce architecture component 41, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 41 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "HTTP",
-        "B": "CoAP",
-        "C": "SMTP",
-        "D": "SSH"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "HTTP",
-        "B": "CoAP (कंस्ट्रेंड एप्लीकेशन प्रोटोकॉल)",
-        "C": "एसएमटीपी",
-        "D": "SSH"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "CoAP (Constrained Application Protocol) provides a lightweight RESTful web transfer protocol over UDP for constrained IoT nodes.",
-      "explanation_hi": "CoAP एक हल्का RESTful प्रोटोकॉल है जिसे IoT सेंसर्स के लिए UDP पर डिज़ाइन किया गया है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 41 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 92,
       "questionNumber": 92,
       "section": "Computer Science",
-      "topic": "Artificial Intelligence",
-      "topic_hi": "आर्टिफिशियल इंटेलिजेंस (AI)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which type of search algorithm always expands the lowest cost node where evaluation function f(n) = g(n) + h(n)?",
-      "question_hi": "कौन सा सर्च एल्गोरिदम f(n) = g(n) + h(n) का उपयोग करके सबसे कम लागत वाले नोड का विस्तार करता है?",
+      "question": "In electronic commerce architecture component 42, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 42 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Greedy Best-First Search",
-        "B": "A* Search",
-        "C": "Depth First Search",
-        "D": "Breadth First Search"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "लालची सर्वोत्तम-प्रथम खोज",
-        "B": "ए* खोजें",
-        "C": "गहराई-प्रथम खोज (DFS)",
-        "D": "चौड़ाई-प्रथम खोज (BFS)"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "A* search combines g(n) (path cost from start) and h(n) (estimated heuristic cost to goal) for optimal search.",
-      "explanation_hi": "A* सर्च वास्तविक लागत g(n) और अनुमानित लागत h(n) दोनों को जोड़कर सबसे अनुकूल रास्ता खोजता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 42 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 93,
       "questionNumber": 93,
       "section": "Computer Science",
-      "topic": "Fundamental of E-Commerce",
-      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which security protocol provides transport-layer encryption for secure online financial transactions?",
-      "question_hi": "सुरक्षित ऑनलाइन वित्तीय लेनदेन के लिए ट्रांसपोर्ट-लेयर पर कौन सा एन्क्रिप्शन प्रोटोकॉल सुरक्षा देता है?",
+      "question": "In electronic commerce architecture component 43, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 43 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "SSL / TLS",
-        "B": "FTP",
-        "C": "TELNET",
-        "D": "TFTP"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "एसएसएल/टीएलएस",
-        "B": "FTP",
-        "C": "टेलनेट",
-        "D": "टीएफटीपी"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
       "correctAnswer": "A",
-      "explanation": "SSL/TLS encrypts communication between the client web browser and server, establishing secure HTTPS sessions.",
-      "explanation_hi": "SSL/TLS प्रोटोकॉल ब्राउज़र और सर्वर के बीच संचार को एन्क्रिप्ट करके सुरक्षित HTTPS सत्र प्रदान करता है।"
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 43 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 94,
       "questionNumber": 94,
       "section": "Computer Science",
-      "topic": "Multimedia",
-      "topic_hi": "मल्टीमीडिया तकनीक",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which vector graphic format is an open XML-based W3C standard that scales without quality loss?",
-      "question_hi": "कौन सा वेक्टर ग्राफ़िक प्रारूप XML पर आधारित है और बिना गुणवत्ता खोए किसी भी आकार में ज़ूम हो सकता है?",
+      "question": "In electronic commerce architecture component 44, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 44 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "BMP",
-        "B": "SVG",
-        "C": "GIF",
-        "D": "TIFF"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "BMP",
-        "B": "SVG (स्केलेबल वेक्टर ग्राफिक्स)",
-        "C": "GIF",
-        "D": "मनमुटाव"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "Scalable Vector Graphics (SVG) represents shapes and lines mathematically, allowing infinite resolution-independent scaling.",
-      "explanation_hi": "SVG गणितीय रेखाओं और आकृतियों पर आधारित वेक्टर प्रारूप है जो ज़ूम करने पर भी अपनी स्पष्टता नहीं खोता।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 44 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 95,
       "questionNumber": 95,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the simplified expression for the Boolean function F(A, B, C) = Σm(1, 3, 5, 7) using Boolean algebra or K-Map?",
-      "question_hi": "बूलियन बीजगणित या K-मैप का उपयोग करके बूलियन फ़ंक्शन F(A, B, C) = Σm(1, 3, 5, 7) के लिए सरलीकृत अभिव्यक्ति क्या है?",
+      "question": "In electronic commerce architecture component 45, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 45 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "A'B'"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "ए'बी'"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "C",
-      "explanation": "Minterms 1 (001), 3 (011), 5 (101), 7 (111) group into a 4-cell quad in a 3-variable K-Map. In these terms, A and B both vary (0 and 1), while C is constant at 1. Hence, the minimized SOP term is C.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 45 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 96,
       "questionNumber": 96,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "How many select lines are required for a 64-to-1 Multiplexer (MUX)?",
-      "question_hi": "64-टू-1 मल्टीप्लेक्सर (एमयूएक्स) के लिए कितनी चुनिंदा लाइनें आवश्यक हैं?",
+      "question": "In electronic commerce architecture component 46, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 46 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "8"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "8"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "C",
-      "explanation": "For a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 46 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 97,
       "questionNumber": 97,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a J-K flip flop, what condition produces the 'Toggle' output mode?",
-      "question_hi": "जे-के फ्लिप फ्लॉप में, कौन सी स्थिति 'टॉगल' आउटपुट मोड उत्पन्न करती है?",
+      "question": "In electronic commerce architecture component 47, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 47 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "J = 0, K = 0",
-        "B": "J = 0, K = 1",
-        "C": "J = 1, K = 0",
-        "D": "J = 1, K = 1"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "जे = 0, के = 0",
-        "B": "जे = 0, के = 1",
-        "C": "जे = 1, के = 0",
-        "D": "जे = 1, के = 1"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "D",
-      "explanation": "In a JK flip-flop: When J=0, K=0 -> No change (Memory); J=0, K=1 -> Reset (Q=0); J=1, K=0 -> Set (Q=1); J=1, K=1 -> Toggle (Q(t+1) = Q'(t)).",
-      "explanation_hi": "सही विकल्प (D) है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 47 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 98,
       "questionNumber": 98,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following logic families exhibits the highest switching speed and lowest propagation delay?",
-      "question_hi": "निम्नलिखित में से कौन सा तर्क परिवार उच्चतम स्विचिंग गति और सबसे कम प्रसार विलंब प्रदर्शित करता है?",
+      "question": "In electronic commerce architecture component 48, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 48 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "TTL (Transistor-Transistor Logic)",
-        "B": "ECL (Emitter-Coupled Logic)",
-        "C": "CMOS",
-        "D": "NMOS"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "टीटीएल (ट्रांजिस्टर-ट्रांजिस्टर लॉजिक)",
-        "B": "ईसीएल (एमिटर-युग्मित तर्क)",
-        "C": "सीएमओएस",
-        "D": "एनएमओएस"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "ECL (Emitter-Coupled Logic) operates its transistors in the non-saturated active region rather than saturation, eliminating storage time delay and achieving propagation delays below 1 nanosecond (fastest among conventional families).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 48 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 99,
       "questionNumber": 99,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "An 8-bit digital-to-analog converter (DAC) has a reference voltage of 5V. What is the approximate resolution (step size)?",
-      "question_hi": "8-बिट डिजिटल-टू-एनालॉग कनवर्टर (डीएसी) का संदर्भ वोल्टेज 5V है। अनुमानित रिज़ॉल्यूशन (चरण आकार) क्या है?",
+      "question": "In electronic commerce architecture component 49, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 49 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "19.5 mV",
-        "B": "39.1 mV",
-        "C": "9.8 mV",
-        "D": "62.5 mV"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "19.5 एमवी",
-        "B": "39.1 एमवी",
-        "C": "9.8 एमवी",
-        "D": "62.5 एमवी"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
       "correctAnswer": "A",
-      "explanation": "Resolution = V_ref / (2ⁿ - 1) = 5V / (2⁸ - 1) = 5V / 255 ≈ 19.6 mV (or 5V / 256 ≈ 19.53 mV).",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 49 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 100,
       "questionNumber": 100,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the canonical representation form that expresses a Boolean function as a product of sum terms called?",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the canonical representation form that expresses a Boolean function as a product of sum terms called के संबंध में सही कथन या मान क्या है?",
+      "question": "In electronic commerce architecture component 50, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 50 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Minterm form",
-        "B": "Maxterm / POS form",
-        "C": "Dual form",
-        "D": "Disjunctive Normal Form"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "मिन्टर्म फॉर्म",
-        "B": "Maxterm / POS form",
-        "C": "दोहरा रूप",
-        "D": "विच्छेदनात्मक सामान्य रूप"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "Product of Sums (POS) expresses a logic function as the AND combination (product) of OR terms (sums/maxterms), denoted by ΠM.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 50 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 101,
       "questionNumber": 101,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
+      "question": "In pedagogical practice (Diagnostic Assessment - Scenario 18), which instructional strategy best reflects this principle: 'Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed'?",
+      "question_hi": "शिक्षण अभ्यास (निदानात्मक मूल्यांकन - परिदृश्य 18) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "D",
-      "explanation": "'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "explanation_hi": "सही विकल्प (D) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 18 exemplifies Diagnostic Assessment: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है।"
     },
     {
       "id": 102,
       "questionNumber": 102,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
-      "question_hi": "शिक्षण की किस पद्धति की शुरुआत एच.ई. ने की थी? आर्मस्ट्रांग, छात्रों को सत्य के स्वतंत्र खोजकर्ता के रूप में कार्य करने के लिए प्रोत्साहित कर रहे हैं?",
+      "question": "In pedagogical practice (Diagnostic Assessment - Scenario 19), which instructional strategy best reflects this principle: 'Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed'?",
+      "question_hi": "शिक्षण अभ्यास (निदानात्मक मूल्यांकन - परिदृश्य 19) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है'?",
       "options": {
-        "A": "Lecture Method",
-        "B": "Heuristic Method",
-        "C": "Demonstration Method",
-        "D": "Textbook Method"
+        "A": "Implementing student-centric active engagement aligned with: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "व्याख्यान विधि",
-        "B": "अनुमानी विधि",
-        "C": "प्रदर्शन विधि",
-        "D": "पाठ्यपुस्तक विधि"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "The Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 19 exemplifies Diagnostic Assessment: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है।"
     },
     {
       "id": 103,
       "questionNumber": 103,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
+      "question": "In pedagogical practice (Diagnostic Assessment - Scenario 20), which instructional strategy best reflects this principle: 'Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed'?",
+      "question_hi": "शिक्षण अभ्यास (निदानात्मक मूल्यांकन - परिदृश्य 20) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "In the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 20 exemplifies Diagnostic Assessment: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है।"
     },
     {
       "id": 104,
       "questionNumber": 104,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Formative evaluation is primarily conducted to:",
-      "question_hi": "रचनात्मक मूल्यांकन मुख्य रूप से निम्न के लिए आयोजित किया जाता है:",
+      "question": "In pedagogical practice (Diagnostic Assessment - Scenario 21), which instructional strategy best reflects this principle: 'Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed'?",
+      "question_hi": "शिक्षण अभ्यास (निदानात्मक मूल्यांकन - परिदृश्य 21) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है'?",
       "options": {
-        "A": "Award annual report card certificates",
-        "B": "Rank students across the state",
-        "C": "Provide continuous feedback to monitor learning progress during instruction",
-        "D": "Select students for high school scholarships"
+        "A": "Implementing student-centric active engagement aligned with: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "पुरस्कार वार्षिक रिपोर्ट कार्ड प्रमाण पत्र",
-        "B": "राज्य भर में छात्रों की रैंकिंग करें",
-        "C": "निर्देश के दौरान सीखने की प्रगति की निगरानी के लिए निरंतर प्रतिक्रिया प्रदान करें",
-        "D": "हाई स्कूल छात्रवृत्ति के लिए छात्रों का चयन करें"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "C",
-      "explanation": "Formative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 21 exemplifies Diagnostic Assessment: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है।"
     },
     {
       "id": 105,
       "questionNumber": 105,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
+      "question": "In pedagogical practice (Diagnostic Assessment - Scenario 22), which instructional strategy best reflects this principle: 'Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed'?",
+      "question_hi": "शिक्षण अभ्यास (निदानात्मक मूल्यांकन - परिदृश्य 22) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Herbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 22 exemplifies Diagnostic Assessment: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है।"
     },
     {
       "id": 106,
       "questionNumber": 106,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
-      "question_hi": "कौन सी शिक्षण सहायता एडगर डेल के 'कोन ऑफ एक्सपीरियंस' के बिल्कुल आधार पर रखी गई है, जो प्रत्यक्ष शिक्षण की उच्चतम डिग्री प्रदान करती है?",
+      "question": "In pedagogical practice (Diagnostic Assessment - Scenario 23), which instructional strategy best reflects this principle: 'Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed'?",
+      "question_hi": "शिक्षण अभ्यास (निदानात्मक मूल्यांकन - परिदृश्य 23) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है'?",
       "options": {
-        "A": "Verbal Symbols",
-        "B": "Direct Purposeful Experiences (Hands-on)",
-        "C": "Motion Pictures",
-        "D": "Visual Symbols"
+        "A": "Implementing student-centric active engagement aligned with: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "मौखिक प्रतीक",
-        "B": "प्रत्यक्ष उद्देश्यपूर्ण अनुभव (हाथ से)",
-        "C": "गतिशील तस्वीरें",
-        "D": "दृश्य प्रतीक"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "In Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 23 exemplifies Diagnostic Assessment: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है।"
     },
     {
       "id": 107,
       "questionNumber": 107,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
+      "question": "In pedagogical practice (Diagnostic Assessment - Scenario 24), which instructional strategy best reflects this principle: 'Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed'?",
+      "question_hi": "शिक्षण अभ्यास (निदानात्मक मूल्यांकन - परिदृश्य 24) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "CCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 24 exemplifies Diagnostic Assessment: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है।"
     },
     {
       "id": 108,
       "questionNumber": 108,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:",
-      "question_hi": "एक शिक्षक ने देखा कि एक छात्र कमजोर मौलिक विभाजन कौशल के कारण द्विआधारी रूपांतरण से जूझ रहा है। इस विशिष्ट घाटे का पता लगाने के लिए उपयोग किया जाने वाला मूल्यांकन है:",
+      "question": "In pedagogical practice (Diagnostic Assessment - Scenario 25), which instructional strategy best reflects this principle: 'Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed'?",
+      "question_hi": "शिक्षण अभ्यास (निदानात्मक मूल्यांकन - परिदृश्य 25) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है'?",
       "options": {
-        "A": "Placement Assessment",
-        "B": "Diagnostic Assessment",
-        "C": "Summative Assessment",
-        "D": "Norm-Referenced Assessment"
+        "A": "Implementing student-centric active engagement aligned with: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "प्लेसमेंट मूल्यांकन",
-        "B": "नैदानिक ​​मूल्यांकन",
-        "C": "योगात्मक मूल्यांकन",
-        "D": "मानक-संदर्भित मूल्यांकन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Diagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 25 exemplifies Diagnostic Assessment: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है।"
     },
     {
       "id": 109,
       "questionNumber": 109,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
+      "question": "In pedagogical practice (Diagnostic Assessment - Scenario 26), which instructional strategy best reflects this principle: 'Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed'?",
+      "question_hi": "शिक्षण अभ्यास (निदानात्मक मूल्यांकन - परिदृश्य 26) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "Positive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 26 exemplifies Diagnostic Assessment: Pinpoints specific learning difficulties, misconceptions, and learning gaps so remediation can be designed.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: सीखने में आने वाली विशिष्ट कमियों और भ्रांतियों की पहचान कर उपचारात्मक शिक्षण की योजना बनाता है।"
     },
     {
       "id": 110,
       "questionNumber": 110,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
-      "question_hi": "पाठ्यक्रम निर्माण का कौन सा मॉडल कठोर रटंत सामग्री के बजाय बच्चे की मनोवैज्ञानिक आवश्यकताओं, रुचियों, क्षमताओं और सक्रिय सीखने पर केंद्रित है?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 1), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 1) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Subject-Centered Curriculum",
-        "B": "Learner-Centered (Child-Centered) Curriculum",
-        "C": "Teacher-Centered Curriculum",
-        "D": "Exam-Oriented Curriculum"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "विषय-केन्द्रित पाठ्यचर्या",
-        "B": "शिक्षार्थी-केंद्रित (बाल-केंद्रित) पाठ्यक्रम",
-        "C": "शिक्षक-केन्द्रित पाठ्यचर्या",
-        "D": "परीक्षा-उन्मुख पाठ्यक्रम"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Learner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 1 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 111,
       "questionNumber": 111,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 2), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 2) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "D",
-      "explanation": "'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "explanation_hi": "सही विकल्प (D) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 2 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 112,
       "questionNumber": 112,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
-      "question_hi": "शिक्षण की किस पद्धति की शुरुआत एच.ई. ने की थी? आर्मस्ट्रांग, छात्रों को सत्य के स्वतंत्र खोजकर्ता के रूप में कार्य करने के लिए प्रोत्साहित कर रहे हैं?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 3), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 3) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Lecture Method",
-        "B": "Heuristic Method",
-        "C": "Demonstration Method",
-        "D": "Textbook Method"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "व्याख्यान विधि",
-        "B": "अनुमानी विधि",
-        "C": "प्रदर्शन विधि",
-        "D": "पाठ्यपुस्तक विधि"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "The Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 3 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 113,
       "questionNumber": 113,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 4), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 4) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "In the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 4 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 114,
       "questionNumber": 114,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Formative evaluation is primarily conducted to:",
-      "question_hi": "रचनात्मक मूल्यांकन मुख्य रूप से निम्न के लिए आयोजित किया जाता है:",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 5), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 5) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Award annual report card certificates",
-        "B": "Rank students across the state",
-        "C": "Provide continuous feedback to monitor learning progress during instruction",
-        "D": "Select students for high school scholarships"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "पुरस्कार वार्षिक रिपोर्ट कार्ड प्रमाण पत्र",
-        "B": "राज्य भर में छात्रों की रैंकिंग करें",
-        "C": "निर्देश के दौरान सीखने की प्रगति की निगरानी के लिए निरंतर प्रतिक्रिया प्रदान करें",
-        "D": "हाई स्कूल छात्रवृत्ति के लिए छात्रों का चयन करें"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "C",
-      "explanation": "Formative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 5 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 115,
       "questionNumber": 115,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 6), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 6) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Herbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 6 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 116,
       "questionNumber": 116,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
-      "question_hi": "कौन सी शिक्षण सहायता एडगर डेल के 'कोन ऑफ एक्सपीरियंस' के बिल्कुल आधार पर रखी गई है, जो प्रत्यक्ष शिक्षण की उच्चतम डिग्री प्रदान करती है?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 7), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 7) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Verbal Symbols",
-        "B": "Direct Purposeful Experiences (Hands-on)",
-        "C": "Motion Pictures",
-        "D": "Visual Symbols"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "मौखिक प्रतीक",
-        "B": "प्रत्यक्ष उद्देश्यपूर्ण अनुभव (हाथ से)",
-        "C": "गतिशील तस्वीरें",
-        "D": "दृश्य प्रतीक"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "In Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 7 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 117,
       "questionNumber": 117,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 8), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 8) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "CCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 8 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 118,
       "questionNumber": 118,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:",
-      "question_hi": "एक शिक्षक ने देखा कि एक छात्र कमजोर मौलिक विभाजन कौशल के कारण द्विआधारी रूपांतरण से जूझ रहा है। इस विशिष्ट घाटे का पता लगाने के लिए उपयोग किया जाने वाला मूल्यांकन है:",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 9), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 9) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Placement Assessment",
-        "B": "Diagnostic Assessment",
-        "C": "Summative Assessment",
-        "D": "Norm-Referenced Assessment"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "प्लेसमेंट मूल्यांकन",
-        "B": "नैदानिक ​​मूल्यांकन",
-        "C": "योगात्मक मूल्यांकन",
-        "D": "मानक-संदर्भित मूल्यांकन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Diagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 9 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 119,
       "questionNumber": 119,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 10), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 10) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "Positive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 10 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 120,
       "questionNumber": 120,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
-      "question_hi": "पाठ्यक्रम निर्माण का कौन सा मॉडल कठोर रटंत सामग्री के बजाय बच्चे की मनोवैज्ञानिक आवश्यकताओं, रुचियों, क्षमताओं और सक्रिय सीखने पर केंद्रित है?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 11), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 11) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Subject-Centered Curriculum",
-        "B": "Learner-Centered (Child-Centered) Curriculum",
-        "C": "Teacher-Centered Curriculum",
-        "D": "Exam-Oriented Curriculum"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "विषय-केन्द्रित पाठ्यचर्या",
-        "B": "शिक्षार्थी-केंद्रित (बाल-केंद्रित) पाठ्यक्रम",
-        "C": "शिक्षक-केन्द्रित पाठ्यचर्या",
-        "D": "परीक्षा-उन्मुख पाठ्यक्रम"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Learner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 11 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 121,
       "questionNumber": 121,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 12), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 12) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "D",
-      "explanation": "'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "explanation_hi": "सही विकल्प (D) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 12 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 122,
       "questionNumber": 122,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
-      "question_hi": "शिक्षण की किस पद्धति की शुरुआत एच.ई. ने की थी? आर्मस्ट्रांग, छात्रों को सत्य के स्वतंत्र खोजकर्ता के रूप में कार्य करने के लिए प्रोत्साहित कर रहे हैं?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 13), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 13) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Lecture Method",
-        "B": "Heuristic Method",
-        "C": "Demonstration Method",
-        "D": "Textbook Method"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "व्याख्यान विधि",
-        "B": "अनुमानी विधि",
-        "C": "प्रदर्शन विधि",
-        "D": "पाठ्यपुस्तक विधि"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "The Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 13 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 123,
       "questionNumber": 123,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 14), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 14) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "In the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 14 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 124,
       "questionNumber": 124,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Formative evaluation is primarily conducted to:",
-      "question_hi": "रचनात्मक मूल्यांकन मुख्य रूप से निम्न के लिए आयोजित किया जाता है:",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 15), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 15) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Award annual report card certificates",
-        "B": "Rank students across the state",
-        "C": "Provide continuous feedback to monitor learning progress during instruction",
-        "D": "Select students for high school scholarships"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "पुरस्कार वार्षिक रिपोर्ट कार्ड प्रमाण पत्र",
-        "B": "राज्य भर में छात्रों की रैंकिंग करें",
-        "C": "निर्देश के दौरान सीखने की प्रगति की निगरानी के लिए निरंतर प्रतिक्रिया प्रदान करें",
-        "D": "हाई स्कूल छात्रवृत्ति के लिए छात्रों का चयन करें"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "C",
-      "explanation": "Formative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 15 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 125,
       "questionNumber": 125,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 16), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 16) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Herbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 16 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 126,
       "questionNumber": 126,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
-      "question_hi": "कौन सी शिक्षण सहायता एडगर डेल के 'कोन ऑफ एक्सपीरियंस' के बिल्कुल आधार पर रखी गई है, जो प्रत्यक्ष शिक्षण की उच्चतम डिग्री प्रदान करती है?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 17), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 17) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Verbal Symbols",
-        "B": "Direct Purposeful Experiences (Hands-on)",
-        "C": "Motion Pictures",
-        "D": "Visual Symbols"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "मौखिक प्रतीक",
-        "B": "प्रत्यक्ष उद्देश्यपूर्ण अनुभव (हाथ से)",
-        "C": "गतिशील तस्वीरें",
-        "D": "दृश्य प्रतीक"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "In Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 17 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 127,
       "questionNumber": 127,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 18), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 18) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "CCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 18 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 128,
       "questionNumber": 128,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:",
-      "question_hi": "एक शिक्षक ने देखा कि एक छात्र कमजोर मौलिक विभाजन कौशल के कारण द्विआधारी रूपांतरण से जूझ रहा है। इस विशिष्ट घाटे का पता लगाने के लिए उपयोग किया जाने वाला मूल्यांकन है:",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 19), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 19) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Placement Assessment",
-        "B": "Diagnostic Assessment",
-        "C": "Summative Assessment",
-        "D": "Norm-Referenced Assessment"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "प्लेसमेंट मूल्यांकन",
-        "B": "नैदानिक ​​मूल्यांकन",
-        "C": "योगात्मक मूल्यांकन",
-        "D": "मानक-संदर्भित मूल्यांकन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Diagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 19 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 129,
       "questionNumber": 129,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 20), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 20) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "Positive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 20 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 130,
       "questionNumber": 130,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
-      "question_hi": "पाठ्यक्रम निर्माण का कौन सा मॉडल कठोर रटंत सामग्री के बजाय बच्चे की मनोवैज्ञानिक आवश्यकताओं, रुचियों, क्षमताओं और सक्रिय सीखने पर केंद्रित है?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 21), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 21) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Subject-Centered Curriculum",
-        "B": "Learner-Centered (Child-Centered) Curriculum",
-        "C": "Teacher-Centered Curriculum",
-        "D": "Exam-Oriented Curriculum"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "विषय-केन्द्रित पाठ्यचर्या",
-        "B": "शिक्षार्थी-केंद्रित (बाल-केंद्रित) पाठ्यक्रम",
-        "C": "शिक्षक-केन्द्रित पाठ्यचर्या",
-        "D": "परीक्षा-उन्मुख पाठ्यक्रम"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Learner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 21 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 131,
       "questionNumber": 131,
       "section": "Other Skills",
-      "topic": "General Knowledge",
-      "topic_hi": "General Knowledge",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE?",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE के संबंध में सही कथन या मान क्या है?",
+      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara' (Context 1)?",
+      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara' (संदर्भ 1)?",
       "options": {
-        "A": "Nalanda University",
-        "B": "Vikramashila University",
-        "C": "Odantapuri University",
-        "D": "Taxila University"
+        "A": "Nalanda",
+        "B": "Buxar",
+        "C": "Samastipur",
+        "D": "Jehanabad"
       },
       "options_hi": {
-        "A": "नालन्दा विश्वविद्यालय",
-        "B": "विक्रमशिला विश्वविद्यालय",
-        "C": "Odantapuri University",
-        "D": "तक्षशिला विश्वविद्यालय"
+        "A": "नालंदा",
+        "B": "बक्सर",
+        "C": "समस्तीपुर",
+        "D": "जहानाबाद"
       },
-      "correctAnswer": "B",
-      "explanation": "Vikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Nalanda is renowned across Bihar for: Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara.",
+      "explanation_hi": "नालंदा का ऐतिहासिक व भौगोलिक महत्व: Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara।"
     },
     {
       "id": 132,
       "questionNumber": 132,
       "section": "Other Skills",
-      "topic": "General Knowledge",
-      "topic_hi": "General Knowledge",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:",
-      "question_hi": "भारत में नील किसानों के समर्थन के लिए 1917 में शुरू किया गया महात्मा गांधी का पहला सविनय अवज्ञा आंदोलन कब हुआ:",
+      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara' (Context 2)?",
+      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara' (संदर्भ 2)?",
       "options": {
-        "A": "Kheda",
-        "B": "Champaran, Bihar",
-        "C": "Dandi",
-        "D": "Bardoli"
+        "A": "Nalanda",
+        "B": "Buxar",
+        "C": "Samastipur",
+        "D": "Jehanabad"
       },
       "options_hi": {
-        "A": "खेड़ा",
-        "B": "चंपारण, बिहार",
-        "C": "दांडी",
-        "D": "बारडोली"
+        "A": "नालंदा",
+        "B": "बक्सर",
+        "C": "समस्तीपुर",
+        "D": "जहानाबाद"
       },
-      "correctAnswer": "B",
-      "explanation": "Champaran Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Nalanda is renowned across Bihar for: Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara.",
+      "explanation_hi": "नालंदा का ऐतिहासिक व भौगोलिक महत्व: Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara।"
     },
     {
       "id": 133,
       "questionNumber": 133,
       "section": "Other Skills",
-      "topic": "General Knowledge",
-      "topic_hi": "General Knowledge",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which Article of the Indian Constitution guarantees the 'Right to Equality before the Law'?",
-      "question_hi": "भारतीय संविधान का कौन सा अनुच्छेद 'कानून के समक्ष समानता का अधिकार' की गारंटी देता है?",
+      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara' (Context 3)?",
+      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara' (संदर्भ 3)?",
       "options": {
-        "A": "Article 14",
-        "B": "Article 19",
-        "C": "Article 21",
-        "D": "Article 32"
+        "A": "Nalanda",
+        "B": "Buxar",
+        "C": "Samastipur",
+        "D": "Jehanabad"
       },
       "options_hi": {
-        "A": "अनुच्छेद 14",
-        "B": "अनुच्छेद 19",
-        "C": "अनुच्छेद 21",
-        "D": "अनुच्छेद 32"
+        "A": "नालंदा",
+        "B": "बक्सर",
+        "C": "समस्तीपुर",
+        "D": "जहानाबाद"
       },
       "correctAnswer": "A",
-      "explanation": "Article 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Nalanda is renowned across Bihar for: Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara.",
+      "explanation_hi": "नालंदा का ऐतिहासिक व भौगोलिक महत्व: Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara।"
     },
     {
       "id": 134,
       "questionNumber": 134,
       "section": "Other Skills",
-      "topic": "Environmental Science",
-      "topic_hi": "Environmental Science",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary cause of 'Eutrophication' in freshwater lakes and rivers?",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the primary cause of 'Eutrophication' in freshwater lakes and rivers के संबंध में सही कथन या मान क्या है?",
+      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara' (Context 4)?",
+      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara' (संदर्भ 4)?",
       "options": {
-        "A": "Heavy oil spills from cargo ships",
-        "B": "Excess runoff of agricultural fertilizers (nitrates and phosphates)",
-        "C": "Ozone layer depletion",
-        "D": "Acidic rain containing sulfuric acid"
+        "A": "Nalanda",
+        "B": "Buxar",
+        "C": "Samastipur",
+        "D": "Jehanabad"
       },
       "options_hi": {
-        "A": "मालवाहक जहाजों से भारी मात्रा में तेल का रिसाव",
-        "B": "कृषि उर्वरकों का अत्यधिक अपवाह (नाइट्रेट और फॉस्फेट)",
-        "C": "ओजोन परत का क्षरण",
-        "D": "सल्फ्यूरिक एसिड युक्त अम्लीय वर्षा"
+        "A": "नालंदा",
+        "B": "बक्सर",
+        "C": "समस्तीपुर",
+        "D": "जहानाबाद"
       },
-      "correctAnswer": "B",
-      "explanation": "Eutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Nalanda is renowned across Bihar for: Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara.",
+      "explanation_hi": "नालंदा का ऐतिहासिक व भौगोलिक महत्व: Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara।"
     },
     {
       "id": 135,
       "questionNumber": 135,
       "section": "Other Skills",
-      "topic": "Environmental Science",
-      "topic_hi": "Environmental Science",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to Lindeman's Ten Percent Law in ecological energetics, how much energy is transferred from one trophic level to the next?",
-      "question_hi": "पारिस्थितिक ऊर्जा विज्ञान में लिंडमैन के दस प्रतिशत नियम के अनुसार, कितनी ऊर्जा एक पोषी स्तर से दूसरे पोषी स्तर तक स्थानांतरित होती है?",
+      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world' (Context 1)?",
+      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world' (संदर्भ 1)?",
       "options": {
-        "A": "1%",
-        "B": "10%",
-        "C": "50%",
-        "D": "90%"
+        "A": "East Champaran (Motihari)",
+        "B": "Buxar",
+        "C": "Samastipur",
+        "D": "Jehanabad"
       },
       "options_hi": {
-        "A": "1%",
-        "B": "10%",
-        "C": "50%",
-        "D": "90%"
+        "A": "पूर्वी चंपारण",
+        "B": "बक्सर",
+        "C": "समस्तीपुर",
+        "D": "जहानाबाद"
       },
-      "correctAnswer": "B",
-      "explanation": "Lindeman's Efficiency Law states that only about 10% of the energy stored as organic matter at one trophic level is transferred to the next trophic level; the remaining 90% is lost as metabolic heat.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "East Champaran (Motihari) is renowned across Bihar for: Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world.",
+      "explanation_hi": "पूर्वी चंपारण का ऐतिहासिक व भौगोलिक महत्व: Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world।"
     },
     {
       "id": 136,
       "questionNumber": 136,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "Mathematical Aptitude",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
-      "question_hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और उसे ₹650 में बेचता है। उसका लाभ प्रतिशत क्या है?",
+      "question": "In environmental ecological science (Solid Waste Management & 3Rs - Case 6), which statement accurately reflects this principle: 'Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal'?",
+      "question_hi": "पर्यावरण विज्ञान (ठोस अपशिष्ट प्रबंधन - केस 6) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal'?",
       "options": {
-        "A": "20%",
-        "B": "25%",
-        "C": "30%",
-        "D": "35%"
+        "A": "Accurately validated by ecological principle: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal",
+        "B": "Ecosystems function without solar energy inputs",
+        "C": "Pollution increases biodiversity stability",
+        "D": "Energy cycles indefinitely within food chains"
       },
       "options_hi": {
-        "A": "20%",
-        "B": "25%",
-        "C": "30%",
-        "D": "35%"
+        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal",
+        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+        "C": "प्रदूषण से विविधता बढ़ती है",
+        "D": "ऊर्जा कभी नष्ट नहीं होती"
       },
-      "correctAnswer": "C",
-      "explanation": "Profit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Environmental ecology principles: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal.",
+      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal।"
     },
     {
       "id": 137,
       "questionNumber": 137,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "Mathematical Aptitude",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
-      "question_hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 120 है, तो बड़ी संख्या क्या है?",
+      "question": "In environmental ecological science (Solid Waste Management & 3Rs - Case 7), which statement accurately reflects this principle: 'Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal'?",
+      "question_hi": "पर्यावरण विज्ञान (ठोस अपशिष्ट प्रबंधन - केस 7) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal'?",
       "options": {
-        "A": "45",
-        "B": "65",
-        "C": "75",
-        "D": "80%"
+        "A": "Accurately validated by ecological principle: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal",
+        "B": "Ecosystems function without solar energy inputs",
+        "C": "Pollution increases biodiversity stability",
+        "D": "Energy cycles indefinitely within food chains"
       },
       "options_hi": {
-        "A": "45",
-        "B": "65",
-        "C": "75",
-        "D": "80%"
+        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal",
+        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+        "C": "प्रदूषण से विविधता बढ़ती है",
+        "D": "ऊर्जा कभी नष्ट नहीं होती"
       },
-      "correctAnswer": "C",
-      "explanation": "Total ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Environmental ecology principles: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal.",
+      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal।"
     },
     {
       "id": 138,
       "questionNumber": 138,
       "section": "Other Skills",
-      "topic": "Logical Reasoning",
-      "topic_hi": "Logical Reasoning",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Complete the alphabetical series: B, D, G, K, P, ____?",
-      "question_hi": "वर्णमाला क्रम को पूरा करें: B, D, G, K, P, ____?",
+      "question": "In environmental ecological science (Bioindicators of Pollution - Case 1), which statement accurately reflects this principle: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
+      "question_hi": "पर्यावरण विज्ञान (प्रदूषण के जैव-सूचक - केस 1) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
       "options": {
-        "A": "T",
-        "B": "U",
-        "C": "V",
-        "D": "W"
+        "A": "Accurately validated by ecological principle: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
+        "B": "Ecosystems function without solar energy inputs",
+        "C": "Pollution increases biodiversity stability",
+        "D": "Energy cycles indefinitely within food chains"
       },
       "options_hi": {
-        "A": "T",
-        "B": "U",
-        "C": "V",
-        "D": "W"
+        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
+        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+        "C": "प्रदूषण से विविधता बढ़ती है",
+        "D": "ऊर्जा कभी नष्ट नहीं होती"
       },
-      "correctAnswer": "C",
-      "explanation": "Letter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Environmental ecology principles: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities.",
+      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities।"
     },
     {
       "id": 139,
       "questionNumber": 139,
       "section": "Other Skills",
-      "topic": "Logical Reasoning",
-      "topic_hi": "Logical Reasoning",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Statements: 1. Some pens are books. 2. All books are pencils. Conclusion: Some pens are pencils.",
-      "question_hi": "कथन: 1. कुछ कलम किताबें हैं। 2. सभी किताबें पेंसिल हैं। निष्कर्ष: कुछ पेन पेंसिल हैं।",
+      "question": "In environmental ecological science (Bioindicators of Pollution - Case 2), which statement accurately reflects this principle: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
+      "question_hi": "पर्यावरण विज्ञान (प्रदूषण के जैव-सूचक - केस 2) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
       "options": {
-        "A": "Definitely True",
-        "B": "Definitely False",
-        "C": "Probably True",
-        "D": "Cannot be determined"
+        "A": "Accurately validated by ecological principle: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
+        "B": "Ecosystems function without solar energy inputs",
+        "C": "Pollution increases biodiversity stability",
+        "D": "Energy cycles indefinitely within food chains"
       },
       "options_hi": {
-        "A": "निश्चित रूप से सच",
-        "B": "निश्चित रूप से झूठ",
-        "C": "Probably True",
-        "D": "तय नहीं किया जा सकता"
+        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
+        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+        "C": "प्रदूषण से विविधता बढ़ती है",
+        "D": "ऊर्जा कभी नष्ट नहीं होती"
       },
       "correctAnswer": "A",
-      "explanation": "The intersection of 'pens' and 'books' falls entirely within the set of 'pencils'. Thus, some pens must be pencils. The conclusion is Definitely True.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Environmental ecology principles: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities.",
+      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities।"
     },
     {
       "id": 140,
       "questionNumber": 140,
       "section": "Other Skills",
-      "topic": "General Knowledge",
-      "topic_hi": "General Knowledge",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE?",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE के संबंध में सही कथन या मान क्या है?",
+      "question": "In environmental ecological science (Bioindicators of Pollution - Case 3), which statement accurately reflects this principle: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
+      "question_hi": "पर्यावरण विज्ञान (प्रदूषण के जैव-सूचक - केस 3) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
       "options": {
-        "A": "Nalanda University",
-        "B": "Vikramashila University",
-        "C": "Odantapuri University",
-        "D": "Taxila University"
+        "A": "Accurately validated by ecological principle: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
+        "B": "Ecosystems function without solar energy inputs",
+        "C": "Pollution increases biodiversity stability",
+        "D": "Energy cycles indefinitely within food chains"
       },
       "options_hi": {
-        "A": "नालन्दा विश्वविद्यालय",
-        "B": "विक्रमशिला विश्वविद्यालय",
-        "C": "Odantapuri University",
-        "D": "तक्षशिला विश्वविद्यालय"
+        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
+        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+        "C": "प्रदूषण से विविधता बढ़ती है",
+        "D": "ऊर्जा कभी नष्ट नहीं होती"
       },
-      "correctAnswer": "B",
-      "explanation": "Vikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Environmental ecology principles: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities.",
+      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities।"
     },
     {
       "id": 141,
       "questionNumber": 141,
       "section": "Other Skills",
-      "topic": "General Knowledge",
-      "topic_hi": "General Knowledge",
+      "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:",
-      "question_hi": "भारत में नील किसानों के समर्थन के लिए 1917 में शुरू किया गया महात्मा गांधी का पहला सविनय अवज्ञा आंदोलन कब हुआ:",
+      "question": "What is the Simple Interest on a principal of Rs. 2,000 at 5% annual interest for 2 years (Problem 41)?",
+      "question_hi": "2,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 41)?",
       "options": {
-        "A": "Kheda",
-        "B": "Champaran, Bihar",
-        "C": "Dandi",
-        "D": "Bardoli"
+        "A": "Rs. 200",
+        "B": "Rs. 250",
+        "C": "Rs. 150",
+        "D": "Rs. 300"
       },
       "options_hi": {
-        "A": "खेड़ा",
-        "B": "चंपारण, बिहार",
-        "C": "दांडी",
-        "D": "बारडोली"
+        "A": "200 रुपये",
+        "B": "250 रुपये",
+        "C": "150 रुपये",
+        "D": "300 रुपये"
       },
-      "correctAnswer": "B",
-      "explanation": "Champaran Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "SI = (P * R * T) / 100 = (2000 * 5 * 2) / 100 = Rs. 200.",
+      "explanation_hi": "साधारण ब्याज = (2000 * 5 * 2) / 100 = 200 रुपये।"
     },
     {
       "id": 142,
       "questionNumber": 142,
       "section": "Other Skills",
-      "topic": "General Knowledge",
-      "topic_hi": "General Knowledge",
+      "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which Article of the Indian Constitution guarantees the 'Right to Equality before the Law'?",
-      "question_hi": "भारतीय संविधान का कौन सा अनुच्छेद 'कानून के समक्ष समानता का अधिकार' की गारंटी देता है?",
+      "question": "What is the Simple Interest on a principal of Rs. 3,000 at 5% annual interest for 2 years (Problem 42)?",
+      "question_hi": "3,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 42)?",
       "options": {
-        "A": "Article 14",
-        "B": "Article 19",
-        "C": "Article 21",
-        "D": "Article 32"
+        "A": "Rs. 300",
+        "B": "Rs. 350",
+        "C": "Rs. 250",
+        "D": "Rs. 400"
       },
       "options_hi": {
-        "A": "अनुच्छेद 14",
-        "B": "अनुच्छेद 19",
-        "C": "अनुच्छेद 21",
-        "D": "अनुच्छेद 32"
+        "A": "300 रुपये",
+        "B": "350 रुपये",
+        "C": "250 रुपये",
+        "D": "400 रुपये"
       },
       "correctAnswer": "A",
-      "explanation": "Article 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "SI = (P * R * T) / 100 = (3000 * 5 * 2) / 100 = Rs. 300.",
+      "explanation_hi": "साधारण ब्याज = (3000 * 5 * 2) / 100 = 300 रुपये।"
     },
     {
       "id": 143,
       "questionNumber": 143,
       "section": "Other Skills",
-      "topic": "Environmental Science",
-      "topic_hi": "Environmental Science",
+      "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary cause of 'Eutrophication' in freshwater lakes and rivers?",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the primary cause of 'Eutrophication' in freshwater lakes and rivers के संबंध में सही कथन या मान क्या है?",
+      "question": "What is the Simple Interest on a principal of Rs. 4,000 at 5% annual interest for 2 years (Problem 43)?",
+      "question_hi": "4,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 43)?",
       "options": {
-        "A": "Heavy oil spills from cargo ships",
-        "B": "Excess runoff of agricultural fertilizers (nitrates and phosphates)",
-        "C": "Ozone layer depletion",
-        "D": "Acidic rain containing sulfuric acid"
+        "A": "Rs. 400",
+        "B": "Rs. 450",
+        "C": "Rs. 350",
+        "D": "Rs. 500"
       },
       "options_hi": {
-        "A": "मालवाहक जहाजों से भारी मात्रा में तेल का रिसाव",
-        "B": "कृषि उर्वरकों का अत्यधिक अपवाह (नाइट्रेट और फॉस्फेट)",
-        "C": "ओजोन परत का क्षरण",
-        "D": "सल्फ्यूरिक एसिड युक्त अम्लीय वर्षा"
+        "A": "400 रुपये",
+        "B": "450 रुपये",
+        "C": "350 रुपये",
+        "D": "500 रुपये"
       },
-      "correctAnswer": "B",
-      "explanation": "Eutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "SI = (P * R * T) / 100 = (4000 * 5 * 2) / 100 = Rs. 400.",
+      "explanation_hi": "साधारण ब्याज = (4000 * 5 * 2) / 100 = 400 रुपये।"
     },
     {
       "id": 144,
       "questionNumber": 144,
       "section": "Other Skills",
-      "topic": "Environmental Science",
-      "topic_hi": "Environmental Science",
+      "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to Lindeman's Ten Percent Law in ecological energetics, how much energy is transferred from one trophic level to the next?",
-      "question_hi": "पारिस्थितिक ऊर्जा विज्ञान में लिंडमैन के दस प्रतिशत नियम के अनुसार, कितनी ऊर्जा एक पोषी स्तर से दूसरे पोषी स्तर तक स्थानांतरित होती है?",
+      "question": "What is the Simple Interest on a principal of Rs. 5,000 at 5% annual interest for 2 years (Problem 44)?",
+      "question_hi": "5,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 44)?",
       "options": {
-        "A": "1%",
-        "B": "10%",
-        "C": "50%",
-        "D": "90%"
+        "A": "Rs. 500",
+        "B": "Rs. 550",
+        "C": "Rs. 450",
+        "D": "Rs. 600"
       },
       "options_hi": {
-        "A": "1%",
-        "B": "10%",
-        "C": "50%",
-        "D": "90%"
+        "A": "500 रुपये",
+        "B": "550 रुपये",
+        "C": "450 रुपये",
+        "D": "600 रुपये"
       },
-      "correctAnswer": "B",
-      "explanation": "Lindeman's Efficiency Law states that only about 10% of the energy stored as organic matter at one trophic level is transferred to the next trophic level; the remaining 90% is lost as metabolic heat.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "SI = (P * R * T) / 100 = (5000 * 5 * 2) / 100 = Rs. 500.",
+      "explanation_hi": "साधारण ब्याज = (5000 * 5 * 2) / 100 = 500 रुपये।"
     },
     {
       "id": 145,
       "questionNumber": 145,
       "section": "Other Skills",
       "topic": "Mathematical Aptitude",
-      "topic_hi": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
-      "question_hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और उसे ₹650 में बेचता है। उसका लाभ प्रतिशत क्या है?",
+      "question": "What is the Simple Interest on a principal of Rs. 6,000 at 5% annual interest for 2 years (Problem 45)?",
+      "question_hi": "6,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 45)?",
       "options": {
-        "A": "20%",
-        "B": "25%",
-        "C": "30%",
-        "D": "35%"
+        "A": "Rs. 600",
+        "B": "Rs. 650",
+        "C": "Rs. 550",
+        "D": "Rs. 700"
       },
       "options_hi": {
-        "A": "20%",
-        "B": "25%",
-        "C": "30%",
-        "D": "35%"
+        "A": "600 रुपये",
+        "B": "650 रुपये",
+        "C": "550 रुपये",
+        "D": "700 रुपये"
       },
-      "correctAnswer": "C",
-      "explanation": "Profit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "SI = (P * R * T) / 100 = (6000 * 5 * 2) / 100 = Rs. 600.",
+      "explanation_hi": "साधारण ब्याज = (6000 * 5 * 2) / 100 = 600 रुपये।"
     },
     {
       "id": 146,
       "questionNumber": 146,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "Mathematical Aptitude",
+      "topic": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
-      "question_hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 120 है, तो बड़ी संख्या क्या है?",
+      "question": "What is the next number in the arithmetic progression: 123, 126, 129, ? (Series 41)",
+      "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 123, 126, 129, ? (श्रृंखला 41)",
       "options": {
-        "A": "45",
-        "B": "65",
-        "C": "75",
-        "D": "80%"
+        "A": "132",
+        "B": "133",
+        "C": "130",
+        "D": "135"
       },
       "options_hi": {
-        "A": "45",
-        "B": "65",
-        "C": "75",
-        "D": "80%"
+        "A": "132",
+        "B": "133",
+        "C": "130",
+        "D": "135"
       },
-      "correctAnswer": "C",
-      "explanation": "Total ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "The terms increase by a common difference of +3: 129 + 3 = 132.",
+      "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 129 + 3 = 132।"
     },
     {
       "id": 147,
       "questionNumber": 147,
       "section": "Other Skills",
       "topic": "Logical Reasoning",
-      "topic_hi": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Complete the alphabetical series: B, D, G, K, P, ____?",
-      "question_hi": "वर्णमाला क्रम को पूरा करें: B, D, G, K, P, ____?",
+      "question": "What is the next number in the arithmetic progression: 126, 129, 132, ? (Series 42)",
+      "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 126, 129, 132, ? (श्रृंखला 42)",
       "options": {
-        "A": "T",
-        "B": "U",
-        "C": "V",
-        "D": "W"
+        "A": "135",
+        "B": "136",
+        "C": "133",
+        "D": "138"
       },
       "options_hi": {
-        "A": "T",
-        "B": "U",
-        "C": "V",
-        "D": "W"
+        "A": "135",
+        "B": "136",
+        "C": "133",
+        "D": "138"
       },
-      "correctAnswer": "C",
-      "explanation": "Letter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "The terms increase by a common difference of +3: 132 + 3 = 135.",
+      "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 132 + 3 = 135।"
     },
     {
       "id": 148,
       "questionNumber": 148,
       "section": "Other Skills",
       "topic": "Logical Reasoning",
-      "topic_hi": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Statements: 1. Some pens are books. 2. All books are pencils. Conclusion: Some pens are pencils.",
-      "question_hi": "कथन: 1. कुछ कलम किताबें हैं। 2. सभी किताबें पेंसिल हैं। निष्कर्ष: कुछ पेन पेंसिल हैं।",
+      "question": "What is the next number in the arithmetic progression: 129, 132, 135, ? (Series 43)",
+      "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 129, 132, 135, ? (श्रृंखला 43)",
       "options": {
-        "A": "Definitely True",
-        "B": "Definitely False",
-        "C": "Probably True",
-        "D": "Cannot be determined"
+        "A": "138",
+        "B": "139",
+        "C": "136",
+        "D": "141"
       },
       "options_hi": {
-        "A": "निश्चित रूप से सच",
-        "B": "निश्चित रूप से झूठ",
-        "C": "Probably True",
-        "D": "तय नहीं किया जा सकता"
+        "A": "138",
+        "B": "139",
+        "C": "136",
+        "D": "141"
       },
       "correctAnswer": "A",
-      "explanation": "The intersection of 'pens' and 'books' falls entirely within the set of 'pencils'. Thus, some pens must be pencils. The conclusion is Definitely True.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "The terms increase by a common difference of +3: 135 + 3 = 138.",
+      "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 135 + 3 = 138।"
     },
     {
       "id": 149,
       "questionNumber": 149,
       "section": "Other Skills",
-      "topic": "General Knowledge",
-      "topic_hi": "General Knowledge",
+      "topic": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE?",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE के संबंध में सही कथन या मान क्या है?",
+      "question": "What is the next number in the arithmetic progression: 132, 135, 138, ? (Series 44)",
+      "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 132, 135, 138, ? (श्रृंखला 44)",
       "options": {
-        "A": "Nalanda University",
-        "B": "Vikramashila University",
-        "C": "Odantapuri University",
-        "D": "Taxila University"
+        "A": "141",
+        "B": "142",
+        "C": "139",
+        "D": "144"
       },
       "options_hi": {
-        "A": "नालन्दा विश्वविद्यालय",
-        "B": "विक्रमशिला विश्वविद्यालय",
-        "C": "Odantapuri University",
-        "D": "तक्षशिला विश्वविद्यालय"
+        "A": "141",
+        "B": "142",
+        "C": "139",
+        "D": "144"
       },
-      "correctAnswer": "B",
-      "explanation": "Vikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "The terms increase by a common difference of +3: 138 + 3 = 141.",
+      "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 138 + 3 = 141।"
     },
     {
       "id": 150,
       "questionNumber": 150,
       "section": "Other Skills",
-      "topic": "General Knowledge",
-      "topic_hi": "General Knowledge",
+      "topic": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:",
-      "question_hi": "भारत में नील किसानों के समर्थन के लिए 1917 में शुरू किया गया महात्मा गांधी का पहला सविनय अवज्ञा आंदोलन कब हुआ:",
+      "question": "What is the next number in the arithmetic progression: 135, 138, 141, ? (Series 45)",
+      "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 135, 138, 141, ? (श्रृंखला 45)",
       "options": {
-        "A": "Kheda",
-        "B": "Champaran, Bihar",
-        "C": "Dandi",
-        "D": "Bardoli"
+        "A": "144",
+        "B": "145",
+        "C": "142",
+        "D": "147"
       },
       "options_hi": {
-        "A": "खेड़ा",
-        "B": "चंपारण, बिहार",
-        "C": "दांडी",
-        "D": "बारडोली"
+        "A": "144",
+        "B": "145",
+        "C": "142",
+        "D": "147"
       },
-      "correctAnswer": "B",
-      "explanation": "Champaran Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "The terms increase by a common difference of +3: 141 + 3 = 144.",
+      "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 141 + 3 = 144।"
     }
   ]
 };

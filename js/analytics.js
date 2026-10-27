@@ -30,15 +30,28 @@ class ExamAnalytics {
     let topicStats = {};
     let questionReviews = [];
 
-    paper.questions.forEach(q => {
+    paper.questions.forEach((q, idx) => {
+      const qNum = idx + 1;
       const userChoice = responses[q.id];
       const isCorrect = userChoice === q.correctAnswer;
       const isAttempted = !!userChoice;
       const timeSpent = timeSpentPerQ[q.id] || 0;
       totalTimeSpent += timeSpent;
 
-      // Find section
-      const sec = paper.sections.find(s => q.questionNumber >= s.startQ && q.questionNumber <= s.endQ) || paper.sections[0];
+      // Find section based on linear 1-based question number
+      const sec = (paper.sections && paper.sections.find(s => qNum >= s.startQ && qNum <= s.endQ)) || (paper.sections && paper.sections[0]) || { id: "cs", total: 0, score: 0, correct: 0, incorrect: 0, unattempted: 0, timeSpent: 0 };
+      if (!sectionStats[sec.id]) {
+        sectionStats[sec.id] = {
+          name: sec.name || "General",
+          name_hi: sec.name || "सामान्य",
+          total: 0,
+          score: 0,
+          correct: 0,
+          incorrect: 0,
+          unattempted: 0,
+          timeSpent: 0
+        };
+      }
       
       sectionStats[sec.id].total++;
       sectionStats[sec.id].timeSpent += timeSpent;
@@ -78,6 +91,7 @@ class ExamAnalytics {
 
       questionReviews.push({
         ...q,
+        questionNumber: qNum,
         userResponse: userChoice || null,
         isCorrect: isCorrect,
         isAttempted: isAttempted,

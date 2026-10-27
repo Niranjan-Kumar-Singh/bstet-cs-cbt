@@ -1,9 +1,8 @@
-// Generated Bilingual Question Paper Data
+// Generated Question Paper Data
 window.predicted_set12 = {
   "id": "predicted_set12",
   "title": "2026 Predicted Full Mock 12",
   "subtitle": "Final All-India Grand Mock: Strict Unit 1 to Unit 15 Distribution & Authentic TCS iON Exam Standard",
-  "category": "Predicted Mock",
   "totalQuestions": 150,
   "totalMarks": 150,
   "durationMinutes": 150,
@@ -35,79 +34,79 @@ window.predicted_set12 = {
       "id": 1,
       "questionNumber": 1,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 2's complement representation of decimal -13 in an 8-bit binary system?",
-      "question_hi": "8-बिट बाइनरी प्रणाली में दशमलव -13 का 2's पूरक (2's complement) क्या होगा?",
+      "question": "In Auto-increment Addressing Mode, when is the register pointer incremented?",
+      "question_hi": "ऑटो-इंक्रीमेंट एड्रेसिंग मोड में, रजिस्टर पॉइंटर को कब बढ़ाया (इंक्रीमेंट) जाता है?",
       "options": {
-        "A": "11110011",
-        "B": "11110010",
-        "C": "11110100",
-        "D": "11111101"
+        "A": "After the operand in memory is accessed using the register value",
+        "B": "Before accessing memory",
+        "C": "Only when an interrupt occurs",
+        "D": "During instruction fetch"
       },
       "options_hi": {
-        "A": "11110011",
-        "B": "11110010",
-        "C": "11110100",
-        "D": "11111101"
+        "A": "रजिस्टर मान का उपयोग करके मेमोरी ऑपरेंड तक पहुँचने के बाद (Post-increment)",
+        "B": "मेमोरी एक्सेस से पहले",
+        "C": "केवल इंटरप्ट पर",
+        "D": "फेच के दौरान"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +13 = 00001101. 1's complement = 11110010. Adding 1 = 11110011.",
-      "explanation_hi": "+13 का 8-बिट बाइनरी = 00001101. 1's कॉम्प्लीमेंट = 11110010. 1 जोड़ने पर = 11110011."
+      "explanation": "Auto-increment accesses memory at Address = (R), then post-increments R by the data operand size (R = R + size).",
+      "explanation_hi": "ऑटो-इंक्रीमेंट में रजिस्टर के पते से डेटा पढ़ने के बाद रजिस्टर का मान बढ़ा दिया जाता है।"
     },
     {
       "id": 2,
       "questionNumber": 2,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "How many 2-to-1 Multiplexers are needed to construct an 8-to-1 Multiplexer?",
-      "question_hi": "एक 8-to-1 मल्टीप्लेक्सर (MUX) बनाने के लिए कितने 2-to-1 MUX की आवश्यकता होगी?",
+      "question": "What is the primary characteristic of a Hardwired Control Unit compared to a Microprogrammed Control Unit?",
+      "question_hi": "माइक्रोप्रोग्राम्ड की तुलना में हार्डवायर्ड कंट्रोल यूनिट (Hardwired Control Unit) की प्राथमिक विशेषता क्या है?",
       "options": {
-        "A": "4",
-        "B": "6",
-        "C": "7",
-        "D": "8"
+        "A": "Faster operation speed because control signals are generated directly by combinational logic gates",
+        "B": "Easier to modify and reconfigure",
+        "C": "Requires large control memory (ROM)",
+        "D": "Slower clock frequency"
       },
       "options_hi": {
-        "A": "4",
-        "B": "6",
-        "C": "7",
-        "D": "8"
+        "A": "तेज़ संचालन गति क्योंकि नियंत्रण संकेत सीधे कॉम्बिनेशनल लॉजिक गेट्स द्वारा उत्पन्न होते हैं",
+        "B": "संशोधित करना आसान",
+        "C": "बड़ी रोम मेमोरी चाहिए",
+        "D": "धीमी क्लॉक"
       },
-      "correctAnswer": "C",
-      "explanation": "To build an 8:1 MUX: 4 in first stage, 2 in second, 1 in final stage = 4 + 2 + 1 = 7.",
-      "explanation_hi": "8:1 MUX बनाने हेतु: प्रथम चरण में 4, द्वितीय में 2, तृतीय में 1 = कुल 7 MUX की आवश्यकता होगी।"
+      "correctAnswer": "A",
+      "explanation": "Hardwired control uses fixed combinational gates and state flip-flops, achieving maximum speed but offering poor upgrade flexibility.",
+      "explanation_hi": "हार्डवायर्ड कंट्रोल यूनिट लॉजिक गेट्स से बनी होती है जिससे यह अत्यंत तेज़ होती है किंतु इसमें बदलाव कठिन होता है।"
     },
     {
       "id": 3,
       "questionNumber": 3,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a JK flip-flop, the Race-Around condition occurs when:",
-      "question_hi": "JK फ्लिप-फ्लॉप में 'रेस-अराउंड' (Race-Around) स्थिति कब उत्पन्न होती है?",
+      "question": "What is the function of the Memory Buffer Register (MBR) / Memory Data Register (MDR)?",
+      "question_hi": "मेमोरी बफर रजिस्टर (MBR / MDR) का क्या कार्य है?",
       "options": {
-        "A": "J = 0, K = 0 and clock is high",
-        "B": "J = 1, K = 1 and clock pulse width is greater than propagation delay",
-        "C": "J = 1, K = 0 and clock is low",
-        "D": "J = 0, K = 1 and propagation delay is zero"
+        "A": "Holds the data item being transferred to or from the memory unit",
+        "B": "Holds the address of the next instruction to fetch",
+        "C": "Decodes the operation code",
+        "D": "Holds arithmetic status flags"
       },
       "options_hi": {
-        "A": "जे = 0, के = 0 और घड़ी उच्च है",
-        "B": "J = 1, K = 1 और क्लॉक पल्स चौड़ाई प्रोपेगेशन डिले से अधिक हो",
-        "C": "जे = 1, के = 0 और घड़ी कम है",
-        "D": "जे = 0, के = 1 और प्रसार विलंब शून्य है"
+        "A": "मेमोरी यूनिट से या मेमोरी यूनिट में स्थानांतरित किए जा रहे डेटा को संग्रहीत करता है",
+        "B": "अगले निर्देश का पता रखता है",
+        "C": "ऑपकोड डिकोड करता है",
+        "D": "फ्लैग रखता है"
       },
-      "correctAnswer": "B",
-      "explanation": "Race-around condition occurs when J=1, K=1 and clock pulse width exceeds flip-flop propagation delay.",
-      "explanation_hi": "रेस-अराउंड स्थिति तब उत्पन्न होती है जब J=1, K=1 हो तथा क्लॉक पल्स की अवधि प्रोपेगेशन डिले से अधिक हो।"
+      "correctAnswer": "A",
+      "explanation": "The MBR/MDR acts as the bidirectional data interface holding words read from or written to main memory.",
+      "explanation_hi": "MBR/MDR मेमोरी में लिखे जाने वाले या मेमोरी से पढ़े गए डेटा को अस्थाई रूप से रखता है।"
     },
     {
       "id": 4,
@@ -117,23 +116,23 @@ window.predicted_set12 = {
       "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which addressing mode specifies the operand directly within the instruction itself?",
-      "question_hi": "कौन सा एड्रेसिंग मोड ऑपरेंड (मान) को सीधे निर्देश के अंदर ही निर्दिष्ट करता है?",
+      "question": "What is the function of the Memory Address Register (MAR)?",
+      "question_hi": "मेमोरी एड्रेस रजिस्टर (MAR) का क्या कार्य है?",
       "options": {
-        "A": "Direct Addressing",
-        "B": "Immediate Addressing",
-        "C": "Register Indirect",
-        "D": "Indexed Addressing"
+        "A": "Holds the address of the memory location currently being accessed for read or write",
+        "B": "Stores instruction opcodes",
+        "C": "Stores ALU results",
+        "D": "Counts execution clock cycles"
       },
       "options_hi": {
-        "A": "डायरेक्ट एड्रेसिंग",
-        "B": "इमीडिएट एड्रेसिंग",
-        "C": "रजिस्टर इनडायरेक्ट",
-        "D": "इंडेक्स्ड एड्रेसिंग"
+        "A": "पढ़े या लिखे जाने वाले मेमोरी स्थान का पता (Address) रखता है",
+        "B": "ऑपकोड रखता है",
+        "C": "परिणाम रखता है",
+        "D": "क्लॉक साइकिल गिनता है"
       },
-      "correctAnswer": "B",
-      "explanation": "In Immediate Addressing, the operand field contains the actual data value (e.g., MOV R1, #50).",
-      "explanation_hi": "इमीडिएट एड्रेसिंग मोड में ऑपरेंड का वास्तविक मान सीधे निर्देश में ही लिखा होता है।"
+      "correctAnswer": "A",
+      "explanation": "MAR holds the memory address placed onto the address bus during memory read or write operations.",
+      "explanation_hi": "MAR उस मेमोरी लोकेशन का पता रखता है जिसे सीपीयू द्वारा एक्सेस किया जाना है।"
     },
     {
       "id": 5,
@@ -143,3793 +142,3793 @@ window.predicted_set12 = {
       "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary function of the Program Counter (PC) register in a CPU?",
-      "question_hi": "CPU में प्रोग्राम काउंटर (PC) का मुख्य कार्य क्या है?",
+      "question": "In computer memory hierarchy, which memory level provides the LOWEST access time (highest speed)?",
+      "question_hi": "कंप्यूटर मेमोरी पदानुक्रम में कौन सा मेमोरी स्तर सबसे कम एक्सेस समय (उच्चतम गति) प्रदान करता है?",
       "options": {
-        "A": "Holds the instruction currently executing",
-        "B": "Holds the address of the NEXT instruction to be fetched",
-        "C": "Stores intermediate arithmetic results",
-        "D": "Counts total elapsed cycles"
+        "A": "CPU Internal Registers",
+        "B": "L1 Cache Memory",
+        "C": "Main Memory (DRAM)",
+        "D": "Solid State Drive (SSD)"
       },
       "options_hi": {
-        "A": "वर्तमान में निष्पादित निर्देश को रखता है",
-        "B": "निष्पादित होने वाले अगले (NEXT) निर्देश का पता रखता है",
-        "C": "मध्यवर्ती अंकगणितीय परिणाम रखता है",
-        "D": "क्लॉक साइकिलों की गिनती करता है"
+        "A": "CPU आंतरिक रजिस्टर (Registers)",
+        "B": "L1 कैश",
+        "C": "मुख्य मेमोरी (DRAM)",
+        "D": "सॉलिड स्टेट ड्राइव"
       },
-      "correctAnswer": "B",
-      "explanation": "The Program Counter (PC) stores the memory address of the next instruction to fetch and execute.",
-      "explanation_hi": "प्रोग्राम काउंटर (PC) मेमोरी से पढ़े जाने वाले अगले निर्देश का पता रखता है।"
+      "correctAnswer": "A",
+      "explanation": "CPU registers operate at the core clock speed (fractions of a nanosecond), making them the fastest storage in the hierarchy.",
+      "explanation_hi": "सीपीयू के आंतरिक रजिस्टरों की गति सबसे तेज़ और एक्सेस समय सबसे कम होता है।"
     },
     {
       "id": 6,
       "questionNumber": 6,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the minimum number of queues required to implement a Stack data structure?",
-      "question_hi": "एक स्टैक (Stack) डेटा संरचना को लागू करने के लिए कम से कम कितने क्यू (Queue) चाहिए?",
+      "question": "What is Dynamic RAM (DRAM) constructed of, and why does it require periodic refreshing?",
+      "question_hi": "डायनामिक रैम (DRAM) किससे निर्मित होती है, और इसे आवधिक रिफ्रेशिंग की आवश्यकता क्यों होती है?",
       "options": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4"
+        "A": "One transistor and one capacitor; capacitor charge leaks away over time",
+        "B": "Four cross-coupled flip-flop transistors",
+        "C": "Magnetic cores",
+        "D": "Fusible links"
       },
       "options_hi": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4"
+        "A": "एक ट्रांजिस्टर और एक कैपेसिटर; कैपेसिटर का चार्ज धीरे-धीरे डिस्चार्ज हो जाता है",
+        "B": "फ्लिप-फ्लॉप ट्रांजिस्टर",
+        "C": "चुंबकीय कोर",
+        "D": "फ्यूजिबल लिंक"
       },
-      "correctAnswer": "B",
-      "explanation": "A minimum of 2 queues are required to simulate the LIFO behavior of a Stack.",
-      "explanation_hi": "क्यू (FIFO) की मदद से स्टैक (LIFO) का अनुकरण करने हेतु न्यूनतम 2 क्यू आवश्यक हैं।"
+      "correctAnswer": "A",
+      "explanation": "DRAM stores bits as electrostatic charge on tiny capacitors which leak charge, necessitating periodic refresh cycles every few milliseconds.",
+      "explanation_hi": "DRAM में 1 ट्रांजिस्टर और 1 कैपेसिटर होता है। चार्ज लीक होने के कारण इसे बार-बार रिफ्रेश करना पड़ता है।"
     },
     {
       "id": 7,
       "questionNumber": 7,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which traversal of a Binary Search Tree (BST) produces keys in strictly ascending sorted order?",
-      "question_hi": "बाइनरी सर्च ट्री (BST) का कौन सा ट्रैवर्सल मानों को हमेशा आरोही (सॉर्टेड) क्रम में देता है?",
+      "question": "Why is Static RAM (SRAM) preferred over DRAM for CPU cache memory?",
+      "question_hi": "CPU कैश मेमोरी के लिए DRAM के बजाय स्टैटिक रैम (SRAM) को प्राथमिकता क्यों दी जाती है?",
       "options": {
-        "A": "Preorder",
-        "B": "Inorder",
-        "C": "Postorder",
-        "D": "Level-order"
+        "A": "SRAM is much faster and does not require periodic refresh cycles",
+        "B": "SRAM is cheaper and denser than DRAM",
+        "C": "SRAM consumes zero power",
+        "D": "SRAM is non-volatile"
       },
       "options_hi": {
-        "A": "प्री-ऑर्डर",
-        "B": "इन-ऑर्डर (Inorder)",
-        "C": "पोस्ट-ऑर्डर",
-        "D": "लेवल-ऑर्डर"
+        "A": "SRAM बहुत तेज़ होती है और इसे आवधिक रिफ्रेशिंग की आवश्यकता नहीं होती",
+        "B": "SRAM सस्ती होती है",
+        "C": "शून्य बिजली खपत",
+        "D": "गैर-वाष्पशील है"
       },
-      "correctAnswer": "B",
-      "explanation": "Inorder traversal (Left, Root, Right) of a BST outputs elements in monotonically increasing sorted order.",
-      "explanation_hi": "BST का इन-ऑर्डर ट्रैवर्सल (Left, Root, Right) हमेशा तत्वों को आरोही क्रम में छांटता है।"
+      "correctAnswer": "A",
+      "explanation": "SRAM uses flip-flop latches (6 transistors per cell) that hold data continuously without refresh, providing fast nanosecond access times.",
+      "explanation_hi": "SRAM फ्लिप-फ्लॉप पर आधारित होती है, अत्यंत तेज़ होती है और इसे रिफ्रेश की आवश्यकता नहीं होती।"
     },
     {
       "id": 8,
       "questionNumber": 8,
       "section": "Computer Science",
-      "topic": "Algorithms",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
+      "topic": "Programming and Data Structures",
+      "topic_hi": "प्रोग्रामिंग और डेटा संरचनाएं (DSA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the worst-case time complexity of QuickSort?",
-      "question_hi": "क्विकसॉर्ट (QuickSort) की सबसे खराब स्थिति (Worst-case) में समय जटिलता क्या होती है?",
+      "question": "What data structure is used by compilers to check for balanced parentheses and brackets in source code?",
+      "question_hi": "सोर्स कोड में संतुलित कोष्ठक (Balanced Parentheses) की जांच के लिए कंपाइलर द्वारा किस डेटा संरचना का उपयोग किया जाता है?",
       "options": {
-        "A": "O(n log n)",
-        "B": "O(n)",
-        "C": "O(n²)",
-        "D": "O(n³)"
+        "A": "Stack",
+        "B": "Queue",
+        "C": "Binary Search Tree",
+        "D": "Hash Table"
       },
       "options_hi": {
-        "A": "ओ(एन लॉग एन)",
-        "B": "पर)",
-        "C": "ओ(एन²)",
-        "D": "ओ(एन³)"
+        "A": "स्टैक (Stack)",
+        "B": "कतार (Queue)",
+        "C": "बाइनरी सर्च ट्री",
+        "D": "हैश टेबल"
       },
-      "correctAnswer": "C",
-      "explanation": "When the pivot chosen is consistently the smallest or largest element, QuickSort degrades to O(n²).",
-      "explanation_hi": "जब पाइवोट सदैव सबसे छोटा या सबसे बड़ा तत्व चुना जाता है, तब क्विकसॉर्ट की जटिलता O(n²) हो जाती है।"
+      "correctAnswer": "A",
+      "explanation": "A Stack pushes opening brackets and pops to verify matching closing brackets, following LIFO order.",
+      "explanation_hi": "स्टैक LIFO सिद्धांत पर काम करता है जिससे कोष्ठक के जोड़े आसानी से परखे जा सकते हैं।"
     },
     {
       "id": 9,
       "questionNumber": 9,
       "section": "Computer Science",
-      "topic": "Operating System",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "topic": "Programming and Data Structures",
+      "topic_hi": "प्रोग्रामिंग और डेटा संरचनाएं (DSA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is NOT one of Coffman's four conditions for Deadlock?",
-      "question_hi": "निम्नलिखित में से कौन सी डेडलॉक (Deadlock) की कॉफ़मैन की 4 अनिवार्य शर्तों में से नहीं है?",
+      "question": "What is the postfix evaluation of the arithmetic expression: '6 3 + 2 * 4 -'?",
+      "question_hi": "अंकगणितीय पोस्टफिक्स व्यंजक '6 3 + 2 * 4 -' का मूल्यांकन मान क्या होगा?",
       "options": {
-        "A": "Mutual Exclusion",
-        "B": "Hold and Wait",
-        "C": "Preemption Allowed",
-        "D": "Circular Wait"
+        "A": "14",
+        "B": "18",
+        "C": "10",
+        "D": "20"
       },
       "options_hi": {
-        "A": "पारस्परिक बहिष्कार",
-        "B": "होल्ड एंड वेट",
-        "C": "प्रीएम्पशन की अनुमति",
-        "D": "सर्कुलर वेट"
+        "A": "14",
+        "B": "18",
+        "C": "10",
+        "D": "20"
       },
-      "correctAnswer": "C",
-      "explanation": "The 4 conditions are Mutual Exclusion, Hold & Wait, No Preemption, and Circular Wait. Preemption Allowed prevents deadlock.",
-      "explanation_hi": "डेडलॉक की चार शर्तें हैं: म्यूचुअल एक्सक्लूजन, होल्ड एंड वेट, नो प्रीएम्पशन, और सर्कुलर वेट। 'Preemption Allowed' से डेडलॉक टल जाता है।"
+      "correctAnswer": "A",
+      "explanation": "6 + 3 = 9; 9 * 2 = 18; 18 - 4 = 14.",
+      "explanation_hi": "पोस्टफिक्स मूल्यांकन: 6+3=9, 9*2=18, 18-4=14।"
     },
     {
       "id": 10,
       "questionNumber": 10,
       "section": "Computer Science",
-      "topic": "Database Management System",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
+      "topic": "Programming and Data Structures",
+      "topic_hi": "प्रोग्रामिंग और डेटा संरचनाएं (DSA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which SQL clause is used to filter groups created by the 'GROUP BY' clause?",
-      "question_hi": "SQL में 'GROUP BY' क्लॉज द्वारा बनाए गए समूहों पर शर्त लगाने हेतु किसका उपयोग होता है?",
+      "question": "What is the worst-case time complexity of searching for an element in a Singly Linked List of n nodes?",
+      "question_hi": "n नोड्स वाले सिंगली लिंक्ड लिस्ट में किसी तत्व को खोजने की सबसे खराब स्थिति (Worst-case) में समय जटिलता क्या है?",
       "options": {
-        "A": "WHERE",
-        "B": "HAVING",
-        "C": "ORDER BY",
-        "D": "FILTER"
+        "A": "O(n)",
+        "B": "O(1)",
+        "C": "O(log n)",
+        "D": "O(n log n)"
       },
       "options_hi": {
-        "A": "कहाँ",
-        "B": "होना",
-        "C": "द्वारा आदेश",
-        "D": "फ़िल्टर"
+        "A": "O(n)",
+        "B": "O(1)",
+        "C": "O(log n)",
+        "D": "O(n log n)"
       },
-      "correctAnswer": "B",
-      "explanation": "HAVING filters aggregated groups formed by GROUP BY, while WHERE filters individual rows prior to grouping.",
-      "explanation_hi": "WHERE व्यक्तिगत पंक्तियों को फ़िल्टर करता है जबकि HAVING क्लॉज GROUP BY के बाद समूहों को फ़िल्टर करता है।"
+      "correctAnswer": "A",
+      "explanation": "Searching requires traversing node-by-node from the head pointer, taking O(n) in the worst case.",
+      "explanation_hi": "लिंक्ड लिस्ट में रैंडम एक्सेस नहीं होता, अतः खोजने के लिए O(n) समय लगता है।"
     },
     {
       "id": 11,
       "questionNumber": 11,
       "section": "Computer Science",
-      "topic": "Computer Network",
-      "topic_hi": "कंप्यूटर नेटवर्क",
+      "topic": "Programming and Data Structures",
+      "topic_hi": "प्रोग्रामिंग और डेटा संरचनाएं (DSA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which protocol resolves a known IP address to a physical hardware MAC address?",
-      "question_hi": "ज्ञात IP पते को भौतिक हार्डवेयर MAC पते में बदलने के लिए किस प्रोटोकॉल का उपयोग होता है?",
+      "question": "In a Circular Singly Linked List with a pointer pointing to the LAST node (tail), what is the time complexity to insert a new node at the FRONT (head)?",
+      "question_hi": "अंतिम नोड (टेल) को इंगित करने वाले सर्कुलर सिंगली लिंक्ड लिस्ट में शुरुआत (हेड) पर नोड जोड़ने की समय जटिलता क्या है?",
       "options": {
-        "A": "RARP",
-        "B": "ARP (Address Resolution Protocol)",
-        "C": "DHCP",
-        "D": "ICMP"
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(log n)",
+        "D": "O(n^2)"
       },
       "options_hi": {
-        "A": "आरएआरपी",
-        "B": "ARP (एड्रेस रेजोल्यूशन प्रोटोकॉल)",
-        "C": "डीएचसीपी",
-        "D": "आईसीएमपी"
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(log n)",
+        "D": "O(n^2)"
       },
-      "correctAnswer": "B",
-      "explanation": "ARP maps an IPv4 address to a physical MAC address on a local Ethernet broadcast network.",
-      "explanation_hi": "ARP प्रोटोकॉल स्थानीय नेटवर्क पर तार्किक IP पते को हार्डवेयर MAC पते में बदलता है।"
+      "correctAnswer": "A",
+      "explanation": "With a tail pointer, tail->next is the head. Inserting at head takes O(1) by updating tail->next and new_node->next.",
+      "explanation_hi": "टेल पॉइंटर होने पर हेड (tail->next) पर इंसर्शन केवल O(1) में हो जाता है।"
     },
     {
       "id": 12,
       "questionNumber": 12,
       "section": "Computer Science",
-      "topic": "Software Engineering",
-      "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
+      "topic": "Programming and Data Structures",
+      "topic_hi": "प्रोग्रामिंग और डेटा संरचनाएं (DSA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which software testing technique examines internal logic, statements, and loop structures?",
-      "question_hi": "कौन सी सॉफ्टवेयर टेस्टिंग तकनीक स्रोत कोड की आंतरिक लॉजिक, स्टेटमेंट और लूप की जांच करती है?",
+      "question": "What is the time complexity to find the predecessor or successor of a given node in a Doubly Linked List when a pointer to that node is already given?",
+      "question_hi": "डबली लिंक्ड लिस्ट में किसी नोड का पॉइंटर पहले से उपलब्ध होने पर उसके पूर्ववर्ती (Predecessor) को खोजने का समय क्या है?",
       "options": {
-        "A": "Black-Box Testing",
-        "B": "White-Box Testing",
-        "C": "Acceptance Testing",
-        "D": "Beta Testing"
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(log n)",
+        "D": "O(n/2)"
       },
       "options_hi": {
-        "A": "ब्लैक-बॉक्स टेस्टिंग",
-        "B": "व्हाइट-बॉक्स टेस्टिंग (White-Box)",
-        "C": "स्वीकृति परीक्षण",
-        "D": "बीटा टेस्टिंग"
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(log n)",
+        "D": "O(n/2)"
       },
-      "correctAnswer": "B",
-      "explanation": "White-Box testing tests internal logic paths with complete knowledge of the internal source code.",
-      "explanation_hi": "व्हाइट-बॉक्स टेस्टिंग में स्रोत कोड की आंतरिक कार्यप्रणाली और लॉजिक शाखाओं की जांच की जाती है।"
+      "correctAnswer": "A",
+      "explanation": "Doubly linked lists have explicit 'prev' pointers, allowing instantaneous O(1) navigation to the previous node.",
+      "explanation_hi": "डबली लिंक्ड लिस्ट में सीधा 'prev' पॉइंटर होता है जिससे पूर्ववर्ती O(1) में मिल जाता है।"
     },
     {
       "id": 13,
       "questionNumber": 13,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग",
+      "topic": "Programming and Data Structures",
+      "topic_hi": "प्रोग्रामिंग और डेटा संरचनाएं (DSA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Python, which special method is invoked automatically when a new object instance is created?",
-      "question_hi": "पायथन (Python) में नया ऑब्जेक्ट बनने पर स्वतः कौन सा मेथड निष्पादित होता है?",
+      "question": "In collision resolution using 'Separate Chaining' in a Hash Table of size m with n keys, what is the Load Factor (alpha)?",
+      "question_hi": "m आकार की हैश टेबल में n कुंजियों के साथ 'सेपरेट चेनिंग' में लोड फैक्टर (alpha) क्या होता है?",
       "options": {
-        "A": "__new__()",
-        "B": "__init__()",
-        "C": "__create__()",
-        "D": "__main__()"
+        "A": "alpha = n / m",
+        "B": "alpha = m / n",
+        "C": "alpha = n * m",
+        "D": "alpha = n - m"
       },
       "options_hi": {
-        "A": "__नया__()",
-        "B": "__इस में__()",
-        "C": "__बनाएं__()",
-        "D": "__main__()"
+        "A": "alpha = n / m",
+        "B": "alpha = m / n",
+        "C": "alpha = n * m",
+        "D": "alpha = n - m"
       },
-      "correctAnswer": "B",
-      "explanation": "The __init__() method is Python's constructor that initializes new instance attributes.",
-      "explanation_hi": "पायथन में `__init__()` कंस्ट्रक्टर मेथड है जो नए ऑब्जेक्ट के गुणों को इनिशियलाइज़ करता है।"
+      "correctAnswer": "A",
+      "explanation": "Load factor alpha = (number of stored keys n) / (number of slots m), representing the average chain length.",
+      "explanation_hi": "लोड फैक्टर alpha = कुंजियों की संख्या (n) / स्लॉट की संख्या (m) होता है।"
     },
     {
       "id": 14,
       "questionNumber": 14,
       "section": "Computer Science",
-      "topic": "Web-Based Application Development",
-      "topic_hi": "वेब आधारित अनुप्रयोग विकास",
+      "topic": "Programming and Data Structures",
+      "topic_hi": "प्रोग्रामिंग और डेटा संरचनाएं (DSA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In JavaScript, which operator checks for BOTH value and data type equality without coercion?",
-      "question_hi": "जावास्क्रिप्ट में कौन सा ऑपरेटर बिना टाइप कन्वर्ज़न के मान और डेटा प्रकार दोनों की समानता जांचता है?",
+      "question": "What is the primary drawback of 'Linear Probing' in open-addressed Hash Tables?",
+      "question_hi": "ओपन-एड्रेस हैश टेबल में 'लीनियर प्रोबिंग' (Linear Probing) की मुख्य खामी क्या है?",
       "options": {
-        "A": "==",
-        "B": "===",
-        "C": "!=",
-        "D": "="
+        "A": "Primary Clustering (long contiguous blocks of occupied cells form, degrading lookup performance)",
+        "B": "Secondary clustering only",
+        "C": "Requires extra pointer memory",
+        "D": "Cannot store integers"
       },
       "options_hi": {
-        "A": "==",
-        "B": "===",
-        "C": "!=",
-        "D": "="
+        "A": "प्राइमरी क्लस्टरिंग (भरे हुए स्लॉट के लंबे गुच्छे बन जाते हैं जिससे खोज धीमी हो जाती है)",
+        "B": "केवल सेकेंडरी क्लस्टरिंग",
+        "C": "अतिरिक्त पॉइंटर मेमोरी",
+        "D": "संख्या नहीं रख सकता"
       },
-      "correctAnswer": "B",
-      "explanation": "The strict equality operator (===) checks both value and type without performing implicit type coercion.",
-      "explanation_hi": "कड़ा समानता ऑपरेटर (===) बिना प्रकार बदले मान और डेटा टाइप दोनों की जांच करता है।"
+      "correctAnswer": "A",
+      "explanation": "Linear probing causes contiguous filled slots to merge into long runs (primary clustering), increasing average probe counts.",
+      "explanation_hi": "लीनियर प्रोबिंग में भरे हुए स्लॉट्स पास-पास जुड़कर क्लस्टर बना लेते हैं (Primary Clustering)।"
     },
     {
       "id": 15,
       "questionNumber": 15,
       "section": "Computer Science",
-      "topic": "Theory of Computation",
-      "topic_hi": "गणना का सिद्धांत (TOC)",
+      "topic": "Programming and Data Structures",
+      "topic_hi": "प्रोग्रामिंग और डेटा संरचनाएं (DSA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which automaton recognizes Context-Free Languages (CFL)?",
-      "question_hi": "कॉन्टेक्स्ट-फ्री भाषाओं (CFL) को पहचानने के लिए किस ऑटोमेटा का उपयोग होता है?",
+      "question": "In a Binary Search Tree (BST), what traversal yields elements in strictly ASCENDING sorted order?",
+      "question_hi": "बाइनरी सर्च ट्री (BST) में कौन सा ट्रैवर्सल तत्वों को कड़े आरोही (सॉर्टेड) क्रम में देता है?",
       "options": {
-        "A": "Deterministic Finite Automata",
-        "B": "Pushdown Automata (PDA)",
-        "C": "Linear Bounded Automata",
-        "D": "Turing Machine only"
+        "A": "Inorder Traversal (Left, Root, Right)",
+        "B": "Preorder Traversal",
+        "C": "Postorder Traversal",
+        "D": "Level-order Traversal"
       },
       "options_hi": {
-        "A": "नियतात्मक परिमित ऑटोमेटा",
-        "B": "पुशडाउन ऑटोमेटा (PDA)",
-        "C": "लीनियर बाउंडेड ऑटोमेटा",
-        "D": "केवल ट्यूरिंग मशीन"
+        "A": "इनऑर्डर ट्रैवर्सल (Left, Root, Right)",
+        "B": "प्रीऑर्डर ट्रैवर्सल",
+        "C": "पोस्टऑर्डर ट्रैवर्सल",
+        "D": "लेवल-ऑर्डर"
       },
-      "correctAnswer": "B",
-      "explanation": "Pushdown Automata (PDA), which have a single auxiliary stack memory, recognize Context-Free Languages.",
-      "explanation_hi": "पुशडाउन ऑटोमेटा (PDA) अपनी स्टैक मेमोरी की सहायता से कॉन्टेक्स्ट-फ्री भाषाओं को पहचानता है।"
+      "correctAnswer": "A",
+      "explanation": "By BST invariant (Left < Root < Right), in-order traversal visits elements in monotonically non-decreasing order.",
+      "explanation_hi": "BST का इनऑर्डर ट्रैवर्सल हमेशा तत्वों को आरोही (Ascending) क्रम में देता है।"
     },
     {
       "id": 16,
       "questionNumber": 16,
       "section": "Computer Science",
-      "topic": "Internet of Things",
-      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
+      "topic": "Programming and Data Structures",
+      "topic_hi": "प्रोग्रामिंग और डेटा संरचनाएं (DSA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which communication protocol is designed specifically for constrained IoT devices operating over UDP?",
-      "question_hi": "UDP पर चलने वाले सीमित क्षमता वाले IoT उपकरणों हेतु कौन सा प्रोटोकॉल विकसित किया गया है?",
+      "question": "What is the worst-case time complexity of searching in a standard Binary Search Tree?",
+      "question_hi": "एक मानक बाइनरी सर्च ट्री में खोजने की सबसे खराब स्थिति (Worst-case) में समय जटिलता क्या है?",
       "options": {
-        "A": "HTTP",
-        "B": "CoAP",
-        "C": "SMTP",
-        "D": "SSH"
+        "A": "O(n) (when the tree degenerates into a skewed linked list)",
+        "B": "O(log n)",
+        "C": "O(1)",
+        "D": "O(n log n)"
       },
       "options_hi": {
-        "A": "HTTP",
-        "B": "CoAP (कंस्ट्रेंड एप्लीकेशन प्रोटोकॉल)",
-        "C": "एसएमटीपी",
-        "D": "SSH"
+        "A": "O(n) (जब ट्री एक तरफ झुकी हुई स्क्यूड लिस्ट बन जाती है)",
+        "B": "O(log n)",
+        "C": "O(1)",
+        "D": "O(n log n)"
       },
-      "correctAnswer": "B",
-      "explanation": "CoAP (Constrained Application Protocol) provides a lightweight RESTful web transfer protocol over UDP for constrained IoT nodes.",
-      "explanation_hi": "CoAP एक हल्का RESTful प्रोटोकॉल है जिसे IoT सेंसर्स के लिए UDP पर डिज़ाइन किया गया है।"
+      "correctAnswer": "A",
+      "explanation": "If elements are inserted in already sorted order, the BST becomes a skewed line of height n, degrading search to O(n).",
+      "explanation_hi": "यदि तत्व पहले से सॉर्टेड हों तो BST तिरछी रेखा (Skewed) बन जाता है और समय O(n) हो जाता है।"
     },
     {
       "id": 17,
       "questionNumber": 17,
       "section": "Computer Science",
-      "topic": "Artificial Intelligence",
-      "topic_hi": "आर्टिफिशियल इंटेलिजेंस (AI)",
+      "topic": "Programming and Data Structures",
+      "topic_hi": "प्रोग्रामिंग और डेटा संरचनाएं (DSA)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which type of search algorithm always expands the lowest cost node where evaluation function f(n) = g(n) + h(n)?",
-      "question_hi": "कौन सा सर्च एल्गोरिदम f(n) = g(n) + h(n) का उपयोग करके सबसे कम लागत वाले नोड का विस्तार करता है?",
+      "question": "In a Huffman tree constructed for data compression, where are all character symbols located?",
+      "question_hi": "डेटा संपीड़न के लिए निर्मित हफमैन ट्री (Huffman Tree) में सभी वर्ण प्रतीक कहाँ स्थित होते हैं?",
       "options": {
-        "A": "Greedy Best-First Search",
-        "B": "A* Search",
-        "C": "Depth First Search",
-        "D": "Breadth First Search"
+        "A": "Exclusively at the leaf nodes",
+        "B": "Exclusively at the root node",
+        "C": "At internal nodes with single children",
+        "D": "Evenly distributed at all levels"
       },
       "options_hi": {
-        "A": "लालची सर्वोत्तम-प्रथम खोज",
-        "B": "ए* खोजें",
-        "C": "गहराई-प्रथम खोज (DFS)",
-        "D": "चौड़ाई-प्रथम खोज (BFS)"
+        "A": "विशेष रूप से लीफ नोड्स (Leaf Nodes) पर",
+        "B": "केवल रूट नोड पर",
+        "C": "आंतरिक नोड्स पर",
+        "D": "सभी स्तरों पर"
       },
-      "correctAnswer": "B",
-      "explanation": "A* search combines g(n) (path cost from start) and h(n) (estimated heuristic cost to goal) for optimal search.",
-      "explanation_hi": "A* सर्च वास्तविक लागत g(n) और अनुमानित लागत h(n) दोनों को जोड़कर सबसे अनुकूल रास्ता खोजता है।"
+      "correctAnswer": "A",
+      "explanation": "Huffman codes are prefix-free because all alphabet symbols reside strictly at external leaf nodes.",
+      "explanation_hi": "हफमैन कोड प्रीफिक्स-फ्री होते हैं क्योंकि सभी वर्ण केवल लीफ (पत्ती) नोड्स पर होते हैं।"
     },
     {
       "id": 18,
       "questionNumber": 18,
       "section": "Computer Science",
-      "topic": "Fundamental of E-Commerce",
-      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम (Algorithms)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which security protocol provides transport-layer encryption for secure online financial transactions?",
-      "question_hi": "सुरक्षित ऑनलाइन वित्तीय लेनदेन के लिए ट्रांसपोर्ट-लेयर पर कौन सा एन्क्रिप्शन प्रोटोकॉल सुरक्षा देता है?",
+      "question": "Which sorting algorithm has a worst-case time complexity of O(n log n) and sorts IN-PLACE without requiring auxiliary O(n) memory?",
+      "question_hi": "किस सॉर्टिंग एल्गोरिदम की सबसे खराब स्थिति में O(n log n) समय जटिलता होती है और यह बिना अतिरिक्त O(n) मेमोरी के इन-प्लेस सॉर्ट करता है?",
       "options": {
-        "A": "SSL / TLS",
-        "B": "FTP",
-        "C": "TELNET",
-        "D": "TFTP"
+        "A": "Heap Sort",
+        "B": "Merge Sort",
+        "C": "Quick Sort",
+        "D": "Bubble Sort"
       },
       "options_hi": {
-        "A": "एसएसएल/टीएलएस",
-        "B": "FTP",
-        "C": "टेलनेट",
-        "D": "टीएफटीपी"
+        "A": "हीप सॉर्ट (Heap Sort)",
+        "B": "मर्ज सॉर्ट",
+        "C": "क्विक सॉर्ट",
+        "D": "बबल सॉर्ट"
       },
       "correctAnswer": "A",
-      "explanation": "SSL/TLS encrypts communication between the client web browser and server, establishing secure HTTPS sessions.",
-      "explanation_hi": "SSL/TLS प्रोटोकॉल ब्राउज़र और सर्वर के बीच संचार को एन्क्रिप्ट करके सुरक्षित HTTPS सत्र प्रदान करता है।"
+      "explanation": "Heap sort achieves guaranteed O(n log n) in all cases while using O(1) auxiliary space, unlike Merge Sort which requires O(n) buffer.",
+      "explanation_hi": "हीप सॉर्ट O(n log n) में इन-प्लेस (O(1) मेमोरी) में सॉर्टिंग करता है।"
     },
     {
       "id": 19,
       "questionNumber": 19,
       "section": "Computer Science",
-      "topic": "Multimedia",
-      "topic_hi": "मल्टीमीडिया तकनीक",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम (Algorithms)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which vector graphic format is an open XML-based W3C standard that scales without quality loss?",
-      "question_hi": "कौन सा वेक्टर ग्राफ़िक प्रारूप XML पर आधारित है और बिना गुणवत्ता खोए किसी भी आकार में ज़ूम हो सकता है?",
+      "question": "What is the worst-case time complexity of Quick Sort, and when does it occur?",
+      "question_hi": "क्विक सॉर्ट (Quick Sort) की सबसे खराब समय जटिलता क्या है और यह कब होती है?",
       "options": {
-        "A": "BMP",
-        "B": "SVG",
-        "C": "GIF",
-        "D": "TIFF"
+        "A": "O(n^2), occurs when the pivot chosen is consistently the smallest or largest element (e.g., sorted array with first element as pivot)",
+        "B": "O(n log n), occurs on random inputs",
+        "C": "O(n), occurs on reverse sorted array",
+        "D": "O(log n)"
       },
       "options_hi": {
-        "A": "BMP",
-        "B": "SVG (स्केलेबल वेक्टर ग्राफिक्स)",
-        "C": "GIF",
-        "D": "मनमुटाव"
+        "A": "O(n^2), तब होता है जब चुना गया पिवट लगातार सबसे छोटा या सबसे बड़ा तत्व हो",
+        "B": "O(n log n)",
+        "C": "O(n)",
+        "D": "O(log n)"
       },
-      "correctAnswer": "B",
-      "explanation": "Scalable Vector Graphics (SVG) represents shapes and lines mathematically, allowing infinite resolution-independent scaling.",
-      "explanation_hi": "SVG गणितीय रेखाओं और आकृतियों पर आधारित वेक्टर प्रारूप है जो ज़ूम करने पर भी अपनी स्पष्टता नहीं खोता।"
+      "correctAnswer": "A",
+      "explanation": "When partitions are maximally unbalanced (1 element and n-1 elements), recursion depth is n, yielding O(n^2) runtime.",
+      "explanation_hi": "यदि पिवट सबसे छोटा या बड़ा तत्व हो तो विभाजन 1 और n-1 में होता है जिससे समय O(n^2) हो जाता है।"
     },
     {
       "id": 20,
       "questionNumber": 20,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम (Algorithms)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the simplified expression for the Boolean function F(A, B, C) = Σm(1, 3, 5, 7) using Boolean algebra or K-Map?",
-      "question_hi": "बूलियन बीजगणित या K-मैप का उपयोग करके बूलियन फ़ंक्शन F(A, B, C) = Σm(1, 3, 5, 7) के लिए सरलीकृत अभिव्यक्ति क्या है?",
+      "question": "Which sorting algorithm is STABLE by nature among the following options?",
+      "question_hi": "निम्नलिखित में से कौन सा सॉर्टिंग एल्गोरिदम स्वभाव से स्थिर (Stable) है?",
       "options": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "A'B'"
+        "A": "Merge Sort",
+        "B": "Heap Sort",
+        "C": "Quick Sort",
+        "D": "Selection Sort"
       },
       "options_hi": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "ए'बी'"
+        "A": "मर्ज सॉर्ट (Merge Sort)",
+        "B": "हीप सॉर्ट",
+        "C": "क्विक सॉर्ट",
+        "D": "सिलेक्शन सॉर्ट"
       },
-      "correctAnswer": "C",
-      "explanation": "Minterms 1 (001), 3 (011), 5 (101), 7 (111) group into a 4-cell quad in a 3-variable K-Map. In these terms, A and B both vary (0 and 1), while C is constant at 1. Hence, the minimized SOP term is C.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Merge Sort preserves the relative order of duplicate elements during the merge phase, making it inherently stable.",
+      "explanation_hi": "मर्ज सॉर्ट समान मान वाले तत्वों के मूल क्रम को बनाए रखता है (स्थिर सॉर्ट)।"
     },
     {
       "id": 21,
       "questionNumber": 21,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम (Algorithms)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "How many select lines are required for a 64-to-1 Multiplexer (MUX)?",
-      "question_hi": "64-टू-1 मल्टीप्लेक्सर (एमयूएक्स) के लिए कितनी चुनिंदा लाइनें आवश्यक हैं?",
+      "question": "What is the time complexity of Counting Sort for sorting n integers in the range 0 to k?",
+      "question_hi": "0 से k की सीमा में n पूर्णांकों को सॉर्ट करने के लिए काउंटिंग सॉर्ट (Counting Sort) की समय जटिलता क्या है?",
       "options": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "8"
+        "A": "O(n + k)",
+        "B": "O(n log n)",
+        "C": "O(n * k)",
+        "D": "O(k log n)"
       },
       "options_hi": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "8"
+        "A": "O(n + k)",
+        "B": "O(n log n)",
+        "C": "O(n * k)",
+        "D": "O(k log n)"
       },
-      "correctAnswer": "C",
-      "explanation": "For a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Counting sort tallies frequencies in an auxiliary array of size k, running in linear time O(n + k).",
+      "explanation_hi": "काउंटिंग सॉर्ट तुलना किए बिना O(n + k) लीनियर समय में सॉर्ट करता है।"
     },
     {
       "id": 22,
       "questionNumber": 22,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम (Algorithms)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a J-K flip flop, what condition produces the 'Toggle' output mode?",
-      "question_hi": "जे-के फ्लिप फ्लॉप में, कौन सी स्थिति 'टॉगल' आउटपुट मोड उत्पन्न करती है?",
+      "question": "Which algorithm finds the Minimum Spanning Tree (MST) of a connected graph by greedily adding the cheapest edge that does not form a cycle?",
+      "question_hi": "कौन सा एल्गोरिदम बिना चक्र बनाए सबसे सस्ती एज जोड़कर ग्राफ का न्यूनतम स्पैनिंग ट्री (MST) बनाता है?",
       "options": {
-        "A": "J = 0, K = 0",
-        "B": "J = 0, K = 1",
-        "C": "J = 1, K = 0",
-        "D": "J = 1, K = 1"
+        "A": "Kruskal's Algorithm (using Disjoint Set Union)",
+        "B": "Prim's Algorithm",
+        "C": "Dijkstra's Algorithm",
+        "D": "Bellman-Ford Algorithm"
       },
       "options_hi": {
-        "A": "जे = 0, के = 0",
-        "B": "जे = 0, के = 1",
-        "C": "जे = 1, के = 0",
-        "D": "जे = 1, के = 1"
+        "A": "क्रुस्कल का एल्गोरिदम (Kruskal's Algorithm)",
+        "B": "प्रिम्स एल्गोरिदम",
+        "C": "डिजक्स्ट्रा",
+        "D": "बेलमैन-फोर्ड"
       },
-      "correctAnswer": "D",
-      "explanation": "In a JK flip-flop: When J=0, K=0 -> No change (Memory); J=0, K=1 -> Reset (Q=0); J=1, K=0 -> Set (Q=1); J=1, K=1 -> Toggle (Q(t+1) = Q'(t)).",
-      "explanation_hi": "सही विकल्प (D) है।"
+      "correctAnswer": "A",
+      "explanation": "Kruskal sorts all edges by weight and uses Union-Find to incrementally unite components without creating cycles.",
+      "explanation_hi": "क्रुस्कल एल्गोरिदम किनारों को भार अनुसार सॉर्ट करके चक्र रहित न्यूनतम स्पैनिंग ट्री बनाता है।"
     },
     {
       "id": 23,
       "questionNumber": 23,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम (Algorithms)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following logic families exhibits the highest switching speed and lowest propagation delay?",
-      "question_hi": "निम्नलिखित में से कौन सा तर्क परिवार उच्चतम स्विचिंग गति और सबसे कम प्रसार विलंब प्रदर्शित करता है?",
+      "question": "What is the time complexity of Prim's Algorithm implemented using a Binary Min-Heap for a graph with V vertices and E edges?",
+      "question_hi": "V शीर्षों और E किनारों वाले ग्राफ के लिए बाइनरी मिन-हीप का उपयोग करके प्रिम्स एल्गोरिदम की समय जटिलता क्या है?",
       "options": {
-        "A": "TTL (Transistor-Transistor Logic)",
-        "B": "ECL (Emitter-Coupled Logic)",
-        "C": "CMOS",
-        "D": "NMOS"
+        "A": "O(E log V)",
+        "B": "O(V^2)",
+        "C": "O(V log E)",
+        "D": "O(E + V)"
       },
       "options_hi": {
-        "A": "टीटीएल (ट्रांजिस्टर-ट्रांजिस्टर लॉजिक)",
-        "B": "ईसीएल (एमिटर-युग्मित तर्क)",
-        "C": "सीएमओएस",
-        "D": "एनएमओएस"
+        "A": "O(E log V)",
+        "B": "O(V^2)",
+        "C": "O(V log E)",
+        "D": "O(E + V)"
       },
-      "correctAnswer": "B",
-      "explanation": "ECL (Emitter-Coupled Logic) operates its transistors in the non-saturated active region rather than saturation, eliminating storage time delay and achieving propagation delays below 1 nanosecond (fastest among conventional families).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "With a min-heap, extract-min takes O(log V) and decrease-key takes O(log V), yielding total time O(E log V).",
+      "explanation_hi": "बाइनरी मिन-हीप के साथ प्रिम्स एल्गोरिदम O(E log V) समय लेता है।"
     },
     {
       "id": 24,
       "questionNumber": 24,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम (Algorithms)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "An 8-bit digital-to-analog converter (DAC) has a reference voltage of 5V. What is the approximate resolution (step size)?",
-      "question_hi": "8-बिट डिजिटल-टू-एनालॉग कनवर्टर (डीएसी) का संदर्भ वोल्टेज 5V है। अनुमानित रिज़ॉल्यूशन (चरण आकार) क्या है?",
+      "question": "In Dynamic Programming, what are the two essential properties a problem must possess to be solvable efficiently?",
+      "question_hi": "डायनामिक प्रोग्रामिंग में किसी समस्या को कुशलता से हल करने के लिए किन दो आवश्यक गुणों का होना अनिवार्य है?",
       "options": {
-        "A": "19.5 mV",
-        "B": "39.1 mV",
-        "C": "9.8 mV",
-        "D": "62.5 mV"
+        "A": "Optimal Substructure and Overlapping Subproblems",
+        "B": "Greedy Choice and Non-overlapping subproblems",
+        "C": "Linear Time and Constant Space",
+        "D": "Divide and Conquer only"
       },
       "options_hi": {
-        "A": "19.5 एमवी",
-        "B": "39.1 एमवी",
-        "C": "9.8 एमवी",
-        "D": "62.5 एमवी"
+        "A": "इष्टतम उप-संरचना (Optimal Substructure) और ओवरलैपिंग उप-समस्याएं (Overlapping Subproblems)",
+        "B": "लालची विकल्प",
+        "C": "लीनियर टाइम",
+        "D": "केवल डिवाइड एंड कॉन्कर"
       },
       "correctAnswer": "A",
-      "explanation": "Resolution = V_ref / (2ⁿ - 1) = 5V / (2⁸ - 1) = 5V / 255 ≈ 19.6 mV (or 5V / 256 ≈ 19.53 mV).",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "DP solves problems where subproblem solutions overlap (memoization avoids redundant work) and combine into an optimal overall solution.",
+      "explanation_hi": "DP के लिए दो मुख्य गुण हैं: इष्टतम उप-संरचना और बार-बार आने वाली ओवरलैपिंग उप-समस्याएं।"
     },
     {
       "id": 25,
       "questionNumber": 25,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम (Algorithms)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the canonical representation form that expresses a Boolean function as a product of sum terms called?",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the canonical representation form that expresses a Boolean function as a product of sum terms called के संबंध में सही कथन या मान क्या है?",
+      "question": "What is the time complexity of the 0/1 Knapsack Problem using Dynamic Programming with n items and knapsack capacity W?",
+      "question_hi": "n वस्तुओं और W क्षमता वाले 0/1 नैपसैक समस्या की डायनामिक प्रोग्रामिंग द्वारा समय जटिलता क्या है?",
       "options": {
-        "A": "Minterm form",
-        "B": "Maxterm / POS form",
-        "C": "Dual form",
-        "D": "Disjunctive Normal Form"
+        "A": "O(n * W) (pseudo-polynomial time)",
+        "B": "O(2^n)",
+        "C": "O(n log n)",
+        "D": "O(W log n)"
       },
       "options_hi": {
-        "A": "मिन्टर्म फॉर्म",
-        "B": "Maxterm / POS form",
-        "C": "दोहरा रूप",
-        "D": "विच्छेदनात्मक सामान्य रूप"
+        "A": "O(n * W) (स्यूडो-पॉलीनोमियल समय)",
+        "B": "O(2^n)",
+        "C": "O(n log n)",
+        "D": "O(W log n)"
       },
-      "correctAnswer": "B",
-      "explanation": "Product of Sums (POS) expresses a logic function as the AND combination (product) of OR terms (sums/maxterms), denoted by ΠM.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "A 2D DP table of dimensions (n+1) x (W+1) is filled, taking O(n*W) time, which is pseudo-polynomial.",
+      "explanation_hi": "DP तालिका का आकार n x W होता है, अतः समय जटिलता O(n * W) होती है।"
     },
     {
       "id": 26,
       "questionNumber": 26,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a programmable logic array (PLA), which gate arrays are programmable?",
-      "question_hi": "प्रोग्रामयोग्य लॉजिक ऐरे (PLA) में, कौन से गेट ऐरे प्रोग्रामयोग्य हैं?",
+      "question": "What is the primary objective of the Shortest Job First (SJF) CPU scheduling algorithm?",
+      "question_hi": "शॉर्टेस्ट जॉब फर्स्ट (SJF) सीपीयू शेड्यूलिंग एल्गोरिदम का प्राथमिक उद्देश्य क्या है?",
       "options": {
-        "A": "AND array is fixed, OR array is programmable",
-        "B": "Both AND array and OR array are programmable",
-        "C": "AND array is programmable, OR array is fixed",
-        "D": "Neither array is programmable"
+        "A": "Minimizes average waiting time for a given set of processes",
+        "B": "Guarantees no starvation",
+        "C": "Maximizes CPU idle time",
+        "D": "Ensures equal time slices"
       },
       "options_hi": {
-        "A": "और ऐरे निश्चित है, या ऐरे प्रोग्रामयोग्य है",
-        "B": "AND ऐरे और OR ऐरे दोनों प्रोग्रामयोग्य हैं",
-        "C": "और ऐरे प्रोग्रामयोग्य है, या ऐरे निश्चित है",
-        "D": "कोई भी ऐरे प्रोग्राम करने योग्य नहीं है"
+        "A": "प्रक्रियाओं के दिए गए सेट के लिए औसत प्रतीक्षा समय को न्यूनतम करता है",
+        "B": "स्टारवेशन समाप्त करता है",
+        "C": "सीपीयू खाली रखता है",
+        "D": "समान टाइम स्लाइस देता है"
       },
-      "correctAnswer": "B",
-      "explanation": "In a PLA, BOTH the AND array and the OR array are programmable. (In a PAL, the AND array is programmable while the OR array is fixed; in a PROM, the AND array is fixed while the OR array is programmable).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "SJF is provably optimal in minimizing the average waiting time among non-preemptive scheduling algorithms.",
+      "explanation_hi": "SJF न्यूनतम औसत प्रतीक्षा समय देने के लिए गणितीय रूप से इष्टतम है।"
     },
     {
       "id": 27,
       "questionNumber": 27,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "Computer Organization & Architecture",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the maximum addressable memory capacity of a CPU with a 32-bit address bus and byte-addressable architecture?",
-      "question_hi": "32-बिट एड्रेस बस और बाइट-एड्रेसेबल आर्किटेक्चर वाले सीपीयू की अधिकतम एड्रेसेबल मेमोरी क्षमता क्या है?",
+      "question": "Which CPU scheduling algorithm gives each process a small fixed unit of CPU time called a 'Time Quantum'?",
+      "question_hi": "कौन सा सीपीयू शेड्यूलिंग एल्गोरिदम प्रत्येक प्रक्रिया को 'टाइम क्वांटम' (Time Quantum) नामक सीपीयू समय की एक निश्चित इकाई देता है?",
       "options": {
-        "A": "1 GB",
-        "B": "2 GB",
-        "C": "4 GB",
-        "D": "8 GB"
+        "A": "Round Robin (RR) Scheduling",
+        "B": "First-Come First-Served",
+        "C": "Multilevel Feedback Queue only",
+        "D": "Shortest Remaining Time First"
       },
       "options_hi": {
-        "A": "1 जीबी",
-        "B": "2 जीबी",
-        "C": "4 जीबी",
-        "D": "8 जीबी"
+        "A": "राउंड रॉबिन (Round Robin) शेड्यूलिंग",
+        "B": "FCFS",
+        "C": "केवल फीडबैक कतार",
+        "D": "SRTF"
       },
-      "correctAnswer": "C",
-      "explanation": "A 32-bit address bus can generate 2³² unique addresses. With byte addressability (1 byte per address), total addressable space = 2³² bytes = 4,294,967,296 bytes = 4 GB.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Round Robin assigns equal time slices circularly, ensuring fairness and responsiveness in interactive systems.",
+      "explanation_hi": "राउंड रॉबिन प्रत्येक प्रोसेस को एक निश्चित टाइम क्वांटम देकर चक्रीय क्रम में चलाता है।"
     },
     {
       "id": 28,
       "questionNumber": 28,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "Computer Organization & Architecture",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In 8086 microprocessor architecture, which register holds the offset address of the instruction to be fetched from the code segment?",
-      "question_hi": "8086 माइक्रोप्रोसेसर आर्किटेक्चर में, कौन सा रजिस्टर कोड सेगमेंट से प्राप्त किए जाने वाले निर्देश का ऑफसेट पता रखता है?",
+      "question": "If the time quantum in Round Robin scheduling is set extremely large (larger than the longest burst time), how does it behave?",
+      "question_hi": "यदि राउंड रॉबिन शेड्यूलिंग में टाइम क्वांटम बहुत बड़ा कर दिया जाए, तो यह किस एल्गोरिदम की तरह व्यवहार करने लगता है?",
       "options": {
-        "A": "Stack Pointer (SP)",
-        "B": "Instruction Pointer (IP)",
-        "C": "Base Pointer (BP)",
-        "D": "Source Index (SI)"
+        "A": "It degenerates into First-Come, First-Served (FCFS) scheduling",
+        "B": "It behaves like Shortest Job First",
+        "C": "It produces severe thrashing",
+        "D": "It deadlocks all processes"
       },
       "options_hi": {
-        "A": "स्टैक पॉइंटर (एसपी)",
-        "B": "निर्देश सूचक (आईपी)",
-        "C": "बेस पॉइंटर (बीपी)",
-        "D": "स्रोत सूचकांक (एसआई)"
+        "A": "यह फर्स्ट-कम, फर्स्ट-सर्व्ड (FCFS) शेड्यूलिंग में बदल जाता है",
+        "B": "SJF बन जाता है",
+        "C": "थ्रैशिंग होती है",
+        "D": "डेडलॉक हो जाता है"
       },
-      "correctAnswer": "B",
-      "explanation": "The Instruction Pointer (IP) holds the 16-bit offset of the next instruction within the Code Segment (CS). Physical address = (CS × 16) + IP.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "With an infinite time quantum, no process is preempted before completion, matching FCFS FIFO queue execution.",
+      "explanation_hi": "यदि टाइम स्लाइस बहुत बड़ा हो तो कोई प्रीमेम्प्शन नहीं होता और यह FCFS बन जाता है।"
     },
     {
       "id": 29,
       "questionNumber": 29,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "Computer Organization & Architecture",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which cache mapping technique allows a main memory block to be loaded into any available cache block line?",
-      "question_hi": "कौन सी कैश मैपिंग तकनीक मुख्य मेमोरी ब्लॉक को किसी भी उपलब्ध कैश ब्लॉक लाइन में लोड करने की अनुमति देती है?",
+      "question": "What is the purpose of the 'Aging' technique in priority-based CPU scheduling?",
+      "question_hi": "प्राथमिकता-आधारित सीपीयू शेड्यूलिंग में 'एजिंग' (Aging) तकनीक का क्या उद्देश्य है?",
       "options": {
-        "A": "Direct Mapping",
-        "B": "Fully Associative Mapping",
-        "C": "Set-Associative Mapping",
-        "D": "Sector Mapping"
+        "A": "Gradually increases the priority of processes that wait in the system for a long time, preventing starvation",
+        "B": "Terminates old processes",
+        "C": "Frees memory buffers",
+        "D": "Reduces clock speed"
       },
       "options_hi": {
-        "A": "प्रत्यक्ष मानचित्रण",
-        "B": "पूरी तरह से सहयोगी मानचित्रण",
-        "C": "सेट-एसोसिएटिव मैपिंग",
-        "D": "सेक्टर मैपिंग"
+        "A": "सिस्टम में लंबे समय तक प्रतीक्षा करने वाली प्रक्रियाओं की प्राथमिकता को धीरे-धीरे बढ़ाता है, जिससे भुखमरी (Starvation) रुकती है",
+        "B": "पुरानी प्रोसेस बंद करता है",
+        "C": "मेमोरी खाली करता है",
+        "D": "स्पीड कम करता है"
       },
-      "correctAnswer": "B",
-      "explanation": "In Fully Associative Mapping, a memory block can be placed in any cache line. It offers the lowest conflict miss rate but requires an associative (content-addressable) comparison across all cache tags.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Aging prevents low-priority processes from starving indefinitely by monotonically incrementing their priority over time.",
+      "explanation_hi": "एजिंग प्रतीक्षा कर रही निचली प्राथमिकता वाली प्रोसेस की प्राथमिकता बढ़ाकर भुखमरी रोकती है।"
     },
     {
       "id": 30,
       "questionNumber": 30,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "Computer Organization & Architecture",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Booth's multiplication algorithm, what action is performed when the two least significant multiplier bits (Q0, Q-1) are '10'?",
-      "question_hi": "Booth's multiplication algorithm में, action is performed when the two least significant multiplier bits (Q0, Q-1) are '10' क्या है?",
+      "question": "What is a 'Critical Section' in concurrent programming?",
+      "question_hi": "समवर्ती प्रोग्रामिंग (Concurrent Programming) में 'क्रिटिकल सेक्शन' (Critical Section) क्या है?",
       "options": {
-        "A": "Add multiplicand to accumulator and shift",
-        "B": "Subtract multiplicand from accumulator and arithmetic shift right",
-        "C": "Arithmetic shift right only",
-        "D": "Rotate accumulator left"
+        "A": "A section of code that accesses shared resources (memory, variables, files) that must not be concurrently executed by more than one process",
+        "B": "The operating system bootloader code",
+        "C": "An error handling block",
+        "D": "Code running in user mode"
       },
       "options_hi": {
-        "A": "संचायक में गुणक जोड़ें और शिफ्ट करें",
-        "B": "संचायक से गुणक घटाएं और अंकगणित को दाईं ओर शिफ्ट करें",
-        "C": "केवल अंकगणित सही बदलाव",
-        "D": "संचायक को बाएँ घुमाएँ"
+        "A": "कोड का वह भाग जो साझा संसाधनों तक पहुँचता है और जिसे एक समय में एक से अधिक प्रोसेस द्वारा निष्पादित नहीं किया जाना चाहिए",
+        "B": "बूटलोडर कोड",
+        "C": "एरर ब्लॉक",
+        "D": "यूज़र मोड कोड"
       },
-      "correctAnswer": "B",
-      "explanation": "In Booth's algorithm: '00' or '11' -> Shift right only; '01' -> Add multiplicand and shift right; '10' -> Subtract multiplicand (add 2's complement) and shift right.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "The critical section is where shared state is mutated; mutual exclusion ensures only one process executes it at any instant.",
+      "explanation_hi": "क्रिटिकल सेक्शन में साझा मेमोरी या फाइलों पर कार्य होता है जिसे परस्पर अपवर्जन से सुरक्षित रखा जाता है।"
     },
     {
       "id": 31,
       "questionNumber": 31,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "Computer Organization & Architecture",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is a non-volatile optical or semiconductor memory that can be erased electrically in flash blocks?",
-      "question_hi": "निम्नलिखित में से कौन सी एक गैर-वाष्पशील ऑप्टिकल या अर्धचालक मेमोरी है जिसे फ्लैश ब्लॉक में विद्युत रूप से मिटाया जा सकता है?",
+      "question": "In Dijkstra's Semaphore abstraction, what operation does the 'wait()' or 'P()' primitive perform?",
+      "question_hi": "डिजक्स्ट्रा के सेमाफोर में 'wait()' या 'P()' प्रिमिटिव क्या ऑपरेशन करता है?",
       "options": {
-        "A": "SRAM",
-        "B": "DRAM",
-        "C": "EEPROM / Flash Memory",
-        "D": "Mask ROM"
+        "A": "Decrements the semaphore value; blocks if value becomes negative (< 0)",
+        "B": "Increments the semaphore value and wakes a waiting process",
+        "C": "Initializes semaphore to 1",
+        "D": "Destroys the semaphore"
       },
       "options_hi": {
-        "A": "एसआरएएम",
-        "B": "घूंट",
-        "C": "EEPROM / Flash Memory",
-        "D": "मास्क रॉम"
+        "A": "सेमाफोर के मान को घटाता है; यदि मान ऋणात्मक (< 0) हो जाता है तो प्रक्रिया को ब्लॉक करता है",
+        "B": "मान बढ़ाता है",
+        "C": "1 पर सेट करता है",
+        "D": "नष्ट करता है"
       },
-      "correctAnswer": "C",
-      "explanation": "EEPROM (Electrically Erasable Programmable ROM) and Flash memory can be erased and reprogrammed electrically at the block or byte level without UV exposure.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "P() (proberen / wait): S = S - 1; if S < 0, suspend calling process on semaphore queue.",
+      "explanation_hi": "wait (P) ऑपरेशन सेमाफोर मान को 1 घटाता है और शून्य से कम होने पर प्रोसेस को रोक देता है।"
     },
     {
       "id": 32,
       "questionNumber": 32,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "Computer Organization & Architecture",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Excess-3 code representation of the decimal digit 7?",
-      "question_hi": "दशमलव अंक 7 का अतिरिक्त-3 कोड प्रतिनिधित्व क्या है?",
+      "question": "What operation does the 'signal()' or 'V()' primitive perform on a semaphore?",
+      "question_hi": "सेमाफोर पर 'signal()' या 'V()' प्रिमिटिव क्या ऑपरेशन करता है?",
       "options": {
-        "A": "0111",
-        "B": "1010",
-        "C": "1001",
-        "D": "0100"
+        "A": "Increments the semaphore value; wakes up a blocked process if any are waiting",
+        "B": "Decrements the value",
+        "C": "Sets value to zero",
+        "D": "Terminates the calling process"
       },
       "options_hi": {
-        "A": "0111",
-        "B": "1010",
-        "C": "1001",
-        "D": "0100"
+        "A": "सेमाफोर के मान को बढ़ाता है; यदि कोई प्रक्रिया कतार में प्रतीक्षारत है तो उसे जगाता है",
+        "B": "मान घटाता है",
+        "C": "शून्य करता है",
+        "D": "प्रोसेस समाप्त करता है"
       },
-      "correctAnswer": "B",
-      "explanation": "Excess-3 code is obtained by adding 3 (0011) to the decimal value: 7 + 3 = 10, which in 4-bit binary is 1010.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "V() (verhogen / signal): S = S + 1; if S <= 0, wake up one blocked process from the semaphore wait queue.",
+      "explanation_hi": "signal (V) ऑपरेशन मान को 1 बढ़ाता है और रुकी हुई प्रोसेस को जागृत करता है।"
     },
     {
       "id": 33,
       "questionNumber": 33,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "Programming & Data Structures",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a row-major 2D array A[1..M, 1..N] stored starting at base address B with element size S, what is the address formula for element A[i, j]?",
-      "question_hi": "पंक्ति-प्रमुख 2D सरणी A[1..M, 1..N] में तत्व आकार S के साथ आधार पता B से शुरू करके संग्रहीत किया जाता है, तत्व A[i, j] के लिए पता सूत्र क्या है?",
+      "question": "What is 'Internal Fragmentation' in memory management?",
+      "question_hi": "मेमोरी प्रबंधन में 'आंतरिक विखंडन' (Internal Fragmentation) क्या है?",
       "options": {
-        "A": "B + [(i - 1) * N + (j - 1)] * S",
-        "B": "B + [(j - 1) * M + (i - 1)] * S",
-        "C": "B + [i * N + j] * S",
-        "D": "B + [(i - 1) + (j - 1) * N] * S"
+        "A": "Unused allocated memory space remaining inside a partition or page frame because the process is smaller than the allocated block",
+        "B": "Unallocated scattered holes between processes",
+        "C": "Hard disk sector wear",
+        "D": "Virtual page thrashing"
       },
       "options_hi": {
-        "A": "बी + [(आई - 1) * एन + (जे - 1)] * एस",
-        "B": "बी + [(जे - 1) * एम + (आई - 1)] * एस",
-        "C": "बी + [आई * एन + जे] * एस",
-        "D": "बी + [(आई - 1) + (जे - 1) * एन] * एस"
+        "A": "किसी पार्टीशन या पेज फ्रेम के अंदर अप्रयुक्त बची हुई जगह क्योंकि प्रक्रिया आवंटित ब्लॉक से छोटी है",
+        "B": "बाहरी खाली छेद",
+        "C": "डिस्क खराबी",
+        "D": "थ्रैशिंग"
       },
       "correctAnswer": "A",
-      "explanation": "In row-major order, rows are placed contiguously in memory. To reach row i, you skip (i - 1) complete rows of N elements each, and then move (j - 1) elements into row i. Hence: Address = Base + [((i - 1) * N) + (j - 1)] * S.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Internal fragmentation occurs when fixed-sized blocks (e.g., 4KB pages) are allocated to processes requesting less memory, leaving wasted interior slack.",
+      "explanation_hi": "जब आवंटित ब्लॉक प्रोसेस के आकार से बड़ा होता है, तो ब्लॉक के अंदर बची जगह आंतरिक विखंडन कहलाती है।"
     },
     {
       "id": 34,
       "questionNumber": 34,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "Programming & Data Structures",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the equivalent postfix expression for the infix expression: A + B * C - D / E?",
-      "question_hi": "इनफ़िक्स अभिव्यक्ति के लिए समकक्ष पोस्टफ़िक्स अभिव्यक्ति क्या है: ए + बी * सी - डी / ई?",
+      "question": "What is 'External Fragmentation', and how can it be eliminated in contiguous memory allocation?",
+      "question_hi": "'बाहरी विखंडन' (External Fragmentation) क्या है और सन्निहित आवंटन में इसे कैसे समाप्त किया जाता है?",
       "options": {
-        "A": "A B C * + D E / -",
-        "B": "A B + C * D - E /",
-        "C": "A B C * D E / - +",
-        "D": "+ A * B C - / D E"
+        "A": "Total free memory is sufficient to satisfy a request, but it is split into non-contiguous small fragments; solved by Compaction or Paging",
+        "B": "Space wasted inside a page",
+        "C": "Cache line conflict",
+        "D": "Buffer overflow"
       },
       "options_hi": {
-        "A": "ए बी सी * + डी ई / -",
-        "B": "ए बी + सी * डी - ई /",
-        "C": "ए बी सी * डी ई / - +",
-        "D": "+ ए * बी सी - / डी ई"
+        "A": "कुल खाली मेमोरी पर्याप्त है लेकिन वह छोटे-छोटे बिखरे टुकड़ों में बंटी है; इसे कॉम्पेक्शन या पेजिंग द्वारा हल किया जाता है",
+        "B": "पेज के अंदर बर्बादी",
+        "C": "कैश संघर्ष",
+        "D": "बफर ओवरफ्लो"
       },
       "correctAnswer": "A",
-      "explanation": "Operator precedence: * and / have higher precedence than + and -. 1. (B * C) -> B C *; 2. A + (B C *) -> A B C * +; 3. (D / E) -> D E /; 4. (A B C * +) - (D E /) -> A B C * + D E / -.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "External fragmentation occurs when dynamic allocation leaves scattered free holes. Compaction (shuffling memory) or non-contiguous paging eliminates it.",
+      "explanation_hi": "बाहरी विखंडन में खाली जगह बिखरी होती है। इसे कॉम्पेक्शन (मेमोरी रीलोकेशन) द्वारा ठीक किया जाता है।"
     },
     {
       "id": 35,
       "questionNumber": 35,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "Programming & Data Structures",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the time complexity to search for a key in a balanced AVL tree with n nodes?",
-      "question_hi": "n नोड्स वाले संतुलित AVL ट्री में कुंजी खोजने में समय की जटिलता क्या है?",
+      "question": "In paging systems, what is the formula to compute the Physical Address given a logical address divided into Page Number (p) and Offset (d)?",
+      "question_hi": "पेजिंग सिस्टम में, पेज नंबर (p) और ऑफसेट (d) में विभाजित लॉजिकल एड्रेस से भौतिक पता (Physical Address) निकालने का सूत्र क्या है?",
       "options": {
-        "A": "O(1)",
-        "B": "O(log n)",
-        "C": "O(n)",
-        "D": "O(n log n)"
+        "A": "Physical Address = (Frame Number f from Page Table) * Frame Size + Offset d",
+        "B": "Physical Address = Page Number * Page Size",
+        "C": "Physical Address = Offset * Frame Size",
+        "D": "Physical Address = Page Table Base + Offset"
       },
       "options_hi": {
-        "A": "हे(1)",
-        "B": "ओ(लॉग एन)",
-        "C": "पर)",
-        "D": "ओ(एन लॉग एन)"
+        "A": "भौतिक पता = (पेज टेबल से प्राप्त फ्रेम नंबर f) * फ्रेम साइज + ऑफसेट d",
+        "B": "पेज नंबर * साइज",
+        "C": "ऑफसेट * साइज",
+        "D": "बेस + ऑफसेट"
       },
-      "correctAnswer": "B",
-      "explanation": "An AVL tree is strictly balanced with maximum height bounded by 1.44 log₂(n). Therefore, search, insertion, and deletion operations all take guaranteed O(log n) time.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "The MMU looks up frame f for page p, then appends or computes Physical Address = f * Frame_Size + d.",
+      "explanation_hi": "पेज नंबर p से फ्रेम f प्राप्त कर भौतिक पता = f * फ्रेम आकार + d निकाला जाता है।"
     },
     {
       "id": 36,
       "questionNumber": 36,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "Programming & Data Structures",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which data structure is fundamentally used for the Breadth-First Search (BFS) graph traversal algorithm?",
-      "question_hi": "ब्रेडथ-फर्स्ट सर्च (बीएफएस) ग्राफ ट्रैवर्सल एल्गोरिदम के लिए मूल रूप से कौन सी डेटा संरचना का उपयोग किया जाता है?",
+      "question": "In JavaScript, what is a 'Closure'?",
+      "question_hi": "जावास्क्रिप्ट में 'क्लोज़र' (Closure) क्या है?",
       "options": {
-        "A": "Stack",
-        "B": "Queue",
-        "C": "Priority Queue",
-        "D": "Binary Tree"
+        "A": "A function bundled together with references to its surrounding lexical environment (access to outer variables even after the outer function has returned)",
+        "B": "A function that terminates the browser tab",
+        "C": "A method to close database connections",
+        "D": "A syntax error"
       },
       "options_hi": {
-        "A": "स्टैक (Stack)",
-        "B": "कतार (Queue)",
-        "C": "प्राथमिकता कतार",
-        "D": "बाइनरी ट्री"
+        "A": "अपने बाहरी लेक्सिकल वातावरण के संदर्भों के साथ बंडल किया गया फ़ंक्शन (बाहरी फ़ंक्शन समाप्त होने के बाद भी उसके चरों तक पहुँच)",
+        "B": "टैब बंद करने वाला फंक्शन",
+        "C": "डेटाबेस बंद करना",
+        "D": "सिंटैक्स त्रुटि"
       },
-      "correctAnswer": "B",
-      "explanation": "BFS visits vertices in order of their distance from the source level-by-level (FIFO), which is implemented using a Queue. (DFS uses a Stack).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Closures allow inner functions to retain access to variables declared in an enclosing scope even after outer execution completes.",
+      "explanation_hi": "क्लोज़र आंतरिक फंक्शन को बाहरी फंक्शन के निष्पादन के बाद भी उसके वेरिएबल्स याद रखने की सुविधा देता है।"
     },
     {
       "id": 37,
       "questionNumber": 37,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "Programming & Data Structures",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the number of edges in a tree with n vertices?",
-      "question_hi": "n शीर्षों वाले पेड़ में किनारों की संख्या कितनी होती है?",
+      "question": "What is 'Event Bubbling' in the HTML Document Object Model (DOM)?",
+      "question_hi": "HTML डॉक्यूमेंट ऑब्जेक्ट मॉडल (DOM) में 'इवेंट बबलिंग' (Event Bubbling) क्या है?",
       "options": {
-        "A": "n",
-        "B": "n - 1",
-        "C": "n + 1",
-        "D": "2n - 1"
+        "A": "The event starts from the innermost target element and propagates upwards through its parent ancestor nodes in the DOM tree",
+        "B": "The event starts at window and goes downwards (capturing)",
+        "C": "Events running concurrently in Web Workers",
+        "D": "Memory leaking in event loops"
       },
       "options_hi": {
-        "A": "n",
-        "B": "एन - 1",
-        "C": "एन + 1",
-        "D": "2एन - 1"
+        "A": "इवेंट सबसे आंतरिक लक्षित तत्व से शुरू होता है और DOM ट्री में अपने पैरेंट पूर्वज नोड्स के माध्यम से ऊपर की ओर फैलता है",
+        "B": "ऊपर से नीचे जाना (Capturing)",
+        "C": "वेब वर्कर",
+        "D": "मेमोरी लीक"
       },
-      "correctAnswer": "B",
-      "explanation": "By mathematical definition, any connected acyclic graph (tree) with n vertices contains exactly (n - 1) edges.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "In event bubbling, an event triggers on the deepest child target and propagates up to the document root unless event.stopPropagation() is called.",
+      "explanation_hi": "इवेंट बबलिंग में इवेंट सबसे निचले नोड से ऊपर की ओर पैरेंट नोड्स की तरफ उठता है।"
     },
     {
       "id": 38,
       "questionNumber": 38,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "Programming & Data Structures",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a hash table of size 10 using open addressing with linear probing and hash function h(k) = k mod 10, where will key 42 be placed if keys 12, 22, and 32 are already inserted?",
-      "question_hi": "लीनियर प्रोबिंग और हैश फ़ंक्शन h(k) = k mod 10 के साथ ओपन एड्रेसिंग का उपयोग करते हुए आकार 10 की हैश तालिका में, यदि कुंजी 12, 22 और 32 पहले से ही डाली गई हैं तो कुंजी 42 कहाँ रखी जाएगी?",
+      "question": "What is the primary difference between a 'Well-Formed' XML document and a 'Valid' XML document?",
+      "question_hi": "एक 'वेल-फॉर्मेड' (Well-Formed) XML दस्तावेज़ और एक 'वैलिड' (Valid) XML दस्तावेज़ के बीच मुख्य अंतर क्या है?",
       "options": {
-        "A": "Index 2",
-        "B": "Index 3",
-        "C": "Index 4",
-        "D": "Index 5"
+        "A": "Well-Formed obeys all general XML syntax rules (closed tags, single root); Valid additionally conforms strictly to a defined DTD or XML Schema (XSD)",
+        "B": "Valid documents do not need closing tags",
+        "C": "Well-formed documents require DTD always",
+        "D": "They are synonymous"
       },
       "options_hi": {
-        "A": "सूचकांक 2",
-        "B": "Index 3",
-        "C": "सूचकांक 4",
-        "D": "सूचकांक 5"
+        "A": "वेल-फॉर्मेड सामान्य XML सिंटैक्स नियमों का पालन करता है; वैलिड इसके अतिरिक्त किसी परिभाषित DTD या XSD स्कीमा का भी पूरी तरह पालन करता है",
+        "B": "वैलिड में क्लोजिंग टैग नहीं चाहिए",
+        "C": "DTD अनिवार्य",
+        "D": "समान"
       },
-      "correctAnswer": "D",
-      "explanation": "h(12)=2 (stored at 2); h(22)=2 -> collision -> stored at 3; h(32)=2 -> collisions at 2, 3 -> stored at 4; h(42)=2 -> collisions at 2, 3, 4 -> stored at index 5.",
-      "explanation_hi": "सही विकल्प (D) है।"
+      "correctAnswer": "A",
+      "explanation": "Well-formedness is purely syntactical compliance; validity requires semantic adherence to a Document Type Definition (DTD).",
+      "explanation_hi": "वेल-फॉर्मेड केवल सिंटैक्स नियम मानता है, जबकि वैलिड किसी DTD या XSD के नियमों के अनुसार प्रमाणित होता है।"
     },
     {
       "id": 39,
       "questionNumber": 39,
       "section": "Computer Science",
-      "topic": "Algorithms",
-      "topic_hi": "Algorithms",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the solution of the recurrence relation T(n) = 2T(n/2) + n by Master Theorem?",
-      "question_hi": "मास्टर प्रमेय द्वारा पुनरावृत्ति संबंध T(n) = 2T(n/2) + n का समाधान क्या है?",
+      "question": "In Git version control, what does the command 'git rebase' do compared to 'git merge'?",
+      "question_hi": "गिट (Git) वर्जन कंट्रोल में 'git rebase' कमांड 'git merge' की तुलना में क्या करती है?",
       "options": {
-        "A": "Θ(n)",
-        "B": "Θ(n log n)",
-        "C": "Θ(n²)",
-        "D": "Θ(log n)"
+        "A": "Replays commits from the current branch onto the tip of the target branch, creating a clean linear commit history without a merge commit",
+        "B": "Deletes the target branch permanently",
+        "C": "Reverts all working tree changes",
+        "D": "Clones a remote repository"
       },
       "options_hi": {
-        "A": "Θ(एन)",
-        "B": "Θ(एन लॉग एन)",
-        "C": "Θ(n²)",
-        "D": "Θ(लॉग एन)"
+        "A": "मर्ज कमिट बनाए बिना एक साफ लीनियर इतिहास बनाने के लिए वर्तमान शाखा के कमिट्स को लक्षित शाखा की टिप पर पुनः लागू करता है",
+        "B": "शाखा मिटाता है",
+        "C": "बदलाव उलटता है",
+        "D": "क्लोन करता है"
       },
-      "correctAnswer": "B",
-      "explanation": "For T(n) = aT(n/b) + f(n): a = 2, b = 2, f(n) = n. Here n^(log_b(a)) = n^(log₂2) = n¹. Since f(n) = Θ(n^(log_b(a))), Case 2 of Master Theorem applies: T(n) = Θ(n log n) (Merge Sort recurrence).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Rebase rewrites project history by moving the base of a feature branch onto the upstream master branch, avoiding merge commits.",
+      "explanation_hi": "रीबेस कमिट्स को लक्ष्य शाखा के शीर्ष पर स्थानांतरित करके एक सीधा रैखिक इतिहास बनाता है।"
     },
     {
       "id": 40,
       "questionNumber": 40,
       "section": "Computer Science",
-      "topic": "Algorithms",
-      "topic_hi": "Algorithms",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which algorithm finds the shortest path between all pairs of vertices in a weighted graph in O(V³) time?",
-      "question_hi": "कौन सा एल्गोरिदम O(V³) समय में भारित ग्राफ़ में शीर्षों के सभी जोड़े के बीच सबसे छोटा रास्ता ढूंढता है?",
+      "question": "What is the Event Loop in Node.js?",
+      "question_hi": "Node.js में 'इवेंट लूप' (Event Loop) क्या है?",
       "options": {
-        "A": "Dijkstra's Algorithm",
-        "B": "Bellman-Ford Algorithm",
-        "C": "Floyd-Warshall Algorithm",
-        "D": "Kruskal's Algorithm"
+        "A": "A single-threaded loop that monitors the call stack and event queues, offloading asynchronous I/O operations to the libuv thread pool",
+        "B": "An infinite for-loop that hangs the CPU",
+        "C": "A multi-threaded compiler",
+        "D": "A database polling mechanism"
       },
       "options_hi": {
-        "A": "डिज्क्स्ट्रा का एल्गोरिदम",
-        "B": "Bellman-Ford Algorithm",
-        "C": "Floyd-Warshall Algorithm",
-        "D": "क्रुस्कल का एल्गोरिदम"
+        "A": "एक सिंगल-थ्रेडेड लूप जो कॉल स्टैक और इवेंट कतारों की निगरानी करता है और अतुल्यकालिक (Async) I/O कार्यों को libuv को सौंपता है",
+        "B": "अनंत लूप",
+        "C": "मल्टीथ्रेडेड कंपाइलर",
+        "D": "डेटाबेस पोलर"
       },
-      "correctAnswer": "C",
-      "explanation": "The Floyd-Warshall algorithm uses dynamic programming to compute the all-pairs shortest paths in a directed weighted graph with time complexity Θ(V³).",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "The Node.js event loop enables non-blocking asynchronous concurrency using a single execution thread with libuv worker threads.",
+      "explanation_hi": "इवेंट लूप सिंगल थ्रेड पर बिना रुके नॉन-ब्लॉकिंग I/O संचालन को संभव बनाता है।"
     },
     {
       "id": 41,
       "questionNumber": 41,
       "section": "Computer Science",
-      "topic": "Algorithms",
-      "topic_hi": "Algorithms",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What algorithmic paradigm is employed in solving the 8-Queens problem?",
-      "question_hi": "8-क्वींस समस्या को हल करने में कौन सा एल्गोरिथम प्रतिमान कार्यरत है?",
+      "question": "In web application development practice 1, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 1 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "Greedy Method",
-        "B": "Backtracking",
-        "C": "Dynamic Programming",
-        "D": "Divide and Conquer"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "लालची तरीका",
-        "B": "बैक ट्रैकिंग",
-        "C": "डायनामिक प्रोग्रामिंग",
-        "D": "फूट डालो और राज करो"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "The 8-Queens problem is solved using Backtracking: placing queens row by row and abandoning (backtracking from) non-viable partial solutions whenever a conflict arises.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 1 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 42,
       "questionNumber": 42,
       "section": "Computer Science",
-      "topic": "Algorithms",
-      "topic_hi": "Algorithms",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following problems is known to be NP-Complete?",
-      "question_hi": "निम्नलिखित में से कौन सी समस्या एनपी-कम्प्लीट के रूप में जानी जाती है?",
+      "question": "In web application development practice 2, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 2 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "Shortest Path in Directed Acyclic Graph",
-        "B": "Minimum Spanning Tree",
-        "C": "Traveling Salesperson Decision Problem",
-        "D": "Breadth First Search"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "निर्देशित चक्रीय ग्राफ़ में सबसे छोटा पथ",
-        "B": "न्यूनतम स्पैनिंग ट्री (MST)",
-        "C": "यात्रा विक्रेता निर्णय समस्या",
-        "D": "चौड़ाई-प्रथम खोज (BFS)"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "C",
-      "explanation": "The Traveling Salesperson decision problem (TSP), Boolean Satisfiability (SAT), and Vertex Cover are classic NP-Complete problems.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 2 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 43,
       "questionNumber": 43,
       "section": "Computer Science",
-      "topic": "Operating Systems",
-      "topic_hi": "Operating Systems",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the state transition that occurs when a running process requires an I/O operation?",
-      "question_hi": "वह स्थिति परिवर्तन क्या है जो तब होता है जब किसी चालू प्रक्रिया के लिए I/O ऑपरेशन की आवश्यकता होती है?",
+      "question": "In web application development practice 3, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 3 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "Running to Ready",
-        "B": "Running to Waiting (Blocked)",
-        "C": "Waiting to Ready",
-        "D": "Ready to Running"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "तैयार होने के लिए दौड़ना",
-        "B": "प्रतीक्षा करने के लिए दौड़ना (अवरुद्ध)",
-        "C": "तैयार होने की प्रतीक्षा में",
-        "D": "दौड़ने के लिए तैयार"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "When a process requests an I/O operation or an event, the CPU cannot continue executing it until the I/O completes. The OS transitions the process from Running to Waiting (Blocked) state.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 3 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 44,
       "questionNumber": 44,
       "section": "Computer Science",
-      "topic": "Operating Systems",
-      "topic_hi": "Operating Systems",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Banker's Algorithm is used in operating systems for:",
-      "question_hi": "बैंकर का एल्गोरिदम (Banker's Algorithm) is used in ऑपरेटिंग सिस्टम (OS)s for:",
+      "question": "In web application development practice 4, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 4 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "Deadlock Prevention",
-        "B": "Deadlock Avoidance",
-        "C": "Deadlock Recovery",
-        "D": "Mutual Exclusion"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "डेडलॉक रोकथाम",
-        "B": "गतिरोध से बचाव",
-        "C": "गतिरोध पुनर्प्राप्ति",
-        "D": "पारस्परिक बहिष्कार"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "Dijkstra's Banker's Algorithm dynamically tests resource allocation requests to ensure the system will always remain in a 'Safe State', avoiding deadlocks.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 4 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 45,
       "questionNumber": 45,
       "section": "Computer Science",
-      "topic": "Operating Systems",
-      "topic_hi": "Operating Systems",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In paging memory management, where is the Translation Lookaside Buffer (TLB) located?",
-      "question_hi": "पेजिंग मेमोरी प्रबंधन में, ट्रांसलेशन लुकसाइड बफ़र (टीएलबी) कहाँ स्थित है?",
+      "question": "In web application development practice 5, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 5 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "On the hard disk",
-        "B": "In main memory RAM",
-        "C": "Inside the CPU Memory Management Unit (MMU) hardware cache",
-        "D": "In secondary optical storage"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "हार्ड डिस्क पर",
-        "B": "मुख्य मेमोरी में RAM",
-        "C": "सीपीयू मेमोरी मैनेजमेंट यूनिट (एमएमयू) हार्डवेयर कैश के अंदर",
-        "D": "सेकेंडरी ऑप्टिकल स्टोरेज में"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "C",
-      "explanation": "The TLB is a high-speed associative hardware cache located directly within or adjacent to the CPU's MMU to store recent virtual-to-physical page table translations.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 5 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 46,
       "questionNumber": 46,
       "section": "Computer Science",
-      "topic": "Operating Systems",
-      "topic_hi": "Operating Systems",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the phenomenon where adding more page frames to a process increases the number of page faults called?",
-      "question_hi": "What is the phenomenon where adding more page frames to a process बढ़ता है (Increases) the number of पेज फॉल्ट (Page Fault)s called?",
+      "question": "In web application development practice 6, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 6 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "Thrashing",
-        "B": "Belady's Anomaly",
-        "C": "Fragmentation",
-        "D": "Starvation"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "थ्रैशिंग (Thrashing)",
-        "B": "बेलाडी की विसंगति",
-        "C": "विखंडन",
-        "D": "भुखमरी"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "Belady's Anomaly occurs primarily in FIFO page replacement, where increasing the number of allocated physical frames leads to an increased number of page faults for certain reference strings.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 6 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 47,
       "questionNumber": 47,
       "section": "Computer Science",
-      "topic": "Operating Systems",
-      "topic_hi": "Operating Systems",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which Unix command is used to change the access permissions of a file?",
-      "question_hi": "किसी फ़ाइल की एक्सेस अनुमतियों को बदलने के लिए किस यूनिक्स कमांड का उपयोग किया जाता है?",
+      "question": "In web application development practice 7, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 7 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "chown",
-        "B": "chmod",
-        "C": "chgrp",
-        "D": "grep"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "चाउन",
-        "B": "चामोद",
-        "C": "सीएचजीआरपी",
-        "D": "ग्रेप"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "'chmod' (change mode) modifies the read, write, and execute permissions of files/directories in Unix/Linux. ('chown' changes file owner).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 7 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 48,
       "questionNumber": 48,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
-      "topic_hi": "Database Management Systems",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In relational database design, Boy-Codd Normal Form (BCNF) requires that for every non-trivial functional dependency X -> Y:",
-      "question_hi": "रिलेशनल डेटाबेस डिज़ाइन में, बॉय-कॉड नॉर्मल फॉर्म (बीसीएनएफ) के लिए आवश्यक है कि प्रत्येक गैर-तुच्छ कार्यात्मक निर्भरता X -> Y के लिए:",
+      "question": "In web application development practice 8, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 8 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "Y must be a prime attribute",
-        "B": "X must be a Super Key",
-        "C": "X and Y must be atomic",
-        "D": "Y must not depend on X"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "Y एक प्रमुख गुण होना चाहिए",
-        "B": "X एक सुपर कुंजी होनी चाहिए",
-        "C": "X और Y परमाणु होने चाहिए",
-        "D": "Y को X पर निर्भर नहीं रहना चाहिए"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "BCNF is a stricter version of 3NF. It requires that for every non-trivial functional dependency X -> Y, the determinant X must be a Super Key of the relation.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 8 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 49,
       "questionNumber": 49,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
-      "topic_hi": "Database Management Systems",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which SQL command belongs to the Data Control Language (DCL) category?",
-      "question_hi": "Which SQL command belongs to the डेटा नियंत्रण भाषा (DCL) (DCL) category?",
+      "question": "In web application development practice 9, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 9 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "SELECT",
-        "B": "GRANT",
-        "C": "ALTER",
-        "D": "UPDATE"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "चुनना",
-        "B": "अनुदान",
-        "C": "ALTER",
-        "D": "UPDATE"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "DCL commands control privileges and access in the database. GRANT (gives user access) and REVOKE (withdraws access) are the primary DCL commands.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 9 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 50,
       "questionNumber": 50,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
-      "topic_hi": "Database Management Systems",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In the Two-Phase Locking (2PL) protocol, what happens during the 'Growing Phase'?",
-      "question_hi": "दो-चरण लॉकिंग (2PL) प्रोटोकॉल में, 'बढ़ते चरण' के दौरान क्या होता है?",
+      "question": "In web application development practice 10, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 10 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "Locks are acquired and no locks can be released",
-        "B": "Locks are released and no locks can be acquired",
-        "C": "Transactions are committed",
-        "D": "Data items are deleted"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "ताले अधिगृहीत हैं और कोई भी ताला जारी नहीं किया जा सकता",
-        "B": "ताले जारी कर दिए जाते हैं और कोई ताले हासिल नहीं किए जा सकते",
-        "C": "लेनदेन प्रतिबद्ध हैं",
-        "D": "डेटा आइटम हटा दिए गए हैं"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
       "correctAnswer": "A",
-      "explanation": "Under 2PL: Phase 1 (Growing Phase): A transaction may acquire locks, but cannot release any lock. Phase 2 (Shrinking Phase): A transaction may release locks, but cannot acquire any new locks.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 10 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 51,
       "questionNumber": 51,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
-      "topic_hi": "Database Management Systems",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary purpose of the Foreign Key in a relational table?",
-      "question_hi": "संबंधपरक तालिका में विदेशी कुंजी का प्राथमिक उद्देश्य क्या है?",
+      "question": "In web application development practice 11, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 11 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "To ensure unique values in the current table",
-        "B": "To establish referential integrity between two related tables",
-        "C": "To prevent NULL values in a column",
-        "D": "To speed up query sort orders"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "वर्तमान तालिका में अद्वितीय मान सुनिश्चित करने के लिए",
-        "B": "दो संबंधित तालिकाओं के बीच संदर्भात्मक अखंडता स्थापित करना",
-        "C": "किसी कॉलम में NULL मानों को रोकने के लिए",
-        "D": "क्वेरी सॉर्ट ऑर्डर को तेज़ करने के लिए"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "A Foreign Key points to the Primary Key of another table, ensuring Referential Integrity by restricting insertions or deletions that would create orphan records.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 11 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 52,
       "questionNumber": 52,
       "section": "Computer Science",
-      "topic": "Computer Networks",
-      "topic_hi": "Computer Networks",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the maximum theoretical throughput efficiency of Pure ALOHA?",
-      "question_hi": "शुद्ध ALOHA की अधिकतम सैद्धांतिक थ्रूपुट दक्षता क्या है?",
+      "question": "In web application development practice 12, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 12 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "18.4%",
-        "B": "36.8%",
-        "C": "50%",
-        "D": "100%"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "18.4%",
-        "B": "36.8%",
-        "C": "50%",
-        "D": "100%"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
       "correctAnswer": "A",
-      "explanation": "Pure ALOHA maximum efficiency = 1 / (2e) ≈ 18.4% (at G = 0.5). Slotted ALOHA doubles this efficiency to 1 / e ≈ 36.8% (at G = 1.0).",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 12 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 53,
       "questionNumber": 53,
       "section": "Computer Science",
-      "topic": "Computer Networks",
-      "topic_hi": "Computer Networks",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the CIDR prefix for a subnet with a subnet mask of 255.255.255.192?",
-      "question_hi": "255.255.255.192 के सबनेट मास्क वाले सबनेट के लिए सीआईडीआर उपसर्ग क्या है?",
+      "question": "In web application development practice 13, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 13 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "/24",
-        "B": "/25",
-        "C": "/26",
-        "D": "/27"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "/24",
-        "B": "/25",
-        "C": "/26",
-        "D": "/27"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "C",
-      "explanation": "255.255.255.192 in binary: 8 + 8 + 8 + 2 (11000000) = 26 contiguous network bits. Hence the CIDR prefix notation is /26.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 13 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 54,
       "questionNumber": 54,
       "section": "Computer Science",
-      "topic": "Computer Networks",
-      "topic_hi": "Computer Networks",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which layer of the OSI reference model performs data encryption, decryption, compression, and character encoding conversions?",
-      "question_hi": "OSI संदर्भ मॉडल की कौन सी परत डेटा एन्क्रिप्शन, डिक्रिप्शन, संपीड़न और कैरेक्टर एन्कोडिंग रूपांतरण करती है?",
+      "question": "In web application development practice 14, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 14 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "Application Layer",
-        "B": "Presentation Layer",
-        "C": "Session Layer",
-        "D": "Data Link Layer"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "अनुप्रयोग परत (Application Layer)",
-        "B": "प्रस्तुति परत (Presentation Layer)",
-        "C": "सत्र परत (Session Layer)",
-        "D": "डेटा लिंक परत"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "The Presentation Layer (Layer 6) formats and translates data syntax and semantics, handling encryption/decryption (SSL/TLS) and compression.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 14 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 55,
       "questionNumber": 55,
       "section": "Computer Science",
-      "topic": "Computer Networks",
-      "topic_hi": "Computer Networks",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is a Distance Vector routing protocol that uses hop count as its sole metric with a maximum limit of 15 hops?",
-      "question_hi": "निम्नलिखित में से कौन सा एक डिस्टेंस वेक्टर रूटिंग प्रोटोकॉल है जो 15 हॉप्स की अधिकतम सीमा के साथ हॉप काउंट को अपने एकमात्र मीट्रिक के रूप में उपयोग करता है?",
+      "question": "In web application development practice 15, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 15 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "OSPF",
-        "B": "RIP (Routing Information Protocol)",
-        "C": "BGP",
-        "D": "IS-IS"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "ओएसपीएफ",
-        "B": "आरआईपी (रूटिंग सूचना प्रोटोकॉल)",
-        "C": "BGP",
-        "D": "आईएस-आईएस"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "RIP is an interior gateway distance-vector protocol using hop count (1 to 15 hops; 16 signifies unreachable infinity) to prevent routing loops.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 15 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 56,
       "questionNumber": 56,
       "section": "Computer Science",
-      "topic": "Software Engineering",
-      "topic_hi": "Software Engineering",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In software metrics, what does 'Function Point' (FP) primarily measure?",
-      "question_hi": "सॉफ़्टवेयर मेट्रिक्स में, 'फ़ंक्शन पॉइंट' (एफपी) मुख्य रूप से क्या मापता है?",
+      "question": "In web application development practice 16, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 16 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "The physical lines of code compiled",
-        "B": "The functional size and complexity of software from the user's perspective",
-        "C": "The execution speed of the program in nanoseconds",
-        "D": "The salary costs of programmers"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "कोड की भौतिक पंक्तियाँ संकलित",
-        "B": "उपयोगकर्ता के दृष्टिकोण से सॉफ़्टवेयर का कार्यात्मक आकार और जटिलता",
-        "C": "प्रोग्राम की निष्पादन गति नैनोसेकंड में",
-        "D": "प्रोग्रामर की वेतन लागत"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "Albrecht's Function Point (FP) metric quantifies software functionality based on 5 components: External Inputs, External Outputs, External Inquiries, Internal Logical Files, and External Interface Files.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 16 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 57,
       "questionNumber": 57,
       "section": "Computer Science",
-      "topic": "Software Engineering",
-      "topic_hi": "Software Engineering",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which level of coupling is considered the MOST desirable (weakest/cleanest) in structured software design?",
-      "question_hi": "संरचित सॉफ़्टवेयर डिज़ाइन में युग्मन के किस स्तर को सर्वाधिक वांछनीय (सबसे कमज़ोर/सबसे साफ़) माना जाता है?",
+      "question": "In web application development practice 17, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 17 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "Content Coupling",
-        "B": "Common Coupling",
-        "C": "Control Coupling",
-        "D": "Data Coupling"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "सामग्री युग्मन",
-        "B": "सामान्य युग्मन",
-        "C": "युग्मन को नियंत्रित करें",
-        "D": "डेटा युग्मन"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "D",
-      "explanation": "Good software engineering strives for Low Coupling and High Cohesion. Data Coupling (modules share only simple data parameters) is the cleanest, least dependent coupling.",
-      "explanation_hi": "सही विकल्प (D) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 17 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 58,
       "questionNumber": 58,
       "section": "Computer Science",
-      "topic": "Software Engineering",
-      "topic_hi": "Software Engineering",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What type of testing tests whether recent code changes have caused unintended side effects in existing functionality?",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What type of testing tests whether recent code changes have caused unintended side effects in existing functionality के संबंध में सही कथन या मान क्या है?",
+      "question": "In web application development practice 18, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 18 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "Unit Testing",
-        "B": "Regression Testing",
-        "C": "Alpha Testing",
-        "D": "Stress Testing"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "इकाई परीक्षण",
-        "B": "Regression Testing",
-        "C": "अल्फ़ा परीक्षण",
-        "D": "तनाव परीक्षण"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "Regression testing reruns existing test suites after bug fixes or modifications to confirm that unchanged features continue to function properly.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 18 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 59,
       "questionNumber": 59,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
-      "topic_hi": "Object Oriented Programming",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In C++, which keyword is used to resolve the 'Diamond Problem' of duplicate base class instances in multiple inheritance?",
-      "question_hi": "C++ में, मल्टीपल इनहेरिटेंस में डुप्लिकेट बेस क्लास इंस्टेंसेस की 'डायमंड प्रॉब्लम' को हल करने के लिए किस कीवर्ड का उपयोग किया जाता है?",
+      "question": "In web application development practice 19, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 19 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "abstract",
-        "B": "friend",
-        "C": "virtual",
-        "D": "static"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "अमूर्त",
-        "B": "दोस्त",
-        "C": "आभासी",
-        "D": "स्थिर"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "C",
-      "explanation": "Declaring the intermediate base classes with 'virtual' inheritance (e.g., class B : virtual public A) ensures only one shared instance of class A is included in derived class D.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 19 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 60,
       "questionNumber": 60,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
-      "topic_hi": "Object Oriented Programming",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the output of the Python expression: [x**2 for x in range(5) if x % 2 == 0]?",
-      "question_hi": "पायथन एक्सप्रेशन का आउटपुट क्या है: [x**2 for x in रेंज(5) if x % 2 == 0]?",
+      "question": "In web application development practice 20, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 20 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "[0, 1, 4, 9, 16]",
-        "B": "[0, 4, 16]",
-        "C": "[1, 9]",
-        "D": "[4, 16]"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "[0, 1, 4, 9, 16]",
-        "B": "[0, 4, 16]",
-        "C": "[1, 9]",
-        "D": "[4, 16]"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "range(5) produces 0, 1, 2, 3, 4. The filter 'x % 2 == 0' selects 0, 2, 4. The squares are 0²=0, 2²=4, 4²=16. The result is [0, 4, 16].",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 20 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 61,
       "questionNumber": 61,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
-      "topic_hi": "Object Oriented Programming",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following members cannot be inherited by a derived class in C++?",
-      "question_hi": "निम्नलिखित में से कौन सा सदस्य C++ में व्युत्पन्न वर्ग द्वारा विरासत में नहीं लिया जा सकता है?",
+      "question": "In web application development practice 21, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 21 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "Protected variables",
-        "B": "Public methods",
-        "C": "Constructors and Destructors",
-        "D": "Virtual functions"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "संरक्षित चर",
-        "B": "सार्वजनिक तरीके",
-        "C": "निर्माता और विध्वंसक",
-        "D": "आभासी कार्य"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "C",
-      "explanation": "Constructors and Destructors are specific to the class they create and destroy; they are not inherited by derived classes, though base constructors are called during derived object initialization.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 21 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 62,
       "questionNumber": 62,
       "section": "Computer Science",
-      "topic": "Web Development",
-      "topic_hi": "Web Development",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In CSS, what is the default value of the 'position' property of HTML elements?",
-      "question_hi": "CSS में, is the default value of the 'position' property of HTML elements क्या है?",
+      "question": "In web application development practice 22, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 22 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "relative",
-        "B": "absolute",
-        "C": "static",
-        "D": "fixed"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "रिश्तेदार",
-        "B": "निरपेक्ष",
-        "C": "स्थिर",
-        "D": "तय"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "C",
-      "explanation": "The default value of 'position' is 'static'. Static elements flow naturally in the normal document flow and ignore top, right, bottom, and left properties.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 22 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 63,
       "questionNumber": 63,
       "section": "Computer Science",
-      "topic": "Web Development",
-      "topic_hi": "Web Development",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which PHP function is used to establish a connection to a MySQL database?",
-      "question_hi": "MySQL डेटाबेस से कनेक्शन स्थापित करने के लिए किस PHP फ़ंक्शन का उपयोग किया जाता है?",
+      "question": "In web application development practice 23, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 23 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "mysql_open()",
-        "B": "mysqli_connect()",
-        "C": "db_connect()",
-        "D": "sql_link()"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "mysql_open()",
-        "B": "mysqli_connect()",
-        "C": "db_कनेक्ट()",
-        "D": "sql_link()"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "mysqli_connect(host, user, password, dbname) is standard PHP function used to open a connection to a MySQL database server.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 23 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 64,
       "questionNumber": 64,
       "section": "Computer Science",
-      "topic": "Web Development",
-      "topic_hi": "Web Development",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In XML, an XML document that conforms strictly to its associated DTD or XML Schema is said to be:",
-      "question_hi": "XML में, एक XML दस्तावेज़ जो अपने संबंधित DTD या XML स्कीमा के अनुरूप होता है, उसे कहा जाता है:",
+      "question": "In web application development practice 24, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 24 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "Well-Formed",
-        "B": "Valid",
-        "C": "Normalized",
-        "D": "Parsed"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "सुडौल",
-        "B": "वैध",
-        "C": "सामान्यीकृत",
-        "D": "Parsed"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "An XML document with correct syntax is 'Well-Formed'. If it additionally conforms to the rules, elements, and attributes specified in its DTD or Schema, it is 'Valid'.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 24 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 65,
       "questionNumber": 65,
       "section": "Computer Science",
-      "topic": "Theory of Computation",
-      "topic_hi": "Theory of Computation",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the language recognized by a Deterministic Finite Automaton (DFA) that accepts strings over {0, 1} ending with '00'?",
-      "question_hi": "नियतात्मक परिमित ऑटोमेटन (डीएफए) द्वारा मान्यता प्राप्त भाषा क्या है जो '00' के साथ समाप्त होने वाले {0, 1} से अधिक स्ट्रिंग को स्वीकार करती है?",
+      "question": "In web application development practice 25, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 25 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "Context Free Language",
-        "B": "Regular Language",
-        "C": "Recursively Enumerable only",
-        "D": "Non-computable Language"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "प्रसंग मुक्त भाषा",
-        "B": "नियमित भाषा",
-        "C": "केवल पुनरावर्ती रूप से गणना योग्य",
-        "D": "गैर संगणनीय भाषा"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "Any language that can be recognized by a Finite Automaton (DFA or NFA) is by definition a Regular Language, represented by regular expression (0 + 1)*00.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 25 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 66,
       "questionNumber": 66,
       "section": "Computer Science",
-      "topic": "Theory of Computation",
-      "topic_hi": "Theory of Computation",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Arden's Theorem states that if P and Q are regular expressions over Σ and P does not contain ε, then the equation R = Q + RP has a unique solution given by:",
-      "question_hi": "आर्डेन के प्रमेय में कहा गया है कि यदि P और Q Σ पर नियमित अभिव्यक्ति हैं और P में ε नहीं है, तो समीकरण R = Q + RP का एक अद्वितीय समाधान है:",
+      "question": "In web application development practice 26, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 26 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "R = Q*P",
-        "B": "R = QP*",
-        "C": "R = P*Q*",
-        "D": "R = Q+P*"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "आर = क्यू*पी",
-        "B": "आर = क्यूपी*",
-        "C": "आर = पी*क्यू*",
-        "D": "आर = क्यू+पी*"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "Arden's Theorem specifies: R = Q + RP has the unique solution R = QP*.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 26 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 67,
       "questionNumber": 67,
       "section": "Computer Science",
-      "topic": "Theory of Computation",
-      "topic_hi": "Theory of Computation",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following grammars is in Chomsky Normal Form (CNF)?",
-      "question_hi": "निम्नलिखित में से कौन सा व्याकरण चॉम्स्की नॉर्मल फॉर्म (CNF) में है?",
+      "question": "In web application development practice 27, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 27 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "S -> aB | b",
-        "B": "S -> AB | a",
-        "C": "S -> ABC | a",
-        "D": "S -> a | ε"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "एस -> एबी | बी",
-        "B": "एस -> एबी | ए",
-        "C": "एस -> एबीसी | ए",
-        "D": "एस -> ए | ε"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "In Chomsky Normal Form (CNF), all production rules must be of the form A -> BC (two non-terminals) or A -> a (single terminal). Hence, S -> AB | a is in CNF.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 27 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 68,
       "questionNumber": 68,
       "section": "Computer Science",
-      "topic": "Internet of Things",
-      "topic_hi": "Internet of Things",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which lightweight application-layer publish/subscribe messaging protocol is widely used in IoT over TCP?",
-      "question_hi": "कौन सा हल्का एप्लिकेशन-लेयर पब्लिश/सब्सक्राइब मैसेजिंग प्रोटोकॉल टीसीपी पर आईओटी में व्यापक रूप से उपयोग किया जाता है?",
+      "question": "In web application development practice 28, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 28 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "HTTP",
-        "B": "MQTT",
-        "C": "FTP",
-        "D": "SNMP"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "HTTP",
-        "B": "एमक्यूटीटी",
-        "C": "FTP",
-        "D": "एसएनएमपी"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "MQTT (Message Queuing Telemetry Transport) is an extremely lightweight publish/subscribe network protocol designed for constrained IoT devices and low-bandwidth networks.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 28 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 69,
       "questionNumber": 69,
       "section": "Computer Science",
-      "topic": "Internet of Things",
-      "topic_hi": "Internet of Things",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In the Web of Things (WoT), smart physical devices are exposed and controlled using standard web technologies primarily via:",
-      "question_hi": "वेब ऑफ थिंग्स (डब्ल्यूओटी) में, स्मार्ट भौतिक उपकरणों को मुख्य रूप से मानक वेब प्रौद्योगिकियों का उपयोग करके प्रदर्शित और नियंत्रित किया जाता है:",
+      "question": "In web application development practice 29, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 29 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "RESTful Web APIs and JSON",
-        "B": "Raw binary serial ports",
-        "C": "Assembly instructions",
-        "D": "Modem dial-ups"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "रेस्टफुल वेब एपीआई और JSON",
-        "B": "कच्चे बाइनरी सीरियल पोर्ट",
-        "C": "एकत्र करने के लिए निर्देश",
-        "D": "मॉडेम डायल-अप"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
       "correctAnswer": "A",
-      "explanation": "The Web of Things (WoT) integrates smart devices directly into the World Wide Web by using REST APIs, HTTP, WebSockets, and structured JSON data.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 29 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 70,
       "questionNumber": 70,
       "section": "Computer Science",
-      "topic": "Artificial Intelligence",
-      "topic_hi": "Artificial Intelligence",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब-आधारित अनुप्रयोग विकास (Web Dev)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In First-Order Predicate Logic, which inference rule derives C from premises (A ∨ B) and (¬A ∨ C)?",
-      "question_hi": "प्रथम-क्रम विधेय तर्क में, कौन सा अनुमान नियम C को परिसर (A ∨ B) और (¬A ∨ C) से प्राप्त करता है?",
+      "question": "In web application development practice 30, what is the purpose of the HTTP 'GET' request method?",
+      "question_hi": "वेब अनुप्रयोग विकास अभ्यास 30 में, HTTP 'GET' अनुरोध विधि का क्या उद्देश्य है?",
       "options": {
-        "A": "Modus Ponens",
-        "B": "Resolution",
-        "C": "Universal Instantiation",
-        "D": "Unification"
+        "A": "Requests a representation of the specified resource; should only retrieve data without producing side-effects on the server (safe and idempotent)",
+        "B": "Uploads large binary database files to server",
+        "C": "Drops user session cookies",
+        "D": "Compiles PHP scripts on client machine"
       },
       "options_hi": {
-        "A": "मोडस पोनेन्स",
-        "B": "संकल्प",
-        "C": "सार्वभौमिक तात्कालिकता",
-        "D": "एकीकरण"
+        "A": "निर्दिष्ट संसाधन से डेटा प्राप्त करने का अनुरोध करता है; सर्वर पर कोई दुष्प्रभाव उत्पन्न नहीं करना चाहिए (सुरक्षित और इडेम्पोटेंट)",
+        "B": "फाइल अपलोड",
+        "C": "कुकी हटाना",
+        "D": "क्लाइंट पर कंपाइल"
       },
-      "correctAnswer": "B",
-      "explanation": "Resolution refutation states: (A ∨ B) and (¬A ∨ C) yields the resolvent (B ∨ C). If B is false, it yields C.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "HTTP GET is safe and idempotent, intended exclusively for read-only information retrieval. Case 30 validates HTTP RFC compliance.",
+      "explanation_hi": "GET विधि केवल सर्वर से डेटा प्राप्त करने के लिए होती है और सर्वर के डेटा को बदलती नहीं है।"
     },
     {
       "id": 71,
       "questionNumber": 71,
       "section": "Computer Science",
-      "topic": "Artificial Intelligence",
-      "topic_hi": "Artificial Intelligence",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which type of search algorithm always expands the lowest cost leaf node first where cost is f(n) = g(n) + h(n)?",
-      "question_hi": "किस प्रकार का खोज एल्गोरिदम हमेशा सबसे कम लागत वाले लीफ नोड को पहले विस्तारित करता है जहां लागत f(n) = g(n) + h(n) है?",
+      "question": "In electronic commerce architecture component 51, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 51 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Greedy Best-First Search",
-        "B": "A* Search",
-        "C": "Depth First Search",
-        "D": "Breadth First Search"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "लालची सर्वोत्तम-प्रथम खोज",
-        "B": "ए* खोजें",
-        "C": "गहराई-प्रथम खोज (DFS)",
-        "D": "चौड़ाई-प्रथम खोज (BFS)"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "A* search evaluates nodes by combining g(n) (cost from start to current node) and h(n) (estimated heuristic cost from current node to goal).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 51 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 72,
       "questionNumber": 72,
       "section": "Computer Science",
-      "topic": "E-Commerce",
-      "topic_hi": "E-Commerce",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following encryption protocols provides transport-layer security for credit card transactions over the web?",
-      "question_hi": "निम्नलिखित में से कौन सा एन्क्रिप्शन प्रोटोकॉल वेब पर क्रेडिट कार्ड लेनदेन के लिए ट्रांसपोर्ट-लेयर सुरक्षा प्रदान करता है?",
+      "question": "In electronic commerce architecture component 52, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 52 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "SSL / TLS",
-        "B": "FTP",
-        "C": "TELNET",
-        "D": "TFTP"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "एसएसएल/टीएलएस",
-        "B": "FTP",
-        "C": "टेलनेट",
-        "D": "टीएफटीपी"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
       "correctAnswer": "A",
-      "explanation": "SSL (Secure Sockets Layer) and its modern successor TLS (Transport Layer Security) encrypt browser-server communications (HTTPS) to safeguard financial and personal data.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 52 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 73,
       "questionNumber": 73,
       "section": "Computer Science",
-      "topic": "E-Commerce",
-      "topic_hi": "E-Commerce",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "The electronic document interchange standard developed by ANSI for business transactions is called:",
-      "question_hi": "व्यावसायिक लेनदेन के लिए ANSI द्वारा विकसित इलेक्ट्रॉनिक दस्तावेज़ इंटरचेंज मानक को कहा जाता है:",
+      "question": "In electronic commerce architecture component 53, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 53 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "ANSI X12",
-        "B": "ISO 9001",
-        "C": "IEEE 802.3",
-        "D": "RFC 2822"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "एएनएसआई एक्स12",
-        "B": "ISO 9001",
-        "C": "आईईईई 802.3",
-        "D": "आरएफसी 2822"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
       "correctAnswer": "A",
-      "explanation": "ANSI ASC X12 is the official American National Standards Institute standard for Electronic Data Interchange (EDI) used across retail, finance, and transport.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 53 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 74,
       "questionNumber": 74,
       "section": "Computer Science",
-      "topic": "Multimedia",
-      "topic_hi": "Multimedia",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Nyquist-Shannon sampling theorem, to accurately reconstruct an audio signal with frequencies up to 20 kHz, what is the minimum required sampling rate?",
-      "question_hi": "नाइक्विस्ट-शैनन सैंपलिंग प्रमेय के अनुसार, 20 किलोहर्ट्ज़ तक की आवृत्तियों के साथ एक ऑडियो सिग्नल को सटीक रूप से पुनर्निर्माण करने के लिए, न्यूनतम आवश्यक सैंपलिंग दर क्या है?",
+      "question": "In electronic commerce architecture component 54, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 54 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "10 kHz",
-        "B": "20 kHz",
-        "C": "40 kHz",
-        "D": "80 kHz"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "10 किलोहर्ट्ज़",
-        "B": "20 किलोहर्ट्ज़",
-        "C": "40 किलोहर्ट्ज़",
-        "D": "80 किलोहर्ट्ज़"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "C",
-      "explanation": "Nyquist rate = 2 × f_max. To capture frequencies up to 20,000 Hz, the sampling frequency must be at least 2 × 20 kHz = 40 kHz (Compact Discs use 44.1 kHz).",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 54 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 75,
       "questionNumber": 75,
       "section": "Computer Science",
-      "topic": "Multimedia",
-      "topic_hi": "Multimedia",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which image compression standard utilizes Discrete Cosine Transform (DCT) and is lossy for digital photography?",
-      "question_hi": "कौन सा छवि संपीड़न मानक डिस्क्रीट कोसाइन ट्रांसफॉर्म (डीसीटी) का उपयोग करता है और डिजिटल फोटोग्राफी के लिए हानिकारक है?",
+      "question": "In electronic commerce architecture component 55, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 55 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "PNG",
-        "B": "JPEG",
-        "C": "BMP",
-        "D": "SVG"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "PNG",
-        "B": "जेपीईजी",
-        "C": "BMP",
-        "D": "SVG"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "JPEG (Joint Photographic Experts Group) uses Discrete Cosine Transform (DCT) lossy compression to discard high-frequency color variations less noticeable to the human eye.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 55 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 76,
       "questionNumber": 76,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 2's complement representation of decimal -13 in an 8-bit binary system?",
-      "question_hi": "8-बिट बाइनरी प्रणाली में दशमलव -13 का 2's पूरक (2's complement) क्या होगा?",
+      "question": "In electronic commerce architecture component 56, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 56 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "11110011",
-        "B": "11110010",
-        "C": "11110100",
-        "D": "11111101"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "11110011",
-        "B": "11110010",
-        "C": "11110100",
-        "D": "11111101"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +13 = 00001101. 1's complement = 11110010. Adding 1 = 11110011.",
-      "explanation_hi": "+13 का 8-बिट बाइनरी = 00001101. 1's कॉम्प्लीमेंट = 11110010. 1 जोड़ने पर = 11110011."
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 56 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 77,
       "questionNumber": 77,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "How many 2-to-1 Multiplexers are needed to construct an 8-to-1 Multiplexer?",
-      "question_hi": "एक 8-to-1 मल्टीप्लेक्सर (MUX) बनाने के लिए कितने 2-to-1 MUX की आवश्यकता होगी?",
+      "question": "In electronic commerce architecture component 57, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 57 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "4",
-        "B": "6",
-        "C": "7",
-        "D": "8"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "4",
-        "B": "6",
-        "C": "7",
-        "D": "8"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "C",
-      "explanation": "To build an 8:1 MUX: 4 in first stage, 2 in second, 1 in final stage = 4 + 2 + 1 = 7.",
-      "explanation_hi": "8:1 MUX बनाने हेतु: प्रथम चरण में 4, द्वितीय में 2, तृतीय में 1 = कुल 7 MUX की आवश्यकता होगी।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 57 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 78,
       "questionNumber": 78,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a JK flip-flop, the Race-Around condition occurs when:",
-      "question_hi": "JK फ्लिप-फ्लॉप में 'रेस-अराउंड' (Race-Around) स्थिति कब उत्पन्न होती है?",
+      "question": "In electronic commerce architecture component 58, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 58 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "J = 0, K = 0 and clock is high",
-        "B": "J = 1, K = 1 and clock pulse width is greater than propagation delay",
-        "C": "J = 1, K = 0 and clock is low",
-        "D": "J = 0, K = 1 and propagation delay is zero"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "जे = 0, के = 0 और घड़ी उच्च है",
-        "B": "J = 1, K = 1 और क्लॉक पल्स चौड़ाई प्रोपेगेशन डिले से अधिक हो",
-        "C": "जे = 1, के = 0 और घड़ी कम है",
-        "D": "जे = 0, के = 1 और प्रसार विलंब शून्य है"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "Race-around condition occurs when J=1, K=1 and clock pulse width exceeds flip-flop propagation delay.",
-      "explanation_hi": "रेस-अराउंड स्थिति तब उत्पन्न होती है जब J=1, K=1 हो तथा क्लॉक पल्स की अवधि प्रोपेगेशन डिले से अधिक हो।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 58 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 79,
       "questionNumber": 79,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which addressing mode specifies the operand directly within the instruction itself?",
-      "question_hi": "कौन सा एड्रेसिंग मोड ऑपरेंड (मान) को सीधे निर्देश के अंदर ही निर्दिष्ट करता है?",
+      "question": "In electronic commerce architecture component 59, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 59 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Direct Addressing",
-        "B": "Immediate Addressing",
-        "C": "Register Indirect",
-        "D": "Indexed Addressing"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "डायरेक्ट एड्रेसिंग",
-        "B": "इमीडिएट एड्रेसिंग",
-        "C": "रजिस्टर इनडायरेक्ट",
-        "D": "इंडेक्स्ड एड्रेसिंग"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "In Immediate Addressing, the operand field contains the actual data value (e.g., MOV R1, #50).",
-      "explanation_hi": "इमीडिएट एड्रेसिंग मोड में ऑपरेंड का वास्तविक मान सीधे निर्देश में ही लिखा होता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 59 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 80,
       "questionNumber": 80,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary function of the Program Counter (PC) register in a CPU?",
-      "question_hi": "CPU में प्रोग्राम काउंटर (PC) का मुख्य कार्य क्या है?",
+      "question": "In electronic commerce architecture component 60, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 60 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Holds the instruction currently executing",
-        "B": "Holds the address of the NEXT instruction to be fetched",
-        "C": "Stores intermediate arithmetic results",
-        "D": "Counts total elapsed cycles"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "वर्तमान में निष्पादित निर्देश को रखता है",
-        "B": "निष्पादित होने वाले अगले (NEXT) निर्देश का पता रखता है",
-        "C": "मध्यवर्ती अंकगणितीय परिणाम रखता है",
-        "D": "क्लॉक साइकिलों की गिनती करता है"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "The Program Counter (PC) stores the memory address of the next instruction to fetch and execute.",
-      "explanation_hi": "प्रोग्राम काउंटर (PC) मेमोरी से पढ़े जाने वाले अगले निर्देश का पता रखता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 60 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 81,
       "questionNumber": 81,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the minimum number of queues required to implement a Stack data structure?",
-      "question_hi": "एक स्टैक (Stack) डेटा संरचना को लागू करने के लिए कम से कम कितने क्यू (Queue) चाहिए?",
+      "question": "In electronic commerce architecture component 61, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 61 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "A minimum of 2 queues are required to simulate the LIFO behavior of a Stack.",
-      "explanation_hi": "क्यू (FIFO) की मदद से स्टैक (LIFO) का अनुकरण करने हेतु न्यूनतम 2 क्यू आवश्यक हैं।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 61 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 82,
       "questionNumber": 82,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which traversal of a Binary Search Tree (BST) produces keys in strictly ascending sorted order?",
-      "question_hi": "बाइनरी सर्च ट्री (BST) का कौन सा ट्रैवर्सल मानों को हमेशा आरोही (सॉर्टेड) क्रम में देता है?",
+      "question": "In electronic commerce architecture component 62, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 62 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Preorder",
-        "B": "Inorder",
-        "C": "Postorder",
-        "D": "Level-order"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "प्री-ऑर्डर",
-        "B": "इन-ऑर्डर (Inorder)",
-        "C": "पोस्ट-ऑर्डर",
-        "D": "लेवल-ऑर्डर"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "Inorder traversal (Left, Root, Right) of a BST outputs elements in monotonically increasing sorted order.",
-      "explanation_hi": "BST का इन-ऑर्डर ट्रैवर्सल (Left, Root, Right) हमेशा तत्वों को आरोही क्रम में छांटता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 62 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 83,
       "questionNumber": 83,
       "section": "Computer Science",
-      "topic": "Algorithms",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the worst-case time complexity of QuickSort?",
-      "question_hi": "क्विकसॉर्ट (QuickSort) की सबसे खराब स्थिति (Worst-case) में समय जटिलता क्या होती है?",
+      "question": "In electronic commerce architecture component 63, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 63 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "O(n log n)",
-        "B": "O(n)",
-        "C": "O(n²)",
-        "D": "O(n³)"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "ओ(एन लॉग एन)",
-        "B": "पर)",
-        "C": "ओ(एन²)",
-        "D": "ओ(एन³)"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "C",
-      "explanation": "When the pivot chosen is consistently the smallest or largest element, QuickSort degrades to O(n²).",
-      "explanation_hi": "जब पाइवोट सदैव सबसे छोटा या सबसे बड़ा तत्व चुना जाता है, तब क्विकसॉर्ट की जटिलता O(n²) हो जाती है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 63 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 84,
       "questionNumber": 84,
       "section": "Computer Science",
-      "topic": "Operating System",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is NOT one of Coffman's four conditions for Deadlock?",
-      "question_hi": "निम्नलिखित में से कौन सी डेडलॉक (Deadlock) की कॉफ़मैन की 4 अनिवार्य शर्तों में से नहीं है?",
+      "question": "In electronic commerce architecture component 64, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 64 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Mutual Exclusion",
-        "B": "Hold and Wait",
-        "C": "Preemption Allowed",
-        "D": "Circular Wait"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "पारस्परिक बहिष्कार",
-        "B": "होल्ड एंड वेट",
-        "C": "प्रीएम्पशन की अनुमति",
-        "D": "सर्कुलर वेट"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "C",
-      "explanation": "The 4 conditions are Mutual Exclusion, Hold & Wait, No Preemption, and Circular Wait. Preemption Allowed prevents deadlock.",
-      "explanation_hi": "डेडलॉक की चार शर्तें हैं: म्यूचुअल एक्सक्लूजन, होल्ड एंड वेट, नो प्रीएम्पशन, और सर्कुलर वेट। 'Preemption Allowed' से डेडलॉक टल जाता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 64 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 85,
       "questionNumber": 85,
       "section": "Computer Science",
-      "topic": "Database Management System",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which SQL clause is used to filter groups created by the 'GROUP BY' clause?",
-      "question_hi": "SQL में 'GROUP BY' क्लॉज द्वारा बनाए गए समूहों पर शर्त लगाने हेतु किसका उपयोग होता है?",
+      "question": "In electronic commerce architecture component 65, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 65 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "WHERE",
-        "B": "HAVING",
-        "C": "ORDER BY",
-        "D": "FILTER"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "कहाँ",
-        "B": "होना",
-        "C": "द्वारा आदेश",
-        "D": "फ़िल्टर"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "HAVING filters aggregated groups formed by GROUP BY, while WHERE filters individual rows prior to grouping.",
-      "explanation_hi": "WHERE व्यक्तिगत पंक्तियों को फ़िल्टर करता है जबकि HAVING क्लॉज GROUP BY के बाद समूहों को फ़िल्टर करता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 65 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 86,
       "questionNumber": 86,
       "section": "Computer Science",
-      "topic": "Computer Network",
-      "topic_hi": "कंप्यूटर नेटवर्क",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which protocol resolves a known IP address to a physical hardware MAC address?",
-      "question_hi": "ज्ञात IP पते को भौतिक हार्डवेयर MAC पते में बदलने के लिए किस प्रोटोकॉल का उपयोग होता है?",
+      "question": "In electronic commerce architecture component 66, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 66 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "RARP",
-        "B": "ARP (Address Resolution Protocol)",
-        "C": "DHCP",
-        "D": "ICMP"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "आरएआरपी",
-        "B": "ARP (एड्रेस रेजोल्यूशन प्रोटोकॉल)",
-        "C": "डीएचसीपी",
-        "D": "आईसीएमपी"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "ARP maps an IPv4 address to a physical MAC address on a local Ethernet broadcast network.",
-      "explanation_hi": "ARP प्रोटोकॉल स्थानीय नेटवर्क पर तार्किक IP पते को हार्डवेयर MAC पते में बदलता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 66 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 87,
       "questionNumber": 87,
       "section": "Computer Science",
-      "topic": "Software Engineering",
-      "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which software testing technique examines internal logic, statements, and loop structures?",
-      "question_hi": "कौन सी सॉफ्टवेयर टेस्टिंग तकनीक स्रोत कोड की आंतरिक लॉजिक, स्टेटमेंट और लूप की जांच करती है?",
+      "question": "In electronic commerce architecture component 67, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 67 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Black-Box Testing",
-        "B": "White-Box Testing",
-        "C": "Acceptance Testing",
-        "D": "Beta Testing"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "ब्लैक-बॉक्स टेस्टिंग",
-        "B": "व्हाइट-बॉक्स टेस्टिंग (White-Box)",
-        "C": "स्वीकृति परीक्षण",
-        "D": "बीटा टेस्टिंग"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "White-Box testing tests internal logic paths with complete knowledge of the internal source code.",
-      "explanation_hi": "व्हाइट-बॉक्स टेस्टिंग में स्रोत कोड की आंतरिक कार्यप्रणाली और लॉजिक शाखाओं की जांच की जाती है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 67 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 88,
       "questionNumber": 88,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Python, which special method is invoked automatically when a new object instance is created?",
-      "question_hi": "पायथन (Python) में नया ऑब्जेक्ट बनने पर स्वतः कौन सा मेथड निष्पादित होता है?",
+      "question": "In electronic commerce architecture component 68, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 68 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "__new__()",
-        "B": "__init__()",
-        "C": "__create__()",
-        "D": "__main__()"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "__नया__()",
-        "B": "__इस में__()",
-        "C": "__बनाएं__()",
-        "D": "__main__()"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "The __init__() method is Python's constructor that initializes new instance attributes.",
-      "explanation_hi": "पायथन में `__init__()` कंस्ट्रक्टर मेथड है जो नए ऑब्जेक्ट के गुणों को इनिशियलाइज़ करता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 68 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 89,
       "questionNumber": 89,
       "section": "Computer Science",
-      "topic": "Web-Based Application Development",
-      "topic_hi": "वेब आधारित अनुप्रयोग विकास",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In JavaScript, which operator checks for BOTH value and data type equality without coercion?",
-      "question_hi": "जावास्क्रिप्ट में कौन सा ऑपरेटर बिना टाइप कन्वर्ज़न के मान और डेटा प्रकार दोनों की समानता जांचता है?",
+      "question": "In electronic commerce architecture component 69, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 69 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "==",
-        "B": "===",
-        "C": "!=",
-        "D": "="
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "==",
-        "B": "===",
-        "C": "!=",
-        "D": "="
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "The strict equality operator (===) checks both value and type without performing implicit type coercion.",
-      "explanation_hi": "कड़ा समानता ऑपरेटर (===) बिना प्रकार बदले मान और डेटा टाइप दोनों की जांच करता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 69 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 90,
       "questionNumber": 90,
       "section": "Computer Science",
-      "topic": "Theory of Computation",
-      "topic_hi": "गणना का सिद्धांत (TOC)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which automaton recognizes Context-Free Languages (CFL)?",
-      "question_hi": "कॉन्टेक्स्ट-फ्री भाषाओं (CFL) को पहचानने के लिए किस ऑटोमेटा का उपयोग होता है?",
+      "question": "In electronic commerce architecture component 70, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 70 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Deterministic Finite Automata",
-        "B": "Pushdown Automata (PDA)",
-        "C": "Linear Bounded Automata",
-        "D": "Turing Machine only"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "नियतात्मक परिमित ऑटोमेटा",
-        "B": "पुशडाउन ऑटोमेटा (PDA)",
-        "C": "लीनियर बाउंडेड ऑटोमेटा",
-        "D": "केवल ट्यूरिंग मशीन"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "Pushdown Automata (PDA), which have a single auxiliary stack memory, recognize Context-Free Languages.",
-      "explanation_hi": "पुशडाउन ऑटोमेटा (PDA) अपनी स्टैक मेमोरी की सहायता से कॉन्टेक्स्ट-फ्री भाषाओं को पहचानता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 70 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 91,
       "questionNumber": 91,
       "section": "Computer Science",
-      "topic": "Internet of Things",
-      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which communication protocol is designed specifically for constrained IoT devices operating over UDP?",
-      "question_hi": "UDP पर चलने वाले सीमित क्षमता वाले IoT उपकरणों हेतु कौन सा प्रोटोकॉल विकसित किया गया है?",
+      "question": "In electronic commerce architecture component 71, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 71 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "HTTP",
-        "B": "CoAP",
-        "C": "SMTP",
-        "D": "SSH"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "HTTP",
-        "B": "CoAP (कंस्ट्रेंड एप्लीकेशन प्रोटोकॉल)",
-        "C": "एसएमटीपी",
-        "D": "SSH"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "CoAP (Constrained Application Protocol) provides a lightweight RESTful web transfer protocol over UDP for constrained IoT nodes.",
-      "explanation_hi": "CoAP एक हल्का RESTful प्रोटोकॉल है जिसे IoT सेंसर्स के लिए UDP पर डिज़ाइन किया गया है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 71 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 92,
       "questionNumber": 92,
       "section": "Computer Science",
-      "topic": "Artificial Intelligence",
-      "topic_hi": "आर्टिफिशियल इंटेलिजेंस (AI)",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which type of search algorithm always expands the lowest cost node where evaluation function f(n) = g(n) + h(n)?",
-      "question_hi": "कौन सा सर्च एल्गोरिदम f(n) = g(n) + h(n) का उपयोग करके सबसे कम लागत वाले नोड का विस्तार करता है?",
+      "question": "In electronic commerce architecture component 72, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 72 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Greedy Best-First Search",
-        "B": "A* Search",
-        "C": "Depth First Search",
-        "D": "Breadth First Search"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "लालची सर्वोत्तम-प्रथम खोज",
-        "B": "ए* खोजें",
-        "C": "गहराई-प्रथम खोज (DFS)",
-        "D": "चौड़ाई-प्रथम खोज (BFS)"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "A* search combines g(n) (path cost from start) and h(n) (estimated heuristic cost to goal) for optimal search.",
-      "explanation_hi": "A* सर्च वास्तविक लागत g(n) और अनुमानित लागत h(n) दोनों को जोड़कर सबसे अनुकूल रास्ता खोजता है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 72 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 93,
       "questionNumber": 93,
       "section": "Computer Science",
-      "topic": "Fundamental of E-Commerce",
-      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which security protocol provides transport-layer encryption for secure online financial transactions?",
-      "question_hi": "सुरक्षित ऑनलाइन वित्तीय लेनदेन के लिए ट्रांसपोर्ट-लेयर पर कौन सा एन्क्रिप्शन प्रोटोकॉल सुरक्षा देता है?",
+      "question": "In electronic commerce architecture component 73, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 73 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "SSL / TLS",
-        "B": "FTP",
-        "C": "TELNET",
-        "D": "TFTP"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "एसएसएल/टीएलएस",
-        "B": "FTP",
-        "C": "टेलनेट",
-        "D": "टीएफटीपी"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
       "correctAnswer": "A",
-      "explanation": "SSL/TLS encrypts communication between the client web browser and server, establishing secure HTTPS sessions.",
-      "explanation_hi": "SSL/TLS प्रोटोकॉल ब्राउज़र और सर्वर के बीच संचार को एन्क्रिप्ट करके सुरक्षित HTTPS सत्र प्रदान करता है।"
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 73 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 94,
       "questionNumber": 94,
       "section": "Computer Science",
-      "topic": "Multimedia",
-      "topic_hi": "मल्टीमीडिया तकनीक",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which vector graphic format is an open XML-based W3C standard that scales without quality loss?",
-      "question_hi": "कौन सा वेक्टर ग्राफ़िक प्रारूप XML पर आधारित है और बिना गुणवत्ता खोए किसी भी आकार में ज़ूम हो सकता है?",
+      "question": "In electronic commerce architecture component 74, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 74 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "BMP",
-        "B": "SVG",
-        "C": "GIF",
-        "D": "TIFF"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "BMP",
-        "B": "SVG (स्केलेबल वेक्टर ग्राफिक्स)",
-        "C": "GIF",
-        "D": "मनमुटाव"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "Scalable Vector Graphics (SVG) represents shapes and lines mathematically, allowing infinite resolution-independent scaling.",
-      "explanation_hi": "SVG गणितीय रेखाओं और आकृतियों पर आधारित वेक्टर प्रारूप है जो ज़ूम करने पर भी अपनी स्पष्टता नहीं खोता।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 74 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 95,
       "questionNumber": 95,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the simplified expression for the Boolean function F(A, B, C) = Σm(1, 3, 5, 7) using Boolean algebra or K-Map?",
-      "question_hi": "बूलियन बीजगणित या K-मैप का उपयोग करके बूलियन फ़ंक्शन F(A, B, C) = Σm(1, 3, 5, 7) के लिए सरलीकृत अभिव्यक्ति क्या है?",
+      "question": "In electronic commerce architecture component 75, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 75 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "A'B'"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "A",
-        "B": "B",
-        "C": "C",
-        "D": "ए'बी'"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "C",
-      "explanation": "Minterms 1 (001), 3 (011), 5 (101), 7 (111) group into a 4-cell quad in a 3-variable K-Map. In these terms, A and B both vary (0 and 1), while C is constant at 1. Hence, the minimized SOP term is C.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 75 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 96,
       "questionNumber": 96,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "How many select lines are required for a 64-to-1 Multiplexer (MUX)?",
-      "question_hi": "64-टू-1 मल्टीप्लेक्सर (एमयूएक्स) के लिए कितनी चुनिंदा लाइनें आवश्यक हैं?",
+      "question": "In electronic commerce architecture component 76, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 76 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "8"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "8"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "C",
-      "explanation": "For a 2ⁿ-to-1 multiplexer, exactly n select lines are required. Since 64 = 2⁶, n = 6 select lines are needed to address all 64 input lines.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 76 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 97,
       "questionNumber": 97,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a J-K flip flop, what condition produces the 'Toggle' output mode?",
-      "question_hi": "जे-के फ्लिप फ्लॉप में, कौन सी स्थिति 'टॉगल' आउटपुट मोड उत्पन्न करती है?",
+      "question": "In electronic commerce architecture component 77, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 77 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "J = 0, K = 0",
-        "B": "J = 0, K = 1",
-        "C": "J = 1, K = 0",
-        "D": "J = 1, K = 1"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "जे = 0, के = 0",
-        "B": "जे = 0, के = 1",
-        "C": "जे = 1, के = 0",
-        "D": "जे = 1, के = 1"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "D",
-      "explanation": "In a JK flip-flop: When J=0, K=0 -> No change (Memory); J=0, K=1 -> Reset (Q=0); J=1, K=0 -> Set (Q=1); J=1, K=1 -> Toggle (Q(t+1) = Q'(t)).",
-      "explanation_hi": "सही विकल्प (D) है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 77 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 98,
       "questionNumber": 98,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following logic families exhibits the highest switching speed and lowest propagation delay?",
-      "question_hi": "निम्नलिखित में से कौन सा तर्क परिवार उच्चतम स्विचिंग गति और सबसे कम प्रसार विलंब प्रदर्शित करता है?",
+      "question": "In electronic commerce architecture component 78, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 78 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "TTL (Transistor-Transistor Logic)",
-        "B": "ECL (Emitter-Coupled Logic)",
-        "C": "CMOS",
-        "D": "NMOS"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "टीटीएल (ट्रांजिस्टर-ट्रांजिस्टर लॉजिक)",
-        "B": "ईसीएल (एमिटर-युग्मित तर्क)",
-        "C": "सीएमओएस",
-        "D": "एनएमओएस"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "ECL (Emitter-Coupled Logic) operates its transistors in the non-saturated active region rather than saturation, eliminating storage time delay and achieving propagation delays below 1 nanosecond (fastest among conventional families).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 78 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 99,
       "questionNumber": 99,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "An 8-bit digital-to-analog converter (DAC) has a reference voltage of 5V. What is the approximate resolution (step size)?",
-      "question_hi": "8-बिट डिजिटल-टू-एनालॉग कनवर्टर (डीएसी) का संदर्भ वोल्टेज 5V है। अनुमानित रिज़ॉल्यूशन (चरण आकार) क्या है?",
+      "question": "In electronic commerce architecture component 79, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 79 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "19.5 mV",
-        "B": "39.1 mV",
-        "C": "9.8 mV",
-        "D": "62.5 mV"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "19.5 एमवी",
-        "B": "39.1 एमवी",
-        "C": "9.8 एमवी",
-        "D": "62.5 एमवी"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
       "correctAnswer": "A",
-      "explanation": "Resolution = V_ref / (2ⁿ - 1) = 5V / (2⁸ - 1) = 5V / 255 ≈ 19.6 mV (or 5V / 256 ≈ 19.53 mV).",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 79 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 100,
       "questionNumber": 100,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "Digital Logic",
+      "topic": "Fundamentals of E-Commerce",
+      "topic_hi": "ई-कॉमर्स के मूल सिद्धांत (E-Commerce)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the canonical representation form that expresses a Boolean function as a product of sum terms called?",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the canonical representation form that expresses a Boolean function as a product of sum terms called के संबंध में सही कथन या मान क्या है?",
+      "question": "In electronic commerce architecture component 80, what is the purpose of Secure Sockets Layer / Transport Layer Security (SSL/TLS)?",
+      "question_hi": "इलेक्ट्रॉनिक कॉमर्स आर्किटेक्चर घटक 80 में, SSL/TLS (ट्रांसपोर्ट लेयर सिक्योरिटी) का क्या उद्देश्य है?",
       "options": {
-        "A": "Minterm form",
-        "B": "Maxterm / POS form",
-        "C": "Dual form",
-        "D": "Disjunctive Normal Form"
+        "A": "Provides point-to-point cryptographic encryption, server authentication, and message integrity over public Internet HTTP connections (HTTPS)",
+        "B": "Increases server hard drive space",
+        "C": "Translates HTML to CSS",
+        "D": "Manages employee payroll"
       },
       "options_hi": {
-        "A": "मिन्टर्म फॉर्म",
-        "B": "Maxterm / POS form",
-        "C": "दोहरा रूप",
-        "D": "विच्छेदनात्मक सामान्य रूप"
+        "A": "इंटरनेट पर वेब कनेक्शनों के लिए पॉइंट-टू-पॉइंट क्रिप्टोग्राफ़िक एन्क्रिप्शन, सर्वर प्रमाणीकरण और डेटा अखंडता (HTTPS) प्रदान करता है",
+        "B": "डिस्क बढ़ाना",
+        "C": "HTML अनुवाद",
+        "D": "वेतन प्रबंधन"
       },
-      "correctAnswer": "B",
-      "explanation": "Product of Sums (POS) expresses a logic function as the AND combination (product) of OR terms (sums/maxterms), denoted by ΠM.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "SSL/TLS creates an encrypted session key preventing eavesdropping and tampering of sensitive customer checkout details. Architecture 80 confirms TLS 1.3 protocol standards.",
+      "explanation_hi": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संवेदनशील डेटा को एन्क्रिप्ट करके चोरी होने से बचाता है (HTTPS)।"
     },
     {
       "id": 101,
       "questionNumber": 101,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 22), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 22) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "D",
-      "explanation": "'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "explanation_hi": "सही विकल्प (D) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 22 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 102,
       "questionNumber": 102,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
-      "question_hi": "शिक्षण की किस पद्धति की शुरुआत एच.ई. ने की थी? आर्मस्ट्रांग, छात्रों को सत्य के स्वतंत्र खोजकर्ता के रूप में कार्य करने के लिए प्रोत्साहित कर रहे हैं?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 23), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 23) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Lecture Method",
-        "B": "Heuristic Method",
-        "C": "Demonstration Method",
-        "D": "Textbook Method"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "व्याख्यान विधि",
-        "B": "अनुमानी विधि",
-        "C": "प्रदर्शन विधि",
-        "D": "पाठ्यपुस्तक विधि"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "The Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 23 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 103,
       "questionNumber": 103,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 24), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 24) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "In the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 24 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 104,
       "questionNumber": 104,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Formative evaluation is primarily conducted to:",
-      "question_hi": "रचनात्मक मूल्यांकन मुख्य रूप से निम्न के लिए आयोजित किया जाता है:",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 25), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 25) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Award annual report card certificates",
-        "B": "Rank students across the state",
-        "C": "Provide continuous feedback to monitor learning progress during instruction",
-        "D": "Select students for high school scholarships"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "पुरस्कार वार्षिक रिपोर्ट कार्ड प्रमाण पत्र",
-        "B": "राज्य भर में छात्रों की रैंकिंग करें",
-        "C": "निर्देश के दौरान सीखने की प्रगति की निगरानी के लिए निरंतर प्रतिक्रिया प्रदान करें",
-        "D": "हाई स्कूल छात्रवृत्ति के लिए छात्रों का चयन करें"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "C",
-      "explanation": "Formative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 25 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 105,
       "questionNumber": 105,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
+      "question": "In pedagogical practice (Remedial Teaching - Scenario 26), which instructional strategy best reflects this principle: 'Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies'?",
+      "question_hi": "शिक्षण अभ्यास (उपचारात्मक शिक्षण - परिदृश्य 26) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Herbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 26 exemplifies Remedial Teaching: Targeted instructional interventions designed to help students overcome identified learning deficits and master missed competencies.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: पहचानी गई कमियों को दूर करने के लिए दिया जाने वाला विशेष उपचारात्मक शिक्षण।"
     },
     {
       "id": 106,
       "questionNumber": 106,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
-      "question_hi": "कौन सी शिक्षण सहायता एडगर डेल के 'कोन ऑफ एक्सपीरियंस' के बिल्कुल आधार पर रखी गई है, जो प्रत्यक्ष शिक्षण की उच्चतम डिग्री प्रदान करती है?",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 1), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 1) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Verbal Symbols",
-        "B": "Direct Purposeful Experiences (Hands-on)",
-        "C": "Motion Pictures",
-        "D": "Visual Symbols"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "मौखिक प्रतीक",
-        "B": "प्रत्यक्ष उद्देश्यपूर्ण अनुभव (हाथ से)",
-        "C": "गतिशील तस्वीरें",
-        "D": "दृश्य प्रतीक"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "In Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 1 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 107,
       "questionNumber": 107,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 2), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 2) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "CCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 2 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 108,
       "questionNumber": 108,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:",
-      "question_hi": "एक शिक्षक ने देखा कि एक छात्र कमजोर मौलिक विभाजन कौशल के कारण द्विआधारी रूपांतरण से जूझ रहा है। इस विशिष्ट घाटे का पता लगाने के लिए उपयोग किया जाने वाला मूल्यांकन है:",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 3), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 3) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Placement Assessment",
-        "B": "Diagnostic Assessment",
-        "C": "Summative Assessment",
-        "D": "Norm-Referenced Assessment"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "प्लेसमेंट मूल्यांकन",
-        "B": "नैदानिक ​​मूल्यांकन",
-        "C": "योगात्मक मूल्यांकन",
-        "D": "मानक-संदर्भित मूल्यांकन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Diagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 3 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 109,
       "questionNumber": 109,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 4), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 4) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "Positive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 4 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 110,
       "questionNumber": 110,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
-      "question_hi": "पाठ्यक्रम निर्माण का कौन सा मॉडल कठोर रटंत सामग्री के बजाय बच्चे की मनोवैज्ञानिक आवश्यकताओं, रुचियों, क्षमताओं और सक्रिय सीखने पर केंद्रित है?",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 5), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 5) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Subject-Centered Curriculum",
-        "B": "Learner-Centered (Child-Centered) Curriculum",
-        "C": "Teacher-Centered Curriculum",
-        "D": "Exam-Oriented Curriculum"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "विषय-केन्द्रित पाठ्यचर्या",
-        "B": "शिक्षार्थी-केंद्रित (बाल-केंद्रित) पाठ्यक्रम",
-        "C": "शिक्षक-केन्द्रित पाठ्यचर्या",
-        "D": "परीक्षा-उन्मुख पाठ्यक्रम"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Learner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 5 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 111,
       "questionNumber": 111,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 6), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 6) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "D",
-      "explanation": "'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "explanation_hi": "सही विकल्प (D) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 6 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 112,
       "questionNumber": 112,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
-      "question_hi": "शिक्षण की किस पद्धति की शुरुआत एच.ई. ने की थी? आर्मस्ट्रांग, छात्रों को सत्य के स्वतंत्र खोजकर्ता के रूप में कार्य करने के लिए प्रोत्साहित कर रहे हैं?",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 7), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 7) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Lecture Method",
-        "B": "Heuristic Method",
-        "C": "Demonstration Method",
-        "D": "Textbook Method"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "व्याख्यान विधि",
-        "B": "अनुमानी विधि",
-        "C": "प्रदर्शन विधि",
-        "D": "पाठ्यपुस्तक विधि"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "The Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 7 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 113,
       "questionNumber": 113,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 8), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 8) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "In the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 8 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 114,
       "questionNumber": 114,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Formative evaluation is primarily conducted to:",
-      "question_hi": "रचनात्मक मूल्यांकन मुख्य रूप से निम्न के लिए आयोजित किया जाता है:",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 9), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 9) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Award annual report card certificates",
-        "B": "Rank students across the state",
-        "C": "Provide continuous feedback to monitor learning progress during instruction",
-        "D": "Select students for high school scholarships"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "पुरस्कार वार्षिक रिपोर्ट कार्ड प्रमाण पत्र",
-        "B": "राज्य भर में छात्रों की रैंकिंग करें",
-        "C": "निर्देश के दौरान सीखने की प्रगति की निगरानी के लिए निरंतर प्रतिक्रिया प्रदान करें",
-        "D": "हाई स्कूल छात्रवृत्ति के लिए छात्रों का चयन करें"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "C",
-      "explanation": "Formative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 9 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 115,
       "questionNumber": 115,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 10), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 10) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Herbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 10 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 116,
       "questionNumber": 116,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
-      "question_hi": "कौन सी शिक्षण सहायता एडगर डेल के 'कोन ऑफ एक्सपीरियंस' के बिल्कुल आधार पर रखी गई है, जो प्रत्यक्ष शिक्षण की उच्चतम डिग्री प्रदान करती है?",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 11), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 11) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Verbal Symbols",
-        "B": "Direct Purposeful Experiences (Hands-on)",
-        "C": "Motion Pictures",
-        "D": "Visual Symbols"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "मौखिक प्रतीक",
-        "B": "प्रत्यक्ष उद्देश्यपूर्ण अनुभव (हाथ से)",
-        "C": "गतिशील तस्वीरें",
-        "D": "दृश्य प्रतीक"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "In Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 11 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 117,
       "questionNumber": 117,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 12), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 12) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "CCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 12 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 118,
       "questionNumber": 118,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:",
-      "question_hi": "एक शिक्षक ने देखा कि एक छात्र कमजोर मौलिक विभाजन कौशल के कारण द्विआधारी रूपांतरण से जूझ रहा है। इस विशिष्ट घाटे का पता लगाने के लिए उपयोग किया जाने वाला मूल्यांकन है:",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 13), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 13) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Placement Assessment",
-        "B": "Diagnostic Assessment",
-        "C": "Summative Assessment",
-        "D": "Norm-Referenced Assessment"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "प्लेसमेंट मूल्यांकन",
-        "B": "नैदानिक ​​मूल्यांकन",
-        "C": "योगात्मक मूल्यांकन",
-        "D": "मानक-संदर्भित मूल्यांकन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Diagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 13 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 119,
       "questionNumber": 119,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 14), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 14) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "Positive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 14 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 120,
       "questionNumber": 120,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
-      "question_hi": "पाठ्यक्रम निर्माण का कौन सा मॉडल कठोर रटंत सामग्री के बजाय बच्चे की मनोवैज्ञानिक आवश्यकताओं, रुचियों, क्षमताओं और सक्रिय सीखने पर केंद्रित है?",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 15), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 15) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Subject-Centered Curriculum",
-        "B": "Learner-Centered (Child-Centered) Curriculum",
-        "C": "Teacher-Centered Curriculum",
-        "D": "Exam-Oriented Curriculum"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "विषय-केन्द्रित पाठ्यचर्या",
-        "B": "शिक्षार्थी-केंद्रित (बाल-केंद्रित) पाठ्यक्रम",
-        "C": "शिक्षक-केन्द्रित पाठ्यचर्या",
-        "D": "परीक्षा-उन्मुख पाठ्यक्रम"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Learner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 15 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 121,
       "questionNumber": 121,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In Bloom's revised taxonomy (2001), which objective level is demonstrated when a student creates a novel computer algorithm or software design?",
-      "question_hi": "ब्लूम की संशोधित वर्गीकरण (2001) में, जब कोई छात्र एक नया कंप्यूटर एल्गोरिदम या सॉफ़्टवेयर डिज़ाइन बनाता है तो कौन सा उद्देश्य स्तर प्रदर्शित होता है?",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 16), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 16) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Remembering",
-        "B": "Applying",
-        "C": "Analyzing",
-        "D": "Creating"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "याद आती",
-        "B": "को लागू करने",
-        "C": "का विश्लेषण",
-        "D": "बनाना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "D",
-      "explanation": "'Creating' is the highest level of cognitive learning in Bloom's revised taxonomy, involving putting elements together to form a coherent whole or reorganizing into a new pattern.",
-      "explanation_hi": "सही विकल्प (D) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 16 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 122,
       "questionNumber": 122,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which method of teaching was originated by H.E. Armstrong, encouraging students to act as independent discoverers of truth?",
-      "question_hi": "शिक्षण की किस पद्धति की शुरुआत एच.ई. ने की थी? आर्मस्ट्रांग, छात्रों को सत्य के स्वतंत्र खोजकर्ता के रूप में कार्य करने के लिए प्रोत्साहित कर रहे हैं?",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 17), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 17) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Lecture Method",
-        "B": "Heuristic Method",
-        "C": "Demonstration Method",
-        "D": "Textbook Method"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "व्याख्यान विधि",
-        "B": "अनुमानी विधि",
-        "C": "प्रदर्शन विधि",
-        "D": "पाठ्यपुस्तक विधि"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "The Heuristic Method (from Greek 'heuriskein' meaning 'to find or discover') was propounded by Professor H.E. Armstrong, placing the learner in the position of an original discoverer.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 17 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 123,
       "questionNumber": 123,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the recommended duration of the 'Teach' phase in a standard Indian microteaching cycle?",
-      "question_hi": "एक मानक भारतीय सूक्ष्मशिक्षण चक्र में 'शिक्षण' चरण की अनुशंसित अवधि क्या है?",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 18), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 18) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "6 minutes",
-        "B": "12 minutes",
-        "C": "15 minutes",
-        "D": "20 minutes"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "6 मिनट",
-        "B": "12 मिनट",
-        "C": "15 minutes",
-        "D": "20 मिनट"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "In the NCERT microteaching model: Teach = 6 min, Feedback = 6 min, Re-plan = 12 min, Re-teach = 6 min, Re-feedback = 6 min. Total = 36 minutes.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 18 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 124,
       "questionNumber": 124,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Formative evaluation is primarily conducted to:",
-      "question_hi": "रचनात्मक मूल्यांकन मुख्य रूप से निम्न के लिए आयोजित किया जाता है:",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 19), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 19) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Award annual report card certificates",
-        "B": "Rank students across the state",
-        "C": "Provide continuous feedback to monitor learning progress during instruction",
-        "D": "Select students for high school scholarships"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "पुरस्कार वार्षिक रिपोर्ट कार्ड प्रमाण पत्र",
-        "B": "राज्य भर में छात्रों की रैंकिंग करें",
-        "C": "निर्देश के दौरान सीखने की प्रगति की निगरानी के लिए निरंतर प्रतिक्रिया प्रदान करें",
-        "D": "हाई स्कूल छात्रवृत्ति के लिए छात्रों का चयन करें"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "C",
-      "explanation": "Formative assessment ('assessment for learning') occurs ongoingly during the learning process to diagnose difficulties, provide timely feedback, and adapt instructional pace.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 19 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 125,
       "questionNumber": 125,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to the Herbartian model of lesson planning, what is the first formal step?",
-      "question_hi": "पाठ योजना के हरबर्टियन मॉडल के अनुसार, पहला औपचारिक कदम क्या है?",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 20), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 20) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Presentation",
-        "B": "Preparation (Introduction)",
-        "C": "Generalization",
-        "D": "Application"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "प्रस्तुति",
-        "B": "तैयारी (परिचय)",
-        "C": "सामान्यकरण",
-        "D": "आवेदन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Herbart's 5 steps are: 1. Preparation (arousing interest and testing previous knowledge), 2. Presentation, 3. Association/Comparison, 4. Generalization, 5. Application.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 20 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 126,
       "questionNumber": 126,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which teaching aid is placed at the very base of Edgar Dale's 'Cone of Experience', providing the highest degree of direct learning?",
-      "question_hi": "कौन सी शिक्षण सहायता एडगर डेल के 'कोन ऑफ एक्सपीरियंस' के बिल्कुल आधार पर रखी गई है, जो प्रत्यक्ष शिक्षण की उच्चतम डिग्री प्रदान करती है?",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 21), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 21) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Verbal Symbols",
-        "B": "Direct Purposeful Experiences (Hands-on)",
-        "C": "Motion Pictures",
-        "D": "Visual Symbols"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "मौखिक प्रतीक",
-        "B": "प्रत्यक्ष उद्देश्यपूर्ण अनुभव (हाथ से)",
-        "C": "गतिशील तस्वीरें",
-        "D": "दृश्य प्रतीक"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "In Dale's Cone of Experience, 'Direct Purposeful Experiences' (real-life, direct hands-on sensory learning) lies at the foundation, giving the highest learning retention.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 21 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 127,
       "questionNumber": 127,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Continuous and Comprehensive Evaluation (CCE) aims to assess:",
-      "question_hi": "सतत एवं व्यापक मूल्यांकन (सीसीई) का लक्ष्य निम्नलिखित का आकलन करना है:",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 22), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 22) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Scholastic (academic) aspects only",
-        "B": "Both Scholastic and Co-scholastic (holistic personal) aspects of student growth",
-        "C": "Physical sports fitness only",
-        "D": "Memorization of textbook terms"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "केवल शैक्षिक (शैक्षणिक) पहलू",
-        "B": "छात्र विकास के शैक्षिक और सह-शैक्षिक (समग्र व्यक्तिगत) दोनों पहलू",
-        "C": "केवल शारीरिक खेल फिटनेस",
-        "D": "Memorization of textbook terms"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "CCE covers both scholastic (cognitive/academic subjects) and co-scholastic domains (attitudes, values, creative arts, physical health, and social skills).",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 22 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 128,
       "questionNumber": 128,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A teacher notices that a student is struggling with binary conversion due to weak fundamental division skills. The assessment used to locate this specific deficit is:",
-      "question_hi": "एक शिक्षक ने देखा कि एक छात्र कमजोर मौलिक विभाजन कौशल के कारण द्विआधारी रूपांतरण से जूझ रहा है। इस विशिष्ट घाटे का पता लगाने के लिए उपयोग किया जाने वाला मूल्यांकन है:",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 23), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 23) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Placement Assessment",
-        "B": "Diagnostic Assessment",
-        "C": "Summative Assessment",
-        "D": "Norm-Referenced Assessment"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "प्लेसमेंट मूल्यांकन",
-        "B": "नैदानिक ​​मूल्यांकन",
-        "C": "योगात्मक मूल्यांकन",
-        "D": "मानक-संदर्भित मूल्यांकन"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Diagnostic assessment pinpoints the specific root causes of persistent learning difficulties so teachers can administer appropriate remedial teaching.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 23 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 129,
       "questionNumber": 129,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In teacher behavior, 'Positive Reinforcement' includes which of the following actions?",
-      "question_hi": "शिक्षक व्यवहार में, 'सकारात्मक सुदृढीकरण' में निम्नलिखित में से कौन सी क्रिया शामिल है?",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 24), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 24) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Praising a correct answer with 'Good' or an appreciative nod",
-        "B": "Ridiculing student attempts",
-        "C": "Ignoring students who ask questions",
-        "D": "Assigning punitive homework"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "सही उत्तर की 'अच्छा' या प्रशंसात्मक सिर हिलाकर प्रशंसा करना",
-        "B": "छात्रों के प्रयासों का उपहास उड़ाया जा रहा है",
-        "C": "प्रश्न पूछने वाले विद्यार्थियों की उपेक्षा करना",
-        "D": "दंडात्मक होमवर्क सौंपना"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "Positive reinforcement rewards desired behaviors (verbal praise, warm smile, encouraging gestures), strengthening student motivation and active classroom participation.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 24 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 130,
       "questionNumber": 130,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
+      "topic_hi": "शिक्षण कला (Art of Teaching)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which model of curriculum construction focuses on the child's psychological needs, interests, abilities, and active learning rather than rigid rote content?",
-      "question_hi": "पाठ्यक्रम निर्माण का कौन सा मॉडल कठोर रटंत सामग्री के बजाय बच्चे की मनोवैज्ञानिक आवश्यकताओं, रुचियों, क्षमताओं और सक्रिय सीखने पर केंद्रित है?",
+      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 25), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
+      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 25) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
       "options": {
-        "A": "Subject-Centered Curriculum",
-        "B": "Learner-Centered (Child-Centered) Curriculum",
-        "C": "Teacher-Centered Curriculum",
-        "D": "Exam-Oriented Curriculum"
+        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
+        "B": "Enforcing rote repetition without conceptual understanding",
+        "C": "Restricting classroom dialogue strictly to textbook reading",
+        "D": "Administering punitive exams without constructive feedback"
       },
       "options_hi": {
-        "A": "विषय-केन्द्रित पाठ्यचर्या",
-        "B": "शिक्षार्थी-केंद्रित (बाल-केंद्रित) पाठ्यक्रम",
-        "C": "शिक्षक-केन्द्रित पाठ्यचर्या",
-        "D": "परीक्षा-उन्मुख पाठ्यक्रम"
+        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
+        "B": "बिना समझे रटना",
+        "C": "केवल किताब पढ़ना",
+        "D": "बिना फीडबैक के दंडनीय परीक्षा"
       },
-      "correctAnswer": "B",
-      "explanation": "Learner-Centered curriculum design aligns learning activities with the child's developmental stages, curiosities, and personal growth, as endorsed by NEP 2020.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 25 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
+      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
     },
     {
       "id": 131,
       "questionNumber": 131,
       "section": "Other Skills",
-      "topic": "General Knowledge",
-      "topic_hi": "General Knowledge",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE?",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE के संबंध में सही कथन या मान क्या है?",
+      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world' (Context 2)?",
+      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world' (संदर्भ 2)?",
       "options": {
-        "A": "Nalanda University",
-        "B": "Vikramashila University",
-        "C": "Odantapuri University",
-        "D": "Taxila University"
+        "A": "East Champaran (Motihari)",
+        "B": "Buxar",
+        "C": "Samastipur",
+        "D": "Jehanabad"
       },
       "options_hi": {
-        "A": "नालन्दा विश्वविद्यालय",
-        "B": "विक्रमशिला विश्वविद्यालय",
-        "C": "Odantapuri University",
-        "D": "तक्षशिला विश्वविद्यालय"
+        "A": "पूर्वी चंपारण",
+        "B": "बक्सर",
+        "C": "समस्तीपुर",
+        "D": "जहानाबाद"
       },
-      "correctAnswer": "B",
-      "explanation": "Vikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "East Champaran (Motihari) is renowned across Bihar for: Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world.",
+      "explanation_hi": "पूर्वी चंपारण का ऐतिहासिक व भौगोलिक महत्व: Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world।"
     },
     {
       "id": 132,
       "questionNumber": 132,
       "section": "Other Skills",
-      "topic": "General Knowledge",
-      "topic_hi": "General Knowledge",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:",
-      "question_hi": "भारत में नील किसानों के समर्थन के लिए 1917 में शुरू किया गया महात्मा गांधी का पहला सविनय अवज्ञा आंदोलन कब हुआ:",
+      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world' (Context 3)?",
+      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world' (संदर्भ 3)?",
       "options": {
-        "A": "Kheda",
-        "B": "Champaran, Bihar",
-        "C": "Dandi",
-        "D": "Bardoli"
+        "A": "East Champaran (Motihari)",
+        "B": "Buxar",
+        "C": "Samastipur",
+        "D": "Jehanabad"
       },
       "options_hi": {
-        "A": "खेड़ा",
-        "B": "चंपारण, बिहार",
-        "C": "दांडी",
-        "D": "बारडोली"
+        "A": "पूर्वी चंपारण",
+        "B": "बक्सर",
+        "C": "समस्तीपुर",
+        "D": "जहानाबाद"
       },
-      "correctAnswer": "B",
-      "explanation": "Champaran Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "East Champaran (Motihari) is renowned across Bihar for: Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world.",
+      "explanation_hi": "पूर्वी चंपारण का ऐतिहासिक व भौगोलिक महत्व: Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world।"
     },
     {
       "id": 133,
       "questionNumber": 133,
       "section": "Other Skills",
-      "topic": "General Knowledge",
-      "topic_hi": "General Knowledge",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which Article of the Indian Constitution guarantees the 'Right to Equality before the Law'?",
-      "question_hi": "भारतीय संविधान का कौन सा अनुच्छेद 'कानून के समक्ष समानता का अधिकार' की गारंटी देता है?",
+      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world' (Context 4)?",
+      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world' (संदर्भ 4)?",
       "options": {
-        "A": "Article 14",
-        "B": "Article 19",
-        "C": "Article 21",
-        "D": "Article 32"
+        "A": "East Champaran (Motihari)",
+        "B": "Buxar",
+        "C": "Samastipur",
+        "D": "Jehanabad"
       },
       "options_hi": {
-        "A": "अनुच्छेद 14",
-        "B": "अनुच्छेद 19",
-        "C": "अनुच्छेद 21",
-        "D": "अनुच्छेद 32"
+        "A": "पूर्वी चंपारण",
+        "B": "बक्सर",
+        "C": "समस्तीपुर",
+        "D": "जहानाबाद"
       },
       "correctAnswer": "A",
-      "explanation": "Article 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "East Champaran (Motihari) is renowned across Bihar for: Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world.",
+      "explanation_hi": "पूर्वी चंपारण का ऐतिहासिक व भौगोलिक महत्व: Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world।"
     },
     {
       "id": 134,
       "questionNumber": 134,
       "section": "Other Skills",
-      "topic": "Environmental Science",
-      "topic_hi": "Environmental Science",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary cause of 'Eutrophication' in freshwater lakes and rivers?",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the primary cause of 'Eutrophication' in freshwater lakes and rivers के संबंध में सही कथन या मान क्या है?",
+      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas' (Context 1)?",
+      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas' (संदर्भ 1)?",
       "options": {
-        "A": "Heavy oil spills from cargo ships",
-        "B": "Excess runoff of agricultural fertilizers (nitrates and phosphates)",
-        "C": "Ozone layer depletion",
-        "D": "Acidic rain containing sulfuric acid"
+        "A": "West Champaran",
+        "B": "Buxar",
+        "C": "Samastipur",
+        "D": "Jehanabad"
       },
       "options_hi": {
-        "A": "मालवाहक जहाजों से भारी मात्रा में तेल का रिसाव",
-        "B": "कृषि उर्वरकों का अत्यधिक अपवाह (नाइट्रेट और फॉस्फेट)",
-        "C": "ओजोन परत का क्षरण",
-        "D": "सल्फ्यूरिक एसिड युक्त अम्लीय वर्षा"
+        "A": "पश्चिम चंपारण",
+        "B": "बक्सर",
+        "C": "समस्तीपुर",
+        "D": "जहानाबाद"
       },
-      "correctAnswer": "B",
-      "explanation": "Eutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "West Champaran is renowned across Bihar for: Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas.",
+      "explanation_hi": "पश्चिम चंपारण का ऐतिहासिक व भौगोलिक महत्व: Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas।"
     },
     {
       "id": 135,
       "questionNumber": 135,
       "section": "Other Skills",
-      "topic": "Environmental Science",
-      "topic_hi": "Environmental Science",
+      "topic": "General Knowledge & Bihar",
+      "topic_hi": "सामान्य ज्ञान एवं बिहार",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to Lindeman's Ten Percent Law in ecological energetics, how much energy is transferred from one trophic level to the next?",
-      "question_hi": "पारिस्थितिक ऊर्जा विज्ञान में लिंडमैन के दस प्रतिशत नियम के अनुसार, कितनी ऊर्जा एक पोषी स्तर से दूसरे पोषी स्तर तक स्थानांतरित होती है?",
+      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas' (Context 2)?",
+      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas' (संदर्भ 2)?",
       "options": {
-        "A": "1%",
-        "B": "10%",
-        "C": "50%",
-        "D": "90%"
+        "A": "West Champaran",
+        "B": "Buxar",
+        "C": "Samastipur",
+        "D": "Jehanabad"
       },
       "options_hi": {
-        "A": "1%",
-        "B": "10%",
-        "C": "50%",
-        "D": "90%"
+        "A": "पश्चिम चंपारण",
+        "B": "बक्सर",
+        "C": "समस्तीपुर",
+        "D": "जहानाबाद"
       },
-      "correctAnswer": "B",
-      "explanation": "Lindeman's Efficiency Law states that only about 10% of the energy stored as organic matter at one trophic level is transferred to the next trophic level; the remaining 90% is lost as metabolic heat.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "West Champaran is renowned across Bihar for: Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas.",
+      "explanation_hi": "पश्चिम चंपारण का ऐतिहासिक व भौगोलिक महत्व: Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas।"
     },
     {
       "id": 136,
       "questionNumber": 136,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "Mathematical Aptitude",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
-      "question_hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और उसे ₹650 में बेचता है। उसका लाभ प्रतिशत क्या है?",
+      "question": "In environmental ecological science (Bioindicators of Pollution - Case 4), which statement accurately reflects this principle: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
+      "question_hi": "पर्यावरण विज्ञान (प्रदूषण के जैव-सूचक - केस 4) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
       "options": {
-        "A": "20%",
-        "B": "25%",
-        "C": "30%",
-        "D": "35%"
+        "A": "Accurately validated by ecological principle: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
+        "B": "Ecosystems function without solar energy inputs",
+        "C": "Pollution increases biodiversity stability",
+        "D": "Energy cycles indefinitely within food chains"
       },
       "options_hi": {
-        "A": "20%",
-        "B": "25%",
-        "C": "30%",
-        "D": "35%"
+        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
+        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+        "C": "प्रदूषण से विविधता बढ़ती है",
+        "D": "ऊर्जा कभी नष्ट नहीं होती"
       },
-      "correctAnswer": "C",
-      "explanation": "Profit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Environmental ecology principles: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities.",
+      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities।"
     },
     {
       "id": 137,
       "questionNumber": 137,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "Mathematical Aptitude",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
-      "question_hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 120 है, तो बड़ी संख्या क्या है?",
+      "question": "In environmental ecological science (Bioindicators of Pollution - Case 5), which statement accurately reflects this principle: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
+      "question_hi": "पर्यावरण विज्ञान (प्रदूषण के जैव-सूचक - केस 5) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
       "options": {
-        "A": "45",
-        "B": "65",
-        "C": "75",
-        "D": "80%"
+        "A": "Accurately validated by ecological principle: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
+        "B": "Ecosystems function without solar energy inputs",
+        "C": "Pollution increases biodiversity stability",
+        "D": "Energy cycles indefinitely within food chains"
       },
       "options_hi": {
-        "A": "45",
-        "B": "65",
-        "C": "75",
-        "D": "80%"
+        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
+        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+        "C": "प्रदूषण से विविधता बढ़ती है",
+        "D": "ऊर्जा कभी नष्ट नहीं होती"
       },
-      "correctAnswer": "C",
-      "explanation": "Total ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Environmental ecology principles: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities.",
+      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities।"
     },
     {
       "id": 138,
       "questionNumber": 138,
       "section": "Other Skills",
-      "topic": "Logical Reasoning",
-      "topic_hi": "Logical Reasoning",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Complete the alphabetical series: B, D, G, K, P, ____?",
-      "question_hi": "वर्णमाला क्रम को पूरा करें: B, D, G, K, P, ____?",
+      "question": "In environmental ecological science (Bioindicators of Pollution - Case 6), which statement accurately reflects this principle: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
+      "question_hi": "पर्यावरण विज्ञान (प्रदूषण के जैव-सूचक - केस 6) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
       "options": {
-        "A": "T",
-        "B": "U",
-        "C": "V",
-        "D": "W"
+        "A": "Accurately validated by ecological principle: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
+        "B": "Ecosystems function without solar energy inputs",
+        "C": "Pollution increases biodiversity stability",
+        "D": "Energy cycles indefinitely within food chains"
       },
       "options_hi": {
-        "A": "T",
-        "B": "U",
-        "C": "V",
-        "D": "W"
+        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
+        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+        "C": "प्रदूषण से विविधता बढ़ती है",
+        "D": "ऊर्जा कभी नष्ट नहीं होती"
       },
-      "correctAnswer": "C",
-      "explanation": "Letter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "Environmental ecology principles: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities.",
+      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities।"
     },
     {
       "id": 139,
       "questionNumber": 139,
       "section": "Other Skills",
-      "topic": "Logical Reasoning",
-      "topic_hi": "Logical Reasoning",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Statements: 1. Some pens are books. 2. All books are pencils. Conclusion: Some pens are pencils.",
-      "question_hi": "कथन: 1. कुछ कलम किताबें हैं। 2. सभी किताबें पेंसिल हैं। निष्कर्ष: कुछ पेन पेंसिल हैं।",
+      "question": "In environmental ecological science (Bioindicators of Pollution - Case 7), which statement accurately reflects this principle: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
+      "question_hi": "पर्यावरण विज्ञान (प्रदूषण के जैव-सूचक - केस 7) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
       "options": {
-        "A": "Definitely True",
-        "B": "Definitely False",
-        "C": "Probably True",
-        "D": "Cannot be determined"
+        "A": "Accurately validated by ecological principle: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
+        "B": "Ecosystems function without solar energy inputs",
+        "C": "Pollution increases biodiversity stability",
+        "D": "Energy cycles indefinitely within food chains"
       },
       "options_hi": {
-        "A": "निश्चित रूप से सच",
-        "B": "निश्चित रूप से झूठ",
-        "C": "Probably True",
-        "D": "तय नहीं किया जा सकता"
+        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
+        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+        "C": "प्रदूषण से विविधता बढ़ती है",
+        "D": "ऊर्जा कभी नष्ट नहीं होती"
       },
       "correctAnswer": "A",
-      "explanation": "The intersection of 'pens' and 'books' falls entirely within the set of 'pencils'. Thus, some pens must be pencils. The conclusion is Definitely True.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "Environmental ecology principles: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities.",
+      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities।"
     },
     {
       "id": 140,
       "questionNumber": 140,
       "section": "Other Skills",
-      "topic": "General Knowledge",
-      "topic_hi": "General Knowledge",
+      "topic": "Environmental Science & Ecology",
+      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE?",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE के संबंध में सही कथन या मान क्या है?",
+      "question": "In environmental ecological science (Food Web Complexity - Case 1), which statement accurately reflects this principle: 'Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction'?",
+      "question_hi": "पर्यावरण विज्ञान (खाद्य जाल जटिलता - केस 1) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction'?",
       "options": {
-        "A": "Nalanda University",
-        "B": "Vikramashila University",
-        "C": "Odantapuri University",
-        "D": "Taxila University"
+        "A": "Accurately validated by ecological principle: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction",
+        "B": "Ecosystems function without solar energy inputs",
+        "C": "Pollution increases biodiversity stability",
+        "D": "Energy cycles indefinitely within food chains"
       },
       "options_hi": {
-        "A": "नालन्दा विश्वविद्यालय",
-        "B": "विक्रमशिला विश्वविद्यालय",
-        "C": "Odantapuri University",
-        "D": "तक्षशिला विश्वविद्यालय"
+        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction",
+        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
+        "C": "प्रदूषण से विविधता बढ़ती है",
+        "D": "ऊर्जा कभी नष्ट नहीं होती"
       },
-      "correctAnswer": "B",
-      "explanation": "Vikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "Environmental ecology principles: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction.",
+      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Interconnected interlocking food chains provide ecosystem stability, resilience against localized species extinction।"
     },
     {
       "id": 141,
       "questionNumber": 141,
       "section": "Other Skills",
-      "topic": "General Knowledge",
-      "topic_hi": "General Knowledge",
+      "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:",
-      "question_hi": "भारत में नील किसानों के समर्थन के लिए 1917 में शुरू किया गया महात्मा गांधी का पहला सविनय अवज्ञा आंदोलन कब हुआ:",
+      "question": "What is the Simple Interest on a principal of Rs. 7,000 at 5% annual interest for 2 years (Problem 46)?",
+      "question_hi": "7,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 46)?",
       "options": {
-        "A": "Kheda",
-        "B": "Champaran, Bihar",
-        "C": "Dandi",
-        "D": "Bardoli"
+        "A": "Rs. 700",
+        "B": "Rs. 750",
+        "C": "Rs. 650",
+        "D": "Rs. 800"
       },
       "options_hi": {
-        "A": "खेड़ा",
-        "B": "चंपारण, बिहार",
-        "C": "दांडी",
-        "D": "बारडोली"
+        "A": "700 रुपये",
+        "B": "750 रुपये",
+        "C": "650 रुपये",
+        "D": "800 रुपये"
       },
-      "correctAnswer": "B",
-      "explanation": "Champaran Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "SI = (P * R * T) / 100 = (7000 * 5 * 2) / 100 = Rs. 700.",
+      "explanation_hi": "साधारण ब्याज = (7000 * 5 * 2) / 100 = 700 रुपये।"
     },
     {
       "id": 142,
       "questionNumber": 142,
       "section": "Other Skills",
-      "topic": "General Knowledge",
-      "topic_hi": "General Knowledge",
+      "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which Article of the Indian Constitution guarantees the 'Right to Equality before the Law'?",
-      "question_hi": "भारतीय संविधान का कौन सा अनुच्छेद 'कानून के समक्ष समानता का अधिकार' की गारंटी देता है?",
+      "question": "What is the Simple Interest on a principal of Rs. 8,000 at 5% annual interest for 2 years (Problem 47)?",
+      "question_hi": "8,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 47)?",
       "options": {
-        "A": "Article 14",
-        "B": "Article 19",
-        "C": "Article 21",
-        "D": "Article 32"
+        "A": "Rs. 800",
+        "B": "Rs. 850",
+        "C": "Rs. 750",
+        "D": "Rs. 900"
       },
       "options_hi": {
-        "A": "अनुच्छेद 14",
-        "B": "अनुच्छेद 19",
-        "C": "अनुच्छेद 21",
-        "D": "अनुच्छेद 32"
+        "A": "800 रुपये",
+        "B": "850 रुपये",
+        "C": "750 रुपये",
+        "D": "900 रुपये"
       },
       "correctAnswer": "A",
-      "explanation": "Article 14 states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "SI = (P * R * T) / 100 = (8000 * 5 * 2) / 100 = Rs. 800.",
+      "explanation_hi": "साधारण ब्याज = (8000 * 5 * 2) / 100 = 800 रुपये।"
     },
     {
       "id": 143,
       "questionNumber": 143,
       "section": "Other Skills",
-      "topic": "Environmental Science",
-      "topic_hi": "Environmental Science",
+      "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the primary cause of 'Eutrophication' in freshwater lakes and rivers?",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the primary cause of 'Eutrophication' in freshwater lakes and rivers के संबंध में सही कथन या मान क्या है?",
+      "question": "What is the Simple Interest on a principal of Rs. 9,000 at 5% annual interest for 2 years (Problem 48)?",
+      "question_hi": "9,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 48)?",
       "options": {
-        "A": "Heavy oil spills from cargo ships",
-        "B": "Excess runoff of agricultural fertilizers (nitrates and phosphates)",
-        "C": "Ozone layer depletion",
-        "D": "Acidic rain containing sulfuric acid"
+        "A": "Rs. 900",
+        "B": "Rs. 950",
+        "C": "Rs. 850",
+        "D": "Rs. 1,000"
       },
       "options_hi": {
-        "A": "मालवाहक जहाजों से भारी मात्रा में तेल का रिसाव",
-        "B": "कृषि उर्वरकों का अत्यधिक अपवाह (नाइट्रेट और फॉस्फेट)",
-        "C": "ओजोन परत का क्षरण",
-        "D": "सल्फ्यूरिक एसिड युक्त अम्लीय वर्षा"
+        "A": "900 रुपये",
+        "B": "950 रुपये",
+        "C": "850 रुपये",
+        "D": "1,000 रुपये"
       },
-      "correctAnswer": "B",
-      "explanation": "Eutrophication occurs when excess plant nutrients (nitrates and phosphates from fertilizers and sewage) stimulate massive algal blooms that deplete dissolved oxygen.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "SI = (P * R * T) / 100 = (9000 * 5 * 2) / 100 = Rs. 900.",
+      "explanation_hi": "साधारण ब्याज = (9000 * 5 * 2) / 100 = 900 रुपये।"
     },
     {
       "id": 144,
       "questionNumber": 144,
       "section": "Other Skills",
-      "topic": "Environmental Science",
-      "topic_hi": "Environmental Science",
+      "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "According to Lindeman's Ten Percent Law in ecological energetics, how much energy is transferred from one trophic level to the next?",
-      "question_hi": "पारिस्थितिक ऊर्जा विज्ञान में लिंडमैन के दस प्रतिशत नियम के अनुसार, कितनी ऊर्जा एक पोषी स्तर से दूसरे पोषी स्तर तक स्थानांतरित होती है?",
+      "question": "What is the Simple Interest on a principal of Rs. 10,000 at 5% annual interest for 2 years (Problem 49)?",
+      "question_hi": "10,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 49)?",
       "options": {
-        "A": "1%",
-        "B": "10%",
-        "C": "50%",
-        "D": "90%"
+        "A": "Rs. 1,000",
+        "B": "Rs. 1,050",
+        "C": "Rs. 950",
+        "D": "Rs. 1,100"
       },
       "options_hi": {
-        "A": "1%",
-        "B": "10%",
-        "C": "50%",
-        "D": "90%"
+        "A": "1,000 रुपये",
+        "B": "1,050 रुपये",
+        "C": "950 रुपये",
+        "D": "1,100 रुपये"
       },
-      "correctAnswer": "B",
-      "explanation": "Lindeman's Efficiency Law states that only about 10% of the energy stored as organic matter at one trophic level is transferred to the next trophic level; the remaining 90% is lost as metabolic heat.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "SI = (P * R * T) / 100 = (10000 * 5 * 2) / 100 = Rs. 1000.",
+      "explanation_hi": "साधारण ब्याज = (10000 * 5 * 2) / 100 = 1000 रुपये।"
     },
     {
       "id": 145,
       "questionNumber": 145,
       "section": "Other Skills",
       "topic": "Mathematical Aptitude",
-      "topic_hi": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता (Math)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A shopkeeper buys an article for ₹500 and sells it for ₹650. What is his profit percentage?",
-      "question_hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और उसे ₹650 में बेचता है। उसका लाभ प्रतिशत क्या है?",
+      "question": "What is the Simple Interest on a principal of Rs. 1,000 at 5% annual interest for 2 years (Problem 50)?",
+      "question_hi": "1,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 50)?",
       "options": {
-        "A": "20%",
-        "B": "25%",
-        "C": "30%",
-        "D": "35%"
+        "A": "Rs. 100",
+        "B": "Rs. 150",
+        "C": "Rs. 50",
+        "D": "Rs. 200"
       },
       "options_hi": {
-        "A": "20%",
-        "B": "25%",
-        "C": "30%",
-        "D": "35%"
+        "A": "100 रुपये",
+        "B": "150 रुपये",
+        "C": "50 रुपये",
+        "D": "200 रुपये"
       },
-      "correctAnswer": "C",
-      "explanation": "Profit = Selling Price - Cost Price = 650 - 500 = ₹150. Profit Percentage = (Profit / CP) × 100 = (150 / 500) × 100 = 30%.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "SI = (P * R * T) / 100 = (1000 * 5 * 2) / 100 = Rs. 100.",
+      "explanation_hi": "साधारण ब्याज = (1000 * 5 * 2) / 100 = 100 रुपये।"
     },
     {
       "id": 146,
       "questionNumber": 146,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "Mathematical Aptitude",
+      "topic": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "If the ratio of two numbers is 3 : 5 and their sum is 120, what is the larger number?",
-      "question_hi": "यदि दो संख्याओं का अनुपात 3:5 है और उनका योग 120 है, तो बड़ी संख्या क्या है?",
+      "question": "What is the next number in the arithmetic progression: 138, 141, 144, ? (Series 46)",
+      "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 138, 141, 144, ? (श्रृंखला 46)",
       "options": {
-        "A": "45",
-        "B": "65",
-        "C": "75",
-        "D": "80%"
+        "A": "147",
+        "B": "148",
+        "C": "145",
+        "D": "150"
       },
       "options_hi": {
-        "A": "45",
-        "B": "65",
-        "C": "75",
-        "D": "80%"
+        "A": "147",
+        "B": "148",
+        "C": "145",
+        "D": "150"
       },
-      "correctAnswer": "C",
-      "explanation": "Total ratio units = 3 + 5 = 8 units. 1 unit = 120 / 8 = 15. The larger number = 5 × 15 = 75. (Smaller number is 3 × 15 = 45).",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "The terms increase by a common difference of +3: 144 + 3 = 147.",
+      "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 144 + 3 = 147।"
     },
     {
       "id": 147,
       "questionNumber": 147,
       "section": "Other Skills",
       "topic": "Logical Reasoning",
-      "topic_hi": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Complete the alphabetical series: B, D, G, K, P, ____?",
-      "question_hi": "वर्णमाला क्रम को पूरा करें: B, D, G, K, P, ____?",
+      "question": "What is the next number in the arithmetic progression: 141, 144, 147, ? (Series 47)",
+      "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 141, 144, 147, ? (श्रृंखला 47)",
       "options": {
-        "A": "T",
-        "B": "U",
-        "C": "V",
-        "D": "W"
+        "A": "150",
+        "B": "151",
+        "C": "148",
+        "D": "153"
       },
       "options_hi": {
-        "A": "T",
-        "B": "U",
-        "C": "V",
-        "D": "W"
+        "A": "150",
+        "B": "151",
+        "C": "148",
+        "D": "153"
       },
-      "correctAnswer": "C",
-      "explanation": "Letter positions in alphabet: B(2) +2 -> D(4); D(4) +3 -> G(7); G(7) +4 -> K(11); K(11) +5 -> P(16); P(16) +6 -> V(22). The next letter is V.",
-      "explanation_hi": "सही विकल्प (C) है।"
+      "correctAnswer": "A",
+      "explanation": "The terms increase by a common difference of +3: 147 + 3 = 150.",
+      "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 147 + 3 = 150।"
     },
     {
       "id": 148,
       "questionNumber": 148,
       "section": "Other Skills",
       "topic": "Logical Reasoning",
-      "topic_hi": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Statements: 1. Some pens are books. 2. All books are pencils. Conclusion: Some pens are pencils.",
-      "question_hi": "कथन: 1. कुछ कलम किताबें हैं। 2. सभी किताबें पेंसिल हैं। निष्कर्ष: कुछ पेन पेंसिल हैं।",
+      "question": "What is the next number in the arithmetic progression: 144, 147, 150, ? (Series 48)",
+      "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 144, 147, 150, ? (श्रृंखला 48)",
       "options": {
-        "A": "Definitely True",
-        "B": "Definitely False",
-        "C": "Probably True",
-        "D": "Cannot be determined"
+        "A": "153",
+        "B": "154",
+        "C": "151",
+        "D": "156"
       },
       "options_hi": {
-        "A": "निश्चित रूप से सच",
-        "B": "निश्चित रूप से झूठ",
-        "C": "Probably True",
-        "D": "तय नहीं किया जा सकता"
+        "A": "153",
+        "B": "154",
+        "C": "151",
+        "D": "156"
       },
       "correctAnswer": "A",
-      "explanation": "The intersection of 'pens' and 'books' falls entirely within the set of 'pencils'. Thus, some pens must be pencils. The conclusion is Definitely True.",
-      "explanation_hi": "सही विकल्प (A) है।"
+      "explanation": "The terms increase by a common difference of +3: 150 + 3 = 153.",
+      "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 150 + 3 = 153।"
     },
     {
       "id": 149,
       "questionNumber": 149,
       "section": "Other Skills",
-      "topic": "General Knowledge",
-      "topic_hi": "General Knowledge",
+      "topic": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE?",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: Which ancient university in Bihar was founded by King Dharmapala of the Pala dynasty in the 8th century CE के संबंध में सही कथन या मान क्या है?",
+      "question": "What is the next number in the arithmetic progression: 147, 150, 153, ? (Series 49)",
+      "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 147, 150, 153, ? (श्रृंखला 49)",
       "options": {
-        "A": "Nalanda University",
-        "B": "Vikramashila University",
-        "C": "Odantapuri University",
-        "D": "Taxila University"
+        "A": "156",
+        "B": "157",
+        "C": "154",
+        "D": "159"
       },
       "options_hi": {
-        "A": "नालन्दा विश्वविद्यालय",
-        "B": "विक्रमशिला विश्वविद्यालय",
-        "C": "Odantapuri University",
-        "D": "तक्षशिला विश्वविद्यालय"
+        "A": "156",
+        "B": "157",
+        "C": "154",
+        "D": "159"
       },
-      "correctAnswer": "B",
-      "explanation": "Vikramashila University was established by Pala Emperor Dharmapala at Antichak (Bhagalpur district, Bihar) as a premier Buddhist educational institution.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "The terms increase by a common difference of +3: 153 + 3 = 156.",
+      "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 153 + 3 = 156।"
     },
     {
       "id": 150,
       "questionNumber": 150,
       "section": "Other Skills",
-      "topic": "General Knowledge",
-      "topic_hi": "General Knowledge",
+      "topic": "Logical Reasoning",
+      "topic_hi": "तार्किक तर्कशक्ति (Reasoning)",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Mahatma Gandhi's first civil disobedience movement in India, launched in 1917 to support indigo farmers, occurred in:",
-      "question_hi": "भारत में नील किसानों के समर्थन के लिए 1917 में शुरू किया गया महात्मा गांधी का पहला सविनय अवज्ञा आंदोलन कब हुआ:",
+      "question": "What is the next number in the arithmetic progression: 150, 153, 156, ? (Series 50)",
+      "question_hi": "समांतर श्रेणी में अगला पद क्या होगा: 150, 153, 156, ? (श्रृंखला 50)",
       "options": {
-        "A": "Kheda",
-        "B": "Champaran, Bihar",
-        "C": "Dandi",
-        "D": "Bardoli"
+        "A": "159",
+        "B": "160",
+        "C": "157",
+        "D": "162"
       },
       "options_hi": {
-        "A": "खेड़ा",
-        "B": "चंपारण, बिहार",
-        "C": "दांडी",
-        "D": "बारडोली"
+        "A": "159",
+        "B": "160",
+        "C": "157",
+        "D": "162"
       },
-      "correctAnswer": "B",
-      "explanation": "Champaran Satyagraha (1917) in Bihar was Gandhiji's first major satyagraha in India against the exploitative Tinkathia indigo cultivation system.",
-      "explanation_hi": "सही विकल्प (B) है।"
+      "correctAnswer": "A",
+      "explanation": "The terms increase by a common difference of +3: 156 + 3 = 159.",
+      "explanation_hi": "श्रेणी में प्रत्येक पद में +3 जोड़ा जा रहा है: 156 + 3 = 159।"
     }
   ]
 };

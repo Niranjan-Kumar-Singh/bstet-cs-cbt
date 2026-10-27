@@ -34,10 +34,24 @@ class ExamEngine {
     this.lang = this.baseLang;
     this.questionLangOverrides = {};
     
+    // Strict normalization: every question must have sequential 1-based questionNumber and unique id
+    if (this.paper && Array.isArray(this.paper.questions)) {
+      this.paper.questions.forEach((q, idx) => {
+        q.questionNumber = idx + 1;
+        if (!q.id || String(q.id).trim() === '' || typeof q.id !== 'string') {
+          q.id = `${this.paper.id || 'paper'}_q${idx + 1}`;
+        }
+      });
+    }
+
+    // Auto-normalize paper sections startQ and endQ to guarantee consistency
+    this.normalizeSections();
+
     const saved = resume ? this.loadSession(this.paper.id) : null;
     
     if (saved) {
-      this.currentIndex = saved.currentIndex || 0;
+      const savedIdx = saved.currentIndex || 0;
+      this.currentIndex = (savedIdx >= 0 && savedIdx < (this.paper.questions ? this.paper.questions.length : 1)) ? savedIdx : 0;
       this.responses = saved.responses || {};
       this.statuses = saved.statuses || {};
       this.timeRemaining = saved.timeRemaining !== undefined ? saved.timeRemaining : this.totalDuration;
@@ -56,14 +70,46 @@ class ExamEngine {
       this.startTime = Date.now();
       
       // Initialize all questions as not-visited
-      this.paper.questions.forEach((q, idx) => {
-        this.statuses[q.id] = idx === 0 ? 'not-answered' : 'not-visited';
-        this.timeSpentPerQ[q.id] = 0;
-      });
+      if (this.paper && this.paper.questions) {
+        this.paper.questions.forEach((q, idx) => {
+          this.statuses[q.id] = idx === 0 ? 'not-answered' : 'not-visited';
+          this.timeSpentPerQ[q.id] = 0;
+        });
+      }
     }
 
     this.startTimer();
     this.saveSession();
+  }
+
+  normalizeSections() {
+    if (!this.paper) return;
+    const totalQ = (this.paper.questions && this.paper.questions.length) || 0;
+    if (!this.paper.sections || this.paper.sections.length === 0) {
+      this.paper.sections = [{
+        id: "all",
+        name: "Computer Science & General",
+        startQ: 1,
+        endQ: totalQ,
+        total: totalQ
+      }];
+      return;
+    }
+
+    let runningStart = 1;
+    this.paper.sections.forEach(sec => {
+      const count = sec.total || (sec.endQ && sec.startQ ? (sec.endQ - sec.startQ + 1) : 0) || 0;
+      sec.startQ = runningStart;
+      sec.endQ = runningStart + count - 1;
+      sec.total = count;
+      runningStart = sec.endQ + 1;
+    });
+
+    const lastSec = this.paper.sections[this.paper.sections.length - 1];
+    if (lastSec && totalQ > 0) {
+      lastSec.endQ = totalQ;
+      lastSec.total = (lastSec.endQ - lastSec.startQ) + 1;
+    }
   }
 
   /**
@@ -227,9 +273,9 @@ class ExamEngine {
   }
 
   getCurrentSection() {
-    const q = this.getCurrentQuestion();
-    if (!q) return null;
-    return this.paper.sections.find(s => q.questionNumber >= s.startQ && q.questionNumber <= s.endQ);
+    if (!this.paper || !this.paper.sections || this.paper.sections.length === 0) return null;
+    const qNum = this.currentIndex + 1;
+    return this.paper.sections.find(s => qNum >= s.startQ && qNum <= s.endQ) || this.paper.sections[0];
   }
 
   selectOption(optKey) {
@@ -312,10 +358,11 @@ class ExamEngine {
   }
 
   jumpToSection(sectionId) {
+    if (!this.paper || !this.paper.sections || !this.paper.questions) return;
     const sec = this.paper.sections.find(s => s.id === sectionId);
     if (!sec) return;
-    const targetIdx = this.paper.questions.findIndex(q => q.questionNumber === sec.startQ);
-    if (targetIdx !== -1) {
+    const targetIdx = Math.max(0, (sec.startQ || 1) - 1);
+    if (targetIdx < this.paper.questions.length) {
       this.jumpToQuestion(targetIdx);
     }
   }
