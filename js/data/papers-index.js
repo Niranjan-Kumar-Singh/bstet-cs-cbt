@@ -309,6 +309,34 @@ window.PAPERS_CATALOG = [
     "difficulty": "Grand Simulation"
   },
   {
+    "id": "predicted_set13",
+    "varName": "predicted_set13",
+    "jsFile": "predicted-set13.js",
+    "title": "2026 Predicted Full Mock 13",
+    "subtitle": "High-Yield Grand Simulation: Data Structures, OOP C++, DBMS, Networks, Art of Teaching & General Skills",
+    "category": "Predicted Mock",
+    "badge": "2026 Predicted",
+    "badgeClass": "badge-predicted",
+    "totalQuestions": 150,
+    "totalMarks": 150,
+    "durationMinutes": 150,
+    "difficulty": "Grand Simulation"
+  },
+  {
+    "id": "predicted_set14",
+    "varName": "predicted_set14",
+    "jsFile": "predicted-set14.js",
+    "title": "2026 Predicted Full Mock 14",
+    "subtitle": "Comprehensive Final Drill: Operating Systems, Computer Architecture, Web Tech, Python & Pedagogy",
+    "category": "Predicted Mock",
+    "badge": "2026 Predicted",
+    "badgeClass": "badge-predicted",
+    "totalQuestions": 150,
+    "totalMarks": 150,
+    "durationMinutes": 150,
+    "difficulty": "Grand Simulation"
+  },
+  {
     "id": "drill_cs_100",
     "varName": "topical_drills.drill_cs_100",
     "jsFile": "topical-drills.js",
@@ -419,5 +447,47 @@ window.PAPERS_CATALOG = [
     "totalMarks": 50,
     "durationMinutes": 50,
     "difficulty": "High Probability"
+  },
+  {
+    "id": "drill_dbms_sql_50",
+    "varName": "drill_dbms_sql_50",
+    "jsFile": "specialist-mastery-drills.js",
+    "title": "DBMS & SQL Deep Mastery Drill (50Q)",
+    "subtitle": "Intensive Drill: Normalization (1NF to BCNF), Relational Algebra, Joins, Transactions & ACID",
+    "category": "Sectional Drill",
+    "badge": "DBMS Specialist",
+    "badgeClass": "badge-drill",
+    "totalQuestions": 50,
+    "totalMarks": 50,
+    "durationMinutes": 60,
+    "difficulty": "Core Database"
+  },
+  {
+    "id": "drill_os_networks_master_50",
+    "varName": "drill_os_networks_master_50",
+    "jsFile": "specialist-mastery-drills.js",
+    "title": "OS & Computer Networks Mastery Drill (50Q)",
+    "subtitle": "Intensive Drill: Process Sync, Deadlocks, Paging, OSI Layers, TCP/IP, CIDR Subnetting & Security",
+    "category": "Sectional Drill",
+    "badge": "OS & Networks",
+    "badgeClass": "badge-drill",
+    "totalQuestions": 50,
+    "totalMarks": 50,
+    "durationMinutes": 60,
+    "difficulty": "Systems Mastery"
+  },
+  {
+    "id": "drill_pedagogy_nep_50",
+    "varName": "drill_pedagogy_nep_50",
+    "jsFile": "specialist-mastery-drills.js",
+    "title": "Art of Teaching & NEP 2020 High-Yield Drill (50Q)",
+    "subtitle": "Intensive Drill: Bloom's Taxonomy, Constructivism, Piaget, Vygotsky, CCE & NEP 2020 Framework",
+    "category": "Sectional Drill",
+    "badge": "Teaching & NEP",
+    "badgeClass": "badge-drill",
+    "totalQuestions": 50,
+    "totalMarks": 50,
+    "durationMinutes": 60,
+    "difficulty": "High-Yield Pedagogy"
   }
 ];

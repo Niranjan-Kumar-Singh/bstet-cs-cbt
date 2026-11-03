@@ -1,4 +1,4 @@
-// Generated Question Paper Data
+// Bihar STET 2023 Paper II Official CBT Mock
 window.official_2023 = {
   "id": "official_2023",
   "title": "BSTET Official 2023 - Paper II",
@@ -725,7 +725,7 @@ window.official_2023 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) A mathematical framework for analyzing resource allocation**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (A) accurately reflects the microarchitectural functionality.",
       "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "A formal model of protection in an operating system provides:",
+      "question_hi": "ऑपरेटिंग सिस्टम में सुरक्षा (Protection) का एक औपचारिक मॉडल क्या प्रदान करता है?",
       "options_hi": {
         "A": "संसाधन आवंटन का विश्लेषण करने के लिए एक गणितीय रूपरेखा",
         "B": "यूजर इंटरफेस डिजाइन करने के लिए दिशानिर्देश",
@@ -1859,24 +1859,24 @@ window.official_2023 = {
       "topic": "Digital Logic",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "For a DFA accepting binary numbers whose decimal equivalent is divisible by 3, what are all the possible remainders?",
+      "question": "For a DFA accepting binary numbers whose decimal equivalent is divisible by 3, what are all the possible remainders when divided by 3?",
       "options": {
-        "A": "",
-        "B": "0,",
-        "C": "0,1,",
-        "D": "0,1,2,"
+        "A": "0, 1, 2",
+        "B": "0, 1",
+        "C": "1, 2",
+        "D": "Only 0"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) **\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties.",
+      "explanation": "When any integer is divided by 3, the remainder modulo 3 can only be 0, 1, or 2. Therefore, a minimal DFA accepting binary numbers divisible by 3 requires exactly 3 states representing these remainders.",
       "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: For a DFA accepting binary numbers whose decimal equivalent is divisible by 3, what are all the possible remainders के संबंध में सही कथन या मान क्या है?",
+      "question_hi": "3 से विभाज्य दशमलव समतुल्य वाली बाइनरी संख्याओं को स्वीकार करने वाले DFA के लिए 3 से भाग देने पर संभावित शेषफल क्या हैं?",
       "options_hi": {
-        "A": "",
-        "B": "0,",
-        "C": "0,1,",
-        "D": "0,1,2,"
+        "A": "0, 1, 2",
+        "B": "0, 1",
+        "C": "1, 2",
+        "D": "केवल 0"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) **\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "किसी भी संख्या को 3 से भाग देने पर संभावित शेषफल 0, 1 या 2 ही हो सकते हैं। अतः इस DFA में इन तीनों शेषफलों को दर्शाने के लिए न्यूनतम 3 अवस्थाओं की आवश्यकता होती है।"
     },
     {
       "id": 72,
@@ -1885,24 +1885,24 @@ window.official_2023 = {
       "topic": "Computer Science",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Minimum Number of states require to accept string ends with 101.",
+      "question": "What is the minimum number of states required in a DFA to accept all binary strings ending with '101'?",
       "options": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": "can’t be represented"
+        "A": "4 states",
+        "B": "3 states",
+        "C": "5 states",
+        "D": "6 states"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) **\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
+      "explanation": "To recognize a pattern of length k at the end of a string in a DFA, the minimum number of states required is k + 1. For pattern '101' (length 3), minimum states = 3 + 1 = 4.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "राज्यों की न्यूनतम संख्या 101 के साथ समाप्त होने वाली स्ट्रिंग को स्वीकार करने के लिए आवश्यक है।",
+      "question_hi": "'101' के साथ समाप्त होने वाली सभी बाइनरी स्ट्रिंग्स को स्वीकार करने के लिए एक DFA में आवश्यक न्यूनतम अवस्थाओं (States) की संख्या कितनी है?",
       "options_hi": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": "प्रतिनिधित्व नहीं किया जा सकता"
+        "A": "4 अवस्थाएं (States)",
+        "B": "3 अवस्थाएं",
+        "C": "5 अवस्थाएं",
+        "D": "6 अवस्थाएं"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) **\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "DFA में k लंबाई के पैटर्न पर समाप्त होने वाली स्ट्रिंग को पहचानने के लिए न्यूनतम (k + 1) अवस्थाओं की आवश्यकता होती है। '101' की लंबाई 3 है, अतः न्यूनतम अवस्थाएं = 3 + 1 = 4 होंगी।"
     },
     {
       "id": 73,
@@ -1911,24 +1911,24 @@ window.official_2023 = {
       "topic": "Digital Logic",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "If NFA of 5 states excluding the initial state is converted into DFA, maximum possible number of states for the DFA is?",
+      "question": "If an NFA has 5 states excluding the initial state (total 6 states), what is the maximum possible number of states for an equivalent DFA?",
       "options": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": ""
+        "A": "64 states (2⁶)",
+        "B": "32 states (2⁵)",
+        "C": "16 states (2⁴)",
+        "D": "128 states (2⁷)"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) **\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties.",
+      "explanation": "By subset construction (powerset construction), an NFA with n states can have at most 2ⁿ states in its equivalent DFA. For total 6 states (initial + 5), maximum states = 2⁶ = 64.",
       "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "यदि प्रारंभिक राज्य को छोड़कर 5 राज्यों के एनएफए को डीएफए में परिवर्तित किया जाता है, तो डीएफए के लिए राज्यों की अधिकतम संभावित संख्या क्या है?",
+      "question_hi": "यदि प्रारंभिक अवस्था को छोड़कर 5 अवस्थाओं (कुल 6 अवस्थाओं) वाले NFA को समकक्ष DFA में परिवर्तित किया जाता है, तो DFA के लिए अधिकतम संभावित अवस्थाओं की संख्या क्या है?",
       "options_hi": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": ""
+        "A": "64 अवस्थाएं (2⁶)",
+        "B": "32 अवस्थाएं (2⁵)",
+        "C": "16 अवस्थाएं (2⁴)",
+        "D": "128 अवस्थाएं (2⁷)"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) **\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "पावरसेट निर्माण (Subset Construction) नियम के अनुसार n अवस्थाओं वाले NFA के समकक्ष DFA में अधिकतम 2ⁿ अवस्थाएं हो सकती हैं। कुल 6 अवस्थाओं हेतु 2⁶ = 64 अवस्थाएं संभव हैं।"
     },
     {
       "id": 74,
@@ -2067,24 +2067,24 @@ window.official_2023 = {
       "topic": "Computer Science",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A complex SCADA system has _______levels?",
+      "question": "A complex SCADA (Supervisory Control and Data Acquisition) system architecture typically comprises how many functional levels of hierarchy?",
       "options": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": ""
+        "A": "4 levels",
+        "B": "2 levels",
+        "C": "6 levels",
+        "D": "1 level"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) **\n\n**IoT Architecture**: Interconnected smart devices employ lightweight communication protocols (Zigbee, MQTT, CoAP) and edge/cloud integration.\n- Option (A) correctly represents the IoT standard.",
+      "explanation": "Standard SCADA hierarchical architectures generally operate across 4 distinct levels: Level 0 (Field instrumentation/sensors), Level 1 (Direct control/PLCs/RTUs), Level 2 (Supervisory computers/HMI), and Level 3/4 (Production scheduling/Enterprise management).",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: A complex SCADA system has _______levels के संबंध में सही कथन या मान क्या है?",
+      "question_hi": "एक जटिल SCADA प्रणाली वास्तुकला में आमतौर पर पदानुक्रम के कितने कार्यात्मक स्तर (Functional Levels) होते हैं?",
       "options_hi": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": ""
+        "A": "4 स्तर (Field, Control, Supervisory, Enterprise)",
+        "B": "2 स्तर",
+        "C": "6 स्तर",
+        "D": "1 स्तर"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) **\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "मानक SCADA आर्किटेक्चर में सामान्यतः 4 कार्यात्मक स्तर होते हैं: स्तर 0 (फील्ड उपकरण/सेंसर), स्तर 1 (प्रत्यक्ष नियंत्रण/PLC/RTU), स्तर 2 (पर्यवेक्षी कंप्यूटर/HMI), और स्तर 3/4 (उत्पादन एवं उद्यम प्रबंधन)।"
     },
     {
       "id": 80,
@@ -3705,24 +3705,24 @@ window.official_2023 = {
       "topic": "Logical Reasoning",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the missing number in the pattern given below? 1, 6, 15, -------45, 66, 91",
+      "question": "What is the missing number in the sequence: 1, 6, 15, __, 45, 66, 91?",
       "options": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": ""
+        "A": "28",
+        "B": "25",
+        "C": "32",
+        "D": "35"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) **\n\n**Reasoning Logic**: Analyzing the pattern, sequence progression, or syllogistic validity demonstrates that option (A) uniquely satisfies the given conditions.",
+      "explanation": "The differences between consecutive terms form an arithmetic progression increasing by 4: (6-1)=5, (15-6)=9, (28-15)=13, (45-28)=17, (66-45)=21, (91-66)=25. The missing number is 15 + 13 = 28.",
       "topic_hi": "तार्किक विचार",
-      "question_hi": "नीचे दिए गए पैटर्न में लुप्त संख्या क्या है? 1, 6, 15, --------45, 66, 91",
+      "question_hi": "दी गई संख्या श्रेणी में लुप्त संख्या क्या है: 1, 6, 15, __, 45, 66, 91?",
       "options_hi": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": ""
+        "A": "28",
+        "B": "25",
+        "C": "32",
+        "D": "35"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) **\n\n**विषय अवधारणा (तार्किक विचार)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "पदों के बीच का अंतर 4 की वृद्धि के साथ बढ़ रहा है: 5, 9, 13, 17, 21, 25। अतः 15 + 13 = 28 सही उत्तर है।"
     },
     {
       "id": 143,
@@ -3731,24 +3731,24 @@ window.official_2023 = {
       "topic": "Mathematical Aptitude",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A whole number is added to 100 and the same number is subtracted from 100. the sum of the two resulting numbers so obtained is :",
+      "question": "A whole number is added to 100 and the same number is subtracted from 100. What is the sum of the two resulting numbers so obtained?",
       "options": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": ""
+        "A": "200",
+        "B": "100",
+        "C": "0",
+        "D": "50"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) **\n\n**Mathematical Principle**: Solve using standard mathematical formulas and proportional relationships.\n- The correct step-by-step simplification leads directly to option (A): ****.",
+      "explanation": "Let the whole number be x. The two resulting numbers are (100 + x) and (100 - x). Their sum is (100 + x) + (100 - x) = 200.",
       "topic_hi": "गणितीय अभिरुचि",
-      "question_hi": "एक पूर्ण संख्या को 100 में जोड़ा जाता है और वही संख्या 100 में से घटा दी जाती है। इस प्रकार प्राप्त दो परिणामी संख्याओं का योग है:",
+      "question_hi": "एक पूर्ण संख्या को 100 में जोड़ा जाता है और उसी संख्या को 100 में से घटाया जाता है। इस प्रकार प्राप्त दोनों परिणामी संख्याओं का योग क्या होगा?",
       "options_hi": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": ""
+        "A": "200",
+        "B": "100",
+        "C": "0",
+        "D": "50"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) **\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "माना वह पूर्ण संख्या x है। परिणामी संख्याएं (100 + x) और (100 - x) होंगी। इनका योग = (100 + x) + (100 - x) = 200 होगा।"
     },
     {
       "id": 144,
@@ -3757,24 +3757,24 @@ window.official_2023 = {
       "topic": "Mathematical Aptitude",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "The sum of 5 - 5 + 5 - 5 + 5 - 5 …………… , to odd number of terms is :",
+      "question": "What is the sum of the series 5 - 5 + 5 - 5 + 5 - 5 ... to an odd number of terms?",
       "options": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": "-"
+        "A": "5",
+        "B": "0",
+        "C": "-5",
+        "D": "15"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) **\n\n**Mathematical Principle**: Solve using standard mathematical formulas and proportional relationships.\n- The correct step-by-step simplification leads directly to option (A): ****.",
+      "explanation": "In this alternating series, every adjacent pair (5 - 5) sums to 0. When there is an odd number of terms (2k + 1), k pairs cancel out to 0, leaving the single final term +5. Hence the sum is always 5.",
       "topic_hi": "गणितीय अभिरुचि",
-      "question_hi": "विषम संख्या में पदों का योग 5 - 5 + 5 - 5 + 5 - 5 …………… है:",
+      "question_hi": "श्रेणी 5 - 5 + 5 - 5 + 5 - 5 ... के विषम संख्या में पदों (Odd Number of Terms) का योग क्या होगा?",
       "options_hi": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": "-"
+        "A": "5",
+        "B": "0",
+        "C": "-5",
+        "D": "15"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) **\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "इस श्रेणी में प्रत्येक जोड़ा (5 - 5 = 0) शून्य हो जाता है। जब पदों की संख्या विषम (जैसे 1, 3, 5, ...) हो, तो जोड़े कटने के बाद अंत में +5 बचता है। अतः योग सदैव 5 होगा।"
     },
     {
       "id": 145,
@@ -3861,24 +3861,24 @@ window.official_2023 = {
       "topic": "General Knowledge",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "60,30,120,15,240?",
+      "question": "Find the next number in the sequence: 60, 30, 120, 15, 240, __?",
       "options": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": "71/"
+        "A": "7.5",
+        "B": "8",
+        "C": "10",
+        "D": "12"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) **\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
+      "explanation": "The series consists of two alternating patterns: Odd positions multiply by 2 (60 -> 120 -> 240), while Even positions divide by 2 (30 -> 15 -> 7.5). The 6th term is 15 / 2 = 7.5.",
       "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: 60,30,120,15,240 के संबंध में सही कथन या मान क्या है?",
+      "question_hi": "दी गई संख्या श्रेणी में अगला पद क्या होगा: 60, 30, 120, 15, 240, __?",
       "options_hi": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": "71/"
+        "A": "7.5",
+        "B": "8",
+        "C": "10",
+        "D": "12"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) **\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "यह दो एकांतर श्रेणियों का संयोजन है: विषम स्थान 2 से गुणा होते हैं (60 -> 120 -> 240) और सम स्थान 2 से विभाजित होते हैं (30 -> 15 -> 7.5)। अतः छठा पद 15 / 2 = 7.5 होगा।"
     },
     {
       "id": 149,

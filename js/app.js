@@ -186,7 +186,7 @@ class App {
     if (this.examLangToggleBtn) {
       this.examLangToggleBtn.addEventListener('click', (e) => {
         e.preventDefault();
-        this.toggleQuestionLanguage();
+        this.toggleExamLanguage();
       });
     }
     const qLangSeg = document.getElementById('q-lang-segmented');
@@ -473,11 +473,27 @@ class App {
       else if (e.key === 'n' || e.key === 'N') this.engine.saveAndNext();
       else if (e.key === 'p' || e.key === 'P') this.engine.prevQuestion();
       else if (e.key === 'm' || e.key === 'M') this.engine.markForReview();
-      else if (e.key === 'l' || e.key === 'L' || e.key === 'h' || e.key === 'H') this.toggleQuestionLanguage();
+      else if (e.key === 'l' || e.key === 'L' || e.key === 'h' || e.key === 'H') this.toggleExamLanguage();
     });
   }
 
-  /* ================= IN-EXAM QUESTION LANGUAGE SWITCHER (PER-QUESTION ONLY) ================= */
+  /* ================= IN-EXAM LANGUAGE SWITCHER ================= */
+  toggleExamLanguage() {
+    const currentBase = this.engine.baseLang || (window.BSTET_I18N && window.BSTET_I18N.currentLang) || 'en';
+    const nextLang = currentBase === 'en' ? 'hi' : 'en';
+    this.engine.setBaseLanguage(nextLang, true);
+    if (window.BSTET_I18N) window.BSTET_I18N.setLang(nextLang);
+    this.updateExamLanguageControls();
+    this.renderSectionTabs();
+    this.renderQuestionView();
+    this.renderPalette();
+
+    const toastMsg = nextLang === 'hi'
+      ? `परीक्षा का माध्यम <strong>हिन्दी (Hindi)</strong> में बदला गया (सभी प्रश्नों के लिए)`
+      : `Exam medium switched to <strong>English</strong> (for all questions)`;
+    this.showLanguageToast(toastMsg);
+  }
+
   setQuestionLanguage(lang) {
     const q = this.engine.getCurrentQuestion();
     if (!q) return;

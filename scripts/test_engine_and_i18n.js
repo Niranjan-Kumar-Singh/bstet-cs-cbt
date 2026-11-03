@@ -104,3 +104,6 @@ console.log("  ✓ Test 7 Passed: In-exam switch changes language for THAT QUEST
 console.log("=========================================");
 console.log("ALL 7 CORE BILINGUAL REQUIREMENTS PASSED!");
 console.log("=========================================");
+
+if (engine && engine.timerInterval) clearInterval(engine.timerInterval);
+process.exit(0);
