@@ -9,7 +9,7 @@ class App {
     this.engine = new ExamEngine();
     this.currentPaper = null;
     this.currentFilter = 'all';
-    this.fontSizeLevel = 1; // 0: small, 1: normal, 2: large
+    this.fontSizeLevel = 'normal';
     this.lastAnalyticsReport = null;
     this.solFilter = 'all';
     this.solTopicFilter = 'all';
@@ -20,6 +20,7 @@ class App {
     this.bindEvents();
     this.initTheme();
     this.initLanguage();
+    this.initFontSize();
     this.renderLobby();
     this.handleUrlParams();
     this.setupJustInTimePrefetch();
@@ -108,12 +109,16 @@ class App {
     this.themeToggleBtn = document.getElementById('theme-toggle-btn');
     this.fullscreenBtn = document.getElementById('fullscreen-btn');
     this.fontSmallerBtn = document.getElementById('font-smaller-btn');
+    this.fontResetBtn = document.getElementById('font-reset-btn');
     this.fontLargerBtn = document.getElementById('font-larger-btn');
     this.pauseBtn = document.getElementById('pause-btn');
 
     // Exam In-Header Quick Utilities
     this.examThemeToggleBtn = document.getElementById('exam-theme-toggle-btn');
     this.examFullscreenBtn = document.getElementById('exam-fullscreen-btn');
+    this.examFontSmallerBtn = document.getElementById('exam-font-smaller-btn');
+    this.examFontResetBtn = document.getElementById('exam-font-reset-btn');
+    this.examFontLargerBtn = document.getElementById('exam-font-larger-btn');
 
     // Pause Modal
     this.pauseModal = document.getElementById('pause-modal');
@@ -235,12 +240,24 @@ class App {
       this.examThemeToggleBtn.addEventListener('click', () => this.toggleTheme());
     }
 
-    // Font Sizing
+    // Font Sizing (Accessible Scaling for Lobby & In-Exam)
     if (this.fontSmallerBtn) {
       this.fontSmallerBtn.addEventListener('click', () => this.changeFontSize(-1));
     }
+    if (this.fontResetBtn) {
+      this.fontResetBtn.addEventListener('click', () => this.resetFontSize());
+    }
     if (this.fontLargerBtn) {
       this.fontLargerBtn.addEventListener('click', () => this.changeFontSize(1));
+    }
+    if (this.examFontSmallerBtn) {
+      this.examFontSmallerBtn.addEventListener('click', () => this.changeFontSize(-1));
+    }
+    if (this.examFontResetBtn) {
+      this.examFontResetBtn.addEventListener('click', () => this.resetFontSize());
+    }
+    if (this.examFontLargerBtn) {
+      this.examFontLargerBtn.addEventListener('click', () => this.changeFontSize(1));
     }
 
     // Fullscreen
@@ -481,12 +498,7 @@ class App {
   toggleExamLanguage() {
     const currentBase = this.engine.baseLang || (window.BSTET_I18N && window.BSTET_I18N.currentLang) || 'en';
     const nextLang = currentBase === 'en' ? 'hi' : 'en';
-    this.engine.setBaseLanguage(nextLang, true);
-    if (window.BSTET_I18N) window.BSTET_I18N.setLang(nextLang);
-    this.updateExamLanguageControls();
-    this.renderSectionTabs();
-    this.renderQuestionView();
-    this.renderPalette();
+    this.setAppLanguage(nextLang);
 
     const toastMsg = nextLang === 'hi'
       ? `परीक्षा का माध्यम <strong>हिन्दी (Hindi)</strong> में बदला गया (सभी प्रश्नों के लिए)`
@@ -580,10 +592,11 @@ class App {
     const i18n = window.BSTET_I18N;
     if (!i18n) return;
 
+    document.documentElement.setAttribute('lang', lang);
     this.engine.setBaseLanguage(lang, true);
     this.updateExamLanguageControls();
 
-    // Update Language Toggle Buttons text
+    // Update Language Toggle Button text
     const otherLangName = lang === 'en' ? 'हिन्दी' : 'English';
     if (this.langToggleText) this.langToggleText.innerText = otherLangName;
 
@@ -626,22 +639,6 @@ class App {
     if (metaCut) metaCut.innerText = i18n.t('meta_cutoff');
     if (metaCutVal) metaCutVal.innerText = i18n.t('meta_cutoff_val');
 
-    // Filter Tabs
-    const tabAll = document.getElementById('tab-filter-all');
-    const tabOff = document.getElementById('tab-filter-official');
-    const tabPred = document.getElementById('tab-filter-predicted');
-    const tabDrill = document.getElementById('tab-filter-drill');
-    if (tabAll) tabAll.innerText = i18n.t('filter_all');
-    if (tabOff) tabOff.innerText = i18n.t('filter_official');
-    if (tabPred) tabPred.innerText = i18n.t('filter_predicted');
-    if (tabDrill) tabDrill.innerText = i18n.t('filter_drill');
-
-    // Update card action buttons
-    const cbtLabel = i18n.t('start_cbt') || '⚡ Start CBT Mock';
-    const practiceLabel = i18n.t('practice_mode') || '📖 Practice Mode';
-    document.querySelectorAll('.paper-card button[data-action="cbt"]').forEach(b => b.innerText = cbtLabel);
-    document.querySelectorAll('.paper-card button[data-action="practice"]').forEach(b => b.innerText = practiceLabel);
-
     // History Table Headers
     const histHead = document.getElementById('history-heading');
     const histSub = document.getElementById('history-subtext');
@@ -660,13 +657,43 @@ class App {
     if (thStat) thStat.innerText = i18n.t('table_status');
     if (thAct) thAct.innerText = i18n.t('table_action');
 
-    // Exam Controls
-    if (this.prevBtn) this.prevBtn.innerText = i18n.t('btn_prev');
-    if (this.nextBtn) this.nextBtn.innerText = i18n.t('btn_next');
-    if (this.clearBtn) this.clearBtn.innerText = i18n.t('btn_clear');
-    if (this.markReviewBtn) this.markReviewBtn.innerText = i18n.t('btn_mark_review');
-    if (this.saveNextBtn) this.saveNextBtn.innerText = i18n.t('btn_save_next');
-    if (this.submitExamBtn) this.submitExamBtn.innerText = i18n.t('btn_submit');
+    // Exam Controls & Header
+    const badgeCbtLive = document.getElementById('badge-cbt-live');
+    if (badgeCbtLive) badgeCbtLive.innerText = i18n.t('cbt_live');
+
+    if (this.currentPaper && this.examTitle) {
+      this.examTitle.innerText = i18n.translatePaperTitle(this.currentPaper.title, this.currentPaper.id);
+    }
+    if (this.timerBox) {
+      this.timerBox.title = i18n.t('timer_title') || (lang === 'hi' ? 'शेष परीक्षा समय' : 'Remaining Exam Time');
+    }
+    const pauseBtnText = document.getElementById('pause-btn-text');
+    if (pauseBtnText) {
+      pauseBtnText.innerText = (this.engine && this.engine.isPaused) ? (lang === 'hi' ? 'जारी रखें' : 'Resume') : i18n.t('pause');
+    }
+    const qpBtnText = document.getElementById('qp-btn-text');
+    if (qpBtnText) qpBtnText.innerText = i18n.t('paper_btn');
+
+    if (this.revealExplanationBtn) this.revealExplanationBtn.innerText = i18n.t('concept_btn');
+
+    // Question Pane Details
+    const qLangLbl = document.querySelector('.q-lang-label');
+    if (qLangLbl) qLangLbl.innerText = i18n.t('view_question_lbl');
+
+    const practiceBoxTitle = document.getElementById('practice-box-title');
+    if (practiceBoxTitle) practiceBoxTitle.innerText = i18n.t('immediate_exp_title');
+
+    // Candidate Info & Palette Heading
+    const candidateName = document.getElementById('candidate-name-text');
+    const candidateSubject = document.getElementById('candidate-subject-text');
+    if (candidateName) candidateName.innerText = (lang === 'hi') ? 'परीक्षार्थी: अभ्यर्थी (कक्षा 11-12)' : 'Candidate: Aspirant (Class 11-12)';
+    if (candidateSubject) candidateSubject.innerText = (lang === 'hi') ? 'विषय: कंप्यूटर साइंस (226)' : 'Subject: Computer Science (226)';
+
+    const paletteHeading = document.getElementById('palette-heading-text');
+    if (paletteHeading) paletteHeading.innerText = i18n.t('palette_heading');
+
+    const mobileClosePalette = document.getElementById('mobile-close-palette-btn');
+    if (mobileClosePalette) mobileClosePalette.innerText = i18n.t('close_btn');
 
     // Legends
     const legAns = document.getElementById('leg-text-answered');
@@ -680,11 +707,80 @@ class App {
     if (legMarked) legMarked.innerText = i18n.t('legend_marked');
     if (legAnsMarked) legAnsMarked.innerText = i18n.t('legend_ans_marked');
 
-    // Re-render current active view components
-    if (this.lobbyView.classList.contains('active')) {
-      this.renderLobby();
-      this.renderHistory();
-    } else if (this.examView.classList.contains('active')) {
+    // Exam Bottom Action Buttons
+    if (this.prevBtn) this.prevBtn.innerText = i18n.t('btn_prev');
+    if (this.nextBtn) this.nextBtn.innerText = i18n.t('btn_next');
+    if (this.clearBtn) this.clearBtn.innerText = i18n.t('btn_clear');
+    if (this.markReviewBtn) this.markReviewBtn.innerText = i18n.t('btn_mark_review');
+    if (this.saveNextBtn) this.saveNextBtn.innerText = i18n.t('btn_save_next');
+    if (this.submitExamBtn) this.submitExamBtn.innerText = i18n.t('btn_submit');
+
+    // Mode Selection Modal
+    const mCbtTitle = document.getElementById('m-cbt-title');
+    const mCbtDesc = document.getElementById('m-cbt-desc');
+    const mPracTitle = document.getElementById('m-prac-title');
+    const mPracDesc = document.getElementById('m-prac-desc');
+    const cancelModeBtn = document.getElementById('cancel-mode-btn');
+    const startExamBtn = document.getElementById('start-exam-btn');
+    if (mCbtTitle) mCbtTitle.innerText = i18n.t('mode_cbt_title');
+    if (mCbtDesc) mCbtDesc.innerText = i18n.t('mode_cbt_desc');
+    if (mPracTitle) mPracTitle.innerText = i18n.t('mode_practice_title');
+    if (mPracDesc) mPracDesc.innerText = i18n.t('mode_practice_desc');
+    if (cancelModeBtn) cancelModeBtn.innerText = i18n.t('mode_cancel');
+    if (startExamBtn) startExamBtn.innerText = i18n.t('mode_proceed');
+
+    // Submit Modal
+    const subModalTitle = document.getElementById('sub-modal-title');
+    const subModalDesc = document.getElementById('sub-modal-desc');
+    const subLblTotal = document.getElementById('sub-lbl-total');
+    const subLblAns = document.getElementById('sub-lbl-ans');
+    const subLblUnans = document.getElementById('sub-lbl-unans');
+    const subLblMarked = document.getElementById('sub-lbl-marked');
+    const subModalPrompt = document.getElementById('sub-modal-prompt');
+    const cancelSubmitBtn = document.getElementById('cancel-submit-btn');
+    const confirmSubmitBtn = document.getElementById('confirm-submit-btn');
+    if (subModalTitle) subModalTitle.innerText = i18n.t('sub_modal_title');
+    if (subModalDesc) subModalDesc.innerText = (lang === 'hi') ? 'कृपया अंतिम सबमिशन से पहले अपने प्रयासों का सारांश देखें। एक बार जमा करने के बाद, आप उत्तर नहीं बदल सकते।' : 'Please review your attempt summary below before final submission. Once submitted, you cannot change your answers.';
+    if (subLblTotal) subLblTotal.innerText = (lang === 'hi') ? 'कुल प्रश्न' : 'Total Questions';
+    if (subLblAns) subLblAns.innerText = i18n.t('sub_modal_answered');
+    if (subLblUnans) subLblUnans.innerText = i18n.t('sub_modal_unanswered');
+    if (subLblMarked) subLblMarked.innerText = i18n.t('sub_modal_marked');
+    if (subModalPrompt) subModalPrompt.innerText = i18n.t('sub_modal_prompt');
+    if (cancelSubmitBtn) cancelSubmitBtn.innerText = i18n.t('sub_modal_cancel');
+    if (confirmSubmitBtn) confirmSubmitBtn.innerText = i18n.t('sub_modal_confirm');
+
+    // Pause Modal
+    const pauseTitle = document.getElementById('pause-modal-title');
+    const pauseDesc = document.getElementById('pause-modal-desc');
+    const resumeBtn = document.getElementById('resume-exam-modal-btn');
+    if (pauseTitle) pauseTitle.innerText = i18n.t('pause_modal_title');
+    if (pauseDesc) pauseDesc.innerText = i18n.t('pause_modal_desc');
+    if (resumeBtn) resumeBtn.innerText = i18n.t('pause_modal_resume');
+
+    // Question Paper Modal
+    const closeQpModalBtn = document.getElementById('close-qp-modal-btn');
+    if (closeQpModalBtn) closeQpModalBtn.innerText = i18n.t('close_btn');
+
+    // Developer Showcase & SEO footer
+    const devRoleLbl = document.getElementById('dev-role-label');
+    const devSpecBdg = document.getElementById('dev-spec-badge');
+    const devRoleTitle = document.getElementById('dev-role-title');
+    const devStatement = document.getElementById('dev-statement');
+    const seoTitle = document.getElementById('seo-card-title');
+    const seoDesc = document.getElementById('seo-card-desc');
+    if (devRoleLbl) devRoleLbl.innerText = i18n.t('dev_role_label');
+    if (devSpecBdg) devSpecBdg.innerText = i18n.t('dev_spec_badge');
+    if (devRoleTitle) devRoleTitle.innerText = i18n.t('dev_role_title');
+    if (devStatement) devStatement.innerText = i18n.t('dev_statement');
+    if (seoTitle) seoTitle.innerText = i18n.t('seo_dir_title');
+    if (seoDesc) seoDesc.innerText = i18n.t('seo_dir_desc');
+
+    // Always re-render lobby cards with localized titles & stats
+    this.renderLobby();
+    this.renderHistory();
+
+    // Re-render in-exam components if active
+    if (this.examView.classList.contains('active')) {
       this.renderSectionTabs();
       this.renderQuestionView();
       this.renderPalette();
@@ -716,12 +812,59 @@ class App {
     if (this.examThemeToggleBtn) this.examThemeToggleBtn.innerHTML = icon;
   }
 
-  changeFontSize(delta) {
-    this.fontSizeLevel = Math.max(0, Math.min(2, this.fontSizeLevel + delta));
-    const sizes = ['15px', '17px', '20px'];
-    if (this.qStatement) {
-      this.qStatement.style.fontSize = sizes[this.fontSizeLevel];
+  /* ================= ACCESSIBLE FONT RESIZING ================= */
+  initFontSize() {
+    const saved = localStorage.getItem('BSTET_FONT_SIZE') || 'normal';
+    this.applyFontSize(saved, false);
+  }
+
+  applyFontSize(level, showToast = false) {
+    const validLevels = ['small', 'normal', 'large', 'xlarge'];
+    if (!validLevels.includes(level)) level = 'normal';
+    this.fontSizeLevel = level;
+    document.documentElement.setAttribute('data-font-size', level);
+    localStorage.setItem('BSTET_FONT_SIZE', level);
+
+    // Update active visual state on font zoom buttons
+    const navButtons = [this.fontSmallerBtn, this.fontResetBtn, this.fontLargerBtn];
+    const examButtons = [this.examFontSmallerBtn, this.examFontResetBtn, this.examFontLargerBtn];
+    [...navButtons, ...examButtons].forEach(b => {
+      if (b) b.classList.remove('active');
+    });
+
+    if (level === 'small') {
+      if (this.fontSmallerBtn) this.fontSmallerBtn.classList.add('active');
+      if (this.examFontSmallerBtn) this.examFontSmallerBtn.classList.add('active');
+    } else if (level === 'normal') {
+      if (this.fontResetBtn) this.fontResetBtn.classList.add('active');
+      if (this.examFontResetBtn) this.examFontResetBtn.classList.add('active');
+    } else if (level === 'large' || level === 'xlarge') {
+      if (this.fontLargerBtn) this.fontLargerBtn.classList.add('active');
+      if (this.examFontLargerBtn) this.examFontLargerBtn.classList.add('active');
     }
+
+    if (showToast) {
+      const isHi = window.BSTET_I18N && window.BSTET_I18N.currentLang === 'hi';
+      const labels = {
+        small: isHi ? 'छोटा फ़ॉन्ट (90%)' : 'Text Size: Small (90%)',
+        normal: isHi ? 'सामान्य फ़ॉन्ट (100%)' : 'Text Size: Normal (100%)',
+        large: isHi ? 'बड़ा फ़ॉन्ट (112%)' : 'Text Size: Large (112%)',
+        xlarge: isHi ? 'अति-विशाल फ़ॉन्ट (125%)' : 'Text Size: Extra Large (125%)'
+      };
+      this.showLanguageToast(labels[level] || `Text Size: ${level}`);
+    }
+  }
+
+  changeFontSize(delta) {
+    const levels = ['small', 'normal', 'large', 'xlarge'];
+    let idx = levels.indexOf(this.fontSizeLevel);
+    if (idx === -1) idx = 1;
+    const newIdx = Math.max(0, Math.min(levels.length - 1, idx + delta));
+    this.applyFontSize(levels[newIdx], true);
+  }
+
+  resetFontSize() {
+    this.applyFontSize('normal', true);
   }
 
   toggleFullscreen() {
@@ -756,6 +899,7 @@ class App {
   renderLobby() {
     const catalog = window.PAPERS_CATALOG || [];
     const i18n = window.BSTET_I18N;
+    const isHi = i18n && i18n.currentLang === 'hi';
 
     // Dynamically update filter tab badge counts
     const allCount = catalog.length;
@@ -768,66 +912,66 @@ class App {
     const tabPredicted = document.getElementById('tab-filter-predicted');
     const tabDrill = document.getElementById('tab-filter-drill');
 
-    if (tabAll) tabAll.innerText = i18n ? i18n.t('filter_all') : `All Mock Tests (${allCount})`;
-    if (tabOfficial) tabOfficial.innerText = i18n ? i18n.t('filter_official') : `Official PYQ Papers (${officialCount})`;
-    if (tabPredicted) tabPredicted.innerText = i18n ? i18n.t('filter_predicted') : `2026 Predicted Mock Sets (${predictedCount})`;
-    if (tabDrill) tabDrill.innerText = i18n ? i18n.t('filter_drill') : `Sectional & Topic Drills (${drillCount})`;
+    if (tabAll) tabAll.innerText = isHi ? `सभी मॉक टेस्ट (${allCount})` : `All Mock Tests (${allCount})`;
+    if (tabOfficial) tabOfficial.innerText = isHi ? `आधिकारिक PYQ प्रश्न पत्र (${officialCount})` : `Official PYQ Papers (${officialCount})`;
+    if (tabPredicted) tabPredicted.innerText = isHi ? `2026 संभावित मॉक सेट (${predictedCount})` : `2026 Predicted Mock Sets (${predictedCount})`;
+    if (tabDrill) tabDrill.innerText = isHi ? `सेक्शनल एवं टॉपिक अभ्यास (${drillCount})` : `Sectional & Topic Drills (${drillCount})`;
 
     if (!this.papersGrid) return;
-    const cards = this.papersGrid.querySelectorAll('.paper-card');
-    const existingIds = new Set(Array.from(cards).map(c => c.dataset.id));
-    const allCatalogCardsPresent = catalog.length > 0 && catalog.every(p => existingIds.has(p.id));
 
-    // If any catalog paper is missing from DOM, re-render cleanly
-    if (!allCatalogCardsPresent || cards.length === 0) {
-      this.papersGrid.innerHTML = '';
-      catalog.forEach(paper => {
-        const card = document.createElement('div');
-        card.className = 'paper-card';
-        card.dataset.id = paper.id;
-        card.dataset.category = paper.category;
-        const cbtLabel = i18n ? i18n.t('start_cbt') : '⚡ Start CBT Mock';
-        const practiceLabel = i18n ? i18n.t('practice_mode') : '📖 Practice Mode';
-        const qLabel = i18n ? i18n.t('questions_label') : 'Questions';
-        const mLabel = i18n ? i18n.t('marks_label') : 'Total Marks';
-        const dLabel = i18n ? i18n.t('duration_label') : 'Duration';
-        const minsWord = i18n ? i18n.t('mins') : 'Mins';
+    this.papersGrid.innerHTML = '';
+    catalog.forEach(paper => {
+      const card = document.createElement('div');
+      card.className = 'paper-card';
+      card.dataset.id = paper.id;
+      card.dataset.category = paper.category;
 
-        card.innerHTML = `
-          <div>
-            <div class="paper-header">
-              <span class="badge ${paper.badgeClass}">${paper.badge}</span>
-              <span style="font-size: 12px; font-weight: 600; color: var(--text-muted);">${paper.difficulty}</span>
+      const title = i18n ? i18n.translatePaperTitle(paper.title, paper.id) : paper.title;
+      const subtitle = i18n ? i18n.translatePaperSubtitle(paper.subtitle, paper.id) : paper.subtitle;
+      const badge = i18n ? i18n.translateBadge(paper.badge) : paper.badge;
+      const difficulty = i18n ? i18n.translateDifficulty(paper.difficulty) : paper.difficulty;
+
+      const cbtLabel = i18n ? i18n.t('start_cbt') : '⚡ Start CBT Mock';
+      const practiceLabel = i18n ? i18n.t('practice_mode') : '📖 Practice Mode';
+      const qLabel = i18n ? i18n.t('questions_label') : 'Questions';
+      const mLabel = i18n ? i18n.t('marks_label') : 'Total Marks';
+      const dLabel = i18n ? i18n.t('duration_label') : 'Duration';
+      const minsWord = i18n ? i18n.t('mins') : 'Mins';
+
+      card.innerHTML = `
+        <div>
+          <div class="paper-header">
+            <span class="badge ${paper.badgeClass}">${badge}</span>
+            <span style="font-size: 12px; font-weight: 600; color: var(--text-muted);">${difficulty}</span>
+          </div>
+          <h3 class="paper-title">${title}</h3>
+          <p class="paper-subtitle">${subtitle}</p>
+          <div class="paper-stats-list">
+            <div class="stat-item">
+              <span class="label">${qLabel}</span>
+              <span class="val">${paper.totalQuestions} Qs</span>
             </div>
-            <h3 class="paper-title">${paper.title}</h3>
-            <p class="paper-subtitle">${paper.subtitle}</p>
-            <div class="paper-stats-list">
-              <div class="stat-item">
-                <span class="label">${qLabel}</span>
-                <span class="val">${paper.totalQuestions} Qs</span>
-              </div>
-              <div class="stat-item">
-                <span class="label">${mLabel}</span>
-                <span class="val">${paper.totalMarks}</span>
-              </div>
-              <div class="stat-item">
-                <span class="label">${dLabel}</span>
-                <span class="val">${paper.durationMinutes} ${minsWord}</span>
-              </div>
+            <div class="stat-item">
+              <span class="label">${mLabel}</span>
+              <span class="val">${paper.totalMarks}</span>
+            </div>
+            <div class="stat-item">
+              <span class="label">${dLabel}</span>
+              <span class="val">${paper.durationMinutes} ${minsWord}</span>
             </div>
           </div>
-          <div class="paper-card-actions">
-            <button class="btn btn-primary" data-action="cbt" data-id="${paper.id}">
-              ${cbtLabel}
-            </button>
-            <button class="btn btn-outline" data-action="practice" data-id="${paper.id}">
-              ${practiceLabel}
-            </button>
-          </div>
-        `;
-        this.papersGrid.appendChild(card);
-      });
-    }
+        </div>
+        <div class="paper-card-actions">
+          <button class="btn btn-primary" data-action="cbt" data-id="${paper.id}">
+            ${cbtLabel}
+          </button>
+          <button class="btn btn-outline" data-action="practice" data-id="${paper.id}">
+            ${practiceLabel}
+          </button>
+        </div>
+      `;
+      this.papersGrid.appendChild(card);
+    });
 
     // Toggle card visibility based on active filter
     const activeCards = this.papersGrid.querySelectorAll('.paper-card');
@@ -839,66 +983,6 @@ class App {
       else if (this.currentFilter === 'predicted') show = (cat === 'Predicted Mock');
       else if (this.currentFilter === 'drill') show = (cat === 'Sectional Drill');
       card.style.display = show ? 'flex' : 'none';
-    });
-
-    this.renderHistory();
-  }
-
-  renderHistory() {
-    const history = ExamAnalytics.getHistory();
-    const i18n = window.BSTET_I18N;
-
-    if (history.length === 0) {
-      if (!this.historyTableBody.firstElementChild || (i18n && i18n.currentLang !== 'en')) {
-        const emptyMsg = i18n ? i18n.t('no_history') : 'No test attempts recorded yet. Launch a mock test above to see your analytics!';
-        this.historyTableBody.innerHTML = `
-          <tr>
-            <td colspan="6" style="text-align: center; color: var(--text-muted); padding: 24px;">
-              ${emptyMsg}
-            </td>
-          </tr>
-        `;
-      }
-      return;
-    }
-
-    this.historyTableBody.innerHTML = '';
-
-    history.forEach(item => {
-      const row = document.createElement('tr');
-      const dateStr = new Date(item.timestamp).toLocaleString('en-IN', {
-        dateStyle: 'medium',
-        timeStyle: 'short'
-      });
-      const isQualified = item.isQualified;
-      const statusHtml = isQualified 
-        ? '<span class="status-badge-qual">🎉 Qualified</span>' 
-        : '<span class="status-badge-miss">⚠️ Needs Prep</span>';
-
-      row.innerHTML = `
-        <td><strong>${item.paperTitle}</strong></td>
-        <td style="color: var(--text-secondary); font-size: 13px;">${dateStr}</td>
-        <td><strong style="color: var(--primary);">${item.score} / ${item.maxMarks}</strong> (${item.percentage}%)</td>
-        <td><strong>${item.accuracy}%</strong></td>
-        <td>${statusHtml}</td>
-        <td>
-          <button class="btn btn-secondary" style="font-size: 12px; padding: 5px 10px;" data-review-id="${item.id}">
-            📖 ${i18n ? i18n.t('review_solutions') : 'Review Solutions'}
-          </button>
-        </td>
-      `;
-
-      row.querySelector('[data-review-id]').addEventListener('click', () => {
-        const fullReport = ExamAnalytics.getAttempt(item.id);
-        if (fullReport) {
-          this.lastAnalyticsReport = fullReport;
-          this.showResultView(fullReport);
-        } else {
-          alert('Full detailed attempt report not found for this attempt.');
-        }
-      });
-
-      this.historyTableBody.appendChild(row);
     });
   }
 
@@ -1752,22 +1836,61 @@ class App {
       `;
     } else if (tabName === 'author') {
       this.legalModalBody.innerHTML = `
-        <h4 style="color:var(--text-primary); margin-bottom: 8px;">About the Developer</h4>
-        <div style="display:flex; gap:18px; align-items:center; margin-bottom:16px;">
-          <picture>
-            <source srcset="images/developer-avatar.webp" type="image/webp">
-            <img src="images/developer-avatar.png" alt="Niranjan Kumar Singh" width="72" height="72" style="width:72px; height:72px; border-radius:50%; object-fit:cover; border:2.5px solid var(--primary); box-shadow:0 4px 14px rgba(37,99,235,0.28);">
-          </picture>
-          <div>
-            <h5 style="font-size:19px; font-weight:800; margin:0 0 3px 0; color:var(--text-primary);">Niranjan Kumar Singh</h5>
-            <span style="font-size:13px; color:var(--primary); font-weight:700;">Lead Software Engineer &amp; EdTech CBT System Architect</span>
+        <div style="background: linear-gradient(135deg, rgba(30,58,138,0.12) 0%, rgba(14,165,233,0.08) 100%); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 20px; margin-bottom: 20px;">
+          <div style="display:flex; gap:20px; align-items:center; flex-wrap:wrap;">
+            <picture>
+              <source srcset="images/developer-profile.webp" type="image/webp">
+              <img src="images/developer-profile.png" alt="Niranjan Kumar Singh - Systems Architect" width="96" height="96" style="width:96px; height:96px; border-radius:16px; object-fit:cover; border:2.5px solid var(--primary); box-shadow:0 6px 20px rgba(37,99,235,0.25);">
+            </picture>
+            <div style="flex:1; min-width:240px;">
+              <div style="display:flex; align-items:center; gap:8px; margin-bottom:4px; flex-wrap:wrap;">
+                <h4 style="font-size:22px; font-weight:800; margin:0; color:var(--text-primary);">Niranjan Kumar Singh</h4>
+                <span style="display:inline-flex; align-items:center; gap:4px; font-size:11px; font-weight:700; background:#dcfce7; color:#15803d; padding:2px 8px; border-radius:999px;">
+                  <span style="width:6px; height:6px; border-radius:50%; background:#16a34a; display:inline-block;"></span> Active Architect
+                </span>
+              </div>
+              <p style="font-size:13.5px; color:var(--primary); font-weight:700; margin:0 0 8px 0;">Platform Architect &amp; EdTech CBT Systems Developer</p>
+              <p style="font-size:12.5px; color:var(--text-muted); margin:0;">Patna, Bihar, India • Dedicated to Free, High-Caliber Teaching Exam Preparation</p>
+            </div>
           </div>
         </div>
-        <p>Niranjan Kumar Singh is a passionate software engineer specializing in high-performance web applications, interactive examination state machines, and educational tools.</p>
-        <p style="margin-top: 10px;">This Bihar STET Computer Science CBT Mock Exam Portal was conceived and coded to provide candidates with a zero-friction, authentic TCS iON test environment that works flawlessly on any mobile phone, tablet, or laptop.</p>
-        <div style="margin-top:16px; display:flex; gap:12px; flex-wrap:wrap;">
-          <a href="mailto:niranjansingh1419@gmail.com" style="display:inline-flex; align-items:center; gap:6px; padding:8px 14px; background:var(--primary); color:#fff; text-decoration:none; border-radius:6px; font-weight:700; font-size:13px;">✉ Contact via Email</a>
-          <a href="https://www.instagram.com/niranjan.ks.in" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:6px; padding:8px 14px; background:#e1306c; color:#fff; text-decoration:none; border-radius:6px; font-weight:700; font-size:13px;">📷 Instagram @niranjan.ks.in</a>
+
+        <h5 style="font-size:15px; font-weight:700; color:var(--text-primary); margin:0 0 8px 0;">🎯 The Philosophy Behind This Platform</h5>
+        <p style="margin:0 0 14px 0; color:var(--text-secondary); line-height:1.6;">
+          Most competitive mock portals in India are locked behind costly subscriptions, forced registrations, or intrusive popups that distract aspirants from serious study. This portal was engineered with a single goal: to give every candidate preparing for <strong>Bihar STET Paper II (Computer Science Code 226)</strong> and <strong>BPSC TRE Higher Secondary</strong> completely free access to a world-class, zero-latency CBT simulation.
+        </p>
+
+        <h5 style="font-size:15px; font-weight:700; color:var(--text-primary); margin:16px 0 8px 0;">⚡ Engineering Pillars & System Design</h5>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:12px; margin-bottom:16px;">
+          <div style="background:var(--bg-card); border:1px solid var(--border-subtle); border-radius:8px; padding:12px;">
+            <strong style="color:var(--text-primary); font-size:13px; display:block; margin-bottom:4px;">⏱ TCS iON Parity</strong>
+            <span style="font-size:12px; color:var(--text-muted); line-height:1.5; display:block;">Authentic palette state machine, strict countdown timer, keyboard shortcuts (1-4, N, P, M, L), and section switching.</span>
+          </div>
+          <div style="background:var(--bg-card); border:1px solid var(--border-subtle); border-radius:8px; padding:12px;">
+            <strong style="color:var(--text-primary); font-size:13px; display:block; margin-bottom:4px;">🌐 Zero-Gap Bilingual Engine</strong>
+            <span style="font-size:12px; color:var(--text-muted); line-height:1.5; display:block;">Instant client-side toggle between English, Hindi, or Dual mode with 100% conceptual explanations in both languages.</span>
+          </div>
+          <div style="background:var(--bg-card); border:1px solid var(--border-subtle); border-radius:8px; padding:12px;">
+            <strong style="color:var(--text-primary); font-size:13px; display:block; margin-bottom:4px;">🔒 Privacy & Zero Telemetry</strong>
+            <span style="font-size:12px; color:var(--text-muted); line-height:1.5; display:block;">Zero backend database storing candidate responses. Your test scores and answers stay strictly inside your device's browser.</span>
+          </div>
+          <div style="background:var(--bg-card); border:1px solid var(--border-subtle); border-radius:8px; padding:12px;">
+            <strong style="color:var(--text-primary); font-size:13px; display:block; margin-bottom:4px;">📚 35 Papers • 3,650 Questions</strong>
+            <span style="font-size:12px; color:var(--text-muted); line-height:1.5; display:block;">Comprehensive coverage of Computer Science (100Q), Sachin Academy Art of Teaching (30Q), and General Skills (20Q).</span>
+          </div>
+        </div>
+
+        <h5 style="font-size:15px; font-weight:700; color:var(--text-primary); margin:16px 0 8px 0;">📫 Direct Developer Verification & Connect</h5>
+        <p style="margin:0 0 12px 0; color:var(--text-secondary); font-size:13px;">
+          For feedback, corrections in answer keys, or technical suggestions, feel free to reach out directly:
+        </p>
+        <div style="display:flex; gap:12px; flex-wrap:wrap;">
+          <a href="mailto:niranjansingh1419@gmail.com" class="btn btn-primary" style="padding:8px 16px; font-size:13px; text-decoration:none;">
+            ✉ Email: niranjansingh1419@gmail.com
+          </a>
+          <a href="https://www.instagram.com/niranjan.ks.in" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="padding:8px 16px; font-size:13px; text-decoration:none;">
+            📷 Instagram: @niranjan.ks.in
+          </a>
         </div>
       `;
     }

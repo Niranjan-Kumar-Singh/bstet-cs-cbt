@@ -5,13 +5,14 @@
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-bstet--cs--cbt.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://bstet-cs-cbt.vercel.app)
 [![Subject](https://img.shields.io/badge/Subject-Computer%20Science%20(Code%20226)-2563eb?style=for-the-badge)](#)
 [![Target](https://img.shields.io/badge/Target-Bihar%20STET%20Class%2011--12-16a34a?style=for-the-badge)](#)
-[![Questions](https://img.shields.io/badge/Questions-3%2C000%2B%20Bilingual-dc2626?style=for-the-badge)](#)
+[![Papers Catalog](https://img.shields.io/badge/Catalog-35%20Verified%20Papers-purple?style=for-the-badge)](#)
+[![Questions](https://img.shields.io/badge/Questions-3%2C650%20Bilingual-dc2626?style=for-the-badge)](#)
 [![Bilingual](https://img.shields.io/badge/Language-English%20%7C%20%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-orange?style=for-the-badge)](#)
-[![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-gray?style=for-the-badge)](LICENSE)
 
-**An authentic, state-of-the-art Computer-Based Test (CBT) mock exam simulation platform for Bihar STET Paper II (Higher Secondary Teacher Recruitment - Class 11-12 Computer Science, Subject Code: 226).**
+**An authentic, high-fidelity Computer-Based Test (CBT) mock exam simulation platform for Bihar STET Paper II (Higher Secondary Teacher Recruitment - Class 11-12 Computer Science, Subject Code: 226).**
 
-[⚡ Launch Live Portal](https://bstet-cs-cbt.vercel.app) • [📖 Browse Test Catalog](#-exam-papers-catalog-23-full-length-sets--drills) • [🚀 Deploy Guide](#-quick-deployment-guide)
+[⚡ Launch Live Portal](https://bstet-cs-cbt.vercel.app) • [📖 Browse Test Catalog](#-exam-papers-catalog-35-papers--3650-questions) • [👨‍💻 About the Architect](#-system-architecture--developer-profile) • [🚀 Deploy Guide](#-quick-deployment-guide)
 
 </div>
 
@@ -19,122 +20,123 @@
 
 ## 🌟 Why This Portal?
 
-Preparing for the **Bihar State Teacher Eligibility Test (STET) Paper II Computer Science** requires not just theoretical knowledge, but real-time speed, sectional time management, and familiarity with the authentic **TCS iON CBT** interface in both **English and Hindi (हिन्दी)**.
+Preparing for the **Bihar State Teacher Eligibility Test (STET) Paper II Computer Science** requires subject mastery, sectional pacing, and direct familiarity with the authentic **TCS iON CBT** interface in both **English and Hindi (हिन्दी)**.
 
-This portal provides a zero-lag, distraction-free examination simulator loaded with **23 full-length mock papers and mastery drills (3,000+ questions)**, officially verified answer keys, authentic timers, instant cut-off evaluations, SVG performance gauges, and deep conceptual explanations for every single question.
+Commercial coaching portals often lock test series behind subscriptions, paywalls, or cluttered advertisements. This platform was engineered from the ground up as a completely open, zero-monetization exam portal with:
+- **35 Full Papers & Topic Drills (3,650 Questions)** with zero translation gaps.
+- **TCS iON CBT Parity**: Locked sticky timer at viewport top (`Y = 0`), authentic question palette, and keyboard shortcuts.
+- **Accessible Typography**: Live multi-tier font zoom controls (`A-`, `A`, `A+`) across lobby and examination views.
+- **Full Bilingual Parity**: Instant toggling between English and Hindi across the entire user interface—from question statements and options to action buttons, legends, and conceptual explanations.
+- **Official BSEB Cutoff Matrix**: Real-time evaluation against General (50%), BC (45.5%), EBC (42.5%), and SC/ST/Divyang/Female (40%) qualifying standards.
+- **100% Client-Side Privacy**: Zero server tracking; all attempt data and scorecards remain strictly on your local device.
 
 ---
 
-## 🚀 Key Features
+## 🚀 Core Features
 
-### 🌐 1. Complete Bilingual Support (English & हिन्दी)
-- **Instant Language Toggle**: Seamlessly switch the entire exam platform or individual questions between **English** and **हिन्दी** with a single click.
-- **Bilingual Technical Vocabulary**: Precise translations for all 15 Computer Science syllabus units, Art of Teaching pedagogy concepts, and options.
-- **Bilingual Solution Reviews**: Study explanations in either English or Hindi according to your preferred medium of study.
+### 🌐 1. Complete Bilingual Engine (English & हिन्दी)
+- **Global & In-Exam Language Toggle**: Switch between **English** and **हिन्दी** at any point. When toggled, all UI elements—navigation, hero metrics, filter tabs, paper cards, in-exam headers, action buttons, candidate details, palette legends, and solution explanations—update synchronously.
+- **Question-Level Segmented Control**: Inspect individual questions in English, Hindi, or **Dual Mode (👁️ Both)** simultaneously.
+- **Accurate Bilingual Technical Vocabulary**: Preserves industry standard terms (e.g., `Normalization`, `Deadlock`, `Cache Memory`, `Pipelining`) while providing natural Hindi translations.
 
-### ⏱ 2. Authentic TCS iON CBT Examination Engine
-- **Zero-Scroll Pinned Timer**: The 150-minute countdown timer is locked at the very top of the viewport (`Y = 0`), ensuring it is **100% visible at all times** on mobile phones, tablets, and laptops without any scrolling.
-- **Section Switcher Bar**: Seamlessly switch between sections anytime:
+### ⏱ 2. Authentic TCS iON CBT Interface
+- **Locked Sticky Timer (`Y = 0`)**: The 150-minute countdown timer stays permanently visible on both mobile devices and desktops without any layout shift.
+- **Section Switcher Bar**: Seamlessly toggle between:
   - **Section 1: Computer Science Knowledge** (100 Qs / 100 Marks)
   - **Section 2: Art of Teaching (Pedagogy)** (30 Qs / 30 Marks)
   - **Section 3: General Skills (Reasoning, Math, GK, EVS)** (20 Qs / 20 Marks)
-- **150-Question Interactive Palette**: Dynamic color-coded question statuses:
+- **150-Question Interactive Palette**: Standard status colors:
   - 🟢 **Answered** (Recorded)
-  - 🔴 **Not Answered** (Visited but unanswered)
+  - 🔴 **Not Answered** (Visited but unselected)
   - ⚪ **Not Visited** (Unopened)
-  - 🟣 **Marked for Review** (Flagged)
-  - 🟣🟢 **Answered & Marked for Review** (Will be considered for evaluation)
-- **Exam Controls**: `« Previous`, `Next »`, `Mark for Review`, `Clear Response`, `Save & Next »`, and `Submit Exam`.
-- **Keyboard Shortcuts**: Numbers `1-4` or `A-D` to select options, `N` for Next, `P` for Previous, `M` for Mark for Review, `L` to toggle language.
+  - 🟣 **Marked for Review** (Flagged for later review)
+  - 🟣🟢 **Answered & Marked for Review** (Will be evaluated)
+- **Keyboard Shortcuts**: `1-4` / `A-D` to choose options, `N` for Save & Next, `P` for Previous, `M` for Mark for Review, and `L` / `H` to toggle question language.
 
-### 📊 3. Production-Grade Scorecard & Performance Analytics
-- **SVG Circular Progress Gauges**: Real-time visual donut gauges for Score, Accuracy Rate, and Average Question Pacing.
-- **Official Bihar STET Reservation Cutoff Matrix**: Instant pass/fail qualification verdicts and score margins against all 4 official cutoff categories:
-  - **General (Unreserved)**: 50% (75.0 Marks)
-  - **BC (Backward Class)**: 45.5% (68.25 Marks)
-  - **EBC (Extremely Backward Class)**: 42.5% (63.75 Marks)
-  - **SC / ST / Divyang / Female**: 40% (60.0 Marks)
-- **Three-Tier Topic Diagnostic Matrix**:
-  - 🟢 **Strengths (≥ 75%)**: Topics where you have achieved mastery.
-  - 🟡 **Moderate Areas (50% - 74%)**: Topics requiring formula consolidation.
-  - 🔴 **High-Priority Revision (< 50%)**: Actionable revision advice pinpointing exact weak units.
-- **Interactive Solutions Review**:
-  - Filter by: **All (150)**, **❌ Incorrect Only**, **⚠️ Skipped**, and **✅ Correct Confirmed**.
-  - **Topic Filter Dropdown**: Isolate questions from any of the 15 units or pedagogy.
-  - Question-level time spent counter (e.g. `⏱ 42s spent`).
-  - **🖨️ Print / Save PDF**: Print-ready official scorecard styling (`@media print`).
-  - **📋 Share Summary**: Instant copy-to-clipboard for study groups on WhatsApp/Telegram.
+### 🔍 3. Accessible Font Scaling (`A-`, `A`, `A+`)
+- Dedicated typography zoom controls available in both the global navbar and in-exam header.
+- Proportional scaling system:
+  - `A-` (Small / 90%)
+  - `A` (Normal / 100% default)
+  - `A+` (Large / 112% & Extra Large / 125%)
+- Resizes question statements, option cards, conceptual explanation boxes, and review solutions with full persistence in `localStorage`.
+
+### 📊 4. Diagnostic Performance Analytics
+- **SVG Circular Progress Gauges**: Score percentage, accuracy rate, and question-level pacing.
+- **Category Cutoff Verdicts**: Instant pass/fail status calculated against Bihar STET reservation quotas:
+  - **General (UR)**: 75.0 Marks (50%)
+  - **Backward Class (BC)**: 68.25 Marks (45.5%)
+  - **Extremely Backward Class (EBC)**: 63.75 Marks (42.5%)
+  - **SC / ST / Divyang / Female**: 60.0 Marks (40%)
+- **Three-Tier Topic Diagnostic Matrix**: Isolates Strengths (≥ 75%), Moderate Areas (50–74%), and High-Priority Revision Areas (< 50%).
+- **Interactive Solutions Review**: Filter by Incorrect, Skipped, Correct, or by syllabus topic with bilingual explanations.
+- **Print & PDF Export**: Clean, official print stylesheets for saving scorecards.
 
 ---
 
-## 📚 Exam Papers Catalog (23 Full-Length Sets & Drills)
+## 📚 Exam Papers Catalog (35 Papers • 3,650 Questions)
 
-| Category | Sets | Questions | Description |
+| Category | Sets | Total Qs | Key Highlights |
 | :--- | :---: | :---: | :--- |
-| **Official PYQ Papers** | **5 Sets** | **750 Qs** | Real official Bihar STET papers (03 Nov 2025 Shift 1 & 2, 04 Nov 2025 Shift 2, 07 Nov 2025 Shift 1, and 12 Sep 2023) with **100% verified official keys**. |
-| **2026 Predicted Mocks** | **12 Sets** | **1,800 Qs** | High-probability predicted full-length papers (Sets 1 to 12) strictly covering all 15 CS syllabus units, 30 Art of Teaching topics, and 20 General Skills topics with bilingual support. |
-| **Sectional & Specialized Drills** | **6 Sets** | **500 Qs** | Focused practice: **CS 100Q Drill**, **Pedagogy 50Q Drill**, **General Skills 50Q Drill**, **DSA & SQL 50Q Drill**, **OS & Networks 50Q Drill**, and **Modern Tech 50Q Drill**. |
-| **Grand Total** | **23 Papers** | **3,000+ Qs** | Complete readiness curriculum with in-depth bilingual explanations. |
+| **Official PYQ Full Papers** | **5 Papers** | **750 Qs** | Authentic BSEB shift papers (03 Nov 2025 Shift 1 & 2, 04 Nov 2025 Shift 2, 07 Nov 2025 Shift 1, 12 Sep 2023) with 100% verified official answer keys. |
+| **Sachin Academy Official PYQ Sets** | **5 Papers** | **150 Qs** | Authentic shift-wise Art of Teaching papers (18 Sep 2023 Shift 1 & 2, 15 Sep 2023 Shift 1 & 2, 14 Sep 2023 Shift 1) verified by Sachin Academy pedagogy faculty. |
+| **2026 High-Yield Predicted Mocks** | **15 Papers** | **2,250 Qs** | Full-length 150Q simulated tests (Sets 01 to 15) strictly adhering to the 100-30-20 exam blueprint with bilingual parity. |
+| **Pedagogy Master Drills** | **2 Papers** | **150 Qs** | Dedicated Art of Teaching drills: **Sachin Academy 100Q Master Drill** and **50Q Recent Exams Sprint**. |
+| **Sectional & Specialized Drills** | **8 Papers** | **350 Qs** | Deep subject drills: DBMS & SQL, OS & Networks, Data Structures & Algorithms, Digital Logic & Microprocessors, Computer Architecture, Web Tech & Python, and General Skills. |
+| **Grand Total** | **35 Papers** | **3,650 Qs** | Complete coverage of Bihar STET Paper II & BPSC TRE Higher Secondary curriculum. |
 
 ---
 
-## 🛠 Tech Stack
+## 👨‍💻 System Architecture & Developer Profile
 
-- **Frontend Core**: Vanilla HTML5, CSS3, Modern JavaScript (ES6+ Modules)
-- **Internationalization**: Zero-dependency bilingual engine (`js/i18n.js`)
-- **State Engine**: Pure client-side state machine (`js/exam-engine.js`)
-- **Analytics Engine**: Deterministic cutoff, pacing & topic strength calculator (`js/analytics.js`)
-- **Data Layer**: Modular data files (`js/data/*.js`) containing structured question arrays
-- **Dependencies**: **Zero** external runtime dependencies (100% offline and standalone)
-- **Deployment**: Optimized for Vercel, Netlify, or GitHub Pages
+### Architect & Lead Engineer: **Niranjan Kumar Singh**
+- **Role**: Platform Architect & EdTech Systems Developer
+- **Email**: [niranjansingh1419@gmail.com](mailto:niranjansingh1419@gmail.com)
+- **Instagram**: [@niranjan.ks.in](https://www.instagram.com/niranjan.ks.in)
+- **Location**: Patna, Bihar, India
+
+### Engineering Philosophy
+This simulator was built as an independent, non-commercial educational resource to support teaching aspirants across Bihar. No login credentials, payment details, or personal data are collected. Everything executes client-side with zero server latency.
 
 ---
 
-## 💻 Local Quick Start
+## 🛠 Technology Stack
 
-Clone the repository and run locally in one command:
+- **Core Engine**: Semantic HTML5, CSS3 Custom Properties (Variables), Vanilla ECMAScript 2022 (ES6+).
+- **Architecture**: Modular decoupled architecture (`ExamEngine`, `App`, `Analytics`, `BSTET_I18N`).
+- **Data Layer**: Deferred JSON-compatible JavaScript modules (`js/data/papers-index.js`, `js/data/*.js`).
+- **Security & Performance**: Zero external runtime dependencies, strict Content-Type options, SAMEORIGIN frame guards, and aggressive static asset caching via Vercel Edge.
 
+---
+
+## 💻 Quick Deployment Guide
+
+### Run Locally
 ```bash
 # 1. Clone the repository
 git clone https://github.com/Niranjan-Kumar-Singh/bstet-cs-cbt.git
 
-# 2. Enter project folder
+# 2. Navigate to directory
 cd bstet-cs-cbt
 
-# 3. Run with Python's built-in server (or open index.html directly)
+# 3. Serve via any local web server
+# Using Python:
 python -m http.server 8080
+
+# Using Node:
+npx serve .
 ```
 
-Open **`http://localhost:8080/index.html`** in your browser.
+Open `http://localhost:8080` in your browser.
+
+### Deploy to Vercel
+```bash
+npx vercel --prod
+```
 
 ---
 
-## 🚀 Quick Deployment Guide
+## 📄 License & Attribution
 
-### Deploy on Vercel (Instant 1-Click)
-1. Fork or push this repository to your GitHub account: `https://github.com/Niranjan-Kumar-Singh/bstet-cs-cbt`
-2. Go to [vercel.com](https://vercel.com) and log in.
-3. Click **"Add New" → "Project"** and import `bstet-cs-cbt`.
-4. Framework Preset: **Other** (Root directory `./`).
-5. Click **"Deploy"**. Your portal will be live at `https://bstet-cs-cbt.vercel.app`!
-
----
-
-## 👨‍💻 Author & Developer
-
-**Niranjan Kumar Singh**  
-- ✉ **Email**: [niranjansingh1419@gmail.com](mailto:niranjansingh1419@gmail.com)  
-- 📷 **Instagram**: [@niranjan.ks.in](https://www.instagram.com/niranjan.ks.in)  
-- 🐙 **GitHub**: [@Niranjan-Kumar-Singh](https://github.com/Niranjan-Kumar-Singh)
-
----
-
-## 📜 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-<div align="center">
-
-*"कठिन परिश्रम का कोई विकल्प नहीं होता — लक्ष्य पर ध्यान केंद्रित रखें और सफलता आपकी होगी!"*
-
-</div>
+This project is open-source under the [MIT License](LICENSE).  
+Created and maintained with care by **Niranjan Kumar Singh**.

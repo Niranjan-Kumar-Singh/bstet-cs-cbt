@@ -169,7 +169,9 @@
   <!-- Top Global Navigation Header (Hidden automatically during active CBT Exam) -->
   <header class="navbar" id="global-navbar">
     <div class="brand-container">
-      <div class="brand-logo">CS</div>
+      <div class="brand-logo" aria-label="BSTET CBT Official Logo">
+        <img src="favicon.svg" alt="Bihar STET Computer Science CBT" class="brand-logo-emblem" width="38" height="38">
+      </div>
       <div class="brand-details">
         <h1 id="nav-brand-title">Bihar STET Paper II (Computer Science)</h1>
         <p id="nav-brand-subtitle">Official CBT Mock Exam & Readiness Portal • Class 11-12 (Code 226)</p>
@@ -180,8 +182,12 @@
       <button class="btn btn-secondary" id="lang-toggle-btn" title="Switch Portal Language (English / हिन्दी)">
         🌐 <span id="lang-toggle-text">हिन्दी</span>
       </button>
-      <button class="btn btn-secondary" id="font-smaller-btn" title="Decrease Font Size">A-</button>
-      <button class="btn btn-secondary" id="font-larger-btn" title="Increase Font Size">A+</button>
+      <!-- Font Zoom Accessible Controls -->
+      <div class="font-zoom-controls" id="nav-font-controls" role="group" aria-label="Text Size Controls">
+        <button class="font-zoom-btn" id="font-smaller-btn" title="Decrease Font Size (A-)">A-</button>
+        <button class="font-zoom-btn" id="font-reset-btn" title="Reset Font Size (Default)">A</button>
+        <button class="font-zoom-btn" id="font-larger-btn" title="Increase Font Size (A+)">A+</button>
+      </div>
       <button class="btn btn-secondary" id="fullscreen-btn" title="Toggle Fullscreen">⛶ Fullscreen</button>
       <button class="btn btn-secondary" id="theme-toggle-btn">🌙 Dark</button>
     </div>
@@ -1242,22 +1248,25 @@
           <!-- Developer Signature & System Architecture Card -->
           <div class="developer-showcase-card">
             <div class="developer-header-meta">
-              <span class="dev-role-label">System Architecture & Engineering</span>
-              <span class="dev-spec-badge">BSEB Code 226 Compliance</span>
+              <span class="dev-role-label" id="dev-role-label">System Architecture & Engineering</span>
+              <span class="dev-spec-badge" id="dev-spec-badge">BSEB Code 226 Compliance</span>
             </div>
 
             <div class="developer-main-content">
               <div class="developer-avatar-wrapper">
-                <div class="developer-avatar" aria-label="Niranjan Kumar Singh">NK</div>
+                <picture>
+                  <source srcset="images/developer-avatar.webp" type="image/webp">
+                  <img src="images/developer-avatar.png" alt="Niranjan Kumar Singh - Systems Architect" class="developer-avatar-img" width="56" height="56" loading="lazy">
+                </picture>
               </div>
 
               <div class="developer-bio-box">
                 <div class="developer-identity">
                   <h3 class="developer-name">Niranjan Kumar Singh</h3>
-                  <p class="developer-role-title">Platform Architect & EdTech Systems Developer</p>
+                  <p class="developer-role-title" id="dev-role-title">Platform Architect & EdTech Systems Developer</p>
                 </div>
 
-                <p class="developer-statement">
+                <p class="developer-statement" id="dev-statement">
                   Engineered as an independent, non-commercial examination simulator to provide Bihar STET Paper II (Computer Science) and BPSC TRE aspirants with an authentic TCS iON test environment. Designed with strict bilingual parity, verified pedagogical solutions, official qualifying cutoffs, and client-side zero-latency execution.
                 </p>
 
@@ -1289,8 +1298,8 @@
 
           <!-- SEO Search Engine Keyword Cloud & Syllabus Directory -->
           <div class="seo-keywords-card">
-            <h4 class="seo-card-title">🔍 Quick Exam Directory & Popular Search Queries</h4>
-            <p class="seo-card-desc">Find practice sets, previous year papers, and syllabus topics easily:</p>
+            <h4 class="seo-card-title" id="seo-card-title">🔍 Quick Exam Directory & Popular Search Queries</h4>
+            <p class="seo-card-desc" id="seo-card-desc">Find practice sets, previous year papers, and syllabus topics easily:</p>
             <div class="seo-tags-grid">
               <span class="seo-tag">Bihar STET Computer Science Paper II 2026</span>
               <span class="seo-tag">BSTET Paper 2 Subject Code 226 Mock Test</span>
@@ -1369,6 +1378,12 @@
           </button>
           <button class="btn btn-outline exam-ctrl-btn" id="reveal-explanation-btn" style="display: none;">💡 Concept</button>
 
+          <!-- In-Exam Accessible Font Scaling -->
+          <div class="font-zoom-controls" id="exam-font-controls" role="group" aria-label="Exam Text Size Controls">
+            <button class="font-zoom-btn" id="exam-font-smaller-btn" title="Decrease Font Size (A-)">A-</button>
+            <button class="font-zoom-btn" id="exam-font-reset-btn" title="Reset Font Size">A</button>
+            <button class="font-zoom-btn" id="exam-font-larger-btn" title="Increase Font Size (A+)">A+</button>
+          </div>
           <!-- Exam Utility Quick Actions (Theme & Fullscreen during exam) -->
           <div class="exam-quick-actions">
             <button class="btn btn-icon-small" id="exam-theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
@@ -1427,15 +1442,15 @@
         <!-- Right: Candidate & CBT Palette Sidebar -->
         <aside class="palette-pane" id="palette-pane">
           <div class="mobile-palette-header" id="mobile-palette-header">
-            <span style="font-weight: 700; font-size: 14px;">Question Palette</span>
+            <span style="font-weight: 700; font-size: 14px;" id="palette-heading-text">Question Palette</span>
             <button class="btn btn-secondary mobile-close-palette-btn" id="mobile-close-palette-btn">✕ Close</button>
           </div>
           <!-- Candidate Card -->
           <div class="candidate-card">
             <div class="candidate-avatar">ST</div>
             <div class="candidate-info">
-              <h4>Candidate: Aspirant (Class 11-12)</h4>
-              <p>Subject: Computer Science (226)</p>
+              <h4 id="candidate-name-text">Candidate: Aspirant (Class 11-12)</h4>
+              <p id="candidate-subject-text">Subject: Computer Science (226)</p>
             </div>
           </div>
 
@@ -1782,8 +1797,8 @@
   <div class="modal-overlay" id="pause-modal">
     <div class="modal-card pause-modal-card" style="max-width: 440px; text-align: center;">
       <div style="font-size: 44px; margin-bottom: 8px;">⏸</div>
-      <h3 class="modal-title" style="margin-bottom: 8px; font-size: 20px;">Examination Paused</h3>
-      <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 24px; line-height: 1.5;">
+      <h3 class="modal-title" id="pause-modal-title" style="margin-bottom: 8px; font-size: 20px;">Examination Paused</h3>
+      <p id="pause-modal-desc" style="color: var(--text-muted); font-size: 14px; margin-bottom: 24px; line-height: 1.5;">
         Your test countdown timer is frozen and answering is locked. Take a brief breath and click the button below to resume right where you left off.
       </p>
       <button class="btn btn-primary" id="resume-exam-modal-btn" style="width: 100%; justify-content: center; font-size: 15px; font-weight: 700; padding: 12px 20px;">

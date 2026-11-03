@@ -4,6 +4,13 @@
    ========================================================================== */
 
 :root {
+  /* Accessible Font Scaling System */
+  --font-scale: 1;
+  --font-size-base: calc(15px * var(--font-scale, 1));
+  --font-size-q: calc(17px * var(--font-scale, 1));
+  --font-size-opt: calc(15px * var(--font-scale, 1));
+  --font-size-exp: calc(14px * var(--font-scale, 1));
+
   /* Color Palette - Light Mode Default */
   --bg-primary: #f8fafc;
   --bg-surface: #ffffff;
@@ -71,6 +78,39 @@
   --header-height: 64px;
   --footer-height: 64px;
 }
+/* Responsive Accessible Font Scaling */
+html[data-font-size="small"] {
+  --font-scale: 0.90;
+  --font-size-base: 13.5px;
+  --font-size-q: 15px;
+  --font-size-opt: 13.5px;
+  --font-size-exp: 12.5px;
+}
+
+html[data-font-size="normal"] {
+  --font-scale: 1.00;
+  --font-size-base: 15px;
+  --font-size-q: 17px;
+  --font-size-opt: 15px;
+  --font-size-exp: 14px;
+}
+
+html[data-font-size="large"] {
+  --font-scale: 1.12;
+  --font-size-base: 16.8px;
+  --font-size-q: 19px;
+  --font-size-opt: 16.8px;
+  --font-size-exp: 15.5px;
+}
+
+html[data-font-size="xlarge"] {
+  --font-scale: 1.25;
+  --font-size-base: 18.7px;
+  --font-size-q: 21px;
+  --font-size-opt: 18.7px;
+  --font-size-exp: 17px;
+}
+
 
 [data-theme="dark"] {
   --bg-primary: #0b0f19;
