@@ -986,6 +986,61 @@ class App {
     });
   }
 
+  /* ================= HISTORY RENDERING ================= */
+  renderHistory() {
+    if (!this.historyTableBody) return;
+    const history = (window.ExamAnalytics && ExamAnalytics.getHistory) ? ExamAnalytics.getHistory() : [];
+    const i18n = window.BSTET_I18N;
+    const isHi = i18n && i18n.currentLang === 'hi';
+
+    if (!history || history.length === 0) {
+      this.historyTableBody.innerHTML = `
+        <tr>
+          <td colspan="6" style="text-align: center; color: var(--text-muted); padding: 24px;">
+            ${isHi ? 'कोई परीक्षा प्रयास दर्ज नहीं है। अपना विश्लेषण देखने के लिए ऊपर से एक मॉक टेस्ट शुरू करें!' : 'No test attempts recorded yet. Launch a mock test above to see your analytics!'}
+          </td>
+        </tr>
+      `;
+      return;
+    }
+
+    this.historyTableBody.innerHTML = '';
+    history.forEach((item, idx) => {
+      const tr = document.createElement('tr');
+      const paperTitle = i18n ? i18n.translatePaperTitle(item.paperTitle, item.paperId) : item.paperTitle;
+      const reviewLabel = isHi ? 'समाधान देखें' : 'Review Solutions';
+      const qualifiedLabel = isHi ? 'उत्तीर्ण' : 'Qualified';
+      const notQualifiedLabel = isHi ? 'अनुत्तीर्ण' : 'Not Qualified';
+      const statusBadge = item.isQualified 
+        ? `<span class="badge" style="background:#dcfce7; color:#15803d;">${qualifiedLabel}</span>`
+        : `<span class="badge" style="background:#fee2e2; color:#991b1b;">${notQualifiedLabel}</span>`;
+
+      tr.innerHTML = `
+        <td><strong>${paperTitle}</strong></td>
+        <td>${item.dateFormatted || item.date || ''}</td>
+        <td><strong>${item.score}/${item.totalMarks}</strong> (${item.pct}%)</td>
+        <td>${item.accuracy}%</td>
+        <td>${statusBadge}</td>
+        <td>
+          <button class="btn btn-outline btn-sm review-history-btn" data-index="${idx}" style="font-size:12px; padding:4px 8px;">
+            ${reviewLabel}
+          </button>
+        </td>
+      `;
+      this.historyTableBody.appendChild(tr);
+    });
+
+    // Wire review clicks
+    this.historyTableBody.querySelectorAll('.review-history-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const idx = parseInt(btn.dataset.index, 10);
+        if (history[idx]) {
+          this.showResultView(history[idx]);
+        }
+      });
+    });
+  }
+
   /* ================= MODE SELECTION MODAL ================= */
   openModeModal(paperMeta, preferredMode = 'cbt') {
     this.selectedPaperMeta = paperMeta;

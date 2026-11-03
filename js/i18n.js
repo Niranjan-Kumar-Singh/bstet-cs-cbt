@@ -333,91 +333,170 @@ window.BSTET_I18N = {
     return secName;
   },
 
-  translatePaperTitle: function(paper) {
-    if (!paper) return "";
-    if (this.currentLang !== 'hi') return paper.title;
-    
-    // Localized title mappings
-    const t = paper.title;
+  translatePaperTitle: function(titleOrPaper, paperId) {
+    if (!titleOrPaper) return "";
+    let title = "";
+    let id = paperId || "";
+    if (typeof titleOrPaper === "object") {
+      title = titleOrPaper.title || "";
+      id = titleOrPaper.id || id;
+    } else {
+      title = String(titleOrPaper);
+    }
+
+    if (this.currentLang !== 'hi') return title;
+
+    // Direct mapping by paper ID (fast, infallible)
+    const idMap = {
+      "official_shift1": "BSTET आधिकारिक 2025 - शिफ्ट 1 (उत्तर कुंजी सहित)",
+      "official_shift2": "BSTET आधिकारिक 2025 - शिफ्ट 2 (उत्तर कुंजी सहित)",
+      "official_shift3": "BSTET आधिकारिक 2025 - शिफ्ट 3 (उत्तर कुंजी सहित)",
+      "official_shift4": "BSTET आधिकारिक 2025 - शिफ्ट 4 (उत्तर कुंजी सहित)",
+      "official_2023": "BSTET आधिकारिक 2023 - री-एग्जाम पेपर (150 प्रश्न)",
+      "sachin_shift_set1": "BSTET शिक्षण कला 2023 - शिफ्ट 1 (सेट 01)",
+      "sachin_shift_set2": "BSTET शिक्षण कला 2023 - शिफ्ट 1 (सेट 02)",
+      "sachin_shift_set3": "BSTET शिक्षण कला 2023 - शिफ्ट 2 (सेट 03)",
+      "sachin_shift_set4": "BSTET शिक्षण कला 2023 - शिफ्ट 1 (सेट 04)",
+      "sachin_shift_set5": "BSTET शिक्षण कला 2023 - शिफ्ट 2 (सेट 05)",
+      "sachin_pedagogy_master": "सचिन सर 100Q शिक्षण कला मास्टर PYQ ड्रिल",
+      "sachin_curated_recent_50": "शिक्षण कला हालिया परीक्षा 50Q स्प्रिंट",
+      "drill_dbms_sql_50": "DBMS एवं SQL गहन अभ्यास ड्रिल (50 प्रश्न)",
+      "drill_os_networks_master_50": "OS एवं कंप्यूटर नेटवर्क्स गहन अभ्यास ड्रिल (50 प्रश्न)",
+      "drill_pedagogy_nep_50": "शिक्षण कला एवं NEP 2020 उच्च-प्राथमिकता ड्रिल (50 प्रश्न)",
+      "drill_cs_100": "कंप्यूटर साइंस 100Q विषयवार मास्टर ड्रिल",
+      "drill_pedagogy_50": "शिक्षण कला 50Q पेडागॉजी ड्रिल",
+      "drill_general_50": "सामान्य ज्ञान, पर्यावरण व रीजनिंग 50Q ड्रिल",
+      "drill_dsa_sql_50": "DSA, एल्गोरिदम व SQL स्पेशलिस्ट 50Q ड्रिल",
+      "drill_os_networks_50": "ऑपरेटिंग सिस्टम व नेटवर्किंग 50Q ड्रिल",
+      "drill_modern_tech_50": "वेब टेक, पायथन, IoT व AI 50Q ड्रिल"
+    };
+
+    if (id && idMap[id]) return idMap[id];
+
+    // Pattern matching by title
+    const t = title;
     if (t.includes("Official 2025 - Shift 1")) return "BSTET आधिकारिक 2025 - शिफ्ट 1 (उत्तर कुंजी सहित)";
     if (t.includes("Official 2025 - Shift 2")) return "BSTET आधिकारिक 2025 - शिफ्ट 2 (उत्तर कुंजी सहित)";
     if (t.includes("Official 2025 - Shift 3")) return "BSTET आधिकारिक 2025 - शिफ्ट 3 (उत्तर कुंजी सहित)";
     if (t.includes("Official 2025 - Shift 4")) return "BSTET आधिकारिक 2025 - शिफ्ट 4 (उत्तर कुंजी सहित)";
     if (t.includes("Official 2023")) return "BSTET आधिकारिक 2023 - री-एग्जाम पेपर";
-    if (t.includes("Shift Set 1")) return "BSTET शिक्षण कला PYQ - शिफ्ट सेट 1";
-    if (t.includes("Shift Set 2")) return "BSTET शिक्षण कला PYQ - शिफ्ट सेट 2";
-    if (t.includes("Shift Set 3")) return "BSTET शिक्षण कला PYQ - शिफ्ट सेट 3";
-    if (t.includes("Shift Set 4")) return "BSTET शिक्षण कला PYQ - शिफ्ट सेट 4";
-    if (t.includes("Shift Set 5")) return "BSTET शिक्षण कला PYQ - शिफ्ट सेट 5";
-    if (t.includes("100Q PYQ Master Drill")) return "BSTET शिक्षण कला 100Q मास्टर PYQ ड्रिल";
-    if (t.includes("Recent Exams 50Q Sprint")) return "BSTET शिक्षण कला हालिया परीक्षा 50Q स्प्रिंट";
-    if (t.includes("DBMS & SQL Deep Mastery Drill")) return "DBMS एवं SQL गहन अभ्यास ड्रिल (50 प्रश्न)";
-    if (t.includes("OS & Computer Networks Mastery Drill")) return "OS एवं कंप्यूटर नेटवर्क्स गहन अभ्यास ड्रिल (50 प्रश्न)";
-    if (t.includes("Art of Teaching & NEP 2020 High-Yield Drill")) return "शिक्षण कला एवं NEP 2020 उच्च-प्राथमिकता ड्रिल (50 प्रश्न)";
-    if (t.includes("100Q Subject Mastery Drill")) return "कंप्यूटर साइंस 100Q विषयवार मास्टर ड्रिल";
+    if (t.includes("Shift 1 (Set 01)")) return "BSTET शिक्षण कला 2023 - शिफ्ट 1 (सेट 01)";
+    if (t.includes("Shift 1 (Set 02)")) return "BSTET शिक्षण कला 2023 - शिफ्ट 1 (सेट 02)";
+    if (t.includes("Shift 2 (Set 03)")) return "BSTET शिक्षण कला 2023 - शिफ्ट 2 (सेट 03)";
+    if (t.includes("Shift 1 (Set 04)")) return "BSTET शिक्षण कला 2023 - शिफ्ट 1 (सेट 04)";
+    if (t.includes("Shift 2 (Set 05)")) return "BSTET शिक्षण कला 2023 - शिफ्ट 2 (सेट 05)";
+    if (t.includes("100Q") && (t.includes("Pedagogy") || t.includes("Teaching"))) return "सचिन सर 100Q शिक्षण कला मास्टर PYQ ड्रिल";
+    if (t.includes("Recent Exams") || t.includes("50Q Sprint")) return "शिक्षण कला हालिया परीक्षा 50Q स्प्रिंट";
+    if (t.includes("DBMS & SQL")) return "DBMS एवं SQL गहन अभ्यास ड्रिल (50 प्रश्न)";
+    if (t.includes("OS & Computer Networks") || t.includes("Networks Mastery")) return "OS एवं कंप्यूटर नेटवर्क्स गहन अभ्यास ड्रिल (50 प्रश्न)";
+    if (t.includes("Art of Teaching & NEP 2020")) return "शिक्षण कला एवं NEP 2020 उच्च-प्राथमिकता ड्रिल (50 प्रश्न)";
+    if (t.includes("100Q Subject Mastery")) return "कंप्यूटर साइंस 100Q विषयवार मास्टर ड्रिल";
     if (t.includes("50Q Pedagogy Drill")) return "शिक्षण कला 50Q पेडागॉजी ड्रिल";
-    if (t.includes("50Q General Skills & Reasoning Drill")) return "सामान्य ज्ञान, पर्यावरण व रीजनिंग 50Q ड्रिल";
-    if (t.includes("DSA, Algorithms & SQL Drill")) return "DSA, एल्गोरिदम व SQL स्पेशलिस्ट 50Q ड्रिल";
-    if (t.includes("Operating Systems & Networking 50Q Drill")) return "ऑपरेटिंग सिस्टम व नेटवर्किंग 50Q ड्रिल";
+    if (t.includes("50Q General Skills")) return "सामान्य ज्ञान, पर्यावरण व रीजनिंग 50Q ड्रिल";
+    if (t.includes("DSA, Algorithms")) return "DSA, एल्गोरिदम व SQL स्पेशलिस्ट 50Q ड्रिल";
+    if (t.includes("Operating Systems & Networking")) return "ऑपरेटिंग सिस्टम व नेटवर्किंग 50Q ड्रिल";
     if (t.includes("Web Development, Python")) return "वेब टेक, पायथन, IoT व AI 50Q ड्रिल";
 
-    const m = t.match(/Predicted Full Mock (\d+)/i) || t.match(/Predicted Mock Paper - Set (\d+)/i);
+    const m = t.match(/Predicted Full Mock (\d+)/i) || t.match(/Predicted Mock Paper - Set (\d+)/i) || t.match(/Predicted Mock (\d+)/i) || t.match(/Set (\d+)/i);
     if (m) {
-      return `2026 संभावित फुल मॉक टेस्ट ${m[1]}`;
+      return `2026 संभावित फुल मॉक टेस्ट (सेट ${m[1]})`;
     }
     return t;
   },
 
-  translatePaperSubtitle: function(paper) {
-    if (!paper) return "";
-    if (this.currentLang !== 'hi') return paper.subtitle;
-    const sub = paper.subtitle;
+  translatePaperSubtitle: function(subOrPaper, paperId) {
+    if (!subOrPaper) return "";
+    let sub = "";
+    let id = paperId || "";
+    if (typeof subOrPaper === "object") {
+      sub = subOrPaper.subtitle || "";
+      id = subOrPaper.id || id;
+    } else {
+      sub = String(subOrPaper);
+    }
+
+    if (this.currentLang !== 'hi') return sub;
+
+    // Direct mapping by ID
+    const subMap = {
+      "official_shift1": "परीक्षा तिथि: 03 नवंबर 2025 (शिफ्ट 1) | आधिकारिक प्रतिक्रिया एवं सत्यापित उत्तर कुंजी",
+      "official_shift2": "परीक्षा तिथि: 03 नवंबर 2025 (शिफ्ट 2) | आधिकारिक प्रतिक्रिया एवं सत्यापित उत्तर कुंजी",
+      "official_shift3": "परीक्षा तिथि: 04 नवंबर 2025 (शिफ्ट 2) | आधिकारिक प्रतिक्रिया एवं सत्यापित उत्तर कुंजी",
+      "official_shift4": "परीक्षा तिथि: 07 नवंबर 2025 (शिफ्ट 1) | आधिकारिक प्रतिक्रिया एवं सत्यापित उत्तर कुंजी",
+      "official_2023": "BSEB 2023 आधिकारिक परीक्षा | 150 द्विभाषी प्रश्न आधिकारिक उत्तर कुंजी सहित",
+      "sachin_shift_set1": "आधिकारिक 18 सितंबर 2023 शिफ्ट I पेडागॉजी पेपर (30 प्रश्न) • सचिन एकेडमी द्वारा सत्यापित",
+      "sachin_shift_set2": "आधिकारिक 15 सितंबर 2023 शिफ्ट I पेडागॉजी पेपर (30 प्रश्न) • सचिन एकेडमी द्वारा सत्यापित",
+      "sachin_shift_set3": "आधिकारिक 15 सितंबर 2023 शिफ्ट II पेडागॉजी पेपर (30 प्रश्न) • सचिन एकेडमी द्वारा सत्यापित",
+      "sachin_shift_set4": "आधिकारिक 14 सितंबर 2023 शिफ्ट I पेडागॉजी पेपर (30 प्रश्न) • सचिन एकेडमी द्वारा सत्यापित",
+      "sachin_shift_set5": "आधिकारिक 18 सितंबर 2023 शिफ्ट II पेडागॉजी पेपर (30 प्रश्न) • सचिन एकेडमी द्वारा सत्यापित",
+      "sachin_pedagogy_master": "सचिन सर (Sachin Academy) द्वारा चयनित बिहार STET 2020-2024 के शीर्ष 100 प्रश्न",
+      "sachin_recent_50q": "हालिया बिहार STET परीक्षा (कक्षा 11-12, कोड 226) से चयनित शिफ्ट प्रश्न",
+      "drill_dbms_sql_50": "नॉर्मलाइजेशन (1NF-BCNF), रिलेशनल बीजगणित, SQL क्वेरी, ACID एवं कॉनकरेंसी",
+      "drill_os_networks_master_50": "प्रोसेस सिंक, डेडलॉक्स, पेजिंग, OSI लेयर्स, TCP/IP, CIDR सबनेटिंग व सुरक्षा",
+      "drill_pedagogy_nep_50": "ब्लूम वर्गीकरण, रचनावाद, पियाजे, वायगोत्स्की, CCE एवं NEP 2020 रूपरेखा"
+    };
+
+    if (id && subMap[id]) return subMap[id];
+
     if (sub.includes("Held On: 03 Nov 2025 (Shift 1)")) return "परीक्षा तिथि: 03 नवंबर 2025 (शिफ्ट 1) | आधिकारिक प्रतिक्रिया एवं सत्यापित उत्तर कुंजी";
     if (sub.includes("Held On: 03 Nov 2025 (Shift 2)")) return "परीक्षा तिथि: 03 नवंबर 2025 (शिफ्ट 2) | आधिकारिक प्रतिक्रिया एवं सत्यापित उत्तर कुंजी";
     if (sub.includes("Held On: 04 Nov 2025")) return "परीक्षा तिथि: 04 नवंबर 2025 (शिफ्ट 2) | आधिकारिक प्रतिक्रिया एवं सत्यापित उत्तर कुंजी";
     if (sub.includes("Held On: 07 Nov 2025")) return "परीक्षा तिथि: 07 नवंबर 2025 (शिफ्ट 1) | आधिकारिक प्रतिक्रिया एवं सत्यापित उत्तर कुंजी";
-    if (sub.includes("Held On: 2023")) return "BSEB 2023 आधिकारिक परीक्षा | 150 द्विभाषी प्रश्न विस्तृत समाधान सहित";
-    if (sub.includes("Sachin Choudhary")) return "सचिन सर (Sachin Academy) द्वारा चयनित बिहार STET 2020-2024 के शीर्ष 100 प्रश्न";
+    if (sub.includes("Held On: 12 Sep 2023") || sub.includes("Held On: 2023")) return "BSEB 2023 आधिकारिक परीक्षा | 150 द्विभाषी प्रश्न विस्तृत समाधान सहित";
+    if (sub.includes("Sachin Choudhary") || sub.includes("Sachin Academy")) return "सचिन सर (Sachin Academy) द्वारा चयनित बिहार STET 2020-2024 के शीर्ष 100 प्रश्न";
     if (sub.includes("Recent Bihar STET Exams")) return "हालिया बिहार STET परीक्षा (कक्षा 11-12, कोड 226) से चयनित शिफ्ट प्रश्न";
     if (sub.includes("Normalization (1NF-BCNF)")) return "नॉर्मलाइजेशन (1NF-BCNF), रिलेशनल बीजगणित, SQL क्वेरी, ACID एवं कॉनकरेंसी";
     if (sub.includes("Process Sync, Deadlocks")) return "प्रोसेस सिंक, डेडलॉक्स, पेजिंग, OSI लेयर्स, TCP/IP, CIDR सबनेटिंग व सुरक्षा";
     if (sub.includes("Bloom's Taxonomy, Constructivism")) return "ब्लूम वर्गीकरण, रचनावाद, पियाजे, वायगोत्स्की, CCE एवं NEP 2020 रूपरेखा";
+
+    if (sub.includes("100 CS") || sub.includes("30 Art of Teaching") || sub.includes("Full Syllabus Simulation")) {
+      return "100 CS + 30 शिक्षण कला + 20 सामान्य कौशल | आधिकारिक TCS iON परीक्षा पैटर्न";
+    }
+
     return sub;
   },
 
   translateBadge: function(badge) {
     if (!badge) return "";
     if (this.currentLang !== 'hi') return badge;
-    if (badge === "Official Key") return "आधिकारिक कुंजी";
-    if (badge === "2026 Predicted") return "2026 संभावित";
-    if (badge === "Subject Drill") return "विषय ड्रिल";
-    if (badge === "Teaching Skill") return "शिक्षण कौशल";
-    if (badge === "General Aptitude") return "सामान्य योग्यता";
-    if (badge === "Core DSA & SQL") return "DSA एवं SQL";
-    if (badge === "Systems Core") return "सिस्टम्स कोर";
-    if (badge === "Modern Tech") return "आधुनिक तकनीक";
-    if (badge === "Sachin Academy PYQs") return "सचिन एकेडमी PYQ";
-    if (badge === "Recent Shift PYQ") return "हालिया शिफ्ट PYQ";
-    if (badge === "DBMS Specialist") return "DBMS स्पेशलिस्ट";
-    if (badge === "OS & Networks") return "OS एवं नेटवर्क्स";
-    if (badge === "Teaching & NEP") return "शिक्षण एवं NEP";
-    return badge;
+    const badgeMap = {
+      "Official Key": "आधिकारिक कुंजी",
+      "2026 Predicted": "2026 संभावित",
+      "Subject Drill": "विषय ड्रिल",
+      "Pedagogy Drill": "शिक्षण कला ड्रिल",
+      "General Skills": "सामान्य दक्षता",
+      "DSA & DBMS": "DSA एवं DBMS",
+      "OS & Networks": "OS एवं नेटवर्क्स",
+      "Modern Tech": "आधुनिक तकनीक",
+      "Sachin Academy PYQs": "सचिन एकेडमी PYQ",
+      "Recent Shift PYQ": "हालिया शिफ्ट PYQ",
+      "DBMS Specialist": "DBMS स्पेशलिस्ट",
+      "Teaching & NEP": "शिक्षण एवं NEP 2020"
+    };
+    return badgeMap[badge] || badge;
   },
 
   translateDifficulty: function(diff) {
     if (!diff) return "";
     if (this.currentLang !== 'hi') return diff;
-    if (diff === "Real Exam Standard") return "वास्तविक परीक्षा स्तर";
-    if (diff === "High Probability") return "उच्च संभावना प्रश्न";
-    if (diff === "Rank Booster") return "रैंक बूस्टर सेट";
-    if (diff === "Grand Simulation") return "ग्रैंड सिमुलेशन स्तर";
-    if (diff === "Focused Mastery") return "गहन विषयवार अभ्यास";
-    if (diff === "Pedagogy Mastery") return "शिक्षण कला विशेषज्ञता";
-    if (diff === "Emerging Tech") return "नवीनतम तकनीकी प्रश्न";
-    if (diff === "Core Database") return "डेटाबेस कोर";
-    if (diff === "Systems Mastery") return "सिस्टम्स मास्टरी";
-    if (diff === "High-Yield Pedagogy") return "उच्च-प्राथमिकता पेडागॉजी";
-    return diff;
+    const diffMap = {
+      "Real Exam Standard": "वास्तविक परीक्षा स्तर",
+      "Official Shift PYQ": "आधिकारिक शिफ्ट PYQ",
+      "High Probability": "उच्च संभावना प्रश्न",
+      "Bilingual & Rank Booster": "रैंक बूस्टर स्तर",
+      "Grand Simulation": "ग्रैंड सिमुलेशन स्तर",
+      "Focused Mastery": "गहन विषयवार अभ्यास",
+      "Pedagogy Focus": "शिक्षण कला फोकस",
+      "General Focus": "सामान्य कौशल फोकस",
+      "Core Mastery": "कोर विषय प्रवीणता",
+      "Core Systems": "सिस्टम्स कोर",
+      "Emerging Tech": "नवीनतम तकनीक",
+      "Pedagogy Mastery": "शिक्षण कला विशेषज्ञता",
+      "Core Database": "डेटाबेस कोर",
+      "Systems Mastery": "सिस्टम्स मास्टरी",
+      "High-Yield Pedagogy": "उच्च-प्राथमिकता पेडागॉजी"
+    };
+    return diffMap[diff] || diff;
   },
 
   setLang: function(lang) {
