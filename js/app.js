@@ -825,6 +825,17 @@ class App {
     document.documentElement.setAttribute('data-font-size', level);
     localStorage.setItem('BSTET_FONT_SIZE', level);
 
+    const scaleMap = { small: 0.90, normal: 1.00, large: 1.12, xlarge: 1.25 };
+    const scale = scaleMap[level] || 1;
+    document.documentElement.style.setProperty('--font-scale', scale);
+
+    if (this.lobbyView) {
+      this.lobbyView.style.zoom = scale;
+    }
+    if (this.resultView) {
+      this.resultView.style.zoom = scale;
+    }
+
     // Update active visual state on font zoom buttons
     const navButtons = [this.fontSmallerBtn, this.fontResetBtn, this.fontLargerBtn];
     const examButtons = [this.examFontSmallerBtn, this.examFontResetBtn, this.examFontLargerBtn];
@@ -1832,120 +1843,239 @@ class App {
     if (!this.legalModalBody) return;
     if (tabName === 'privacy') {
       this.legalModalBody.innerHTML = `
-        <h4 style="color:var(--text-primary); margin-bottom: 8px;">Privacy Policy</h4>
-        <p style="color:var(--text-muted); font-size: 12px; margin-bottom: 14px;">Last Updated: October 2026</p>
-        <p>Your privacy is of utmost importance to us at <strong>Bihar STET Paper II Computer Science CBT Portal</strong>, developed by <strong>Niranjan Kumar Singh</strong>. This Privacy Policy documents the types of information collected and how we use it.</p>
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom: 14px; flex-wrap:wrap; gap:8px;">
+          <h4 style="color:var(--text-primary); margin:0; font-size:18px; font-weight:800;">🔒 Candidate Privacy Policy</h4>
+          <span style="font-size:11.5px; font-weight:700; background:rgba(37,99,235,0.1); color:var(--primary); padding:3px 10px; border-radius:999px;">Zero Private Data Harvested</span>
+        </div>
+        <p style="color:var(--text-secondary); line-height:1.6; margin-bottom:16px;">
+          Your privacy is protected by design. This portal runs <strong>100% client-side</strong>: your scores, test selections, answer responses, and performance stats reside exclusively in your device's local storage and are never uploaded, sold, or shared.
+        </p>
         
-        <h5 style="margin-top: 14px; color:var(--text-primary);">1. Client-Side Data & Zero Private Data Collection</h5>
-        <p>This portal runs entirely client-side. Your test attempts, answers, and scorecards are stored locally in your browser using <code>localStorage</code>. We do not store or sell your test responses to any third parties.</p>
+        <div class="legal-section-card">
+          <strong style="color:var(--text-primary); font-size:13.5px; display:block; margin-bottom:4px;">1. Client-Side Local Storage (Zero Tracking)</strong>
+          <p style="font-size:12.5px; color:var(--text-secondary); margin:0; line-height:1.55;">
+            All exam attempt history, bookmarks, and scorecard metrics use standard browser <code>localStorage</code>. No registration or login credentials are required to use this portal.
+          </p>
+        </div>
 
-        <h5 style="margin-top: 14px; color:var(--text-primary);">2. Log Files</h5>
-        <p>Like standard web servers, our hosting provider (Vercel) logs visitors when they visit websites. These logs include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and number of clicks. These are not linked to any personally identifiable information.</p>
+        <div class="legal-section-card">
+          <strong style="color:var(--text-primary); font-size:13.5px; display:block; margin-bottom:4px;">2. Server Infrastructure & Edge Logs</strong>
+          <p style="font-size:12.5px; color:var(--text-secondary); margin:0; line-height:1.55;">
+            Hosting is powered by Vercel's global edge network. Standard non-identifiable web request logs (such as IP address, user-agent, and access timestamps) are collected automatically by edge servers solely for network caching, DDOS mitigation, and CDN uptime monitoring.
+          </p>
+        </div>
 
-        <h5 style="margin-top: 14px; color:var(--text-primary);">3. Google DoubleClick DART Cookies & Google AdSense</h5>
-        <p>Google is a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to our site and other sites on the internet. Visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener" style="color:var(--primary);">https://policies.google.com/technologies/ads</a>.</p>
+        <div class="legal-section-card">
+          <strong style="color:var(--text-primary); font-size:13.5px; display:block; margin-bottom:4px;">3. Cookies & Google AdSense</strong>
+          <p style="font-size:12.5px; color:var(--text-secondary); margin:0; line-height:1.55;">
+            Google uses DART cookies to serve non-intrusive advertisements that fund server bandwidth. Users may manage or opt out of personalized cookies at any time via <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener" style="color:var(--primary); font-weight:700;">Google Ad Policies</a>.
+          </p>
+        </div>
 
-        <h5 style="margin-top: 14px; color:var(--text-primary);">4. Contacting Developer</h5>
-        <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact <strong>Niranjan Kumar Singh</strong> at <a href="mailto:niranjansingh1419@gmail.com" style="color:var(--primary); font-weight:700;">niranjansingh1419@gmail.com</a>.</p>
+        <div style="margin-top:14px; font-size:12.5px; color:var(--text-muted);">
+          Questions or privacy audits? Email lead architect <strong>Niranjan Kumar Singh</strong> directly at <a href="mailto:niranjansingh1419@gmail.com" style="color:var(--primary); font-weight:700;">niranjansingh1419@gmail.com</a>.
+        </div>
       `;
     } else if (tabName === 'terms') {
       this.legalModalBody.innerHTML = `
-        <h4 style="color:var(--text-primary); margin-bottom: 8px;">Terms of Service</h4>
-        <p style="color:var(--text-muted); font-size: 12px; margin-bottom: 14px;">Effective Date: October 2026</p>
-        <p>Welcome to <strong>Bihar STET Paper II (Computer Science) CBT Mock Portal</strong>. By accessing this web application, you agree to comply with and be bound by the following terms.</p>
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom: 14px; flex-wrap:wrap; gap:8px;">
+          <h4 style="color:var(--text-primary); margin:0; font-size:18px; font-weight:800;">📜 Terms of Service</h4>
+          <span style="font-size:11.5px; font-weight:700; background:#dcfce7; color:#15803d; padding:3px 10px; border-radius:999px;">100% Free Public Resource</span>
+        </div>
+        <p style="color:var(--text-secondary); line-height:1.6; margin-bottom:16px;">
+          By accessing the <strong>Bihar STET Paper II (Computer Science) CBT Mock Portal</strong>, you agree to these fair-use terms. This platform was created independently by <strong>Niranjan Kumar Singh</strong> to help teachers prepare for competitive examinations.
+        </p>
         
-        <h5 style="margin-top: 14px; color:var(--text-primary);">1. Educational Purpose</h5>
-        <p>This platform is provided solely for educational preparation, self-assessment, and academic mock examination purposes. The simulated test papers, timers, and scoring models are designed to help candidates prepare for the Bihar STET examination under authentic CBT conditions.</p>
+        <div class="legal-section-card">
+          <strong style="color:var(--text-primary); font-size:13.5px; display:block; margin-bottom:4px;">1. Pure Educational Objective</strong>
+          <p style="font-size:12.5px; color:var(--text-secondary); margin:0; line-height:1.55;">
+            This web application is strictly for self-assessment and academic simulation. Question datasets, pedagogical breakdowns, and timers are structured to mirror authentic examination environments under fair-use educational principles.
+          </p>
+        </div>
 
-        <h5 style="margin-top: 14px; color:var(--text-primary);">2. Intellectual Property & Fair Use</h5>
-        <p>All software architectures, code engines, and simulated mock test frameworks are created and maintained by <strong>Niranjan Kumar Singh</strong>. Examination syllabus and official questions are referenced under fair educational use for candidate readiness.</p>
+        <div class="legal-section-card">
+          <strong style="color:var(--text-primary); font-size:13.5px; display:block; margin-bottom:4px;">2. Free Unrestricted Access</strong>
+          <p style="font-size:12.5px; color:var(--text-secondary); margin:0; line-height:1.55;">
+            All 35 full-length test papers and 3,650 questions are provided without any paywalls, premium tiers, or registration barriers. Commercial redistribution or selling access to this portal is strictly prohibited.
+          </p>
+        </div>
 
-        <h5 style="margin-top: 14px; color:var(--text-primary);">3. Free Access</h5>
-        <p>This test portal is provided 100% free of charge to all teaching aspirants.</p>
+        <div class="legal-section-card">
+          <strong style="color:var(--text-primary); font-size:13.5px; display:block; margin-bottom:4px;">3. Intellectual Property</strong>
+          <p style="font-size:12.5px; color:var(--text-secondary); margin:0; line-height:1.55;">
+            The CBT test engine, palette state algorithms, responsive UI, and custom analytics code are authored by <strong>Niranjan Kumar Singh</strong>. Official examination marks and syllabus topics are property of their respective governing boards.
+          </p>
+        </div>
       `;
     } else if (tabName === 'disclaimer') {
       this.legalModalBody.innerHTML = `
-        <h4 style="color:var(--text-primary); margin-bottom: 8px;">Disclaimer & Fair Use Notice</h4>
-        <p><strong>Independent Educational Initiative:</strong> This website is an independent educational portal designed and developed by <strong>Niranjan Kumar Singh</strong> to assist candidates preparing for the Bihar Secondary Teachers Eligibility Test (STET) Paper II in Computer Science (Subject Code: 226).</p>
-        <p style="margin-top: 10px;"><strong>No Government Affiliation:</strong> This platform is NOT affiliated with, sponsored by, or endorsed by the Bihar School Examination Board (BSEB), the Education Department of Bihar, or any government authority. Official examination notifications, forms, and results are published exclusively on the official BSEB website.</p>
-        <p style="margin-top: 10px;">While every effort is made to maintain high accuracy of official answer keys and syllabus coverage, users are encouraged to verify critical notices with official BSEB gazettes.</p>
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom: 14px; flex-wrap:wrap; gap:8px;">
+          <h4 style="color:var(--text-primary); margin:0; font-size:18px; font-weight:800;">⚖️ Disclaimer &amp; Fair Use Notice</h4>
+          <span style="font-size:11.5px; font-weight:700; background:#fef3c7; color:#b45309; padding:3px 10px; border-radius:999px;">Independent Educational Portal</span>
+        </div>
+        
+        <div class="legal-section-card" style="border-left: 4px solid #f59e0b;">
+          <strong style="color:var(--text-primary); font-size:13.5px; display:block; margin-bottom:4px;">🏛 No Government Affiliation</strong>
+          <p style="font-size:12.5px; color:var(--text-secondary); margin:0; line-height:1.55;">
+            This website is an independent initiative designed and maintained by <strong>Niranjan Kumar Singh</strong>. It is <strong>NOT</strong> affiliated with, endorsed by, or operated by the <strong>Bihar School Examination Board (BSEB)</strong>, the <strong>Bihar Public Service Commission (BPSC)</strong>, or the Department of Education, Bihar.
+          </p>
+        </div>
+
+        <div class="legal-section-card">
+          <strong style="color:var(--text-primary); font-size:13.5px; display:block; margin-bottom:4px;">🎯 Accuracy &amp; Official Gazettes</strong>
+          <p style="font-size:12.5px; color:var(--text-secondary); margin:0; line-height:1.55;">
+            While every effort has been taken to ensure 100% accuracy of answer keys and syllabus coverage, candidates must refer to official BSEB gazettes and notifications for official cutoff circulars, answer objection forms, and result disclosures.
+          </p>
+        </div>
       `;
     } else if (tabName === 'adsense') {
       this.legalModalBody.innerHTML = `
-        <h4 style="color:var(--text-primary); margin-bottom: 8px;">Advertising & Cookie Transparency</h4>
-        <p style="color:var(--text-muted); font-size: 12px; margin-bottom: 14px;">Compliance with Google Publisher Policies & Privacy Regulations</p>
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom: 14px; flex-wrap:wrap; gap:8px;">
+          <h4 style="color:var(--text-primary); margin:0; font-size:18px; font-weight:800;">🍪 Advertising &amp; Infrastructure Transparency</h4>
+          <span style="font-size:11.5px; font-weight:700; background:rgba(37,99,235,0.1); color:var(--primary); padding:3px 10px; border-radius:999px;">Google AdSense Certified</span>
+        </div>
+        
+        <p style="color:var(--text-secondary); line-height:1.6; margin-bottom:16px;">
+          This portal participates in the Google AdSense program solely to offset hosting, CDN bandwidth, and database caching costs so that all mock exams remain 100% free for students and teachers across Bihar.
+        </p>
 
-        <p>This educational website participates in the <strong>Google AdSense</strong> advertising program to cover server hosting, infrastructure costs, and continuous maintenance of all 23 full-length mock examinations for teaching aspirants.</p>
+        <div class="legal-section-card">
+          <strong style="color:var(--text-primary); font-size:13.5px; display:block; margin-bottom:4px;">1. Ad Suppression During Active Exams</strong>
+          <p style="font-size:12.5px; color:var(--text-secondary); margin:0; line-height:1.55;">
+            We strictly enforce a <strong>zero-distraction policy</strong>: while you are inside an active CBT test session, all advertisements are completely suppressed to guarantee exam focus and zero cognitive interruption.
+          </p>
+        </div>
 
-        <h5 style="margin-top: 14px; color:var(--text-primary);">1. How Google Serves Advertisements</h5>
-        <p>Third-party vendors, including Google, use cookies to serve ads based on a candidate's prior visits to this website or other websites across the Internet. Google's use of advertising cookies enables it and its partners to serve relevant advertisements to users.</p>
+        <div class="legal-section-card">
+          <strong style="color:var(--text-primary); font-size:13.5px; display:block; margin-bottom:4px;">2. Authorized Digital Sellers (ads.txt)</strong>
+          <p style="font-size:12.5px; color:var(--text-secondary); margin:0; line-height:1.55;">
+            In full compliance with Interactive Advertising Bureau (IAB) standards, our official ads file is publicly verifiable at <a href="/ads.txt" target="_blank" style="color:var(--primary); font-weight:700;">/ads.txt</a>.
+          </p>
+        </div>
 
-        <h5 style="margin-top: 14px; color:var(--text-primary);">2. Exam Focus & Non-Intrusive Experience</h5>
-        <p>Ads served on this platform are strictly monitored to ensure they remain educational, clean, and non-distracting. During active examination sessions, advertisements are suppressed to preserve the candidate's focus and authentic test simulation.</p>
-
-        <h5 style="margin-top: 14px; color:var(--text-primary);">3. How You Can Opt Out of Personalized Ads</h5>
-        <p>You may opt out of personalized advertising at any time by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener" style="color:var(--primary); font-weight:700;">Google Ads Settings</a>. You may also opt out of third-party vendor advertising cookies by visiting <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener" style="color:var(--primary); font-weight:700;">AboutAds.info</a>.</p>
-
-        <h5 style="margin-top: 14px; color:var(--text-primary);">4. Authorized Digital Sellers (ads.txt)</h5>
-        <p>In full compliance with Interactive Advertising Bureau (IAB) standards, this website maintains an official authorized digital sellers file accessible at <a href="/ads.txt" target="_blank" style="color:var(--primary); font-weight:700;">/ads.txt</a>.</p>
+        <div class="legal-section-card">
+          <strong style="color:var(--text-primary); font-size:13.5px; display:block; margin-bottom:4px;">3. Cookie Opt-Out Controls</strong>
+          <p style="font-size:12.5px; color:var(--text-secondary); margin:0; line-height:1.55;">
+            Candidates may opt out of personalized interest-based advertising anytime via <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener" style="color:var(--primary); font-weight:700;">Google Ads Settings</a> or <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener" style="color:var(--primary); font-weight:700;">AboutAds.info</a>.
+          </p>
+        </div>
       `;
     } else if (tabName === 'author') {
       this.legalModalBody.innerHTML = `
-        <div style="background: linear-gradient(135deg, rgba(30,58,138,0.12) 0%, rgba(14,165,233,0.08) 100%); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 20px; margin-bottom: 20px;">
-          <div style="display:flex; gap:20px; align-items:center; flex-wrap:wrap;">
-            <picture>
-              <source srcset="images/developer-profile.webp" type="image/webp">
-              <img src="images/developer-profile.png" alt="Niranjan Kumar Singh - Systems Architect" width="96" height="96" style="width:96px; height:96px; border-radius:16px; object-fit:cover; border:2.5px solid var(--primary); box-shadow:0 6px 20px rgba(37,99,235,0.25);">
-            </picture>
-            <div style="flex:1; min-width:240px;">
-              <div style="display:flex; align-items:center; gap:8px; margin-bottom:4px; flex-wrap:wrap;">
-                <h4 style="font-size:22px; font-weight:800; margin:0; color:var(--text-primary);">Niranjan Kumar Singh</h4>
-                <span style="display:inline-flex; align-items:center; gap:4px; font-size:11px; font-weight:700; background:#dcfce7; color:#15803d; padding:2px 8px; border-radius:999px;">
-                  <span style="width:6px; height:6px; border-radius:50%; background:#16a34a; display:inline-block;"></span> Active Architect
+        <div class="author-hero-card">
+          <div style="display:flex; gap:22px; align-items:center; flex-wrap:wrap;">
+            <div style="position:relative;">
+              <picture>
+                <source srcset="images/developer-profile.webp" type="image/webp">
+                <img src="images/developer-profile.png" alt="Niranjan Kumar Singh - Systems Architect" width="100" height="100" class="dev-avatar-glow">
+              </picture>
+              <span style="position:absolute; bottom:-6px; right:-6px; background:#10b981; color:#fff; font-size:10px; font-weight:800; padding:3px 8px; border-radius:999px; box-shadow:0 2px 6px rgba(0,0,0,0.3); display:inline-flex; align-items:center; gap:4px; border:2px solid var(--bg-surface);">
+                ✓ Verified
+              </span>
+            </div>
+            <div style="flex:1; min-width:260px;">
+              <div style="display:flex; align-items:center; gap:10px; margin-bottom:6px; flex-wrap:wrap;">
+                <h4 style="font-size:24px; font-weight:800; margin:0; color:var(--text-primary); letter-spacing:-0.3px;">Niranjan Kumar Singh</h4>
+                <span style="display:inline-flex; align-items:center; gap:6px; font-size:11.5px; font-weight:700; background:rgba(34, 197, 94, 0.12); color:#15803d; border:1px solid rgba(34, 197, 94, 0.3); padding:3px 10px; border-radius:999px;">
+                  <span class="pulse-dot"></span> Active Architect
                 </span>
               </div>
-              <p style="font-size:13.5px; color:var(--primary); font-weight:700; margin:0 0 8px 0;">Platform Architect &amp; EdTech CBT Systems Developer</p>
-              <p style="font-size:12.5px; color:var(--text-muted); margin:0;">Patna, Bihar, India • Dedicated to Free, High-Caliber Teaching Exam Preparation</p>
+              <p style="font-size:14px; color:var(--primary); font-weight:700; margin:0 0 6px 0; display:flex; align-items:center; gap:6px;">
+                <span>💻 Lead Software Engineer &amp; CBT Systems Architect</span>
+              </p>
+              <p style="font-size:12.5px; color:var(--text-muted); margin:0; line-height:1.5;">
+                📍 Patna, Bihar, India • Dedicated to Free, High-Caliber Teaching Exam Preparation
+              </p>
             </div>
           </div>
         </div>
 
-        <h5 style="font-size:15px; font-weight:700; color:var(--text-primary); margin:0 0 8px 0;">🎯 The Philosophy Behind This Platform</h5>
-        <p style="margin:0 0 14px 0; color:var(--text-secondary); line-height:1.6;">
-          Most competitive mock portals in India are locked behind costly subscriptions, forced registrations, or intrusive popups that distract aspirants from serious study. This portal was engineered with a single goal: to give every candidate preparing for <strong>Bihar STET Paper II (Computer Science Code 226)</strong> and <strong>BPSC TRE Higher Secondary</strong> completely free access to a world-class, zero-latency CBT simulation.
-        </p>
-
-        <h5 style="font-size:15px; font-weight:700; color:var(--text-primary); margin:16px 0 8px 0;">⚡ Engineering Pillars & System Design</h5>
-        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:12px; margin-bottom:16px;">
-          <div style="background:var(--bg-card); border:1px solid var(--border-subtle); border-radius:8px; padding:12px;">
-            <strong style="color:var(--text-primary); font-size:13px; display:block; margin-bottom:4px;">⏱ TCS iON Parity</strong>
-            <span style="font-size:12px; color:var(--text-muted); line-height:1.5; display:block;">Authentic palette state machine, strict countdown timer, keyboard shortcuts (1-4, N, P, M, L), and section switching.</span>
+        <div style="margin-bottom:20px;">
+          <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+            <span style="font-size:18px;">🎯</span>
+            <h5 style="font-size:16px; font-weight:800; color:var(--text-primary); margin:0;">The Developer's Story &amp; Vision</h5>
           </div>
-          <div style="background:var(--bg-card); border:1px solid var(--border-subtle); border-radius:8px; padding:12px;">
-            <strong style="color:var(--text-primary); font-size:13px; display:block; margin-bottom:4px;">🌐 Zero-Gap Bilingual Engine</strong>
-            <span style="font-size:12px; color:var(--text-muted); line-height:1.5; display:block;">Instant client-side toggle between English, Hindi, or Dual mode with 100% conceptual explanations in both languages.</span>
-          </div>
-          <div style="background:var(--bg-card); border:1px solid var(--border-subtle); border-radius:8px; padding:12px;">
-            <strong style="color:var(--text-primary); font-size:13px; display:block; margin-bottom:4px;">🔒 Privacy & Zero Telemetry</strong>
-            <span style="font-size:12px; color:var(--text-muted); line-height:1.5; display:block;">Zero backend database storing candidate responses. Your test scores and answers stay strictly inside your device's browser.</span>
-          </div>
-          <div style="background:var(--bg-card); border:1px solid var(--border-subtle); border-radius:8px; padding:12px;">
-            <strong style="color:var(--text-primary); font-size:13px; display:block; margin-bottom:4px;">📚 35 Papers • 3,650 Questions</strong>
-            <span style="font-size:12px; color:var(--text-muted); line-height:1.5; display:block;">Comprehensive coverage of Computer Science (100Q), Sachin Academy Art of Teaching (30Q), and General Skills (20Q).</span>
+          <div class="quote-box">
+            "Growing up in Bihar, I have seen first-hand how hardworking our teachers and students are. Yet, when preparing for competitive exams like <strong>Bihar STET Paper II</strong> and <strong>BPSC TRE</strong>, candidates are forced to pay hefty subscriptions for substandard test series with incorrect answer keys and lagging servers. I engineered this portal completely from scratch with a single promise: <strong>100% free forever, authentic TCS iON CBT parity, zero tracking, and zero latency</strong>. Every teacher in Bihar deserves access to the finest preparation tools without barriers."
           </div>
         </div>
 
-        <h5 style="font-size:15px; font-weight:700; color:var(--text-primary); margin:16px 0 8px 0;">📫 Direct Developer Verification & Connect</h5>
-        <p style="margin:0 0 12px 0; color:var(--text-secondary); font-size:13px;">
-          For feedback, corrections in answer keys, or technical suggestions, feel free to reach out directly:
-        </p>
-        <div style="display:flex; gap:12px; flex-wrap:wrap;">
-          <a href="mailto:niranjansingh1419@gmail.com" class="btn btn-primary" style="padding:8px 16px; font-size:13px; text-decoration:none;">
-            ✉ Email: niranjansingh1419@gmail.com
-          </a>
-          <a href="https://www.instagram.com/niranjan.ks.in" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="padding:8px 16px; font-size:13px; text-decoration:none;">
-            📷 Instagram: @niranjan.ks.in
-          </a>
+        <div style="margin-bottom:22px;">
+          <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+            <span style="font-size:18px;">⚡</span>
+            <h5 style="font-size:16px; font-weight:800; color:var(--text-primary); margin:0;">Engineering Highlights &amp; System Capabilities</h5>
+          </div>
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(230px, 1fr)); gap:12px;">
+            <div class="dev-stat-card">
+              <div style="display:flex; align-items:center; gap:8px; margin-bottom:6px;">
+                <span style="font-size:16px;">⏱</span>
+                <strong style="color:var(--text-primary); font-size:13.5px;">TCS iON CBT Parity</strong>
+              </div>
+              <span style="font-size:12px; color:var(--text-secondary); line-height:1.55; display:block;">
+                Pixel-perfect replica of the official exam screen: question palette state machine, strict countdown timer, keyboard shortcuts (1-4, N, P, M, L), and section switching.
+              </span>
+            </div>
+            <div class="dev-stat-card">
+              <div style="display:flex; align-items:center; gap:8px; margin-bottom:6px;">
+                <span style="font-size:16px;">🌐</span>
+                <strong style="color:var(--text-primary); font-size:13.5px;">Neural Bilingual Engine</strong>
+              </div>
+              <span style="font-size:12px; color:var(--text-secondary); line-height:1.55; display:block;">
+                Instant zero-lag toggle between English, Hindi, and Dual mode with 100% conceptual explanations in both languages across all 3,650 questions.
+              </span>
+            </div>
+            <div class="dev-stat-card">
+              <div style="display:flex; align-items:center; gap:8px; margin-bottom:6px;">
+                <span style="font-size:16px;">🔒</span>
+                <strong style="color:var(--text-primary); font-size:13.5px;">Privacy First • Zero Telemetry</strong>
+              </div>
+              <span style="font-size:12px; color:var(--text-secondary); line-height:1.55; display:block;">
+                No login forms, no personal data harvesting, and no backend response tracking. Your scores and attempts reside 100% privately on your local browser.
+              </span>
+            </div>
+            <div class="dev-stat-card">
+              <div style="display:flex; align-items:center; gap:8px; margin-bottom:6px;">
+                <span style="font-size:16px;">📚</span>
+                <strong style="color:var(--text-primary); font-size:13.5px;">Exhaustive Syllabus Coverage</strong>
+              </div>
+              <span style="font-size:12px; color:var(--text-secondary); line-height:1.55; display:block;">
+                35 Full-Length Mock Papers (3,650 questions) covering Computer Science (100Q), Sachin Academy Art of Teaching (30Q), and General Skills (20Q).
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-bottom:22px;">
+          <div style="display:flex; align-items:center; gap:8px; margin-bottom:10px;">
+            <span style="font-size:18px;">🛠</span>
+            <h5 style="font-size:15px; font-weight:700; color:var(--text-primary); margin:0;">Built With Modern Web Standards (Zero Bloat)</h5>
+          </div>
+          <div style="display:flex; flex-wrap:wrap; gap:8px;">
+            <span style="font-size:12px; font-weight:600; background:var(--bg-subtle); color:var(--text-secondary); border:1px solid var(--border-subtle); padding:4px 10px; border-radius:6px;">Pure Vanilla JavaScript (ES2022)</span>
+            <span style="font-size:12px; font-weight:600; background:var(--bg-subtle); color:var(--text-secondary); border:1px solid var(--border-subtle); padding:4px 10px; border-radius:6px;">CSS3 Variables &amp; Responsive Grid</span>
+            <span style="font-size:12px; font-weight:600; background:var(--bg-subtle); color:var(--text-secondary); border:1px solid var(--border-subtle); padding:4px 10px; border-radius:6px;">LocalStorage Persistence Engine</span>
+            <span style="font-size:12px; font-weight:600; background:var(--bg-subtle); color:var(--text-secondary); border:1px solid var(--border-subtle); padding:4px 10px; border-radius:6px;">WCAG 2.1 Accessible Font Scaling</span>
+            <span style="font-size:12px; font-weight:600; background:var(--bg-subtle); color:var(--text-secondary); border:1px solid var(--border-subtle); padding:4px 10px; border-radius:6px;">0 External NPM Dependencies</span>
+            <span style="font-size:12px; font-weight:600; background:var(--bg-subtle); color:var(--text-secondary); border:1px solid var(--border-subtle); padding:4px 10px; border-radius:6px;">Edge CDN Deployed</span>
+          </div>
+        </div>
+
+        <div>
+          <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+            <span style="font-size:18px;">📫</span>
+            <h5 style="font-size:15px; font-weight:700; color:var(--text-primary); margin:0;">Direct Contact &amp; Candidate Support</h5>
+          </div>
+          <p style="margin:0 0 12px 0; color:var(--text-secondary); font-size:13px; line-height:1.5;">
+            Have feedback on a question, found an error in an answer key, or have suggestions for new mock tests? Reach out to me directly:
+          </p>
+          <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+            <a href="mailto:niranjansingh1419@gmail.com" class="btn btn-primary" style="padding:9px 18px; font-size:13px; text-decoration:none; display:inline-flex; align-items:center; gap:8px; border-radius:8px;">
+              <span>✉</span> niranjansingh1419@gmail.com
+            </a>
+            <a href="https://www.instagram.com/niranjan.ks.in" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="padding:9px 18px; font-size:13px; text-decoration:none; display:inline-flex; align-items:center; gap:8px; border-radius:8px; background:linear-gradient(135deg, rgba(225,48,108,0.12), rgba(131,58,180,0.12)); border-color:rgba(225,48,108,0.3); color:var(--text-primary);">
+              <span>📷</span> Instagram: @niranjan.ks.in
+            </a>
+          </div>
         </div>
       `;
     }
