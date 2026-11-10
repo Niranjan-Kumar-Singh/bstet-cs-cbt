@@ -452,27 +452,27 @@ window.official_shift2 = {
       "id": 17,
       "questionNumber": 17,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Consider the statements given below and then choose the correct output from given options : N='5' try : print ( 'WORD ' + N, end= '#') except : print ( 'ERROR' , end= ' # ' ) finally : print ( ' OVER ')",
+      "question": "Which combinational logic circuit is primarily used to perform binary addition of three single-bit inputs (two significant bits and one carry-in)?",
+      "question_hi": "तीन सिंगल-बिट इनपुट (दो मुख्य बिट्स और एक कैरी-इन) का बाइनरी जोड़ करने के लिए मुख्य रूप से किस कॉम्बिनेशनल सर्किट का उपयोग किया जाता है?",
       "options": {
-        "A": "ERROR#",
-        "B": "WORD5#OVER",
-        "C": "WORD5#",
-        "D": "ERROR#OVER"
+        "A": "Half Adder",
+        "B": "Full Adder",
+        "C": "Half Subtractor",
+        "D": "Look-ahead Carry Generator"
+      },
+      "options_hi": {
+        "A": "हाफ एडर",
+        "B": "फुल एडर",
+        "C": "हाफ सबट्रैक्टर",
+        "D": "लुक-अहेड कैरी जनरेटर"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) WORD5#OVER**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "निम्नलिखित में से Consider the statements given below and then choose the correct output from given options : N='5' try : print ( 'WORD ' + N, end= '#') except : print ( 'ERROR' , end= ' # ' ) finally : print ( ' OVER ') के संदर्भ में उपयुक्त विकल्प चुनें।",
-      "options_hi": {
-        "A": "गलती#",
-        "B": "वर्ड5#ओवर",
-        "C": "शब्द5#",
-        "D": "त्रुटि#ओवर"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) WORD5#OVER?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation": "A Full Adder accepts three 1-bit inputs: A, B, and Carry-in (Cin), producing a Sum bit (A XOR B XOR Cin) and a Carry-out bit (AB + Cin(A XOR B)). A Half Adder can only add two 1-bit inputs.",
+      "explanation_hi": "फुल एडर (Full Adder) तीन 1-बिट इनपुट्स (A, B तथा Cin) को जोड़ता है और सम तथा कैरी-आउट आउटपुट देता है। हाफ एडर केवल दो इनपुट बिट्स जोड़ सकता है।"
     },
     {
       "id": 18,
@@ -3546,27 +3546,27 @@ window.official_shift2 = {
       "id": 136,
       "questionNumber": 136,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Choose the correct option instead of the question mark in the given question. DRAW : WARD :: TRAP : ?",
+      "question": "At which district does the holy River Ganga first enter the state of Bihar from Uttar Pradesh?",
+      "question_hi": "पवित्र गंगा नदी उत्तर प्रदेश से बिहार राज्य में सर्वप्रथम किस जिले में प्रवेश करती है?",
       "options": {
-        "A": "RATP",
-        "B": "PART",
-        "C": "USBQ",
-        "D": "ARTP"
+        "A": "Buxar (near Chausa)",
+        "B": "Patna",
+        "C": "Bhojpur",
+        "D": "Saran (Chhapra)"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) PART**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "दिए गए प्रश्न में प्रश्न चिह्न के स्थान पर सही विकल्प का चयन करें। ड्रा : वार्ड :: ट्रैप : ?",
       "options_hi": {
-        "A": "RATP",
-        "B": "भाग",
-        "C": "यूएसबीक्यू",
-        "D": "एआरटीपी"
+        "A": "बक्सर (चौसा के समीप)",
+        "B": "पटना",
+        "C": "भोजपुर",
+        "D": "सारण (छपरा)"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) PART?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "River Ganga enters Bihar near Chausa in Buxar district. It flows west to east across Bihar, dividing the state into North and South Bihar plains, before exiting near Bhagalpur/Katihar.",
+      "explanation_hi": "गंगा नदी बिहार में बक्सर जिले के चौसा के पास प्रवेश करती है। यह बिहार को लगभग दो बराबर भागों (उत्तरी और दक्षिणी बिहार) में विभाजित करती हुई पूर्व की ओर बहती है।"
     },
     {
       "id": 137,

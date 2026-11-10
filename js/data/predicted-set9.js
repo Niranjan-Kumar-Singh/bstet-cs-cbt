@@ -164,131 +164,131 @@ window.predicted_set9 = {
       "id": 6,
       "questionNumber": 6,
       "section": "Computer Science",
-      "topic": "Operating Systems",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In SCAN (Elevator) disk scheduling with current head at cylinder 50 moving towards lower cylinders (down), how are cylinder requests serviced?",
-      "question_hi": "सिलिंडर 50 पर स्थित और towards lower cylinders (down) बढ़ रहे डिस्क हेड के साथ SCAN शेड्यूलिंग में अनुरोधों को कैसे सेवित किया जाता है?",
+      "question": "What is the primary drawback of the Daisy Chaining method of bus arbitration?",
+      "question_hi": "बस मध्यस्थता (Bus Arbitration) की डेज़ी चेनिंग विधि की प्राथमिक कमी क्या है?",
       "options": {
-        "A": "Head continues moving towards lower cylinders (down) servicing all requests until reaching the disk boundary, then reverses direction",
-        "B": "Services closest request first regardless of direction",
-        "C": "Services strictly in order of arrival",
-        "D": "Jumps directly to track zero"
+        "A": "Devices located physically farther along the daisy chain grant line may suffer from starvation",
+        "B": "It requires separate grant lines for each device",
+        "C": "It cannot operate with synchronous buses",
+        "D": "It consumes more silicon area than independent request arbitration"
       },
       "options_hi": {
-        "A": "हेड towards lower cylinders (down) दिशा में डिस्क के छोर तक सभी अनुरोधों को पूरा करता है, फिर दिशा उलटता है",
-        "B": "दिशा की परवाह किए बिना निकटतम अनुरोध पहले करता है",
-        "C": "आगमन क्रम में करता है",
-        "D": "सीधे शून्य पर कूदता है"
+        "A": "डेज़ी चेन ग्रांट लाइन पर भौतिक रूप से दूर स्थित उपकरण भुखमरी (Starvation) का शिकार हो सकते हैं",
+        "B": "इसे प्रत्येक उपकरण के लिए अलग-अलग ग्रांट लाइनों की आवश्यकता होती है",
+        "C": "यह सिंक्रोनस बसों के साथ काम नहीं कर सकता",
+        "D": "यह स्वतंत्र अनुरोध मध्यस्थता की तुलना में अधिक सिलिकॉन क्षेत्र की खपत करता है"
       },
       "correctAnswer": "A",
-      "explanation": "SCAN moves unidirectionally across the disk platter servicing pending cylinders until boundary reversal.",
-      "explanation_hi": "SCAN लिफ्ट की तरह एक दिशा में छोर तक जाता है और रास्ते के सभी अनुरोध पूरे करता है।"
+      "explanation": "Daisy chaining passes the bus grant signal serially through connected devices. The device nearest the arbiter has the highest priority and can intercept the grant, potentially starving devices further down the chain.",
+      "explanation_hi": "डेज़ी चेनिंग में बस ग्रांट सिग्नल क्रमिक रूप से उपकरणों से होकर गुजरता है। नियंत्रक के सबसे निकट स्थित डिवाइस की प्राथमिकता सबसे अधिक होती है, जिससे दूर स्थित डिवाइस बस पाने से वंचित (Starvation) रह सकते हैं।"
     },
     {
       "id": 7,
       "questionNumber": 7,
       "section": "Computer Science",
-      "topic": "Operating Systems",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In SCAN (Elevator) disk scheduling with current head at cylinder 100 moving towards higher cylinders (up), how are cylinder requests serviced?",
-      "question_hi": "सिलिंडर 100 पर स्थित और towards higher cylinders (up) बढ़ रहे डिस्क हेड के साथ SCAN शेड्यूलिंग में अनुरोधों को कैसे सेवित किया जाता है?",
+      "question": "What CPU state is automatically pushed onto the control stack when an interrupt occurs, before jumping to the Interrupt Service Routine (ISR)?",
+      "question_hi": "जब कोई इंटरप्ट आता है, तो इंटरप्ट सर्विस रूटीन (ISR) पर जाने से पहले कौन सी CPU स्थिति स्वचालित रूप से कंट्रोल स्टैक पर पुश की जाती है?",
       "options": {
-        "A": "Head continues moving towards higher cylinders (up) servicing all requests until reaching the disk boundary, then reverses direction",
-        "B": "Services closest request first regardless of direction",
-        "C": "Services strictly in order of arrival",
-        "D": "Jumps directly to track zero"
+        "A": "Program Counter (PC) and Processor Status Register (Flags)",
+        "B": "Instruction Register and Cache Directory",
+        "C": "Memory Address Register and Stack Pointer",
+        "D": "TLB page entries"
       },
       "options_hi": {
-        "A": "हेड towards higher cylinders (up) दिशा में डिस्क के छोर तक सभी अनुरोधों को पूरा करता है, फिर दिशा उलटता है",
-        "B": "दिशा की परवाह किए बिना निकटतम अनुरोध पहले करता है",
-        "C": "आगमन क्रम में करता है",
-        "D": "सीधे शून्य पर कूदता है"
+        "A": "प्रोग्राम काउंटर (PC) और प्रोसेसर स्टेटस रजिस्टर (Flags)",
+        "B": "निर्देश रजिस्टर और कैश निर्देशिका",
+        "C": "मेमोरी एड्रेस रजिस्टर और स्टैक पॉइंटर",
+        "D": "TLB पेज प्रविष्टियां"
       },
       "correctAnswer": "A",
-      "explanation": "SCAN moves unidirectionally across the disk platter servicing pending cylinders until boundary reversal.",
-      "explanation_hi": "SCAN लिफ्ट की तरह एक दिशा में छोर तक जाता है और रास्ते के सभी अनुरोध पूरे करता है।"
+      "explanation": "When servicing an interrupt, hardware saves the Program Counter (return address) and Status Register (flags) onto the system stack, allowing the interrupted task to resume seamlessly via the IRET (Interrupt Return) instruction.",
+      "explanation_hi": "इंटरप्ट आने पर हार्डवेयर प्रोग्राम काउंटर (लौटने का पता) और प्रोसेसर स्टेटस वर्ड/फ्लैग्स को सिस्टम स्टैक पर सुरक्षित रख देता है ताकि ISR पूरा होने के बाद IRET निर्देश द्वारा प्रोग्राम वहीं से शुरू हो सके।"
     },
     {
       "id": 8,
       "questionNumber": 8,
       "section": "Computer Science",
-      "topic": "Operating Systems",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In SCAN (Elevator) disk scheduling with current head at cylinder 100 moving towards lower cylinders (down), how are cylinder requests serviced?",
-      "question_hi": "सिलिंडर 100 पर स्थित और towards lower cylinders (down) बढ़ रहे डिस्क हेड के साथ SCAN शेड्यूलिंग में अनुरोधों को कैसे सेवित किया जाता है?",
+      "question": "What is the function of the Memory Data Register (MDR), also known as the Memory Buffer Register (MBR)?",
+      "question_hi": "मेमोरी डेटा रजिस्टर (MDR), जिसे मेमोरी बफर रजिस्टर (MBR) भी कहा जाता है, का क्या कार्य है?",
       "options": {
-        "A": "Head continues moving towards lower cylinders (down) servicing all requests until reaching the disk boundary, then reverses direction",
-        "B": "Services closest request first regardless of direction",
-        "C": "Services strictly in order of arrival",
-        "D": "Jumps directly to track zero"
+        "A": "It holds data read from or written to memory via the data bus",
+        "B": "It holds the memory address of the next instruction",
+        "C": "It performs arithmetic shift operations",
+        "D": "It decodes machine opcodes"
       },
       "options_hi": {
-        "A": "हेड towards lower cylinders (down) दिशा में डिस्क के छोर तक सभी अनुरोधों को पूरा करता है, फिर दिशा उलटता है",
-        "B": "दिशा की परवाह किए बिना निकटतम अनुरोध पहले करता है",
-        "C": "आगमन क्रम में करता है",
-        "D": "सीधे शून्य पर कूदता है"
+        "A": "यह डेटा बस के माध्यम से मेमोरी से पढ़े गए या मेमोरी में लिखे जाने वाले डेटा को रखता है",
+        "B": "यह अगले निर्देश का मेमोरी पता रखता है",
+        "C": "यह अंकगणितीय शिफ्ट ऑपरेशन करता है",
+        "D": "यह मशीन ऑपकोड को डिकोड करता है"
       },
       "correctAnswer": "A",
-      "explanation": "SCAN moves unidirectionally across the disk platter servicing pending cylinders until boundary reversal.",
-      "explanation_hi": "SCAN लिफ्ट की तरह एक दिशा में छोर तक जाता है और रास्ते के सभी अनुरोध पूरे करता है।"
+      "explanation": "The MDR/MBR acts as a two-way interface between CPU registers and the data bus, temporarily holding data fetched from memory during a read, or data to be stored into memory during a write.",
+      "explanation_hi": "MDR (मेमोरी डेटा रजिस्टर) डेटा बस से जुड़ा होता है। यह मेमोरी से पढ़े जाने वाले डेटा को या मेमोरी में लिखे जाने वाले डेटा को अस्थायी रूप से होल्ड करता है।"
     },
     {
       "id": 9,
       "questionNumber": 9,
       "section": "Computer Science",
-      "topic": "Operating Systems",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In SCAN (Elevator) disk scheduling with current head at cylinder 150 moving towards higher cylinders (up), how are cylinder requests serviced?",
-      "question_hi": "सिलिंडर 150 पर स्थित और towards higher cylinders (up) बढ़ रहे डिस्क हेड के साथ SCAN शेड्यूलिंग में अनुरोधों को कैसे सेवित किया जाता है?",
+      "question": "What is the correct sequential order of phases in a standard instruction execution cycle?",
+      "question_hi": "एक मानक निर्देश निष्पादन चक्र (Instruction cycle) में चरणों का सही अनुक्रमिक क्रम क्या है?",
       "options": {
-        "A": "Head continues moving towards higher cylinders (up) servicing all requests until reaching the disk boundary, then reverses direction",
-        "B": "Services closest request first regardless of direction",
-        "C": "Services strictly in order of arrival",
-        "D": "Jumps directly to track zero"
+        "A": "Instruction Fetch -> Instruction Decode -> Operand Fetch -> Execute -> Store Result",
+        "B": "Execute -> Decode -> Fetch -> Store -> Interrupt",
+        "C": "Decode -> Fetch -> Execute -> Store -> Writeback",
+        "D": "Operand Fetch -> Instruction Fetch -> Execute -> Decode"
       },
       "options_hi": {
-        "A": "हेड towards higher cylinders (up) दिशा में डिस्क के छोर तक सभी अनुरोधों को पूरा करता है, फिर दिशा उलटता है",
-        "B": "दिशा की परवाह किए बिना निकटतम अनुरोध पहले करता है",
-        "C": "आगमन क्रम में करता है",
-        "D": "सीधे शून्य पर कूदता है"
+        "A": "निर्देश फेच (Fetch) -> निर्देश डिकोड (Decode) -> ऑपरेंड फेच -> निष्पादन (Execute) -> परिणाम स्टोर (Store)",
+        "B": "निष्पादन -> डिकोड -> फेच -> स्टोर -> इंटरप्ट",
+        "C": "डिकोड -> फेच -> निष्पादन -> स्टोर -> राइटबैक",
+        "D": "ऑपरेंड फेच -> निर्देश फेच -> निष्पादन -> डिकोड"
       },
       "correctAnswer": "A",
-      "explanation": "SCAN moves unidirectionally across the disk platter servicing pending cylinders until boundary reversal.",
-      "explanation_hi": "SCAN लिफ्ट की तरह एक दिशा में छोर तक जाता है और रास्ते के सभी अनुरोध पूरे करता है।"
+      "explanation": "The CPU instruction cycle strictly follows: 1) Fetch instruction from memory via PC, 2) Decode opcode in IR, 3) Fetch required operands from registers or memory, 4) Execute operation in ALU, 5) Store/Write-back result.",
+      "explanation_hi": "निर्देश निष्पादन का सही क्रम है: 1. Fetch (निर्देश लाना), 2. Decode (निर्देश समझना), 3. Operand Fetch (डेटा लाना), 4. Execute (ALU में चलाना), 5. Store/Writeback (परिणाम सुरक्षित करना)।"
     },
     {
       "id": 10,
       "questionNumber": 10,
       "section": "Computer Science",
-      "topic": "Operating Systems",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In SCAN (Elevator) disk scheduling with current head at cylinder 150 moving towards lower cylinders (down), how are cylinder requests serviced?",
-      "question_hi": "सिलिंडर 150 पर स्थित और towards lower cylinders (down) बढ़ रहे डिस्क हेड के साथ SCAN शेड्यूलिंग में अनुरोधों को कैसे सेवित किया जाता है?",
+      "question": "How does low-order memory interleaving improve memory access performance?",
+      "question_hi": "लो-ऑर्डर मेमोरी इंटरलीविंग (Memory Interleaving) मेमोरी एक्सेस प्रदर्शन में कैसे सुधार करती है?",
       "options": {
-        "A": "Head continues moving towards lower cylinders (down) servicing all requests until reaching the disk boundary, then reverses direction",
-        "B": "Services closest request first regardless of direction",
-        "C": "Services strictly in order of arrival",
-        "D": "Jumps directly to track zero"
+        "A": "Consecutive memory addresses are spread across different physical memory modules, enabling pipelined concurrent access",
+        "B": "It halves the required width of the address bus",
+        "C": "It converts DRAM into non-volatile storage",
+        "D": "It replaces cache memory entirely"
       },
       "options_hi": {
-        "A": "हेड towards lower cylinders (down) दिशा में डिस्क के छोर तक सभी अनुरोधों को पूरा करता है, फिर दिशा उलटता है",
-        "B": "दिशा की परवाह किए बिना निकटतम अनुरोध पहले करता है",
-        "C": "आगमन क्रम में करता है",
-        "D": "सीधे शून्य पर कूदता है"
+        "A": "क्रमिक मेमोरी पते विभिन्न भौतिक मेमोरी मॉड्यूल में फैले होते हैं, जिससे समानांतर समवर्ती एक्सेस संभव होता है",
+        "B": "यह एड्रेस बस की आवश्यक चौड़ाई को आधा कर देता है",
+        "C": "यह DRAM को गैर-वाष्पशील स्टोरेज में परिवर्तित करता है",
+        "D": "यह कैश मेमोरी को पूरी तरह से बदल देता है"
       },
       "correctAnswer": "A",
-      "explanation": "SCAN moves unidirectionally across the disk platter servicing pending cylinders until boundary reversal.",
-      "explanation_hi": "SCAN लिफ्ट की तरह एक दिशा में छोर तक जाता है और रास्ते के सभी अनुरोध पूरे करता है।"
+      "explanation": "In low-order interleaving, the least significant bits of the address select the memory bank module. Consecutive addresses fall into different banks, allowing overlapped, parallel memory transfers for block fetches.",
+      "explanation_hi": "लो-ऑर्डर इंटरलीविंग में लगातार पते अलग-अलग मेमोरी मॉड्यूल (बैंक) में रखे जाते हैं। इससे CPU एक साथ कई बैंकों से समानांतर रूप से डेटा पढ़ सकता है, जिससे मेमोरी बैंडविड्थ बढ़ जाती है।"
     },
     {
       "id": 11,
@@ -529,104 +529,104 @@ window.predicted_set9 = {
       "questionNumber": 20,
       "section": "Computer Science",
       "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In the 8085 microprocessor, what are the priority and vector characteristics of the 'RST 7.5' hardware interrupt?",
-      "question_hi": "8085 माइक्रोप्रोसेसर में 'RST 7.5' हार्डवेयर इंटरप्ट की प्राथमिकता और विशेषता क्या है?",
+      "question": "In Relative Addressing Mode, how is the Effective Address (EA) calculated?",
+      "question_hi": "रिलेटिव एड्रेसिंग मोड (Relative Addressing Mode) में प्रभावी पता (EA) कैसे परिकलित किया जाता है?",
       "options": {
-        "A": "5.5 (Maskable, Edge-Triggered)",
-        "B": "Lowest priority always",
-        "C": "Software interrupt only",
-        "D": "Non-vectorable always"
+        "A": "EA = Program Counter (PC) + Address offset (displacement)",
+        "B": "EA = Base Register + Index Register",
+        "C": "EA = Stack Pointer + Operand value",
+        "D": "EA = Content of Memory Address"
       },
       "options_hi": {
-        "A": "5.5 (Maskable, Edge-Triggered)",
-        "B": "हमेशा न्यूनतम प्राथमिकता",
-        "C": "केवल सॉफ्टवेयर इंटरप्ट",
-        "D": "नॉन-वेक्टर योग्य"
+        "A": "EA = प्रोग्राम काउंटर (PC) + एड्रेस ऑफसेट (विस्थापन)",
+        "B": "EA = बेस रजिस्टर + इंडेक्स रजिस्टर",
+        "C": "EA = स्टैक पॉइंटर + ऑपरेंड मान",
+        "D": "EA = मेमोरी पते की सामग्री"
       },
       "correctAnswer": "A",
-      "explanation": "8085 interrupt priority: TRAP (highest) > RST 7.5 > RST 6.5 > RST 5.5 > INTR (lowest). Vectored interrupt at memory address 003CH.",
-      "explanation_hi": "8085 में इंटरप्ट प्राथमिकता: TRAP (सर्वोच्च) > RST 7.5 > RST 6.5 > RST 5.5 > INTR। Vectored interrupt at memory address 003CH।"
+      "explanation": "In PC-Relative addressing, the effective address is computed by adding the instruction's signed offset (displacement field) to the current contents of the Program Counter: EA = PC + Displacement (commonly used for branch/jump instructions).",
+      "explanation_hi": "रिलेटिव एड्रेसिंग मोड में प्रभावी पता प्रोग्राम काउंटर (PC) के मान में निर्देश में दिए गए ऑफसेट (विस्थापन) को जोड़कर प्राप्त होता है: EA = PC + Offset। इसका उपयोग आमतौर पर जंप और ब्रांच निर्देशों में होता है।"
     },
     {
       "id": 21,
       "questionNumber": 21,
       "section": "Computer Science",
       "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In the 8085 microprocessor, what are the priority and vector characteristics of the 'RST 6.5' hardware interrupt?",
-      "question_hi": "8085 माइक्रोप्रोसेसर में 'RST 6.5' हार्डवेयर इंटरप्ट की प्राथमिकता और विशेषता क्या है?",
+      "question": "Which of the following is a defining feature of Reduced Instruction Set Computer (RISC) architectures?",
+      "question_hi": "निम्नलिखित में से कौन सी रिड्यूस्ड इंस्ट्रक्शन सेट कंप्यूटर (RISC) आर्किटेक्चर की एक परिभाषित विशेषता है?",
       "options": {
-        "A": "6.5 (Maskable, Level-Triggered)",
-        "B": "Lowest priority always",
-        "C": "Software interrupt only",
-        "D": "Non-vectorable always"
+        "A": "Load-Store architecture where memory access is restricted exclusively to LOAD and STORE instructions",
+        "B": "Variable instruction length with hundreds of complex addressing modes",
+        "C": "Microprogrammed control units storing complex instructions in ROM",
+        "D": "Absence of hardware instruction pipelining"
       },
       "options_hi": {
-        "A": "6.5 (Maskable, Level-Triggered)",
-        "B": "हमेशा न्यूनतम प्राथमिकता",
-        "C": "केवल सॉफ्टवेयर इंटरप्ट",
-        "D": "नॉन-वेक्टर योग्य"
+        "A": "लोड-स्टोर आर्किटेक्चर जहां मेमोरी एक्सेस केवल LOAD और STORE निर्देशों तक ही सीमित है",
+        "B": "सैकड़ों जटिल एड्रेसिंग मोड के साथ परिवर्तनशील निर्देश लंबाई",
+        "C": "ROM में जटिल निर्देशों को संग्रहीत करने वाली माइक्रोप्रोग्राम्ड नियंत्रण इकाइयां",
+        "D": "हार्डवेयर निर्देश पाइपलाइनिंग का अभाव"
       },
       "correctAnswer": "A",
-      "explanation": "8085 interrupt priority: TRAP (highest) > RST 7.5 > RST 6.5 > RST 5.5 > INTR (lowest). Vectored interrupt at memory address 0034H.",
-      "explanation_hi": "8085 में इंटरप्ट प्राथमिकता: TRAP (सर्वोच्च) > RST 7.5 > RST 6.5 > RST 5.5 > INTR। Vectored interrupt at memory address 0034H।"
+      "explanation": "RISC architectures use a Load-Store design: only dedicated LOAD and STORE instructions touch memory; all arithmetic and logic instructions operate strictly on CPU registers, facilitating single-cycle pipelining.",
+      "explanation_hi": "RISC की प्रमुख विशेषता इसका 'लोड-स्टोर' (Load-Store) मॉडल है: अंकगणितीय निर्देश केवल रजिस्टरों पर काम करते हैं, और मेमोरी से डेटा लाने व ले जाने के लिए केवल Load और Store निर्देशों का ही उपयोग होता है।"
     },
     {
       "id": 22,
       "questionNumber": 22,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In the 8085 microprocessor, what are the priority and vector characteristics of the 'RST 5.5' hardware interrupt?",
-      "question_hi": "8085 माइक्रोप्रोसेसर में 'RST 5.5' हार्डवेयर इंटरप्ट की प्राथमिकता और विशेषता क्या है?",
+      "question": "In a UNIX/Linux operating system, what return value does the fork() system call provide to the newly created child process?",
+      "question_hi": "UNIX/Linux ऑपरेटिंग सिस्टम में, fork() सिस्टम कॉल नव निर्मित चाइल्ड प्रोसेस को क्या रिटर्न मान प्रदान करता है?",
       "options": {
-        "A": "7.5 (Maskable, Level-Triggered)",
-        "B": "Lowest priority always",
-        "C": "Software interrupt only",
-        "D": "Non-vectorable always"
+        "A": "0",
+        "B": "The Process ID (PID) of the parent process",
+        "C": "1",
+        "D": "-1"
       },
       "options_hi": {
-        "A": "7.5 (Maskable, Level-Triggered)",
-        "B": "हमेशा न्यूनतम प्राथमिकता",
-        "C": "केवल सॉफ्टवेयर इंटरप्ट",
-        "D": "नॉन-वेक्टर योग्य"
+        "A": "0",
+        "B": "पैरेंट प्रोसेस का प्रोसेस आईडी (PID)",
+        "C": "1",
+        "D": "-1"
       },
       "correctAnswer": "A",
-      "explanation": "8085 interrupt priority: TRAP (highest) > RST 7.5 > RST 6.5 > RST 5.5 > INTR (lowest). Vectored interrupt at memory address 002CH.",
-      "explanation_hi": "8085 में इंटरप्ट प्राथमिकता: TRAP (सर्वोच्च) > RST 7.5 > RST 6.5 > RST 5.5 > INTR। Vectored interrupt at memory address 002CH।"
+      "explanation": "fork() creates an exact duplicate process. To distinguish between parent and child, fork() returns 0 to the child process, returns the child's non-zero PID to the parent process, and returns -1 on failure.",
+      "explanation_hi": "fork() कॉल चाइल्ड प्रोसेस को 0 रिटर्न करता है, जबकि पैरेंट प्रोसेस को चाइल्ड का PID रिटर्न करता है। विफलता पर -1 रिटर्न होता है।"
     },
     {
       "id": 23,
       "questionNumber": 23,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In the 8085 microprocessor, what are the priority and vector characteristics of the 'INTR' hardware interrupt?",
-      "question_hi": "8085 माइक्रोप्रोसेसर में 'INTR' हार्डवेयर इंटरप्ट की प्राथमिकता और विशेषता क्या है?",
+      "question": "What is a 'Zombie Process' in an operating system process table?",
+      "question_hi": "ऑपरेटिंग सिस्टम प्रोसेस टेबल में 'ज़ॉम्बी प्रोसेस' (Zombie Process) क्या है?",
       "options": {
-        "A": "Lowest Priority (Non-Vectored)",
-        "B": "Lowest priority always",
-        "C": "Software interrupt only",
-        "D": "Non-vectorable always"
+        "A": "A process that has finished execution but still has an entry in the process table because its parent has not yet read its exit status via wait()",
+        "B": "A process that consumes 100% CPU in an infinite loop",
+        "C": "A process whose parent has terminated while the child continues running",
+        "D": "A process running without memory allocation"
       },
       "options_hi": {
-        "A": "Lowest Priority (Non-Vectored)",
-        "B": "हमेशा न्यूनतम प्राथमिकता",
-        "C": "केवल सॉफ्टवेयर इंटरप्ट",
-        "D": "नॉन-वेक्टर योग्य"
+        "A": "एक प्रक्रिया जिसने निष्पादन समाप्त कर लिया है लेकिन प्रोसेस टेबल में प्रविष्टि बनी हुई है क्योंकि उसके पैरेंट ने अभी तक wait() के माध्यम से उसकी निकास स्थिति नहीं पढ़ी है",
+        "B": "एक प्रक्रिया जो अनंत लूप में 100% CPU की खपत करती है",
+        "C": "एक प्रक्रिया जिसके पैरेंट समाप्त हो चुके हैं जबकि चाइल्ड प्रक्रिया चलती रहती है",
+        "D": "बिना मेमोरी आवंटन के चल रही एक प्रक्रिया"
       },
       "correctAnswer": "A",
-      "explanation": "8085 interrupt priority: TRAP (highest) > RST 7.5 > RST 6.5 > RST 5.5 > INTR (lowest). Requires external device to provide restart opcode on data bus.",
-      "explanation_hi": "8085 में इंटरप्ट प्राथमिकता: TRAP (सर्वोच्च) > RST 7.5 > RST 6.5 > RST 5.5 > INTR। Requires external device to provide restart opcode on data bus।"
+      "explanation": "A zombie (defunct) process has completed execution via exit(), but its entry remains in the process table so the parent can inspect its exit status code via wait() or waitpid().",
+      "explanation_hi": "ज़ॉम्बी प्रोसेस वह प्रक्रिया है जो समाप्त (exit) हो चुकी है, परंतु प्रोसेस टेबल में इसका रिकॉर्ड तब तक बना रहता है जब तक कि पैरेंट प्रोसेस wait() सिस्टम कॉल चलाकर इसका एग्जिट स्टेटस न पढ़ ले।"
     },
     {
       "id": 24,
@@ -2661,416 +2661,416 @@ window.predicted_set9 = {
       "questionNumber": 102,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 11), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 11) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "In operant conditioning, when an organism learns to respond to an advance warning signal to prevent an aversive stimulus before it even begins, what is this called?",
+      "question_hi": "जब कोई प्राणी किसी अग्रिम चेतावनी संकेत पर प्रतिक्रिया देना सीख जाता है ताकि कोई अप्रिय उद्दीपक शुरू होने से पहले ही रुक जाए, तो इसे क्या कहा जाता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Avoidance Conditioning",
+        "B": "Escape Conditioning",
+        "C": "Spontaneous Recovery",
+        "D": "Habituation"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "परिहार अनुकूलन (Avoidance Conditioning)",
+        "B": "पलायन अनुकूलन",
+        "C": "स्वतः पुनर्प्राप्ति",
+        "D": "आदत पड़ना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 11 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "In Avoidance Conditioning, a warning cue allows the organism to execute a behavior in advance, avoiding the unpleasant stimulus altogether (e.g., studying in advance to avoid exam anxiety).",
+      "explanation_hi": "परिहार अनुकूलन (Avoidance Conditioning) में प्राणी किसी चेतावनी संकेत (Warning signal) को पहचानकर पहले ही ऐसा व्यवहार कर लेता है जिससे अप्रिय स्थिति उत्पन्न ही न हो (जैसे परीक्षा में फेल होने के डर से पहले ही पढ़ाई करना)।"
     },
     {
       "id": 103,
       "questionNumber": 103,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 12), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 12) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "In Albert Bandura's Social Cognitive Theory, what term refers to the mutual, bidirectional interaction between Personal cognitive factors, Environmental influences, and Behavioral patterns?",
+      "question_hi": "अल्बर्ट बंडूरा के सामाजिक संज्ञानात्मक सिद्धांत में व्यक्तिगत संज्ञानात्मक कारकों, पर्यावरणीय प्रभावों और व्यवहारिक पैटर्न के बीच पारस्परिक अंतःक्रिया को क्या कहा जाता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Reciprocal Determinism",
+        "B": "Stimulus-Response Association",
+        "C": "Operant Shaping",
+        "D": "Cognitive Dissonance"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "पारस्परिक निर्धारणवाद (Reciprocal Determinism)",
+        "B": "उद्दीपक-अनुक्रिया संबंध",
+        "C": "ऑपरेंट शेपिंग",
+        "D": "संज्ञानात्मक असंगति"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 12 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "Reciprocal Determinism asserts that human functioning is determined by the continuous triadic interaction of: 1) Personal factors (beliefs, cognition), 2) Environmental events, and 3) Behavioral actions.",
+      "explanation_hi": "पारस्परिक निर्धारणवाद (Reciprocal Determinism) के अनुसार व्यक्ति की सोच (Person), उसका व्यवहार (Behavior) और उसका परिवेश (Environment) तीनों एक-दूसरे को लगातार प्रभावित करते हैं।"
     },
     {
       "id": 104,
       "questionNumber": 104,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 13), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 13) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "What did Albert Bandura's famous Bobo Doll Experiment (1961) empirically prove regarding children's behavior?",
+      "question_hi": "अल्बर्ट बंडूरा के प्रसिद्ध बोबो डॉल प्रयोग (1961) ने बच्चों के व्यवहार के संबंध में अनुभवजन्य रूप से क्या साबित किया?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Children can learn novel aggressive behaviors purely through observing adult models, even without receiving direct reinforcement",
+        "B": "Aggression is entirely determined by biological genetics",
+        "C": "Rewards have no influence on human motivation",
+        "D": "Children never imitate actions of adults"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "बच्चे बिना किसी सीधे पुरस्कार के भी वयस्कों के मॉडल को देखकर आक्रामक व्यवहार सीख सकते हैं (अवलोकनात्मक अधिगम)",
+        "B": "आक्रामकता पूरी तरह से जैविक आनुवंशिकी द्वारा निर्धारित होती है",
+        "C": "इनाम का मानव प्रेरणा पर कोई प्रभाव नहीं पड़ता",
+        "D": "बच्चे वयस्कों के कार्यों का कभी अनुकरण नहीं करते"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 13 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "Bandura showed that children who watched an aggressive adult hit an inflatable Bobo doll subsequently exhibited the exact same novel aggressive physical and verbal behaviors through observational learning.",
+      "explanation_hi": "बोबो डॉल प्रयोग ने सिद्ध किया कि बच्चे वयस्कों के व्यवहार को देखकर (Modeling) वैसा ही व्यवहार सीख लेते हैं, भले ही उन्हें इसके लिए कोई सीधा पुरस्कार न दिया गया हो।"
     },
     {
       "id": 105,
       "questionNumber": 105,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 14), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 14) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "In Piaget's theory of cognitive development, what is 'Seriation'?",
+      "question_hi": "पियाजे के संज्ञानात्मक विकास सिद्धांत में 'क्रमबद्धता' (Seriation) क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "The ability to arrange items along a quantitative dimension, such as length, weight, or size",
+        "B": "The belief that inanimate objects have feelings",
+        "C": "The inability to understand another person's view",
+        "D": "Memorizing letters of the alphabet in reverse"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "किसी मात्रात्मक आयाम (जैसे लंबाई, भार या आकार) के अनुसार वस्तुओं को व्यवस्थित करने की क्षमता",
+        "B": "निर्जीव वस्तुओं में भावनाएं होने का विश्वास",
+        "C": "दूसरे के दृष्टिकोण को समझने में असमर्थता",
+        "D": "वर्णमाला के अक्षरों को उल्टे क्रम में याद करना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 14 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "Seriation is mastered during the Concrete Operational Stage (ages 7-11), allowing a child to logically order sticks from shortest to longest.",
+      "explanation_hi": "क्रमबद्धता (Seriation) मूर्त संक्रियात्मक अवस्था की क्षमता है जिसके द्वारा बच्चा वस्तुओं को उनकी लंबाई, वजन या आकार के घटते या बढ़ते क्रम में व्यवस्थित कर सकता है।"
     },
     {
       "id": 106,
       "questionNumber": 106,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 15), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 15) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "In Piaget's theory, what is 'Transitivity' in logical reasoning?",
+      "question_hi": "पियाजे के सिद्धांत में तार्किक चिंतन में 'संक्रामकता' (Transitivity) क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "The ability to logically recognize relationships among various elements in a serial order (e.g., if A > B and B > C, then A > C)",
+        "B": "Transfer of heat across metals",
+        "C": "Talking aloud to oneself while solving math problems",
+        "D": "Believing that numbers cannot be reversed"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "एक क्रमिक क्रम में विभिन्न तत्वों के बीच संबंधों को तार्किक रूप से पहचानना (यदि A > B और B > C, तो A > C)",
+        "B": "धातुओं में ऊष्मा का स्थानांतरण",
+        "C": "गणित हल करते समय स्वयं से बातें करना",
+        "D": "यह मानना कि संख्याओं को उलटा नहीं किया जा सकता"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 15 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "Transitivity is the logical understanding that relationships can be inferred through intermediate links: if Stick A is longer than B, and B is longer than C, then Stick A must be longer than C.",
+      "explanation_hi": "संक्रामकता (Transitivity) का अर्थ है अप्रत्यक्ष तार्किक संबंध समझना: यदि छड़ी A, B से बड़ी है और B, C से बड़ी है, तो A स्वतः ही C से बड़ी होगी। यह मूर्त संक्रियात्मक अवस्था में विकसित होती है।"
     },
     {
       "id": 107,
       "questionNumber": 107,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 16), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 16) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "What developmental phenomenon described by David Elkind occurs during adolescence, where teenagers believe that everyone is constantly observing and evaluating their appearance and behavior?",
+      "question_hi": "डेविड एल्काइंड द्वारा वर्णित किशोरावस्था में होने वाली वह विकासात्मक परिघटना क्या है जिसमें किशोर मानते हैं कि हर कोई लगातार उनके रूप-रंग और व्यवहार को देख रहा है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "The Imaginary Audience",
+        "B": "The Personal Fable",
+        "C": "Object Permanence",
+        "D": "Centration"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "काल्पनिक दर्शक (The Imaginary Audience)",
+        "B": "व्यक्तिगत गाथा (Personal Fable)",
+        "C": "वस्तु स्थायित्व",
+        "D": "केंद्रीकरण"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 16 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "Adolescent egocentrism involves the 'Imaginary Audience'—the egocentric belief that one is the focal center of everyone else's attention and scrutiny.",
+      "explanation_hi": "काल्पनिक दर्शक (Imaginary Audience) किशोरावस्था की अहंकेंद्रितता है जिसमें किशोर को लगता है कि सभी लोग उसी को देख रहे हैं और उसी के कपड़ों या व्यवहार का मूल्यांकन कर रहे हैं।"
     },
     {
       "id": 108,
       "questionNumber": 108,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 17), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 17) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "What is David Elkind's concept of the 'Personal Fable' in adolescent egocentrism?",
+      "question_hi": "किशोरावस्था की अहंकेंद्रितता में डेविड एल्काइंड की 'व्यक्तिगत गाथा' (Personal Fable) की अवधारणा क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "The belief that one's feelings and experiences are completely unique, and that one is invulnerable to danger ('Nothing bad can happen to me')",
+        "B": "Telling fictional fairy tales to children",
+        "C": "Writing personal diary entries in code",
+        "D": "Believing in ancestral mythological gods"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "यह विश्वास कि किसी की भावनाएं और अनुभव पूरी तरह से अद्वितीय हैं, और वह खतरों से सुरक्षित है ('मेरे साथ कुछ बुरा नहीं हो सकता')",
+        "B": "बच्चों को काल्पनिक परियों की कहानियां सुनाना",
+        "C": "कोड में व्यक्तिगत डायरी लिखना",
+        "D": "पौराणिक देवताओं में विश्वास करना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 17 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "The Personal Fable is the adolescent conviction that one's thoughts and experiences are uniquely special and that one is immune from mortal risks, often leading to reckless risk-taking.",
+      "explanation_hi": "व्यक्तिगत गाथा (Personal Fable) किशोर का यह भ्रम है कि उसके अनुभव दुनिया में सबसे अलग हैं और उसके साथ कोई दुर्घटना नहीं हो सकती, जिससे वह जोखिम भरे काम करने लगता है।"
     },
     {
       "id": 109,
       "questionNumber": 109,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 18), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 18) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "What did Raymond Cattell mean by 'Fluid Intelligence' (Gf) versus 'Crystallized Intelligence' (Gc)?",
+      "question_hi": "रेमंड कैटेल के अनुसार 'तरल बुद्धि' (Fluid Intelligence) और 'क्रिस्टलीकृत बुद्धि' (Crystallized Intelligence) में क्या अंतर है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Fluid intelligence is innate, biological capacity to solve novel problems; Crystallized intelligence is acquired knowledge and skills gained from culture and schooling",
+        "B": "Fluid intelligence improves in old age; crystallized declines in youth",
+        "C": "Fluid intelligence refers to musical talent; crystallized to sports",
+        "D": "Fluid intelligence is measured in liters; crystallized in grams"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "तरल बुद्धि जन्मजात, जैविक रूप से निर्धारित नई समस्याओं को हल करने की क्षमता है; क्रिस्टलीकृत बुद्धि शिक्षा और संस्कृति से अर्जित ज्ञान व कौशल है",
+        "B": "तरल बुद्धि वृद्धावस्था में बढ़ती है; क्रिस्टलीकृत युवावस्था में घटती है",
+        "C": "तरल बुद्धि संगीत से संबंधित है; क्रिस्टलीकृत खेल से",
+        "D": "तरल बुद्धि लीटर में मापी जाती है; क्रिस्टलीकृत ग्राम में"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 18 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "Cattell's Gf (Fluid Intelligence) relies on neurological efficiency to reason in novel situations without prior training, peaking in young adulthood. Gc (Crystallized Intelligence) builds on lifelong learning and continues growing throughout adulthood.",
+      "explanation_hi": "तरल बुद्धि (Fluid Intelligence) जन्मजात और प्राकृतिक क्षमता है जो नई समस्याओं को हल करने में मदद करती है (युवावस्था में चरम पर)। क्रिस्टलीकृत बुद्धि (Crystallized) अनुभव, शिक्षा और संस्कृति से अर्जित ज्ञान है जो जीवन भर बढ़ता रहता है।"
     },
     {
       "id": 110,
       "questionNumber": 110,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 19), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 19) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "In emotional intelligence (EQ), as popularized by Daniel Goleman, what is 'Empathy'?",
+      "question_hi": "डेनियल गोलमैन द्वारा लोकप्रिय भावनात्मक बुद्धि (EQ) में 'सहानुभूति / परानुभूति' (Empathy) क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "The ability to understand, sense, and appropriately respond to the emotions, needs, and perspectives of other people",
+        "B": "Feeling pity and sorrow for poor people only",
+        "C": "Suppressing all emotions in professional meetings",
+        "D": "Imitating physical body language without feeling"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "अन्य लोगों की भावनाओं, आवश्यकताओं और दृष्टिकोणों को समझने, महसूस करने और उचित प्रतिक्रिया देने की क्षमता",
+        "B": "केवल गरीब लोगों के लिए दया महसूस करना",
+        "C": "बैठकों में सभी भावनाओं को दबाना",
+        "D": "बिना महसूस किए शारीरिक भाषा की नकल करना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 19 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "Empathy is a foundational pillar of EQ: stepping outside one's self-centered perspective to perceive and resonate with another person's subjective emotional state.",
+      "explanation_hi": "परानुभूति (Empathy) का अर्थ है स्वयं को दूसरे के स्थान पर रखकर उसकी भावनाओं, दर्द और दृष्टिकोण को समझना और उसके प्रति संवेदनशील प्रतिक्रिया देना।"
     },
     {
       "id": 111,
       "questionNumber": 111,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 20), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 20) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "Which of the following is considered an essential feature of 'Universal Design for Learning' (UDL) in an inclusive school?",
+      "question_hi": "समावेशी स्कूल में 'यूनिवर्सल डिजाइन फॉर लर्निंग' (UDL) की एक अनिवार्य विशेषता निम्नलिखित में से कौन सी मानी जाती है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Providing Multiple Means of Representation, Multiple Means of Action and Expression, and Multiple Means of Engagement",
+        "B": "Mandating a single identical textbook for every child",
+        "C": "Segregating students based on IQ scores into separate buildings",
+        "D": "Conducting only written essay examinations"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "प्रतिनिधित्व के कई साधन, क्रिया और अभिव्यक्ति के कई साधन, और जुड़ाव के कई साधन प्रदान करना (UDL के 3 सिद्धांत)",
+        "B": "हर बच्चे के लिए एक ही समान पाठ्यपुस्तक अनिवार्य करना",
+        "C": "आईक्यू स्कोर के आधार पर छात्रों को अलग-अलग इमारतों में बांटना",
+        "D": "केवल लिखित निबंध परीक्षाएं आयोजित करना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 20 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "UDL provides an accessible framework built on 3 neuro-developmental networks: Multiple means of Representation (how info is presented), Expression (how students demonstrate learning), and Engagement (how students are motivated).",
+      "explanation_hi": "UDL (Universal Design for Learning) के 3 मुख्य सिद्धांत हैं: 1. सूचना प्रस्तुति के विविध साधन, 2. अभिव्यक्ति के विविध साधन, और 3. सीखने में संलग्नता व रुचि के विविध साधन प्रदान करना।"
     },
     {
       "id": 112,
       "questionNumber": 112,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 21), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 21) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "In special education, what is an 'Individualized Education Program' (IEP)?",
+      "question_hi": "विशेष शिक्षा में 'व्यक्तिगत शिक्षा कार्यक्रम' (Individualized Education Program - IEP) क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "A customized legal educational plan collaboratively designed to address the specific learning goals, accommodations, and services for a child with special needs",
+        "B": "An expulsion notice issued to disruptive pupils",
+        "C": "A generic annual syllabus printed by the school board",
+        "D": "A private coaching contract with extra fees"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "विशेष आवश्यकता वाले बच्चे के विशिष्ट शिक्षण लक्ष्यों, समायोजन और सेवाओं को संबोधित करने के लिए तैयार की गई एक अनुकूलित व्यक्तिगत शैक्षिक योजना",
+        "B": "छात्रों को जारी किया गया निष्कासन नोटिस",
+        "C": "स्कूल बोर्ड द्वारा मुद्रित एक सामान्य वार्षिक पाठ्यक्रम",
+        "D": "अतिरिक्त शुल्क के साथ एक निजी कोचिंग अनुबंध"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 21 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "An IEP is a legally binding written document tailored for a child with a disability, specifying current functioning, measurable annual goals, special accommodations, and progress tracking metrics.",
+      "explanation_hi": "IEP (Individualized Education Program) विशेष आवश्यकता वाले बच्चे (CWSN) के लिए तैयार किया गया एक व्यक्तिगत शैक्षणिक दस्तावेज है, जिसमें बच्चे की विशिष्ट आवश्यकताओं के अनुसार सीखने के लक्ष्य और विशेष सुविधाएं तय की जाती हैं।"
     },
     {
       "id": 113,
       "questionNumber": 113,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 22), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 22) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "What type of validity assesses whether a test covers an adequate, representative sample of the specific course syllabus and instructional objectives it purports to measure?",
+      "question_hi": "किस प्रकार की वैधता (Validity) यह आकलन करती है कि क्या कोई परीक्षा उस विशिष्ट पाठ्यक्रम और शैक्षणिक उद्देश्यों के पर्याप्त, प्रतिनिधि नमूने को कवर करती है जिसे मापने का दावा किया गया है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Content Validity",
+        "B": "Criterion Validity",
+        "C": "Predictive Validity",
+        "D": "Construct Validity"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "विषय-वस्तु वैधता (Content Validity)",
+        "B": "मानदंड वैधता",
+        "C": "भविष्यसूचक वैधता",
+        "D": "रचनात्मक वैधता"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 22 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "Content Validity evaluates the extent to which the test items comprehensively represent the entire domain of knowledge, skills, and syllabus topics taught.",
+      "explanation_hi": "विषय-वस्तु वैधता (Content Validity) यह सुनिश्चित करती है कि प्रश्न-पत्र में पूरे पाठ्यक्रम और सभी महत्वपूर्ण अध्यायों व उद्देश्यों का उचित और संतुलित प्रतिनिधित्व किया गया है।"
     },
     {
       "id": 114,
       "questionNumber": 114,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 23), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 23) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "What is 'Inter-Rater Reliability' (Scorer Reliability) of an examination?",
+      "question_hi": "किसी परीक्षा की 'परीक्षक विश्वसनीयता' (Inter-Rater Reliability) क्या होती है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "The degree of agreement or consistency between independent evaluators scoring the exact same set of student responses",
+        "B": "The consistency of a student's score across two consecutive years",
+        "C": "The difficulty of questions translated into Hindi",
+        "D": "The printing quality of answer sheets"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "एक ही छात्र प्रतिक्रियाओं का मूल्यांकन करने वाले स्वतंत्र परीक्षकों के बीच सहमति या अंकों की निरंतरता की डिग्री",
+        "B": "दो लगातार वर्षों में छात्र के अंकों की निरंतरता",
+        "C": "हिंदी में अनुवादित प्रश्नों की कठिनाई",
+        "D": "उत्तर पुस्तिकाओं की छपाई की गुणवत्ता"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 23 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "Inter-rater reliability measures how consistently two or more independent raters give the same score to the same exam script, minimizing subjective scoring bias (highly enhanced by objective scoring rubrics).",
+      "explanation_hi": "परीक्षक विश्वसनीयता (Inter-rater Reliability) का अर्थ है कि यदि एक ही उत्तर-पुस्तिका को दो अलग-अलग शिक्षक स्वतंत्र रूप से जांचें, तो दोनों द्वारा दिए गए अंकों में समानता होनी चाहिए।"
     },
     {
       "id": 115,
       "questionNumber": 115,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 24), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 24) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "Which Indian philosopher established 'Visva-Bharati' at Santiniketan, emphasizing education in natural communion with nature and freedom of expression?",
+      "question_hi": "किस भारतीय दार्शनिक ने प्रकृति के साथ सामंजस्य और अभिव्यक्ति की स्वतंत्रता पर बल देते हुए शांतिनिकेतन में 'विश्वभारती' की स्थापना की थी?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Rabindranath Tagore",
+        "B": "Swami Vivekananda",
+        "C": "Sri Aurobindo",
+        "D": "Jiddu Krishnamurti"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "रवींद्रनाथ टैगोर (Rabindranath Tagore)",
+        "B": "स्वामी विवेकानंद",
+        "C": "श्री अरबिंदो",
+        "D": "जिड्डू कृष्णमूर्ति"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 24 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "Rabindranath Tagore founded Visva-Bharati at Santiniketan, practicing naturalism and international humanism: learning outdoors beneath trees, integrating arts, music, and nature.",
+      "explanation_hi": "रवींद्रनाथ टैगोर ने शांतिनिकेतन में विश्व-भारती की स्थापना की। उन्होंने प्रकृतिवादी दर्शन का समर्थन किया जहाँ बच्चे खुले आकाश और पेड़ों के नीचे प्रकृति के संपर्क में रहकर सीखते हैं।"
     },
     {
       "id": 116,
       "questionNumber": 116,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 25), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 25) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "Who famously declared: 'Education is the manifestation of the perfection already in man'?",
+      "question_hi": "'शिक्षा मनुष्य में पहले से विद्यमान पूर्णता की अभिव्यक्ति है' - यह प्रसिद्ध कथन किसका है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Swami Vivekananda",
+        "B": "Mahatma Gandhi",
+        "C": "Dayananda Saraswati",
+        "D": "Dr. Sarvepalli Radhakrishnan"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "स्वामी विवेकानंद (Swami Vivekananda)",
+        "B": "महात्मा गांधी",
+        "C": "दयानंद सरस्वती",
+        "D": "डॉ. सर्वपल्ली राधाकृष्णन"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 25 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "Swami Vivekananda defined education as unveiling the innate divine perfection inherent within every individual, promoting character-building, self-reliance, and man-making education.",
+      "explanation_hi": "स्वामी विवेकानंद ने कहा था कि 'शिक्षा मनुष्य के भीतर पहले से मौजूद पूर्णता का प्रकटीकरण है।' उनका उद्देश्य चरित्र निर्माण और आत्मनिर्भरता पैदा करने वाली शिक्षा देना था।"
     },
     {
       "id": 117,
       "questionNumber": 117,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 26), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 26) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "What educational philosophy was propounded by Sri Aurobindo, encompassing physical, vital, mental, psychic, and spiritual evolution?",
+      "question_hi": "श्री अरबिंदो द्वारा कौन सा शैक्षिक दर्शन प्रतिपादित किया गया था, जिसमें शारीरिक, प्राणिक, मानसिक, अंतरात्मिक और आध्यात्मिक विकास शामिल है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Integral Education (पूर्ण शिक्षा)",
+        "B": "Basic Education (बुनियादी शिक्षा)",
+        "C": "Kindergarten System",
+        "D": "Pragmatic Education"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "सर्वांगीण / पूर्ण शिक्षा (Integral Education)",
+        "B": "बुनियादी शिक्षा (Basic Education)",
+        "C": "किंडरगार्टन प्रणाली",
+        "D": "प्रयोजनवादी शिक्षा"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 26 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "Sri Aurobindo's 'Integral Education' aims at the complete evolution of the total human personality across five aspects: the physical, the vital, the mental, the psychic, and the spiritual.",
+      "explanation_hi": "श्री अरबिंदो ने 'पूर्ण शिक्षा' (Integral Education) का प्रतिपादन किया, जिसमें मनुष्य के पांच पक्षों: शारीरिक, प्राणिक (ऊर्जा), मानसिक, अंतरात्मिक और आध्यात्मिक चेतना के सर्वांगीण विकास पर बल दिया गया है।"
     },
     {
       "id": 118,
@@ -3103,442 +3103,442 @@ window.predicted_set9 = {
       "questionNumber": 119,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 2), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 2) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "In Jean-Jacques Rousseau's philosophical treatise 'Emile', what does the concept of 'Negative Education' mean?",
+      "question_hi": "जीन-जैक्स रूसो के दार्शनिक ग्रंथ 'एमिल' (Emile) में 'नकारात्मक शिक्षा' (Negative Education) की अवधारणा का क्या अर्थ है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Shielding the child from societal vices, prejudices, and premature formal instruction, allowing the natural senses and reasoning to develop freely before age 12",
+        "B": "Using corporal punishment to teach obedience",
+        "C": "Forbidding children from learning sports",
+        "D": "Teaching pessimism in literature"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "बच्चे को 12 वर्ष की आयु से पहले सामाजिक बुराइयों, पूर्वाग्रहों और असामयिक औपचारिक उपदेशों से बचाना और उसकी इंद्रियों को प्राकृतिक रूप से विकसित होने देना",
+        "B": "आज्ञाकारिता सिखाने के लिए शारीरिक दंड का उपयोग करना",
+        "C": "बच्चों को खेलकूद सीखने से मना करना",
+        "D": "साहित्य में निराशावाद सिखाना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 2 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Rousseau advocated 'Negative Education' in early childhood: not teaching virtue or truth directly, but protecting the young child's mind from error and the heart from vice, letting natural consequences educate.",
+      "explanation_hi": "रूसो की 'नकारात्मक शिक्षा' (Negative Education) का अर्थ है बच्चे पर समय से पहले औपचारिक ज्ञान या किताबें न थोपना, बल्कि उसे सामाजिक कुरीतियों से बचाकर प्रकृति की गोद में इंद्रियों के माध्यम से सीखने देना।"
     },
     {
       "id": 120,
       "questionNumber": 120,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 3), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 3) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "In Jean Piaget's theory of moral development, what characterizes the stage of 'Heteronomous Morality' (Moral Realism, ages 5-9)?",
+      "question_hi": "जीन पियाजे के नैतिक विकास के सिद्धांत में 'परम-स्वायत्त नैतिकता' (Heteronomous Morality / नैतिक यथार्थवाद, 5-9 वर्ष) की क्या विशेषता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Rules are perceived as unchangeable, sacred absolutes handed down by authority figures, and actions are judged strictly by tangible consequences rather than intentions",
+        "B": "Rules are seen as flexible social agreements that can be modified by mutual consent",
+        "C": "Rules are completely ignored",
+        "D": "Moral decisions are based on universal human rights"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "नियमों को सत्ताधारी हस्तियों (भगवान/माता-पिता) द्वारा बनाए गए अपरिवर्तनीय और पवित्र माना जाता है, और कार्यों को इरादों के बजाय सीधे परिणामों से आंका जाता है",
+        "B": "नियमों को लचीले सामाजिक समझौते के रूप में देखा जाता है जिन्हें आपसी सहमति से बदला जा सकता है",
+        "C": "नियमों की पूरी तरह से उपेक्षा की जाती है",
+        "D": "नैतिक निर्णय सार्वभौमिक मानवाधिकारों पर आधारित होते हैं"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 3 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "In Piaget's Heteronomous Morality, young children view rules as permanent fixtures of the universe. Breaking a rule brings immediate 'immanent justice', and severe consequences (e.g., breaking 5 cups accidentally) are judged worse than minor damage done with bad intent.",
+      "explanation_hi": "पियाजे के अनुसार 'परम-स्वायत्त नैतिकता' (Heteronomous) में बच्चा सोचता है कि नियम अपरिवर्तनीय हैं। वह काम करने वाले के इरादे को नहीं देखता, बल्कि नुकसान की मात्रा को देखकर पाप या पुण्य तय करता है।"
     },
     {
       "id": 121,
       "questionNumber": 121,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 4), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 4) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "In Piaget's moral development, what transition occurs in the stage of 'Autonomous Morality' (Moral Relativism, age 10 and above)?",
+      "question_hi": "पियाजे के नैतिक विकास में 'स्वायत्त नैतिकता' (Autonomous Morality, 10 वर्ष और उससे अधिक) के चरण में क्या बदलाव आता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "The child realizes that rules are socially negotiated guidelines that can be altered by mutual consent, and judges acts by the underlying actor's intentions",
+        "B": "The child refuses to follow any school laws",
+        "C": "The child relies exclusively on physical punishment",
+        "D": "The child loses the ability to reason logically"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "बच्चा समझता है कि नियम आपसी सहमति से बनाए गए सामाजिक दिशानिर्देश हैं जिन्हें बदला जा सकता है, और वह किसी कार्य का मूल्यांकन कर्ता के इरादे (Intentions) के आधार पर करता है",
+        "B": "बच्चा किसी भी स्कूल कानून का पालन करने से इनकार करता है",
+        "C": "बच्चा विशेष रूप से शारीरिक दंड पर निर्भर करता है",
+        "D": "बच्चा तार्किक रूप से सोचने की क्षमता खो देता है"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 4 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Autonomous Morality recognizes that rules are human conventions created for cooperation. Older children consider internal intentions (motive) rather than just objective damage, understanding equity and reciprocity.",
+      "explanation_hi": "स्वायत्त नैतिकता (Autonomous Morality) में 10 वर्ष से बड़ा बच्चा यह समझने लगता है कि नियम इंसानों ने बनाए हैं और जरूरत पड़ने पर आपसी सहमति से बदले जा सकते हैं। वह किसी के इरादे (Intention) को महत्व देता है।"
     },
     {
       "id": 122,
       "questionNumber": 122,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 5), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 5) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "What is the highest and most complex level in Robert Gagne's 8 Levels of Learning hierarchy?",
+      "question_hi": "रॉबर्ट गैग्ने के सीखने के 8 स्तरों के पदानुक्रम (Gagne's 8 Levels of Learning) में उच्चतम और सबसे जटिल स्तर कौन सा है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Problem Solving",
+        "B": "Rule Learning",
+        "C": "Concept Learning",
+        "D": "Signal Learning"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "समस्या समाधान (Problem Solving / Level 8)",
+        "B": "नियम अधिगम (Rule Learning)",
+        "C": "संकल्पना अधिगम (Concept Learning)",
+        "D": "संकेत अधिगम (Signal Learning)"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 5 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Gagne's 8 levels: 1. Signal Learning (lowest), 2. Stimulus-Response, 3. Chaining, 4. Verbal Association, 5. Multiple Discrimination, 6. Concept Learning, 7. Rule Learning, and 8. Problem Solving (highest).",
+      "explanation_hi": "रॉबर्ट गैग्ने के अधिगम पदानुक्रम में सबसे निचला स्तर 'संकेत अधिगम' (Signal Learning - पावलवियन) है और सबसे शीर्ष स्तर 'समस्या समाधान' (Problem Solving - Level 8) है।"
     },
     {
       "id": 123,
       "questionNumber": 123,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 6), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 6) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "What is the very first step in Robert Gagne's Nine Events of Instruction?",
+      "question_hi": "रॉबर्ट गैग्ने के शिक्षण के नौ आयोजनों (Nine Events of Instruction) में सबसे पहला कदम क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Gaining Attention (Reception)",
+        "B": "Informing learners of the objective",
+        "C": "Presenting the stimulus content",
+        "D": "Assessing performance"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "छात्रों का ध्यान आकर्षित करना (Gaining Attention)",
+        "B": "शिक्षार्थियों को उद्देश्य की जानकारी देना",
+        "C": "उद्दीपक सामग्री प्रस्तुत करना",
+        "D": "प्रदर्शन का आकलन करना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 6 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Gagne's 9 events start with: 1) Gaining attention (capturing sensory focus via a stimulus change, problem, or novel question), followed by 2) Informing learners of objectives, and 3) Stimulating recall of prior knowledge.",
+      "explanation_hi": "गैग्ने के 9 अनुदेशात्मक चरणों में पहला चरण 'छात्रों का ध्यान आकर्षित करना' (Gaining Attention) है, ताकि उनका ध्यान बाहरी विकर्षणों से हटकर पाठ पर केंद्रित हो सके।"
     },
     {
       "id": 124,
       "questionNumber": 124,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 7), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 7) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "In David Ausubel's cognitive theory, what is 'Derivative Subsumption'?",
+      "question_hi": "डेविड आसुबेल के संज्ञानात्मक सिद्धांत में 'व्युत्पन्न समावेशन' (Derivative Subsumption) क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Learning new material that is a direct, specific example or illustration of an established higher-order concept already in memory",
+        "B": "Memorizing nonsense syllables",
+        "C": "Modifying an established concept because new data contradicts it",
+        "D": "Forgetting details over time"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "ऐसी नई सामग्री सीखना जो स्मृति में पहले से स्थापित किसी उच्च-स्तरीय अवधारणा का सीधा, विशिष्ट उदाहरण या दृष्टांत हो",
+        "B": "निरर्थक शब्दों को याद करना",
+        "C": "एक स्थापित अवधारणा को संशोधित करना क्योंकि नया डेटा इसका खंडन करता है",
+        "D": "समय के साथ विवरण भूल जाना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 7 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Derivative Subsumption occurs when new information is directly derived from and subsumed under an existing mental schema as a straightforward example (e.g., knowing birds have beaks, then learning an owl has a beak).",
+      "explanation_hi": "व्युत्पन्न समावेशन (Derivative Subsumption) तब होता है जब कोई नया तथ्य पहले से सीखी गई बड़ी अवधारणा का एक सीधा उदाहरण होता है (जैसे पक्षियों के पंख होते हैं, अतः नई चिड़िया चील के भी पंख हैं)।"
     },
     {
       "id": 125,
       "questionNumber": 125,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 8), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 8) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "In Ausubel's theory, what is 'Correlative Subsumption'?",
+      "question_hi": "आसुबेल के सिद्धांत में 'सह-संबंधात्मक समावेशन' (Correlative Subsumption) क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Learning new information that extends, elaborates, or qualifies an existing concept, requiring the mental concept to expand",
+        "B": "Memorizing numbers using rhythmic rhymes",
+        "C": "Replacing old memories completely with new ones",
+        "D": "Physical skill acquisition through trial and error"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "नई जानकारी सीखना जो किसी मौजूदा अवधारणा का विस्तार, संशोधन या संवर्धन करती है, जिससे मानसिक अवधारणा का विस्तार आवश्यक हो जाता है",
+        "B": "लयबद्ध कविताओं का उपयोग करके संख्याओं को याद करना",
+        "C": "पुरानी यादों को पूरी तरह से नई यादों से बदलना",
+        "D": "प्रयास और त्रुटि के माध्यम से शारीरिक कौशल हासिल करना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 8 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Correlative Subsumption occurs when new material is an extension or modification of prior knowledge, requiring the learner to alter or expand their higher-order concept (e.g., learning that an ostrich is a bird that cannot fly).",
+      "explanation_hi": "सह-संबंधात्मक समावेशन (Correlative Subsumption) में नया ज्ञान मौजूदा अवधारणा में संशोधन या विस्तार करता है (जैसे यह जानना कि पेंगुइन या शुतुरमुर्ग पक्षी तो हैं परंतु उड़ नहीं सकते)।"
     },
     {
       "id": 126,
       "questionNumber": 126,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 9), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 9) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "According to Bernard Weiner's Attribution Theory of Motivation, which attribution for academic failure leads to the highest student motivation and persistence?",
+      "question_hi": "बर्नार्ड वेइनर के प्रेरणा के आरोपण सिद्धांत (Attribution Theory) के अनुसार, शैक्षणिक विफलता का कौन सा आरोपण उच्चतम छात्र प्रेरणा और दृढ़ता की ओर ले जाता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Internal and Controllable factor: Lack of adequate effort and study strategy",
+        "B": "Internal and Uncontrollable factor: Inherent lack of innate intellectual ability",
+        "C": "External and Uncontrollable factor: Bad luck or biased teacher grading",
+        "D": "External and Stable factor: Extremely unfair examination difficulty"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "आंतरिक और नियंत्रणीय कारक: पर्याप्त प्रयास या अध्ययन रणनीति की कमी (Effort)",
+        "B": "आंतरिक और अनियंत्रित कारक: जन्मजात बौद्धिक क्षमता की कमी (Lack of ability)",
+        "C": "बाहरी और अनियंत्रित कारक: दुर्भाग्य या पक्षपाती शिक्षक ग्रेडिंग (Bad luck)",
+        "D": "बाहरी और स्थिर कारक: परीक्षा की अत्यधिक अनुचित कठिनाई"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 9 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "When students attribute failure to controllable effort ('I didn't study enough strategies'), they maintain hope and motivation to improve. Attributing failure to unchangeable innate low ability produces learned helplessness.",
+      "explanation_hi": "वेइनर के अनुसार जब छात्र अपनी विफलता का कारण 'प्रयास की कमी' (Internal & Controllable) को मानते हैं, तो वे प्रेरित रहते हैं क्योंकि वे जानते हैं कि अधिक मेहनत करके अगली बार सफलता पाई जा सकती है।"
     },
     {
       "id": 127,
       "questionNumber": 127,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 10), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 10) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "What is Julian Rotter's concept of 'Internal Locus of Control' in academic achievement?",
+      "question_hi": "शैक्षणिक उपलब्धि में जूलियन रोटर की 'आंतरिक नियंत्रण की संस्थिति' (Internal Locus of Control) की अवधारणा क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "The belief that one's success or failure is primarily determined by one's own efforts, choices, decisions, and personal agency",
+        "B": "The belief that fate, astrology, luck, and powerful others control one's destiny",
+        "C": "Depending completely on parental commands",
+        "D": "Refusing to take responsibility for any error"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "यह विश्वास कि किसी की सफलता या विफलता मुख्य रूप से उसके अपने प्रयासों, निर्णयों और व्यक्तिगत क्षमता द्वारा निर्धारित होती है",
+        "B": "यह विश्वास कि भाग्य, ज्योतिष, किस्मत और बाहरी ताकतें किसी के भाग्य को नियंत्रित करती हैं",
+        "C": "पूरी तरह से माता-पिता के आदेशों पर निर्भर रहना",
+        "D": "किसी भी त्रुटि के लिए जिम्मेदारी लेने से इनकार करना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 10 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Individuals with an Internal Locus of Control believe that outcomes are directly contingent upon their own actions and hard work, showing higher academic resilience, initiative, and goal-directed behavior.",
+      "explanation_hi": "आंतरिक नियंत्रण संस्थिति (Internal Locus of Control) वाले छात्र मानते हैं कि उनके परिणाम उनकी अपनी मेहनत और निर्णयों पर निर्भर करते हैं, न कि भाग्य या दूसरों पर। ऐसे छात्र अधिक जिम्मेदार और मेहनती होते हैं।"
     },
     {
       "id": 128,
       "questionNumber": 128,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 11), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 11) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "What are the four core dimensions of creative thinking measured by the Torrance Tests of Creative Thinking (TTCT)?",
+      "question_hi": "टॉरेंस टेस्ट ऑफ क्रिएटिव थिंकिंग (TTCT) द्वारा मापे जाने वाले रचनात्मक चिंतन के चार मुख्य आयाम कौन से हैं?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Fluency (number of ideas), Flexibility (variety of categories), Originality (novelty/uniqueness), and Elaboration (detail and complexity)",
+        "B": "Speed, Accuracy, Neatness, and Grammar",
+        "C": "Memory, Reasoning, Logic, and Arithmetic",
+        "D": "Reading, Writing, Listening, and Speaking"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "प्रवाह (Fluency - विचारों की संख्या), लचीलापन (Flexibility - विविध श्रेणियां), मौलिकता (Originality - नयापन/विशिष्टता), और विस्तार (Elaboration - विवरण)",
+        "B": "गति, सटीकता, स्वच्छता और व्याकरण",
+        "C": "स्मृति, तर्क, तर्कशास्त्र और अंकगणित",
+        "D": "पढ़ना, लिखना, सुनना और बोलना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 11 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "E. Paul Torrance defined creativity through 4 psychometric dimensions: Fluency (sheer quantity of ideas), Flexibility (switching approaches across different domains), Originality (statistical rarity of ideas), and Elaboration (enriching ideas with fine detail).",
+      "explanation_hi": "टॉरेंस के अनुसार रचनात्मकता के 4 प्रमुख तत्व हैं: 1. धाराप्रवाह (Fluency - कई विचार देना), 2. लचीलापन (Flexibility - अलग-अलग दृष्टिकोण), 3. मौलिकता (Originality - अनूठा नया विचार), और 4. विस्तार (Elaboration - विचार को विस्तार देना)।"
     },
     {
       "id": 129,
       "questionNumber": 129,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 12), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 12) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "What is the primary characteristic of an 'Authoritative' (Democratic) classroom management style?",
+      "question_hi": "'प्रामाणिक / लोकतांत्रिक' (Authoritative/Democratic) कक्षा प्रबंधन शैली की प्राथमिक विशेषता क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "High expectations with clear rules balanced with high warmth, open dialogue, empathy, and encouraging student self-discipline",
+        "B": "Strict absolute control with harsh punishments and zero discussion",
+        "C": "Complete freedom without any rules or behavioral expectations",
+        "D": "Ignoring students completely"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "स्पष्ट नियमों और उच्च अपेक्षाओं के साथ उच्च संवेदनशीलता, खुला संवाद, सहानुभूति और छात्र स्व-अनुशासन को बढ़ावा देना",
+        "B": "कठोर दंड और शून्य चर्चा के साथ सख्त पूर्ण नियंत्रण",
+        "C": "बिना किसी नियम या व्यवहारिक अपेक्षाओं के पूर्ण स्वतंत्रता",
+        "D": "छात्रों की पूरी तरह से उपेक्षा करना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 12 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Diana Baumrind's Authoritative style combines high responsiveness with high demandingness: establishing clear expectations while listening respectfully to student input, producing optimal self-esteem and academic achievement.",
+      "explanation_hi": "लोकतांत्रिक या प्रामाणिक (Authoritative) शिक्षक कक्षा में अनुशासन और नियमों को बनाए रखते हैं परंतु साथ ही छात्रों की भावनाओं का सम्मान करते हैं, जिससे बच्चों में आत्मविश्वास और स्व-अनुशासन पैदा होता है।"
     },
     {
       "id": 130,
       "questionNumber": 130,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 13), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 13) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "What is the defining approach of 'Eclectic Counseling' formulated by F.C. Thorne?",
+      "question_hi": "एफ.सी. थॉर्न द्वारा तैयार किए गए 'समन्वित / उदार परामर्श' (Eclectic Counseling) का परिभाषित दृष्टिकोण क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Judiciously selecting and integrating the best techniques from both directive and non-directive counseling to suit the unique needs of the individual client",
+        "B": "Conducting group therapy exclusively via digital computers",
+        "C": "Advising clients strictly based on astrological signs",
+        "D": "Using electric shocks for memory enhancement"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "व्यक्तिगत परामर्शग्राही की अनूठी जरूरतों के अनुरूप निर्देशात्मक और गैर-निर्देशात्मक दोनों परामर्शों से सर्वोत्तम तकनीकों का चयन और एकीकरण करना",
+        "B": "विशेष रूप से डिजिटल कंप्यूटर के माध्यम से समूह चिकित्सा आयोजित करना",
+        "C": "ज्योतिषीय संकेतों के आधार पर ग्राहकों को सलाह देना",
+        "D": "स्मृति बढ़ाने के लिए बिजली के झटके का उपयोग करना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 13 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Eclectic Counseling (F.C. Thorne) rejects rigid dogmatism, choosing harmoniously between directive (counselor-guided) and non-directive (client-centered) methods depending on the client's readiness and problem complexity.",
+      "explanation_hi": "समन्वित परामर्श (Eclectic Counseling) के प्रतिपादक एफ.सी. थॉर्न हैं। यह न तो पूरी तरह निर्देशात्मक होता है और न गैर-निर्देशात्मक; बल्कि छात्र की आवश्यकता अनुसार दोनों विधियों के सर्वोत्तम पक्षों का लचीला समन्वय करता है।"
     },
     {
       "id": 131,
       "questionNumber": 131,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Home to the massive medieval Rohtasgarh Fort and Sher Shah Suri's architectural heritage' (Context 3)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Home to the massive medieval Rohtasgarh Fort and Sher Shah Suri's architectural heritage' (संदर्भ 3)?",
+      "question": "In an aquatic ecosystem (such as an ocean or deep lake), the pyramid of BIOMASS is typically:",
+      "question_hi": "एक जलीय पारिस्थितिकी तंत्र (जैसे समुद्र या गहरी झील) में, जैवभार (Biomass) का पिरामिड आमतौर पर कैसा होता है?",
       "options": {
-        "A": "Rohtas",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Inverted (inverted triangle)",
+        "B": "Always strictly upright",
+        "C": "Horizontal spindle shaped",
+        "D": "Circular bell shaped"
       },
       "options_hi": {
-        "A": "रोहतास",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "उल्टा (Inverted)",
+        "B": "सदैव सीधा",
+        "C": "क्षैतिज तर्कुरूप",
+        "D": "गोलाकार घंटी के आकार का"
       },
       "correctAnswer": "A",
-      "explanation": "Rohtas is renowned across Bihar for: Home to the massive medieval Rohtasgarh Fort and Sher Shah Suri's architectural heritage.",
-      "explanation_hi": "रोहतास का ऐतिहासिक व भौगोलिक महत्व: Home to the massive medieval Rohtasgarh Fort and Sher Shah Suri's architectural heritage।"
+      "explanation": "In aquatic ecosystems, the biomass of microscopic primary producers (phytoplankton) at any instant is small due to short lifespans and rapid turnover, whereas the biomass of long-lived zooplankton and large fishes is much larger, creating an inverted biomass pyramid.",
+      "explanation_hi": "समुद्री या जलीय पारिस्थितिकी तंत्र में जैवभार का पिरामिड उल्टा होता है, क्योंकि सूक्ष्म पादप प्लवक (Phytoplankton) का तात्कालिक जैवभार उन पर निर्भर बड़ी मछलियों की तुलना में कम होता है।"
     },
     {
       "id": 132,
       "questionNumber": 132,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Home to the massive medieval Rohtasgarh Fort and Sher Shah Suri's architectural heritage' (Context 4)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Home to the massive medieval Rohtasgarh Fort and Sher Shah Suri's architectural heritage' (संदर्भ 4)?",
+      "question": "What is the phenomenon called where the concentration of toxic non-biodegradable chemicals (such as DDT or methylmercury) increases at progressively higher trophic levels in a food chain?",
+      "question_hi": "वह परिघटना क्या कहलाती है जिसमें एक खाद्य श्रृंखला में उत्तरोत्तर उच्च पोषी स्तरों पर गैर-बायोडिग्रेडेबल जहरीले रसायनों (जैसे डीडीटी या मिथाइलमर्करी) की सांद्रता बढ़ती जाती है?",
       "options": {
-        "A": "Rohtas",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Biomagnification (Biological magnification)",
+        "B": "Bioremediation",
+        "C": "Eutrophication",
+        "D": "Bioleaching"
       },
       "options_hi": {
-        "A": "रोहतास",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "जैव आवर्धन (Biomagnification)",
+        "B": "जैव उपचार (Bioremediation)",
+        "C": "सुपोषण (Eutrophication)",
+        "D": "जैव निक्षालन (Bioleaching)"
       },
       "correctAnswer": "A",
-      "explanation": "Rohtas is renowned across Bihar for: Home to the massive medieval Rohtasgarh Fort and Sher Shah Suri's architectural heritage.",
-      "explanation_hi": "रोहतास का ऐतिहासिक व भौगोलिक महत्व: Home to the massive medieval Rohtasgarh Fort and Sher Shah Suri's architectural heritage।"
+      "explanation": "Biomagnification refers to the cumulative build-up of fat-soluble, non-biodegradable substances (e.g., DDT in bird eggshells, methylmercury causing Minamata disease) that cannot be metabolized or excreted, increasing exponentially towards apex predators.",
+      "explanation_hi": "जैव-आवर्धन (Biomagnification) वह प्रक्रिया है जिसमें अविघटनकारी विषैले तत्व खाद्य श्रृंखला में निचले स्तर से शीर्ष मांसाहारी जीवों की ओर जाने पर अधिक सांद्रता में जमा होते जाते हैं।"
     },
     {
       "id": 133,
       "questionNumber": 133,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Features the magnificent red sandstone octagonal tomb of Emperor Sher Shah Suri situated in the middle of a lake' (Context 1)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Features the magnificent red sandstone octagonal tomb of Emperor Sher Shah Suri situated in the middle of a lake' (संदर्भ 1)?",
+      "question": "Which international environmental treaty signed in 1987 is universally hailed for successfully phasing out ozone-depleting Chlorofluorocarbons (CFCs)?",
+      "question_hi": "1987 में हस्ताक्षरित कौन सी अंतरराष्ट्रीय पर्यावरण संधि ओजोन परत को नुकसान पहुंचाने वाले क्लोरोफ्लोरोकार्बन (CFC) के चरणबद्ध उन्मूलन के लिए विश्वभर में सफल मानी जाती है?",
       "options": {
-        "A": "Sasaram",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Montreal Protocol",
+        "B": "Kyoto Protocol",
+        "C": "Ramsar Convention",
+        "D": "Basel Convention"
       },
       "options_hi": {
-        "A": "सासाराम",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "मॉन्ट्रियल प्रोटोकॉल (Montreal Protocol)",
+        "B": "क्योटो प्रोटोकॉल",
+        "C": "रामसर सम्मेलन",
+        "D": "बेसल सम्मेलन"
       },
       "correctAnswer": "A",
-      "explanation": "Sasaram is renowned across Bihar for: Features the magnificent red sandstone octagonal tomb of Emperor Sher Shah Suri situated in the middle of a lake.",
-      "explanation_hi": "सासाराम का ऐतिहासिक व भौगोलिक महत्व: Features the magnificent red sandstone octagonal tomb of Emperor Sher Shah Suri situated in the middle of a lake।"
+      "explanation": "The Montreal Protocol on Substances that Deplete the Ozone Layer (agreed on 16 September 1987, celebrated as World Ozone Day) mandated global phaseout of CFCs and halons.",
+      "explanation_hi": "मॉन्ट्रियल प्रोटोकॉल (1987) ओजोन परत के क्षरण को रोकने के लिए किया गया एक ऐतिहासिक समझौता था, जिसके तहत सीएफसी और हेलॉन के उत्पादन पर प्रतिबंध लगाया गया। 16 सितंबर को विश्व ओजोन दिवस मनाया जाता है।"
     },
     {
       "id": 134,
       "questionNumber": 134,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Features the magnificent red sandstone octagonal tomb of Emperor Sher Shah Suri situated in the middle of a lake' (Context 2)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Features the magnificent red sandstone octagonal tomb of Emperor Sher Shah Suri situated in the middle of a lake' (संदर्भ 2)?",
+      "question": "In which unit is the thickness of the stratospheric ozone layer measured?",
+      "question_hi": "समताप मंडल में ओजोन परत की मोटाई किस इकाई में मापी जाती है?",
       "options": {
-        "A": "Sasaram",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Dobson Unit (DU)",
+        "B": "Decibel (dB)",
+        "C": "Becquerel (Bq)",
+        "D": "Candela (cd)"
       },
       "options_hi": {
-        "A": "सासाराम",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "डॉबसन इकाई (Dobson Unit - DU)",
+        "B": "डेसिबल (dB)",
+        "C": "बेकेरल (Bq)",
+        "D": "कैंडेला (cd)"
       },
       "correctAnswer": "A",
-      "explanation": "Sasaram is renowned across Bihar for: Features the magnificent red sandstone octagonal tomb of Emperor Sher Shah Suri situated in the middle of a lake.",
-      "explanation_hi": "सासाराम का ऐतिहासिक व भौगोलिक महत्व: Features the magnificent red sandstone octagonal tomb of Emperor Sher Shah Suri situated in the middle of a lake।"
+      "explanation": "Ozone layer thickness is measured in Dobson Units (DU). One DU represents a layer of pure ozone 0.01 millimeter thick at Standard Temperature and Pressure (STP). An ozone hole is defined when levels drop below 220 DU.",
+      "explanation_hi": "ओजोन परत की सांद्रता और मोटाई को डॉबसन यूनिट (DU) में मापा जाता है। मानक तापमान और दबाव पर 1 डॉबसन यूनिट 0.01 मिमी मोटाई के बराबर होती है।"
     },
     {
       "id": 135,
       "questionNumber": 135,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Features the magnificent red sandstone octagonal tomb of Emperor Sher Shah Suri situated in the middle of a lake' (Context 3)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Features the magnificent red sandstone octagonal tomb of Emperor Sher Shah Suri situated in the middle of a lake' (संदर्भ 3)?",
+      "question": "What is the primary cause of 'Eutrophication' in freshwater lakes and rivers?",
+      "question_hi": "मीठे पानी की झीलों और नदियों में 'सुपोषण' (Eutrophication) का प्राथमिक कारण क्या है?",
       "options": {
-        "A": "Sasaram",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Excessive enrichment of nutrients, particularly Nitrates and Phosphates from agricultural runoff and sewage",
+        "B": "Excessive evaporation during extreme drought",
+        "C": "Deposition of heavy volcanic ash",
+        "D": "Spillage of crude motor petroleum"
       },
       "options_hi": {
-        "A": "सासाराम",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "कृषि अपवाह और सीवेज से पोषक तत्वों, विशेष रूप से नाइट्रेट और फॉस्फेट का अत्यधिक संचय",
+        "B": "अत्यधिक सूखे के दौरान अत्यधिक वाष्पीकरण",
+        "C": "भारी ज्वालामुखी राख का जमाव",
+        "D": "कच्चे मोटर पेट्रोलियम का रिसाव"
       },
       "correctAnswer": "A",
-      "explanation": "Sasaram is renowned across Bihar for: Features the magnificent red sandstone octagonal tomb of Emperor Sher Shah Suri situated in the middle of a lake.",
-      "explanation_hi": "सासाराम का ऐतिहासिक व भौगोलिक महत्व: Features the magnificent red sandstone octagonal tomb of Emperor Sher Shah Suri situated in the middle of a lake।"
+      "explanation": "Eutrophication occurs when excess nitrogen and phosphorus cause explosive algal blooms. When algae die, bacterial decomposition consumes dissolved oxygen, increasing Biochemical Oxygen Demand (BOD) and suffocating aquatic life.",
+      "explanation_hi": "सुपोषण (Eutrophication) तब होता है जब उर्वरकों और सीवेज से नाइट्रेट व फॉस्फेट जलस्रोतों में मिलकर शैवाल प्रस्फुटन (Algal Bloom) पैदा करते हैं, जिससे पानी में घुलित ऑक्सीजन (DO) खत्म हो जाती है और बीओडी (BOD) बढ़ जाता है।"
     },
     {
       "id": 136,
@@ -3570,235 +3570,235 @@ window.predicted_set9 = {
       "id": 137,
       "questionNumber": 137,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Secondary Air Pollutants - Case 4), which statement accurately reflects this principle: 'Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)'?",
-      "question_hi": "पर्यावरण विज्ञान (द्वितीयक वायु प्रदूषक - केस 4) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)'?",
+      "question": "A high value of Biochemical Oxygen Demand (BOD) in a river water sample indicates that:",
+      "question_hi": "नदी के जल के नमूने में उच्च जैव-रासायनिक ऑक्सीजन मांग (BOD) का मान क्या इंगित करता है?",
       "options": {
-        "A": "Accurately validated by ecological principle: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "The water is heavily polluted with biodegradable organic waste",
+        "B": "The water is extremely clean and pure for drinking",
+        "C": "The water contains excessive dissolved mineral salts like calcium",
+        "D": "The water is completely sterile and devoid of any bacteria"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "जल बायोडिग्रेडेबल जैविक कचरे से अत्यधिक प्रदूषित है",
+        "B": "जल पीने के लिए अत्यंत स्वच्छ और शुद्ध है",
+        "C": "जल में कैल्शियम जैसे अत्यधिक घुलित खनिज लवण हैं",
+        "D": "जल पूरी तरह से रोगाणुरहित है और उसमें कोई बैक्टीरिया नहीं है"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN).",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)।"
+      "explanation": "High BOD means aerobic decomposers require a vast amount of oxygen to break down organic matter in the water, signifying heavy organic pollution and depleted dissolved oxygen.",
+      "explanation_hi": "उच्च BOD (Biochemical Oxygen Demand) यह दर्शाता है कि पानी में जैविक कचरे की मात्रा बहुत अधिक है, जिसे विघटित करने के लिए सूक्ष्मजीवों को भारी मात्रा में ऑक्सीजन की आवश्यकता पड़ रही है।"
     },
     {
       "id": 138,
       "questionNumber": 138,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Secondary Air Pollutants - Case 5), which statement accurately reflects this principle: 'Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)'?",
-      "question_hi": "पर्यावरण विज्ञान (द्वितीयक वायु प्रदूषक - केस 5) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)'?",
+      "question": "Which of the following is an example of an 'Ex-Situ' (off-site) biodiversity conservation method?",
+      "question_hi": "निम्नलिखित में से कौन सा 'बाह्य-स्थाने' (Ex-Situ) जैव विविधता संरक्षण पद्धति का एक उदाहरण है?",
       "options": {
-        "A": "Accurately validated by ecological principle: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "Botanical Gardens and Seed Banks",
+        "B": "National Parks",
+        "C": "Wildlife Sanctuaries",
+        "D": "Biosphere Reserves"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "वानस्पतिक उद्यान (Botanical Gardens) और बीज बैंक (Seed Banks)",
+        "B": "राष्ट्रीय उद्यान",
+        "C": "वन्यजीव अभयारण्य",
+        "D": "बायोस्फीयर रिजर्व"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN).",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)।"
+      "explanation": "Ex-situ conservation involves protecting endangered species outside their natural habitat (e.g., botanical gardens, zoos, cryopreservation seed banks). National parks and sanctuaries are in-situ (on-site).",
+      "explanation_hi": "बाह्य-स्थाने (Ex-Situ) संरक्षण में जीवों या वनस्पतियों को उनके प्राकृतिक आवास से बाहर लाकर संरक्षित किया जाता है (जैसे चिड़ियाघर, वनस्पति उद्यान, जीन बैंक)। राष्ट्रीय उद्यान और अभयारण्य स्व-स्थाने (In-Situ) संरक्षण हैं।"
     },
     {
       "id": 139,
       "questionNumber": 139,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Secondary Air Pollutants - Case 6), which statement accurately reflects this principle: 'Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)'?",
-      "question_hi": "पर्यावरण विज्ञान (द्वितीयक वायु प्रदूषक - केस 6) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)'?",
+      "question": "Which of the following regions in India is recognized as a global 'Biodiversity Hotspot'?",
+      "question_hi": "भारत का निम्नलिखित में से कौन सा क्षेत्र एक वैश्विक 'जैव विविधता हॉटस्पॉट' (Biodiversity Hotspot) के रूप में मान्यता प्राप्त है?",
       "options": {
-        "A": "Accurately validated by ecological principle: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "Western Ghats",
+        "B": "Thar Desert of Rajasthan",
+        "C": "Rann of Kutch",
+        "D": "Gangetic Plain of Bihar"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "पश्चिमी घाट (Western Ghats)",
+        "B": "राजस्थान का थार मरुस्थल",
+        "C": "कच्छ का रण",
+        "D": "बिहार का गंगा का मैदान"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN).",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)।"
+      "explanation": "India has four recognized biodiversity hotspots: 1. Western Ghats, 2. Eastern Himalayas, 3. Indo-Burma region, and 4. Sundaland (Nicobar Islands), characterized by exceptional endemism and threatened habitats.",
+      "explanation_hi": "भारत में 4 प्रमुख जैव विविधता हॉटस्पॉट हैं: पश्चिमी घाट, पूर्वी हिमालय, इंडो-बर्मा क्षेत्र और सुंडालैंड (अंडमान निकोबार)। पश्चिमी घाट अपनी समृद्ध जैव विविधता और स्थानिक प्रजातियों के लिए विख्यात है।"
     },
     {
       "id": 140,
       "questionNumber": 140,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Secondary Air Pollutants - Case 7), which statement accurately reflects this principle: 'Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)'?",
-      "question_hi": "पर्यावरण विज्ञान (द्वितीयक वायु प्रदूषक - केस 7) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)'?",
+      "question": "Which comprehensive Indian environmental legislation was enacted under Article 253 of the Constitution following the tragic 1984 Bhopal Gas Disaster?",
+      "question_hi": "1984 की दुखद भोपाल गैस त्रासदी के बाद संविधान के अनुच्छेद 253 के तहत कौन सा व्यापक भारतीय पर्यावरण कानून अधिनियमित किया गया था?",
       "options": {
-        "A": "Accurately validated by ecological principle: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "Environment (Protection) Act, 1986",
+        "B": "Wildlife Protection Act, 1972",
+        "C": "Water (Prevention and Control of Pollution) Act, 1974",
+        "D": "Forest Conservation Act, 1980"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "पर्यावरण (संरक्षण) अधिनियम, 1986",
+        "B": "वन्यजीव संरक्षण अधिनियम, 1972",
+        "C": "जल (प्रदूषण की रोकथाम और नियंत्रण) अधिनियम, 1974",
+        "D": "वन संरक्षण अधिनियम, 1980"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN).",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)।"
+      "explanation": "The Environment (Protection) Act, 1986 serves as an 'umbrella legislation' empowering the central government to coordinate activities and enforce nationwide standards for environmental preservation.",
+      "explanation_hi": "भोपाल गैस त्रासदी (मिथाइल आइसोसाइनेट रिसाव) के बाद 1986 में 'पर्यावरण (संरक्षण) अधिनियम' एक व्यापक 'छाता कानून' (Umbrella Act) के रूप में लागू किया गया।"
     },
     {
       "id": 141,
       "questionNumber": 141,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 2,000 at 5% annual interest for 2 years (Problem 31)?",
-      "question_hi": "2,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 31)?",
+      "question": "In which year was 'Project Tiger' launched in India to save the majestic Bengal tiger from extinction?",
+      "question_hi": "शाही बंगाल टाइगर को विलुप्त होने से बचाने के लिए भारत में 'प्रोजेक्ट टाइगर' किस वर्ष शुरू किया गया था?",
       "options": {
-        "A": "Rs. 200",
-        "B": "Rs. 250",
-        "C": "Rs. 150",
-        "D": "Rs. 300"
+        "A": "1973 (launched at Corbett National Park)",
+        "B": "1980",
+        "C": "1992",
+        "D": "1965"
       },
       "options_hi": {
-        "A": "200 रुपये",
-        "B": "250 रुपये",
-        "C": "150 रुपये",
-        "D": "300 रुपये"
+        "A": "1973 (कॉर्बेट राष्ट्रीय उद्यान से शुरू)",
+        "B": "1980",
+        "C": "1992",
+        "D": "1965"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (2000 * 5 * 2) / 100 = Rs. 200.",
-      "explanation_hi": "साधारण ब्याज = (2000 * 5 * 2) / 100 = 200 रुपये।"
+      "explanation": "Project Tiger was launched on 1 April 1973 under Prime Minister Indira Gandhi at Jim Corbett National Park in Uttarakhand to ensure a viable population of tigers in their natural habitats.",
+      "explanation_hi": "प्रोजेक्ट टाइगर 1 अप्रैल 1973 को जिम कॉर्बेट नेशनल पार्क से शुरू किया गया था, जिसने भारत में बाघों की घटती संख्या को रोकने और पुनर्प्राप्त करने में बड़ी सफलता हासिल की।"
     },
     {
       "id": 142,
       "questionNumber": 142,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 3,000 at 5% annual interest for 2 years (Problem 32)?",
-      "question_hi": "3,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 32)?",
+      "question": "What are the two primary atmospheric air pollutants responsible for causing 'Acid Rain'?",
+      "question_hi": "'अम्लीय वर्षा' (Acid Rain) के लिए मुख्य रूप से कौन से दो वायुमंडलीय प्रदूषक जिम्मेदार हैं?",
       "options": {
-        "A": "Rs. 300",
-        "B": "Rs. 350",
-        "C": "Rs. 250",
-        "D": "Rs. 400"
+        "A": "Sulfur dioxide (SO2) and Nitrogen oxides (NOx)",
+        "B": "Carbon dioxide (CO2) and Carbon monoxide (CO)",
+        "C": "Methane (CH4) and Ozone (O3)",
+        "D": "Chlorofluorocarbons (CFCs) and Ammonia (NH3)"
       },
       "options_hi": {
-        "A": "300 रुपये",
-        "B": "350 रुपये",
-        "C": "250 रुपये",
-        "D": "400 रुपये"
+        "A": "सल्फर डाइऑक्साइड (SO2) और नाइट्रोजन के ऑक्साइड (NOx)",
+        "B": "कार्बन डाइऑक्साइड (CO2) और कार्बन मोनोऑक्साइड (CO)",
+        "C": "मीथेन (CH4) और ओजोन (O3)",
+        "D": "क्लोरोफ्लोरोकार्बन (CFCs) और अमोनिया (NH3)"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (3000 * 5 * 2) / 100 = Rs. 300.",
-      "explanation_hi": "साधारण ब्याज = (3000 * 5 * 2) / 100 = 300 रुपये।"
+      "explanation": "SO2 and NOx emitted from fossil fuel combustion react with water vapor and oxygen in clouds to form Sulfuric acid (H2SO4) and Nitric acid (HNO3), producing precipitation with a pH below 5.6.",
+      "explanation_hi": "सल्फर डाइऑक्साइड (SO2) और नाइट्रोजन ऑक्साइड (NOx) वायुमंडल में नमी के साथ क्रिया करके सल्फ्यूरिक और नाइट्रिक एसिड बनाते हैं, जिससे अम्लीय वर्षा (pH 5.6 से कम) होती है।"
     },
     {
       "id": 143,
       "questionNumber": 143,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 4,000 at 5% annual interest for 2 years (Problem 33)?",
-      "question_hi": "4,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 33)?",
+      "question": "The 'Ramsar Convention' signed in Iran in 1971 is an intergovernmental treaty dedicated to the conservation of:",
+      "question_hi": "1971 में ईरान में हस्ताक्षरित 'रामसर सम्मेलन' किसके संरक्षण के लिए समर्पित एक अंतर-सरकारी संधि है?",
       "options": {
-        "A": "Rs. 400",
-        "B": "Rs. 450",
-        "C": "Rs. 350",
-        "D": "Rs. 500"
+        "A": "Wetlands of international ecological importance",
+        "B": "Endangered desert mammals",
+        "C": "High-altitude mountain glaciers",
+        "D": "Radioactive atomic minerals"
       },
       "options_hi": {
-        "A": "400 रुपये",
-        "B": "450 रुपये",
-        "C": "350 रुपये",
-        "D": "500 रुपये"
+        "A": "अंतर्राष्ट्रीय महत्व की आर्द्रभूमियां (Wetlands)",
+        "B": "लुप्तप्राय मरुस्थलीय स्तनधारी",
+        "C": "उच्च पर्वतीय हिमनद (Glaciers)",
+        "D": "रेडियोधर्मी परमाणु खनिज"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (4000 * 5 * 2) / 100 = Rs. 400.",
-      "explanation_hi": "साधारण ब्याज = (4000 * 5 * 2) / 100 = 400 रुपये।"
+      "explanation": "The Ramsar Convention (signed on 2 February 1971, World Wetlands Day) provides the framework for national action and international cooperation for the conservation and wise use of wetlands.",
+      "explanation_hi": "रामसर सम्मेलन (1971) का उद्देश्य झीलों, दलदलों और तटीय लैगून जैसी अंतर्राष्ट्रीय महत्व की आर्द्रभूमियों (Wetlands) का संरक्षण करना है। 2 फरवरी को विश्व आर्द्रभूमि दिवस मनाया जाता है।"
     },
     {
       "id": 144,
       "questionNumber": 144,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 5,000 at 5% annual interest for 2 years (Problem 34)?",
-      "question_hi": "5,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 34)?",
+      "question": "Which of the following is considered the MOST abundant naturally occurring greenhouse gas in the Earth's atmosphere?",
+      "question_hi": "पृथ्वी के वायुमंडल में निम्नलिखित में से कौन सी सबसे प्रचुर मात्रा में पाई जाने वाली प्राकृतिक ग्रीनहाउस गैस है?",
       "options": {
-        "A": "Rs. 500",
-        "B": "Rs. 550",
-        "C": "Rs. 450",
-        "D": "Rs. 600"
+        "A": "Water Vapor (H2O)",
+        "B": "Carbon dioxide (CO2)",
+        "C": "Methane (CH4)",
+        "D": "Nitrous oxide (N2O)"
       },
       "options_hi": {
-        "A": "500 रुपये",
-        "B": "550 रुपये",
-        "C": "450 रुपये",
-        "D": "600 रुपये"
+        "A": "जलवाष्प (Water Vapor)",
+        "B": "कार्बन डाइऑक्साइड (CO2)",
+        "C": "मीथेन (CH4)",
+        "D": "नाइट्रस ऑक्साइड (N2O)"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (5000 * 5 * 2) / 100 = Rs. 500.",
-      "explanation_hi": "साधारण ब्याज = (5000 * 5 * 2) / 100 = 500 रुपये।"
+      "explanation": "Water vapor is the largest natural contributor to the greenhouse effect (responsible for 36-70% of the greenhouse effect). However, CO2 is the primary greenhouse gas driven by human industrial emissions.",
+      "explanation_hi": "पृथ्वी के वायुमंडल में जलवाष्प (Water vapor) सबसे प्रचुर मात्रा में पाई जाने वाली ग्रीनहाउस गैस है, जो प्राकृतिक ग्रीनहाउस प्रभाव का लगभग 60% हिस्सा बनाती है।"
     },
     {
       "id": 145,
       "questionNumber": 145,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 6,000 at 5% annual interest for 2 years (Problem 35)?",
-      "question_hi": "6,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 35)?",
+      "question": "Which gas possesses the HIGHEST Global Warming Potential (GWP) per molecule among the regulated greenhouse gases?",
+      "question_hi": "विनियमित ग्रीनहाउस गैसों में प्रति अणु उच्चतम ग्लोबल वार्मिंग क्षमता (GWP) किस गैस की है?",
       "options": {
-        "A": "Rs. 600",
-        "B": "Rs. 650",
-        "C": "Rs. 550",
-        "D": "Rs. 700"
+        "A": "Sulfur hexafluoride (SF6)",
+        "B": "Carbon dioxide (CO2)",
+        "C": "Methane (CH4)",
+        "D": "Nitrous oxide (N2O)"
       },
       "options_hi": {
-        "A": "600 रुपये",
-        "B": "650 रुपये",
-        "C": "550 रुपये",
-        "D": "700 रुपये"
+        "A": "सल्फर हेक्साफ्लोराइड (SF6)",
+        "B": "कार्बन डाइऑक्साइड (CO2)",
+        "C": "मीथेन (CH4)",
+        "D": "नाइट्रस ऑक्साइड (N2O)"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (6000 * 5 * 2) / 100 = Rs. 600.",
-      "explanation_hi": "साधारण ब्याज = (6000 * 5 * 2) / 100 = 600 रुपये।"
+      "explanation": "Sulfur hexafluoride (SF6), used as an electrical insulator in circuit breakers, has a GWP of approximately 23,500 times that of CO2 over a 100-year time horizon, making it the most potent greenhouse gas known.",
+      "explanation_hi": "सल्फर हेक्साफ्लोराइड (SF6) की ग्लोबल वार्मिंग क्षमता (GWP) CO2 से लगभग 23,500 गुना अधिक है, जो इसे सबसे शक्तिशाली ग्रीनहाउस गैस बनाती है।"
     },
     {
       "id": 146,

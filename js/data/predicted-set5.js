@@ -294,105 +294,105 @@ window.predicted_set5 = {
       "id": 11,
       "questionNumber": 11,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 3-stage pipeline executing 200 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 200 स्वतंत्र निर्देशों को निष्पादित करने वाली 3-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "What is the worst-case time complexity of building a Binary Max-Heap from an unsorted array of n elements?",
+      "question_hi": "n तत्वों के एक अव्यवस्थित एरे से बाइनरी मैक्स-हीप बनाने (Build-Heap) की सबसे खराब स्थिति (worst-case) समय जटिलता क्या है?",
       "options": {
-        "A": "2.97",
-        "B": "5",
-        "C": "1.49",
-        "D": "4.46"
+        "A": "O(n)",
+        "B": "O(n log n)",
+        "C": "O(n^2)",
+        "D": "O(log n)"
       },
       "options_hi": {
-        "A": "2.97",
-        "B": "5",
-        "C": "1.49",
-        "D": "4.46"
+        "A": "O(n)",
+        "B": "O(n log n)",
+        "C": "O(n^2)",
+        "D": "O(log n)"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (200 * 3) / (3 + 200 - 1) = (600) / 202 = 2.97.",
-      "explanation_hi": "स्पीडअप = (200 * 3) / 202 = 2.97 प्राप्त होता है।"
+      "explanation": "While inserting n elements one-by-one takes O(n log n), the bottom-up heapify algorithm (Build-Heap) sums the series of height-based operations: sum_{h=0}^{log n} (n / 2^(h+1)) * O(h) = O(n * sum (h / 2^h)) = O(n) linear time.",
+      "explanation_hi": "यद्यपि एक-एक करके तत्व डालने में O(n log n) समय लगता है, लेकिन बॉटम-अप बिल्ड-हीप (Build-Heap) प्रक्रिया का कुल समय O(n) रैखिक (Linear) होता है क्योंकि निचले स्तरों के अधिकांश नोड्स को बहुत कम शिफ्टिंग की आवश्यकता होती है।"
     },
     {
       "id": 12,
       "questionNumber": 12,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 3-stage pipeline executing 500 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 500 स्वतंत्र निर्देशों को निष्पादित करने वाली 3-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "What data structure is used in Kruskal's Algorithm to efficiently detect and prevent cycles while forming a Minimum Spanning Tree (MST)?",
+      "question_hi": "न्यूनतम स्पैनिंग ट्री (MST) बनाते समय चक्रों (cycles) का कुशलतापूर्वक पता लगाने और उन्हें रोकने के लिए क्रुस्कल एल्गोरिदम में किस डेटा संरचना का उपयोग किया जाता है?",
       "options": {
-        "A": "2.99",
-        "B": "5",
-        "C": "1.5",
-        "D": "4.49"
+        "A": "Disjoint Set Union (DSU / Union-Find)",
+        "B": "Adjacency Matrix",
+        "C": "Segment Tree",
+        "D": "Binary Search Tree"
       },
       "options_hi": {
-        "A": "2.99",
-        "B": "5",
-        "C": "1.5",
-        "D": "4.49"
+        "A": "डिसजॉइंट सेट यूनियन (Disjoint Set Union / Union-Find)",
+        "B": "एडजेसेंसी मैट्रिक्स",
+        "C": "सेगमेंट ट्री",
+        "D": "बाइनरी सर्च ट्री"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (500 * 3) / (3 + 500 - 1) = (1500) / 502 = 2.99.",
-      "explanation_hi": "स्पीडअप = (500 * 3) / 502 = 2.99 प्राप्त होता है।"
+      "explanation": "Kruskal's algorithm sorts all edges by weight and adds edges if their endpoints belong to different connected components. Disjoint Set Union (DSU) with path compression and union by rank performs this check in near-constant alpha(V) amortized time.",
+      "explanation_hi": "क्रुस्कल एल्गोरिदम किनारों को भार के अनुसार छांटता है और चक्रों से बचने के लिए Union-Find (DSU) डेटा संरचना का उपयोग करता है। यह पाथ कम्प्रेशन के साथ लगभग स्थिर समय में यह जांचता है कि दो शीर्ष पहले से एक ही घटक में हैं या नहीं।"
     },
     {
       "id": 13,
       "questionNumber": 13,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क्स",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 3-stage pipeline executing 1000 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 1000 स्वतंत्र निर्देशों को निष्पादित करने वाली 3-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "In error detection, how does the Cyclic Redundancy Check (CRC) generate the frame check sequence (FCS)?",
+      "question_hi": "त्रुटि पहचान (Error Detection) में, चक्रीय अतिरेक जांच (CRC) फ्रेम चेक अनुक्रम (FCS) कैसे उत्पन्न करती है?",
       "options": {
-        "A": "2.99",
-        "B": "5",
-        "C": "1.5",
-        "D": "4.49"
+        "A": "By performing modulo-2 binary polynomial division of the appended data by a predetermined generator polynomial",
+        "B": "By calculating the arithmetic sum of all 16-bit words and inverting the bits",
+        "C": "By counting total odd/even parity across 2D matrices",
+        "D": "By hashing the frame payload using the SHA-256 algorithm"
       },
       "options_hi": {
-        "A": "2.99",
-        "B": "5",
-        "C": "1.5",
-        "D": "4.49"
+        "A": "पूर्व निर्धारित जनरेटर बहुपद द्वारा जोड़े गए डेटा का मॉड्यूलो-2 बाइनरी बहुपद विभाजन करके",
+        "B": "सभी 16-बिट शब्दों के अंकगणितीय योग की गणना करके और बिट्स को उलट कर",
+        "C": "2D मैट्रिक्स में कुल विषम/सम पैरिटी की गिनती करके",
+        "D": "SHA-256 एल्गोरिदम का उपयोग करके फ्रेम पेलोड को हैश करके"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (1000 * 3) / (3 + 1000 - 1) = (3000) / 1002 = 2.99.",
-      "explanation_hi": "स्पीडअप = (1000 * 3) / 1002 = 2.99 प्राप्त होता है।"
+      "explanation": "CRC treats bit strings as polynomials with coefficients in GF(2). The data polynomial is multiplied by x^k and divided by a generator polynomial G(x) using modulo-2 arithmetic (XOR). The remainder of this division becomes the FCS.",
+      "explanation_hi": "CRC में डेटा बिट्स को एक जनरेटर बहुपद (Generator Polynomial) से मॉड्यूलो-2 विभाजन (XOR ऑपरेशन) द्वारा विभाजित किया जाता है। इस विभाजन का शेषफल ही फ्रेम चेक अनुक्रम (FCS / CRC कोड) बनता है।"
     },
     {
       "id": 14,
       "questionNumber": 14,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क्स",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 3-stage pipeline executing 5000 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 5000 स्वतंत्र निर्देशों को निष्पादित करने वाली 3-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "What is the maximum window size allowed for the sender in a Go-Back-N sliding window protocol with an m-bit sequence number?",
+      "question_hi": "m-बिट अनुक्रम संख्या वाले Go-Back-N स्लाइडिंग विंडो प्रोटोकॉल में प्रेषक (sender) के लिए अनुमत अधिकतम विंडो आकार क्या है?",
       "options": {
-        "A": "3.0",
-        "B": "5",
-        "C": "1.5",
-        "D": "4.5"
+        "A": "2^m - 1",
+        "B": "2^m",
+        "C": "2^(m-1)",
+        "D": "m"
       },
       "options_hi": {
-        "A": "3.0",
-        "B": "5",
-        "C": "1.5",
-        "D": "4.5"
+        "A": "2^m - 1",
+        "B": "2^m",
+        "C": "2^(m-1)",
+        "D": "m"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (5000 * 3) / (3 + 5000 - 1) = (15000) / 5002 = 3.0.",
-      "explanation_hi": "स्पीडअप = (5000 * 3) / 5002 = 3.0 प्राप्त होता है।"
+      "explanation": "In Go-Back-N, the sender window size must be strictly less than 2^m (i.e., at most 2^m - 1) to prevent the receiver from confusing retransmitted old frames with new frames when all acknowledgments are lost.",
+      "explanation_hi": "Go-Back-N प्रोटोकॉल में प्रेषक की विंडो का अधिकतम आकार 2^m - 1 होना चाहिए। यदि विंडो 2^m होगी, तो सभी ACK खो जाने पर रिसीवर पुराने पैकेट के पुनर्संचरण और नए पैकेट के बीच अंतर नहीं कर पाएगा।"
     },
     {
       "id": 15,
@@ -424,105 +424,105 @@ window.predicted_set5 = {
       "id": 16,
       "questionNumber": 16,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क्स",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 4-stage pipeline executing 200 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 200 स्वतंत्र निर्देशों को निष्पादित करने वाली 4-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "What are the four successive messages exchanged during the DHCP process to assign an IP address to a client host?",
+      "question_hi": "क्लाइंट होस्ट को एक IP पता सौंपने के लिए DHCP प्रक्रिया के दौरान आदान-प्रदान किए गए चार क्रमिक संदेश कौन से हैं?",
       "options": {
-        "A": "3.94",
-        "B": "6",
-        "C": "1.97",
-        "D": "5.91"
+        "A": "Discover, Offer, Request, Acknowledge (DORA)",
+        "B": "Request, Acknowledge, Connect, Close",
+        "C": "SYN, SYN-ACK, ACK, FIN",
+        "D": "Probe, Assign, Bind, Release"
       },
       "options_hi": {
-        "A": "3.94",
-        "B": "6",
-        "C": "1.97",
-        "D": "5.91"
+        "A": "डिस्कवर, ऑफर, रिक्वेस्ट, एक्नॉलेज (DORA)",
+        "B": "रिक्वेस्ट, एक्नॉलेज, कनेक्ट, क्लोज",
+        "C": "SYN, SYN-ACK, ACK, FIN",
+        "D": "प्रोब, असाइन, बाइंड, रिलीज़"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (200 * 4) / (4 + 200 - 1) = (800) / 203 = 3.94.",
-      "explanation_hi": "स्पीडअप = (200 * 4) / 203 = 3.94 प्राप्त होता है।"
+      "explanation": "The DHCP DORA exchange: 1) DHCPDISCOVER (client broadcast to find server), 2) DHCPOFFER (server offers IP configuration), 3) DHCPREQUEST (client formally requests the offered IP), 4) DHCPACK (server confirms lease).",
+      "explanation_hi": "DHCP प्रक्रिया DORA के रूप में जानी जाती है: 1. DHCP Discover (क्लाइंट द्वारा सर्वर की खोज), 2. DHCP Offer (सर्वर द्वारा IP का प्रस्ताव), 3. DHCP Request (क्लाइंट द्वारा IP का अनुरोध), 4. DHCP Acknowledge (सर्वर द्वारा स्वीकृति)।"
     },
     {
       "id": 17,
       "questionNumber": 17,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस मैनेजमेंट सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 4-stage pipeline executing 500 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 500 स्वतंत्र निर्देशों को निष्पादित करने वाली 4-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "What is the primary condition for a relational schema decomposition to be 'Lossless-Join'?",
+      "question_hi": "रिलेशनल स्कीमा अपघटन (Decomposition) के 'हानिरहित जुड़ाव' (Lossless-Join) होने की प्राथमिक शर्त क्या है?",
       "options": {
-        "A": "3.98",
-        "B": "6",
-        "C": "1.99",
-        "D": "5.97"
+        "A": "The natural join of the decomposed relations must recreate the exact original relation without producing spurious tuples",
+        "B": "Both relations must contain identical primary keys",
+        "C": "The union of attributes must exclude all candidate keys",
+        "D": "Foreign key cascade update must be disabled"
       },
       "options_hi": {
-        "A": "3.98",
-        "B": "6",
-        "C": "1.99",
-        "D": "5.97"
+        "A": "अपघटित संबंधों का प्राकृतिक जुड़ाव (Natural Join) बिना किसी अतिरिक्त अमान्य टुपल (spurious tuple) के मूल संबंध को सटीक रूप से पुनः निर्मित करे",
+        "B": "दोनों संबंधों में समान प्राथमिक कुंजियाँ होनी चाहिए",
+        "C": "विशेषताओं के संघ में सभी उम्मीदवार कुंजियों को बाहर रखा जाना चाहिए",
+        "D": "फॉरेन की कास्केड अपडेट अक्षम होना चाहिए"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (500 * 4) / (4 + 500 - 1) = (2000) / 503 = 3.98.",
-      "explanation_hi": "स्पीडअप = (500 * 4) / 503 = 3.98 प्राप्त होता है।"
+      "explanation": "A decomposition of R into R1 and R2 is lossless-join if R1 ⋈ R2 = R. Formally, this holds if and only if the common attributes (R1 ∩ R2) form a superkey of R1 or a superkey of R2.",
+      "explanation_hi": "हानिरहित जुड़ाव (Lossless Join) अपघटन वह है जिसमें अपघटित तालिकाओं का नेचुरल जॉइन करने पर मूल तालिका ठीक वैसी ही प्राप्त होती है और कोई फर्जी रिकॉर्ड (spurious tuple) उत्पन्न नहीं होता। (R1 ∩ R2 -> R1 या R2 एक सुपरकी होनी चाहिए)।"
     },
     {
       "id": 18,
       "questionNumber": 18,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस मैनेजमेंट सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 4-stage pipeline executing 1000 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 1000 स्वतंत्र निर्देशों को निष्पादित करने वाली 4-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "In database concurrency control, how does the Strict Two-Phase Locking (Strict 2PL) protocol prevent cascading rollbacks?",
+      "question_hi": "डेटाबेस समवर्ती नियंत्रण में, स्ट्रिक्ट टू-फेज लॉकिंग (Strict 2PL) प्रोटोकॉल कैस्केडिंग रोलबैक को कैसे रोकता है?",
       "options": {
-        "A": "3.99",
-        "B": "6",
-        "C": "2.0",
-        "D": "5.99"
+        "A": "All exclusive (write) locks held by a transaction must be retained until the transaction commits or aborts",
+        "B": "Transactions acquire all locks simultaneously before beginning execution",
+        "C": "Shared locks are upgraded to exclusive locks only during the shrinking phase",
+        "D": "Deadlocks are resolved using timestamp ordering"
       },
       "options_hi": {
-        "A": "3.99",
-        "B": "6",
-        "C": "2.0",
-        "D": "5.99"
+        "A": "लेनदेन द्वारा धारित सभी एक्सक्लूसिव (राइट) लॉक को लेनदेन के कमिट या अबॉर्ट होने तक बनाए रखा जाना चाहिए",
+        "B": "लेनदेन निष्पादन शुरू करने से पहले एक साथ सभी लॉक प्राप्त करते हैं",
+        "C": "शेयर्ड लॉक को केवल सिकुड़ते चरण (shrinking phase) के दौरान एक्सक्लूसिव लॉक में अपग्रेड किया जाता है",
+        "D": "टाइमस्टैम्प ऑर्डरिंग का उपयोग करके डेडलॉक हल किए जाते हैं"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (1000 * 4) / (4 + 1000 - 1) = (4000) / 1003 = 3.99.",
-      "explanation_hi": "स्पीडअप = (1000 * 4) / 1003 = 3.99 प्राप्त होता है।"
+      "explanation": "Strict 2PL requires that all exclusive locks (write locks) acquired by a transaction are held until the transaction finishes (commits or aborts). This guarantees that no other transaction can read uncommitted data, preventing dirty reads and cascading aborts.",
+      "explanation_hi": "स्ट्रिक्ट 2PL प्रोटोकॉल यह आदेश देता है कि किसी ट्रांजेक्शन द्वारा लिए गए सभी राइट (Exclusive) लॉक उसके कमिट या रोलबैक होने तक नहीं छोड़े जाएंगे। इससे कोई अन्य ट्रांजेक्शन अनकमिटेड डेटा नहीं पढ़ पाता और कैस्केडिंग अबॉर्ट की संभावना खत्म हो जाती है।"
     },
     {
       "id": 19,
       "questionNumber": 19,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 4-stage pipeline executing 5000 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 5000 स्वतंत्र निर्देशों को निष्पादित करने वाली 4-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "In C++, in what order are constructors and destructors invoked when an object of a derived class is created and subsequently destroyed?",
+      "question_hi": "C++ में जब किसी व्युत्पन्न वर्ग (derived class) का ऑब्जेक्ट बनाया जाता है और बाद में नष्ट किया जाता है, तो कंस्ट्रक्टर और डिस्ट्रक्टर किस क्रम में लागू होते हैं?",
       "options": {
-        "A": "4.0",
-        "B": "6",
-        "C": "2.0",
-        "D": "6.0"
+        "A": "Constructors: Base then Derived; Destructors: Derived then Base",
+        "B": "Constructors: Derived then Base; Destructors: Base then Derived",
+        "C": "Constructors: Base then Derived; Destructors: Base then Derived",
+        "D": "Constructors: Derived then Base; Destructors: Derived then Base"
       },
       "options_hi": {
-        "A": "4.0",
-        "B": "6",
-        "C": "2.0",
-        "D": "6.0"
+        "A": "कंस्ट्रक्टर: पहले बेस फिर डिराइव्ड; डिस्ट्रक्टर: पहले डिराइव्ड फिर बेस",
+        "B": "कंस्ट्रक्टर: पहले डिराइव्ड फिर बेस; डिस्ट्रक्टर: पहले बेस फिर डिराइव्ड",
+        "C": "कंस्ट्रक्टर: पहले बेस फिर डिराइव्ड; डिस्ट्रक्टर: पहले बेस फिर डिराइव्ड",
+        "D": "कंस्ट्रक्टर: पहले डिराइव्ड फिर बेस; डिस्ट्रक्टर: पहले डिराइव्ड फिर बेस"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (5000 * 4) / (4 + 5000 - 1) = (20000) / 5003 = 4.0.",
-      "explanation_hi": "स्पीडअप = (5000 * 4) / 5003 = 4.0 प्राप्त होता है।"
+      "explanation": "Upon creation, base class subobjects must be initialized before derived components (Base constructor -> Derived constructor). Destruction occurs in exact reverse order (Derived destructor -> Base destructor) to safely tear down dependent resources.",
+      "explanation_hi": "C++ में इनहेरिटेंस के दौरान: कंस्ट्रक्टर बेस क्लास से शुरू होकर डिराइव्ड क्लास की ओर चलते हैं (Base -> Derived)। जबकि डिस्ट्रक्टर ठीक इसके विपरीत क्रम में चलते हैं (Derived -> Base)।"
     },
     {
       "id": 20,
@@ -554,105 +554,105 @@ window.predicted_set5 = {
       "id": 21,
       "questionNumber": 21,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Software Engineering",
+      "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 5-stage pipeline executing 200 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 200 स्वतंत्र निर्देशों को निष्पादित करने वाली 5-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "What is the key distinguishing characteristic of Boehm's Spiral Model of software development?",
+      "question_hi": "सॉफ्टवेयर विकास के बोहम के स्पाइरल मॉडल (Spiral Model) की प्रमुख विशिष्ट विशेषता क्या है?",
       "options": {
-        "A": "4.9",
-        "B": "7",
-        "C": "2.45",
-        "D": "7.35"
+        "A": "Explicit risk analysis and management at every iteration cycle",
+        "B": "Strict non-overlapping sequential phases",
+        "C": "Complete absence of documentation",
+        "D": "Immediate code writing without architectural planning"
       },
       "options_hi": {
-        "A": "4.9",
-        "B": "7",
-        "C": "2.45",
-        "D": "7.35"
+        "A": "प्रत्येक पुनरावृत्ति चक्र में स्पष्ट जोखिम विश्लेषण (Risk Analysis) और प्रबंधन",
+        "B": "सख्त गैर-अतिव्यापी अनुक्रमिक चरण",
+        "C": "दस्तावेज़ीकरण का पूर्ण अभाव",
+        "D": "स्थापत्य योजना के बिना तत्काल कोड लेखन"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (200 * 5) / (5 + 200 - 1) = (1000) / 204 = 4.9.",
-      "explanation_hi": "स्पीडअप = (200 * 5) / 204 = 4.9 प्राप्त होता है।"
+      "explanation": "Boehm's Spiral Model combines iterative prototyping with the systematic control of the Waterfall model. Its defining differentiator is explicit, formal risk analysis at the start of each of its four radial quadrants.",
+      "explanation_hi": "स्पाइरल मॉडल (Spiral Model) की सबसे बड़ी खासियत इसका स्पष्ट 'जोखिम विश्लेषण' (Risk Analysis) है। प्रत्येक चक्र (स्पिरल) में प्रोटोटाइपिंग और जोखिम मूल्यांकन के बाद ही विकास आगे बढ़ाया जाता है।"
     },
     {
       "id": 22,
       "questionNumber": 22,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब आधारित अनुप्रयोग विकास",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 5-stage pipeline executing 500 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 500 स्वतंत्र निर्देशों को निष्पादित करने वाली 5-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "Which HTTP response status code indicates that a client requested a resource that exists but the client is forbidden from accessing due to lack of permissions?",
+      "question_hi": "कौन सा HTTP प्रतिक्रिया स्थिति कोड (Status Code) इंगित करता है कि क्लाइंट ने उस संसाधन का अनुरोध किया जो मौजूद है लेकिन अनुमतियों की कमी के कारण क्लाइंट को एक्सेस करने से प्रतिबंधित (Forbidden) किया गया है?",
       "options": {
-        "A": "4.96",
-        "B": "7",
-        "C": "2.48",
-        "D": "7.44"
+        "A": "403 Forbidden",
+        "B": "401 Unauthorized",
+        "C": "404 Not Found",
+        "D": "500 Internal Server Error"
       },
       "options_hi": {
-        "A": "4.96",
-        "B": "7",
-        "C": "2.48",
-        "D": "7.44"
+        "A": "403 Forbidden",
+        "B": "401 Unauthorized",
+        "C": "404 Not Found",
+        "D": "500 Internal Server Error"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (500 * 5) / (5 + 500 - 1) = (2500) / 504 = 4.96.",
-      "explanation_hi": "स्पीडअप = (500 * 5) / 504 = 4.96 प्राप्त होता है।"
+      "explanation": "403 Forbidden means the server understood the request and authenticates the client, but refuses to authorize access. In contrast, 401 Unauthorized means the request lacks valid authentication credentials.",
+      "explanation_hi": "403 Forbidden कोड का अर्थ है कि सर्वर अनुरोध को समझता है लेकिन क्लाइंट के पास उस संसाधन तक पहुँचने का अधिकार (अनुमति) नहीं है। 401 Unauthorized का अर्थ क्रेडेंशियल का अभाव होता है।"
     },
     {
       "id": 23,
       "questionNumber": 23,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 5-stage pipeline executing 1000 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 1000 स्वतंत्र निर्देशों को निष्पादित करने वाली 5-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "Which transport-layer messaging protocol is widely adopted in IoT systems for its lightweight publish/subscribe architecture over TCP?",
+      "question_hi": "टीसीपी पर अपने हल्के पब्लिश/सब्सक्राइब (Publish/Subscribe) आर्किटेक्चर के लिए IoT सिस्टम में कौन सा मैसेजिंग प्रोटोकॉल व्यापक रूप से अपनाया जाता है?",
       "options": {
-        "A": "4.98",
-        "B": "7",
-        "C": "2.49",
-        "D": "7.47"
+        "A": "MQTT (Message Queuing Telemetry Transport)",
+        "B": "SNMP (Simple Network Management Protocol)",
+        "C": "FTP (File Transfer Protocol)",
+        "D": "SMTP (Simple Mail Transfer Protocol)"
       },
       "options_hi": {
-        "A": "4.98",
-        "B": "7",
-        "C": "2.49",
-        "D": "7.47"
+        "A": "MQTT (मैसेज क्यूइंग टेलीमेट्री ट्रांसपोर्ट)",
+        "B": "SNMP (सिंपल नेटवर्क मैनेजमेंट प्रोटोकॉल)",
+        "C": "FTP (फाइल ट्रांसफर प्रोटोकॉल)",
+        "D": "SMTP (सिंपल मेल ट्रांसफर प्रोटोकॉल)"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (1000 * 5) / (5 + 1000 - 1) = (5000) / 1004 = 4.98.",
-      "explanation_hi": "स्पीडअप = (1000 * 5) / 1004 = 4.98 प्राप्त होता है।"
+      "explanation": "MQTT is an ISO standard (ISO/IEC 20922) publish-subscribe network protocol designed for constrained resource devices and low-bandwidth, high-latency or unreliable networks over TCP.",
+      "explanation_hi": "MQTT (मैसेज क्यूइंग टेलीमेट्री ट्रांसपोर्ट) एक हल्का पब्लिश/सब्सक्राइब मैसेजिंग प्रोटोकॉल है जिसे न्यूनतम नेटवर्क बैंडविड्थ और सीमित हार्डवेयर वाले IoT सेंसर उपकरणों के लिए डिज़ाइन किया गया है।"
     },
     {
       "id": 24,
       "questionNumber": 24,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Artificial Intelligence",
+      "topic_hi": "आर्टिफिशियल इंटेलिजेंस",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 5-stage pipeline executing 5000 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 5000 स्वतंत्र निर्देशों को निष्पादित करने वाली 5-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "In the A* heuristic search algorithm, what condition must the heuristic function h(n) satisfy to guarantee that the search will always find an optimal shortest path?",
+      "question_hi": "A* ह्यूरिस्टिक खोज एल्गोरिदम में, ह्यूरिस्टिक फ़ंक्शन h(n) को किस शर्त को पूरा करना चाहिए ताकि यह गारंटी दी जा सके कि खोज हमेशा एक इष्टतम सबसे छोटा रास्ता खोजेगी?",
       "options": {
-        "A": "5.0",
-        "B": "7",
-        "C": "2.5",
-        "D": "7.5"
+        "A": "Admissibility: h(n) must never overestimate the true cost to reach the nearest goal node (h(n) <= h*(n))",
+        "B": "Monotonicity: h(n) must equal zero for all non-terminal states",
+        "C": "Linearity: h(n) must increase exponentially with tree depth",
+        "D": "Completeness: h(n) must evaluate all nodes in the open list simultaneously"
       },
       "options_hi": {
-        "A": "5.0",
-        "B": "7",
-        "C": "2.5",
-        "D": "7.5"
+        "A": "स्वीकार्यता (Admissibility): h(n) को लक्ष्य नोड तक पहुँचने की वास्तविक लागत से अधिक का अनुमान कभी नहीं लगाना चाहिए (h(n) <= h*(n))",
+        "B": "मोनोटोनिसिटी: सभी गैर-टर्मिनल अवस्थाओं के लिए h(n) शून्य के बराबर होना चाहिए",
+        "C": "रैखिकता: ट्री की गहराई के साथ h(n) को तेजी से बढ़ना चाहिए",
+        "D": "पूर्णता: h(n) को ओपन लिस्ट के सभी नोड्स का एक साथ मूल्यांकन करना चाहिए"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (5000 * 5) / (5 + 5000 - 1) = (25000) / 5004 = 5.0.",
-      "explanation_hi": "स्पीडअप = (5000 * 5) / 5004 = 5.0 प्राप्त होता है।"
+      "explanation": "A* tree search is guaranteed to return the optimal path if the heuristic function h(n) is admissible (it never overestimates the actual minimal cost to reach the goal, meaning h(n) <= h*(n) for all nodes n).",
+      "explanation_hi": "A* खोज एल्गोरिदम के इष्टतम (Optimal) होने के लिए ह्यूरिस्टिक फ़ंक्शन h(n) का स्वीकार्य (Admissible) होना अनिवार्य है, जिसका अर्थ है कि यह लक्ष्य तक पहुंचने की वास्तविक लागत से कभी अधिक अनुमान नहीं लगाता (h(n) <= h*(n))।"
     },
     {
       "id": 25,
@@ -684,105 +684,105 @@ window.predicted_set5 = {
       "id": 26,
       "questionNumber": 26,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 6-stage pipeline executing 200 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 200 स्वतंत्र निर्देशों को निष्पादित करने वाली 6-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "What is the hexadecimal equivalent of the octal number (357)_8?",
+      "question_hi": "अष्टक (ऑक्टल) संख्या (357)_8 का हेक्साडेसिमल समतुल्य क्या होगा?",
       "options": {
-        "A": "5.85",
-        "B": "8",
-        "C": "2.92",
-        "D": "8.77"
+        "A": "0xEF",
+        "B": "0x16F",
+        "C": "0xDE",
+        "D": "0xAF"
       },
       "options_hi": {
-        "A": "5.85",
-        "B": "8",
-        "C": "2.92",
-        "D": "8.77"
+        "A": "0xEF",
+        "B": "0x16F",
+        "C": "0xDE",
+        "D": "0xAF"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (200 * 6) / (6 + 200 - 1) = (1200) / 205 = 5.85.",
-      "explanation_hi": "स्पीडअप = (200 * 6) / 205 = 5.85 प्राप्त होता है।"
+      "explanation": "Convert octal to binary (3 bits per digit): 3 = 011, 5 = 101, 7 = 111 -> (011101111)_2. Grouping into 4 bits from right: 1110 1111 -> E F in hex = 0xEF.",
+      "explanation_hi": "ऑक्टल को बाइनरी में बदलें: 3 = 011, 5 = 101, 7 = 111 -> (011101111)_2। दाईं ओर से 4-4 बिट्स के समूह बनाएं: (1110 1111)_2 = E और F = 0xEF।"
     },
     {
       "id": 27,
       "questionNumber": 27,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 6-stage pipeline executing 500 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 500 स्वतंत्र निर्देशों को निष्पादित करने वाली 6-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "In a BCD adder, when the 4-bit binary sum of two BCD digits exceeds 9 or produces an output carry, what correction must be added to the result?",
+      "question_hi": "एक BCD योजक (Adder) में, जब दो BCD अंकों का 4-बिट बाइनरी योग 9 से अधिक हो जाता है या एक आउटपुट कैरी उत्पन्न करता है, तो परिणाम में क्या सुधार जोड़ा जाना चाहिए?",
       "options": {
-        "A": "5.94",
-        "B": "8",
-        "C": "2.97",
-        "D": "8.91"
+        "A": "Add 6 (binary 0110)",
+        "B": "Add 8 (binary 1000)",
+        "C": "Subtract 3 (binary 0011)",
+        "D": "Add 10 (binary 1010)"
       },
       "options_hi": {
-        "A": "5.94",
-        "B": "8",
-        "C": "2.97",
-        "D": "8.91"
+        "A": "6 (बाइनरी 0110) जोड़ें",
+        "B": "8 (बाइनरी 1000) जोड़ें",
+        "C": "3 (बाइनरी 0011) घटाएं",
+        "D": "10 (बाइनरी 1010) जोड़ें"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (500 * 6) / (6 + 500 - 1) = (3000) / 505 = 5.94.",
-      "explanation_hi": "स्पीडअप = (500 * 6) / 505 = 5.94 प्राप्त होता है।"
+      "explanation": "Valid BCD digits range from 0 to 9. A sum from 10 to 19 is an illegal BCD code. Adding 6 (0110) skips the 6 invalid 4-bit states (1010 to 1111) and produces the correct BCD digit and carry.",
+      "explanation_hi": "BCD में 0 से 9 तक के अंक ही मान्य होते हैं। यदि योग 9 से अधिक हो जाए, तो 6 अमान्य अवस्थाओं (1010 से 1111) को छोड़ने के लिए 6 (0110) जोड़ा जाता है।"
     },
     {
       "id": 28,
       "questionNumber": 28,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 6-stage pipeline executing 1000 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 1000 स्वतंत्र निर्देशों को निष्पादित करने वाली 6-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "In synchronous sequential circuits, what does the 'Setup Time' (t_setup) of a flip-flop specify?",
+      "question_hi": "तुल्यकालिक अनुक्रमिक परिपथों (Synchronous circuits) में, फ्लिप-फ्लॉप का 'सेटअप समय' (t_setup) क्या निर्दिष्ट करता है?",
       "options": {
-        "A": "5.97",
-        "B": "8",
-        "C": "2.98",
-        "D": "8.96"
+        "A": "The minimum time the data input must remain stable before the active clock transition edge",
+        "B": "The minimum time the data input must remain stable after the active clock edge",
+        "C": "The time required to reset the flip-flop to logic 0",
+        "D": "The delay from clock trigger to valid Q output"
       },
       "options_hi": {
-        "A": "5.97",
-        "B": "8",
-        "C": "2.98",
-        "D": "8.96"
+        "A": "सक्रिय क्लॉक संक्रमण किनारे से पहले डेटा इनपुट को स्थिर रहने का न्यूनतम समय",
+        "B": "सक्रिय क्लॉक किनारे के बाद डेटा इनपुट को स्थिर रहने का न्यूनतम समय",
+        "C": "फ्लिप-फ्लॉप को लॉजिक 0 पर रीसेट करने के लिए आवश्यक समय",
+        "D": "क्लॉक ट्रिगर से वैध Q आउटपुट तक का विलंब"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (1000 * 6) / (6 + 1000 - 1) = (6000) / 1005 = 5.97.",
-      "explanation_hi": "स्पीडअप = (1000 * 6) / 1005 = 5.97 प्राप्त होता है।"
+      "explanation": "Setup time (t_setup) is the minimum time window immediately preceding the active clock edge during which the data input signal must be stable to ensure reliable capture without metastability.",
+      "explanation_hi": "सेटअप समय (Setup Time) सक्रिय क्लॉक एज आने से ठीक पहले की वह न्यूनतम अवधि है जिसमें इनपुट डेटा का स्थिर रहना अनिवार्य है ताकि फ्लिप-फ्लॉप बिना मेटा-स्टेबिलिटी के सही डेटा कैप्चर कर सके।"
     },
     {
       "id": 29,
       "questionNumber": 29,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 6-stage pipeline executing 5000 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 5000 स्वतंत्र निर्देशों को निष्पादित करने वाली 6-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "In synchronous sequential circuits, what does the 'Hold Time' (t_hold) of a flip-flop specify?",
+      "question_hi": "तुल्यकालिक अनुक्रमिक परिपथों में फ्लिप-फ्लॉप का 'होल्ड समय' (t_hold) क्या निर्दिष्ट करता है?",
       "options": {
-        "A": "5.99",
-        "B": "8",
-        "C": "3.0",
-        "D": "8.98"
+        "A": "The minimum time the data input must remain stable after the active clock transition edge",
+        "B": "The minimum time the clock must remain high",
+        "C": "The propagation delay between J and K inputs",
+        "D": "The duration of power-on reset"
       },
       "options_hi": {
-        "A": "5.99",
-        "B": "8",
-        "C": "3.0",
-        "D": "8.98"
+        "A": "सक्रिय क्लॉक संक्रमण किनारे के बाद डेटा इनपुट को स्थिर रहने का न्यूनतम समय",
+        "B": "क्लॉक को हाई रहने का न्यूनतम समय",
+        "C": "J और K इनपुट के बीच प्रोपेगेशन डिले",
+        "D": "पावर-ऑन रीसेट की अवधि"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (5000 * 6) / (6 + 5000 - 1) = (30000) / 5005 = 5.99.",
-      "explanation_hi": "स्पीडअप = (5000 * 6) / 5005 = 5.99 प्राप्त होता है।"
+      "explanation": "Hold time (t_hold) is the minimum duration of time following the active clock edge during which the data input line must be maintained stable without changing.",
+      "explanation_hi": "होल्ड समय (Hold Time) सक्रिय क्लॉक एज आने के तुरंत बाद की वह न्यूनतम अवधि है जिसमें डेटा इनपुट को स्थिर बनाए रखना आवश्यक होता है।"
     },
     {
       "id": 30,
@@ -814,105 +814,105 @@ window.predicted_set5 = {
       "id": 31,
       "questionNumber": 31,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 8-stage pipeline executing 200 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 200 स्वतंत्र निर्देशों को निष्पादित करने वाली 8-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "What is the excitation input T required for a Toggle (T) flip-flop to transition from state Q(t) = 1 to Q(t+1) = 0?",
+      "question_hi": "एक टॉगल (T) फ्लिप-फ्लॉप को अवस्था Q(t) = 1 से Q(t+1) = 0 में बदलने के लिए आवश्यक उत्तेजना इनपुट (Excitation input) T क्या होगा?",
       "options": {
-        "A": "7.73",
-        "B": "10",
-        "C": "3.87",
-        "D": "11.6"
+        "A": "T = 1",
+        "B": "T = 0",
+        "C": "T = Don't Care (X)",
+        "D": "T = 2"
       },
       "options_hi": {
-        "A": "7.73",
-        "B": "10",
-        "C": "3.87",
-        "D": "11.6"
+        "A": "T = 1",
+        "B": "T = 0",
+        "C": "T = Don't Care (X)",
+        "D": "T = 2"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (200 * 8) / (8 + 200 - 1) = (1600) / 207 = 7.73.",
-      "explanation_hi": "स्पीडअप = (200 * 8) / 207 = 7.73 प्राप्त होता है।"
+      "explanation": "For a T flip-flop, the excitation equation is T = Q(t) ⊕ Q(t+1). To change from 1 to 0 (a toggle), T must be 1 ⊕ 0 = 1.",
+      "explanation_hi": "T फ्लिप-फ्लॉप के लिए उत्तेजना समीकरण T = Q(t) ⊕ Q(t+1) होता है। अवस्था 1 से 0 में बदलने (टॉगल करने) के लिए T = 1 ⊕ 0 = 1 होना आवश्यक है।"
     },
     {
       "id": 32,
       "questionNumber": 32,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 8-stage pipeline executing 500 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 500 स्वतंत्र निर्देशों को निष्पादित करने वाली 8-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "How can an SR flip-flop be converted into a D flip-flop?",
+      "question_hi": "एक SR फ्लिप-फ्लॉप को D फ्लिप-फ्लॉप में कैसे बदला जा सकता है?",
       "options": {
-        "A": "7.89",
-        "B": "10",
-        "C": "3.94",
-        "D": "11.83"
+        "A": "Connect input D directly to S, and connect D through an inverter (NOT gate) to R",
+        "B": "Tie S and R inputs together directly",
+        "C": "Connect the Q output to S and Q' to R",
+        "D": "Ground the R input and connect D to S"
       },
       "options_hi": {
-        "A": "7.89",
-        "B": "10",
-        "C": "3.94",
-        "D": "11.83"
+        "A": "इनपुट D को सीधे S से जोड़ें, और D को एक इन्वर्टर (NOT गेट) के माध्यम से R से जोड़ें",
+        "B": "S और R इनपुट को सीधे आपस में बांधें",
+        "C": "Q आउटपुट को S से और Q' को R से जोड़ें",
+        "D": "R इनपुट को ग्राउंड करें और D को S से जोड़ें"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (500 * 8) / (8 + 500 - 1) = (4000) / 507 = 7.89.",
-      "explanation_hi": "स्पीडअप = (500 * 8) / 507 = 7.89 प्राप्त होता है।"
+      "explanation": "A D flip-flop requires S and R to always be complementary (when D=1, S=1, R=0; when D=0, S=0, R=1). Connecting D directly to S and D' via an inverter to R enforces this and prevents the forbidden S=R=1 state.",
+      "explanation_hi": "D फ्लिप-फ्लॉप बनाने के लिए D इनपुट को सीधे S से जोड़ा जाता है और एक NOT गेट के माध्यम से R से जोड़ा जाता है (S = D, R = D')। इससे S और R हमेशा एक-दूसरे के पूरक रहते हैं और S=R=1 की अवैध स्थिति नहीं आती।"
     },
     {
       "id": 33,
       "questionNumber": 33,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 8-stage pipeline executing 1000 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 1000 स्वतंत्र निर्देशों को निष्पादित करने वाली 8-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "In a 4-bit Universal Shift Register (e.g., IC 74194), what operation is performed when mode control inputs S1 S0 are set to '11'?",
+      "question_hi": "एक 4-बिट यूनिवर्सल शिफ्ट रजिस्टर (जैसे IC 74194) में, जब मोड नियंत्रण इनपुट S1 S0 को '11' पर सेट किया जाता है, तो कौन सा ऑपरेशन निष्पादित होता है?",
       "options": {
-        "A": "7.94",
-        "B": "10",
-        "C": "3.97",
-        "D": "11.91"
+        "A": "Parallel Load (load all 4 bits simultaneously)",
+        "B": "Shift Right",
+        "C": "Shift Left",
+        "D": "Hold (No change in state)"
       },
       "options_hi": {
-        "A": "7.94",
-        "B": "10",
-        "C": "3.97",
-        "D": "11.91"
+        "A": "पैरेलल लोड (सभी 4 बिट्स को एक साथ लोड करना)",
+        "B": "शिफ्ट राइट",
+        "C": "शिफ्ट लेफ्ट",
+        "D": "होल्ड (स्थिति में कोई बदलाव नहीं)"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (1000 * 8) / (8 + 1000 - 1) = (8000) / 1007 = 7.94.",
-      "explanation_hi": "स्पीडअप = (1000 * 8) / 1007 = 7.94 प्राप्त होता है।"
+      "explanation": "For IC 74194: S1 S0 = 00 is Hold (inhibit clock), S1 S0 = 01 is Shift Right, S1 S0 = 10 is Shift Left, and S1 S0 = 11 is Parallel Load.",
+      "explanation_hi": "यूनिवर्सल शिफ्ट रजिस्टर 74194 में: 00 = कोई बदलाव नहीं (होल्ड), 01 = शिफ्ट राइट, 10 = शिफ्ट लेफ्ट, और 11 = पैरेलल लोड (सभी इनपुट समानांतर में लोड होते हैं)।"
     },
     {
       "id": 34,
       "questionNumber": 34,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the theoretical speedup of a 8-stage pipeline executing 5000 independent instructions over non-pipelined execution?",
-      "question_hi": "गैर-पाइपलाइन्ड निष्पादन की तुलना में 5000 स्वतंत्र निर्देशों को निष्पादित करने वाली 8-स्टेज पाइपलाइन का सैद्धांतिक स्पीडअप क्या है?",
+      "question": "In a CMOS inverter, what are the operating regions of the PMOS and NMOS transistors when the input voltage is at the switching threshold (Vin = VDD / 2)?",
+      "question_hi": "CMOS इन्वर्टर में जब इनपुट वोल्टेज स्विचिंग थ्रेशोल्ड (Vin = VDD / 2) पर होता है, तो PMOS और NMOS ट्रांजिस्टर किस ऑपरेटिंग क्षेत्र में होते हैं?",
       "options": {
-        "A": "7.99",
-        "B": "10",
-        "C": "4.0",
-        "D": "11.98"
+        "A": "Both transistors are in the Saturation region",
+        "B": "Both transistors are in the Cutoff region",
+        "C": "NMOS is in Cutoff, PMOS is in Triode",
+        "D": "Both transistors are in the Triode (Linear) region"
       },
       "options_hi": {
-        "A": "7.99",
-        "B": "10",
-        "C": "4.0",
-        "D": "11.98"
+        "A": "दोनों ट्रांजिस्टर संतृप्ति क्षेत्र (Saturation region) में होते हैं",
+        "B": "दोनों ट्रांजिस्टर कटऑफ क्षेत्र में होते हैं",
+        "C": "NMOS कटऑफ में है, PMOS ट्रायोड में है",
+        "D": "दोनों ट्रांजिस्टर ट्रायोड (रैखिक) क्षेत्र में होते हैं"
       },
       "correctAnswer": "A",
-      "explanation": "Speedup = (n * k) / (k + n - 1) = (5000 * 8) / (8 + 5000 - 1) = (40000) / 5007 = 7.99.",
-      "explanation_hi": "स्पीडअप = (5000 * 8) / 5007 = 7.99 प्राप्त होता है।"
+      "explanation": "At the switching threshold point V_M = VDD/2 on the Voltage Transfer Characteristic (VTC), both the pull-up PMOS and pull-down NMOS transistors operate simultaneously in their saturation regions, resulting in high gain and peak short-circuit current.",
+      "explanation_hi": "स्विचिंग थ्रेशोल्ड (Vin = VDD/2) पर PMOS और NMOS दोनों ट्रांजिस्टर एक साथ सेचुरेशन (Saturation) क्षेत्र में काम करते हैं, जिससे वोल्टेज ट्रांसफर कर्व में अधिकतम ढलान और उच्च गेन प्राप्त होता है।"
     },
     {
       "id": 35,
@@ -3414,131 +3414,131 @@ window.predicted_set5 = {
       "id": 131,
       "questionNumber": 131,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi' (Context 3)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi' (संदर्भ 3)?",
+      "question": "Who is revered as the 'Bhojpuri Shakespeare' for legendary folk plays like 'Bidesiya' and 'Gabarghichor'?",
+      "question_hi": "'बिदेसिया' और 'गबरघिचोर' जैसे प्रसिद्ध लोक नाटकों की रचना के लिए किसे 'भोजपुरी का शेक्सपियर' कहा जाता है?",
       "options": {
-        "A": "Muzaffarpur",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Bhikhari Thakur",
+        "B": "Phanishwar Nath 'Renu'",
+        "C": "Ramdhari Singh 'Dinkar'",
+        "D": "Nagarjun"
       },
       "options_hi": {
-        "A": "मुजफ्फरपुर",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "भिखारी ठाकुर",
+        "B": "फणीश्वर नाथ 'रेणु'",
+        "C": "रामधारी सिंह 'दिनकर'",
+        "D": "नागार्जुन"
       },
       "correctAnswer": "A",
-      "explanation": "Muzaffarpur is renowned across Bihar for: Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi.",
-      "explanation_hi": "मुजफ्फरपुर का ऐतिहासिक व भौगोलिक महत्व: Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi।"
+      "explanation": "Bhikhari Thakur (born in Saran district) was an iconic playwright, lyricist, and actor whose folk dramas highlighted migration, women's suffering, and social evils in rural Bihar.",
+      "explanation_hi": "सारण (कुतुबपुर) में जन्मे भिखारी ठाकुर को उनके अमर लोक नाटक 'बिदेसिया' और सामाजिक चेतना के गीतों के लिए 'भोजपुरी का शेक्सपियर' कहा जाता है।"
     },
     {
       "id": 132,
       "questionNumber": 132,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi' (Context 4)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi' (संदर्भ 4)?",
+      "question": "Which river is notorious as the 'Sorrow of Bihar' (बिहार का शोक) due to frequent destructive floods and channel avulsions?",
+      "question_hi": "बार-बार विनाशकारी बाढ़ और मार्ग परिवर्तन के कारण किस नदी को 'बिहार का शोक' कहा जाता है?",
       "options": {
-        "A": "Muzaffarpur",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Kosi River",
+        "B": "Gandak River",
+        "C": "Son River",
+        "D": "Bagmati River"
       },
       "options_hi": {
-        "A": "मुजफ्फरपुर",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "कोसी नदी",
+        "B": "गंडक नदी",
+        "C": "सोन नदी",
+        "D": "बागमती नदी"
       },
       "correctAnswer": "A",
-      "explanation": "Muzaffarpur is renowned across Bihar for: Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi.",
-      "explanation_hi": "मुजफ्फरपुर का ऐतिहासिक व भौगोलिक महत्व: Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi।"
+      "explanation": "The Kosi River originates in the Himalayas as the Saptakoshi. Because it carries immense silt and shifts its course westward unpredictably, it causes disastrous flooding in North Bihar.",
+      "explanation_hi": "कोसी नदी को 'बिहार का शोक' कहा जाता है क्योंकि यह भारी मात्रा में गाद (सिल्ट) लाती है और निरंतर अपना मार्ग बदलती है, जिससे उत्तर बिहार में भयंकर बाढ़ आती है।"
     },
     {
       "id": 133,
       "questionNumber": 133,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Known as the 'Silk City' of India for exquisite Tussar and Bhagalpuri silk manufacturing' (Context 1)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Known as the 'Silk City' of India for exquisite Tussar and Bhagalpuri silk manufacturing' (संदर्भ 1)?",
+      "question": "Where was the First Buddhist Council convened immediately after the Mahaparinirvana of Gautama Buddha in 483 BCE?",
+      "question_hi": "483 ईसा पूर्व में गौतम बुद्ध के महापरिनिर्वाण के तुरंत बाद प्रथम बौद्ध संगीति का आयोजन कहाँ किया गया था?",
       "options": {
-        "A": "Bhagalpur",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Rajgriha (Saptaparni Cave)",
+        "B": "Vaishali",
+        "C": "Pataliputra",
+        "D": "Kundalvana"
       },
       "options_hi": {
-        "A": "भागलपुर",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "राजगृह (सप्तपर्णी गुफा)",
+        "B": "वैशाली",
+        "C": "पाटलिपुत्र",
+        "D": "कुंडलवन"
       },
       "correctAnswer": "A",
-      "explanation": "Bhagalpur is renowned across Bihar for: Known as the 'Silk City' of India for exquisite Tussar and Bhagalpuri silk manufacturing.",
-      "explanation_hi": "भागलपुर का ऐतिहासिक व भौगोलिक महत्व: Known as the 'Silk City' of India for exquisite Tussar and Bhagalpuri silk manufacturing।"
+      "explanation": "The First Buddhist Council took place at Saptaparni Cave in Rajgriha under the patronage of King Ajatashatru and presided over by Venerable Mahakassapa, where Sutta Pitaka and Vinaya Pitaka were compiled.",
+      "explanation_hi": "प्रथम बौद्ध संगीति का आयोजन राजगृह की सप्तपर्णी गुफा में मगध सम्राट अजातशत्रु के शासनकाल में हुआ, जिसकी अध्यक्षता महाकस्सप ने की थी।"
     },
     {
       "id": 134,
       "questionNumber": 134,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Known as the 'Silk City' of India for exquisite Tussar and Bhagalpuri silk manufacturing' (Context 2)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Known as the 'Silk City' of India for exquisite Tussar and Bhagalpuri silk manufacturing' (संदर्भ 2)?",
+      "question": "Where was the Second Buddhist Council held approximately 100 years after Buddha's Mahaparinirvana?",
+      "question_hi": "बुद्ध के महापरिनिर्वाण के लगभग 100 वर्ष बाद द्वितीय बौद्ध संगीति का आयोजन कहाँ हुआ था?",
       "options": {
-        "A": "Bhagalpur",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Vaishali (under King Kalasoka)",
+        "B": "Pataliputra (under King Ashoka)",
+        "C": "Rajgriha (under Bimbisara)",
+        "D": "Sarnath (under Kanishka)"
       },
       "options_hi": {
-        "A": "भागलपुर",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "वैशाली (शिशुनाग वंश के राजा कालाशोक के अधीन)",
+        "B": "पाटलिपुत्र (राजा अशोक के अधीन)",
+        "C": "राजगृह (बिंबिसार के अधीन)",
+        "D": "सारनाथ (कनिष्क के अधीन)"
       },
       "correctAnswer": "A",
-      "explanation": "Bhagalpur is renowned across Bihar for: Known as the 'Silk City' of India for exquisite Tussar and Bhagalpuri silk manufacturing.",
-      "explanation_hi": "भागलपुर का ऐतिहासिक व भौगोलिक महत्व: Known as the 'Silk City' of India for exquisite Tussar and Bhagalpuri silk manufacturing।"
+      "explanation": "The Second Buddhist Council was held at Vaishali in 383 BCE during the reign of King Kalasoka (Shishunaga dynasty) and chaired by Sabakami to resolve monastic discipline disputes.",
+      "explanation_hi": "द्वितीय बौद्ध संगीति 383 ईसा पूर्व में वैशाली में कालाशोक के शासनकाल में आयोजित हुई थी, जिसकी अध्यक्षता साबकमीर (सर्वकामी) ने की थी।"
     },
     {
       "id": 135,
       "questionNumber": 135,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Known as the 'Silk City' of India for exquisite Tussar and Bhagalpuri silk manufacturing' (Context 3)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Known as the 'Silk City' of India for exquisite Tussar and Bhagalpuri silk manufacturing' (संदर्भ 3)?",
+      "question": "Under whose patronage was the Third Buddhist Council organized at Pataliputra around 250 BCE?",
+      "question_hi": "लगभग 250 ईसा पूर्व पाटलिपुत्र में तृतीय बौद्ध संगीति का आयोजन किसके संरक्षण में किया गया था?",
       "options": {
-        "A": "Bhagalpur",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Emperor Ashoka the Great",
+        "B": "Chandragupta Maurya",
+        "C": "Kanishka",
+        "D": "Harshavardhana"
       },
       "options_hi": {
-        "A": "भागलपुर",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "सम्राट अशोक महान",
+        "B": "चंद्रगुप्त मौर्य",
+        "C": "कनिष्क",
+        "D": "हर्षवर्धन"
       },
       "correctAnswer": "A",
-      "explanation": "Bhagalpur is renowned across Bihar for: Known as the 'Silk City' of India for exquisite Tussar and Bhagalpuri silk manufacturing.",
-      "explanation_hi": "भागलपुर का ऐतिहासिक व भौगोलिक महत्व: Known as the 'Silk City' of India for exquisite Tussar and Bhagalpuri silk manufacturing।"
+      "explanation": "The Third Buddhist Council was convened at Pataliputra by Maurya Emperor Ashoka and presided over by Moggaliputta Tissa, where the Abhidhamma Pitaka was completed.",
+      "explanation_hi": "तृतीय बौद्ध संगीति मौर्य सम्राट अशोक के शासनकाल में पाटलिपुत्र में आयोजित हुई, जिसकी अध्यक्षता मोग्गलिपुत्त तिस्स ने की और इसमें अभिधम्म पिटक का संकलन हुआ।"
     },
     {
       "id": 136,
@@ -3570,79 +3570,79 @@ window.predicted_set5 = {
       "id": 137,
       "questionNumber": 137,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Biodiversity Hotspots - Case 5), which statement accurately reflects this principle: 'Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)'?",
-      "question_hi": "पर्यावरण विज्ञान (जैव विविधता हॉटस्पॉट - केस 5) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)'?",
+      "question": "In which sacred town of Bihar did Lord Mahavira, the 24th Tirthankara of Jainism, attain Nirvana?",
+      "question_hi": "जैन धर्म के 24वें तीर्थंकर भगवान महावीर ने बिहार के किस पवित्र नगर में निर्वाण (मोक्ष) प्राप्त किया था?",
       "options": {
-        "A": "Accurately validated by ecological principle: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "Pawapuri (Nalanda district)",
+        "B": "Kundagram (Vaishali)",
+        "C": "Champapuri (Bhagalpur)",
+        "D": "Parasnath"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "पावापुरी (नालंदा जिला)",
+        "B": "कुंडलपुर / कुंडग्राम (वैशाली)",
+        "C": "चम्पापुरी (भागलपुर)",
+        "D": "पारसनाथ"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas).",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)।"
+      "explanation": "Lord Mahavira attained Nirvana at Pawapuri in Nalanda district in 527 BCE, commemorated today by the marble Jal Mandir in the center of a lotus pond.",
+      "explanation_hi": "भगवान महावीर का निर्वाण नालंदा जिले के पावापुरी में हुआ था। यहाँ उनके निर्वाण स्थल पर एक सुंदर 'जल मंदिर' स्थित है जो प्रमुख जैन तीर्थ स्थल है।"
     },
     {
       "id": 138,
       "questionNumber": 138,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Biodiversity Hotspots - Case 6), which statement accurately reflects this principle: 'Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)'?",
-      "question_hi": "पर्यावरण विज्ञान (जैव विविधता हॉटस्पॉट - केस 6) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)'?",
+      "question": "Under which sacred tree in Bodh Gaya did Siddhartha Gautama attain supreme Enlightenment (Buddhahood)?",
+      "question_hi": "बोधगया में किस पवित्र वृक्ष के नीचे सिद्धार्थ गौतम को परम ज्ञान (बुद्धत्व) की प्राप्ति हुई थी?",
       "options": {
-        "A": "Accurately validated by ecological principle: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "Bodhi Tree (Ficus religiosa - Peepal)",
+        "B": "Banyan Tree (Ficus benghalensis)",
+        "C": "Sal Tree (Shorea robusta)",
+        "D": "Neem Tree (Azadirachta indica)"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "बोधि वृक्ष (पीपल - Ficus religiosa)",
+        "B": "बरगद का वृक्ष",
+        "C": "साल का वृक्ष",
+        "D": "नीम का वृक्ष"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas).",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)।"
+      "explanation": "Gautama attained supreme enlightenment under the Bodhi tree (Peepal tree / Ficus religiosa) along the banks of the Falgu (Niranjana) River in Bodh Gaya.",
+      "explanation_hi": "गौतम बुद्ध को बोधगया में फल्गु (निरंजना) नदी के तट पर पीपल के वृक्ष (बोधि वृक्ष) के नीचे वैशाख पूर्णिमा के दिन बुद्धत्व की प्राप्ति हुई थी।"
     },
     {
       "id": 139,
       "questionNumber": 139,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Biodiversity Hotspots - Case 7), which statement accurately reflects this principle: 'Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)'?",
-      "question_hi": "पर्यावरण विज्ञान (जैव विविधता हॉटस्पॉट - केस 7) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)'?",
+      "question": "What is the highest geographic peak in Bihar, located in West Champaran near the Nepal frontier?",
+      "question_hi": "बिहार की सबसे ऊंची भौगोलिक चोटी कौन सी है, जो पश्चिम चंपारण में नेपाल सीमा के पास स्थित है?",
       "options": {
-        "A": "Accurately validated by ecological principle: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "Someshwar Fort Peak (approx. 880 meters)",
+        "B": "Mandargiri Hill (Banka)",
+        "C": "Pretshila Hill (Gaya)",
+        "D": "Brahmayoni Hill"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "सोमेश्वर किला चोटी (लगभग 880 मीटर)",
+        "B": "मंदारगिरी पहाड़ी (बांका)",
+        "C": "प्रेतशिला पहाड़ी (गया)",
+        "D": "ब्रह्मयोनि पहाड़ी"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas).",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)।"
+      "explanation": "The Someshwar Fort ridge (approx. 880 m / 2,884 ft) in the Shiwalik outer Himalayas in West Champaran district is the highest elevation point in Bihar.",
+      "explanation_hi": "पश्चिम चंपारण के शिवालिक श्रेणी में स्थित सोमेश्वर किला (ऊंचाई लगभग 880 मीटर) बिहार की सबसे ऊंची भौगोलिक चोटी है।"
     },
     {
       "id": 140,
@@ -3674,131 +3674,131 @@ window.predicted_set5 = {
       "id": 141,
       "questionNumber": 141,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 2,000 at 5% annual interest for 2 years (Problem 11)?",
-      "question_hi": "2,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 11)?",
+      "question": "Which protected sanctuary along the Ganga River in Bhagalpur is Asia's ONLY sanctuary established specifically for the endangered Gangetic Dolphin?",
+      "question_hi": "भागलपुर में गंगा नदी के किनारे कौन सा संरक्षित अभयारण्य लुप्तप्राय गंगा डॉल्फिन के लिए स्थापित एशिया का एकमात्र अभयारण्य है?",
       "options": {
-        "A": "Rs. 200",
-        "B": "Rs. 250",
-        "C": "Rs. 150",
-        "D": "Rs. 300"
+        "A": "Vikramshila Gangetic Dolphin Sanctuary",
+        "B": "Valmiki Dolphin Reserve",
+        "C": "Bhimbandh Sanctuary",
+        "D": "Udaipur Wildlife Sanctuary"
       },
       "options_hi": {
-        "A": "200 रुपये",
-        "B": "250 रुपये",
-        "C": "150 रुपये",
-        "D": "300 रुपये"
+        "A": "विक्रमशिला गंगा डॉल्फिन अभयारण्य",
+        "B": "वाल्मीकि डॉल्फिन रिजर्व",
+        "C": "भीमबांध अभयारण्य",
+        "D": "उदयपुर वन्यजीव अभयारण्य"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (2000 * 5 * 2) / 100 = Rs. 200.",
-      "explanation_hi": "साधारण ब्याज = (2000 * 5 * 2) / 100 = 200 रुपये।"
+      "explanation": "The Vikramshila Gangetic Dolphin Sanctuary covers 65 km of the Ganga River from Sultanganj to Kahalgaon in Bhagalpur district, protected as India's premier freshwater dolphin haven.",
+      "explanation_hi": "भागलपुर के सुल्तानगंज से कहलगांव तक 65 किमी में फैला 'विक्रमशिला गंगा डॉल्फिन अभयारण्य' भारत और एशिया का एकमात्र संरक्षित गंगा डॉल्फिन अभयारण्य है।"
     },
     {
       "id": 142,
       "questionNumber": 142,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 3,000 at 5% annual interest for 2 years (Problem 12)?",
-      "question_hi": "3,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 12)?",
+      "question": "Where is the legendary 'Sonepur Mela', Asia's largest traditional cattle and elephant fair, held annually on Kartik Purnima?",
+      "question_hi": "कार्तिक पूर्णिमा पर आयोजित होने वाला एशिया का सबसे बड़ा पारंपरिक पशु एवं मवेशी मेला 'सोनपुर मेला' कहाँ लगता है?",
       "options": {
-        "A": "Rs. 300",
-        "B": "Rs. 350",
-        "C": "Rs. 250",
-        "D": "Rs. 400"
+        "A": "At the confluence of the Ganga and Gandak rivers (Harihar Kshetra)",
+        "B": "At the confluence of Son and Ganga at Danapur",
+        "C": "At the confluence of Kosi and Ganga at Kursela",
+        "D": "Along the Bagmati river in Muzaffarpur"
       },
       "options_hi": {
-        "A": "300 रुपये",
-        "B": "350 रुपये",
-        "C": "250 रुपये",
-        "D": "400 रुपये"
+        "A": "गंगा और गंडक नदी के संगम पर (हरिहर क्षेत्र)",
+        "B": "दानापुर में सोन और गंगा के संगम पर",
+        "C": "कुरसेला में कोसी और गंगा के संगम पर",
+        "D": "मुजफ्फरपुर में बागमती नदी के किनारे"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (3000 * 5 * 2) / 100 = Rs. 300.",
-      "explanation_hi": "साधारण ब्याज = (3000 * 5 * 2) / 100 = 300 रुपये।"
+      "explanation": "Sonepur Cattle Fair (Harihar Kshetra Mela) is held in Saran district at the sacred confluence of the Ganga and Gandak rivers, continuing an ancient trading tradition dating back to Chandragupta Maurya.",
+      "explanation_hi": "सोनपुर मेला (हरिहर क्षेत्र मेला) गंगा और गंडक के संगम पर सारण जिले में आयोजित होता है। यह एशिया का सबसे बड़ा पशु मेला माना जाता है।"
     },
     {
       "id": 143,
       "questionNumber": 143,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 4,000 at 5% annual interest for 2 years (Problem 13)?",
-      "question_hi": "4,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 13)?",
+      "question": "Who was the first Chief Minister of the state of Bihar after Indian Independence?",
+      "question_hi": "भारतीय स्वतंत्रता के बाद बिहार राज्य के प्रथम मुख्यमंत्री कौन थे?",
       "options": {
-        "A": "Rs. 400",
-        "B": "Rs. 450",
-        "C": "Rs. 350",
-        "D": "Rs. 500"
+        "A": "Dr. Shri Krishna Sinha (Sri Babu)",
+        "B": "Dr. Anugrah Narayan Sinha",
+        "C": "Kedar Pandey",
+        "D": "Karpoori Thakur"
       },
       "options_hi": {
-        "A": "400 रुपये",
-        "B": "450 रुपये",
-        "C": "350 रुपये",
-        "D": "500 रुपये"
+        "A": "डॉ. श्री कृष्ण सिंह (श्री बाबू)",
+        "B": "डॉ. अनुग्रह नारायण सिंह",
+        "C": "केदार पांडे",
+        "D": "कर्पूरी ठाकुर"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (4000 * 5 * 2) / 100 = Rs. 400.",
-      "explanation_hi": "साधारण ब्याज = (4000 * 5 * 2) / 100 = 400 रुपये।"
+      "explanation": "Dr. Shri Krishna Sinha ('Bihar Kesari') was the first Chief Minister of Bihar, serving from 1946 until his death in 1961.",
+      "explanation_hi": "बिहार केसरी डॉ. श्री कृष्ण सिंह (श्री बाबू) स्वतंत्रता के बाद बिहार के प्रथम मुख्यमंत्री बने और उन्होंने 1946 से 1961 तक राज्य की सेवा की।"
     },
     {
       "id": 144,
       "questionNumber": 144,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 5,000 at 5% annual interest for 2 years (Problem 14)?",
-      "question_hi": "5,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 14)?",
+      "question": "Which ancient ruler of the Haryanka dynasty shifted the capital of Magadha from Rajgriha to Pataliputra?",
+      "question_hi": "हर्यक वंश के किस प्राचीन शासक ने मगध की राजधानी को राजगृह से पाटलिपुत्र स्थानांतरित किया था?",
       "options": {
-        "A": "Rs. 500",
-        "B": "Rs. 550",
-        "C": "Rs. 450",
-        "D": "Rs. 600"
+        "A": "Udayin",
+        "B": "Bimbisara",
+        "C": "Ajatashatru",
+        "D": "Mahapadma Nanda"
       },
       "options_hi": {
-        "A": "500 रुपये",
-        "B": "550 रुपये",
-        "C": "450 रुपये",
-        "D": "600 रुपये"
+        "A": "उदायिन",
+        "B": "बिंबिसार",
+        "C": "अजातशत्रु",
+        "D": "महापद्मनंद"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (5000 * 5 * 2) / 100 = Rs. 500.",
-      "explanation_hi": "साधारण ब्याज = (5000 * 5 * 2) / 100 = 500 रुपये।"
+      "explanation": "King Udayin (son of Ajatashatru) shifted the imperial capital from Rajgriha to Pataliputra (modern Patna) due to its strategic confluence of the Ganga, Son, and Gandak rivers.",
+      "explanation_hi": "हर्यक वंशीय शासक उदायिन ने गंगा और सोन नदी के संगम पर पाटलिपुत्र नगर की नींव रखी और मगध की राजधानी को राजगृह से पाटलिपुत्र स्थानांतरित किया।"
     },
     {
       "id": 145,
       "questionNumber": 145,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 6,000 at 5% annual interest for 2 years (Problem 15)?",
-      "question_hi": "6,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 15)?",
+      "question": "Which historic battle fought on 22 October 1764 established British East India Company paramountcy over Bengal, Bihar, and Orissa?",
+      "question_hi": "22 अक्टूबर 1764 को लड़े गए किस ऐतिहासिक युद्ध ने बंगाल, बिहार और उड़ीसा पर ब्रिटिश ईस्ट इंडिया कंपनी का वास्तविक प्रभुत्व स्थापित किया?",
       "options": {
-        "A": "Rs. 600",
-        "B": "Rs. 650",
-        "C": "Rs. 550",
-        "D": "Rs. 700"
+        "A": "Battle of Buxar",
+        "B": "Battle of Plassey",
+        "C": "Battle of Panipat",
+        "D": "Battle of Karnal"
       },
       "options_hi": {
-        "A": "600 रुपये",
-        "B": "650 रुपये",
-        "C": "550 रुपये",
-        "D": "700 रुपये"
+        "A": "बक्सर का युद्ध",
+        "B": "प्लासी का युद्ध",
+        "C": "पानीपत का युद्ध",
+        "D": "करनाल का युद्ध"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (6000 * 5 * 2) / 100 = Rs. 600.",
-      "explanation_hi": "साधारण ब्याज = (6000 * 5 * 2) / 100 = 600 रुपये।"
+      "explanation": "In the Battle of Buxar (1764), the British forces under Hector Munro decisively defeated the combined army of Mir Qasim (Nawab of Bengal), Shuja-ud-Daula (Nawab of Awadh), and Mughal Emperor Shah Alam II, leading to the Treaty of Allahabad.",
+      "explanation_hi": "बक्सर के युद्ध (1764) में हेक्टर मुनरो के नेतृत्व वाली ब्रिटिश सेना ने मीर कासिम, शुजाउद्दौला और शाह आलम द्वितीय की संयुक्त सेना को हराकर दीवानी अधिकार प्राप्त किए।"
     },
     {
       "id": 146,

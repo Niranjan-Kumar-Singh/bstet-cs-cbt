@@ -454,23 +454,23 @@ window.predicted_set2 = {
       "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -8?",
-      "question_hi": "दशमलव संख्या -8 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "What is the total number of distinct states in an n-bit Johnson counter (twisted ring counter)?",
+      "question_hi": "n-बिट जॉनसन काउंटर (ट्विस्टेड रिंग काउंटर) में विशिष्ट अवस्थाओं (states) की कुल संख्या क्या होती है?",
       "options": {
-        "A": "11111000",
-        "B": "11110111",
-        "C": "11111010",
-        "D": "00001000"
+        "A": "n",
+        "B": "2n",
+        "C": "2^n",
+        "D": "2^(n-1)"
       },
       "options_hi": {
-        "A": "11111000",
-        "B": "11110111",
-        "C": "11111010",
-        "D": "00001000"
+        "A": "n",
+        "B": "2n",
+        "C": "2^n",
+        "D": "2^(n-1)"
       },
-      "correctAnswer": "A",
-      "explanation": "Binary of +8 is 00001000. 1's complement is 11110111. Adding 1 gives 2's complement = 11111000.",
-      "explanation_hi": "+8 का बाइनरी 00001000 है। 1's पूरक = 11110111। 1 जोड़ने पर 2's पूरक = 11111000।"
+      "correctAnswer": "B",
+      "explanation": "An n-bit ring counter has n states, whereas an n-bit Johnson (switch-tail / twisted ring) counter has 2n distinct states because the inverted output of the last flip-flop is fed back to the first flip-flop.",
+      "explanation_hi": "n-बिट रिंग काउंटर में n अवस्थाएँ होती हैं, जबकि n-बिट जॉनसन (ट्विस्टेड रिंग) काउंटर में 2n विशिष्ट अवस्थाएँ होती हैं क्योंकि अंतिम फ्लिप-फ्लॉप का इनवर्टेड आउटपुट पहले फ्लिप-फ्लॉप को फीडबैक दिया जाता है।"
     },
     {
       "id": 18,
@@ -480,23 +480,23 @@ window.predicted_set2 = {
       "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -12?",
-      "question_hi": "दशमलव संख्या -12 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "In combinational logic circuits, a static-1 hazard occurs when:",
+      "question_hi": "संयोजन तर्क परिपथ (Combinational logic circuit) में, एक static-1 हैज़र्ड तब घटित होता है जब:",
       "options": {
-        "A": "11110100",
-        "B": "11110011",
-        "C": "11110110",
-        "D": "00001100"
+        "A": "An output that should remain 1 momentarily drops to 0 due to unequal path delays",
+        "B": "An output that should remain 0 momentarily glitches to 1",
+        "C": "The output oscillates indefinitely between 0 and 1",
+        "D": "The clock pulse width is less than the propagation delay"
       },
       "options_hi": {
-        "A": "11110100",
-        "B": "11110011",
-        "C": "11110110",
-        "D": "00001100"
+        "A": "एक आउटपुट जिसे 1 रहना चाहिए, असमान पथ विलंब के कारण क्षण भर के लिए 0 हो जाता है",
+        "B": "एक आउटपुट जिसे 0 रहना चाहिए, क्षण भर के लिए 1 हो जाता है",
+        "C": "आउटपुट लगातार 0 और 1 के बीच दोलन करता रहता है",
+        "D": "क्लॉक पल्स की चौड़ाई प्रोपेगेशन डिले से कम होती है"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +12 is 00001100. 1's complement is 11110011. Adding 1 gives 2's complement = 11110100.",
-      "explanation_hi": "+12 का बाइनरी 00001100 है। 1's पूरक = 11110011। 1 जोड़ने पर 2's पूरक = 11110100।"
+      "explanation": "A static-1 hazard occurs when an output expected to remain constant at logic 1 momentarily transitions to 0 (a glitch/spike) during an input change, caused by unequal propagation delays in parallel paths. It can be eliminated by adding consensus terms.",
+      "explanation_hi": "Static-1 हैज़र्ड तब होता है जब एक आउटपुट जिसे लॉजिक 1 पर स्थिर रहना चाहिए, समानांतर पथों में असमान प्रोपेगेशन डिले के कारण इनपुट बदलाव के दौरान क्षण भर के लिए 0 पर गिर जाता है।"
     },
     {
       "id": 19,
@@ -506,23 +506,23 @@ window.predicted_set2 = {
       "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -16?",
-      "question_hi": "दशमलव संख्या -16 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "Which logic family exhibits the lowest static power consumption and highest noise immunity?",
+      "question_hi": "कौन सा लॉजिक परिवार न्यूनतम स्थिर शक्ति खपत (static power consumption) और उच्चतम नॉइज़ इम्युनिटी प्रदर्शित करता है?",
       "options": {
-        "A": "11110000",
-        "B": "11101111",
-        "C": "11110010",
-        "D": "00010000"
+        "A": "TTL (Transistor-Transistor Logic)",
+        "B": "ECL (Emitter-Coupled Logic)",
+        "C": "CMOS (Complementary Metal-Oxide-Semiconductor)",
+        "D": "RTL (Resistor-Transistor Logic)"
       },
       "options_hi": {
-        "A": "11110000",
-        "B": "11101111",
-        "C": "11110010",
-        "D": "00010000"
+        "A": "TTL (ट्रांजिस्टर-ट्रांजिस्टर लॉजिक)",
+        "B": "ECL (एमिटर-कपल्ड लॉजिक)",
+        "C": "CMOS (कॉम्प्लिमेंट्री मेटल-ऑक्साइड-सेमीकंडक्टर)",
+        "D": "RTL (रेजिस्टर-ट्रांजिस्टर लॉजिक)"
       },
-      "correctAnswer": "A",
-      "explanation": "Binary of +16 is 00010000. 1's complement is 11101111. Adding 1 gives 2's complement = 11110000.",
-      "explanation_hi": "+16 का बाइनरी 00010000 है। 1's पूरक = 11101111। 1 जोड़ने पर 2's पूरक = 11110000।"
+      "correctAnswer": "C",
+      "explanation": "CMOS technology uses complementary pairs of p-type and n-type MOSFETs, resulting in virtually zero static power dissipation (power is consumed only during switching transitions) and very high noise margins.",
+      "explanation_hi": "CMOS तकनीक p-प्रकार और n-प्रकार MOSFETs के पूरक जोड़ों का उपयोग करती है, जिससे स्थिर अवस्था में लगभग शून्य बिजली की खपत होती है तथा इसमें उच्च नॉइज़ मार्जिन होता है।"
     },
     {
       "id": 20,
@@ -532,23 +532,23 @@ window.predicted_set2 = {
       "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -22?",
-      "question_hi": "दशमलव संख्या -22 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "What is the fan-out of a digital logic gate?",
+      "question_hi": "एक डिजिटल लॉजिक गेट का फैन-आउट (Fan-out) क्या होता है?",
       "options": {
-        "A": "11101010",
-        "B": "11101001",
-        "C": "11101100",
-        "D": "00010110"
+        "A": "The maximum number of standard input loads that the gate output can reliably drive without voltage degradation",
+        "B": "The number of inputs connected to the logic gate",
+        "C": "The physical area occupied by the logic gate on the silicon wafer",
+        "D": "The ratio of propagation delay to power dissipation"
       },
       "options_hi": {
-        "A": "11101010",
-        "B": "11101001",
-        "C": "11101100",
-        "D": "00010110"
+        "A": "मानक इनपुट लोड की अधिकतम संख्या जिसे गेट आउटपुट बिना वोल्टेज गिरावट के विश्वसनीयता से ड्राइव कर सकता है",
+        "B": "लॉजिक गेट से जुड़े इनपुट की संख्या",
+        "C": "सिलिकॉन वेफर पर लॉजिक गेट द्वारा घेरा गया भौतिक क्षेत्रफल",
+        "D": "प्रोपेगेशन डिले और पावर खपत का अनुपात"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +22 is 00010110. 1's complement is 11101001. Adding 1 gives 2's complement = 11101010.",
-      "explanation_hi": "+22 का बाइनरी 00010110 है। 1's पूरक = 11101001। 1 जोड़ने पर 2's पूरक = 11101010।"
+      "explanation": "Fan-out specifies the maximum number of standard logic gate inputs of the same IC family that a gate's output can drive while still maintaining its specified output voltage levels (V_OH and V_OL).",
+      "explanation_hi": "फैन-आउट मानक लॉजिक गेट इनपुट की वह अधिकतम संख्या है जिसे किसी गेट का आउटपुट अपने निर्धारित वोल्टेज स्तरों को बनाए रखते हुए सुरक्षित रूप से संचालित (drive) कर सकता है।"
     },
     {
       "id": 21,
@@ -558,23 +558,23 @@ window.predicted_set2 = {
       "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -27?",
-      "question_hi": "दशमलव संख्या -27 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "What is the output expression for the difference (D) and borrow-out (B_out) of a half subtractor with inputs A and B?",
+      "question_hi": "इनपुट A और B वाले हाफ सबट्रैक्टर के अंतर (D) और बॉरो-आउट (B_out) के लिए आउटपुट व्यंजक क्या है?",
       "options": {
-        "A": "11100101",
-        "B": "11100100",
-        "C": "11100111",
-        "D": "00011011"
+        "A": "D = A ⊕ B, B_out = A' . B",
+        "B": "D = A ⊕ B, B_out = A . B'",
+        "C": "D = A' . B + A . B', B_out = A . B",
+        "D": "D = A ⊙ B, B_out = A' + B"
       },
       "options_hi": {
-        "A": "11100101",
-        "B": "11100100",
-        "C": "11100111",
-        "D": "00011011"
+        "A": "D = A ⊕ B, B_out = A' . B",
+        "B": "D = A ⊕ B, B_out = A . B'",
+        "C": "D = A' . B + A . B', B_out = A . B",
+        "D": "D = A ⊙ B, B_out = A' + B"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +27 is 00011011. 1's complement is 11100100. Adding 1 gives 2's complement = 11100101.",
-      "explanation_hi": "+27 का बाइनरी 00011011 है। 1's पूरक = 11100100। 1 जोड़ने पर 2's पूरक = 11100101।"
+      "explanation": "For a half subtractor subtracting B from A: Difference D = A ⊕ B (same as sum in half adder), and Borrow B_out = A'B (a borrow is required only when A=0 and B=1).",
+      "explanation_hi": "हाफ सबट्रैक्टर (A - B) के लिए: Difference D = A ⊕ B होता है और Borrow B_out = A'B होता है (उधार की आवश्यकता केवल तब होती है जब A=0 और B=1 हो)।"
     },
     {
       "id": 22,
@@ -584,361 +584,361 @@ window.predicted_set2 = {
       "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -33?",
-      "question_hi": "दशमलव संख्या -33 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "In a digital system, why is a Schmitt trigger circuit commonly connected to noisy or slow-rising input signals?",
+      "question_hi": "डिजिटल सिस्टम में, धीमी गति से बढ़ने वाले या शोरयुक्त (noisy) इनपुट सिग्नलों पर आमतौर पर श्मिट ट्रिगर (Schmitt trigger) सर्किट क्यों लगाया जाता है?",
       "options": {
-        "A": "11011111",
-        "B": "11011110",
-        "C": "11100001",
-        "D": "00100001"
+        "A": "It utilizes hysteresis to provide sharp digital switching transitions without false triggering",
+        "B": "It amplifies the high-frequency harmonic distortion",
+        "C": "It stores data permanently without refreshing",
+        "D": "It acts as a digital-to-analog converter"
       },
       "options_hi": {
-        "A": "11011111",
-        "B": "11011110",
-        "C": "11100001",
-        "D": "00100001"
+        "A": "यह हिस्टैरिसीस (hysteresis) का उपयोग करके बिना गलत ट्रिगरिंग के स्पष्ट डिजिटल स्विचिंग प्रदान करता है",
+        "B": "यह उच्च आवृत्ति वाले हार्मोनिक डिस्टॉर्शन को बढ़ाता है",
+        "C": "यह बिना रिफ्रेश किए डेटा को स्थायी रूप से स्टोर करता है",
+        "D": "यह डिजिटल-टू-एनालॉग कनवर्टर के रूप में कार्य करता है"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +33 is 00100001. 1's complement is 11011110. Adding 1 gives 2's complement = 11011111.",
-      "explanation_hi": "+33 का बाइनरी 00100001 है। 1's पूरक = 11011110। 1 जोड़ने पर 2's पूरक = 11011111।"
+      "explanation": "A Schmitt trigger has two different threshold voltages (Upper Threshold Point UTP and Lower Threshold Point LTP), creating a hysteresis band that eliminates noise and false multiple transitions for slow-varying analog signals.",
+      "explanation_hi": "श्मिट ट्रिगर में दो अलग-अलग थ्रेशोल्ड वोल्टेज (UTP और LTP) होते हैं, जिससे एक हिस्टैरिसीस बैंड बनता है जो शोर और धीमी गति से बदलते एनालॉग सिग्नलों के कारण होने वाले झूठे ऑसिलेशन को रोकता है।"
     },
     {
       "id": 23,
       "questionNumber": 23,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -38?",
-      "question_hi": "दशमलव संख्या -38 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "What is the primary structural difference between the Von Neumann architecture and the Harvard architecture?",
+      "question_hi": "वॉन न्यूमैन आर्किटेक्चर और हार्वर्ड आर्किटेक्चर के बीच प्राथमिक संरचनात्मक अंतर क्या है?",
       "options": {
-        "A": "11011010",
-        "B": "11011001",
-        "C": "11011100",
-        "D": "00100110"
+        "A": "Harvard architecture has separate physical memory spaces and buses for instructions and data; Von Neumann shares a unified memory",
+        "B": "Von Neumann architecture uses only RISC instructions; Harvard uses only CISC",
+        "C": "Harvard architecture does not require a program counter register",
+        "D": "Von Neumann architecture executes instructions without pipelining"
       },
       "options_hi": {
-        "A": "11011010",
-        "B": "11011001",
-        "C": "11011100",
-        "D": "00100110"
+        "A": "हार्वर्ड आर्किटेक्चर में निर्देशों और डेटा के लिए अलग-अलग भौतिक मेमोरी और बसें होती हैं; वॉन न्यूमैन एक एकीकृत मेमोरी साझा करता है",
+        "B": "वॉन न्यूमैन केवल RISC निर्देशों का उपयोग करता है; हार्वर्ड केवल CISC का उपयोग करता है",
+        "C": "हार्वर्ड आर्किटेक्चर को प्रोग्राम काउंटर रजिस्टर की आवश्यकता नहीं होती",
+        "D": "वॉन न्यूमैन आर्किटेक्चर बिना पाइपलाइनिंग के निर्देशों को निष्पादित करता है"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +38 is 00100110. 1's complement is 11011001. Adding 1 gives 2's complement = 11011010.",
-      "explanation_hi": "+38 का बाइनरी 00100110 है। 1's पूरक = 11011001। 1 जोड़ने पर 2's पूरक = 11011010।"
+      "explanation": "In Von Neumann architecture, code and data reside in the same physical memory and share the same bus (causing the Von Neumann bottleneck). Harvard architecture utilizes physically separate memories and buses for instructions and data, allowing concurrent instruction fetch and data operand access.",
+      "explanation_hi": "वॉन न्यूमैन आर्किटेक्चर में निर्देश और डेटा एक ही मेमोरी साझा करते हैं (वॉन न्यूमैन बॉटलनेक)। हार्वर्ड आर्किटेक्चर में निर्देशों और डेटा के लिए अलग-अलग भौतिक मेमोरी और बसें होती हैं, जिससे एक साथ इंस्ट्रक्शन फेच और डेटा एक्सेस संभव होता है।"
     },
     {
       "id": 24,
       "questionNumber": 24,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -44?",
-      "question_hi": "दशमलव संख्या -44 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "What is the difference between temporal locality and spatial locality in cache memory operation?",
+      "question_hi": "कैश मेमोरी संचालन में टेम्पोरल लोकैलिटी और स्पेशल लोकैलिटी के बीच क्या अंतर है?",
       "options": {
-        "A": "11010100",
-        "B": "11010011",
-        "C": "11010110",
-        "D": "00101100"
+        "A": "Temporal locality means recently accessed memory is likely to be accessed again soon; Spatial locality means memory locations adjacent to the accessed location are likely to be accessed soon",
+        "B": "Temporal locality applies to instructions; Spatial locality applies only to disk storage",
+        "C": "Temporal locality requires set-associative cache; Spatial locality requires direct-mapped cache",
+        "D": "Temporal locality refers to cache write-through; Spatial locality refers to write-back"
       },
       "options_hi": {
-        "A": "11010100",
-        "B": "11010011",
-        "C": "11010110",
-        "D": "00101100"
+        "A": "टेम्पोरल लोकैलिटी का अर्थ है कि हाल ही में एक्सेस की गई मेमोरी को जल्द ही फिर से एक्सेस किए जाने की संभावना है; स्पेशल लोकैलिटी का अर्थ है कि निकटवर्ती मेमोरी स्थानों को जल्द ही एक्सेस किए जाने की संभावना है",
+        "B": "टेम्पोरल लोकैलिटी केवल निर्देशों पर लागू होती है; स्पेशल लोकैलिटी केवल डिस्क स्टोरेज पर लागू होती है",
+        "C": "टेम्पोरल लोकैलिटी के लिए सेट-एसोसिएटिव कैश की आवश्यकता होती है; स्पेशल के लिए डायरेक्ट-मैप्ड कैश",
+        "D": "टेम्पोरल लोकैलिटी राइट-थ्रू को संदर्भित करती है; स्पेशल राइट-बैक को संदर्भित करती है"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +44 is 00101100. 1's complement is 11010011. Adding 1 gives 2's complement = 11010100.",
-      "explanation_hi": "+44 का बाइनरी 00101100 है। 1's पूरक = 11010011। 1 जोड़ने पर 2's पूरक = 11010100।"
+      "explanation": "Temporal locality implies that an item referenced recently will tend to be referenced again in the near future (e.g., loops, variables). Spatial locality implies that items with addresses near a recently referenced item will tend to be referenced soon (e.g., sequential array elements, contiguous instructions).",
+      "explanation_hi": "टेम्पोरल लोकैलिटी: हाल ही में उपयोग किए गए डेटा या निर्देश के दोबारा उपयोग की उच्च संभावना (जैसे लूप)। स्पेशल लोकैलिटी: वर्तमान में एक्सेस किए गए पते के आस-पास के पतों के एक्सेस होने की संभावना (जैसे एरे का क्रमिक निष्पादन)।"
     },
     {
       "id": 25,
       "questionNumber": 25,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -51?",
-      "question_hi": "दशमलव संख्या -51 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "In a 4-way set-associative cache memory system, if the cache has 64 sets and each cache block contains 16 bytes, what is the total cache capacity?",
+      "question_hi": "एक 4-वे सेट-एसोसिएटिव कैश मेमोरी सिस्टम में, यदि कैश में 64 सेट हैं और प्रत्येक कैश ब्लॉक 16 बाइट्स का है, तो कुल कैश क्षमता क्या है?",
       "options": {
-        "A": "11001101",
-        "B": "11001100",
-        "C": "11001111",
-        "D": "00110011"
+        "A": "1 KB",
+        "B": "2 KB",
+        "C": "4 KB",
+        "D": "16 KB"
       },
       "options_hi": {
-        "A": "11001101",
-        "B": "11001100",
-        "C": "11001111",
-        "D": "00110011"
+        "A": "1 KB",
+        "B": "2 KB",
+        "C": "4 KB",
+        "D": "16 KB"
       },
-      "correctAnswer": "A",
-      "explanation": "Binary of +51 is 00110011. 1's complement is 11001100. Adding 1 gives 2's complement = 11001101.",
-      "explanation_hi": "+51 का बाइनरी 00110011 है। 1's पूरक = 11001100। 1 जोड़ने पर 2's पूरक = 11001101।"
+      "correctAnswer": "C",
+      "explanation": "Total Cache Capacity = (Number of Sets) * (Associativity / Lines per Set) * (Block Size in Bytes) = 64 * 4 * 16 bytes = 256 * 16 = 4,096 bytes = 4 KB.",
+      "explanation_hi": "कुल कैश क्षमता = (सेट्स की संख्या) * (प्रति सेट लाइनों की संख्या) * (ब्लॉक का आकार) = 64 * 4 * 16 बाइट्स = 4,096 बाइट्स = 4 KB।"
     },
     {
       "id": 26,
       "questionNumber": 26,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -59?",
-      "question_hi": "दशमलव संख्या -59 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "What is the purpose of the 'Dirty Bit' (modified bit) in a cache memory utilizing a write-back policy?",
+      "question_hi": "राइट-बैक नीति का उपयोग करने वाली कैश मेमोरी में 'डर्टी बिट' (संशोधित बिट) का उद्देश्य क्या है?",
       "options": {
-        "A": "11000101",
-        "B": "11000100",
-        "C": "11000111",
-        "D": "00111011"
+        "A": "To indicate whether the cache block has been modified and must be written to main memory upon eviction",
+        "B": "To detect parity errors during cache read cycles",
+        "C": "To prevent read operations when the processor is executing branch instructions",
+        "D": "To mark invalid instruction blocks after a context switch"
       },
       "options_hi": {
-        "A": "11000101",
-        "B": "11000100",
-        "C": "11000111",
-        "D": "00111011"
+        "A": "यह इंगित करने के लिए कि कैश ब्लॉक संशोधित किया गया है और रिप्लेसमेंट के समय इसे मुख्य मेमोरी में लिखना अनिवार्य है",
+        "B": "कैश रीड साइकिल के दौरान पैरिटी त्रुटियों का पता लगाने के लिए",
+        "C": "जब प्रोसेसर ब्रांच निर्देशों को निष्पादित कर रहा हो तो रीड ऑपरेशन को रोकने के लिए",
+        "D": "कंटेक्स्ट स्विच के बाद अमान्य निर्देश ब्लॉकों को चिह्नित करने के लिए"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +59 is 00111011. 1's complement is 11000100. Adding 1 gives 2's complement = 11000101.",
-      "explanation_hi": "+59 का बाइनरी 00111011 है। 1's पूरक = 11000100। 1 जोड़ने पर 2's पूरक = 11000101।"
+      "explanation": "In a write-back cache, updates are made only to the cache block. The dirty bit is set to 1 when a write occurs. When that block is evicted to make room for a new block, the dirty bit informs the cache controller whether the block must be written back to main memory.",
+      "explanation_hi": "राइट-बैक कैश में डेटा केवल कैश में लिखा जाता है। डर्टी बिट 1 पर सेट हो जाता है। जब उस ब्लॉक को हटाया जाता है, तो डर्टी बिट यह बताता है कि क्या उस ब्लॉक को मुख्य मेमोरी में अपडेट करने की आवश्यकता है।"
     },
     {
       "id": 27,
       "questionNumber": 27,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -66?",
-      "question_hi": "दशमलव संख्या -66 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "In instruction pipelining, what is a Read-After-Write (RAW) data hazard, and how is it commonly resolved without introducing pipeline stalls?",
+      "question_hi": "निर्देश पाइपलाइनिंग में रीड-आफ्टर-राइट (RAW) डेटा हैज़र्ड क्या है, और इसे बिना पाइपलाइन स्टॉल के सामान्यतः कैसे हल किया जाता है?",
       "options": {
-        "A": "10111110",
-        "B": "10111101",
-        "C": "11000000",
-        "D": "01000010"
+        "A": "An instruction depends on the result of a prior instruction that is still in execution; resolved using operand forwarding (bypassing)",
+        "B": "Two instructions attempt to access the same memory port; resolved using multi-port RAM",
+        "C": "A branch instruction alters the program counter; resolved using speculative execution",
+        "D": "An instruction writes before a prior instruction can read; resolved by flushing the pipeline"
       },
       "options_hi": {
-        "A": "10111110",
-        "B": "10111101",
-        "C": "11000000",
-        "D": "01000010"
+        "A": "एक निर्देश पूर्ववर्ती निर्देश के परिणाम पर निर्भर करता है जो अभी निष्पादित हो रहा है; इसे ऑपरेंड फ़ॉरवर्डिंग (बायपासिंग) द्वारा हल किया जाता है",
+        "B": "दो निर्देश एक ही मेमोरी पोर्ट तक पहुँचने का प्रयास करते हैं; इसे मल्टी-पोर्ट रैम द्वारा हल किया जाता है",
+        "C": "एक ब्रांच निर्देश प्रोग्राम काउंटर को बदल देता है; इसे स्पेक्युलेटिव निष्पादन द्वारा हल किया जाता है",
+        "D": "एक निर्देश पूर्ववर्ती निर्देश द्वारा पढ़े जाने से पहले लिखता है; इसे पाइपलाइन फ्लश करके हल किया जाता है"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +66 is 01000010. 1's complement is 10111101. Adding 1 gives 2's complement = 10111110.",
-      "explanation_hi": "+66 का बाइनरी 01000010 है। 1's पूरक = 10111101। 1 जोड़ने पर 2's पूरक = 10111110।"
+      "explanation": "RAW (true data dependency) occurs when instruction j tries to read a source register before instruction i writes to it. Operand forwarding (data bypassing) routes the computed ALU output directly from the pipeline register back to the ALU input stage, eliminating stall cycles.",
+      "explanation_hi": "RAW (ट्रू डेटा डिपेंडेंसी) तब होती है जब एक निर्देश किसी रजिस्टर से डेटा पढ़ने की कोशिश करता है जिसे पूर्ववर्ती निर्देश द्वारा अभी लिखा जाना बाकी है। ऑपरेंड फॉरवर्डिंग (डेटा बाईपासिंग) पाइपलाइन रजिस्टर से सीधे परिणाम को ALU इनपुट पर पहुंचाकर स्टॉल से बचाता है।"
     },
     {
       "id": 28,
       "questionNumber": 28,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -72?",
-      "question_hi": "दशमलव संख्या -72 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "What is the speedup factor of a k-stage linear pipeline over an equivalent non-pipelined processor for executing n instructions, assuming no hazard stalls?",
+      "question_hi": "बिना किसी हैज़र्ड स्टॉल के n निर्देशों को निष्पादित करने के लिए, समतुल्य गैर-पाइपलाइन्ड प्रोसेसर की तुलना में k-स्टेज रैखिक पाइपलाइन का स्पीडअप कारक (Speedup factor) क्या है?",
       "options": {
-        "A": "10111000",
-        "B": "10110111",
-        "C": "10111010",
-        "D": "01001000"
+        "A": "(n * k) / (k + n - 1)",
+        "B": "(k + n - 1) / (n * k)",
+        "C": "n / (k + n)",
+        "D": "k * n"
       },
       "options_hi": {
-        "A": "10111000",
-        "B": "10110111",
-        "C": "10111010",
-        "D": "01001000"
+        "A": "(n * k) / (k + n - 1)",
+        "B": "(k + n - 1) / (n * k)",
+        "C": "n / (k + n)",
+        "D": "k * n"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +72 is 01001000. 1's complement is 10110111. Adding 1 gives 2's complement = 10111000.",
-      "explanation_hi": "+72 का बाइनरी 01001000 है। 1's पूरक = 10110111। 1 जोड़ने पर 2's पूरक = 10111000।"
+      "explanation": "Non-pipelined time = n * k * clock_cycle. Pipelined time = (k + n - 1) * clock_cycle. Speedup S = (n * k) / (k + n - 1). As n approaches infinity, speedup approaches k (the number of stages).",
+      "explanation_hi": "गैर-पाइपलाइन्ड समय = n * k क्लॉक साइकल। पाइपलाइन्ड समय = (k + n - 1) क्लॉक साइकल। स्पीडअप S = (n * k) / (k + n - 1)। जब n बहुत बड़ा होता है, तो अधिकतम स्पीडअप k के बराबर पहुँच जाता है।"
     },
     {
       "id": 29,
       "questionNumber": 29,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -81?",
-      "question_hi": "दशमलव संख्या -81 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "In which addressing mode is the operand located inside the instruction itself?",
+      "question_hi": "किस एड्रेसिंग मोड में ऑपरेंड स्वयं निर्देश (instruction) के अंदर ही स्थित होता है?",
       "options": {
-        "A": "10101111",
-        "B": "10101110",
-        "C": "10110001",
-        "D": "01010001"
+        "A": "Immediate Addressing Mode",
+        "B": "Direct Addressing Mode",
+        "C": "Register Indirect Addressing Mode",
+        "D": "Indexed Addressing Mode"
       },
       "options_hi": {
-        "A": "10101111",
-        "B": "10101110",
-        "C": "10110001",
-        "D": "01010001"
+        "A": "इमीडिएट (Immediate) एड्रेसिंग मोड",
+        "B": "डायरेक्ट एड्रेसिंग मोड",
+        "C": "रजिस्टर इनडायरेक्ट एड्रेसिंग मोड",
+        "D": "इंडेक्स्ड एड्रेसिंग मोड"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +81 is 01010001. 1's complement is 10101110. Adding 1 gives 2's complement = 10101111.",
-      "explanation_hi": "+81 का बाइनरी 01010001 है। 1's पूरक = 10101110। 1 जोड़ने पर 2's पूरक = 10101111।"
+      "explanation": "In Immediate Addressing Mode, the operand data is specified directly within the instruction field (e.g., MVI A, 05H or ADD R1, #10). No memory reference is required to fetch the operand.",
+      "explanation_hi": "इमीडिएट एड्रेसिंग मोड में, ऑपरेंड का मान स्वयं निर्देश के भीतर ही दिया जाता है (जैसे MOV R1, #25)। ऑपरेंड प्राप्त करने के लिए किसी मेमोरी रेफरेंस की आवश्यकता नहीं होती।"
     },
     {
       "id": 30,
       "questionNumber": 30,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -89?",
-      "question_hi": "दशमलव संख्या -89 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "How does Direct Memory Access (DMA) transfer data between high-speed I/O devices and main memory without continuous CPU intervention?",
+      "question_hi": "डायरेक्ट मेमोरी एक्सेस (DMA) निरंतर CPU हस्तक्षेप के बिना हाई-स्पीड I/O डिवाइस और मुख्य मेमोरी के बीच डेटा ट्रांसफर कैसे करता है?",
       "options": {
-        "A": "10100111",
-        "B": "10100110",
-        "C": "10101001",
-        "D": "01011001"
+        "A": "The DMA controller takes control of the system bus and transfers data blocks directly to/from memory via cycle stealing or burst mode",
+        "B": "The CPU polls the I/O port for every individual byte transferred",
+        "C": "The I/O device writes directly into the CPU general-purpose registers",
+        "D": "The operating system switches to user mode during transfer"
       },
       "options_hi": {
-        "A": "10100111",
-        "B": "10100110",
-        "C": "10101001",
-        "D": "01011001"
+        "A": "DMA नियंत्रक सिस्टम बस का नियंत्रण लेता है और साइकिल स्टीलिंग या बर्स्ट मोड के माध्यम से डेटा को सीधे मेमोरी में ट्रांसफर करता है",
+        "B": "CPU प्रत्येक स्थानांतरित बाइट के लिए I/O पोर्ट को पोल करता है",
+        "C": "I/O डिवाइस सीधे CPU के सामान्य-उद्देश्य रजिस्टरों में लिखता है",
+        "D": "ऑपरेटिंग सिस्टम ट्रांसफर के दौरान यूजर मोड में स्विच करता है"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +89 is 01011001. 1's complement is 10100110. Adding 1 gives 2's complement = 10100111.",
-      "explanation_hi": "+89 का बाइनरी 01011001 है। 1's पूरक = 10100110। 1 जोड़ने पर 2's पूरक = 10100111।"
+      "explanation": "DMA offloads block data transfers from the CPU. After being initialized by the CPU with starting memory address, word count, and direction, the DMA controller requests bus mastership (HOLD/HLDA) and transfers data directly between device and RAM.",
+      "explanation_hi": "DMA कंट्रोलर CPU से बस का नियंत्रण (HOLD/HLDA) प्राप्त करता है और बिना CPU के हस्तक्षेप के मेमोरी और I/O डिवाइस के बीच डेटा ब्लॉक को तेजी से ट्रांसफर (साइकिल स्टीलिंग या बर्स्ट मोड में) करता है।"
     },
     {
       "id": 31,
       "questionNumber": 31,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -96?",
-      "question_hi": "दशमलव संख्या -96 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "In the IEEE 754 Single Precision (32-bit) floating-point standard, how many bits are allocated to the Sign, Exponent, and Mantissa (fraction) respectively?",
+      "question_hi": "IEEE 754 सिंगल प्रिसिजन (32-बिट) फ्लोटिंग-पॉइंट मानक में साइन, एक्सपोनेंट और मंटिसा (फ्रैक्शन) के लिए क्रमशः कितने बिट्स आवंटित होते हैं?",
       "options": {
-        "A": "10100000",
-        "B": "10011111",
-        "C": "10100010",
-        "D": "01100000"
+        "A": "1 sign bit, 8 exponent bits, 23 mantissa bits",
+        "B": "1 sign bit, 11 exponent bits, 52 mantissa bits",
+        "C": "1 sign bit, 7 exponent bits, 24 mantissa bits",
+        "D": "2 sign bits, 8 exponent bits, 22 mantissa bits"
       },
       "options_hi": {
-        "A": "10100000",
-        "B": "10011111",
-        "C": "10100010",
-        "D": "01100000"
+        "A": "1 साइन बिट, 8 एक्सपोनेंट बिट्स, 23 मंटिसा बिट्स",
+        "B": "1 साइन बिट, 11 एक्सपोनेंट बिट्स, 52 मंटिसा बिट्स",
+        "C": "1 साइन बिट, 7 एक्सपोनेंट बिट्स, 24 मंटिसा बिट्स",
+        "D": "2 साइन बिट्स, 8 एक्सपोनेंट बिट्स, 22 मंटिसा बिट्स"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +96 is 01100000. 1's complement is 10011111. Adding 1 gives 2's complement = 10100000.",
-      "explanation_hi": "+96 का बाइनरी 01100000 है। 1's पूरक = 10011111। 1 जोड़ने पर 2's पूरक = 10100000।"
+      "explanation": "IEEE 754 Single Precision (32-bit) uses: 1 sign bit, 8 exponent bits (bias = 127), and 23 fraction bits (with an implicit leading 1). Double Precision (64-bit) uses 1 sign bit, 11 exponent bits (bias = 1023), and 52 fraction bits.",
+      "explanation_hi": "IEEE 754 सिंगल प्रिसिजन (32-बिट) में 1 साइन बिट, 8 एक्सपोनेंट बिट्स (बायस = 127) और 23 मंटिसा (फ्रैक्शन) बिट्स होते हैं। डबल प्रिसिजन (64-बिट) में 1 साइन, 11 एक्सपोनेंट और 52 मंटिसा बिट्स होते हैं।"
     },
     {
       "id": 32,
       "questionNumber": 32,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -102?",
-      "question_hi": "दशमलव संख्या -102 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "What is the primary role of a Translation Lookaside Buffer (TLB) in a paged virtual memory system?",
+      "question_hi": "पेज्ड वर्चुअल मेमोरी सिस्टम में ट्रांसलेशन लुकसाइड बफर (TLB) की प्राथमिक भूमिका क्या है?",
       "options": {
-        "A": "10011010",
-        "B": "10011001",
-        "C": "10011100",
-        "D": "01100110"
+        "A": "It acts as a hardware cache for recent virtual-to-physical page table address mappings to speed up memory access",
+        "B": "It stores recently executed program loops to bypass the instruction decoder",
+        "C": "It holds dirty pages before writing them to the secondary hard drive",
+        "D": "It resolves bus contention between multiple CPU cores"
       },
       "options_hi": {
-        "A": "10011010",
-        "B": "10011001",
-        "C": "10011100",
-        "D": "01100110"
+        "A": "यह मेमोरी एक्सेस को गति देने के लिए हाल के वर्चुअल-टू-फिजिकल पेज टेबल मैपिंग के लिए हार्डवेयर कैश के रूप में कार्य करता है",
+        "B": "यह निर्देश डिकोडर को बायपास करने के लिए हाल ही में निष्पादित प्रोग्राम लूप को स्टोर करता है",
+        "C": "यह सेकेंडरी हार्ड ड्राइव में लिखने से पहले डर्टी पेजों को रखता है",
+        "D": "यह मल्टीपल CPU कोर के बीच बस संघर्ष को हल करता है"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +102 is 01100110. 1's complement is 10011001. Adding 1 gives 2's complement = 10011010.",
-      "explanation_hi": "+102 का बाइनरी 01100110 है। 1's पूरक = 10011001। 1 जोड़ने पर 2's पूरक = 10011010।"
+      "explanation": "A Translation Lookaside Buffer (TLB) is an associative hardware cache inside the MMU that stores recent virtual-page-number to physical-frame-number translations, avoiding an extra main-memory lookup on page hits.",
+      "explanation_hi": "TLB (ट्रांसलेशन लुकसाइड बफर) MMU में एक हाई-स्पीड एसोसिएटिव कैश है जो हाल ही में अनुवादित वर्चुअल-से-फिजिकल पेज मैपिंग को स्टोर करता है ताकि हर मेमोरी एक्सेस पर पेज टेबल के लिए रैम में न जाना पड़े।"
     },
     {
       "id": 33,
       "questionNumber": 33,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -109?",
-      "question_hi": "दशमलव संख्या -109 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "What are the three mandatory requirements that any valid solution to the Critical Section problem must satisfy?",
+      "question_hi": "क्रिटिकल सेक्शन समस्या के किसी भी वैध समाधान द्वारा संतुष्ट की जाने वाली तीन अनिवार्य शर्तें कौन सी हैं?",
       "options": {
-        "A": "10010011",
-        "B": "10010010",
-        "C": "10010101",
-        "D": "01101101"
+        "A": "Mutual Exclusion, Progress, and Bounded Waiting",
+        "B": "Atomicity, Consistency, and Durability",
+        "C": "Preemption, Aging, and Non-blocking I/O",
+        "D": "Hold and Wait, Circular Wait, and Mutual Exclusion"
       },
       "options_hi": {
-        "A": "10010011",
-        "B": "10010010",
-        "C": "10010101",
-        "D": "01101101"
+        "A": "म्युचुअल एक्सक्लूजन (पारस्परिक अपवर्जन), प्रोग्रेस (प्रगति), और बाउंडेड वेटिंग (सीमित प्रतीक्षा)",
+        "B": "परमाणुता (Atomicity), संगति (Consistency), और स्थायित्व (Durability)",
+        "C": "प्रिमेम्पशन, एजिंग, और नॉन-ब्लॉकिंग I/O",
+        "D": "होल्ड एंड वेट, सर्कुलर वेट, और म्युचुअल एक्सक्लूजन"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +109 is 01101101. 1's complement is 10010010. Adding 1 gives 2's complement = 10010011.",
-      "explanation_hi": "+109 का बाइनरी 01101101 है। 1's पूरक = 10010010। 1 जोड़ने पर 2's पूरक = 10010011।"
+      "explanation": "Any correct solution to the critical-section problem must ensure: 1) Mutual Exclusion (only one process in critical section at a time), 2) Progress (selection of next process cannot be postponed indefinitely), and 3) Bounded Waiting (limit on times other processes can enter before a request is granted).",
+      "explanation_hi": "क्रिटिकल सेक्शन समस्या के समाधान के लिए 3 आवश्यक शर्तें हैं: 1. Mutual Exclusion (एक समय में केवल एक प्रक्रिया), 2. Progress (यदि कोई प्रक्रिया CS में नहीं है तो प्रवेश में देरी नहीं), 3. Bounded Waiting (प्रतीक्षा समय सीमित होना चाहिए)।"
     },
     {
       "id": 34,
       "questionNumber": 34,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -114?",
-      "question_hi": "दशमलव संख्या -114 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "What is the phenomenon known as Belady's Anomaly in operating systems memory management?",
+      "question_hi": "ऑपरेटिंग सिस्टम मेमोरी प्रबंधन में बेलाडी की विसंगति (Belady's Anomaly) नामक परिघटना क्या है?",
       "options": {
-        "A": "10001110",
-        "B": "10001101",
-        "C": "10010000",
-        "D": "01110010"
+        "A": "Under FIFO page replacement, allocating more page frames can result in an increased number of page faults",
+        "B": "LRU page replacement causes thrashing when the working set is smaller than physical RAM",
+        "C": "Shortest Remaining Time First leads to unbounded thread starvation",
+        "D": "Disk scheduling elevator algorithm reverses track direction unexpectedly"
       },
       "options_hi": {
-        "A": "10001110",
-        "B": "10001101",
-        "C": "10010000",
-        "D": "01110010"
+        "A": "FIFO पेज रिप्लेसमेंट में, अधिक पेज फ्रेम आवंटित करने पर भी पेज फॉल्ट की संख्या बढ़ सकती है",
+        "B": "जब वर्किंग सेट भौतिक रैम से छोटा होता है तो LRU थ्रैशिंग का कारण बनता है",
+        "C": "शॉर्टेस्ट रिमेनिंग टाइम फर्स्ट असीमित थ्रेड भुखमरी की ओर ले जाता है",
+        "D": "डिस्क शेड्यूलिंग एलिवेटर एल्गोरिदम अप्रत्याशित रूप से ट्रैक दिशा बदल देता है"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +114 is 01110010. 1's complement is 10001101. Adding 1 gives 2's complement = 10001110.",
-      "explanation_hi": "+114 का बाइनरी 01110010 है। 1's पूरक = 10001101। 1 जोड़ने पर 2's पूरक = 10001110।"
+      "explanation": "Belady's Anomaly demonstrates that for certain page reference strings, increasing the number of allocated physical frames under First-In-First-Out (FIFO) replacement causes MORE page faults, rather than fewer. Stack algorithms like LRU and OPT are immune to this anomaly.",
+      "explanation_hi": "बेलाडी की विसंगति (Belady's Anomaly) यह दर्शाती है कि FIFO पेज रिप्लेसमेंट एल्गोरिदम में प्रोसेस को अधिक पेज फ्रेम देने पर भी पेज फॉल्ट्स की संख्या घटने के बजाय बढ़ सकती है।"
     },
     {
       "id": 35,
       "questionNumber": 35,
       "section": "Computer Science",
-      "topic": "Digital Logic",
-      "topic_hi": "डिजिटल लॉजिक",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the 8-bit two's complement representation of decimal integer -120?",
-      "question_hi": "दशमलव संख्या -120 का 8-बिट 2's पूरक बाइनरी निरूपण क्या होगा?",
+      "question": "Which of the following is NOT one of Coffman's four necessary conditions for a deadlock to occur in an operating system?",
+      "question_hi": "ऑपरेटिंग सिस्टम में डेडलॉक उत्पन्न होने के लिए कॉफमैन की चार आवश्यक शर्तों में से कौन सी शर्त नहीं है?",
       "options": {
-        "A": "10001000",
-        "B": "10000111",
-        "C": "10001010",
-        "D": "01111000"
+        "A": "Preemption of resources",
+        "B": "Mutual Exclusion",
+        "C": "Hold and Wait",
+        "D": "Circular Wait"
       },
       "options_hi": {
-        "A": "10001000",
-        "B": "10000111",
-        "C": "10001010",
-        "D": "01111000"
+        "A": "संसाधनों का प्रीमेम्पशन (Preemption of resources)",
+        "B": "म्युचुअल एक्सक्लूजन (Mutual Exclusion)",
+        "C": "होल्ड एंड वेट (Hold and Wait)",
+        "D": "सर्कुलर वेट (Circular Wait)"
       },
       "correctAnswer": "A",
-      "explanation": "Binary of +120 is 01111000. 1's complement is 10000111. Adding 1 gives 2's complement = 10001000.",
-      "explanation_hi": "+120 का बाइनरी 01111000 है। 1's पूरक = 10000111। 1 जोड़ने पर 2's पूरक = 10001000।"
+      "explanation": "The four necessary conditions for deadlock are: Mutual Exclusion, Hold and Wait, No Preemption (resources CANNOT be preempted), and Circular Wait. If preemption is allowed, deadlocks cannot persist.",
+      "explanation_hi": "डेडलॉक की 4 आवश्यक शर्तें हैं: 1. Mutual Exclusion, 2. Hold and Wait, 3. No Preemption (संसाधनों को छीना नहीं जा सकता), और 4. Circular Wait। यदि प्रीमेम्पशन की अनुमति हो तो डेडलॉक नहीं हो सकता।"
     },
     {
       "id": 36,
@@ -2713,234 +2713,234 @@ window.predicted_set2 = {
       "questionNumber": 104,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 11), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
-      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 11) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
+      "question": "What is the key functional difference between a Diagnostic Test and a Remedial Teaching session?",
+      "question_hi": "निदानात्मक परीक्षण (Diagnostic Test) और उपचारात्मक शिक्षण (Remedial Teaching) सत्र के बीच प्रमुख कार्यात्मक अंतर क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Diagnostic testing identifies the specific nature, causes, and locations of student learning difficulties; Remedial teaching provides targeted corrective instruction to rectify those difficulties",
+        "B": "Diagnostic testing assigns ranks; Remedial teaching assigns punishments",
+        "C": "Diagnostic testing occurs at the end of the year; Remedial occurs on the first day",
+        "D": "Diagnostic testing is conducted by parents; Remedial by peer students"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "निदानात्मक परीक्षण छात्र की सीखने की कठिनाइयों की विशिष्ट प्रकृति, कारणों और स्थानों की पहचान करता है; उपचारात्मक शिक्षण उन कठिनाइयों को दूर करने के लिए लक्षित सुधारात्मक शिक्षण प्रदान करता है",
+        "B": "निदानात्मक परीक्षण रैंक देता है; उपचारात्मक शिक्षण दंड देता है",
+        "C": "निदानात्मक परीक्षण वर्ष के अंत में होता है; उपचारात्मक पहले दिन होता है",
+        "D": "निदानात्मक परीक्षण माता-पिता द्वारा किया जाता है; उपचारात्मक सहपाठियों द्वारा"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 11 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
+      "explanation": "Diagnostic testing acts as medical diagnosis: pin-pointing conceptual flaws. Remedial teaching provides individualized instructional support that corrects those identified gaps.",
+      "explanation_hi": "निदान (Diagnosis) का अर्थ है कमियों और कमजोरियों के कारणों का पता लगाना। जबकि उपचार (Remediation) का अर्थ उन चिन्हित कमियों को दूर करने के लिए उपयुक्त शिक्षण विधियों से दोबारा पढ़ाना है।"
     },
     {
       "id": 105,
       "questionNumber": 105,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 12), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
-      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 12) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
+      "question": "A standardized achievement test that yields consistent, reproducible scores upon repeated administrations to the same cohort of students possesses which psychometric property?",
+      "question_hi": "एक मानकीकृत उपलब्धि परीक्षण जो छात्रों के एक ही समूह को बार-बार देने पर सुसंगत, प्रतिलिपि प्रस्तुत करने योग्य अंक प्रदान करता है, उसमें कौन सा मनोमितीय गुण होता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Reliability",
+        "B": "Validity",
+        "C": "Objectivity",
+        "D": "Usability"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "विश्वसनीयता (Reliability)",
+        "B": "वैधता (Validity)",
+        "C": "वस्तुनिष्ठता (Objectivity)",
+        "D": "उपयोगिता (Usability)"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 12 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
+      "explanation": "Reliability refers to consistency and repeatability of test scores under identical conditions. Validity refers to whether the test measures what it was specifically designed to measure.",
+      "explanation_hi": "विश्वसनीयता (Reliability) का अर्थ है परिणामों की निरंतरता और स्थिरता। यदि एक ही परीक्षा अलग-अलग समय पर समान परिस्थितियों में ली जाए और परिणाम लगभग समान आएं, तो वह परीक्षण विश्वसनीय कहलाता है।"
     },
     {
       "id": 106,
       "questionNumber": 106,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 13), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
-      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 13) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
+      "question": "What is the defining distinction between a Criterion-Referenced Test (CRT) and a Norm-Referenced Test (NRT)?",
+      "question_hi": "मानदंड-संदर्भित परीक्षण (CRT) और मानक-संदर्भित परीक्षण (NRT) के बीच क्या परिभाषित अंतर है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "A CRT assesses student performance against fixed predetermined criteria or learning standards; an NRT ranks student performance relative to a peer normative group",
+        "B": "A CRT uses essay questions; an NRT uses only true/false questions",
+        "C": "A CRT is administered orally; an NRT is strictly written",
+        "D": "A CRT cannot have a pass/fail cutoff"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "CRT पूर्व निर्धारित मानदंडों या सीखने के मानकों के विरुद्ध छात्र के प्रदर्शन का आकलन करता है; NRT सहकर्मी समूह के सापेक्ष छात्र के प्रदर्शन को रैंक करता है",
+        "B": "CRT निबंध प्रश्नों का उपयोग करता है; NRT केवल सही/गलत प्रश्नों का उपयोग करता है",
+        "C": "CRT मौखिक रूप से दिया जाता है; NRT कड़ाई से लिखित है",
+        "D": "CRT में पास/फेल कटऑफ नहीं हो सकता"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 13 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
+      "explanation": "Criterion-referenced tests (like Bihar STET qualifying score) assess mastery of explicit standards. Norm-referenced tests (like percentile rankings) assess standing relative to peers.",
+      "explanation_hi": "मानदंड-संदर्भित (CRT) में छात्र की तुलना किसी पूर्व-निर्धारित मानक से होती है (जैसे STET में 50% कटऑफ पास करना)। मानक-संदर्भित (NRT) में छात्र की तुलना अन्य छात्रों के प्रदर्शन से की जाती है (जैसे पर्सेंटाइल या मेरिट रैंक)।"
     },
     {
       "id": 107,
       "questionNumber": 107,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 14), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
-      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 14) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
+      "question": "Who introduced the Kindergarten system of early childhood education based on play, self-activity, and 'gifts and occupations'?",
+      "question_hi": "खेल, आत्म-गतिविधि, और 'उपहार व व्यवसाय' (Gifts and Occupations) पर आधारित प्रारंभिक बाल्यावस्था शिक्षा की किंडरगार्टन प्रणाली किसने शुरू की थी?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Friedrich Froebel",
+        "B": "Maria Montessori",
+        "C": "Johann Heinrich Pestalozzi",
+        "D": "Jean-Jacques Rousseau"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "फ्रेडरिक फ्रोबेल (Friedrich Froebel)",
+        "B": "मारिया मांटेसरी",
+        "C": "जोहान हेनरिक पेस्टालॉजी",
+        "D": "जीन-जैक्स रूसो"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 14 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
+      "explanation": "Friedrich Froebel opened the first Kindergarten ('Children's Garden') in Germany in 1837, emphasizing play as the purest form of human expression and developing structured sensory materials called 'gifts'.",
+      "explanation_hi": "किंडरगार्टन (Kindergarten - बच्चों का बगीचा) प्रणाली के जनक फ्रेडरिक फ्रोबेल थे। उन्होंने खेल-खेल में सीखने (Play-way method) और बच्चों के प्राकृतिक विकास पर बल दिया।"
     },
     {
       "id": 108,
       "questionNumber": 108,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 15), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
-      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 15) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
+      "question": "What is the primary instructional goal of the Flipped Classroom pedagogical model?",
+      "question_hi": "फ्लिप्ड क्लासरूम (Flipped Classroom) शैक्षणिक मॉडल का प्राथमिक शिक्षण लक्ष्य क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Direct instructional content (lectures/videos) is consumed by students at home, while classroom time is repurposed for active, collaborative problem-solving and projects",
+        "B": "Students conduct all examinations at home with open textbooks",
+        "C": "Teachers reverse their grading system from marks to letters",
+        "D": "Classes are held exclusively outdoors"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "निर्देशात्मक सामग्री (व्याख्यान/वीडियो) छात्रों द्वारा घर पर देखी जाती है, जबकि कक्षा के समय का उपयोग सक्रिय, सहयोगी समस्या-समाधान और परियोजनाओं के लिए किया जाता है",
+        "B": "छात्र खुली पाठ्यपुस्तकों के साथ घर पर सभी परीक्षाएं आयोजित करते हैं",
+        "C": "शिक्षक अपनी ग्रेडिंग प्रणाली को अंकों से अक्षरों में उलट देते हैं",
+        "D": "कक्षाएं विशेष रूप से बाहर आयोजित की जाती हैं"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 15 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
+      "explanation": "The flipped classroom inverts traditional teaching: students learn basic conceptual knowledge outside class via videos or readings, freeing valuable synchronous classroom contact time for higher-order inquiry, debates, and hands-on exercises.",
+      "explanation_hi": "फ्लिप्ड क्लासरूम में पारंपरिक मॉडल को उलट दिया जाता है: छात्र व्याख्यान और बुनियादी पाठ घर पर वीडियो/ऑनलाइन माध्यम से पढ़ते हैं, और कक्षा में आकर शिक्षक के मार्गदर्शन में कठिन समस्याओं और गतिविधियों पर चर्चा करते हैं।"
     },
     {
       "id": 109,
       "questionNumber": 109,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 16), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
-      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 16) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
+      "question": "What did Mahatma Gandhi's Wardha Scheme of Basic Education (Nai Talim, 1937) place at the center of the school curriculum?",
+      "question_hi": "महात्मा गांधी की बुनियादी शिक्षा की वर्धा योजना (नई तालीम, 1937) ने स्कूल पाठ्यक्रम के केंद्र में किसे रखा था?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Productive, socially useful handicraft and manual labor aligned with the local environment",
+        "B": "English language grammar and literature",
+        "C": "Strict memorization of religious scriptures",
+        "D": "Pure theoretical mathematics without practical applications"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "स्थानीय परिवेश के अनुरूप उत्पादक, सामाजिक रूप से उपयोगी हस्तशिल्प और शारीरिक श्रम (Craft-centered education)",
+        "B": "अंग्रेजी भाषा व्याकरण और साहित्य",
+        "C": "धार्मिक ग्रंथों का कड़ाई से स्मरण",
+        "D": "व्यावहारिक अनुप्रयोगों के बिना शुद्ध सैद्धांतिक गणित"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 16 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
+      "explanation": "Mahatma Gandhi's Basic Education (Nai Talim / Wardha Scheme 1937, drafted by Dr. Zakir Husain Committee) advocated free and compulsory mother-tongue education centered around a productive craft (like spinning, weaving, agriculture) to achieve self-reliance and holistic 3H development (Head, Heart, Hand).",
+      "explanation_hi": "गांधीजी की वर्धा शिक्षा योजना (नई तालीम, 1937) हस्तकला-केंद्रित (Craft-centered) शिक्षा पर आधारित थी, ताकि बच्चा आत्मनिर्भर बन सके और उसके 3H (Head, Heart, Hand - मस्तिष्क, हृदय और हाथ) का सर्वांगीण विकास हो।"
     },
     {
       "id": 110,
       "questionNumber": 110,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 17), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
-      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 17) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
+      "question": "In classroom verbal interaction analysis, what tool developed by Ned Flanders is widely utilized to systematically measure teacher talk, pupil talk, and silence?",
+      "question_hi": "कक्षा में मौखिक बातचीत के विश्लेषण में, शिक्षक की बातचीत, छात्र की बातचीत और मौन को व्यवस्थित रूप से मापने के लिए नेड फ्लैंडर्स द्वारा विकसित किस उपकरण का व्यापक रूप से उपयोग किया जाता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Flanders' Interaction Analysis Categories (FIAC, 10 categories)",
+        "B": "Stanford-Binet Intelligence Scale",
+        "C": "Thematic Apperception Test (TAT)",
+        "D": "Rorschach Inkblot Test"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "फ्लैंडर्स इंटरेक्शन एनालिसिस कैटेगरीज (FIAC - 10 श्रेणियां)",
+        "B": "स्टैनफोर्ड-बिने इंटेलिजेंस स्केल",
+        "C": "थीमैटिक एपरसेप्शन टेस्ट (TAT)",
+        "D": "रोर्शा स्याही धब्बा परीक्षण"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 17 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
+      "explanation": "FIAC is an observational system containing 10 categories of classroom verbal behavior: Categories 1-7 for Teacher Talk (response & initiation), Categories 8-9 for Student Talk, and Category 10 for Silence or Confusion.",
+      "explanation_hi": "फ्लैंडर्स की अंतःक्रिया विश्लेषण प्रणाली (FIAC) में 10 श्रेणियां होती हैं: 1 से 7 शिक्षक कथन (Teacher Talk), 8 और 9 छात्र कथन (Student Talk), और 10 मौन या भ्रम (Silence/Confusion) के लिए निर्धारित है।"
     },
     {
       "id": 111,
       "questionNumber": 111,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 18), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
-      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 18) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
+      "question": "In educational psychometrics, what is the 'Difficulty Index' (p-value) of a test item?",
+      "question_hi": "शैक्षिक मनोमिति में, किसी परीक्षा प्रश्न का 'कठिनाई सूचकांक' (Difficulty Index / p-value) क्या होता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "The proportion of examinees who answered the test item correctly (p = R / N)",
+        "B": "The time in seconds required to solve the question",
+        "C": "The number of distractors present in the multiple-choice item",
+        "D": "The reading grade level of the question statement"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "परीक्षार्थियों का वह अनुपात जिन्होंने प्रश्न का सही उत्तर दिया (p = R / N)",
+        "B": "प्रश्न को हल करने के लिए सेकंड में आवश्यक समय",
+        "C": "बहुविकल्पीय प्रश्न में मौजूद डिस्ट्रैक्टर्स की संख्या",
+        "D": "प्रश्न कथन का पठन स्तर"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 18 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
+      "explanation": "Item Difficulty Index p is the fraction of total test-takers who got the item right (p = Right / Total). A higher p-value indicates an easier item; items with p between 0.30 and 0.70 are generally considered ideal.",
+      "explanation_hi": "कठिनाई सूचकांक (Difficulty Index) यह दर्शाता है कि कुल छात्रों में से कितने प्रतिशत ने प्रश्न का सही उत्तर दिया। इसका मान 0 से 1 के बीच होता है। 0.50 के आस-पास का मान मध्यम कठिनाई का आदर्श स्तर माना जाता है।"
     },
     {
       "id": 112,
       "questionNumber": 112,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 19), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
-      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 19) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
+      "question": "At which of Jean Piaget's cognitive development stages does a child master the concept of 'Conservation'?",
+      "question_hi": "जीन पियाजे के संज्ञानात्मक विकास के किस चरण में बच्चा 'संरक्षण' (Conservation) की अवधारणा में महारत हासिल करता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Concrete Operational Stage (7 to 11 years)",
+        "B": "Sensorimotor Stage (0 to 2 years)",
+        "C": "Pre-operational Stage (2 to 7 years)",
+        "D": "Formal Operational Stage (11 years and above)"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "मूर्त संक्रियात्मक अवस्था (7 से 11 वर्ष / Concrete Operational)",
+        "B": "संवेदी-गामक अवस्था (0 से 2 वर्ष)",
+        "C": "पूर्व-संक्रियात्मक अवस्था (2 से 7 वर्ष)",
+        "D": "औपचारिक संक्रियात्मक अवस्था (11 वर्ष और उससे अधिक)"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 19 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
+      "explanation": "Piaget's Concrete Operational Stage (7-11 years) is marked by the acquisition of Conservation, Reversibility of thought, and decentration.",
+      "explanation_hi": "मूर्त संक्रियात्मक अवस्था (7 से 11 वर्ष) में बच्चा संरक्षण (Conservation), प्रतिवर्ती सोच (Reversibility), और वर्गीकरण की क्षमता विकसित कर लेता है।"
     },
     {
       "id": 113,
@@ -2973,156 +2973,156 @@ window.predicted_set2 = {
       "questionNumber": 114,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 21), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
-      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 21) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
+      "question": "What Piagetian term describes modifying existing mental schemas to incorporate new contradictory experiences?",
+      "question_hi": "पर्यावरण से नई विरोधाभासी जानकारी को शामिल करने के लिए मौजूदा मानसिक स्कीमा को संशोधित करने की प्रक्रिया क्या कहलाती है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Accommodation",
+        "B": "Assimilation",
+        "C": "Equilibration",
+        "D": "Centration"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "समायोजन / समंजन (Accommodation)",
+        "B": "आत्मसातीकरण (Assimilation)",
+        "C": "साम्यावस्था (Equilibration)",
+        "D": "केंद्रीकरण (Centration)"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 21 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
+      "explanation": "Accommodation involves modifying existing cognitive schemas or creating new ones when new information clashes with existing schema structures.",
+      "explanation_hi": "समायोजन (Accommodation) में बालक नई जानकारी के कारण अपनी पुरानी स्कीमा में संशोधन करता है या नई स्कीमा बनाता है।"
     },
     {
       "id": 115,
       "questionNumber": 115,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 22), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
-      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 22) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
+      "question": "What is 'Object Permanence' and during which Piagetian stage is it typically achieved?",
+      "question_hi": "पियाजे के अनुसार 'वस्तु स्थायित्व' (Object Permanence) क्या है और यह किस अवस्था में प्राप्त होता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Realizing objects still exist even when hidden from view; achieved in Sensorimotor Stage",
+        "B": "Believing inanimate objects have life; achieved in Pre-operational Stage",
+        "C": "Understanding volume conservation; achieved in Concrete Stage",
+        "D": "Abstract algebraic thought; achieved in Formal Stage"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "यह समझना कि वस्तुएं दृष्टि से ओझल होने पर भी मौजूद रहती हैं; संवेदी-गामक अवस्था में प्राप्त",
+        "B": "निर्जीव वस्तुओं को सजीव मानना; पूर्व-संक्रियात्मक अवस्था में प्राप्त",
+        "C": "आयतन संरक्षण समझना; मूर्त अवस्था में प्राप्त",
+        "D": "अमूर्त बीजगणितीय सोच; औपचारिक अवस्था में प्राप्त"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 22 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
+      "explanation": "Object Permanence is acquired between 8-12 months during the Sensorimotor stage, enabling the infant to understand that unseen objects continue to exist physically.",
+      "explanation_hi": "वस्तु स्थायित्व संवेदी-गामक अवस्था (0-2 वर्ष) की प्रमुख उपलब्धि है, जिसमें बच्चा समझता है कि आँख से ओझल होने पर भी वस्तु का अस्तित्व रहता है।"
     },
     {
       "id": 116,
       "questionNumber": 116,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 23), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
-      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 23) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
+      "question": "In Piaget's theory, what is 'Egocentrism' in the pre-operational child?",
+      "question_hi": "पियाजे के सिद्धांत में पूर्व-संक्रियात्मक बच्चे में 'अहंकेंद्रितता' (Egocentrism) क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "The inability to distinguish between one's own perspective and that of another person",
+        "B": "Extreme selfish behavior in sharing toys",
+        "C": "The belief that all adults are infallible",
+        "D": "Focusing on abstract moral principles"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "अपने स्वयं के दृष्टिकोण और किसी अन्य व्यक्ति के दृष्टिकोण के बीच अंतर करने में असमर्थता",
+        "B": "खिलौने साझा करने में अत्यधिक स्वार्थी व्यवहार",
+        "C": "यह विश्वास कि सभी वयस्क अचूक हैं",
+        "D": "अमूर्त नैतिक सिद्धांतों पर ध्यान केंद्रित करना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 23 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
+      "explanation": "Piaget illustrated egocentrism using the Three Mountains Task: pre-operational children (ages 2-7) assume that everyone sees the world from their exact physical and mental viewpoint.",
+      "explanation_hi": "पियाजे के अनुसार अहंकेंद्रितता (Egocentrism) का अर्थ है कि बच्चा केवल अपने दृष्टिकोण से दुनिया को देखता है और यह मानने में असमर्थ होता है कि दूसरे का नजरिया अलग हो सकता है।"
     },
     {
       "id": 117,
       "questionNumber": 117,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 24), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
-      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 24) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
+      "question": "What is 'Animism' in Piaget's Pre-operational stage of cognitive development?",
+      "question_hi": "पियाजे की पूर्व-संक्रियात्मक अवस्था में 'जीववाद' (Animism) क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Attributing lifelike qualities, emotions, and intentions to inanimate physical objects",
+        "B": "The fear of wild animals",
+        "C": "The ability to draw geometric shapes",
+        "D": "Learning language through imitation"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "निर्जीव भौतिक वस्तुओं में जीवन, भावनाएं और इरादे होने का विश्वास करना",
+        "B": "जंगली जानवरों का डर",
+        "C": "ज्यामितीय आकृतियाँ बनाने की क्षमता",
+        "D": "अनुकरण के माध्यम से भाषा सीखना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 24 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
+      "explanation": "Animism is the pre-operational tendency of young children to believe that inanimate things (like the sun, toys, or wind) are alive and possess human feelings, desires, and conscious thoughts.",
+      "explanation_hi": "जीववाद (Animism) पूर्व-संक्रियात्मक अवस्था का लक्षण है जिसमें बच्चा निर्जीव वस्तुओं (जैसे गुड़िया, कार, सूर्य या पंखे) को सजीव मानता है और सोचता है कि उन्हें भी दर्द या भावनाएं होती हैं।"
     },
     {
       "id": 118,
       "questionNumber": 118,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 25), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
-      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 25) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
+      "question": "In Lev Vygotsky's socio-cultural theory, what is the 'Zone of Proximal Development' (ZPD)?",
+      "question_hi": "वायगोत्स्की के अनुसार 'समीपस्थ विकास का क्षेत्र' (ZPD) क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "The distance between a learner's independent problem-solving ability and potential ability with guidance",
+        "B": "The biological developmental milestones reached by age 5",
+        "C": "The physical boundary of the school playground",
+        "D": "The difference between verbal and non-verbal IQ"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "शिक्षार्थी के स्वतंत्र समस्या-समाधान स्तर और मार्गदर्शन के साथ प्राप्त संभावित स्तर के बीच की दूरी",
+        "B": "5 वर्ष की आयु तक पहुँचे जैविक विकासात्मक मील के पत्थर",
+        "C": "स्कूल के खेल के मैदान की भौतिक सीमा",
+        "D": "मौखिक और गैर-मौखिक आईक्यू के बीच का अंतर"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 25 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
+      "explanation": "ZPD is the region of learning where a child cannot yet solve a problem alone, but can succeed with guidance and collaborative scaffolding from a teacher or more knowledgeable peer.",
+      "explanation_hi": "ZPD वह क्षेत्र है जो बच्चे की स्वयं कार्य करने की क्षमता और किसी शिक्षक या कुशल साथी की सहायता से प्राप्त किए जा सकने वाले उच्च स्तर के बीच की दूरी को दर्शाता है।"
     },
     {
       "id": 119,
       "questionNumber": 119,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Teaching & Learning Process - Scenario 26), which instructional strategy best reflects this principle: 'Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum'?",
-      "question_hi": "शिक्षण अभ्यास (शिक्षण और अधिगम प्रक्रिया - परिदृश्य 26) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है'?",
+      "question": "What role does 'Private Speech' (self-talk) play in a child's cognitive development according to Lev Vygotsky?",
+      "question_hi": "वायगोत्स्की के अनुसार बच्चे के संज्ञानात्मक विकास में 'निजी वाक' (Private Speech / आत्म-संभाषण) की क्या भूमिका है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "It serves as a self-regulatory cognitive tool that guides and directs the child's thinking and actions",
+        "B": "It is an immature sign of egocentrism with no functional value",
+        "C": "It indicates a speech impediment requiring speech therapy",
+        "D": "It prevents the child from socializing with peers"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "यह एक स्व-नियमन संज्ञानात्मक उपकरण के रूप में कार्य करता है जो बच्चे की सोच और कार्यों का मार्गदर्शन करता है",
+        "B": "यह अहंकेंद्रितता का अपरिपक्व लक्षण है जिसका कोई कार्यात्मक महत्व नहीं है",
+        "C": "यह एक वाणी दोष को इंगित करता है",
+        "D": "यह बच्चे को साथियों के साथ घुलने-मिलने से रोकता है"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 26 exemplifies Teaching & Learning Process: Teaching is an interactive, planned tripolar process involving the teacher, the learner, and the curriculum.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: शिक्षण शिक्षक, शिक्षार्थी और पाठ्यक्रम के बीच चलने वाली एक त्रिध्रुवीय प्रक्रिया है।"
+      "explanation": "Unlike Piaget (who viewed private speech as egocentric), Vygotsky showed that private speech is a vital tool for thought: children talk aloud to plan, guide, and self-regulate their behavior before it internalizes into inner speech.",
+      "explanation_hi": "वायगोत्स्की के अनुसार निजी वाक (Private Speech) बच्चे के चिंतन और व्यवहार को दिशा देने तथा स्व-नियमन (Self-regulation) करने का एक महत्वपूर्ण संज्ञानात्मक साधन है, जो बाद में आंतरिक विचार (Inner Speech) बन जाता है।"
     },
     {
       "id": 120,

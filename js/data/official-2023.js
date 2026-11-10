@@ -1,4 +1,4 @@
-// Bihar STET 2023 Paper II Official CBT Mock
+// Generated Question Paper Data
 window.official_2023 = {
   "id": "official_2023",
   "title": "BSTET Official 2023 - Paper II",
@@ -62,53 +62,53 @@ window.official_2023 = {
       "id": 2,
       "questionNumber": 2,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Architecture",
+      "topic_hi": "कंप्यूटर आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In a PLA, what components are used to implement the combinational logic functions?",
+      "question": "Which DMA transfer mode releases control of the system bus to the CPU after transferring each individual byte or word?",
+      "question_hi": "कौन सा DMA ट्रांसफर मोड प्रत्येक बाइट या शब्द स्थानांतरित करने के बाद सिस्टम बस का नियंत्रण वापस CPU को सौंप देता है?",
       "options": {
-        "A": "AND gates and OR gates",
-        "B": "NAND gates and XOR gates",
-        "C": "NOR gates and XNOR gates",
-        "D": "NOT gates and multiplexers"
+        "A": "Burst Mode / Block Transfer Mode",
+        "B": "Cycle Stealing Mode",
+        "C": "Transparent / Hidden Mode",
+        "D": "Polled I/O Mode"
       },
-      "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) AND gates and OR gates**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "पीएलए में, संयोजन तर्क कार्यों को लागू करने के लिए किन घटकों का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "AND गेट्स और OR गेट्स",
-        "B": "NAND गेट और XOR गेट",
-        "C": "NOR गेट और XNOR गेट",
-        "D": "गेट और मल्टीप्लेक्सर्स नहीं"
+        "A": "बर्स्ट मोड / ब्लॉक ट्रांसफर मोड",
+        "B": "साइकिल स्टीलिंग मोड",
+        "C": "ट्रांसपेरेंट / हिडन मोड",
+        "D": "पोल्ड I/O मोड"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) AND gates and OR gates?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "correctAnswer": "B",
+      "explanation": "In Cycle Stealing DMA, the DMA controller acquires the bus for transferring one single data word, and then releases the bus back to the CPU for instruction execution. In Burst mode, the entire block of data is transferred continuously before relinquishing bus control.",
+      "explanation_hi": "साइकिल स्टीलिंग मोड (Cycle Stealing Mode) में DMA कंट्रोलर CPU से केवल एक मशीन साइकिल के लिए बस 'चुराता' है, एक शब्द भेजता है और तुरंत बस CPU को लौटा देता है। बर्स्ट मोड में पूरा डेटा ब्लॉक एक साथ भेजा जाता है।"
     },
     {
       "id": 3,
       "questionNumber": 3,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Computer Architecture",
+      "topic_hi": "कंप्यूटर आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which type of register is primarily used to temporarily hold data during arithmetic and logical operations in a microprocessor?",
+      "question": "According to the IEEE 754 single-precision 32-bit floating-point standard, how are the 32 bits allocated across sign, exponent, and mantissa (fraction)?",
+      "question_hi": "IEEE 754 सिंगल-प्रिसिजन 32-बिट फ्लोटिंग-पॉइंट मानक के अनुसार, साइन, एक्सपोनेंट और मैंटिसा के बीच 32 बिट्स का वितरण किस प्रकार होता है?",
       "options": {
-        "A": "Shift register",
-        "B": "Parallel register",
-        "C": "Accumulator register",
-        "D": "Counter register"
+        "A": "1 bit sign, 8 bits exponent, 23 bits mantissa",
+        "B": "1 bit sign, 11 bits exponent, 20 bits mantissa",
+        "C": "2 bits sign, 8 bits exponent, 22 bits mantissa",
+        "D": "1 bit sign, 7 bits exponent, 24 bits mantissa"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Accumulator register**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "माइक्रोप्रोसेसर में अंकगणितीय और तार्किक संचालन के दौरान डेटा को अस्थायी रूप से रखने के लिए मुख्य रूप से किस प्रकार के रजिस्टर का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "शिफ्ट रजिस्टर",
-        "B": "समानांतर रजिस्टर",
-        "C": "संचायक रजिस्टर",
-        "D": "काउंटर रजिस्टर"
+        "A": "1 बिट साइन, 8 बिट्स एक्सपोनेंट, 23 बिट्स मैंटिसा",
+        "B": "1 बिट साइन, 11 बिट्स एक्सपोनेंट, 20 बिट्स मैंटिसा",
+        "C": "2 बिट्स साइन, 8 बिट्स एक्सपोनेंट, 22 बिट्स मैंटिसा",
+        "D": "1 बिट साइन, 7 बिट्स एक्सपोनेंट, 24 बिट्स मैंटिसा"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Accumulator register?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "IEEE 754 single-precision (32-bit) allocates: 1 bit for sign (bit 31), 8 bits for biased exponent with bias 127 (bits 30-23), and 23 bits for normalized fraction/mantissa (bits 22-0). Double-precision (64-bit) uses 1 sign, 11 exponent, and 52 fraction bits.",
+      "explanation_hi": "IEEE 754 सिंगल-प्रिसिजन (32-बिट) में: 1 बिट साइन के लिए (बिट 31), 8 बिट्स बायस्ड एक्सपोनेंट के लिए (बायस 127), तथा 23 बिट्स मैंटिसा/फ्रैक्शन के लिए आवंटित होते हैं।"
     },
     {
       "id": 4,
@@ -166,27 +166,27 @@ window.official_2023 = {
       "id": 6,
       "questionNumber": 6,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Given a Boolean function F(A, B, C) = Σ(0, 1, 2, 3, 5), what is the expression in SOP form?",
+      "question": "Why must a base class destructor always be declared 'virtual' in C++ when deleting a derived class object through a base class pointer?",
+      "question_hi": "C++ में जब बेस क्लास पॉइंटर के माध्यम से डिराइव्ड क्लास ऑब्जेक्ट को डिलीट किया जाता है, तो बेस क्लास डिस्ट्रक्टर को हमेशा 'virtual' घोषित क्यों किया जाना चाहिए?",
       "options": {
-        "A": "A'B' + AB' + AB + AC",
-        "B": "A + B + C",
-        "C": "AB' + C'",
-        "D": "A'B'C'"
+        "A": "To force the base class to become an abstract class",
+        "B": "To ensure that the derived class destructor is invoked first, preventing resource leaks",
+        "C": "To allow the destructor to accept parameters during cleanup",
+        "D": "To prevent the derived class from defining its own destructor"
       },
-      "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) A'B' + AB' + AB + AC**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: Given a Boolean function F(A, B, C) = Σ(0, 1, 2, 3, 5), what is the expression in SOP form के संबंध में सही कथन या मान क्या है?",
       "options_hi": {
-        "A": "ए'बी' + एबी' + एबी + एसी",
-        "B": "ए + बी + सी",
-        "C": "एबी' + सी'",
-        "D": "ए'बी'सी'"
+        "A": "बेस क्लास को एब्सट्रैक्ट क्लास बनाने के लिए बाध्य करने हेतु",
+        "B": "यह सुनिश्चित करने के लिए कि डिराइव्ड क्लास का डिस्ट्रक्टर पहले कॉल हो, जिससे रिसोर्स लीक न हो",
+        "C": "सफाई के दौरान डिस्ट्रक्टर को पैरामीटर स्वीकार करने की अनुमति देने हेतु",
+        "D": "डिराइव्ड क्लास को अपना डिस्ट्रक्टर बनाने से रोकने हेतु"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) A'B' + AB' + AB + AC?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "correctAnswer": "B",
+      "explanation": "If a base class destructor is not virtual, calling 'delete basePtr' where basePtr points to a derived class object causes undefined behavior and typically executes only the base destructor. Declaring it virtual enables dynamic dispatch, ensuring the derived destructor executes first followed by base destructor.",
+      "explanation_hi": "यदि बेस क्लास का डिस्ट्रक्टर वर्चुअल नहीं है, तो बेस पॉइंटर से ऑब्जेक्ट डिलीट करने पर केवल बेस क्लास का डिस्ट्रक्टर कॉल होगा और डिराइव्ड क्लास द्वारा आवंटित मेमोरी लीक हो जाएगी। वर्चुअल डिस्ट्रक्टर से पहले डिराइव्ड फिर बेस डिस्ट्रक्टर कॉल होता है।"
     },
     {
       "id": 7,
@@ -244,53 +244,53 @@ window.official_2023 = {
       "id": 9,
       "questionNumber": 9,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the relationship between the distance between parity bits and their error detection and correction capability in Hamming Code?",
+      "question": "What happens in C++ when an object is passed by value to a function?",
+      "question_hi": "C++ में जब किसी ऑब्जेक्ट को फंक्शन में 'पास बाय वैल्यू' भेजा जाता है तो क्या होता है?",
       "options": {
-        "A": "Closer parity bits provide higher error correction capability",
-        "B": "Closer parity bits provide lower error correction capability",
-        "C": "Distance between parity bits has no impact on error correction capability",
-        "D": "The position of parity bits is irrelevant in Hamming Code"
+        "A": "The default constructor is executed to initialize the parameter",
+        "B": "The copy constructor is invoked to create an identical independent copy in the function scope",
+        "C": "The assignment operator (=) is automatically called",
+        "D": "Only a reference address is passed without any constructor invocation"
+      },
+      "options_hi": {
+        "A": "पैरामीटर प्रारंभ करने के लिए डिफॉल्ट कंस्ट्रक्टर निष्पादित होता है",
+        "B": "फंक्शन स्कोप में एक स्वतंत्र प्रतिलिपि बनाने के लिए कॉपी कंस्ट्रक्टर कॉल होता है",
+        "C": "असाइनमेंट ऑपरेटर (=) स्वचालित रूप से कॉल होता है",
+        "D": "बिना किसी कंस्ट्रक्टर के केवल एक रेफरेंस एड्रेस पास होता है"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Closer parity bits provide lower error correction capability**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "हैमिंग कोड में समता बिट्स के बीच की दूरी और उनकी त्रुटि का पता लगाने और सुधार क्षमता के बीच क्या संबंध है?",
-      "options_hi": {
-        "A": "निकट समता बिट्स उच्च त्रुटि सुधार क्षमता प्रदान करते हैं",
-        "B": "निकट समता बिट्स कम त्रुटि सुधार क्षमता प्रदान करते हैं",
-        "C": "समता बिट्स के बीच की दूरी का त्रुटि सुधार क्षमता पर कोई प्रभाव नहीं पड़ता है",
-        "D": "हैमिंग कोड में समता बिट्स की स्थिति अप्रासंगिक है"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Closer parity bits provide lower error correction capability?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation": "Passing an object by value creates a new object in the called function's activation record using the class's copy constructor: ClassName(const ClassName&). When the function returns, this temporary copy is destroyed by the destructor.",
+      "explanation_hi": "जब किसी ऑब्जेक्ट को पास-बाय-वैल्यू भेजा जाता है, तो कॉपी कंस्ट्रक्टर (Copy Constructor) का उपयोग करके फंक्शन के लिए उस ऑब्जेक्ट की एक नई कॉपी बनाई जाती है, जो फंक्शन समाप्ति पर नष्ट हो जाती है।"
     },
     {
       "id": 10,
       "questionNumber": 10,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "To convert a Gray Code to its binary equivalent, which technique is commonly used?",
+      "question": "In C++, how is the 'Diamond Problem' of multiple inheritance resolved where a class inherits from two classes that both inherit from the same common base class?",
+      "question_hi": "C++ में मल्टीपल इनहेरिटेंस की 'डायमंड प्रॉब्लम' को कैसे हल किया जाता है जहां एक क्लास दो ऐसी क्लासों से इनहेरिट करती है जो दोनों एक ही बेस क्लास से इनहेरिटेड हैं?",
       "options": {
-        "A": "Subtraction method",
-        "B": "Addition method",
-        "C": "Exclusive OR (XOR) operation",
-        "D": "Division method"
+        "A": "By declaring the common base class as 'virtual' during inheritance in intermediate classes",
+        "B": "By making the derived class a friend of the common base class",
+        "C": "By declaring all base class member variables as private static",
+        "D": "By overloading the assignment operator in both intermediate classes"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Exclusive OR (XOR) operation**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "ग्रे कोड को उसके बाइनरी समकक्ष में परिवर्तित करने के लिए, आमतौर पर किस तकनीक का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "घटाव विधि",
-        "B": "जोड़ विधि",
-        "C": "एक्सक्लूसिव OR (XOR) ऑपरेशन",
-        "D": "विभाजन विधि"
+        "A": "मध्यवर्ती क्लासों में इनहेरिटेंस के दौरान सामान्य बेस क्लास को 'virtual' घोषित करके",
+        "B": "डिराइव्ड क्लास को बेस क्लास की फ्रेंड क्लास बनाकर",
+        "C": "बेस क्लास के सभी मेंबर वेरिएबल्स को प्राइवेट स्टैटिक घोषित करके",
+        "D": "दोनों मध्यवर्ती क्लासों में असाइनमेंट ऑपरेटर को ओवरलोड करके"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Exclusive OR (XOR) operation?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Virtual base classes (e.g., 'class B : virtual public A' and 'class C : virtual public A') ensure that only a single instance of the common base class A is included in the most derived class D, eliminating ambiguous duplicate member variables.",
+      "explanation_hi": "वर्चुअल बेस क्लास (Virtual Base Class) का उपयोग करके डायमंड प्रॉब्लम हल होती है। इससे अंतिम डिराइव्ड क्लास में कॉमन बेस क्लास की केवल एक ही कॉपी शामिल होती है, जिससे एम्बिगुइटी (द्विअर्थी स्थिति) समाप्त हो जाती है।"
     },
     {
       "id": 11,
@@ -322,53 +322,53 @@ window.official_2023 = {
       "id": 12,
       "questionNumber": 12,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "How is the width of the data bus typically measured in a microcomputer system?",
+      "question": "Which of the following operators CANNOT be overloaded in C++?",
+      "question_hi": "C++ में निम्नलिखित में से किस ऑपरेटर को ओवरलोड नहीं किया जा सकता है?",
       "options": {
-        "A": "In kilobytes (KB)",
-        "B": "In megahertz (MHz)",
-        "C": "In bits",
-        "D": "In address lines"
+        "A": "+ and -",
+        "B": "Scope resolution (::), Member selection (.), and Ternary conditional (?:)",
+        "C": "Subscript [] and Function call ()",
+        "D": "Bitwise shift operators (<< and >>)"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) In bits**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "माइक्रो कंप्यूटर सिस्टम में डेटा बस की चौड़ाई आमतौर पर कैसे मापी जाती है?",
       "options_hi": {
-        "A": "किलोबाइट में (KB)",
-        "B": "मेगाहर्ट्ज़ (मेगाहर्ट्ज) में",
-        "C": "टुकड़ों में",
-        "D": "पता पंक्तियों में"
+        "A": "+ और -",
+        "B": "स्कोप रिज़ॉल्यूशन (::), मेंबर सिलेक्शन (.), तथा टर्नरी कंडीशनल (?:)",
+        "C": "सबस्क्रिप्ट [] और फंक्शन कॉल ()",
+        "D": "बिटवाइज़ शिफ्ट ऑपरेटर्स (<< और >>)"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) In bits?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "B",
+      "explanation": "In C++, the operators that cannot be overloaded are: Scope resolution (::), Member selection (.), Member pointer selection (.*), Ternary conditional (?:), and sizeof / typeid operators.",
+      "explanation_hi": "C++ में निम्नलिखित ऑपरेटर्स को ओवरलोड नहीं किया जा सकता: स्कोप रिज़ॉल्यूशन (::), डायरेक्ट मेंबर एक्सेस (.), पॉइंटर-टू-मेंबर (.*), टर्नरी ऑपरेटर (?:), तथा sizeof।"
     },
     {
       "id": 13,
       "questionNumber": 13,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Object Oriented Programming",
+      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Microcontrollers find application in various fields. What is a typical application of microcontrollers in the automotive industry?",
+      "question": "What is a 'pure virtual function' in C++, and what characteristic does it impart to the class that contains it?",
+      "question_hi": "C++ में 'प्योर वर्चुअल फंक्शन' क्या है, और यह जिस क्लास में होता है उसे क्या विशेषता प्रदान करता है?",
       "options": {
-        "A": "Operating systems for computers",
-        "B": "Entertainment systems in airplanes",
-        "C": "Engine control in cars",
-        "D": "Weather forecasting systems"
+        "A": "A function declared with '= 0' with no base definition, making the class abstract so it cannot be instantiated directly",
+        "B": "A function that can only accept primitive integer arguments",
+        "C": "A function that executes faster than inline functions",
+        "D": "A function that cannot be overridden by any derived class"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Engine control in cars**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "माइक्रोकंट्रोलर विभिन्न क्षेत्रों में आवेदन पाते हैं। ऑटोमोटिव उद्योग में माइक्रोकंट्रोलर्स का विशिष्ट अनुप्रयोग क्या है?",
       "options_hi": {
-        "A": "कंप्यूटर के लिए ऑपरेटिंग सिस्टम",
-        "B": "हवाई जहाजों में मनोरंजन प्रणालियाँ",
-        "C": "कारों में इंजन नियंत्रण",
-        "D": "मौसम पूर्वानुमान प्रणाली"
+        "A": "एक फंक्शन जिसे '= 0' के साथ घोषित किया जाता है, जो क्लास को एब्सट्रैक्ट बना देता है जिससे उसका सीधा ऑब्जेक्ट नहीं बन सकता",
+        "B": "एक फंक्शन जो केवल प्रिमिटिव पूर्णांक आर्ग्युमेंट स्वीकार करता है",
+        "C": "एक फंक्शन जो इनलाइन फंक्शन की तुलना में अधिक तेजी से चलता है",
+        "D": "एक फंक्शन जिसे किसी भी डिराइव्ड क्लास द्वारा ओवरराइड नहीं किया जा सकता"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Engine control in cars?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "A pure virtual function is defined using syntax 'virtual void func() = 0;'. Any class containing at least one pure virtual function becomes an Abstract Class, meaning objects of that class cannot be directly created, and derived classes must implement it to be concrete.",
+      "explanation_hi": "प्योर वर्चुअल फंक्शन को 'virtual void func() = 0;' के रूप में लिखा जाता है। जिस क्लास में कम से कम एक प्योर वर्चुअल फंक्शन होता है वह एब्सट्रैक्ट क्लास (Abstract Class) बन जाती है और उसका सीधा ऑब्जेक्ट नहीं बनाया जा सकता।"
     },
     {
       "id": 14,
@@ -504,53 +504,53 @@ window.official_2023 = {
       "id": 19,
       "questionNumber": 19,
       "section": "Computer Science",
-      "topic": "Algorithms",
+      "topic": "Data Structures",
+      "topic_hi": "डेटा स्ट्रक्चर्स",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Divide and Conquer is an algorithmic paradigm that solves problems by:",
+      "question": "What is the condition to check if a circular queue implemented using an array of size N is completely full (where front and rear are pointers)?",
+      "question_hi": "N आकार के ऐरे का उपयोग करके कार्यान्वित सर्कुलर कतार (Circular Queue) के पूरी तरह भरे होने की जांच करने की शर्त क्या है?",
       "options": {
-        "A": "Iteratively solving subproblems",
-        "B": "Recursively solving subproblems",
-        "C": "Using heuristics to find solutions",
-        "D": "Greedily combining solutions"
+        "A": "rear == N - 1",
+        "B": "(rear + 1) % N == front",
+        "C": "front == rear + 1",
+        "D": "front == (rear + 1)"
+      },
+      "options_hi": {
+        "A": "rear == N - 1",
+        "B": "(rear + 1) % N == front",
+        "C": "front == rear + 1",
+        "D": "front == (rear + 1)"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Recursively solving subproblems**\n\n**Algorithm Analysis**: Algorithmic paradigms (Divide-and-Conquer, Dynamic Programming, Greedy) balance space and time tradeoffs.\n- Option (B) correctly identifies the algorithmic property.",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-      "question_hi": "फूट डालो और जीतो एक एल्गोरिथम प्रतिमान है जो समस्याओं को हल करता है:",
-      "options_hi": {
-        "A": "उप-समस्याओं को पुनरावर्ती रूप से हल करना",
-        "B": "उपसमस्याओं को पुनरावर्ती रूप से हल करना",
-        "C": "समाधान खोजने के लिए अनुमान का उपयोग करना",
-        "D": "लालच से समाधानों का संयोजन"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Recursively solving subproblems?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation": "In a circular queue of capacity N, to distinguish between an empty and a full queue without an auxiliary counter, the queue is full when the next position after rear modulo N equals front: (rear + 1) % N == front.",
+      "explanation_hi": "N साइज के सर्कुलर क्यू में जब rear का अगला स्थान मॉड्यूलो N करने पर front के बराबर हो जाता है यानी '(rear + 1) % N == front', तब सर्कुलर क्यू को पूर्ण (Full) माना जाता है।"
     },
     {
       "id": 20,
       "questionNumber": 20,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Data Structures",
+      "topic_hi": "डेटा स्ट्रक्चर्स",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A threaded binary tree is a binary tree in which:",
+      "question": "Which tree traversal order of a Binary Search Tree (BST) always outputs keys in strictly ascending sorted order?",
+      "question_hi": "बाइनरी सर्च ट्री (BST) का कौन सा ट्री ट्रैवर्सल क्रम हमेशा कुंजियों को सख्ती से आरोही (सॉर्टेड) क्रम में आउटपुट करता है?",
       "options": {
-        "A": "Each node has two children",
-        "B": "Each node has at most one child",
-        "C": "Each node is connected to its parent",
-        "D": "Each node has a thread connecting it to its predecessor or successor"
+        "A": "Pre-order traversal (Root, Left, Right)",
+        "B": "In-order traversal (Left, Root, Right)",
+        "C": "Post-order traversal (Left, Right, Root)",
+        "D": "Level-order traversal (Breadth-first)"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Each node has a thread connecting it to its predecessor or successor**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (D) reflects the standard behavior and complexity bounds.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "एक थ्रेडेड बाइनरी ट्री एक बाइनरी ट्री है जिसमें:",
       "options_hi": {
-        "A": "प्रत्येक नोड में दो बच्चे होते हैं",
-        "B": "प्रत्येक नोड में अधिकतम एक बच्चा होता है",
-        "C": "प्रत्येक नोड अपने मूल से जुड़ा हुआ है",
-        "D": "Each node has a thread connecting it to its predecessor or successor"
+        "A": "प्री-ऑर्डर ट्रैवर्सल (रूट, लेफ्ट, राइट)",
+        "B": "इन-ऑर्डर ट्रैवर्सल (लेफ्ट, रूट, राइट)",
+        "C": "पोस्ट-ऑर्डर ट्रैवर्सल (लेफ्ट, राइट, रूट)",
+        "D": "लेवल-ऑर्डर ट्रैवर्सल (ब्रेड्थ-फर्स्ट)"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Each node has a thread connecting it to its predecessor or successor?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "B",
+      "explanation": "In a BST, every left descendant is smaller than the root, and every right descendant is greater. An In-order traversal visits Left subtree, then Root, then Right subtree, systematically processing elements in ascending numerical order.",
+      "explanation_hi": "BST में लेफ्ट सबट्री के सभी नोड्स रूट से छोटे और राइट सबट्री के सभी नोड्स रूट से बड़े होते हैं। अतः इन-ऑर्डर ट्रैवर्सल (Left -> Root -> Right) हमेशा तत्वों को आरोही (सॉर्टेड) क्रम में प्रदर्शित करता है।"
     },
     {
       "id": 21,
@@ -608,27 +608,27 @@ window.official_2023 = {
       "id": 23,
       "questionNumber": 23,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Data Structures",
+      "topic_hi": "डेटा स्ट्रक्चर्स",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Separate chaining involves storing collided elements in separate data structures, typically in:",
+      "question": "In an AVL tree, what is the maximum permissible balance factor (height(left) - height(right)) for any node before rebalancing rotation is triggered?",
+      "question_hi": "AVL ट्री में, रीबैलेंसिंग रोटेशन शुरू होने से पहले किसी भी नोड के लिए अधिकतम अनुमेय बैलेंस फैक्टर (ऊंचाई(बायां) - ऊंचाई(दायां)) क्या होता है?",
       "options": {
-        "A": "Linked lists",
-        "B": "Arrays",
-        "C": "Stacks",
-        "D": "Queues"
+        "A": "0 only",
+        "B": "-1, 0, or +1",
+        "C": "-2 to +2",
+        "D": "Any positive integer"
       },
-      "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Linked lists**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (A) reflects the standard behavior and complexity bounds.",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "अलग-अलग चेनिंग में टकराए गए तत्वों को अलग-अलग डेटा संरचनाओं में संग्रहीत करना शामिल है, आमतौर पर:",
       "options_hi": {
-        "A": "लिंक की गई सूचियाँ",
-        "B": "सरणियों",
-        "C": "स्टैक (Stack)s",
-        "D": "कतार (Queue)s"
+        "A": "केवल 0",
+        "B": "-1, 0, या +1",
+        "C": "-2 से +2 तक",
+        "D": "कोई भी धनात्मक पूर्णांक"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) लिंक्ड लिस्ट (Linked List)s?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "correctAnswer": "B",
+      "explanation": "An AVL tree is a strictly height-balanced Binary Search Tree. For every node, the height difference between its left and right subtrees (Balance Factor) must be within {-1, 0, +1}. If an insertion or deletion results in a balance factor of +2 or -2, rotations (LL, RR, LR, RL) restore balance in O(log N) time.",
+      "explanation_hi": "AVL ट्री एक सेल्फ-बैलेंसिंग BST है जिसमें प्रत्येक नोड का बैलेंस फैक्टर (Left Height - Right Height) केवल {-1, 0, +1} में से एक हो सकता है। यदि यह मान +2 या -2 होता है, तो रोटेशन द्वारा पुनः संतुलित किया जाता है।"
     },
     {
       "id": 24,
@@ -712,131 +712,131 @@ window.official_2023 = {
       "id": 27,
       "questionNumber": 27,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A formal model of protection in an operating system provides:",
+      "question": "What is the worst-case time complexity of the randomized QuickSort algorithm when selecting a pivot element, and when does it occur?",
+      "question_hi": "पिवट तत्व चुनते समय रैंडमाइज्ड क्विक-सॉर्ट एल्गोरिदम की सबसे खराब स्थिति (Worst-case) समय जटिलता क्या है, और यह कब होती है?",
       "options": {
-        "A": "A mathematical framework for analyzing resource allocation",
-        "B": "Guidelines for designing user interfaces",
-        "C": "Methods for optimizing memory management",
-        "D": "Techniques for improving CPU utilization"
+        "A": "O(N log N) in all cases",
+        "B": "O(N^2) when the chosen pivot is repeatedly the smallest or largest element",
+        "C": "O(N) when elements are distinct",
+        "D": "O(log N) on sorted inputs"
       },
-      "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) A mathematical framework for analyzing resource allocation**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (A) accurately reflects the microarchitectural functionality.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "ऑपरेटिंग सिस्टम में सुरक्षा (Protection) का एक औपचारिक मॉडल क्या प्रदान करता है?",
       "options_hi": {
-        "A": "संसाधन आवंटन का विश्लेषण करने के लिए एक गणितीय रूपरेखा",
-        "B": "यूजर इंटरफेस डिजाइन करने के लिए दिशानिर्देश",
-        "C": "स्मृति प्रबंधन को अनुकूलित करने के तरीके",
-        "D": "सीपीयू उपयोग में सुधार के लिए तकनीकें"
+        "A": "सभी मामलों में O(N log N)",
+        "B": "O(N^2) जब चुना गया पिवट बार-बार सबसे छोटा या सबसे बड़ा तत्व निकलता है",
+        "C": "O(N) जब तत्व भिन्न हों",
+        "D": "सॉर्टेड इनपुट पर O(log N)"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) A mathematical framework for analyzing resource allocation?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "correctAnswer": "B",
+      "explanation": "QuickSort has an average time complexity of O(N log N). However, if the pivot selected at each recursive step divides the array into unbalanced partitions of size 0 and N-1 (e.g., repeatedly picking the minimum or maximum element), the recurrence relation becomes T(N) = T(N-1) + O(N), yielding O(N^2) worst-case time.",
+      "explanation_hi": "क्विक-सॉर्ट की औसत समय जटिलता O(N log N) होती है। लेकिन यदि चुना गया पिवट हमेशा सबसे छोटा या सबसे बड़ा तत्व निकलता है (पार्टिशन अत्यंत असंतुलित हो), तो समय जटिलता O(N^2) हो जाती है।"
     },
     {
       "id": 28,
       "questionNumber": 28,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In an operating system, a \"buffer cache\" is used to:",
+      "question": "Which algorithmic design paradigm does Dijkstra's Single-Source Shortest Path algorithm utilize, and what constraint does it impose on edge weights?",
+      "question_hi": "डिज्क्स्ट्रा का सिंगल-सोर्स शॉर्टेस्ट पाथ एल्गोरिदम किस एल्गोरिदम डिज़ाइन तकनीक का उपयोग करता है, और यह किनारा भार (edge weights) पर क्या प्रतिबंध लगाता है?",
       "options": {
-        "A": "Store files in memory",
-        "B": "Store copies of frequently used files in memory",
-        "C": "Store the operating system kernel",
-        "D": "Store input/output devices"
+        "A": "Dynamic Programming; all edge weights must be strictly equal",
+        "B": "Greedy Approach; all edge weights must be non-negative (>= 0)",
+        "C": "Divide and Conquer; operates only on directed acyclic graphs",
+        "D": "Backtracking; allows arbitrarily negative cycles"
+      },
+      "options_hi": {
+        "A": "डायनामिक प्रोग्रामिंग; सभी किनारों का भार बिल्कुल समान होना चाहिए",
+        "B": "ग्रीडी तकनीक; सभी किनारों का भार गैर-ऋणात्मक (>= 0) होना चाहिए",
+        "C": "डिवाइड एंड कॉन्कर; केवल निर्देशित चक्रीय रेखांकनों पर कार्य करता है",
+        "D": "बैकट्रैकिंग; मनमाने ढंग से नकारात्मक चक्रों की अनुमति देता है"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Store copies of frequently used files in memory**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "In an ऑपरेटिंग सिस्टम (OS), a \"buffer cache\" का उपयोग किसके लिए किया जाता है:",
-      "options_hi": {
-        "A": "फ़ाइलों को मेमोरी में संग्रहित करें",
-        "B": "बार-बार उपयोग की जाने वाली फ़ाइलों की प्रतियों को मेमोरी में संग्रहीत करें",
-        "C": "ऑपरेटिंग सिस्टम कर्नेल को स्टोर करें",
-        "D": "इनपुट/आउटपुट डिवाइस स्टोर करें"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Store copies of frequently used files in memory?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation": "Dijkstra's algorithm uses a Greedy strategy by repeatedly selecting the vertex with the minimum tentative distance. It assumes once a vertex is visited, its shortest distance is finalized. This assumption fails if there are negative edge weights (which require Bellman-Ford algorithm).",
+      "explanation_hi": "डिज्क्स्ट्रा एल्गोरिदम एक ग्रीडी (Greedy) दृष्टिकोण का उपयोग करता है। यह हमेशा न्यूनतम दूरी वाले अनविजिटेड नोड को चुनता है। यह केवल गैर-ऋणात्मक (non-negative) भार वाले किनारों पर ही सही काम करता है। नकारात्मक भार के लिए बेलमैन-फोर्ड का उपयोग किया जाता है।"
     },
     {
       "id": 29,
       "questionNumber": 29,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस मैनेजमेंट सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "File manipulation operations in an operating system include:",
+      "question": "A relation R(A, B, C, D) has functional dependencies: A -> B, B -> C, and C -> D. If A is the primary key, in what highest normal form is relation R?",
+      "question_hi": "एक रिलेशन R(A, B, C, D) में कार्यात्मक निर्भरताएं (FDs) हैं: A -> B, B -> C, तथा C -> D। यदि A प्राथमिक कुंजी है, तो रिलेशन R किस उच्चतम नॉर्मल फॉर्म में है?",
       "options": {
-        "A": "Allocating memory to files",
-        "B": "Assigning file names to processes",
-        "C": "Loading files into CPU registers",
-        "D": "Reading, writing, and modifying file content"
+        "A": "1NF only (Transitive dependencies exist between non-prime attributes)",
+        "B": "2NF only (No partial dependency, but transitive dependencies exist)",
+        "C": "3NF",
+        "D": "BCNF"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Reading, writing, and modifying file content**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (D) accurately reflects the microarchitectural functionality.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "एक ऑपरेटिंग सिस्टम में फ़ाइल हेरफेर संचालन में शामिल हैं:",
       "options_hi": {
-        "A": "फ़ाइलों को मेमोरी आवंटित करना",
-        "B": "प्रक्रियाओं को फ़ाइल नाम निर्दिष्ट करना",
-        "C": "सीपीयू रजिस्टरों में फ़ाइलें लोड हो रही हैं",
-        "D": "फ़ाइल सामग्री को पढ़ना, लिखना और संशोधित करना"
+        "A": "केवल 1NF (नॉन-प्राइम एट्रिब्यूट्स के बीच ट्रांजिटिव निर्भरता है)",
+        "B": "केवल 2NF (कोई आंशिक निर्भरता नहीं है, परंतु ट्रांजिटिव निर्भरता उपस्थित है)",
+        "C": "3NF",
+        "D": "BCNF"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Reading, writing, and modifying file content?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "B",
+      "explanation": "Key is A. All non-prime attributes (B, C, D) are fully functionally dependent on A, so R is in 2NF. However, A -> B and B -> C means A -> C is a transitive dependency through non-key attribute B. Similarly B -> D is transitive. Thus, R violates 3NF and remains in 2NF.",
+      "explanation_hi": "कैंडिडेट कुंजी A है। सभी गैर-कुंजी विशेषताएं A पर पूर्ण रूप से निर्भर हैं, अतः यह 2NF में है। लेकिन A -> B और B -> C के कारण A -> C एक संक्रामक (Transitive) निर्भरता है जो 3NF का उल्लंघन करती है। अतः रिलेशन केवल 2NF में है।"
     },
     {
       "id": 30,
       "questionNumber": 30,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस मैनेजमेंट सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "The I/O subsystem in an operating system is responsible for:",
+      "question": "What is the fundamental difference between Third Normal Form (3NF) and Boyce-Codd Normal Form (BCNF)?",
+      "question_hi": "थर्ड नॉर्मल फॉर्म (3NF) और बॉयस-कॉड नॉर्मल फॉर्म (BCNF) के बीच मूलभूत अंतर क्या है?",
       "options": {
-        "A": "Allocating memory for processes",
-        "B": "Managing the file system",
-        "C": "Managing input/output operations between processes and input/output devices",
-        "D": "Allocating CPU time to processes"
+        "A": "3NF allows partial dependencies whereas BCNF prohibits them",
+        "B": "In 3NF, for X -> Y, Y can be a prime attribute; in BCNF, X must strictly be a Super Key for every non-trivial dependency",
+        "C": "BCNF requires multivalued dependencies whereas 3NF requires join dependencies",
+        "D": "3NF relations can never be decomposed into BCNF without losing data"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Managing input/output operations between processes and input/output devices**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "एक ऑपरेटिंग सिस्टम में I/O सबसिस्टम इसके लिए जिम्मेदार है:",
       "options_hi": {
-        "A": "प्रक्रियाओं के लिए मेमोरी आवंटित करना",
-        "B": "फ़ाइल सिस्टम का प्रबंधन",
-        "C": "प्रक्रियाओं और इनपुट/आउटपुट उपकरणों के बीच इनपुट/आउटपुट संचालन का प्रबंधन करना",
-        "D": "प्रक्रियाओं के लिए सीपीयू समय आवंटित करना"
+        "A": "3NF आंशिक निर्भरता की अनुमति देता है जबकि BCNF इसे रोकता है",
+        "B": "3NF में X -> Y के लिए Y प्राइम एट्रिब्यूट हो सकता है; BCNF में प्रत्येक नॉन-ट्रिवियल निर्भरता के लिए X का सुपर की होना अनिवार्य है",
+        "C": "BCNF में मल्टीवैल्यूड निर्भरता की आवश्यकता होती है जबकि 3NF में जॉइन निर्भरता की",
+        "D": "डेटा खोए बिना 3NF रिलेशंस को कभी भी BCNF में विघटित नहीं किया जा सकता"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Managing input/output operations between processes and input/output devices?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "B",
+      "explanation": "For any non-trivial functional dependency X -> Y: 3NF requires either X to be a super key OR Y to be a prime attribute (part of any candidate key). BCNF is stricter and mandates that X MUST be a super key, with no exceptions for prime attributes.",
+      "explanation_hi": "3NF में किसी फंक्शनल डिपेंडेंसी X -> Y के लिए या तो X सुपर की हो, या Y प्राइम एट्रिब्यूट (कुंजी का हिस्सा) हो। BCNF अधिक सख्त है और इसमें X का अनिवार्य रूप से सुपर की (Super Key) होना ही चाहिए।"
     },
     {
       "id": 31,
       "questionNumber": 31,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस मैनेजमेंट सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "The primary goal of load control is to:",
+      "question": "Which transaction isolation level prevents Dirty Reads and Non-Repeatable Reads, but may still allow Phantom Reads?",
+      "question_hi": "कौन सा ट्रांजैक्शन आइसोलेशन स्तर डर्टी रीड्स और नॉन-रिपीटेबल रीड्स को रोकता है, परंतु फैंटम रीड्स की अनुमति दे सकता है?",
       "options": {
-        "A": "Prevent processes from running concurrently",
-        "B": "Avoid context switching between processes",
-        "C": "Ensure that CPU time is evenly distributed among processes",
-        "D": "Maximize the usage of virtual memory"
+        "A": "Read Uncommitted",
+        "B": "Read Committed",
+        "C": "Repeatable Read",
+        "D": "Serializable"
+      },
+      "options_hi": {
+        "A": "रीड अनकमिटेड",
+        "B": "रीड कमिटेड",
+        "C": "रिपीटेबल रीड",
+        "D": "सीरियलाइजेबल"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Ensure that CPU time is evenly distributed among processes**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "भार नियंत्रण का प्राथमिक लक्ष्य है:",
-      "options_hi": {
-        "A": "Prevent processes from running concurrently",
-        "B": "प्रक्रियाओं के बीच संदर्भ स्विचिंग से बचें",
-        "C": "सुनिश्चित करें कि CPU समय प्रक्रियाओं के बीच समान रूप से वितरित किया गया है",
-        "D": "वर्चुअल मेमोरी का अधिकतम उपयोग करें"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Ensure that CPU time is evenly distributed among processes?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation": "According to SQL-92 standards: Repeatable Read locks all rows read by a query so other transactions cannot update or delete them, preventing Dirty Reads and Non-Repeatable Reads. However, other transactions can insert new matching rows, causing Phantom Reads. Serializable prevents all three.",
+      "explanation_hi": "SQL मानकों के अनुसार, 'Repeatable Read' आइसोलेशन लेवल डर्टी रीड और नॉन-रिपीटेबल रीड को रोकता है, लेकिन नई रो (पंक्ति) इंसर्ट होने पर फैंटम रीड (Phantom Read) की संभावना बनी रहती है। सीरियलाइजेबल तीनों को रोकता है।"
     },
     {
       "id": 32,
@@ -972,105 +972,105 @@ window.official_2023 = {
       "id": 37,
       "questionNumber": 37,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस मैनेजमेंट सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is a top-down approach in which the entity's higher level can be divided into two lower sub-entities?",
+      "question": "In SQL, what is the key difference between the WHERE clause and the HAVING clause?",
+      "question_hi": "SQL में WHERE क्लॉज और HAVING क्लॉज के बीच क्या मुख्य अंतर है?",
       "options": {
-        "A": "Aggregation",
-        "B": "Generalization",
-        "C": "Specialization",
-        "D": "All of the above"
+        "A": "WHERE filters rows before aggregation; HAVING filters groups after GROUP BY aggregation",
+        "B": "WHERE can use aggregate functions like AVG(); HAVING cannot",
+        "C": "HAVING applies only to sorting ORDER BY results",
+        "D": "WHERE is used only in DDL; HAVING is used only in DML"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Specialization**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "निम्नलिखित में से कौन सा शीर्ष-नीचे दृष्टिकोण है जिसमें इकाई के उच्च स्तर को दो निचली उप-इकाइयों में विभाजित किया जा सकता है?",
       "options_hi": {
-        "A": "एकत्रीकरण",
-        "B": "सामान्यकरण",
-        "C": "Specialization",
-        "D": "उपरोक्त सभी"
+        "A": "WHERE एग्रीगेशन से पहले व्यक्तिगत पंक्तियों को फ़िल्टर करता है; HAVING GROUP BY के बाद समूहों (Groups) को फ़िल्टर करता है",
+        "B": "WHERE एग्रीगेट फंक्शन (जैसे AVG) का उपयोग कर सकता है; HAVING नहीं कर सकता",
+        "C": "HAVING केवल ORDER BY परिणामों को सॉर्ट करने के लिए लागू होता है",
+        "D": "WHERE केवल DDL में प्रयुक्त होता है; HAVING केवल DML में"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Specialization?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "The WHERE clause filters individual rows before grouping and cannot contain aggregate functions (e.g., COUNT, SUM). The HAVING clause is evaluated after GROUP BY to filter aggregate groups based on condition criteria.",
+      "explanation_hi": "WHERE क्लॉज टेबल की व्यक्तिगत पंक्तियों पर ग्रुपिंग से पहले फ़िल्टर लगाता है और इसमें एग्रीगेट फंक्शन का प्रयोग नहीं हो सकता। HAVING क्लॉज GROUP BY के बाद समूहों पर कंडीशन लगाने के लिए उपयोग होता है।"
     },
     {
       "id": 38,
       "questionNumber": 38,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Database Management Systems",
+      "topic_hi": "डेटाबेस मैनेजमेंट सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "The term \"DFD\" stands for?",
+      "question": "In Strict Two-Phase Locking (Strict 2PL) protocol, when does a transaction release its exclusive (write) locks?",
+      "question_hi": "स्ट्रिक्ट टू-फेज लॉकिंग (Strict 2PL) प्रोटोकॉल में, एक ट्रांजैक्शन अपने एक्सक्लूसिव (राइट) लॉक कब छोड़ता है?",
       "options": {
-        "A": "Data file diagram",
-        "B": "Data flow document",
-        "C": "Data flow diagram",
-        "D": "None of the above"
+        "A": "Immediately after updating the respective data item",
+        "B": "At the end of the transaction after it commits or aborts",
+        "C": "As soon as the shrinking phase begins",
+        "D": "Whenever another transaction requests a shared lock"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Data flow diagram**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "DFD का पूर्ण रूप (Full Form) क्या है?",
       "options_hi": {
-        "A": "डेटा फ़ाइल आरेख",
-        "B": "डेटा प्रवाह दस्तावेज़",
-        "C": "डेटा प्रवाह आरेख",
-        "D": "उपरोक्त में से कोई नहीं"
+        "A": "संबंधित डेटा आइटम को अपडेट करने के तुरंत बाद",
+        "B": "ट्रांजैक्शन के अंत में उसके कमिट या अबॉर्ट होने के बाद",
+        "C": "जैसे ही श्रिंकिंग फेज (सिकुड़ने का चरण) शुरू होता है",
+        "D": "जब भी कोई अन्य ट्रांजैक्शन शेयर्ड लॉक का अनुरोध करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Data flow diagram?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "B",
+      "explanation": "Strict 2PL mandates that all exclusive (X) locks held by a transaction must be retained until the transaction fully commits or aborts. This guarantees strict serializability and prevents cascading aborts (cascadeless schedules).",
+      "explanation_hi": "स्ट्रिक्ट 2PL प्रोटोकॉल में ट्रांजैक्शन द्वारा लिए गए सभी एक्सक्लूसिव (राइट) लॉक केवल तभी छोड़े जाते हैं जब ट्रांजैक्शन पूरी तरह कमिट या अबॉर्ट हो जाता है। इससे कैस्केडिंग रोलबैक की समस्या पूरी तरह समाप्त हो जाती है।"
     },
     {
       "id": 39,
       "questionNumber": 39,
       "section": "Computer Science",
       "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "The term \"FAT\" is stands for_____",
+      "question": "What is Belady's Anomaly in operating system virtual memory management?",
+      "question_hi": "ऑपरेटिंग सिस्टम के वर्चुअल मेमोरी प्रबंधन में बेलेडी की विसंगति (Belady's Anomaly) क्या है?",
       "options": {
-        "A": "File Allocation Tree",
-        "B": "File Allocation Table",
-        "C": "File Allocation Graph",
-        "D": "All of the above"
+        "A": "Page fault rate increases as the number of allocated page frames increases under FIFO page replacement",
+        "B": "LRU algorithm performs worse than Random replacement on cyclic loops",
+        "C": "Thrashing causes CPU utilization to drop to zero permanently",
+        "D": "Virtual memory access time exceeds physical RAM access time"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) File Allocation Table**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (B) reflects the standard behavior and complexity bounds.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "FAT का पूर्ण रूप (Full Form) क्या है?",
       "options_hi": {
-        "A": "फ़ाइल आवंटन वृक्ष",
-        "B": "फाइल आबंटन टेबल",
-        "C": "File Allocation Graph",
-        "D": "उपरोक्त सभी"
+        "A": "FIFO पेज रिप्लेसमेंट के तहत आवंटित पेज फ्रेम की संख्या बढ़ाने पर पेज फॉल्ट की संख्या कम होने के बजाय बढ़ जाती है",
+        "B": "चक्रीय लूप्स पर LRU एल्गोरिदम रैंडम रिप्लेसमेंट से खराब प्रदर्शन करता है",
+        "C": "थ्रैशिंग के कारण CPU उपयोग स्थायी रूप से शून्य हो जाता है",
+        "D": "वर्चुअल मेमोरी एक्सेस का समय भौतिक रैम एक्सेस समय से अधिक हो जाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) File Allocation Table?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Belady's Anomaly is a counter-intuitive phenomenon where increasing the number of physical page frames allocated to a process results in an increased number of page faults. It occurs in FIFO page replacement, but never in stack-based algorithms like LRU or Optimal.",
+      "explanation_hi": "बेलेडी की विसंगति एक ऐसी स्थिति है जिसमें प्रोसेस को अधिक पेज फ्रेम (मेमोरी) देने के बावजूद पेज फॉल्ट्स की संख्या बढ़ जाती है। यह FIFO पेज रिप्लेसमेंट में देखी जाती है, परंतु LRU या ऑप्टिमल में कभी नहीं होती।"
     },
     {
       "id": 40,
       "questionNumber": 40,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "The term \"Data\" refers to:",
+      "question": "Which of the following conditions is NOT one of the four necessary conditions for a deadlock to occur (Coffman conditions)?",
+      "question_hi": "निम्नलिखित में से कौन सी स्थिति डेडलॉक उत्पन्न होने के लिए आवश्यक चार शर्तों (कॉफमैन शर्तों) में से एक नहीं है?",
       "options": {
-        "A": "The electronic representation of the information(or data)",
-        "B": "Basic information",
-        "C": "Row Facts and figures",
-        "D": "Both A and C"
+        "A": "Mutual Exclusion",
+        "B": "Hold and Wait",
+        "C": "Preemption of resources by higher-priority processes",
+        "D": "Circular Wait"
+      },
+      "options_hi": {
+        "A": "म्यूचुअल एक्सक्लूजन (पारस्परिक अपवर्जन)",
+        "B": "होल्ड एंड वेट",
+        "C": "उच्च प्राथमिकता वाले प्रोसेस द्वारा संसाधनों का प्रीएम्पशन (छीनना)",
+        "D": "सर्कुलर वेट (चक्रीय प्रतीक्षा)"
       },
       "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Row Facts and figures**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "\"डेटा\" शब्द का तात्पर्य है:",
-      "options_hi": {
-        "A": "सूचना (या डेटा) का इलेक्ट्रॉनिक प्रतिनिधित्व",
-        "B": "मूल जानकारी",
-        "C": "पंक्ति तथ्य और आंकड़े",
-        "D": "ए और सी दोनों"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Row Facts and figures?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation": "The four necessary Coffman conditions for deadlock are: 1. Mutual Exclusion, 2. Hold and Wait, 3. No Preemption (resources cannot be forcibly confiscated), and 4. Circular Wait. 'Preemption' actually prevents deadlock.",
+      "explanation_hi": "डेडलॉक के लिए चार आवश्यक शर्तें हैं: 1. म्यूचुअल एक्सक्लूजन, 2. होल्ड एंड वेट, 3. नो प्रीएम्पशन (संसाधन छीना नहीं जा सकता), और 4. सर्कुलर वेट। संसाधनों का प्रीएम्पशन होने पर डेडलॉक कभी नहीं हो सकता।"
     },
     {
       "id": 41,
@@ -1154,53 +1154,53 @@ window.official_2023 = {
       "id": 44,
       "questionNumber": 44,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is NOT a network topology?",
+      "question": "What is 'Thrashing' in an operating system, and how can it be detected and prevented?",
+      "question_hi": "ऑपरेटिंग सिस्टम में 'थ्रैशिंग' (Thrashing) क्या है, और इसे कैसे पहचाना और रोका जाता है?",
       "options": {
-        "A": "Star",
-        "B": "Ring",
-        "C": "Disk",
-        "D": "Mesh"
+        "A": "A process spends more time paging (swapping pages in and out) than executing instructions; prevented by the Working Set Model",
+        "B": "Two processes write to the same memory location simultaneously; prevented by mutex",
+        "C": "CPU executes infinite recursive loops; prevented by watchdog timer",
+        "D": "Hard disk head crashes on the magnetic platter; prevented by RAID"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Disk**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (C) is the standard specification.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "निम्नलिखित में से कौन सा a network topology नहीं है?",
       "options_hi": {
-        "A": "तारा",
-        "B": "अँगूठी",
-        "C": "डिस्क",
-        "D": "जाल"
+        "A": "जब प्रोसेस निर्देश निष्पादित करने से अधिक समय पेजिंग (स्वैपिंग) में बिताता है; वर्किंग सेट मॉडल द्वारा रोका जाता है",
+        "B": "दो प्रोसेस एक ही मेमोरी लोकेशन पर एक साथ लिखते हैं; म्यूटेक्स द्वारा रोका जाता है",
+        "C": "सीपीयू अनंत रिकर्सिव लूप चलाता है; वॉचडॉग टाइमर द्वारा रोका जाता है",
+        "D": "हार्ड डिस्क हेड मैग्नेटिक प्लैटर पर क्रैश होता है; RAID द्वारा रोका जाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Disk?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Thrashing occurs when a system does not have enough frames to hold the working sets of all active processes. The CPU utilization plunges as processes continually wait for page-fault I/O. It is prevented by decreasing the degree of multiprogramming and using the Working Set Strategy.",
+      "explanation_hi": "थ्रैशिंग वह स्थिति है जहां ऑपरेटिंग सिस्टम उपयोगी काम करने की तुलना में पेजों की अदला-बदली (स्वैपिंग) में अधिक समय व्यतीत करता है, जिससे CPU यूटिलाइजेशन गिर जाता है। इसे वर्किंग सेट मॉडल और डिग्री ऑफ मल्टीप्रोग्रामिंग घटाकर रोका जाता है।"
     },
     {
       "id": 45,
       "questionNumber": 45,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Contention-based MAC protocols are commonly used in:",
+      "question": "In modern operating systems, what is the primary purpose of the Translation Lookaside Buffer (TLB)?",
+      "question_hi": "आधुनिक ऑपरेटिंग सिस्टम में, ट्रांसलेशन लुकअसाइड बफर (TLB) का प्राथमिक उद्देश्य क्या है?",
       "options": {
-        "A": "Ethernet networks",
-        "B": "Token Ring networks",
-        "C": "ATM networks",
-        "D": "Point-to-Point networks"
+        "A": "To store compiled binary code instructions",
+        "B": "To act as a high-speed hardware cache for virtual-to-physical page table address translations",
+        "C": "To buffer network packets before transmission",
+        "D": "To maintain process control blocks in the ready queue"
       },
-      "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Ethernet networks**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (A) is the standard specification.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "विवाद-आधारित MAC प्रोटोकॉल आमतौर पर उपयोग किए जाते हैं:",
       "options_hi": {
-        "A": "ईथरनेट नेटवर्क",
-        "B": "टोकन रिंग नेटवर्क",
-        "C": "एटीएम नेटवर्क",
-        "D": "प्वाइंट-टू-प्वाइंट नेटवर्क"
+        "A": "कंपाइल किए गए बाइनरी कोड निर्देशों को संग्रहीत करना",
+        "B": "वर्चुअल-टू-फिजिकल पेज टेबल एड्रेस ट्रांसलेशन के लिए हाई-स्पीड हार्डवेयर कैश के रूप में कार्य करना",
+        "C": "प्रसारण से पहले नेटवर्क पैकेटों को बफर करना",
+        "D": "रेडी क्यू में प्रोसेस कंट्रोल ब्लॉक (PCB) को बनाए रखना"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Ethernet networks?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "correctAnswer": "B",
+      "explanation": "The TLB is an associative, high-speed hardware cache located inside the Memory Management Unit (MMU). It stores recent virtual page number to physical frame number mappings, avoiding two sequential memory accesses for every single memory read or write.",
+      "explanation_hi": "TLB (Translation Lookaside Buffer) MMU के अंदर एक तेज़ हार्डवेयर कैश है जो हाल ही में अनुवादित वर्चुअल-से-फिजिकल पेज एड्रेस को स्टोर करता है, जिससे हर मेमोरी एक्सेस के लिए पेज टेबल तक बार-बार जाने की जरूरत नहीं पड़ती।"
     },
     {
       "id": 46,
@@ -1232,27 +1232,27 @@ window.official_2023 = {
       "id": 47,
       "questionNumber": 47,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the purpose of ARP (Address Resolution Protocol)?",
+      "question": "Which disk scheduling algorithm services disk I/O requests by moving the head towards one end of the disk and reversing direction only after reaching the final cylinder, like an elevator?",
+      "question_hi": "कौन सा डिस्क शेड्यूलिंग एल्गोरिदम डिस्क हेड को एक छोर तक ले जाकर और केवल अंतिम सिलेंडर तक पहुंचने के बाद ही दिशा उलटकर लिफ्ट की तरह सर्विस देता है?",
       "options": {
-        "A": "To assign IP addresses to devices",
-        "B": "To resolve domain names to IP addresses",
-        "C": "To map MAC addresses to IP addresses",
-        "D": "To manage network congestion"
+        "A": "SSTF (Shortest Seek Time First)",
+        "B": "SCAN (Elevator Algorithm)",
+        "C": "FCFS (First-Come, First-Served)",
+        "D": "C-SCAN (Circular SCAN)"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) To map MAC addresses to IP addresses**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "ARP (एड्रेस रेजोल्यूशन प्रोटोकॉल) का उद्देश्य क्या है?",
       "options_hi": {
-        "A": "उपकरणों को आईपी पते निर्दिष्ट करने के लिए",
-        "B": "डोमेन नाम को आईपी पते पर हल करने के लिए",
-        "C": "मैक पते को आईपी पते पर मैप करने के लिए",
-        "D": "नेटवर्क कंजेशन को प्रबंधित करने के लिए"
+        "A": "SSTF (शॉर्टेस्ट सीक टाइम फर्स्ट)",
+        "B": "SCAN (एलीवेटर एल्गोरिदम)",
+        "C": "FCFS (फर्स्ट-कम, फर्स्ट-सर्व्ड)",
+        "D": "C-SCAN (सर्कुलर स्कैन)"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) To map MAC addresses to IP पताes?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "B",
+      "explanation": "The SCAN algorithm (also known as the Elevator algorithm) starts at one end of the disk and moves toward the other end, servicing requests as it reaches each cylinder, until it gets to the other end of the disk. At the end, the direction is reversed. In contrast, C-SCAN returns immediately to the beginning without servicing on return.",
+      "explanation_hi": "SCAN एल्गोरिदम (एलीवेटर एल्गोरिदम) डिस्क हेड को एक दिशा में अंत तक ले जाता है और रास्ते में आने वाले सभी अनुरोधों को पूरा करता है। अंत में पहुंचकर यह दिशा बदलकर विपरीत दिशा में कार्य करता है।"
     },
     {
       "id": 48,
@@ -1310,53 +1310,53 @@ window.official_2023 = {
       "id": 50,
       "questionNumber": 50,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क्स",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Reverse engineering is primarily used for:",
+      "question": "Given the IPv4 address 192.168.10.130 with subnet mask 255.255.255.192 (/26), what is the valid subnet network address and the broadcast address?",
+      "question_hi": "सबनेट मास्क 255.255.255.192 (/26) के साथ IPv4 एड्रेस 192.168.10.130 दिया गया है। वैध सबनेट नेटवर्क एड्रेस और ब्रॉडकास्ट एड्रेस क्या होगा?",
       "options": {
-        "A": "Creating new software from scratch",
-        "B": "Improving software performance",
-        "C": "Understanding and documenting existing software",
-        "D": "Testing software components"
+        "A": "Network: 192.168.10.128, Broadcast: 192.168.10.191",
+        "B": "Network: 192.168.10.128, Broadcast: 192.168.10.255",
+        "C": "Network: 192.168.10.0, Broadcast: 192.168.10.127",
+        "D": "Network: 192.168.10.64, Broadcast: 192.168.10.127"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Understanding and documenting existing software**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "निम्नलिखित में से Reverse engineering is primarily used for: के संदर्भ में उपयुक्त विकल्प चुनें।",
       "options_hi": {
-        "A": "शुरुआत से नया सॉफ्टवेयर बनाना",
-        "B": "सॉफ़्टवेयर प्रदर्शन में सुधार",
-        "C": "मौजूदा सॉफ़्टवेयर को समझना और उसका दस्तावेज़ीकरण करना",
-        "D": "सॉफ़्टवेयर घटकों का परीक्षण करना"
+        "A": "नेटवर्क: 192.168.10.128, ब्रॉडकास्ट: 192.168.10.191",
+        "B": "नेटवर्क: 192.168.10.128, ब्रॉडकास्ट: 192.168.10.255",
+        "C": "नेटवर्क: 192.168.10.0, ब्रॉडकास्ट: 192.168.10.127",
+        "D": "नेटवर्क: 192.168.10.64, ब्रॉडकास्ट: 192.168.10.127"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Understanding and documenting existing software?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Mask 255.255.255.192 has 6 host bits, block size = 256 - 192 = 64. Subnet blocks start at .0, .64, .128, .192. For IP .130: it falls in the block starting at 192.168.10.128. Its broadcast address is the last IP of the block: 128 + 64 - 1 = 192.168.10.191.",
+      "explanation_hi": "मास्क /26 (255.255.255.192) का ब्लॉक साइज = 256 - 192 = 64 है। सबनेट्स: 0, 64, 128, 192। आईपी .130 सबनेट 192.168.10.128 में आता है, तथा इसका ब्रॉडकास्ट पता 128 + 63 = 192.168.10.191 है।"
     },
     {
       "id": 51,
       "questionNumber": 51,
       "section": "Computer Science",
-      "topic": "Software Engineering",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क्स",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which testing approach involves testing individual components or units of code?",
+      "question": "What is the primary mechanism used by TCP (Transmission Control Protocol) to achieve reliable end-to-end flow control without overwhelming the receiver?",
+      "question_hi": "रिसीवर को ओवरवेल्म किए बिना विश्वसनीय एंड-टू-एंड फ्लो कंट्रोल प्राप्त करने के लिए TCP द्वारा उपयोग किया जाने वाला प्राथमिक तंत्र क्या है?",
       "options": {
-        "A": "Integration Testing",
-        "B": "System Testing",
-        "C": "Unit Testing",
-        "D": "Acceptance Testing"
+        "A": "Sliding Window Protocol with dynamic Receiver Advertised Window (rwnd)",
+        "B": "Hop-by-hop Token Ring circulation",
+        "C": "Unacknowledged datagram dropping",
+        "D": "Stop-and-Wait ARQ with fixed 1-byte packets"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Unit Testing**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key.",
-      "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
-      "question_hi": "किस परीक्षण दृष्टिकोण में व्यक्तिगत घटकों या कोड की इकाइयों का परीक्षण शामिल है?",
       "options_hi": {
-        "A": "एकीकरण परीक्षण",
-        "B": "सिस्टम परीक्षण",
-        "C": "इकाई परीक्षण",
-        "D": "स्वीकृति परीक्षण"
+        "A": "डायनेमिक रिसीवर एडवरटाइज़्ड विंडो (rwnd) के साथ स्लाइडिंग विंडो प्रोटोकॉल",
+        "B": "हॉप-बाय-हॉप टोकन रिंग सर्कुलेशन",
+        "C": "अनएक्नॉलेज्ड डेटाग्राम ड्रॉपिंग",
+        "D": "फिक्स्ड 1-बाइट पैकेट के साथ स्टॉप-एंड-वेट ARQ"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Unit Testing?**\n\n**विषय अवधारणा (सॉफ्टवेयर इंजीनियरिंग)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "TCP flow control is governed by the Sliding Window protocol where the receiver continuously advertises its available buffer capacity in the 'rwnd' field of TCP header acknowledgments. The sender never sends more unacknowledged data than min(rwnd, cwnd).",
+      "explanation_hi": "TCP फ्लो कंट्रोल स्लाइडिंग विंडो प्रोटोकॉल पर आधारित है जिसमें रिसीवर अपने हेडर के 'rwnd' फील्ड में उपलब्ध बफर स्पेस भेजता है। प्रेषक कभी भी रिसीवर बफर से अधिक डेटा नहीं भेजता, जिससे डेटा ओवरफ्लो नहीं होता।"
     },
     {
       "id": 52,
@@ -1414,53 +1414,53 @@ window.official_2023 = {
       "id": 54,
       "questionNumber": 54,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क्स",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the purpose of staffing level estimation in software project management?",
+      "question": "How does the Address Resolution Protocol (ARP) determine the physical MAC address corresponding to a known target IPv4 address on a local area network?",
+      "question_hi": "एड्रेस रिज़ॉल्यूशन प्रोटोकॉल (ARP) स्थानीय नेटवर्क पर किसी ज्ञात लक्ष्य IPv4 पते के अनुरूप भौतिक MAC पते का निर्धारण कैसे करता है?",
       "options": {
-        "A": "To determine the number of hardware components required",
-        "B": "To identify potential risks in the project",
-        "C": "To allocate appropriate resources to the project",
-        "D": "To estimate the maintenance costs of the software"
+        "A": "Sends an ARP Request via Broadcast (FF:FF:FF:FF:FF:FF) and receives an ARP Reply via Unicast",
+        "B": "Queries an external DNS root server over UDP port 53",
+        "C": "Performs binary search on the ISP routing table",
+        "D": "Calculates the MAC address mathematically using a hash function on the IP"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) To identify potential risks in the project**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "सॉफ्टवेयर परियोजना प्रबंधन में स्टाफिंग स्तर के आकलन का उद्देश्य क्या है?",
       "options_hi": {
-        "A": "आवश्यक हार्डवेयर घटकों की संख्या निर्धारित करने के लिए",
-        "B": "To identify potential risks in the project",
-        "C": "परियोजना के लिए उचित संसाधन आवंटित करना",
-        "D": "सॉफ़्टवेयर की रखरखाव लागत का अनुमान लगाना"
+        "A": "ब्रॉडकास्ट (FF:FF:FF:FF:FF:FF) द्वारा ARP रिक्वेस्ट भेजता है और यूनीकास्ट द्वारा ARP रिप्लाई प्राप्त करता है",
+        "B": "UDP पोर्ट 53 पर बाहरी DNS रूट सर्वर से क्वेरी करता है",
+        "C": "आईएसपी रूटिंग टेबल पर बाइनरी सर्च करता है",
+        "D": "आईपी पर हैश फ़ंक्शन का उपयोग करके गणितीय रूप से मैक एड्रेस निकालता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) To identify potential risks in the project?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "When a host needs to resolve an IP to a MAC address, it broadcasts an ARP Request frame to all devices on the LAN (destination MAC FF:FF:FF:FF:FF:FF). The target host with that IP recognizes its address and responds with a unicast ARP Reply containing its physical MAC address.",
+      "explanation_hi": "ARP रिक्वेस्ट पूरे लोकल नेटवर्क पर ब्रॉडकास्ट (FF:FF:FF:FF:FF:FF) की जाती है। संबंधित आईपी वाला नोड अपनी पहचान कर केवल अनुरोधकर्ता को यूनीकास्ट (Unicast) द्वारा अपना मैक एड्रेस (ARP Reply) भेजता है।"
     },
     {
       "id": 55,
       "questionNumber": 55,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क्स",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which keyword is used to create an instance of a class in most programming languages?",
+      "question": "In Distance Vector Routing (such as RIP), what phenomenon causes routing loops where two routers continually increment the distance to an unreachable network, and how is it mitigated?",
+      "question_hi": "डिस्टेंस वेक्टर रूटिंग (जैसे RIP) में, कौन सी घटना रूटिंग लूप का कारण बनती है जहां दो राउटर किसी दुर्गम नेटवर्क की दूरी को लगातार बढ़ाते रहते हैं, और इसे कैसे रोका जाता है?",
       "options": {
-        "A": "alloc",
-        "B": "new",
-        "C": "create",
-        "D": "instance"
+        "A": "Count-to-Infinity problem; mitigated by Split Horizon with Poison Reverse",
+        "B": "BGP path oscillation; mitigated by autonomous system numbers",
+        "C": "OSPF area partition; mitigated by virtual links",
+        "D": "ARP spoofing; mitigated by dynamic ARP inspection"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) new**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality.",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "अधिकांश प्रोग्रामिंग भाषाओं में क्लास का इंस्टेंस बनाने के लिए किस कीवर्ड का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "alloc",
-        "B": "नया",
-        "C": "बनाएं",
-        "D": "उदाहरण"
+        "A": "काउंट-टू-इनफिनिटी समस्या; स्प्लिट होराइजन विथ पॉइज़न रिवर्स द्वारा कम की जाती है",
+        "B": "BGP पाथ ऑसिलेशन; ऑटोनॉमस सिस्टम नंबरों द्वारा कम किया जाता है",
+        "C": "OSPF एरिया पार्टिशन; वर्चुअल लिंक्स द्वारा कम किया जाता है",
+        "D": "ARP स्पूफिंग; डायनेमिक एआरपी निरीक्षण द्वारा कम किया जाता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) new?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "The Count-to-Infinity problem occurs when an unreachable link causes routers to propagate outdated routes to each other, incrementing metric values up to infinity (16 in RIP). Split Horizon (never advertise a route back out the interface it was learned from) and Poison Reverse mitigate this loop.",
+      "explanation_hi": "काउंट-टू-इनफिनिटी समस्या में जब कोई लिंक डाउन होता है तो राउटर एक-दूसरे से पुरानी जानकारी लेकर दूरी को 16 (अनंत) तक बढ़ाते रहते हैं। इसे 'स्प्लिट होराइजन' और 'पॉइज़न रिवर्स' तकनीकों से रोका जाता है।"
     },
     {
       "id": 56,
@@ -1544,53 +1544,53 @@ window.official_2023 = {
       "id": 59,
       "questionNumber": 59,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
+      "topic": "Computer Networks",
+      "topic_hi": "कंप्यूटर नेटवर्क्स",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which principle ensures that only essential information is visible to the outside world?",
+      "question": "Which cryptographic algorithm is an asymmetric public-key cryptosystem based on the mathematical difficulty of factoring large prime numbers?",
+      "question_hi": "कौन सा क्रिप्टोग्राफ़िक एल्गोरिदम बड़ी अभाज्य संख्याओं (prime numbers) के गुणनखंड की गणितीय जटिलता पर आधारित एक असममित (asymmetric) सार्वजनिक-कुंजी क्रिप्टोसिस्टम है?",
       "options": {
-        "A": "Polymorphism",
-        "B": "Information hiding",
-        "C": "Encapsulation",
-        "D": "Abstraction"
+        "A": "DES (Data Encryption Standard)",
+        "B": "AES (Advanced Encryption Standard)",
+        "C": "RSA (Rivest-Shamir-Adleman)",
+        "D": "MD5 (Message Digest 5)"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Information hiding**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (B) reflects the standard behavior and complexity bounds.",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "कौन सा सिद्धांत यह सुनिश्चित करता है कि केवल आवश्यक जानकारी ही बाहरी दुनिया को दिखाई दे?",
       "options_hi": {
-        "A": "बहुरूपता (Polymorphism)",
-        "B": "जानकारी छुपाना",
-        "C": "Encapsulation",
-        "D": "मतिहीनता"
+        "A": "DES (डेटा एन्क्रिप्शन स्टैंडर्ड)",
+        "B": "AES (एडवांस्ड एन्क्रिप्शन स्टैंडर्ड)",
+        "C": "RSA (रिवेस्ट-शमीर-एडलमैन)",
+        "D": "MD5 (मैसेज डाइजेस्ट 5)"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Information hiding?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "C",
+      "explanation": "RSA is an asymmetric cipher that uses a public key for encryption and a private key for decryption. Its security relies on the prime factorization problem: multiplying two large primes is easy, but factoring their product back into primes is computationally infeasible.",
+      "explanation_hi": "RSA एक असममित (पब्लिक-की) सिफर है जिसमें एन्क्रिप्शन के लिए पब्लिक की तथा डिक्रिप्शन के लिए प्राइवेट की का उपयोग होता है। इसकी सुरक्षा दो विशाल अभाज्य संख्याओं के गुणनफल को पुनः फैक्टर करने की जटिलता पर आधारित है।"
     },
     {
       "id": 60,
       "questionNumber": 60,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
+      "topic": "Theory of Computation",
+      "topic_hi": "थ्योरी ऑफ कंप्यूटेशन",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the main purpose of inheritance in OOP?",
+      "question": "Which of the following formal languages is NOT a regular language and cannot be accepted by any Deterministic Finite Automaton (DFA)?",
+      "question_hi": "निम्नलिखित में से कौन सी औपचारिक भाषा एक रेगुलर भाषा नहीं है और इसे किसी भी डिटरमिनिस्टिक फाइनाइट ऑटोमेटा (DFA) द्वारा स्वीकार नहीं किया जा सकता है?",
       "options": {
-        "A": "To create instances of classes",
-        "B": "To prevent data abstraction",
-        "C": "To establish a parent-child relationship between classes",
-        "D": "To define exceptions"
+        "A": "L = { w in {0, 1}* | w contains an even number of 0s }",
+        "B": "L = { 0^n 1^n | n >= 0 }",
+        "C": "L = { w in {a, b}* | w starts and ends with the same symbol }",
+        "D": "L = { 0^m 1^n | m >= 1, n >= 1 }"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) To establish a parent-child relationship between classes**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "OOP में inheritance का मुख्य उद्देश्य क्या है?",
       "options_hi": {
-        "A": "To create instances of classes",
-        "B": "डेटा अमूर्तन को रोकने के लिए",
-        "C": "कक्षाओं के बीच अभिभावक-बच्चे का संबंध स्थापित करना",
-        "D": "अपवादों को परिभाषित करना"
+        "A": "L = { w in {0, 1}* | w में 0 की संख्या सम है }",
+        "B": "L = { 0^n 1^n | n >= 0 }",
+        "C": "L = { w in {a, b}* | w समान प्रतीक से शुरू और समाप्त होता है }",
+        "D": "L = { 0^m 1^n | m >= 1, n >= 1 }"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) To establish a parent-child relationship between classes?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "B",
+      "explanation": "The language L = {0^n 1^n | n >= 0} requires remembering the exact count of 0s to match with equal 1s. Since a DFA has strictly finite memory (finite states) and no stack, it cannot count unbounded numbers. It is a Deterministic Context-Free Language accepted by a Pushdown Automaton (PDA).",
+      "explanation_hi": "भाषा L = {0^n 1^n | n >= 0} के लिए 0 की संख्या याद रखने की आवश्यकता होती है ताकि 1 की संख्या की तुलना की जा सके। DFA में मेमोरी सीमित (परिमित अवस्थाएं) होती है और स्टैक नहीं होता, अतः यह रेगुलर नहीं है (यह CFL है)।"
     },
     {
       "id": 61,
@@ -1752,27 +1752,27 @@ window.official_2023 = {
       "id": 67,
       "questionNumber": 67,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
+      "topic": "Theory of Computation",
+      "topic_hi": "थ्योरी ऑफ कंप्यूटेशन",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In XML, which attribute is used to uniquely identify an element?",
+      "question": "What is the closure property of Regular Languages under the set operations of Union, Intersection, and Complement?",
+      "question_hi": "यूनियन, इंटरसेक्शन और कॉम्प्लिमेंट के सेट ऑपरेशनों के तहत रेगुलर भाषाओं की क्लोजर विशेषता क्या है?",
       "options": {
-        "A": "id",
-        "B": "class",
-        "C": "name",
-        "D": "tag"
+        "A": "Closed under Union, but NOT closed under Intersection or Complement",
+        "B": "Closed under Union, Intersection, and Complement",
+        "C": "Closed only under Concatenation and Kleene star",
+        "D": "Not closed under any Boolean operations"
       },
-      "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) id**\n\n**OOP Principle**: Core pillars include Encapsulation (data hiding), Abstraction (interface separation), Inheritance (code reuse), and Polymorphism (runtime dispatch).\n- Option (A) correctly implements these principles.",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "XML में, किसी तत्व की विशिष्ट पहचान के लिए किस विशेषता का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "id",
-        "B": "कक्षा",
-        "C": "नाम",
-        "D": "टैग"
+        "A": "यूनियन के तहत क्लोज्ड है, लेकिन इंटरसेक्शन या कॉम्प्लिमेंट के तहत नहीं",
+        "B": "यूनियन, इंटरसेक्शन और कॉम्प्लिमेंट तीनों के तहत क्लोज्ड है",
+        "C": "केवल कॉनकैटेनेशन और क्लेन स्टार के तहत क्लोज्ड है",
+        "D": "किसी भी बूलियन ऑपरेशन के तहत क्लोज्ड नहीं है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) id?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "correctAnswer": "B",
+      "explanation": "Regular languages form a Boolean algebra and are closed under all major operations: Union, Intersection, Complement, Concatenation, Kleene Star, Set Difference, and Reversal. (Note: Context-Free languages are NOT closed under Intersection or Complement).",
+      "explanation_hi": "रेगुलर भाषाएं यूनियन, इंटरसेक्शन, कॉम्प्लिमेंट, कॉनकैटेनेशन और क्लेन क्लोजर - इन सभी संक्रियाओं के तहत क्लोज्ड (Closed) होती हैं। (जबकि कॉन्टेक्स्ट-फ्री भाषाएं इंटरसेक्शन और कॉम्प्लिमेंट में क्लोज्ड नहीं होतीं)।"
     },
     {
       "id": 68,
@@ -1804,79 +1804,79 @@ window.official_2023 = {
       "id": 69,
       "questionNumber": 69,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Theory of Computation",
+      "topic_hi": "थ्योरी ऑफ कंप्यूटेशन",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "A Language for which DFA exist is a________",
+      "question": "In the Chomsky Hierarchy of formal grammars, which class of automata accepts Context-Free Languages (Type 2 grammars)?",
+      "question_hi": "फॉर्मल ग्रामर के चॉम्स्की पदानुक्रम (Chomsky Hierarchy) में, कौन सा ऑटोमेटा कॉन्टेक्स्ट-फ्री लैंग्वेज (टाइप 2 ग्रामर) को स्वीकार करता है?",
       "options": {
-        "A": "Regular Language",
-        "B": "Non-Regular Language",
-        "C": "Any language",
-        "D": "Cannot be said"
+        "A": "Finite State Automata",
+        "B": "Pushdown Automata (PDA)",
+        "C": "Linear Bounded Automata (LBA)",
+        "D": "Turing Machines"
       },
-      "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Regular Language**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (A) is the standard specification.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "निम्नलिखित में से A Language for which DFA exist is a________ के संदर्भ में उपयुक्त विकल्प चुनें।",
       "options_hi": {
-        "A": "नियमित भाषा",
-        "B": "गैर-नियमित भाषा",
-        "C": "कोई भी भाषा",
-        "D": "कहा नहीं जा सकता"
+        "A": "फाइनाइट स्टेट ऑटोमेटा",
+        "B": "पुशडाउन ऑटोमेटा (PDA)",
+        "C": "लीनियर बाउंडेड ऑटोमेटा (LBA)",
+        "D": "ट्यूरिंग मशीन"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Regular Language?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "correctAnswer": "B",
+      "explanation": "Under the Chomsky Hierarchy: Type 3 (Regular) -> Finite Automata; Type 2 (Context-Free) -> Pushdown Automata; Type 1 (Context-Sensitive) -> Linear Bounded Automata; Type 0 (Unrestricted / Recursively Enumerable) -> Turing Machine.",
+      "explanation_hi": "चॉम्स्की पदानुक्रम के अनुसार: टाइप 3 (रेगुलर) को फाइनाइट ऑटोमेटा; टाइप 2 (CFL) को पुशडाउन ऑटोमेटा (PDA); टाइप 1 (CSL) को लीनियर बाउंडेड ऑटोमेटा (LBA); तथा टाइप 0 को ट्यूरिंग मशीन स्वीकार करती है।"
     },
     {
       "id": 70,
       "questionNumber": 70,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Software Engineering",
+      "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Let u=’1101’, v=’0001’, then uv=11010001 and vu= 00011101.Using the given information what is the identity element for the string?",
+      "question": "In software metrics, how is McCabe's Cyclomatic Complexity V(G) computed from a program control flow graph with E edges, N nodes, and P connected components?",
+      "question_hi": "सॉफ्टवेयर मेट्रिक्स में, E किनारों (edges), N नोड्स और P कनेक्टेड घटकों वाले प्रोग्राम कंट्रोल फ्लो ग्राफ से मैकेबे की साइक्लोमैटिक जटिलता V(G) की गणना कैसे की जाती है?",
       "options": {
-        "A": "u-",
-        "B": "v-",
-        "C": "u-1v-",
-        "D": "ε"
+        "A": "V(G) = E - N + 2P",
+        "B": "V(G) = E + N - 2P",
+        "C": "V(G) = E * N / P",
+        "D": "V(G) = N - E + P"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) ε**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "मान लीजिए u='1101', v='0001', फिर uv=11010001 और vu= 00011101। दी गई जानकारी का उपयोग करते हुए स्ट्रिंग के लिए पहचान तत्व क्या है?",
       "options_hi": {
-        "A": "यू के आकार",
-        "B": "वी",
-        "C": "यू-1वी-",
-        "D": "ε"
+        "A": "V(G) = E - N + 2P",
+        "B": "V(G) = E + N - 2P",
+        "C": "V(G) = E * N / P",
+        "D": "V(G) = N - E + P"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) ε?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "McCabe's Cyclomatic Complexity formula is V(G) = E - N + 2P. For a single program module (P=1), V(G) = E - N + 2. Alternatively, V(G) = Predicate nodes + 1. It measures the number of linearly independent execution paths through the code.",
+      "explanation_hi": "मैकेबे की साइक्लोमैटिक जटिलता का सूत्र V(G) = E - N + 2P होता है। एकल प्रोग्राम (P=1) के लिए यह E - N + 2 या (प्रेडिकेट नोड्स + 1) होता है। यह कोड में स्वतंत्र पाथ्स की संख्या मापता है।"
     },
     {
       "id": 71,
       "questionNumber": 71,
       "section": "Computer Science",
-      "topic": "Digital Logic",
+      "topic": "Software Engineering",
+      "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "For a DFA accepting binary numbers whose decimal equivalent is divisible by 3, what are all the possible remainders when divided by 3?",
+      "question": "Which type of software module cohesion is considered the BEST and strongest in structural software design?",
+      "question_hi": "स्ट्रक्चरल सॉफ्टवेयर डिजाइन में किस प्रकार के मॉड्यूल कोहेज़न (Cohesion) को सबसे अच्छा और मजबूत माना जाता है?",
       "options": {
-        "A": "0, 1, 2",
-        "B": "0, 1",
-        "C": "1, 2",
-        "D": "Only 0"
+        "A": "Coincidental Cohesion",
+        "B": "Functional Cohesion",
+        "C": "Temporal Cohesion",
+        "D": "Logical Cohesion"
       },
-      "correctAnswer": "A",
-      "explanation": "When any integer is divided by 3, the remainder modulo 3 can only be 0, 1, or 2. Therefore, a minimal DFA accepting binary numbers divisible by 3 requires exactly 3 states representing these remainders.",
-      "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "3 से विभाज्य दशमलव समतुल्य वाली बाइनरी संख्याओं को स्वीकार करने वाले DFA के लिए 3 से भाग देने पर संभावित शेषफल क्या हैं?",
       "options_hi": {
-        "A": "0, 1, 2",
-        "B": "0, 1",
-        "C": "1, 2",
-        "D": "केवल 0"
+        "A": "कोइन्सिडेंटल कोहेज़न",
+        "B": "फंक्शनल कोहेज़न",
+        "C": "टेम्पोरल कोहेज़न",
+        "D": "लॉजिकल कोहेज़न"
       },
-      "explanation_hi": "किसी भी संख्या को 3 से भाग देने पर संभावित शेषफल 0, 1 या 2 ही हो सकते हैं। अतः इस DFA में इन तीनों शेषफलों को दर्शाने के लिए न्यूनतम 3 अवस्थाओं की आवश्यकता होती है।"
+      "correctAnswer": "B",
+      "explanation": "Functional Cohesion is the strongest and most desirable type of cohesion, where every task in the module contributes strictly to a single, well-defined function (e.g., calculating square root). Coincidental cohesion is the worst where unrelated tasks are grouped together arbitrarily.",
+      "explanation_hi": "फंक्शनल कोहेज़न (Functional Cohesion) सबसे मजबूत और आदर्श कोहेज़न है, जिसमें मॉड्यूल के सभी घटक केवल एक ही विशिष्ट कार्य को पूरा करने के लिए समर्पित होते हैं। सबसे खराब कोइन्सिडेंटल कोहेज़न होता है।"
     },
     {
       "id": 72,
@@ -1934,53 +1934,53 @@ window.official_2023 = {
       "id": 74,
       "questionNumber": 74,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
+      "topic": "Software Engineering",
+      "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "The class of CFG is not closed under",
+      "question": "What is the primary difference between Black-Box testing and White-Box testing methodologies?",
+      "question_hi": "ब्लैक-बॉक्स टेस्टिंग और व्हाइट-बॉक्स टेस्टिंग पद्धतियों के बीच प्राथमिक अंतर क्या है?",
       "options": {
-        "A": "Concatenation",
-        "B": "Intersection",
-        "C": "Union",
-        "D": "Repeated Concatenation."
+        "A": "Black-Box examines software functionality against specifications without looking at internal code; White-Box tests internal logic, branches, and code structure",
+        "B": "Black-Box is performed only by developers; White-Box is performed only by end-users",
+        "C": "Black-Box tests hardware; White-Box tests operating systems",
+        "D": "Black-Box tests source code syntax; White-Box tests database schemas"
+      },
+      "options_hi": {
+        "A": "ब्लैक-बॉक्स आंतरिक कोड को देखे बिना विनिर्देशों के अनुसार कार्यक्षमता का परीक्षण करता है; व्हाइट-बॉक्स आंतरिक तर्क, शाखाओं और कोड संरचना का परीक्षण करता है",
+        "B": "ब्लैक-बॉक्स केवल डेवलपर्स द्वारा किया जाता है; व्हाइट-बॉक्स केवल अंतिम उपयोगकर्ताओं द्वारा",
+        "C": "ब्लैक-बॉक्स हार्डवेयर का परीक्षण करता है; व्हाइट-बॉक्स ऑपरेटिंग सिस्टम का",
+        "D": "ब्लैक-बॉक्स स्रोत कोड सिंटैक्स का परीक्षण करता है; व्हाइट-बॉक्स डेटाबेस स्कीमा का"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Concatenation**\n\n**OOP Principle**: Core pillars include Encapsulation (data hiding), Abstraction (interface separation), Inheritance (code reuse), and Polymorphism (runtime dispatch).\n- Option (A) correctly implements these principles.",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "निम्नलिखित में से The class of CFG is not closed under के संदर्भ में उपयुक्त विकल्प चुनें।",
-      "options_hi": {
-        "A": "कड़ी",
-        "B": "चौराहा",
-        "C": "मिलन",
-        "D": "बार-बार सम्मिलन."
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Concatenation?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Black-Box testing (Behavioral) tests functionality based on requirements/specifications without access to source code (e.g., Boundary Value Analysis, Equivalence Partitioning). White-Box testing (Structural) examines source code structure, control paths, loops, and conditions.",
+      "explanation_hi": "ब्लैक-बॉक्स टेस्टिंग में आंतरिक कोड की जानकारी के बिना केवल इनपुट और आउटपुट के आधार पर कार्यक्षमता का परीक्षण किया जाता है। व्हाइट-बॉक्स टेस्टिंग में प्रोग्राम के आंतरिक लॉजिक, लूप्स और पाथ्स की जांच की जाती है।"
     },
     {
       "id": 75,
       "questionNumber": 75,
       "section": "Computer Science",
-      "topic": "Internet of Things",
+      "topic": "Web Technologies",
+      "topic_hi": "वेब टेक्नोलॉजीज",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which among the following is not true about IoT?",
+      "question": "In modern CSS layout, what is the effect of setting 'box-sizing: border-box;' on HTML elements?",
+      "question_hi": "आधुनिक सीएसएस लेआउट में, HTML तत्वों पर 'box-sizing: border-box;' सेट करने का क्या प्रभाव होता है?",
       "options": {
-        "A": "IoT uses Micro Controllers",
-        "B": "IoT is fully safe",
-        "C": "IoT uses Sensors and Actuators",
-        "D": "IoT uses wireless technology"
+        "A": "Padding and border are included within the element's specified width and height",
+        "B": "Padding is added outside the element's width, increasing total rendered dimensions",
+        "C": "Removes all borders and outlines from the element",
+        "D": "Forces elements to display strictly as inline text spans"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) IoT is fully safe**\n\n**IoT Architecture**: Interconnected smart devices employ lightweight communication protocols (Zigbee, MQTT, CoAP) and edge/cloud integration.\n- Option (B) correctly represents the IoT standard.",
-      "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
-      "question_hi": "IoT के बारे में निम्नलिखित में से कौन सा सत्य नहीं है?",
       "options_hi": {
-        "A": "IoT माइक्रो नियंत्रकों का उपयोग करता है",
-        "B": "IoT पूरी तरह से सुरक्षित है",
-        "C": "IoT सेंसर और एक्चुएटर्स का उपयोग करता है",
-        "D": "IoT वायरलेस तकनीक का उपयोग करता है"
+        "A": "पैडिंग और बॉर्डर तत्व की निर्दिष्ट चौड़ाई और ऊंचाई के अंदर ही शामिल हो जाते हैं",
+        "B": "पैडिंग तत्व की चौड़ाई के बाहर जुड़ती है, जिससे कुल आयाम बढ़ जाते हैं",
+        "C": "तत्व से सभी बॉर्डर और आउटलाइन हटा देता है",
+        "D": "तत्वों को इनलाइन टेक्स्ट के रूप में प्रदर्शित करने के लिए बाध्य करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) IoT is fully safe?**\n\n**विषय अवधारणा (इंटरनेट ऑफ थिंग्स (IoT))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "With 'box-sizing: border-box', the element's total width and height include its content, padding, and border. This prevents layout breakage when adding padding or borders, unlike the default 'content-box' where padding expands the element outwards.",
+      "explanation_hi": "'box-sizing: border-box' सेट करने पर किसी एलिमेंट की दी गई चौड़ाई (width) और ऊंचाई में ही उसकी पैडिंग और बॉर्डर समाहित हो जाते हैं, जिससे लेआउट की गणना आसान हो जाती है और डिजाइन बिगड़ता नहीं है।"
     },
     {
       "id": 76,
@@ -2116,27 +2116,27 @@ window.official_2023 = {
       "id": 81,
       "questionNumber": 81,
       "section": "Computer Science",
-      "topic": "Operating Systems",
+      "topic": "Web Technologies",
+      "topic_hi": "वेब टेक्नोलॉजीज",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Who is known as the father of AI?",
+      "question": "What is the primary difference between 'let' and 'var' declarations in JavaScript (ES6)?",
+      "question_hi": "जावास्क्रिप्ट (ES6) में 'let' और 'var' घोषणाओं के बीच क्या मुख्य अंतर है?",
       "options": {
-        "A": "Fisher Ada",
-        "B": "Alan Turing",
-        "C": "John McCarthy",
-        "D": "Allen Newell"
+        "A": "let is block-scoped and not hoisted with initialization (Temporal Dead Zone); var is function-scoped",
+        "B": "var variables are immutable constants; let variables can be reassigned",
+        "C": "let can only store numeric values; var stores strings and objects",
+        "D": "let variables are uploaded to global window object automatically"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) John McCarthy**\n\n**Operating System Principle**: The OS kernel orchestrates resource virtualization, process synchronization, memory paging, and file management.\n- Option (C) is the definitive mechanism implemented in modern operating systems.",
-      "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "AI के जनक के रूप में किसे जाना जाता है?",
       "options_hi": {
-        "A": "फिशर एडा",
-        "B": "एलन ट्यूरिंग",
-        "C": "जॉन मैक्कार्थी",
-        "D": "एलन नेवेल"
+        "A": "let ब्लॉक-स्कोप्ड होता है और टेम्पोरल डेड ज़ोन के अधीन होता है; var फंक्शन-स्कोप्ड होता है",
+        "B": "var वेरिएबल अपरिवर्तनीय स्थिरांक होते हैं; let वेरिएबल बदले जा सकते हैं",
+        "C": "let केवल संख्यात्मक मान संग्रहीत कर सकता है; var स्ट्रिंग्स और ऑब्जेक्ट्स",
+        "D": "let वेरिएबल्स विंडो ऑब्जेक्ट पर स्वतः जुड़ जाते हैं"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) John McCarthy?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "'let' is block-scoped (confined to nearest enclosing curly braces {}) and resides in a Temporal Dead Zone from block entry until its definition. 'var' is function-scoped, hoisted to the top of its enclosing function, and can lead to unintended accidental variable sharing.",
+      "explanation_hi": "'let' ब्लॉक-स्कोप्ड (जैसे if, for लूप के अंदर) होता है और इसके इनिशियलाइज़ेशन से पहले इसे एक्सेस करने पर ReferenceError (TDZ) आता है। जबकि 'var' फंक्शन-स्कोप्ड होता है और होइस्ट हो जाता है।"
     },
     {
       "id": 82,
@@ -2194,27 +2194,27 @@ window.official_2023 = {
       "id": 84,
       "questionNumber": 84,
       "section": "Computer Science",
-      "topic": "Artificial Intelligence",
+      "topic": "Python Programming",
+      "topic_hi": "पायथन प्रोग्रामिंग",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Uniform-cost search expands the node n with the __________",
+      "question": "In Python, which of the following standard data types is MUTABLE?",
+      "question_hi": "पायथन में, निम्नलिखित में से कौन सा मानक डेटा प्रकार म्यूटेबल (परिवर्तनीय) है?",
       "options": {
-        "A": "Lowest path cost",
-        "B": "Heuristic cost",
-        "C": "Highest path cost",
-        "D": "Average path cost"
+        "A": "Tuple",
+        "B": "List",
+        "C": "String",
+        "D": "Frozenset"
       },
-      "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Lowest path cost**\n\n**AI & Knowledge Engineering**: Intelligent agents utilize heuristic search, logical inference (resolution, forward/backward chaining), and knowledge representation.\n- Option (A) is the established method.",
-      "topic_hi": "आर्टिफिशियल इंटेलिजेंस (AI)",
-      "question_hi": "समान-लागत खोज __________ के साथ नोड n का विस्तार करती है",
       "options_hi": {
-        "A": "सबसे कम पथ लागत",
-        "B": "अनुमानी लागत",
-        "C": "Highest path cost",
-        "D": "औसत पथ लागत"
+        "A": "टपल (Tuple)",
+        "B": "लिस्ट (List)",
+        "C": "स्ट्रिंग (String)",
+        "D": "फ्रोजनसेट (Frozenset)"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Lowest path cost?**\n\n**विषय अवधारणा (आर्टिफिशियल इंटेलिजेंस (AI))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "correctAnswer": "B",
+      "explanation": "In Python, Lists, Dictionaries, and Sets are mutable (their internal elements can be modified in-place without altering their object memory address). Tuples, Strings, Integers, and Frozensets are immutable.",
+      "explanation_hi": "पायथन में लिस्ट (List), डिक्शनरी (Dictionary) और सेट (Set) म्यूटेबल होते हैं यानी उनके तत्वों को सीधे बदला जा सकता है। जबकि टपल, स्ट्रिंग, पूर्णांक और फ्रोजनसेट इम्यूटेबल (अपरिवर्तनीय) होते हैं।"
     },
     {
       "id": 85,
@@ -2246,27 +2246,27 @@ window.official_2023 = {
       "id": 86,
       "questionNumber": 86,
       "section": "Computer Science",
-      "topic": "Object Oriented Programming",
+      "topic": "Python Programming",
+      "topic_hi": "पायथन प्रोग्रामिंग",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What does a first order predicate logic contain?",
+      "question": "What is the output of the Python expression: [x**2 for x in range(5) if x % 2 != 0]?",
+      "question_hi": "पायथन एक्सप्रेशन का आउटपुट क्या होगा: [x**2 for x in range(5) if x % 2 != 0]?",
       "options": {
-        "A": "Predicate and a subject",
-        "B": "Predicate and a Preposition",
-        "C": "Subject and an object",
-        "D": "None of the above"
+        "A": "[1, 9]",
+        "B": "[0, 4, 16]",
+        "C": "[1, 4, 9, 16]",
+        "D": "[0, 1, 4, 9, 16]"
+      },
+      "options_hi": {
+        "A": "[1, 9]",
+        "B": "[0, 4, 16]",
+        "C": "[1, 4, 9, 16]",
+        "D": "[0, 1, 4, 9, 16]"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Predicate and a subject**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties.",
-      "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "प्रथम क्रम विधेय तर्क में क्या होता है?",
-      "options_hi": {
-        "A": "विधेय और एक विषय",
-        "B": "विधेय और एक पूर्वसर्ग",
-        "C": "विषय और एक वस्तु",
-        "D": "उपरोक्त में से कोई नहीं"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Predicate and a subject?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "range(5) produces values 0, 1, 2, 3, 4. The condition 'x % 2 != 0' filters odd numbers: 1 and 3. Computing x**2 gives 1**2 = 1 and 3**2 = 9. The resulting list is [1, 9].",
+      "explanation_hi": "range(5) में 0, 1, 2, 3, 4 संख्याएं आती हैं। 'x % 2 != 0' केवल विषम संख्याओं (1 और 3) को चुनता है। इनका वर्ग (x**2) करने पर 1 और 9 प्राप्त होता है, अतः उत्तर [1, 9] है।"
     },
     {
       "id": 87,
@@ -2376,27 +2376,27 @@ window.official_2023 = {
       "id": 91,
       "questionNumber": 91,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Artificial Intelligence",
+      "topic_hi": "आर्टिफिशियल इंटेलिजेंस",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following refers to creating products tailored to individual customers?",
+      "question": "In heuristic search algorithms, what condition must a heuristic function h(n) satisfy to be considered 'admissible' in A* search?",
+      "question_hi": "ह्यूरिस्टिक सर्च एल्गोरिदम में, A* सर्च में ह्यूरिस्टिक फ़ंक्शन h(n) को 'एडमिसिबल' (स्वीकार्य) माने जाने के लिए किस शर्त को पूरा करना होगा?",
       "options": {
-        "A": "Customization",
-        "B": "Adaptation",
-        "C": "Direct material",
-        "D": "Auction"
+        "A": "h(n) must never overestimate the true minimum cost to reach the goal from node n (h(n) <= h*(n))",
+        "B": "h(n) must always equal the exact euclidean distance",
+        "C": "h(n) must be strictly greater than the actual cost to speed up exploration",
+        "D": "h(n) must be equal to 0 for all nodes"
+      },
+      "options_hi": {
+        "A": "h(n) को कभी भी नोड n से लक्ष्य तक पहुंचने की वास्तविक न्यूनतम लागत से अधिक नहीं होना चाहिए (h(n) <= h*(n))",
+        "B": "h(n) को हमेशा सटीक यूक्लिडियन दूरी के बराबर होना चाहिए",
+        "C": "खोज को गति देने के लिए h(n) को वास्तविक लागत से अधिक होना चाहिए",
+        "D": "सभी नोड्स के लिए h(n) का मान शून्य होना चाहिए"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) Customization**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "निम्नलिखित में से कौन व्यक्तिगत ग्राहकों के अनुरूप उत्पाद बनाने को संदर्भित करता है?",
-      "options_hi": {
-        "A": "अनुकूलन",
-        "B": "अनुकूलन",
-        "C": "प्रत्यक्ष सामग्री",
-        "D": "नीलामी"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Customization?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "A heuristic h(n) is admissible if it never overestimates the cost to reach the goal: h(n) <= h*(n) for all n, where h*(n) is true cost. An admissible heuristic guarantees that A* tree search will always find an optimal shortest path.",
+      "explanation_hi": "A* सर्च में कोई ह्यूरिस्टिक h(n) तब एडमिसिबल (स्वीकार्य) कहलाता है जब वह लक्ष्य तक पहुंचने की वास्तविक लागत से कभी भी अधिक अनुमान नहीं लगाता (h(n) <= h*(n))। यह सर्वोत्तम (ऑप्टिमल) समाधान की गारंटी देता है।"
     },
     {
       "id": 92,
@@ -2428,27 +2428,27 @@ window.official_2023 = {
       "id": 93,
       "questionNumber": 93,
       "section": "Computer Science",
-      "topic": "Computer Science",
+      "topic": "Internet of Things",
+      "topic_hi": "इंटरनेट ऑफ थिंग्स",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following is done by Secure Sockets Layers?",
+      "question": "Which lightweight publish-subscribe messaging protocol running over TCP/IP is widely used for constrained IoT devices with limited bandwidth?",
+      "question_hi": "सीमित बैंडविड्थ वाले IoT उपकरणों के लिए TCP/IP पर चलने वाला कौन सा लाइटवेट पब्लिश-सब्सक्राइब मैसेजिंग प्रोटोकॉल व्यापक रूप से उपयोग किया जाता है?",
       "options": {
-        "A": "creates a secure, private connection to a web server",
-        "B": "Encrypts information",
-        "C": "Sends information over the internet",
-        "D": "All of the above"
+        "A": "MQTT (Message Queuing Telemetry Transport)",
+        "B": "FTP (File Transfer Protocol)",
+        "C": "SNMP (Simple Network Management Protocol)",
+        "D": "Telnet"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) All of the above**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (D) is the standard specification.",
-      "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "सिक्योर सॉकेट लेयर्स द्वारा निम्नलिखित में से क्या किया जाता है?",
       "options_hi": {
-        "A": "वेब सर्वर से एक सुरक्षित, निजी कनेक्शन बनाता है",
-        "B": "जानकारी को एन्क्रिप्ट करता है",
-        "C": "इंटरनेट पर जानकारी भेजता है",
-        "D": "उपरोक्त सभी"
+        "A": "MQTT (मैसेज क्यूइंग टेलीमेट्री ट्रांसपोर्ट)",
+        "B": "FTP (फाइल ट्रांसफर प्रोटोकॉल)",
+        "C": "SNMP (सिंपल नेटवर्क मैनेजमेंट प्रोटोकॉल)",
+        "D": "टेलनेट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) उपरोक्त सभी**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "MQTT is an extremely lightweight, publish/subscribe network protocol designed for resource-constrained devices, low-bandwidth, high-latency, or unreliable networks. It uses a central broker and supports 3 Quality of Service (QoS) levels.",
+      "explanation_hi": "MQTT (Message Queuing Telemetry Transport) एक बहुत हल्का पब्लिश/सब्सक्राइब प्रोटोकॉल है जो कम मेमोरी, कम बैटरी और सीमित बैंडविड्थ वाले IoT सेंसर्स और डिवाइसेज के लिए बनाया गया है।"
     },
     {
       "id": 94,
@@ -2584,27 +2584,27 @@ window.official_2023 = {
       "id": 99,
       "questionNumber": 99,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Each ___ represents a particular colour.",
+      "question": "Which of the following Boolean algebra identities represents Demorgan's first law?",
+      "question_hi": "निम्नलिखित में से कौन सी बूलियन बीजगणित सर्वसमिका डि मॉर्गन के प्रथम नियम को दर्शाती है?",
       "options": {
-        "A": "Frame",
-        "B": "Character",
-        "C": "Pixel value",
-        "D": "None of the above"
+        "A": "(A + B)' = A' . B'",
+        "B": "(A . B)' = A' + B'",
+        "C": "A + A'B = A + B",
+        "D": "A(A + B) = A"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) Pixel value**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "निम्नलिखित में से Each ___ represents a particular colour. के संदर्भ में उपयुक्त विकल्प चुनें।",
       "options_hi": {
-        "A": "चौखटा",
-        "B": "चरित्र",
-        "C": "पिक्सेल मान",
-        "D": "उपरोक्त में से कोई नहीं"
+        "A": "(A + B)' = A' . B'",
+        "B": "(A . B)' = A' + B'",
+        "C": "A + A'B = A + B",
+        "D": "A(A + B) = A"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Pixel value?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "De Morgan's first law states that the complement of a sum is equal to the product of the complements: (A + B)' = A' . B'. De Morgan's second law is (A . B)' = A' + B'.",
+      "explanation_hi": "डि मॉर्गन का पहला नियम कहता है कि योग का पूरक (complement of sum) व्यक्तिगत पूरकों के गुणनफल के बराबर होता है: (A + B)' = A' . B'। दूसरा नियम (A . B)' = A' + B' है।"
     },
     {
       "id": 100,
@@ -2975,26 +2975,26 @@ window.official_2023 = {
       "questionNumber": 114,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Micro teaching is more effective",
+      "question": "Which teaching method proceeds from specific concrete examples to general rules and universal principles?",
+      "question_hi": "कौन सी शिक्षण विधि विशिष्ट मूर्त उदाहरणों से सामान्य नियमों और सार्वभौमिक सिद्धांतों की ओर बढ़ती है?",
       "options": {
-        "A": "always",
-        "B": "after the teaching-practice",
-        "C": "during the teaching-practice",
-        "D": "during the preparation for teaching-practice"
+        "A": "Inductive Method",
+        "B": "Deductive Method",
+        "C": "Lecture Method",
+        "D": "Drill Method"
       },
-      "correctAnswer": "C",
-      "explanation": "**Correct Answer: (C) during the teaching-practice**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
-      "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "निम्नलिखित में से Micro teaching is more effective के संदर्भ में उपयुक्त विकल्प चुनें।",
       "options_hi": {
-        "A": "हमेशा",
-        "B": "शिक्षण-अभ्यास के बाद",
-        "C": "शिक्षण-अभ्यास के दौरान",
-        "D": "शिक्षण-अभ्यास की तैयारी के दौरान"
+        "A": "आगमन विधि (Inductive Method)",
+        "B": "निगमन विधि (Deductive Method)",
+        "C": "व्याख्यान विधि",
+        "D": "अभ्यास विधि"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) during the teaching-practice?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "correctAnswer": "A",
+      "explanation": "The Inductive Method leads learners from concrete observations and specific examples to general formulas, definitions, and rules. In contrast, the Deductive Method starts with established general rules and applies them to specific instances.",
+      "explanation_hi": "आगमन विधि में छात्र पहले कई विशिष्ट उदाहरणों का अवलोकन करते हैं और फिर सामान्य नियम या सूत्र का निर्माण करते हैं (उदाहरण से नियम की ओर, मूर्त से अमूर्त की ओर)।"
     },
     {
       "id": 115,

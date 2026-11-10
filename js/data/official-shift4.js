@@ -1518,27 +1518,27 @@ window.official_shift4 = {
       "id": 58,
       "questionNumber": 58,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Computer Architecture",
+      "topic_hi": "कंप्यूटर आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Consider the statements given below and then choose the correct output from given options : L=['TIC' , 'TAC' ] print (L[::-1])",
+      "question": "In cache memory organization, what is the main characteristic of the 'Write-Back' (copy-back) write policy?",
+      "question_hi": "कैश मेमोरी संगठन में, 'राइट-बैक' (कॉपी-बैक) राइट पॉलिसी की मुख्य विशेषता क्या है?",
       "options": {
-        "A": "['CIT' , 'CAT' ]",
-        "B": "['TIC' , 'TAC' ]",
-        "C": "['CAT' , 'CIT' ]",
-        "D": "['TAC' , 'TIC' ]"
+        "A": "Every write to cache immediately updates the main memory",
+        "B": "Data is updated only in the cache; main memory is updated only when the dirty cache line is evicted",
+        "C": "Writes bypass the cache completely and write directly to RAM",
+        "D": "Cache and RAM are updated simultaneously on a separate hardware bus"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) ['TAC' , 'TIC' ]**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (D) accurately reflects the microarchitectural functionality.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "नीचे दिए गए कथनों पर विचार करें और फिर दिए गए विकल्पों में से सही आउटपुट चुनें: L=['TIC', 'TAC' ] प्रिंट (L[::-1])",
       "options_hi": {
-        "A": "['CIT' , 'CAT' ]",
-        "B": "['टिक टक' ]",
-        "C": "['कैट', 'सीआईटी']",
-        "D": "['टीएसी', 'टीआईसी']"
+        "A": "कैश में प्रत्येक राइट ऑपरेशन तुरंत मुख्य मेमोरी को भी अपडेट करता है",
+        "B": "डेटा केवल कैश में अपडेट होता है; मुख्य मेमोरी तभी अपडेट होती है जब उस डर्टी (संशोधित) कैश लाइन को हटाया जाता है",
+        "C": "राइट ऑपरेशन कैश को छोड़ सीधे रैम में लिखते हैं",
+        "D": "कैश और रैम दोनों एक अलग हार्डवेयर बस पर एक साथ अपडेट होते हैं"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) ['TAC' , 'TIC' ]?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "B",
+      "explanation": "In a Write-Back cache, write operations only modify the cache block and set a 'dirty' (modified) bit. The main memory is not updated until that dirty block is replaced or evicted, significantly reducing memory bus traffic compared to Write-Through.",
+      "explanation_hi": "राइट-बैक कैश में डेटा केवल कैश में लिखा जाता है और 'डर्टी बिट' सेट कर दी जाती है। जब उस कैश ब्लॉक को किसी नए ब्लॉक से बदला जाता है, केवल तभी मुख्य मेमोरी में लिखा जाता है, जिससे मेमोरी बस का ट्रैफिक बहुत कम होता है।"
     },
     {
       "id": 59,
@@ -3806,27 +3806,27 @@ window.official_shift4 = {
       "id": 146,
       "questionNumber": 146,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Choose the correct option instead of the question mark in the given question. 456 : 15 :: 627 : ?",
+      "question": "Who led the 1857 Revolt against the British East India Company in Bihar?",
+      "question_hi": "बिहार में 1857 के प्रथम स्वतंत्रता संग्राम का नेतृत्व मुख्य रूप से किसने किया था?",
       "options": {
-        "A": "12",
-        "B": "15",
-        "C": "18",
-        "D": "21"
+        "A": "Babu Veer Kunwar Singh of Jagdishpur",
+        "B": "Pir Ali Khan of Patna",
+        "C": "Amar Singh",
+        "D": "Hare Krishna Singh"
       },
-      "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) 15**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "दिए गए प्रश्न में प्रश्न चिह्न के स्थान पर सही विकल्प का चयन करें। 456 : 15 :: 627 : ?",
       "options_hi": {
-        "A": "12",
-        "B": "15",
-        "C": "18",
-        "D": "21"
+        "A": "जगदीशपुर के बाबू वीर कुंवर सिंह",
+        "B": "पटना के पीर अली खान",
+        "C": "अमर सिंह",
+        "D": "हरे कृष्ण सिंह"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 15?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Babu Veer Kunwar Singh, the octogenarian chieftain of Jagdishpur (Bhojpur district), was the legendary commander of the 1857 Revolt in Bihar, defeating British troops at Arrah, Jagdishpur, and Azamgarh.",
+      "explanation_hi": "जगदीशपुर (भोजपुर) के जमींदार बाबू वीर कुंवर सिंह ने 80 वर्ष की उम्र में 1857 की क्रांति में बिहार का गौरवशाली नेतृत्व किया और ब्रिटिश सेना को कई बार पराजित किया।"
     },
     {
       "id": 147,

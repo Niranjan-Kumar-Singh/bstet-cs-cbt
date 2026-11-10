@@ -2635,338 +2635,338 @@ window.predicted_set10 = {
       "questionNumber": 101,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 14), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 14) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "In classroom microteaching, what are the five distinct probing question techniques defined by Allen and Ryan?",
+      "question_hi": "कक्षा सूक्ष्म-शिक्षण में एलन और रयान द्वारा परिभाषित पांच विशिष्ट अनुशीलन प्रश्न तकनीकें कौन सी हैं?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Prompting, Seeking Further Information, Refocusing, Redirection, and Increasing Critical Awareness",
+        "B": "Lecturing, Dictating, Memorizing, Repeating, and Testing",
+        "C": "Asking multiple-choice questions only",
+        "D": "Grading, Ranking, Punishing, Praising, and Demoting"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "संकेत देना (Prompting), विस्तृत जानकारी मांगना (Seeking Further Info), पुनः ध्यान केंद्रित करना (Refocusing), पुनर्निर्देशन (Redirection), और आलोचनात्मक जागरूकता बढ़ाना",
+        "B": "व्याख्यान, श्रुतलेख, याद रखना, दोहराना और परीक्षण",
+        "C": "केवल बहुविकल्पीय प्रश्न पूछना",
+        "D": "ग्रेडिंग, रैंकिंग, सजा, प्रशंसा और पदावनति"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 14 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Allen and Ryan's 5 probing techniques: Prompting (hints for half-correct answers), Seeking further info (asking for elaboration), Refocusing (relating to other topics), Redirection (passing question to peer), Increasing critical awareness (asking 'why' and 'how').",
+      "explanation_hi": "अनुशीलन प्रश्न कौशल (Probing Questions) के 5 घटक हैं: 1. संकेत देना (Prompting), 2. अधिक जानकारी मांगना, 3. पुनः केंद्रीकरण, 4. पुनर्निर्देशन (अन्य छात्र से पूछना), और 5. समीक्षात्मक जागरूकता बढ़ाना ('क्यों' और 'कैसे' पूछना)।"
     },
     {
       "id": 102,
       "questionNumber": 102,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 15), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 15) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "In classroom micro-teaching, which of the following is considered an undesirable behavior during the 'Skill of Explaining'?",
+      "question_hi": "कक्षा सूक्ष्म-शिक्षण में 'व्याख्या कौशल' (Skill of Explaining) के दौरान निम्नलिखित में से किसे अवांछनीय व्यवहार माना जाता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Using irrelevant statements and lacking continuity in speech",
+        "B": "Using explicit explaining links like 'therefore', 'because', and 'hence'",
+        "C": "Testing student understanding through mid-point conceptual questions",
+        "D": "Maintaining eye contact with all students"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "अप्रासंगिक कथन बोलना और भाषण में निरंतरता का अभाव होना",
+        "B": "स्पष्ट व्याख्यात्मक कड़ियों (जैसे 'इसलिए', 'क्योंकि') का उपयोग करना",
+        "C": "मध्य-बिंदु वैचारिक प्रश्नों के माध्यम से छात्रों की समझ का परीक्षण करना",
+        "D": "सभी छात्रों के साथ आँख से संपर्क बनाए रखना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 15 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Desirable explaining behaviors include using explaining links and testing understanding. Undesirable behaviors include: using irrelevant statements, lacking continuity, using inappropriate vocabulary, and lacking fluency.",
+      "explanation_hi": "व्याख्या कौशल में अप्रासंगिक बातें बोलना, विचारों में तारतम्यता (निरंतरता) की कमी होना और असंबद्ध कथनों का उपयोग करना अवांछनीय (दोषपूर्ण) व्यवहार माना जाता है।"
     },
     {
       "id": 103,
       "questionNumber": 103,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 16), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 16) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "What are the two major strategies used by learners in Jerome Bruner's Concept Attainment Model?",
+      "question_hi": "जेरोम ब्रूनर के प्रत्यय सम्प्रत्यय प्राप्ति मॉडल (Concept Attainment Model) में शिक्षार्थियों द्वारा उपयोग की जाने वाली दो प्रमुख रणनीतियाँ कौन सी हैं?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Reception Strategy and Selection Strategy",
+        "B": "Lecture Strategy and Exam Strategy",
+        "C": "Rote Strategy and Drill Strategy",
+        "D": "Audio Strategy and Video Strategy"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "ग्रहण रणनीति (Reception Strategy) और चयन रणनीति (Selection Strategy)",
+        "B": "व्याख्यान रणनीति और परीक्षा रणनीति",
+        "C": "रटंत रणनीति और अभ्यास रणनीति",
+        "D": "ऑडियो रणनीति और वीडियो रणनीति"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 16 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "In Bruner's Concept Attainment Model, students use: 1) Reception Strategy (exemplars are pre-labeled as 'Yes' or 'No' by teacher; students formulate hypotheses), or 2) Selection Strategy (students choose unlabelled exemplars and ask if they fit).",
+      "explanation_hi": "सम्प्रत्यय प्राप्ति मॉडल (Concept Attainment Model) में दो रणनीतियाँ होती हैं: 1. ग्रहण रणनीति (Reception - शिक्षक उदाहरण प्रस्तुत करता है) और 2. चयन रणनीति (Selection - छात्र स्वयं उदाहरण चुनकर परिकल्पना की जांच करते हैं)।"
     },
     {
       "id": 104,
       "questionNumber": 104,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 17), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 17) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "In Benjamin Bloom's Mastery Learning model, what percentage of content mastery is typically set as the criterion before students advance to the next unit?",
+      "question_hi": "बेंजामिन ब्लूम के मास्टरी लर्निंग (प्रवीणता अधिगम) मॉडल में छात्रों के अगली इकाई में जाने से पहले आमतौर पर कितने प्रतिशत प्रवीणता मानदंड निर्धारित किया जाता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "80% to 90% mastery on the diagnostic formative test",
+        "B": "Exactly 33% passing marks",
+        "C": "100% error-free performance in all students",
+        "D": "50% passing grade"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "निदानात्मक रचनात्मक परीक्षण पर 80% से 90% प्रवीणता",
+        "B": "ठीक 33% उत्तीर्ण अंक",
+        "C": "सभी छात्रों में 100% त्रुटिहीन प्रदर्शन",
+        "D": "50% उत्तीर्ण ग्रेड"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 17 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Bloom's Mastery Learning asserts that virtually all students can learn if provided adequate time and individualized corrective feedback. A diagnostic formative test requires achieving 80-90% mastery before progressing to the next topic.",
+      "explanation_hi": "मास्टरी लर्निंग (Mastery Learning) के अनुसार यदि उचित समय और सुधारात्मक शिक्षण दिया जाए तो लगभग सभी छात्र सीख सकते हैं। इसमें अगली इकाई पर जाने से पहले 80% से 90% दक्षता प्राप्त करना अनिवार्य मानदंड होता है।"
     },
     {
       "id": 105,
       "questionNumber": 105,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 18), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 18) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "In Richard Suchman's Inquiry Training Model, what is the role of the 'Puzzling Situation' (Discrepant Event)?",
+      "question_hi": "रिचर्ड सचमैन के पूछताछ प्रशिक्षण मॉडल (Inquiry Training Model) में 'विसंगतिपूर्ण घटना' (Discrepant Event / उलझन भरी स्थिति) की क्या भूमिका है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "To confront students with an unexpected, surprising phenomenon that violates their prior expectations, sparking genuine scientific inquiry",
+        "B": "To frighten students during examination periods",
+        "C": "To punish students who arrive late",
+        "D": "To prove that science cannot explain reality"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "छात्रों को एक अप्रत्याशित, आश्चर्यजनक घटना से रूबरू कराना जो उनकी पूर्व अपेक्षाओं के विपरीत हो, जिससे वास्तविक वैज्ञानिक जांच शुरू हो",
+        "B": "परीक्षा अवधि के दौरान छात्रों को डराना",
+        "C": "देर से आने वाले छात्रों को दंडित करना",
+        "D": "यह साबित करना कि विज्ञान वास्तविकता की व्याख्या नहीं कर सकता"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 18 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Suchman's model begins with a discrepant event (e.g., a metal ball that fits through a ring when cold but not when heated), creating cognitive disequilibrium and motivating students to formulate hypotheses and ask verifying questions.",
+      "explanation_hi": "पूछताछ प्रशिक्षण मॉडल (Inquiry Training Model) में एक 'विसंगतिपूर्ण घटना' (जैसे गर्म करने पर धातु की गेंद का रिंग से न निकलना) दिखाई जाती है, जिससे छात्र चौंकते हैं और वैज्ञानिक परिकल्पना बनाकर प्रश्न पूछने लगते हैं।"
     },
     {
       "id": 106,
       "questionNumber": 106,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 19), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 19) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "In Jean Piaget's Conservation of Liquid volume experiment, why does a 4-year-old pre-operational child believe that water poured from a short wide glass into a tall thin glass has increased in quantity?",
+      "question_hi": "पियाजे के तरल आयतन संरक्षण प्रयोग में, एक 4 वर्षीय पूर्व-संक्रियात्मक बच्चा यह क्यों मानता है कि चौड़े गिलास से लंबे पतले गिलास में पानी डालने पर पानी की मात्रा बढ़ गई है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Due to Centration (focusing exclusively on the single dimension of liquid height while ignoring the compensating width) and lack of Reversibility",
+        "B": "Because the child has impaired vision",
+        "C": "Because the tall glass actually holds more water",
+        "D": "Because the child is being deliberately deceptive"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "केंद्रीकरण (Centration - चौड़ाई की उपेक्षा करते हुए केवल पानी की ऊंचाई पर ध्यान केंद्रित करना) और प्रतिवर्ती सोच (Reversibility) के अभाव के कारण",
+        "B": "क्योंकि बच्चे की दृष्टि कमजोर है",
+        "C": "क्योंकि लंबे गिलास में वास्तव में अधिक पानी आता है",
+        "D": "क्योंकि बच्चा जानबूझकर झूठ बोल रहा है"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 19 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Pre-operational children center attention on one perceptual feature (liquid height) and cannot mentally reverse the pouring action to realize that the increase in height is compensated by the narrower width.",
+      "explanation_hi": "पूर्व-संक्रियात्मक अवस्था (2-7 वर्ष) में बच्चा 'केंद्रीकरण' (Centration) का शिकार होता है: वह केवल गिलास की ऊंचाई को देखता है और चौड़ाई को नजरअंदाज कर देता है। साथ ही उसमें 'अप्रतिवर्ती सोच' (Irreversibility) होती है।"
     },
     {
       "id": 107,
       "questionNumber": 107,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 20), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 20) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "What does Jean Piaget mean by the concept of 'Horizontal Decalage' in cognitive development?",
+      "question_hi": "संज्ञानात्मक विकास में जीन पियाजे के 'क्षैतिज डिकैलेज' (Horizontal Decalage) की अवधारणा का क्या अर्थ है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "The progressive, chronological mastery of different forms of conservation within the same operational stage (e.g., number at 6, mass at 7, weight at 9, volume at 11)",
+        "B": "The physical horizontal growth of a child's height",
+        "C": "Learning to draw horizontal lines before vertical lines",
+        "D": "Sliding downward in school exam rankings"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "एक ही संक्रियात्मक अवस्था के भीतर संरक्षण के विभिन्न रूपों का क्रमिक, कालानुक्रमिक विकास (जैसे संख्या संरक्षण 6-7 वर्ष में, भार 9 वर्ष में, और आयतन 11 वर्ष में)",
+        "B": "बच्चे की ऊंचाई की क्षैतिज वृद्धि",
+        "C": "खड़ी रेखाओं से पहले क्षैतिज रेखाएं खींचना सीखना",
+        "D": "स्कूल परीक्षा रैंकिंग में नीचे खिसकना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 20 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Horizontal Decalage describes the developmental lag wherein a child masters different aspects of the same cognitive concept at different ages (e.g., conservation of number precedes conservation of volume).",
+      "explanation_hi": "क्षैतिज डिकैलेज (Horizontal Decalage) पियाजे की वह अवधारणा है जिसके अनुसार बच्चा एक ही अवस्था में होने पर भी सभी प्रकार के संरक्षण एक साथ नहीं सीखता (जैसे संख्या का संरक्षण 6-7 वर्ष में सीखता है, परंतु आयतन का संरक्षण 11-12 वर्ष में सीख पाता है)।"
     },
     {
       "id": 108,
       "questionNumber": 108,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 21), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 21) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "In Piagetian psychology, what is 'Transductive Reasoning' commonly observed in 3-to-4-year-old children?",
+      "question_hi": "पियाजे के मनोविज्ञान में 3 से 4 वर्ष के बच्चों में आमतौर पर देखा जाने वाला 'पारगमन तर्क' (Transductive Reasoning) क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Reasoning from one particular concrete event to another particular event without logical deduction or induction (e.g., 'I haven't taken a nap, therefore it is not afternoon')",
+        "B": "Formal mathematical proof techniques",
+        "C": "Translating text between two foreign languages",
+        "D": "Understanding planetary orbital motions"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "तार्किक निगमन या आगमन के बिना एक विशेष मूर्त घटना से दूसरी विशेष घटना तक तर्क करना (जैसे 'मैंने दोपहर की नींद नहीं ली है, इसलिए अभी दोपहर नहीं हुई है')",
+        "B": "औपचारिक गणितीय प्रमाण तकनीक",
+        "C": "दो विदेशी भाषाओं के बीच पाठ का अनुवाद करना",
+        "D": "ग्रहीय कक्षीय गतियों को समझना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 21 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Transductive reasoning links two unrelated specific occurrences based on temporal contiguity or magical thinking rather than cause-and-effect relationships (particular to particular reasoning).",
+      "explanation_hi": "पारगमन तर्क (Transductive Reasoning) पूर्व-संक्रियात्मक अवस्था का लक्षण है जहाँ बच्चा एक विशिष्ट घटना को बिना किसी कार्य-कारण संबंध के दूसरी घटना से जोड़ देता है (विशिष्ट से विशिष्ट की ओर तर्क)।"
     },
     {
       "id": 109,
       "questionNumber": 109,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 22), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 22) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "In Lev Vygotsky's developmental framework, what are the three progressive stages of speech development in a child?",
+      "question_hi": "लेव वायगोत्स्की के विकासात्मक ढांचे में बच्चे में भाषा/वाक् विकास के तीन क्रमिक चरण कौन से हैं?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Social Speech (around age 2) -> Private/Egocentric Speech (around age 3) -> Inner Speech (around age 7)",
+        "B": "Crying -> Babbling -> Silent Reading",
+        "C": "Written Speech -> Oral Speech -> Digital Speech",
+        "D": "Imitation -> Memorization -> Grammar"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "सामाजिक वाक् (लगभग 2 वर्ष) -> निजी/आत्म-संभाषण (लगभग 3 वर्ष) -> आंतरिक वाक् (लगभग 7 वर्ष)",
+        "B": "रोना -> बड़बड़ाना -> मौन पठन",
+        "C": "लिखित वाक् -> मौखिक वाक् -> डिजिटल वाक्",
+        "D": "अनुकरण -> स्मरण -> व्याकरण"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 22 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Vygotsky mapped speech evolution: 1) Social Speech (used to communicate with others, ~2 yrs), 2) Private Speech (audible self-directed speech regulating thinking, ~3 yrs), 3) Inner Speech (silent internalized cognitive thought, ~7 yrs).",
+      "explanation_hi": "वायगोत्स्की के अनुसार भाषा विकास के 3 चरण हैं: 1. सामाजिक वाक् (Social Speech - 2 वर्ष, दूसरों से बात), 2. निजी वाक् (Private Speech - 3 वर्ष, खुद को निर्देश देना), और 3. आंतरिक वाक् (Inner Speech - 7 वर्ष, मन में मौन चिंतन)।"
     },
     {
       "id": 110,
       "questionNumber": 110,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 23), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 23) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "What is 'Intersubjectivity' in Vygotskian cooperative learning?",
+      "question_hi": "वायगोत्स्की के सहकारी शिक्षण में 'अंतःविषयता' (Intersubjectivity) क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "The process whereby two participants who begin a task with different understandings arrive at a shared, mutual understanding through dialogue",
+        "B": "Competing for individual top ranks in examinations",
+        "C": "A single student memorizing a textbook alone",
+        "D": "The physical distance between desks in a classroom"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "वह प्रक्रिया जिसके द्वारा दो प्रतिभागी जो अलग-अलग समझ के साथ एक कार्य शुरू करते हैं, संवाद के माध्यम से एक साझा, पारस्परिक समझ पर पहुंचते हैं",
+        "B": "परीक्षाओं में व्यक्तिगत शीर्ष रैंक के लिए प्रतिस्पर्धा करना",
+        "C": "एक अकेला छात्र पाठ्यपुस्तक याद कर रहा है",
+        "D": "कक्षा में डेस्क के बीच की भौतिक दूरी"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 23 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Intersubjectivity creates a common cognitive ground for communication as each partner adjusts to the perspective of the other, forming the relational bedrock for scaffolding within the ZPD.",
+      "explanation_hi": "अंतःविषयता (Intersubjectivity) का अर्थ है जब दो छात्र या शिक्षक-छात्र संवाद के माध्यम से अपने अलग-अलग दृष्टिकोणों को साझा समझ (Shared Understanding) में बदल लेते हैं, जिससे सहयोग बढ़ता है।"
     },
     {
       "id": 111,
       "questionNumber": 111,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 24), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 24) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "In Lawrence Kohlberg's theory, what distinguishes Stage 1 (Heteronomous / Obedience and Punishment Orientation) from Stage 2 (Individualism and Exchange / Instrumental Purpose)?",
+      "question_hi": "कोहलबर्ग के सिद्धांत में चरण 1 (दंड एवं आज्ञाकारिता) और चरण 2 (व्यक्तिगत हित एवं विनिमय) के बीच क्या अंतर है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "In Stage 1, obedience is driven by physical fear of punishment from authority; in Stage 2, right action is viewed pragmatically as what satisfies one's personal self-interest and fair exchange ('You scratch my back, I'll scratch yours')",
+        "B": "Stage 1 is based on social contracts; Stage 2 on universal human rights",
+        "C": "Stage 1 is exhibited by adults; Stage 2 by infants",
+        "D": "Stage 1 involves written laws; Stage 2 involves divine scriptures"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "चरण 1 में आज्ञाकारिता सत्ता से दंड के शारीरिक भय से प्रेरित होती है; चरण 2 में सही कार्य को व्यावहारिक रूप से अपने व्यक्तिगत स्वार्थ और निष्पक्ष आदान-प्रदान ('तुम मेरी पीठ खुजलाओ, मैं तुम्हारी खुजलाऊंगा') के रूप में देखा जाता है",
+        "B": "चरण 1 सामाजिक अनुबंधों पर आधारित है; चरण 2 सार्वभौमिक अधिकारों पर",
+        "C": "चरण 1 वयस्कों द्वारा प्रदर्शित किया जाता है; चरण 2 शिशुओं द्वारा",
+        "D": "चरण 1 में लिखित कानून शामिल हैं; चरण 2 में दैवीय ग्रंथ"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 24 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Stage 1 focuses solely on physical consequences (avoiding pain/punishment). Stage 2 introduces instrumental hedonism: moral actions are reciprocal deals that satisfy personal needs.",
+      "explanation_hi": "चरण 1 (दंड एवं आज्ञाकारिता) में बच्चा केवल सजा से बचने के लिए नियम मानता है। जबकि चरण 2 (साधनात्मक सापेक्षतावादी) में वह सोचता है कि 'इससे मुझे क्या फायदा होगा?' और 'जैसे को तैसा' के नियम पर काम करता है।"
     },
     {
       "id": 112,
       "questionNumber": 112,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 25), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 25) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "In Kohlberg's Post-conventional level, what is the core tenet of Stage 5 (Social Contract and Individual Rights)?",
+      "question_hi": "कोहलबर्ग के उत्तर-पारंपरिक स्तर में चरण 5 (सामाजिक अनुबंध और व्यक्तिगत अधिकार) का मूल सिद्धांत क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Laws are social agreements designed for the general welfare; when a law ceases to serve the public good, it should be changed through democratic consensus",
+        "B": "Laws can never be questioned under any circumstances",
+        "C": "Obedience is determined entirely by fear of police arrest",
+        "D": "Morality is whatever pleases one's immediate peer group"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "कानून सामान्य कल्याण के लिए बनाए गए सामाजिक समझौते हैं; जब कोई कानून लोक कल्याण की सेवा करना बंद कर देता है, तो उसे लोकतांत्रिक सहमति से बदला जाना चाहिए",
+        "B": "किसी भी परिस्थिति में कानूनों पर सवाल नहीं उठाया जा सकता",
+        "C": "आज्ञाकारिता पूरी तरह से पुलिस गिरफ्तारी के डर से तय होती है",
+        "D": "नैतिकता वही है जो किसी के साथियों को पसंद आए"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 25 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Stage 5 views laws flexibly as social contracts that protect fundamental human rights. If a law contradicts basic human liberty and justice, society has a democratic obligation to reform it.",
+      "explanation_hi": "चरण 5 (सामाजिक अनुबंध उन्मुखीकरण) में व्यक्ति मानता है कि कानून समाज के भले के लिए है। यदि कोई कानून व्यक्ति के अधिकारों या स्वतंत्रता का हनन करता है, तो उसे लोकतांत्रिक तरीके से बदला जाना चाहिए।"
     },
     {
       "id": 113,
       "questionNumber": 113,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Continuous and Comprehensive Evaluation (CCE) - Scenario 26), which instructional strategy best reflects this principle: 'Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar'?",
-      "question_hi": "शिक्षण अभ्यास (सतत एवं व्यापक मूल्यांकन (CCE) - परिदृश्य 26) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है'?",
+      "question": "Which psychological defense mechanism is occurring when an individual unconsciously attributes their own unacceptable desires, anger, or moral flaws to other people?",
+      "question_hi": "जब कोई व्यक्ति अपनी अस्वीकार्य इच्छाओं, क्रोध या नैतिक कमियों को अनजाने में दूसरों पर मढ़ देता है, तो कौन सी रक्षात्मक युक्ति घटित होती है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Projection",
+        "B": "Sublimation",
+        "C": "Rationalization",
+        "D": "Repression"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "प्रक्षेपण (Projection)",
+        "B": "उदात्तीकरण",
+        "C": "युक्तिकरण",
+        "D": "दमन"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 26 exemplifies Continuous and Comprehensive Evaluation (CCE): Evaluates both scholastic and co-scholastic domains of student development throughout the academic calendar.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विद्यार्थी के शैक्षिक और सह-शैक्षिक दोनों पक्षों का साल भर निरंतर मूल्यांकन करता है।"
+      "explanation": "Projection is attributing one's own unconscious, disowned impulses to others (e.g., a person who harbors hidden hostility believes that everyone else dislikes and opposes them).",
+      "explanation_hi": "प्रक्षेपण (Projection) में व्यक्ति अपनी अनैतिक इच्छाओं, दोषों या कमियों का आरोप दूसरों पर लगा देता है (जैसे स्वयं बेईमान होने पर दूसरों को बेईमान समझना)।"
     },
     {
       "id": 114,
@@ -3414,131 +3414,131 @@ window.predicted_set10 = {
       "id": 131,
       "questionNumber": 131,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Features the magnificent red sandstone octagonal tomb of Emperor Sher Shah Suri situated in the middle of a lake' (Context 4)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Features the magnificent red sandstone octagonal tomb of Emperor Sher Shah Suri situated in the middle of a lake' (संदर्भ 4)?",
+      "question": "What is the primary toxic component of 'Photochemical Smog' (Los Angeles smog) formed by the reaction of sunlight on vehicle exhausts?",
+      "question_hi": "वाहन उत्सर्जन पर सूर्य के प्रकाश की प्रतिक्रिया से बनने वाले 'प्रकाश-रासायनिक स्मॉग' (Photochemical Smog) का मुख्य विषैला घटक क्या है?",
       "options": {
-        "A": "Sasaram",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Ground-level Ozone (O3) and Peroxyacyl Nitrates (PAN)",
+        "B": "Sulfur trioxide (SO3)",
+        "C": "Carbon monoxide gas only",
+        "D": "Radon gas"
       },
       "options_hi": {
-        "A": "सासाराम",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "धरातलीय ओजोन (O3) और परऑक्सीएसिटाइल नाइट्रेट (PAN)",
+        "B": "सल्फर ट्राइऑक्साइड",
+        "C": "केवल कार्बन मोनोऑक्साइड",
+        "D": "रेडॉन गैस"
       },
       "correctAnswer": "A",
-      "explanation": "Sasaram is renowned across Bihar for: Features the magnificent red sandstone octagonal tomb of Emperor Sher Shah Suri situated in the middle of a lake.",
-      "explanation_hi": "सासाराम का ऐतिहासिक व भौगोलिक महत्व: Features the magnificent red sandstone octagonal tomb of Emperor Sher Shah Suri situated in the middle of a lake।"
+      "explanation": "Photochemical smog is oxidizing smog formed when nitrogen oxides (NOx) and volatile organic compounds (VOCs) react under ultraviolet sunlight, generating harmful ground-level Ozone and PAN.",
+      "explanation_hi": "प्रकाश-रासायनिक स्मॉग (Photochemical Smog) तेज धूप में NOx और हाइड्रोकार्बन की रासायनिक क्रिया से बनता है। इसमें ओजोन और पैन (PAN) प्रमुख घटक होते हैं जो आंखों में जलन पैदा करते हैं।"
     },
     {
       "id": 132,
       "questionNumber": 132,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Known for Kaimur Wildlife Sanctuary and the ancient Mundeshwari Temple, one of the oldest functioning Hindu temples' (Context 1)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Known for Kaimur Wildlife Sanctuary and the ancient Mundeshwari Temple, one of the oldest functioning Hindu temples' (संदर्भ 1)?",
+      "question": "Which international environmental treaty regulates the transboundary movement and disposal of hazardous chemical and electronic wastes?",
+      "question_hi": "कौन सी अंतर्राष्ट्रीय पर्यावरण संधि खतरनाक रासायनिक और इलेक्ट्रॉनिक अपशिष्टों के सीमा पार आवागमन और निपटान को नियंत्रित करती है?",
       "options": {
-        "A": "Kaimur",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Basel Convention (1989)",
+        "B": "Ramsar Convention",
+        "C": "Kyoto Protocol",
+        "D": "Stockholm Convention on POPs"
       },
       "options_hi": {
-        "A": "कैमूर",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "बेसल सम्मेलन (Basel Convention, 1989)",
+        "B": "रामसर सम्मेलन",
+        "C": "क्योटो प्रोटोकॉल",
+        "D": "स्टॉकहोम सम्मेलन"
       },
       "correctAnswer": "A",
-      "explanation": "Kaimur is renowned across Bihar for: Known for Kaimur Wildlife Sanctuary and the ancient Mundeshwari Temple, one of the oldest functioning Hindu temples.",
-      "explanation_hi": "कैमूर का ऐतिहासिक व भौगोलिक महत्व: Known for Kaimur Wildlife Sanctuary and the ancient Mundeshwari Temple, one of the oldest functioning Hindu temples।"
+      "explanation": "The Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal prevents the dumping of toxic electronic and chemical waste from developed countries into developing nations.",
+      "explanation_hi": "बेसल सम्मेलन (1989) का उद्देश्य विकसित देशों द्वारा विकासशील देशों में खतरनाक रासायनिक और ई-कचरे के अनियंत्रित डंपिंग और सीमा-पार परिवहन पर रोक लगाना है।"
     },
     {
       "id": 133,
       "questionNumber": 133,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Known for Kaimur Wildlife Sanctuary and the ancient Mundeshwari Temple, one of the oldest functioning Hindu temples' (Context 2)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Known for Kaimur Wildlife Sanctuary and the ancient Mundeshwari Temple, one of the oldest functioning Hindu temples' (संदर्भ 2)?",
+      "question": "What does 'PM 2.5' refer to in the context of ambient urban air quality standards?",
+      "question_hi": "शहरी परिवेशी वायु गुणवत्ता मानकों के संदर्भ में 'PM 2.5' का क्या अर्थ है?",
       "options": {
-        "A": "Kaimur",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Particulate matter with an aerodynamic diameter of less than 2.5 micrometers (microns)",
+        "B": "Pollution measured strictly at 2:30 PM",
+        "C": "Precipitation moisture measured on a 2.5 millibar scale",
+        "D": "Pesticide mass exceeding 2.5 milligrams per liter"
       },
       "options_hi": {
-        "A": "कैमूर",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "2.5 माइक्रोमीटर (माइक्रोन) से कम वायुगतिकीय व्यास वाले महीन कण (Fine particles)",
+        "B": "दोपहर 2:30 बजे मापा गया प्रदूषण",
+        "C": "2.5 मिलीबार पैमाने पर मापी गई नमी",
+        "D": "प्रति लीटर 2.5 मिलीग्राम से अधिक कीटनाशक द्रव्यमान"
       },
       "correctAnswer": "A",
-      "explanation": "Kaimur is renowned across Bihar for: Known for Kaimur Wildlife Sanctuary and the ancient Mundeshwari Temple, one of the oldest functioning Hindu temples.",
-      "explanation_hi": "कैमूर का ऐतिहासिक व भौगोलिक महत्व: Known for Kaimur Wildlife Sanctuary and the ancient Mundeshwari Temple, one of the oldest functioning Hindu temples।"
+      "explanation": "PM 2.5 denotes fine inhalable particles with diameters that are 2.5 micrometers or smaller. They can penetrate deep into the alveoli of the lungs and enter the bloodstream, causing serious cardiopulmonary diseases.",
+      "explanation_hi": "PM 2.5 हवा में मौजूद 2.5 माइक्रोमीटर या उससे छोटे अति-सूक्ष्म कण हैं। ये सांस के जरिए सीधे फेफड़ों की गहराई और रक्तप्रवाह में पहुंचकर गंभीर बीमारियां पैदा करते हैं।"
     },
     {
       "id": 134,
       "questionNumber": 134,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Known for Kaimur Wildlife Sanctuary and the ancient Mundeshwari Temple, one of the oldest functioning Hindu temples' (Context 3)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Known for Kaimur Wildlife Sanctuary and the ancient Mundeshwari Temple, one of the oldest functioning Hindu temples' (संदर्भ 3)?",
+      "question": "Which international treaty adopted in December 2015 aims to limit the increase in global average temperature to well below 2°C above pre-industrial levels?",
+      "question_hi": "दिसंबर 2015 में अपनाई गई किस अंतर्राष्ट्रीय संधि का लक्ष्य वैश्विक औसत तापमान वृद्धि को पूर्व-औद्योगिक स्तर से 2 डिग्री सेल्सियस से नीचे सीमित रखना है?",
       "options": {
-        "A": "Kaimur",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Paris Climate Agreement (COP21)",
+        "B": "Kyoto Protocol",
+        "C": "Copenhagen Accord",
+        "D": "Vienna Convention"
       },
       "options_hi": {
-        "A": "कैमूर",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "पेरिस जलवायु समझौता (COP21)",
+        "B": "क्योटो प्रोटोकॉल",
+        "C": "कोपेनहेगन समझौता",
+        "D": "वियना सम्मेलन"
       },
       "correctAnswer": "A",
-      "explanation": "Kaimur is renowned across Bihar for: Known for Kaimur Wildlife Sanctuary and the ancient Mundeshwari Temple, one of the oldest functioning Hindu temples.",
-      "explanation_hi": "कैमूर का ऐतिहासिक व भौगोलिक महत्व: Known for Kaimur Wildlife Sanctuary and the ancient Mundeshwari Temple, one of the oldest functioning Hindu temples।"
+      "explanation": "The Paris Agreement (COP21) is a legally binding international treaty on climate change adopted by 196 parties in Paris, mandating Nationally Determined Contributions (NDCs) to limit warming to 1.5°C.",
+      "explanation_hi": "पेरिस जलवायु समझौता (2015) वैश्विक तापमान वृद्धि को 2°C से काफी नीचे और संभवतः 1.5°C तक सीमित रखने के लिए एक ऐतिहासिक अंतर्राष्ट्रीय संधि है।"
     },
     {
       "id": 135,
       "questionNumber": 135,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Known for Kaimur Wildlife Sanctuary and the ancient Mundeshwari Temple, one of the oldest functioning Hindu temples' (Context 4)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Known for Kaimur Wildlife Sanctuary and the ancient Mundeshwari Temple, one of the oldest functioning Hindu temples' (संदर्भ 4)?",
+      "question": "Which of the following is an example of an In-Situ (on-site) method of conservation?",
+      "question_hi": "निम्नलिखित में से कौन सा संरक्षण का स्व-स्थाने (In-Situ) तरीका है?",
       "options": {
-        "A": "Kaimur",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Biosphere Reserve",
+        "B": "Zoological Park",
+        "C": "Botanical Garden",
+        "D": "Seed Bank"
       },
       "options_hi": {
-        "A": "कैमूर",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "बायोस्फीयर रिजर्व (जैवमंडल आरक्षित क्षेत्र)",
+        "B": "प्राणि उद्यान (चिड़ियाघर)",
+        "C": "वानस्पतिक उद्यान",
+        "D": "बीज बैंक"
       },
       "correctAnswer": "A",
-      "explanation": "Kaimur is renowned across Bihar for: Known for Kaimur Wildlife Sanctuary and the ancient Mundeshwari Temple, one of the oldest functioning Hindu temples.",
-      "explanation_hi": "कैमूर का ऐतिहासिक व भौगोलिक महत्व: Known for Kaimur Wildlife Sanctuary and the ancient Mundeshwari Temple, one of the oldest functioning Hindu temples।"
+      "explanation": "In-situ conservation protects species in their natural habitats (Biosphere reserves, National parks, Wildlife sanctuaries, Sacred groves). Zoos, botanical gardens, and seed banks are ex-situ.",
+      "explanation_hi": "स्व-स्थाने (In-Situ) संरक्षण में जीवों और वनस्पतियों को उनके प्राकृतिक पर्यावास में ही संरक्षित किया जाता है, जैसे राष्ट्रीय उद्यान, वन्यजीव अभयारण्य और बायोस्फीयर रिजर्व।"
     },
     {
       "id": 136,
@@ -3570,235 +3570,235 @@ window.predicted_set10 = {
       "id": 137,
       "questionNumber": 137,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Solid Waste Management & 3Rs - Case 2), which statement accurately reflects this principle: 'Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal'?",
-      "question_hi": "पर्यावरण विज्ञान (ठोस अपशिष्ट प्रबंधन - केस 2) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal'?",
+      "question": "The Red Data Book, which documents rare and endangered species of animals and plants, is published by which international organization?",
+      "question_hi": "दुर्लभ और संकटग्रस्त पशु एवं पादप प्रजातियों का विवरण दर्ज करने वाली 'रेड डेटा बुक' (Red Data Book) किस अंतरराष्ट्रीय संगठन द्वारा प्रकाशित की जाती है?",
       "options": {
-        "A": "Accurately validated by ecological principle: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "IUCN (International Union for Conservation of Nature)",
+        "B": "WWF (World Wide Fund for Nature)",
+        "C": "UNEP (United Nations Environment Programme)",
+        "D": "UNESCO"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "IUCN (अंतर्राष्ट्रीय प्रकृति संरक्षण संघ)",
+        "B": "WWF (विश्व वन्यजीव कोष)",
+        "C": "UNEP (संयुक्त राष्ट्र पर्यावरण कार्यक्रम)",
+        "D": "यूनेस्को"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal.",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal।"
+      "explanation": "The IUCN Red List of Threatened Species (founded in 1964) is the world's most comprehensive inventory of the global conservation status of biological species.",
+      "explanation_hi": "रेड डेटा बुक IUCN (International Union for Conservation of Nature) द्वारा प्रकाशित की जाती है, जिसमें संकटग्रस्त और विलुप्तप्राय जीवों की सूची होती है।"
     },
     {
       "id": 138,
       "questionNumber": 138,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Solid Waste Management & 3Rs - Case 3), which statement accurately reflects this principle: 'Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal'?",
-      "question_hi": "पर्यावरण विज्ञान (ठोस अपशिष्ट प्रबंधन - केस 3) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal'?",
+      "question": "What is the primary objective of the 'Stockholm Convention' adopted in 2001?",
+      "question_hi": "2001 में अपनाए गए 'स्टॉकहोम सम्मेलन' (Stockholm Convention) का मुख्य उद्देश्य क्या है?",
       "options": {
-        "A": "Accurately validated by ecological principle: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "Eliminating or restricting the production and use of Persistent Organic Pollutants (POPs)",
+        "B": "Regulating international trade in timber",
+        "C": "Controlling desertification in sub-Saharan Africa",
+        "D": "Banning deep-sea submarine fishing"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "स्थायी जैविक प्रदूषकों (POPs) के उत्पादन और उपयोग को समाप्त या प्रतिबंधित करना",
+        "B": "इमारती लकड़ी के अंतर्राष्ट्रीय व्यापार को विनियमित करना",
+        "C": "उप-सहारा अफ्रीका में मरुस्थलीकरण को नियंत्रित करना",
+        "D": "गहरे समुद्र में पनडुब्बी मछली पकड़ने पर प्रतिबंध लगाना"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal.",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal।"
+      "explanation": "The Stockholm Convention is a global treaty to protect human health and the environment from Persistent Organic Pollutants (POPs)—toxic chemicals like DDT, dioxins, and PCBs that remain intact in the environment for decades.",
+      "explanation_hi": "स्टॉकहोम सम्मेलन (2001) स्थायी जैविक प्रदूषकों (POPs - जैसे डीडीटी, डाइऑक्सिन) के उत्पादन, उपयोग और उत्सर्जन को समाप्त करने के लिए एक वैश्विक संधि है।"
     },
     {
       "id": 139,
       "questionNumber": 139,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Solid Waste Management & 3Rs - Case 4), which statement accurately reflects this principle: 'Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal'?",
-      "question_hi": "पर्यावरण विज्ञान (ठोस अपशिष्ट प्रबंधन - केस 4) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal'?",
+      "question": "Which layer of the atmosphere contains the protective 'Ozone Layer' (ozonosphere)?",
+      "question_hi": "वायुमंडल की किस परत में सुरक्षात्मक 'ओजोन परत' पाई जाती है?",
       "options": {
-        "A": "Accurately validated by ecological principle: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "Stratosphere",
+        "B": "Troposphere",
+        "C": "Mesosphere",
+        "D": "Thermosphere"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "समताप मंडल (Stratosphere)",
+        "B": "क्षोभमंडल (Troposphere)",
+        "C": "मध्यमंडल (Mesosphere)",
+        "D": "तापमंडल (Thermosphere)"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal.",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal।"
+      "explanation": "The ozone layer is concentrated in the Stratosphere, between 15 and 35 km above the Earth's surface, where it absorbs lethal solar Ultraviolet-B (UV-B) and UV-C radiation.",
+      "explanation_hi": "सुरक्षात्मक ओजोन परत समताप मंडल (Stratosphere) में 15 से 35 किमी की ऊंचाई पर स्थित है, जो सूर्य की हानिकारक पराबैंगनी (UV) किरणों को पृथ्वी पर आने से रोकती है।"
     },
     {
       "id": 140,
       "questionNumber": 140,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Solid Waste Management & 3Rs - Case 5), which statement accurately reflects this principle: 'Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal'?",
-      "question_hi": "पर्यावरण विज्ञान (ठोस अपशिष्ट प्रबंधन - केस 5) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal'?",
+      "question": "What causes the neurological condition known as 'Minamata Disease' discovered in Japan?",
+      "question_hi": "जापान में खोजी गई 'मिनीमाता बीमारी' (Minamata Disease) किस रासायनिक तत्व के प्रदूषण से उत्पन्न हुई थी?",
       "options": {
-        "A": "Accurately validated by ecological principle: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "Methylmercury (organic mercury poisoning through contaminated fish)",
+        "B": "Cadmium poisoning",
+        "C": "Arsenic contamination in groundwater",
+        "D": "Lead poisoning in tap water"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "मिथाइलमर्करी (प्रदूषित मछली खाने से पारा विषाक्तता)",
+        "B": "कैडमियम विषाक्तता (इटाई-इटाई रोग)",
+        "C": "भूजल में आर्सेनिक संदूषण",
+        "D": "नल के पानी में सीसा विषाक्तता"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal.",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal।"
+      "explanation": "Minamata disease is severe neurological syndrome caused by methylmercury bioaccumulation in fish and shellfish discharged into Minamata Bay by a chemical plant.",
+      "explanation_hi": "मिनीमाता रोग पारे (Mercury / मिथाइलमर्करी) से प्रदूषित मछलियों के सेवन से हुआ था। इससे तंत्रिका तंत्र गंभीर रूप से क्षतिग्रस्त हो जाता है।"
     },
     {
       "id": 141,
       "questionNumber": 141,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 7,000 at 5% annual interest for 2 years (Problem 36)?",
-      "question_hi": "7,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 36)?",
+      "question": "The painful bone and joint disease 'Itai-Itai' was first caused in Japan by environmental pollution of which heavy metal?",
+      "question_hi": "हड्डियों और जोड़ों की दर्दनाक बीमारी 'इटाई-इटाई' (Itai-Itai) किस भारी धातु के प्रदूषण के कारण हुई थी?",
       "options": {
-        "A": "Rs. 700",
-        "B": "Rs. 750",
-        "C": "Rs. 650",
-        "D": "Rs. 800"
+        "A": "Cadmium (Cd)",
+        "B": "Mercury (Hg)",
+        "C": "Lead (Pb)",
+        "D": "Chromium (Cr)"
       },
       "options_hi": {
-        "A": "700 रुपये",
-        "B": "750 रुपये",
-        "C": "650 रुपये",
-        "D": "800 रुपये"
+        "A": "कैडमियम (Cadmium)",
+        "B": "पारा (Mercury)",
+        "C": "सीसा (Lead)",
+        "D": "क्रोमियम (Chromium)"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (7000 * 5 * 2) / 100 = Rs. 700.",
-      "explanation_hi": "साधारण ब्याज = (7000 * 5 * 2) / 100 = 700 रुपये।"
+      "explanation": "Itai-Itai disease was caused by Cadmium poisoning in Toyama Prefecture, Japan, from mining effluents that contaminated rice crops and caused severe osteomalacia and renal failure.",
+      "explanation_hi": "इटाई-इटाई रोग कैडमियम (Cd) प्रदूषण के कारण हुआ था, जिससे हड्डियां कमजोर और अत्यंत दर्दनाक हो जाती हैं।"
     },
     {
       "id": 142,
       "questionNumber": 142,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 8,000 at 5% annual interest for 2 years (Problem 37)?",
-      "question_hi": "8,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 37)?",
+      "question": "Which of the following is a primary pioneer species in ecological succession on a bare rock surface (Xerarch succession)?",
+      "question_hi": "नंगी चट्टान की सतह पर पारिस्थितिक अनुक्रमण (Xerarch succession) में निम्नलिखित में से कौन सी एक प्रमुख अग्रणी (Pioneer) प्रजाति है?",
       "options": {
-        "A": "Rs. 800",
-        "B": "Rs. 850",
-        "C": "Rs. 750",
-        "D": "Rs. 900"
+        "A": "Lichens (Crustose lichens)",
+        "B": "Oak and Teak trees",
+        "C": "Annual grasses",
+        "D": "Aquatic phytoplankton"
       },
       "options_hi": {
-        "A": "800 रुपये",
-        "B": "850 रुपये",
-        "C": "750 रुपये",
-        "D": "900 रुपये"
+        "A": "लाइकेन (Lichen - शैवाक)",
+        "B": "बांज और सागौन के पेड़",
+        "C": "वार्षिक घास",
+        "D": "जलीय पादप प्लवक"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (8000 * 5 * 2) / 100 = Rs. 800.",
-      "explanation_hi": "साधारण ब्याज = (8000 * 5 * 2) / 100 = 800 रुपये।"
+      "explanation": "Lichens secrete organic acids that erode bare rock into fine soil particles, initiating ecological succession on barren rocky land.",
+      "explanation_hi": "नंगी चट्टानों पर अनुक्रमण की शुरुआत लाइकेन (Lichen) द्वारा होती है। ये कार्बनिक अम्ल छोड़ते हैं जिससे चट्टानें घिसकर मिट्टी में बदलने लगती हैं।"
     },
     {
       "id": 143,
       "questionNumber": 143,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 9,000 at 5% annual interest for 2 years (Problem 38)?",
-      "question_hi": "9,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 38)?",
+      "question": "What is the legal authority established in India under the National Green Tribunal (NGT) Act, 2010 for expeditious environmental justice?",
+      "question_hi": "पर्यावरण न्याय के त्वरित निपटान के लिए राष्ट्रीय हरित अधिकरण (NGT) अधिनियम 2010 के तहत स्थापित अधिकरण का प्रधान पीठ कहाँ स्थित है?",
       "options": {
-        "A": "Rs. 900",
-        "B": "Rs. 950",
-        "C": "Rs. 850",
-        "D": "Rs. 1,000"
+        "A": "New Delhi",
+        "B": "Kolkata",
+        "C": "Mumbai",
+        "D": "Chennai"
       },
       "options_hi": {
-        "A": "900 रुपये",
-        "B": "950 रुपये",
-        "C": "850 रुपये",
-        "D": "1,000 रुपये"
+        "A": "नई दिल्ली",
+        "B": "कोलकाता",
+        "C": "मुंबई",
+        "D": "चेन्नई"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (9000 * 5 * 2) / 100 = Rs. 900.",
-      "explanation_hi": "साधारण ब्याज = (9000 * 5 * 2) / 100 = 900 रुपये।"
+      "explanation": "The National Green Tribunal (NGT) was established in 2010 under Article 21 (right to healthy environment). Its Principal Bench is situated in New Delhi.",
+      "explanation_hi": "राष्ट्रीय हरित अधिकरण (NGT) की मुख्य पीठ नई दिल्ली में स्थित है, जबकि भोपाल, पुणे, कोलकाता और चेन्नई में क्षेत्रीय पीठें हैं।"
     },
     {
       "id": 144,
       "questionNumber": 144,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 10,000 at 5% annual interest for 2 years (Problem 39)?",
-      "question_hi": "10,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 39)?",
+      "question": "Which of the following organisms represents a biological indicator of sulfur dioxide (SO2) atmospheric pollution?",
+      "question_hi": "निम्नलिखित में से कौन सा जीव सल्फर डाइऑक्साइड (SO2) वायु प्रदूषण का एक संवेदनशील जैविक संकेतक (Bioindicator) है?",
       "options": {
-        "A": "Rs. 1,000",
-        "B": "Rs. 1,050",
-        "C": "Rs. 950",
-        "D": "Rs. 1,100"
+        "A": "Lichens",
+        "B": "Earthworms",
+        "C": "Algae",
+        "D": "Mushrooms"
       },
       "options_hi": {
-        "A": "1,000 रुपये",
-        "B": "1,050 रुपये",
-        "C": "950 रुपये",
-        "D": "1,100 रुपये"
+        "A": "लाइकेन (Lichens)",
+        "B": "केंचुए",
+        "C": "शैवाल",
+        "D": "मशरूम"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (10000 * 5 * 2) / 100 = Rs. 1000.",
-      "explanation_hi": "साधारण ब्याज = (10000 * 5 * 2) / 100 = 1000 रुपये।"
+      "explanation": "Lichens are symbiotic associations between algae and fungi that are hypersensitive to atmospheric SO2; they vanish in polluted industrial areas, serving as natural pollution indicators.",
+      "explanation_hi": "लाइकेन सल्फर डाइऑक्साइड (SO2) के प्रति अत्यधिक संवेदनशील होते हैं। जहाँ वायु प्रदूषण अधिक होता है, वहाँ लाइकेन नहीं उगते, इसलिए इन्हें प्रदूषण का प्राकृतिक सूचक माना जाता है।"
     },
     {
       "id": 145,
       "questionNumber": 145,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 1,000 at 5% annual interest for 2 years (Problem 40)?",
-      "question_hi": "1,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 40)?",
+      "question": "What is the ecological term for the transitional boundary zone between two distinct biological communities (e.g., between forest and grassland)?",
+      "question_hi": "दो अलग-अलग जैविक समुदायों (जैसे जंगल और घास के मैदान) के बीच संक्रमणकालीन सीमा क्षेत्र के लिए पारिस्थितिक शब्द क्या है?",
       "options": {
-        "A": "Rs. 100",
-        "B": "Rs. 150",
-        "C": "Rs. 50",
-        "D": "Rs. 200"
+        "A": "Ecotone",
+        "B": "Ecotype",
+        "C": "Niche",
+        "D": "Biome"
       },
       "options_hi": {
-        "A": "100 रुपये",
-        "B": "150 रुपये",
-        "C": "50 रुपये",
-        "D": "200 रुपये"
+        "A": "इकोटोन (संक्रमिका - Ecotone)",
+        "B": "इकोटाइप",
+        "C": "निकेत (Niche)",
+        "D": "बायोम (Biome)"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (1000 * 5 * 2) / 100 = Rs. 100.",
-      "explanation_hi": "साधारण ब्याज = (1000 * 5 * 2) / 100 = 100 रुपये।"
+      "explanation": "An ecotone is a transition area between two biomes or ecosystems (e.g., marshlands, mangrove swamps), often exhibiting high biodiversity known as the 'edge effect'.",
+      "explanation_hi": "इकोटोन (Ecotone) दो भिन्न पारिस्थितिक तंत्रों के मिलन स्थल या संक्रमण क्षेत्र को कहते हैं। यहाँ दोनों तंत्रों की प्रजातियां पाई जाती हैं, जिसे 'कोर प्रभाव' (Edge effect) कहते हैं।"
     },
     {
       "id": 146,

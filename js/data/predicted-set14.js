@@ -1,3 +1,4 @@
+// Generated Question Paper Data
 window.predicted_set14 = {
   "id": "predicted_set14",
   "title": "Predicted Mock Paper - Set 14",
@@ -271,23 +272,29 @@ window.predicted_set14 = {
     },
     {
       "id": 13,
-      "question": "Which of the following operators CANNOT be overloaded in C++?",
-      "question_hi": "C++ में निम्नलिखित में से किस ऑपरेटर को ओवरलोड नहीं किया जा सकता है?",
+      "questionNumber": 13,
+      "section": "Computer Science",
+      "topic": "Software Engineering",
+      "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
+      "marks": 1,
+      "negativeMarks": 0,
+      "question": "In software architecture, which type of module cohesion is considered the highest (strongest and most desirable)?",
+      "question_hi": "सॉफ्टवेयर आर्किटेक्चर में किस प्रकार के मॉड्यूल सामंजस्य (Cohesion) को उच्चतम (सबसे मजबूत और वांछनीय) माना जाता है?",
       "options": {
-        "A": "+ (Addition)",
-        "B": "[] (Subscript)",
-        "C": ":: (Scope Resolution)",
-        "D": "-> (Member Access)"
+        "A": "Functional Cohesion",
+        "B": "Coincidental Cohesion",
+        "C": "Temporal Cohesion",
+        "D": "Logical Cohesion"
       },
       "options_hi": {
-        "A": "+ (जोड़)",
-        "B": "[] (सबस्क्रिप्ट)",
-        "C": ":: (स्कोप रिज़ॉल्यूशन)",
-        "D": "-> (मेम्बर एक्सेस)"
+        "A": "कार्यात्मक सामंजस्य (Functional Cohesion)",
+        "B": "संयोगिक सामंजस्य (Coincidental Cohesion)",
+        "C": "कालिक सामंजस्य (Temporal Cohesion)",
+        "D": "तार्किक सामंजस्य (Logical Cohesion)"
       },
-      "correctAnswer": "C",
-      "explanation": "Operators that cannot be overloaded in C++ are: :: (Scope resolution), . (Member access), .* (Pointer-to-member), and ?: (Ternary conditional).",
-      "explanation_hi": "C++ में ओवरलोड न किए जा सकने वाले ऑपरेटर हैं: :: (स्कोप रिज़ॉल्यूशन), . (डॉट मेम्बर), .* (पॉइंटर-टू-मेम्बर), और ?: (टर्नरी ऑपरेटर)।"
+      "correctAnswer": "A",
+      "explanation": "Functional Cohesion is the strongest and most desirable level of cohesion, where all elements within a module are directed toward performing a single, well-defined essential task.",
+      "explanation_hi": "फंक्शनल कोहेज़न (कार्यात्मक सामंजस्य) उच्चतम और सबसे आदर्श होता है, जहाँ मॉड्यूल के सभी तत्व केवल एक ही सुव्यवस्थित कार्य को पूरा करने के लिए समर्पित होते हैं।"
     },
     {
       "id": 14,
@@ -1251,23 +1258,29 @@ window.predicted_set14 = {
     },
     {
       "id": 62,
-      "question": "What is the output of the Python expression: [x**2 for x in range(5) if x % 2 != 0]?",
-      "question_hi": "पायथन एक्सप्रेशन [x**2 for x in range(5) if x % 2 != 0] का आउटपुट क्या होगा?",
+      "questionNumber": 62,
+      "section": "Computer Science",
+      "topic": "Web-Based Application Development",
+      "topic_hi": "वेब आधारित अनुप्रयोग विकास",
+      "marks": 1,
+      "negativeMarks": 0,
+      "question": "In CSS3 layout design, what is the effect of setting 'box-sizing: border-box;' on HTML elements?",
+      "question_hi": "CSS3 लेआउट डिज़ाइन में, HTML तत्वों पर 'box-sizing: border-box;' सेट करने का क्या प्रभाव होता है?",
       "options": {
-        "A": "[0, 4, 16]",
-        "B": "[1, 9]",
-        "C": "[1, 4, 9]",
-        "D": "[0, 1, 4, 9, 16]"
+        "A": "The element's specified width and height include its padding and border",
+        "B": "Padding is added outside the element's specified width",
+        "C": "Margins are rendered inside the element's border",
+        "D": "The element is automatically converted to an inline container"
       },
       "options_hi": {
-        "A": "[0, 4, 16]",
-        "B": "[1, 9]",
-        "C": "[1, 4, 9]",
-        "D": "[0, 1, 4, 9, 16]"
+        "A": "तत्व की निर्दिष्ट चौड़ाई और ऊंचाई में इसका पैडिंग और बॉर्डर शामिल होता है",
+        "B": "तत्व की निर्दिष्ट चौड़ाई के बाहर पैडिंग जोड़ी जाती है",
+        "C": "मार्जिन तत्व के बॉर्डर के अंदर प्रस्तुत किए जाते हैं",
+        "D": "तत्व स्वचालित रूप से एक इनलाइन कंटेनर में परिवर्तित हो जाता है"
       },
-      "correctAnswer": "B",
-      "explanation": "range(5) yields 0, 1, 2, 3, 4. The odd numbers are 1 and 3. Squaring them produces 1**2 = 1 and 3**2 = 9. Output is [1, 9].",
-      "explanation_hi": "range(5) में 0 से 4 तक संख्याएं हैं। विषम संख्याएं 1 और 3 हैं। इनका वर्ग 1**2 = 1 और 3**2 = 9 है, अतः परिणाम [1, 9] होगा."
+      "correctAnswer": "A",
+      "explanation": "With box-sizing: border-box, the element's total visible width equals the CSS width property (width = content + padding + border). This prevents padding and borders from unintentionally causing horizontal layout overflows.",
+      "explanation_hi": "box-sizing: border-box सेट करने से तत्व की कुल चौड़ाई में उसकी पैडिंग और बॉर्डर शामिल हो जाती है, जिससे लेआउट टूटने से बचता है।"
     },
     {
       "id": 63,
@@ -2851,23 +2864,29 @@ window.predicted_set14 = {
     },
     {
       "id": 142,
-      "question": "A can complete a piece of work in 12 days and B can complete the same work in 24 days. Working together, in how many days can they complete the work?",
-      "question_hi": "A किसी कार्य को 12 दिनों में और B उसी कार्य को 24 दिनों में पूरा कर सकता है। एक साथ मिलकर कार्य करते हुए वे उस कार्य को कितने दिनों में पूरा करेंगे?",
+      "questionNumber": 142,
+      "section": "Computer Science",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम",
+      "marks": 1,
+      "negativeMarks": 0,
+      "question": "What is an 'Orphan Process' in an operating system?",
+      "question_hi": "ऑपरेटिंग सिस्टम में 'अनाथ प्रक्रिया' (Orphan Process) क्या होती है?",
       "options": {
-        "A": "6 days",
-        "B": "8 days",
-        "C": "9 days",
-        "D": "10 days"
+        "A": "An active running process whose parent process has terminated without waiting for it",
+        "B": "A process that cannot access the file system",
+        "C": "A thread with no priority level assigned",
+        "D": "A process with no assigned PID"
       },
       "options_hi": {
-        "A": "6 दिन",
-        "B": "8 दिन",
-        "C": "9 दिन",
-        "D": "10 दिन"
+        "A": "एक सक्रिय चल रही प्रक्रिया जिसके पैरेंट प्रक्रिया उसकी प्रतीक्षा किए बिना समाप्त हो गई है",
+        "B": "एक प्रक्रिया जो फ़ाइल सिस्टम तक नहीं पहुँच सकती",
+        "C": "एक थ्रेड जिसे कोई प्राथमिकता स्तर नहीं सौंपा गया है",
+        "D": "एक प्रक्रिया जिसे कोई PID नहीं सौंपा गया है"
       },
-      "correctAnswer": "B",
-      "explanation": "Combined 1-day rate = (1/12) + (1/24) = (2 + 1)/24 = 3/24 = 1/8. Total days = 8 days.",
-      "explanation_hi": "1 दिन का संयुक्त कार्य = 1/12 + 1/24 = 3/24 = 1/8 भाग। अतः पूरा काम समाप्त करने में कुल 8 दिन लगेंगे."
+      "correctAnswer": "A",
+      "explanation": "An orphan process is a running process whose parent has exited. In POSIX systems, orphan processes are automatically adopted by the root `init` process (or systemd, PID 1), which reaps them when they terminate.",
+      "explanation_hi": "अनाथ (Orphan) प्रोसेस वह चल रही प्रक्रिया है जिसका पैरेंट प्रोसेस पहले ही समाप्त हो चुका होता है। ऑपरेटिंग सिस्टम में ऐसे प्रोसेस को तुरंत `init` प्रोसेस (PID 1) द्वारा गोद (adopt) ले लिया जाता है।"
     },
     {
       "id": 143,

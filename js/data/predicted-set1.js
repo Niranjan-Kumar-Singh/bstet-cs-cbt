@@ -1490,105 +1490,105 @@ window.predicted_set1 = {
       "id": 57,
       "questionNumber": 57,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In SQL queries, what is the exact behavior of the aggregate function 'SUM(column)'?",
-      "question_hi": "SQL क्वेरी में, एग्रीगेट फ़ंक्शन 'योग (SUM)' का सटीक व्यवहार क्या होता है?",
+      "question": "What is the minimum number of two-input NAND gates required to implement a two-input Exclusive-OR (XOR) gate?",
+      "question_hi": "दो-इनपुट एक्सक्लूसिव-OR (XOR) गेट को लागू करने के लिए आवश्यक न्यूनतम दो-इनपुट NAND गेट्स की संख्या क्या है?",
       "options": {
-        "A": "Calculates the mathematical sum of all non-NULL values in the specified numeric column",
-        "B": "Deletes duplicate rows",
-        "C": "Creates an index",
-        "D": "Rolls back transaction"
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
       },
       "options_hi": {
-        "A": "निर्दिष्ट संख्यात्मक कॉलम के सभी गैर-NULL मानों का योग करता है",
-        "B": "डुप्लिकेट हटाता है",
-        "C": "इंडेक्स बनाता है",
-        "D": "रोलबैक करता है"
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
       },
-      "correctAnswer": "A",
-      "explanation": "SUM(column) operates as: Calculates the mathematical sum of all non-NULL values in the specified numeric column.",
-      "explanation_hi": "योग (SUM) का कार्य: निर्दिष्ट संख्यात्मक कॉलम के सभी गैर-NULL मानों का योग करता है।"
+      "correctAnswer": "B",
+      "explanation": "A 2-input XOR gate (A ⊕ B = AB' + A'B) requires exactly 4 NAND gates. In contrast, implementing XOR using only NOR gates requires 5 NOR gates.",
+      "explanation_hi": "2-इनपुट XOR गेट (A ⊕ B = AB' + A'B) को केवल 4 NAND गेट्स का उपयोग करके लागू किया जा सकता है। NOR गेट्स का उपयोग करके XOR बनाने में 5 NOR गेट लगते हैं।"
     },
     {
       "id": 58,
       "questionNumber": 58,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In SQL queries, what is the exact behavior of the aggregate function 'AVG(column)'?",
-      "question_hi": "SQL क्वेरी में, एग्रीगेट फ़ंक्शन 'औसत (AVG)' का सटीक व्यवहार क्या होता है?",
+      "question": "In a 4-variable Karnaugh Map (K-map), an essential prime implicant is defined as a prime implicant that:",
+      "question_hi": "4-चर वाले कॉर्नो मैप (K-map) में, एक अनिवार्य अभाज्य अंतर्निहित (Essential Prime Implicant) को उस प्राइम इम्प्लीकेंट के रूप में परिभाषित किया जाता है जो:",
       "options": {
-        "A": "Computes the arithmetic average of non-NULL values in a numeric column",
-        "B": "Deletes duplicate rows",
-        "C": "Creates an index",
-        "D": "Rolls back transaction"
+        "A": "Covers at least one minterm that is not covered by any other prime implicant",
+        "B": "Contains all minterms of the Boolean expression",
+        "C": "Cannot be combined with any adjacent group of size 4",
+        "D": "Contains at least one don't care condition"
       },
       "options_hi": {
-        "A": "गैर-NULL मानों का अंकगणितीय औसत निकालता है",
-        "B": "डुप्लिकेट हटाता है",
-        "C": "इंडेक्स बनाता है",
-        "D": "रोलबैक करता है"
+        "A": "कम से कम एक ऐसे मिन-टर्म (minterm) को कवर करता है जो किसी अन्य प्राइम इम्प्लीकेंट द्वारा कवर नहीं है",
+        "B": "बूलियन अभिव्यक्ति के सभी मिन-टर्म्स को समाहित करता है",
+        "C": "आकार 4 के किसी भी निकटवर्ती समूह के साथ संयोजित नहीं हो सकता",
+        "D": "कम से कम एक 'डोंट केयर' स्थिति रखता है"
       },
       "correctAnswer": "A",
-      "explanation": "AVG(column) operates as: Computes the arithmetic average of non-NULL values in a numeric column.",
-      "explanation_hi": "औसत (AVG) का कार्य: गैर-NULL मानों का अंकगणितीय औसत निकालता है।"
+      "explanation": "An Essential Prime Implicant (EPI) is a prime implicant that covers at least one '1' (minterm) that is not included in any other prime implicant, making its inclusion in the minimal SOP expression mandatory.",
+      "explanation_hi": "अनिवार्य अभाज्य अंतर्निहित (EPI) वह प्राइम इम्प्लीकेंट होता है जो कम से कम एक ऐसे 1 (minterm) को शामिल करता है जिसे कोई अन्य प्राइम इम्प्लीकेंट कवर नहीं करता। अतः इसे न्यूनतम SOP समीकरण में शामिल करना अनिवार्य होता है।"
     },
     {
       "id": 59,
       "questionNumber": 59,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In SQL queries, what is the exact behavior of the aggregate function 'MAX(column)'?",
-      "question_hi": "SQL क्वेरी में, एग्रीगेट फ़ंक्शन 'अधिकतम (MAX)' का सटीक व्यवहार क्या होता है?",
+      "question": "What is the primary operational difference between a multiplexer (MUX) and a demultiplexer (DEMUX)?",
+      "question_hi": "मल्टीप्लेक्सर (MUX) और डिमल्टीप्लेक्सर (DEMUX) के बीच प्राथमिक परिचालन अंतर क्या है?",
       "options": {
-        "A": "Returns the maximum value from a given column expression",
-        "B": "Deletes duplicate rows",
-        "C": "Creates an index",
-        "D": "Rolls back transaction"
+        "A": "A MUX selects one of many inputs to a single output; a DEMUX routes a single input to one of many outputs",
+        "B": "A MUX converts analog signals to digital; a DEMUX converts digital to analog",
+        "C": "A MUX requires clock signals; a DEMUX is entirely asynchronous",
+        "D": "A MUX has 2^n select lines; a DEMUX has only 1 select line"
       },
       "options_hi": {
-        "A": "कॉलम में से अधिकतम मान लौटाता है",
-        "B": "डुप्लिकेट हटाता है",
-        "C": "इंडेक्स बनाता है",
-        "D": "रोलबैक करता है"
+        "A": "MUX कई इनपुट में से एक का चयन करके एकल आउटपुट पर भेजता है; DEMUX एकल इनपुट को कई आउटपुट में से एक पर भेजता है",
+        "B": "MUX एनालॉग सिग्नल को डिजिटल में बदलता है; DEMUX डिजिटल को एनालॉग में बदलता है",
+        "C": "MUX को क्लॉक सिग्नल की आवश्यकता होती है; DEMUX पूरी तरह से एसिंक्रोनस होता है",
+        "D": "MUX में 2^n सेलेक्ट लाइनें होती हैं; DEMUX में केवल 1 सेलेक्ट लाइन होती है"
       },
       "correctAnswer": "A",
-      "explanation": "MAX(column) operates as: Returns the maximum value from a given column expression.",
-      "explanation_hi": "अधिकतम (MAX) का कार्य: कॉलम में से अधिकतम मान लौटाता है।"
+      "explanation": "A Multiplexer is a data selector (many-to-one) that channels one of 2^n data inputs to 1 output line based on n select lines. A Demultiplexer is a data distributor (one-to-many) that directs 1 data input to one of 2^n output lines.",
+      "explanation_hi": "मल्टीप्लेक्सर (MUX) एक 'मेनी-टू-वन' डेटा चयनकर्ता है जो n सेलेक्ट लाइनों के आधार पर 2^n इनपुट में से एक को एकल आउटपुट पर भेजता है। डिमल्टीप्लेक्सर (DEMUX) 'वन-टू-मेनी' डेटा वितरक है।"
     },
     {
       "id": 60,
       "questionNumber": 60,
       "section": "Computer Science",
-      "topic": "Database Management Systems",
-      "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In SQL queries, what is the exact behavior of the aggregate function 'MIN(column)'?",
-      "question_hi": "SQL क्वेरी में, एग्रीगेट फ़ंक्शन 'न्यूनतम (MIN)' का सटीक व्यवहार क्या होता है?",
+      "question": "How many flip-flops are required to construct a MOD-12 asynchronous (ripple) counter?",
+      "question_hi": "एक MOD-12 एसिंक्रोनस (रिपल) काउंटर के निर्माण के लिए कितने फ्लिप-फ्लॉप की आवश्यकता होती है?",
       "options": {
-        "A": "Returns the minimum value from a given column expression",
-        "B": "Deletes duplicate rows",
-        "C": "Creates an index",
-        "D": "Rolls back transaction"
+        "A": "3",
+        "B": "4",
+        "C": "6",
+        "D": "12"
       },
       "options_hi": {
-        "A": "कॉलम में से न्यूनतम मान लौटाता है",
-        "B": "डुप्लिकेट हटाता है",
-        "C": "इंडेक्स बनाता है",
-        "D": "रोलबैक करता है"
+        "A": "3",
+        "B": "4",
+        "C": "6",
+        "D": "12"
       },
-      "correctAnswer": "A",
-      "explanation": "MIN(column) operates as: Returns the minimum value from a given column expression.",
-      "explanation_hi": "न्यूनतम (MIN) का कार्य: कॉलम में से न्यूनतम मान लौटाता है।"
+      "correctAnswer": "B",
+      "explanation": "The modulus N of an n-flip-flop counter must satisfy 2^(n-1) < N <= 2^n. For MOD-12, 2^3 = 8 < 12 <= 2^4 = 16. Therefore, exactly 4 flip-flops are required.",
+      "explanation_hi": "n फ्लिप-फ्लॉप वाले काउंटर का मॉडुलस N संबंध 2^(n-1) < N <= 2^n को संतुष्ट करना चाहिए। MOD-12 के लिए: 2^3 = 8 < 12 <= 2^4 = 16। अतः न्यूनतम 4 फ्लिप-फ्लॉप आवश्यक हैं।"
     },
     {
       "id": 61,

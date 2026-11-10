@@ -504,27 +504,27 @@ window.official_shift3 = {
       "id": 19,
       "questionNumber": 19,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Consider the statements given below and then choose the correct output from given options : D={ 'S01 ' : 95, 'S02' : 96 } for I in D : print ( I , end = '#' )",
+      "question": "What is the race-around condition in a digital level-triggered JK flip-flop, and when does it occur?",
+      "question_hi": "डिजिटल लेवल-ट्रिगर जेके फ्लिप-फ्लॉप में रेस-अराउंड स्थिति (Race-around condition) क्या है और यह कब उत्पन्न होती है?",
       "options": {
-        "A": "S01#S02#",
-        "B": "95#96#",
-        "C": "S01,95#S02,96#",
-        "D": "S01#95#S02#96#"
+        "A": "Output toggles repeatedly during a single clock pulse when J=1, K=1 and clock duration tp > propagation delay tpd",
+        "B": "Output becomes undefined when both inputs J=0 and K=0",
+        "C": "Clock pulse is too short to activate internal transistors",
+        "D": "Flip-flop resets permanently to 0 when inputs are equal"
+      },
+      "options_hi": {
+        "A": "जब J=1, K=1 हो तथा क्लॉक पल्स अवधि tp > प्रोपेगेशन डिले tpd हो, तो आउटपुट एक ही पल्स में बार-बार टॉगल होता है",
+        "B": "जब दोनों इनपुट J=0 और K=0 हों तो आउटपुट अपरिभाषित हो जाता है",
+        "C": "आंतरिक ट्रांजिस्टर सक्रिय करने के लिए क्लॉक पल्स बहुत छोटी होती है",
+        "D": "इनपुट समान होने पर फ्लिप-फ्लॉप स्थायी रूप से 0 पर रीसेट हो जाता है"
       },
       "correctAnswer": "A",
-      "explanation": "**Correct Answer: (A) S01#S02#**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (A) accurately reflects the microarchitectural functionality.",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "नीचे दिए गए कथनों पर विचार करें और फिर दिए गए विकल्पों में से सही आउटपुट चुनें: D={ 'S01' : 95, 'S02': 96 } for I in D: print (I ,end = '#' )",
-      "options_hi": {
-        "A": "S01#S02#",
-        "B": "95#96#",
-        "C": "S01,95#S02,96#",
-        "D": "S01#95#S02#96#"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) S01#S02#?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation": "Race-around condition occurs in level-triggered JK flip-flops when J=1, K=1, and the clock pulse width tp is greater than the propagation delay tpd of the flip-flop. The output toggles repeatedly while the clock is HIGH, resulting in an unpredictable state. It is prevented using Master-Slave flip-flops or edge triggering.",
+      "explanation_hi": "लेवल-ट्रिगर जेके फ्लिप-फ्लॉप में जब J=1, K=1 हो और क्लॉक अवधि प्रोपेगेशन डिले से अधिक हो, तो क्लॉक हाई रहने तक आउटपुट लगातार 0 और 1 के बीच टॉगल करता रहता है। इसे मास्टर-स्लेव जेके फ्लिप-फ्लॉप या एज-ट्रिगरिंग द्वारा हल किया जाता है।"
     },
     {
       "id": 20,
@@ -790,27 +790,27 @@ window.official_shift3 = {
       "id": 30,
       "questionNumber": 30,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "This is a Assertion and Reason type questions. This question consists of two statements, namely, Assertion (A) and Reason (R). Select the most suitable option considering the Assertion and Reason.Assertion (A) : SMS is an acronym for Smart Message Service.Reason (R) : SMS is the most common technology for delivering short, concise and important messages quickly.",
+      "question": "A 4-variable Boolean function has minterms m(0, 2, 8, 10). What is its minimal Sum of Products (SOP) expression after Karnaugh Map (K-map) minimization?",
+      "question_hi": "एक 4-चर वाले बूलियन फलन के मिनटरम्स m(0, 2, 8, 10) हैं। कॉर्नो मैप (K-map) न्यूनीकरण के बाद इसका न्यूनतम SOP व्यंजक क्या होगा?",
       "options": {
-        "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
-        "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
-        "C": "Assertion (A) is true, but Reason (R) is false.",
-        "D": "Assertion (A) is false, but Reason (R) is true."
+        "A": "B'D'",
+        "B": "A'B' + C'D'",
+        "C": "A'C + BD",
+        "D": "B'C'"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Assertion (A) is false, but Reason (R) is true.**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (D) correctly satisfies the circuit behavior and truth table properties.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "यह अभिकथन और कारण प्रकार के प्रश्न हैं। इस प्रश्न में दो कथन हैं, अर्थात् दावा (ए) और कारण (आर)। दावे और कारण पर विचार करते हुए सबसे उपयुक्त विकल्प का चयन करें। दावा (ए): एसएमएस स्मार्ट मैसेज सर्विस का संक्षिप्त रूप है। कारण (आर): एसएमएस संक्षिप्त, संक्षिप्त और महत्वपूर्ण संदेशों को जल्दी से वितरित करने के लिए सबसे आम तकनीक है।",
       "options_hi": {
-        "A": "अभिकथन (ए) और कारण (आर) दोनों सत्य हैं और कारण (आर) अभिकथन (ए) का सही स्पष्टीकरण है।",
-        "B": "अभिकथन (ए) और कारण (आर) दोनों सत्य हैं, लेकिन कारण (आर) अभिकथन (ए) की सही व्याख्या नहीं है।",
-        "C": "दावा (ए) सत्य है, लेकिन कारण (आर) गलत है।",
-        "D": "दावा (ए) गलत है, लेकिन कारण (आर) सच है।"
+        "A": "B'D'",
+        "B": "A'B' + C'D'",
+        "C": "A'C + BD",
+        "D": "B'C'"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Assertion (A) is false, but Reason (R) is true.**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Minterms 0 (0000), 2 (0010), 8 (1000), and 10 (1010) occupy the four outer corners of a 4-variable K-map (variables A, B, C, D). Combining these four corner cells yields the group where B=0 and D=0 remain constant, resulting in the minimal term B'D'.",
+      "explanation_hi": "4-चर K-मैप में मिनटरम्स 0, 2, 8 तथा 10 चारों कोनों पर स्थित होते हैं। इन चारों कोनों को मिलाकर एक क्वाड (Quad) बनता है जिसमें चर B=0 तथा D=0 स्थिर रहते हैं, अतः न्यूनतम व्यंजक B'D' प्राप्त होता है।"
     },
     {
       "id": 31,
@@ -1258,27 +1258,27 @@ window.official_shift3 = {
       "id": 48,
       "questionNumber": 48,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "This is a Assertion and Reason type questions. This question consists of two statements, namely, Assertion (A) and Reason (R). Select the most suitable option considering the Assertion and Reason. Assertion (A) : CSS is an attribute of the tag and is used to style tables on a web page. Reason (R) : CSS is used to apply such as fonts, colors, and spacing in an HTML document.",
+      "question": "How many 2-to-1 multiplexers are required to construct a single 8-to-1 multiplexer without any external logic gates?",
+      "question_hi": "बिना किसी अतिरिक्त लॉजिक गेट के एक 8-to-1 मल्टीप्लेक्सर बनाने के लिए कितने 2-to-1 मल्टीप्लेक्सर की आवश्यकता होगी?",
       "options": {
-        "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
-        "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
-        "C": "Assertion (A) is true, but Reason (R) is false.",
-        "D": "Assertion (A) is false, but Reason (R) is true."
+        "A": "4",
+        "B": "7",
+        "C": "8",
+        "D": "15"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Assertion (A) is false, but Reason (R) is true.**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (D) correctly satisfies the circuit behavior and truth table properties.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "This is a Assertion and Reason type questions. This question consists of two statements, namely, Assertion (A) and Reason (R). Select the most suitable option considering the Assertion and Reason. Assertion (A) : CSS is an attribute of the tag and का उपयोग किसके लिए किया जाता है style tables on a web page. Reason (R) : CSS का उपयोग किसके लिए किया जाता है apply such as fonts, colors, and spacing in an HTML document.",
       "options_hi": {
-        "A": "अभिकथन (ए) और कारण (आर) दोनों सत्य हैं और कारण (आर) अभिकथन (ए) का सही स्पष्टीकरण है।",
-        "B": "अभिकथन (ए) और कारण (आर) दोनों सत्य हैं, लेकिन कारण (आर) अभिकथन (ए) की सही व्याख्या नहीं है।",
-        "C": "दावा (ए) सत्य है, लेकिन कारण (आर) गलत है।",
-        "D": "दावा (ए) गलत है, लेकिन कारण (आर) सच है।"
+        "A": "4",
+        "B": "7",
+        "C": "8",
+        "D": "15"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Assertion (A) is false, but Reason (R) is true.**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "B",
+      "explanation": "To build an N-to-1 MUX using 2-to-1 MUXes, the total number required is N - 1. For 8-to-1 MUX: 4 MUXes in the first stage, 2 in the second stage, and 1 in the third stage = 4 + 2 + 1 = 7 MUXes.",
+      "explanation_hi": "2-to-1 MUX का उपयोग करके N-to-1 MUX बनाने के लिए (N - 1) MUX की आवश्यकता होती है। 8-to-1 MUX के लिए: प्रथम चरण में 4, द्वितीय में 2, और तृतीय में 1 = 4 + 2 + 1 = 7 मल्टीप्लेक्सर लगेंगे।"
     },
     {
       "id": 49,
@@ -1362,27 +1362,27 @@ window.official_shift3 = {
       "id": 52,
       "questionNumber": 52,
       "section": "Computer Science",
-      "topic": "Programming & Data Structures",
+      "topic": "Computer Architecture",
+      "topic_hi": "कंप्यूटर आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following refers to the level of data abstraction that describes exactly the data stored?",
+      "question": "Which addressing mode is most suitable for supporting relocatable code and accessing local variables on a runtime stack?",
+      "question_hi": "रनटाइम स्टैक पर स्थानीय चरों तक पहुँचने और रिलोकेटेबल कोड का समर्थन करने के लिए कौन सा एड्रेसिंग मोड सबसे उपयुक्त है?",
       "options": {
-        "A": "Conceptual Level",
-        "B": "Physical Level",
-        "C": "File Level",
-        "D": "Logical Level"
+        "A": "Direct Addressing Mode",
+        "B": "Base-Register / Base-Offset Addressing Mode",
+        "C": "Immediate Addressing Mode",
+        "D": "Absolute Addressing Mode"
+      },
+      "options_hi": {
+        "A": "डायरेक्ट एड्रेसिंग मोड",
+        "B": "बेस-रजिस्टर / बेस-ऑफसेट एड्रेसिंग मोड",
+        "C": "इमीडिएट एड्रेसिंग मोड",
+        "D": "एब्सोल्यूट एड्रेसिंग मोड"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) Physical Level**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (B) reflects the standard behavior and complexity bounds.",
-      "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "निम्नलिखित में से कौन सा refers to the level of डेटा एब्स्ट्रैक्शन that describes exactly the data stored?",
-      "options_hi": {
-        "A": "वैचारिक स्तर",
-        "B": "भौतिक स्तर",
-        "C": "File Level",
-        "D": "तार्किक स्तर"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Physical Level?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation": "Base-Register (or Base-Offset) addressing computes the effective address by adding an offset (displacement) to the contents of a base pointer register (such as EBP/RBP in x86). This allows stack frame local variable access and code relocation without changing absolute memory addresses.",
+      "explanation_hi": "बेस-रजिस्टर एड्रेसिंग मोड में बेस रजिस्टर (जैसे EBP) के मान में ऑफसेट जोड़कर प्रभावी पता प्राप्त किया जाता है। यह स्टैक फ्रेम में स्थानीय चरों तक पहुंचने और कोड को मेमोरी में कहीं भी रिलोकेट करने के लिए आदर्श है।"
     },
     {
       "id": 53,
@@ -2532,27 +2532,27 @@ window.official_shift3 = {
       "id": 97,
       "questionNumber": 97,
       "section": "Computer Science",
-      "topic": "Computer Networks",
+      "topic": "Computer Architecture",
+      "topic_hi": "कंप्यूटर आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Questions given below is of Assertion and Reason type question. This question consists of two statements, namely, Assertion (A) and Reason (R). Select the most suitable option considering the Assertion and Reason. Assertion (A) : It becomes difficult to update and maintain a website’s design using CSS. Reason (R) : CSS web developers to separate the presentation layer (styles and layout) from the layer (HTML).",
+      "question": "In a 5-stage instruction pipeline (IF, ID, EX, MEM, WB), what type of data hazard occurs when an instruction depends on the result of a previous instruction that has not yet been written back?",
+      "question_hi": "5-स्टेज निर्देश पाइपलाइन (IF, ID, EX, MEM, WB) में, जब कोई निर्देश पिछले निर्देश के परिणाम पर निर्भर करता है जो अभी तक राइट बैक नहीं हुआ है, तो किस प्रकार का डेटा हैज़र्ड उत्पन्न होता है?",
       "options": {
-        "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
-        "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
-        "C": "Assertion (A) is true, but Reason (R) is false.",
-        "D": "Assertion (A) is false, but Reason (R) is true."
+        "A": "RAW (Read After Write / True Data Dependency)",
+        "B": "WAR (Write After Read / Anti-dependency)",
+        "C": "WAW (Write After Write / Output dependency)",
+        "D": "Structural Hazard"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Assertion (A) is false, but Reason (R) is true.**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (D) correctly satisfies the circuit behavior and truth table properties.",
-      "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "नीचे दिए गए प्रश्न अभिकथन और कारण प्रकार के प्रश्न हैं। इस प्रश्न में दो कथन हैं, अर्थात् दावा (ए) और कारण (आर)। अभिकथन और कारण पर विचार करते हुए सबसे उपयुक्त विकल्प का चयन करें। दावा (ए): सीएसएस का उपयोग करके वेबसाइट के डिज़ाइन को अपडेट करना और बनाए रखना मुश्किल हो जाता है। कारण (आर): सीएसएस वेब डेवलपर्स प्रस्तुति परत (शैलियों और लेआउट) को परत (एचटीएमएल) से अलग करते हैं।",
       "options_hi": {
-        "A": "अभिकथन (ए) और कारण (आर) दोनों सत्य हैं और कारण (आर) अभिकथन (ए) का सही स्पष्टीकरण है।",
-        "B": "अभिकथन (ए) और कारण (आर) दोनों सत्य हैं, लेकिन कारण (आर) अभिकथन (ए) की सही व्याख्या नहीं है।",
-        "C": "दावा (ए) सत्य है, लेकिन कारण (आर) गलत है।",
-        "D": "दावा (ए) गलत है, लेकिन कारण (आर) सच है।"
+        "A": "RAW (रीड आफ्टर राइट / ट्रू डेटा डिपेंडेंसी)",
+        "B": "WAR (राइट आफ्टर रीड / एंटी-डिपेंडेंसी)",
+        "C": "WAW (राइट आफ्टर राइट / आउटपुट डिपेंडेंसी)",
+        "D": "स्ट्रक्चरल हैज़र्ड"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Assertion (A) is false, but Reason (R) is true.**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "A Read After Write (RAW) hazard occurs when instruction j tries to read a register before instruction i writes to it (i < j). This is the most common data hazard in pipelined execution and is resolved using data forwarding (bypassing) or pipeline stalls (bubbles).",
+      "explanation_hi": "RAW (Read After Write) हैज़र्ड तब उत्पन्न होता है जब बाद वाला निर्देश किसी रजिस्टर को पहले पढ़ने की कोशिश करता है जबकि पहला निर्देश उसमें मान लिखने वाला होता है। इसे डेटा फॉरवर्डिंग ( बाईपासिंग) या स्टाल द्वारा हल किया जाता है।"
     },
     {
       "id": 98,
@@ -3676,27 +3676,27 @@ window.official_shift3 = {
       "id": 141,
       "questionNumber": 141,
       "section": "Other Skills",
-      "topic": "General Knowledge",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Choose the correct option instead of the question mark in the given question. Mango : Fruit :: Onion : ?",
+      "question": "Which lake in Bihar was declared as the state's FIRST Ramsar Site (Wetland of International Importance)?",
+      "question_hi": "बिहार की किस झील को राज्य का पहला रामसर स्थल (अंतर्राष्ट्रीय महत्व का आर्द्रभूमि) घोषित किया गया था?",
       "options": {
-        "A": "Root",
-        "B": "Fruit",
-        "C": "Flower",
-        "D": "Stem"
+        "A": "Kanwar Lake (Kabartal), Begusarai",
+        "B": "Gogabil Lake, Katihar",
+        "C": "Kusheshwar Asthan Lake, Darbhanga",
+        "D": "Barela Lake, Vaishali"
       },
-      "correctAnswer": "D",
-      "explanation": "**Correct Answer: (D) Stem**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key.",
-      "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "दिए गए प्रश्न में प्रश्न चिह्न के स्थान पर सही विकल्प का चयन करें। आम : फल :: प्याज : ?",
       "options_hi": {
-        "A": "जड़",
-        "B": "फल",
-        "C": "Flower",
-        "D": "तना"
+        "A": "कांवर झील (काबरताल), बेगूसराय",
+        "B": "गोगाबिल झील, कटिहार",
+        "C": "कुशेश्वर अस्थान झील, दरभंगा",
+        "D": "बरेला झील, वैशाली"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Stem?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "correctAnswer": "A",
+      "explanation": "Kanwar Lake (Kabartal) in Begusarai district was designated as Bihar's first Ramsar site in July 2020. It is one of Asia's largest freshwater oxbow lakes, formed by the meandering Gandak river.",
+      "explanation_hi": "बेगूसराय स्थित काबरताल (कांवर झील) एशिया की सबसे बड़ी मीठे पानी की गोखुर (Oxbow) झील है, जिसे 2020 में बिहार का पहला रामसर स्थल घोषित किया गया।"
     },
     {
       "id": 142,

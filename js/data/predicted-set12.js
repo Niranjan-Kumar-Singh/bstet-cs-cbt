@@ -2999,546 +2999,546 @@ window.predicted_set12 = {
       "questionNumber": 115,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 10), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
-      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 10) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
+      "question": "Which defense mechanism is operating when a person who is reprimanded by their boss at work comes home and yells at their spouse and children?",
+      "question_hi": "जब कोई व्यक्ति जिसे काम पर अपने बॉस द्वारा डांटा जाता है, घर आकर अपने जीवनसाथी और बच्चों पर चिल्लाता है, तो कौन सा रक्षा तंत्र काम कर रहा होता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Displacement",
+        "B": "Sublimation",
+        "C": "Rationalization",
+        "D": "Reaction Formation"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "विस्थापन (Displacement)",
+        "B": "उदात्तीकरण",
+        "C": "युक्तिकरण",
+        "D": "प्रतिक्रिया निर्माण"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 10 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
+      "explanation": "Displacement involves redirecting an emotional impulse (like anger or frustration) from its original, threatening target (boss) onto a safer, less threatening substitute target (family members).",
+      "explanation_hi": "विस्थापन (Displacement) में व्यक्ति अपने क्रोध या निराशा को मूल शक्तिशाली व्यक्ति (बॉस) पर व्यक्त न कर पाने के कारण किसी कमजोर या सुरक्षित व्यक्ति/वस्तु (बच्चे या पत्नी) पर निकाल देता है।"
     },
     {
       "id": 116,
       "questionNumber": 116,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 11), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
-      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 11) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
+      "question": "Which defense mechanism is operating when an individual vigorously preaches extreme moral puritanism in public to unconsciously mask strong repressed immoral impulses?",
+      "question_hi": "जब कोई व्यक्ति अपने दमित अनैतिक आवेगों को छिपाने के लिए जनता में अत्यधिक नैतिक शुद्धता का जोरदार प्रचार करता है, तो कौन सी रक्षात्मक युक्ति काम कर रही होती है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Reaction Formation",
+        "B": "Regression",
+        "C": "Projection",
+        "D": "Intellectualization"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "प्रतिक्रिया निर्माण / विपरीत रचना (Reaction Formation)",
+        "B": "प्रतिगमन",
+        "C": "प्रक्षेपण",
+        "D": "बौद्धिकीकरण"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 11 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
+      "explanation": "Reaction Formation unconsciously replaces an anxiety-provoking impulse with its direct opposite behavior in exaggerated, fanatical form (e.g., hiding intense hate beneath ostentatious displays of love).",
+      "explanation_hi": "प्रतिक्रिया निर्माण (Reaction Formation) में व्यक्ति अपने वास्तविक दमित विचारों या भावनाओं के बिल्कुल विपरीत व्यवहार अत्यधिक दिखावटी रूप से करने लगता है (जैसे मन में नफरत होने पर बाहर से बहुत मीठा बोलना)।"
     },
     {
       "id": 117,
       "questionNumber": 117,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 12), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
-      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 12) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
+      "question": "In Joseph Renzulli's Three-Ring Conception of Giftedness, which three overlapping traits define gifted behavior?",
+      "question_hi": "जोसेफ रेन्जुली की 'तीन-छल्लेदार प्रतिभा अवधारणा' (Three-Ring Conception of Giftedness) में कौन से तीन परस्पर जुड़े लक्षण प्रतिभाशाली व्यवहार को परिभाषित करते हैं?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Above-Average Ability, High Task Commitment (motivation), and High Creativity",
+        "B": "High IQ, High Speed, and Neat Handwriting",
+        "C": "Physical Fitness, Musical Talent, and Punctuality",
+        "D": "Wealthy Background, Foreign Travel, and Memory"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "औसत से अधिक क्षमता (Above-Average Ability), उच्च कार्य प्रतिबद्धता (Task Commitment), और उच्च रचनात्मकता (Creativity)",
+        "B": "उच्च आईक्यू, उच्च गति और साफ लिखावट",
+        "C": "शारीरिक फिटनेस, संगीतमय प्रतिभा और समय की पाबंदी",
+        "D": "अमीर पृष्ठभूमि, विदेश यात्रा और स्मृति"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 12 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
+      "explanation": "Renzulli proved that gifted accomplishments result not from high IQ alone, but from the intersection of: 1) Above-average intellectual ability, 2) High creativity, and 3) High task commitment/perseverance.",
+      "explanation_hi": "रेन्जुली के 3-छल्लेदार मॉडल (3-Ring Model) के अनुसार प्रतिभा केवल IQ से नहीं बल्कि तीन तत्वों के संगम से बनती है: 1. औसत से अधिक बौद्धिक क्षमता, 2. उच्च रचनात्मकता, और 3. उच्च कार्य प्रतिबद्धता/लगन।"
     },
     {
       "id": 118,
       "questionNumber": 118,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 13), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
-      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 13) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
+      "question": "In educational acceleration for gifted students, what is 'Grade Skipping'?",
+      "question_hi": "प्रतिभाशाली छात्रों के लिए शैक्षणिक त्वरण (Acceleration) में 'कक्षा छोड़ना / ग्रेड स्किपिंग' (Grade Skipping) क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Advancing a highly gifted student directly to a higher academic grade ahead of their chronological age group",
+        "B": "Expelling a student from school",
+        "C": "Skipping difficult homework assignments",
+        "D": "Promoting all students automatically without exams"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "एक अत्यधिक प्रतिभाशाली छात्र को उसकी कालानुक्रमिक आयु वर्ग से आगे सीधे एक उच्च शैक्षणिक कक्षा में पदोन्नत करना",
+        "B": "एक छात्र को स्कूल से निष्कासित करना",
+        "C": "कठिन गृहकार्य असाइनमेंट छोड़ना",
+        "D": "बिना परीक्षा के सभी छात्रों को स्वतः पास करना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 13 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
+      "explanation": "Acceleration (grade skipping, early entrance, or compacting) allows academically advanced learners to move through educational programs at an accelerated rate matching their advanced cognitive pace.",
+      "explanation_hi": "ग्रेड स्किपिंग (Grade Skipping / त्वरण) प्रतिभाशाली बालकों के लिए एक शैक्षणिक रणनीति है जिसमें असाधारण रूप से मेधावी बच्चे को उसकी वास्तविक उम्र से आगे की उच्च कक्षा में सीधे प्रवेश दे दिया जाता है।"
     },
     {
       "id": 119,
       "questionNumber": 119,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 14), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
-      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 14) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
+      "question": "What are the key functions of QR-coded 'Energized Textbooks' developed under India's DIKSHA platform?",
+      "question_hi": "भारत के दीक्षा (DIKSHA) प्लेटफॉर्म के तहत विकसित क्यूआर-कोडित 'एनर्जाइज्ड पाठ्यपुस्तकों' के मुख्य कार्य क्या हैं?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Scanning the embedded QR codes gives students and teachers instant digital access to linked video lessons, interactive 3D models, worksheets, and formative quizzes",
+        "B": "They lock the physical textbook with a digital password",
+        "C": "They record students' fingerprint biometric attendance",
+        "D": "They track the physical GPS location of the student's bag"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "एम्बेडेड क्यूआर कोड को स्कैन करने से छात्रों और शिक्षकों को लिंक्ड वीडियो पाठ, 3D मॉडल, वर्कशीट और क्विज तक त्वरित डिजिटल पहुंच मिलती है",
+        "B": "वे डिजिटल पासवर्ड से भौतिक पाठ्यपुस्तक को लॉक करते हैं",
+        "C": "वे छात्रों की फिंगरप्रिंट बायोमेट्रिक उपस्थिति दर्ज करते हैं",
+        "D": "वे छात्र के बस्ते के भौतिक जीपीएस स्थान को ट्रैक करते हैं"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 14 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
+      "explanation": "DIKSHA's Energized Textbooks feature printed QR codes beside textbook chapters. Scanning with a smartphone camera launches chapter-aligned interactive digital multimedia learning resources.",
+      "explanation_hi": "दीक्षा (DIKSHA) की एनर्जाइज्ड पाठ्यपुस्तकों में अध्यायों के पास क्यूआर कोड छपे होते हैं। इन्हें स्कैन करने पर बच्चे को उस पाठ से संबंधित वीडियो, ऑडियो, वर्कशीट और अभ्यास प्रश्न तुरंत मिल जाते हैं।"
     },
     {
       "id": 120,
       "questionNumber": 120,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 15), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
-      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 15) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
+      "question": "In educational measurement, what is 'Construct Validity'?",
+      "question_hi": "शैक्षिक मापन में 'रचनात्मक / संरचनात्मक वैधता' (Construct Validity) क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "The degree to which a test successfully measures a theoretical, unobservable psychological construct or trait (such as intelligence, anxiety, or creativity)",
+        "B": "The physical strength of the examination desk",
+        "C": "The spelling accuracy of the test instructions",
+        "D": "The speed at which test papers are printed"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "वह सीमा जिस तक कोई परीक्षण किसी सैद्धांतिक, प्रत्यक्ष रूप से न दिखने वाले मनोवैज्ञानिक गुण या विशेषता (जैसे बुद्धि, चिंता या रचनात्मकता) को सफलतापूर्वक मापता है",
+        "B": "परीक्षा डेस्क की भौतिक मजबूती",
+        "C": "परीक्षण निर्देशों की वर्तनी सटीकता",
+        "D": "जिस गति से परीक्षण पत्र मुद्रित होते हैं"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 15 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
+      "explanation": "Construct validity assesses whether a test truly reflects the underlying psychological construct it claims to measure, established through convergent and discriminant evidence.",
+      "explanation_hi": "संरचनात्मक वैधता (Construct Validity) यह जांचती है कि कोई परीक्षण उस अमूर्त मनोवैज्ञानिक गुण (जैसे बुद्धि, अभिरुचि, रचनात्मकता) को कितनी शुद्धता से माप रहा है जिसके लिए उसे बनाया गया है।"
     },
     {
       "id": 121,
       "questionNumber": 121,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 16), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
-      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 16) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
+      "question": "What is 'Split-Half Reliability' of a test, and what mathematical formula is used to correct the reliability coefficient for the full test length?",
+      "question_hi": "किसी परीक्षण की 'विभाजित-अर्ध विश्वसनीयता' (Split-Half Reliability) क्या है, और पूर्ण परीक्षण लंबाई के लिए विश्वसनीयता गुणांक को सही करने के लिए किस सूत्र का उपयोग किया जाता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Splitting test items into two halves (odd vs even), correlating the scores, and applying the Spearman-Brown Prophecy Formula: r_total = (2 * r_half) / (1 + r_half)",
+        "B": "Dividing class scores by the number of boys and girls",
+        "C": "Halving the examination time limit",
+        "D": "Taking the square root of the mean score"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "प्रश्नों को दो हिस्सों (विषम बनाम सम) में विभाजित करना, अंकों का सहसंबंध निकालना, और स्पीयरमैन-ब्राउन भविष्यवाणी सूत्र लागू करना: r_total = (2 * r_half) / (1 + r_half)",
+        "B": "लड़कों और लड़कियों की संख्या से कक्षा के अंकों को विभाजित करना",
+        "C": "परीक्षा की समय सीमा को आधा करना",
+        "D": "औसत स्कोर का वर्गमूल लेना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 16 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
+      "explanation": "Split-half reliability measures internal consistency by splitting an exam into odd and even items. Because halving the test artificially reduces reliability, the Spearman-Brown formula restores the full-length coefficient.",
+      "explanation_hi": "विभाजित-अर्ध विधि में एक ही परीक्षा के प्रश्नों को दो बराबर भागों (सम और विषम प्रश्न) में बांटकर सहसंबंध निकाला जाता है। पूरे टेस्ट की विश्वसनीयता ज्ञात करने के लिए स्पीयरमैन-ब्राउन सूत्र का उपयोग किया जाता है।"
     },
     {
       "id": 122,
       "questionNumber": 122,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 17), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
-      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 17) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
+      "question": "What does a 'Positively Skewed' score distribution indicate about the difficulty of an examination?",
+      "question_hi": "परीक्षा अंकों का 'धनात्मक रूप से विषम' (Positively Skewed) वितरण परीक्षा की कठिनाई के बारे में क्या दर्शाता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "The exam was relatively difficult: the majority of students received low scores, clustering on the left with a long tail extending toward higher marks",
+        "B": "The exam was extremely easy: almost everyone scored above 90%",
+        "C": "The scores are distributed in a perfect symmetrical bell curve",
+        "D": "No student appeared for the exam"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "परीक्षा अपेक्षाकृत कठिन थी: अधिकांश छात्रों ने कम अंक प्राप्त किए (बाईं ओर क्लस्टर) और पूंछ उच्च अंकों की ओर दाईं ओर खिंची हुई है",
+        "B": "परीक्षा अत्यंत सरल थी: लगभग सभी ने 90% से अधिक अंक प्राप्त किए",
+        "C": "अंक एक पूर्ण सममित घंटी वक्र में वितरित हैं",
+        "D": "कोई भी छात्र परीक्षा में शामिल नहीं हुआ"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 17 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
+      "explanation": "In a positively skewed distribution, the mass of the distribution is concentrated on the left (low scores) with the mean pulled higher than the median and mode (Mean > Median > Mode), indicating a challenging examination.",
+      "explanation_hi": "धनात्मक विषम (Positively Skewed) वितरण का अर्थ है कि परीक्षा काफी कठिन थी; अधिकांश छात्रों के अंक कम आए हैं और औसत प्राप्तांक (Mean), माध्यिका और बहुलक से अधिक हो जाता है (Mean > Median > Mode)।"
     },
     {
       "id": 123,
       "questionNumber": 123,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 18), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
-      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 18) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
+      "question": "In Edgar Dale's Cone of Experience, what is placed at the very APEX (top) representing the most abstract form of learning?",
+      "question_hi": "एडगर डेल के 'अनुभव के शंकु' (Cone of Experience) में सबसे शीर्ष (Apex) पर क्या रखा गया है जो सीखने के सबसे अमूर्त रूप का प्रतिनिधित्व करता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Verbal Symbols (spoken words and written text)",
+        "B": "Direct purposeful experiences",
+        "C": "Educational television",
+        "D": "Field study trips"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "मौखिक / शाब्दिक प्रतीक (Verbal Symbols - शब्द और लिखित पाठ)",
+        "B": "प्रत्यक्ष उद्देश्यपूर्ण अनुभव",
+        "C": "शैक्षिक टेलीविजन",
+        "D": "क्षेत्रीय अध्ययन यात्राएं"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 18 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
+      "explanation": "Verbal Symbols (abstract written and spoken language) sit at the apex of Dale's Cone, requiring the highest level of conceptual decoding and sensory detachment.",
+      "explanation_hi": "एडगर डेल के शंकु के शीर्ष पर 'शाब्दिक प्रतीक' (Verbal Symbols) आते हैं क्योंकि शब्द और भाषा सबसे अधिक अमूर्त (Abstract) होते हैं।"
     },
     {
       "id": 124,
       "questionNumber": 124,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 19), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
-      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 19) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
+      "question": "In Dale's Cone of Experience, where do 'Dramatized Experiences' (role-playing, historical reenactments) fall?",
+      "question_hi": "डेल के अनुभव शंकु में 'नाटकीय अनुभव' (Dramatized Experiences / भूमिका निर्वहन) कहाँ आते हैं?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Between direct purposeful experiences and demonstrations, providing active participation when real events cannot be experienced directly",
+        "B": "At the very top with abstract symbols",
+        "C": "At the bottom with direct experiences",
+        "D": "Dramatized experiences are excluded from Dale's Cone"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "प्रत्यक्ष उद्देश्यपूर्ण अनुभवों और प्रदर्शनों के बीच, जब वास्तविक घटनाओं का सीधा अनुभव नहीं किया जा सकता तो सक्रिय भागीदारी प्रदान करना",
+        "B": "अमूर्त प्रतीकों के साथ सबसे ऊपर",
+        "C": "प्रत्यक्ष अनुभवों के साथ सबसे नीचे",
+        "D": "नाटकीय अनुभवों को डेल के शंकु से बाहर रखा गया है"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 19 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
+      "explanation": "Dramatized experiences (plays, pageants, role-playing) reconstruct real-life historical or social scenarios that pupils cannot physically live through, providing rich sensory and emotional involvement.",
+      "explanation_hi": "नाटकीय अनुभव (Dramatized Experiences) छात्रों को किसी ऐतिहासिक या सामाजिक प्रसंग में अभिनय करके सीखने का अवसर देते हैं, जिससे अमूर्त इतिहास मूर्त और सजीव बन जाता है।"
     },
     {
       "id": 125,
       "questionNumber": 125,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 20), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
-      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 20) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
+      "question": "In Dale's Cone of Experience, why are 'Field Study Trips' considered superior to merely viewing still pictures in a classroom?",
+      "question_hi": "डेल के अनुभव शंकु में, कक्षा में स्थिर चित्र देखने की तुलना में 'क्षेत्रीय अध्ययन यात्राओं' (Field Trips) को बेहतर क्यों माना जाता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "They allow students to observe real phenomena, natural ecosystems, and working machines in their authentic real-world contexts",
+        "B": "They eliminate the need for student discipline",
+        "C": "They require no teacher preparation",
+        "D": "They guarantee 100% exam pass rates"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "वे छात्रों को उनके प्रामाणिक वास्तविक दुनिया के संदर्भों में वास्तविक घटनाओं, प्राकृतिक पारिस्थितिकी तंत्रों और मशीनों का निरीक्षण करने की अनुमति देते हैं",
+        "B": "वे छात्र अनुशासन की आवश्यकता को समाप्त करते हैं",
+        "C": "उन्हें किसी शिक्षक की तैयारी की आवश्यकता नहीं होती",
+        "D": "वे 100% परीक्षा उत्तीर्ण दर की गारंटी देते हैं"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 20 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
+      "explanation": "Field trips expose learners to holistic, authentic environmental phenomena in situ (in their natural habitats or industrial settings), engaging multiple senses simultaneously.",
+      "explanation_hi": "शैक्षिक भ्रमण (Field Trips) छात्रों को वास्तविक प्राकृतिक परिवेश, कारखानों या संग्रहालयों में ले जाकर प्रत्यक्ष अवलोकन का अवसर देते हैं, जिससे ज्ञान व्यावहारिक बनता है।"
     },
     {
       "id": 126,
       "questionNumber": 126,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 21), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
-      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 21) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
+      "question": "In Ned Flanders' Interaction Analysis Categories (FIAC), which category represents teacher behavior that 'Praises or Encourages' student action?",
+      "question_hi": "नेड फ्लैंडर्स की अंतःक्रिया विश्लेषण श्रेणियों (FIAC) में, कौन सी श्रेणी शिक्षक के उस व्यवहार का प्रतिनिधित्व करती है जो छात्र के कार्य की 'प्रशंसा या प्रोत्साहन' करता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Category 2: Praises or Encourages",
+        "B": "Category 1: Accepts feelings",
+        "C": "Category 4: Asks questions",
+        "D": "Category 6: Giving directions"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "श्रेणी 2: प्रशंसा या प्रोत्साहन (Praises or Encourages)",
+        "B": "श्रेणी 1: भावनाओं को स्वीकार करना",
+        "C": "श्रेणी 4: प्रश्न पूछना",
+        "D": "श्रेणी 6: निर्देश देना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 21 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
+      "explanation": "FIAC Category 2 records positive teacher verbal reinforcement: praising student answers, telling jokes that release tension, saying 'good', 'go on', or nodding encouragingly.",
+      "explanation_hi": "फ्लैंडर्स की श्रेणी 2 (Category 2) शिक्षक द्वारा छात्र के अच्छे उत्तर की प्रशंसा करने, उसका उत्साह बढ़ाने और कक्षा में तनावमुक्त माहौल बनाने से संबंधित है।"
     },
     {
       "id": 127,
       "questionNumber": 127,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 22), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
-      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 22) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
+      "question": "In Flanders' FIAC system, which category corresponds to 'Category 4'?",
+      "question_hi": "फ्लैंडर्स की FIAC प्रणाली में 'श्रेणी 4' (Category 4) किससे संबंधित है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Asking Questions about content or procedure with the intent that a student answers",
+        "B": "Lecturing and delivering facts",
+        "C": "Giving authoritative commands",
+        "D": "Silence or confusion"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "सामग्री या प्रक्रिया के बारे में इस इरादे से प्रश्न पूछना कि कोई छात्र उत्तर दे (Asks Questions)",
+        "B": "व्याख्यान देना और तथ्य बताना",
+        "C": "आधिकारिक आदेश देना",
+        "D": "मौन या भ्रम"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 22 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
+      "explanation": "Category 4 in Flanders' Interaction Analysis codes teacher questions based on subject content or classroom procedure, expecting an active student response.",
+      "explanation_hi": "श्रेणी 4 (Category 4) शिक्षक द्वारा विषय-वस्तु पर प्रश्न पूछने से संबंधित है ताकि छात्र सोचें और सक्रिय रूप से उत्तर दें।"
     },
     {
       "id": 128,
       "questionNumber": 128,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 23), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
-      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 23) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
+      "question": "In Flanders' FIAC system, which category represents 'Student Talk - Initiation' (छात्र कथन - पहल)?",
+      "question_hi": "फ्लैंडर्स की FIAC प्रणाली में कौन सी श्रेणी 'छात्र कथन - पहल' (Student Talk - Initiation) का प्रतिनिधित्व करती है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Category 9: Student Talk - Initiation",
+        "B": "Category 8: Student Talk - Response",
+        "C": "Category 10: Silence",
+        "D": "Category 5: Lecturing"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "श्रेणी 9: छात्र कथन - पहल (Student Talk - Initiation)",
+        "B": "श्रेणी 8: छात्र कथन - प्रतिक्रिया",
+        "C": "श्रेणी 10: मौन",
+        "D": "श्रेणी 5: व्याख्यान"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 23 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
+      "explanation": "Category 8 is Student Talk - Response (answering a teacher question). Category 9 is Student Talk - Initiation (students volunteering unsolicited original ideas, asking new questions, initiating discussion).",
+      "explanation_hi": "श्रेणी 8 तब कोड की जाती है जब छात्र शिक्षक के सवाल का जवाब देता है (Response)। श्रेणी 9 तब होती है जब छात्र अपनी मर्जी से कोई नया विचार या प्रश्न स्वयं शुरू करता है (Initiation)।"
     },
     {
       "id": 129,
       "questionNumber": 129,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 24), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
-      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 24) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
+      "question": "What does Category 10 represent in Flanders' FIAC classroom observation system?",
+      "question_hi": "फ्लैंडर्स की FIAC कक्षा अवलोकन प्रणाली में श्रेणी 10 (Category 10) क्या दर्शाती है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Pauses, short periods of silence, and periods of confusion in which communication cannot be understood",
+        "B": "Continuous teacher lecture",
+        "C": "Writing notes on the blackboard",
+        "D": "Students solving math problems quietly on paper"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "विराम, मौन की छोटी अवधियां, और भ्रम की स्थितियां जिनमें संवाद को समझा नहीं जा सकता (Silence or Confusion)",
+        "B": "निरंतर शिक्षक व्याख्यान",
+        "C": "श्यामपट्ट पर नोट्स लिखना",
+        "D": "छात्र कागज पर चुपचाप गणित हल कर रहे हैं"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 24 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
+      "explanation": "Category 10 is reserved for moments when verbal communication stops: pauses, thinking silence, or noisy classroom confusion where specific verbal interaction cannot be discerned by the observer.",
+      "explanation_hi": "श्रेणी 10 (Silence or Confusion) कक्षा में मौन, सोचने के समय या उस अव्यवस्था/शोर को दर्शाती है जहाँ स्पष्ट रूप से यह समझ न आए कि कौन क्या बोल रहा है।"
     },
     {
       "id": 130,
       "questionNumber": 130,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Bruner's Spiral Curriculum - Scenario 25), which instructional strategy best reflects this principle: 'Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity'?",
-      "question_hi": "शिक्षण अभ्यास (ब्रूनर का सर्पिल पाठ्यक्रम - परिदृश्य 25) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है'?",
+      "question": "In Johann Friedrich Herbart's lesson planning, what is the core purpose of the 'Association / Comparison' (तुलना / संबद्धता) step?",
+      "question_hi": "हर्बर्ट की पाठ योजना में 'संबद्धता / तुलना' (Association / Comparison) पद का मुख्य उद्देश्य क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Carefully comparing new ideas with previously learned concepts to identify similarities, differences, and relationships",
+        "B": "Announcing the aim of the lesson",
+        "C": "Giving homework exercises",
+        "D": "Assigning final letter grades"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "समानताओं, अंतरों और संबंधों की पहचान करने के लिए नए विचारों की पूर्व में सीखी गई अवधारणाओं से सावधानीपूर्वक तुलना करना",
+        "B": "पाठ के उद्देश्य की घोषणा करना",
+        "C": "गृहकार्य अभ्यास देना",
+        "D": "अंतिम अक्षर ग्रेड देना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 25 exemplifies Bruner's Spiral Curriculum: Revisits foundational concepts iteratively across schooling with increasing depth, abstraction, and complexity.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: बुनियादी अवधारणाओं को बढ़ती जटिलता और अमूर्तता के साथ बार-बार दोहराता है।"
+      "explanation": "In Herbart's step 3 (Association), the teacher assists students in comparing the newly presented material with known facts, highlighting analogies and distinguishing features.",
+      "explanation_hi": "हर्बर्ट के तीसरे पद 'संबद्धता या तुलना' (Association) में नए ज्ञान को पूर्व ज्ञान के साथ तुलना करके देखा जाता है कि उनमें क्या समानताएं और क्या अंतर हैं।"
     },
     {
       "id": 131,
       "questionNumber": 131,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world' (Context 2)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world' (संदर्भ 2)?",
+      "question": "Which of the following is an effective microbial method of cleaning up petroleum oil spills in oceans?",
+      "question_hi": "समुद्र में तेल रिसाव (Oil Spills) को साफ करने के लिए निम्नलिखित में से कौन सी एक प्रभावी सूक्ष्मजैविक विधि है?",
       "options": {
-        "A": "East Champaran (Motihari)",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Bioremediation (using oil-degrading hydrocarbonoclastic bacteria like Pseudomonas putida)",
+        "B": "Sprinkling powdered quicklime",
+        "C": "Setting fire to the open ocean surface",
+        "D": "Draining the entire seawater into deep abyssal trenches"
       },
       "options_hi": {
-        "A": "पूर्वी चंपारण",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "जैवोपचार (Bioremediation - स्यूडोमोनास पुटिडा जैसे हाइड्रोकार्बन-विघटक बैक्टीरिया का उपयोग)",
+        "B": "सूखा चूना छिड़कना",
+        "C": "समुद्र की सतह पर आग लगाना",
+        "D": "पूरे समुद्री जल को गहरी खाइयों में बहाना"
       },
       "correctAnswer": "A",
-      "explanation": "East Champaran (Motihari) is renowned across Bihar for: Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world.",
-      "explanation_hi": "पूर्वी चंपारण का ऐतिहासिक व भौगोलिक महत्व: Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world।"
+      "explanation": "Bioremediation uses microorganisms (such as the genetically engineered 'superbug' Pseudomonas putida developed by Dr. Ananda Mohan Chakrabarty) to degrade toxic hydrocarbons into harmless CO2 and water.",
+      "explanation_hi": "जैवोपचार (Bioremediation) में सूक्ष्मजीवों (जैसे स्यूडोमोनास जीवाणु) का उपयोग तेल रिसाव के हाइड्रोकार्बन को जैविक रूप से विघटित कर पर्यावरण को स्वच्छ बनाने में किया जाता है।"
     },
     {
       "id": 132,
       "questionNumber": 132,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world' (Context 3)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world' (संदर्भ 3)?",
+      "question": "What is the primary function of the 'Core Zone' in a designated Biosphere Reserve?",
+      "question_hi": "एक नामित बायोस्फीयर रिजर्व में 'कोर जोन' (Core Zone) का प्राथमिक कार्य क्या है?",
       "options": {
-        "A": "East Champaran (Motihari)",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Strictly protected wilderness area legally preserved free from all human disturbance",
+        "B": "Commercial industrial manufacturing sector",
+        "C": "Agricultural farming and cattle grazing zone",
+        "D": "Public amusement and water park complex"
       },
       "options_hi": {
-        "A": "पूर्वी चंपारण",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "मानव हस्तक्षेप से पूरी तरह मुक्त कानूनी रूप से संरक्षित प्राकृतिक क्षेत्र",
+        "B": "वाणिज्यिक औद्योगिक विनिर्माण क्षेत्र",
+        "C": "कृषि और पशुपालन क्षेत्र",
+        "D": "सार्वजनिक मनोरंजन और वाटर पार्क परिसर"
       },
       "correctAnswer": "A",
-      "explanation": "East Champaran (Motihari) is renowned across Bihar for: Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world.",
-      "explanation_hi": "पूर्वी चंपारण का ऐतिहासिक व भौगोलिक महत्व: Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world।"
+      "explanation": "A Biosphere Reserve has three zones: 1. Core zone (strictly protected, no human intrusion), 2. Buffer zone (managed research and education), and 3. Transition zone (sustainable human settlements).",
+      "explanation_hi": "बायोस्फीयर रिजर्व के तीन भाग होते हैं: कोर जोन (जहाँ किसी भी मानवीय गतिविधि की अनुमति नहीं होती), बफर जोन (शोध व शिक्षा), और संक्रमण क्षेत्र (बस्तियां व टिकाऊ कृषि)।"
     },
     {
       "id": 133,
       "questionNumber": 133,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world' (Context 4)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world' (संदर्भ 4)?",
+      "question": "Which gas is primarily emitted from waterlogged anaerobic rice paddies and enteric fermentation in ruminant livestock?",
+      "question_hi": "जलभराव वाले धान के खेतों और जुगाली करने वाले मवेशियों से मुख्य रूप से कौन सी ग्रीनहाउस गैस उत्सर्जित होती है?",
       "options": {
-        "A": "East Champaran (Motihari)",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Methane (CH4)",
+        "B": "Sulfur dioxide (SO2)",
+        "C": "Chlorine gas",
+        "D": "Carbon monoxide"
       },
       "options_hi": {
-        "A": "पूर्वी चंपारण",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "मीथेन (CH4)",
+        "B": "सल्फर डाइऑक्साइड (SO2)",
+        "C": "क्लोरीन गैस",
+        "D": "कार्बन मोनोऑक्साइड"
       },
       "correctAnswer": "A",
-      "explanation": "East Champaran (Motihari) is renowned across Bihar for: Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world.",
-      "explanation_hi": "पूर्वी चंपारण का ऐतिहासिक व भौगोलिक महत्व: Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world।"
+      "explanation": "Methanogenic archaebacteria in oxygen-depleted flooded paddy soils and ruminant cow rumen digest cellulose anaerobically, releasing substantial amounts of Methane (CH4).",
+      "explanation_hi": "धान के जलमग्न खेतों में अनॉक्सी जीवाणुओं (मिथेनोजेन्स) की क्रिया तथा मवेशियों के पाचन तंत्र से मीथेन (CH4) गैस भारी मात्रा में उत्सर्जित होती है।"
     },
     {
       "id": 134,
       "questionNumber": 134,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas' (Context 1)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas' (संदर्भ 1)?",
+      "question": "What is the primary function of Earth's 'Magnetosphere'?",
+      "question_hi": "पृथ्वी के 'चुंबकीय मंडल' (Magnetosphere) का प्राथमिक कार्य क्या है?",
       "options": {
-        "A": "West Champaran",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Shielding the planet's surface and atmosphere from lethal charged solar wind particles",
+        "B": "Regulating high and low oceanic tides",
+        "C": "Generating clouds and monsoon rainfall",
+        "D": "Reflecting satellite television signals"
       },
       "options_hi": {
-        "A": "पश्चिम चंपारण",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "सौर पवन के घातक आवेशित कणों से ग्रह की सतह और वायुमंडल की रक्षा करना",
+        "B": "समुद्री ज्वार-भाटा को नियंत्रित करना",
+        "C": "बादल और मानसूनी वर्षा उत्पन्न करना",
+        "D": "उपग्रह टेलीविजन संकेतों को परावर्तित करना"
       },
       "correctAnswer": "A",
-      "explanation": "West Champaran is renowned across Bihar for: Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas.",
-      "explanation_hi": "पश्चिम चंपारण का ऐतिहासिक व भौगोलिक महत्व: Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas।"
+      "explanation": "Earth's geomagnetic field deflects harmful cosmic rays and ionized solar flares away from the planet, preventing atmospheric stripping and cellular radiation damage.",
+      "explanation_hi": "पृथ्वी का चुंबकीय क्षेत्र सूर्य से आने वाले आवेशित कणों (सौर पवनों) को अंतरिक्ष में मोड़कर पृथ्वी के वायुमंडल और जीवन की रक्षा करता है।"
     },
     {
       "id": 135,
       "questionNumber": 135,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas' (Context 2)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas' (संदर्भ 2)?",
+      "question": "What is the maximum permissible noise level for residential zones during daytime according to the Central Pollution Control Board (CPCB) of India?",
+      "question_hi": "केंद्रीय प्रदूषण नियंत्रण बोर्ड (CPCB) के अनुसार आवासीय क्षेत्रों में दिन के समय अधिकतम अनुमेय ध्वनि स्तर कितना है?",
       "options": {
-        "A": "West Champaran",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "55 dB(A)",
+        "B": "75 dB(A)",
+        "C": "90 dB(A)",
+        "D": "40 dB(A)"
       },
       "options_hi": {
-        "A": "पश्चिम चंपारण",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "55 डेसिबल (dB)",
+        "B": "75 डेसिबल",
+        "C": "90 डेसिबल",
+        "D": "40 डेसिबल"
       },
       "correctAnswer": "A",
-      "explanation": "West Champaran is renowned across Bihar for: Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas.",
-      "explanation_hi": "पश्चिम चंपारण का ऐतिहासिक व भौगोलिक महत्व: Contains the Someshwar Fort and Valmiki Tiger Reserve in the foothills of Shivalik Himalayas।"
+      "explanation": "According to Indian Noise Pollution Rules 2000, ambient noise standards for residential areas are 55 dB(A) during day time (6 AM to 10 PM) and 45 dB(A) at night.",
+      "explanation_hi": "CPCB के अनुसार आवासीय क्षेत्रों के लिए दिन के समय अनुमेय ध्वनि स्तर 55 dB(A) और रात्रि के समय 45 dB(A) निर्धारित है।"
     },
     {
       "id": 136,
@@ -3570,79 +3570,79 @@ window.predicted_set12 = {
       "id": 137,
       "questionNumber": 137,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Bioindicators of Pollution - Case 5), which statement accurately reflects this principle: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
-      "question_hi": "पर्यावरण विज्ञान (प्रदूषण के जैव-सूचक - केस 5) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
+      "question": "What is 'Fly Ash' produced as an industrial by-product in thermal power stations?",
+      "question_hi": "थर्मल पावर स्टेशनों में औद्योगिक उपोत्पाद के रूप में उत्पन्न 'फ्लाई ऐश' (Fly Ash) क्या है?",
       "options": {
-        "A": "Accurately validated by ecological principle: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "Fine powdery residue pulverized from coal combustion, widely used in cement manufacturing and bricks",
+        "B": "Volatile gas released from nuclear reactors",
+        "C": "Crushed glass from electronics factories",
+        "D": "Biological manure from poultry farming"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "कोयले के दहन से निकलने वाली महीन राख, जिसका उपयोग सीमेंट और ईंट निर्माण में किया जाता है",
+        "B": "परमाणु रिएक्टरों से निकलने वाली वाष्पशील गैस",
+        "C": "इलेक्ट्रॉनिक्स कारखानों से निकला पिसा हुआ कांच",
+        "D": "पोल्ट्री फार्म से जैविक खाद"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities.",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities।"
+      "explanation": "Fly ash is fine mineral dust carried up in flue gases during coal combustion in thermal plants. It contains silica, alumina, and iron, making it an excellent pozzolanic binder for eco-friendly cement and fly-ash bricks.",
+      "explanation_hi": "फ्लाई ऐश ताप विद्युत गृहों में कोयले के जलने से उत्पन्न होने वाली महीन राख है। पर्यावरण प्रदूषण रोकने के लिए अब इसका उपयोग सीमेंट और ईंट बनाने में अनिवार्य कर दिया गया है।"
     },
     {
       "id": 138,
       "questionNumber": 138,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Bioindicators of Pollution - Case 6), which statement accurately reflects this principle: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
-      "question_hi": "पर्यावरण विज्ञान (प्रदूषण के जैव-सूचक - केस 6) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
+      "question": "Which of the following describes the environmental concept of 'Ecological Footprint'?",
+      "question_hi": "निम्नलिखित में से कौन सा 'पारिस्थितिक पदचिह्न' (Ecological Footprint) की अवधारणा का सही वर्णन करता है?",
       "options": {
-        "A": "Accurately validated by ecological principle: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "The measure of human demand on natural capital—the biologically productive land and water area required to sustain an individual's resource consumption and absorb waste",
+        "B": "The physical size of animal paws left on mud banks",
+        "C": "The total area occupied by concrete highways in a country",
+        "D": "The depth of coal seams excavated in open-cast mines"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "मानव उपभोग को बनाए रखने और उसके कचरे को अवशोषित करने के लिए आवश्यक जैविक रूप से उत्पादक भूमि और जल का माप",
+        "B": "मिट्टी पर जानवरों के पैरों के निशानों का भौतिक आकार",
+        "C": "किसी देश में कंक्रीट राजमार्गों द्वारा घेरा गया कुल क्षेत्रफल",
+        "D": "ओपन कास्ट खदानों में खोदी गई कोयले की परतों की गहराई"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities.",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities।"
+      "explanation": "Ecological Footprint measures how much nature's biocapacity people demand for food, timber, fiber, infrastructure, and absorbing CO2 emissions, expressed in global hectares (gha).",
+      "explanation_hi": "इकोलॉजिकल फुटप्रिंट यह मापता है कि किसी व्यक्ति या समाज की जीवनशैली और उपभोग को पूरा करने के लिए प्रकृति के कितने जैविक संसाधनों और भूमि की आवश्यकता होती है।"
     },
     {
       "id": 139,
       "questionNumber": 139,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Mathematical Aptitude",
+      "topic_hi": "गणितीय योग्यता",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Bioindicators of Pollution - Case 7), which statement accurately reflects this principle: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
-      "question_hi": "पर्यावरण विज्ञान (प्रदूषण के जैव-सूचक - केस 7) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
+      "question": "If the price of sugar increases by 25%, by what percentage must a household reduce its consumption so that the total expenditure on sugar remains unchanged?",
+      "question_hi": "यदि चीनी के मूल्य में 25% की वृद्धि होती है, तो एक परिवार को चीनी की खपत में कितने प्रतिशत की कमी करनी चाहिए ताकि कुल खर्च अपरिवर्तित रहे?",
       "options": {
-        "A": "Accurately validated by ecological principle: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "20%",
+        "B": "25%",
+        "C": "16.67%",
+        "D": "30%"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "20%",
+        "B": "25%",
+        "C": "16.67%",
+        "D": "30%"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities.",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities।"
+      "explanation": "Formula: Reduction % = [r / (100 + r)] * 100. Here r = 25%. So [25 / (100 + 25)] * 100 = (25 / 125) * 100 = (1/5) * 100 = 20%.",
+      "explanation_hi": "सूत्र: खपत में % कमी = [वृद्धि % / (100 + वृद्धि %)] * 100 = [25 / 125] * 100 = 20%।"
     },
     {
       "id": 140,
@@ -3675,130 +3675,130 @@ window.predicted_set12 = {
       "questionNumber": 141,
       "section": "Other Skills",
       "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic_hi": "गणितीय योग्यता",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 7,000 at 5% annual interest for 2 years (Problem 46)?",
-      "question_hi": "7,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 46)?",
+      "question": "A shopkeeper sells an article for ₹960 and earns a profit of 20%. What was the cost price (CP) of the article?",
+      "question_hi": "एक दुकानदार एक वस्तु को ₹960 में बेचकर 20% का लाभ कमाता है। उस वस्तु का क्रय मूल्य (Cost Price) क्या था?",
       "options": {
-        "A": "Rs. 700",
-        "B": "Rs. 750",
-        "C": "Rs. 650",
-        "D": "Rs. 800"
+        "A": "₹800",
+        "B": "₹768",
+        "C": "₹820",
+        "D": "₹750"
       },
       "options_hi": {
-        "A": "700 रुपये",
-        "B": "750 रुपये",
-        "C": "650 रुपये",
-        "D": "800 रुपये"
+        "A": "₹800",
+        "B": "₹768",
+        "C": "₹820",
+        "D": "₹750"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (7000 * 5 * 2) / 100 = Rs. 700.",
-      "explanation_hi": "साधारण ब्याज = (7000 * 5 * 2) / 100 = 700 रुपये।"
+      "explanation": "SP = CP * 1.20 => 960 = CP * 1.2 => CP = 960 / 1.2 = ₹800.",
+      "explanation_hi": "क्रय मूल्य = विक्रय मूल्य * 100 / (100 + लाभ %) = 960 * 100 / 120 = ₹800।"
     },
     {
       "id": 142,
       "questionNumber": 142,
       "section": "Other Skills",
       "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic_hi": "गणितीय योग्यता",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 8,000 at 5% annual interest for 2 years (Problem 47)?",
-      "question_hi": "8,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 47)?",
+      "question": "A sum of ₹10,000 is invested at 10% per annum compound interest compounded annually. What is the total compound interest earned after 2 years?",
+      "question_hi": "₹10,000 की धनराशि 10% वार्षिक चक्रवृद्धि ब्याज की दर से निवेश की जाती है। 2 वर्ष बाद कुल कितना चक्रवृद्धि ब्याज प्राप्त होगा?",
       "options": {
-        "A": "Rs. 800",
-        "B": "Rs. 850",
-        "C": "Rs. 750",
-        "D": "Rs. 900"
+        "A": "₹2,100",
+        "B": "₹2,000",
+        "C": "₹1,210",
+        "D": "₹2,200"
       },
       "options_hi": {
-        "A": "800 रुपये",
-        "B": "850 रुपये",
-        "C": "750 रुपये",
-        "D": "900 रुपये"
+        "A": "₹2,100",
+        "B": "₹2,000",
+        "C": "₹1,210",
+        "D": "₹2,200"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (8000 * 5 * 2) / 100 = Rs. 800.",
-      "explanation_hi": "साधारण ब्याज = (8000 * 5 * 2) / 100 = 800 रुपये।"
+      "explanation": "Amount A = P(1 + r/100)^n = 10000 * (1.10)^2 = 10000 * 1.21 = ₹12,100. CI = Amount - Principal = 12100 - 10000 = ₹2,100.",
+      "explanation_hi": "मिश्रधन = 10000 * (1 + 10/100)^2 = 10000 * 1.21 = ₹12,100। चक्रवृद्धि ब्याज = 12100 - 10000 = ₹2,100।"
     },
     {
       "id": 143,
       "questionNumber": 143,
       "section": "Other Skills",
       "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic_hi": "गणितीय योग्यता",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 9,000 at 5% annual interest for 2 years (Problem 48)?",
-      "question_hi": "9,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 48)?",
+      "question": "What is the difference between Compound Interest and Simple Interest on a principal sum of ₹5,000 for 2 years at an annual interest rate of 8%?",
+      "question_hi": "₹5,000 के मूलधन पर 8% वार्षिक ब्याज दर से 2 वर्ष के लिए चक्रवृद्धि ब्याज और साधारण ब्याज के बीच क्या अंतर होगा?",
       "options": {
-        "A": "Rs. 900",
-        "B": "Rs. 950",
-        "C": "Rs. 850",
-        "D": "Rs. 1,000"
+        "A": "₹32",
+        "B": "₹40",
+        "C": "₹25",
+        "D": "₹64"
       },
       "options_hi": {
-        "A": "900 रुपये",
-        "B": "950 रुपये",
-        "C": "850 रुपये",
-        "D": "1,000 रुपये"
+        "A": "₹32",
+        "B": "₹40",
+        "C": "₹25",
+        "D": "₹64"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (9000 * 5 * 2) / 100 = Rs. 900.",
-      "explanation_hi": "साधारण ब्याज = (9000 * 5 * 2) / 100 = 900 रुपये।"
+      "explanation": "For 2 years, Difference D = P * (R / 100)^2 = 5000 * (8 / 100)^2 = 5000 * (64 / 10000) = 5000 * 0.0064 = ₹32.",
+      "explanation_hi": "2 वर्ष के लिए CI और SI का अंतर = P * (R/100)^2 = 5000 * (8/100)^2 = 5000 * (64/10000) = ₹32।"
     },
     {
       "id": 144,
       "questionNumber": 144,
       "section": "Other Skills",
       "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic_hi": "गणितीय योग्यता",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 10,000 at 5% annual interest for 2 years (Problem 49)?",
-      "question_hi": "10,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 49)?",
+      "question": "A can complete a piece of work alone in 12 days, and B can complete the same work alone in 18 days. If they work together, in how many days will the work be completed?",
+      "question_hi": "A अकेला किसी कार्य को 12 दिनों में पूरा कर सकता है और B अकेला उसी कार्य को 18 दिनों में पूरा कर सकता है। यदि वे दोनों एक साथ कार्य करें, तो कार्य कितने दिनों में पूरा होगा?",
       "options": {
-        "A": "Rs. 1,000",
-        "B": "Rs. 1,050",
-        "C": "Rs. 950",
-        "D": "Rs. 1,100"
+        "A": "7.2 days (36/5 days)",
+        "B": "6 days",
+        "C": "8 days",
+        "D": "7.5 days"
       },
       "options_hi": {
-        "A": "1,000 रुपये",
-        "B": "1,050 रुपये",
-        "C": "950 रुपये",
-        "D": "1,100 रुपये"
+        "A": "7.2 दिन (36/5 दिन)",
+        "B": "6 दिन",
+        "C": "8 दिन",
+        "D": "7.5 दिन"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (10000 * 5 * 2) / 100 = Rs. 1000.",
-      "explanation_hi": "साधारण ब्याज = (10000 * 5 * 2) / 100 = 1000 रुपये।"
+      "explanation": "Total work = LCM(12, 18) = 36 units. Efficiency of A = 3 units/day, efficiency of B = 2 units/day. Combined efficiency = 3 + 2 = 5 units/day. Days taken = 36 / 5 = 7.2 days.",
+      "explanation_hi": "कुल कार्य = LCM(12, 18) = 36 इकाई। A की कार्यक्षमता = 3, B की कार्यक्षमता = 2। दोनों मिलकर = 3 + 2 = 5 इकाई/दिन। कुल समय = 36 / 5 = 7.2 दिन।"
     },
     {
       "id": 145,
       "questionNumber": 145,
       "section": "Other Skills",
       "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic_hi": "गणितीय योग्यता",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 1,000 at 5% annual interest for 2 years (Problem 50)?",
-      "question_hi": "1,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 50)?",
+      "question": "Two pipes A and B can fill an empty cistern in 20 minutes and 30 minutes respectively. If both pipes are opened simultaneously, how long will it take to fill the cistern completely?",
+      "question_hi": "दो नल A और B एक खाली टंकी को क्रमशः 20 मिनट और 30 मिनट में भर सकते हैं। यदि दोनों नलों को एक साथ खोल दिया जाए, तो टंकी पूरी तरह भरने में कितना समय लगेगा?",
       "options": {
-        "A": "Rs. 100",
-        "B": "Rs. 150",
-        "C": "Rs. 50",
-        "D": "Rs. 200"
+        "A": "12 minutes",
+        "B": "15 minutes",
+        "C": "10 minutes",
+        "D": "25 minutes"
       },
       "options_hi": {
-        "A": "100 रुपये",
-        "B": "150 रुपये",
-        "C": "50 रुपये",
-        "D": "200 रुपये"
+        "A": "12 मिनट",
+        "B": "15 मिनट",
+        "C": "10 मिनट",
+        "D": "25 मिनट"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (1000 * 5 * 2) / 100 = Rs. 100.",
-      "explanation_hi": "साधारण ब्याज = (1000 * 5 * 2) / 100 = 100 रुपये।"
+      "explanation": "Total tank capacity = LCM(20, 30) = 60 units. Rate of A = 3 units/min, Rate of B = 2 units/min. Combined rate = 3 + 2 = 5 units/min. Time required = 60 / 5 = 12 minutes.",
+      "explanation_hi": "कुल क्षमता = 60 इकाई। नल A की गति = 3 इकाई/मिनट, नल B की गति = 2 इकाई/मिनट। दोनों की संयुक्त गति = 5 इकाई/मिनट। समय = 60 / 5 = 12 मिनट।"
     },
     {
       "id": 146,

@@ -3414,131 +3414,131 @@ window.predicted_set11 = {
       "id": 131,
       "questionNumber": 131,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara' (Context 1)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara' (संदर्भ 1)?",
+      "question": "What is the primary function of the 'Catalytic Converter' installed in automobiles?",
+      "question_hi": "ऑटोमोबाइल वाहनों में लगे 'कैटेलिटिक कन्वर्टर' (Catalytic Converter) का मुख्य कार्य क्या है?",
       "options": {
-        "A": "Nalanda",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Converting toxic CO, NOx, and unburnt hydrocarbons into less harmful CO2, N2, and H2O using platinum/palladium catalysts",
+        "B": "Increasing the top mechanical speed of the vehicle",
+        "C": "Compressing air conditioning coolant refrigerant",
+        "D": "Cooling engine lubricating oil"
       },
       "options_hi": {
-        "A": "नालंदा",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "प्लैटिनम/पैलेडियम उत्प्रेरकों का उपयोग करके जहरीली CO, NOx और हाइड्रोकार्बन को CO2, N2 और जलवाष्प में बदलना",
+        "B": "वाहन की शीर्ष गति को बढ़ाना",
+        "C": "एयर कंडीशनिंग शीतलक को संपीड़ित करना",
+        "D": "इंजन तेल को ठंडा करना"
       },
       "correctAnswer": "A",
-      "explanation": "Nalanda is renowned across Bihar for: Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara.",
-      "explanation_hi": "नालंदा का ऐतिहासिक व भौगोलिक महत्व: Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara।"
+      "explanation": "Catalytic converters use precious catalysts (platinum, palladium, rhodium) to oxidize toxic carbon monoxide into CO2 and reduce harmful nitrogen oxides into harmless molecular nitrogen gas.",
+      "explanation_hi": "कैटेलिटिक कन्वर्टर वाहन के साइलेंसर में लगा होता है जो हानिकारक गैसों (CO, NOx) को कम हानिकारक गैसों (CO2, N2) में बदल देता है।"
     },
     {
       "id": 132,
       "questionNumber": 132,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara' (Context 2)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara' (संदर्भ 2)?",
+      "question": "Which treaty regulates international trade in endangered species of wild fauna and flora to protect them from over-exploitation?",
+      "question_hi": "कौन सी अंतर्राष्ट्रीय संधि वन्य जीवों और वनस्पतियों की लुप्तप्राय प्रजातियों के अंतर्राष्ट्रीय व्यापार को नियंत्रित करती है?",
       "options": {
-        "A": "Nalanda",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "CITES (Washington Convention, 1973)",
+        "B": "Bonn Convention",
+        "C": "Ramsar Convention",
+        "D": "Basel Convention"
       },
       "options_hi": {
-        "A": "नालंदा",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "CITES (वाशिंगटन सम्मेलन, 1973)",
+        "B": "बॉन सम्मेलन",
+        "C": "रामसर सम्मेलन",
+        "D": "बेसल सम्मेलन"
       },
       "correctAnswer": "A",
-      "explanation": "Nalanda is renowned across Bihar for: Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara.",
-      "explanation_hi": "नालंदा का ऐतिहासिक व भौगोलिक महत्व: Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara।"
+      "explanation": "CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) protects over 38,000 species of animals and plants against destructive commercial trade.",
+      "explanation_hi": "CITES (Convention on International Trade in Endangered Species) वन्य जीवों और पौधों की संकटग्रस्त प्रजातियों के अवैध अंतर्राष्ट्रीय व्यापार पर रोक लगाने वाली वैश्विक संधि है।"
     },
     {
       "id": 133,
       "questionNumber": 133,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara' (Context 3)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara' (संदर्भ 3)?",
+      "question": "Which of the following describes the 'Carbon Credit' mechanism introduced under the Kyoto Protocol?",
+      "question_hi": "क्योटो प्रोटोकॉल के तहत शुरू किए गए 'कार्बन क्रेडिट' (Carbon Credit) तंत्र का कौन सा विकल्प सही वर्णन करता है?",
       "options": {
-        "A": "Nalanda",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "A tradable permit allowing the right to emit one metric tonne of carbon dioxide or equivalent GHG",
+        "B": "A banking loan offered for purchasing electric vehicles",
+        "C": "A government fine imposed on coal miners",
+        "D": "A voucher to buy timber from state forest nurseries"
       },
       "options_hi": {
-        "A": "नालंदा",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "एक व्यापार योग्य परमिट जो एक मीट्रिक टन कार्बन डाइऑक्साइड या समकक्ष GHG उत्सर्जित करने का अधिकार देता है",
+        "B": "इलेक्ट्रिक वाहन खरीदने के लिए बैंक ऋण",
+        "C": "कोयला खनिकों पर लगाया गया सरकारी जुर्माना",
+        "D": "वन नर्सरी से लकड़ी खरीदने का वाउचर"
       },
       "correctAnswer": "A",
-      "explanation": "Nalanda is renowned across Bihar for: Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara.",
-      "explanation_hi": "नालंदा का ऐतिहासिक व भौगोलिक महत्व: Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara।"
+      "explanation": "One carbon credit equals the permission to emit one metric ton of carbon dioxide (or an equivalent amount of another greenhouse gas), incentivizing emission reduction through market mechanisms.",
+      "explanation_hi": "एक कार्बन क्रेडिट एक मीट्रिक टन कार्बन डाइऑक्साइड (CO2) या उसके बराबर ग्रीनहाउस गैस के उत्सर्जन की अनुमति देने वाला एक अंतरराष्ट्रीय व्यापार योग्य प्रमाण पत्र है।"
     },
     {
       "id": 134,
       "questionNumber": 134,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara' (Context 4)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara' (संदर्भ 4)?",
+      "question": "What is the primary cause of 'Marble Cancer' affecting the white marble facade of the historic Taj Mahal in Agra?",
+      "question_hi": "आगरा के ऐतिहासिक ताजमहल के सफेद संगमरमर को प्रभावित करने वाले 'मार्बल कैंसर' (Marble Cancer) का प्राथमिक कारण क्या है?",
       "options": {
-        "A": "Nalanda",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Acid rain (deposition of sulfuric acid reacting with calcium carbonate to form gypsum)",
+        "B": "Termite fungal infestation of joints",
+        "C": "Sunlight discoloration",
+        "D": "Radioactive fallout from satellites"
       },
       "options_hi": {
-        "A": "नालंदा",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "अम्लीय वर्षा (सल्फ्यूरिक एसिड संगमरमर के कैल्शियम कार्बोनेट से क्रिया कर जिप्सम बनाता है)",
+        "B": "जोड़ों का दीमक फंगल संक्रमण",
+        "C": "धूप से रंग उड़ना",
+        "D": "उपग्रहों से रेडियोधर्मी विकिरण"
       },
       "correctAnswer": "A",
-      "explanation": "Nalanda is renowned across Bihar for: Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara.",
-      "explanation_hi": "नालंदा का ऐतिहासिक व भौगोलिक महत्व: Contains Rajgir hot sulfur springs, Venuvana, and ruins of ancient Nalanda Mahavihara।"
+      "explanation": "Marble cancer occurs when sulfuric acid in acid rain (from Mathura refinery and local industries) reacts with calcium carbonate (CaCO3) of marble, creating soluble calcium sulfate (gypsum) that flakes off, turning yellow.",
+      "explanation_hi": "सल्फर डाइऑक्साइड जनित अम्लीय वर्षा जब संगमरमर (कैल्शियम कार्बोनेट) से मिलती है, तो रासायनिक प्रतिक्रिया से पत्थर क्षत-विक्षत होकर पीला पड़ने लगता है, जिसे 'मार्बल कैंसर' कहते हैं।"
     },
     {
       "id": 135,
       "questionNumber": 135,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world' (Context 1)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world' (संदर्भ 1)?",
+      "question": "Which of the following is considered an abiotic (non-living) component of an ecosystem?",
+      "question_hi": "निम्नलिखित में से किसे पारिस्थितिकी तंत्र का एक अजैविक (Abiotic) घटक माना जाता है?",
       "options": {
-        "A": "East Champaran (Motihari)",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Solar radiation, temperature, and soil minerals",
+        "B": "Herbivorous grazing mammals",
+        "C": "Nitrogen-fixing bacteria",
+        "D": "Decomposing fungi"
       },
       "options_hi": {
-        "A": "पूर्वी चंपारण",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "सौर विकिरण, तापमान और मिट्टी के खनिज",
+        "B": "शाकाहारी चरने वाले स्तनधारी",
+        "C": "नाइट्रोजन स्थिरीकरण करने वाले जीवाणु",
+        "D": "अपघटक कवक (Fungi)"
       },
       "correctAnswer": "A",
-      "explanation": "East Champaran (Motihari) is renowned across Bihar for: Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world.",
-      "explanation_hi": "पूर्वी चंपारण का ऐतिहासिक व भौगोलिक महत्व: Houses the Kesaria Stupa, one of the tallest Buddhist stupas in the world।"
+      "explanation": "Abiotic factors are the non-living physical and chemical elements of an environment (sunlight, air, water, minerals, climate), whereas producers, consumers, and decomposers are biotic.",
+      "explanation_hi": "अजैविक घटकों में पर्यावरण के निर्जीव भौतिक व रासायनिक तत्व आते हैं—जैसे प्रकाश, तापमान, जल, वायु और मृदा। पौधे, जीव और जीवाणु जैविक घटक हैं।"
     },
     {
       "id": 136,
@@ -3570,27 +3570,27 @@ window.predicted_set11 = {
       "id": 137,
       "questionNumber": 137,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Solid Waste Management & 3Rs - Case 7), which statement accurately reflects this principle: 'Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal'?",
-      "question_hi": "पर्यावरण विज्ञान (ठोस अपशिष्ट प्रबंधन - केस 7) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal'?",
+      "question": "In a grazing food chain: Grass -> Grasshopper -> Frog -> Snake -> Eagle, what is the ecological role of the Frog?",
+      "question_hi": "एक खाद्य श्रृंखला: घास -> टिड्डा -> मेंढक -> सांप -> चील में मेंढक की पारिस्थितिक भूमिका क्या है?",
       "options": {
-        "A": "Accurately validated by ecological principle: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "Secondary Consumer (Carnivore)",
+        "B": "Primary Consumer (Herbivore)",
+        "C": "Primary Producer",
+        "D": "Apex Decomposer"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "द्वितीयक उपभोक्ता (Secondary Consumer)",
+        "B": "प्राथमिक उपभोक्ता (शाकाहारी)",
+        "C": "प्राथमिक उत्पादक",
+        "D": "शीर्ष अपघटक"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal.",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Hierarchy prioritizing Reduce at source, followed by Reuse of materials, and Recycling before landfill disposal।"
+      "explanation": "Grass is the primary producer; grasshopper eats grass (primary consumer/herbivore); frog eats grasshopper (secondary consumer/carnivore); snake is tertiary consumer.",
+      "explanation_hi": "घास उत्पादक है; टिड्डा घास खाता है (प्राथमिक उपभोक्ता); मेंढक टिड्डे को खाता है (द्वितीयक उपभोक्ता); सांप तृतीयक उपभोक्ता है।"
     },
     {
       "id": 138,
@@ -3622,183 +3622,183 @@ window.predicted_set11 = {
       "id": 139,
       "questionNumber": 139,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Bioindicators of Pollution - Case 2), which statement accurately reflects this principle: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
-      "question_hi": "पर्यावरण विज्ञान (प्रदूषण के जैव-सूचक - केस 2) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
+      "question": "What is the primary role of saprophytic bacteria and fungi (decomposers) in an ecosystem?",
+      "question_hi": "पारिस्थितिकी तंत्र में मृतोपजीवी जीवाणुओं और कवकों (अपघटकों) की प्राथमिक भूमिका क्या है?",
       "options": {
-        "A": "Accurately validated by ecological principle: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "Decomposing organic detritus and recycling vital nutrients back into the soil and biogeochemical cycles",
+        "B": "Synthesizing glucose directly from solar photons",
+        "C": "Hunting live herbivorous prey",
+        "D": "Increasing water evaporation into clouds"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "मृत कार्बनिक पदार्थों को विघटित करना और आवश्यक पोषक तत्वों को मिट्टी व जैव-भूरासायनिक चक्रों में पुनः लौटाना",
+        "B": "सूर्य के प्रकाश से सीधे ग्लूकोज का संश्लेषण करना",
+        "C": "जीवित शाकाहारी शिकार का शिकार करना",
+        "D": "बादलों में जल वाष्पीकरण को बढ़ाना"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities.",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities।"
+      "explanation": "Decomposers (microconsumers/saprotrophs) break down complex organic compounds of dead plants and animals into simple inorganic nutrients, closing nutrient loops.",
+      "explanation_hi": "अपघटक (Decomposers) मृत जीवों और वनस्पतियों के अवशेषों को सड़ा-गलाकर अकार्बनिक तत्वों में बदल देते हैं, जिससे पोषक तत्व पुनः मिट्टी और पौधों के लिए उपलब्ध होते हैं।"
     },
     {
       "id": 140,
       "questionNumber": 140,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Bioindicators of Pollution - Case 3), which statement accurately reflects this principle: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
-      "question_hi": "पर्यावरण विज्ञान (प्रदूषण के जैव-सूचक - केस 3) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities'?",
+      "question": "Under the Wildlife Protection Act 1972 of India, hunting animals listed under 'Schedule I' carries:",
+      "question_hi": "भारत के वन्यजीव संरक्षण अधिनियम 1972 के तहत 'अनुसूची I' में सूचीबद्ध जानवरों के शिकार पर क्या प्रावधान है?",
       "options": {
-        "A": "Accurately validated by ecological principle: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "The highest level of legal protection and severe penal imprisonment",
+        "B": "A nominal token municipal fine of Rs 50",
+        "C": "Hunting allowed during winter festival seasons only",
+        "D": "No restrictions whatsoever"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "कानूनी संरक्षण का उच्चतम स्तर और कठोर दंडात्मक कारावास",
+        "B": "50 रुपये का मामूली नगरपालिका जुर्माना",
+        "C": "केवल शीतकालीन उत्सवों में शिकार की अनुमति",
+        "D": "किसी भी प्रकार का कोई प्रतिबंध नहीं"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities.",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Lichens are sensitive bioindicators of atmospheric sulfur dioxide (SO2) air pollution, disappearing in contaminated cities।"
+      "explanation": "Schedule I of the WPA 1972 provides absolute protection to critically endangered species (e.g., Tiger, Lion, Great Indian Bustard, Gangetic Dolphin), mandating rigorous imprisonment and hefty fines.",
+      "explanation_hi": "अनुसूची 1 (Schedule I) के तहत बाघ, गैंडा, गंगा डॉल्फिन जैसे दुर्लभ जीवों को पूर्ण सुरक्षा प्राप्त है और इनके शिकार पर गैर-जमानती कठोर कारावास का नियम है।"
     },
     {
       "id": 141,
       "questionNumber": 141,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 2,000 at 5% annual interest for 2 years (Problem 41)?",
-      "question_hi": "2,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 41)?",
+      "question": "Which of the following is considered an environmentally hazardous 'Electronic Waste' (E-waste) toxin that causes kidney damage?",
+      "question_hi": "निम्नलिखित में से कौन सा इलेक्ट्रॉनिक कचरे (E-waste) का विषैला तत्व है जो गुर्दे (किडनी) को नुकसान पहुंचाता है?",
       "options": {
-        "A": "Rs. 200",
-        "B": "Rs. 250",
-        "C": "Rs. 150",
-        "D": "Rs. 300"
+        "A": "Lead (Pb) and Cadmium (Cd) in printed circuit boards and batteries",
+        "B": "Silicon chips",
+        "C": "Pure copper wire casing",
+        "D": "Aluminum heatsinks"
       },
       "options_hi": {
-        "A": "200 रुपये",
-        "B": "250 रुपये",
-        "C": "150 रुपये",
-        "D": "300 रुपये"
+        "A": "सर्किट बोर्ड और बैटरी में लेड (सीसा) और कैडमियम",
+        "B": "सिलिकॉन चिप्स",
+        "C": "तांबे का तार",
+        "D": "एल्यूमीनियम हीटसिंक"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (2000 * 5 * 2) / 100 = Rs. 200.",
-      "explanation_hi": "साधारण ब्याज = (2000 * 5 * 2) / 100 = 200 रुपये।"
+      "explanation": "E-waste contains dangerous heavy metals including lead (solder), cadmium (semiconductor contacts), and mercury (backlights), which leach into groundwater and cause chronic kidney and brain toxicity.",
+      "explanation_hi": "ई-कचरे (पुराने कंप्यूटर, मोबाइल, टीवी) में लेड, कैडमियम और पारा जैसे भारी धातु होते हैं, जो भूमि में मिलकर गुर्दे और तंत्रिका तंत्र को भारी क्षति पहुंचाते हैं।"
     },
     {
       "id": 142,
       "questionNumber": 142,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 3,000 at 5% annual interest for 2 years (Problem 42)?",
-      "question_hi": "3,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 42)?",
+      "question": "What is the primary objective of the global 'Kyoto Protocol' adopted in 1997?",
+      "question_hi": "1997 में अपनाए गए वैश्विक 'क्योटो प्रोटोकॉल' (Kyoto Protocol) का प्राथमिक उद्देश्य क्या था?",
       "options": {
-        "A": "Rs. 300",
-        "B": "Rs. 350",
-        "C": "Rs. 250",
-        "D": "Rs. 400"
+        "A": "Legally binding industrialized Annex-I nations to reduce greenhouse gas emissions",
+        "B": "Regulating international commercial airline flight tickets",
+        "C": "Protecting marine coral reefs from oil tankers",
+        "D": "Banning the proliferation of nuclear weapons"
       },
       "options_hi": {
-        "A": "300 रुपये",
-        "B": "350 रुपये",
-        "C": "250 रुपये",
-        "D": "400 रुपये"
+        "A": "औद्योगिक देशों (Annex-I) पर ग्रीनहाउस गैस उत्सर्जन को कम करने के लिए कानूनी रूप से बाध्यकारी लक्ष्य तय करना",
+        "B": "अंतर्राष्ट्रीय वाणिज्यिक एयरलाइन टिकटों को विनियमित करना",
+        "C": "तेल टैंकरों से समुद्री प्रवाल भित्तियों की रक्षा करना",
+        "D": "परमाणु हथियारों के प्रसार पर प्रतिबंध लगाना"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (3000 * 5 * 2) / 100 = Rs. 300.",
-      "explanation_hi": "साधारण ब्याज = (3000 * 5 * 2) / 100 = 300 रुपये।"
+      "explanation": "The Kyoto Protocol to the UNFCCC committed industrialized countries and economies in transition to limit and reduce greenhouse gas (GHG) emissions in accordance with agreed individual targets.",
+      "explanation_hi": "क्योटो प्रोटोकॉल (1997) जलवायु परिवर्तन पर पहला अंतरराष्ट्रीय समझौता था जिसने विकसित देशों पर ग्रीनहाउस गैसों के उत्सर्जन में कटौती करने के बाध्यकारी लक्ष्य निर्धारित किए थे।"
     },
     {
       "id": 143,
       "questionNumber": 143,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 4,000 at 5% annual interest for 2 years (Problem 43)?",
-      "question_hi": "4,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 43)?",
+      "question": "Which ecosystem has the HIGHEST net primary productivity (NPP) per unit area?",
+      "question_hi": "प्रति इकाई क्षेत्र में किस पारिस्थितिकी तंत्र की शुद्ध प्राथमिक उत्पादकता (NPP) सर्वाधिक होती है?",
       "options": {
-        "A": "Rs. 400",
-        "B": "Rs. 450",
-        "C": "Rs. 350",
-        "D": "Rs. 500"
+        "A": "Tropical Rainforests and Coral Reefs",
+        "B": "Temperate Grasslands",
+        "C": "Desert Scrublands",
+        "D": "Arctic Tundra"
       },
       "options_hi": {
-        "A": "400 रुपये",
-        "B": "450 रुपये",
-        "C": "350 रुपये",
-        "D": "500 रुपये"
+        "A": "उष्णकटिबंधीय वर्षावन (Tropical Rainforests) और प्रवाल भित्तियां (Coral Reefs)",
+        "B": "शीतोष्ण घास के मैदान",
+        "C": "मरुस्थलीय झाड़ियां",
+        "D": "आर्कटिक टुंड्रा"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (4000 * 5 * 2) / 100 = Rs. 400.",
-      "explanation_hi": "साधारण ब्याज = (4000 * 5 * 2) / 100 = 400 रुपये।"
+      "explanation": "Tropical rainforests and coral reefs enjoy year-round warmth, abundant solar energy, and moisture, giving them the highest net primary productivity (grams of biomass created per m² per year).",
+      "explanation_hi": "उष्णकटिबंधीय वर्षावन और मूंगे की चट्टानें (Coral Reefs) पूरे वर्ष प्रचुर धूप और नमी के कारण प्रति इकाई क्षेत्र में सर्वाधिक जैविक पदार्थ (NPP) उत्पन्न करते हैं।"
     },
     {
       "id": 144,
       "questionNumber": 144,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 5,000 at 5% annual interest for 2 years (Problem 44)?",
-      "question_hi": "5,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 44)?",
+      "question": "Which of the following is a non-renewable fossil energy resource?",
+      "question_hi": "निम्नलिखित में से कौन सा एक गैर-नवीकरणीय (Non-renewable) जीवाश्म ऊर्जा संसाधन है?",
       "options": {
-        "A": "Rs. 500",
-        "B": "Rs. 550",
-        "C": "Rs. 450",
-        "D": "Rs. 600"
+        "A": "Coal and Natural Gas",
+        "B": "Solar Photovoltaic Energy",
+        "C": "Wind Turbine Energy",
+        "D": "Geothermal Energy"
       },
       "options_hi": {
-        "A": "500 रुपये",
-        "B": "550 रुपये",
-        "C": "450 रुपये",
-        "D": "600 रुपये"
+        "A": "कोयला और प्राकृतिक गैस",
+        "B": "सौर फोटोवोल्टिक ऊर्जा",
+        "C": "पवन ऊर्जा",
+        "D": "भूतापीय ऊर्जा"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (5000 * 5 * 2) / 100 = Rs. 500.",
-      "explanation_hi": "साधारण ब्याज = (5000 * 5 * 2) / 100 = 500 रुपये।"
+      "explanation": "Fossil fuels (coal, petroleum, natural gas) take millions of years of geological pressure and anaerobic heat to form; once depleted, they cannot be replenished on a human timescale.",
+      "explanation_hi": "कोयला, पेट्रोलियम और प्राकृतिक गैस गैर-नवीकरणीय जीवाश्म ईंधन हैं क्योंकि इनके भंडार सीमित हैं और इनके निर्माण में करोड़ों वर्ष लगते हैं।"
     },
     {
       "id": 145,
       "questionNumber": 145,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 6,000 at 5% annual interest for 2 years (Problem 45)?",
-      "question_hi": "6,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 45)?",
+      "question": "What is the major ecological benefit of 'Mangrove' forests found in coastal tidal belts?",
+      "question_hi": "तटीय ज्वारीय क्षेत्रों में पाए जाने वाले 'मैंग्रोव' (Mangrove) वनों का प्रमुख पारिस्थितिक लाभ क्या है?",
       "options": {
-        "A": "Rs. 600",
-        "B": "Rs. 650",
-        "C": "Rs. 550",
-        "D": "Rs. 700"
+        "A": "Acting as natural storm surge barriers against tsunamis and cyclonic coastal erosion",
+        "B": "Providing timber for inland desert fencing",
+        "C": "Cooling down oceanic ocean currents by 10 degrees",
+        "D": "Attracting high-altitude Himalayan birds"
       },
       "options_hi": {
-        "A": "600 रुपये",
-        "B": "650 रुपये",
-        "C": "550 रुपये",
-        "D": "700 रुपये"
+        "A": "सुनामी और चक्रवाती लहरों से तटीय कटाव को रोकने के लिए प्राकृतिक सुरक्षा कवच के रूप में कार्य करना",
+        "B": "रेगिस्तानी बाड़ लगाने के लिए लकड़ी प्रदान करना",
+        "C": "समुद्री धाराओं को 10 डिग्री ठंडा करना",
+        "D": "उच्च हिमालयी पक्षियों को आकर्षित करना"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (6000 * 5 * 2) / 100 = Rs. 600.",
-      "explanation_hi": "साधारण ब्याज = (6000 * 5 * 2) / 100 = 600 रुपये।"
+      "explanation": "Mangrove stilt root networks trap silt, absorb devastating wave energy during cyclones and tsunamis, and serve as critical nursery breeding habitats for commercial marine life.",
+      "explanation_hi": "मैंग्रोव (जैसे सुंदरबन) के घने जड़ तंत्र चक्रवातों, तूफानी लहरों और सुनामी के वेग को सोखकर तटीय क्षेत्रों की रक्षा करते हैं और समुद्री जीवों के प्रजनन स्थल बनते हैं।"
     },
     {
       "id": 146,

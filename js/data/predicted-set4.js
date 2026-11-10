@@ -190,27 +190,27 @@ window.predicted_set4 = {
       "id": 7,
       "questionNumber": 7,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Calculate AMAT for a system with Hit Time = 1 ns, Miss Rate = 2%, and Miss Penalty = 60 ns.",
-      "question_hi": "हिट टाइम = 1 ns, मिस दर = 2%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
+      "question": "What are the three distinct states of a Tri-State logic buffer?",
+      "question_hi": "ट्राई-स्टेट (Tri-State) लॉजिक बफर की तीन विशिष्ट अवस्थाएं कौन सी हैं?",
       "options": {
-        "A": "2.2 ns",
-        "B": "3.08 ns",
-        "C": "1.32 ns",
-        "D": "6.20 ns"
+        "A": "Logic High (1), Logic Low (0), and High-Impedance (Hi-Z)",
+        "B": "Positive, Negative, and Zero Voltage",
+        "C": "Active, Standby, and Sleep",
+        "D": "Input, Output, and Ground"
       },
       "options_hi": {
-        "A": "2.2 ns",
-        "B": "3.08 ns",
-        "C": "1.32 ns",
-        "D": "6.20 ns"
+        "A": "लॉजिक हाई (1), लॉजिक लो (0), और हाई-इम्पीडेंस (Hi-Z)",
+        "B": "धनात्मक, ऋणात्मक और शून्य वोल्टेज",
+        "C": "सक्रिय, स्टैंडबाय और स्लीप",
+        "D": "इनपुट, आउटपुट और ग्राउंड"
       },
       "correctAnswer": "A",
-      "explanation": "AMAT = 1 + (0.02 * 60) = 2.2 ns.",
-      "explanation_hi": "AMAT = 1 + (0.02 * 60) = 2.2 ns।"
+      "explanation": "Tri-state logic devices have three output states: logic High (1), logic Low (0), and High Impedance (Hi-Z). In the Hi-Z state, the output is electrically disconnected from the bus, allowing multiple outputs to share a common bus line.",
+      "explanation_hi": "ट्राई-स्टेट बफर में तीन अवस्थाएं होती हैं: लॉजिक 1 (हाई), लॉजिक 0 (लो), और हाई-इम्पीडेंस (Hi-Z)। Hi-Z अवस्था में आउटपुट बस से विद्युत रूप से डिस्कनेक्ट हो जाता है, जिससे कई डिवाइस एक ही बस साझा कर सकते हैं।"
     },
     {
       "id": 8,
@@ -242,27 +242,27 @@ window.predicted_set4 = {
       "id": 9,
       "questionNumber": 9,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Calculate AMAT for a system with Hit Time = 1 ns, Miss Rate = 5%, and Miss Penalty = 60 ns.",
-      "question_hi": "हिट टाइम = 1 ns, मिस दर = 5%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
+      "question": "What is the total number of self-dual Boolean functions that can be formed using n boolean variables?",
+      "question_hi": "n बूलियन चरों का उपयोग करके कितने सेल्फ-ड्यूल (Self-Dual) बूलियन फलन बनाए जा सकते हैं?",
       "options": {
-        "A": "4.0 ns",
-        "B": "5.60 ns",
-        "C": "2.40 ns",
-        "D": "8.00 ns"
+        "A": "2^(2^(n-1))",
+        "B": "2^(2^n)",
+        "C": "2^(n-1)",
+        "D": "2^n"
       },
       "options_hi": {
-        "A": "4.0 ns",
-        "B": "5.60 ns",
-        "C": "2.40 ns",
-        "D": "8.00 ns"
+        "A": "2^(2^(n-1))",
+        "B": "2^(2^n)",
+        "C": "2^(n-1)",
+        "D": "2^n"
       },
       "correctAnswer": "A",
-      "explanation": "AMAT = 1 + (0.05 * 60) = 4.0 ns.",
-      "explanation_hi": "AMAT = 1 + (0.05 * 60) = 4.0 ns।"
+      "explanation": "A Boolean function is self-dual if f(x1, ..., xn) = f'(x1', ..., xn'). For n variables, there are 2^n input combinations, forming 2^(n-1) mutually dual pairs. Choosing one truth value per pair yields 2^(2^(n-1)) self-dual functions.",
+      "explanation_hi": "n चरों के लिए कुल 2^n इनपुट संयोजन होते हैं, जो 2^(n-1) युग्म बनाते हैं। प्रत्येक युग्म के लिए 2 विकल्प होने के कारण कुल सेल्फ-ड्यूल फलनों की संख्या 2^(2^(n-1)) होती है।"
     },
     {
       "id": 10,
@@ -295,26 +295,26 @@ window.predicted_set4 = {
       "questionNumber": 11,
       "section": "Computer Science",
       "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Calculate AMAT for a system with Hit Time = 1 ns, Miss Rate = 8%, and Miss Penalty = 60 ns.",
-      "question_hi": "हिट टाइम = 1 ns, मिस दर = 8%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
+      "question": "In a computer system, what is the role of the Program Counter (PC) register?",
+      "question_hi": "कंप्यूटर प्रणाली में प्रोग्राम काउंटर (PC) रजिस्टर की क्या भूमिका होती है?",
       "options": {
-        "A": "5.8 ns",
-        "B": "8.12 ns",
-        "C": "3.48 ns",
-        "D": "9.80 ns"
+        "A": "It holds the memory address of the next instruction to be fetched and executed",
+        "B": "It counts the total number of instructions executed since system boot",
+        "C": "It stores the result of the most recent ALU arithmetic operation",
+        "D": "It decodes machine language opcodes into micro-operations"
       },
       "options_hi": {
-        "A": "5.8 ns",
-        "B": "8.12 ns",
-        "C": "3.48 ns",
-        "D": "9.80 ns"
+        "A": "यह फेच और निष्पादित किए जाने वाले अगले निर्देश का मेमोरी पता रखता है",
+        "B": "यह सिस्टम बूट के बाद निष्पादित कुल निर्देशों की संख्या गिनता है",
+        "C": "यह नवीनतम ALU अंकगणितीय ऑपरेशन के परिणाम को संग्रहीत करता है",
+        "D": "यह मशीन भाषा ऑपकोड को माइक्रो-ऑपरेशंस में डिकोड करता है"
       },
       "correctAnswer": "A",
-      "explanation": "AMAT = 1 + (0.08 * 60) = 5.8 ns.",
-      "explanation_hi": "AMAT = 1 + (0.08 * 60) = 5.8 ns।"
+      "explanation": "The Program Counter (PC) is a dedicated CPU register that tracks instruction sequencing by holding the memory address of the next instruction to be fetched. It is automatically incremented during the fetch cycle.",
+      "explanation_hi": "प्रोग्राम काउंटर (PC) एक सीपीयू रजिस्टर है जो निष्पादन के लिए लाए जाने वाले अगले निर्देश के मेमोरी पते को रखता है। निर्देश फेच होने के बाद यह स्वतः अगले पते पर बढ़ जाता है।"
     },
     {
       "id": 12,
@@ -347,26 +347,26 @@ window.predicted_set4 = {
       "questionNumber": 13,
       "section": "Computer Science",
       "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Calculate AMAT for a system with Hit Time = 1 ns, Miss Rate = 10%, and Miss Penalty = 60 ns.",
-      "question_hi": "हिट टाइम = 1 ns, मिस दर = 10%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
+      "question": "What is the primary difference between Hardwired Control Units and Microprogrammed Control Units?",
+      "question_hi": "हार्डवायर्ड कंट्रोल यूनिट और माइक्रोप्रोग्राम्ड कंट्रोल यूनिट के बीच प्राथमिक अंतर क्या है?",
       "options": {
-        "A": "7.0 ns",
-        "B": "9.80 ns",
-        "C": "4.20 ns",
-        "D": "11.00 ns"
+        "A": "Hardwired control units use fixed combinational logic and are faster but rigid; microprogrammed control units use microcode stored in ROM and are flexible but slower",
+        "B": "Hardwired units execute software routines; microprogrammed units execute only firmware",
+        "C": "Hardwired control units require external DRAM refreshing",
+        "D": "Microprogrammed control units cannot support pipelined architectures"
       },
       "options_hi": {
-        "A": "7.0 ns",
-        "B": "9.80 ns",
-        "C": "4.20 ns",
-        "D": "11.00 ns"
+        "A": "हार्डवायर्ड कंट्रोल यूनिट निश्चित संयोजन तर्क (combinational logic) का उपयोग करती है और तेज लेकिन अनम्य होती है; माइक्रोप्रोग्राम्ड यूनिट ROM में संग्रहीत माइक्रोकोड का उपयोग करती है और लचीली लेकिन धीमी होती है",
+        "B": "हार्डवायर्ड यूनिट सॉफ्टवेयर रूटीन निष्पादित करती है; माइक्रोप्रोग्राम्ड केवल फर्मवेयर निष्पादित करती है",
+        "C": "हार्डवायर्ड कंट्रोल यूनिट को बाहरी DRAM रिफ्रेशिंग की आवश्यकता होती है",
+        "D": "माइक्रोप्रोग्राम्ड कंट्रोल यूनिट पाइपलाइन्ड आर्किटेक्चर का समर्थन नहीं कर सकती"
       },
       "correctAnswer": "A",
-      "explanation": "AMAT = 1 + (0.1 * 60) = 7.0 ns.",
-      "explanation_hi": "AMAT = 1 + (0.1 * 60) = 7.0 ns।"
+      "explanation": "Hardwired control units generate control signals via dedicated gates, flip-flops, and decoders, optimizing execution speed (common in RISC). Microprogrammed control units read sequences of microinstructions from a control memory ROM, making modifications easy via firmware (common in CISC).",
+      "explanation_hi": "हार्डवायर्ड कंट्रोल यूनिट लॉजिक गेट्स और फ्लिप-फ्लॉप्स से बनी होती है जो बहुत तेज गति प्रदान करती है (RISC में प्रयुक्त)। माइक्रोप्रोग्राम्ड यूनिट कंट्रोल मेमोरी (ROM) से माइक्रो-निर्देश पढ़ती है, जिससे बदलाव आसान होता है पर गति थोड़ी धीमी होती है।"
     },
     {
       "id": 14,
@@ -399,26 +399,26 @@ window.predicted_set4 = {
       "questionNumber": 15,
       "section": "Computer Science",
       "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Calculate AMAT for a system with Hit Time = 2 ns, Miss Rate = 2%, and Miss Penalty = 60 ns.",
-      "question_hi": "हिट टाइम = 2 ns, मिस दर = 2%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
+      "question": "What addressing mode is most effective for accessing elements of a contiguous one-dimensional array?",
+      "question_hi": "समीपस्थ एक-आयामी एरे (1D array) के तत्वों तक पहुँचने के लिए कौन सा एड्रेसिंग मोड सबसे प्रभावी है?",
       "options": {
-        "A": "3.2 ns",
-        "B": "4.48 ns",
-        "C": "1.92 ns",
-        "D": "7.20 ns"
+        "A": "Indexed Addressing Mode",
+        "B": "Immediate Addressing Mode",
+        "C": "Relative Addressing Mode",
+        "D": "Direct Addressing Mode"
       },
       "options_hi": {
-        "A": "3.2 ns",
-        "B": "4.48 ns",
-        "C": "1.92 ns",
-        "D": "7.20 ns"
+        "A": "इंडेक्स्ड एड्रेसिंग मोड (Indexed Addressing Mode)",
+        "B": "इमीडिएट एड्रेसिंग मोड",
+        "C": "रिलेटिव एड्रेसिंग मोड",
+        "D": "डायरेक्ट एड्रेसिंग मोड"
       },
       "correctAnswer": "A",
-      "explanation": "AMAT = 2 + (0.02 * 60) = 3.2 ns.",
-      "explanation_hi": "AMAT = 2 + (0.02 * 60) = 3.2 ns।"
+      "explanation": "Indexed Addressing calculates the Effective Address (EA) by adding an index register value to a constant base address (EA = Base + Index). By incrementing the index register in a loop, array elements are accessed sequentially.",
+      "explanation_hi": "इंडेक्स्ड एड्रेसिंग मोड में प्रभावी पता (EA) बेस एड्रेस में इंडेक्स रजिस्टर का मान जोड़कर निकाला जाता है (EA = Base + Index)। लूप में इंडेक्स रजिस्टर को बढ़ाकर एरे के तत्वों को क्रमिक रूप से आसानी से एक्सेस किया जा सकता है।"
     },
     {
       "id": 16,
@@ -451,26 +451,26 @@ window.predicted_set4 = {
       "questionNumber": 17,
       "section": "Computer Science",
       "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Calculate AMAT for a system with Hit Time = 2 ns, Miss Rate = 5%, and Miss Penalty = 60 ns.",
-      "question_hi": "हिट टाइम = 2 ns, मिस दर = 5%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
+      "question": "How does Booth's Multiplication Algorithm achieve efficiency when multiplying signed binary numbers in 2's complement?",
+      "question_hi": "2's पूरक में हस्ताक्षरित बाइनरी संख्याओं को गुणा करते समय बूथ का गुणन एल्गोरिदम (Booth's Algorithm) दक्षता कैसे प्राप्त करता है?",
       "options": {
-        "A": "5.0 ns",
-        "B": "7.00 ns",
-        "C": "3.00 ns",
-        "D": "9.00 ns"
+        "A": "It skips addition/subtraction cycles during contiguous blocks of 1s or 0s, replacing them with a single addition and subtraction",
+        "B": "It converts 2's complement numbers into sign-magnitude before multiplication",
+        "C": "It computes partial products using lookup tables stored in cache",
+        "D": "It eliminates the need for an accumulator register"
       },
       "options_hi": {
-        "A": "5.0 ns",
-        "B": "7.00 ns",
-        "C": "3.00 ns",
-        "D": "9.00 ns"
+        "A": "यह 1s या 0s के निरंतर ब्लॉकों के दौरान जोड़/घटाव चक्रों को छोड़ देता है और उन्हें केवल एक जोड़ और एक घटाव से बदल देता है",
+        "B": "यह गुणा करने से पहले 2's पूरक संख्याओं को साइन-मैग्नीट्यूड में बदलता है",
+        "C": "यह कैश में संग्रहीत लुकअप तालिकाओं का उपयोग करके आंशिक उत्पादों की गणना करता है",
+        "D": "यह एक्युमुलेटर रजिस्टर की आवश्यकता को समाप्त करता है"
       },
       "correctAnswer": "A",
-      "explanation": "AMAT = 2 + (0.05 * 60) = 5.0 ns.",
-      "explanation_hi": "AMAT = 2 + (0.05 * 60) = 5.0 ns।"
+      "explanation": "Booth's algorithm scans bit pairs (Q_i, Q_{i-1}). For a block of 1s (e.g., 011110), it subtracts at the beginning (10 -> subtract) and adds at the end (01 -> add), skipping intermediate shift steps (11 and 00 -> only shift).",
+      "explanation_hi": "बूथ का एल्गोरिदम बिट युग्मों (Q_i, Q_{i-1}) की जांच करता है। 1s की लगातार स्ट्रिंग मिलने पर यह शुरुआत में एक घटाव (10) और अंत में एक जोड़ (01) करता है, जिससे बीच के कई अंकगणितीय ऑपरेशनों की बचत होती है।"
     },
     {
       "id": 18,
@@ -503,26 +503,26 @@ window.predicted_set4 = {
       "questionNumber": 19,
       "section": "Computer Science",
       "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Calculate AMAT for a system with Hit Time = 2 ns, Miss Rate = 8%, and Miss Penalty = 60 ns.",
-      "question_hi": "हिट टाइम = 2 ns, मिस दर = 8%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
+      "question": "What is the primary difference between Static RAM (SRAM) and Dynamic RAM (DRAM)?",
+      "question_hi": "स्टैटिक रैम (SRAM) और डायनेमिक रैम (DRAM) के बीच प्राथमिक अंतर क्या है?",
       "options": {
-        "A": "6.8 ns",
-        "B": "9.52 ns",
-        "C": "4.08 ns",
-        "D": "10.80 ns"
+        "A": "SRAM uses flip-flop latches (no periodic refresh needed) and is faster; DRAM uses capacitor charges and requires periodic refresh cycles",
+        "B": "SRAM loses its data when powered off; DRAM is non-volatile flash memory",
+        "C": "DRAM is used exclusively for Level 1 cache; SRAM is used for secondary storage",
+        "D": "SRAM is denser and cheaper per bit than DRAM"
       },
       "options_hi": {
-        "A": "6.8 ns",
-        "B": "9.52 ns",
-        "C": "4.08 ns",
-        "D": "10.80 ns"
+        "A": "SRAM फ्लिप-फ्लॉप लैच का उपयोग करता है (रिफ्रेश की आवश्यकता नहीं) और तेज होता है; DRAM कैपेसिटर चार्ज का उपयोग करता है और इसे आवधिक रिफ्रेश चक्रों की आवश्यकता होती है",
+        "B": "SRAM बिजली बंद होने पर डेटा खो देता है; DRAM नॉन-वोलेटाइल फ्लैश मेमोरी है",
+        "C": "DRAM का उपयोग केवल L1 कैश के लिए किया जाता है; SRAM का उपयोग सेकेंडरी स्टोरेज के लिए किया जाता है",
+        "D": "SRAM, DRAM की तुलना में प्रति बिट सघन और सस्ता है"
       },
       "correctAnswer": "A",
-      "explanation": "AMAT = 2 + (0.08 * 60) = 6.8 ns.",
-      "explanation_hi": "AMAT = 2 + (0.08 * 60) = 6.8 ns।"
+      "explanation": "SRAM uses 6 transistors per bit cell configured as a bistable flip-flop, retaining data as long as power is applied. DRAM stores bits as charge on tiny capacitors (1 transistor + 1 capacitor cell), requiring periodic refreshing every few milliseconds.",
+      "explanation_hi": "SRAM में डेटा फ्लिप-फ्लॉप में स्टोर होता है जिसे रिफ्रेश करने की जरूरत नहीं होती और यह अत्यधिक तेज (कैश मेमोरी हेतु) होती है। DRAM कैपेसिटर चार्ज पर निर्भर करती है जिसे चार्ज लीक होने से बचाने के लिए बार-बार रिफ्रेश करना पड़ता है।"
     },
     {
       "id": 20,
@@ -555,26 +555,26 @@ window.predicted_set4 = {
       "questionNumber": 21,
       "section": "Computer Science",
       "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Calculate AMAT for a system with Hit Time = 2 ns, Miss Rate = 10%, and Miss Penalty = 60 ns.",
-      "question_hi": "हिट टाइम = 2 ns, मिस दर = 10%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
+      "question": "In RAID storage architecture, what configuration is implemented by RAID Level 5?",
+      "question_hi": "RAID स्टोरेज आर्किटेक्चर में RAID लेवल 5 द्वारा कौन सा कॉन्फ़िगरेशन लागू किया जाता है?",
       "options": {
-        "A": "8.0 ns",
-        "B": "11.20 ns",
-        "C": "4.80 ns",
-        "D": "12.00 ns"
+        "A": "Block-level data striping across multiple disks with distributed parity",
+        "B": "Pure data disk mirroring without parity bits",
+        "C": "Bit-level striping with Hamming error correction code",
+        "D": "Sector striping with a single dedicated parity drive"
       },
       "options_hi": {
-        "A": "8.0 ns",
-        "B": "11.20 ns",
-        "C": "4.80 ns",
-        "D": "12.00 ns"
+        "A": "वितरित पैरिटी (Distributed Parity) के साथ कई डिस्कों में ब्लॉक-स्तरीय डेटा स्ट्राइपिंग",
+        "B": "बिना पैरिटी बिट्स के शुद्ध डेटा डिस्क मिररिंग",
+        "C": "हैमिंग त्रुटि सुधार कोड के साथ बिट-स्तरीय स्ट्राइपिंग",
+        "D": "एकल समर्पित पैरिटी ड्राइव के साथ सेक्टर स्ट्राइपिंग"
       },
       "correctAnswer": "A",
-      "explanation": "AMAT = 2 + (0.1 * 60) = 8.0 ns.",
-      "explanation_hi": "AMAT = 2 + (0.1 * 60) = 8.0 ns।"
+      "explanation": "RAID 5 stripes data at the block level across at least 3 disks and distributes parity blocks evenly across all member drives, avoiding the write bottleneck of RAID 4's single dedicated parity disk.",
+      "explanation_hi": "RAID 5 में डेटा को ब्लॉक स्तर पर कई डिस्कों पर स्ट्राइप किया जाता है और पैरिटी जानकारी को सभी डिस्कों पर समान रूप से वितरित किया जाता है। इससे एक डिस्क खराब होने पर भी डेटा पुनर्प्राप्त किया जा सकता है।"
     },
     {
       "id": 22,
@@ -606,27 +606,27 @@ window.predicted_set4 = {
       "id": 23,
       "questionNumber": 23,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Calculate AMAT for a system with Hit Time = 3 ns, Miss Rate = 2%, and Miss Penalty = 60 ns.",
-      "question_hi": "हिट टाइम = 3 ns, मिस दर = 2%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
+      "question": "Which CPU scheduling algorithm is provably optimal for minimizing the average waiting time for a given set of stationary processes?",
+      "question_hi": "स्थिर प्रक्रियाओं के दिए गए सेट के लिए औसत प्रतीक्षा समय को कम करने के लिए कौन सा CPU शेड्यूलिंग एल्गोरिदम सिद्ध रूप से इष्टतम (Optimal) है?",
       "options": {
-        "A": "4.2 ns",
-        "B": "5.88 ns",
-        "C": "2.52 ns",
-        "D": "8.20 ns"
+        "A": "Shortest Job First (SJF)",
+        "B": "First-Come, First-Served (FCFS)",
+        "C": "Round Robin (RR)",
+        "D": "Priority Scheduling"
       },
       "options_hi": {
-        "A": "4.2 ns",
-        "B": "5.88 ns",
-        "C": "2.52 ns",
-        "D": "8.20 ns"
+        "A": "शॉर्टेस्ट जॉब फर्स्ट (SJF)",
+        "B": "फर्स्ट-कम, फर्स्ट-सर्व्ड (FCFS)",
+        "C": "राउंड रॉबिन (RR)",
+        "D": "प्रायोरिटी शेड्यूलिंग"
       },
       "correctAnswer": "A",
-      "explanation": "AMAT = 3 + (0.02 * 60) = 4.2 ns.",
-      "explanation_hi": "AMAT = 3 + (0.02 * 60) = 4.2 ns।"
+      "explanation": "Shortest Job First (SJF) is mathematically optimal because scheduling the process with the shortest CPU burst first minimizes the waiting times of all subsequent processes in the queue.",
+      "explanation_hi": "शॉर्टेस्ट जॉब फर्स्ट (SJF) औसत प्रतीक्षा समय (Average Waiting Time) को न्यूनतम करने के लिए गणितीय रूप से सिद्ध इष्टतम एल्गोरिदम है क्योंकि यह छोटी प्रक्रियाओं को पहले चलाकर कतार में लंबी प्रतीक्षा को कम करता है।"
     },
     {
       "id": 24,
@@ -658,27 +658,27 @@ window.predicted_set4 = {
       "id": 25,
       "questionNumber": 25,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Calculate AMAT for a system with Hit Time = 3 ns, Miss Rate = 5%, and Miss Penalty = 60 ns.",
-      "question_hi": "हिट टाइम = 3 ns, मिस दर = 5%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
+      "question": "In disk scheduling, why is the SCAN algorithm commonly referred to as the 'Elevator Algorithm'?",
+      "question_hi": "डिस्क शेड्यूलिंग में SCAN एल्गोरिदम को आमतौर पर 'एलिवेटर एल्गोरिदम' (Elevator Algorithm) क्यों कहा जाता है?",
       "options": {
-        "A": "6.0 ns",
-        "B": "8.40 ns",
-        "C": "3.60 ns",
-        "D": "10.00 ns"
+        "A": "The disk arm moves continuously in one direction servicing all requests until reaching the edge, then reverses direction",
+        "B": "It always prioritizes requests closest to cylinder 0",
+        "C": "It services read requests before write requests",
+        "D": "It moves requests between high and low priority queues"
       },
       "options_hi": {
-        "A": "6.0 ns",
-        "B": "8.40 ns",
-        "C": "3.60 ns",
-        "D": "10.00 ns"
+        "A": "डिस्क आर्म एक दिशा में लगातार चलते हुए सभी अनुरोधों को पूरा करता है जब तक कि वह छोर तक न पहुँच जाए, फिर दिशा उलट देता है",
+        "B": "यह हमेशा सिलेंडर 0 के सबसे करीब के अनुरोधों को प्राथमिकता देता है",
+        "C": "यह राइट अनुरोधों से पहले रीड अनुरोधों को पूरा करता है",
+        "D": "यह अनुरोधों को उच्च और निम्न प्राथमिकता वाली कतारों के बीच ले जाता है"
       },
       "correctAnswer": "A",
-      "explanation": "AMAT = 3 + (0.05 * 60) = 6.0 ns.",
-      "explanation_hi": "AMAT = 3 + (0.05 * 60) = 6.0 ns।"
+      "explanation": "SCAN behaves like an elevator: the disk head starts at one end of the disk and moves toward the other end, servicing requests along the way. When it reaches the end, its direction of travel is reversed to service requests on the return sweep.",
+      "explanation_hi": "SCAN एल्गोरिदम एक लिफ्ट (एलिवेटर) की तरह काम करता है: डिस्क आर्म डिस्क के एक सिरे से दूसरे सिरे की ओर बढ़ता है और रास्ते में आने वाले सभी ट्रैकों के अनुरोध पूरा करता है। अंतिम छोर पर पहुँचने के बाद यह विपरीत दिशा में मुड़कर अनुरोध पूरा करता है।"
     },
     {
       "id": 26,
@@ -710,27 +710,27 @@ window.predicted_set4 = {
       "id": 27,
       "questionNumber": 27,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Operating Systems",
+      "topic_hi": "ऑपरेटिंग सिस्टम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Calculate AMAT for a system with Hit Time = 3 ns, Miss Rate = 8%, and Miss Penalty = 60 ns.",
-      "question_hi": "हिट टाइम = 3 ns, मिस दर = 8%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
+      "question": "How does the 'Aging' technique resolve the problem of starvation in priority-based CPU scheduling?",
+      "question_hi": "प्रायोरिटी-आधारित CPU शेड्यूलिंग में 'एजिंग' (Aging) तकनीक भुखमरी (Starvation) की समस्या को कैसे हल करती है?",
       "options": {
-        "A": "7.8 ns",
-        "B": "10.92 ns",
-        "C": "4.68 ns",
-        "D": "11.80 ns"
+        "A": "It gradually increases the priority of processes that wait in the ready queue for prolonged periods",
+        "B": "It terminates processes that exceed their estimated execution time",
+        "C": "It moves old processes to swap space",
+        "D": "It forces context switches every 10 milliseconds"
       },
       "options_hi": {
-        "A": "7.8 ns",
-        "B": "10.92 ns",
-        "C": "4.68 ns",
-        "D": "11.80 ns"
+        "A": "यह लंबे समय से रेडी क्यू में प्रतीक्षा कर रही प्रक्रियाओं की प्राथमिकता को धीरे-धीरे बढ़ाती है",
+        "B": "यह उन प्रक्रियाओं को समाप्त कर देती है जो अपने अनुमानित निष्पादन समय से अधिक समय लेती हैं",
+        "C": "यह पुरानी प्रक्रियाओं को स्वैप स्पेस में ले जाती है",
+        "D": "यह हर 10 मिलीसेकंड में कंटेक्स्ट स्विच करने के लिए मजबूर करती है"
       },
       "correctAnswer": "A",
-      "explanation": "AMAT = 3 + (0.08 * 60) = 7.8 ns.",
-      "explanation_hi": "AMAT = 3 + (0.08 * 60) = 7.8 ns।"
+      "explanation": "Aging is a technique where the priority of a process waiting in the ready queue is incremented periodically (e.g., increase priority by 1 every 15 minutes), ensuring that low-priority processes eventually gain top priority and execute.",
+      "explanation_hi": "एजिंग एक समाधान है जिसमें तैयार कतार (Ready Queue) में लंबे समय तक इंतजार करने वाली कम प्राथमिकता वाली प्रक्रियाओं की प्राथमिकता को समय के साथ धीरे-धीरे बढ़ाया जाता है, जिससे वे अंततः CPU प्राप्त कर लेती हैं।"
     },
     {
       "id": 28,
@@ -762,27 +762,27 @@ window.predicted_set4 = {
       "id": 29,
       "questionNumber": 29,
       "section": "Computer Science",
-      "topic": "Computer Organization & Architecture",
-      "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
+      "topic": "Algorithms",
+      "topic_hi": "एल्गोरिदम",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Calculate AMAT for a system with Hit Time = 3 ns, Miss Rate = 10%, and Miss Penalty = 60 ns.",
-      "question_hi": "हिट टाइम = 3 ns, मिस दर = 10%, और मिस पेनल्टी = 60 ns वाले सिस्टम के लिए AMAT की गणना करें।",
+      "question": "According to the Master Theorem, what is the asymptotic solution of the recurrence relation T(n) = 4T(n/2) + O(n)?",
+      "question_hi": "मास्टर प्रमेय के अनुसार पुनरावृत्ति संबंध T(n) = 4T(n/2) + O(n) का स्पर्शोन्मुख हल (Asymptotic solution) क्या है?",
       "options": {
-        "A": "9.0 ns",
-        "B": "12.60 ns",
-        "C": "5.40 ns",
-        "D": "13.00 ns"
+        "A": "Theta(n^2)",
+        "B": "Theta(n log n)",
+        "C": "Theta(n^3)",
+        "D": "Theta(log n)"
       },
       "options_hi": {
-        "A": "9.0 ns",
-        "B": "12.60 ns",
-        "C": "5.40 ns",
-        "D": "13.00 ns"
+        "A": "Theta(n^2)",
+        "B": "Theta(n log n)",
+        "C": "Theta(n^3)",
+        "D": "Theta(log n)"
       },
       "correctAnswer": "A",
-      "explanation": "AMAT = 3 + (0.1 * 60) = 9.0 ns.",
-      "explanation_hi": "AMAT = 3 + (0.1 * 60) = 9.0 ns।"
+      "explanation": "In T(n) = aT(n/b) + f(n): a = 4, b = 2. Here n^(log_b a) = n^(log_2 4) = n^2. Since f(n) = O(n) is polynomially smaller than n^2 (n^(2 - eps) for eps = 1), Master Theorem Case 1 applies: T(n) = Theta(n^(log_b a)) = Theta(n^2).",
+      "explanation_hi": "मास्टर प्रमेय के अनुसार: a = 4, b = 2, f(n) = O(n)। यहाँ n^(log_b a) = n^(log_2 4) = n^2। चूँकि f(n) का मान n^2 से बहुपद रूप से छोटा है (Case 1), अतः हल T(n) = Theta(n^2) होगा।"
     },
     {
       "id": 30,
@@ -2661,260 +2661,260 @@ window.predicted_set4 = {
       "questionNumber": 102,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 17), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
-      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 17) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
+      "question": "In Jean Piaget's theory, what term refers to the organized mental framework or cognitive structure that individuals use to interpret and categorize incoming information?",
+      "question_hi": "जीन पियाजे के सिद्धांत में, संगठित मानसिक संरचना या संज्ञानात्मक ढांचे को क्या कहा जाता है जिसका उपयोग व्यक्ति आने वाली जानकारी की व्याख्या और वर्गीकरण करने के लिए करते हैं?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Schema",
+        "B": "Scaffolding",
+        "C": "Archetype",
+        "D": "Habituation"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "स्कीमा (Schema / मानसिक संरचना)",
+        "B": "स्कैफोल्डिंग",
+        "C": "आर्केटाइप",
+        "D": "हैबिचुएशन"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 17 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
+      "explanation": "A schema is a basic building block of intelligent behavior—a mental representation of aspects of the world (e.g., schema of a bird having wings and feathers). Piaget defined learning as the adaptation of schemas through assimilation and accommodation.",
+      "explanation_hi": "स्कीमा (Schema) मानसिक संरचनाओं की वह इकाई है जिसमें व्यक्ति सूचनाओं को श्रेणीबद्ध और व्यवस्थित करता है। अनुभव के साथ व्यक्ति अपनी स्कीमा का विस्तार या संशोधन (समायोजन) करता है।"
     },
     {
       "id": 103,
       "questionNumber": 103,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 18), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
-      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 18) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
+      "question": "What is the primary cognitive breakthrough achieved during Piaget's Formal Operational Stage (aged 11 years and above)?",
+      "question_hi": "पियाजे की औपचारिक संक्रियात्मक अवस्था (11 वर्ष और उससे अधिक) के दौरान प्राप्त प्राथमिक संज्ञानात्मक उपलब्धि क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Hypothetico-deductive reasoning and systematic abstract thinking",
+        "B": "Understanding object permanence",
+        "C": "Centration on single visual dimensions",
+        "D": "Trial and error motor manipulation"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "काल्पनिक-निगमनात्मक तर्क (Hypothetico-deductive reasoning) और व्यवस्थित अमूर्त चिंतन",
+        "B": "वस्तु स्थायित्व को समझना",
+        "C": "एकल दृश्य आयामों पर केंद्रीकरण",
+        "D": "प्रयास और त्रुटि मोटर हेरफेर"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 18 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
+      "explanation": "During the Formal Operational stage (11+ years), adolescents transcend concrete reality to reason about hypothetical 'what if' scenarios, formulate and test multiple hypotheses systematically, and engage in metacognition.",
+      "explanation_hi": "औपचारिक संक्रियात्मक अवस्था में किशोर मूर्त वस्तुओं से परे जाकर अमूर्त चिंतन करने लगते हैं। वे वैज्ञानिक की तरह परिकल्पनाएं बनाते हैं और निगमनात्मक तर्क (Hypothetico-deductive reasoning) द्वारा निष्कर्ष निकालते हैं।"
     },
     {
       "id": 104,
       "questionNumber": 104,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 19), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
-      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 19) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
+      "question": "What did Lev Vygotsky mean by the concept of 'More Knowledgeable Other' (MKO)?",
+      "question_hi": "वायगोत्स्की के अनुसार 'अधिक जानकार अन्य' (More Knowledgeable Other - MKO) की अवधारणा से क्या तात्पर्य है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Anyone (teacher, peer, parent, or digital software) who possesses a higher level of understanding or ability than the learner regarding a specific task",
+        "B": "Strictly the classroom headmaster",
+        "C": "A certified educational psychologist",
+        "D": "A student with the highest numerical IQ score in class"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "कोई भी व्यक्ति (शिक्षक, सहपाठी, माता-पिता, या डिजिटल सॉफ्टवेयर) जिसके पास किसी विशिष्ट कार्य के संबंध में शिक्षार्थी की तुलना में बेहतर समझ या कौशल हो",
+        "B": "सख्ती से केवल स्कूल का प्रधानाध्यापक",
+        "C": "एक प्रमाणित शिक्षा मनोवैज्ञानिक",
+        "D": "कक्षा में उच्चतम आईक्यू वाला छात्र"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 19 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
+      "explanation": "An MKO refers to anyone who has a better understanding or a higher ability level than the learner with respect to a specific task, process, or concept. An MKO can be a teacher, parent, younger peer with specialized tech skills, or even instructional software.",
+      "explanation_hi": "MKO (More Knowledgeable Other) का अर्थ कोई भी ऐसा व्यक्ति या माध्यम है जो उस विशिष्ट विषय या कार्य में सीखने वाले से अधिक ज्ञान या दक्षता रखता है। यह शिक्षक, माता-पिता, कंप्यूटर या कोई योग्य सहपाठी भी हो सकता है।"
     },
     {
       "id": 105,
       "questionNumber": 105,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 20), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
-      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 20) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
+      "question": "In Lawrence Kohlberg's Heinz Dilemma, what was the central moral conflict faced by the character Heinz?",
+      "question_hi": "लॉरेंस कोहलबर्ग की 'हाइंज दुविधा' (Heinz Dilemma) में, मुख्य पात्र हाइंज के सामने क्या केंद्रीय नैतिक संघर्ष था?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Whether to steal an unaffordable life-saving drug to save his dying wife, or to obey the legal law against stealing",
+        "B": "Whether to report a fellow student for cheating on an exam",
+        "C": "Whether to enlist in military service during wartime",
+        "D": "Whether to donate money to an orphanage or pay taxes"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "अपनी मरती हुई पत्नी की जान बचाने के लिए एक अत्यधिक महंगी जीवन रक्षक दवा चोरी करना, या चोरी के खिलाफ कानूनी कानून का पालन करना",
+        "B": "परीक्षा में नकल करने के लिए सहपाठी की रिपोर्ट करना या नहीं",
+        "C": "युद्ध के दौरान सेना में भर्ती होना या नहीं",
+        "D": "अनाथालय को धन दान करना या करों का भुगतान करना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 20 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
+      "explanation": "Kohlberg used hypothetical dilemmas like Heinz (stealing an exorbitantly priced drug to save a dying wife vs respecting property law) to analyze the underlying reasoning structures used by people of different ages.",
+      "explanation_hi": "हाइंज दुविधा कोहलबर्ग द्वारा नैतिक विकास के अध्ययन के लिए उपयोग की गई प्रसिद्ध कहानी है। इसमें द्वंद्व यह था कि क्या किसी इंसान (पत्नी) की जान बचाने के लिए कानून तोड़कर महंगी दवा चोरी करना नैतिक रूप से सही है या नहीं।"
     },
     {
       "id": 106,
       "questionNumber": 106,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 21), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
-      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 21) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
+      "question": "Which specific learning disability is characterized by severe difficulty in performing arithmetic calculations, understanding mathematical symbols, and grasping number concepts?",
+      "question_hi": "कौन सी विशिष्ट अधिगम अक्षमता (Learning Disability) अंकगणितीय गणना करने, गणितीय प्रतीकों को समझने और संख्या अवधारणाओं को सीखने में गंभीर कठिनाई से संबंधित है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Dyscalculia",
+        "B": "Dyslexia",
+        "C": "Dysgraphia",
+        "D": "Dysphasia"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "डिस्कैलकुलिया (Dyscalculia / गणना विकार)",
+        "B": "डिस्लेक्सिया",
+        "C": "डिस्ग्राफिया",
+        "D": "डिस्फेजिया"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 21 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
+      "explanation": "Dyscalculia is a neurological learning disability affecting a person's ability to understand numbers and learn math facts, basic arithmetic operations, and spatial mathematical representations.",
+      "explanation_hi": "डिस्कैलकुलिया (Dyscalculia) एक विशिष्ट गणितीय अधिगम अक्षमता है जिसमें छात्र को संख्याओं, जोड़-घटाव, गुणा-भाग, समय देखने और गणितीय सूत्रों को समझने में अत्यधिक कठिनाई होती है।"
     },
     {
       "id": 107,
       "questionNumber": 107,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 22), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
-      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 22) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
+      "question": "Which developmental learning disorder is marked by persistent difficulties with fine motor skills, handwriting legibility, spatial organization on paper, and spelling?",
+      "question_hi": "कौन सा विकासात्मक अधिगम विकार सूक्ष्म गतिक कौशल (Fine motor skills), हस्तलेखन की स्पष्टता, कागज पर स्थानिक संगठन और वर्तनी में निरंतर कठिनाई से जुड़ा है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Dysgraphia",
+        "B": "Dyslexia",
+        "C": "Dyspraxia",
+        "D": "Aphasia"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "डिस्ग्राफिया (Dysgraphia / लेखन विकार)",
+        "B": "डिस्लेक्सिया",
+        "C": "डिस्प्रेक्सिया",
+        "D": "अफेजिया"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 22 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
+      "explanation": "Dysgraphia is a specific learning disability affecting written expression, characterized by distorted handwriting, irregular letter sizing and spacing, poor pencil grip, and difficulty writing down thoughts coherently.",
+      "explanation_hi": "डिस्ग्राफिया (Dysgraphia) लेखन संबंधी विकार है। इससे ग्रसित बच्चे को कलम पकड़ने, सीधी रेखा में लिखने, अक्षरों का उचित आकार व दूरी बनाए रखने और विचारों को लिखित रूप देने में गंभीर कठिनाई होती है।"
     },
     {
       "id": 108,
       "questionNumber": 108,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 23), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
-      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 23) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
+      "question": "What is the core defining behavioral triad of Attention-Deficit/Hyperactivity Disorder (ADHD) in schoolchildren?",
+      "question_hi": "स्कूली बच्चों में ध्यान-अभाव/अतिसक्रियता विकार (ADHD) की मुख्य परिभाषित व्यवहारिक तिकड़ी क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Inattention, Hyperactivity, and Impulsivity",
+        "B": "Aggression, Anxiety, and Mutism",
+        "C": "Depression, Lethargy, and Phobia",
+        "D": "Reading delay, Memory loss, and Stuttering"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "असावधानी / ध्यान की कमी (Inattention), अतिसक्रियता (Hyperactivity), और आवेगशीलता (Impulsivity)",
+        "B": "आक्रामकता, चिंता और मौन",
+        "C": "अवसाद, सुस्ती और भय",
+        "D": "पठन में देरी, स्मृति हानि और हकलाना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 23 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
+      "explanation": "ADHD is characterized by developmentally inappropriate levels of: 1) Inattention (difficulty sustaining focus and organizing tasks), 2) Hyperactivity (excessive restlessness and fidgeting), and 3) Impulsivity (acting without anticipating consequences).",
+      "explanation_hi": "ADHD की मुख्य विशेषताएं हैं: 1. ध्यान न टिकना (Inattention), 2. अत्यधिक चंचलता/अतिसक्रियता (Hyperactivity - एक जगह शांत न बैठ पाना), और 3. बिना सोचे-समझे उतावलेपन में काम करना (Impulsivity)।"
     },
     {
       "id": 109,
       "questionNumber": 109,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 24), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
-      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 24) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
+      "question": "How many specified categories of disabilities are officially recognized under India's Rights of Persons with Disabilities (RPwD) Act 2016?",
+      "question_hi": "भारत के दिव्यांगजन अधिकार (RPwD) अधिनियम 2016 के तहत आधिकारिक तौर पर कितनी श्रेणियों की विकलांगताओं को मान्यता दी गई है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "21 disabilities (increased from 7 in the 1995 Act)",
+        "B": "7 disabilities",
+        "C": "14 disabilities",
+        "D": "28 disabilities"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "21 विकलांगताएं (1995 के अधिनियम में 7 से बढ़ाकर 21 की गईं)",
+        "B": "7 विकलांगताएं",
+        "C": "14 विकलांगताएं",
+        "D": "28 विकलांगताएं"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 24 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
+      "explanation": "The RPwD Act 2016 expanded recognized disabilities from 7 to 21, adding conditions such as Specific Learning Disabilities, Autism Spectrum Disorder, Cerebral Palsy, Acid Attack Victims, Parkinson's, Dwarfism, and Blood Disorders (Thalassemia, Hemophilia, Sickle Cell).",
+      "explanation_hi": "RPwD अधिनियम 2016 ने विकलांगताओं की संख्या को 7 से बढ़ाकर 21 कर दिया। इसमें विशिष्ट अधिगम अक्षमताएं, ऑटिज्म, सेरेब्रल पाल्सी, एसिड अटैक पीड़ित, थैलेसीमिया, और हीमोफीलिया जैसी स्थितियां शामिल की गईं।"
     },
     {
       "id": 110,
       "questionNumber": 110,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 25), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
-      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 25) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
+      "question": "What is the legally prescribed percentage of reservation for Persons with Benchmark Disabilities in government employment under the RPwD Act 2016?",
+      "question_hi": "RPwD अधिनियम 2016 के तहत सरकारी नौकरियों में बेंचमार्क दिव्यांगजनों के लिए कानूनी रूप से निर्धारित आरक्षण प्रतिशत कितना है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Not less than 4%",
+        "B": "Not less than 3%",
+        "C": "Not less than 5%",
+        "D": "Not less than 2%"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "कम से कम 4% (पहले के 3% से बढ़ाया गया)",
+        "B": "कम से कम 3%",
+        "C": "कम से कम 5%",
+        "D": "कम से कम 2%"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 25 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
+      "explanation": "Under Section 34 of the RPwD Act 2016, reservation for persons with benchmark disabilities (>= 40% certified disability) in government appointments was raised from 3% to at least 4% (and 5% in higher educational institutions).",
+      "explanation_hi": "RPwD अधिनियम 2016 की धारा 34 के अनुसार सरकारी नौकरियों में बेंचमार्क दिव्यांग व्यक्तियों (कम से कम 40% दिव्यांगता) के लिए आरक्षण को 3% से बढ़ाकर न्यूनतम 4% किया गया है (तथा उच्च शिक्षा में 5% आरक्षण)।"
     },
     {
       "id": 111,
       "questionNumber": 111,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Lecture-cum-Demonstration Method - Scenario 26), which instructional strategy best reflects this principle: 'Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching'?",
-      "question_hi": "शिक्षण अभ्यास (व्याख्यान-सह-प्रदर्शन विधि - परिदृश्य 26) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है'?",
+      "question": "Under Section 17 of the Right to Education (RTE) Act 2009, what is the legal provision regarding physical punishment and mental harassment of children in schools?",
+      "question_hi": "शिक्षा का अधिकार (RTE) अधिनियम 2009 की धारा 17 के तहत स्कूलों में बच्चों के शारीरिक दंड और मानसिक उत्पीड़न के संबंध में क्या कानूनी प्रावधान है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Physical punishment and mental harassment are completely prohibited, and violating this is a punishable disciplinary offense",
+        "B": "Permissible with written parental consent",
+        "C": "Allowed only during examination malpractice",
+        "D": "Left to the discretion of the school principal"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "शारीरिक दंड और मानसिक उत्पीड़न पूरी तरह से प्रतिबंधित है, और इसका उल्लंघन एक दंडनीय अनुशासनात्मक अपराध है",
+        "B": "माता-पिता की लिखित सहमति से अनुमत",
+        "C": "केवल परीक्षा में नकल के दौरान अनुमति है",
+        "D": "स्कूल के प्रधानाचार्य के विवेक पर छोड़ दिया गया"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 26 exemplifies Lecture-cum-Demonstration Method: Combines verbal explanation with concrete apparatus demonstrations, ideal for secondary science and computer teaching.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विज्ञान और कंप्यूटर शिक्षण में मौखिक व्याख्या के साथ प्रायोगिक प्रदर्शन को जोड़ती है।"
+      "explanation": "Section 17(1) of the RTE Act 2009 explicitly states: 'No child shall be subjected to physical punishment or mental harassment.' Section 17(2) prescribes disciplinary action against any offender.",
+      "explanation_hi": "RTE अधिनियम 2009 की धारा 17 किसी भी बच्चे को शारीरिक दंड देने या मानसिक रूप से प्रताड़ित करने पर पूर्ण प्रतिबंध लगाती है। इसका उल्लंघन करने वाले शिक्षक के खिलाफ अनुशासनात्मक और कानूनी कार्रवाई का प्रावधान है।"
     },
     {
       "id": 112,
@@ -3414,131 +3414,131 @@ window.predicted_set4 = {
       "id": 131,
       "questionNumber": 131,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals' (Context 2)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals' (संदर्भ 2)?",
+      "question": "Where is the grand octagonal mausoleum of Emperor Sher Shah Suri situated in Bihar?",
+      "question_hi": "बिहार में सम्राट शेरशाह सूरी का भव्य अष्टकोणीय मकबरा कहाँ स्थित है?",
       "options": {
-        "A": "Gaya",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Sasaram (Rohtas district)",
+        "B": "Maner Sharif (Patna)",
+        "C": "Rohtasgarh Fort",
+        "D": "Daulatpur"
       },
       "options_hi": {
-        "A": "गया",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "सासाराम (रोहतास जिला)",
+        "B": "मनेर शरीफ (पटना)",
+        "C": "रोहतासगढ़ किला",
+        "D": "दौलतपुर"
       },
       "correctAnswer": "A",
-      "explanation": "Gaya is renowned across Bihar for: Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals.",
-      "explanation_hi": "गया का ऐतिहासिक व भौगोलिक महत्व: Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals।"
+      "explanation": "Sher Shah Suri's tomb is situated in Sasaram (Rohtas). Built of red sandstone in an artificial square lake, it is an architectural masterpiece of Indo-Islamic design.",
+      "explanation_hi": "शेरशाह सूरी का मकबरा रोहतास जिले के सासाराम में एक कृत्रिम झील के बीचो-बीच लाल बलुआ पत्थर से निर्मित एक उत्कृष्ट अष्टकोणीय स्थापत्य कला का नमूना है।"
     },
     {
       "id": 132,
       "questionNumber": 132,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals' (Context 3)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals' (संदर्भ 3)?",
+      "question": "Where was the 10th Sikh Guru, Guru Gobind Singh Ji, born in the year 1666?",
+      "question_hi": "सिखों के दसवें गुरु, गुरु गोबिंद सिंह जी का जन्म 1666 ईस्वी में कहाँ हुआ था?",
       "options": {
-        "A": "Gaya",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Patna Sahib (Takht Sri Patna Sahib)",
+        "B": "Anandpur Sahib",
+        "C": "Nankana Sahib",
+        "D": "Amritsar"
       },
       "options_hi": {
-        "A": "गया",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "पटना साहिब (तख्त श्री पटना साहिब)",
+        "B": "आनंदपुर साहिब",
+        "C": "ननकाना साहिब",
+        "D": "अमृतसर"
       },
       "correctAnswer": "A",
-      "explanation": "Gaya is renowned across Bihar for: Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals.",
-      "explanation_hi": "गया का ऐतिहासिक व भौगोलिक महत्व: Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals।"
+      "explanation": "Guru Gobind Singh Ji was born in Patna on December 22, 1666. The site is consecrated as Takht Sri Patna Sahib (Harmandir Sahib), one of the five holy Takhts of Sikhism.",
+      "explanation_hi": "गुरु गोबिंद सिंह जी का जन्म 22 दिसंबर 1666 को पटना में हुआ था। यह स्थान सिख धर्म के पांच पवित्र तख्तों में से एक 'तख्त श्री हरमंदिर जी पटना साहिब' के रूप में प्रतिष्ठित है।"
     },
     {
       "id": 133,
       "questionNumber": 133,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals' (Context 4)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals' (संदर्भ 4)?",
+      "question": "Which mineral found in Amjhore (Rohtas district) of Bihar accounts for approximately 95% of India's total reserves?",
+      "question_hi": "बिहार के रोहतास जिले के अमझोर में पाया जाने वाला कौन सा खनिज भारत के कुल ज्ञात भंडार का लगभग 95% है?",
       "options": {
-        "A": "Gaya",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Pyrite (Iron Pyrite)",
+        "B": "Mica",
+        "C": "Limestone",
+        "D": "Bauxite"
       },
       "options_hi": {
-        "A": "गया",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "पाइराइट (लौह पाइराइट)",
+        "B": "अभ्रक (Mica)",
+        "C": "चूना पत्थर",
+        "D": "बॉक्साइट"
       },
       "correctAnswer": "A",
-      "explanation": "Gaya is renowned across Bihar for: Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals.",
-      "explanation_hi": "गया का ऐतिहासिक व भौगोलिक महत्व: Home to Vishnupad Temple and Falgu river, famous worldwide for Pitrupaksha Shraddha rituals।"
+      "explanation": "Amjhore in Rohtas district possesses nearly 95% of India's total deposits of Pyrite (sulfur ore), used extensively in the manufacture of sulfuric acid and petroleum refining.",
+      "explanation_hi": "रोहतास जिले के अमझोर में देश के कुल पाइराइट भंडार का लगभग 95% हिस्सा पाया जाता है। इसका उपयोग सल्फ्यूरिक एसिड और उर्वरक उत्पादन में होता है।"
     },
     {
       "id": 134,
       "questionNumber": 134,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi' (Context 1)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi' (संदर्भ 1)?",
+      "question": "Who founded the All India Kisan Sabha in Lucknow in April 1936 and served as its first President?",
+      "question_hi": "अप्रैल 1936 में लखनऊ में अखिल भारतीय किसान सभा की स्थापना किसने की और इसके पहले अध्यक्ष कौन बने?",
       "options": {
-        "A": "Muzaffarpur",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Swami Sahajanand Saraswati",
+        "B": "N.G. Ranga",
+        "C": "Karyanand Sharma",
+        "D": "Rahul Sankrityayan"
       },
       "options_hi": {
-        "A": "मुजफ्फरपुर",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "स्वामी सहजानंद सरस्वती",
+        "B": "एन.जी. रंगा",
+        "C": "कार्यानंद शर्मा",
+        "D": "राहुल सांकृत्यायन"
       },
       "correctAnswer": "A",
-      "explanation": "Muzaffarpur is renowned across Bihar for: Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi.",
-      "explanation_hi": "मुजफ्फरपुर का ऐतिहासिक व भौगोलिक महत्व: Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi।"
+      "explanation": "Swami Sahajanand Saraswati founded the Bihar Provincial Kisan Sabha (1929) and the All India Kisan Sabha (1936 at Lucknow), with N.G. Ranga as its General Secretary.",
+      "explanation_hi": "स्वामी सहजानंद सरस्वती ने 1929 में बिहार प्रांतीय किसान सभा और 1936 में लखनऊ में अखिल भारतीय किसान सभा की स्थापना की और इसके प्रथम अध्यक्ष बने (एन.जी. रंगा महासचिव थे)।"
     },
     {
       "id": 135,
       "questionNumber": 135,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi' (Context 2)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi' (संदर्भ 2)?",
+      "question": "What is the total number of members in the Bihar Legislative Assembly (Vidhan Sabha)?",
+      "question_hi": "बिहार विधानसभा (Vidhan Sabha) में कुल निर्वाचित सदस्यों की संख्या कितनी है?",
       "options": {
-        "A": "Muzaffarpur",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "243",
+        "B": "250",
+        "C": "240",
+        "D": "75"
       },
       "options_hi": {
-        "A": "मुजफ्फरपुर",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "243",
+        "B": "250",
+        "C": "240",
+        "D": "75"
       },
       "correctAnswer": "A",
-      "explanation": "Muzaffarpur is renowned across Bihar for: Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi.",
-      "explanation_hi": "मुजफ्फरपुर का ऐतिहासिक व भौगोलिक महत्व: Renowned as the 'Lychee City' of India, producer of the GI-tagged Shahi Litchi।"
+      "explanation": "The Bihar Legislative Assembly has 243 directly elected constituency seats. The Bihar Legislative Council (Vidhan Parishad) has 75 seats.",
+      "explanation_hi": "बिहार विधानसभा में कुल 243 निर्वाचन क्षेत्र (सीटें) हैं, जबकि बिहार विधान परिषद (उच्च सदन) में 75 सदस्य होते हैं।"
     },
     {
       "id": 136,
@@ -3570,27 +3570,27 @@ window.predicted_set4 = {
       "id": 137,
       "questionNumber": 137,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Renewable Energy Sources - Case 7), which statement accurately reflects this principle: 'Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon'?",
-      "question_hi": "पर्यावरण विज्ञान (नवीकरणीय ऊर्जा स्रोत - केस 7) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon'?",
+      "question": "How many Parliamentary constituencies (Lok Sabha seats) are allocated to the state of Bihar?",
+      "question_hi": "बिहार राज्य को लोकसभा में कुल कितनी सीटें आवंटित हैं?",
       "options": {
-        "A": "Accurately validated by ecological principle: Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "40 seats",
+        "B": "42 seats",
+        "C": "38 seats",
+        "D": "16 seats"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "40 सीटें",
+        "B": "42 सीटें",
+        "C": "38 सीटें",
+        "D": "16 सीटें"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon.",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Solar, wind, hydro, and geothermal energy replenish naturally without emitting greenhouse combustion carbon।"
+      "explanation": "Bihar sends 40 representatives to the Lok Sabha (Lower House) and 16 members to the Rajya Sabha (Upper House).",
+      "explanation_hi": "बिहार राज्य से लोकसभा के लिए 40 सांसद तथा राज्यसभा के लिए 16 सांसद निर्वाचित होकर संसद पहुंचते हैं।"
     },
     {
       "id": 138,
@@ -3622,53 +3622,53 @@ window.predicted_set4 = {
       "id": 139,
       "questionNumber": 139,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Biodiversity Hotspots - Case 2), which statement accurately reflects this principle: 'Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)'?",
-      "question_hi": "पर्यावरण विज्ञान (जैव विविधता हॉटस्पॉट - केस 2) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)'?",
+      "question": "Which of the following folk art styles originated in the Mithila region of Bihar and features distinct Kachni and Bharni painting techniques?",
+      "question_hi": "निम्नलिखित में से कौन सी लोक चित्रकला शैली बिहार के मिथिला क्षेत्र से उत्पन्न हुई है और इसमें कछनी और भरनी शैलियां प्रमुख हैं?",
       "options": {
-        "A": "Accurately validated by ecological principle: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "Madhubani Painting",
+        "B": "Manjusha Art",
+        "C": "Warli Painting",
+        "D": "Pattachitra"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "मधुबनी (मिथिला) चित्रकला",
+        "B": "मंजूषा कला",
+        "C": "वारली चित्रकला",
+        "D": "पट्टचित्र"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas).",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)।"
+      "explanation": "Madhubani painting (Mithila art) uses natural pigments, cow dung treated canvas, and two-dimensional linear motifs (Bharni, Kachni, Tantrik, Godna) depicting deities, flora, and fauna.",
+      "explanation_hi": "मधुबनी चित्रकला बिहार के मिथिलांचल की विश्वप्रसिद्ध पारंपरिक लोक कला है। इसमें भरनी (रंग भरना), कछनी (रेखांकन) और गोदना शैलियों का उपयोग किया जाता है।"
     },
     {
       "id": 140,
       "questionNumber": 140,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Biodiversity Hotspots - Case 3), which statement accurately reflects this principle: 'Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)'?",
-      "question_hi": "पर्यावरण विज्ञान (जैव विविधता हॉटस्पॉट - केस 3) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)'?",
+      "question": "The traditional folk art style 'Manjusha Painting' is historically associated with which cultural region of Bihar?",
+      "question_hi": "पारंपरिक लोक कला 'मंजूषा चित्रकला' (Manjusha Art) ऐतिहासिक रूप से बिहार के किस सांस्कृतिक क्षेत्र से संबंधित है?",
       "options": {
-        "A": "Accurately validated by ecological principle: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "Anga region (Bhagalpur)",
+        "B": "Mithila region (Madhubani)",
+        "C": "Bhojpur region (Arrah)",
+        "D": "Magadha region (Gaya)"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "अंग प्रदेश (भागलपुर)",
+        "B": "मिथिला क्षेत्र (मधुबनी)",
+        "C": "भोजपुर क्षेत्र (आरा)",
+        "D": "मगध क्षेत्र (गया)"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas).",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Biogeographic regions with exceptionally high endemic species richness under severe habitat destruction threat (e.g. Western Ghats and Himalayas)।"
+      "explanation": "Manjusha art is an ancient folk painting scroll style originating in the Anga region (modern Bhagalpur). It is centered around the folk legend of Bihula-Bishahari and is characterized by snake motifs and three primary colors (pink, green, yellow).",
+      "explanation_hi": "मंजूषा कला बिहार के अंग क्षेत्र (भागलपुर) की एक लोक चित्रकला है, जो बिहुला-विषहरी की लोकगाथा पर आधारित है। इसे 'सर्प चित्रकला' (Snake Art) भी कहा जाता है।"
     },
     {
       "id": 141,

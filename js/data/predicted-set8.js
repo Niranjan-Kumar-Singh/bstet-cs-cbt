@@ -554,105 +554,105 @@ window.predicted_set8 = {
       "id": 21,
       "questionNumber": 21,
       "section": "Computer Science",
-      "topic": "Algorithms",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Solve the algorithm recurrence relation T(n) = 16T(n/2) + n³ (Instance 2).",
-      "question_hi": "एल्गोरिदम पुनरावृत्ति संबंध T(n) = 16T(n/2) + n³ (उदाहरण 2) का समाधान ज्ञात करें।",
+      "question": "Which mathematical theorem states that any Boolean function f(x1, x2, ..., xn) can be expanded about variable x1 as: f = x1 . f(1, x2, ..., xn) + x1' . f(0, x2, ..., xn)?",
+      "question_hi": "कौन सा गणितीय प्रमेय कहता है कि किसी भी बूलियन फलन f(x1, x2, ..., xn) को चर x1 के सापेक्ष f = x1 . f(1, x2, ..., xn) + x1' . f(0, x2, ..., xn) के रूप में विस्तारित किया जा सकता है?",
       "options": {
-        "A": "Θ(n⁴)",
-        "B": "Θ(n!)",
-        "C": "Θ(log n)",
-        "D": "Θ(2ⁿ)"
+        "A": "Shannon's Expansion Theorem",
+        "B": "De Morgan's Theorem",
+        "C": "Karnaugh Expansion Theorem",
+        "D": "Boole's Consensus Theorem"
       },
       "options_hi": {
-        "A": "Θ(n⁴)",
-        "B": "Θ(n!)",
-        "C": "Θ(log n)",
-        "D": "Θ(2ⁿ)"
+        "A": "शैनन का विस्तार प्रमेय (Shannon's Expansion Theorem)",
+        "B": "डि मॉर्गन प्रमेय",
+        "C": "कॉर्नो विस्तार प्रमेय",
+        "D": "बूल का सर्वसम्मति प्रमेय"
       },
       "correctAnswer": "A",
-      "explanation": "Master Theorem derivation: Case 1: n^(log₂16) = n⁴ dominates f(n) = n³.",
-      "explanation_hi": "मास्टर प्रमेय विश्लेषण: Case 1: n^(log₂16) = n⁴ dominates f(n) = n³।"
+      "explanation": "Shannon's expansion theorem decomposes any Boolean expression into products with respect to any chosen variable, providing the mathematical basis for implementing logic using multiplexers.",
+      "explanation_hi": "शैनन का विस्तार प्रमेय (Shannon's Expansion Theorem) किसी भी बूलियन समीकरण को किसी चर के सापेक्ष f = x.f(x=1) + x'.f(x=0) में विभाजित करता है। यह मल्टीप्लेक्सर द्वारा लॉजिक लागू करने का आधार है।"
     },
     {
       "id": 22,
       "questionNumber": 22,
       "section": "Computer Science",
-      "topic": "Algorithms",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Solve the algorithm recurrence relation T(n) = 16T(n/2) + n³ (Instance 3).",
-      "question_hi": "एल्गोरिदम पुनरावृत्ति संबंध T(n) = 16T(n/2) + n³ (उदाहरण 3) का समाधान ज्ञात करें।",
+      "question": "In an n-variable Karnaugh Map (K-map), what is the maximum number of minterms that can be grouped together into a valid adjacent group?",
+      "question_hi": "n-चर वाले कॉर्नो मैप (K-map) में, एक वैध निकटवर्ती समूह में अधिकतम कितने मिन-टर्म्स को एक साथ समूहीकृत किया जा सकता है?",
       "options": {
-        "A": "Θ(n⁴)",
-        "B": "Θ(n!)",
-        "C": "Θ(log n)",
-        "D": "Θ(2ⁿ)"
+        "A": "2^n",
+        "B": "2^(n-1)",
+        "C": "n^2",
+        "D": "2n"
       },
       "options_hi": {
-        "A": "Θ(n⁴)",
-        "B": "Θ(n!)",
-        "C": "Θ(log n)",
-        "D": "Θ(2ⁿ)"
+        "A": "2^n",
+        "B": "2^(n-1)",
+        "C": "n^2",
+        "D": "2n"
       },
       "correctAnswer": "A",
-      "explanation": "Master Theorem derivation: Case 1: n^(log₂16) = n⁴ dominates f(n) = n³.",
-      "explanation_hi": "मास्टर प्रमेय विश्लेषण: Case 1: n^(log₂16) = n⁴ dominates f(n) = n³।"
+      "explanation": "Valid groups in a K-map must be powers of two (1, 2, 4, 8, ...). For an n-variable K-map with 2^n total cells, the largest possible group contains all 2^n minterms, resulting in output f = 1 (constant True).",
+      "explanation_hi": "K-मैप में समूह हमेशा 2 की घात (1, 2, 4, 8, ... 2^n) में होते हैं। n चरों वाले मैप में अधिकतम समूह का आकार 2^n (सभी सेल) हो सकता है, जिसका मान 1 (स्थिर सत्य) होता है।"
     },
     {
       "id": 23,
       "questionNumber": 23,
       "section": "Computer Science",
-      "topic": "Algorithms",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Solve the algorithm recurrence relation T(n) = 16T(n/2) + n³ (Instance 4).",
-      "question_hi": "एल्गोरिदम पुनरावृत्ति संबंध T(n) = 16T(n/2) + n³ (उदाहरण 4) का समाधान ज्ञात करें।",
+      "question": "In Flynn's Taxonomy of computer architectures, which category describes modern Graphics Processing Units (GPUs) and vector processors?",
+      "question_hi": "कंप्यूटर आर्किटेक्चर के फ्लिन के वर्गीकरण (Flynn's Taxonomy) में, कौन सी श्रेणी आधुनिक ग्राफिक्स प्रोसेसिंग यूनिट्स (GPUs) और वेक्टर प्रोसेसर का वर्णन करती है?",
       "options": {
-        "A": "Θ(n⁴)",
-        "B": "Θ(n!)",
-        "C": "Θ(log n)",
-        "D": "Θ(2ⁿ)"
+        "A": "SIMD (Single Instruction, Multiple Data)",
+        "B": "SISD (Single Instruction, Single Data)",
+        "C": "MISD (Multiple Instruction, Single Data)",
+        "D": "MIMD (Multiple Instruction, Multiple Data)"
       },
       "options_hi": {
-        "A": "Θ(n⁴)",
-        "B": "Θ(n!)",
-        "C": "Θ(log n)",
-        "D": "Θ(2ⁿ)"
+        "A": "SIMD (सिंगल इंस्ट्रक्शन, मल्टीपल डेटा)",
+        "B": "SISD (सिंगल इंस्ट्रक्शन, सिंगल डेटा)",
+        "C": "MISD (मल्टीपल इंस्ट्रक्शन, सिंगल डेटा)",
+        "D": "MIMD (मल्टीपल इंस्ट्रक्शन, मल्टीपल डेटा)"
       },
       "correctAnswer": "A",
-      "explanation": "Master Theorem derivation: Case 1: n^(log₂16) = n⁴ dominates f(n) = n³.",
-      "explanation_hi": "मास्टर प्रमेय विश्लेषण: Case 1: n^(log₂16) = n⁴ dominates f(n) = n³।"
+      "explanation": "SIMD applies a single instruction stream concurrently to multiple distinct data operands using parallel processing elements, making it ideal for graphics, matrix multiplication, and vector processing.",
+      "explanation_hi": "SIMD (सिंगल इंस्ट्रक्शन, मल्टीपल डेटा) एक ही निर्देश को समानांतर में कई अलग-अलग डेटा तत्वों पर लागू करता है। GPUs और वेक्टर प्रोसेसर इसी आर्किटेक्चर पर कार्य करते हैं।"
     },
     {
       "id": 24,
       "questionNumber": 24,
       "section": "Computer Science",
-      "topic": "Algorithms",
-      "topic_hi": "एल्गोरिदम एवं विश्लेषण",
+      "topic": "Computer Organization & Architecture",
+      "topic_hi": "कंप्यूटर संगठन एवं आर्किटेक्चर",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Solve the algorithm recurrence relation T(n) = 16T(n/2) + n³ (Instance 5).",
-      "question_hi": "एल्गोरिदम पुनरावृत्ति संबंध T(n) = 16T(n/2) + n³ (उदाहरण 5) का समाधान ज्ञात करें।",
+      "question": "What is Content-Addressable Memory (CAM), also known as Associative Memory?",
+      "question_hi": "कंटेंट-एड्रेसेबल मेमोरी (CAM), जिसे एसोसिएटिव मेमोरी भी कहा जाता है, क्या है?",
       "options": {
-        "A": "Θ(n⁴)",
-        "B": "Θ(n!)",
-        "C": "Θ(log n)",
-        "D": "Θ(2ⁿ)"
+        "A": "Memory accessed simultaneously by the data content itself rather than by a physical memory address",
+        "B": "Memory that compresses video files dynamically",
+        "C": "Non-volatile memory that retains data without electric power",
+        "D": "A disk drive cache partition"
       },
       "options_hi": {
-        "A": "Θ(n⁴)",
-        "B": "Θ(n!)",
-        "C": "Θ(log n)",
-        "D": "Θ(2ⁿ)"
+        "A": "मेमोरी जिसे भौतिक मेमोरी पते के बजाय स्वयं डेटा सामग्री (कंटेंट) द्वारा एक साथ एक्सेस किया जाता है",
+        "B": "मेमोरी जो वीडियो फ़ाइलों को गतिशील रूप से संपीड़ित करती है",
+        "C": "गैर-वाष्पशील मेमोरी जो विद्युत शक्ति के बिना डेटा बरकरार रखती है",
+        "D": "एक डिस्क ड्राइव कैश विभाजन"
       },
       "correctAnswer": "A",
-      "explanation": "Master Theorem derivation: Case 1: n^(log₂16) = n⁴ dominates f(n) = n³.",
-      "explanation_hi": "मास्टर प्रमेय विश्लेषण: Case 1: n^(log₂16) = n⁴ dominates f(n) = n³।"
+      "explanation": "Associative memory (CAM) compares an input search word against all stored words in parallel within a single clock cycle, returning the matching location or associated value (used in TLBs and high-speed network routing tables).",
+      "explanation_hi": "एसोसिएटिव मेमोरी (CAM) में किसी पते की जगह डेटा सामग्री देकर खोज की जाती है। यह एक ही क्लॉक साइकल में सभी मेमोरी लोकेशनों में समानांतर तुलना करता है (TLB और राउटर में प्रयुक्त)।"
     },
     {
       "id": 25,
@@ -3207,338 +3207,338 @@ window.predicted_set8 = {
       "questionNumber": 123,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 2), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 2) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "Which microteaching skill focuses on linking students' previous knowledge with the new topic to be introduced?",
+      "question_hi": "कौन सा सूक्ष्म-शिक्षण कौशल छात्रों के पूर्व ज्ञान को पढ़ाए जाने वाले नए विषय से जोड़ने पर केंद्रित है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Skill of Introducing a Lesson",
+        "B": "Skill of Blackboard Writing",
+        "C": "Skill of Stimulus Variation",
+        "D": "Skill of Closure"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "प्रस्तावना कौशल (Skill of Introducing a Lesson)",
+        "B": "श्यामपट्ट लेखन कौशल",
+        "C": "उद्दीपन परिवर्तन कौशल",
+        "D": "समापन कौशल"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 2 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "The Skill of Introducing a Lesson involves testing entering behavior, arousing curiosity, and linking prior knowledge to the new learning material using introductory questions, stories, or demonstrations.",
+      "explanation_hi": "प्रस्तावना कौशल (Skill of Introducing a Lesson) का मुख्य उद्देश्य छात्रों के पूर्व ज्ञान को नए पाठ से जोड़ना और उनमें सीखने की जिज्ञासा व तत्परता उत्पन्न करना है।"
     },
     {
       "id": 124,
       "questionNumber": 124,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 3), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 3) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "In classroom micro-teaching, what is an essential component of the 'Skill of Reinforcement'?",
+      "question_hi": "कक्षा सूक्ष्म-शिक्षण में 'पुनर्बलन कौशल' (Skill of Reinforcement) का एक अनिवार्य घटक क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Using positive verbal praises and affirmative non-verbal nods to encourage student participation",
+        "B": "Giving lengthy lectures",
+        "C": "Writing entire chapters on the blackboard",
+        "D": "Ignoring student responses"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "सकारात्मक मौखिक प्रशंसा और स्वीकारात्मक अशाब्दिक सिर हिलाने का उपयोग करना",
+        "B": "लंबे व्याख्यान देना",
+        "C": "श्यामपट्ट पर पूरा अध्याय लिखना",
+        "D": "छात्र प्रतिक्रियाओं की उपेक्षा करना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 3 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "The Skill of Reinforcement includes positive verbal reinforcement (praising with 'good', 'well done') and positive non-verbal reinforcement (nodding, smiling, writing correct student responses on the board).",
+      "explanation_hi": "पुनर्बलन कौशल में सकारात्मक शाब्दिक (जैसे 'शाबाश', 'बहुत अच्छे') और सकारात्मक अशाब्दिक (जैसे मुस्कुराना, सिर हिलाना, बोर्ड पर बच्चे का सही उत्तर लिखना) तकनीकों का उपयोग किया जाता है।"
     },
     {
       "id": 125,
       "questionNumber": 125,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 4), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 4) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "What is the primary function of the 'Skill of Blackboard Writing' in classroom teaching?",
+      "question_hi": "कक्षा शिक्षण में 'श्यामपट्ट लेखन कौशल' (Skill of Blackboard Writing) का प्राथमिक कार्य क्या है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Maintaining legible, clear handwriting with proper spacing and orderly presentation of key concepts and diagrams",
+        "B": "Writing every single spoken sentence word-for-word",
+        "C": "Drawing decorative pictures only",
+        "D": "Using the board exclusively for attendance registers"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "उचित अंतर के साथ सुपाठ्य, स्पष्ट लिखावट बनाए रखना और मुख्य अवधारणाओं व चित्रों की व्यवस्थित प्रस्तुति",
+        "B": "बोले गए प्रत्येक वाक्य को शब्दशः लिखना",
+        "C": "केवल सजावटी चित्र बनाना",
+        "D": "केवल उपस्थिति के लिए बोर्ड का उपयोग करना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 4 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "Effective blackboard work requires legibility, neatness, proper spacing, distinct organization of concepts, and highlighting core definitions and diagrams.",
+      "explanation_hi": "श्यामपट्ट कार्य की प्रभावशीलता लिखावट की सुपाठ्यता, स्पष्टता, अक्षरों के उचित आकार और मुख्य बिंदुओं के व्यवस्थित प्रस्तुतीकरण पर निर्भर करती है।"
     },
     {
       "id": 126,
       "questionNumber": 126,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 5), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 5) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "What does the 'Skill of Closure' achieve at the end of a classroom instructional period?",
+      "question_hi": "कक्षा शिक्षण अवधि के अंत में 'समापन कौशल' (Skill of Closure) क्या प्राप्त करता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Consolidating and summarizing the core concepts learned and assessing student grasp before the period ends",
+        "B": "Leaving the classroom without any summary",
+        "C": "Starting a completely new difficult topic in the last 2 minutes",
+        "D": "Assigning unannounced punishments"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "सीखी गई मुख्य अवधारणाओं को समेकित व सारांशित करना और कक्षा समाप्त होने से पहले छात्रों की समझ का आकलन करना",
+        "B": "बिना किसी सारांश के कक्षा छोड़ना",
+        "C": "अंतिम 2 मिनट में नया कठिन विषय शुरू करना",
+        "D": "अघोषित दंड देना"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 5 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "The Skill of Closure helps integrate and synthesize the lesson content, allowing students to structure what they learned into a coherent cognitive schema.",
+      "explanation_hi": "समापन कौशल (Skill of Closure) पूरे पाठ के मुख्य बिंदुओं को दोहराने, सारांशित करने और छात्रों की समझ का त्वरित मूल्यांकन करने में मदद करता है।"
     },
     {
       "id": 127,
       "questionNumber": 127,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 6), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 6) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "According to Edward Thorndike's primary laws of learning, which law states that learning is most effective when the organism is physiologically and psychologically prepared to act?",
+      "question_hi": "थार्नडाइक के प्राथमिक सीखने के नियमों के अनुसार, कौन सा नियम कहता है कि सीखना तब सबसे प्रभावी होता है जब प्राणी कार्य करने के लिए शारीरिक और मानसिक रूप से तैयार हो?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Law of Readiness",
+        "B": "Law of Exercise",
+        "C": "Law of Effect",
+        "D": "Law of Primacy"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "तत्परता का नियम (Law of Readiness)",
+        "B": "अभ्यास का नियम",
+        "C": "प्रभाव का नियम",
+        "D": "प्राथमिकता का नियम"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 6 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "The Law of Readiness states that when an organism is ready to learn, acting is satisfying and being prevented from acting is annoying. Preparedness accelerates learning.",
+      "explanation_hi": "तत्परता का नियम (Law of Readiness) कहता है कि जब कोई व्यक्ति सीखने के लिए मानसिक और शारीरिक रूप से तैयार होता है, तो वह जल्दी और उत्साहपूर्वक सीखता है।"
     },
     {
       "id": 128,
       "questionNumber": 128,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 7), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 7) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "Which primary law of Thorndike emphasizes that connections between stimulus and response are strengthened with repetition and practice, and weakened by disuse?",
+      "question_hi": "थार्नडाइक का कौन सा प्राथमिक नियम इस बात पर जोर देता है कि उद्दीपक और अनुक्रिया के बीच का संबंध अभ्यास और पुनरावृत्ति से मजबूत होता है और उपयोग न करने से कमजोर होता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Law of Exercise (Law of Use and Disuse)",
+        "B": "Law of Readiness",
+        "C": "Law of Effect",
+        "D": "Law of Recency"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "अभ्यास का नियम (उपयोग और अनुपयोग का नियम / Law of Exercise)",
+        "B": "तत्परता का नियम",
+        "C": "प्रभाव का नियम",
+        "D": "नवीनता का नियम"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 7 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "The Law of Exercise consists of two parts: Law of Use (practice strengthens S-R connections) and Law of Disuse (lack of practice weakens connections, causing forgetting).",
+      "explanation_hi": "अभ्यास का नियम (Law of Exercise) दो भागों में बंटा है: उपयोग का नियम (बार-बार अभ्यास से संबंध मजबूत होना) और अनुपयोग का नियम (अभ्यास छोड़ने पर विस्मरण होना)।"
     },
     {
       "id": 129,
       "questionNumber": 129,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 8), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 8) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "What behavioral principle states that a high-frequency, preferred activity can be effectively used to reinforce a low-frequency, less preferred activity?",
+      "question_hi": "कौन सा व्यवहारिक सिद्धांत कहता है कि उच्च-आवृत्ति, पसंदीदा गतिविधि का उपयोग कम-पसंदीदा गतिविधि को पुनर्बलित करने के लिए प्रभावी रूप से किया जा सकता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "The Premack Principle (Grandma's Rule)",
+        "B": "The Law of Effect",
+        "C": "The Zeigarnik Effect",
+        "D": "The Flynn Effect"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "प्रीमैक का सिद्धांत / दादी का नियम (The Premack Principle)",
+        "B": "प्रभाव का नियम",
+        "C": "ज़ाइगार्निक प्रभाव",
+        "D": "फ्लिन प्रभाव"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 8 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "David Premack's principle posits that more probable behaviors will reinforce less probable behaviors (e.g., 'If you finish your math homework, you can play video games for 30 minutes').",
+      "explanation_hi": "प्रीमैक का सिद्धांत (Premack Principle) कहता है कि किसी अधिक पसंदीदा कार्य (जैसे खेलना) को कम पसंदीदा कार्य (जैसे गृहकार्य पूरा करना) के लिए पुनर्बलक के रूप में इस्तेमाल किया जा सकता है।"
     },
     {
       "id": 130,
       "questionNumber": 130,
       "section": "Art of Teaching",
       "topic": "Art of Teaching",
-      "topic_hi": "शिक्षण कला (Art of Teaching)",
+      "topic_hi": "शिक्षण कला",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In pedagogical practice (Inclusive Education for CWSN - Scenario 9), which instructional strategy best reflects this principle: 'Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations'?",
-      "question_hi": "शिक्षण अभ्यास (समावेशी शिक्षा - परिदृश्य 9) में, कौन सी शिक्षण रणनीति इस सिद्धांत को सर्वोत्तम रूप से दर्शाती है: 'विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना'?",
+      "question": "In operant conditioning, when an organism learns a behavioral response that completely terminates an ongoing aversive stimulus, what type of conditioning has occurred?",
+      "question_hi": "क्रिया-प्रसूत अनुकूलन में जब कोई प्राणी ऐसा व्यवहार सीखता है जो किसी अप्रिय उद्दीपक को तुरंत समाप्त कर देता है, तो इसे क्या कहा जाता है?",
       "options": {
-        "A": "Implementing student-centric active engagement aligned with: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations",
-        "B": "Enforcing rote repetition without conceptual understanding",
-        "C": "Restricting classroom dialogue strictly to textbook reading",
-        "D": "Administering punitive exams without constructive feedback"
+        "A": "Escape Conditioning",
+        "B": "Avoidance Conditioning",
+        "C": "Classical Conditioning",
+        "D": "Extinction"
       },
       "options_hi": {
-        "A": "सिद्धांत के अनुसार छात्र-केन्द्रित सक्रिय शिक्षण लागू करना: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना",
-        "B": "बिना समझे रटना",
-        "C": "केवल किताब पढ़ना",
-        "D": "बिना फीडबैक के दंडनीय परीक्षा"
+        "A": "पलायन अनुकूलन (Escape Conditioning)",
+        "B": "परिहार अनुकूलन",
+        "C": "शास्त्रीय अनुकूलन",
+        "D": "विलोपन"
       },
       "correctAnswer": "A",
-      "explanation": "Effective pedagogy in secondary education requires aligning instructional design with empirical learning principles. Scenario 9 exemplifies Inclusive Education for CWSN: Educating children with special needs (CWSN) alongside mainstream peers in standard classrooms with reasonable accommodations.",
-      "explanation_hi": "माध्यमिक शिक्षा में प्रभावी शिक्षण सिद्धांत: विशेष आवश्यकता वाले बच्चों को सामान्य बच्चों के साथ सामान्य कक्षा में अनुकूलन देकर पढ़ाना।"
+      "explanation": "In Escape Conditioning, the organism performs a response to stop an ongoing unpleasant stimulus (e.g., taking an aspirin to stop an active headache).",
+      "explanation_hi": "पलायन अनुकूलन (Escape Conditioning) में प्राणी पहले से चल रहे किसी कष्टप्रद उद्दीपक से छुटकारा पाने के लिए कोई व्यवहार करता है (जैसे सिरदर्द होने पर दवा खाना)।"
     },
     {
       "id": 131,
       "questionNumber": 131,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Global cradle of GI-tagged Mithila (Madhubani) Folk Art painted with natural dyes on handmade paper' (Context 2)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Global cradle of GI-tagged Mithila (Madhubani) Folk Art painted with natural dyes on handmade paper' (संदर्भ 2)?",
+      "question": "Which district of Bihar recorded the LOWEST sex ratio in the 2011 Census?",
+      "question_hi": "2011 की जनगणना में बिहार के किस जिले में सबसे कम लिंगानुपात दर्ज किया गया था?",
       "options": {
-        "A": "Madhubani",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Munger (876)",
+        "B": "Bhagalpur (880)",
+        "C": "Khagaria (886)",
+        "D": "Patna (897)"
       },
       "options_hi": {
-        "A": "मधुबनी",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "मुंगेर (876)",
+        "B": "भागलपुर (880)",
+        "C": "खगड़िया (886)",
+        "D": "पटना (897)"
       },
       "correctAnswer": "A",
-      "explanation": "Madhubani is renowned across Bihar for: Global cradle of GI-tagged Mithila (Madhubani) Folk Art painted with natural dyes on handmade paper.",
-      "explanation_hi": "मधुबनी का ऐतिहासिक व भौगोलिक महत्व: Global cradle of GI-tagged Mithila (Madhubani) Folk Art painted with natural dyes on handmade paper।"
+      "explanation": "Munger recorded the lowest sex ratio in Bihar with 876 females per 1,000 males, followed closely by Bhagalpur (880).",
+      "explanation_hi": "2011 की जनगणना के अनुसार, मुंगेर जिले में सबसे कम लिंगानुपात (876 महिलाएं प्रति 1,000 पुरुष) दर्ज किया गया था।"
     },
     {
       "id": 132,
       "questionNumber": 132,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Global cradle of GI-tagged Mithila (Madhubani) Folk Art painted with natural dyes on handmade paper' (Context 3)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Global cradle of GI-tagged Mithila (Madhubani) Folk Art painted with natural dyes on handmade paper' (संदर्भ 3)?",
+      "question": "Where is the famous 'Mahabodhi Temple Complex', a UNESCO World Heritage Site, located in Bihar?",
+      "question_hi": "यूनेस्को विश्व धरोहर स्थल 'महाबोधि मंदिर परिसर' बिहार में कहाँ स्थित है?",
       "options": {
-        "A": "Madhubani",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Bodh Gaya (Gaya district)",
+        "B": "Rajgir (Nalanda)",
+        "C": "Vaishali",
+        "D": "Kesariya (East Champaran)"
       },
       "options_hi": {
-        "A": "मधुबनी",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "बोधगया (गया जिला)",
+        "B": "राजगीर (नालंदा)",
+        "C": "वैशाली",
+        "D": "केसरिया (पूर्वी चंपारण)"
       },
       "correctAnswer": "A",
-      "explanation": "Madhubani is renowned across Bihar for: Global cradle of GI-tagged Mithila (Madhubani) Folk Art painted with natural dyes on handmade paper.",
-      "explanation_hi": "मधुबनी का ऐतिहासिक व भौगोलिक महत्व: Global cradle of GI-tagged Mithila (Madhubani) Folk Art painted with natural dyes on handmade paper।"
+      "explanation": "The Mahabodhi Temple in Bodh Gaya, inscribed as a UNESCO World Heritage Site in 2002, marks the sacred location where Gautama Buddha attained enlightenment.",
+      "explanation_hi": "बोधगया में स्थित महाबोधि मंदिर परिसर को वर्ष 2002 में यूनेस्को द्वारा विश्व धरोहर स्थल घोषित किया गया था। यह बौद्ध धर्म का सर्वाधिक पूजनीय तीर्थ है।"
     },
     {
       "id": 133,
       "questionNumber": 133,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Global cradle of GI-tagged Mithila (Madhubani) Folk Art painted with natural dyes on handmade paper' (Context 4)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Global cradle of GI-tagged Mithila (Madhubani) Folk Art painted with natural dyes on handmade paper' (संदर्भ 4)?",
+      "question": "Which ancient Buddhist stupa located in East Champaran is acknowledged as one of the tallest Buddhist stupas in the world?",
+      "question_hi": "पूर्वी चंपारण में स्थित कौन सा प्राचीन बौद्ध स्तूप विश्व के सबसे ऊंचे बौद्ध स्तूपों में से एक माना जाता है?",
       "options": {
-        "A": "Madhubani",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Kesariya Stupa (approx. 104 feet tall)",
+        "B": "Dhamek Stupa",
+        "C": "Sanchi Stupa",
+        "D": "Amaravati Stupa"
       },
       "options_hi": {
-        "A": "मधुबनी",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "केसरिया स्तूप (ऊंचाई लगभग 104 फीट)",
+        "B": "धमेख स्तूप",
+        "C": "सांची स्तूप",
+        "D": "अमरावती स्तूप"
       },
       "correctAnswer": "A",
-      "explanation": "Madhubani is renowned across Bihar for: Global cradle of GI-tagged Mithila (Madhubani) Folk Art painted with natural dyes on handmade paper.",
-      "explanation_hi": "मधुबनी का ऐतिहासिक व भौगोलिक महत्व: Global cradle of GI-tagged Mithila (Madhubani) Folk Art painted with natural dyes on handmade paper।"
+      "explanation": "Kesariya Stupa in East Champaran stands at 104 feet (taller than Borobudur in Java), built during the Maurya and Gupta periods at the spot where Buddha delivered his farewell sermon.",
+      "explanation_hi": "पूर्वी चंपारण जिले में स्थित केसरिया स्तूप लगभग 104 फीट ऊंचा है और यह दुनिया के सबसे बड़े और ऊंचे स्तूपों में गिना जाता है।"
     },
     {
       "id": 134,
       "questionNumber": 134,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Home to the massive medieval Rohtasgarh Fort and Sher Shah Suri's architectural heritage' (Context 1)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Home to the massive medieval Rohtasgarh Fort and Sher Shah Suri's architectural heritage' (संदर्भ 1)?",
+      "question": "In which city of Bihar is the prestigious Rajendra Memorial Research Institute of Medical Sciences (RMRIMS), known for research on Kala-azar (Visceral Leishmaniasis), situated?",
+      "question_hi": "कालाजार (Visceral Leishmaniasis) पर अग्रणी शोध के लिए प्रसिद्ध 'राजेंद्र मेमोरियल रिसर्च इंस्टीट्यूट ऑफ मेडिकल साइंसेज' (RMRIMS) बिहार के किस शहर में स्थित है?",
       "options": {
-        "A": "Rohtas",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Patna (Agam Kuan)",
+        "B": "Darbhanga",
+        "C": "Gaya",
+        "D": "Muzaffarpur"
       },
       "options_hi": {
-        "A": "रोहतास",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "पटना (अगम कुआं)",
+        "B": "दरभंगा",
+        "C": "गया",
+        "D": "मुजफ्फरपुर"
       },
       "correctAnswer": "A",
-      "explanation": "Rohtas is renowned across Bihar for: Home to the massive medieval Rohtasgarh Fort and Sher Shah Suri's architectural heritage.",
-      "explanation_hi": "रोहतास का ऐतिहासिक व भौगोलिक महत्व: Home to the massive medieval Rohtasgarh Fort and Sher Shah Suri's architectural heritage।"
+      "explanation": "RMRIMS (an ICMR institute) is located at Agam Kuan in Patna, dedicated to the biomedical study and eradication of Kala-azar and tropical infectious diseases.",
+      "explanation_hi": "भारतीय आयुर्विज्ञान अनुसंधान परिषद (ICMR) का प्रमुख संस्थान RMRIMS पटना के अगम कुआं में स्थित है, जो कालाजार के उपचार और अनुसंधान के लिए विश्व प्रसिद्ध है।"
     },
     {
       "id": 135,
       "questionNumber": 135,
       "section": "Other Skills",
-      "topic": "General Knowledge & Bihar",
-      "topic_hi": "सामान्य ज्ञान एवं बिहार",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which famous district of Bihar is geographically and historically recognized for: 'Home to the massive medieval Rohtasgarh Fort and Sher Shah Suri's architectural heritage' (Context 2)?",
-      "question_hi": "बिहार का कौन सा प्रसिद्ध जिला ऐतिहासिक और भौगोलिक रूप से इसके लिए जाना जाता है: 'Home to the massive medieval Rohtasgarh Fort and Sher Shah Suri's architectural heritage' (संदर्भ 2)?",
+      "question": "Who was the founder of the powerful Magadha dynasty who was the father of King Bimbisara according to the Puranas?",
+      "question_hi": "महाभारत और पुराणों के अनुसार मगध के प्राचीनतम राजवंश की स्थापना किसने की थी?",
       "options": {
-        "A": "Rohtas",
-        "B": "Buxar",
-        "C": "Samastipur",
-        "D": "Jehanabad"
+        "A": "Brihadratha (father of Jarasandha)",
+        "B": "Bimbisara",
+        "C": "Ajatashatru",
+        "D": "Sisunaga"
       },
       "options_hi": {
-        "A": "रोहतास",
-        "B": "बक्सर",
-        "C": "समस्तीपुर",
-        "D": "जहानाबाद"
+        "A": "बृहद्रथ (जरासंध के पिता)",
+        "B": "बिंबिसार",
+        "C": "अजातशत्रु",
+        "D": "शिशुनाग"
       },
       "correctAnswer": "A",
-      "explanation": "Rohtas is renowned across Bihar for: Home to the massive medieval Rohtasgarh Fort and Sher Shah Suri's architectural heritage.",
-      "explanation_hi": "रोहतास का ऐतिहासिक व भौगोलिक महत्व: Home to the massive medieval Rohtasgarh Fort and Sher Shah Suri's architectural heritage।"
+      "explanation": "According to the Mahabharata and Puranas, Brihadratha (son of Vasu) founded the earliest known dynasty of Magadha, and his famous son Jarasandha ruled from Girivraja (Rajgir).",
+      "explanation_hi": "पौराणिक मान्यताओं के अनुसार मगध के सबसे प्राचीन राजवंश के संस्थापक बृहद्रथ थे, जिनके पुत्र जरासंध ने गिरिव्रज (राजगृह) को अपनी राजधानी बनाया था।"
     },
     {
       "id": 136,
@@ -3570,53 +3570,53 @@ window.predicted_set8 = {
       "id": 137,
       "questionNumber": 137,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Primary Air Pollutants - Case 6), which statement accurately reflects this principle: 'Pollutants emitted directly from sources like carbon monoxide (CO), sulfur dioxide (SO2), and particulate matter (PM2.5)'?",
-      "question_hi": "पर्यावरण विज्ञान (प्राथमिक वायु प्रदूषक - केस 6) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Pollutants emitted directly from sources like carbon monoxide (CO), sulfur dioxide (SO2), and particulate matter (PM2.5)'?",
+      "question": "What is the ancient name of the town of Munger recorded in epigraphic inscriptions and Chinese travelogues?",
+      "question_hi": "अभिलेखों और चीनी यात्रा वृत्तांतों में मुंगेर शहर का प्राचीन नाम क्या दर्ज मिलता है?",
       "options": {
-        "A": "Accurately validated by ecological principle: Pollutants emitted directly from sources like carbon monoxide (CO), sulfur dioxide (SO2), and particulate matter (PM2.5)",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "Mudgagiri",
+        "B": "Champa",
+        "C": "Anganagari",
+        "D": "Girivraja"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Pollutants emitted directly from sources like carbon monoxide (CO), sulfur dioxide (SO2), and particulate matter (PM2.5)",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "मुद्गगिरि (Mudgagiri)",
+        "B": "चम्पा",
+        "C": "अंगनागरी",
+        "D": "गिरिव्रज"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Pollutants emitted directly from sources like carbon monoxide (CO), sulfur dioxide (SO2), and particulate matter (PM2.5).",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Pollutants emitted directly from sources like carbon monoxide (CO), sulfur dioxide (SO2), and particulate matter (PM2.5)।"
+      "explanation": "Munger was known as Mudgagiri in ancient Sanskrit inscriptions, mentioned in the Mahabharata as well as the copper plate charters of Devapala.",
+      "explanation_hi": "मुंगेर का प्राचीन नाम 'मुद्गगिरि' था। पाल वंश के शासक देवपाल के मुंगेर ताम्रपत्र में भी इस नगर का उल्लेख मिलता है।"
     },
     {
       "id": 138,
       "questionNumber": 138,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Primary Air Pollutants - Case 7), which statement accurately reflects this principle: 'Pollutants emitted directly from sources like carbon monoxide (CO), sulfur dioxide (SO2), and particulate matter (PM2.5)'?",
-      "question_hi": "पर्यावरण विज्ञान (प्राथमिक वायु प्रदूषक - केस 7) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Pollutants emitted directly from sources like carbon monoxide (CO), sulfur dioxide (SO2), and particulate matter (PM2.5)'?",
+      "question": "Which bird sanctuary located in Katihar district is a major natural oxbow wetland harboring migratory waterfowl?",
+      "question_hi": "कटिहार जिले में स्थित कौन सा पक्षी अभयारण्य प्रवासी जलपक्षियों के लिए एक प्रमुख प्राकृतिक गोखुर आर्द्रभूमि है?",
       "options": {
-        "A": "Accurately validated by ecological principle: Pollutants emitted directly from sources like carbon monoxide (CO), sulfur dioxide (SO2), and particulate matter (PM2.5)",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "Gogabil Bird Sanctuary",
+        "B": "Bhimbandh Sanctuary",
+        "C": "Udaipur Sanctuary",
+        "D": "Nakti Dam Sanctuary"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Pollutants emitted directly from sources like carbon monoxide (CO), sulfur dioxide (SO2), and particulate matter (PM2.5)",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "गोगाबिल पक्षी अभयारण्य",
+        "B": "भीमबांध अभयारण्य",
+        "C": "उदयपुर अभयारण्य",
+        "D": "नकटी बांध अभयारण्य"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Pollutants emitted directly from sources like carbon monoxide (CO), sulfur dioxide (SO2), and particulate matter (PM2.5).",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Pollutants emitted directly from sources like carbon monoxide (CO), sulfur dioxide (SO2), and particulate matter (PM2.5)।"
+      "explanation": "Gogabil (Goga beel) in Katihar is Bihar's first Community Reserve and bird sanctuary, formed by the abandoned channels of the Ganga and Mahananda rivers.",
+      "explanation_hi": "कटिहार में स्थित गोगाबिल झील बिहार का पहला सामुदायिक रिजर्व (Community Reserve) घोषित किया गया था, जहाँ सर्दियों में साइबेरियाई पक्षी आते हैं।"
     },
     {
       "id": 139,
@@ -3648,157 +3648,157 @@ window.predicted_set8 = {
       "id": 140,
       "questionNumber": 140,
       "section": "Other Skills",
-      "topic": "Environmental Science & Ecology",
-      "topic_hi": "पर्यावरण विज्ञान एवं पारिस्थितिकी",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "In environmental ecological science (Secondary Air Pollutants - Case 2), which statement accurately reflects this principle: 'Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)'?",
-      "question_hi": "पर्यावरण विज्ञान (द्वितीयक वायु प्रदूषक - केस 2) में कौन सा कथन इस वैज्ञानिक सिद्धांत को दर्शाता है: 'Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)'?",
+      "question": "Which thermal power station in Begusarai district is one of the premier operational public-sector energy plants in Bihar?",
+      "question_hi": "बेगूसराय जिले में कौन सा ताप विद्युत संयंत्र बिहार के प्रमुख सार्वजनिक क्षेत्र के ऊर्जा संयंत्रों में से एक है?",
       "options": {
-        "A": "Accurately validated by ecological principle: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)",
-        "B": "Ecosystems function without solar energy inputs",
-        "C": "Pollution increases biodiversity stability",
-        "D": "Energy cycles indefinitely within food chains"
+        "A": "Barauni Thermal Power Station",
+        "B": "Kahalgaon Super Thermal Power Station",
+        "C": "Kanti Thermal Power Station",
+        "D": "Nabinagar Power Generating Station"
       },
       "options_hi": {
-        "A": "पारिस्थितिकी सिद्धांत के अनुसार सही: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)",
-        "B": "सौर ऊर्जा के बिना तंत्र चलता है",
-        "C": "प्रदूषण से विविधता बढ़ती है",
-        "D": "ऊर्जा कभी नष्ट नहीं होती"
+        "A": "बरौनी थर्मल पावर स्टेशन",
+        "B": "कहलगांव सुपर थर्मल पावर स्टेशन",
+        "C": "कांटी थर्मल पावर स्टेशन",
+        "D": "नवीनगर पावर प्लांट"
       },
       "correctAnswer": "A",
-      "explanation": "Environmental ecology principles: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN).",
-      "explanation_hi": "पर्यावरण विज्ञान का सिद्धांत: Formed through photochemical atmospheric reactions, including tropospheric ground-level Ozone (O3) and Photochemical Smog (PAN)।"
+      "explanation": "Barauni Thermal Power Station, situated near the industrial town of Barauni in Begusarai, is managed by NTPC and supplies electric power across Bihar.",
+      "explanation_hi": "बेगूसराय के बरौनी में स्थित बरौनी थर्मल पावर स्टेशन (NTPC द्वारा संचालित) बिहार की ऊर्जा आपूर्ति में महत्वपूर्ण भूमिका निभाता है।"
     },
     {
       "id": 141,
       "questionNumber": 141,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 7,000 at 5% annual interest for 2 years (Problem 26)?",
-      "question_hi": "7,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 26)?",
+      "question": "Which historic garden in Patna was originally known as the 'Patna Lawns' before being renamed after the Father of the Nation in 1948?",
+      "question_hi": "पटना का कौन सा ऐतिहासिक मैदान 1948 में राष्ट्रपिता के नाम पर रखे जाने से पहले 'पटना लॉन्स' (Patna Lawns) के नाम से जाना जाता था?",
       "options": {
-        "A": "Rs. 700",
-        "B": "Rs. 750",
-        "C": "Rs. 650",
-        "D": "Rs. 800"
+        "A": "Gandhi Maidan",
+        "B": "Hardinge Park (Shaheed Veer Kunwar Singh Azadi Park)",
+        "C": "Eco Park (Rajdhani Vatika)",
+        "D": "Kumhrar Park"
       },
       "options_hi": {
-        "A": "700 रुपये",
-        "B": "750 रुपये",
-        "C": "650 रुपये",
-        "D": "800 रुपये"
+        "A": "गांधी मैदान",
+        "B": "हार्डिंग पार्क",
+        "C": "इको पार्क (राजधानी वाटिका)",
+        "D": "कुम्हरार पार्क"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (7000 * 5 * 2) / 100 = Rs. 700.",
-      "explanation_hi": "साधारण ब्याज = (7000 * 5 * 2) / 100 = 700 रुपये।"
+      "explanation": "Gandhi Maidan was called the 'Patna Lawns' during British rule. It was rechristened Gandhi Maidan in 1948 in honor of Mahatma Gandhi, who held mass prayer meetings there.",
+      "explanation_hi": "गांधी मैदान को ब्रिटिश काल में 'पटना लॉन्स' कहा जाता था। 1948 में महात्मा गांधी की शहादत के बाद इसका नाम बदलकर गांधी मैदान किया गया।"
     },
     {
       "id": 142,
       "questionNumber": 142,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 8,000 at 5% annual interest for 2 years (Problem 27)?",
-      "question_hi": "8,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 27)?",
+      "question": "Which famous four-day festival celebrated with extreme sanctity across Bihar involves offering 'Arghya' to the setting and rising Sun?",
+      "question_hi": "बिहार भर में अत्यंत पवित्रता के साथ मनाया जाने वाला कौन सा चार दिवसीय महापर्व डूबते और उगते सूर्य को 'अर्घ्य' देने से जुड़ा है?",
       "options": {
-        "A": "Rs. 800",
-        "B": "Rs. 850",
-        "C": "Rs. 750",
-        "D": "Rs. 900"
+        "A": "Chhath Puja (छठ पूजा)",
+        "B": "Saraswati Puja",
+        "C": "Durga Puja",
+        "D": "Makar Sankranti"
       },
       "options_hi": {
-        "A": "800 रुपये",
-        "B": "850 रुपये",
-        "C": "750 रुपये",
-        "D": "900 रुपये"
+        "A": "छठ पूजा",
+        "B": "सरस्वती पूजा",
+        "C": "दुर्गा पूजा",
+        "D": "मकर संक्रांति"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (8000 * 5 * 2) / 100 = Rs. 800.",
-      "explanation_hi": "साधारण ब्याज = (8000 * 5 * 2) / 100 = 800 रुपये।"
+      "explanation": "Chhath Puja is Bihar's most sacred folk festival, celebrated in Kartik and Chaitra months. Over four days (Nahay-Khay, Kharna, Sandhya Arghya, Usha Arghya), devotees worship Surya and Chhathi Maiya.",
+      "explanation_hi": "छठ महापर्व बिहार का सर्वाधिक पवित्र लोक पर्व है। यह चार दिनों (नहाय-खाय, खरना, संध्या अर्घ्य और उषा अर्घ्य) तक चलता है और प्रत्यक्ष देवता सूर्य एवं छठी मइया को समर्पित है।"
     },
     {
       "id": 143,
       "questionNumber": 143,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Bihar General Knowledge",
+      "topic_hi": "बिहार सामान्य ज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 9,000 at 5% annual interest for 2 years (Problem 28)?",
-      "question_hi": "9,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 28)?",
+      "question": "Which river joins the River Ganga from the south near Fatuha in Patna district?",
+      "question_hi": "पटना जिले के फतुहा के पास दक्षिण दिशा से आकर कौन सी नदी गंगा में मिलती है?",
       "options": {
-        "A": "Rs. 900",
-        "B": "Rs. 950",
-        "C": "Rs. 850",
-        "D": "Rs. 1,000"
+        "A": "Punpun River",
+        "B": "Gandak River",
+        "C": "Ghaghra River",
+        "D": "Kosi River"
       },
       "options_hi": {
-        "A": "900 रुपये",
-        "B": "950 रुपये",
-        "C": "850 रुपये",
-        "D": "1,000 रुपये"
+        "A": "पुनपुन नदी",
+        "B": "गंडक नदी",
+        "C": "घाघरा नदी",
+        "D": "कोसी नदी"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (9000 * 5 * 2) / 100 = Rs. 900.",
-      "explanation_hi": "साधारण ब्याज = (9000 * 5 * 2) / 100 = 900 रुपये।"
+      "explanation": "The Punpun River originates in the Chota Nagpur plateau of Palamu and flows northeast through Aurangabad, Arwal, and Patna districts, joining the Ganga at Fatuha.",
+      "explanation_hi": "पुनपुन नदी पलामू पठार से निकलकर औरंगाबाद, अरवल और पटना से होते हुए फतुहा के निकट गंगा नदी में दाहिने (दक्षिण) तट से मिलती है।"
     },
     {
       "id": 144,
       "questionNumber": 144,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 10,000 at 5% annual interest for 2 years (Problem 29)?",
-      "question_hi": "10,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 29)?",
+      "question": "According to Raymond Lindeman's 10 Percent Law of energy transfer, how much energy is transferred from one trophic level to the next higher trophic level?",
+      "question_hi": "रेमंड लिंडेमैन के 10 प्रतिशत ऊर्जा नियम के अनुसार, एक पोषी स्तर से अगले उच्च पोषी स्तर तक कितनी ऊर्जा स्थानांतरित होती है?",
       "options": {
-        "A": "Rs. 1,000",
-        "B": "Rs. 1,050",
-        "C": "Rs. 950",
-        "D": "Rs. 1,100"
+        "A": "Approximately 10% (the remaining 90% is lost as metabolic heat and respiration)",
+        "B": "50%",
+        "C": "1%",
+        "D": "100%"
       },
       "options_hi": {
-        "A": "1,000 रुपये",
-        "B": "1,050 रुपये",
-        "C": "950 रुपये",
-        "D": "1,100 रुपये"
+        "A": "लगभग 10% (शेष 90% चयापचय और श्वसन में ऊष्मा के रूप में नष्ट हो जाती है)",
+        "B": "50%",
+        "C": "1%",
+        "D": "100%"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (10000 * 5 * 2) / 100 = Rs. 1000.",
-      "explanation_hi": "साधारण ब्याज = (10000 * 5 * 2) / 100 = 1000 रुपये।"
+      "explanation": "Lindeman's Ten Percent Law (1942) states that during the transfer of organic food energy from one trophic level to the next, only about 10% is stored as biomass; roughly 90% is dissipated as heat in respiration and excretion.",
+      "explanation_hi": "लिंडेमैन के 10% नियम (1942) के अनुसार प्रत्येक पोषी स्तर पर केवल 10% ऊर्जा ही अगले स्तर के जीव के लिए उपलब्ध होती है, जबकि 90% ऊर्जा श्वसन और जैविक क्रियाओं में नष्ट हो जाती है।"
     },
     {
       "id": 145,
       "questionNumber": 145,
       "section": "Other Skills",
-      "topic": "Mathematical Aptitude",
-      "topic_hi": "गणितीय योग्यता (Math)",
+      "topic": "Environmental Science",
+      "topic_hi": "पर्यावरण विज्ञान",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "What is the Simple Interest on a principal of Rs. 1,000 at 5% annual interest for 2 years (Problem 30)?",
-      "question_hi": "1,000 रुपये के मूलधन पर 5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा (प्रश्न 30)?",
+      "question": "Which of the following ecological pyramids is ALWAYS upright and can NEVER be inverted in any ecosystem?",
+      "question_hi": "निम्नलिखित में से कौन सा पारिस्थितिक पिरामिड हमेशा सीधा (Upright) होता है और किसी भी पारिस्थितिकी तंत्र में कभी उल्टा नहीं हो सकता?",
       "options": {
-        "A": "Rs. 100",
-        "B": "Rs. 150",
-        "C": "Rs. 50",
-        "D": "Rs. 200"
+        "A": "Pyramid of Energy",
+        "B": "Pyramid of Biomass",
+        "C": "Pyramid of Numbers",
+        "D": "Pyramid of Secondary Consumers"
       },
       "options_hi": {
-        "A": "100 रुपये",
-        "B": "150 रुपये",
-        "C": "50 रुपये",
-        "D": "200 रुपये"
+        "A": "ऊर्जा का पिरामिड (Pyramid of Energy)",
+        "B": "जैवभार का पिरामिड",
+        "C": "संख्या का पिरामिड",
+        "D": "द्वितीयक उपभोक्ताओं का पिरामिड"
       },
       "correctAnswer": "A",
-      "explanation": "SI = (P * R * T) / 100 = (1000 * 5 * 2) / 100 = Rs. 100.",
-      "explanation_hi": "साधारण ब्याज = (1000 * 5 * 2) / 100 = 100 रुपये।"
+      "explanation": "The pyramid of energy is always upright because according to the second law of thermodynamics, energy decreases progressively at each successive trophic level through metabolic heat loss.",
+      "explanation_hi": "ऊर्जा का पिरामिड सदैव सीधा होता है क्योंकि थर्मोडायनामिक्स के दूसरे नियम के अनुसार ऊर्जा का प्रवाह एकदिशीय होता है और हर स्तर पर ऊर्जा का ह्रास होता है।"
     },
     {
       "id": 146,

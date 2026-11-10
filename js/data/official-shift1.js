@@ -1284,27 +1284,27 @@ window.official_shift1 = {
       "id": 49,
       "questionNumber": 49,
       "section": "Computer Science",
-      "topic": "Web-Based Application Development",
+      "topic": "Digital Logic",
+      "topic_hi": "डिजिटल लॉजिक",
       "marks": 1,
       "negativeMarks": 0,
-      "question": "Which of the following attributes is not a valid attribute of the tag in HTML ?",
+      "question": "What is the primary advantage of Gray code over standard binary code in rotary optical encoders?",
+      "question_hi": "रोटरी ऑप्टिकल एन्कोडर्स में मानक बाइनरी कोड की तुलना में ग्रे कोड का मुख्य लाभ क्या है?",
       "options": {
-        "A": "face",
-        "B": "type",
-        "C": "size",
-        "D": "colour"
+        "A": "It requires fewer bits to represent numbers",
+        "B": "Only one bit changes between successive states, eliminating transition glitches",
+        "C": "It supports direct arithmetic addition without conversion",
+        "D": "It has built-in parity checking on every bit"
+      },
+      "options_hi": {
+        "A": "संख्याओं को दर्शाने के लिए कम बिट्स की आवश्यकता होती है",
+        "B": "क्रमिक अवस्थाओं के बीच केवल एक बिट बदलता है, जिससे ट्रांजिशन ग्लिच समाप्त होते हैं",
+        "C": "यह बिना रूपांतरण के सीधे अंकगणितीय जोड़ का समर्थन करता है",
+        "D": "प्रत्येक बिट पर इन-बिल्ट पैरिटी चेकिंग होती है"
       },
       "correctAnswer": "B",
-      "explanation": "**Correct Answer: (B) type**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
-      "topic_hi": "वेब डेवलपमेंट (Web Tech)",
-      "question_hi": "निम्नलिखित में से कौन सी विशेषता HTML में टैग की वैध विशेषता नहीं है?",
-      "options_hi": {
-        "A": "चेहरा",
-        "B": "प्रकार",
-        "C": "आकार",
-        "D": "रंग"
-      },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) type?**\n\n**विषय अवधारणा (वेब डेवलपमेंट (Web Tech))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation": "Gray code is an unweighted, unit-distance cyclic code where only a single bit changes between any two consecutive values. This prevents spurious intermediate states or glitches caused by asynchronous hardware delays in mechanical and optical position encoders.",
+      "explanation_hi": "ग्रे कोड एक यूनिट-डिस्टेंस कोड है जिसमें किन्हीं दो क्रमिक मानों के बीच केवल एक ही बिट बदलता है। इससे ऑप्टिकल एन्कोडर्स में हार्डवेयर डिले के कारण गलत मध्यवर्ती स्थितियां उत्पन्न नहीं होती हैं।"
     },
     {
       "id": 50,

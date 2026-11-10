@@ -1,4 +1,4 @@
-// Sachin Academy Bihar STET Art of Teaching Official PYQ Papers
+// Generated Question Paper Data
 window.sachin_art_of_teaching = {
   "sachin_pedagogy_master": {
     "id": "sachin_pedagogy_master",
@@ -428,28 +428,27 @@ window.sachin_art_of_teaching = {
         "id": 16,
         "questionNumber": 16,
         "section": "Art of Teaching",
-        "topic": "Curriculum & Learning Resources",
-        "topic_hi": "पाठ्यक्रम एवं शिक्षण संसाधन",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "A library is a place where –",
-        "question_hi": "पुस्तकालय एक ऐसी जगह है जहाँ.",
+        "question": "Which action verb is directly associated with the 'Analyzing' level of Bloom's Cognitive Taxonomy?",
+        "question_hi": "ब्लूम के संज्ञानात्मक वर्गीकरण के 'विश्लेषण' (Analyzing) स्तर से कौन सा एक्शन वर्ब सीधे संबंधित है?",
         "options": {
-          "A": "Many books are kept",
-          "B": "Many toys are kept",
-          "C": "Many clothes are kept",
-          "D": "None of these"
+          "A": "Differentiate / Deconstruct",
+          "B": "Recall / State",
+          "C": "Compute / Solve",
+          "D": "Defend / Justify"
         },
         "options_hi": {
-          "A": "(2 ढेर सारी 0कताबे रखी sई है",
-          "B": "ढेर सारे {खलौने रखे sए ह।",
-          "C": "ढेर सारे कपड़े रखे sए ह।",
-          "D": "उपयुcत में से कोई नह"
+          "A": "विभेद करना / घटक भागों में तोड़ना (Differentiate / Deconstruct)",
+          "B": "याद करना / बताना (Recall / State)",
+          "C": "गणना करना / हल करना (Compute / Solve)",
+          "D": "बचाव करना / औचित्य सिद्ध करना (Defend / Justify)"
         },
         "correctAnswer": "A",
-        "explanation": "Option (A) is the correct answer according to official Bihar STET pedagogy standards. In curriculum & learning resources, 'Many books are kept' represents the verified educational principle.",
-        "explanation_hi": "आधकिारकि बहिार STET उत्तर कुंजी के अनुसार वकलि्प (A) सही उत्तर है। Curriculum & Learning Resources के अंतर्गत 'Many books are kept' प्रामाणकि शैक्षणकि सदि्धांत को दर्शाता है।",
-        "answerText": "Many books are kept"
+        "explanation": "Analyzing involves breaking material into component parts and determining relationships. Action verbs include: differentiate, organize, deconstruct, compare, contrast, dissect.",
+        "explanation_hi": "विश्लेषण (Analyzing) का अर्थ सूचना को विभिन्न घटकों में तोड़ना और उनके बीच के संबंधों को समझना है। इसके एक्शन वर्ब्स हैं: विभेद करना (Differentiate), तुलना करना, अलग करना।"
       },
       {
         "id": 17,
@@ -1292,28 +1291,27 @@ window.sachin_art_of_teaching = {
         "id": 48,
         "questionNumber": 48,
         "section": "Art of Teaching",
-        "topic": "Art of Teaching & Pedagogy",
-        "topic_hi": "शिक्षण कला एवं शिक्षाशास्त्र",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Which of the following is not a teacher’s quality?",
-        "question_hi": "नमि्नलिखति में से कौन सा गुण शकि्षक का नहीं है?",
+        "question": "In the Affective Domain of educational objectives formulated by David Krathwohl, what is the hierarchical progression from lowest to highest level?",
+        "question_hi": "डेविड क्रैथवोहल द्वारा तैयार किए गए शैक्षिक उद्देश्यों के भावनात्मक क्षेत्र (Affective Domain) में निम्नतम से उच्चतम स्तर तक का पदानुक्रम क्या है?",
         "options": {
-          "A": "Patience",
-          "B": "Humility",
-          "C": "Tolerance \n\n ",
-          "D": "Superstitious"
+          "A": "Receiving -> Responding -> Valuing -> Organizing -> Characterization by Value",
+          "B": "Imitation -> Manipulation -> Precision -> Articulation -> Naturalization",
+          "C": "Knowledge -> Comprehension -> Application -> Analysis -> Evaluation",
+          "D": "Perception -> Set -> Guided Response -> Mechanism -> Adaptation"
         },
         "options_hi": {
-          "A": "धैय7",
-          "B": "0वनÄ",
-          "C": "सहनशीलता",
-          "D": "अंध0वासी"
+          "A": "आग्रहण/प्राप्त करना (Receiving) -> अनुक्रिया (Responding) -> अनुमूल्यन (Valuing) -> व्यवस्थापन (Organizing) -> चरित्र-निर्माण (Characterization)",
+          "B": "अनुकरण -> हस्तकौशल -> परिशुद्धता -> अभिव्यक्ति -> स्वाभाविकीकरण",
+          "C": "ज्ञान -> बोध -> अनुप्रयोग -> विश्लेषण -> मूल्यांकन",
+          "D": "प्रत्यक्षीकरण -> समुच्चय -> निर्देशित प्रतिक्रिया -> तंत्र -> अनुकूलन"
         },
-        "correctAnswer": "D",
-        "explanation": "Option (D) is the correct answer according to official Bihar STET pedagogy standards. In art of teaching & pedagogy, 'Superstitious' represents the verified educational principle.",
-        "explanation_hi": "आधकिारकि बहिार STET उत्तर कुंजी के अनुसार वकलि्प (D) सही उत्तर है। Art of Teaching & Pedagogy के अंतर्गत 'Superstitious' प्रामाणकि शैक्षणकि सदि्धांत को दर्शाता है।",
-        "answerText": "Superstitious"
+        "correctAnswer": "A",
+        "explanation": "Krathwohl's Affective Domain categorizes emotional attitudes and values: 1) Receiving, 2) Responding, 3) Valuing, 4) Organization, 5) Characterization.",
+        "explanation_hi": "भावनात्मक क्षेत्र (Affective Domain) का सही क्रम है: 1. Receiving (आग्रहण), 2. Responding (अनुक्रिया), 3. Valuing (अनुमूल्यन), 4. Organizing (व्यवस्थापन), और 5. Characterization (मूल्य द्वारा चरित्र-निर्माण)।"
       },
       {
         "id": 49,
@@ -2534,28 +2532,27 @@ window.sachin_art_of_teaching = {
         "id": 94,
         "questionNumber": 94,
         "section": "Art of Teaching",
-        "topic": "Art of Teaching & Pedagogy",
-        "topic_hi": "शिक्षण कला एवं शिक्षाशास्त्र",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "The goal of teaching is –",
-        "question_hi": "शकि्षण का लय है-",
+        "question": "What is the defining purpose of Formative Assessment (Assessment FOR Learning)?",
+        "question_hi": "रचनात्मक मूल्यांकन (Formative Assessment / सीखने के लिए आकलन) का प्राथमिक उद्देश्य क्या है?",
         "options": {
-          "A": "To provide information",
-          "B": "To involve students in action",
-          "C": "To inculcate knowledge",
-          "D": "To bring about desired change in behavior"
+          "A": "To provide ongoing, diagnostic feedback during the instruction process to improve teaching and student learning",
+          "B": "To assign end-of-term grades, ranks, and promotional certificates",
+          "C": "To compare a school's overall performance with national percentiles",
+          "D": "To conduct psychological aptitude screening"
         },
         "options_hi": {
-          "A": "सूचना प्रदान करना",
-          "B": "छात्रों को क्रयिा में शा,मल करना",
-          "C": "ज्ञान अंतन0व करना",
-          "D": "<वहार में वांfछत बदलाव लाना"
+          "A": "शिक्षण और छात्र सीखने में सुधार के लिए शिक्षण प्रक्रिया के दौरान निरंतर, उपचारात्मक प्रतिपुष्टि प्रदान करना",
+          "B": "सत्र के अंत में ग्रेड, रैंक और पदोन्नति प्रमाण पत्र प्रदान करना",
+          "C": "राष्ट्रीय प्रतिशत के साथ एक स्कूल के समग्र प्रदर्शन की तुलना करना",
+          "D": "मनोवैज्ञानिक योग्यता स्क्रीनिंग का संचालन करना"
         },
-        "correctAnswer": "D",
-        "explanation": "Option (D) is the correct answer according to official Bihar STET pedagogy standards. In art of teaching & pedagogy, 'To bring about desired change in behavior' represents the verified educational principle.",
-        "explanation_hi": "आधकिारकि बहिार STET उत्तर कुंजी के अनुसार वकलि्प (D) सही उत्तर है। Art of Teaching & Pedagogy के अंतर्गत 'To bring about desired change in behavior' प्रामाणकि शैक्षणकि सदि्धांत को दर्शाता है।",
-        "answerText": "To bring about desired change in behavior"
+        "correctAnswer": "A",
+        "explanation": "Formative assessment occurs during instruction. Its primary goal is not grading, but identifying learning gaps, clarifying misconceptions, and allowing teachers to adapt pedagogical strategies in real-time.",
+        "explanation_hi": "रचनात्मक आकलन शिक्षण प्रक्रिया के दौरान निरंतर होता है। इसका उद्देश्य छात्रों को ग्रेड देना नहीं, बल्कि सीखने की कमियों को पहचानकर तत्काल उपचारात्मक मार्गदर्शन देना है।"
       },
       {
         "id": 95,
@@ -4254,28 +4251,27 @@ window.sachin_art_of_teaching = {
         "id": 8,
         "questionNumber": 8,
         "section": "Art of Teaching",
-        "topic": "Teaching Methods & Approaches",
-        "topic_hi": "शिक्षण विधियाँ एवं उपागम",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Heuristic means -",
-        "question_hi": "अनुभाजी (ह्यूरसि्टकि) का अर्थ है-",
+        "question": "Who was the primary educational philosopher who developed the Project Method of teaching based on John Dewey's pragmatic philosophy?",
+        "question_hi": "जॉन डीवी के प्रयोजनवादी दर्शन पर आधारित शिक्षण की परियोजना विधि (Project Method) को विकसित करने वाले प्राथमिक शिक्षाशास्त्री कौन थे?",
         "options": {
-          "A": "To explore",
-          "B": "To show",
-          "C": "To do",
-          "D": "To act"
+          "A": "William Heard Kilpatrick",
+          "B": "H.E. Armstrong",
+          "C": "Friedrich Froebel",
+          "D": "Maria Montessori"
         },
         "options_hi": {
-          "A": "जाँच करना",
-          "B": "Vदखाना",
-          "C": "करना",
-          "D": "कार्यवाही करना"
+          "A": "विलियम हर्ड किलपैट्रिक (William Heard Kilpatrick)",
+          "B": "एच.ई. आर्मस्ट्रांग",
+          "C": "फ्रेडरिक फ्रोबेल",
+          "D": "मारिया मांटेसरी"
         },
         "correctAnswer": "A",
-        "explanation": "Option (A) is the correct answer according to official Bihar STET pedagogy standards. In teaching methods & approaches, 'To explore' represents the verified educational principle.",
-        "explanation_hi": "आधकिारकि बहिार STET उत्तर कुंजी के अनुसार वकलि्प (A) सही उत्तर है। Teaching Methods & Approaches के अंतर्गत 'To explore' प्रामाणकि शैक्षणकि सदि्धांत को दर्शाता है।",
-        "answerText": "To explore"
+        "explanation": "The Project Method was formulated by William Heard Kilpatrick (1918), a student of John Dewey. Kilpatrick defined a project as a 'wholehearted purposeful activity proceeding in a social environment'.",
+        "explanation_hi": "परियोजना विधि का प्रतिपादन जॉन डीवी के शिष्य विलियम हर्ड किलपैट्रिक ने किया था। उन्होंने इसे 'सामाजिक परिवेश में पूर्ण संलग्नता के साथ की जाने वाली उद्देश्यपूर्ण गतिविधि' के रूप में परिभाषित किया।"
       },
       {
         "id": 9,
@@ -5862,28 +5858,27 @@ window.sachin_art_of_teaching = {
         "id": 6,
         "questionNumber": 6,
         "section": "Art of Teaching",
-        "topic": "Teaching Methods & Approaches",
-        "topic_hi": "शिक्षण विधियाँ एवं उपागम",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Traditional teaching is",
-        "question_hi": "पारंपरकि शकि्षण है",
+        "question": "What is the core philosophy underlying the Heuristic Method of teaching propounded by Professor H.E. Armstrong?",
+        "question_hi": "प्रोफेसर एच.ई. आर्मस्ट्रांग द्वारा प्रतिपादित शिक्षण की ह्यूरिस्टिक (खोज) विधि का मूल दर्शन क्या है?",
         "options": {
-          "A": "Deductive",
-          "B": "Mixed",
-          "C": "Play-based \n\n ",
-          "D": "Experimental"
+          "A": "Placing the learner in the role of an independent discoverer and investigator",
+          "B": "Memorizing textbooks through repeated rote drills",
+          "C": "Passive absorption of teacher lectures",
+          "D": "Standardized computer testing without laboratory experiments"
         },
         "options_hi": {
-          "A": "0नगमन",
-          "B": "सं,म`Lत",
-          "C": "खेल आधाGरत",
-          "D": "प्रयोगात्मक"
+          "A": "शिक्षार्थी को एक स्वतंत्र खोजकर्ता और अन्वेषक की भूमिका में रखना",
+          "B": "बार-बार रटने के अभ्यास के माध्यम से पाठ्यपुस्तकों को याद करना",
+          "C": "शिक्षक के व्याख्यानों का निष्क्रिय अवशोषण",
+          "D": "प्रयोगशाला प्रयोगों के बिना मानकीकृत कंप्यूटर परीक्षण"
         },
         "correctAnswer": "A",
-        "explanation": "Option (A) is the correct answer according to official Bihar STET pedagogy standards. In teaching methods & approaches, 'Deductive' represents the verified educational principle.",
-        "explanation_hi": "आधकिारकि बहिार STET उत्तर कुंजी के अनुसार वकलि्प (A) सही उत्तर है। Teaching Methods & Approaches के अंतर्गत 'Deductive' प्रामाणकि शैक्षणकि सदि्धांत को दर्शाता है।",
-        "answerText": "Deductive"
+        "explanation": "Derived from the Greek word 'Heurisko' ('I find out'), Armstrong's heuristic method places students in the attitude of an original discoverer, requiring them to solve problems through self-observation and inquiry.",
+        "explanation_hi": "ह्यूरिस्टिक विधि ग्रीक शब्द 'ह्यूरिस्को' (खोज करना) से बनी है। इसमें छात्र को एक खोजी या वैज्ञानिक के स्थान पर रखकर स्वयं करके सीखने (Learning by doing) पर बल दिया जाता है।"
       },
       {
         "id": 7,
@@ -6429,28 +6424,27 @@ window.sachin_art_of_teaching = {
         "id": 27,
         "questionNumber": 27,
         "section": "Art of Teaching",
-        "topic": "Learning Theories & Child Development",
-        "topic_hi": "अधिगम सिद्धांत एवं बाल विकास",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Learning is a natural activity of",
-        "question_hi": "सीखना एक स्वाभावकि क्रयिा है-",
+        "question": "What are the five phases of the constructivist 5E Instructional Model in their correct pedagogical sequence?",
+        "question_hi": "रचनावादी 5E अनुदेशात्मक मॉडल के पांच चरण उनके सही शैक्षणिक क्रम में कौन से हैं?",
         "options": {
-          "A": "Living beings",
-          "B": "Only boys",
-          "C": "Only girls \n\n ",
-          "D": "All of the above"
+          "A": "Engage -> Explore -> Explain -> Elaborate -> Evaluate",
+          "B": "Explain -> Engage -> Explore -> Evaluate -> Elaborate",
+          "C": "Explore -> Engage -> Elaborate -> Explain -> Evaluate",
+          "D": "Engage -> Explain -> Evaluate -> Explore -> Elaborate"
         },
         "options_hi": {
-          "A": "जीवति प्राणी",
-          "B": "केवल लड़कq केंद्रति.",
-          "C": "केवल लड़केंद्रति केंद्रति",
-          "D": "उपरोक्त सभी"
+          "A": "संलग्न होना (Engage) -> अन्वेषण करना (Explore) -> व्याख्या करना (Explain) -> विस्तार करना (Elaborate) -> मूल्यांकन करना (Evaluate)",
+          "B": "व्याख्या करना -> संलग्न होना -> अन्वेषण -> मूल्यांकन -> विस्तार",
+          "C": "अन्वेषण -> संलग्न होना -> विस्तार -> व्याख्या -> मूल्यांकन",
+          "D": "संलग्न होना -> व्याख्या -> मूल्यांकन -> अन्वेषण -> विस्तार"
         },
         "correctAnswer": "A",
-        "explanation": "Option (A) is the correct answer according to official Bihar STET pedagogy standards. In learning theories & child development, 'Living beings' represents the verified educational principle.",
-        "explanation_hi": "आधकिारकि बहिार STET उत्तर कुंजी के अनुसार वकलि्प (A) सही उत्तर है। Learning Theories & Child Development के अंतर्गत 'Living beings' प्रामाणकि शैक्षणकि सदि्धांत को दर्शाता है।",
-        "answerText": "Living beings"
+        "explanation": "Developed by the Biological Sciences Curriculum Study (BSCS), the 5E model follows: Engage (capture interest), Explore (hands-on inquiry), Explain (concept formulation), Elaborate (deepen and apply knowledge), Evaluate (assess understanding).",
+        "explanation_hi": "रचनावादी 5E मॉडल का सही क्रम है: Engage (रुचि जाग्रत करना), Explore (अन्वेषण), Explain (संकल्पना समझना), Elaborate (ज्ञान का नए संदर्भ में विस्तार), और Evaluate (मूल्यांकन)।"
       },
       {
         "id": 28,
@@ -7848,28 +7842,27 @@ window.sachin_art_of_teaching = {
         "id": 18,
         "questionNumber": 18,
         "section": "Art of Teaching",
-        "topic": "Art of Teaching & Pedagogy",
-        "topic_hi": "शिक्षण कला एवं शिक्षाशास्त्र",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "The nature of teacher effectiveness is –",
-        "question_hi": "शकि्षक प्रभावशीलता कv प्रकृति है-",
+        "question": "In the standard Indian Micro-teaching cycle adapted by NCERT, what is the allocated duration for each phase, and what is the total cycle time?",
+        "question_hi": "NCERT द्वारा अनुकूलित मानक भारतीय सूक्ष्म-शिक्षण (Micro-teaching) चक्र में प्रत्येक चरण की अवधि और कुल चक्र समय क्या है?",
         "options": {
-          "A": "Scientific",
-          "B": "Artistic",
-          "C": "Both (a) and (b) \n\n ",
-          "D": "None of the above"
+          "A": "Teach (6m) -> Feedback (6m) -> Re-plan (12m) -> Re-teach (6m) -> Re-feedback (6m); Total: 36 minutes",
+          "B": "Teach (10m) -> Feedback (10m) -> Re-plan (15m) -> Re-teach (10m); Total: 45 minutes",
+          "C": "Teach (5m) -> Feedback (5m) -> Re-teach (5m); Total: 15 minutes",
+          "D": "Teach (15m) -> Feedback (15m) -> Re-plan (20m); Total: 50 minutes"
         },
         "options_hi": {
-          "A": "वै)ा0नक",
-          "B": "कला$मक",
-          "C": "4 और 8 दोनq",
-          "D": "इनमें से कोई नह"
+          "A": "शिक्षण (6 मिनट) -> प्रतिपुष्टि (6 मिनट) -> पुनः योजना (12 मिनट) -> पुनः शिक्षण (6 मिनट) -> पुनः प्रतिपुष्टि (6 मिनट); कुल: 36 मिनट",
+          "B": "शिक्षण (10 मिनट) -> प्रतिपुष्टि (10 मिनट) -> पुनः योजना (15 मिनट) -> पुनः शिक्षण (10 मिनट); कुल: 45 मिनट",
+          "C": "शिक्षण (5 मिनट) -> प्रतिपुष्टि (5 मिनट) -> पुनः शिक्षण (5 मिनट); कुल: 15 मिनट",
+          "D": "शिक्षण (15 मिनट) -> प्रतिपुष्टि (15 मिनट) -> पुनः योजना (20 मिनट); कुल: 50 मिनट"
         },
-        "correctAnswer": "C",
-        "explanation": "Option (C) is the correct answer according to official Bihar STET pedagogy standards. In art of teaching & pedagogy, 'Both (a) and (b) \n\n ' represents the verified educational principle.",
-        "explanation_hi": "आधकिारकि बहिार STET उत्तर कुंजी के अनुसार वकलि्प (C) सही उत्तर है। Art of Teaching & Pedagogy के अंतर्गत 'Both (a) and (b) \n\n ' प्रामाणकि शैक्षणकि सदि्धांत को दर्शाता है।",
-        "answerText": "Both (a) and (b)"
+        "correctAnswer": "A",
+        "explanation": "The standard NCERT microteaching cycle consists of: Teaching (6 min), Feedback (6 min), Re-planning (12 min), Re-teaching (6 min), and Re-feedback (6 min), totaling exactly 36 minutes.",
+        "explanation_hi": "NCERT के अनुसार भारतीय सूक्ष्म शिक्षण मॉडल का कुल समय 36 मिनट होता है: शिक्षण (6 मि.), प्रतिपुष्टि (6 मि.), पुनः योजना (12 मि.), पुनः शिक्षण (6 मि.), और पुनः प्रतिपुष्टि (6 मि.)।"
       },
       {
         "id": 19,
@@ -8091,28 +8084,27 @@ window.sachin_art_of_teaching = {
         "id": 27,
         "questionNumber": 27,
         "section": "Art of Teaching",
-        "topic": "Learning Theories & Child Development",
-        "topic_hi": "अधिगम सिद्धांत एवं बाल विकास",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Learning is a natural activity of –",
-        "question_hi": "सीखना एक स्वाभावकि क्रयिा है-",
+        "question": "What is the primary defining characteristic of micro-teaching developed by Dwight W. Allen?",
+        "question_hi": "ड्वाइट डब्ल्यू. एलन द्वारा विकसित सूक्ष्म-शिक्षण की प्राथमिक परिभाषित विशेषता क्या है?",
         "options": {
-          "A": "Living beings",
-          "B": "Boys only",
-          "C": "Girls only \n\n ",
-          "D": "All of the above"
+          "A": "Scaled-down teaching encounter: reduced class size (5-10 pupils), reduced lesson duration (5-6 min), focusing on a single specific teaching skill",
+          "B": "Teaching using digital microcomputers and smart screens",
+          "C": "Teaching microscopic biological organisms under a microscope",
+          "D": "Conducting examinations with multiple-choice questions only"
         },
         "options_hi": {
-          "A": "जीवति प्राणी",
-          "B": "लड़का केबल",
-          "C": "लड़केंद्रति केवल",
-          "D": "उपरोक्त सभी"
+          "A": "स्केल्ड-डाउन शिक्षण: छात्रों की कम संख्या (5-10 छात्र), संक्षिप्त समय (5-6 मिनट), और केवल एक विशिष्ट शिक्षण कौशल पर ध्यान केंद्रित करना",
+          "B": "डिजिटल माइक्रो कंप्यूटर और स्मार्ट स्क्रीन का उपयोग करके पढ़ाना",
+          "C": "सूक्ष्मदर्शी के तहत सूक्ष्म जैविक जीवों को पढ़ाना",
+          "D": "केवल बहुविकल्पीय प्रश्नों के साथ परीक्षा आयोजित करना"
         },
         "correctAnswer": "A",
-        "explanation": "Option (A) is the correct answer according to official Bihar STET pedagogy standards. In learning theories & child development, 'Living beings' represents the verified educational principle.",
-        "explanation_hi": "आधकिारकि बहिार STET उत्तर कुंजी के अनुसार वकलि्प (A) सही उत्तर है। Learning Theories & Child Development के अंतर्गत 'Living beings' प्रामाणकि शैक्षणकि सदि्धांत को दर्शाता है।",
-        "answerText": "Living beings"
+        "explanation": "Dwight Allen defined microteaching as a 'scaled-down teaching encounter in class size and class time'. It isolates one specific skill so trainee teachers can practice and receive immediate objective feedback.",
+        "explanation_hi": "सूक्ष्म-शिक्षण एक नियंत्रित अभ्यास तकनीक है जिसमें कक्षा का आकार (5-10 छात्र), समय (5-6 मिनट) और सामग्री को छोटा करके केवल एक शिक्षण कौशल में दक्षता हासिल की जाती है।"
       },
       {
         "id": 28,
@@ -8145,55 +8137,53 @@ window.sachin_art_of_teaching = {
         "id": 29,
         "questionNumber": 29,
         "section": "Art of Teaching",
-        "topic": "Art of Teaching & Pedagogy",
-        "topic_hi": "शिक्षण कला एवं शिक्षाशास्त्र",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Dimensional teaching material is –",
-        "question_hi": "आयामी शकि्षण साम ी है-",
+        "question": "What are the Five Formal Steps of Lesson Planning formulated by Johann Friedrich Herbart?",
+        "question_hi": "जोहान फ्रेडरिक हर्बर्ट द्वारा प्रतिपादित पाठ योजना के पांच औपचारिक पद कौन से हैं?",
         "options": {
-          "A": "Model",
-          "B": "Chart",
-          "C": "Object",
-          "D": "All of the above"
+          "A": "Preparation (Introduction), Presentation, Association (Comparison), Generalization, Application",
+          "B": "Objective, Activity, Assignment, Evaluation, Homework",
+          "C": "Lecture, Dictation, Questioning, Reading, Memorization",
+          "D": "Engage, Explore, Explain, Elaborate, Evaluate"
         },
         "options_hi": {
-          "A": "मॉडल",
-          "B": "चाट7",
-          "C": "वzतु",
-          "D": "उपरोक्त सभी"
+          "A": "प्रस्तावना/तैयारी (Preparation), प्रस्तुतीकरण (Presentation), तुलना/संबद्धता (Association), सामान्यीकरण (Generalization), प्रयोग/अनुप्रयोग (Application)",
+          "B": "उद्देश्य, गतिविधि, सत्रीय कार्य, मूल्यांकन, गृहकार्य",
+          "C": "व्याख्यान, श्रुतलेख, प्रश्नोत्तरी, पठन, स्मरण",
+          "D": "संलग्न होना, अन्वेषण, व्याख्या, विस्तार, मूल्यांकन"
         },
-        "correctAnswer": "D",
-        "explanation": "Option (D) is the correct answer according to official Bihar STET pedagogy standards. In art of teaching & pedagogy, 'All of the above' represents the verified educational principle.",
-        "explanation_hi": "आधकिारकि बहिार STET उत्तर कुंजी के अनुसार वकलि्प (D) सही उत्तर है। Art of Teaching & Pedagogy के अंतर्गत 'All of the above' प्रामाणकि शैक्षणकि सदि्धांत को दर्शाता है।",
-        "answerText": "All of the above"
+        "correctAnswer": "A",
+        "explanation": "Herbart's 5 steps: 1) Preparation (activating prior knowledge), 2) Presentation (introducing new material), 3) Association (comparing with known concepts), 4) Generalization (deriving universal rules/formulas), 5) Application (applying rules to new problems).",
+        "explanation_hi": "हर्बर्ट की पंचपदीय प्रणाली में 5 चरण होते हैं: 1. प्रस्तावना (पूर्व ज्ञान से जोड़ना), 2. प्रस्तुतीकरण (नया ज्ञान देना), 3. तुलना/संबद्धता, 4. सामान्यीकरण (सिद्धांत या नियम बनाना), और 5. अनुप्रयोग (अभ्यास में लागू करना)।"
       },
       {
         "id": 30,
         "questionNumber": 30,
         "section": "Art of Teaching",
-        "topic": "Teaching Methods & Approaches",
-        "topic_hi": "शिक्षण विधियाँ एवं उपागम",
+        "topic": "Art of Teaching",
+        "topic_hi": "शिक्षण कला",
         "marks": 1,
         "negativeMarks": 0,
-        "question": "Hands-on learning means –",
-        "question_hi": "हँड्स-ऑन सीखना का अर्थ है-",
+        "question": "In the Revised Bloom's Taxonomy of Cognitive Objectives (Anderson & Krathwohl, 2001), what is the highest and most complex cognitive level?",
+        "question_hi": "संशोधित ब्लूम वर्गीकरण (2001) में संज्ञानात्मक उद्देश्यों का उच्चतम और सबसे जटिल स्तर कौन सा है?",
         "options": {
-          "A": "Learning by inquiry",
-          "B": "Learning by doing",
-          "C": "Learning by observing \n\n ",
-          "D": "All of the above"
+          "A": "Creating",
+          "B": "Evaluating",
+          "C": "Analyzing",
+          "D": "Applying"
         },
         "options_hi": {
-          "A": "पूछताछ करके सीखना",
-          "B": "करके सीखना",
-          "C": "अवलोकन करके सीखना",
-          "D": "उपरोक्त सभी"
+          "A": "सृजन करना (Creating)",
+          "B": "मूल्यांकन करना (Evaluating)",
+          "C": "विश्लेषण करना (Analyzing)",
+          "D": "अनुप्रयोग करना (Applying)"
         },
-        "correctAnswer": "B",
-        "explanation": "Option (B) is the correct answer according to official Bihar STET pedagogy standards. In teaching methods & approaches, 'Learning by doing' represents the verified educational principle.",
-        "explanation_hi": "आधकिारकि बहिार STET उत्तर कुंजी के अनुसार वकलि्प (B) सही उत्तर है। Teaching Methods & Approaches के अंतर्गत 'Learning by doing' प्रामाणकि शैक्षणकि सदि्धांत को दर्शाता है।",
-        "answerText": "Learning by doing \n\n "
+        "correctAnswer": "A",
+        "explanation": "In Anderson and Krathwohl's 2001 revision, verbs replaced nouns: 1. Remembering, 2. Understanding, 3. Applying, 4. Analyzing, 5. Evaluating, 6. Creating (the highest level, replacing Bloom's 1956 'Synthesis').",
+        "explanation_hi": "संशोधित ब्लूम टैक्सोनॉमी (2001) में संज्ञानात्मक स्तर हैं: याद रखना -> समझना -> लागू करना -> विश्लेषण -> मूल्यांकन -> सृजन (Creating)। 'Creating' सबसे शीर्ष और जटिल स्तर है।"
       }
     ]
   }
