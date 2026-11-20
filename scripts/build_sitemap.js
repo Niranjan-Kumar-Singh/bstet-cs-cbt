@@ -4,7 +4,7 @@ const fs = require('fs');
 const ctx = { window: {} };
 vm.runInNewContext(fs.readFileSync('js/data/papers-index.js', 'utf8'), ctx);
 const cat = ctx.window.PAPERS_CATALOG;
-const today = '2026-10-28';
+const today = new Date().toISOString().split('T')[0];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -19,12 +19,6 @@ let xml = `<?xml version="1.0" encoding="UTF-8"?>
   </url>
   <url>
     <loc>https://bstet-cs-cbt.vercel.app/?filter=official</loc>
-    <lastmod>${today}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bstet-cs-cbt.vercel.app/?filter=predicted</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -71,4 +65,4 @@ cat.forEach(p => {
 xml += `</urlset>\n`;
 
 fs.writeFileSync('sitemap.xml', xml, 'utf8');
-console.log(`Successfully generated sitemap.xml with ${6 + cat.length * 2} URLs covering all 30 papers!`);
+console.log(`Successfully generated sitemap.xml with ${5 + cat.length * 2} URLs covering all ${cat.length} papers!`);

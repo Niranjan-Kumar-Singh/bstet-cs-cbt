@@ -19,7 +19,7 @@ window.BSTET_I18N = {
       mission_pill: "🔥 MISSION BSTET 2026",
       motivational_quote: '"Work hard in silence, let your success make the noise!"',
       hero_title: "BSTET Paper II (Computer Science) CBT Portal",
-      hero_subtitle: "Official Examination Simulator for Higher Secondary Teachers (Class 11-12 Code 226). Practice with 35 comprehensive mock papers (3,650+ questions including Sachin Academy PYQ Collection) under authentic TCS iON CBT conditions with in-depth conceptual explanations.",
+      hero_subtitle: "Official Examination Simulator for Higher Secondary Teachers (Class 11-12 Code 226). Practice with 23 authentic mock papers (1,950+ verified questions including Art of Teaching Pedagogy PYQs) under authentic TCS iON CBT conditions with in-depth conceptual explanations.",
       
       // Meta Metrics Grid
       meta_subject: "Subject Knowledge",
@@ -36,8 +36,7 @@ window.BSTET_I18N = {
       // Filter Tabs
       filter_all: "All Mock Tests",
       filter_official: "Official PYQ Papers",
-      filter_predicted: "2026 Predicted Mock Sets",
-      filter_drill: "Sectional & Topic Drills",
+            filter_drill: "Sectional & Topic Drills",
 
       // Test Cards
       start_cbt: "⚡ Start CBT Mock",
@@ -154,7 +153,7 @@ window.BSTET_I18N = {
       mission_pill: "🔥 मिशन BSTET 2026",
       motivational_quote: '"मेहनत इतनी खामोशी से करो कि तुम्हारी सफलता शोर मचा दे!"',
       hero_title: "BSTET पेपर II (कंप्यूटर साइंस) CBT पोर्टल",
-      hero_subtitle: "उच्च माध्यमिक शिक्षक भर्ती (कक्षा 11-12, विषय कोड 226) हेतु आधिकारिक परीक्षा सिमुलेटर। 35 संपूर्ण मॉक पेपर्स (3,650+ प्रश्न जिसमें सचिन एकेडमी शिक्षण कला संग्रह शामिल है) के साथ वास्तविक TCS iON CBT इंटरफ़ेस पर विस्तृत व्याख्या सहित अभ्यास करें।",
+      hero_subtitle: "उच्च माध्यमिक शिक्षक भर्ती (कक्षा 11-12, विषय कोड 226) हेतु आधिकारिक परीक्षा सिमुलेटर। 23 प्रामाणिक मॉक पेपर्स (1,950+ सत्यापित प्रश्न जिसमें शिक्षण कला एवं शिक्षाशास्त्र PYQ संग्रह शामिल है) के साथ वास्तविक TCS iON CBT इंटरफ़ेस पर विस्तृत व्याख्या सहित अभ्यास करें।",
 
       // Meta Metrics Grid
       meta_subject: "विषय ज्ञान (कंप्यूटर साइंस)",
@@ -171,8 +170,7 @@ window.BSTET_I18N = {
       // Filter Tabs
       filter_all: "सभी मॉक टेस्ट",
       filter_official: "आधिकारिक पिछले वर्ष के प्रश्न",
-      filter_predicted: "2026 संभावित मॉक सेट्स",
-      filter_drill: "विषयवार अभ्यास ड्रिल्स",
+            filter_drill: "विषयवार अभ्यास ड्रिल्स",
 
       // Test Cards
       start_cbt: "⚡ CBT टेस्ट शुरू करें",
@@ -353,12 +351,19 @@ window.BSTET_I18N = {
       "official_shift3": "BSTET आधिकारिक 2025 - शिफ्ट 3 (उत्तर कुंजी सहित)",
       "official_shift4": "BSTET आधिकारिक 2025 - शिफ्ट 4 (उत्तर कुंजी सहित)",
       "official_2023": "BSTET आधिकारिक 2023 - री-एग्जाम पेपर (150 प्रश्न)",
+      "pedagogy_shift_set1": "BSTET शिक्षण कला 2023 - शिफ्ट 1 (सेट 01)",
+      "pedagogy_shift_set2": "BSTET शिक्षण कला 2023 - शिफ्ट 1 (सेट 02)",
+      "pedagogy_shift_set3": "BSTET शिक्षण कला 2023 - शिफ्ट 2 (सेट 03)",
+      "pedagogy_shift_set4": "BSTET शिक्षण कला 2023 - शिफ्ट 1 (सेट 04)",
+      "pedagogy_shift_set5": "BSTET शिक्षण कला 2023 - शिफ्ट 2 (सेट 05)",
+      "pedagogy_master_100": "BSTET 100Q शिक्षण कला मास्टर PYQ ड्रिल",
+      "pedagogy_recent_50": "शिक्षण कला हालिया परीक्षा 50Q स्प्रिंट",
       "sachin_shift_set1": "BSTET शिक्षण कला 2023 - शिफ्ट 1 (सेट 01)",
       "sachin_shift_set2": "BSTET शिक्षण कला 2023 - शिफ्ट 1 (सेट 02)",
       "sachin_shift_set3": "BSTET शिक्षण कला 2023 - शिफ्ट 2 (सेट 03)",
       "sachin_shift_set4": "BSTET शिक्षण कला 2023 - शिफ्ट 1 (सेट 04)",
       "sachin_shift_set5": "BSTET शिक्षण कला 2023 - शिफ्ट 2 (सेट 05)",
-      "sachin_pedagogy_master": "सचिन सर 100Q शिक्षण कला मास्टर PYQ ड्रिल",
+      "sachin_pedagogy_master": "BSTET 100Q शिक्षण कला मास्टर PYQ ड्रिल",
       "sachin_curated_recent_50": "शिक्षण कला हालिया परीक्षा 50Q स्प्रिंट",
       "drill_dbms_sql_50": "DBMS एवं SQL गहन अभ्यास ड्रिल (50 प्रश्न)",
       "drill_os_networks_master_50": "OS एवं कंप्यूटर नेटवर्क्स गहन अभ्यास ड्रिल (50 प्रश्न)",
@@ -385,7 +390,7 @@ window.BSTET_I18N = {
     if (t.includes("Shift 2 (Set 03)")) return "BSTET शिक्षण कला 2023 - शिफ्ट 2 (सेट 03)";
     if (t.includes("Shift 1 (Set 04)")) return "BSTET शिक्षण कला 2023 - शिफ्ट 1 (सेट 04)";
     if (t.includes("Shift 2 (Set 05)")) return "BSTET शिक्षण कला 2023 - शिफ्ट 2 (सेट 05)";
-    if (t.includes("100Q") && (t.includes("Pedagogy") || t.includes("Teaching"))) return "सचिन सर 100Q शिक्षण कला मास्टर PYQ ड्रिल";
+    if (t.includes("100Q") && (t.includes("Pedagogy") || t.includes("Teaching"))) return "BSTET 100Q शिक्षण कला मास्टर PYQ ड्रिल";
     if (t.includes("Recent Exams") || t.includes("50Q Sprint")) return "शिक्षण कला हालिया परीक्षा 50Q स्प्रिंट";
     if (t.includes("DBMS & SQL")) return "DBMS एवं SQL गहन अभ्यास ड्रिल (50 प्रश्न)";
     if (t.includes("OS & Computer Networks") || t.includes("Networks Mastery")) return "OS एवं कंप्यूटर नेटवर्क्स गहन अभ्यास ड्रिल (50 प्रश्न)";
@@ -397,10 +402,7 @@ window.BSTET_I18N = {
     if (t.includes("Operating Systems & Networking")) return "ऑपरेटिंग सिस्टम व नेटवर्किंग 50Q ड्रिल";
     if (t.includes("Web Development, Python")) return "वेब टेक, पायथन, IoT व AI 50Q ड्रिल";
 
-    const m = t.match(/Predicted Full Mock (\d+)/i) || t.match(/Predicted Mock Paper - Set (\d+)/i) || t.match(/Predicted Mock (\d+)/i) || t.match(/Set (\d+)/i);
-    if (m) {
-      return `2026 संभावित फुल मॉक टेस्ट (सेट ${m[1]})`;
-    }
+    
     return t;
   },
 
@@ -424,12 +426,19 @@ window.BSTET_I18N = {
       "official_shift3": "परीक्षा तिथि: 04 नवंबर 2025 (शिफ्ट 2) | आधिकारिक प्रतिक्रिया एवं सत्यापित उत्तर कुंजी",
       "official_shift4": "परीक्षा तिथि: 07 नवंबर 2025 (शिफ्ट 1) | आधिकारिक प्रतिक्रिया एवं सत्यापित उत्तर कुंजी",
       "official_2023": "BSEB 2023 आधिकारिक परीक्षा | 150 द्विभाषी प्रश्न आधिकारिक उत्तर कुंजी सहित",
-      "sachin_shift_set1": "आधिकारिक 18 सितंबर 2023 शिफ्ट I पेडागॉजी पेपर (30 प्रश्न) • सचिन एकेडमी द्वारा सत्यापित",
-      "sachin_shift_set2": "आधिकारिक 15 सितंबर 2023 शिफ्ट I पेडागॉजी पेपर (30 प्रश्न) • सचिन एकेडमी द्वारा सत्यापित",
-      "sachin_shift_set3": "आधिकारिक 15 सितंबर 2023 शिफ्ट II पेडागॉजी पेपर (30 प्रश्न) • सचिन एकेडमी द्वारा सत्यापित",
-      "sachin_shift_set4": "आधिकारिक 14 सितंबर 2023 शिफ्ट I पेडागॉजी पेपर (30 प्रश्न) • सचिन एकेडमी द्वारा सत्यापित",
-      "sachin_shift_set5": "आधिकारिक 18 सितंबर 2023 शिफ्ट II पेडागॉजी पेपर (30 प्रश्न) • सचिन एकेडमी द्वारा सत्यापित",
-      "sachin_pedagogy_master": "सचिन सर (Sachin Academy) द्वारा चयनित बिहार STET 2020-2024 के शीर्ष 100 प्रश्न",
+      "pedagogy_shift_set1": "आधिकारिक 18 सितंबर 2023 शिफ्ट I पेडागॉजी पेपर (30 प्रश्न) • आधिकारिक BSEB शिफ्ट PYQ",
+      "pedagogy_shift_set2": "आधिकारिक 15 सितंबर 2023 शिफ्ट I पेडागॉजी पेपर (30 प्रश्न) • आधिकारिक BSEB शिफ्ट PYQ",
+      "pedagogy_shift_set3": "आधिकारिक 15 सितंबर 2023 शिफ्ट II पेडागॉजी पेपर (30 प्रश्न) • आधिकारिक BSEB शिफ्ट PYQ",
+      "pedagogy_shift_set4": "आधिकारिक 14 सितंबर 2023 शिफ्ट I पेडागॉजी पेपर (30 प्रश्न) • आधिकारिक BSEB शिफ्ट PYQ",
+      "pedagogy_shift_set5": "आधिकारिक 18 सितंबर 2023 शिफ्ट II पेडागॉजी पेपर (30 प्रश्न) • आधिकारिक BSEB शिफ्ट PYQ",
+      "pedagogy_master_100": "बिहार STET 2020-2024 के शीर्ष 100 आधिकारिक शिक्षण कला प्रश्न",
+      "pedagogy_recent_50": "हालिया बिहार STET परीक्षा (कक्षा 11-12, कोड 226) से चयनित शिफ्ट प्रश्न",
+      "sachin_shift_set1": "आधिकारिक 18 सितंबर 2023 शिफ्ट I पेडागॉजी पेपर (30 प्रश्न) • आधिकारिक BSEB शिफ्ट PYQ",
+      "sachin_shift_set2": "आधिकारिक 15 सितंबर 2023 शिफ्ट I पेडागॉजी पेपर (30 प्रश्न) • आधिकारिक BSEB शिफ्ट PYQ",
+      "sachin_shift_set3": "आधिकारिक 15 सितंबर 2023 शिफ्ट II पेडागॉजी पेपर (30 प्रश्न) • आधिकारिक BSEB शिफ्ट PYQ",
+      "sachin_shift_set4": "आधिकारिक 14 सितंबर 2023 शिफ्ट I पेडागॉजी पेपर (30 प्रश्न) • आधिकारिक BSEB शिफ्ट PYQ",
+      "sachin_shift_set5": "आधिकारिक 18 सितंबर 2023 शिफ्ट II पेडागॉजी पेपर (30 प्रश्न) • आधिकारिक BSEB शिफ्ट PYQ",
+      "sachin_pedagogy_master": "बिहार STET 2020-2024 के शीर्ष 100 आधिकारिक शिक्षण कला प्रश्न",
       "sachin_recent_50q": "हालिया बिहार STET परीक्षा (कक्षा 11-12, कोड 226) से चयनित शिफ्ट प्रश्न",
       "drill_dbms_sql_50": "नॉर्मलाइजेशन (1NF-BCNF), रिलेशनल बीजगणित, SQL क्वेरी, ACID एवं कॉनकरेंसी",
       "drill_os_networks_master_50": "प्रोसेस सिंक, डेडलॉक्स, पेजिंग, OSI लेयर्स, TCP/IP, CIDR सबनेटिंग व सुरक्षा",
@@ -443,7 +452,7 @@ window.BSTET_I18N = {
     if (sub.includes("Held On: 04 Nov 2025")) return "परीक्षा तिथि: 04 नवंबर 2025 (शिफ्ट 2) | आधिकारिक प्रतिक्रिया एवं सत्यापित उत्तर कुंजी";
     if (sub.includes("Held On: 07 Nov 2025")) return "परीक्षा तिथि: 07 नवंबर 2025 (शिफ्ट 1) | आधिकारिक प्रतिक्रिया एवं सत्यापित उत्तर कुंजी";
     if (sub.includes("Held On: 12 Sep 2023") || sub.includes("Held On: 2023")) return "BSEB 2023 आधिकारिक परीक्षा | 150 द्विभाषी प्रश्न विस्तृत समाधान सहित";
-    if (sub.includes("Sachin Choudhary") || sub.includes("Sachin Academy")) return "सचिन सर (Sachin Academy) द्वारा चयनित बिहार STET 2020-2024 के शीर्ष 100 प्रश्न";
+    if (sub.includes("Top High-Yield Official Questions")) return "बिहार STET 2020-2024 के शीर्ष 100 आधिकारिक शिक्षण कला प्रश्न";
     if (sub.includes("Recent Bihar STET Exams")) return "हालिया बिहार STET परीक्षा (कक्षा 11-12, कोड 226) से चयनित शिफ्ट प्रश्न";
     if (sub.includes("Normalization (1NF-BCNF)")) return "नॉर्मलाइजेशन (1NF-BCNF), रिलेशनल बीजगणित, SQL क्वेरी, ACID एवं कॉनकरेंसी";
     if (sub.includes("Process Sync, Deadlocks")) return "प्रोसेस सिंक, डेडलॉक्स, पेजिंग, OSI लेयर्स, TCP/IP, CIDR सबनेटिंग व सुरक्षा";
@@ -461,14 +470,13 @@ window.BSTET_I18N = {
     if (this.currentLang !== 'hi') return badge;
     const badgeMap = {
       "Official Key": "आधिकारिक कुंजी",
-      "2026 Predicted": "2026 संभावित",
       "Subject Drill": "विषय ड्रिल",
       "Pedagogy Drill": "शिक्षण कला ड्रिल",
       "General Skills": "सामान्य दक्षता",
       "DSA & DBMS": "DSA एवं DBMS",
       "OS & Networks": "OS एवं नेटवर्क्स",
       "Modern Tech": "आधुनिक तकनीक",
-      "Sachin Academy PYQs": "सचिन एकेडमी PYQ",
+      "Pedagogy Master PYQs": "शिक्षण कला मास्टर PYQ",
       "Recent Shift PYQ": "हालिया शिफ्ट PYQ",
       "DBMS Specialist": "DBMS स्पेशलिस्ट",
       "Teaching & NEP": "शिक्षण एवं NEP 2020"

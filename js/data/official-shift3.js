@@ -49,14 +49,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Abstract method**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (B) reflects the standard behavior and complexity bounds.",
       "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "किस प्रकार की विधि का बेस क्लास में कार्यान्वयन नहीं होता है और व्युत्पन्न कक्षाओं द्वारा ओवरराइड किया जाता है?",
+      "question_hi": "किस प्रकार की विधि का आधार वर्ग में कार्यान्वयन नहीं है और इसे व्युत्पन्न वर्गों द्वाारा ओवरराइड किया जाना चाहिए?",
       "options_hi": {
         "A": "आभासी विधि",
         "B": "सार विधि",
-        "C": "सील विधि",
-        "D": "स्थैतिक विधि"
+        "C": "सीलबंद विधि",
+        "D": "स्थैैतिक विधि"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Abstract method?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Abstract method?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766245"
     },
     {
       "id": 2,
@@ -75,14 +76,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) UPDATE**\n\n**Database Concept**: Relational integrity, ACID transaction properties, and normalization rules (1NF to BCNF) eliminate anomalies and preserve data consistency.\n- Option (A) strictly adheres to relational database theory.",
       "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "निम्नलिखित में से कौन सा SQL में DML कमांड है?",
+      "question_hi": "SQL में निम्‍नलिखित में से कौन सी डीएमएल कमाण्‍ड (DML command ) है ?",
       "options_hi": {
         "A": "UPDATE",
-        "B": "बनाएं",
+        "B": "CREATE",
         "C": "ALTER",
-        "D": "बूँद"
+        "D": "DROP"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) UPDATE?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) UPDATE?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766442"
     },
     {
       "id": 3,
@@ -101,14 +103,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) 0,1,2**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "द्विआधारी संख्याओं को स्वीकार करने वाले डीएफए के लिए जिसका दशमलव समतुल्य 3 से विभाज्य है, क्या सभी संभावित शेषफल हैं?",
+      "question_hi": "एक DFA के लिए जो बाइनरी संख्याएं स्वीीकार करता है, जिनका दशमलव समतुल्य 3 से विभाज्य है, सभी संभावित शेषफल क्याा हैं?",
       "options_hi": {
         "A": "0",
         "B": "0,2",
         "C": "0,1,2",
         "D": "0,1,2,3"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 0,1,2?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 0,1,2?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766294"
     },
     {
       "id": 4,
@@ -127,14 +130,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) Edsger Dijkstra**\n\n**Algorithm Analysis**: Algorithmic paradigms (Divide-and-Conquer, Dynamic Programming, Greedy) balance space and time tradeoffs.\n- Option (A) correctly identifies the algorithmic property.",
       "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-      "question_hi": "मॉनिटर की अवधारणा किसके द्वारा पेश की गई थी:",
+      "question_hi": "मॉनिटर्स की अवधारणा द्वाारा पेश किया गया था:",
       "options_hi": {
-        "A": "एड्सगर डिज्क्स्ट्रा",
-        "B": "एलन ट्यूरिंग",
-        "C": "टिक बैरनर्स - ली",
+        "A": "एड्सगर दिज्कस्ट्राा",
+        "B": "एलन ट्यूूरिंंग",
+        "C": "टिम बर्नर्स-ली डी",
         "D": "लिनस टोरवाल्ड्स"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Edsger Dijkstra?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Edsger Dijkstra?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766138"
     },
     {
       "id": 5,
@@ -153,14 +157,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) Terms**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "डी मॉर्गन के प्रमेय बड़ी संख्या में ___________ तर्क अभिव्यक्तियों को सरल बनाने में विशेष रूप से उपयोगी हैं।",
+      "question_hi": "डी मॉर्गन के प्रमेय विशेष रूप से तर्क अभिव्यक्ति यों को सरल बनाने में उपयोगी हैं जिनमें बड़ीी संख्या में ___________ हैं।",
       "options_hi": {
         "A": "चर",
-        "B": "स्थिरांक",
-        "C": "शर्तें",
-        "D": "ऑपरेटर्स"
+        "B": "स्थि रांक",
+        "C": "शब्दावली",
+        "D": "ऑपरेटर"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Terms?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Terms?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766065"
     },
     {
       "id": 6,
@@ -179,14 +184,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) Structured Query Language**\n\n**Database Concept**: Relational integrity, ACID transaction properties, and normalization rules (1NF to BCNF) eliminate anomalies and preserve data consistency.\n- Option (A) strictly adheres to relational database theory.",
       "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "SQL का पूर्ण रूप (Full Form) क्या है?",
+      "question_hi": "SQL का पूर्ण रूप क्याा है?",
       "options_hi": {
         "A": "Structured Query Language",
-        "B": "सरल क्वेरी भाषा",
-        "C": "व्यवस्थित क्वेरी तर्क",
-        "D": "मानक क्वेरी स्तर"
+        "B": "Simple Query Language",
+        "C": "Systematic Query Logic",
+        "D": "Standard Query Level"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Structured Query Language?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Structured Query Language?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766275"
     },
     {
       "id": 7,
@@ -205,14 +211,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) The website is secure using encryption**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (D) is the standard specification.",
       "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "वेब पते में 'https' क्या दर्शाता है?",
+      "question_hi": "वेब एड्रेेस (Web Address) में 'https' का क्‍या तात्‍पर्य है ?",
       "options_hi": {
-        "A": "वेबसाइट एक स्थानीय सर्वर पर होस्ट की गई है",
-        "B": "वेबसाइट एक सर्च इंजन है",
+        "A": "वेबसाइट एक स्‍थानीय सर्वर पर होस्‍ट की गई है",
+        "B": "वेबसाइट एक सर्च इंजन (Search engine) है",
         "C": "वेबसाइट मानक HTTP प्रोटोकॉल का उपयोग करती है",
-        "D": "एन्क्रिप्शन का उपयोग करके वेबसाइट सुरक्षित है"
+        "D": "वेबसाइट एन्क्रि प्‍शन (encryption) का उपयोग करके सुरक्षित है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) The website is secure using encryption?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) The website is secure using encryption?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335766025"
     },
     {
       "id": 8,
@@ -231,14 +238,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) A reference to an external resource**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "वेब डेवलपमेंट (Web Tech)",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is an entity in DTD के संबंध में सही कथन या मान क्या है?",
+      "question_hi": "DTD में एक इकाई क्याा है?",
       "options_hi": {
-        "A": "A reference to an external resource",
+        "A": "किसी बाह्य संसाधन का संदर्भ",
         "B": "एक गणितीय समीकरण",
         "C": "एक विशेष XML टैग",
-        "D": "जावास्क्रिप्ट में एक फ़ंक्शन"
+        "D": "जावास्क्रि प्ट में एक फ़ंंक्शन"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) A reference to an external resource?**\n\n**विषय अवधारणा (वेब डेवलपमेंट (Web Tech))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) A reference to an external resource?**\n\n**विषय अवधारणा (वेब डेवलपमेंट (Web Tech))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766270"
     },
     {
       "id": 9,
@@ -257,14 +265,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) By reducing the high-frequency components of image by blurring the image**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "किसी छवि पर अलियासिंग प्रभाव को निम्नलिखित में से किस विधि का उपयोग करके कम किया जा सकता है?",
+      "question_hi": "किसी छवि पर एलियासिंंग प्रभाव को निम्नलिखित में से किस विधि का उपयोग करके कम किया जा सकता है?",
       "options_hi": {
-        "A": "छवि को स्पष्ट करके छवि के उच्च-आवृत्ति घटकों को कम करके",
-        "B": "छवि को स्पष्ट करके छवि के उच्च-आवृत्ति घटकों को बढ़ाकर",
-        "C": "छवि को धुंधला करके छवि के उच्च-आवृत्ति घटकों को बढ़ाकर",
-        "D": "छवि को धुंधला करके छवि के उच्च-आवृत्ति घटकों को कम करके"
+        "A": "छवि को स्पष्ट करके छवि के उच्च आवृत्ति घटकों को कम करके",
+        "B": "छवि को स्पष्ट करके छवि के उच्च-आवृत्ति घटकों को बढ़ााकर",
+        "C": "छवि को धुंधला करके छवि के उच्च आवृत्ति घटकों को बढ़ााकर",
+        "D": "छवि को धुंधला करके छवि के उच्च आवृत्ति घटकों को कम करके"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) By reducing the high-frequency components of image by blurring the image?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) By reducing the high-frequency components of image by blurring the image?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335766414"
     },
     {
       "id": 10,
@@ -283,14 +292,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) IP V6**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (C) is the standard specification.",
       "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "IoT के लिए IP पते का कौन सा संस्करण सबसे उपयुक्त है?",
+      "question_hi": "IP एड्रेेस का कौन सा संस्करण IoT के लिए सबसे उपयुक्त है?",
       "options_hi": {
-        "A": "आईपी ​​वी4",
-        "B": "आईपी ​​वी5",
-        "C": "आईपी ​​वी6",
-        "D": "आईपी ​​वी7"
+        "A": "आईपी ​V4",
+        "B": "आईपी ​वी5",
+        "C": "आईपी ​वी6",
+        "D": "आईपी ​वी7"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) IP V6?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) IP V6?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766323"
     },
     {
       "id": 11,
@@ -309,14 +319,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) 2-D array**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "कंप्यूटर ग्राफ़िक्स में, छवियों के लिए पिक्सेल मान संग्रहीत करने के लिए सरणियों का उपयोग किया जा सकता है। इस प्रयोजन के लिए कौन सी सारणी उपयुक्त होगी?",
+      "question_hi": "कंप्यूूटर ग्राफिक्स में, सरणियों का उपयोग छवियों के लिए पिक्सेल मानों को संग्रहीत करने के लिए किया जा सकता है। इस उद्देेश्य के लिए किस प्रकार का सरणी उपयुक्त होगी?",
       "options_hi": {
         "A": "1-डी सरणी",
         "B": "2-डी सरणी",
         "C": "3-डी सरणी",
         "D": "4-डी सरणी"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 2-D ऐरे (Array)?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 2-D ऐरे (Array)?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766118"
     },
     {
       "id": 12,
@@ -335,14 +346,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Defining the structure of data frames**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality.",
       "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "डेटा लिंक परत में फ़्रेम डिज़ाइन में शामिल हैं:",
+      "question_hi": "डेटा लिंंक परत में फ़्रेेम डिज़ााइन में शामिल हैं:",
       "options_hi": {
-        "A": "डेटा पैकेट के लिए रूटिंग पथ तय करना",
-        "B": "डेटा फ़्रेम की संरचना को परिभाषित करना",
-        "C": "Assigning IP addresses to devices",
-        "D": "डेटा ट्रांसमिशन दर निर्धारित करना"
+        "A": "डेटा पैकेट के लिए रूटिंंग पथ तय करना",
+        "B": "डेटा फ़्रेेम की संरचना को परिभाषित करना",
+        "C": "डिवाइसेज़ को IP पते असाइन करना",
+        "D": "डेटा ट्रांांसमिशन दर सेट करना"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Defining the structure of data frames?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Defining the structure of data frames?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766185"
     },
     {
       "id": 13,
@@ -361,14 +373,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Records**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "सामान्य तौर पर, एक फ़ाइल मूल रूप से सभी संबंधित______ का एक संग्रह है।",
+      "question_hi": "सामान्य तौर पर, एक फ़ााइल मूल रूप से सभी related______ का एक संग्रह है।",
       "options_hi": {
-        "A": "पंक्तियाँ एवं स्तम्भ",
-        "B": "Database",
-        "C": "खेत",
-        "D": "अभिलेख"
+        "A": "पंक्ति याँ और स्तंभ",
+        "B": "डेटाबेस",
+        "C": "फ़ीील्ड",
+        "D": "रिकॉर्ड"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Records?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Records?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335766171"
     },
     {
       "id": 14,
@@ -387,14 +400,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) File Level**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (C) reflects the standard behavior and complexity bounds.",
       "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "निम्नलिखित में से कौन सा डेटा अमूर्तता के स्तर को संदर्भित करता है जो वास्तव में संग्रहीत डेटा का वर्णन करता है?",
+      "question_hi": "निम्नलिखित में से कौन सा डेटा अमूर्ता के स्तर को संदर्भित करता है जो बताता है कि डेटा वास्तव में कैसे संग्रहीत किया जाता है?",
       "options_hi": {
         "A": "वैचारिक स्तर",
-        "B": "भौतिक स्तर",
-        "C": "File Level",
+        "B": "शारीरिक स्तर",
+        "C": "फ़ााइल स्तर",
         "D": "तार्किक स्तर"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) File Level?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) File Level?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766165"
     },
     {
       "id": 15,
@@ -413,14 +427,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Supervisory Control and Data Acquisition**\n\n**IoT Architecture**: Interconnected smart devices employ lightweight communication protocols (Zigbee, MQTT, CoAP) and edge/cloud integration.\n- Option (B) correctly represents the IoT standard.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "SCADA का पूर्ण रूप (Full Form) क्या है?",
+      "question_hi": "SCADA का पूरा नाम क्याा है?",
       "options_hi": {
-        "A": "पर्यवेक्षी नियंत्रण और दस्तावेज़ अधिग्रहण",
-        "B": "पर्यवेक्षी नियंत्रण और डाटा अधिग्रहण",
-        "C": "पर्यवेक्षी कॉलम और डेटा मूल्यांकन",
-        "D": "पर्यवेक्षी नियंत्रण और डेटा मूल्यांकन"
+        "A": "Supervisory Control and Document Acquisition",
+        "B": "Supervisory Control and Data Acquisition",
+        "C": "Supervisory Column and Data Assessment",
+        "D": "Supervisory Control and Data Assessment"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Supervisory Control and Data Acquisition?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Supervisory Control and Data Acquisition?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766328"
     },
     {
       "id": 16,
@@ -439,14 +454,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Message Queue Telemetry Transport**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (D) reflects the standard behavior and complexity bounds.",
       "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "निम्नलिखित में से Full form of MQTT is के संदर्भ में उपयुक्त विकल्प चुनें।",
+      "question_hi": "Full form of MQTT is",
       "options_hi": {
-        "A": "मल्टी-क्यू टेलीमेट्री चीज़ें",
-        "B": "एकाधिक कतारबद्ध टेलीमेट्री चीजें",
-        "C": "संदेश कतार टेलीमेट्री चीज़ें",
-        "D": "संदेश कतार टेलीमेट्री परिवहन"
+        "A": "Multi-Queue Telemetry Things",
+        "B": "Multiple Queueing Telemetry Things",
+        "C": "Message Queue Telemetry Things",
+        "D": "Message Queue Telemetry Transport"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Message क्यू (Queue) Telemetry Transport?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Message क्यू (Queue) Telemetry Transport?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335766327"
     },
     {
       "id": 17,
@@ -465,14 +481,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Overloading**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality.",
       "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "एक वर्ग में एक ही नाम लेकिन अलग-अलग मापदंडों के साथ कई तरीकों को परिभाषित करने के लिए शब्द क्या है?",
+      "question_hi": "एक ही नाम लेकिन अलग-अलग मापदंडों के साथ एक कक्षा में कई विधियों को परिभाषित करने के लिए क्याा शब्द है?",
       "options_hi": {
-        "A": "अधिभावी",
-        "B": "अधिक भार",
-        "C": "विरासत",
-        "D": "विरासत"
+        "A": "अभिभावी",
+        "B": "ओवरलोडिंंग",
+        "C": "विरासत में",
+        "D": "वंशानुक्रम"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Overloading?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Overloading?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766244"
     },
     {
       "id": 18,
@@ -491,14 +508,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) <!- -**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "वेब डेवलपमेंट (Web Tech)",
-      "question_hi": "HTML में, हम इसका उपयोग करके एक टिप्पणी शुरू करते हैं:",
+      "question_hi": "HTML में, हम एक टिप्पणी किसका उपयोग करके शुरू करते हैं:",
       "options_hi": {
-        "A": "<!- ​​-",
+        "A": "<!- -",
         "B": "!- ->",
         "C": "- -!>",
         "D": "<--!"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) <!- -?**\n\n**विषय अवधारणा (वेब डेवलपमेंट (Web Tech))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) <!- -?**\n\n**विषय अवधारणा (वेब डेवलपमेंट (Web Tech))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766470"
     },
     {
       "id": 19,
@@ -509,7 +527,7 @@ window.official_shift3 = {
       "marks": 1,
       "negativeMarks": 0,
       "question": "What is the race-around condition in a digital level-triggered JK flip-flop, and when does it occur?",
-      "question_hi": "डिजिटल लेवल-ट्रिगर जेके फ्लिप-फ्लॉप में रेस-अराउंड स्थिति (Race-around condition) क्या है और यह कब उत्पन्न होती है?",
+      "question_hi": "नीचे दिए गए स्‍टैटमेंट्स (Statements) पर विचार कीजिए और फिर दिये गये विकल्‍पों (Options) में से सही आउटपुट (output) चुनिये : D={ 'S01 ' : 95, 'S02' : 96 } for I in D : print ( I , end = '#' )",
       "options": {
         "A": "Output toggles repeatedly during a single clock pulse when J=1, K=1 and clock duration tp > propagation delay tpd",
         "B": "Output becomes undefined when both inputs J=0 and K=0",
@@ -517,14 +535,15 @@ window.official_shift3 = {
         "D": "Flip-flop resets permanently to 0 when inputs are equal"
       },
       "options_hi": {
-        "A": "जब J=1, K=1 हो तथा क्लॉक पल्स अवधि tp > प्रोपेगेशन डिले tpd हो, तो आउटपुट एक ही पल्स में बार-बार टॉगल होता है",
-        "B": "जब दोनों इनपुट J=0 और K=0 हों तो आउटपुट अपरिभाषित हो जाता है",
-        "C": "आंतरिक ट्रांजिस्टर सक्रिय करने के लिए क्लॉक पल्स बहुत छोटी होती है",
-        "D": "इनपुट समान होने पर फ्लिप-फ्लॉप स्थायी रूप से 0 पर रीसेट हो जाता है"
+        "A": "S01#S02#",
+        "B": "95#96#",
+        "C": "S01,95#S02,96#",
+        "D": "S01#95#S02#96#"
       },
       "correctAnswer": "A",
       "explanation": "Race-around condition occurs in level-triggered JK flip-flops when J=1, K=1, and the clock pulse width tp is greater than the propagation delay tpd of the flip-flop. The output toggles repeatedly while the clock is HIGH, resulting in an unpredictable state. It is prevented using Master-Slave flip-flops or edge triggering.",
-      "explanation_hi": "लेवल-ट्रिगर जेके फ्लिप-फ्लॉप में जब J=1, K=1 हो और क्लॉक अवधि प्रोपेगेशन डिले से अधिक हो, तो क्लॉक हाई रहने तक आउटपुट लगातार 0 और 1 के बीच टॉगल करता रहता है। इसे मास्टर-स्लेव जेके फ्लिप-फ्लॉप या एज-ट्रिगरिंग द्वारा हल किया जाता है।"
+      "explanation_hi": "लेवल-ट्रिगर जेके फ्लिप-फ्लॉप में जब J=1, K=1 हो और क्लॉक अवधि प्रोपेगेशन डिले से अधिक हो, तो क्लॉक हाई रहने तक आउटपुट लगातार 0 और 1 के बीच टॉगल करता रहता है। इसे मास्टर-स्लेव जेके फ्लिप-फ्लॉप या एज-ट्रिगरिंग द्वारा हल किया जाता है।",
+      "officialQuestionId": "4335766437"
     },
     {
       "id": 20,
@@ -543,14 +562,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Group**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "In Karnaugh Maps, निम्नलिखित में से कौन सा terms refers to a group of adjacent cells can be combined to simplify a logic expression?",
+      "question_hi": "कर्नाघ मैप्स में, निम्नलिखित में से कौन सा शब्द आसन्न कोशिकाओं के एक समूह को संदर्भित करता है जिसे एक तर्क अभिव्यक्ति को सरल बनाने के लिए जोड़ाा जा सकता है?",
       "options_hi": {
-        "A": "अवरोध पैदा करना",
-        "B": "झुंड",
-        "C": "जोड़ा",
+        "A": "ब्लॉॉक",
+        "B": "क्लस्टर",
+        "C": "जोड़ीी",
         "D": "समूह"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Group?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Group?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335766062"
     },
     {
       "id": 21,
@@ -569,14 +589,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Blog**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "रिक्त स्थान को भरने के लिए सही विकल्प का चयन करें: ___________ एक ऑनलाइन प्लेटफ़ॉर्म वेबसाइट है जहां व्यक्ति या व्यवसाय नियमित रूप से विभिन्न विषयों पर लेख/पत्रिकाएं, ज्ञात पोस्ट प्रकाशित करते हैं।",
+      "question_hi": "रिक्त स्थाान भरने के लिए सही विकल्प चुनें: ____________ एक ऑनलाइन प्लेेटफ़ॉॉर्म या वेबसाइट है जहाँ व्यक्ति या व्यवसाय नियमित रूप से विभिन्न विषयों पर लेख/पत्रिकाएँ, जिन्हें पोस्ट कहा जाता है, प्रकाशित करते हैं।",
       "options_hi": {
-        "A": "ब्राउज़र से",
-        "B": "ब्लॉग",
+        "A": "ब्रााउज़र",
+        "B": "ब्लॉॉग",
         "C": "समाचार समूह",
         "D": "वेब सर्वर"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Blog?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Blog?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766424"
     },
     {
       "id": 22,
@@ -595,14 +616,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Mutual exclusion**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "डाइनिंग फिलॉस्फर समस्या एक तुल्यकालन समस्या का एक उदाहरण है:",
+      "question_hi": "भोजन दार्शनिक समस्याा एक सिंंक्रनाइज़ेेशन समस्याा का एक उदाहरण है:",
       "options_hi": {
-        "A": "प्रक्रिया शेड्यूलिंग",
-        "B": "पारस्परिक बहिष्कार",
-        "C": "स्मृति आवंटन",
-        "D": "हैंडलिंग में बाधा डालना"
+        "A": "प्रक्रि या शेड्यूूलिंंग",
+        "B": "पारस्परिक बहिष्करण",
+        "C": "मेमोरी आवंटन",
+        "D": "इंटरप्ट हैंडलिंंग"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Mutual exclusion?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Mutual exclusion?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766144"
     },
     {
       "id": 23,
@@ -621,14 +643,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) Enabling processes to exchange information and synchronize their actions**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
       "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "अंतर-प्रक्रिया संचार (आईपीसी) एक तंत्र है जिसका उपयोग निम्न के लिए किया जाता है:",
+      "question_hi": "इंटर-प्रोसेस कम्युुनिकेशन (IPC) एक ऐसा तंत्र है जिसका उपयोग किया जाता है:",
       "options_hi": {
-        "A": "प्रक्रियाओं को समवर्ती रूप से निष्पादित होने से रोकना",
-        "B": "संचार के बिना प्रक्रियाओं को स्वतंत्र रूप से चलाने की अनुमति देना",
-        "C": "सूचनाओं के आदान-प्रदान और उनके कार्यों को सिंक्रनाइज़ करने के लिए प्रक्रियाओं को सक्षम करना",
-        "D": "प्रक्रियाओं को यादृच्छिक क्रम में निष्पादित करने में सक्षम बनाना"
+        "A": "प्रक्रि याओं को समवर्ती रूप से निष्पाादित करने से रोकना",
+        "B": "प्रक्रि याओं को संचार के बिना स्वतंत्र रूप से चलाने की अनुमति देता है",
+        "C": "सूचनाओं का आदान -प्रदान करने और उनके कार्यों को सिंंक्रनाइज़ करने के लिए प्रक्रि याओं को सक्षम करना",
+        "D": "एक यादृच्छि क क्रम में निष्पाादित करने के लिए प्रक्रि याओं को सक्षम करना"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Enabling processes to exchange information and synchronize their actions?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Enabling processes to exchange information and synchronize their actions?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766136"
     },
     {
       "id": 24,
@@ -647,14 +670,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) To convert domain names into IP addresses**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "नेटवर्किंग में डोमेन नाम सिस्टम सर्वर का उद्देश्य क्या है?",
+      "question_hi": "नेटवर्किंग में डोमेन नेम सिस्टम सर्वर का उद्देेश्य क्याा है?",
       "options_hi": {
-        "A": "ट्रांसमिशन के दौरान डेटा को एन्क्रिप्ट करने के लिए।",
-        "B": "डोमेन नाम को आईपी पते में बदलने के लिए",
-        "C": "नेटवर्क यातायात प्रवाह को विनियमित करने के लिए.",
-        "D": "उपकरणों के बीच एक सुरक्षित कनेक्शन स्थापित करने के लिए।"
+        "A": "संचरण के दौरान डेटा एन्क्रि प्ट करने के लिए.",
+        "B": "डोमेन नामों को आईपी पते में परिवर्तित करने के लिए",
+        "C": "नेटवर्क यातायात प्रवाह को विनियमित करने के लिए।",
+        "D": "उपकरणों के बीच सुरक्षित कनेक्शन स्थाापित करने के लिए."
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) To convert domain names into IP पताes?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) To convert domain names into IP पताes?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335765997"
     },
     {
       "id": 25,
@@ -673,14 +697,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Procedural Programming**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality.",
       "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "कौन सा प्रोग्रामिंग प्रतिमान किसी प्रोग्राम को छोटी प्रक्रियाओं या कार्यों में तोड़ने पर केंद्रित है?",
+      "question_hi": "कौन सा प्रोग्रामिंंग प्रतिमान एक प्रोग्राम को छोटी प्रक्रि याओं या कार्यों में तोड़ने पर केंद्रित है?",
       "options_hi": {
-        "A": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग",
-        "B": "प्रक्रियात्मक प्रोग्रामिंग",
-        "C": "कार्यात्मक प्रोग्रामिंग",
-        "D": "अनिवार्य प्रोग्रामिंग"
+        "A": "ऑब्जेेक्ट-ओरिएंटेड प्रोग्रामिंंग",
+        "B": "प्रक्रि यात्मक प्रोग्रामिंंग",
+        "C": "कार्यात्मक प्रोग्रामिंंग",
+        "D": "अनिवार्य प्रोग्रामिंंग"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Procedural Programming?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Procedural Programming?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766227"
     },
     {
       "id": 26,
@@ -699,14 +724,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) Horizontal**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "ई-मार्केटप्लेस का कौन सा रूप अक्सर एमआरओ सामग्रियों के लिए कई उद्योगों के खरीदारों और विक्रेताओं को एक साथ लाता है?",
+      "question_hi": "ई-मार्केटप्लेेस का कौन सा रूप कई उद्योोगों के क्रेताओं और विक्रेताओं को एक साथ लाता है, अक्सर एमआरओ सामग्रियों के लिए?",
       "options_hi": {
         "A": "क्षैतिज",
-        "B": "खड़ा",
+        "B": "खड़ाा",
         "C": "एकीकृत",
         "D": "एकाकी"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Horizontal?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Horizontal?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766383"
     },
     {
       "id": 27,
@@ -725,14 +751,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) ARP**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (A) is the standard specification.",
       "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "आईपी ​​पते को मैक पते पर मैप करने के लिए कौन सा इंटरनेट प्रोटोकॉल जिम्मेदार है?",
+      "question_hi": "कौन सा इंटरनेट प्रोटोकॉल IP पतों को MAC पतों में मैप करने के लिए जिम्मेदार है?",
       "options_hi": {
         "A": "ARP",
         "B": "TCP",
-        "C": "आईसीएमपी",
+        "C": "ICMP",
         "D": "DNS"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) ARP?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) ARP?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766177"
     },
     {
       "id": 28,
@@ -751,14 +778,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Delphi Method**\n\n**Software Engineering Methodology**: High-quality software development requires structured life cycles (SDLC), formal requirement specifications (SRS), and comprehensive testing verification.\n- Option (B) correctly describes the software engineering standard.",
       "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
-      "question_hi": "लागत अनुमान तकनीक जिसमें विशेषज्ञ निर्णय और आम सहमति शामिल है",
+      "question_hi": "लागत आकलन तकनीक जिसमें विशेषज्ञ निर्णय और आम सहमति शामिल है, को कहा जाता है:",
       "options_hi": {
-        "A": "COCOMO",
-        "B": "डेल्फ़ी विधि",
+        "A": "कोकोमो",
+        "B": "डेल्फीी विधि",
         "C": "झरना मॉडल",
         "D": "प्रोटोटाइप मॉडल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Delphi Method?**\n\n**विषय अवधारणा (सॉफ्टवेयर इंजीनियरिंग)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Delphi Method?**\n\n**विषय अवधारणा (सॉफ्टवेयर इंजीनियरिंग)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766219"
     },
     {
       "id": 29,
@@ -777,14 +805,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Carry Look-Ahead Adder**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "रिपल कैरी एडर्स में प्रसार विलंब के मुद्दों को दूर करने और कैरी सिग्नल को अधिक कुशलता से उत्पन्न करने के लिए किस प्रकार के एडर को डिज़ाइन किया गया है?",
+      "question_hi": "रिपल कैरी एडर्स में प्रसार देरी के मुद्दोंों को दूर करने के लिए किस प्रकार के योजक को डिज़ााइन किया गया है और कैरी सिग्नल को अधिक कुशलता से उत्पन्न किया जाता है?",
       "options_hi": {
-        "A": "रिपल कैरी एडर",
-        "B": "आगे की ओर देखने वाला योजक साथ रखें",
+        "A": "रिपल ले जाने वाले योजक",
+        "B": "लुक-फॉरवर्ड एडडर",
         "C": "बाइनरी योजक",
         "D": "आधा योजक"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Carry Look-Ahead Adder?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Carry Look-Ahead Adder?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766066"
     },
     {
       "id": 30,
@@ -795,7 +824,7 @@ window.official_shift3 = {
       "marks": 1,
       "negativeMarks": 0,
       "question": "A 4-variable Boolean function has minterms m(0, 2, 8, 10). What is its minimal Sum of Products (SOP) expression after Karnaugh Map (K-map) minimization?",
-      "question_hi": "एक 4-चर वाले बूलियन फलन के मिनटरम्स m(0, 2, 8, 10) हैं। कॉर्नो मैप (K-map) न्यूनीकरण के बाद इसका न्यूनतम SOP व्यंजक क्या होगा?",
+      "question_hi": "यह अभिकथन एवं कारण प्रकार का प्रश्न है। इस प्रश्न में दो कथन हैं, अर्थात् अभिकथन (A) और कारण (R)। अभिकथन और कारण पर विचार करते हुए सबसे उपयुक्त विकल्प का चयन कीजिए।अभिकथन (A) :एसएमएस (SMS), स्माार्ट मैसेज सर्विस (Smart Message Service) का प्रर्थमाक्षर/ आदिवार्णि (acronym)शब्द है । कारण (R) : संक्षि प्त स्पस्ट और महत्वपूर्ण संदेशों को शीघ्रता से पहुँचाने के लिए SMS सबसे आम तकनीक है।",
       "options": {
         "A": "B'D'",
         "B": "A'B' + C'D'",
@@ -803,14 +832,15 @@ window.official_shift3 = {
         "D": "B'C'"
       },
       "options_hi": {
-        "A": "B'D'",
-        "B": "A'B' + C'D'",
-        "C": "A'C + BD",
-        "D": "B'C'"
+        "A": "अभिकथन (A) और कारण (R) दोनों सत्य हैं और कारण (R), अभिकथन (A) की सही व्याख्याा है।",
+        "B": "अभिकथन (A) और कारण (R) दोनों सत्य हैं, लेकिन कारण (R), अभिकथन (A) की सही व्याख्याा नहीं है।",
+        "C": "अभिकथन (A) सत्य है, परन्तुु कारण (R) असत्य है।",
+        "D": "अभिकथन (A) असत्य है, परन्तुु कारण (R) सत्य है।"
       },
       "correctAnswer": "A",
       "explanation": "Minterms 0 (0000), 2 (0010), 8 (1000), and 10 (1010) occupy the four outer corners of a 4-variable K-map (variables A, B, C, D). Combining these four corner cells yields the group where B=0 and D=0 remain constant, resulting in the minimal term B'D'.",
-      "explanation_hi": "4-चर K-मैप में मिनटरम्स 0, 2, 8 तथा 10 चारों कोनों पर स्थित होते हैं। इन चारों कोनों को मिलाकर एक क्वाड (Quad) बनता है जिसमें चर B=0 तथा D=0 स्थिर रहते हैं, अतः न्यूनतम व्यंजक B'D' प्राप्त होता है।"
+      "explanation_hi": "4-चर K-मैप में मिनटरम्स 0, 2, 8 तथा 10 चारों कोनों पर स्थित होते हैं। इन चारों कोनों को मिलाकर एक क्वाड (Quad) बनता है जिसमें चर B=0 तथा D=0 स्थिर रहते हैं, अतः न्यूनतम व्यंजक B'D' प्राप्त होता है।",
+      "officialQuestionId": "4335766430"
     },
     {
       "id": 31,
@@ -829,14 +859,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Non-deterministic pushdown automata to deterministic pushdown automata**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "निम्नलिखित में से कौन सा रूपांतरण संभव नहीं है (एल्गोरिदमिक रूप से)?",
+      "question_hi": "निम्नलिखित में से कौन सा रूपांतरण संभव नहीं है (एल्गोोरिथ्मिक रूप से)?",
       "options_hi": {
         "A": "नियमित व्याकरण से संदर्भ-मुक्त व्याकरण तक",
         "B": "गैर-नियतात्मक पुशडाउन ऑटोमेटा से नियतात्मक पुशडाउन ऑटोमेटा",
-        "C": "गैर-नियतात्मक परिमित अवस्था ऑटोमेटा से नियतात्मक परिमित अवस्था ऑटोमेटा तक",
-        "D": "गैर नियतात्मक ट्यूरिंग मशीन से नियतात्मक ट्यूरिंग मशीन"
+        "C": "गैर-नियतात्मक परिमित अवस्थाा ऑटोमेटा से नियतात्मक परिमित अवस्थाा ऑटोमेटा",
+        "D": "गैर नियतात्मक ट्यूूरिंंग मशीन से नियतात्मक ट्यूूरिंंग मशीन"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Non-deterministic pushdown automata to deterministic pushdown automata?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Non-deterministic pushdown automata to deterministic pushdown automata?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766315"
     },
     {
       "id": 32,
@@ -855,14 +886,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) Representational Verification**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "निम्नलिखित में से कौन सा ज्ञान प्रतिनिधित्व का गुण नहीं है?",
+      "question_hi": "अनुवर्ती में से कौन सा ज्ञान प्रतिनिधित्व की संपत्ति नहीं है?",
       "options_hi": {
         "A": "प्रतिनिधि सत्यापन",
-        "B": "प्रतिनिधित्वात्मक पर्याप्तता",
-        "C": "अनुमानात्मक उपयुक्तता",
-        "D": "अनुमानात्मक दक्षता"
+        "B": "प्रतिनिधित्व पर्याप्तता",
+        "C": "अनुमानात्मक पर्याप्तता",
+        "D": "अनुमानित दक्षता"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Representational Verification?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Representational Verification?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766367"
     },
     {
       "id": 33,
@@ -881,14 +913,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) Doing business electronically**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (A) accurately reflects the microarchitectural functionality.",
       "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "निम्नलिखित में से कौन सा describes e‐commerce?",
+      "question_hi": "निम्नलिखित में से कौन सा e -Commerce का वर्णन करता है?",
       "options_hi": {
-        "A": "इलेक्ट्रॉनिक रूप से व्यापार करना",
-        "B": "व्यापार कर रही है",
+        "A": "इलेक्ट्रॉॉनिक रूप से व्यापार करना",
+        "B": "व्यापार करना",
         "C": "माल की बिक्री",
-        "D": "उपरोक्त सभी"
+        "D": "ऊपर के सभी"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Doing business electronically?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Doing business electronically?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766378"
     },
     {
       "id": 34,
@@ -907,14 +940,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) Using the fetch API or XMLHttpRequest**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (C) is the standard specification.",
       "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "आप जावास्क्रिप्ट में किसी सर्वर से एसिंक्रोनस अनुरोध कैसे कर सकते हैं?",
+      "question_hi": "आप जावास्क्रि प्ट में सर्वर के लिए अतुल्यकालिक अनुरोध कैसे कर सकते हैं?",
       "options_hi": {
         "A": "\"async\" कीवर्ड का उपयोग करना",
-        "B": "\"प्रतीक्षा करें\" कीवर्ड का उपयोग करना",
-        "C": "फ़ेच API या XMLHttpRequest का उपयोग करना",
-        "D": "कॉलबैक फ़ंक्शन को परिभाषित करके"
+        "B": "\"प्रतीक्षा\" कीवर्ड का उपयोग करना",
+        "C": "Fetch API या XMLHttpRequest",
+        "D": "का उपयोग करना कॉलबैक फ़ंंक्शन को परिभाषित करके"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Using the fetch API or XMLHttpRequest?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Using the fetch API or XMLHttpRequest?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766262"
     },
     {
       "id": 35,
@@ -933,14 +967,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) 15**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "दिए गए उपसर्ग अभिव्यक्ति का मूल्यांकन करें: 3 5 * 6 + 2 3 * -",
+      "question_hi": "दिए गए पोस्टफ़ि क्स अभिव्यक्ति का मूल्यांकन करें: 3 5 * 6 + 2 3 * -",
       "options_hi": {
         "A": "39",
         "B": "15",
         "C": "-9",
         "D": "-17"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 15?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 15?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335765988"
     },
     {
       "id": 36,
@@ -959,14 +994,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) All of the above**\n\n**Operating System Principle**: The OS kernel orchestrates resource virtualization, process synchronization, memory paging, and file management.\n- Option (D) is the definitive mechanism implemented in modern operating systems.",
       "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "निम्नलिखित में से Why do we need Industry 4.0 के संदर्भ में उपयुक्त विकल्प चुनें।",
+      "question_hi": "हमें उद्योोग की आवश्यकता क्योंों है 4.0>",
       "options_hi": {
-        "A": "मशीन की विफलता का पता लगाना",
-        "B": "मशीन की विफलता को रोकना",
+        "A": "मशीन की विफलताओं का पता लगाना",
+        "B": "मशीन की विफलताओं को रोकना",
         "C": "सुरक्षा में सुधार",
-        "D": "उपरोक्त सभी"
+        "D": "ऊपर के सभी"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) उपरोक्त सभी**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) उपरोक्त सभी**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335766342"
     },
     {
       "id": 37,
@@ -985,14 +1021,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) VoIP**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (C) is the standard specification.",
       "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "___________ नेटवर्क पर वॉयस ट्रैफिक ले जाने के लिए पैकेट स्विचिंग तकनीक का उपयोग करता है जहां प्रत्येक पैकेट अपने गंतव्य तक पहुंचने के लिए सर्वोत्तम मार्ग का अनुसरण करता है।",
+      "question_hi": "_________________ एक आईपी नेटवर्क पर ध्वनि यातायात ले जाने के लिए पैकेट स्वि चिंंग प्रौद्योोगिकी का उपयोग करता है जहां प्रत्येेक पैकेट अपने गंतव्य तक पहुंचने के लिए सर्वोत्तम मार्ग का अनुसरण करता है।",
       "options_hi": {
-        "A": "ई-मेल",
-        "B": "HTTP",
+        "A": "ईमेल",
+        "B": "एचटीटीपी",
         "C": "वीओआईपी",
         "D": "एसएमटीपी"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) VoIP?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) VoIP?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766005"
     },
     {
       "id": 38,
@@ -1011,14 +1048,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Software development cost**\n\n**Software Engineering Methodology**: High-quality software development requires structured life cycles (SDLC), formal requirement specifications (SRS), and comprehensive testing verification.\n- Option (D) correctly describes the software engineering standard.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "डेल्फ़ी और कोकोमो ऐसी तकनीकें हैं जिनका उपयोग अनुमान लगाने के लिए किया जाता है:",
+      "question_hi": "डेल्फीी और सीओसीओएमओ अनुमान लगाने के लिए उपयोग की जाने वाली तकनीकें हैं:",
       "options_hi": {
-        "A": "Software size",
+        "A": "सॉफ्टवेयर का आकार",
         "B": "सॉफ्टवेयर विश्वसनीयता",
         "C": "सॉफ्टवेयर जटिलता",
         "D": "सॉफ्टवेयर विकास लागत"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Software development cost?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Software development cost?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335766214"
     },
     {
       "id": 39,
@@ -1037,14 +1075,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Continues searching for more solutions**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "8-क्वींस समस्या के लिए बैकट्रैकिंग दृष्टिकोण में, एक बार व्यवहार्य समाधान मिल जाने पर, एल्गोरिदम:",
+      "question_hi": "8-क्यूून्स समस्याा के लिए बैकट्रैैकिंंग दृष्टिकोण में, एक बार एक संभव समाधान पाया जाता है, एल्गोोरिथ्म:",
       "options_hi": {
-        "A": "रुकता है और समाधान लौटाता है",
-        "B": "अधिक समाधानों की खोज जारी है",
-        "C": "सभी संभावनाओं के माध्यम से पुनरावृत्त होता है",
-        "D": "Rearranges the queens to optimize the solution"
+        "A": "रुकता है और समाधान देता है",
+        "B": "अधिक समाधानों की खोज जारी रखता है",
+        "C": "सभी संभावनाओं के माध्यम से iterates",
+        "D": "समाधान को अनुकूलित करने के लिए रानियों को पुनर्व्यवस्थि त करता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Continues searching for more solutions?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Continues searching for more solutions?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766086"
     },
     {
       "id": 40,
@@ -1063,14 +1102,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) By comparing the parity bit with the data**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "समता बिट विधि का उपयोग करते समय, रिसीवर यह कैसे निर्धारित करता है कि ट्रांसमिशन के दौरान कोई त्रुटि हुई है या नहीं?",
+      "question_hi": "समता बिट विधि का उपयोग करते समय, ट्रांांसमिशन के दौरान कोई त्रुटि होने पर रिसीवर कैसे निर्धारित करता है?",
       "options_hi": {
-        "A": "डेटा में लोगों की संख्या गिनकर",
+        "A": "डेटा में लोगों की संख्याा की गिनती करके",
         "B": "डेटा के साथ समता बिट की तुलना करके",
-        "C": "मॉड्यूलो अंकगणित निष्पादित करके",
-        "D": "समता बिट के साथ इकाइयों की संख्या की तुलना करके"
+        "C": "modulo अंकगणित प्रदर्शन करके",
+        "D": "समता बिट के साथ लोगों की संख्याा की तुलना करके"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) By comparing the parity bit with the data?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) By comparing the parity bit with the data?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766068"
     },
     {
       "id": 41,
@@ -1089,14 +1129,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Data Rate**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "किसी निश्चित समय अवधि में संचार चैनल द्वारा प्रसारित किए जा सकने वाले डेटा की अधिकतम मात्रा का वर्णन करने के लिए उपयोग किया जाने वाला शब्द है:",
+      "question_hi": "एक निश्चित समय अवधि में संचार चैनल पर प्रेषित किए जा सकने वाले डेटा की अधिकतम मात्रा का वर्णन करने के लिए उपयोग किया जाने वाला शब्द है:",
       "options_hi": {
         "A": "बैंडविड्थ",
-        "B": "आधार - सामग्री दर",
-        "C": "विलंब",
-        "D": "शिष्टाचार"
+        "B": "डेटा दर",
+        "C": "लेटेंसी",
+        "D": "प्रोटोकॉल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Data Rate?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Data Rate?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766179"
     },
     {
       "id": 42,
@@ -1115,14 +1156,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) 20**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "निम्नलिखित कथन का आउटपुट क्या होगा? प्रिंट (14%3**2*4)",
+      "question_hi": "निम्‍नलिखित स्‍टेटमेंट (Statement ) का आउटपुट (Output) क्‍या होगा ? Print (14%3**2*4)",
       "options_hi": {
         "A": "16",
         "B": "64",
         "C": "20",
         "D": "256"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 20?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 20?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766431"
     },
     {
       "id": 43,
@@ -1141,14 +1183,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) id**\n\n**OOP Principle**: Core pillars include Encapsulation (data hiding), Abstraction (interface separation), Inheritance (code reuse), and Polymorphism (runtime dispatch).\n- Option (A) correctly implements these principles.",
       "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "XML में, किसी तत्व की विशिष्ट पहचान के लिए किस विशेषता का उपयोग किया जाता है?",
+      "question_hi": "XML में, किसी तत्व को विशिष्ट रूप से पहचानने के लिए किस विशेषता का उपयोग किया जाता है?",
       "options_hi": {
         "A": "id",
-        "B": "कक्षा",
+        "B": ".class",
         "C": "नाम",
-        "D": "tag"
+        "D": "टैग"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) id?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) id?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766269"
     },
     {
       "id": 44,
@@ -1167,14 +1210,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) Context Sensitive Grammar / Context Sensitive language**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
       "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "निम्नलिखित में से कौन सी टाइप 1 भाषा या टाइप 1 व्याकरण है?",
+      "question_hi": "निम्नलिखित में से कौन सा टाइप 1 भाषा या टाइप 1 ग्रामर है?",
       "options_hi": {
-        "A": "नियमित व्याकरण/नियमित भाषा",
-        "B": "प्रसंग मुक्त व्याकरण / प्रसंग मुक्त भाषा",
-        "C": "प्रसंग संवेदनशील व्याकरण / प्रसंग संवेदनशील भाषा",
+        "A": "Regular grammar/ Regular language",
+        "B": "Context Free Grammar / Context Free language",
+        "C": "Context Sensitive Grammar / Context Sensitive language",
         "D": "Recursively Enumerable"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Context Sensitive Grammar / Context Sensitive language?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Context Sensitive Grammar / Context Sensitive language?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766305"
     },
     {
       "id": 45,
@@ -1193,14 +1237,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) sealed**\n\n**OOP Principle**: Core pillars include Encapsulation (data hiding), Abstraction (interface separation), Inheritance (code reuse), and Polymorphism (runtime dispatch).\n- Option (A) correctly implements these principles.",
       "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "यह दर्शाने के लिए किस कीवर्ड का उपयोग किया जाता है कि एक वर्ग अन्य वर्गों द्वारा विरासत में नहीं मिल सकता है?",
+      "question_hi": "किस कीवर्ड का उपयोग यह इंगित करने के लिए किया जाता है कि एक वर्ग अन्य वर्गों द्वाारा विरासत में नहीं लिया जा सकता है?",
       "options_hi": {
         "A": "सील",
         "B": "अंतिम",
         "C": "निजी",
-        "D": "स्थिर"
+        "D": "स्थैैतिक"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) sealed?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) sealed?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766248"
     },
     {
       "id": 46,
@@ -1219,14 +1264,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) Reprogrammable Truing machine**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
       "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "निम्नलिखित में से A universal Turing machine is a-------- के संदर्भ में उपयुक्त विकल्प चुनें।",
+      "question_hi": "एक सार्वभौमिक ट्यूूरिंंग मशीन एक -------- है",
       "options_hi": {
-        "A": "सिंगल टेप ट्यूरिंग मशीन",
-        "B": "दो-टेप ट्यूरिंग मशीन",
-        "C": "रिप्रोग्रामेबल ट्रूइंग मशीन",
-        "D": "उपरोक्त सभी"
+        "A": "एकल टेप ट्यूूरिंंग मशीन",
+        "B": "दो-टेप ट्यूूरिंंग मशीन",
+        "C": "पुनर्प्रोग्रामेबल ट्रूइंग मशीन",
+        "D": "ऊपर के सभी"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Reprogrammable Truing machine?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Reprogrammable Truing machine?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766313"
     },
     {
       "id": 47,
@@ -1245,14 +1291,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) Exclusive OR (XOR) operation**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "ग्रे कोड को उसके बाइनरी समकक्ष में परिवर्तित करने के लिए, कौन सी तकनीक आम तौर पर उपयोग की जाती है",
+      "question_hi": "एक ग्रे कोड को उसके बाइनरी समकक्ष में परिवर्तित करें, किस तकनीक का आमतौर पर उपयोग किया जाता है?",
       "options_hi": {
         "A": "घटाव विधि",
         "B": "जोड़ विधि",
-        "C": "एक्सक्लूसिव OR (XOR) ऑपरेशन",
-        "D": "विभाजन विधि"
+        "C": "अनन्य या (xor) ऑपरेशन",
+        "D": "डिवीजन विधि"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Exclusive OR (XOR) operation?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Exclusive OR (XOR) operation?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766053"
     },
     {
       "id": 48,
@@ -1263,7 +1310,7 @@ window.official_shift3 = {
       "marks": 1,
       "negativeMarks": 0,
       "question": "How many 2-to-1 multiplexers are required to construct a single 8-to-1 multiplexer without any external logic gates?",
-      "question_hi": "बिना किसी अतिरिक्त लॉजिक गेट के एक 8-to-1 मल्टीप्लेक्सर बनाने के लिए कितने 2-to-1 मल्टीप्लेक्सर की आवश्यकता होगी?",
+      "question_hi": "यह अभिकथन और तर्क प्रकार का प्रश्‍न हैं। प्रत्‍येक प्रश्‍न में दो कथन हैं, अर्थात् अभिकथन (A) और तर्क (R) । अभिकथन और तर्क पर विचार करते हुए सबसे उपयुक्त विकल्‍प का चयन कीजिएा अभिकथन (A) : CSS, table टैग का एक एट्रीीब्‍यूट (attribute) है और वेब पेज पर Tables को स्‍टाइल करने के लिए उपयोग किया जाता है। तर्क (R) : CSS का उपयोग एचटीएमएल (HTML) दस्‍तावेज़ में फ़ॉॉन्‍ट, रंग, और स्‍पेस जैसी स्‍टाइल्‍स को लगाने के लिए किया जाता है।",
       "options": {
         "A": "4",
         "B": "7",
@@ -1271,14 +1318,15 @@ window.official_shift3 = {
         "D": "15"
       },
       "options_hi": {
-        "A": "4",
-        "B": "7",
-        "C": "8",
-        "D": "15"
+        "A": "अभिकथन (A) और तर्क (R) दोनों सही हैं और अभिकथन (A) का सही स्‍पष्टीकरण तर्क (R) है।",
+        "B": "अभिकथन (A) और तर्क (R) दोनों सही हैं परंतु अभिकथन (A) का सही स्‍पष्टीकरण तर्क (R) नहीं है।",
+        "C": "अभिकथन (A) सही है, परंतु तर्क (R) ग़लत है।",
+        "D": "अभिकथन (A) ग़लत है, परंतु तर्क (R) सही है।"
       },
       "correctAnswer": "B",
       "explanation": "To build an N-to-1 MUX using 2-to-1 MUXes, the total number required is N - 1. For 8-to-1 MUX: 4 MUXes in the first stage, 2 in the second stage, and 1 in the third stage = 4 + 2 + 1 = 7 MUXes.",
-      "explanation_hi": "2-to-1 MUX का उपयोग करके N-to-1 MUX बनाने के लिए (N - 1) MUX की आवश्यकता होती है। 8-to-1 MUX के लिए: प्रथम चरण में 4, द्वितीय में 2, और तृतीय में 1 = 4 + 2 + 1 = 7 मल्टीप्लेक्सर लगेंगे।"
+      "explanation_hi": "2-to-1 MUX का उपयोग करके N-to-1 MUX बनाने के लिए (N - 1) MUX की आवश्यकता होती है। 8-to-1 MUX के लिए: प्रथम चरण में 4, द्वितीय में 2, और तृतीय में 1 = 4 + 2 + 1 = 7 मल्टीप्लेक्सर लगेंगे।",
+      "officialQuestionId": "4335766029"
     },
     {
       "id": 49,
@@ -1297,14 +1345,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) Insertion Sort**\n\n**Algorithm Analysis**: Algorithmic paradigms (Divide-and-Conquer, Dynamic Programming, Greedy) balance space and time tradeoffs.\n- Option (C) correctly identifies the algorithmic property.",
       "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-      "question_hi": "किस सॉर्टिंग एल्गोरिदम की मूल में O(n^2) की सबसे खराब स्थिति वाली समय जटिलता है",
+      "question_hi": "किस छंटाई एल्गोोरिथ्म में अपने मूल रूप में O (n^2) की सबसे खराब स्थि ति की जटिलता है?",
       "options_hi": {
-        "A": "त्वरित छँटाई",
-        "B": "मर्ज सॉर्ट करें",
-        "C": "इंसर्शन सॉर्ट",
-        "D": "गिनती क्रमबद्ध करें"
+        "A": "त्वरित सॉर्ट",
+        "B": "मर्ज सॉर्ट",
+        "C": "सम्मि लन सॉर्ट",
+        "D": "गिनती सॉर्ट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Insertion Sort?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Insertion Sort?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766105"
     },
     {
       "id": 50,
@@ -1323,14 +1372,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) The one close to the goal node**\n\n**Algorithm Analysis**: Algorithmic paradigms (Divide-and-Conquer, Dynamic Programming, Greedy) balance space and time tradeoffs.\n- Option (C) correctly identifies the algorithmic property.",
       "topic_hi": "एल्गोरिदम एवं विश्लेषण",
-      "question_hi": "निम्नलिखित में से Greedy search strategy chooses the node for expansion in ___________ के संदर्भ में उपयुक्त विकल्प चुनें।",
+      "question_hi": "लालची खोज रणनीति ___________ में विस्तार के लिए नोड चुनती है।",
       "options_hi": {
         "A": "उथले",
-        "B": "Deepest",
-        "C": "जो लक्ष्य नोड के करीब है",
+        "B": "गहरी",
+        "C": "लक्ष्य नोड के करीब वाला",
         "D": "न्यूनतम अनुमानी लागत"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) The one close to the goal node?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) The one close to the goal node?**\n\n**विषय अवधारणा (एल्गोरिदम एवं विश्लेषण)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766363"
     },
     {
       "id": 51,
@@ -1349,14 +1399,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Antivirus**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "केवल वायरस का पता लगाने और उसे हटाने के लिए विकसित सॉफ्टवेयर को ______________ कहा जाता है।",
+      "question_hi": "केवल वायरस का पता लगाने और हटाने के लिए विकसित सॉफ्टवेयर को ______________ कहा जाता है।",
       "options_hi": {
-        "A": "Malware",
+        "A": "मैलवेयर",
         "B": "एंटीवायरस",
         "C": "स्पाइवेयर",
-        "D": "ADWARE"
+        "D": "ऐडवेयर"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Antivirus?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Antivirus?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766016"
     },
     {
       "id": 52,
@@ -1367,7 +1418,7 @@ window.official_shift3 = {
       "marks": 1,
       "negativeMarks": 0,
       "question": "Which addressing mode is most suitable for supporting relocatable code and accessing local variables on a runtime stack?",
-      "question_hi": "रनटाइम स्टैक पर स्थानीय चरों तक पहुँचने और रिलोकेटेबल कोड का समर्थन करने के लिए कौन सा एड्रेसिंग मोड सबसे उपयुक्त है?",
+      "question_hi": "निम्नलिखित में से कौन सा डेटा अमूर्ता के स्तर को संदर्भित करता है जो बताता है कि डेटा कैसे संग्रहीत किया जाता है?",
       "options": {
         "A": "Direct Addressing Mode",
         "B": "Base-Register / Base-Offset Addressing Mode",
@@ -1375,14 +1426,15 @@ window.official_shift3 = {
         "D": "Absolute Addressing Mode"
       },
       "options_hi": {
-        "A": "डायरेक्ट एड्रेसिंग मोड",
-        "B": "बेस-रजिस्टर / बेस-ऑफसेट एड्रेसिंग मोड",
-        "C": "इमीडिएट एड्रेसिंग मोड",
-        "D": "एब्सोल्यूट एड्रेसिंग मोड"
+        "A": "वैचारिक स्तर",
+        "B": "शारीरिक स्तर",
+        "C": "फ़ााइल स्तर",
+        "D": "तार्किक स्तर"
       },
       "correctAnswer": "B",
       "explanation": "Base-Register (or Base-Offset) addressing computes the effective address by adding an offset (displacement) to the contents of a base pointer register (such as EBP/RBP in x86). This allows stack frame local variable access and code relocation without changing absolute memory addresses.",
-      "explanation_hi": "बेस-रजिस्टर एड्रेसिंग मोड में बेस रजिस्टर (जैसे EBP) के मान में ऑफसेट जोड़कर प्रभावी पता प्राप्त किया जाता है। यह स्टैक फ्रेम में स्थानीय चरों तक पहुंचने और कोड को मेमोरी में कहीं भी रिलोकेट करने के लिए आदर्श है।"
+      "explanation_hi": "बेस-रजिस्टर एड्रेसिंग मोड में बेस रजिस्टर (जैसे EBP) के मान में ऑफसेट जोड़कर प्रभावी पता प्राप्त किया जाता है। यह स्टैक फ्रेम में स्थानीय चरों तक पहुंचने और कोड को मेमोरी में कहीं भी रिलोकेट करने के लिए आदर्श है।",
+      "officialQuestionId": "4335766159"
     },
     {
       "id": 53,
@@ -1401,14 +1453,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) head(n)**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality.",
       "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "डेटाफ़्रेम की पहली n पंक्तियाँ प्राप्त करने के लिए किस फ़ंक्शन का उपयोग किया जाना चाहिए?",
+      "question_hi": "डेटाफ्रेेम की पहली n पंक्ति याँ प्राप्त करने के लिए किस फ़ंंक्शन का उपयोग किया जाना चाहिए?",
       "options_hi": {
         "A": "print(n)",
-        "B": "सिर(एन)",
-        "C": "प्राप्त करें(एन)",
+        "B": "head(n)",
+        "C": "get(n)",
         "D": "call(n)"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) head(n)?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) head(n)?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766001"
     },
     {
       "id": 54,
@@ -1427,14 +1480,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) Dictionary**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "निम्नलिखित में से कौन सा a mapped data type है?",
+      "question_hi": "निम्‍नलिखित में से कौन-सा एक मैप्‍ड डेटा टाइप (mapped data type) है?",
       "options_hi": {
-        "A": "सूची",
-        "B": "सेट",
-        "C": "शब्दकोष",
-        "D": "बूलियन"
+        "A": "लिस्‍ट (List)",
+        "B": "सेट्स ( Sets)",
+        "C": "डिक्‍शनरी (Dictionary)",
+        "D": "बूलियन (Boolean)"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Dictionary?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Dictionary?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766452"
     },
     {
       "id": 55,
@@ -1453,14 +1507,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) All of the above**\n\n**AI & Knowledge Engineering**: Intelligent agents utilize heuristic search, logical inference (resolution, forward/backward chaining), and knowledge representation.\n- Option (D) is the established method.",
       "topic_hi": "आर्टिफिशियल इंटेलिजेंस (AI)",
-      "question_hi": "निम्नलिखित में से The applications of AI includes के संदर्भ में उपयुक्त विकल्प चुनें।",
+      "question_hi": "ए आई के अनुप्रयोगों में शामिल हैं-------",
       "options_hi": {
         "A": "जुआ",
         "B": "विशेषज्ञ प्रणालियाँ",
         "C": "एमएल और डीएल",
-        "D": "उपरोक्त सभी"
+        "D": "ऊपर के सभी"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) उपरोक्त सभी**\n\n**विषय अवधारणा (आर्टिफिशियल इंटेलिजेंस (AI))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) उपरोक्त सभी**\n\n**विषय अवधारणा (आर्टिफिशियल इंटेलिजेंस (AI))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335766355"
     },
     {
       "id": 56,
@@ -1479,14 +1534,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Primary Logs**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "सबसे आसान तरीका जिससे हम नियंत्रण स्थानांतरित कर सकते हैं वह है जब पुरानी बैकअप साइट पुराने प्राइमरी को __________ भेजती है।",
+      "question_hi": "सबसे आसान तरीका जिसमें हम नियंत्रण स्थाानांतरित कर सकते हैं वह है जब पुरानी बैकअप साइट _____ को पुराने प्राथमिक में भेजती है।",
       "options_hi": {
-        "A": "लॉग पुनः करें",
+        "A": "लॉग को फिर से करें",
         "B": "प्राथमिक लॉग",
-        "C": "लॉग पूर्ववत करें",
+        "C": "लॉग ््स पूर्वत करें",
         "D": "उपरोक्त सभी"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Primary Logs?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Primary Logs?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766168"
     },
     {
       "id": 57,
@@ -1505,14 +1561,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) 5**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
       "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "∑={a,b} पर पैलिंड्रोम स्ट्रिंग वाली भाषा बनाने के लिए आवश्यक प्रस्तुतियों की न्यूनतम संख्या है",
+      "question_hi": "Palindrome स्ट् रिंंग्स से युक्त भाषा का उत्पादन करने के लिए आवश्यक प्रस्तुतियों की न्यूनतम संख्या, = {a, b} पर है",
       "options_hi": {
         "A": "3",
         "B": "7",
         "C": "5",
         "D": "6"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 5?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 5?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766299"
     },
     {
       "id": 58,
@@ -1531,14 +1588,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Wireless Sensor Protocol**\n\n**IoT Architecture**: Interconnected smart devices employ lightweight communication protocols (Zigbee, MQTT, CoAP) and edge/cloud integration.\n- Option (B) correctly represents the IoT standard.",
       "topic_hi": "इंटरनेट ऑफ थिंग्स (IoT)",
-      "question_hi": "WSN का पूर्ण रूप (Full Form) क्या है?",
+      "question_hi": "WSN का पूरा नाम क्याा है?",
       "options_hi": {
-        "A": "वायरलेस मानक प्रोटोकॉल",
-        "B": "वायरलेस सेंसर प्रोटोकॉल",
-        "C": "वायरलेस सीरियल प्रोटोकॉल",
-        "D": "वायरलेस सिंगल प्रोटोकॉल"
+        "A": "Wireless Standard Protocol",
+        "B": "Wireless Sensor Protocol",
+        "C": "Wireless Serial Protocol",
+        "D": "Wireless Single Protocol"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Wireless Sensor Protocol?**\n\n**विषय अवधारणा (इंटरनेट ऑफ थिंग्स (IoT))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Wireless Sensor Protocol?**\n\n**विषय अवधारणा (इंटरनेट ऑफ थिंग्स (IoT))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766326"
     },
     {
       "id": 59,
@@ -1557,14 +1615,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Managing the allocation of space on secondary storage devices**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (D) accurately reflects the microarchitectural functionality.",
       "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "एक ऑपरेटिंग सिस्टम में सहायक भंडारण स्थान प्रबंधन में शामिल हैं:",
+      "question_hi": "एक ऑपरेटिंंग सिस्टम में सहायक भंडारण अंतरिक्ष प्रबंधन में शामिल हैं:",
       "options_hi": {
         "A": "सीपीयू रजिस्टरों के लिए मेमोरी आवंटित करना",
-        "B": "प्रक्रियाओं और उपकरणों के बीच इनपुट/आउटपुट संचालन का प्रबंधन करना",
-        "C": "Managing the allocation of memory to processes",
-        "D": "द्वितीयक भंडारण उपकरणों पर स्थान के आवंटन का प्रबंधन करना"
+        "B": "प्रक्रि याओं और उपकरणों के बीच इनपुट/आउटपुट संचालन का प्रबंधन करना",
+        "C": "प्रक्रि याओं के लिए मेमोरी के आवंटन का प्रबंधन",
+        "D": "माध्यमिक भंडारण उपकरणों पर अंतरिक्ष के आवंटन का प्रबंधन करना"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Managing the allocation of space on secondary storage devices?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Managing the allocation of space on secondary storage devices?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335766124"
     },
     {
       "id": 60,
@@ -1583,14 +1642,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) Pixel value**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
       "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "निम्नलिखित में से Each ___ represents a particular colour. के संदर्भ में उपयुक्त विकल्प चुनें।",
+      "question_hi": "प्रत्येेक ___ एक विशेष रंग का प्रतिनिधित्व करता है।",
       "options_hi": {
-        "A": "चौखटा",
-        "B": "चरित्र",
+        "A": "फ़्रेेम",
+        "B": "Character",
         "C": "पिक्सेल मान",
         "D": "उपरोक्त में से कोई नहीं"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Pixel value?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Pixel value?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766408"
     },
     {
       "id": 61,
@@ -1609,14 +1669,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) Vector graphics**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "आकार बढ़ाने या घटाने पर भी ___ की गुणवत्ता अपरिवर्तित रहती है।",
+      "question_hi": "आकार बढ़ने या कम होने पर भी ___ की गुणवत्ता अपरिवर्तित रहती है।",
       "options_hi": {
         "A": "वेक्टर ग्राफिक्स",
         "B": "रेखांकन",
         "C": "फोटो",
         "D": "रेखा चित्र"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Vector graphics?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Vector graphics?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766410"
     },
     {
       "id": 62,
@@ -1635,14 +1696,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) The challenges posed by software development**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "निम्नलिखित में से Software engineering emerged due to: के संदर्भ में उपयुक्त विकल्प चुनें।",
+      "question_hi": "सॉफ्टवेयर इंजीनियरिंंग किस के कारण उभरा:",
       "options_hi": {
-        "A": "कंप्यूटर प्रौद्योगिकी का पतन",
+        "A": "कंप्यूूटर प्रौद्योोगिकी की गिरावट",
         "B": "जटिल हार्डवेयर सिस्टम की आवश्यकता",
-        "C": "सॉफ्टवेयर विकास द्वारा उत्पन्न चुनौतियाँ",
-        "D": "केवल हार्डवेयर समाधानों पर ध्यान केंद्रित करें"
+        "C": "सॉफ्टवेयर विकास द्वाारा उत्पन्न चुनौतियां",
+        "D": "हार्डवेयर-केवल समाधान पर ध्यान केंद्रित करें"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) The challenges posed by software development?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) The challenges posed by software development?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766201"
     },
     {
       "id": 63,
@@ -1661,14 +1723,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Spiral model**\n\n**Software Engineering Methodology**: High-quality software development requires structured life cycles (SDLC), formal requirement specifications (SRS), and comprehensive testing verification.\n- Option (B) correctly describes the software engineering standard.",
       "topic_hi": "सॉफ्टवेयर इंजीनियरिंग",
-      "question_hi": "कौन सा सॉफ़्टवेयर जीवन चक्र मॉडल पुनरावृत्त प्रोटोटाइप पर आधारित है?",
+      "question_hi": "कौन सा सॉफ्टवेयर जीवन चक्र मॉडल पुनरावृत्ति प्रोटोटाइप पर आधारित है?",
       "options_hi": {
         "A": "झरना मॉडल",
         "B": "सर्पिल मॉडल",
-        "C": "चंचल मॉडल",
+        "C": "चुस्त मॉडल",
         "D": "प्रोटोटाइप मॉडल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Spiral model?**\n\n**विषय अवधारणा (सॉफ्टवेयर इंजीनियरिंग)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Spiral model?**\n\n**विषय अवधारणा (सॉफ्टवेयर इंजीनियरिंग)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766217"
     },
     {
       "id": 64,
@@ -1687,14 +1750,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) FPGA-based design**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "कौन सी तकनीक डिजिटल लॉजिक सर्किट को लागू करने के लिए उच्चतम स्तर का अनुकूलन प्रदान करती है?",
+      "question_hi": "डिजिटल लॉजिक सर्किट को लागू करने के लिए कौन सी तकनीक उच्चतम स्तर का अनुकूलन प्रदान करती है?",
       "options_hi": {
-        "A": "ROM-आधारित डिज़ाइन",
-        "B": "PLA-based design",
-        "C": "एफपीजीए-आधारित डिज़ाइन",
-        "D": "गेट ऐरे-आधारित डिज़ाइन"
+        "A": "ROM- आधारित डिज़ााइन",
+        "B": "PLA- आधारित डिज़ााइन",
+        "C": "FPGA- आधारित डिजाइन",
+        "D": "गेट सरणी-आधारित डिजाइन"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) FPGA-based design?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) FPGA-based design?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766035"
     },
     {
       "id": 65,
@@ -1713,14 +1777,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) Last In First Out**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (C) reflects the standard behavior and complexity bounds.",
       "topic_hi": "प्रोग्रामिंग एवं डेटा संरचना (DSA)",
-      "question_hi": "स्टैक (Stack) works on the principle of………………..",
+      "question_hi": "स्टैक ……………….. के सिद्धांत पर काम करता है।",
       "options_hi": {
         "A": "मध्य तत्व प्रथम",
-        "B": "पेहले आये पेहलॆ गये",
+        "B": "पहले आये पहलॆ गये",
         "C": "अंतिम अंदर प्रथम बाहर",
-        "D": "लास्ट इन लास्ट आउट"
+        "D": "अंतिम प्रवेश अंतिम निकास"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Last In First Out?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Last In First Out?**\n\n**विषय अवधारणा (प्रोग्रामिंग एवं डेटा संरचना (DSA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335765989"
     },
     {
       "id": 66,
@@ -1739,14 +1804,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) Sending Files over the Internet in a secure manner**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (A) is the standard specification.",
       "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "SFTP का उपयोग किसके लिए किया जाता है :",
+      "question_hi": "SFTP का उपयोग निम्न के लिए किया जाता है:",
       "options_hi": {
-        "A": "Sending Files over the Internet in a secure manner",
-        "B": "सुरक्षित तरीके से इंटरनेट पर मेल भेजना",
-        "C": "वीडियो कॉन्फ्रेंसिंग",
+        "A": "इंटरनेट पर सुरक्षित तरीके से फ़ााइलें भेजना",
+        "B": "इंटरनेट पर सुरक्षित तरीके से मेल भेजना",
+        "C": "वीडियो कॉन्फ्रेंसिंंग",
         "D": "सुरक्षित चैट सेवाएँ"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Sending Files over the Internet in a secure manner?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Sending Files over the Internet in a secure manner?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766103"
     },
     {
       "id": 67,
@@ -1765,14 +1831,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) In the browser's cache**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (D) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "कुकीज़ को आम तौर पर क्लाइंट के डिवाइस पर कैसे संग्रहीत किया जाता है?",
+      "question_hi": "कुकीज़ आमतौर पर ग्राहक के डिवाइस पर कैसे संग्रहीत की जाती हैं?",
       "options_hi": {
-        "A": "एक सादे पाठ फ़ाइल में",
-        "B": "एक डेटाबेस में",
-        "C": "एक एन्क्रिप्टेड प्रारूप में",
-        "D": "ब्राउज़र के कैश में"
+        "A": "एक सादा पाठ फ़ााइल में",
+        "B": "किसी डेटाबेस में",
+        "C": "एन्क्रि प्टेड स्वरूप में",
+        "D": "ब्रााउज़र के कैश में"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) In the browser's cache?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) In the browser's cache?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335766264"
     },
     {
       "id": 68,
@@ -1791,14 +1858,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Newspaper**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "निम्नलिखित में से किसे ई-कचरे का एक प्रकार नहीं माना जाता है?",
+      "question_hi": "निम्नलिखित में से किसे ई-कचरा का एक प्रकार नहीं माना जाता है?",
       "options_hi": {
         "A": "टेलीविजन",
-        "B": "व्यक्तिगत इलेक्ट्रॉनिक उपकरण",
-        "C": "स्कैनर और कॉपियर",
-        "D": "अखबार"
+        "B": "व्यक्ति गत इलेक्ट्रॉॉनिक उपकरण",
+        "C": "स्कैैनर और कॉपियर",
+        "D": "समाचार पत्र"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Newspaper?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Newspaper?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335766009"
     },
     {
       "id": 69,
@@ -1817,14 +1885,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) John McCarthy**\n\n**Operating System Principle**: The OS kernel orchestrates resource virtualization, process synchronization, memory paging, and file management.\n- Option (C) is the definitive mechanism implemented in modern operating systems.",
       "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "AI के जनक के रूप में किसे जाना जाता है?",
+      "question_hi": "ए आई के जनक के रूप में किसे जाना जाता है?",
       "options_hi": {
-        "A": "फिशर एडा",
-        "B": "एलन ट्यूरिंग",
-        "C": "जॉन मैक्कार्थी",
-        "D": "एलन नेवेल"
+        "A": "फिशर अडा",
+        "B": "एलन ट्यूूरिंंग",
+        "C": "जॉन मैकार्थी",
+        "D": "एलन न्यूवेल"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) John McCarthy?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) John McCarthy?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766354"
     },
     {
       "id": 70,
@@ -1843,14 +1912,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Relational DBMSs, object-oriented DBMSs, and NoSQL DBMSs.**\n\n**Database Concept**: Relational integrity, ACID transaction properties, and normalization rules (1NF to BCNF) eliminate anomalies and preserve data consistency.\n- Option (B) strictly adheres to relational database theory.",
       "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What are the three main types of DBMSs के संबंध में सही कथन या मान क्या है?",
+      "question_hi": "DBMS के तीन मुख्य प्रकार क्याा हैं?",
       "options_hi": {
-        "A": "रिलेशनल डीबीएमएस, पदानुक्रमित डीबीएमएस और नेटवर्क डीबीएमएस।",
-        "B": "रिलेशनल DBMS, ऑब्जेक्ट-ओरिएंटेड DBMS, और NoSQL DBMS।",
-        "C": "पदानुक्रमित DBMS, नेटवर्क DBMS, और ऑब्जेक्ट-ओरिएंटेड DBMS।",
-        "D": "NoSQL DBMSs, ऑब्जेक्ट-ओरिएंटेड DBMSs, और रिलेशनल DBMSs।"
+        "A": "रिलेशनल DBMS, पदानुक्रमित DBMS और नेटवर्क DBMS।",
+        "B": "रिलेशनल DBMS, ऑब्जेेक्ट-ओरिएंटेड DBMS और NoSQL DBMS।",
+        "C": "पदानुक्रमित DBMS, नेटवर्क DBMS और ऑब्जेेक्ट-ओरिएंटेड DBMS।",
+        "D": "NoSQL DBMS, ऑब्जेेक्ट-ओरिएंटेड DBMS और रिलेशनल DBMS।"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Relational DBMSs, object-oriented DBMSs, and NoSQL DBMSs.**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Relational DBMSs, object-oriented DBMSs, and NoSQL DBMSs.**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766479"
     },
     {
       "id": 71,
@@ -1869,14 +1939,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) collections**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "पायथन में, डबल एंडेड क्यू को लागू करने के लिए ………………..मॉड्यूल को आयात करने की आवश्यकता होती है।",
+      "question_hi": "पायथन में, डबल एंडेड कतार को लागू करने के लिए ………………..मॉड्यूूल को आयात करने की आवश्यकता है।",
       "options_hi": {
-        "A": "विरोध करना",
-        "B": "संग्रह",
-        "C": "यादृच्छिक",
-        "D": "Numpy"
+        "A": "counter",
+        "B": "collections",
+        "C": "random",
+        "D": "numpy"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) collections?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) collections?**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335765990"
     },
     {
       "id": 72,
@@ -1895,14 +1966,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) (6.0, 27.0)**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (D) accurately reflects the microarchitectural functionality.",
       "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "निम्नलिखित अभिव्यक्ति का मूल्य क्या है? 3 + 3.00, 3**3.0",
+      "question_hi": "निम्‍नलिखित अभिव्‍यक्ति (expression) का वैल्‍यू (value) क्‍या है? 3 + 3.00, 3**3.0",
       "options_hi": {
         "A": "[6.0, 27.0]",
         "B": "(6.0, 9.0)",
         "C": "(6, 27)",
         "D": "(6.0, 27.0)"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) (6.0, 27.0)?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) (6.0, 27.0)?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335766450"
     },
     {
       "id": 73,
@@ -1921,14 +1993,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) To find a cycle that visits every vertex exactly once**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "हैमिल्टनियन समस्या को हल करने में बैकट्रैकिंग दृष्टिकोण का प्राथमिक लक्ष्य क्या है?",
+      "question_hi": "हैमिल्टनियन चक्र समस्याा को हल करने में बैकट्रैैकिंंग दृष्टिकोण का प्राथमिक लक्ष्य क्याा है?",
       "options_hi": {
-        "A": "सबसे कम किनारों वाली साइकिल ढूंढने के लिए",
-        "B": "सबसे कम वजन वाली साइकिल ढूंढने के लिए",
-        "C": "एक ऐसा चक्र खोजना जो प्रत्येक शीर्ष पर ठीक एक बार जाता हो",
-        "D": "किनारों की अधिकतम संख्या वाला एक चक्र ढूंढना"
+        "A": "सबसे कम किनारों के साथ एक चक्र खोजने के लिए",
+        "B": "सबसे कम वजन के साथ एक चक्र खोजने के लिए",
+        "C": "एक चक्र खोजने के लिए जो हर शीर्ष पर जाता है, ठीक एक बार",
+        "D": "किनारों की अधिकतम संख्याा के साथ एक चक्र खोजने के लिए"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) To find a cycle that visits every vertex exactly once?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) To find a cycle that visits every vertex exactly once?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766085"
     },
     {
       "id": 74,
@@ -1949,12 +2022,13 @@ window.official_shift3 = {
       "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
       "question_hi": "SQL में डेटाबेस से डेटा पुनर्प्राप्त करने के लिए किस कथन का उपयोग किया जाता है?",
       "options_hi": {
-        "A": "चुनना",
+        "A": "SELECT",
         "B": "UPDATE",
-        "C": "मिटाना",
-        "D": "डालना"
+        "C": "DELETE",
+        "D": "INSERT"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) SELECT?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) SELECT?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766276"
     },
     {
       "id": 75,
@@ -1973,14 +2047,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Cluster**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "वायरलेस नेटवर्क टोपोलॉजी को व्यवस्थित करने की लोकप्रिय विधि क्या है?",
+      "question_hi": "वायरलेस नेटवर्क टोपोलॉजी के आयोजन की लोकप्रिय विधि हैं?",
       "options_hi": {
-        "A": "सॉफ़्टवेयर",
-        "B": "नेटवर्क",
-        "C": "तुल्यकालन",
-        "D": "झुंड"
+        "A": "Software",
+        "B": "Network",
+        "C": "Synchronization",
+        "D": "Cluster"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Cluster?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Cluster?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335766348"
     },
     {
       "id": 76,
@@ -1999,14 +2074,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Software reliability**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "Musa's Basic Model का उपयोग किसके लिए किया जाता है measuring:",
+      "question_hi": "मूसा के मूल मॉडल का उपयोग मापने के लिए किया जाता है:",
       "options_hi": {
         "A": "सॉफ्टवेयर जटिलता",
         "B": "सॉफ्टवेयर विश्वसनीयता",
         "C": "सॉफ्टवेयर प्रदर्शन",
-        "D": "Software size"
+        "D": "सॉफ्टवेयर का आकार"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Software reliability?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Software reliability?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766221"
     },
     {
       "id": 77,
@@ -2025,14 +2101,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) Hue and Saturation**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (A) accurately reflects the microarchitectural functionality.",
       "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: Which characteristics are taken together in chromaticity के संबंध में सही कथन या मान क्या है?",
+      "question_hi": "0 क्रोमैटिकिटी में कौन सी विशेषताओं को एक साथ लिया जाता है?",
       "options_hi": {
         "A": "रंग और संतृप्ति",
         "B": "रंग और चमक",
-        "C": "संतृप्ति, रंग और चमक",
+        "C": "संतृप्ति , रंगत और चमक",
         "D": "संतृप्ति और चमक"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Hue and Saturation?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Hue and Saturation?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766413"
     },
     {
       "id": 78,
@@ -2051,14 +2128,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) Data mining**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
       "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "डेटा वेयरहाउस से डेटा और जानकारी को निकालने या फ़िल्टर करने के लिए निम्नलिखित में से किसका उपयोग किया जा सकता है?",
+      "question_hi": "निम्नलिखित में से किसका उपयोग डेटा वेयरहाउस से डेटा और जानकारी को निकालने या फ़ि ल्टर करने के लिए किया जा सकता है?",
       "options_hi": {
         "A": "डेटा अतिरेक",
         "B": "डेटा पुनर्प्राप्ति उपकरण",
-        "C": "डेटा खनन",
-        "D": "बी और सी दोनों"
+        "C": "डेटा माइनिंंग",
+        "D": "B और C दोनों"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Data mining?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Data mining?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766158"
     },
     {
       "id": 79,
@@ -2077,14 +2155,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) Paging**\n\n**Operating System Principle**: The OS kernel orchestrates resource virtualization, process synchronization, memory paging, and file management.\n- Option (A) is the definitive mechanism implemented in modern operating systems.",
       "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "कौन सी मेमोरी प्रबंधन तकनीक मेमोरी के निश्चित आकार के ब्लॉक का उपयोग करती है, जिससे प्रक्रियाओं को किसी भी उपलब्ध ब्लॉक में लोड किया जा सकता है?",
+      "question_hi": "कौन सी मेमोरी मैनेजमेंट तकनीक मेमोरी के निश्चित आकार के ब्लॉॉक का उपयोग करती है, जिससे प्रक्रि याओं को किसी भी उपलब्ध ब्लॉॉक में लोड किया जा सकता है?",
       "options_hi": {
-        "A": "पेजिंग (Paging)",
-        "B": "सेगमेंटेशन (Segmentation)",
-        "C": "वर्चुअल मेमोरी (आभासी स्मृति)",
+        "A": "पेजिंंग",
+        "B": "विभाजन",
+        "C": "वर्चुअल मेमोरी",
         "D": "पुनर्वास"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) पेजिंग (Paging)?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) पेजिंग (Paging)?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766134"
     },
     {
       "id": 80,
@@ -2103,14 +2182,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) All of the above**\n\n**Automata & Computation Theory**: Formal languages are classified by the Chomsky Hierarchy (Regular, Context-Free, Context-Sensitive, Recursively Enumerable).\n- Option (D) matches the formal computational criteria.",
       "topic_hi": "गणना का सिद्धांत (TOC)",
-      "question_hi": "निम्नलिखित में से कौन सा ट्यूरिंग मशीन के मूल मॉडल का विस्तार है:",
+      "question_hi": "निम्नलिखित में से कौन ट्यूूरिंंग मशीन के मूल मॉडल का एक विस्तार है:",
       "options_hi": {
-        "A": "मल्टी टेप ट्यूरिंग मशीन",
-        "B": "मल्टी हेड ट्यूरिंग मशीन",
-        "C": "नॉनडेटर्मिनिस्टिक ट्यूरिंग मशीन",
-        "D": "उपरोक्त सभी"
+        "A": "मल्टीी टेप ट्यूूरिंंग मशीन",
+        "B": "मल्टीी हेड ट्यूूरिंंग मशीन",
+        "C": "गैर-नियतात्मक ट्यूूरिंंग मशीन",
+        "D": "ऊपर के सभी"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) उपरोक्त सभी**\n\n**विषय अवधारणा (गणना का सिद्धांत (TOC))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) उपरोक्त सभी**\n\n**विषय अवधारणा (गणना का सिद्धांत (TOC))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335766310"
     },
     {
       "id": 81,
@@ -2129,14 +2209,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Making a machine intelligent**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "निम्नलिखित में से AI is about के संदर्भ में उपयुक्त विकल्प चुनें।",
+      "question_hi": "ए आई -----के बारे में है",
       "options_hi": {
-        "A": "कंप्यूटर पर गेम खेलना",
-        "B": "एक मशीन को बुद्धिमान बनाना",
-        "C": "मानव बुद्धि को कंप्यूटर में डालना",
+        "A": "कंप्यूूटर पर गेम खेलना",
+        "B": "मशीन को बुद्धि मान बनाना",
+        "C": "मानव बुद्धि को कंप्यूूटर में डालना",
         "D": "इनमें से कोई नहीं"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Making a machine intelligent?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Making a machine intelligent?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766353"
     },
     {
       "id": 82,
@@ -2155,14 +2236,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (A) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP)",
-      "question_hi": "दावा (ए) और कारण (आर) आधारित प्रश्न। सही विकल्प को इस प्रकार चिह्नित करें: दावा (ए): पायथन में प्रत्येक ऑब्जेक्ट को एक विशिष्ट पहचान (आईडी) दी गई है। कारण (आर): आईडी उस वस्तु के जीवनकाल तक वही रहती है।",
+      "question_hi": "यह अभिकथन (A) और कारण (R) पर आधारित प्रश्‍न हैं। बताईए कि निम्‍नलिखित में कौन-सा विकल्‍प सही है: अभिकथन (A) : पाइथन (Python) में प्रत्‍येक ऑब्‍जेक्‍ट (object) को एक विशिष्‍ट पहचान (unique identity ID) दी जाती है। कारण (R) : उस औब्‍जेक्‍ट (object) के जीवनकाल के लिए ID समान रहती है।",
       "options_hi": {
-        "A": "अभिकथन (ए) और कारण (आर) दोनों सत्य हैं और कारण (आर) अभिकथन (ए) की सही व्याख्या है।",
-        "B": "अभिकथन (ए) और कारण (आर) दोनों सत्य हैं, लेकिन कारण (आर) अभिकथन (ए) की सही व्याख्या नहीं है।",
-        "C": "दावा (ए) सत्य है, लेकिन कारण (आर) गलत है।",
-        "D": "दावा (ए) गलत है, लेकिन कारण (आर) सच है।"
+        "A": "अभिकथन (A) और कारण (R) दोनों सही हैं और कारण (R) , अभिकथन (A) का सही स्‍पष्‍टीकरण है।",
+        "B": "अभिकथन (A) और कारण (R) दोनों सही हैं परंतु कारण (R) , अभिकथन (A) का सही स्‍पष्‍टीकरण नहीं है।",
+        "C": "अभिकथन (A) सही है, परंतु कारण (R) गलत है।",
+        "D": "अभिकथन (A) गलत हैं परंतु (R) सही है।"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).**\n\n**विषय अवधारणा (ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग (OOP))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766463"
     },
     {
       "id": 83,
@@ -2181,14 +2263,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) To define the software's functional and non-functional requirements**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "सॉफ़्टवेयर आवश्यकताएँ विशिष्टता (एसआरएस) दस्तावेज़ों का प्राथमिक उद्देश्य क्या है?",
+      "question_hi": "सॉफ्टवेयर आवश्यकताविनिर्देश (एसआरएस) दस्तावेजों का प्राथमिक उद्देेश्य क्याा है?",
       "options_hi": {
-        "A": "प्रयुक्त प्रोग्रामिंग भाषाओं को सूचीबद्ध करने के लिए",
-        "B": "उपयोगकर्ता इंटरफ़ेस डिज़ाइन का वर्णन करने के लिए",
-        "C": "सॉफ़्टवेयर की कार्यात्मक और गैर-कार्यात्मक आवश्यकताओं को परिभाषित करना",
+        "A": "उपयोग की जाने वाली प्रोग्रामिंंग भाषाओं को सूचीबद्ध करने के लिए",
+        "B": "उपयोगकर्ता इंटरफ़ेेस डिजाइन का वर्णन करने के लिए",
+        "C": "सॉफ्टवेयर की कार्यात्मक और गैर-कार्यात्मक आवश्यकताओं को परिभाषित करने के लिए",
         "D": "आवश्यक हार्डवेयर घटकों को निर्दिष्ट करने के लिए"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) To define the software's functional and non-functional requirements?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) To define the software's functional and non-functional requirements?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766203"
     },
     {
       "id": 84,
@@ -2207,14 +2290,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Shallowest level**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality.",
       "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "बीएफएस में, शीर्षों का स्तर दर स्तर पता लगाया जाता है, जिसकी शुरुआत निम्न से होती है:",
+      "question_hi": "बीएफएस में, वर्टिस को स्तर से स्तर तक खोजा जाता है, से शुरू होता है:",
       "options_hi": {
         "A": "सबसे गहरा स्तर",
-        "B": "सबसे उथला स्तर",
-        "C": "Middle level",
-        "D": "उच्चतम डिग्री शीर्ष"
+        "B": "उथले स्तर",
+        "C": "मध्य स्तर",
+        "D": "उच्चतम डिग्री वर्टेक्स"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Shallowest level?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Shallowest level?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766102"
     },
     {
       "id": 85,
@@ -2233,14 +2317,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) 9 states**\n\n**Automata & Computation Theory**: Formal languages are classified by the Chomsky Hierarchy (Regular, Context-Free, Context-Sensitive, Recursively Enumerable).\n- Option (A) matches the formal computational criteria.",
       "topic_hi": "गणना का सिद्धांत (TOC)",
-      "question_hi": "मान लीजिए कि शब्द \"ऑटोमेटा\" है। DFA का उपयोग करने को मान्यता देने के लिए आवश्यक राज्यों की कुल संख्या __________ होगी",
+      "question_hi": "मान लीजिए शब्द \"ऑटोमेटा\" है। DFA का उपयोग करके शब्द को पहचानने के लिए आवश्यक कुल अवस्थााओं की संख्या __________ होगी",
       "options_hi": {
-        "A": "9 राज्य",
-        "B": "8 राज्य",
-        "C": "10 राज्य",
+        "A": "9 अवस्थााएं",
+        "B": "8 अवस्थााएं",
+        "C": "10 अवस्थााएं",
         "D": "DFA का उपयोग करके शब्द को पहचाना नहीं जा सकता"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 9 states?**\n\n**विषय अवधारणा (गणना का सिद्धांत (TOC))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 9 states?**\n\n**विषय अवधारणा (गणना का सिद्धांत (TOC))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766291"
     },
     {
       "id": 86,
@@ -2259,14 +2344,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) FLOAT**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
       "topic_hi": "डेटाबेस प्रबंधन प्रणाली (DBMS)",
-      "question_hi": "MYSQL में, किस प्रकार का मान उद्धरण चिह्नों के भीतर संलग्न नहीं किया जाना चाहिए?",
+      "question_hi": "MYSQL में किस प्रकार के वैल्‍यू (value) को उद्धरण चिह्न (Quotation marks) के अंदर नहीं दिखाना चाहिए ?",
       "options_hi": {
-        "A": "तारीख",
-        "B": "वर्चर",
-        "C": "तैरना",
-        "D": "चार"
+        "A": "DATE",
+        "B": "VARCHAR",
+        "C": "FLOAT",
+        "D": "CHAR"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) FLOAT?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) FLOAT?**\n\n**विषय अवधारणा (डेटाबेस प्रबंधन प्रणाली (DBMS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766444"
     },
     {
       "id": 87,
@@ -2285,14 +2371,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) Mainframe computers**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (A) accurately reflects the microarchitectural functionality.",
       "topic_hi": "कंप्यूटर संगठन एवं वास्तुकला (COA)",
-      "question_hi": "EBCDIC का उपयोग मुख्यतः किस प्रकार के कंप्यूटर सिस्टम में किया जाता है?",
+      "question_hi": "EBCDIC मुख्य रूप से किस प्रकार के कंप्यूूटर सिस्टम में उपयोग किया जाता है?",
       "options_hi": {
-        "A": "मेनफ्रेम कंप्यूटर",
-        "B": "पर्सनल कंप्यूटर",
-        "C": "सुपर कंप्यूटर",
-        "D": "मोबाइल उपकरणों"
+        "A": "मेनफ्रेेम कंप्यूूटर",
+        "B": "व्यक्ति गत कंप्यूूटर",
+        "C": "सुपर कंप्यूूटर",
+        "D": "मोबाइल डिवाइस"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Mainframe computers?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Mainframe computers?**\n\n**विषय अवधारणा (कंप्यूटर संगठन एवं वास्तुकला (COA))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335766045"
     },
     {
       "id": 88,
@@ -2311,14 +2398,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) 5**\n\n**IoT Architecture**: Interconnected smart devices employ lightweight communication protocols (Zigbee, MQTT, CoAP) and edge/cloud integration.\n- Option (B) correctly represents the IoT standard.",
       "topic_hi": "कंप्यूटर साइंस",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: ZigBee architecture has ________layers के संबंध में सही कथन या मान क्या है?",
+      "question_hi": "Zigbee आर्किटेक्चर में ________layers हैं?",
       "options_hi": {
         "A": "4",
         "B": "5",
         "C": "6",
         "D": "7"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 5?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 5?**\n\n**विषय अवधारणा (कंप्यूटर साइंस)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766339"
     },
     {
       "id": 89,
@@ -2337,14 +2425,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) To ensure reliable data transmission**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "डेटा लिंक परत में त्रुटि नियंत्रण का उद्देश्य क्या है?",
+      "question_hi": "डेटा लिंंक लेयर में त्रुटि नियंत्रण का उद्देेश्य क्याा है?",
       "options_hi": {
-        "A": "अनधिकृत पहुंच को रोकने के लिए",
+        "A": "अनधिकृत पहुँँच को रोकने के लिए",
         "B": "भौतिक परत में त्रुटियों को ठीक करने के लिए",
-        "C": "विश्वसनीय डेटा ट्रांसमिशन सुनिश्चित करने के लिए",
-        "D": "नेटवर्क कंजेशन को प्रबंधित करने के लिए"
+        "C": "विश्वसनीय डेटा ट्रांांसमिशन सुनिश्चित करने के लिए",
+        "D": "नेटवर्क संकुलन का प्रबंधन करने के लिए"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) To ensure reliable data transmission?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) To ensure reliable data transmission?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766184"
     },
     {
       "id": 90,
@@ -2363,14 +2452,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) NIC**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (B) is the standard specification.",
       "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "वायर्ड LAN स्थापित करने के लिए निम्नलिखित में से कौन सा उपकरण आवश्यक है?",
+      "question_hi": "एक wired LAN (वायर्ड लैन) सैटअप करने के लिए निम्‍नलिखित में से कौन-सा डिवाइस आवश्‍यक है?",
       "options_hi": {
-        "A": "मोडम",
-        "B": "NIC",
-        "C": "अपराधी",
-        "D": "फ़ायरवॉल"
+        "A": "मॉडेम (Modem)",
+        "B": "एनआईसी (NIC)",
+        "C": "रिपीटर (Repeater)",
+        "D": "फ़ाायरवॉल (Firewall)"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) NIC?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) NIC?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766460"
     },
     {
       "id": 91,
@@ -2389,14 +2479,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) A'B + AC**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (B) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "बूलियन फ़ंक्शन F(A, B, C) = Σ(0, 1, 3, 5) को उसके सरलीकृत SOP फॉर्म में बदलें।",
+      "question_hi": "बूलियन फ़ंंक्शन F (A, B, C) = σ (0, 1, 3, 5) को उसके सरलीकृत SOP रूप में परिवर्तित करें।",
       "options_hi": {
-        "A": "ए + बी + सी",
-        "B": "ए'बी + एसी",
-        "C": "ए + बी + सी'",
-        "D": "ए'बी'सी"
+        "A": "a + b + c",
+        "B": "a'b + ac",
+        "C": "a + b + c'",
+        "D": "a'b'c"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) A'B + AC?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) A'B + AC?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766046"
     },
     {
       "id": 92,
@@ -2415,14 +2506,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) Large programs to be executed on systems with limited memory**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (C) accurately reflects the microarchitectural functionality.",
       "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "मेमोरी प्रबंधन में ओवरले तकनीक का मुख्य लाभ यह है",
+      "question_hi": "मेमोरी मैनेजमेंट में ओवरले तकनीक का मुख्य लाभ यह है कि यह अनुमति देता है:",
       "options_hi": {
-        "A": "प्रक्रियाओं को समग्र रूप से मेमोरी में लोड किया जाना है",
-        "B": "मेमोरी विभाजन साझा करने की प्रक्रियाएँ",
-        "C": "बड़े प्रोग्रामों को सीमित मेमोरी वाले सिस्टम पर निष्पादित किया जाना है",
-        "D": "एक दूसरे से सीधे संवाद करने की प्रक्रियाएँ"
+        "A": "मेमोरी के रूप में मेमोरी में लोड होने की प्रक्रि याएं",
+        "B": "मेमोरी विभाजन को साझा करने के लिए प्रक्रि याएं",
+        "C": "सीमित मेमोरी के साथ सिस्टम पर निष्पाादित किए जाने वाले बड़ेे कार्यक्रम",
+        "D": "एक दूसरे के साथ सीधे संवाद करने के लिए प्रक्रि याएं"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Large programs to be executed on systems with limited memory?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Large programs to be executed on systems with limited memory?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766133"
     },
     {
       "id": 93,
@@ -2441,14 +2533,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Processes on different devices**\n\n**Operating System Principle**: The OS kernel orchestrates resource virtualization, process synchronization, memory paging, and file management.\n- Option (D) is the definitive mechanism implemented in modern operating systems.",
       "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "निम्नलिखित में से Process-to-process communication involves communication between: के संदर्भ में उपयुक्त विकल्प चुनें।",
+      "question_hi": "प्रक्रि या-से-प्रक्रि या संचार में निम्नलिखित के बीच संचार शामिल है:",
       "options_hi": {
         "A": "विभिन्न नेटवर्क परतें",
         "B": "एक ही नेटवर्क पर विभिन्न डिवाइस",
-        "C": "विभिन्न प्रोटोकॉल का उपयोग करने वाले उपकरण",
-        "D": "विभिन्न उपकरणों पर प्रक्रियाएँ"
+        "C": "विभिन्न प्रोटोकॉल का उपयोग करने वाले डिवाइस",
+        "D": "विभिन्न उपकरणों पर प्रक्रि याएं"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Processes on different devices?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Processes on different devices?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335766193"
     },
     {
       "id": 94,
@@ -2467,14 +2560,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) Both Earliest-Deadline-First scheduling & SCAN-EDF scheduling**\n\n**Operating System Principle**: The OS kernel orchestrates resource virtualization, process synchronization, memory paging, and file management.\n- Option (C) is the definitive mechanism implemented in modern operating systems.",
       "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: Which algorithm can be optimized to meet the timing deadlines and rate requirements of continuous media के संबंध में सही कथन या मान क्या है?",
+      "question_hi": "निरंतर मीडिया की समय सीमा और दर आवश्यकताओं को पूरा करने के लिए किस एल्गोोरिदम को अनुकूलित किया जा सकता है?",
       "options_hi": {
-        "A": "शीघ्रतम-समयसीमा-पहली समय-निर्धारण",
-        "B": "स्कैन-ईडीएफ शेड्यूलिंग",
-        "C": "प्रारंभिक-समय सीमा-प्रथम शेड्यूलिंग और स्कैन-ईडीएफ शेड्यूलिंग दोनों",
-        "D": "उपरोक्त में से कोई नहीं"
+        "A": "जल्द से जल्द-समय सीमा-पहले शेड्यूूलिंंग",
+        "B": "स्कैैन-ईडीएफ शेड्यूूलिंंग",
+        "C": "शीघ्रतम-समय-सीमा-प्रथम शेड्यूूलिंंग और स्कैैन-ईडीएफ शेड्यूूलिंंग दोनों",
+        "D": "इनमे से कोई भी नहीं"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Both Earliest-Deadline-First scheduling & SCAN-EDF scheduling?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Both Earliest-Deadline-First scheduling & SCAN-EDF scheduling?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766400"
     },
     {
       "id": 95,
@@ -2493,14 +2587,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Process-to-process communication**\n\n**Operating System Principle**: The OS kernel orchestrates resource virtualization, process synchronization, memory paging, and file management.\n- Option (B) is the definitive mechanism implemented in modern operating systems.",
       "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "A socket का उपयोग किसके लिए किया जाता है:",
+      "question_hi": "सॉकेट का उपयोग निम्न के लिए किया जाता है:",
       "options_hi": {
-        "A": "भौतिक डेटा ट्रांसमिशन",
-        "B": "प्रक्रिया-दर-प्रक्रिया संचार",
+        "A": "भौतिक डेटा संचरण",
+        "B": "प्रक्रि या-से-प्रक्रि या संचार",
         "C": "नेटवर्क प्रोटोकॉल संग्रहीत करना",
         "D": "नेटवर्क प्रबंधन"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Process-to-process communication?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Process-to-process communication?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766189"
     },
     {
       "id": 96,
@@ -2519,14 +2614,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) FTP**\n\n**Networking Protocol**: Across the 7 layers of OSI and 4 layers of TCP/IP, standardized protocol headers, addressing (IPv4/IPv6), and routing ensure end-to-end reliability.\n- Option (D) is the standard specification.",
       "topic_hi": "कंप्यूटर नेटवर्क",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: Which one is not an encryption Technique के संबंध में सही कथन या मान क्या है?",
+      "question_hi": "कौन सा एन्क्रिप्शन तकनीक नहीं है?",
       "options_hi": {
         "A": "AES",
         "B": "DES",
         "C": "RSA",
         "D": "FTP"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) FTP?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) FTP?**\n\n**विषय अवधारणा (कंप्यूटर नेटवर्क)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335766391"
     },
     {
       "id": 97,
@@ -2537,7 +2633,7 @@ window.official_shift3 = {
       "marks": 1,
       "negativeMarks": 0,
       "question": "In a 5-stage instruction pipeline (IF, ID, EX, MEM, WB), what type of data hazard occurs when an instruction depends on the result of a previous instruction that has not yet been written back?",
-      "question_hi": "5-स्टेज निर्देश पाइपलाइन (IF, ID, EX, MEM, WB) में, जब कोई निर्देश पिछले निर्देश के परिणाम पर निर्भर करता है जो अभी तक राइट बैक नहीं हुआ है, तो किस प्रकार का डेटा हैज़र्ड उत्पन्न होता है?",
+      "question_hi": "नीचे दिए गए प्रश्न अभिकथन और कारण प्रकार के हैं। इस प्रश्न में दो कथन हैं, अर्थात् अभिकथन (A) और कारण (R)। अभिकथन और कारण पर विचार करते हुए सबसे उपयुक्त विकल्प का चयन कीजिए। अभिकथन (A): CSS का उपयोग करके वेबसाइट के डिज़ााइन को अपडेट और बनाए रखना मुश्कि ल हो जाता है। कारण (R): CSS वेब डेवलपर्स को प्रस्तुति परत (शैलियाँ और लेआउट) को सामग्री परत (HTML) से अलग करने की अनुमति देता है।",
       "options": {
         "A": "RAW (Read After Write / True Data Dependency)",
         "B": "WAR (Write After Read / Anti-dependency)",
@@ -2545,14 +2641,15 @@ window.official_shift3 = {
         "D": "Structural Hazard"
       },
       "options_hi": {
-        "A": "RAW (रीड आफ्टर राइट / ट्रू डेटा डिपेंडेंसी)",
-        "B": "WAR (राइट आफ्टर रीड / एंटी-डिपेंडेंसी)",
-        "C": "WAW (राइट आफ्टर राइट / आउटपुट डिपेंडेंसी)",
-        "D": "स्ट्रक्चरल हैज़र्ड"
+        "A": "अभिकथन (A) और कारण (R) दोनों सत्य हैं और कारण (R), अभिकथन (A) की सही व्याख्याा है।",
+        "B": "अभिकथन (A) और कारण (R) दोनों सत्य हैं, लेकिन कारण (R) अभिकथन (A) का सही स्पष्टीकरण नहीं है।",
+        "C": "(C) अभिकथन (A) सत्य है, लेकिन कारण (R) असत्य है।",
+        "D": "अभिकथन (A) असत्य है, लेकिन कारण (R) सत्य है।"
       },
       "correctAnswer": "A",
       "explanation": "A Read After Write (RAW) hazard occurs when instruction j tries to read a register before instruction i writes to it (i < j). This is the most common data hazard in pipelined execution and is resolved using data forwarding (bypassing) or pipeline stalls (bubbles).",
-      "explanation_hi": "RAW (Read After Write) हैज़र्ड तब उत्पन्न होता है जब बाद वाला निर्देश किसी रजिस्टर को पहले पढ़ने की कोशिश करता है जबकि पहला निर्देश उसमें मान लिखने वाला होता है। इसे डेटा फॉरवर्डिंग ( बाईपासिंग) या स्टाल द्वारा हल किया जाता है।"
+      "explanation_hi": "RAW (Read After Write) हैज़र्ड तब उत्पन्न होता है जब बाद वाला निर्देश किसी रजिस्टर को पहले पढ़ने की कोशिश करता है जबकि पहला निर्देश उसमें मान लिखने वाला होता है। इसे डेटा फॉरवर्डिंग ( बाईपासिंग) या स्टाल द्वारा हल किया जाता है।",
+      "officialQuestionId": "4335766476"
     },
     {
       "id": 98,
@@ -2571,14 +2668,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) 3 inputs**\n\n**Digital Logic & Circuits**: In digital electronics and Boolean algebra, logic minimization (K-Maps) and circuit synthesis follow canonical SOP/POS rules.\n- Option (C) correctly satisfies the circuit behavior and truth table properties.",
       "topic_hi": "डिजिटल लॉजिक",
-      "question_hi": "एक पूर्ण-योजक सर्किट में प्रत्येक व्यक्तिगत बाइनरी अंक को जोड़ने या घटाने के लिए कितने इनपुट होते हैं?",
+      "question_hi": "प्रत्येेक व्यक्ति गत द्विआधारी अंक को जोड़ाा या घटाया जा रहा है के लिए एक पूर्ण -सर्किट सर्किट में कितने इनपुट हैं?",
       "options_hi": {
-        "A": "1 input",
-        "B": "2 inputs",
+        "A": "1 इनपुट",
+        "B": "2 इनपुट",
         "C": "3 इनपुट",
         "D": "4 इनपुट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 3 inputs?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 3 inputs?**\n\n**विषय अवधारणा (डिजिटल लॉजिक)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335766032"
     },
     {
       "id": 99,
@@ -2597,14 +2695,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) 1981**\n\n**Computer Architecture**: High-speed processing relies on register operations, memory bus hierarchy, and efficient CPU datapath cycles.\n- Option (B) accurately reflects the microarchitectural functionality.",
       "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "किस वर्ष इंटेल ने पहला x86 माइक्रोप्रोसेसर, 8086 जारी किया, जिसने पर्सनल कंप्यूटर में व्यापक रूप से उपयोग किए जाने वाले x86 आर्किटेक्चर की नींव रखी?",
+      "question_hi": "किस वर्ष में इंटेल ने पहले x86 माइक्रोप्रोसेसर, 8086 को जारी किया, जिसने व्यक्ति गत कंप्यूूटरों में व्यापक रूप से उपयोग किए जाने वाले x86 आर्किटेक्चर की नींव रखी?",
       "options_hi": {
         "A": "1971",
         "B": "1981",
         "C": "1986",
         "D": "1991"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 1981?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 1981?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335766056"
     },
     {
       "id": 100,
@@ -2623,14 +2722,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Each node has a thread connecting it to its predecessor or successor**\n\n**Data Structure Characteristics**: Efficient data manipulation requires understanding asymptotic costs, pointer manipulation, and memory layout (contiguous vs node-based).\n- Option (D) reflects the standard behavior and complexity bounds.",
       "topic_hi": "ऑपरेटिंग सिस्टम (OS)",
-      "question_hi": "एक थ्रेडेड बाइनरी ट्री एक बाइनरी ट्री है जिसमें:",
+      "question_hi": "एक थ्रेेडेड बाइनरी ट्रीी एक बाइनरी ट्रीी है जिसमें:",
       "options_hi": {
         "A": "प्रत्येक नोड में दो बच्चे होते हैं",
-        "B": "प्रत्येक नोड में अधिकतम एक बच्चा होता है",
-        "C": "प्रत्येक नोड अपने मूल से जुड़ा हुआ है",
-        "D": "Each node has a thread connecting it to its predecessor or successor"
+        "B": "प्रत्येक नोड में अधिकांश एक बच्चे होते हैं",
+        "C": "प्रत्येक नोड उसके माता -पिता से जुड़ाा होता है",
+        "D": "प्रत्येक नोड में एक धागा होता है जो इसे अपने पूर्वर्ती या उत्तराधिकारी से जोड़ता है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Each node has a thread connecting it to its predecessor or successor?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Each node has a thread connecting it to its predecessor or successor?**\n\n**विषय अवधारणा (ऑपरेटिंग सिस्टम (OS))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335766098"
     },
     {
       "id": 101,
@@ -2649,14 +2749,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Characterization**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "अफेक्टिव डोमेन जीवन शैली के एक भाग के रूप में मूल्य प्रणाली को अपनाने पर केंद्रित है",
+      "question_hi": "5 भावात्‍मक क्षेत्र(डोमेन) जीवन शैली के एक भाग के रूप में मूल्य प्रणाली को अपनाने पर केंद्रित है",
       "options_hi": {
-        "A": "जवाब",
-        "B": "बातों का महत्व देता",
-        "C": "संगठन",
-        "D": "निस्र्पण"
+        "A": "जवाब देना",
+        "B": "मूल्य निर्धारण करना",
+        "C": "संगठित करना",
+        "D": "चरित्र-चित्रण करना"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Characterization?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Characterization?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335763552"
     },
     {
       "id": 102,
@@ -2675,14 +2776,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Gender as a social construct**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "\"समाज पुरुष और महिला की भूमिकाएँ निर्धारित करता है।\" यह कथन स्पष्ट करता है-",
+      "question_hi": "8 \"पुरुष और महिला की भूमिकाओं का निर्धारण समाज करता है।\" यह कथन बताता है कि-",
       "options_hi": {
-        "A": "लिंग एक अंतर्निहित संरचना के रूप में",
-        "B": "वंशानुगत बंदोबस्ती के रूप में लिंग",
-        "C": "Gender as an intuitive construct",
-        "D": "एक सामाजिक संरचना के रूप में लिंग"
+        "A": "लैंगिकता एक अंतर्निहित अवतरण है",
+        "B": "लैंगिकता एक आनुवंशिक प्रतिभा है",
+        "C": "लैंगिकता एक अंतर्ज्ञानी अवतरण है",
+        "D": "लैंगिकता एक सामाजिक अवतरण है"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Gender as a social construct?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Gender as a social construct?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335763943"
     },
     {
       "id": 103,
@@ -2701,14 +2803,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Both A and C**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "भावात्मक डोमेन को इसके द्वारा वर्गीकृत किया गया था",
+      "question_hi": "6 भावात्मक क्षेत्र(डोमेन)को किसके द्वाारा वर्गीकृत किया गया था?",
       "options_hi": {
-        "A": "Benjamin S. Bloom",
-        "B": "Simpson",
-        "C": "क्रथव्होल",
-        "D": "ए और सी दोनों"
+        "A": "बेंजामिन एस ब्लूूम",
+        "B": "सिम्पसन",
+        "C": "क्रथहोल",
+        "D": "A और C दोनों"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Both A and C?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Both A and C?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335763544"
     },
     {
       "id": 104,
@@ -2727,14 +2830,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) giving ample opportunities for self reflection**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "निम्नलिखित में से A teacher should employ classroom management strategies which focus on: के संदर्भ में उपयुक्त विकल्प चुनें।",
+      "question_hi": "9 एक शिक्षक को कक्षा प्रबंधन रणनीतियों को नियोजित करना चाहिए जो इन पर केंद्रित हों:",
       "options_hi": {
         "A": "कठोर नियमों के माध्यम से वर्ग को नियंत्रित करना",
         "B": "सभी बच्चों से समान व्यवहार की अपेक्षा करना",
-        "C": "छात्रों को बिना किसी प्रश्न के सभी नियमों का पालन कराना",
-        "D": "giving ample opportunities for self reflection"
+        "C": "विद्याार्थियों को बिना किसी प्रश्न के सभी नियमों का पालन कराना",
+        "D": "आत्मचिंंतन के पर्याप्त अवसर देना"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) giving ample opportunities for self reflection?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) giving ample opportunities for self reflection?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335763853"
     },
     {
       "id": 105,
@@ -2753,14 +2857,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) Affective**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "हमारी वर्तमान परीक्षा के माध्यम से सीखने के उद्देश्यों के किस क्षेत्र का मूल्यांकन नहीं किया जा रहा है:",
+      "question_hi": "7 हमारी वर्तमान परीक्षा प्रणाली के माध्यम से अधिगम उद्देेश्य के किस क्षेत्र का मूल्यांकन नहीं किया जा रहा है:",
       "options_hi": {
-        "A": "उत्तेजित करनेवाला",
+        "A": "भावात्मक",
         "B": "संज्ञानात्मक",
-        "C": "मनोप्रेरणा",
+        "C": "मनोक्रि यात्‍मक/मनोगत्‍यात्‍मक",
         "D": "इनमें से कोई नहीं"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Affective?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Affective?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335764182"
     },
     {
       "id": 106,
@@ -2779,14 +2884,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Child-centered Education Programme**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (B) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "वैयक्तिक शिक्षा कार्यक्रम की योजना किस दृष्टिकोण से बनाई गई है-",
+      "question_hi": "0 व्‍यक्ति गत शिक्षा कार्यक्रम की योजना ________ के संदर्भ में बनायी जाती हैं ।",
       "options_hi": {
         "A": "विशेष शिक्षा कार्यक्रम",
-        "B": "बाल-केन्द्रित शिक्षा कार्यक्रम",
-        "C": "मुक्त विद्यालयी शिक्षा कार्यक्रम",
-        "D": "ई-लर्निंग शिक्षा कार्यक्रम"
+        "B": "बाल-केंद्रित शिक्षा कार्यक्रम",
+        "C": "मुक्‍त विद्याालयी शिक्षा कार्यक्रम",
+        "D": "ई-अधिगम शिक्षा कार्यक्रम"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Child-centered Education Programme?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Child-centered Education Programme?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335763939"
     },
     {
       "id": 107,
@@ -2805,14 +2911,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) affectionate advice**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "बच्चों के व्यवहार में बदलाव के लिए सबसे कारगर तरीका है",
+      "question_hi": "3 बच्चों के व्यवहार में बदलाव के लिए सबसे कारगर तरीका है",
       "options_hi": {
-        "A": "affectionate advice",
-        "B": "इनाम",
-        "C": "दंड",
+        "A": "स्नेेहपूर्ण सलाह",
+        "B": "पुरस्काार",
+        "C": "सज़ाा",
         "D": "घर से निष्कासन"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) affectionate advice?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) affectionate advice?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335764049"
     },
     {
       "id": 108,
@@ -2831,14 +2938,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) Friedrich Frobel**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "किस शैक्षिक मनोवैज्ञानिक का इस तथ्य पर विश्वास था कि 'सभी बच्चों को सीखना है'?",
+      "question_hi": "1 किस शैक्षि क मनोवैज्ञानिक का मानना ​था कि 'सभी बच्चों में सीखने की क्षमता होती है'?",
       "options_hi": {
-        "A": "फ्रेडरिक फ्रोबेल",
-        "B": "John Dewey",
-        "C": "Johann Friedrich Herbart",
-        "D": "मारिया मोंटेसरी"
+        "A": "फ्रेेडरिक फ्रोोबेल",
+        "B": "जॉन डेवी",
+        "C": "जोहान फ्रेेडरिक हर्बर्ट",
+        "D": "मारिया मोंटेटेसरी"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Friedrich Frobel?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Friedrich Frobel?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335764307"
     },
     {
       "id": 109,
@@ -2857,14 +2965,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Longer duration of study**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "सूक्ष्म शिक्षण का दोष है -",
+      "question_hi": "9 सूक्ष्म शिक्षण का दोष है -",
       "options_hi": {
-        "A": "वास्तविक कक्षा स्थितियों में सफल नहीं",
+        "A": "वास्तविक कक्षा स्थि तियों में सफल नहीं होना",
         "B": "पर्यवेक्षण का अभाव पाया गया",
-        "C": "प्रतिक्रिया के लिए कोई जगह नहीं",
+        "C": "प्रतिपुष्टि के लिए कोई जगह नहीं",
         "D": "अध्ययन की लंबी अवधि"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Longer duration of study?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Longer duration of study?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335763775"
     },
     {
       "id": 110,
@@ -2883,14 +2992,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Teacher’s role and school environment**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "छात्रों के अच्छे मानसिक स्वास्थ्य को बनाए रखने के लिए निम्नलिखित में से क्या अधिक महत्वपूर्ण है?",
+      "question_hi": "7 छात्रों के अच्छेे मानसिक स्वाास्थ्य को बनाए रखने के लिए निम्नलिखित में से क्याा अधिक महत्वपूर्ण है?",
       "options_hi": {
         "A": "पाठ्यचर्या गतिविधियों के लिए प्रावधान",
         "B": "अभिव्यक्ति की स्वतंत्रता",
         "C": "रुचियों की विविधता",
-        "D": "शिक्षक की भूमिका और विद्यालय का वातावरण"
+        "D": "शिक्षक की भूमिका और विद्याालय का वातावरण"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Teacher’s role and school environment?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Teacher’s role and school environment?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335763874"
     },
     {
       "id": 111,
@@ -2909,14 +3019,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) After explaining the content**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (B) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "एक शिक्षक को कक्षा में वीडियो क्लिप कब प्रस्तुत करनी चाहिए?",
+      "question_hi": "5 शिक्षक को कक्षा में वीडियो क्लि प कब प्रस्तुत करनी चाहिए?",
       "options_hi": {
-        "A": "सामग्री समझाने के दौरान",
-        "B": "सामग्री समझाने के बाद",
-        "C": "सामग्री समझाने से पहले",
+        "A": "विषयवस्तु को समझाने के दौरान",
+        "B": "विषयवस्तु को समझाने के बाद",
+        "C": "विषयवस्‍तु समझाने से पहले",
         "D": "इनमें से कोई नहीं"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) After explaining the content?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) After explaining the content?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335764028"
     },
     {
       "id": 112,
@@ -2935,14 +3046,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) All of these**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "पाठ्यक्रम का घटक है:",
+      "question_hi": "0 पाठ्यचर्या का घटक है:",
       "options_hi": {
         "A": "शिक्षण रणनीतियाँ",
-        "B": "Objectives",
+        "B": "उद्देेश्य",
         "C": "मूल्यांकन",
-        "D": "इन सब"
+        "D": "सभी"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) All of these?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) All of these?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335764166"
     },
     {
       "id": 113,
@@ -2961,14 +3073,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) All the above**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "शिक्षण दक्षता की मूल आवश्यकता है-",
+      "question_hi": "2 शिक्षण दक्षता की मूल आवश्यकता है-",
       "options_hi": {
-        "A": "Mastery on teaching skills",
-        "B": "शिक्षण की विभिन्न तकनीकों के उपयोग में निपुणता।",
-        "C": "शिक्षण में मीडिया और प्रौद्योगिकी के उचित उपयोग में निपुणता।",
+        "A": "शिक्षण कौशल पर महारत",
+        "B": "शिक्षण की विभिन्न तकनीकों के उपयोग में महारत।",
+        "C": "शिक्षण में मीडिया और प्रौद्योोगिकी के उचित उपयोग पर महारत।",
         "D": "उपरोक्त सभी"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) All the above?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) All the above?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335763472"
     },
     {
       "id": 114,
@@ -2987,14 +3100,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) changing the strategies in terms of evidences gathered**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (B) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "निम्नलिखित में से किस गतिविधि को शिक्षण के बाद के सक्रिय चरण में माना जाता है?",
+      "question_hi": "8 निम्नलिखित में से कौन सी गतिविधि उत्‍तर- सक्रि य चरण में मानी जाती है?",
       "options_hi": {
         "A": "शिक्षण रणनीतियों का वितरण",
-        "B": "एकत्र किए गए साक्ष्यों के संदर्भ में रणनीतियों को बदलना",
-        "C": "diagnosis of the learners",
-        "D": "प्रस्तुति के लिए सामग्री के तत्वों को क्रमबद्ध करना"
+        "B": "एकत्रित साक्ष्यों के संदर्भ में रणनीतियों को बदलना",
+        "C": "शिक्षार्थियों का निदान",
+        "D": "प्रस्तुति के लिए विषय वस्‍तु के तत्वों को अनुक्रमित करना"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) changing the strategies in terms of evidences gathered?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) changing the strategies in terms of evidences gathered?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335763413"
     },
     {
       "id": 115,
@@ -3013,14 +3127,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Assembles**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "सीखने के साइकोमोटर क्षेत्र में मूल्यांकन को प्रतिबिंबित करने के लिए लिखे गए उद्देश्य के लिए एक उपयुक्त क्रिया होगी:",
+      "question_hi": "5 सीखने के मनोशरीर क्रि यात्‍मक क्षेत्र में मूल्यांकन को दर्शाने के लिए लिखे गए उद्देेश्यों में से एक उपयुक्त क्रि या होगी:",
       "options_hi": {
         "A": "स्वीकार करना",
-        "B": "व्याख्या करना",
-        "C": "संबंधित",
-        "D": "असेम्बल"
+        "B": "स्पष्ट करना",
+        "C": "सम्बंंधित करना",
+        "D": "संयोजन करना"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Assembles?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Assembles?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335763517"
     },
     {
       "id": 116,
@@ -3039,14 +3154,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) they represent largely the mainstream culture and are therefore biased**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "मानकीकृत परीक्षणों की एक आलोचना यह रही है कि-",
+      "question_hi": "4 मानकीकृत परीक्षणों की आलोचनाओं मे से एक यह है कि ----",
       "options_hi": {
-        "A": "वे बड़े पैमाने पर मुख्यधारा की संस्कृति का प्रतिनिधित्व करते हैं और इसलिए पक्षपाती हैं",
-        "B": "उनकी भाषा को समझना कठिन है",
-        "C": "परीक्षण बड़ी आबादी पर प्रशासित नहीं किए जा सकते",
-        "D": "वे किसी बच्चे की क्षमता की स्पष्ट तस्वीर नहीं देते हैं"
+        "A": "वे मुख्‍य रूप से मुख्‍यधारा की संस्‍कृति का प्रतिनिधित्‍व करते हैं और इसलिए पक्षपाती हैं",
+        "B": "उनकी भाषा को समझना मुश्‍किल है़",
+        "C": "परीक्षण बड़ीी आबादी पर लागू नहीं किए जा सकते हैं",
+        "D": "वे बच्‍चे की क्षमता की स्‍पष्‍ट तस्‍वीर नहीं देते हैं"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) they represent largely the mainstream culture and are therefore biased?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) they represent largely the mainstream culture and are therefore biased?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335763919"
     },
     {
       "id": 117,
@@ -3065,14 +3181,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Assessment of student’s learning**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (B) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "-------------- को छोड़कर सभी कक्षा प्रक्रिया के प्रमुख घटक हैं।",
+      "question_hi": "2 सिर्फ -------------- को छोड़कर शेष सभीकक्षा प्रक्रि या के प्रमुख घटक हैं।",
       "options_hi": {
-        "A": "शिक्षक के प्रदर्शन का मूल्यांकन",
-        "B": "Assessment of student’s learning",
+        "A": "शिक्षक के प्रदर्शन का मूल्यांकन करना",
+        "B": "छात्र के सीखने का आकलन",
         "C": "अपेक्षित सीखने के परिणाम",
-        "D": "कक्षा में लेन-देन"
+        "D": "कक्षा विनियमन"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Assessment of student’s learning?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Assessment of student’s learning?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335764274"
     },
     {
       "id": 118,
@@ -3091,14 +3208,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Formative evaluation**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (B) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "पाठ्यक्रम विकास के दौरान सामग्री को बेहतर बनाने के लिए उपयोग किया जाने वाला मूल्यांकन है:",
+      "question_hi": "8 पाठ्यचर्या विकास के दौरान विषय-वस्तु में सुधार के लिए प्रयुक्त मूल्यांकन इस प्रकार है",
       "options_hi": {
         "A": "योगात्मक मूल्यांकन",
         "B": "रचनात्मक मूल्यांकन",
-        "C": "निदानात्मक मूल्यांकन (Diagnostic Evaluation)",
+        "C": "नैदानिक मूल्यांकन",
         "D": "इनमें से कोई नहीं"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) रचनात्मक मूल्यांकन (Formative Evaluation)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) रचनात्मक मूल्यांकन (Formative Evaluation)?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335764206"
     },
     {
       "id": 119,
@@ -3117,14 +3235,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Francis Bacon**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "विज्ञान शिक्षण में आगमनात्मक दृष्टिकोण का विकास किसने किया?",
+      "question_hi": "9 विज्ञान शिक्षण में आगमनात्मक दृष्टिकोण का विकास किसने किया?",
       "options_hi": {
         "A": "अरस्तू",
-        "B": "ब्रूनर",
+        "B": "ब्रूूनर",
         "C": "गैग्ने",
-        "D": "फ्रांसिस बेकन"
+        "D": "फ्रांांसिस बेकन"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Francis Bacon?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Francis Bacon?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335763581"
     },
     {
       "id": 120,
@@ -3143,14 +3262,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) first decide what changes should take place in the learner**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "निम्नलिखित में से As a planner, the teacher must के संदर्भ में उपयुक्त विकल्प चुनें।",
+      "question_hi": "6 एक योजनाकार के रूप में शिक्षक को अवश्य ही कार्य करना चाहिए",
       "options_hi": {
-        "A": "कक्षा और पैनल चर्चा को प्रोत्साहित करें",
+        "A": "कक्षा और पैनल चर्चा को प्रोत्सााहित करें",
         "B": "मार्गदर्शन के प्रति सचेत रहें",
-        "C": "सबसे पहले यह तय करें कि शिक्षार्थी में क्या परिवर्तन होने चाहिए",
-        "D": "विद्यार्थियों की प्रतिक्रियाओं का कुशलतापूर्वक निरीक्षण करें"
+        "C": "सबसे पहले यह तय करें कि शिक्षार्थी में क्याा परिवर्तन होने चाहिए",
+        "D": "विद्याार्थियों की प्रतिक्रि याओं का कुशलतापूर्वक निरीक्षण करें"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) first decide what changes should take place in the learner?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) first decide what changes should take place in the learner?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335763671"
     },
     {
       "id": 121,
@@ -3169,14 +3289,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Question- Answer method**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "निम्नलिखित में से The Socratic method is known as के संदर्भ में उपयुक्त विकल्प चुनें।",
+      "question_hi": "3 सुकराती विधि को कहा जाता है",
       "options_hi": {
-        "A": "व्याख्यान प्रदर्शन विधि",
+        "A": "व्याख्याान प्रदर्शन विधि",
         "B": "चर्चा विधि",
         "C": "पूछताछ विधि",
         "D": "प्रश्न-उत्तर विधि"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Question- Answer method?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Question- Answer method?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335763658"
     },
     {
       "id": 122,
@@ -3195,14 +3316,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Syllabus**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (B) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "किसी विषय के विशिष्ट समय में शामिल विषयों की रूपरेखा कहलाती है:",
+      "question_hi": "0 विशिष्ट समय में पूरे किए गए विभिन्‍न शीर्षको के विषयों की रूपरेखा को कहा जाता है:",
       "options_hi": {
-        "A": "program'",
-        "B": "पाठ्यक्रम (Syllabus)",
-        "C": "पाठ्यचर्या (Curriculum)",
-        "D": "अवधि"
+        "A": "कार्यक्रम",
+        "B": "पाठ्यक्रम",
+        "C": "पाठ्यचर्या",
+        "D": "कोर्स"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Syllabus?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Syllabus?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335764176"
     },
     {
       "id": 123,
@@ -3221,14 +3343,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) warm, understanding and self-controlling**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "शिक्षक को एक सुविधाप्रदाता के रूप में होना चाहिए",
+      "question_hi": "4 शिक्षक को एक सुगमकर्ता के रूप में होना चाहिए",
       "options_hi": {
-        "A": "हावी",
-        "B": "गुस्सैल",
+        "A": "हावी होने वाला",
+        "B": "क्रोधी",
         "C": "निरंकुश",
-        "D": "गर्मजोशी, समझ और आत्म-नियंत्रण"
+        "D": "जोशीला, समझदार और आत्म-नियंत्रण युक्‍त"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) warm, understanding and self-controlling?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) warm, understanding and self-controlling?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335763964"
     },
     {
       "id": 124,
@@ -3247,14 +3370,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Explain**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (D) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "निम्नलिखित में से Delivering lectures about key concepts that lead to student discussions is an example of के संदर्भ में उपयुक्त विकल्प चुनें।",
+      "question_hi": "1 प्रमुख अवधारणाओं के बारे में व्याख्यान देना जो छात्रों को चर्चा की ओर ले जाता है, इसका एक उदाहरण है",
       "options_hi": {
-        "A": "काम पर लगाना",
-        "B": "विस्तार में बताना",
-        "C": "अन्वेषण करना",
-        "D": "व्याख्या करना"
+        "A": "संलग्न होना",
+        "B": "विस्तृत करना",
+        "C": "अन्वेेषण करना",
+        "D": "स्पष्ट करना"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Explain?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Explain?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335763728"
     },
     {
       "id": 125,
@@ -3273,14 +3397,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) The best teachers in schools are shared by more students**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "निम्नलिखित में से The hypothesis underlying team teaching is के संदर्भ में उपयुक्त विकल्प चुनें।",
+      "question_hi": "4 टीम शिक्षण में अंतर्निहित परिकल्पना है",
       "options_hi": {
         "A": "शिक्षक अकेले काम करते समय बोरियत महसूस करते हैं",
         "B": "शिक्षक सक्षम नहीं हैं",
-        "C": "स्कूलों में सबसे अच्छे शिक्षकों को अधिक छात्रों द्वारा साझा किया जाता है",
+        "C": "स्कूूलों में सर्वश्रेष्ठ शिक्षकों को अधिक छात्रों द्वाारा साझा किया जाता है",
         "D": "एकल शिक्षक कक्षा को नियंत्रित नहीं कर सकता"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) The best teachers in schools are shared by more students?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) The best teachers in schools are shared by more students?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335763805"
     },
     {
       "id": 126,
@@ -3299,14 +3424,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) Evaluation**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "पदानुक्रम के उच्चतम स्तर पर है",
+      "question_hi": "2 पदानुक्रम के उच्चतम स्तर पर है",
       "options_hi": {
-        "A": "समझ",
-        "B": "आवेदन",
+        "A": "बोध",
+        "B": "अनुप्रयोग",
         "C": "मूल्यांकन",
-        "D": "विश्लेषण"
+        "D": "विश्लेेषण"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Evaluation?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Evaluation?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335763522"
     },
     {
       "id": 127,
@@ -3325,14 +3451,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) content.**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "पियाजे के संज्ञानात्मक विकास के सिद्धांत में, एक चरण में तर्क का रूप अगले चरण में ______ बन जाता है:",
+      "question_hi": "7 पियाजे के संज्ञानात्मक विकास के सिद्धांत में, एक चरण पर तर्क का रूप अगले चरण में ______ बन जाता है:",
       "options_hi": {
-        "A": "सामग्री।",
+        "A": "विषयवस्तु।",
         "B": "संरचना।",
-        "C": "प्रक्रिया।",
-        "D": "द्वंद्वात्मक विपरीत"
+        "C": "प्रक्रि या।",
+        "D": "द्वंंद्वाात्मक विपरीत"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) content.**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) content.**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335763793"
     },
     {
       "id": 128,
@@ -3351,14 +3478,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) one should himself do hard labour seeing which students will be inspired spontaneously**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (A) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "निम्नलिखित में से The best method to inspire students for hard labour is के संदर्भ में उपयुक्त विकल्प चुनें।",
+      "question_hi": "3 विद्याार्थियों को कठिन परिश्रम के लिए प्रेरित करने का सर्वोत्तम तरीका है",
       "options_hi": {
-        "A": "स्वयं कठिन परिश्रम करना चाहिए जिसे देखकर विद्यार्थियों को अनायास ही प्रेरणा मिलेगी",
-        "B": "परिश्रमी विद्यार्थियों को पुरस्कृत किया जाना चाहिए",
-        "C": "कड़ी मेहनत के महत्व के बारे में एक व्याख्यान दिया जाएगा",
-        "D": "कठिन परिश्रम से सफलता का उदाहरण प्रस्तुत किया जाए"
+        "A": "स्वयं परिश्रम करना चाहिए यह देखकर विद्याार्थी को स्वतः ही तत्‍क्षण प्रेरणा मिलेगी",
+        "B": "परिश्रमी विद्याार्थियों को पुरस्कृृत करना चाहिए",
+        "C": "कड़ीी मेहनत के महत्व के बारे में एक व्याख्याान दिया जाना चाहिए।",
+        "D": "कड़ीी मेहनत से सफलता का उदाहरण प्रस्तुत किया जाना चाहिए।"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) one should himself do hard labour seeing which students will be inspired spontaneously?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) one should himself do hard labour seeing which students will be inspired spontaneously?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335764046"
     },
     {
       "id": 129,
@@ -3377,14 +3505,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) Think on suggestions offered by the children and implement the good ones**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "एक शिक्षक के लिए कक्षा में समस्याओं को हल करने का सबसे अच्छा तरीका क्या है?",
+      "question_hi": "6 एक शिक्षक के लिए कक्षा में समस्यााओं को हल करने का सबसे अच्छाा तरीका क्याा है?",
       "options_hi": {
         "A": "अन्य शिक्षक की राय पूछें",
         "B": "किसी की अपनी राय पर निर्भर करता है",
-        "C": "बच्चों द्वारा दिए गए सुझावों पर विचार करें और अच्छे सुझावों पर अमल करें",
-        "D": "प्रिंसिपल जो दृष्टिकोण देते हैं उसका उपयोग करें"
+        "C": "बच्चों द्वाारा दिए गए सुझावों पर सोचें और अच्छेे सुझावों पर अमल करें",
+        "D": "प्राचार्य जो दृष्टिकोण देता है उसका उपयोग करें"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Think on suggestions offered by the children and implement the good ones?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Think on suggestions offered by the children and implement the good ones?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335764295"
     },
     {
       "id": 130,
@@ -3403,14 +3532,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) Training**\n\n**Key Pedagogical Concept**: In teacher training and instructional design, effective learning centers on active student engagement, clear behavioral objectives (Bloom's Taxonomy), and diagnostic/formative evaluation.\n- Option (C) represents the standard pedagogical principle established by Bihar STET and NCTE teaching frameworks.",
       "topic_hi": "शिक्षण कला (Pedagogy)",
-      "question_hi": "आदतों को आकार देने के लिए आप निम्नलिखित में से किसका उपयोग करेंगे?",
+      "question_hi": "1 आप निम्न में से आदतों को आकार देने के लिए किसका उपयोग करेगें?",
       "options_hi": {
-        "A": "भावना",
+        "A": "मतारोपण",
         "B": "शिक्षण",
         "C": "प्रशिक्षण",
         "D": "इनमें से कोई नहीं"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Training?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Training?**\n\n**विषय अवधारणा (शिक्षण कला (Pedagogy))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335763433"
     },
     {
       "id": 131,
@@ -3429,14 +3559,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) 2 only**\n\n**Reasoning Logic**: Analyzing the pattern, sequence progression, or syllogistic validity demonstrates that option (B) uniquely satisfies the given conditions.",
       "topic_hi": "तार्किक विचार",
-      "question_hi": "भारतीय इतिहास के संदर्भ में, निम्नलिखित कथनों पर विचार करें: 1. भारत पर पहला मंगोल आक्रमण जलाल-उद-दीन खिलजी के शासनकाल के दौरान हुआ था। 2.अला-उद-दीन खिलजी के शासनकाल के दौरान, एक मंगोल हमले ने दिल्ली तक मार्च किया और शहर को घेर लिया। 3. मुबम्मद-बिन-तुगलक ने अस्थायी रूप से अपने साम्राज्य के उत्तर-पश्चिम के हिस्सों को मंगोलों से खो दिया ऊपर दिए गए कथनों में से कौन सा/से सही है/हैं?",
+      "question_hi": "3 भारतीय इतिहास के संदर्भ में, निम्नलिखित कथनों पर विचार करें: 1. भारत पर पहला मंगोल आक्रमण जलाल-उद-दीन खिलजी के शासनकाल के दौरान हुआ था। 2. अला-उद-दीन खिलजी के शासनकाल के दौरान, एक मंगोल आक्रमण दिल्लीी तक पहुंचा और शहर को घेर लिया। 3. मुबम्मद-बिन-तुगलक ने मंगोलों के हाथों अपने राज्य के उत्तर-पश्चिम के कुछ हिस्सोंों को अस्थाायी रूप से खो दिया ऊपर दिए गए कथनों में से कौन सा सही है/हैं?",
       "options_hi": {
         "A": "1 और 2",
         "B": "केवल 2",
         "C": "1 और 3",
         "D": "केवल 3"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 2 only?**\n\n**विषय अवधारणा (तार्किक विचार)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 2 only?**\n\n**विषय अवधारणा (तार्किक विचार)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335764351"
     },
     {
       "id": 132,
@@ -3455,14 +3586,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) circle**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "निम्नलिखित में से कौन सा prism नहीं है?",
+      "question_hi": "2 निम्न में से कौन प्रिज्म नहीं है?",
       "options_hi": {
-        "A": "घनाभ",
-        "B": "घेरा",
-        "C": "Pentagonal Prism",
-        "D": "cube"
+        "A": "घनाकार",
+        "B": "वृत्त",
+        "C": "पंचभुजीय प्रिज्म",
+        "D": "घन"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) circle?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) circle?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335764679"
     },
     {
       "id": 133,
@@ -3481,14 +3613,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) 2 Only**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "तापमान के सतह व्युत्क्रमण के संदर्भ में निम्नलिखित में से कौन सा/से कथन सही है/हैं? 1. यह वायुमंडल की निचली परतों में अस्थिरता का कारण बनता है। 2. यह व्युत्क्रमण आमतौर पर सूर्य निकलने तक कुछ घंटों तक रहता है। दिए गए विकल्पों में से सही उत्तर चुनें:",
+      "question_hi": "9 तापमान के भूपृष्‍ठीय व्‍युत्‍क्रमण (Surface inversion) के संदर्भ में निम्‍नलिखित में से कौन-सा/कौन-से कथन सही है/हैं ? 1. यह वायुमंडल के निचले स्‍तरों में अस्थि रता उत्‍पन्‍न करता है । 2. यह व्‍युत्‍क्रमण सामान्‍य: सूर्य के ऊपर चढ़ने से पहले कुछ घंटों तक रहता है । दिए गए विकल्पों में से सही उत्तर चुनें :",
       "options_hi": {
         "A": "केवल 1",
         "B": "केवल 2",
         "C": "1 और 2 दोनों",
-        "D": "न 1 न 2"
+        "D": "न तो 1, न ही 2"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 2 Only?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) 2 Only?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335764377"
     },
     {
       "id": 134,
@@ -3507,14 +3640,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) Brother**\n\n**Reasoning Logic**: Analyzing the pattern, sequence progression, or syllogistic validity demonstrates that option (A) uniquely satisfies the given conditions.",
       "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "नेहा ने एक लड़के को पेंटिंग करते हुए कहा, ''वह मेरे दादाजी की इकलौती संतान का बेटा है। लड़का नेहा से संबंधित है?",
+      "question_hi": "2 एक लड़के की ओर संकेत कर नेहा ने कहा, '' वह मेरे दादा की एकमात्र संतान का पुत्र है''। लड़के का नेहा से क्‍या संबंध है?",
       "options_hi": {
         "A": "भाई",
-        "B": "चचेरा",
+        "B": "भतीजा",
         "C": "चाचा",
-        "D": "Son in law"
+        "D": "दामाद"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Brother?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Brother?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335764894"
     },
     {
       "id": 135,
@@ -3533,14 +3667,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Himachal Pradesh**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "एशिया की पहली भूमिगत जलविद्युत परियोजना भारत के निम्नलिखित में से किस राज्य में स्थित है?",
+      "question_hi": "7 एशिया की पहली भूमिगत जल विद्युत परियोजना भारत के निम्नलिखित में से किस राज्य में स्थि त है?",
       "options_hi": {
-        "A": "जम्मू और कश्मीर",
+        "A": "जम्मूू - कश्मीीर",
         "B": "हिमाचल प्रदेश",
         "C": "अरुणाचल प्रदेश",
-        "D": "उतार प्रदेश।"
+        "D": "उत्तर प्रदेश"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Himachal Pradesh?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Himachal Pradesh?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335764622"
     },
     {
       "id": 136,
@@ -3559,14 +3694,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Bald Eagle and the American Bison**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What is the national animal of America  के संबंध में सही कथन या मान क्या है?",
+      "question_hi": "0 अमेरिका का राष्ट्रीीय पशु क्याा है??",
       "options_hi": {
-        "A": "Tiger and Bald Eagle",
+        "A": "बाघ और बाल्ड ईगल",
         "B": "बाल्ड ईगल और अमेरिकन बाइसन",
         "C": "अमेरिकन बाइसन और याक",
-        "D": "Golden eagle and Bison"
+        "D": "गोल्डन ईगल और बाइसन"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Bald Eagle and the American Bison?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Bald Eagle and the American Bison?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335764526"
     },
     {
       "id": 137,
@@ -3585,14 +3721,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Promote investment from domestic and foreign sources**\n\n**Mathematical Principle**: Solve using standard mathematical formulas and proportional relationships.\n- The correct step-by-step simplification leads directly to option (D): **Promote investment from domestic and foreign sources**.",
       "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "विशेष आर्थिक क्षेत्र (SEZ) विकसित किये गये हैं",
+      "question_hi": "6 विशेष आर्थिक क्षेत्रों (SEZ) को किस लिए विकसित किया गया है ?",
       "options_hi": {
-        "A": "पूरे देश में अतिरिक्त आर्थिक गतिविधि उत्पन्न करें",
-        "B": "उपनगरीय क्षेत्रों का सौंदर्यीकरण करें",
-        "C": "ग्रामीण इलाकों में सुविधाओं का उन्नयन करें",
-        "D": "घरेलू एवं विदेशी स्रोतों से निवेश को बढ़ावा देना"
+        "A": "देश भर में अतिरिक्‍त आर्थिक गतिविधि उत्‍पन्‍न करने के लिए",
+        "B": "उपनगरीय क्षेत्रों के सुन्‍दरीकरण के लिए",
+        "C": "देहातों में सुविधाओं को उन्‍नत करने के लिए",
+        "D": "घरेलू तथा विदेशी स्रोोतों से निवेश के संवर्धन के लिए"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Promote investment from domestic and foreign sources?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Promote investment from domestic and foreign sources?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335764492"
     },
     {
       "id": 138,
@@ -3611,14 +3748,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) energy**\n\n**Mathematical Principle**: Solve using standard mathematical formulas and proportional relationships.\n- The correct step-by-step simplification leads directly to option (A): **energy**.",
       "topic_hi": "गणितीय अभिरुचि",
-      "question_hi": "__________ कार्य करने की क्षमता है।",
+      "question_hi": "8 __________ कार्य करने की क्षमता है।",
       "options_hi": {
         "A": "ऊर्जा",
         "B": "बल",
-        "C": "energy and force both",
+        "C": "ऊर्जा और बल दोनों",
         "D": "इनमें से कोई नहीं"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) energy?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) energy?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335764543"
     },
     {
       "id": 139,
@@ -3637,14 +3775,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) Palk straits**\n\n**Concept Overview**: Option (C) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "पुराना और 2 किमी से अधिक लंबा 'पम्बन रेलवे ब्रिज' कहाँ है, जो पूरे देश से पर्यटकों को आकर्षित करता है?",
+      "question_hi": "5 पुराना और 2 किमी से अधिक लंबा 'पम्बन रेलवे ब्रिज' कहाँ है, जो पूरे देश से पर्यटकों को आकर्षित करता है?",
       "options_hi": {
-        "A": "नीलगिरि",
-        "B": "कृष्णा डेल्टा",
+        "A": "नीलगिरी",
+        "B": "कृष्णाा डेल्टाा",
         "C": "पाक जलडमरूमध्य",
         "D": "मालाबार तट"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Palk straits?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) Palk straits?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335764630"
     },
     {
       "id": 140,
@@ -3663,14 +3802,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) Decrease in purchasing power**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "क्रय शक्ति पर मुद्रास्फीति का सामान्य प्रभाव क्या है?",
+      "question_hi": "0 मुद्राास्फीीति का क्रय शक्ति पर क्याा सामान्य प्रभाव होता है?",
       "options_hi": {
         "A": "क्रय शक्ति में वृद्धि",
         "B": "क्रय शक्ति में कमी",
         "C": "क्रय शक्ति पर कोई प्रभाव नहीं",
         "D": "बचत में वृद्धि"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Decrease in purchasing power?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) Decrease in purchasing power?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335764422"
     },
     {
       "id": 141,
@@ -3681,7 +3821,7 @@ window.official_shift3 = {
       "marks": 1,
       "negativeMarks": 0,
       "question": "Which lake in Bihar was declared as the state's FIRST Ramsar Site (Wetland of International Importance)?",
-      "question_hi": "बिहार की किस झील को राज्य का पहला रामसर स्थल (अंतर्राष्ट्रीय महत्व का आर्द्रभूमि) घोषित किया गया था?",
+      "question_hi": "5 दिए गये प्रश्‍न में प्रश्‍नवाचक चिह्न के स्‍थान पर सही विकल्‍प को चुनें। आम : फल :: प्‍याज : ?",
       "options": {
         "A": "Kanwar Lake (Kabartal), Begusarai",
         "B": "Gogabil Lake, Katihar",
@@ -3689,14 +3829,15 @@ window.official_shift3 = {
         "D": "Barela Lake, Vaishali"
       },
       "options_hi": {
-        "A": "कांवर झील (काबरताल), बेगूसराय",
-        "B": "गोगाबिल झील, कटिहार",
-        "C": "कुशेश्वर अस्थान झील, दरभंगा",
-        "D": "बरेला झील, वैशाली"
+        "A": "जड़",
+        "B": "फल",
+        "C": "फूल",
+        "D": "तना"
       },
       "correctAnswer": "A",
       "explanation": "Kanwar Lake (Kabartal) in Begusarai district was designated as Bihar's first Ramsar site in July 2020. It is one of Asia's largest freshwater oxbow lakes, formed by the meandering Gandak river.",
-      "explanation_hi": "बेगूसराय स्थित काबरताल (कांवर झील) एशिया की सबसे बड़ी मीठे पानी की गोखुर (Oxbow) झील है, जिसे 2020 में बिहार का पहला रामसर स्थल घोषित किया गया।"
+      "explanation_hi": "बेगूसराय स्थित काबरताल (कांवर झील) एशिया की सबसे बड़ी मीठे पानी की गोखुर (Oxbow) झील है, जिसे 2020 में बिहार का पहला रामसर स्थल घोषित किया गया।",
+      "officialQuestionId": "4335764829"
     },
     {
       "id": 142,
@@ -3715,14 +3856,15 @@ window.official_shift3 = {
       "correctAnswer": "C",
       "explanation": "**Correct Answer: (C) 208**\n\n**Reasoning Logic**: Analyzing the pattern, sequence progression, or syllogistic validity demonstrates that option (C) uniquely satisfies the given conditions.",
       "topic_hi": "तार्किक विचार",
-      "question_hi": "दी गई संख्या श्रृंखला में प्रश्न चिह्न चिन्ह के स्थान पर कौन सा अंक आएगा? 340, 316, 286, 250, ?",
+      "question_hi": "3 दिये गये संख्‍या श्रृंखला में प्रश्‍नवाचक चिह्न के स्‍थान पर कौन - सी संख्‍या आयेगी । 340, 316, 286, 250, ?",
       "options_hi": {
         "A": "280",
         "B": "249",
         "C": "208",
         "D": "148"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 208?**\n\n**विषय अवधारणा (तार्किक विचार)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C) 208?**\n\n**विषय अवधारणा (तार्किक विचार)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (C) सही है।",
+      "officialQuestionId": "4335764855"
     },
     {
       "id": 143,
@@ -3741,14 +3883,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) Dandi March**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "गांधीजी ने नमक कानून तोड़ने के लिए क्या किया?",
+      "question_hi": "8 गांधीजी ने नमक कानून तोड़ने के लिए क्याा किया?",
       "options_hi": {
         "A": "दांडी मार्च",
         "B": "अहमदाबाद मार्च",
-        "C": "चम्पारण मार्च",
-        "D": "All"
+        "C": "चंपारण मार्च",
+        "D": "सभी"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Dandi March?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) Dandi March?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335764594"
     },
     {
       "id": 144,
@@ -3767,14 +3910,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) 11880**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "यदि एक निश्चित कोड में, 'ABCD' को 24 के रूप में लिखा जाता है और 'EFGH' को 1680 के रूप में लिखा जाता है, तो उस कोड में 'IJKL' लिखा जाता है?",
+      "question_hi": "6 \"यदि किसी निश्चित कोड में, 'ABCD' को 24 और 'EFGH' को 1680 लिखा जाता है, तो उस कोड में 'IJKL' को कैसे लिखा जाएगा?\"",
       "options_hi": {
         "A": "11880",
         "B": "11240",
         "C": "7920",
         "D": "5940"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 11880?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 11880?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335764820"
     },
     {
       "id": 145,
@@ -3793,14 +3937,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) 5**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "जब 2765 को 6 से विभाजित किया जाता है तो शेषफल क्या होता है?",
+      "question_hi": "7 जब 2765 को 6 से विभाजित किया जाता है तो शेषफल क्याा होता है?",
       "options_hi": {
         "A": "5",
         "B": "6",
         "C": "4",
         "D": "3"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 5?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 5?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335764709"
     },
     {
       "id": 146,
@@ -3819,14 +3964,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) 9**\n\n**Concept Overview**: Option (A) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "एक बहुफलक के शीर्षों (V), किनारों (E) और फलकों (F) की संख्या क्रमशः 10,15 और x है। फिर, (3x-12) का मान है:",
+      "question_hi": "9 किसी बहुफलक के शीर्षों (V), किनारों (E) और फलकों (F) की संख्‍याऍं क्रमश: 10,15 और x है। तब (3x-12) का मान है:",
       "options_hi": {
         "A": "9",
         "B": "14",
         "C": "18",
         "D": "7"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 9?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) 9?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335764773"
     },
     {
       "id": 147,
@@ -3845,14 +3991,15 @@ window.official_shift3 = {
       "correctAnswer": "A",
       "explanation": "**Correct Answer: (A) The numbers whose dot pattern can be arranged in triangles**\n\n**Mathematical Principle**: Solve using standard mathematical formulas and proportional relationships.\n- The correct step-by-step simplification leads directly to option (A): **The numbers whose dot pattern can be arranged in triangles**.",
       "topic_hi": "गणितीय अभिरुचि",
-      "question_hi": "कंप्यूटर साइंस अवधारणा: What are triangular numbers के संबंध में सही कथन या मान क्या है?",
+      "question_hi": "4 त्रिकोणीय संख्याएँ क्याा हैं?",
       "options_hi": {
-        "A": "वे संख्याएँ जिनके बिंदु पैटर्न को त्रिभुजों में व्यवस्थित किया जा सकता है",
-        "B": "वे संख्याएँ जिन्हें जोड़ने पर त्रिभुज बनता है",
-        "C": "वे संख्याएँ जिनमें तीन अंक होते हैं",
-        "D": "वे संख्याएँ जिन्हें जोड़ने पर पूर्ण वर्ग नहीं मिलते"
+        "A": "वे संख्यााएँ जिनके बिंंदु पैटर्न को त्रिभुजों में व्यवस्थि त किया जा सकता है",
+        "B": "वे संख्यााएँ जिन्हें जोड़ने पर एक त्रिभुज बनता है",
+        "C": "वे संख्यााएँ जिनमें तीन अंक होते हैं",
+        "D": "वे संख्यााएँ जिन्हें जोड़ने पर पूर्ण वर्ग नहीं मिलता"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A) The numbers whose dot pattern can be arranged in triangles?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A) The numbers whose dot pattern can be arranged in triangles?**\n\n**विषय अवधारणा (गणितीय अभिरुचि)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (A) सही है।",
+      "officialQuestionId": "4335764749"
     },
     {
       "id": 148,
@@ -3871,14 +4018,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) 1778**\n\n**Concept Overview**: Option (D) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "रिक्त स्थान को भरने के लिए सही विकल्प चुनें। आयरिश प्रेस अधिनियम की तर्ज पर वर्नाक्यूलर प्रेस अधिनियम ………… में पारित किया गया था।",
+      "question_hi": "1 रिक्‍त स्‍थान की पूर्ति के लिए सही विकल्‍प का चयन कीजिए। आइरिश प्रेस ऐक्‍ट की तर्ज पर वर्नाक्‍यूलर प्रेस एक्‍ट ..............में पारित किया गया था।",
       "options_hi": {
         "A": "1878",
         "B": "1968",
         "C": "1887",
         "D": "1778"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) 1778?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) 1778?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335764458"
     },
     {
       "id": 149,
@@ -3897,14 +4045,15 @@ window.official_shift3 = {
       "correctAnswer": "B",
       "explanation": "**Correct Answer: (B) E**\n\n**Concept Overview**: Option (B) is the verified correct answer according to the official Bihar STET examination key.",
       "topic_hi": "सामान्य ज्ञान (GK)",
-      "question_hi": "6 व्यक्ति दो पंक्तियों में बैठे हैं, जिनकी संख्या 3-3 है। यदि E किसी भी छोर पर नहीं बैठा है। F के बाएं से दूसरे स्थान पर है। C, E का पड़ोसी है और D के विकर्णतः विपरीत बैठा है। B, F का पड़ोसी है। तो बताएं कि B के सामने कौन होगा?",
+      "question_hi": "4 6 व्‍यक्ति दो पंकित में बैठे है, 3-3 की संख्‍या में यदि E किसी सिरे पर नहीं बैठा है। D,F के बाऍं दूसरा है। C,E का पडोसी है और D के विकर्णवत सामने बैठा है। B,F का पडोसी है। तो बताऍं कि B के सामने कौन होगा ?",
       "options_hi": {
         "A": "A",
         "B": "E",
         "C": "C",
         "D": "D"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B) E?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B) E?**\n\n**विषय अवधारणा (सामान्य ज्ञान (GK))**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (B) सही है।",
+      "officialQuestionId": "4335764936"
     },
     {
       "id": 150,
@@ -3923,14 +4072,15 @@ window.official_shift3 = {
       "correctAnswer": "D",
       "explanation": "**Correct Answer: (D) Q \"**\n\n**Reasoning Logic**: Analyzing the pattern, sequence progression, or syllogistic validity demonstrates that option (D) uniquely satisfies the given conditions.",
       "topic_hi": "तार्किक विचार",
-      "question_hi": "एक श्रृंखला दी गई है जिसमें एक पद लुप्त है। उनमें से वह सही विकल्प चुनें जो श्रृंखला को पूरा करेगा। बी, सी, ई, एच, एल, ?",
+      "question_hi": "1 एक श्रंखला दी गई है जिसमें एक पद लुप्त है। दिए गए विकल्पों में से वह सही विकल्प चुनिए जो श्रृंखला को पूरा करे। B, C, E, H, L, ?",
       "options_hi": {
         "A": "P",
         "B": "O",
         "C": "N",
-        "D": "क्यू \""
+        "D": "Q"
       },
-      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Q \"?**\n\n**विषय अवधारणा (तार्किक विचार)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (D) Q \"?**\n\n**विषय अवधारणा (तार्किक विचार)**: बिहार STET आधिकारिक उत्तर कुंजी के अनुसार विकल्प (D) सही है।",
+      "officialQuestionId": "4335764974"
     }
   ]
 };

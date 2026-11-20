@@ -1,0 +1,7008 @@
+{
+  "overallStats": {
+    "totalPapers": 23,
+    "totalQuestions": 1950,
+    "templatedNarrowTotal": 6,
+    "templatedWideTotal": 6,
+    "templatedDifference": 0,
+    "withinPaperNearDuplicatesTotal": 1,
+    "crossPaperNearDuplicatesTotal": 41,
+    "missingFieldsTotal": 301,
+    "explanationMismatchesTotal": 5,
+    "unclassifiedQuestionsTotal": 607
+  },
+  "blueprint": {
+    "totalOfficialCS": 500,
+    "classified": 491,
+    "coveragePercent": 98.2,
+    "units": {
+      "cs-01-digital-logic": {
+        "title": "Digital Logic",
+        "count": 50,
+        "percent": 10
+      },
+      "cs-02-coa": {
+        "title": "Computer Organization and Architecture",
+        "count": 69,
+        "percent": 13.8
+      },
+      "cs-03-prog-ds": {
+        "title": "Programming and Data Structure",
+        "count": 40,
+        "percent": 8
+      },
+      "cs-04-algorithms": {
+        "title": "Algorithms",
+        "count": 21,
+        "percent": 4.2
+      },
+      "cs-05-os": {
+        "title": "Operating System",
+        "count": 55,
+        "percent": 11
+      },
+      "cs-06-dbms": {
+        "title": "Database Management System",
+        "count": 38,
+        "percent": 7.6
+      },
+      "cs-07-networks": {
+        "title": "Computer Network",
+        "count": 80,
+        "percent": 16
+      },
+      "cs-08-software-eng": {
+        "title": "Software Engineering",
+        "count": 13,
+        "percent": 2.6
+      },
+      "cs-09-oop": {
+        "title": "Object Oriented Programming",
+        "count": 45,
+        "percent": 9
+      },
+      "cs-10-web-dev": {
+        "title": "Web-Based Application Development",
+        "count": 20,
+        "percent": 4
+      },
+      "cs-11-toc": {
+        "title": "Theory of Computation",
+        "count": 11,
+        "percent": 2.2
+      },
+      "cs-12-iot": {
+        "title": "Internet of Things",
+        "count": 21,
+        "percent": 4.2
+      },
+      "cs-13-ai": {
+        "title": "Artificial Intelligence",
+        "count": 9,
+        "percent": 1.8
+      },
+      "cs-14-ecommerce": {
+        "title": "Fundamental of E-Commerce",
+        "count": 11,
+        "percent": 2.2
+      },
+      "cs-15-multimedia": {
+        "title": "Multimedia",
+        "count": 8,
+        "percent": 1.6
+      }
+    }
+  },
+  "official2023Disagreements": [],
+  "official2023Substituted": [
+    {
+      "qNum": 34,
+      "qId": 60,
+      "jsText": "What is DBMS?",
+      "pdfText": "What is DBMS?",
+      "jsAnswer": "D",
+      "pdfAnswer": "D",
+      "rightOptId": "60004"
+    },
+    {
+      "qNum": 104,
+      "qId": 123,
+      "jsText": "Aims",
+      "pdfText": "Aims",
+      "jsAnswer": "D",
+      "pdfAnswer": "D",
+      "rightOptId": "123004"
+    }
+  ],
+  "paperReports": [
+    {
+      "id": "official_shift1",
+      "title": "BSTET Official 2025 - Shift 1",
+      "category": "Official PYQ",
+      "declaredQuestions": 150,
+      "actualQuestions": 150,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 34,
+        "B": 40,
+        "C": 47,
+        "D": 29,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 22.7,
+        "B": 26.7,
+        "C": 31.3,
+        "D": 19.3
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 31,
+          "section": "Computer Science",
+          "text": "The term \"Data\" refers to:"
+        },
+        {
+          "qNum": 100,
+          "section": "Computer Science",
+          "text": "What does I stands for in CIA"
+        },
+        {
+          "qNum": 101,
+          "section": "Art of Teaching",
+          "text": "The category of Audio -Visual Aids is:"
+        },
+        {
+          "qNum": 102,
+          "section": "Art of Teaching",
+          "text": "The process of selecting units from a population to estimate character"
+        },
+        {
+          "qNum": 105,
+          "section": "Art of Teaching",
+          "text": "Rousseau has given the concept of Follow Nature. The meaning of this m"
+        },
+        {
+          "qNum": 107,
+          "section": "Art of Teaching",
+          "text": "Freedom in education means"
+        },
+        {
+          "qNum": 109,
+          "section": "Art of Teaching",
+          "text": "Drama or role play is most useful for teaching………."
+        },
+        {
+          "qNum": 112,
+          "section": "Art of Teaching",
+          "text": "The practice of finding commonalities or fundamental connections acros"
+        },
+        {
+          "qNum": 113,
+          "section": "Art of Teaching",
+          "text": "Primary teacher should try to or concentrate in:"
+        },
+        {
+          "qNum": 115,
+          "section": "Art of Teaching",
+          "text": "Effective teaching includes-"
+        },
+        {
+          "qNum": 116,
+          "section": "Art of Teaching",
+          "text": "Creativity is thought to be related to the concept of-"
+        },
+        {
+          "qNum": 117,
+          "section": "Art of Teaching",
+          "text": "Which one of the following is not a limitation of the preoperational t"
+        },
+        {
+          "qNum": 118,
+          "section": "Art of Teaching",
+          "text": "Which of the following best describes a symposium?"
+        },
+        {
+          "qNum": 119,
+          "section": "Art of Teaching",
+          "text": "A child performing well in the class, must be"
+        },
+        {
+          "qNum": 120,
+          "section": "Art of Teaching",
+          "text": "First, the students will make a prediction of what will happen in the "
+        },
+        {
+          "qNum": 121,
+          "section": "Art of Teaching",
+          "text": "You want to adopt the teaching profession because"
+        },
+        {
+          "qNum": 122,
+          "section": "Art of Teaching",
+          "text": "Areas/sources of information for psychological foundation are:"
+        },
+        {
+          "qNum": 123,
+          "section": "Art of Teaching",
+          "text": "Which of the following is the objective of a teacher?"
+        },
+        {
+          "qNum": 126,
+          "section": "Art of Teaching",
+          "text": "You have a mixed class of boys and girls. Which method would you adopt"
+        },
+        {
+          "qNum": 129,
+          "section": "Art of Teaching",
+          "text": "Basic education should be"
+        },
+        {
+          "qNum": 132,
+          "section": "Other Skills",
+          "text": "What is the term for a market condition where supply exceeds demand?"
+        },
+        {
+          "qNum": 133,
+          "section": "Other Skills",
+          "text": "Khudai Khidmatgars were popularly known as the ___________"
+        },
+        {
+          "qNum": 134,
+          "section": "Other Skills",
+          "text": "To kill fungus on crops we generally used…………."
+        },
+        {
+          "qNum": 135,
+          "section": "Other Skills",
+          "text": "For some people, playing is actually work. Below are some names of fam"
+        },
+        {
+          "qNum": 136,
+          "section": "Other Skills",
+          "text": "Choose the correct option instead of the question mark in the given qu"
+        },
+        {
+          "qNum": 137,
+          "section": "Other Skills",
+          "text": "What will come in place of ? in the sequence 3, 14, 39, 84, ?, 258?"
+        },
+        {
+          "qNum": 138,
+          "section": "Other Skills",
+          "text": "Meena divides a number by 2. She then divides the answer by 2. This is"
+        },
+        {
+          "qNum": 140,
+          "section": "Other Skills",
+          "text": "Out of 60 people in a colony, 10 speak only Bengali, 5 speak only Assa"
+        },
+        {
+          "qNum": 141,
+          "section": "Other Skills",
+          "text": "Pravin walked 30 metres towards East, took a right turn and walked 20 "
+        },
+        {
+          "qNum": 142,
+          "section": "Other Skills",
+          "text": "The statement related to the congruence of a triangle – “Given the len"
+        },
+        {
+          "qNum": 143,
+          "section": "Other Skills",
+          "text": "The number of Bricks each measuring 25 cm x 12.5 cm x 7.5 cm required "
+        },
+        {
+          "qNum": 145,
+          "section": "Other Skills",
+          "text": "Which of the following is not an outdoor game?"
+        },
+        {
+          "qNum": 146,
+          "section": "Other Skills",
+          "text": "Mahendragiri, the highest peak of the Eastern Ghats, is located in whi"
+        },
+        {
+          "qNum": 147,
+          "section": "Other Skills",
+          "text": "Plants manufacture their food with the help of……….."
+        },
+        {
+          "qNum": 148,
+          "section": "Other Skills",
+          "text": "Arrange the following in their chronological sequence : i. Cripps Miss"
+        },
+        {
+          "qNum": 149,
+          "section": "Other Skills",
+          "text": "In the alphabet how many Letters will be in between 10th and 24th Lett"
+        },
+        {
+          "qNum": 150,
+          "section": "Other Skills",
+          "text": "Which of the following types of natural disasters has no definite begi"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": true,
+        "checked": true,
+        "foundInPdf": 149,
+        "missingInPdf": 1,
+        "missingList": [
+          {
+            "qNum": 49,
+            "text": "What is the primary advantage of Gray code over standard bin"
+          }
+        ]
+      },
+      "unitCounts": {
+        "cs-09-oop": 13,
+        "cs-05-os": 11,
+        "cs-06-dbms": 9,
+        "cs-07-networks": 15,
+        "cs-08-software-eng": 2,
+        "cs-14-ecommerce": 1,
+        "cs-10-web-dev": 4,
+        "cs-03-prog-ds": 10,
+        "cs-12-iot": 5,
+        "cs-02-coa": 14,
+        "cs-01-digital-logic": 9,
+        "unclassified": 37,
+        "cs-04-algorithms": 2,
+        "cs-11-toc": 2,
+        "cs-13-ai": 1,
+        "at-10-curriculum": 2,
+        "at-04-lesson-plan": 2,
+        "at-11-factors-affecting": 2,
+        "at-12-teaching-aids": 1,
+        "at-03-methods": 1,
+        "at-07-textbook-library": 2,
+        "at-05-microteaching": 2,
+        "os-reasoning": 2,
+        "os-math": 1
+      }
+    },
+    {
+      "id": "official_shift2",
+      "title": "BSTET Official 2025 - Shift 2",
+      "category": "Official PYQ",
+      "declaredQuestions": 150,
+      "actualQuestions": 150,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 31,
+        "B": 38,
+        "C": 50,
+        "D": 31,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 20.7,
+        "B": 25.3,
+        "C": 33.3,
+        "D": 20.7
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 47,
+          "section": "Computer Science",
+          "text": "Open System ________ tends to evolve more quickly than proprietary sys"
+        },
+        {
+          "qNum": 102,
+          "section": "Art of Teaching",
+          "text": "Pedagogy is a"
+        },
+        {
+          "qNum": 103,
+          "section": "Art of Teaching",
+          "text": "A blackboard cannot be used for __________."
+        },
+        {
+          "qNum": 105,
+          "section": "Art of Teaching",
+          "text": "How can a teacher enhance effective learning in her elementary classro"
+        },
+        {
+          "qNum": 106,
+          "section": "Art of Teaching",
+          "text": "In order to keep himself alive and up to date, a teacher is required t"
+        },
+        {
+          "qNum": 107,
+          "section": "Art of Teaching",
+          "text": "Learning is a natural activity of-"
+        },
+        {
+          "qNum": 111,
+          "section": "Art of Teaching",
+          "text": "Which of the following verbs is at greatest risk for misinterpretation"
+        },
+        {
+          "qNum": 115,
+          "section": "Art of Teaching",
+          "text": "In problem solving method, a systematic and orderly process is adopted"
+        },
+        {
+          "qNum": 116,
+          "section": "Art of Teaching",
+          "text": "As a teacher when you see that children are fighting on the road, what"
+        },
+        {
+          "qNum": 118,
+          "section": "Art of Teaching",
+          "text": "The essential factor to make the learning attractive is"
+        },
+        {
+          "qNum": 120,
+          "section": "Art of Teaching",
+          "text": "Which of them is NOT a formal assessment?"
+        },
+        {
+          "qNum": 123,
+          "section": "Art of Teaching",
+          "text": "Sociological foundations are concerned with:"
+        },
+        {
+          "qNum": 126,
+          "section": "Art of Teaching",
+          "text": "Two components of an educational objective are"
+        },
+        {
+          "qNum": 127,
+          "section": "Art of Teaching",
+          "text": "Teacher can utilize both assessment for learning and assessment of lea"
+        },
+        {
+          "qNum": 128,
+          "section": "Art of Teaching",
+          "text": "_______ is the apex institution involved in the planned and coordinate"
+        },
+        {
+          "qNum": 131,
+          "section": "Other Skills",
+          "text": "Which statement is incorrect about the Tetris game?"
+        },
+        {
+          "qNum": 132,
+          "section": "Other Skills",
+          "text": "A square pyramid has…......"
+        },
+        {
+          "qNum": 133,
+          "section": "Other Skills",
+          "text": "if A means +, B means-, Z means÷ and C means*, then 10C2A5B5=?"
+        },
+        {
+          "qNum": 134,
+          "section": "Other Skills",
+          "text": "If F,V and E are respectively the number of faces, vertices and edges "
+        },
+        {
+          "qNum": 135,
+          "section": "Other Skills",
+          "text": "Which group of organisms does not have claws?"
+        },
+        {
+          "qNum": 137,
+          "section": "Other Skills",
+          "text": "Seema facing East walks 6 m. then turn right and walks 9 m. then she t"
+        },
+        {
+          "qNum": 138,
+          "section": "Other Skills",
+          "text": "Vitamin A and K is rich in………….."
+        },
+        {
+          "qNum": 139,
+          "section": "Other Skills",
+          "text": "Which food group is mostly consumed by teenagers to get more calcium?"
+        },
+        {
+          "qNum": 140,
+          "section": "Other Skills",
+          "text": "Calculate the sum of lengths: 21 m 93 cm, 33 m 95 cm and 45 m 86 cm."
+        },
+        {
+          "qNum": 142,
+          "section": "Other Skills",
+          "text": "A Rectangular SandBox is 5 m wide and 2 m long. How many Cubic Metres "
+        },
+        {
+          "qNum": 143,
+          "section": "Other Skills",
+          "text": "Which of the following statements is not correct with regard to a math"
+        },
+        {
+          "qNum": 144,
+          "section": "Other Skills",
+          "text": "Which one of the following is the language of the famous political tre"
+        },
+        {
+          "qNum": 145,
+          "section": "Other Skills",
+          "text": "In which five year plan of independent India the focus was on the deve"
+        },
+        {
+          "qNum": 146,
+          "section": "Other Skills",
+          "text": "Which of the port is not a Natural Port?"
+        },
+        {
+          "qNum": 148,
+          "section": "Other Skills",
+          "text": "Who was the founder of Mewar Praja Mandal ?"
+        },
+        {
+          "qNum": 150,
+          "section": "Other Skills",
+          "text": "In the following question, from the given alternative words, select th"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": true,
+        "checked": true,
+        "foundInPdf": 148,
+        "missingInPdf": 2,
+        "missingList": [
+          {
+            "qNum": 17,
+            "text": "Which combinational logic circuit is primarily used to perfo"
+          },
+          {
+            "qNum": 136,
+            "text": "At which district does the holy River Ganga first enter the "
+          }
+        ]
+      },
+      "unitCounts": {
+        "cs-07-networks": 23,
+        "cs-03-prog-ds": 9,
+        "cs-06-dbms": 11,
+        "cs-05-os": 8,
+        "cs-12-iot": 3,
+        "cs-04-algorithms": 3,
+        "cs-02-coa": 10,
+        "cs-09-oop": 12,
+        "cs-08-software-eng": 2,
+        "cs-01-digital-logic": 8,
+        "cs-10-web-dev": 3,
+        "cs-11-toc": 2,
+        "unclassified": 31,
+        "cs-14-ecommerce": 2,
+        "cs-13-ai": 2,
+        "cs-15-multimedia": 1,
+        "at-05-microteaching": 1,
+        "at-09-evaluation-assessment": 2,
+        "at-04-lesson-plan": 4,
+        "at-11-factors-affecting": 2,
+        "at-03-methods": 1,
+        "at-02-objectives-bloom": 1,
+        "at-10-curriculum": 1,
+        "at-08-qualities-teacher": 1,
+        "at-06-classroom-mgmt": 2,
+        "at-01-teaching-learning": 1,
+        "os-bihar-gk": 1,
+        "os-evs": 2,
+        "os-reasoning": 1
+      }
+    },
+    {
+      "id": "official_shift3",
+      "title": "BSTET Official 2025 - Shift 3",
+      "category": "Official PYQ",
+      "declaredQuestions": 150,
+      "actualQuestions": 150,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 36,
+        "B": 46,
+        "C": 35,
+        "D": 33,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 24,
+        "B": 30.7,
+        "C": 23.3,
+        "D": 22
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 40,
+          "section": "Computer Science",
+          "text": "When using the parity bit method, how does the receiver determine if a"
+        },
+        {
+          "qNum": 51,
+          "section": "Computer Science",
+          "text": "The software developed to detect and remove viruses only is called ___"
+        },
+        {
+          "qNum": 102,
+          "section": "Art of Teaching",
+          "text": "\"Society determines the roles of male and female.\" This statement arti"
+        },
+        {
+          "qNum": 106,
+          "section": "Art of Teaching",
+          "text": "Individualized Education Programme is planned from the perspective of-"
+        },
+        {
+          "qNum": 107,
+          "section": "Art of Teaching",
+          "text": "For the change in the behaviour of the children, the most effective me"
+        },
+        {
+          "qNum": 114,
+          "section": "Art of Teaching",
+          "text": "Which of the following activity is considered in the post-active phase"
+        },
+        {
+          "qNum": 116,
+          "section": "Art of Teaching",
+          "text": "One of the critiques of standardized tests has been that-"
+        },
+        {
+          "qNum": 117,
+          "section": "Art of Teaching",
+          "text": "All except -------------- are major components of classroom process."
+        },
+        {
+          "qNum": 120,
+          "section": "Art of Teaching",
+          "text": "As a planner, the teacher must"
+        },
+        {
+          "qNum": 125,
+          "section": "Art of Teaching",
+          "text": "The hypothesis underlying team teaching is"
+        },
+        {
+          "qNum": 126,
+          "section": "Art of Teaching",
+          "text": "At the highest level of hierarchy is"
+        },
+        {
+          "qNum": 129,
+          "section": "Art of Teaching",
+          "text": "What is the best way for a teacher to resolve the problems in a class?"
+        },
+        {
+          "qNum": 130,
+          "section": "Art of Teaching",
+          "text": "Which of the following would you use to shape the habits?"
+        },
+        {
+          "qNum": 131,
+          "section": "Other Skills",
+          "text": "With reference to Indian history, consider the following statements : "
+        },
+        {
+          "qNum": 132,
+          "section": "Other Skills",
+          "text": "Which of the following is not prism?"
+        },
+        {
+          "qNum": 133,
+          "section": "Other Skills",
+          "text": "Which of the following statements with reference to Surface inversion "
+        },
+        {
+          "qNum": 134,
+          "section": "Other Skills",
+          "text": "Painting to a boy, Neha said '' He is the son of the only child of my "
+        },
+        {
+          "qNum": 135,
+          "section": "Other Skills",
+          "text": "Asia’s first underground Hydel Project is located in which of the foll"
+        },
+        {
+          "qNum": 136,
+          "section": "Other Skills",
+          "text": "What is the national animal of America ?"
+        },
+        {
+          "qNum": 138,
+          "section": "Other Skills",
+          "text": "__________ is the ability to do work."
+        },
+        {
+          "qNum": 139,
+          "section": "Other Skills",
+          "text": "Where is the old and over 2 km-long ‘Pamban Railway Bridge’, which att"
+        },
+        {
+          "qNum": 140,
+          "section": "Other Skills",
+          "text": "What is a common effect of inflation on purchasing power?"
+        },
+        {
+          "qNum": 145,
+          "section": "Other Skills",
+          "text": "What is the remainder when 2765 is divided by 6?"
+        },
+        {
+          "qNum": 146,
+          "section": "Other Skills",
+          "text": "The number of vertices (V) , edges (E) and faces (F) of a polyhedron a"
+        },
+        {
+          "qNum": 147,
+          "section": "Other Skills",
+          "text": "What are triangular numbers?"
+        },
+        {
+          "qNum": 148,
+          "section": "Other Skills",
+          "text": "Choose the correct option to fill in the blank. The Vernacular Press A"
+        },
+        {
+          "qNum": 149,
+          "section": "Other Skills",
+          "text": "6 Person are sitting in two rows, numbered 3-3. If E does not sit at a"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": true,
+        "checked": true,
+        "foundInPdf": 143,
+        "missingInPdf": 7,
+        "missingList": [
+          {
+            "qNum": 19,
+            "text": "What is the race-around condition in a digital level-trigger"
+          },
+          {
+            "qNum": 30,
+            "text": "A 4-variable Boolean function has minterms m(0, 2, 8, 10). W"
+          },
+          {
+            "qNum": 48,
+            "text": "How many 2-to-1 multiplexers are required to construct a sin"
+          },
+          {
+            "qNum": 52,
+            "text": "Which addressing mode is most suitable for supporting reloca"
+          },
+          {
+            "qNum": 81,
+            "text": "AI is about"
+          },
+          {
+            "qNum": 97,
+            "text": "In a 5-stage instruction pipeline (IF, ID, EX, MEM, WB), wha"
+          },
+          {
+            "qNum": 141,
+            "text": "Which lake in Bihar was declared as the state's FIRST Ramsar"
+          }
+        ]
+      },
+      "unitCounts": {
+        "cs-09-oop": 8,
+        "cs-06-dbms": 4,
+        "cs-01-digital-logic": 16,
+        "cs-04-algorithms": 5,
+        "cs-07-networks": 16,
+        "cs-10-web-dev": 2,
+        "cs-15-multimedia": 2,
+        "cs-03-prog-ds": 6,
+        "cs-05-os": 13,
+        "cs-12-iot": 3,
+        "cs-02-coa": 13,
+        "cs-08-software-eng": 4,
+        "cs-13-ai": 3,
+        "unclassified": 27,
+        "cs-14-ecommerce": 1,
+        "cs-11-toc": 2,
+        "at-02-objectives-bloom": 4,
+        "at-06-classroom-mgmt": 1,
+        "at-03-methods": 3,
+        "at-05-microteaching": 2,
+        "at-11-factors-affecting": 2,
+        "at-04-lesson-plan": 2,
+        "at-10-curriculum": 2,
+        "at-09-evaluation-assessment": 2,
+        "at-08-qualities-teacher": 1,
+        "os-math": 1,
+        "os-bihar-gk": 2,
+        "os-reasoning": 3
+      }
+    },
+    {
+      "id": "official_shift4",
+      "title": "BSTET Official 2025 - Shift 4",
+      "category": "Official PYQ",
+      "declaredQuestions": 150,
+      "actualQuestions": 150,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 46,
+        "B": 46,
+        "C": 25,
+        "D": 33,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 30.7,
+        "B": 30.7,
+        "C": 16.7,
+        "D": 22
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 71,
+          "section": "Computer Science",
+          "text": "A Database Management System is a type of _________software."
+        },
+        {
+          "qNum": 101,
+          "section": "Art of Teaching",
+          "text": "The mirror of the Society is:"
+        },
+        {
+          "qNum": 102,
+          "section": "Art of Teaching",
+          "text": "The number of domains in taxonomies of educational objective is"
+        },
+        {
+          "qNum": 105,
+          "section": "Art of Teaching",
+          "text": "The most natural and simple way of teaching a lesson is to proceed fro"
+        },
+        {
+          "qNum": 107,
+          "section": "Art of Teaching",
+          "text": "In M.C.Q the correct option is:"
+        },
+        {
+          "qNum": 108,
+          "section": "Art of Teaching",
+          "text": "Which of the following is a sign of motivated teaching?"
+        },
+        {
+          "qNum": 109,
+          "section": "Art of Teaching",
+          "text": "In M.C.Qs the statement of the problem is:"
+        },
+        {
+          "qNum": 110,
+          "section": "Art of Teaching",
+          "text": "The stage in problem solving that includes the preparation of suitable"
+        },
+        {
+          "qNum": 113,
+          "section": "Art of Teaching",
+          "text": "If you join a teacher fraternity and choose to dress like most of the "
+        },
+        {
+          "qNum": 114,
+          "section": "Art of Teaching",
+          "text": "What is the 4 steps for constructing a test ?"
+        },
+        {
+          "qNum": 118,
+          "section": "Art of Teaching",
+          "text": "Which of the following teaching method is focused on the development o"
+        },
+        {
+          "qNum": 124,
+          "section": "Art of Teaching",
+          "text": "Which one of the following is the duty of a class teacher?"
+        },
+        {
+          "qNum": 125,
+          "section": "Art of Teaching",
+          "text": "The most expected immediate outcome of teaching is-"
+        },
+        {
+          "qNum": 126,
+          "section": "Art of Teaching",
+          "text": "To select subject matter, one should consider student’s:"
+        },
+        {
+          "qNum": 131,
+          "section": "Other Skills",
+          "text": "Which one among the following is NOT a major oil field located in Guja"
+        },
+        {
+          "qNum": 132,
+          "section": "Other Skills",
+          "text": "Who among the following is the author of the book 'The Indian Struggle"
+        },
+        {
+          "qNum": 133,
+          "section": "Other Skills",
+          "text": "7 is to 34 as 5 is to ?"
+        },
+        {
+          "qNum": 134,
+          "section": "Other Skills",
+          "text": "Chronologically arrange the following political events related to Indi"
+        },
+        {
+          "qNum": 135,
+          "section": "Other Skills",
+          "text": "As per the Cabinet Resolution of 1st January 2015, the NITI Aayog cons"
+        },
+        {
+          "qNum": 136,
+          "section": "Other Skills",
+          "text": "Which nutrient protects us from diseases?"
+        },
+        {
+          "qNum": 138,
+          "section": "Other Skills",
+          "text": "B is the Aunt of C. A is the Husband of B. B is the sister of D. Tell "
+        },
+        {
+          "qNum": 139,
+          "section": "Other Skills",
+          "text": "The joint between separate faces of a solid is called an…............."
+        },
+        {
+          "qNum": 140,
+          "section": "Other Skills",
+          "text": "Which is the longest National Highway in India?"
+        },
+        {
+          "qNum": 141,
+          "section": "Other Skills",
+          "text": "Aaron weight 49 kg 357 g and Ron weights 32 kg 458 g. Who weighs less "
+        },
+        {
+          "qNum": 143,
+          "section": "Other Skills",
+          "text": "Which of the following is a waterborne disease?"
+        },
+        {
+          "qNum": 144,
+          "section": "Other Skills",
+          "text": "“Family is a unit consisting of a mother, father and their two childre"
+        },
+        {
+          "qNum": 145,
+          "section": "Other Skills",
+          "text": "If the median of the data 30,8,7,3,17,15,21,24,29,23 is x and the medi"
+        },
+        {
+          "qNum": 147,
+          "section": "Other Skills",
+          "text": "In English alphabet which Letter is in between the Letter s and the Le"
+        },
+        {
+          "qNum": 148,
+          "section": "Other Skills",
+          "text": "Which of the following are macronutrients commonly found in soil?"
+        },
+        {
+          "qNum": 149,
+          "section": "Other Skills",
+          "text": "ABCD is a rhombus in which ∠ADB = 25 Degree. Then, the value of ( 2∠BA"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": true,
+        "checked": true,
+        "foundInPdf": 148,
+        "missingInPdf": 2,
+        "missingList": [
+          {
+            "qNum": 58,
+            "text": "In cache memory organization, what is the main characteristi"
+          },
+          {
+            "qNum": 146,
+            "text": "Who led the 1857 Revolt against the British East India Compa"
+          }
+        ]
+      },
+      "unitCounts": {
+        "cs-09-oop": 6,
+        "cs-01-digital-logic": 6,
+        "cs-04-algorithms": 5,
+        "cs-02-coa": 16,
+        "cs-03-prog-ds": 9,
+        "cs-06-dbms": 11,
+        "cs-05-os": 14,
+        "cs-07-networks": 18,
+        "cs-14-ecommerce": 2,
+        "cs-12-iot": 3,
+        "cs-10-web-dev": 5,
+        "cs-11-toc": 2,
+        "cs-08-software-eng": 1,
+        "unclassified": 30,
+        "cs-13-ai": 1,
+        "at-08-qualities-teacher": 1,
+        "at-04-lesson-plan": 7,
+        "at-03-methods": 2,
+        "at-09-evaluation-assessment": 2,
+        "at-05-microteaching": 3,
+        "at-10-curriculum": 1,
+        "at-12-teaching-aids": 1,
+        "os-reasoning": 1,
+        "os-math": 2,
+        "os-bihar-gk": 1
+      }
+    },
+    {
+      "id": "official_2023",
+      "title": "BSTET Official 2023 - Paper II",
+      "category": "Official PYQ",
+      "declaredQuestions": 150,
+      "actualQuestions": 150,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 42,
+        "B": 32,
+        "C": 47,
+        "D": 29,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 28,
+        "B": 21.3,
+        "C": 31.3,
+        "D": 19.3
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [
+        {
+          "qNum": 25,
+          "correctAnswer": "C",
+          "explanationLetter": "A",
+          "snippet": "Option (A"
+        },
+        {
+          "qNum": 68,
+          "correctAnswer": "D",
+          "explanationLetter": "B",
+          "snippet": "Option (B"
+        },
+        {
+          "qNum": 89,
+          "correctAnswer": "C",
+          "explanationLetter": "B",
+          "snippet": "Option (B"
+        },
+        {
+          "qNum": 128,
+          "correctAnswer": "C",
+          "explanationLetter": "A",
+          "snippet": "Option (A"
+        },
+        {
+          "qNum": 130,
+          "correctAnswer": "B",
+          "explanationLetter": "A",
+          "snippet": "Option (A"
+        }
+      ],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 40,
+          "section": "Computer Science",
+          "text": "The term \"Data\" refers to:"
+        },
+        {
+          "qNum": 72,
+          "section": "Computer Science",
+          "text": "Minimum Number of states require to accept string ends with 101."
+        },
+        {
+          "qNum": 81,
+          "section": "Computer Science",
+          "text": "Who is known as the father of AI?"
+        },
+        {
+          "qNum": 101,
+          "section": "Teaching Skills",
+          "text": "The main aim of classroom teaching is"
+        },
+        {
+          "qNum": 102,
+          "section": "Teaching Skills",
+          "text": "To ensure participation of students we use"
+        },
+        {
+          "qNum": 103,
+          "section": "Teaching Skills",
+          "text": "learning through independent effort is"
+        },
+        {
+          "qNum": 104,
+          "section": "Teaching Skills",
+          "text": "Aims"
+        },
+        {
+          "qNum": 105,
+          "section": "Teaching Skills",
+          "text": "psychomotor domain relates to"
+        },
+        {
+          "qNum": 106,
+          "section": "Teaching Skills",
+          "text": "Heuristic means"
+        },
+        {
+          "qNum": 107,
+          "section": "Teaching Skills",
+          "text": "Armstrong gifted teaching with"
+        },
+        {
+          "qNum": 108,
+          "section": "Teaching Skills",
+          "text": "Set induction relates to"
+        },
+        {
+          "qNum": 109,
+          "section": "Teaching Skills",
+          "text": "Diadactic teaching materials was introduced by"
+        },
+        {
+          "qNum": 110,
+          "section": "Teaching Skills",
+          "text": "The centre point of a lesson plan is"
+        },
+        {
+          "qNum": 111,
+          "section": "Teaching Skills",
+          "text": "According to Howard Gardner, a philosopher has …………. Type of intellige"
+        },
+        {
+          "qNum": 112,
+          "section": "Teaching Skills",
+          "text": "Which of the following is an example of an internal attribution for fa"
+        },
+        {
+          "qNum": 113,
+          "section": "Teaching Skills",
+          "text": "Which of the following is an example of a question that requires stude"
+        },
+        {
+          "qNum": 114,
+          "section": "Teaching Skills",
+          "text": "Micro teaching is more effective"
+        },
+        {
+          "qNum": 115,
+          "section": "Teaching Skills",
+          "text": "Which of the following are the characteristics of a person with scient"
+        },
+        {
+          "qNum": 116,
+          "section": "Teaching Skills",
+          "text": "Library man Provide"
+        },
+        {
+          "qNum": 117,
+          "section": "Teaching Skills",
+          "text": "Which of the following components are essential for library?"
+        },
+        {
+          "qNum": 118,
+          "section": "Teaching Skills",
+          "text": "A teacher should ask-"
+        },
+        {
+          "qNum": 119,
+          "section": "Teaching Skills",
+          "text": "Which of the following important cause of failure for teacher?"
+        },
+        {
+          "qNum": 120,
+          "section": "Teaching Skills",
+          "text": "Teacher should master during his teaching period"
+        },
+        {
+          "qNum": 121,
+          "section": "Teaching Skills",
+          "text": "Knowledge is-"
+        },
+        {
+          "qNum": 122,
+          "section": "Teaching Skills",
+          "text": "Formative evaluation is conducted"
+        },
+        {
+          "qNum": 123,
+          "section": "Teaching Skills",
+          "text": "Which technique is used for evaluation of interest?"
+        },
+        {
+          "qNum": 124,
+          "section": "Teaching Skills",
+          "text": "Which of the following is not a type of curriculum design?"
+        },
+        {
+          "qNum": 125,
+          "section": "Teaching Skills",
+          "text": "Which of the following is not the nature of curriculum?"
+        },
+        {
+          "qNum": 126,
+          "section": "Teaching Skills",
+          "text": "The biggest challenge before democracy is -"
+        },
+        {
+          "qNum": 127,
+          "section": "Teaching Skills",
+          "text": "A teacher shoul behave with all the student as -"
+        },
+        {
+          "qNum": 128,
+          "section": "Teaching Skills",
+          "text": "Failure can be our best teacher if-"
+        },
+        {
+          "qNum": 129,
+          "section": "Teaching Skills",
+          "text": "Chal-Board is a kind of teaching aid-"
+        },
+        {
+          "qNum": 130,
+          "section": "Teaching Skills",
+          "text": "Television is"
+        },
+        {
+          "qNum": 131,
+          "section": "General Skills",
+          "text": "There were widespread rises against the British in the 1820s. Which on"
+        },
+        {
+          "qNum": 132,
+          "section": "General Skills",
+          "text": "If the Sun rises at Tirap in Arunachal Pradesh at 5.00 am (IST), then "
+        },
+        {
+          "qNum": 133,
+          "section": "General Skills",
+          "text": "What is the maximum investment by any single investor in an Indian com"
+        },
+        {
+          "qNum": 134,
+          "section": "General Skills",
+          "text": "Who among the following was not related to Champaran Satyagraha?"
+        },
+        {
+          "qNum": 135,
+          "section": "General Skills",
+          "text": "Visva-Bharati University, which was seen in the news recently, is loca"
+        },
+        {
+          "qNum": 136,
+          "section": "General Skills",
+          "text": "Rama plays cricket with his friends every evening. Which energy does h"
+        },
+        {
+          "qNum": 137,
+          "section": "General Skills",
+          "text": "Which one of the following is 'sticky rice' and is a common variety of"
+        },
+        {
+          "qNum": 138,
+          "section": "General Skills",
+          "text": "When we burn fuels, we get :"
+        },
+        {
+          "qNum": 139,
+          "section": "General Skills",
+          "text": "Consider the following statements about snakes and identify the Incorr"
+        },
+        {
+          "qNum": 140,
+          "section": "General Skills",
+          "text": "With respect to Gujarat, the locations of Uttar Pradesh and Andhra Pra"
+        },
+        {
+          "qNum": 141,
+          "section": "General Skills",
+          "text": "Which one of the following groups have all 3-dimensional shapes?"
+        },
+        {
+          "qNum": 142,
+          "section": "General Skills",
+          "text": "What is the missing number in the pattern given below? 1, 6, 15, -----"
+        },
+        {
+          "qNum": 143,
+          "section": "General Skills",
+          "text": "A whole number is added to 100 and the same number is subtracted from "
+        },
+        {
+          "qNum": 144,
+          "section": "General Skills",
+          "text": "The sum of 5 - 5 + 5 - 5 + 5 - 5 …………… , to odd number of terms is :"
+        },
+        {
+          "qNum": 145,
+          "section": "General Skills",
+          "text": "Which of the following arrangements represents a descending order of n"
+        },
+        {
+          "qNum": 146,
+          "section": "General Skills",
+          "text": "Monday : April : : Friday : ?"
+        },
+        {
+          "qNum": 147,
+          "section": "General Skills",
+          "text": "Choose the word which is least like the other words in the group."
+        },
+        {
+          "qNum": 148,
+          "section": "General Skills",
+          "text": "60,30,120,15,240?"
+        },
+        {
+          "qNum": 149,
+          "section": "General Skills",
+          "text": "In a certain code, if BAD is written as YZW and SAID is written as HZR"
+        },
+        {
+          "qNum": 150,
+          "section": "General Skills",
+          "text": "Pointing towards Sita, Nikhil said, \"I am the only son of her mother's"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": true,
+        "checked": true,
+        "foundInPdf": 149,
+        "missingInPdf": 1,
+        "missingList": [
+          {
+            "qNum": 104,
+            "text": "Aims"
+          }
+        ]
+      },
+      "unitCounts": {
+        "cs-01-digital-logic": 11,
+        "cs-02-coa": 16,
+        "cs-05-os": 9,
+        "cs-03-prog-ds": 6,
+        "cs-04-algorithms": 6,
+        "cs-12-iot": 7,
+        "cs-06-dbms": 3,
+        "unclassified": 53,
+        "cs-07-networks": 8,
+        "cs-08-software-eng": 4,
+        "cs-09-oop": 6,
+        "cs-10-web-dev": 6,
+        "cs-11-toc": 3,
+        "cs-13-ai": 2,
+        "cs-14-ecommerce": 5,
+        "cs-15-multimedia": 5
+      }
+    },
+    {
+      "id": "bpsc_tre3_2024",
+      "title": "BPSC TRE 3.0 PGT Computer Science (Class 11-12)",
+      "category": "Official PYQ",
+      "declaredQuestions": 150,
+      "actualQuestions": 150,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 30,
+        "B": 38,
+        "C": 37,
+        "D": 21,
+        "other": 24
+      },
+      "answerPercent": {
+        "A": 20,
+        "B": 25.3,
+        "C": 24.7,
+        "D": 14
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [
+        {
+          "qNum": 1,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 2,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 3,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 4,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 5,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 6,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 7,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 8,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 9,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 10,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 11,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 12,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 13,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 14,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 15,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 16,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 17,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 18,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 19,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 20,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 21,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 22,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 23,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 24,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 25,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 26,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 27,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 28,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 29,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 30,
+          "missing": [
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys(A,B,C,D,E)"
+          ]
+        },
+        {
+          "qNum": 31,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 32,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 33,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 34,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 35,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 36,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 37,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 38,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 39,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 40,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 41,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 42,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 43,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 44,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 45,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 46,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 47,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 48,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 49,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 50,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 51,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 52,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 53,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 54,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 55,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 56,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 57,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 58,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 59,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 60,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 61,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 62,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 63,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 64,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 65,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 66,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 67,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 68,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 69,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 70,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 71,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 72,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 73,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 74,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 75,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 76,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 77,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 78,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 79,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 80,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 81,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 82,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 83,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 84,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 85,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 86,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 87,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 88,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 89,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 90,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 91,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 92,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 93,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 94,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 95,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 96,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 97,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 98,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 99,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 100,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 101,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 102,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 103,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 104,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 105,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 106,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 107,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 108,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 109,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 110,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 111,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 112,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 113,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 114,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 115,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 116,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 117,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 118,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 119,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 120,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 121,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 122,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 123,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 124,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 125,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 126,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 127,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 128,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 129,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 130,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 131,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 132,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 133,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 134,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 135,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 136,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 137,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 138,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 139,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 140,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 141,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 142,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 143,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 144,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 145,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 146,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 147,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 148,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 149,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        },
+        {
+          "qNum": 150,
+          "missing": [
+            "question_hi",
+            "options_hi",
+            "invalid_options_keys(A,B,C,D,E)",
+            "invalid_options_hi_keys()"
+          ]
+        }
+      ],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 1,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "Why is Kerala just the place for you if you love variety ?"
+        },
+        {
+          "qNum": 2,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "Why should you take a trip to the spice gardens in the hills ?"
+        },
+        {
+          "qNum": 3,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "What is Kerala's cuisine known for ?"
+        },
+        {
+          "qNum": 4,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "What gives sea food its pungency?"
+        },
+        {
+          "qNum": 5,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "Why would foreign bargain-hunter visitors never face a problem in Kera"
+        },
+        {
+          "qNum": 6,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "If you reach _____ Airport on time, you will catch the flight."
+        },
+        {
+          "qNum": 7,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "You should go for ____ early morning walk."
+        },
+        {
+          "qNum": 8,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "If 30th April is Tuesday, what day of the week would be 10th May?"
+        },
+        {
+          "qNum": 9,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "रतन ने दौड़कर अजय को क्यों रोकना चाहा ?"
+        },
+        {
+          "qNum": 10,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "रतन अजय को अच्छा छात्र बनने के लिए क्यों सलाह देता था ?"
+        },
+        {
+          "qNum": 11,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "रतन कैसा छात्र था ?"
+        },
+        {
+          "qNum": 12,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "रतन और अजय आपस में क्या थे ?"
+        },
+        {
+          "qNum": 13,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "सभी शिक्षक रतन से क्यों प्रसन्न रहते थे ?"
+        },
+        {
+          "qNum": 14,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "अजय किस काम में अधिक मन लगाता था ?"
+        },
+        {
+          "qNum": 15,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "शिवाजी वीर होने के साथ और क्या थे ?"
+        },
+        {
+          "qNum": 16,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "शिवाजी ने लोगों में कौन सी भावना भर दी ?"
+        },
+        {
+          "qNum": 17,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "शिवाजी कौन थे ?"
+        },
+        {
+          "qNum": 18,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "लोग शिवाजी का आदर क्यों करते थे ?"
+        },
+        {
+          "qNum": 19,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "इनमें 'राजनीतिज्ञ' शब्द का अर्थ है -"
+        },
+        {
+          "qNum": 20,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "इनमें अपठित गद्यांश का शीर्षक है -"
+        },
+        {
+          "qNum": 21,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "इनमें व्यक्तिवाचक संज्ञा है -"
+        },
+        {
+          "qNum": 22,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "इनमें उत्तमपुरुष सर्वनाम है -"
+        },
+        {
+          "qNum": 23,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "\"दुकान पर कोई नहीं था।\" वाक्य में किस कारक का चिह्न प्रयुक्त हुआ है ?"
+        },
+        {
+          "qNum": 24,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "इनमें तत्सम शब्द है -"
+        },
+        {
+          "qNum": 25,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "इनमें शुद्ध शब्द है -"
+        },
+        {
+          "qNum": 26,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "इनमें 'उत्कृष्ट' शब्द का विपरीतार्थक शब्द है -"
+        },
+        {
+          "qNum": 27,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "इनमें शुद्ध वाक्य है -"
+        },
+        {
+          "qNum": 28,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "इनमें 'जल' शब्द का पर्यायवाची शब्द है -"
+        },
+        {
+          "qNum": 29,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "\"जहाँ लोगों का मिलन हो\" वाक्यांश के लिए एक शब्द है -"
+        },
+        {
+          "qNum": 30,
+          "section": "Part I: Language (English & Hindi)",
+          "text": "\"खटाई में पड़ना\" मुहावरे का अर्थ है -"
+        },
+        {
+          "qNum": 31,
+          "section": "Part II: General Studies",
+          "text": "Which of the following is the value of (x+1/x)2 ?"
+        },
+        {
+          "qNum": 32,
+          "section": "Part II: General Studies",
+          "text": "An article is at 10% more than the CP. If discount of 10% is allowed t"
+        },
+        {
+          "qNum": 33,
+          "section": "Part II: General Studies",
+          "text": "By what number should 81 be divided to get a perfect cube ?"
+        },
+        {
+          "qNum": 34,
+          "section": "Part II: General Studies",
+          "text": "The difference between two whole numbers is 66. The ratio of the two n"
+        },
+        {
+          "qNum": 35,
+          "section": "Part II: General Studies",
+          "text": "In a parallelogram ABCD, angle A and angle B are in the ratio 1:2. Fin"
+        },
+        {
+          "qNum": 36,
+          "section": "Part II: General Studies",
+          "text": "The height of a cylinder whose radius is 7 cm and the total surface ar"
+        },
+        {
+          "qNum": 37,
+          "section": "Part II: General Studies",
+          "text": "If (–3)m+1 × (–3)5 = (–3)7, then the value of m is :"
+        },
+        {
+          "qNum": 38,
+          "section": "Part II: General Studies",
+          "text": "If x and y are inversely proportional, then:"
+        },
+        {
+          "qNum": 39,
+          "section": "Part II: General Studies",
+          "text": "A piece of wire of resistance R is cut into 5 equal parts. These parts"
+        },
+        {
+          "qNum": 40,
+          "section": "Part II: General Studies",
+          "text": "An electric heater of resistance 8  draws 15A current from a service "
+        },
+        {
+          "qNum": 41,
+          "section": "Part II: General Studies",
+          "text": "Which of the following lenses would you prefer to use while reading sm"
+        },
+        {
+          "qNum": 42,
+          "section": "Part II: General Studies",
+          "text": "The human eye forms the image of an object at its ________"
+        },
+        {
+          "qNum": 43,
+          "section": "Part II: General Studies",
+          "text": "Which of the following is not a part of the female reproductive system"
+        },
+        {
+          "qNum": 44,
+          "section": "Part II: General Studies",
+          "text": "The anther contains _________"
+        },
+        {
+          "qNum": 45,
+          "section": "Part II: General Studies",
+          "text": "Asexual reproduction takes place through budding in ______"
+        },
+        {
+          "qNum": 46,
+          "section": "Part II: General Studies",
+          "text": "Which one of the following types of medicines used for treating indige"
+        },
+        {
+          "qNum": 47,
+          "section": "Part II: General Studies",
+          "text": "The task of processing citizenship applications under the CAA will be "
+        },
+        {
+          "qNum": 48,
+          "section": "Part II: General Studies",
+          "text": "In which of the following country India launched its UPI ?"
+        },
+        {
+          "qNum": 49,
+          "section": "Part II: General Studies",
+          "text": "What is the name of space craft to be launched by ISRO in 2024 to carr"
+        },
+        {
+          "qNum": 50,
+          "section": "Part II: General Studies",
+          "text": "Which country is not a member of G 7 ?"
+        },
+        {
+          "qNum": 51,
+          "section": "Part II: General Studies",
+          "text": "The process involved in achieving Green hydrogen is"
+        },
+        {
+          "qNum": 52,
+          "section": "Part II: General Studies",
+          "text": "Which technology can be used to revise deceased individuals ?"
+        },
+        {
+          "qNum": 53,
+          "section": "Part II: General Studies",
+          "text": "In cost of living index parameter 2024 which country is better than In"
+        },
+        {
+          "qNum": 54,
+          "section": "Part II: General Studies",
+          "text": "Who supported Gandhiji in Champaran Satyagraha in 1917 in support of f"
+        },
+        {
+          "qNum": 55,
+          "section": "Part II: General Studies",
+          "text": "Which is the moon-like planet ?"
+        },
+        {
+          "qNum": 56,
+          "section": "Part II: General Studies",
+          "text": "On the basis of fossils which is the origin place of man ?"
+        },
+        {
+          "qNum": 57,
+          "section": "Part II: General Studies",
+          "text": "In India dry point settlement is found in"
+        },
+        {
+          "qNum": 58,
+          "section": "Part II: General Studies",
+          "text": "In which district of Bihar Paddy crop production is maximum ?"
+        },
+        {
+          "qNum": 59,
+          "section": "Part II: General Studies",
+          "text": "On which mountain is Tehran situated ?"
+        },
+        {
+          "qNum": 60,
+          "section": "Part II: General Studies",
+          "text": "The highest peak in the Eastern Ghats of India is :"
+        },
+        {
+          "qNum": 61,
+          "section": "Part II: General Studies",
+          "text": "Which of these statements is not a valid reason for the depletion of f"
+        },
+        {
+          "qNum": 62,
+          "section": "Part II: General Studies",
+          "text": "In which district of Bihar silk textile production is maximum ?"
+        },
+        {
+          "qNum": 63,
+          "section": "Part II: General Studies",
+          "text": "Who was the viceroy of India during the Jallianwala Bagh massacre ?"
+        },
+        {
+          "qNum": 64,
+          "section": "Part II: General Studies",
+          "text": "The first President of the Indian National Congress was:"
+        },
+        {
+          "qNum": 65,
+          "section": "Part II: General Studies",
+          "text": "Who among the following is also known as the Grand old man of India ?"
+        },
+        {
+          "qNum": 66,
+          "section": "Part II: General Studies",
+          "text": "Which of the following movements was started by M. K. Gandhi ?"
+        },
+        {
+          "qNum": 67,
+          "section": "Part II: General Studies",
+          "text": "Who was the leader of the Bardoli Satyagraha ?"
+        },
+        {
+          "qNum": 68,
+          "section": "Part II: General Studies",
+          "text": "Who among the following is not associated with Home rule movement ?"
+        },
+        {
+          "qNum": 69,
+          "section": "Part II: General Studies",
+          "text": "Who founded the Bihar provincial congress committee in 1920 ?"
+        },
+        {
+          "qNum": 70,
+          "section": "Part II: General Studies",
+          "text": "The All India Kisan Sabha (AIKS) was founded in 1936 in Bihar under th"
+        },
+        {
+          "qNum": 71,
+          "section": "Part III: Computer Science",
+          "text": "Digital circuit can be made by the repeated use of the _________."
+        },
+        {
+          "qNum": 72,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is correct for Digital Circuits?"
+        },
+        {
+          "qNum": 73,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is an example of a digital Electronic?"
+        },
+        {
+          "qNum": 74,
+          "section": "Part III: Computer Science",
+          "text": "An OR gate has 4 inputs. The number of words in truth table will be __"
+        },
+        {
+          "qNum": 75,
+          "section": "Part III: Computer Science",
+          "text": "When does a negative level triggered flip-flop in Digital Electronics "
+        },
+        {
+          "qNum": 76,
+          "section": "Part III: Computer Science",
+          "text": "What is the result of the operation 1010 AND 1100 in binary?"
+        },
+        {
+          "qNum": 77,
+          "section": "Part III: Computer Science",
+          "text": "In a half-adder circuit, what are the outputs?"
+        },
+        {
+          "qNum": 78,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is the type of Read Only Memory (ROM)?"
+        },
+        {
+          "qNum": 79,
+          "section": "Part III: Computer Science",
+          "text": "What is a PLA?"
+        },
+        {
+          "qNum": 80,
+          "section": "Part III: Computer Science",
+          "text": "How many select lines are required for an 8-to-1 multiplexer?"
+        },
+        {
+          "qNum": 81,
+          "section": "Part III: Computer Science",
+          "text": "Convert the decimal number 1234 to binary, octal, and hexadecimal. Whi"
+        },
+        {
+          "qNum": 82,
+          "section": "Part III: Computer Science",
+          "text": "What is Booth’s algorithm used for?"
+        },
+        {
+          "qNum": 83,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is error detection code used in digital logic?"
+        },
+        {
+          "qNum": 84,
+          "section": "Part III: Computer Science",
+          "text": "When performing BCD addition, what is the maximum value that can be re"
+        },
+        {
+          "qNum": 85,
+          "section": "Part III: Computer Science",
+          "text": "Convert the binary number 1011.1101 to its decimal equivalent. Which o"
+        },
+        {
+          "qNum": 86,
+          "section": "Part III: Computer Science",
+          "text": "What is De Morgan’s theorem used for in digital logic?"
+        },
+        {
+          "qNum": 87,
+          "section": "Part III: Computer Science",
+          "text": "What is the purpose of the “don’t care” condition in digital logic?"
+        },
+        {
+          "qNum": 88,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following data structures stores elements in a non-linear"
+        },
+        {
+          "qNum": 89,
+          "section": "Part III: Computer Science",
+          "text": "Which data structure is used for efficient searching, insertion, and d"
+        },
+        {
+          "qNum": 90,
+          "section": "Part III: Computer Science",
+          "text": "In a binary search tree, which subtree of a node contains elements tha"
+        },
+        {
+          "qNum": 91,
+          "section": "Part III: Computer Science",
+          "text": "The result evaluating the postfix expression 10 5 + 60 6/ * 8"
+        },
+        {
+          "qNum": 92,
+          "section": "Part III: Computer Science",
+          "text": "In a balanced binary tree, the height of two sub-trees of every node c"
+        },
+        {
+          "qNum": 93,
+          "section": "Part III: Computer Science",
+          "text": "Write the output of the following program: int a[ ] = {1,2,3,} *p;"
+        },
+        {
+          "qNum": 94,
+          "section": "Part III: Computer Science",
+          "text": "A queue has configuration a, b, c, d. If you want to get the configura"
+        },
+        {
+          "qNum": 95,
+          "section": "Part III: Computer Science",
+          "text": "The order of the binary search algorithm is _______."
+        },
+        {
+          "qNum": 96,
+          "section": "Part III: Computer Science",
+          "text": "The preorder traversal of a binary search tree is 15, 10, 12, 11,20, 1"
+        },
+        {
+          "qNum": 97,
+          "section": "Part III: Computer Science",
+          "text": "How many distinct binary search trees can be created out of 4 distinct"
+        },
+        {
+          "qNum": 98,
+          "section": "Part III: Computer Science",
+          "text": "#include <stdio.h> int main() { int i = 5, j = 10, k = 15; printf(\\\"%d"
+        },
+        {
+          "qNum": 99,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following statements is true about Big-O notation?"
+        },
+        {
+          "qNum": 100,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is NOT a step in the Divide and Conquer algorit"
+        },
+        {
+          "qNum": 101,
+          "section": "Part III: Computer Science",
+          "text": "Merge Sort is an example of which algorithm design paradigm?"
+        },
+        {
+          "qNum": 102,
+          "section": "Part III: Computer Science",
+          "text": "How many edges does a spanning tree of a graph with N vertices have?"
+        },
+        {
+          "qNum": 103,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is NOT a graph traversal algorithm?"
+        },
+        {
+          "qNum": 104,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is NOT an NP- Complete problem?"
+        },
+        {
+          "qNum": 105,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is an advantage of using arrays?"
+        },
+        {
+          "qNum": 106,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is NOT a basic operation performed on a data st"
+        },
+        {
+          "qNum": 107,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is a type of operating system?"
+        },
+        {
+          "qNum": 108,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is NOT a memory management technique used by op"
+        },
+        {
+          "qNum": 109,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is a file system commonly used in operating sys"
+        },
+        {
+          "qNum": 110,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is NOT a type of interrupt?"
+        },
+        {
+          "qNum": 111,
+          "section": "Part III: Computer Science",
+          "text": "What is a page in paging?"
+        },
+        {
+          "qNum": 112,
+          "section": "Part III: Computer Science",
+          "text": "In a system with a page size of 4 KB and a physical address space of 6"
+        },
+        {
+          "qNum": 113,
+          "section": "Part III: Computer Science",
+          "text": "What is a segment base in segmentation?"
+        },
+        {
+          "qNum": 114,
+          "section": "Part III: Computer Science",
+          "text": "What causes thrashing to occur?"
+        },
+        {
+          "qNum": 115,
+          "section": "Part III: Computer Science",
+          "text": "Consider a system with a total physical memory of 8 GB and total virtu"
+        },
+        {
+          "qNum": 116,
+          "section": "Part III: Computer Science",
+          "text": "How is the TLB typically organized?"
+        },
+        {
+          "qNum": 117,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is a common file operation?"
+        },
+        {
+          "qNum": 118,
+          "section": "Part III: Computer Science",
+          "text": "Consider a disk queue with requests for I/O to blocks on cylinders. 98"
+        },
+        {
+          "qNum": 119,
+          "section": "Part III: Computer Science",
+          "text": "Thread shares with other threads belonging to the same process its"
+        },
+        {
+          "qNum": 120,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is NOT a type of DBMS?"
+        },
+        {
+          "qNum": 121,
+          "section": "Part III: Computer Science",
+          "text": "In a relational database, what is a primary key?"
+        },
+        {
+          "qNum": 122,
+          "section": "Part III: Computer Science",
+          "text": "Which normal form ensures that every non-prime attribute in a table is"
+        },
+        {
+          "qNum": 123,
+          "section": "Part III: Computer Science",
+          "text": "Which SQL command is used to add new rows to a database table?"
+        },
+        {
+          "qNum": 124,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is a disadvantage of using a distributed databa"
+        },
+        {
+          "qNum": 125,
+          "section": "Part III: Computer Science",
+          "text": "What is the primary function of a router in a computer network?"
+        },
+        {
+          "qNum": 126,
+          "section": "Part III: Computer Science",
+          "text": "In the OSI model, which layer is responsible for routing and forwardin"
+        },
+        {
+          "qNum": 127,
+          "section": "Part III: Computer Science",
+          "text": "Which device is used to connect multiple devices within the same local"
+        },
+        {
+          "qNum": 128,
+          "section": "Part III: Computer Science",
+          "text": "Which protocol is used to send email over the Internet?"
+        },
+        {
+          "qNum": 129,
+          "section": "Part III: Computer Science",
+          "text": "What is the purpose of a subnet mask in TCP/IP networking?"
+        },
+        {
+          "qNum": 130,
+          "section": "Part III: Computer Science",
+          "text": "What is the maximum data rate of Bluetooth version 5.0?"
+        },
+        {
+          "qNum": 131,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is a software development life cycle model?"
+        },
+        {
+          "qNum": 132,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is NOT a software development requirement?"
+        },
+        {
+          "qNum": 133,
+          "section": "Part III: Computer Science",
+          "text": "What is the main difference between verification and validation in sof"
+        },
+        {
+          "qNum": 134,
+          "section": "Part III: Computer Science",
+          "text": "What is the purpose of a software prototype?"
+        },
+        {
+          "qNum": 135,
+          "section": "Part III: Computer Science",
+          "text": "What is the primary goal of software engineering?"
+        },
+        {
+          "qNum": 136,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is a pillar of OOP?"
+        },
+        {
+          "qNum": 137,
+          "section": "Part III: Computer Science",
+          "text": "Which keyword is used in Java to implement inheritance?"
+        },
+        {
+          "qNum": 138,
+          "section": "Part III: Computer Science",
+          "text": "What is the access specifier used to make members of a class accessibl"
+        },
+        {
+          "qNum": 139,
+          "section": "Part III: Computer Science",
+          "text": "Inheritance in OOP allows a class to:"
+        },
+        {
+          "qNum": 140,
+          "section": "Part III: Computer Science",
+          "text": "What is the purpose of HTML in a web application?"
+        },
+        {
+          "qNum": 141,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is an example of a server-side scripting langua"
+        },
+        {
+          "qNum": 142,
+          "section": "Part III: Computer Science",
+          "text": "What is the computational complexity of the halting problem?"
+        },
+        {
+          "qNum": 143,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is NOT a component of a Turing machine?"
+        },
+        {
+          "qNum": 144,
+          "section": "Part III: Computer Science",
+          "text": "Which wireless communication technology is commonly used in IoT device"
+        },
+        {
+          "qNum": 145,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is an example of an IoT protocol used for devic"
+        },
+        {
+          "qNum": 146,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is a subfield of AI?"
+        },
+        {
+          "qNum": 147,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is a supervised learning algorithm?"
+        },
+        {
+          "qNum": 148,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is NOT a common type of E-Commerce model?"
+        },
+        {
+          "qNum": 149,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is an example of a B2C E-Commerce website?"
+        },
+        {
+          "qNum": 150,
+          "section": "Part III: Computer Science",
+          "text": "Which of the following is a multimedia authoring tool?"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "unclassified": 150
+      }
+    },
+    {
+      "id": "official_2020",
+      "title": "BSTET Official 2020 Re-Exam - Paper II (CS)",
+      "category": "Official PYQ",
+      "declaredQuestions": 150,
+      "actualQuestions": 150,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 110,
+        "B": 24,
+        "C": 12,
+        "D": 4,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 73.3,
+        "B": 16,
+        "C": 8,
+        "D": 2.7
+      },
+      "flaggedAnswerDistribution": true,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 1,
+          "section": "General Knowledge and Other Skills",
+          "text": "A is the brother of B, C is the father of D, E is the mother of B, A a"
+        },
+        {
+          "qNum": 2,
+          "section": "General Knowledge and Other Skills",
+          "text": "In a coding system, if TEACHER is coded as VGCEJGT, how will CHILDREN "
+        },
+        {
+          "qNum": 3,
+          "section": "General Knowledge and Other Skills",
+          "text": "Find the next number in the series: 4, 9, 25, 49, 121, 169, ?"
+        },
+        {
+          "qNum": 4,
+          "section": "General Knowledge and Other Skills",
+          "text": "Introducing a woman, a man said, 'Her mother is the only daughter of m"
+        },
+        {
+          "qNum": 5,
+          "section": "General Knowledge and Other Skills",
+          "text": "If in a code language 24685 is written as 33776, how will 35791 be wri"
+        },
+        {
+          "qNum": 6,
+          "section": "General Knowledge and Other Skills",
+          "text": "The sum of ages of 5 children born at intervals of 3 years each is 50 "
+        },
+        {
+          "qNum": 7,
+          "section": "General Knowledge and Other Skills",
+          "text": "A train running at 60 km/hr crosses a pole in 9 seconds. What is the l"
+        },
+        {
+          "qNum": 8,
+          "section": "General Knowledge and Other Skills",
+          "text": "A vendor bought bananas at 6 for Rs. 10 and sold them at 4 for Rs. 6. "
+        },
+        {
+          "qNum": 9,
+          "section": "General Knowledge and Other Skills",
+          "text": "The average weight of 8 persons increases by 2.5 kg when a new person "
+        },
+        {
+          "qNum": 10,
+          "section": "General Knowledge and Other Skills",
+          "text": "Two numbers are in the ratio 3:5. If 9 is subtracted from each, the ne"
+        },
+        {
+          "qNum": 11,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which of the following pollutant gases is NOT produced naturally, but "
+        },
+        {
+          "qNum": 12,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which organ of the human body produces the digestive fluid called bile"
+        },
+        {
+          "qNum": 13,
+          "section": "General Knowledge and Other Skills",
+          "text": "Brass is an alloy composed of which metallic elements?"
+        },
+        {
+          "qNum": 14,
+          "section": "General Knowledge and Other Skills",
+          "text": "What is the SI unit of electric potential difference (voltage)?"
+        },
+        {
+          "qNum": 15,
+          "section": "General Knowledge and Other Skills",
+          "text": "Sound waves cannot travel through which of the following media?"
+        },
+        {
+          "qNum": 16,
+          "section": "General Knowledge and Other Skills",
+          "text": "A sum of Rs. 7,500 is divided among A, B, and C such that A's share to"
+        },
+        {
+          "qNum": 17,
+          "section": "General Knowledge and Other Skills",
+          "text": "In a row of 30 girls, Radha was shifted by 6 places towards the right "
+        },
+        {
+          "qNum": 18,
+          "section": "General Knowledge and Other Skills",
+          "text": "If South-East becomes North, North-East becomes West and so on, what w"
+        },
+        {
+          "qNum": 19,
+          "section": "General Knowledge and Other Skills",
+          "text": "Statements: All cups are books. All books are shirts. Conclusions: I. "
+        },
+        {
+          "qNum": 20,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which of the following diagrams best represents the relationship among"
+        },
+        {
+          "qNum": 21,
+          "section": "General Knowledge and Other Skills",
+          "text": "Under which Article of the Indian Constitution can the President procl"
+        },
+        {
+          "qNum": 22,
+          "section": "General Knowledge and Other Skills",
+          "text": "Who presides over the joint sitting of both Houses of Parliament in In"
+        },
+        {
+          "qNum": 23,
+          "section": "General Knowledge and Other Skills",
+          "text": "The Right to Education (RTE) was inserted into the Fundamental Rights "
+        },
+        {
+          "qNum": 24,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which district of Bihar has the highest population density as per the "
+        },
+        {
+          "qNum": 25,
+          "section": "General Knowledge and Other Skills",
+          "text": "The river Ganga enters the State of Bihar in which district?"
+        },
+        {
+          "qNum": 26,
+          "section": "General Knowledge and Other Skills",
+          "text": "The Champaran Satyagraha of 1917 was organized by Mahatma Gandhi again"
+        },
+        {
+          "qNum": 27,
+          "section": "General Knowledge and Other Skills",
+          "text": "Who was the founder of the 'Patliputra' city in ancient Magadha?"
+        },
+        {
+          "qNum": 28,
+          "section": "General Knowledge and Other Skills",
+          "text": "Nalanda Mahavihara was founded during the reign of which Gupta emperor"
+        },
+        {
+          "qNum": 29,
+          "section": "General Knowledge and Other Skills",
+          "text": "The primary cause of the depletion of the stratospheric ozone layer is"
+        },
+        {
+          "qNum": 30,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which of the following is considered a non-renewable source of energy?"
+        },
+        {
+          "qNum": 31,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which nation hosted the Summer Olympic Games in 2016?"
+        },
+        {
+          "qNum": 32,
+          "section": "General Knowledge and Other Skills",
+          "text": "The term 'Grand Slam' is associated with which two major sports?"
+        },
+        {
+          "qNum": 33,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which gas is evolved when an acid reacts with an active metal?"
+        },
+        {
+          "qNum": 34,
+          "section": "General Knowledge and Other Skills",
+          "text": "The normal systolic and diastolic blood pressure of a healthy adult hu"
+        },
+        {
+          "qNum": 35,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which cell organelle is commonly referred to as the 'Powerhouse of the"
+        },
+        {
+          "qNum": 36,
+          "section": "General Knowledge and Other Skills",
+          "text": "What is the minimum age prescribed for an Indian citizen to become a m"
+        },
+        {
+          "qNum": 37,
+          "section": "General Knowledge and Other Skills",
+          "text": "Who appoints the Governor of a State in India?"
+        },
+        {
+          "qNum": 38,
+          "section": "General Knowledge and Other Skills",
+          "text": "The highest peak in peninsular South India is:"
+        },
+        {
+          "qNum": 39,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which river is famously known as the 'Sorrow of Bihar' due to its freq"
+        },
+        {
+          "qNum": 40,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which institution replaced the Planning Commission of India on 1st Jan"
+        },
+        {
+          "qNum": 41,
+          "section": "General Knowledge and Other Skills",
+          "text": "The Goods and Services Tax (GST) was implemented in India on:"
+        },
+        {
+          "qNum": 42,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which mirror is utilized as a rear-view mirror in motor vehicles?"
+        },
+        {
+          "qNum": 43,
+          "section": "General Knowledge and Other Skills",
+          "text": "The phenomenon responsible for the twinkling of stars in the night sky"
+        },
+        {
+          "qNum": 44,
+          "section": "General Knowledge and Other Skills",
+          "text": "The Chipko Movement, a non-violent social and ecological movement in t"
+        },
+        {
+          "qNum": 45,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which of the following is a biodegradable organic waste product?"
+        },
+        {
+          "qNum": 46,
+          "section": "General Knowledge and Other Skills",
+          "text": "What is the capital city of Australia?"
+        },
+        {
+          "qNum": 47,
+          "section": "General Knowledge and Other Skills",
+          "text": "In mobile telecommunications terminology, for which word has the lette"
+        },
+        {
+          "qNum": 48,
+          "section": "General Knowledge and Other Skills",
+          "text": "Who is known as the 'Nightingale of India' (Bharat Kokila)?"
+        },
+        {
+          "qNum": 49,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which Indian classical dance form originated in the State of Kerala?"
+        },
+        {
+          "qNum": 50,
+          "section": "General Knowledge and Other Skills",
+          "text": "The headquarters of the United Nations Educational, Scientific and Cul"
+        },
+        {
+          "qNum": 53,
+          "section": "Computer Science",
+          "text": "Which keyboard shortcut executes the 'Paste' command in Windows applic"
+        },
+        {
+          "qNum": 57,
+          "section": "Computer Science",
+          "text": "The gutter margin in document page layout is used to:"
+        },
+        {
+          "qNum": 59,
+          "section": "Computer Science",
+          "text": "Which formatting toolbar command in MS Word aligns text simultaneously"
+        },
+        {
+          "qNum": 101,
+          "section": "Computer Science",
+          "text": "In C, strings are terminated by which special character?"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "unclassified": 54,
+        "cs-05-os": 11,
+        "cs-06-dbms": 13,
+        "cs-01-digital-logic": 11,
+        "cs-04-algorithms": 4,
+        "cs-03-prog-ds": 11,
+        "cs-07-networks": 14,
+        "cs-09-oop": 5,
+        "cs-08-software-eng": 8,
+        "cs-02-coa": 12,
+        "cs-10-web-dev": 6,
+        "cs-12-iot": 1
+      }
+    },
+    {
+      "id": "official_2019",
+      "title": "BSTET Official 2019 - Paper II (CS)",
+      "category": "Official PYQ",
+      "declaredQuestions": 150,
+      "actualQuestions": 150,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 60,
+        "B": 49,
+        "C": 28,
+        "D": 13,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 40,
+        "B": 32.7,
+        "C": 18.7,
+        "D": 8.7
+      },
+      "flaggedAnswerDistribution": true,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [
+        {
+          "sig": "anipvinternetprotocolversionaddresshasalengthof",
+          "qNums": [
+            115,
+            116
+          ],
+          "count": 2
+        }
+      ],
+      "withinPaperDuplicatesCount": 1,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 1,
+          "section": "General Knowledge and Other Skills",
+          "text": "Among the following whom did K.K. Foundation on May 16, 2019 announce "
+        },
+        {
+          "qNum": 2,
+          "section": "General Knowledge and Other Skills",
+          "text": "54th Jnanpith Award was given to which English writer in New Delhi on "
+        },
+        {
+          "qNum": 3,
+          "section": "General Knowledge and Other Skills",
+          "text": "Among the following, who was the Chief Election Commissioner of India "
+        },
+        {
+          "qNum": 4,
+          "section": "General Knowledge and Other Skills",
+          "text": "The minimum pension provided to farmers attaining the age of 60 years "
+        },
+        {
+          "qNum": 5,
+          "section": "General Knowledge and Other Skills",
+          "text": "The winner of world mixed team badminton championship Sudirman Cup 201"
+        },
+        {
+          "qNum": 6,
+          "section": "General Knowledge and Other Skills",
+          "text": "A number being divided by 52 gives remainder 45. If the number is divi"
+        },
+        {
+          "qNum": 7,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which of the following is the largest number: √2, ∛3, ∜4, ∛4?"
+        },
+        {
+          "qNum": 8,
+          "section": "General Knowledge and Other Skills",
+          "text": "The ratio of two numbers is 3:4 and their LCM is 120. The sum of the n"
+        },
+        {
+          "qNum": 9,
+          "section": "General Knowledge and Other Skills",
+          "text": "When 60 is subtracted from 60% of a number, the result is 60. The numb"
+        },
+        {
+          "qNum": 10,
+          "section": "General Knowledge and Other Skills",
+          "text": "If the cost price of 15 books is equal to the selling price of 20 book"
+        },
+        {
+          "qNum": 11,
+          "section": "General Knowledge and Other Skills",
+          "text": "The average of 20 numbers is 15 and the average of first five numbers "
+        },
+        {
+          "qNum": 12,
+          "section": "General Knowledge and Other Skills",
+          "text": "If A:B = 3:4, B:C = 5:7 and C:D = 8:9, then A:D is equal to:"
+        },
+        {
+          "qNum": 13,
+          "section": "General Knowledge and Other Skills",
+          "text": "The perimeter of a rectangle is 160 metre, and the difference of two s"
+        },
+        {
+          "qNum": 14,
+          "section": "General Knowledge and Other Skills",
+          "text": "A man walking at the rate of 5 km/hr crosses a bridge in 15 minutes. T"
+        },
+        {
+          "qNum": 15,
+          "section": "General Knowledge and Other Skills",
+          "text": "If A is an acute angle and cot A + cosec A = 3, then the value of sin "
+        },
+        {
+          "qNum": 16,
+          "section": "General Knowledge and Other Skills",
+          "text": "If DEEP is coded in a symbolic language as 60 and RABIT as 100, then h"
+        },
+        {
+          "qNum": 17,
+          "section": "General Knowledge and Other Skills",
+          "text": "If 'x' means '-', '÷' means '+', '+' means '÷', then 8 + 4 × 2 - 4 ÷ 2"
+        },
+        {
+          "qNum": 18,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which number will take place of (?) in the following number series: 16"
+        },
+        {
+          "qNum": 19,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which option will take place of (?) in the following letter pattern: J"
+        },
+        {
+          "qNum": 20,
+          "section": "General Knowledge and Other Skills",
+          "text": "Find the missing term in the sequence: 1, 8, 27, 64, 125, 216, ?"
+        },
+        {
+          "qNum": 21,
+          "section": "General Knowledge and Other Skills",
+          "text": "A is the brother of B, C is the father of D, E is the mother of B, A a"
+        },
+        {
+          "qNum": 22,
+          "section": "General Knowledge and Other Skills",
+          "text": "In a class of 45 students, a boy is ranked 20th from the top. When two"
+        },
+        {
+          "qNum": 23,
+          "section": "General Knowledge and Other Skills",
+          "text": "Pointing to a photograph, a man said, 'I have no brother or sister but"
+        },
+        {
+          "qNum": 24,
+          "section": "General Knowledge and Other Skills",
+          "text": "A person travels 10 km towards North, turns right and travels 5 km, th"
+        },
+        {
+          "qNum": 25,
+          "section": "General Knowledge and Other Skills",
+          "text": "Choose the odd one out from the following:"
+        },
+        {
+          "qNum": 26,
+          "section": "General Knowledge and Other Skills",
+          "text": "Who said, 'The Directive Principles should be made the basis of all fu"
+        },
+        {
+          "qNum": 27,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which of the following does not belong to the solar system?"
+        },
+        {
+          "qNum": 28,
+          "section": "General Knowledge and Other Skills",
+          "text": "The plants which grow on saline soil are known as:"
+        },
+        {
+          "qNum": 29,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which Schedule of the Constitution of India deals with allocation of s"
+        },
+        {
+          "qNum": 30,
+          "section": "General Knowledge and Other Skills",
+          "text": "The chemical name of Vitamin C is:"
+        },
+        {
+          "qNum": 31,
+          "section": "General Knowledge and Other Skills",
+          "text": "Light year is a unit of measurement of:"
+        },
+        {
+          "qNum": 32,
+          "section": "General Knowledge and Other Skills",
+          "text": "Who was the first woman President of the Indian National Congress?"
+        },
+        {
+          "qNum": 33,
+          "section": "General Knowledge and Other Skills",
+          "text": "Under Article 75(3) of the Constitution of India, the Council of Minis"
+        },
+        {
+          "qNum": 34,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which State in India has the longest coastline?"
+        },
+        {
+          "qNum": 35,
+          "section": "General Knowledge and Other Skills",
+          "text": "World Environment Day is celebrated annually across the world on:"
+        },
+        {
+          "qNum": 36,
+          "section": "General Knowledge and Other Skills",
+          "text": "The 'World Wetlands Day' is celebrated on which day?"
+        },
+        {
+          "qNum": 37,
+          "section": "General Knowledge and Other Skills",
+          "text": "'Durand Cup' is associated with which of the following games?"
+        },
+        {
+          "qNum": 38,
+          "section": "General Knowledge and Other Skills",
+          "text": "'Swaraj is my birthright and I shall have it.' Who made this famous de"
+        },
+        {
+          "qNum": 39,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which of the following was a prominent Harappan port town with an arti"
+        },
+        {
+          "qNum": 40,
+          "section": "General Knowledge and Other Skills",
+          "text": "Fundamental Rights are enshrined in which Part of the Indian Constitut"
+        },
+        {
+          "qNum": 41,
+          "section": "General Knowledge and Other Skills",
+          "text": "Which of the following gases is primarily responsible for the greenhou"
+        },
+        {
+          "qNum": 42,
+          "section": "General Knowledge and Other Skills",
+          "text": "Richter scale is used for measuring:"
+        },
+        {
+          "qNum": 43,
+          "section": "General Knowledge and Other Skills",
+          "text": "In plants, the process of photosynthesis primarily takes place in:"
+        },
+        {
+          "qNum": 44,
+          "section": "General Knowledge and Other Skills",
+          "text": "Who was the Chairman of the Drafting Committee of the Constituent Asse"
+        },
+        {
+          "qNum": 45,
+          "section": "General Knowledge and Other Skills",
+          "text": "The practice of Sati was legally abolished in India in 1829 under the "
+        },
+        {
+          "qNum": 46,
+          "section": "General Knowledge and Other Skills",
+          "text": "Kaziranga National Park in Assam is world famous for conserving which "
+        },
+        {
+          "qNum": 47,
+          "section": "General Knowledge and Other Skills",
+          "text": "What is the official currency of Japan?"
+        },
+        {
+          "qNum": 48,
+          "section": "General Knowledge and Other Skills",
+          "text": "The ozone layer, which absorbs harmful ultraviolet radiation from the "
+        },
+        {
+          "qNum": 49,
+          "section": "General Knowledge and Other Skills",
+          "text": "The permanent Secretariat of SAARC (South Asian Association for Region"
+        },
+        {
+          "qNum": 50,
+          "section": "General Knowledge and Other Skills",
+          "text": "The International Court of Justice (ICJ) has its seat located at:"
+        },
+        {
+          "qNum": 52,
+          "section": "Computer Science",
+          "text": "The basic operations performed by a computer are:"
+        },
+        {
+          "qNum": 53,
+          "section": "Computer Science",
+          "text": "Who is recognized as the inventor of the mechanical 'Difference Engine"
+        },
+        {
+          "qNum": 57,
+          "section": "Computer Science",
+          "text": "Who is known as the 'Father of the Computer'?"
+        },
+        {
+          "qNum": 63,
+          "section": "Computer Science",
+          "text": "1 Kilobyte (KB) is exactly equal to:"
+        },
+        {
+          "qNum": 70,
+          "section": "Computer Science",
+          "text": "Which scale of Integrated Circuits (ICs) was introduced during the thi"
+        },
+        {
+          "qNum": 82,
+          "section": "Computer Science",
+          "text": "In page setup options, 'Portrait' and 'Landscape' represent:"
+        },
+        {
+          "qNum": 85,
+          "section": "Computer Science",
+          "text": "Superscript, subscript, strikethrough, and small caps are categorized "
+        },
+        {
+          "qNum": 89,
+          "section": "Computer Science",
+          "text": "In Microsoft Excel, every formula must begin with which character?"
+        },
+        {
+          "qNum": 90,
+          "section": "Computer Science",
+          "text": "Which Excel function calculates the total count of cells that contain "
+        },
+        {
+          "qNum": 98,
+          "section": "Computer Science",
+          "text": "Which chart type in Excel is best suited for depicting continuous tren"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "unclassified": 60,
+        "cs-02-coa": 9,
+        "cs-05-os": 11,
+        "cs-01-digital-logic": 13,
+        "cs-10-web-dev": 3,
+        "cs-07-networks": 23,
+        "cs-03-prog-ds": 6,
+        "cs-04-algorithms": 2,
+        "cs-06-dbms": 17,
+        "cs-09-oop": 6
+      }
+    },
+    {
+      "id": "pedagogy_shift_set1",
+      "title": "BSTET Art of Teaching 2023 - Shift 1 (Set 01)",
+      "category": "Official PYQ",
+      "declaredQuestions": 30,
+      "actualQuestions": 30,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 10,
+        "B": 8,
+        "C": 4,
+        "D": 8,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 33.3,
+        "B": 26.7,
+        "C": 13.3,
+        "D": 26.7
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 1,
+          "section": "Art of Teaching",
+          "text": "Knowledge related to facts is -"
+        },
+        {
+          "qNum": 2,
+          "section": "Art of Teaching",
+          "text": "Combining elements to create a new form is -"
+        },
+        {
+          "qNum": 3,
+          "section": "Art of Teaching",
+          "text": "Which of the following social skills is NOT developed through \ncollabo"
+        },
+        {
+          "qNum": 4,
+          "section": "Art of Teaching",
+          "text": "The least attractive teaching method is -"
+        },
+        {
+          "qNum": 5,
+          "section": "Art of Teaching",
+          "text": "Teaching method that involves learners in real-life problem -"
+        },
+        {
+          "qNum": 10,
+          "section": "Art of Teaching",
+          "text": "Excursion method develops -"
+        },
+        {
+          "qNum": 11,
+          "section": "Art of Teaching",
+          "text": "Determines subject matter -"
+        },
+        {
+          "qNum": 16,
+          "section": "Art of Teaching",
+          "text": "The first step in measurement is -"
+        },
+        {
+          "qNum": 17,
+          "section": "Art of Teaching",
+          "text": "Which of the following has the least scope?"
+        },
+        {
+          "qNum": 19,
+          "section": "Art of Teaching",
+          "text": "Correct sequence among the following is -"
+        },
+        {
+          "qNum": 20,
+          "section": "Art of Teaching",
+          "text": "Which type of questions is more reliable?"
+        },
+        {
+          "qNum": 21,
+          "section": "Art of Teaching",
+          "text": "Which type of question is difficult to mark reliably?"
+        },
+        {
+          "qNum": 22,
+          "section": "Art of Teaching",
+          "text": "Projective techniques are mainly used to measure -"
+        },
+        {
+          "qNum": 26,
+          "section": "Art of Teaching",
+          "text": "Number of scores obtained in a class interval is called -"
+        },
+        {
+          "qNum": 27,
+          "section": "Art of Teaching",
+          "text": "The difference between maximum and minimum values is called -"
+        },
+        {
+          "qNum": 28,
+          "section": "Art of Teaching",
+          "text": "Main advantage of essay-type questions is -"
+        },
+        {
+          "qNum": 29,
+          "section": "Art of Teaching",
+          "text": "Most widely applied test item is -"
+        },
+        {
+          "qNum": 30,
+          "section": "Art of Teaching",
+          "text": "Founder of modern intelligence tests was -"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "unclassified": 18,
+        "at-03-methods": 7,
+        "at-01-teaching-learning": 1,
+        "at-09-evaluation-assessment": 4
+      }
+    },
+    {
+      "id": "pedagogy_shift_set2",
+      "title": "BSTET Art of Teaching 2023 - Shift 1 (Set 02)",
+      "category": "Official PYQ",
+      "declaredQuestions": 30,
+      "actualQuestions": 30,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 10,
+        "B": 4,
+        "C": 6,
+        "D": 10,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 33.3,
+        "B": 13.3,
+        "C": 20,
+        "D": 33.3
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 1,
+          "section": "Art of Teaching",
+          "text": "Learning is a natural process of?"
+        },
+        {
+          "qNum": 3,
+          "section": "Art of Teaching",
+          "text": "The first stage of cognitive learning is-"
+        },
+        {
+          "qNum": 6,
+          "section": "Art of Teaching",
+          "text": "The features of modern teaching methods are"
+        },
+        {
+          "qNum": 8,
+          "section": "Art of Teaching",
+          "text": "Weakness of the role-play method is"
+        },
+        {
+          "qNum": 12,
+          "section": "Art of Teaching",
+          "text": "Instruction is provided-"
+        },
+        {
+          "qNum": 15,
+          "section": "Art of Teaching",
+          "text": "In an inclusive classroom a teacher should-"
+        },
+        {
+          "qNum": 18,
+          "section": "Art of Teaching",
+          "text": "An effective teacher is-"
+        },
+        {
+          "qNum": 19,
+          "section": "Art of Teaching",
+          "text": "A person can enjoy teaching as a profession when-"
+        },
+        {
+          "qNum": 21,
+          "section": "Art of Teaching",
+          "text": "Evaluation process is-"
+        },
+        {
+          "qNum": 22,
+          "section": "Art of Teaching",
+          "text": "Part of the triangle of evaluation in education is-"
+        },
+        {
+          "qNum": 25,
+          "section": "Art of Teaching",
+          "text": "'Education without burden' was given by-"
+        },
+        {
+          "qNum": 26,
+          "section": "Art of Teaching",
+          "text": "Socialization of children begins with-"
+        },
+        {
+          "qNum": 27,
+          "section": "Art of Teaching",
+          "text": "The process which makes a child socially adapted-"
+        },
+        {
+          "qNum": 28,
+          "section": "Art of Teaching",
+          "text": "Good students are those who-"
+        },
+        {
+          "qNum": 29,
+          "section": "Art of Teaching",
+          "text": "Students learn best by-"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "unclassified": 15,
+        "at-11-factors-affecting": 4,
+        "at-02-objectives-bloom": 3,
+        "at-04-lesson-plan": 2,
+        "at-05-microteaching": 1,
+        "at-06-classroom-mgmt": 2,
+        "at-07-textbook-library": 1,
+        "at-10-curriculum": 2
+      }
+    },
+    {
+      "id": "pedagogy_shift_set3",
+      "title": "BSTET Art of Teaching 2023 - Shift 1 (Set 03)",
+      "category": "Official PYQ",
+      "declaredQuestions": 30,
+      "actualQuestions": 30,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 6,
+        "B": 8,
+        "C": 8,
+        "D": 8,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 20,
+        "B": 26.7,
+        "C": 26.7,
+        "D": 26.7
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 1,
+          "section": "Art of Teaching",
+          "text": "Learning based on action is"
+        },
+        {
+          "qNum": 2,
+          "section": "Art of Teaching",
+          "text": "In the learning process, the learner is"
+        },
+        {
+          "qNum": 4,
+          "section": "Art of Teaching",
+          "text": "Objectives can"
+        },
+        {
+          "qNum": 5,
+          "section": "Art of Teaching",
+          "text": "Use of philosophy in education is for"
+        },
+        {
+          "qNum": 7,
+          "section": "Art of Teaching",
+          "text": "Most useful method in a large class is"
+        },
+        {
+          "qNum": 8,
+          "section": "Art of Teaching",
+          "text": "The goal of teaching is"
+        },
+        {
+          "qNum": 11,
+          "section": "Art of Teaching",
+          "text": "At what age can children enjoy word play, jokes, and riddles?"
+        },
+        {
+          "qNum": 12,
+          "section": "Art of Teaching",
+          "text": "Carol Gilligan criticized Kohlberg’s moral development theory from:"
+        },
+        {
+          "qNum": 13,
+          "section": "Art of Teaching",
+          "text": "In infancy, ……… socialization institutions are important, while in ear"
+        },
+        {
+          "qNum": 14,
+          "section": "Art of Teaching",
+          "text": "What is required for good teaching?"
+        },
+        {
+          "qNum": 18,
+          "section": "Art of Teaching",
+          "text": "The nature of teacher effectiveness is"
+        },
+        {
+          "qNum": 20,
+          "section": "Art of Teaching",
+          "text": "In the teaching-learning process, the teacher plays an important role "
+        },
+        {
+          "qNum": 23,
+          "section": "Art of Teaching",
+          "text": "Assessment is related to"
+        },
+        {
+          "qNum": 28,
+          "section": "Art of Teaching",
+          "text": "Which of the following does not play a role in teaching-learning?"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "unclassified": 14,
+        "at-02-objectives-bloom": 2,
+        "at-03-methods": 2,
+        "at-04-lesson-plan": 2,
+        "at-07-textbook-library": 2,
+        "at-08-qualities-teacher": 1,
+        "at-09-evaluation-assessment": 2,
+        "at-10-curriculum": 2,
+        "at-11-factors-affecting": 1,
+        "at-12-teaching-aids": 2
+      }
+    },
+    {
+      "id": "pedagogy_shift_set4",
+      "title": "BSTET Art of Teaching 2023 - Shift 1 (Set 04)",
+      "category": "Official PYQ",
+      "declaredQuestions": 30,
+      "actualQuestions": 30,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 9,
+        "B": 4,
+        "C": 6,
+        "D": 11,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 30,
+        "B": 13.3,
+        "C": 20,
+        "D": 36.7
+      },
+      "flaggedAnswerDistribution": true,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 1,
+          "section": "Art of Teaching",
+          "text": "If a child fails to answer in class, the teacher should–"
+        },
+        {
+          "qNum": 2,
+          "section": "Art of Teaching",
+          "text": "To ensure students’ participation, we use–"
+        },
+        {
+          "qNum": 3,
+          "section": "Art of Teaching",
+          "text": "Which of the following is NOT a principle of cooperative teaching–"
+        },
+        {
+          "qNum": 4,
+          "section": "Art of Teaching",
+          "text": "Using a verb to write specific objections makes it–"
+        },
+        {
+          "qNum": 5,
+          "section": "Art of Teaching",
+          "text": "The process of establishing a sequence for a task is–"
+        },
+        {
+          "qNum": 6,
+          "section": "Art of Teaching",
+          "text": "The field trip method develops–"
+        },
+        {
+          "qNum": 11,
+          "section": "Art of Teaching",
+          "text": "In early childhood, development is … and thinking …, while in middle c"
+        },
+        {
+          "qNum": 18,
+          "section": "Art of Teaching",
+          "text": "Which of the following is NOT a teacher’s quality–"
+        },
+        {
+          "qNum": 19,
+          "section": "Art of Teaching",
+          "text": "Which personal quality of a teacher affects teaching–"
+        },
+        {
+          "qNum": 20,
+          "section": "Art of Teaching",
+          "text": "The role of a teacher in higher education–"
+        },
+        {
+          "qNum": 21,
+          "section": "Art of Teaching",
+          "text": "Assessment process is related to–"
+        },
+        {
+          "qNum": 22,
+          "section": "Art of Teaching",
+          "text": "Which of the following is NOT an assessment tool–"
+        },
+        {
+          "qNum": 24,
+          "section": "Art of Teaching",
+          "text": "The objective of games is–"
+        },
+        {
+          "qNum": 26,
+          "section": "Art of Teaching",
+          "text": "A feature of Indian society is–"
+        },
+        {
+          "qNum": 30,
+          "section": "Art of Teaching",
+          "text": "Dienes blocks are used for–"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "unclassified": 15,
+        "at-03-methods": 2,
+        "at-01-teaching-learning": 1,
+        "at-04-lesson-plan": 2,
+        "at-11-factors-affecting": 4,
+        "at-09-evaluation-assessment": 2,
+        "at-07-textbook-library": 2,
+        "at-10-curriculum": 1,
+        "at-12-teaching-aids": 1
+      }
+    },
+    {
+      "id": "pedagogy_shift_set5",
+      "title": "BSTET Art of Teaching 2023 - Shift 1 (Set 05)",
+      "category": "Official PYQ",
+      "declaredQuestions": 30,
+      "actualQuestions": 30,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 11,
+        "B": 8,
+        "C": 8,
+        "D": 3,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 36.7,
+        "B": 26.7,
+        "C": 26.7,
+        "D": 10
+      },
+      "flaggedAnswerDistribution": true,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 1,
+          "section": "Art of Teaching",
+          "text": "Learning is a continuous process –"
+        },
+        {
+          "qNum": 2,
+          "section": "Art of Teaching",
+          "text": "To develop cooperation and team spirit, the appropriate activity is –"
+        },
+        {
+          "qNum": 3,
+          "section": "Art of Teaching",
+          "text": "In teaching, the teacher is –"
+        },
+        {
+          "qNum": 5,
+          "section": "Art of Teaching",
+          "text": "Another name for purpose, aim, destination is –"
+        },
+        {
+          "qNum": 8,
+          "section": "Art of Teaching",
+          "text": "Drama or role-play is suitable for teaching –"
+        },
+        {
+          "qNum": 11,
+          "section": "Art of Teaching",
+          "text": "Which of the following does not contribute during learning?"
+        },
+        {
+          "qNum": 12,
+          "section": "Art of Teaching",
+          "text": "Which of the following is a gross motor skill?"
+        },
+        {
+          "qNum": 13,
+          "section": "Art of Teaching",
+          "text": "Physical growth and development follow the principles of … and …"
+        },
+        {
+          "qNum": 20,
+          "section": "Art of Teaching",
+          "text": "In the teaching-learning process, the teacher plays an important role "
+        },
+        {
+          "qNum": 23,
+          "section": "Art of Teaching",
+          "text": "Evaluation is related to –"
+        },
+        {
+          "qNum": 24,
+          "section": "Art of Teaching",
+          "text": "What did the Hunter commission appointed by the viceroy probe?"
+        },
+        {
+          "qNum": 26,
+          "section": "Art of Teaching",
+          "text": "Mosley divided human needs into how many parts?"
+        },
+        {
+          "qNum": 28,
+          "section": "Art of Teaching",
+          "text": "Which of the following domesticated animals was absent in the terracot"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "unclassified": 13,
+        "at-01-teaching-learning": 1,
+        "at-03-methods": 4,
+        "at-04-lesson-plan": 2,
+        "at-08-qualities-teacher": 2,
+        "at-07-textbook-library": 2,
+        "at-05-microteaching": 2,
+        "at-09-evaluation-assessment": 2,
+        "at-10-curriculum": 1,
+        "at-02-objectives-bloom": 1
+      }
+    },
+    {
+      "id": "drill_cs_100",
+      "title": "Computer Science 100Q Subject Mastery Drill",
+      "category": "Sectional Drill",
+      "declaredQuestions": 100,
+      "actualQuestions": 100,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 25,
+        "B": 25,
+        "C": 25,
+        "D": 25,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 25,
+        "B": 25,
+        "C": 25,
+        "D": 25
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 95,
+          "section": "Computer Science",
+          "text": "Under the Information Technology (IT) Act, 2000 of India, which sectio"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "cs-01-digital-logic": 5,
+        "cs-02-coa": 10,
+        "cs-03-prog-ds": 13,
+        "cs-04-algorithms": 7,
+        "cs-05-os": 14,
+        "cs-10-web-dev": 8,
+        "cs-07-networks": 16,
+        "cs-06-dbms": 9,
+        "cs-08-software-eng": 6,
+        "cs-09-oop": 6,
+        "cs-12-iot": 2,
+        "cs-11-toc": 2,
+        "cs-13-ai": 1,
+        "unclassified": 1
+      }
+    },
+    {
+      "id": "drill_pedagogy_50",
+      "title": "Art of Teaching 50Q Pedagogy Drill",
+      "category": "Sectional Drill",
+      "declaredQuestions": 50,
+      "actualQuestions": 50,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 12,
+        "B": 12,
+        "C": 13,
+        "D": 13,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 24,
+        "B": 24,
+        "C": 26,
+        "D": 26
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 3,
+      "templatedWide": 3,
+      "templatedQuestions": [
+        {
+          "qNum": 1,
+          "text": "In pedagogical practice (Bruner's Spiral Curriculum), which instructional strate",
+          "reason": "Boilerplate option: \"enforcing rote repetition without conceptual understanding\""
+        },
+        {
+          "qNum": 2,
+          "text": "In pedagogical practice (Experiential Learning Cycle (Kolb)), which instructiona",
+          "reason": "Boilerplate option: \"enforcing rote repetition without conceptual understanding\""
+        },
+        {
+          "qNum": 28,
+          "text": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM)), which instr",
+          "reason": "Boilerplate option: \"implementing student-centric active engagement aligned with\""
+        }
+      ],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 16,
+          "section": "Art of Teaching",
+          "text": "What is 'Assessment AS Learning' in modern educational evaluation?"
+        },
+        {
+          "qNum": 22,
+          "section": "Art of Teaching",
+          "text": "What does 'Objectivity' mean in the scoring of an examination paper?"
+        },
+        {
+          "qNum": 23,
+          "section": "Art of Teaching",
+          "text": "What is a 'Z-Score' in standard educational statistics?"
+        },
+        {
+          "qNum": 24,
+          "section": "Art of Teaching",
+          "text": "In statistics, what is the 'T-Score' derived from a Z-Score?"
+        },
+        {
+          "qNum": 26,
+          "section": "Art of Teaching",
+          "text": "What is 'Teacher Burnout' in educational psychology?"
+        },
+        {
+          "qNum": 39,
+          "section": "Art of Teaching",
+          "text": "According to the National Education Policy (NEP) 2020, what is the str"
+        },
+        {
+          "qNum": 46,
+          "section": "Art of Teaching",
+          "text": "What is the psychological phenomenon known as the 'Halo Effect' in stu"
+        },
+        {
+          "qNum": 47,
+          "section": "Art of Teaching",
+          "text": "In educational research, which coefficient of correlation indicates th"
+        },
+        {
+          "qNum": 50,
+          "section": "Art of Teaching",
+          "text": "Under the Rights of Persons with Disabilities (RPwD) Act 2016 in India"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "at-10-curriculum": 2,
+        "at-04-lesson-plan": 11,
+        "at-05-microteaching": 4,
+        "at-09-evaluation-assessment": 7,
+        "at-02-objectives-bloom": 7,
+        "unclassified": 9,
+        "at-06-classroom-mgmt": 2,
+        "at-11-factors-affecting": 1,
+        "at-07-textbook-library": 1,
+        "at-12-teaching-aids": 2,
+        "at-03-methods": 4
+      }
+    },
+    {
+      "id": "drill_general_50",
+      "title": "General Skills 50Q Booster Drill",
+      "category": "Sectional Drill",
+      "declaredQuestions": 50,
+      "actualQuestions": 50,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 13,
+        "B": 12,
+        "C": 12,
+        "D": 13,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 26,
+        "B": 24,
+        "C": 24,
+        "D": 26
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 3,
+      "templatedWide": 3,
+      "templatedQuestions": [
+        {
+          "qNum": 16,
+          "text": "In environmental ecological science (Food Web Complexity), which statement accur",
+          "reason": "Boilerplate option: \"accurately validated by ecological principle\""
+        },
+        {
+          "qNum": 22,
+          "text": "In environmental ecological science (Ecological Succession), which statement acc",
+          "reason": "Boilerplate option: \"accurately validated by ecological principle\""
+        },
+        {
+          "qNum": 29,
+          "text": "In environmental ecological science (Nitrogen Cycle Dynamics), which statement a",
+          "reason": "Boilerplate option: \"accurately validated by ecological principle\""
+        }
+      ],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [
+        {
+          "qNum": 30,
+          "missing": [
+            "section"
+          ]
+        }
+      ],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 8,
+          "section": "Other Skills",
+          "text": "Pointing to a man in a photograph, a woman says: 'He is the only son o"
+        },
+        {
+          "qNum": 11,
+          "section": "Other Skills",
+          "text": "Which fundamental article of the Constitution of India provides for th"
+        },
+        {
+          "qNum": 12,
+          "section": "Other Skills",
+          "text": "Statements: (1) All books are papers. (2) Some papers are pens. Conclu"
+        },
+        {
+          "qNum": 15,
+          "section": "Other Skills",
+          "text": "If 15 men can complete a project in 20 days working 8 hours a day, how"
+        },
+        {
+          "qNum": 28,
+          "section": "Other Skills",
+          "text": "A is the brother of B. C is the mother of A. D is the father of C. How"
+        },
+        {
+          "qNum": 32,
+          "section": "Other Skills",
+          "text": "Which diagram best represents the relationship among: 'Engineers', 'Hu"
+        },
+        {
+          "qNum": 35,
+          "section": "Other Skills",
+          "text": "What is the smallest number which when divided by 12, 15, 20, and 54 l"
+        },
+        {
+          "qNum": 36,
+          "section": "Other Skills",
+          "text": "In how many different ways can the letters of the word 'LEADER' be arr"
+        },
+        {
+          "qNum": 38,
+          "section": "Other Skills",
+          "text": "A tap can fill an empty pool in 8 hours. Due to a leak in the bottom, "
+        },
+        {
+          "qNum": 39,
+          "section": "Other Skills",
+          "text": "If 1st January 2024 was a Monday, what day of the week was 31st Decemb"
+        },
+        {
+          "qNum": 42,
+          "section": "Other Skills",
+          "text": "A can complete a piece of work in 12 days, and B can complete the same"
+        },
+        {
+          "qNum": 43,
+          "section": "Other Skills",
+          "text": "Pointing to a man in a photograph, Anita says, 'His father\\'s only son"
+        },
+        {
+          "qNum": 44,
+          "section": "Other Skills",
+          "text": "Find the next missing number in the sequence: 3, 7, 15, 31, 63, ?"
+        },
+        {
+          "qNum": 47,
+          "section": "Other Skills",
+          "text": "If 15% of a number is equal to 45, what is 40% of that same number?"
+        },
+        {
+          "qNum": 49,
+          "section": "Other Skills",
+          "text": "In an examination, a candidate gets 4 marks for each correct answer an"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "os-math": 21,
+        "os-reasoning": 10,
+        "unclassified": 15,
+        "os-evs": 3,
+        "cs-03-prog-ds": 1
+      }
+    },
+    {
+      "id": "drill_dsa_sql_50",
+      "title": "Data Structures, Algorithms & SQL Drill",
+      "category": "Sectional Drill",
+      "declaredQuestions": 50,
+      "actualQuestions": 50,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 12,
+        "B": 12,
+        "C": 13,
+        "D": 13,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 24,
+        "B": 24,
+        "C": 26,
+        "D": 26
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 13,
+          "section": "Computer Science",
+          "text": "What property is guaranteed by a Biconnected Component in an undirecte"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "cs-01-digital-logic": 12,
+        "cs-02-coa": 8,
+        "cs-03-prog-ds": 9,
+        "unclassified": 1,
+        "cs-05-os": 1,
+        "cs-12-iot": 1,
+        "cs-06-dbms": 8,
+        "cs-04-algorithms": 10
+      }
+    },
+    {
+      "id": "drill_os_networks_50",
+      "title": "Operating Systems & Networking Drill",
+      "category": "Sectional Drill",
+      "declaredQuestions": 50,
+      "actualQuestions": 50,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 13,
+        "B": 12,
+        "C": 12,
+        "D": 13,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 26,
+        "B": 24,
+        "C": 24,
+        "D": 26
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "cs-05-os": 11,
+        "cs-02-coa": 8,
+        "cs-07-networks": 11,
+        "cs-03-prog-ds": 2,
+        "cs-01-digital-logic": 2,
+        "cs-04-algorithms": 1,
+        "cs-06-dbms": 5,
+        "cs-08-software-eng": 4,
+        "cs-09-oop": 4,
+        "cs-10-web-dev": 2
+      }
+    },
+    {
+      "id": "pedagogy_master_100",
+      "title": "BSTET Art of Teaching 100Q PYQ Master Drill",
+      "category": "Sectional Drill",
+      "declaredQuestions": 100,
+      "actualQuestions": 100,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 37,
+        "B": 16,
+        "C": 27,
+        "D": 20,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 37,
+        "B": 16,
+        "C": 27,
+        "D": 20
+      },
+      "flaggedAnswerDistribution": true,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 1,
+          "section": "Art of Teaching",
+          "text": "To give education means –"
+        },
+        {
+          "qNum": 3,
+          "section": "Art of Teaching",
+          "text": "The natural activity of a living being is –"
+        },
+        {
+          "qNum": 4,
+          "section": "Art of Teaching",
+          "text": "Interpersonal objective is related to –"
+        },
+        {
+          "qNum": 6,
+          "section": "Art of Teaching",
+          "text": "The teaching method that involves learners in real problems –"
+        },
+        {
+          "qNum": 7,
+          "section": "Art of Teaching",
+          "text": "Subject matter determines –"
+        },
+        {
+          "qNum": 8,
+          "section": "Art of Teaching",
+          "text": "The best method to enhance cooperation in mixed classrooms is –"
+        },
+        {
+          "qNum": 10,
+          "section": "Art of Teaching",
+          "text": "Teacher determines objectives of teaching by –"
+        },
+        {
+          "qNum": 12,
+          "section": "Art of Teaching",
+          "text": "In programmed instruction, the sequence of content is –"
+        },
+        {
+          "qNum": 13,
+          "section": "Art of Teaching",
+          "text": "After classroom teaching –"
+        },
+        {
+          "qNum": 15,
+          "section": "Art of Teaching",
+          "text": "The basic principle of inclusive education is –"
+        },
+        {
+          "qNum": 18,
+          "section": "Art of Teaching",
+          "text": "Which of the following is not a quality of teachers?"
+        },
+        {
+          "qNum": 20,
+          "section": "Art of Teaching",
+          "text": "In higher education, the role of the teacher is –"
+        },
+        {
+          "qNum": 21,
+          "section": "Art of Teaching",
+          "text": "Evaluation is –"
+        },
+        {
+          "qNum": 22,
+          "section": "Art of Teaching",
+          "text": "A broader process of judging is –"
+        },
+        {
+          "qNum": 27,
+          "section": "Art of Teaching",
+          "text": "The basic principle of counseling is –"
+        },
+        {
+          "qNum": 28,
+          "section": "Art of Teaching",
+          "text": "The effective way of learning today is –"
+        },
+        {
+          "qNum": 29,
+          "section": "Art of Teaching",
+          "text": "The best way of learning is –"
+        },
+        {
+          "qNum": 32,
+          "section": "Art of Teaching",
+          "text": "The result of teaching is –"
+        },
+        {
+          "qNum": 34,
+          "section": "Art of Teaching",
+          "text": "The importance of goals and objectives in school is –"
+        },
+        {
+          "qNum": 40,
+          "section": "Art of Teaching",
+          "text": "One stage of Herbert’s approach is –"
+        },
+        {
+          "qNum": 42,
+          "section": "Art of Teaching",
+          "text": "Instruction helps achieve which objectives?"
+        },
+        {
+          "qNum": 45,
+          "section": "Art of Teaching",
+          "text": "The role in enhancing the classroom physical environment is played by "
+        },
+        {
+          "qNum": 49,
+          "section": "Art of Teaching",
+          "text": "What is essential for a good teacher?"
+        },
+        {
+          "qNum": 53,
+          "section": "Art of Teaching",
+          "text": "Determination scale is –"
+        },
+        {
+          "qNum": 56,
+          "section": "Art of Teaching",
+          "text": "Which element is not included in the process of concept formation –"
+        },
+        {
+          "qNum": 57,
+          "section": "Art of Teaching",
+          "text": "The plateau of learning is –"
+        },
+        {
+          "qNum": 58,
+          "section": "Art of Teaching",
+          "text": "Which of the following is not a stage of the teaching-learning process"
+        },
+        {
+          "qNum": 62,
+          "section": "Art of Teaching",
+          "text": "Classic conditioning is:"
+        },
+        {
+          "qNum": 65,
+          "section": "Art of Teaching",
+          "text": "The meaning of synthesis is:"
+        },
+        {
+          "qNum": 66,
+          "section": "Art of Teaching",
+          "text": "Team teaching involves working together of:"
+        },
+        {
+          "qNum": 68,
+          "section": "Art of Teaching",
+          "text": "Methods provide training in:"
+        },
+        {
+          "qNum": 69,
+          "section": "Art of Teaching",
+          "text": "Which is one of Merrill’s five principles?"
+        },
+        {
+          "qNum": 72,
+          "section": "Art of Teaching",
+          "text": "Training can develop:"
+        },
+        {
+          "qNum": 74,
+          "section": "Art of Teaching",
+          "text": "Which method can be used frequently in the classroom?"
+        },
+        {
+          "qNum": 75,
+          "section": "Art of Teaching",
+          "text": "What type of classroom environment is most conducive to student learni"
+        },
+        {
+          "qNum": 78,
+          "section": "Art of Teaching",
+          "text": "Criteria for teacher effectiveness are:"
+        },
+        {
+          "qNum": 79,
+          "section": "Art of Teaching",
+          "text": "The primary responsibility of teacher adjustment is with:"
+        },
+        {
+          "qNum": 83,
+          "section": "Art of Teaching",
+          "text": "The grading system is what type of assessment?"
+        },
+        {
+          "qNum": 87,
+          "section": "Art of Teaching",
+          "text": "Teaching is a learning process from:"
+        },
+        {
+          "qNum": 88,
+          "section": "Art of Teaching",
+          "text": "Which factor does not affect teaching-learning?"
+        },
+        {
+          "qNum": 91,
+          "section": "Art of Teaching",
+          "text": "The most useful method in a large-sized class is –"
+        },
+        {
+          "qNum": 92,
+          "section": "Art of Teaching",
+          "text": "The best method to promote cooperation in a mixed class of boys and gi"
+        },
+        {
+          "qNum": 98,
+          "section": "Art of Teaching",
+          "text": "Drama or role-play is most suitable for teaching –"
+        },
+        {
+          "qNum": 100,
+          "section": "Art of Teaching",
+          "text": "The principle of presenting subject matter in an easy form is –"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "unclassified": 44,
+        "at-03-methods": 8,
+        "at-04-lesson-plan": 3,
+        "at-05-microteaching": 6,
+        "at-06-classroom-mgmt": 2,
+        "at-02-objectives-bloom": 5,
+        "at-07-textbook-library": 5,
+        "at-08-qualities-teacher": 1,
+        "at-09-evaluation-assessment": 6,
+        "at-10-curriculum": 7,
+        "at-12-teaching-aids": 5,
+        "at-01-teaching-learning": 5,
+        "at-11-factors-affecting": 3
+      }
+    },
+    {
+      "id": "pedagogy_recent_50",
+      "title": "BSTET Art of Teaching Recent Exams 50Q Sprint",
+      "category": "Sectional Drill",
+      "declaredQuestions": 50,
+      "actualQuestions": 50,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 14,
+        "B": 12,
+        "C": 15,
+        "D": 9,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 28,
+        "B": 24,
+        "C": 30,
+        "D": 18
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 1,
+          "section": "Art of Teaching",
+          "text": "Assessment is both a quantitative and __________ process."
+        },
+        {
+          "qNum": 2,
+          "section": "Art of Teaching",
+          "text": "Why is professional teacher training essential for educators?"
+        },
+        {
+          "qNum": 5,
+          "section": "Art of Teaching",
+          "text": "Teaching is defined as an organized system of __________ intended to i"
+        },
+        {
+          "qNum": 6,
+          "section": "Art of Teaching",
+          "text": "Educational measurement is fundamentally a __________ process."
+        },
+        {
+          "qNum": 7,
+          "section": "Art of Teaching",
+          "text": "Which of the following statements best describes the true nature of te"
+        },
+        {
+          "qNum": 9,
+          "section": "Art of Teaching",
+          "text": "Which of the following is NOT among the 8 intelligence types in Howard"
+        },
+        {
+          "qNum": 11,
+          "section": "Art of Teaching",
+          "text": "In the tripolar teaching-learning process, which of the following is t"
+        },
+        {
+          "qNum": 16,
+          "section": "Art of Teaching",
+          "text": "In the complete pedagogical instructional cycle, what is the culminati"
+        },
+        {
+          "qNum": 17,
+          "section": "Art of Teaching",
+          "text": "To ensure the readiness and adequacy of entry behavior before introduc"
+        },
+        {
+          "qNum": 19,
+          "section": "Art of Teaching",
+          "text": "As an instructional planner, what must an effective teacher decide bef"
+        },
+        {
+          "qNum": 22,
+          "section": "Art of Teaching",
+          "text": "Team teaching is characterized by all of the following pedagogical str"
+        },
+        {
+          "qNum": 25,
+          "section": "Art of Teaching",
+          "text": "In an educational institution, internal academic and pedagogical super"
+        },
+        {
+          "qNum": 30,
+          "section": "Art of Teaching",
+          "text": "A well-written behavioral instructional objective must always be:"
+        },
+        {
+          "qNum": 34,
+          "section": "Art of Teaching",
+          "text": "Which of the following is NOT considered a desirable democratic approa"
+        },
+        {
+          "qNum": 36,
+          "section": "Art of Teaching",
+          "text": "Unlike simple measurement, the ultimate purpose of Evaluation is to ma"
+        },
+        {
+          "qNum": 38,
+          "section": "Art of Teaching",
+          "text": "Immediately after selecting a curricular topic to teach, what should t"
+        },
+        {
+          "qNum": 45,
+          "section": "Art of Teaching",
+          "text": "Modern educational supervision of teachers should primarily be:"
+        },
+        {
+          "qNum": 47,
+          "section": "Art of Teaching",
+          "text": "Which Indian state pioneered the renowned grassroots project 'Lok Jumb"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "unclassified": 18,
+        "at-11-factors-affecting": 6,
+        "at-12-teaching-aids": 1,
+        "at-03-methods": 5,
+        "at-04-lesson-plan": 4,
+        "at-09-evaluation-assessment": 5,
+        "at-08-qualities-teacher": 2,
+        "at-07-textbook-library": 1,
+        "at-06-classroom-mgmt": 1,
+        "at-05-microteaching": 2,
+        "at-02-objectives-bloom": 1,
+        "at-10-curriculum": 3,
+        "at-01-teaching-learning": 1
+      }
+    },
+    {
+      "id": "drill_dbms_sql_50",
+      "title": "DBMS & SQL Deep Mastery Drill (50Q)",
+      "category": "Sectional Drill",
+      "declaredQuestions": 50,
+      "actualQuestions": 50,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 13,
+        "B": 12,
+        "C": 13,
+        "D": 12,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 26,
+        "B": 24,
+        "C": 26,
+        "D": 24
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [
+        {
+          "qNum": 1,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 2,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 3,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 4,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 5,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 6,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 7,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 8,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 9,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 10,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 11,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 12,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 13,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 14,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 15,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 16,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 17,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 18,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 19,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 20,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 21,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 22,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 23,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 24,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 25,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 26,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 27,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 28,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 29,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 30,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 31,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 32,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 33,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 34,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 35,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 36,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 37,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 38,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 39,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 40,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 41,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 42,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 43,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 44,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 45,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 46,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 47,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 48,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 49,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 50,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        }
+      ],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 23,
+          "text": "Which of the following functional dependencies is considered 'Trivial'"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "cs-06-dbms": 30,
+        "cs-02-coa": 8,
+        "cs-01-digital-logic": 6,
+        "cs-03-prog-ds": 3,
+        "unclassified": 1,
+        "at-03-methods": 1,
+        "cs-04-algorithms": 1
+      }
+    },
+    {
+      "id": "drill_os_networks_master_50",
+      "title": "OS & Computer Networks Mastery Drill (50Q)",
+      "category": "Sectional Drill",
+      "declaredQuestions": 50,
+      "actualQuestions": 50,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 13,
+        "B": 12,
+        "C": 12,
+        "D": 13,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 26,
+        "B": 24,
+        "C": 24,
+        "D": 26
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [
+        {
+          "qNum": 1,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 2,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 3,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 4,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 5,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 6,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 7,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 8,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 9,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 10,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 11,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 12,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 13,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 14,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 15,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 16,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 17,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 18,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 19,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 20,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 21,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 22,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 23,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 24,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 25,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 26,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 27,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 28,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 29,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 30,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 31,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 32,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 33,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 34,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 35,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 36,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 37,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 38,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 39,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 40,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 41,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 42,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 43,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 44,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 45,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 46,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 47,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 48,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 49,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 50,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        }
+      ],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "cs-02-coa": 11,
+        "cs-05-os": 7,
+        "cs-03-prog-ds": 1,
+        "cs-08-software-eng": 2,
+        "cs-01-digital-logic": 5,
+        "os-math": 1,
+        "cs-07-networks": 20,
+        "cs-04-algorithms": 2,
+        "cs-06-dbms": 1
+      }
+    },
+    {
+      "id": "drill_pedagogy_nep_50",
+      "title": "Art of Teaching & NEP 2020 High-Yield Drill (50Q)",
+      "category": "Sectional Drill",
+      "declaredQuestions": 50,
+      "actualQuestions": 50,
+      "countMismatch": false,
+      "answerDistribution": {
+        "A": 12,
+        "B": 12,
+        "C": 13,
+        "D": 13,
+        "other": 0
+      },
+      "answerPercent": {
+        "A": 24,
+        "B": 24,
+        "C": 26,
+        "D": 26
+      },
+      "flaggedAnswerDistribution": false,
+      "templatedNarrow": 0,
+      "templatedWide": 0,
+      "templatedQuestions": [],
+      "withinPaperDuplicates": [],
+      "withinPaperDuplicatesCount": 0,
+      "missingFieldsQuestions": [
+        {
+          "qNum": 1,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 2,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 3,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 4,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 5,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 6,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 7,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 8,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 9,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 10,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 11,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 12,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 13,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 14,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 15,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 16,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 17,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 18,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 19,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 20,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 21,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 22,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 23,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 24,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 25,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 26,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 27,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 28,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 29,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 30,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 31,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 32,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 33,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 34,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 35,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 36,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 37,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 38,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 39,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 40,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 41,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 42,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 43,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 44,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 45,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 46,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 47,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 48,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 49,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        },
+        {
+          "qNum": 50,
+          "missing": [
+            "section",
+            "topic",
+            "topic_hi"
+          ]
+        }
+      ],
+      "explanationMismatches": [],
+      "unclassifiedQuestions": [
+        {
+          "qNum": 31,
+          "text": "Who introduced the concept of 'Mental Age' and developed the first pra"
+        }
+      ],
+      "pdfFaithfulness": {
+        "isOfficial": false,
+        "checked": false,
+        "foundInPdf": 0,
+        "missingInPdf": 0,
+        "missingList": []
+      },
+      "unitCounts": {
+        "cs-03-prog-ds": 3,
+        "cs-01-digital-logic": 7,
+        "cs-05-os": 1,
+        "cs-09-oop": 7,
+        "cs-02-coa": 12,
+        "at-08-qualities-teacher": 1,
+        "at-11-factors-affecting": 4,
+        "at-09-evaluation-assessment": 2,
+        "cs-04-algorithms": 5,
+        "os-math": 1,
+        "cs-10-web-dev": 1,
+        "unclassified": 1,
+        "at-02-objectives-bloom": 1,
+        "at-04-lesson-plan": 1,
+        "cs-06-dbms": 2,
+        "os-evs": 1
+      }
+    }
+  ]
+}

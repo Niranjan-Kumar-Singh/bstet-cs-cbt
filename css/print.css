@@ -1,0 +1,93 @@
+/**
+ * Print Stylesheet - Bihar STET CBT Portal
+ * Clean, ink-efficient print layout for official scorecards and review solutions.
+ */
+
+@media print {
+  /* 1. Hide non-printable UI elements */
+  #global-navbar,
+  .exam-top-bar,
+  .exam-footer-bar,
+  .palette-pane,
+  .result-toolbar,
+  .filter-tabs,
+  .lobby-toolbar,
+  .nav-actions,
+  .skip-link,
+  .modal-overlay,
+  .toast-notification,
+  .portal-footer,
+  button,
+  .btn {
+    display: none !important;
+  }
+
+  /* 2. Page & Color Resets */
+  @page {
+    margin: 1.5cm;
+    size: A4 portrait;
+  }
+
+  html, body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 12pt !important;
+    line-height: 1.4 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* 3. Result View Print Presentation */
+  #result-view {
+    display: block !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .result-content {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .result-hero,
+  .cutoff-section,
+  .diagnostic-section,
+  .solutions-section {
+    border: 1px solid #cccccc !important;
+    box-shadow: none !important;
+    margin-bottom: 20px !important;
+    page-break-inside: avoid;
+    background: #ffffff !important;
+  }
+
+  .kpi-item {
+    border: 1px solid #dddddd !important;
+    background: #fdfdfd !important;
+  }
+
+  .sol-item {
+    border: 1px solid #dddddd !important;
+    page-break-inside: avoid;
+    margin-bottom: 12px !important;
+    background: #ffffff !important;
+  }
+
+  .sol-explanation-box {
+    background: #f8f8f8 !important;
+    border: 1px solid #eeeeee !important;
+  }
+
+  /* 4. Official Report Header for Print */
+  .result-content::before {
+    content: "BIHAR SECONDARY TEACHERS ELIGIBILITY TEST (STET) PAPER II - CANDIDATE PERFORMANCE REPORT";
+    display: block;
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+}

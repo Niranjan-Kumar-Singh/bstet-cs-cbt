@@ -1,0 +1,59 @@
+{
+  "totalFlaggedForRemoval": 6,
+  "summaryByPaper": [
+    {
+      "paperId": "drill_pedagogy_50",
+      "category": "Sectional Drill",
+      "flaggedCount": 3
+    },
+    {
+      "paperId": "drill_general_50",
+      "category": "Sectional Drill",
+      "flaggedCount": 3
+    }
+  ],
+  "removalList": [
+    {
+      "paper": "drill_pedagogy_50",
+      "qNum": 1,
+      "category": "Sectional Drill",
+      "reason": "Templated/Filler question (Boilerplate option: \"enforcing rote repetition without conceptual understanding\")",
+      "text": "In pedagogical practice (Bruner's Spiral Curriculum), which instructional strategy best re"
+    },
+    {
+      "paper": "drill_pedagogy_50",
+      "qNum": 2,
+      "category": "Sectional Drill",
+      "reason": "Templated/Filler question (Boilerplate option: \"enforcing rote repetition without conceptual understanding\")",
+      "text": "In pedagogical practice (Experiential Learning Cycle (Kolb)), which instructional strategy"
+    },
+    {
+      "paper": "drill_pedagogy_50",
+      "qNum": 28,
+      "category": "Sectional Drill",
+      "reason": "Templated/Filler question (Boilerplate option: \"implementing student-centric active engagement aligned with\")",
+      "text": "In pedagogical practice (Low-Cost Teaching-Learning Material (TLM)), which instructional s"
+    },
+    {
+      "paper": "drill_general_50",
+      "qNum": 16,
+      "category": "Sectional Drill",
+      "reason": "Templated/Filler question (Boilerplate option: \"accurately validated by ecological principle\")",
+      "text": "In environmental ecological science (Food Web Complexity), which statement accurately refl"
+    },
+    {
+      "paper": "drill_general_50",
+      "qNum": 22,
+      "category": "Sectional Drill",
+      "reason": "Templated/Filler question (Boilerplate option: \"accurately validated by ecological principle\")",
+      "text": "In environmental ecological science (Ecological Succession), which statement accurately re"
+    },
+    {
+      "paper": "drill_general_50",
+      "qNum": 29,
+      "category": "Sectional Drill",
+      "reason": "Templated/Filler question (Boilerplate option: \"accurately validated by ecological principle\")",
+      "text": "In environmental ecological science (Nitrogen Cycle Dynamics), which statement accurately "
+    }
+  ]
+}

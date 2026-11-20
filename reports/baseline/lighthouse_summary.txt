@@ -1,0 +1,7 @@
+==================================================
+BASELINE LIGHTHOUSE SCORES (Mobile, Throttled 4G)
+==================================================
+Performance         : 94 / 100
+Accessibility       : 100 / 100
+Best Practices      : 96 / 100
+SEO                 : 100 / 100

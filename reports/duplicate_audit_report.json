@@ -1,0 +1,844 @@
+{
+  "totalQuestions": 1950,
+  "crossDupCount": 45,
+  "dupGroups": [
+    {
+      "shortNorm": "what is the main purpose of inheritance in oop",
+      "text": "What is the main purpose of inheritance in OOP?",
+      "section": "Computer Science",
+      "topic": "Object Oriented Programming",
+      "count": 2,
+      "papers": [
+        "official_shift1",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift1(Q1)",
+        "official_2023(Q60)"
+      ]
+    },
+    {
+      "shortNorm": "microcontrollers find application in various fields what is a typical appli",
+      "text": "Microcontrollers find application in various fields. What is a typical application microco",
+      "section": "Computer Science",
+      "topic": "Operating Systems",
+      "count": 2,
+      "papers": [
+        "official_shift1",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift1(Q2)",
+        "official_2023(Q13)"
+      ]
+    },
+    {
+      "shortNorm": "the term fat is stands for_____",
+      "text": "The term \"FAT\" is stands for_____",
+      "section": "Computer Science",
+      "topic": "Operating Systems",
+      "count": 2,
+      "papers": [
+        "official_shift1",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift1(Q3)",
+        "official_2023(Q39)"
+      ]
+    },
+    {
+      "shortNorm": "which principle ensures that only essential information is visible to the o",
+      "text": "Which principle ensures that only essential information is visible to the outside",
+      "section": "Computer Science",
+      "topic": "Object Oriented Programming",
+      "count": 2,
+      "papers": [
+        "official_shift1",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift1(Q5)",
+        "official_2023(Q59)"
+      ]
+    },
+    {
+      "shortNorm": "contentionbased mac protocols are commonly used in",
+      "text": "Contention-based MAC protocols are commonly used in:",
+      "section": "Computer Science",
+      "topic": "Computer Networks",
+      "count": 2,
+      "papers": [
+        "official_shift1",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift1(Q6)",
+        "official_2023(Q45)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following refers to creating products tailored to individual c",
+      "text": "Which of the following refers to creating products tailored to individual customers?",
+      "section": "Computer Science",
+      "topic": "Computer Science",
+      "count": 2,
+      "papers": [
+        "official_shift1",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift1(Q10)",
+        "official_2023(Q91)"
+      ]
+    },
+    {
+      "shortNorm": "a language for which dfa exist is a________",
+      "text": "A Language for which DFA exist is a________",
+      "section": "Computer Science",
+      "topic": "Computer Networks",
+      "count": 2,
+      "papers": [
+        "official_shift1",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift1(Q27)",
+        "official_2023(Q69)"
+      ]
+    },
+    {
+      "shortNorm": "the term data refers to",
+      "text": "The term \"Data\" refers to:",
+      "section": "Computer Science",
+      "topic": "Computer Science",
+      "count": 2,
+      "papers": [
+        "official_shift1",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift1(Q31)",
+        "official_2023(Q40)"
+      ]
+    },
+    {
+      "shortNorm": "which testing approach involves testing individual components or units of c",
+      "text": "Which testing approach involves testing individual components or units of code?",
+      "section": "Computer Science",
+      "topic": "Software Engineering",
+      "count": 2,
+      "papers": [
+        "official_shift1",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift1(Q60)",
+        "official_2023(Q51)"
+      ]
+    },
+    {
+      "shortNorm": "what is the purpose of arp address resolution protocol",
+      "text": "What is the purpose of ARP (Address Resolution Protocol)?",
+      "section": "Computer Science",
+      "topic": "Computer Networks",
+      "count": 2,
+      "papers": [
+        "official_shift1",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift1(Q63)",
+        "official_2023(Q47)"
+      ]
+    },
+    {
+      "shortNorm": "if nfa of 5 states excluding the initial state is converted into dfa maximu",
+      "text": "If NFA of 5 states excluding the initial state is converted into DFA, maximum possible num",
+      "section": "Computer Science",
+      "topic": "Digital Logic",
+      "count": 2,
+      "papers": [
+        "official_shift1",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift1(Q74)",
+        "official_2023(Q73)"
+      ]
+    },
+    {
+      "shortNorm": "what is the purpose of staffing level estimation in software project manage",
+      "text": "What is the purpose of staffing level estimation in software project management?",
+      "section": "Computer Science",
+      "topic": "Digital Logic",
+      "count": 2,
+      "papers": [
+        "official_shift1",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift1(Q75)",
+        "official_2023(Q54)"
+      ]
+    },
+    {
+      "shortNorm": "how is the width of the data bus typically measured in a microcomputer syst",
+      "text": "How is the width of the data bus typically measured in a microcomputer system?",
+      "section": "Computer Science",
+      "topic": "Computer Organization & Architecture",
+      "count": 2,
+      "papers": [
+        "official_shift1",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift1(Q83)",
+        "official_2023(Q12)"
+      ]
+    },
+    {
+      "shortNorm": "the class of cfg is not closed under",
+      "text": "The class of CFG is not closed under----",
+      "section": "Computer Science",
+      "topic": "Object Oriented Programming",
+      "count": 2,
+      "papers": [
+        "official_shift1",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift1(Q86)",
+        "official_2023(Q74)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is not a network topology",
+      "text": "Which of the following is NOT a network topology?",
+      "section": "Computer Science",
+      "topic": "Computer Networks",
+      "count": 2,
+      "papers": [
+        "official_shift1",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift1(Q87)",
+        "official_2023(Q44)"
+      ]
+    },
+    {
+      "shortNorm": "file manipulation operations in an operating system include",
+      "text": "File manipulation operations in an operating system include:",
+      "section": "Computer Science",
+      "topic": "Operating Systems",
+      "count": 2,
+      "papers": [
+        "official_shift1",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift1(Q99)",
+        "official_2023(Q29)"
+      ]
+    },
+    {
+      "shortNorm": "divide and conquer is an algorithmic paradigm that solves problems by",
+      "text": "Divide and Conquer is an algorithmic paradigm that solves problems by:",
+      "section": "Computer Science",
+      "topic": "Algorithms",
+      "count": 2,
+      "papers": [
+        "official_shift2",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift2(Q8)",
+        "official_2023(Q19)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is a topdown approach in which the entitys higher le",
+      "text": "Which of the following is a top-down approach in which the entity's higher level divided i",
+      "section": "Computer Science",
+      "topic": "Computer Science",
+      "count": 2,
+      "papers": [
+        "official_shift2",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift2(Q23)",
+        "official_2023(Q37)"
+      ]
+    },
+    {
+      "shortNorm": "what does a first order predicate logic contain",
+      "text": "What does a first order predicate logic contain?",
+      "section": "Computer Science",
+      "topic": "Object Oriented Programming",
+      "count": 2,
+      "papers": [
+        "official_shift2",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift2(Q32)",
+        "official_2023(Q86)"
+      ]
+    },
+    {
+      "shortNorm": "uniformcost search expands the node n with the __________",
+      "text": "Uniform-cost search expands the node n with the __________",
+      "section": "Computer Science",
+      "topic": "Artificial Intelligence",
+      "count": 2,
+      "papers": [
+        "official_shift2",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift2(Q52)",
+        "official_2023(Q84)"
+      ]
+    },
+    {
+      "shortNorm": "what is the relationship between the distance between parity bits and their",
+      "text": "What is the relationship between the distance between parity bits and their error detectio",
+      "section": "Computer Science",
+      "topic": "Computer Networks",
+      "count": 2,
+      "papers": [
+        "official_shift2",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift2(Q62)",
+        "official_2023(Q9)"
+      ]
+    },
+    {
+      "shortNorm": "the io subsystem in an operating system is responsible for",
+      "text": "The I/O subsystem in an operating system is responsible for:",
+      "section": "Computer Science",
+      "topic": "Operating Systems",
+      "count": 2,
+      "papers": [
+        "official_shift2",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift2(Q63)",
+        "official_2023(Q30)"
+      ]
+    },
+    {
+      "shortNorm": "reverse engineering is primarily used for",
+      "text": "Reverse engineering is primarily used for:",
+      "section": "Computer Science",
+      "topic": "Computer Organization & Architecture",
+      "count": 2,
+      "papers": [
+        "official_shift2",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift2(Q67)",
+        "official_2023(Q50)"
+      ]
+    },
+    {
+      "shortNorm": "which among the following is not true about iot",
+      "text": "Which among the following is not true about IoT?",
+      "section": "Computer Science",
+      "topic": "Internet of Things",
+      "count": 2,
+      "papers": [
+        "official_shift2",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift2(Q68)",
+        "official_2023(Q75)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is done by secure sockets layers",
+      "text": "Which of the following is done by Secure Sockets Layers?",
+      "section": "Computer Science",
+      "topic": "Computer Science",
+      "count": 2,
+      "papers": [
+        "official_shift2",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift2(Q86)",
+        "official_2023(Q93)"
+      ]
+    },
+    {
+      "shortNorm": "given a boolean function fa b c 0 1 2 3 5 what is the expression in sop for",
+      "text": "Given a Boolean function F(A, B, C) = Σ(0, 1, 2, 3, 5), what is the expression in SOP form",
+      "section": "Computer Science",
+      "topic": "Digital Logic",
+      "count": 2,
+      "papers": [
+        "official_shift2",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift2(Q92)",
+        "official_2023(Q6)"
+      ]
+    },
+    {
+      "shortNorm": "the primary goal of load control is to",
+      "text": "The primary goal of load control is to:",
+      "section": "Computer Science",
+      "topic": "Operating Systems",
+      "count": 2,
+      "papers": [
+        "official_shift2",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift2(Q93)",
+        "official_2023(Q31)"
+      ]
+    },
+    {
+      "shortNorm": "micro teaching is more effective",
+      "text": "Micro teaching is more effective",
+      "section": "Art of Teaching",
+      "topic": "Art of Teaching",
+      "count": 2,
+      "papers": [
+        "official_shift2",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift2(Q101)",
+        "official_2023(Q114)"
+      ]
+    },
+    {
+      "shortNorm": "for a dfa accepting binary numbers whose decimal equivalent is divisible by",
+      "text": "For a DFA accepting binary numbers whose decimal equivalent is divisible by 3, are all the",
+      "section": "Computer Science",
+      "topic": "Digital Logic",
+      "count": 2,
+      "papers": [
+        "official_shift3",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift3(Q3)",
+        "official_2023(Q71)"
+      ]
+    },
+    {
+      "shortNorm": "in xml which attribute is used to uniquely identify an element",
+      "text": "In XML, which attribute is used to uniquely identify an element?",
+      "section": "Computer Science",
+      "topic": "Object Oriented Programming",
+      "count": 2,
+      "papers": [
+        "official_shift3",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift3(Q43)",
+        "official_2023(Q67)"
+      ]
+    },
+    {
+      "shortNorm": "to convert a gray code to its binary equivalent which technique is commonly",
+      "text": "To convert a Gray Code to its binary equivalent, which technique is commonly",
+      "section": "Computer Science",
+      "topic": "Digital Logic",
+      "count": 2,
+      "papers": [
+        "official_shift3",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift3(Q47)",
+        "official_2023(Q10)"
+      ]
+    },
+    {
+      "shortNorm": "each ___ represents a particular colour",
+      "text": "Each ___ represents a particular colour.",
+      "section": "Computer Science",
+      "topic": "Computer Organization & Architecture",
+      "count": 2,
+      "papers": [
+        "official_shift3",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift3(Q60)",
+        "official_2023(Q99)"
+      ]
+    },
+    {
+      "shortNorm": "who is known as the father of ai",
+      "text": "Who is known as the father of AI?",
+      "section": "Computer Science",
+      "topic": "Operating Systems",
+      "count": 2,
+      "papers": [
+        "official_shift3",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift3(Q69)",
+        "official_2023(Q81)"
+      ]
+    },
+    {
+      "shortNorm": "a threaded binary tree is a binary tree in which",
+      "text": "A threaded binary tree is a binary tree in which:",
+      "section": "Computer Science",
+      "topic": "Operating Systems",
+      "count": 2,
+      "papers": [
+        "official_shift3",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift3(Q100)",
+        "official_2023(Q20)"
+      ]
+    },
+    {
+      "shortNorm": "in an operating system a buffer cache is used to",
+      "text": "In an operating system, a \"buffer cache\" is used to:",
+      "section": "Computer Science",
+      "topic": "Operating Systems",
+      "count": 2,
+      "papers": [
+        "official_shift4",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift4(Q18)",
+        "official_2023(Q28)"
+      ]
+    },
+    {
+      "shortNorm": "a complex scada system has _______levels",
+      "text": "A complex SCADA system has _______levels?",
+      "section": "Computer Science",
+      "topic": "Computer Science",
+      "count": 2,
+      "papers": [
+        "official_shift4",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift4(Q36)",
+        "official_2023(Q79)"
+      ]
+    },
+    {
+      "shortNorm": "in a relational database what is a primary key",
+      "text": "In a relational database, what is a primary key?",
+      "section": "Computer Science",
+      "topic": "Database Management Systems",
+      "count": 2,
+      "papers": [
+        "official_shift4",
+        "bpsc_tre3_2024"
+      ],
+      "occurrences": [
+        "official_shift4(Q42)",
+        "bpsc_tre3_2024(Q121)"
+      ]
+    },
+    {
+      "shortNorm": "a formal model of protection in an operating system provides",
+      "text": "A formal model of protection in an operating system provides:",
+      "section": "Computer Science",
+      "topic": "Operating Systems",
+      "count": 2,
+      "papers": [
+        "official_shift4",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift4(Q52)",
+        "official_2023(Q27)"
+      ]
+    },
+    {
+      "shortNorm": "in a pla what components are used to implement the combinational logic func",
+      "text": "In a PLA, what components are used to implement the combinational logic functions?",
+      "section": "Computer Science",
+      "topic": "Digital Logic",
+      "count": 2,
+      "papers": [
+        "official_shift4",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift4(Q75)",
+        "official_2023(Q2)"
+      ]
+    },
+    {
+      "shortNorm": "the term dfd stands for",
+      "text": "The term \"DFD\" stands for?",
+      "section": "Computer Science",
+      "topic": "Computer Organization & Architecture",
+      "count": 2,
+      "papers": [
+        "official_shift4",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift4(Q81)",
+        "official_2023(Q38)"
+      ]
+    },
+    {
+      "shortNorm": "let u1101 v0001 then uv11010001 and vu 00011101using the given information ",
+      "text": "Let u=’1101’, v=’0001’, then uv=11010001 and vu= 00011101.Using the given information what",
+      "section": "Computer Science",
+      "topic": "Computer Science",
+      "count": 2,
+      "papers": [
+        "official_shift4",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift4(Q86)",
+        "official_2023(Q70)"
+      ]
+    },
+    {
+      "shortNorm": "which keyword is used to create an instance of a class in most programming ",
+      "text": "Which keyword is used to create an instance of a class in most programming languages?",
+      "section": "Computer Science",
+      "topic": "Object Oriented Programming",
+      "count": 2,
+      "papers": [
+        "official_shift4",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift4(Q87)",
+        "official_2023(Q55)"
+      ]
+    },
+    {
+      "shortNorm": "which type of register is primarily used to temporarily hold data during ar",
+      "text": "Which type of register is primarily used to temporarily hold data during arithmetic logica",
+      "section": "Computer Science",
+      "topic": "Operating Systems",
+      "count": 2,
+      "papers": [
+        "official_shift4",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift4(Q91)",
+        "official_2023(Q3)"
+      ]
+    },
+    {
+      "shortNorm": "separate chaining involves storing collided elements in separate data struc",
+      "text": "Separate chaining involves storing collided elements in separate data structures, typicall",
+      "section": "Computer Science",
+      "topic": "Programming & Data Structures",
+      "count": 2,
+      "papers": [
+        "official_shift4",
+        "official_2023"
+      ],
+      "occurrences": [
+        "official_shift4(Q96)",
+        "official_2023(Q23)"
+      ]
+    },
+    {
+      "shortNorm": "a is the brother of b c is the father of d e is the mother of b a and d are",
+      "text": "A is the brother of B, C is the father of D, E is the mother of B, A and D are brothers. W",
+      "section": "General Knowledge and Other Skills",
+      "topic": "Reasoning & Mental Ability",
+      "count": 2,
+      "papers": [
+        "official_2020",
+        "official_2019"
+      ],
+      "occurrences": [
+        "official_2020(Q1)",
+        "official_2019(Q21)"
+      ]
+    }
+  ],
+  "paperDupMap": {
+    "official_shift1": {
+      "title": "BSTET Official 2025 - Shift 1",
+      "category": "Official PYQ",
+      "totalQ": 150,
+      "dupsWithOtherPapers": 16,
+      "details": []
+    },
+    "official_shift2": {
+      "title": "BSTET Official 2025 - Shift 2",
+      "category": "Official PYQ",
+      "totalQ": 150,
+      "dupsWithOtherPapers": 12,
+      "details": []
+    },
+    "official_shift3": {
+      "title": "BSTET Official 2025 - Shift 3",
+      "category": "Official PYQ",
+      "totalQ": 150,
+      "dupsWithOtherPapers": 6,
+      "details": []
+    },
+    "official_shift4": {
+      "title": "BSTET Official 2025 - Shift 4",
+      "category": "Official PYQ",
+      "totalQ": 150,
+      "dupsWithOtherPapers": 10,
+      "details": []
+    },
+    "official_2023": {
+      "title": "BSTET Official 2023 - Paper II",
+      "category": "Official PYQ",
+      "totalQ": 150,
+      "dupsWithOtherPapers": 43,
+      "details": []
+    },
+    "bpsc_tre3_2024": {
+      "title": "BPSC TRE 3.0 PGT Computer Science (Class 11-12)",
+      "category": "Official PYQ",
+      "totalQ": 150,
+      "dupsWithOtherPapers": 1,
+      "details": []
+    },
+    "official_2020": {
+      "title": "BSTET Official 2020 Re-Exam - Paper II (CS)",
+      "category": "Official PYQ",
+      "totalQ": 150,
+      "dupsWithOtherPapers": 1,
+      "details": []
+    },
+    "official_2019": {
+      "title": "BSTET Official 2019 - Paper II (CS)",
+      "category": "Official PYQ",
+      "totalQ": 150,
+      "dupsWithOtherPapers": 1,
+      "details": []
+    },
+    "pedagogy_shift_set1": {
+      "title": "BSTET Art of Teaching 2023 - Shift 1 (Set 01)",
+      "category": "Official PYQ",
+      "totalQ": 30,
+      "dupsWithOtherPapers": 0,
+      "details": []
+    },
+    "pedagogy_shift_set2": {
+      "title": "BSTET Art of Teaching 2023 - Shift 1 (Set 02)",
+      "category": "Official PYQ",
+      "totalQ": 30,
+      "dupsWithOtherPapers": 0,
+      "details": []
+    },
+    "pedagogy_shift_set3": {
+      "title": "BSTET Art of Teaching 2023 - Shift 1 (Set 03)",
+      "category": "Official PYQ",
+      "totalQ": 30,
+      "dupsWithOtherPapers": 0,
+      "details": []
+    },
+    "pedagogy_shift_set4": {
+      "title": "BSTET Art of Teaching 2023 - Shift 1 (Set 04)",
+      "category": "Official PYQ",
+      "totalQ": 30,
+      "dupsWithOtherPapers": 0,
+      "details": []
+    },
+    "pedagogy_shift_set5": {
+      "title": "BSTET Art of Teaching 2023 - Shift 1 (Set 05)",
+      "category": "Official PYQ",
+      "totalQ": 30,
+      "dupsWithOtherPapers": 0,
+      "details": []
+    },
+    "drill_cs_100": {
+      "title": "Computer Science 100Q Subject Mastery Drill",
+      "category": "Sectional Drill",
+      "totalQ": 100,
+      "dupsWithOtherPapers": 0,
+      "details": []
+    },
+    "drill_pedagogy_50": {
+      "title": "Art of Teaching 50Q Pedagogy Drill",
+      "category": "Sectional Drill",
+      "totalQ": 50,
+      "dupsWithOtherPapers": 0,
+      "details": []
+    },
+    "drill_general_50": {
+      "title": "General Skills 50Q Booster Drill",
+      "category": "Sectional Drill",
+      "totalQ": 50,
+      "dupsWithOtherPapers": 0,
+      "details": []
+    },
+    "drill_dsa_sql_50": {
+      "title": "Data Structures, Algorithms & SQL Drill",
+      "category": "Sectional Drill",
+      "totalQ": 50,
+      "dupsWithOtherPapers": 0,
+      "details": []
+    },
+    "drill_os_networks_50": {
+      "title": "Operating Systems & Networking Drill",
+      "category": "Sectional Drill",
+      "totalQ": 50,
+      "dupsWithOtherPapers": 0,
+      "details": []
+    },
+    "pedagogy_master_100": {
+      "title": "BSTET Art of Teaching 100Q PYQ Master Drill",
+      "category": "Sectional Drill",
+      "totalQ": 100,
+      "dupsWithOtherPapers": 0,
+      "details": []
+    },
+    "pedagogy_recent_50": {
+      "title": "BSTET Art of Teaching Recent Exams 50Q Sprint",
+      "category": "Sectional Drill",
+      "totalQ": 50,
+      "dupsWithOtherPapers": 0,
+      "details": []
+    },
+    "drill_dbms_sql_50": {
+      "title": "DBMS & SQL Deep Mastery Drill (50Q)",
+      "category": "Sectional Drill",
+      "totalQ": 50,
+      "dupsWithOtherPapers": 0,
+      "details": []
+    },
+    "drill_os_networks_master_50": {
+      "title": "OS & Computer Networks Mastery Drill (50Q)",
+      "category": "Sectional Drill",
+      "totalQ": 50,
+      "dupsWithOtherPapers": 0,
+      "details": []
+    },
+    "drill_pedagogy_nep_50": {
+      "title": "Art of Teaching & NEP 2020 High-Yield Drill (50Q)",
+      "category": "Sectional Drill",
+      "totalQ": 50,
+      "dupsWithOtherPapers": 0,
+      "details": []
+    }
+  }
+}

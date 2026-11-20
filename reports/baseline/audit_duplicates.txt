@@ -1,0 +1,86 @@
+﻿Loaded catalog with 35 papers.
+
+--- PAPER QUESTION COUNTS & INTERNAL DUPLICATES ---
+official_shift1              [Official PYQ   ]: 150 Qs ✅
+official_shift2              [Official PYQ   ]: 150 Qs ✅
+official_shift3              [Official PYQ   ]: 150 Qs ✅
+official_shift4              [Official PYQ   ]: 150 Qs ✅
+official_2023                [Official PYQ   ]: 150 Qs ✅
+sachin_shift_set1            [Official PYQ   ]: 30 Qs ✅
+sachin_shift_set2            [Official PYQ   ]: 30 Qs ✅
+sachin_shift_set3            [Official PYQ   ]: 30 Qs ✅
+sachin_shift_set4            [Official PYQ   ]: 30 Qs ✅
+sachin_shift_set5            [Official PYQ   ]: 30 Qs ✅
+predicted_set1               [Predicted Mock ]: 150 Qs ✅
+predicted_set2               [Predicted Mock ]: 150 Qs ✅
+predicted_set3               [Predicted Mock ]: 150 Qs ✅
+predicted_set4               [Predicted Mock ]: 150 Qs ✅
+predicted_set5               [Predicted Mock ]: 150 Qs ✅
+predicted_set6               [Predicted Mock ]: 150 Qs ✅
+predicted_set7               [Predicted Mock ]: 150 Qs ✅
+predicted_set8               [Predicted Mock ]: 150 Qs ✅
+predicted_set9               [Predicted Mock ]: 150 Qs ✅
+predicted_set10              [Predicted Mock ]: 150 Qs ✅
+predicted_set11              [Predicted Mock ]: 150 Qs ✅
+predicted_set12              [Predicted Mock ]: 150 Qs ✅
+predicted_set13              [Predicted Mock ]: 150 Qs ✅
+predicted_set14              [Predicted Mock ]: 150 Qs ✅
+drill_cs_100                 [Sectional Drill]: 100 Qs ✅
+drill_pedagogy_50            [Sectional Drill]: 50 Qs ✅
+drill_general_50             [Sectional Drill]: 50 Qs ✅
+drill_dsa_sql_50             [Sectional Drill]: 50 Qs ✅
+drill_os_networks_50         [Sectional Drill]: 50 Qs ✅
+drill_modern_tech_50         [Sectional Drill]: 50 Qs ✅
+sachin_pedagogy_master       [Sectional Drill]: 100 Qs ✅
+sachin_curated_recent_50     [Sectional Drill]: 50 Qs ✅
+drill_dbms_sql_50            [Sectional Drill]: 50 Qs ✅
+drill_os_networks_master_50  [Sectional Drill]: 50 Qs ✅
+drill_pedagogy_nep_50        [Sectional Drill]: 50 Qs ✅
+
+Total questions loaded across 35 papers: 3650
+Total internal duplicates within single papers: 0
+
+--- ANALYZING CROSS-PAPER DUPLICATES ---
+
+Unique question statements appearing in MULTIPLE papers: 0
+
+Top 25 most repeated questions across papers:
+
+--- DUPLICATE COUNT BREAKDOWN PER PAPER ---
+official_shift1              [Official PYQ   ]:   0 / 150 repeated (0.0%)
+official_shift2              [Official PYQ   ]:   0 / 150 repeated (0.0%)
+official_shift3              [Official PYQ   ]:   0 / 150 repeated (0.0%)
+official_shift4              [Official PYQ   ]:   0 / 150 repeated (0.0%)
+official_2023                [Official PYQ   ]:   0 / 150 repeated (0.0%)
+sachin_shift_set1            [Official PYQ   ]:   0 /  30 repeated (0.0%)
+sachin_shift_set2            [Official PYQ   ]:   0 /  30 repeated (0.0%)
+sachin_shift_set3            [Official PYQ   ]:   0 /  30 repeated (0.0%)
+sachin_shift_set4            [Official PYQ   ]:   0 /  30 repeated (0.0%)
+sachin_shift_set5            [Official PYQ   ]:   0 /  30 repeated (0.0%)
+predicted_set1               [Predicted Mock ]:   0 / 150 repeated (0.0%)
+predicted_set2               [Predicted Mock ]:   0 / 150 repeated (0.0%)
+predicted_set3               [Predicted Mock ]:   0 / 150 repeated (0.0%)
+predicted_set4               [Predicted Mock ]:   0 / 150 repeated (0.0%)
+predicted_set5               [Predicted Mock ]:   0 / 150 repeated (0.0%)
+predicted_set6               [Predicted Mock ]:   0 / 150 repeated (0.0%)
+predicted_set7               [Predicted Mock ]:   0 / 150 repeated (0.0%)
+predicted_set8               [Predicted Mock ]:   0 / 150 repeated (0.0%)
+predicted_set9               [Predicted Mock ]:   0 / 150 repeated (0.0%)
+predicted_set10              [Predicted Mock ]:   0 / 150 repeated (0.0%)
+predicted_set11              [Predicted Mock ]:   0 / 150 repeated (0.0%)
+predicted_set12              [Predicted Mock ]:   0 / 150 repeated (0.0%)
+predicted_set13              [Predicted Mock ]:   0 / 150 repeated (0.0%)
+predicted_set14              [Predicted Mock ]:   0 / 150 repeated (0.0%)
+drill_cs_100                 [Sectional Drill]:   0 / 100 repeated (0.0%)
+drill_pedagogy_50            [Sectional Drill]:   0 /  50 repeated (0.0%)
+drill_general_50             [Sectional Drill]:   0 /  50 repeated (0.0%)
+drill_dsa_sql_50             [Sectional Drill]:   0 /  50 repeated (0.0%)
+drill_os_networks_50         [Sectional Drill]:   0 /  50 repeated (0.0%)
+drill_modern_tech_50         [Sectional Drill]:   0 /  50 repeated (0.0%)
+sachin_pedagogy_master       [Sectional Drill]:   0 / 100 repeated (0.0%)
+sachin_curated_recent_50     [Sectional Drill]:   0 /  50 repeated (0.0%)
+drill_dbms_sql_50            [Sectional Drill]:   0 /  50 repeated (0.0%)
+drill_os_networks_master_50  [Sectional Drill]:   0 /  50 repeated (0.0%)
+drill_pedagogy_nep_50        [Sectional Drill]:   0 /  50 repeated (0.0%)
+
+Wrote full audit to scripts/duplicate_audit_report.json

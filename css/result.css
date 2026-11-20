@@ -1,0 +1,297 @@
+/**
+ * Result Screen & Diagnostic Scorecard - Bihar STET CBT Portal
+ * SVG circular gauge, category cutoffs, three-tier diagnostic matrix,
+ * retry wrong questions, and solution review list.
+ */
+
+#result-view {
+  padding-bottom: var(--space-16);
+}
+
+.result-content {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-4);
+}
+
+/* 1. Score Summary Hero */
+.result-hero {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: var(--space-6);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: var(--space-6);
+}
+
+.result-gauge-wrap {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.donut-gauge {
+  transform: rotate(-90deg);
+  width: 100%;
+  height: 100%;
+}
+
+.gauge-bg {
+  fill: none;
+  stroke: var(--bg-inset);
+  stroke-width: 10;
+}
+
+.gauge-fill {
+  fill: none;
+  stroke: var(--primary);
+  stroke-width: 10;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 1s ease;
+}
+
+.gauge-text-wrap {
+  position: absolute;
+  text-align: center;
+}
+
+.gauge-pct {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.gauge-score-label {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-top: 4px;
+}
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+  flex: 1;
+  max-width: 480px;
+}
+
+.kpi-item {
+  background: var(--bg-inset);
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  text-align: center;
+}
+
+.kpi-val {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--text-primary);
+  display: block;
+  line-height: 1.2;
+}
+
+.kpi-lbl {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 2px;
+  display: block;
+}
+
+/* 2. Category Cutoff Selector & Qualification Banner */
+.cutoff-section {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  margin-bottom: var(--space-6);
+  box-shadow: var(--shadow-sm);
+}
+
+.cutoff-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.cutoff-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.qualification-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 8px 16px;
+  border-radius: var(--radius-full);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.qualification-badge.qualified {
+  background-color: var(--success-bg);
+  color: var(--success);
+  border: 1.5px solid var(--success-border);
+}
+
+.qualification-badge.not-qualified {
+  background-color: var(--danger-bg);
+  color: var(--danger);
+  border: 1.5px solid var(--danger-border);
+}
+
+/* 3. Three-Tier Topic Diagnostic Matrix */
+.diagnostic-section {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  margin-bottom: var(--space-6);
+  box-shadow: var(--shadow-sm);
+}
+
+.diag-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--space-4);
+}
+
+.diag-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.diag-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.diag-topic-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.diag-bar-track {
+  width: 100%;
+  height: 8px;
+  background: var(--bg-inset);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.diag-bar-fill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  transition: width 0.8s ease;
+}
+
+.diag-tier-mastered .diag-bar-fill {
+  background: var(--success);
+}
+
+.diag-tier-revision .diag-bar-fill {
+  background: var(--warning);
+}
+
+.diag-tier-weak .diag-bar-fill {
+  background: var(--danger);
+}
+
+/* 4. Result Action Toolbar */
+.result-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-bottom: var(--space-8);
+}
+
+/* 5. Detailed Solutions Review */
+.solutions-section {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-sm);
+}
+
+.sol-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-subtle);
+  padding-bottom: var(--space-4);
+  margin-bottom: var(--space-6);
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.sol-item {
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  margin-bottom: var(--space-4);
+  background: var(--bg-surface);
+}
+
+.sol-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-3);
+}
+
+.sol-status-pill {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+}
+
+.sol-status-pill.correct {
+  background: var(--success-bg);
+  color: var(--success);
+}
+
+.sol-status-pill.incorrect {
+  background: var(--danger-bg);
+  color: var(--danger);
+}
+
+.sol-status-pill.unattempted {
+  background: var(--bg-inset);
+  color: var(--text-tertiary);
+}
+
+.sol-explanation-box {
+  background: var(--bg-inset);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: var(--space-3) var(--space-4);
+  margin-top: var(--space-3);
+  font-size: 13px;
+  line-height: 1.5;
+}

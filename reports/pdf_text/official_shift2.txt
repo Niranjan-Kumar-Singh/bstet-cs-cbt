@@ -1,0 +1,2428 @@
+
+--- PAGE 1 ---
+Previous Year Paper
+(Computer Science)
+03 Nov, 2025 Shift 2
+BSTET
+(Class 11-12)
+
+--- PAGE 2 ---
+
+--- PAGE 3 ---
+
+--- PAGE 4 ---
+Q.1 Cat-5, Cat-5E and Cat-6 are examples of which of the following cables ?
+Ans
+A. Coaxial Cable
+B. Shielded Twisted Pair Cable
+C. Fiber Optic cable
+D. Unshielded Twisted Pair Cable
+Question Type : MCQ
+Question ID : 4335766010
+Option 1 ID : 43357624037
+Option 2 ID : 43357624038
+Option 3 ID : 43357624039
+Option 4 ID : 43357624040
+Status : Answered
+Chosen Option : A
+Q.2 In the context of minimum spanning trees, the "cut property" is used to justify the
+correctness of Prim's algorithm. What does the cut property state?
+Ans
+A. The algorithm always cuts the maximum weight edge.
+B. The algorithm always cuts the minimum weight edge.
+C. The algorithm always cuts an edge crossing the cut with the minimum weight.
+D. The algorithm always cuts an edge crossing the cut with the maximum weight.
+Question Type : MCQ
+Question ID : 4335766082
+Option 1 ID : 43357624325
+Option 2 ID : 43357624326
+Option 3 ID : 43357624327
+Option 4 ID : 43357624328
+Status : Answered
+Chosen Option : C
+Exam Name
+STET Exam 2025
+Paper
+Paper II
+Roll No
+Participant Name
+Test Center Name
+Test Date
+03/11/2025
+Test Time
+2:00 PM - 4:30 PM
+Section : Part I Computer Science(226)
+
+--- PAGE 5 ---
+Q.3 Aggregate functions can be used with………….clause. They can not be used with………
+clause.
+Ans
+A. WHERE, HAVING
+B. HAVING, WHERE
+C. GROUP BY, HAVING
+D. SELECT, HAVING
+Question Type : MCQ
+Question ID : 4335766000
+Option 1 ID : 43357623997
+Option 2 ID : 43357623998
+Option 3 ID : 43357623999
+Option 4 ID : 43357624000
+Status : Answered
+Chosen Option : D
+Q.4 The concept of NP-Completeness was introduced by:
+Ans
+A. Stephen Cook
+B. Richard Karp
+C. Donald Knuth
+D. John Nash
+Question Type : MCQ
+Question ID : 4335766080
+Option 1 ID : 43357624317
+Option 2 ID : 43357624318
+Option 3 ID : 43357624319
+Option 4 ID : 43357624320
+Status : Answered
+Chosen Option : B
+Q.5 ISO 9000 and SEI CMM are both frameworks related to:
+Ans
+A. Network protocols
+B. Software architecture
+C. Software quality standards and process improvement
+D. Software development languages
+Question Type : MCQ
+Question ID : 4335766205
+Option 1 ID : 43357624817
+Option 2 ID : 43357624818
+Option 3 ID : 43357624819
+Option 4 ID : 43357624820
+Status : Answered
+Chosen Option : C
+
+--- PAGE 6 ---
+Q.6 Which among the followings is/ are true as per the ZigBee standards?
+Ans
+A. Low power consumption
+B. Low data rate
+C. Low range
+D. All of the above
+Question Type : MCQ
+Question ID : 4335766338
+Option 1 ID : 43357625349
+Option 2 ID : 43357625350
+Option 3 ID : 43357625351
+Option 4 ID : 43357625352
+Status : Answered
+Chosen Option : D
+Q.7 The minimum number of edges in a spanning tree of a connected graph with "n"
+vertices is:
+Ans
+A. n
+B. n - 1
+C. n + 1
+D. n(n-1)/2
+Question Type : MCQ
+Question ID : 4335766083
+Option 1 ID : 43357624329
+Option 2 ID : 43357624330
+Option 3 ID : 43357624331
+Option 4 ID : 43357624332
+Status : Answered
+Chosen Option : D
+Q.8 Divide and Conquer is an algorithmic paradigm that solves problems by:
+Ans
+A. Iteratively solving subproblems
+B. Recursively solving subproblems
+C. Using heuristics to find solutions
+D. Greedily combining solutions
+Question Type : MCQ
+Question ID : 4335766078
+Option 1 ID : 43357624309
+Option 2 ID : 43357624310
+Option 3 ID : 43357624311
+Option 4 ID : 43357624312
+Status : Answered
+Chosen Option : C
+
+--- PAGE 7 ---
+Q.9 A) Knowledge base (KB) is consists of set of statements. B) Inference is deriving a new
+sentence from the KB. Choose the correct option.
+Ans
+A. A is True, B is True
+B. A is False, B is False
+C. A is True, B is false
+D. A is false, B is True
+Question Type : MCQ
+Question ID : 4335766366
+Option 1 ID : 43357625461
+Option 2 ID : 43357625462
+Option 3 ID : 43357625463
+Option 4 ID : 43357625464
+Status : Answered
+Chosen Option : A
+Q.10 Which concept allows a class to inherit properties and behaviors from multiple
+classes?
+Ans
+A. Encapsulation
+B. Inheritance
+C. Polymorphism
+D. Multiple Inheritance
+Question Type : MCQ
+Question ID : 4335766241
+Option 1 ID : 43357624961
+Option 2 ID : 43357624962
+Option 3 ID : 43357624963
+Option 4 ID : 43357624964
+Status : Answered
+Chosen Option : C
+Q.11 Sangeeta asks her colleague for her project work and then copies the entire work and
+submits it to her team leader claiming it to be her own work. The act performed by
+Sangeeta is known as _________________ .
+Ans
+A. Phishing
+B. Plagiarism
+C. Spamming
+D. Virus
+Question Type : MCQ
+Question ID : 4335768731
+Option 1 ID : 43357634921
+Option 2 ID : 43357634922
+Option 3 ID : 43357634923
+Option 4 ID : 43357634924
+Status : Answered
+Chosen Option : B
+
+--- PAGE 8 ---
+Q.12 What is the default format of data in MySQL?
+Ans
+A. DD-MM-YYYY
+B. MM-DD-YYYY
+C. YYYY-MM-DD
+D. YYYY-DD-MM
+Question Type : MCQ
+Question ID : 4335766458
+Option 1 ID : 43357625829
+Option 2 ID : 43357625830
+Option 3 ID : 43357625831
+Option 4 ID : 43357625832
+Status : Answered
+Chosen Option : B
+Q.13 Which of the following is true for the language: { ap| p is a prime}
+Ans
+A. It is regular but not context-free
+B. It is neither regular nor context-free, but accepted by a Turing machine
+C. It is not accepted by a Turing Machine
+D. It is context-free but not regular
+Question Type : MCQ
+Question ID : 4335766312
+Option 1 ID : 43357625245
+Option 2 ID : 43357625246
+Option 3 ID : 43357625247
+Option 4 ID : 43357625248
+Status : Answered
+Chosen Option : B
+Q.14 Debugging is the process of:
+Ans
+A. Creating new software modules
+B. Removing defects from software
+C. Analysing software requirements
+D. Generating test cases
+Question Type : MCQ
+Question ID : 4335766210
+Option 1 ID : 43357624837
+Option 2 ID : 43357624838
+Option 3 ID : 43357624839
+Option 4 ID : 43357624840
+Status : Answered
+Chosen Option : B
+
+--- PAGE 9 ---
+Q.15 RFID is used for?
+Ans
+A. 3G Connectivity
+B. Measuring WiFi strength
+C. Providing WiFi Connection
+D. Object Identification
+Question Type : MCQ
+Question ID : 4335766332
+Option 1 ID : 43357625325
+Option 2 ID : 43357625326
+Option 3 ID : 43357625327
+Option 4 ID : 43357625328
+Status : Answered
+Chosen Option : C
+Q.16 Upward multiplexing involves:
+Ans
+A.     Combining multiple data streams into one
+B.   Distributing data to different physical channels
+C. Separating data into smaller units
+D. Reordering data packets
+Question Type : MCQ
+Question ID : 4335766190
+Option 1 ID : 43357624757
+Option 2 ID : 43357624758
+Option 3 ID : 43357624759
+Option 4 ID : 43357624760
+Status : Answered
+Chosen Option : A
+Q.17 Consider the statements given below and then choose the correct output from the
+given options :
+N='5'
+try :
+print ( 'WORD ' + N, end= '#')
+except :
+print ( 'ERROR' , end= ' # ' )
+finally :
+print ( ' OVER ')
+Ans
+A. ERROR#
+B. WORD5#OVER
+C. WORD5#
+D. ERROR#OVER
+Question Type : MCQ
+Question ID : 4335766440
+Option 1 ID : 43357625757
+Option 2 ID : 43357625758
+Option 3 ID : 43357625759
+Option 4 ID : 43357625760
+Status : Answered
+Chosen Option : B
+
+--- PAGE 10 ---
+Q.18 What is synonymy relation?
+Ans
+A. A is part of B
+B. A denotes same as B
+C. A is a kind of B
+D. A is superordinate of B
+Question Type : MCQ
+Question ID : 4335766373
+Option 1 ID : 43357625489
+Option 2 ID : 43357625490
+Option 3 ID : 43357625491
+Option 4 ID : 43357625492
+Status : Answered
+Chosen Option : D
+Q.19 To capture data from the realworld IoT uses-------
+Ans
+A. Sensors
+B. Actuators
+C. Microprocesspr
+D. Microcontroller
+Question Type : MCQ
+Question ID : 4335766324
+Option 1 ID : 43357625293
+Option 2 ID : 43357625294
+Option 3 ID : 43357625295
+Option 4 ID : 43357625296
+Status : Answered
+Chosen Option : C
+Q.20 The "producer-consumer problem" is a classic synchronization problem that involves:
+Ans
+A. Two processes competing for the same resources
+B. Two processes exchanging data through shared buffers
+C. Two processes competing for CPU time
+D. Two processes communicating over a network
+Question Type : MCQ
+Question ID : 4335766145
+Option 1 ID : 43357624577
+Option 2 ID : 43357624578
+Option 3 ID : 43357624579
+Option 4 ID : 43357624580
+Status : Answered
+Chosen Option : D
+
+--- PAGE 11 ---
+Q.21 In the context of recursion, what is the purpose of the "stack" data structure?
+Ans
+A. To store variables and function calls for backtracking
+B. To store only variables
+C. To store only function calls
+D. To store loop counters
+Question Type : MCQ
+Question ID : 4335766113
+Option 1 ID : 43357624449
+Option 2 ID : 43357624450
+Option 3 ID : 43357624451
+Option 4 ID : 43357624452
+Status : Answered
+Chosen Option : D
+Q.22 Which aggregate function in SQL displays the number of values in the specified column
+ignoring the NULL values ?
+Ans
+A. len ( )
+B. count ( )
+C. number ( )
+D. num ( )
+Question Type : MCQ
+Question ID : 4335766443
+Option 1 ID : 43357625769
+Option 2 ID : 43357625770
+Option 3 ID : 43357625771
+Option 4 ID : 43357625772
+Status : Answered
+Chosen Option : A
+Q.23 Which of the following is a top-down approach in which the entity's higher level can be
+divided into two lower sub-entities?
+Ans
+A. Aggregation
+B. Generalization
+C. Specialization
+D. All of the above
+Question Type : MCQ
+Question ID : 4335766161
+Option 1 ID : 43357624641
+Option 2 ID : 43357624642
+Option 3 ID : 43357624643
+Option 4 ID : 43357624644
+Status : Answered
+Chosen Option : A
+
+--- PAGE 12 ---
+Q.24 Resource management in IoT can be done by implementing--------
+Ans
+A. Protocols
+B. Algorithms
+C. Networks
+D. Protocols and Algorithms
+Question Type : MCQ
+Question ID : 4335766350
+Option 1 ID : 43357625397
+Option 2 ID : 43357625398
+Option 3 ID : 43357625399
+Option 4 ID : 43357625400
+Status : Answered
+Chosen Option : D
+Q.25 Which of the following is not a valid relational operator used with WHERE clause in
+SQL?
+Ans
+A. >
+B. <=
+C. =>
+D. <>
+Question Type : MCQ
+Question ID : 4335766457
+Option 1 ID : 43357625825
+Option 2 ID : 43357625826
+Option 3 ID : 43357625827
+Option 4 ID : 43357625828
+Status : Answered
+Chosen Option : D
+Q.26 Which of the following statement is false?
+Ans
+A. A recursive language is also a regular language
+B. A context free language is also a regular language
+C. A context free language is also recursive enumerable language
+D. Both (a) and (b)
+Question Type : MCQ
+Question ID : 4335766307
+Option 1 ID : 43357625225
+Option 2 ID : 43357625226
+Option 3 ID : 43357625227
+Option 4 ID : 43357625228
+Status : Answered
+Chosen Option : D
+
+--- PAGE 13 ---
+Q.27 Which tag is used to create a line break in an HTML document ?
+Ans
+A. <lb>
+B. <break>
+C. <br>
+D. <newline>
+Question Type : MCQ
+Question ID : 4335766024
+Option 1 ID : 43357624093
+Option 2 ID : 43357624094
+Option 3 ID : 43357624095
+Option 4 ID : 43357624096
+Status : Answered
+Chosen Option : C
+Q.28 In Huffman coding, which characters are usually assigned shorter codes?
+Ans
+A. Characters with higher frequency
+B. Characters with lower frequency
+C. Characters with longer ASCII values
+D. Characters with shorter ASCII values
+Question Type : MCQ
+Question ID : 4335766096
+Option 1 ID : 43357624381
+Option 2 ID : 43357624382
+Option 3 ID : 43357624383
+Option 4 ID : 43357624384
+Status : Answered
+Chosen Option : D
+Q.29 What is a session in web development?
+Ans
+A.   A type of HTTP request
+B. A way to store data on the client side
+C. A temporary storage for user-specific data during a browsing session
+D. A method to encrypt data for secure transmission
+Question Type : MCQ
+Question ID : 4335766263
+Option 1 ID : 43357625049
+Option 2 ID : 43357625050
+Option 3 ID : 43357625051
+Option 4 ID : 43357625052
+Status : Answered
+Chosen Option : D
+
+--- PAGE 14 ---
+Q.30 Which of the following device provides the necessary translation of data received from
+network into a format or protocol recognized by devices with the internal network?
+Ans
+A. Bridge
+B. Gateway
+C. Router
+D. Modem
+Question Type : MCQ
+Question ID : 4335765985
+Option 1 ID : 43357623937
+Option 2 ID : 43357623938
+Option 3 ID : 43357623939
+Option 4 ID : 43357623940
+Status : Answered
+Chosen Option : C
+Q.31 Regular expression for all strings starts with b and ends with bba is.
+Ans
+A. aba*b*bba
+B. ab(ab)*bba
+C. b(a+b)*bba
+D. All of the mentioned
+Question Type : MCQ
+Question ID : 4335766297
+Option 1 ID : 43357625185
+Option 2 ID : 43357625186
+Option 3 ID : 43357625187
+Option 4 ID : 43357625188
+Status : Answered
+Chosen Option : C
+Q.32 What does a first order predicate logic contain?
+Ans
+A. Predicate and a subject
+B. Predicate and a Preposition
+C. Subject and an object
+D. None of the above
+Question Type : MCQ
+Question ID : 4335766369
+Option 1 ID : 43357625473
+Option 2 ID : 43357625474
+Option 3 ID : 43357625475
+Option 4 ID : 43357625476
+Status : Answered
+Chosen Option : A
+
+--- PAGE 15 ---
+Q.33 The hexadecimal number F4 is equivalent to which binary number?
+Ans
+A. 11111001
+B. 11110100
+C. 11111100
+D. 11111010
+Question Type : MCQ
+Question ID : 4335766067
+Option 1 ID : 43357624265
+Option 2 ID : 43357624266
+Option 3 ID : 43357624267
+Option 4 ID : 43357624268
+Status : Answered
+Chosen Option : C
+Q.34 Algorithm analysis is primarily concerned with:
+Ans
+A. Determining the best algorithm for a specific problem
+B. Measuring the time and space efficiency of an algorithm
+C. Creating new algorithms from scratch
+D. Solving algorithmic problems using any available approach
+Question Type : MCQ
+Question ID : 4335766071
+Option 1 ID : 43357624281
+Option 2 ID : 43357624282
+Option 3 ID : 43357624283
+Option 4 ID : 43357624284
+Status : Answered
+Chosen Option : A
+Q.35 A web server is _____________.
+Ans
+A. A program that downloads files
+B. A type of web browser
+C. A protocol used for secure communication
+D. A computer that stores and delivers web pages
+Question Type : MCQ
+Question ID : 4335766022
+Option 1 ID : 43357624085
+Option 2 ID : 43357624086
+Option 3 ID : 43357624087
+Option 4 ID : 43357624088
+Status : Answered
+Chosen Option : C
+
+--- PAGE 16 ---
+Q.36 .If an algorithm's behavior is bounded by "o(f(n)) if g(n)", what notation does it become
+when the condition is removed?
+Ans
+A. o(f(n))
+B. o(g(n))
+C. o(f(n) + g(n))
+D. o(f(n) * g(n))
+Question Type : MCQ
+Question ID : 4335766076
+Option 1 ID : 43357624301
+Option 2 ID : 43357624302
+Option 3 ID : 43357624303
+Option 4 ID : 43357624304
+Status : Answered
+Chosen Option : B
+Q.37 What is encapsulation in OOP?
+Ans
+A. The ability to inherit properties from multiple classes
+B. The process of creating objects
+C. The bundling of data and methods that operate on the data
+D. The use of abstract classes only
+Question Type : MCQ
+Question ID : 4335766228
+Option 1 ID : 43357624909
+Option 2 ID : 43357624910
+Option 3 ID : 43357624911
+Option 4 ID : 43357624912
+Status : Answered
+Chosen Option : D
+Q.38 Which of the following programming medium is used by MobileMe to create the
+appearance of desktop application inside a browser?
+Ans
+A. HTML
+B. DHTML
+C. Jquery
+D. All of the above
+Question Type : MCQ
+Question ID : 4335766347
+Option 1 ID : 43357625385
+Option 2 ID : 43357625386
+Option 3 ID : 43357625387
+Option 4 ID : 43357625388
+Status : Answered
+Chosen Option : B
+
+--- PAGE 17 ---
+Q.39 Which SQL statement is used to update data in a database?
+Ans
+A.    ALTER
+B.    CHANGE
+C. UPDATE
+D. MODIFY
+Question Type : MCQ
+Question ID : 4335766284
+Option 1 ID : 43357625133
+Option 2 ID : 43357625134
+Option 3 ID : 43357625135
+Option 4 ID : 43357625136
+Status : Answered
+Chosen Option : B
+Q.40 Which term describes the way devices are interconnected in a network?
+Ans
+A. Topology
+B.   Bandwidth
+C.      Encoding
+D.   Transmission
+Question Type : MCQ
+Question ID : 4335766175
+Option 1 ID : 43357624697
+Option 2 ID : 43357624698
+Option 3 ID : 43357624699
+Option 4 ID : 43357624700
+Status : Answered
+Chosen Option : B
+Q.41 Subnetting allows for:
+Ans
+A. Faster data transmission
+B. Improved error control
+C. Efficient use of IP addresses
+D. Increased network security
+Question Type : MCQ
+Question ID : 4335766187
+Option 1 ID : 43357624745
+Option 2 ID : 43357624746
+Option 3 ID : 43357624747
+Option 4 ID : 43357624748
+Status : Answered
+Chosen Option : A
+
+--- PAGE 18 ---
+Q.42 This is a Assertion and Reason type questions. This question consists of two
+statements, namely, Assertion (A) and Reason (R). Select the most suitable option
+considering the Assertion and Reason.
+Assertion (A) : FTP is a networking protocol used for transferring files.Reason (R) : FTP
+is used when we want to view some data from a website.
+Ans
+A. Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation
+of Assertion (A
+B. Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct
+explanation of Assertion (A)
+C. Assertion (A) is true, but Reason (R) is false.
+D. Assertion (A) is false, but Reason (R) is true.
+Question Type : MCQ
+Question ID : 4335766429
+Option 1 ID : 43357625713
+Option 2 ID : 43357625714
+Option 3 ID : 43357625715
+Option 4 ID : 43357625716
+Status : Answered
+Chosen Option : A
+Q.43 Which one is a communication channel security protocol?
+Ans
+A. SSL
+B. SET
+C. S-HTTP
+D. All of the above
+Question Type : MCQ
+Question ID : 4335766392
+Option 1 ID : 43357625565
+Option 2 ID : 43357625566
+Option 3 ID : 43357625567
+Option 4 ID : 43357625568
+Status : Answered
+Chosen Option : A
+Q.44 Church’s Thesis supports---------
+Ans
+A. Both TM is an general-purpose computer and TM is an algorithm and vice-versa are
+correct
+B. A Turing machine an algorithm and an algorithm as a Turing machine
+C. A Turing machine as a general-purpose computer system
+D. None of them is correct
+Question Type : MCQ
+Question ID : 4335766314
+Option 1 ID : 43357625253
+Option 2 ID : 43357625254
+Option 3 ID : 43357625255
+Option 4 ID : 43357625256
+Status : Answered
+Chosen Option : A
+
+--- PAGE 19 ---
+Q.45 A priority encoder is used to:
+Ans
+A. Convert binary information into a more compact form
+B. Assign priority to input lines based on their values
+C. Compare two binary numbers
+D. Combine multiple input signals into a single output
+Question Type : MCQ
+Question ID : 4335766033
+Option 1 ID : 43357624129
+Option 2 ID : 43357624130
+Option 3 ID : 43357624131
+Option 4 ID : 43357624132
+Status : Answered
+Chosen Option : C
+Q.46 Which type of queue allows insertion and deletion of elements at both the front and rear
+ends?
+Ans
+A. Circular queue
+B. Linear queue
+C. Dequeue (Double-ended queue)
+D. Priority queue
+Question Type : MCQ
+Question ID : 4335766107
+Option 1 ID : 43357624425
+Option 2 ID : 43357624426
+Option 3 ID : 43357624427
+Option 4 ID : 43357624428
+Status : Answered
+Chosen Option : C
+Q.47 Open System ________ tends to evolve more quickly than proprietary systems?
+Ans
+A. Hardware
+B. Software
+C. Hardware and Software
+D. None of these
+Question Type : MCQ
+Question ID : 4335766346
+Option 1 ID : 43357625381
+Option 2 ID : 43357625382
+Option 3 ID : 43357625383
+Option 4 ID : 43357625384
+Status : Answered
+Chosen Option : C
+
+--- PAGE 20 ---
+Q.48 Can a DFA recognize a palindrome number?
+Ans
+A. Yes
+B. No
+C. Yes, with input alphabet as ∑*
+D. Can’t be determined
+Question Type : MCQ
+Question ID : 4335766290
+Option 1 ID : 43357625157
+Option 2 ID : 43357625158
+Option 3 ID : 43357625159
+Option 4 ID : 43357625160
+Status : Answered
+Chosen Option : C
+Q.49 Which HTTP method is used for retrieving data from a server?
+Ans
+A. GET
+B.   POST
+C. PUT
+D. DELETE
+Question Type : MCQ
+Question ID : 4335766265
+Option 1 ID : 43357625057
+Option 2 ID : 43357625058
+Option 3 ID : 43357625059
+Option 4 ID : 43357625060
+Status : Answered
+Chosen Option : A
+Q.50 A large computer information system maintains many different computer files. Which
+amongst them is called a perpetual file?
+Ans
+A. Specialized File
+B.     Master File
+C.       Log File
+D.     Update File
+Question Type : MCQ
+Question ID : 4335766174
+Option 1 ID : 43357624693
+Option 2 ID : 43357624694
+Option 3 ID : 43357624695
+Option 4 ID : 43357624696
+Status : Answered
+Chosen Option : B
+
+--- PAGE 21 ---
+Q.51 Which of the following could be a disadvantage of 'open source' software?
+Ans
+A. High quality software with lots of features
+B. Not as customizable
+C. May not have been tested as much as proprietary software so might have bugs
+D. You can edit the source code to customize it
+Question Type : MCQ
+Question ID : 4335766008
+Option 1 ID : 43357624029
+Option 2 ID : 43357624030
+Option 3 ID : 43357624031
+Option 4 ID : 43357624032
+Status : Answered
+Chosen Option : C
+Q.52 Uniform-cost search expands the node n with the __________
+Ans
+A. Lowest path cost
+B. Heuristic cost
+C. Highest path cost
+D. Average path cost
+Question Type : MCQ
+Question ID : 4335766362
+Option 1 ID : 43357625445
+Option 2 ID : 43357625446
+Option 3 ID : 43357625447
+Option 4 ID : 43357625448
+Status : Answered
+Chosen Option : C
+Q.53 The process of acquiring a semaphore and entering a critical section while ensuring
+mutual exclusion is often called:
+Ans
+A. Wait-free synchronization
+B. Lock-free synchronization
+C. Critical section synchronization
+D. Barrier synchronization
+Question Type : MCQ
+Question ID : 4335766139
+Option 1 ID : 43357624553
+Option 2 ID : 43357624554
+Option 3 ID : 43357624555
+Option 4 ID : 43357624556
+Status : Answered
+Chosen Option : C
+
+--- PAGE 22 ---
+Q.54 The presense of _______ makes a card smart?
+Ans
+A. Memory
+B. Money
+C. Microchip
+D. Message Queue Telemetry Transport
+Question Type : MCQ
+Question ID : 4335766395
+Option 1 ID : 43357625577
+Option 2 ID : 43357625578
+Option 3 ID : 43357625579
+Option 4 ID : 43357625580
+Status : Answered
+Chosen Option : D
+Q.55 Which of the following is a database?
+Ans
+A. MySQL
+B. Informix
+C. SQL Server
+D. All of the above
+Question Type : MCQ
+Question ID : 4335766169
+Option 1 ID : 43357624673
+Option 2 ID : 43357624674
+Option 3 ID : 43357624675
+Option 4 ID : 43357624676
+Status : Answered
+Chosen Option : D
+Q.56 The ability to query data, as well as insert, delete, and alter tuples, is offered by
+____________
+Ans
+A. TCL (Transaction Control Language)
+B. DCL (Data Control Language)
+C. DDL (Data Definition Langauge)
+D. DML (Data Manipulation Langauge)
+Question Type : MCQ
+Question ID : 4335766153
+Option 1 ID : 43357624609
+Option 2 ID : 43357624610
+Option 3 ID : 43357624611
+Option 4 ID : 43357624612
+Status : Answered
+Chosen Option : A
+
+--- PAGE 23 ---
+Q.57 Which of the following options is a network protocol that enables secure and encrypted
+file transfers between a client and a server ?
+Ans
+A. SFTP
+B. Telnet
+C. SCP
+D. HTTP
+Question Type : MCQ
+Question ID : 4335766427
+Option 1 ID : 43357625705
+Option 2 ID : 43357625706
+Option 3 ID : 43357625707
+Option 4 ID : 43357625708
+Status : Answered
+Chosen Option : B
+Q.58 In a Binary Search Tree (BST), the operation of deleting a node with one child involves:
+Ans
+A. Removing the node and replacing it with its left child
+B. Removing the node and replacing it with its right child
+C. Removing the node and replacing it with its parent
+D. Removing the node and leaving the subtree unaltered
+Question Type : MCQ
+Question ID : 4335766099
+Option 1 ID : 43357624393
+Option 2 ID : 43357624394
+Option 3 ID : 43357624395
+Option 4 ID : 43357624396
+Status : Answered
+Chosen Option : D
+Q.59 A ____________(invented by Paul Roget in 1828) is a simple mechanical toy which
+creates the illusion of movement.
+Ans
+A. Binocular
+B. Zoetrope
+C. Thaumatrope
+D. BOOM
+Question Type : MCQ
+Question ID : 4335766412
+Option 1 ID : 43357625645
+Option 2 ID : 43357625646
+Option 3 ID : 43357625647
+Option 4 ID : 43357625648
+Status : Answered
+Chosen Option : C
+
+--- PAGE 24 ---
+Q.60 Questions given below is Assertion (A) and Reason (R) based questions. Mark the
+correct choice as :
+Assertion (A) : We can retrieve records from more than one table in MYSQL.
+Reason (R) :Foreign key is used to establish a relationship between two tables.
+Ans
+A. Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation
+for Assertion (A).
+B. Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct
+explanation for Assertion (A).
+C. Assertion (A) is true but, Reason (R) is false.
+D. Assertion (A) is false but, Reason (R) is true .
+Question Type : MCQ
+Question ID : 4335766448
+Option 1 ID : 43357625789
+Option 2 ID : 43357625790
+Option 3 ID : 43357625791
+Option 4 ID : 43357625792
+Status : Answered
+Chosen Option : B
+Q.61 A regular language over an alphabet ∑ is closed under following operation(s)
+Ans
+A. Union
+B. Concatenation
+C. Kleene*
+D. All of the mentioned
+Question Type : MCQ
+Question ID : 4335766287
+Option 1 ID : 43357625145
+Option 2 ID : 43357625146
+Option 3 ID : 43357625147
+Option 4 ID : 43357625148
+Status : Answered
+Chosen Option : A
+Q.62 What is the relationship between the distance between parity bits and their error
+detection and correction capability in Hamming Code?
+Ans
+A. Closer parity bits provide higher error correction capability
+B. Closer parity bits provide lower error correction capability
+C. Distance between parity bits has no impact on error correction capability
+D. The position of parity bits is irrelevant in Hamming Code
+Question Type : MCQ
+Question ID : 4335766051
+Option 1 ID : 43357624201
+Option 2 ID : 43357624202
+Option 3 ID : 43357624203
+Option 4 ID : 43357624204
+Status : Answered
+Chosen Option : C
+
+--- PAGE 25 ---
+Q.63 The I/O subsystem in an operating system is responsible for:
+Ans
+A. Allocating memory for processes
+B. Managing the file system
+C. Managing input/output operations between processes and input/output devices
+D. Allocating CPU time to processes
+Question Type : MCQ
+Question ID : 4335766127
+Option 1 ID : 43357624505
+Option 2 ID : 43357624506
+Option 3 ID : 43357624507
+Option 4 ID : 43357624508
+Status : Answered
+Chosen Option : C
+Q.64 The default value for the type attribute of an Unordered List in HTML is :
+Ans
+A. circle
+B. disc
+C. square
+D. triangle
+Question Type : MCQ
+Question ID : 4335766425
+Option 1 ID : 43357625697
+Option 2 ID : 43357625698
+Option 3 ID : 43357625699
+Option 4 ID : 43357625700
+Status : Answered
+Chosen Option : B
+Q.65 Which of the following is not an e-Reservation portal in India ?
+Ans
+A. https://www.amazon.in
+B. https://www.yatra.com
+C. https://www.makemytrip.com
+D. https://www.irctc.co.in
+Question Type : MCQ
+Question ID : 4335766420
+Option 1 ID : 43357625677
+Option 2 ID : 43357625678
+Option 3 ID : 43357625679
+Option 4 ID : 43357625680
+Status : Answered
+Chosen Option : A
+
+--- PAGE 26 ---
+Q.66 The Tower of Hanoi problem is a classic example of a problem that can be solved using
+recursion. How many minimum moves are required to solve the Tower of Hanoi problem
+with 3 disks?
+Ans
+A. 3
+B. 7
+C. 15
+D. 63
+Question Type : MCQ
+Question ID : 4335766115
+Option 1 ID : 43357624457
+Option 2 ID : 43357624458
+Option 3 ID : 43357624459
+Option 4 ID : 43357624460
+Status : Answered
+Chosen Option : C
+Q.67 Reverse engineering is primarily used for:
+Ans
+A. Creating new software from scratch
+B. Improving software performance
+C. Understanding and documenting existing software
+D. Testing software components
+Question Type : MCQ
+Question ID : 4335766206
+Option 1 ID : 43357624821
+Option 2 ID : 43357624822
+Option 3 ID : 43357624823
+Option 4 ID : 43357624824
+Status : Answered
+Chosen Option : C
+Q.68 Which among the following is not true about IoT?
+Ans
+A. IoT uses Micro Controllers
+B. IoT is fully safe
+C. IoT uses Sensors and Actuators
+D. IoT uses wireless technology
+Question Type : MCQ
+Question ID : 4335766320
+Option 1 ID : 43357625277
+Option 2 ID : 43357625278
+Option 3 ID : 43357625279
+Option 4 ID : 43357625280
+Status : Answered
+Chosen Option : B
+
+--- PAGE 27 ---
+Q.69 Identify the output of the following code segment:
+S = "an apple. a toy."
+S = s. find ( 'a ' , 2)
+print (s)
+Ans
+A. 0
+B. 1
+C. 3
+D. a'
+Question Type : MCQ
+Question ID : 4335766449
+Option 1 ID : 43357625793
+Option 2 ID : 43357625794
+Option 3 ID : 43357625795
+Option 4 ID : 43357625796
+Status : Answered
+Chosen Option : D
+Q.70 ______________ is an agreement between the communicating parties on how
+communication is to proceed over a network.
+Ans
+A. Ethernet
+B. Protocol
+C. Operating System
+D. Antivirus
+Question Type : MCQ
+Question ID : 4335766011
+Option 1 ID : 43357624041
+Option 2 ID : 43357624042
+Option 3 ID : 43357624043
+Option 4 ID : 43357624044
+Status : Answered
+Chosen Option : B
+Q.71 What is the main advantage of using exception handling in programming?
+Ans
+A. It prevents code from running
+B. It improves code readability
+C. It handles unexpected errors and allows graceful program termination
+D. It eliminates the need for classes and objects
+Question Type : MCQ
+Question ID : 4335766233
+Option 1 ID : 43357624929
+Option 2 ID : 43357624930
+Option 3 ID : 43357624931
+Option 4 ID : 43357624932
+Status : Answered
+Chosen Option : C
+
+--- PAGE 28 ---
+Q.72 What is the term for creating a new class based on an existing class?
+Ans
+A. Overriding
+B. Implementing
+C. Inheriting
+D. Overloading
+Question Type : MCQ
+Question ID : 4335766242
+Option 1 ID : 43357624965
+Option 2 ID : 43357624966
+Option 3 ID : 43357624967
+Option 4 ID : 43357624968
+Status : Answered
+Chosen Option : C
+Q.73 In OOP, which term refers to a mechanism by which a class can inherit properties and
+behaviors from another class?
+Ans
+A. Polymorphism
+B. Abstraction
+C. Encapsulation
+D. Inheritance
+Question Type : MCQ
+Question ID : 4335766230
+Option 1 ID : 43357624917
+Option 2 ID : 43357624918
+Option 3 ID : 43357624919
+Option 4 ID : 43357624920
+Status : Answered
+Chosen Option : C
+Q.74 The components expert system is/ are
+Ans
+A. Knowledge Base
+B. Inference Engine
+C. User Interface
+D. All of the above
+Question Type : MCQ
+Question ID : 4335766359
+Option 1 ID : 43357625433
+Option 2 ID : 43357625434
+Option 3 ID : 43357625435
+Option 4 ID : 43357625436
+Status : Answered
+Chosen Option : C
+
+--- PAGE 29 ---
+Q.75 In an AVL tree, the balance factor of a node is the difference between the heights of its:
+Ans
+A. Left and right subtrees
+B. Left subtree and parent
+C. Right subtree and parent
+D. Left and right children
+Question Type : MCQ
+Question ID : 4335766094
+Option 1 ID : 43357624373
+Option 2 ID : 43357624374
+Option 3 ID : 43357624375
+Option 4 ID : 43357624376
+Status : Answered
+Chosen Option : C
+Q.76 A technique that was developed to determine whether a machine could or could not
+demonstrate the artificial intelligence known as the___?
+Ans
+A. Algorithm
+B. Logaritham
+C. Turing Test
+D. Boolean algebra
+Question Type : MCQ
+Question ID : 4335766358
+Option 1 ID : 43357625429
+Option 2 ID : 43357625430
+Option 3 ID : 43357625431
+Option 4 ID : 43357625432
+Status : Answered
+Chosen Option : A
+Q.77 …………..compares neighbouring elements only and swaps them when necessary.
+Ans
+A. Selection Sort
+B. Bubble Sort
+C. Insertion Sort
+D. Quick Sort
+Question Type : MCQ
+Question ID : 4335765992
+Option 1 ID : 43357623965
+Option 2 ID : 43357623966
+Option 3 ID : 43357623967
+Option 4 ID : 43357623968
+Status : Answered
+Chosen Option : C
+
+--- PAGE 30 ---
+Q.78 Which of the following protocol defines that how the data is formatted and transmitted
+over the network ?
+Ans
+A. HTTP
+B. SMTP
+C. FTP
+D. POP3
+Question Type : MCQ
+Question ID : 4335766012
+Option 1 ID : 43357624045
+Option 2 ID : 43357624046
+Option 3 ID : 43357624047
+Option 4 ID : 43357624048
+Status : Answered
+Chosen Option : C
+Q.79 Public key encryption uses multiple keys. One key is used to encrypt data, while
+another is used to decrypt data. The key used to encrypt data is called the _____ key,
+while the key used to decrypt data is called the _____ key.
+Ans
+A. Encryption, decryption
+B. Encryption, public
+C. Public, private
+D. Private, public
+Question Type : MCQ
+Question ID : 4335766386
+Option 1 ID : 43357625541
+Option 2 ID : 43357625542
+Option 3 ID : 43357625543
+Option 4 ID : 43357625544
+Status : Answered
+Chosen Option : A
+Q.80 What is the primary purpose of an interface in OOP?
+Ans
+A. To provide a blueprint for creating objects
+B. To define a set of methods that must be implemented by implementing classes
+C. To define constructors for classes
+D. To create static methods
+Question Type : MCQ
+Question ID : 4335766250
+Option 1 ID : 43357624997
+Option 2 ID : 43357624998
+Option 3 ID : 43357624999
+Option 4 ID : 43357625000
+Status : Answered
+Chosen Option : B
+
+--- PAGE 31 ---
+Q.81 An index is clustered, if
+Ans
+A. it is on a set of fields that form a candidate key.
+B. it is on a set of fields that include the primary key.
+C. the data records of the file are organized in the same order as the data entries of the
+index.
+D. the data records of the file are organized not in the same order as the data entries of
+the index.
+Question Type : MCQ
+Question ID : 4335766148
+Option 1 ID : 43357624589
+Option 2 ID : 43357624590
+Option 3 ID : 43357624591
+Option 4 ID : 43357624592
+Status : Answered
+Chosen Option : D
+Q.82 In pointer implementation of linked lists, which operation can be performed in constant
+time (O(1)) when inserting or deleting nodes?
+Ans
+A. Inserting at the beginning
+B. Inserting at the end
+C. Inserting at a specific position
+D. Deleting a specific node
+Question Type : MCQ
+Question ID : 4335766112
+Option 1 ID : 43357624445
+Option 2 ID : 43357624446
+Option 3 ID : 43357624447
+Option 4 ID : 43357624448
+Status : Answered
+Chosen Option : C
+Q.83 Which of the following options is the correct protocol used for phone calls over the
+internet ?
+Ans
+A. PPP
+B. FTP
+C. HTTP
+D. VoIP
+Question Type : MCQ
+Question ID : 4335766446
+Option 1 ID : 43357625781
+Option 2 ID : 43357625782
+Option 3 ID : 43357625783
+Option 4 ID : 43357625784
+Status : Answered
+Chosen Option : D
+
+--- PAGE 32 ---
+Q.84 What is the simplified expression for the Boolean function F(A, B, C, D) = Σ(0, 1, 2, 4, 5,
+6, 8, 9, 10, 12, 13, 14) using the K-map method?
+Ans
+A. A'B'C'D' + A'B'C'D + A'BC'D + AB'C'D + ABCD
+B. A'B'C'D' + A'BC'D + AB'C'D + ABC'D + ABCD
+C. A'B'C'D' + A'BC'D + ABC'D + ABCD
+D. A'B'C'D' + A'BC'D' + A'BCD + ABCD
+Question Type : MCQ
+Question ID : 4335766031
+Option 1 ID : 43357624121
+Option 2 ID : 43357624122
+Option 3 ID : 43357624123
+Option 4 ID : 43357624124
+Status : Answered
+Chosen Option : B
+Q.85 What does the acronym "HTTP" stand for?
+Ans
+A. HyperText Transmission Protocol
+B. HyperText Transfer Protocol
+C. High-Tech Text Protocol
+D. HyperTransfer Text Protocol
+Question Type : MCQ
+Question ID : 4335766255
+Option 1 ID : 43357625017
+Option 2 ID : 43357625018
+Option 3 ID : 43357625019
+Option 4 ID : 43357625020
+Status : Answered
+Chosen Option : A
+Q.86 Which of the following is done by Secure Sockets Layers?
+Ans
+A. creates a secure, private connection to a web server
+B. Encrypts information
+C. Sends information over the internet
+D. All of the above
+Question Type : MCQ
+Question ID : 4335766387
+Option 1 ID : 43357625545
+Option 2 ID : 43357625546
+Option 3 ID : 43357625547
+Option 4 ID : 43357625548
+Status : Answered
+Chosen Option : D
+
+--- PAGE 33 ---
+Q.87 The default color of vlink is _________ .
+Ans
+A. Green
+B. Purple
+C. Blue
+D. Yellow
+Question Type : MCQ
+Question ID : 4335766472
+Option 1 ID : 43357625885
+Option 2 ID : 43357625886
+Option 3 ID : 43357625887
+Option 4 ID : 43357625888
+Status : Answered
+Chosen Option : A
+Q.88 In binary subtraction using the simple method, if a borrow is needed from a digit and
+the borrowed digit is 1, what happens to the next digit's value?
+Ans
+A. It remains unchanged
+B. It is incremented by 1
+C. It is decremented by 1
+D. It becomes 0
+Question Type : MCQ
+Question ID : 4335766050
+Option 1 ID : 43357624197
+Option 2 ID : 43357624198
+Option 3 ID : 43357624199
+Option 4 ID : 43357624200
+Status : Answered
+Chosen Option : D
+Q.89 Which programming language is often used for server-side web development?
+Ans
+A. HTML
+B. CSS
+C. JavaScript
+D. PHP
+Question Type : MCQ
+Question ID : 4335766257
+Option 1 ID : 43357625025
+Option 2 ID : 43357625026
+Option 3 ID : 43357625027
+Option 4 ID : 43357625028
+Status : Answered
+Chosen Option : C
+
+--- PAGE 34 ---
+Q.90 What does Structured Analysis focus on?
+Ans
+A. Hardware components
+B. Database management
+C. Data flow and processes
+D. User interfaces
+Question Type : MCQ
+Question ID : 4335766208
+Option 1 ID : 43357624829
+Option 2 ID : 43357624830
+Option 3 ID : 43357624831
+Option 4 ID : 43357624832
+Status : Answered
+Chosen Option : D
+Q.91 Questions given below is of Assertion and Reason type question. This question
+consists of two statements, namely, Assertion (A) and Reason (R). Select the most
+suitable option considering the Assertion and Reason. Assertion (A) : When you enter a
+query into a search engine, it retrieves and presents a list of web pages, documents,
+images, videos, or other types of content that are relevant to your search. Reason (R) :
+The goal of information retrieval is to effectively and efficiently find and present
+information that matches the user’s search criteria.
+Ans
+A. Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation
+of Assertion (A).
+B. Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct
+explanation of Assertion (A).
+C. Assertion (A) is true, but Reason (R) is false.
+D. Assertion (A) is false, but Reason (R) is true.
+Question Type : MCQ
+Question ID : 4335766475
+Option 1 ID : 43357625897
+Option 2 ID : 43357625898
+Option 3 ID : 43357625899
+Option 4 ID : 43357625900
+Status : Answered
+Chosen Option : A
+Q.92 Given a Boolean function F(A, B, C) = Σ(0, 1, 2, 3, 5), what is the expression in SOP
+form?
+Ans
+A. A'B' + AB' + AB + AC
+B. A + B + C
+C. AB' + C'
+D. A'B'C'
+Question Type : MCQ
+Question ID : 4335766041
+Option 1 ID : 43357624161
+Option 2 ID : 43357624162
+Option 3 ID : 43357624163
+Option 4 ID : 43357624164
+Status : Answered
+Chosen Option : D
+
+--- PAGE 35 ---
+Q.93 The primary goal of load control is to:
+Ans
+A. Prevent processes from running concurrently
+B. Avoid context switching between processes
+C. Ensure that CPU time is evenly distributed among processes
+D. Maximize the usage of virtual memory
+Question Type : MCQ
+Question ID : 4335766129
+Option 1 ID : 43357624513
+Option 2 ID : 43357624514
+Option 3 ID : 43357624515
+Option 4 ID : 43357624516
+Status : Answered
+Chosen Option : D
+Q.94 When adding two positive binary numbers using the 2's complement method, if the
+result has a carry-out from the most significant bit (MSB), what should be done?
+Ans
+A. Ignore the carry
+B. Add the carry to the least significant bit (LSB)
+C. Add the carry to the sign bit
+D. Subtract the carry from the MSB
+Question Type : MCQ
+Question ID : 4335766049
+Option 1 ID : 43357624193
+Option 2 ID : 43357624194
+Option 3 ID : 43357624195
+Option 4 ID : 43357624196
+Status : Answered
+Chosen Option : D
+Q.95 What is the purpose of a destructor in OOP?
+Ans
+A. To create instances of classes
+B. To handle exceptions
+C. To free up resources when an object is destroyed
+D. To define default values for properties
+Question Type : MCQ
+Question ID : 4335766231
+Option 1 ID : 43357624921
+Option 2 ID : 43357624922
+Option 3 ID : 43357624923
+Option 4 ID : 43357624924
+Status : Answered
+Chosen Option : C
+
+--- PAGE 36 ---
+Q.96 What is the main purpose of the Data Link Control in the data link layer?
+Ans
+A.     Error correction
+B. Data encryption
+C.   Data routing
+D.    Data framing
+Question Type : MCQ
+Question ID : 4335766176
+Option 1 ID : 43357624701
+Option 2 ID : 43357624702
+Option 3 ID : 43357624703
+Option 4 ID : 43357624704
+Status : Answered
+Chosen Option : B
+Q.97 In the context of software project management, what is LOC an acronym for?
+Ans
+A. Line of Change
+B. Level of Complexity
+C. Lines of Code
+D. List of Components
+Question Type : MCQ
+Question ID : 4335766218
+Option 1 ID : 43357624869
+Option 2 ID : 43357624870
+Option 3 ID : 43357624871
+Option 4 ID : 43357624872
+Status : Answered
+Chosen Option : B
+Q.98 Which concept allows a subclass to provide a specific implementation of a method that
+is already defined in the superclass?
+Ans
+A. Overloading
+B. Inheritance
+C. Polymorphism
+D. Overriding
+Question Type : MCQ
+Question ID : 4335766253
+Option 1 ID : 43357625009
+Option 2 ID : 43357625010
+Option 3 ID : 43357625011
+Option 4 ID : 43357625012
+Status : Answered
+Chosen Option : C
+
+--- PAGE 37 ---
+Q.99 If you need to transfer money to another person via the internet, which of the following
+methods could you use?
+Ans
+A. Financial Cybermediary
+B. E Bill Presentation and payment
+C. E Check
+D. Any of the above
+Question Type : MCQ
+Question ID : 4335766385
+Option 1 ID : 43357625537
+Option 2 ID : 43357625538
+Option 3 ID : 43357625539
+Option 4 ID : 43357625540
+Status : Answered
+Chosen Option : D
+Q.10
+0
+In Audio and Video Compression, each frame is divided into small grids, called picture
+elements or___________
+Ans
+A. packets
+B. mega pixels
+C. frame
+D. pixels
+Question Type : MCQ
+Question ID : 4335766404
+Option 1 ID : 43357625613
+Option 2 ID : 43357625614
+Option 3 ID : 43357625615
+Option 4 ID : 43357625616
+Status : Answered
+Chosen Option : D
+Q.10
+1
+Micro teaching is more effective
+Ans
+A. always
+B. after the teaching-practice
+C. during the teaching-practice
+D. during the preparation for teaching-practice
+Question Type : MCQ
+Question ID : 4335763790
+Option 1 ID : 43357615157
+Option 2 ID : 43357615158
+Option 3 ID : 43357615159
+Option 4 ID : 43357615160
+Status : Answered
+Chosen Option : D
+Section : Part II
+
+--- PAGE 38 ---
+Q.10
+2
+Pedagogy is a
+Ans
+A. science of behavior
+B. science of learning
+C. science of teaching
+D. science of testing
+Question Type : MCQ
+Question ID : 4335763392
+Option 1 ID : 43357613565
+Option 2 ID : 43357613566
+Option 3 ID : 43357613567
+Option 4 ID : 43357613568
+Status : Answered
+Chosen Option : B
+Q.10
+3
+A blackboard cannot be used for __________.
+Ans
+A. Improvement of a paragraph
+B. Making reports based on information
+C. Show schematic diagrams
+D. Summary of relationships between facts
+Question Type : MCQ
+Question ID : 4335764327
+Option 1 ID : 43357617305
+Option 2 ID : 43357617306
+Option 3 ID : 43357617307
+Option 4 ID : 43357617308
+Status : Answered
+Chosen Option : B
+Q.10
+4
+An ongoing dialogue between the teacher and the student during the learning process
+is a characteristic of:
+Ans
+A. Formative assessment
+B. Summative assessment
+C. Diagnostic assessment
+D. Norm-referenced assessment
+Question Type : MCQ
+Question ID : 4335764123
+Option 1 ID : 43357616489
+Option 2 ID : 43357616490
+Option 3 ID : 43357616491
+Option 4 ID : 43357616492
+Status : Answered
+Chosen Option : D
+
+--- PAGE 39 ---
+Q.10
+5
+How can a teacher enhance effective learning in her elementary classroom?
+Ans
+A. By connecting the context to the lives of the students
+B. By drill and practice
+C. By encouraging competition
+D. None of the above
+Question Type : MCQ
+Question ID : 4335763911
+Option 1 ID : 43357615641
+Option 2 ID : 43357615642
+Option 3 ID : 43357615643
+Option 4 ID : 43357615644
+Status : Answered
+Chosen Option : A
+Q.10
+6
+In order to keep himself alive and up to date, a teacher is required to dedicate himself to
+acquire knowledge at the frontiers of new knowledge. This is required
+Ans
+A. to develop his I.Q.
+B. to develop his emotion
+C. to enhance his competence in teaching
+D. to enhance his knowledge
+Question Type : MCQ
+Question ID : 4335763987
+Option 1 ID : 43357615945
+Option 2 ID : 43357615946
+Option 3 ID : 43357615947
+Option 4 ID : 43357615948
+Status : Answered
+Chosen Option : C
+Q.10
+7
+Learning is a natural activity of-
+Ans
+A. Learners
+B. Teachers
+C. Individuals
+D. Living organism
+Question Type : MCQ
+Question ID : 4335764239
+Option 1 ID : 43357616953
+Option 2 ID : 43357616954
+Option 3 ID : 43357616955
+Option 4 ID : 43357616956
+Status : Answered
+Chosen Option : D
+
+--- PAGE 40 ---
+Q.10
+8
+Investigate and classify different objects is an example of
+Ans
+A. Explore
+B. Elaborate
+C. Engage
+D. Explain
+Question Type : MCQ
+Question ID : 4335763726
+Option 1 ID : 43357614901
+Option 2 ID : 43357614902
+Option 3 ID : 43357614903
+Option 4 ID : 43357614904
+Status : Answered
+Chosen Option : D
+Q.10
+9
+Teacher’s interest in teaching and the children can
+Ans
+A. never help children in any way
+B. motivate the learners to learn
+C. help the learners to learn everything
+D. never encourage the learners
+Question Type : MCQ
+Question ID : 4335763397
+Option 1 ID : 43357613585
+Option 2 ID : 43357613586
+Option 3 ID : 43357613587
+Option 4 ID : 43357613588
+Status : Answered
+Chosen Option : C
+Q.11
+0
+Which of the following uses the principle of specific to general?
+Ans
+A. Analysis method
+B. Research/Discovery method
+C. Synthesis method
+D. Inductive method
+Question Type : MCQ
+Question ID : 4335763621
+Option 1 ID : 43357614481
+Option 2 ID : 43357614482
+Option 3 ID : 43357614483
+Option 4 ID : 43357614484
+Status : Answered
+Chosen Option : B
+
+--- PAGE 41 ---
+Q.11
+1
+Which of the following verbs is at greatest risk for misinterpretation:
+Ans
+A. List
+B. Construct
+C. Understand
+D. Demonstrate
+Question Type : MCQ
+Question ID : 4335763513
+Option 1 ID : 43357614049
+Option 2 ID : 43357614050
+Option 3 ID : 43357614051
+Option 4 ID : 43357614052
+Status : Answered
+Chosen Option : D
+Q.11
+2
+Which component of Lesson Plan is based on Flink’s Taxonomy ?
+Ans
+A. Creating
+B. Understanding
+C. Analysing
+D. Caring
+Question Type : MCQ
+Question ID : 4335763707
+Option 1 ID : 43357614825
+Option 2 ID : 43357614826
+Option 3 ID : 43357614827
+Option 4 ID : 43357614828
+Status : Answered
+Chosen Option : D
+Q.11
+3
+Which of the following is the sequence of different levels of teaching?
+Ans
+A. Memory level-Understanding level-Reflective level
+B. Understanding level-Memory level-Reflective level
+C. Reflective level-Understanding level-Memory Level
+D. Memory level-Reflective level-Understanding level
+Question Type : MCQ
+Question ID : 4335763454
+Option 1 ID : 43357613813
+Option 2 ID : 43357613814
+Option 3 ID : 43357613815
+Option 4 ID : 43357613816
+Status : Answered
+Chosen Option : D
+
+--- PAGE 42 ---
+Q.11
+4
+A _________ is a guideline that can help you organize what learning and how learning
+will take place in your lesson.
+Ans
+A. Content
+B. Lesson plan.
+C. Map
+D. All of the above
+Question Type : MCQ
+Question ID : 4335763678
+Option 1 ID : 43357614709
+Option 2 ID : 43357614710
+Option 3 ID : 43357614711
+Option 4 ID : 43357614712
+Status : Answered
+Chosen Option : D
+Q.11
+5
+In problem solving method, a systematic and orderly process is adopted for carrying
+out
+Ans
+A. the teaching-learning process
+B. data collection
+C. evaluation
+D. analysis
+Question Type : MCQ
+Question ID : 4335763573
+Option 1 ID : 43357614289
+Option 2 ID : 43357614290
+Option 3 ID : 43357614291
+Option 4 ID : 43357614292
+Status : Answered
+Chosen Option : A
+Q.11
+6
+As a teacher when you see that children are fighting on the road, what will you do?
+Ans
+A. Ignore the sitution and move away
+B. Tell the people to resolve the issue
+C. Pacify them by giving advice
+D. Tell them to run away
+Question Type : MCQ
+Question ID : 4335764055
+Option 1 ID : 43357616217
+Option 2 ID : 43357616218
+Option 3 ID : 43357616219
+Option 4 ID : 43357616220
+Status : Answered
+Chosen Option : C
+
+--- PAGE 43 ---
+Q.11
+7
+An assessment technique that allows students to demonstrate their knowledge through
+oral presentations or performances is called:
+Ans
+A. Formative assessment
+B. Summative assessment
+C. Authentic assessment
+D. Individual assessment
+Question Type : MCQ
+Question ID : 4335764134
+Option 1 ID : 43357616533
+Option 2 ID : 43357616534
+Option 3 ID : 43357616535
+Option 4 ID : 43357616536
+Status : Answered
+Chosen Option : B
+Q.11
+8
+The essential factor to make the learning attractive is
+Ans
+A. Reward
+B. Punishment
+C. Neither reward not pinishment
+D. Both reward and punishment
+Question Type : MCQ
+Question ID : 4335763991
+Option 1 ID : 43357615961
+Option 2 ID : 43357615962
+Option 3 ID : 43357615963
+Option 4 ID : 43357615964
+Status : Answered
+Chosen Option : A
+Q.11
+9
+Which is not true about lesson plan
+Ans
+A. It develops confidence
+B. It helps in oderly delivery of contents
+C. It is developed by students
+D. It saves from haphazard teaching
+Question Type : MCQ
+Question ID : 4335763684
+Option 1 ID : 43357614733
+Option 2 ID : 43357614734
+Option 3 ID : 43357614735
+Option 4 ID : 43357614736
+Status : Answered
+Chosen Option : C
+
+--- PAGE 44 ---
+Q.12
+0
+Which of them is NOT a formal assessment?
+Ans
+A. Interview
+B. Observation
+C. Project
+D. Quizzes
+Question Type : MCQ
+Question ID : 4335764103
+Option 1 ID : 43357616409
+Option 2 ID : 43357616410
+Option 3 ID : 43357616411
+Option 4 ID : 43357616412
+Status : Answered
+Chosen Option : B
+Q.12
+1
+Development of curriculum at higher level and its application at different levels is:
+Ans
+A. Horizontal organization
+B. Vertical organization
+C. Centralized
+D. Decentralized
+Question Type : MCQ
+Question ID : 4335764211
+Option 1 ID : 43357616841
+Option 2 ID : 43357616842
+Option 3 ID : 43357616843
+Option 4 ID : 43357616844
+Status : Answered
+Chosen Option : B
+Q.12
+2
+Professional ethics help teachers to understand their profession as a
+Ans
+A. guide
+B. helper
+C. teacher
+D. director
+Question Type : MCQ
+Question ID : 4335763982
+Option 1 ID : 43357615925
+Option 2 ID : 43357615926
+Option 3 ID : 43357615927
+Option 4 ID : 43357615928
+Status : Answered
+Chosen Option : A
+
+--- PAGE 45 ---
+Q.12
+3
+Sociological foundations are concerned with:
+Ans
+A. History
+B. Economy
+C. Society
+D. Idea
+Question Type : MCQ
+Question ID : 4335764220
+Option 1 ID : 43357616877
+Option 2 ID : 43357616878
+Option 3 ID : 43357616879
+Option 4 ID : 43357616880
+Status : Answered
+Chosen Option : C
+Q.12
+4
+Which is not the characteristic of authoritative administration
+Ans
+A. Rudeness
+B. Suppression the subordinates
+C. Strict discipline
+D. Sharing
+Question Type : MCQ
+Question ID : 4335763895
+Option 1 ID : 43357615577
+Option 2 ID : 43357615578
+Option 3 ID : 43357615579
+Option 4 ID : 43357615580
+Status : Answered
+Chosen Option : D
+Q.12
+5
+Learner-centered learning leads to____________
+Ans
+A. holistic development
+B. Enhanced Activity
+C. loss of interest
+D. None of these
+Question Type : MCQ
+Question ID : 4335763848
+Option 1 ID : 43357615389
+Option 2 ID : 43357615390
+Option 3 ID : 43357615391
+Option 4 ID : 43357615392
+Status : Answered
+Chosen Option : A
+
+--- PAGE 46 ---
+Q.12
+6
+Two components of an educational objective are
+Ans
+A. Cognitive and affective
+B. Expected behavior and learner’s outcome
+C. Performance and skills
+D. General and specific
+Question Type : MCQ
+Question ID : 4335763508
+Option 1 ID : 43357614029
+Option 2 ID : 43357614030
+Option 3 ID : 43357614031
+Option 4 ID : 43357614032
+Status : Answered
+Chosen Option : A
+Q.12
+7
+Teacher can utilize both assessment for learning and assessment of learning to-------
+Ans
+A. Know learning needs of child and select teaching strategy accordingly
+B. Assess child’s performance at periodic intervals and certify his/her performance
+C. Monitor children’s progress and set appropriate goals to fill their learning gaps
+D. Know children’s progress and achievement level
+Question Type : MCQ
+Question ID : 4335764068
+Option 1 ID : 43357616269
+Option 2 ID : 43357616270
+Option 3 ID : 43357616271
+Option 4 ID : 43357616272
+Status : Answered
+Chosen Option : C
+Q.12
+8
+_______ is the apex institution involved in the planned and coordinated development of
+the teacher education system in the country.
+Ans
+A. UGC
+B. NCERT
+C. NCTE
+D. XSEED
+Question Type : MCQ
+Question ID : 4335764283
+Option 1 ID : 43357617129
+Option 2 ID : 43357617130
+Option 3 ID : 43357617131
+Option 4 ID : 43357617132
+Status : Answered
+Chosen Option : A
+
+--- PAGE 47 ---
+Q.12
+9
+When classroom climate is positive, then learners know that they are valued
+__________.
+Ans
+A. as individuals regardless of their appearance, personality or achievement
+B. only if they confirm to classroom norms
+C. only if they perform well in examinations
+D. only if they stay in their seats and speak only when asked.
+Question Type : MCQ
+Question ID : 4335763860
+Option 1 ID : 43357615437
+Option 2 ID : 43357615438
+Option 3 ID : 43357615439
+Option 4 ID : 43357615440
+Status : Answered
+Chosen Option : A
+Q.13
+0
+The use of poems and storytelling to explain concepts in an EVS class helps
+to…………..
+Ans
+A. take care of the language and cultural diversity among learners
+B. channelise the energies of the students in the right direction
+C. make the lesson enjoyable and interesting
+D. promote the ability to imagine and explore the nature of the world at the local and
+global level
+Question Type : MCQ
+Question ID : 4335763631
+Option 1 ID : 43357614521
+Option 2 ID : 43357614522
+Option 3 ID : 43357614523
+Option 4 ID : 43357614524
+Status : Answered
+Chosen Option : A
+Q.13
+1
+Which statement is incorrect about the Tetris game?
+Ans
+A. The game was created by Alexey Pajitnov in 1984
+B. The game consists of falling blocks, known as tetrominoes.
+C. The game is played on a 10x10 grid
+D. The objective is to clear lines by aligning blocks of the same color.
+Question Type : MCQ
+Question ID : 4335764534
+Option 1 ID : 43357618133
+Option 2 ID : 43357618134
+Option 3 ID : 43357618135
+Option 4 ID : 43357618136
+Status : Answered
+Chosen Option : B
+Section : Part III
+
+--- PAGE 48 ---
+Q.13
+2
+A square pyramid has…......
+Ans
+A. Four faces
+B. Three faces
+C. Five faces
+D. None of these
+Question Type : MCQ
+Question ID : 4335764671
+Option 1 ID : 43357618681
+Option 2 ID : 43357618682
+Option 3 ID : 43357618683
+Option 4 ID : 43357618684
+Status : Answered
+Chosen Option : A
+Q.13
+3
+if A means +, B means-, Z means÷ and C means*, then
+10C2A5B5=?
+Ans
+A. 5
+B. 10
+C. 15
+D. 20
+Question Type : MCQ
+Question ID : 4335764928
+Option 1 ID : 43357619709
+Option 2 ID : 43357619710
+Option 3 ID : 43357619711
+Option 4 ID : 43357619712
+Status : Answered
+Chosen Option : D
+Q.13
+4
+If F,V and E are respectively the number of faces, vertices and edges of a triangular
+prism, then which of the following statements is true?
+Ans
+A. 4F+2V-3E=6
+B. 2F+3V-2E = 10
+C. 2F+4V-3E=8
+D. 3F+2V-2E=11
+Question Type : MCQ
+Question ID : 4335764792
+Option 1 ID : 43357619165
+Option 2 ID : 43357619166
+Option 3 ID : 43357619167
+Option 4 ID : 43357619168
+Status : Answered
+Chosen Option : C
+
+--- PAGE 49 ---
+Q.13
+5
+Which group of organisms does not have claws?
+Ans
+A. Mammals
+B. Reptiles
+C. Fishes
+D. Amphibians
+Question Type : MCQ
+Question ID : 4335764518
+Option 1 ID : 43357618069
+Option 2 ID : 43357618070
+Option 3 ID : 43357618071
+Option 4 ID : 43357618072
+Status : Answered
+Chosen Option : A
+Q.13
+6
+Choose the correct option instead of the question mark in the given question.
+DRAW : WARD :: TRAP : ?
+Ans
+A. RATP
+B. PART
+C. USBQ
+D. ARTP
+Question Type : MCQ
+Question ID : 4335764841
+Option 1 ID : 43357619361
+Option 2 ID : 43357619362
+Option 3 ID : 43357619363
+Option 4 ID : 43357619364
+Status : Answered
+Chosen Option : B
+Q.13
+7
+Seema facing East walks 6 m. then turn right and walks 9 m. then she turn left and
+walked 6 m. How far is she from starting point ?
+Ans
+A. 5 m.
+B. 10 m.
+C. 15 m.
+D. 20 m.
+Question Type : MCQ
+Question ID : 4335764916
+Option 1 ID : 43357619661
+Option 2 ID : 43357619662
+Option 3 ID : 43357619663
+Option 4 ID : 43357619664
+Status : Answered
+Chosen Option : C
+
+--- PAGE 50 ---
+Q.13
+8
+Vitamin A and K is rich in…………..
+Ans
+A. Rice crop
+B. Poultry feed
+C. Parasites
+D. Manure
+Question Type : MCQ
+Question ID : 4335764657
+Option 1 ID : 43357618625
+Option 2 ID : 43357618626
+Option 3 ID : 43357618627
+Option 4 ID : 43357618628
+Status : Answered
+Chosen Option : A
+Q.13
+9
+Which food group is mostly consumed by teenagers to get more calcium?
+Ans
+A. Grains
+B. Meats and beans
+C. Dairy
+D. All of these
+Question Type : MCQ
+Question ID : 4335764590
+Option 1 ID : 43357618357
+Option 2 ID : 43357618358
+Option 3 ID : 43357618359
+Option 4 ID : 43357618360
+Status : Answered
+Chosen Option : C
+Q.14
+0
+Calculate the sum of lengths: 21 m 93 cm, 33 m 95 cm and 45 m 86 cm.
+Ans
+A.   99 m 74 cm
+B.     98 m 74 cm
+C.     99 m 75 cm
+D.   101 m 74 cm
+Question Type : MCQ
+Question ID : 4335764710
+Option 1 ID : 43357618837
+Option 2 ID : 43357618838
+Option 3 ID : 43357618839
+Option 4 ID : 43357618840
+Status : Answered
+Chosen Option : D
+
+--- PAGE 51 ---
+Q.14
+1
+In a code language BHOPAL is written as OLOLOL, then what will be RANCHI written in
+that language?
+Ans
+A. RIRIRI
+B. SBODIJ
+C. NININI
+D. THCNAR
+Question Type : MCQ
+Question ID : 4335764884
+Option 1 ID : 43357619533
+Option 2 ID : 43357619534
+Option 3 ID : 43357619535
+Option 4 ID : 43357619536
+Status : Answered
+Chosen Option : C
+Q.14
+2
+A Rectangular SandBox is 5 m wide and 2 m long. How many Cubic Metres of Sand is
+needed to fill the Box into a Depth of 10 cm?
+Ans
+A. 2.5
+B. 1
+C. 5
+D. 3
+Question Type : MCQ
+Question ID : 4335764729
+Option 1 ID : 43357618913
+Option 2 ID : 43357618914
+Option 3 ID : 43357618915
+Option 4 ID : 43357618916
+Status : Answered
+Chosen Option : A
+Q.14
+3
+Which of the following statements is not correct with regard to a mathematics
+textbook?
+Ans
+A. Examples in a mathematics textbook should be related to daily life of the students.
+B. A mathematics textbook should have solved examples only.
+C. A textbook of mathematics should not be very thick or heavy.
+D. A mathematics textbook should have varied exercises to give practice to students.
+Question Type : MCQ
+Question ID : 4335764785
+Option 1 ID : 43357619137
+Option 2 ID : 43357619138
+Option 3 ID : 43357619139
+Option 4 ID : 43357619140
+Status : Answered
+Chosen Option : B
+
+--- PAGE 52 ---
+Q.14
+4
+Which one of the following is the language of the famous political treatise
+Amuktmalyada?
+Ans
+A. Sanksrit
+B. Tamil
+C. Kannada
+D. Telugu
+Question Type : MCQ
+Question ID : 4335764469
+Option 1 ID : 43357617873
+Option 2 ID : 43357617874
+Option 3 ID : 43357617875
+Option 4 ID : 43357617876
+Status : Answered
+Chosen Option : B
+Q.14
+5
+In which five year plan of independent India the focus was on the development of
+industrialization -
+Ans
+A. Second
+B. Third
+C. Fifth
+D. Sixth
+Question Type : MCQ
+Question ID : 4335764415
+Option 1 ID : 43357617657
+Option 2 ID : 43357617658
+Option 3 ID : 43357617659
+Option 4 ID : 43357617660
+Status : Answered
+Chosen Option : B
+Q.14
+6
+Which of the port is not a Natural Port?
+Ans
+A. Chennai
+B. Mumbai
+C. Cochin
+D. Paradip
+Question Type : MCQ
+Question ID : 4335764613
+Option 1 ID : 43357618449
+Option 2 ID : 43357618450
+Option 3 ID : 43357618451
+Option 4 ID : 43357618452
+Status : Answered
+Chosen Option : D
+
+--- PAGE 53 ---
+Q.14
+7
+The Kyoto Protocol specifically relates to which one among the following issues?
+Ans
+A. Emission reduction
+B. Ozone layer depletion
+C. Chlorofluorocarbons
+D. Biodiversity management
+Question Type : MCQ
+Question ID : 4335764388
+Option 1 ID : 43357617549
+Option 2 ID : 43357617550
+Option 3 ID : 43357617551
+Option 4 ID : 43357617552
+Status : Answered
+Chosen Option : A
+Q.14
+8
+Who was the founder of Mewar Praja Mandal ?
+Ans
+A. Motilal Tejawat
+B. Vallabh Bahi Patel
+C. Manik Lal Verma
+D. Swami Govindanand
+Question Type : MCQ
+Question ID : 4335764444
+Option 1 ID : 43357617773
+Option 2 ID : 43357617774
+Option 3 ID : 43357617775
+Option 4 ID : 43357617776
+Status : Answered
+Chosen Option : A
+Q.14
+9
+Which of the following statements is/are correct?
+(1) First Law Commssion recommended Indian Penal Code, 1860.
+(2) Indian Penal Code, 1860 has been completely replaced by the Bharatiya Nyaya
+Sanhita, 2023.
+Select the correct answer from the given options:
+Ans
+A. 1 Only.
+B. 2 Only
+C. Both 1 and 2
+D. Neither 1 nor 2
+Question Type : MCQ
+Question ID : 4335764347
+Option 1 ID : 43357617385
+Option 2 ID : 43357617386
+Option 3 ID : 43357617387
+Option 4 ID : 43357617388
+Status : Answered
+Chosen Option : C
+
+--- PAGE 54 ---
+
+--- PAGE 55 ---
+
+--- PAGE 56 ---
+"
+Q.15
+0
+In the following question, from the given alternative words, select the word which
+cannot be formed using the letters of the given word.
+Nightwalker
+Ans
+A.  Talker
+B. Tailer
+C. Waller
+D. Winer
+Question Type : MCQ
+Question ID : 4335764975
+Option 1 ID : 43357619897
+Option 2 ID : 43357619898
+Option 3 ID : 43357619899
+Option 4 ID : 43357619900
+Status : Answered
+Chosen Option : C

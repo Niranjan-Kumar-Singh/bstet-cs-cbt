@@ -39,6 +39,8 @@ build/
 *.pdf
 *.PDF
 syllabus_extracted.txt
+sources/
+incoming/
 
 # Scratch scripts & temporary translation caches
 scripts/translation_cache.json

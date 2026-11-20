@@ -1,7 +1,7 @@
 /**
  * Bihar STET CBT Exam Engine
  * High-performance, robust state machine managing timer, question palette, responses, persistence,
- * and bilingual language switching.
+ * and bilingual language switching with timestamp-derived autosave.
  */
 
 class ExamEngine {
@@ -16,6 +16,7 @@ class ExamEngine {
     this.timerInterval = null;
     this.isPaused = false;
     this.startTime = null;
+    this.endTime = null;
     this.timeSpentPerQ = {}; // qId -> seconds
     this.lastTickTime = null;
     this.baseLang = (window.BSTET_I18N && window.BSTET_I18N.currentLang) || localStorage.getItem('BSTET_LANG') || 'en';
@@ -54,9 +55,17 @@ class ExamEngine {
       this.currentIndex = (savedIdx >= 0 && savedIdx < (this.paper.questions ? this.paper.questions.length : 1)) ? savedIdx : 0;
       this.responses = saved.responses || {};
       this.statuses = saved.statuses || {};
-      this.timeRemaining = saved.timeRemaining !== undefined ? saved.timeRemaining : this.totalDuration;
       this.timeSpentPerQ = saved.timeSpentPerQ || {};
       this.startTime = saved.startTime || Date.now();
+      this.endTime = saved.endTime || (this.startTime + this.totalDuration * 1000);
+
+      // Resilient timestamp-derived remaining time (prevents clock drifting or sleep cheats)
+      if (this.mode === 'cbt' && this.endTime) {
+        this.timeRemaining = Math.max(0, Math.floor((this.endTime - Date.now()) / 1000));
+      } else {
+        this.timeRemaining = saved.timeRemaining !== undefined ? saved.timeRemaining : this.totalDuration;
+      }
+
       if (saved.baseLang) this.baseLang = saved.baseLang;
       else if (saved.lang) this.baseLang = saved.lang;
       this.lang = this.baseLang;
@@ -68,6 +77,7 @@ class ExamEngine {
       this.timeSpentPerQ = {};
       this.timeRemaining = this.totalDuration;
       this.startTime = Date.now();
+      this.endTime = this.startTime + (this.totalDuration * 1000);
       
       // Initialize all questions as not-visited
       if (this.paper && this.paper.questions) {
@@ -112,10 +122,6 @@ class ExamEngine {
     }
   }
 
-  /**
-   * Set global base language for the exam.
-   * If clearOverrides is true, all per-question overrides are reset so every question inherits baseLang.
-   */
   setBaseLanguage(newLang, clearOverrides = true) {
     if (newLang !== 'en' && newLang !== 'hi' && newLang !== 'both') newLang = 'en';
     this.baseLang = newLang;
@@ -127,14 +133,10 @@ class ExamEngine {
     return this.baseLang;
   }
 
-  // Alias for backward compatibility
   setLanguage(newLang) {
     return this.setBaseLanguage(newLang, true);
   }
 
-  /**
-   * Set language for a specific question ONLY.
-   */
   setQuestionLanguage(qId, newLang) {
     if (newLang !== 'en' && newLang !== 'hi' && newLang !== 'both') newLang = this.baseLang || 'en';
     if (!this.questionLangOverrides) this.questionLangOverrides = {};
@@ -143,19 +145,6 @@ class ExamEngine {
     return newLang;
   }
 
-  /**
-   * Toggle language for a specific question ONLY (en <-> hi).
-   */
-  toggleCurrentQuestionLanguage(qId) {
-    const cur = this.getQuestionActiveLang({ id: qId });
-    const next = cur === 'en' ? 'hi' : 'en';
-    return this.setQuestionLanguage(qId, next);
-  }
-
-  /**
-   * Get the active language for a specific question:
-   * uses per-question override if present, otherwise defaults to baseLang.
-   */
   getQuestionActiveLang(q) {
     if (!q) return this.baseLang || 'en';
     if (this.questionLangOverrides && this.questionLangOverrides[q.id]) {
@@ -166,28 +155,30 @@ class ExamEngine {
 
   getQuestionStatement(q) {
     if (!q) return "";
+    const enText = q.question || "";
+    const hiText = q.question_hi || "";
     const activeLang = this.getQuestionActiveLang(q);
+
     if (activeLang === 'hi') {
-      return q.question_hi || q.question;
+      return hiText || enText;
     }
-    if (activeLang === 'both') {
-      const hi = q.question_hi || q.question;
-      return `<div class="dual-question-en">${q.question.replace(/\n/g, '<br>')}</div><div class="dual-question-hi"><span class="dual-tag">हिन्दी अनुवाद:</span> ${hi.replace(/\n/g, '<br>')}</div>`;
+    if (activeLang === 'both' && hiText && hiText !== enText) {
+      return `<div class="dual-q-container"><div class="dual-en">${enText}</div><div class="dual-hi" style="margin-top:10px;"><span class="dual-tag">हिन्दी:</span> ${hiText}</div></div>`;
     }
-    return q.question;
+    return enText;
   }
 
-  getOptionText(q, optKey) {
+  getQuestionOption(q, optKey) {
     if (!q || !q.options) return "";
     const enOpt = q.options[optKey] || "";
-    const hiOpt = (q.options_hi && q.options_hi[optKey]) ? q.options_hi[optKey] : "";
+    const hiOpt = (q.options_hi && q.options_hi[optKey]) || "";
     const activeLang = this.getQuestionActiveLang(q);
 
     if (activeLang === 'hi') {
       return hiOpt || enOpt;
     }
     if (activeLang === 'both' && hiOpt && hiOpt !== enOpt) {
-      return `<div class="option-text-dual"><span class="opt-en">${enOpt}</span><span class="opt-hi">${hiOpt}</span></div>`;
+      return `<div class="dual-opt-container"><div class="dual-en">${enOpt}</div><div class="dual-hi" style="font-size:0.95em; margin-top:3px;"><span class="dual-tag">हिन्दी:</span> ${hiOpt}</div></div>`;
     }
     return enOpt;
   }
@@ -195,7 +186,7 @@ class ExamEngine {
   getQuestionTopic(q) {
     if (!q) return "Computer Science";
     const activeLang = this.getQuestionActiveLang(q);
-    if (activeLang === 'hi' || activeLang === 'both') {
+    if (activeLang === 'hi') {
       if (q.topic_hi) return q.topic_hi;
       if (window.BSTET_I18N) return window.BSTET_I18N.translateTopic(q.topic);
     }
@@ -229,7 +220,13 @@ class ExamEngine {
       const deltaSeconds = Math.round((now - this.lastTickTime) / 1000);
       if (deltaSeconds >= 1) {
         this.lastTickTime = now;
-        this.timeRemaining = Math.max(0, this.timeRemaining - deltaSeconds);
+        
+        // Use timestamp-derived remaining time if available
+        if (this.endTime) {
+          this.timeRemaining = Math.max(0, Math.floor((this.endTime - now) / 1000));
+        } else {
+          this.timeRemaining = Math.max(0, this.timeRemaining - deltaSeconds);
+        }
         
         // Track time spent on current question
         const currQ = this.getCurrentQuestion();
@@ -263,6 +260,8 @@ class ExamEngine {
     this.isPaused = !this.isPaused;
     if (!this.isPaused) {
       this.lastTickTime = Date.now();
+      // Recalculate endTime on unpause
+      this.endTime = Date.now() + (this.timeRemaining * 1000);
     }
     return this.isPaused;
   }
@@ -396,8 +395,11 @@ class ExamEngine {
 
   saveSession() {
     if (!this.paper) return;
+    const now = Date.now();
+    const endTime = this.endTime || (this.startTime + this.totalDuration * 1000);
     const sessionData = {
       paperId: this.paper.id,
+      paperTitle: this.paper.title,
       mode: this.mode,
       currentIndex: this.currentIndex,
       responses: this.responses,
@@ -405,13 +407,16 @@ class ExamEngine {
       timeRemaining: this.timeRemaining,
       timeSpentPerQ: this.timeSpentPerQ,
       startTime: this.startTime,
+      endTime: endTime,
+      totalDuration: this.totalDuration,
       baseLang: this.baseLang,
       lang: this.baseLang,
       questionLangOverrides: this.questionLangOverrides,
-      lastUpdated: Date.now()
+      lastUpdated: now
     };
     try {
       localStorage.setItem(`BSTET_EXAM_SESSION_${this.paper.id}`, JSON.stringify(sessionData));
+      localStorage.setItem('BSTET_ACTIVE_ATTEMPT', JSON.stringify(sessionData));
     } catch (e) {
       console.warn("Could not save exam session to localStorage", e);
     }
@@ -431,7 +436,35 @@ class ExamEngine {
     this.stopTimer();
     try {
       localStorage.removeItem(`BSTET_EXAM_SESSION_${this.paper.id}`);
+      localStorage.removeItem('BSTET_ACTIVE_ATTEMPT');
     } catch (e) {}
+  }
+
+  toggleBookmark(qId) {
+    try {
+      const raw = localStorage.getItem('BSTET_BOOKMARKS');
+      let bookmarks = raw ? JSON.parse(raw) : [];
+      const idx = bookmarks.indexOf(qId);
+      if (idx > -1) {
+        bookmarks.splice(idx, 1);
+      } else {
+        bookmarks.push(qId);
+      }
+      localStorage.setItem('BSTET_BOOKMARKS', JSON.stringify(bookmarks));
+      return bookmarks.includes(qId);
+    } catch (e) {
+      return false;
+    }
+  }
+
+  isBookmarked(qId) {
+    try {
+      const raw = localStorage.getItem('BSTET_BOOKMARKS');
+      const bookmarks = raw ? JSON.parse(raw) : [];
+      return bookmarks.includes(qId);
+    } catch (e) {
+      return false;
+    }
   }
 }
 

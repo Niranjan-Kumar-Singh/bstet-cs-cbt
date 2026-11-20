@@ -40,7 +40,8 @@ required_ids = [
     "meta-subj-title", "meta-subj-val", "meta-pedagogy-title", "meta-pedagogy-val",
     "meta-skills-title", "meta-skills-val", "meta-dur-title", "meta-dur-val",
     "meta-cut-title", "meta-cut-val",
-    "tab-filter-all", "tab-filter-official", "tab-filter-predicted", "tab-filter-drill",
+    "tab-filter-all", "tab-filter-official", "tab-filter-drill",
+    "retired-modal", "retired-modal-title", "retired-modal-btn",
     "papers-grid",
     "history-heading", "history-subtext", "th-paper", "th-date", "th-score", "th-accuracy", "th-status", "th-action",
     "exam-header", "badge-cbt-live", "exam-title-text", "timer-box", "timer-display", "exam-lang-toggle-btn",
@@ -81,8 +82,8 @@ paper_matches = re.findall(r'"?id"?\s*:\s*["\']([^"\']+)["\']', cat_code)
 total_qs_matches = [int(q) for q in re.findall(r'"?totalQuestions"?\s*:\s*(\d+)', cat_code)]
 sum_qs = sum(total_qs_matches)
 
-test("Catalog has 35 papers", len(paper_matches) == 35, f"Found {len(paper_matches)} papers")
-test("Catalog has exactly 3,650 questions", sum_qs == 3650, f"Found {sum_qs} questions")
+test("Catalog has 23 papers", len(paper_matches) == 23, f"Found {len(paper_matches)} papers")
+test("Catalog has exactly 1,950 questions", sum_qs == 1950, f"Found {sum_qs} questions")
 
 # TEST 4: Bilingual Engine Integrity
 print("\n[Suite 4: Internationalization (i18n.js)]")

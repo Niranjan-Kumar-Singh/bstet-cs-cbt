@@ -1,0 +1,129 @@
+{
+  "totalOfficialCSQuestionsAnalyzed": 500,
+  "classifiedQuestions": 491,
+  "coveragePercent": 98.2,
+  "unclassifiedQuestions": [
+    {
+      "paper": "official_shift1",
+      "qNum": 31,
+      "text": "The term \"Data\" refers to:"
+    },
+    {
+      "paper": "official_shift1",
+      "qNum": 100,
+      "text": "What does I stands for in CIA"
+    },
+    {
+      "paper": "official_shift2",
+      "qNum": 47,
+      "text": "Open System ________ tends to evolve more quickly than proprietary systems?"
+    },
+    {
+      "paper": "official_shift3",
+      "qNum": 40,
+      "text": "When using the parity bit method, how does the receiver determine if an error occurred dur"
+    },
+    {
+      "paper": "official_shift3",
+      "qNum": 51,
+      "text": "The software developed to detect and remove viruses only is called ______________."
+    },
+    {
+      "paper": "official_shift4",
+      "qNum": 71,
+      "text": "A Database Management System is a type of _________software."
+    },
+    {
+      "paper": "official_2023",
+      "qNum": 40,
+      "text": "The term \"Data\" refers to:"
+    },
+    {
+      "paper": "official_2023",
+      "qNum": 72,
+      "text": "Minimum Number of states require to accept string ends with 101."
+    },
+    {
+      "paper": "official_2023",
+      "qNum": 81,
+      "text": "Who is known as the father of AI?"
+    }
+  ],
+  "unitsBlueprint": {
+    "cs-01-digital-logic": {
+      "title": "Digital Logic",
+      "count": 50,
+      "percent": 10
+    },
+    "cs-02-coa": {
+      "title": "Computer Organization and Architecture",
+      "count": 69,
+      "percent": 13.8
+    },
+    "cs-03-prog-ds": {
+      "title": "Programming and Data Structure",
+      "count": 40,
+      "percent": 8
+    },
+    "cs-04-algorithms": {
+      "title": "Algorithms",
+      "count": 21,
+      "percent": 4.2
+    },
+    "cs-05-os": {
+      "title": "Operating System",
+      "count": 55,
+      "percent": 11
+    },
+    "cs-06-dbms": {
+      "title": "Database Management System",
+      "count": 38,
+      "percent": 7.6
+    },
+    "cs-07-networks": {
+      "title": "Computer Network",
+      "count": 80,
+      "percent": 16
+    },
+    "cs-08-software-eng": {
+      "title": "Software Engineering",
+      "count": 13,
+      "percent": 2.6
+    },
+    "cs-09-oop": {
+      "title": "Object Oriented Programming",
+      "count": 45,
+      "percent": 9
+    },
+    "cs-10-web-dev": {
+      "title": "Web-Based Application Development",
+      "count": 20,
+      "percent": 4
+    },
+    "cs-11-toc": {
+      "title": "Theory of Computation",
+      "count": 11,
+      "percent": 2.2
+    },
+    "cs-12-iot": {
+      "title": "Internet of Things",
+      "count": 21,
+      "percent": 4.2
+    },
+    "cs-13-ai": {
+      "title": "Artificial Intelligence",
+      "count": 9,
+      "percent": 1.8
+    },
+    "cs-14-ecommerce": {
+      "title": "Fundamental of E-Commerce",
+      "count": 11,
+      "percent": 2.2
+    },
+    "cs-15-multimedia": {
+      "title": "Multimedia",
+      "count": 8,
+      "percent": 1.6
+    }
+  }
+}

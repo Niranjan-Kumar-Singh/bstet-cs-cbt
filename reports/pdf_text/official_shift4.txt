@@ -1,0 +1,2433 @@
+
+--- PAGE 1 ---
+Previous Year Paper
+(Computer Science)
+07 Nov, 2025 Shift 1
+BSTET
+(Class 11-12)
+
+--- PAGE 2 ---
+
+--- PAGE 3 ---
+
+--- PAGE 4 ---
+Q.1 If a robot is able to change its own trajectory as per the external conditions, then the
+robot is considered as the_
+Ans
+A. Intelligent
+B. Open loop
+C. Mobile
+D. Non-servo
+Question Type : MCQ
+Question ID : 4335766356
+Option 1 ID : 43357625421
+Option 2 ID : 43357625422
+Option 3 ID : 43357625423
+Option 4 ID : 43357625424
+Status : Answered
+Chosen Option : A
+Q.2 Convert the Boolean function F(A, B, C) = Π(0, 2, 4, 5, 7) to its simplified POS form
+Ans
+A. A + B + C
+B. A + B' + C
+C. A'B'C'
+D. (A + B)(A + C')(B + C)
+Question Type : MCQ
+Question ID : 4335766040
+Option 1 ID : 43357624157
+Option 2 ID : 43357624158
+Option 3 ID : 43357624159
+Option 4 ID : 43357624160
+Status : Answered
+Chosen Option : D
+Exam Name
+STET Exam 2025
+Paper
+Paper II
+Roll No
+Participant Name
+Test Center Name
+Test Date
+07/11/2025
+Test Time
+9:00 AM - 11:30 AM
+Section : Part I Computer Science(226)
+
+--- PAGE 5 ---
+Q.3 Which keyword is used to define an abstract method within an abstract class?
+Ans
+A. abstract
+B. virtual
+C. override
+D. implement
+Question Type : MCQ
+Question ID : 4335766235
+Option 1 ID : 43357624937
+Option 2 ID : 43357624938
+Option 3 ID : 43357624939
+Option 4 ID : 43357624940
+Status : Answered
+Chosen Option : A
+Q.4 The Floyd-Warshall algorithm is a popular method for solving the All-Pair Shortest
+Paths problem. What is the time complexity of the Floyd-Warshall algorithm for a graph
+with "n" vertices?
+Ans
+A. O(n)
+B. O(n log n)
+C. O(n^2)
+D. O(n^3)
+Question Type : MCQ
+Question ID : 4335766089
+Option 1 ID : 43357624353
+Option 2 ID : 43357624354
+Option 3 ID : 43357624355
+Option 4 ID : 43357624356
+Status : Answered
+Chosen Option : C
+Q.5 Which of the following applications include in the Strategic Computing Program?
+Ans
+A. Battle Management
+B. Autonomous systems
+C. Pilot’s associate
+D. All of the above
+Question Type : MCQ
+Question ID : 4335766376
+Option 1 ID : 43357625501
+Option 2 ID : 43357625502
+Option 3 ID : 43357625503
+Option 4 ID : 43357625504
+Status : Answered
+Chosen Option : D
+
+--- PAGE 6 ---
+Q.6 Turing machine can be represented using:
+Ans
+A. Transition table
+B. Transition diagram
+C. Instantaneous description
+D. All of these
+Question Type : MCQ
+Question ID : 4335766317
+Option 1 ID : 43357625265
+Option 2 ID : 43357625266
+Option 3 ID : 43357625267
+Option 4 ID : 43357625268
+Status : Answered
+Chosen Option : D
+Q.7 All of the following are considered biometrics, except:
+Ans
+A. Fingerprint
+B. Password
+C. Voice
+D. Retina
+Question Type : MCQ
+Question ID : 4335766398
+Option 1 ID : 43357625589
+Option 2 ID : 43357625590
+Option 3 ID : 43357625591
+Option 4 ID : 43357625592
+Status : Answered
+Chosen Option : B
+Q.8 To which of the following the term "DBA" referred?
+Ans
+A. Data Bank Administrator
+B. Database Administrator
+C. Data Administrator
+D. None of the above
+Question Type : MCQ
+Question ID : 4335766160
+Option 1 ID : 43357624637
+Option 2 ID : 43357624638
+Option 3 ID : 43357624639
+Option 4 ID : 43357624640
+Status : Answered
+Chosen Option : B
+
+--- PAGE 7 ---
+Q.9 The default baud rate of Modbus RTU is?
+Ans
+A. 19600
+B. 19200
+C. 38400
+D. 57600
+Question Type : MCQ
+Question ID : 4335766343
+Option 1 ID : 43357625369
+Option 2 ID : 43357625370
+Option 3 ID : 43357625371
+Option 4 ID : 43357625372
+Status : Answered
+Chosen Option : A
+Q.10 The goal of synchronization mechanisms in parallel programming is to:
+Ans
+A. Speed up the execution of processes
+B. Eliminate parallelism
+C. Avoid deadlock situations
+D. Increase the number of race conditions
+Question Type : MCQ
+Question ID : 4335766143
+Option 1 ID : 43357624569
+Option 2 ID : 43357624570
+Option 3 ID : 43357624571
+Option 4 ID : 43357624572
+Status : Answered
+Chosen Option : A
+Q.11 Which of the following IP addresses is valid
+Ans
+A. 122.94.96.212
+B. 212.254.258.210
+C. 210.10.12.156.209
+D. 122.294.56.68
+Question Type : MCQ
+Question ID : 4335768732
+Option 1 ID : 43357634925
+Option 2 ID : 43357634926
+Option 3 ID : 43357634927
+Option 4 ID : 43357634928
+Status : Answered
+Chosen Option : A
+
+--- PAGE 8 ---
+Q.12 ___________ plot is used to show the spread and centers of a dataset.
+Ans
+A. box
+B. line
+C. bar
+D. histogram
+Question Type : MCQ
+Question ID : 4335766003
+Option 1 ID : 43357624009
+Option 2 ID : 43357624010
+Option 3 ID : 43357624011
+Option 4 ID : 43357624012
+Status : Answered
+Chosen Option : D
+Q.13 How can you establish a connection between PHP and MySQL?
+Ans
+A.   Using the "connect()" function in PHP
+B. By including a PHP library
+C.   By embedding MySQL queries directly in PHP code
+D. By using the "mysqli_connect()" function in PHP
+Question Type : MCQ
+Question ID : 4335766278
+Option 1 ID : 43357625109
+Option 2 ID : 43357625110
+Option 3 ID : 43357625111
+Option 4 ID : 43357625112
+Status : Answered
+Chosen Option : D
+Q.14 Which one is not a physical threat
+Ans
+A. Hacking
+B. Storm
+C. Fire
+D. Flood
+Question Type : MCQ
+Question ID : 4335766390
+Option 1 ID : 43357625557
+Option 2 ID : 43357625558
+Option 3 ID : 43357625559
+Option 4 ID : 43357625560
+Status : Answered
+Chosen Option : A
+
+--- PAGE 9 ---
+Q.15 The SQL keyword……………….is used with wildcards.
+Ans
+A. LIKE
+B. IN
+C. NOT IN
+D. DISTINCT
+Question Type : MCQ
+Question ID : 4335765999
+Option 1 ID : 43357623993
+Option 2 ID : 43357623994
+Option 3 ID : 43357623995
+Option 4 ID : 43357623996
+Status : Answered
+Chosen Option : A
+Q.16 What is the key advantage of using a carry-lookahead adder instead of a ripple-carry
+adder?
+Ans
+A. Simplicity of design
+B. Faster propagation delay
+C. Lower power consumption
+D. Reduced gate count
+Question Type : MCQ
+Question ID : 4335766039
+Option 1 ID : 43357624153
+Option 2 ID : 43357624154
+Option 3 ID : 43357624155
+Option 4 ID : 43357624156
+Status : Answered
+Chosen Option : B
+Q.17 What is the difference between a hard disk drive and a solid-state drive?
+Ans
+A. A hard disk drive uses spinning disks to store data, while a solid-state drive uses flash
+memory to store data.
+B. A hard disk drive is slower than a solid-state drive.
+C. A hard disk drive is more durable than a solid-state drive.
+D. All of the above
+Question Type : MCQ
+Question ID : 4335766389
+Option 1 ID : 43357625553
+Option 2 ID : 43357625554
+Option 3 ID : 43357625555
+Option 4 ID : 43357625556
+Status : Answered
+Chosen Option : B
+
+--- PAGE 10 ---
+Q.18 In an operating system, a "buffer cache" is used to:
+Ans
+A. Store files in memory
+B. Store copies of frequently used files in memory
+C. Store the operating system kernel
+D. Store input/output devices
+Question Type : MCQ
+Question ID : 4335766123
+Option 1 ID : 43357624489
+Option 2 ID : 43357624490
+Option 3 ID : 43357624491
+Option 4 ID : 43357624492
+Status : Answered
+Chosen Option : B
+Q.19 ___________________ are the set of rules that governs how data can be transmitted
+over world wide web.
+Ans
+A. Hyper Text Transfer Protocol
+B. Encryption Standards
+C. Cyber forensic
+D. Digital Certificates
+Question Type : MCQ
+Question ID : 4335766017
+Option 1 ID : 43357624065
+Option 2 ID : 43357624066
+Option 3 ID : 43357624067
+Option 4 ID : 43357624068
+Status : Answered
+Chosen Option : A
+Q.20 Multimedia system require hard real time scheduling ___________
+Ans
+A. to ensure critical tasks will be serviced within timing deadlines
+B. to deliver the media file to the client
+C. to minimize the delay
+D. for security
+Question Type : MCQ
+Question ID : 4335766402
+Option 1 ID : 43357625605
+Option 2 ID : 43357625606
+Option 3 ID : 43357625607
+Option 4 ID : 43357625608
+Status : Answered
+Chosen Option : A
+
+--- PAGE 11 ---
+Q.21 Which of the following applications is a typical use of microcontrollers in the field of
+home automation?
+Ans
+A. Satellite communication
+B. Air traffic control
+C. Temperature and lighting control
+D. Space exploration
+Question Type : MCQ
+Question ID : 4335766058
+Option 1 ID : 43357624229
+Option 2 ID : 43357624230
+Option 3 ID : 43357624231
+Option 4 ID : 43357624232
+Status : Answered
+Chosen Option : C
+Q.22 What is the purpose of SQL injection attacks?
+Ans
+A.   To increase the performance of database queries
+B. To bypass authentication systems
+C. To improve database security
+D. To enhance data encryption
+Question Type : MCQ
+Question ID : 4335766280
+Option 1 ID : 43357625117
+Option 2 ID : 43357625118
+Option 3 ID : 43357625119
+Option 4 ID : 43357625120
+Status : Answered
+Chosen Option : B
+Q.23 What is the primary purpose of data compression in data communication?
+Ans
+A.    To increase latency
+B. To reduce bandwidth usage
+C. To decrease error rates
+D. To improve security
+Question Type : MCQ
+Question ID : 4335766181
+Option 1 ID : 43357624721
+Option 2 ID : 43357624722
+Option 3 ID : 43357624723
+Option 4 ID : 43357624724
+Status : Answered
+Chosen Option : C
+
+--- PAGE 12 ---
+Q.24 What is the term for a variable that references an instance of a class?
+Ans
+A. Property
+B. Method
+C. Object
+D. Constructor
+Question Type : MCQ
+Question ID : 4335766252
+Option 1 ID : 43357625005
+Option 2 ID : 43357625006
+Option 3 ID : 43357625007
+Option 4 ID : 43357625008
+Status : Answered
+Chosen Option : C
+Q.25 Which network device serves as the entry and exit point of a network, as all data
+coming in or going out of a network must first pass through it?
+Ans
+A. Modem
+B. Gateway
+C. Switch
+D. Repeater
+Question Type : MCQ
+Question ID : 4335766461
+Option 1 ID : 43357625841
+Option 2 ID : 43357625842
+Option 3 ID : 43357625843
+Option 4 ID : 43357625844
+Status : Answered
+Chosen Option : B
+Q.26 Identify the correct output of the following code snippet :
+game="olympic2024"
+print (game. index ("C") )
+Ans
+A. 0
+B. 6
+C. -1
+D. valueError
+Question Type : MCQ
+Question ID : 4335766432
+Option 1 ID : 43357625725
+Option 2 ID : 43357625726
+Option 3 ID : 43357625727
+Option 4 ID : 43357625728
+Status : Answered
+Chosen Option : D
+
+--- PAGE 13 ---
+Q.27 In a B tree of order m, each internal node can have up to __ children.
+Ans
+A. m - 1
+B. m
+C. 2m - 1
+D. 2m
+Question Type : MCQ
+Question ID : 4335766095
+Option 1 ID : 43357624377
+Option 2 ID : 43357624378
+Option 3 ID : 43357624379
+Option 4 ID : 43357624380
+Status : Answered
+Chosen Option : A
+Q.28 Which of the following is the correct expansion of SMS ?
+Ans
+A. Short Message Service p { font–family: Arial; }
+B. Small Multimedia Service p { fontfamily: Arial; }
+C. Short Multimedia Service p { font: Arial; }
+D. Small Message Service p { font–type: Arial; }
+Question Type : MCQ
+Question ID : 4335766428
+Option 1 ID : 43357625709
+Option 2 ID : 43357625710
+Option 3 ID : 43357625711
+Option 4 ID : 43357625712
+Status : Answered
+Chosen Option : B
+Q.29 Which of the following statement (s) is/are TRUE in respect of Media Access Control
+(MAC) Address?
+(A) It can be changed if a node is removed from one network and connected to another
+network.
+(B) Each MAC address is a 12-digit hexadecimal number.
+(C) It is a unique value associated with a network adapter called NIC.
+(D) It is provided by the Internet Service Provider to locate computers connected to the
+internet.
+Choose the correct answer from the options given below:
+Ans
+A. (B) and (C) only
+B. (A), (B) and (C) only
+C. (C) and (D) only
+D. (A) and (B) only
+Question Type : MCQ
+Question ID : 4335765996
+Option 1 ID : 43357623981
+Option 2 ID : 43357623982
+Option 3 ID : 43357623983
+Option 4 ID : 43357623984
+Status : Answered
+Chosen Option : A
+
+--- PAGE 14 ---
+Q.30 While creating a table, which constraint does not allow insertion of duplicate values in
+the table ?
+Ans
+A. UNIQUE
+B. DISTINCT
+C. NOT NULL
+D. HAVING
+Question Type : MCQ
+Question ID : 4335766438
+Option 1 ID : 43357625749
+Option 2 ID : 43357625750
+Option 3 ID : 43357625751
+Option 4 ID : 43357625752
+Status : Answered
+Chosen Option : A
+Q.31 Which term is used to describe the ability of different classes to be treated as objects of
+the same parent class?
+Ans
+A. Overloading
+B. Polymorphism
+C. Abstraction
+D. Encapsulation
+Question Type : MCQ
+Question ID : 4335766234
+Option 1 ID : 43357624933
+Option 2 ID : 43357624934
+Option 3 ID : 43357624935
+Option 4 ID : 43357624936
+Status : Answered
+Chosen Option : B
+Q.32 Building blocks of a frame structure are?
+Ans
+A. Facts and Data
+B. Procedure and Default values
+C. Frame names
+D. Frame inference in hierarchy
+Question Type : MCQ
+Question ID : 4335766371
+Option 1 ID : 43357625481
+Option 2 ID : 43357625482
+Option 3 ID : 43357625483
+Option 4 ID : 43357625484
+Status : Answered
+Chosen Option : D
+
+--- PAGE 15 ---
+Q.33 Segmentation is a memory management technique where memory is divided into
+segments, with each segment containing:
+Ans
+A. Fixed-sized blocks of memory
+B. Different types of data structures
+C. Variable-sized blocks of memory
+D. Non-contiguous blocks of memory
+Question Type : MCQ
+Question ID : 4335766132
+Option 1 ID : 43357624525
+Option 2 ID : 43357624526
+Option 3 ID : 43357624527
+Option 4 ID : 43357624528
+Status : Answered
+Chosen Option : A
+Q.34 About IoT, which among the followings is not correct?
+Ans
+A. Light sensor is analog
+B. microphone is a digital sensor
+C. Keyboard is a digital sensor
+D. Push button is a digital Sensor
+Question Type : MCQ
+Question ID : 4335766321
+Option 1 ID : 43357625281
+Option 2 ID : 43357625282
+Option 3 ID : 43357625283
+Option 4 ID : 43357625284
+Status : Answered
+Chosen Option : B
+Q.35 Connected components in a graph can be found using which graph traversal
+algorithm?
+Ans
+A. DFS
+B. BFS
+C. Both DFS and BFS
+D. Neither DFS nor BFS
+Question Type : MCQ
+Question ID : 4335766100
+Option 1 ID : 43357624397
+Option 2 ID : 43357624398
+Option 3 ID : 43357624399
+Option 4 ID : 43357624400
+Status : Answered
+Chosen Option : C
+
+--- PAGE 16 ---
+Q.36 A complex SCADA system has _______levels?
+Ans
+A. 6
+B. 5
+C. 3
+D. 4
+Question Type : MCQ
+Question ID : 4335766330
+Option 1 ID : 43357625317
+Option 2 ID : 43357625318
+Option 3 ID : 43357625319
+Option 4 ID : 43357625320
+Status : Answered
+Chosen Option : B
+Q.37 Hierarchical addressing in the Network Layer allows for:
+Ans
+A. More efficient use of IP addresses
+B. Dynamic allocation of MAC addresses
+C.   Faster data transmission rates
+D. Reduced latency in data communication
+Question Type : MCQ
+Question ID : 4335766196
+Option 1 ID : 43357624781
+Option 2 ID : 43357624782
+Option 3 ID : 43357624783
+Option 4 ID : 43357624784
+Status : Answered
+Chosen Option : A
+Q.38 According to Chomsky hierarchy, which of the following is recognized by Recursively
+Enumerable language?
+Ans
+A. Type 0
+B. Type 1
+C. Type 2
+D. Type 3
+Question Type : MCQ
+Question ID : 4335766311
+Option 1 ID : 43357625241
+Option 2 ID : 43357625242
+Option 3 ID : 43357625243
+Option 4 ID : 43357625244
+Status : Answered
+Chosen Option : D
+
+--- PAGE 17 ---
+Q.39 Which SQL clause is used to retrieve specific rows from a table?
+Ans
+A. SEARCH
+B.    FETCH
+C. SELECT
+D. FIND
+Question Type : MCQ
+Question ID : 4335766282
+Option 1 ID : 43357625125
+Option 2 ID : 43357625126
+Option 3 ID : 43357625127
+Option 4 ID : 43357625128
+Status : Answered
+Chosen Option : C
+Q.40 In conditional asymptotic notation, "Θ(f(n)) if g(n)" indicates that the algorithm's
+complexity is both upper and lower bounded by f(n) when:
+Ans
+A. g(n) is a lower bound on f(n)
+B. g(n) is an upper bound on f(n)
+C. g(n) is true
+D. g(n) is false
+Question Type : MCQ
+Question ID : 4335766075
+Option 1 ID : 43357624297
+Option 2 ID : 43357624298
+Option 3 ID : 43357624299
+Option 4 ID : 43357624300
+Status : Answered
+Chosen Option : B
+Q.41 The OSI model consists of how many layers?
+Ans
+A. 5
+B. 6
+C. 7
+D. 8
+Question Type : MCQ
+Question ID : 4335766182
+Option 1 ID : 43357624725
+Option 2 ID : 43357624726
+Option 3 ID : 43357624727
+Option 4 ID : 43357624728
+Status : Answered
+Chosen Option : C
+
+--- PAGE 18 ---
+Q.42 In a relational database, what is a primary key?
+Ans
+A. A key used for opening encrypted data
+B. A unique identifier for a record in a table @
+C. A foreign key from another table
+D. An index for sorting data
+Question Type : MCQ
+Question ID : 4335766277
+Option 1 ID : 43357625105
+Option 2 ID : 43357625106
+Option 3 ID : 43357625107
+Option 4 ID : 43357625108
+Status : Answered
+Chosen Option : B
+Q.43 What will be the output of the following code segment?
+a = 5
+def func_1(b=10):
+global a
+a=b-10
+b+=a
+print (a,b)
+func_1(a)
+Ans
+A. 0 5
+B. 5 0
+C. 0 -5
+D. -5 0
+Question Type : MCQ
+Question ID : 4335766456
+Option 1 ID : 43357625821
+Option 2 ID : 43357625822
+Option 3 ID : 43357625823
+Option 4 ID : 43357625824
+Status : Answered
+Chosen Option : A
+Q.44 Which JavaScript method is used to add a new HTML element to the DOM?
+Ans
+A. appendElement()
+B. createElement()
+C. newElement()
+D.   addElement()
+Question Type : MCQ
+Question ID : 4335766267
+Option 1 ID : 43357625065
+Option 2 ID : 43357625066
+Option 3 ID : 43357625067
+Option 4 ID : 43357625068
+Status : Answered
+Chosen Option : C
+
+--- PAGE 19 ---
+Q.45 The primary function of firewall in network security is
+Ans
+A. To monitor network traffic and detect anomalies.
+B. To create virtual private networks for secure communication.
+C. To filter incoming and outgoing network traffic based on security rules
+D. To encrypt data before Transmission.
+Question Type : MCQ
+Question ID : 4335766478
+Option 1 ID : 43357625909
+Option 2 ID : 43357625910
+Option 3 ID : 43357625911
+Option 4 ID : 43357625912
+Status : Answered
+Chosen Option : C
+Q.46 In AI systems, Knowledge can be represented in two ways. What are these two ways?
+(i) Machine Logic
+(ii) Predicate Logic
+(iii) Propositional Logic
+(iv) Compound Logic
+Ans
+A. (i) and (ii)
+B. (i) and (iii)
+C. (ii) and (iii)
+D. (iii) and (vi)
+Question Type : MCQ
+Question ID : 4335766368
+Option 1 ID : 43357625469
+Option 2 ID : 43357625470
+Option 3 ID : 43357625471
+Option 4 ID : 43357625472
+Status : Answered
+Chosen Option : B
+Q.47 What is the difference between a URL and a web address?
+Ans
+A. A URL is a Uniform Resource Locator, while a web address is away to identify a
+website on the internet.
+B. A URL is a software program, while a web address is ahardware device.
+C. A URL is a physical object, while a web address is a logicalobject.
+D. All of the above.
+Question Type : MCQ
+Question ID : 4335766222
+Option 1 ID : 43357624885
+Option 2 ID : 43357624886
+Option 3 ID : 43357624887
+Option 4 ID : 43357624888
+Status : Answered
+Chosen Option : A
+
+--- PAGE 20 ---
+Q.48 Monitors are primarily used for achieving:
+Ans
+A. Deadlocks
+B. Starvation
+C. Mutual exclusion and synchronization
+D. Process termination
+Question Type : MCQ
+Question ID : 4335766137
+Option 1 ID : 43357624545
+Option 2 ID : 43357624546
+Option 3 ID : 43357624547
+Option 4 ID : 43357624548
+Status : Answered
+Chosen Option : C
+Q.49 In EDI, I stands for?
+Ans
+A. Indian
+B. India
+C. Interchange
+D. Interval
+Question Type : MCQ
+Question ID : 4335766396
+Option 1 ID : 43357625581
+Option 2 ID : 43357625582
+Option 3 ID : 43357625583
+Option 4 ID : 43357625584
+Status : Answered
+Chosen Option : C
+Q.50 Which protocol provides connectionless communication with minimal overhead?
+Ans
+A. TCP
+B. UDP
+C. IP
+D. HTTP
+Question Type : MCQ
+Question ID : 4335766191
+Option 1 ID : 43357624761
+Option 2 ID : 43357624762
+Option 3 ID : 43357624763
+Option 4 ID : 43357624764
+Status : Answered
+Chosen Option : B
+
+--- PAGE 21 ---
+Q.51 Which maintenance activity involves updating software to work with new hardware or
+software environments?
+Ans
+A. Corrective Maintenance
+B. Adaptive Maintenance
+C. Perfective Maintenance
+D. Preventive Maintenance
+Question Type : MCQ
+Question ID : 4335766225
+Option 1 ID : 43357624897
+Option 2 ID : 43357624898
+Option 3 ID : 43357624899
+Option 4 ID : 43357624900
+Status : Answered
+Chosen Option : B
+Q.52 A formal model of protection in an operating system provides:
+Ans
+A. A mathematical framework for analyzing resource allocation
+B. Guidelines for designing user interfaces
+C. Methods for optimizing memory management
+D. Techniques for improving CPU utilization
+Question Type : MCQ
+Question ID : 4335766120
+Option 1 ID : 43357624477
+Option 2 ID : 43357624478
+Option 3 ID : 43357624479
+Option 4 ID : 43357624480
+Status : Answered
+Chosen Option : D
+Q.53 minimum number of states required to recognize an octal number divisible by 3 are/is
+Ans
+A. 3
+B. 4
+C. 1
+D. 2
+Question Type : MCQ
+Question ID : 4335766288
+Option 1 ID : 43357625149
+Option 2 ID : 43357625150
+Option 3 ID : 43357625151
+Option 4 ID : 43357625152
+Status : Answered
+Chosen Option : D
+
+--- PAGE 22 ---
+Q.54 Which command is used to remove a relation from an SQL?
+Ans
+A. Drop table
+B. Delete
+C. Purge
+D. Remove
+Question Type : MCQ
+Question ID : 4335766154
+Option 1 ID : 43357624613
+Option 2 ID : 43357624614
+Option 3 ID : 43357624615
+Option 4 ID : 43357624616
+Status : Answered
+Chosen Option : B
+Q.55 What does the term "Software Maintenance" refer to?
+Ans
+A. Developing new software applications
+B. Enhancing software performance
+C. Managing hardware components
+D. Modifying and updating existing software
+Question Type : MCQ
+Question ID : 4335766212
+Option 1 ID : 43357624845
+Option 2 ID : 43357624846
+Option 3 ID : 43357624847
+Option 4 ID : 43357624848
+Status : Answered
+Chosen Option : D
+Q.56 The recurrence equation T(n) = T(n/2) + T(n/3) + n represents the time complexity of
+which algorithmic paradigm?
+Ans
+A. Divide and Conquer
+B. Dynamic Programming
+C. Greedy Algorithms
+D. Backtracking
+Question Type : MCQ
+Question ID : 4335766077
+Option 1 ID : 43357624305
+Option 2 ID : 43357624306
+Option 3 ID : 43357624307
+Option 4 ID : 43357624308
+Status : Answered
+Chosen Option : A
+
+--- PAGE 23 ---
+Q.57 What does the term "harvard architecture" refer to in the context of microcontrollers?
+Ans
+A. A type of microcontroller with high processing speed
+B. A microcontroller architecture that uses a separate memory space for instructions and
+data
+C. A microcontroller with advanced addressing modes
+D. A microcontroller with a large number of I/O ports
+Question Type : MCQ
+Question ID : 4335766061
+Option 1 ID : 43357624241
+Option 2 ID : 43357624242
+Option 3 ID : 43357624243
+Option 4 ID : 43357624244
+Status : Answered
+Chosen Option : B
+Q.58 Consider the statements given below and then choose the correct output from the
+given options :
+L=['TIC' , 'TAC' ]
+print (L[::-1])
+Ans
+A. ['CIT' , 'CAT' ]
+B. ['TIC' , 'TAC' ]
+C. ['CAT' , 'CIT' ]
+D. ['TAC' , 'TIC' ]
+Question Type : MCQ
+Question ID : 4335766435
+Option 1 ID : 43357625737
+Option 2 ID : 43357625738
+Option 3 ID : 43357625739
+Option 4 ID : 43357625740
+Status : Answered
+Chosen Option : A
+Q.59 Which of the following is not an attribute of the tag ?
+Ans
+A. face
+B. height
+C. size
+D. colour
+Question Type : MCQ
+Question ID : 4335766469
+Option 1 ID : 43357625873
+Option 2 ID : 43357625874
+Option 3 ID : 43357625875
+Option 4 ID : 43357625876
+Status : Answered
+Chosen Option : B
+
+--- PAGE 24 ---
+Q.60 The term "multi-user" in an OS context refers to:
+Ans
+A. An OS that can execute multiple programs simultaneously
+B. An OS that supports multiple users working on the same machine
+C. An OS that can only run on multiple computers
+D. An OS with a graphical user interface
+Question Type : MCQ
+Question ID : 4335766147
+Option 1 ID : 43357624585
+Option 2 ID : 43357624586
+Option 3 ID : 43357624587
+Option 4 ID : 43357624588
+Status : Answered
+Chosen Option : B
+Q.61 TPDU (Transport Protocol Data Unit) refers to:
+Ans
+A. A unit of data in the physical layer
+B. A unit of data in the data link layer
+C. A unit of data in the transport layer
+D.   A unit of data in the network layer
+Question Type : MCQ
+Question ID : 4335766192
+Option 1 ID : 43357624765
+Option 2 ID : 43357624766
+Option 3 ID : 43357624767
+Option 4 ID : 43357624768
+Status : Answered
+Chosen Option : C
+Q.62 A* search algorithm is based on?
+Ans
+A. BFS
+B. DFS
+C. Uniform cost search
+D. Best first Search
+Question Type : MCQ
+Question ID : 4335766364
+Option 1 ID : 43357625453
+Option 2 ID : 43357625454
+Option 3 ID : 43357625455
+Option 4 ID : 43357625456
+Status : Answered
+Chosen Option : A
+
+--- PAGE 25 ---
+Q.63 What is the primary purpose of using Don't Care conditions in Karnaugh Map
+simplification?
+Ans
+A. To mark cells that should not be included in the simplification process
+B. To indicate cells that have an undefined logic value
+C. To identify cells that are already in their simplest form
+D. To mark cells with special logic functions
+Question Type : MCQ
+Question ID : 4335766063
+Option 1 ID : 43357624249
+Option 2 ID : 43357624250
+Option 3 ID : 43357624251
+Option 4 ID : 43357624252
+Status : Answered
+Chosen Option : A
+Q.64 Which among the followins is not a type of Zigbee Device?
+Ans
+A. Zigbee Coordinator device
+B. Zigbee Router
+C. Zigbee start devce
+D. Zigbee end devce
+Question Type : MCQ
+Question ID : 4335766336
+Option 1 ID : 43357625341
+Option 2 ID : 43357625342
+Option 3 ID : 43357625343
+Option 4 ID : 43357625344
+Status : Answered
+Chosen Option : A
+Q.65 Zigbee is a task group in------
+Ans
+A. LAN
+B. PAN
+C. MAN
+D. WAN
+Question Type : MCQ
+Question ID : 4335766335
+Option 1 ID : 43357625337
+Option 2 ID : 43357625338
+Option 3 ID : 43357625339
+Option 4 ID : 43357625340
+Status : Answered
+Chosen Option : A
+
+--- PAGE 26 ---
+Q.66 In a threaded binary tree, the space required for threads is usually:
+Ans
+A. Greater than the space required for regular pointers
+B. Equal to the space required for regular pointers
+C. Less than the space required for regular pointers
+D. Unpredictable
+Question Type : MCQ
+Question ID : 4335766097
+Option 1 ID : 43357624385
+Option 2 ID : 43357624386
+Option 3 ID : 43357624387
+Option 4 ID : 43357624388
+Status : Answered
+Chosen Option : C
+Q.67 Given the Boolean expression F(A, B, C, D) = Σ(0, 1, 2, 3, 8, 9, 10, 11), what is the
+simplified expression using the algebraic method?
+Ans
+A. A + B + C + D
+B. AB + AC + AD + BC + BD + CD
+C. AB + CD
+D. A'BC'D + ABC'D + A'BCD + ABCD
+Question Type : MCQ
+Question ID : 4335766047
+Option 1 ID : 43357624185
+Option 2 ID : 43357624186
+Option 3 ID : 43357624187
+Option 4 ID : 43357624188
+Status : Answered
+Chosen Option : C
+Q.68 Which model considers risk assessment and incremental development in software
+projects?
+Ans
+A. Waterfall Model
+B. Agile Model
+C. Prototype Model
+D. Spiral Model
+Question Type : MCQ
+Question ID : 4335766220
+Option 1 ID : 43357624877
+Option 2 ID : 43357624878
+Option 3 ID : 43357624879
+Option 4 ID : 43357624880
+Status : Answered
+Chosen Option : D
+
+--- PAGE 27 ---
+Q.69 Which of the following expression in SQL would calculate the square root of 16?
+Ans
+A. POWER (16,2)
+B. POWER (16, 0.5)
+C. POWER (16, 1)
+D. MOD (16)
+Question Type : MCQ
+Question ID : 4335765995
+Option 1 ID : 43357623977
+Option 2 ID : 43357623978
+Option 3 ID : 43357623979
+Option 4 ID : 43357623980
+Status : Answered
+Chosen Option : B
+Q.70 A relation in a relational database is also known as:
+Ans
+A. A data type
+B. An attribute
+C. A schema
+D. A table
+Question Type : MCQ
+Question ID : 4335765994
+Option 1 ID : 43357623973
+Option 2 ID : 43357623974
+Option 3 ID : 43357623975
+Option 4 ID : 43357623976
+Status : Answered
+Chosen Option : D
+Q.71 A Database Management System is a type of _________software.
+Ans
+A. It is a type of system software
+B. It is a kind of application software
+C. It is a kind of general software
+D. Both A and C
+Question Type : MCQ
+Question ID : 4335766157
+Option 1 ID : 43357624625
+Option 2 ID : 43357624626
+Option 3 ID : 43357624627
+Option 4 ID : 43357624628
+Status : Answered
+Chosen Option : B
+
+--- PAGE 28 ---
+Q.72 A grammar that produces more than one parse tree for the same sentence is called
+Ans
+A. Contiguous
+B. Ambiguous
+C. Unambiguous
+D. Regular
+Question Type : MCQ
+Question ID : 4335766301
+Option 1 ID : 43357625201
+Option 2 ID : 43357625202
+Option 3 ID : 43357625203
+Option 4 ID : 43357625204
+Status : Answered
+Chosen Option : A
+Q.73 Which traversal technique is used to visit each node of a linked list exactly once?
+Ans
+A. Preorder traversal
+B. Inorder traversal
+C. Postorder traversal
+D. Linear traversal
+Question Type : MCQ
+Question ID : 4335766111
+Option 1 ID : 43357624441
+Option 2 ID : 43357624442
+Option 3 ID : 43357624443
+Option 4 ID : 43357624444
+Status : Answered
+Chosen Option : D
+Q.74 Which of the following is not a Search Engine available over the Internet ?
+Ans
+A. Google
+B. Bing
+C. Diksha
+D. Yahoo
+Question Type : MCQ
+Question ID : 4335766426
+Option 1 ID : 43357625701
+Option 2 ID : 43357625702
+Option 3 ID : 43357625703
+Option 4 ID : 43357625704
+Status : Answered
+Chosen Option : C
+
+--- PAGE 29 ---
+Q.75 In a PLA, what components are used to implement the combinational logic functions?
+Ans
+A. AND gates and OR gates
+B. NAND gates and XOR gates
+C. NOR gates and XNOR gates
+D. NOT gates and multiplexers
+Question Type : MCQ
+Question ID : 4335766034
+Option 1 ID : 43357624133
+Option 2 ID : 43357624134
+Option 3 ID : 43357624135
+Option 4 ID : 43357624136
+Status : Answered
+Chosen Option : A
+Q.76 Which protocol is used for sending emails?
+Ans
+A.    HTTP
+B. FTP
+C.   SMTP
+D. SNMP
+Question Type : MCQ
+Question ID : 4335766178
+Option 1 ID : 43357624709
+Option 2 ID : 43357624710
+Option 3 ID : 43357624711
+Option 4 ID : 43357624712
+Status : Answered
+Chosen Option : C
+Q.77 …………….are the unorganized facts that can be processed to generate meaningful
+information.
+Ans
+A. Information
+B. Data
+C. Blog
+D. contexts
+Question Type : MCQ
+Question ID : 4335765993
+Option 1 ID : 43357623969
+Option 2 ID : 43357623970
+Option 3 ID : 43357623971
+Option 4 ID : 43357623972
+Status : Answered
+Chosen Option : B
+
+--- PAGE 30 ---
+Q.78 Which one of the following resource is not necessarily required on a file server?
+Ans
+A. secondary storage
+B. processor
+C. network
+D. monitor
+Question Type : MCQ
+Question ID : 4335766403
+Option 1 ID : 43357625609
+Option 2 ID : 43357625610
+Option 3 ID : 43357625611
+Option 4 ID : 43357625612
+Status : Answered
+Chosen Option : D
+Q.79 The letter S in the abbreviation HTTPS in context of Networking protocols, stands for :
+Ans
+A. Single
+B. Static
+C. Secure
+D. Sensitive
+Question Type : MCQ
+Question ID : 4335766465
+Option 1 ID : 43357625857
+Option 2 ID : 43357625858
+Option 3 ID : 43357625859
+Option 4 ID : 43357625860
+Status : Answered
+Chosen Option : C
+Q.80 Which version control system is commonly used for collaborative web development
+projects?
+Ans
+A. SVN
+B. Git
+C. Mercurial
+D. CVS
+Question Type : MCQ
+Question ID : 4335766259
+Option 1 ID : 43357625033
+Option 2 ID : 43357625034
+Option 3 ID : 43357625035
+Option 4 ID : 43357625036
+Status : Answered
+Chosen Option : C
+
+--- PAGE 31 ---
+Q.81 The term "DFD" stands for?
+Ans
+A. Data file diagram
+B. Data flow document
+C. Data flow diagram
+D. None of the above
+Question Type : MCQ
+Question ID : 4335766162
+Option 1 ID : 43357624645
+Option 2 ID : 43357624646
+Option 3 ID : 43357624647
+Option 4 ID : 43357624648
+Status : Answered
+Chosen Option : C
+Q.82 Which symbol is used to define the start and end of XML tags?
+Ans
+A.    
+B.   { }
+C. [ ]
+D. ( )
+Question Type : MCQ
+Question ID : 4335766268
+Option 1 ID : 43357625069
+Option 2 ID : 43357625070
+Option 3 ID : 43357625071
+Option 4 ID : 43357625072
+Status : Answered
+Chosen Option : A
+Q.83 What is the full form of FTP ?
+Ans
+A. File Transfer Protocol
+B. File Transmission Protocol
+C. Fast Transfer Protocol
+D. Fast Transmission Protocol
+Question Type : MCQ
+Question ID : 4335766422
+Option 1 ID : 43357625685
+Option 2 ID : 43357625686
+Option 3 ID : 43357625687
+Option 4 ID : 43357625688
+Status : Answered
+Chosen Option : A
+
+--- PAGE 32 ---
+Q.84 The language accepted by Push down Automaton:
+Ans
+A. Recursive Language
+B. Context free language
+C. Linearly Bounded language
+D. All of the mentioned
+Question Type : MCQ
+Question ID : 4335766302
+Option 1 ID : 43357625205
+Option 2 ID : 43357625206
+Option 3 ID : 43357625207
+Option 4 ID : 43357625208
+Status : Answered
+Chosen Option : D
+Q.85 What is an encryption system that uses two keys: a public key that everyone can have
+and a private key for only the recipient?
+Ans
+A. Encryption
+B. IDS
+C. Security Audit software
+D. Public key Encryption
+Question Type : MCQ
+Question ID : 4335766397
+Option 1 ID : 43357625585
+Option 2 ID : 43357625586
+Option 3 ID : 43357625587
+Option 4 ID : 43357625588
+Status : Answered
+Chosen Option : B
+Q.86 Let u=’1101’, v=’0001’, then uv=11010001 and vu= 00011101.Using the given information
+what is the identity element for the string?
+Ans
+A. u-1
+B. v-1
+C. u-1v-1
+D. ε
+Question Type : MCQ
+Question ID : 4335766292
+Option 1 ID : 43357625165
+Option 2 ID : 43357625166
+Option 3 ID : 43357625167
+Option 4 ID : 43357625168
+Status : Answered
+Chosen Option : D
+
+--- PAGE 33 ---
+Q.87 Which keyword is used to create an instance of a class in most programming
+languages?
+Ans
+A. alloc
+B. new
+C. create
+D. instance
+Question Type : MCQ
+Question ID : 4335766229
+Option 1 ID : 43357624913
+Option 2 ID : 43357624914
+Option 3 ID : 43357624915
+Option 4 ID : 43357624916
+Status : Answered
+Chosen Option : B
+Q.88 Which of the following is known as a set of entities of the same type that share same
+properties, or attributes?
+Ans
+A. Relation set
+B. Tuples
+C. Entity set
+D. Entity Relation model
+Question Type : MCQ
+Question ID : 4335766151
+Option 1 ID : 43357624601
+Option 2 ID : 43357624602
+Option 3 ID : 43357624603
+Option 4 ID : 43357624604
+Status : Answered
+Chosen Option : D
+Q.89 What is the time complexity of Merge Sort for sorting an array of size "n"?
+Ans
+A. O(n)
+B. O(log n)
+C. O(n log n)
+D. O(n^2)
+Question Type : MCQ
+Question ID : 4335766093
+Option 1 ID : 43357624369
+Option 2 ID : 43357624370
+Option 3 ID : 43357624371
+Option 4 ID : 43357624372
+Status : Answered
+Chosen Option : C
+
+--- PAGE 34 ---
+Q.90 Maximum read range of RFID module is?
+Ans
+A. 10 CM
+B. 5 CM
+C. 15 CM
+D. 2 CM
+Question Type : MCQ
+Question ID : 4335766334
+Option 1 ID : 43357625333
+Option 2 ID : 43357625334
+Option 3 ID : 43357625335
+Option 4 ID : 43357625336
+Status : Answered
+Chosen Option : A
+Q.91 Which type of register is primarily used to temporarily hold data during arithmetic and
+logical operations in a microprocessor?
+Ans
+A. Shift register
+B. Parallel register
+C. Accumulator register
+D. Counter register
+Question Type : MCQ
+Question ID : 4335766036
+Option 1 ID : 43357624141
+Option 2 ID : 43357624142
+Option 3 ID : 43357624143
+Option 4 ID : 43357624144
+Status : Answered
+Chosen Option : C
+Q.92 Safeguards in an operating system are mechanisms used to:
+Ans
+A. Ensure the efficient utilization of CPU time
+B. Prevent data loss during power outages
+C. Enhance the performance of I/O operations
+D. Protect against unauthorized access and security breaches
+Question Type : MCQ
+Question ID : 4335766121
+Option 1 ID : 43357624481
+Option 2 ID : 43357624482
+Option 3 ID : 43357624483
+Option 4 ID : 43357624484
+Status : Answered
+Chosen Option : D
+
+--- PAGE 35 ---
+Q.93 Which of the following is a service for real-time text communication on the internet ?
+Ans
+A. e-Learning
+B. FTP
+C. Video conferencing
+D. Chat
+Question Type : MCQ
+Question ID : 4335766018
+Option 1 ID : 43357624069
+Option 2 ID : 43357624070
+Option 3 ID : 43357624071
+Option 4 ID : 43357624072
+Status : Answered
+Chosen Option : D
+Q.94 If the dictionary D1 is defined as:
+D1 = {1: 'a', 2: 'b'}
+then which of the following statements is incorrect and hence will result in an error?
+Ans
+A. D1 . get (1)
+B. D1 . get (3)
+C. D1 .del (1)
+D. D1 . clear (1)
+Question Type : MCQ
+Question ID : 4335766453
+Option 1 ID : 43357625809
+Option 2 ID : 43357625810
+Option 3 ID : 43357625811
+Option 4 ID : 43357625812
+Status : Answered
+Chosen Option : B
+Q.95 Telnet is commonly used for:
+Ans
+A. Secure file transfers
+B. Remote terminal access
+C. Web browsing
+D.   Email communication
+Question Type : MCQ
+Question ID : 4335766194
+Option 1 ID : 43357624773
+Option 2 ID : 43357624774
+Option 3 ID : 43357624775
+Option 4 ID : 43357624776
+Status : Answered
+Chosen Option : B
+
+--- PAGE 36 ---
+Q.96 Separate chaining involves storing collided elements in separate data structures,
+typically in:
+Ans
+A. Linked lists
+B. Arrays
+C. Stacks
+D. Queues
+Question Type : MCQ
+Question ID : 4335766106
+Option 1 ID : 43357624421
+Option 2 ID : 43357624422
+Option 3 ID : 43357624423
+Option 4 ID : 43357624424
+Status : Answered
+Chosen Option : A
+Q.97 PDA can be represented with the help of
+Ans
+A. Instantaneous description
+B. Transition diagram
+C. Transition table
+D. All of these
+Question Type : MCQ
+Question ID : 4335766303
+Option 1 ID : 43357625209
+Option 2 ID : 43357625210
+Option 3 ID : 43357625211
+Option 4 ID : 43357625212
+Status : Answered
+Chosen Option : D
+Q.98 Which Karnaugh Map simplification technique involves grouping cells that are not
+adjacent but share a common variable value?
+Ans
+A. Pair simplification
+B. Quad simplification
+C. Octet simplification
+D. Group simplification
+Question Type : MCQ
+Question ID : 4335766064
+Option 1 ID : 43357624253
+Option 2 ID : 43357624254
+Option 3 ID : 43357624255
+Option 4 ID : 43357624256
+Status : Answered
+Chosen Option : D
+
+--- PAGE 37 ---
+Q.99 which of the following is/ are components of Expert Systems?
+Ans
+A. Knowledge Base
+B. Inference logic
+C. User Interface
+D. All of the above
+Question Type : MCQ
+Question ID : 4335766377
+Option 1 ID : 43357625505
+Option 2 ID : 43357625506
+Option 3 ID : 43357625507
+Option 4 ID : 43357625508
+Status : Answered
+Chosen Option : D
+Q.10
+0
+Arrange the following electromagnetic waves in increasing order of their frequency
+range.
+(A) Microwaves
+(B) Infrared Waves
+(C) Light Waves
+(D) Radio Waves
+Choose the correct answer from the options given below :
+Ans
+A. (A), (C), (D), (B)
+B. (D), (C), (B), (A)
+C. (B), (A), (D), (C)
+D. (D), (A), (B), (C)
+Question Type : MCQ
+Question ID : 4335766013
+Option 1 ID : 43357624049
+Option 2 ID : 43357624050
+Option 3 ID : 43357624051
+Option 4 ID : 43357624052
+Status : Answered
+Chosen Option : C
+Q.10
+1
+The mirror of the Society is:
+Ans
+A. playground
+B. community
+C. Hospital
+D. School
+Question Type : MCQ
+Question ID : 4335764203
+Option 1 ID : 43357616809
+Option 2 ID : 43357616810
+Option 3 ID : 43357616811
+Option 4 ID : 43357616812
+Status : Answered
+Chosen Option : B
+Section : Part II
+
+--- PAGE 38 ---
+Q.10
+2
+The number of domains in taxonomies of educational objective is
+Ans
+A. Two
+B. Three
+C. Five
+D. Six
+Question Type : MCQ
+Question ID : 4335763524
+Option 1 ID : 43357614093
+Option 2 ID : 43357614094
+Option 3 ID : 43357614095
+Option 4 ID : 43357614096
+Status : Answered
+Chosen Option : B
+Q.10
+3
+Who has developed the 'Guidelines on information literacy for lifelong learning?
+Ans
+A. RUSA
+B. ACRL
+C. SCONUL
+D. IFLA
+Question Type : MCQ
+Question ID : 4335763922
+Option 1 ID : 43357615685
+Option 2 ID : 43357615686
+Option 3 ID : 43357615687
+Option 4 ID : 43357615688
+Status : Answered
+Chosen Option : A
+Q.10
+4
+Which type of lesson plan is simple and straightforward?
+Ans
+A. Daily lesson plan
+B. Weekly lesson plan
+C. Sequential lesson plans
+D. Monthly lesson plan
+Question Type : MCQ
+Question ID : 4335763698
+Option 1 ID : 43357614789
+Option 2 ID : 43357614790
+Option 3 ID : 43357614791
+Option 4 ID : 43357614792
+Status : Answered
+Chosen Option : C
+
+--- PAGE 39 ---
+Q.10
+5
+The most natural and simple way of teaching a lesson is to proceed from
+Statement I. something that the students already know
+Statement II. those facts which are unknown to the learners
+Statement III. Examples
+Statement IV. Illustrations
+Choose the correct option:-
+Ans
+A. I, III and IV
+B. Only I
+C. Only II
+D. III and IV
+Question Type : MCQ
+Question ID : 4335763424
+Option 1 ID : 43357613693
+Option 2 ID : 43357613694
+Option 3 ID : 43357613695
+Option 4 ID : 43357613696
+Status : Answered
+Chosen Option : A
+Q.10
+6
+Which one of the following options best describes progressive education?
+Ans
+A. Learning by doing, project method, cooperative learning
+B. Thematic units, regular unit tests, ranking
+C. Personalized learning, ability grouping, labelling students
+D. Project method, ability grouping, ranking
+Question Type : MCQ
+Question ID : 4335763916
+Option 1 ID : 43357615661
+Option 2 ID : 43357615662
+Option 3 ID : 43357615663
+Option 4 ID : 43357615664
+Status : Answered
+Chosen Option : A
+Q.10
+7
+In M.C.Q the correct option is:
+Ans
+A. Response
+B. Answer
+C. Distractors
+D. None of these
+Question Type : MCQ
+Question ID : 4335764162
+Option 1 ID : 43357616645
+Option 2 ID : 43357616646
+Option 3 ID : 43357616647
+Option 4 ID : 43357616648
+Status : Answered
+Chosen Option : B
+
+--- PAGE 40 ---
+Q.10
+8
+Which of the following is a sign of motivated teaching?
+Ans
+A. Maximum presence of students in the class
+B. Asking questions by students
+C. Pin drop silence in the class
+D. Complition of home assignment
+Question Type : MCQ
+Question ID : 4335763620
+Option 1 ID : 43357614477
+Option 2 ID : 43357614478
+Option 3 ID : 43357614479
+Option 4 ID : 43357614480
+Status : Answered
+Chosen Option : D
+Q.10
+9
+In M.C.Qs the statement of the problem is:
+Ans
+A. Option
+B. Distractor
+C. Premise
+D. Stem
+Question Type : MCQ
+Question ID : 4335764161
+Option 1 ID : 43357616641
+Option 2 ID : 43357616642
+Option 3 ID : 43357616643
+Option 4 ID : 43357616644
+Status : Answered
+Chosen Option : A
+Q.11
+0
+The stage in problem solving that includes the preparation of suitable hypothesis for
+investigation.
+Ans
+A. Survey
+B. Planning for action
+C. Problem description
+D. Discussion
+Question Type : MCQ
+Question ID : 4335763584
+Option 1 ID : 43357614333
+Option 2 ID : 43357614334
+Option 3 ID : 43357614335
+Option 4 ID : 43357614336
+Status : Answered
+Chosen Option : A
+
+--- PAGE 41 ---
+Q.11
+1
+While discussing about friction, a teacher gave a number of examples to explain the
+concept. Some of the examples where friction is useful in our day-to-day life as-quoted
+by the teacher are given below.
+I. We are able to write because of friction between the tip of the pen and the paper.
+II. We are able to walk because of friction between our feet and the ground.
+III. A ball thrown vertically upwards comes back to us due to friction.
+IV. We are able to stop a moving vehicle by applying brakes because of friction.
+The correct examples were
+Ans
+A. III, IV and I
+B. IV, I and II
+C. I, III and IV
+D. II, III and IV
+Question Type : MCQ
+Question ID : 4335763630
+Option 1 ID : 43357614517
+Option 2 ID : 43357614518
+Option 3 ID : 43357614519
+Option 4 ID : 43357614520
+Status : Answered
+Chosen Option : B
+Q.11
+2
+Having variety of question sets in a question paper increases it __________
+Ans
+A. Objectivity
+B. Reliability
+C. Validity
+D. Difficulty
+Question Type : MCQ
+Question ID : 4335764289
+Option 1 ID : 43357617153
+Option 2 ID : 43357617154
+Option 3 ID : 43357617155
+Option 4 ID : 43357617156
+Status : Answered
+Chosen Option : B
+Q.11
+3
+If you join a teacher fraternity and choose to dress like most of the others in your
+group, you are exhibiting-
+Ans
+A. group identity
+B. group obedience
+C. group compliance
+D. group conformity
+Question Type : MCQ
+Question ID : 4335763938
+Option 1 ID : 43357615749
+Option 2 ID : 43357615750
+Option 3 ID : 43357615751
+Option 4 ID : 43357615752
+Status : Answered
+Chosen Option : D
+
+--- PAGE 42 ---
+Q.11
+4
+What is the 4 steps for constructing a test ?
+Ans
+A. Planning and preparing the test
+B. Try Out the test
+C. Evaluating the test
+D. All of these
+Question Type : MCQ
+Question ID : 4335764081
+Option 1 ID : 43357616321
+Option 2 ID : 43357616322
+Option 3 ID : 43357616323
+Option 4 ID : 43357616324
+Status : Answered
+Chosen Option : D
+Q.11
+5
+Continuous and Comprehensive evaluation was initiated by:
+Ans
+A. NCTE
+B. CBSE
+C. NCERT
+D. SCERT
+Question Type : MCQ
+Question ID : 4335764080
+Option 1 ID : 43357616317
+Option 2 ID : 43357616318
+Option 3 ID : 43357616319
+Option 4 ID : 43357616320
+Status : Answered
+Chosen Option : C
+Q.11
+6
+Learning is generally considered as a permanent change in behavior' based on
+Ans
+A. Practice and experience.
+B. Practice and challenge.
+C. Challenge and experience.
+D. Challenge and reinforcement.
+Question Type : MCQ
+Question ID : 4335763388
+Option 1 ID : 43357613549
+Option 2 ID : 43357613550
+Option 3 ID : 43357613551
+Option 4 ID : 43357613552
+Status : Answered
+Chosen Option : A
+
+--- PAGE 43 ---
+Q.11
+7
+The characteristics of discussion method is
+Ans
+A. Ensure maximum participation
+B. Students have the opportunity to criticize and evaluate.
+C. Logical and meaningful criticism should be accepted
+D. All of them
+Question Type : MCQ
+Question ID : 4335763798
+Option 1 ID : 43357615189
+Option 2 ID : 43357615190
+Option 3 ID : 43357615191
+Option 4 ID : 43357615192
+Status : Answered
+Chosen Option : D
+Q.11
+8
+Which of the following teaching method is focused on the development of creative
+minds?
+Ans
+A. Project 
+B. Brain storming
+C. Observation 
+D. Demonstration
+Question Type : MCQ
+Question ID : 4335764309
+Option 1 ID : 43357617233
+Option 2 ID : 43357617234
+Option 3 ID : 43357617235
+Option 4 ID : 43357617236
+Status : Answered
+Chosen Option : B
+Q.11
+9
+Which type of lesson plan is concise and focused on specific concepts or skills?
+Ans
+A. Sequential lesson plans
+B. Weekly lesson plan
+C. Daily lesson plan
+D. Monthly lesson plan
+Question Type : MCQ
+Question ID : 4335763695
+Option 1 ID : 43357614777
+Option 2 ID : 43357614778
+Option 3 ID : 43357614779
+Option 4 ID : 43357614780
+Status : Answered
+Chosen Option : A
+
+--- PAGE 44 ---
+Q.12
+0
+The 5E learning cycle boosts student engagement and motivation through
+Ans
+A. Constructivist approach
+B. Humanistic approach
+C. Naturalistic approach
+D. Pragmatist approach
+Question Type : MCQ
+Question ID : 4335763719
+Option 1 ID : 43357614873
+Option 2 ID : 43357614874
+Option 3 ID : 43357614875
+Option 4 ID : 43357614876
+Status : Answered
+Chosen Option : B
+Q.12
+1
+The part of the curriculum designed to meet the needs of all students is:
+Ans
+A. General education
+B. Specialized education
+C. The extra-curriculum
+D. The program of studies
+Question Type : MCQ
+Question ID : 4335764231
+Option 1 ID : 43357616921
+Option 2 ID : 43357616922
+Option 3 ID : 43357616923
+Option 4 ID : 43357616924
+Status : Answered
+Chosen Option : A
+Q.12
+2
+To demonstrate success by focusing on the learner’s desired outcome, a reasonable
+list of_____________objectives should be provided.
+Ans
+A. Informational
+B. Mastery
+C. Challenging
+D. General
+Question Type : MCQ
+Question ID : 4335763509
+Option 1 ID : 43357614033
+Option 2 ID : 43357614034
+Option 3 ID : 43357614035
+Option 4 ID : 43357614036
+Status : Answered
+Chosen Option : A
+
+--- PAGE 45 ---
+Q.12
+3
+In comparing lecture and demonstration lessons, which one of the following is not
+true?
+Ans
+A. Slow children derive benefit from a lecture than brighter one
+B. There are more activities for the students in a demonstration lesson
+C. The lecture method is more conductive and useful for larger group
+D. It is difficult to ascertain students' learning in a lecture session
+Question Type : MCQ
+Question ID : 4335764001
+Option 1 ID : 43357616001
+Option 2 ID : 43357616002
+Option 3 ID : 43357616003
+Option 4 ID : 43357616004
+Status : Answered
+Chosen Option : B
+Q.12
+4
+Which one of the following is the duty of a class teacher?
+Ans
+A. Check the books, exercise books and bages of the students suddenly
+B. Check the lunch boxes of the students and advise them to take healthy food
+C. Check cleanliness of the class
+D. All of these
+Question Type : MCQ
+Question ID : 4335764048
+Option 1 ID : 43357616189
+Option 2 ID : 43357616190
+Option 3 ID : 43357616191
+Option 4 ID : 43357616192
+Status : Answered
+Chosen Option : D
+Q.12
+5
+The most expected immediate outcome of teaching is-
+Ans
+A. Changes in the behavior of students in a desirable direction.
+B. Development of the total personality of students.
+C. Building characters of the students.
+D. Getting selected for a suitable job.
+Question Type : MCQ
+Question ID : 4335763471
+Option 1 ID : 43357613881
+Option 2 ID : 43357613882
+Option 3 ID : 43357613883
+Option 4 ID : 43357613884
+Status : Answered
+Chosen Option : A
+
+--- PAGE 46 ---
+Q.12
+6
+To select subject matter, one should consider student’s:
+Ans
+A. I.Q
+B. Class
+C. Health
+D. Physical age
+Question Type : MCQ
+Question ID : 4335764233
+Option 1 ID : 43357616929
+Option 2 ID : 43357616930
+Option 3 ID : 43357616931
+Option 4 ID : 43357616932
+Status : Answered
+Chosen Option : A
+Q.12
+7
+Micro teaching was first adopted at Stanford University by
+Ans
+A. Stephen M Corey
+B. Dwight W Allen
+C. John Dewey
+D. Arthur Cunningham
+Question Type : MCQ
+Question ID : 4335763746
+Option 1 ID : 43357614981
+Option 2 ID : 43357614982
+Option 3 ID : 43357614983
+Option 4 ID : 43357614984
+Status : Answered
+Chosen Option : B
+Q.12
+8
+Introduce a problem that students might not be able to solve yet is an example of
+Ans
+A. Explore
+B. Engage
+C. Explain
+D. Elaborate
+Question Type : MCQ
+Question ID : 4335763721
+Option 1 ID : 43357614881
+Option 2 ID : 43357614882
+Option 3 ID : 43357614883
+Option 4 ID : 43357614884
+Status : Answered
+Chosen Option : A
+
+--- PAGE 47 ---
+Q.12
+9
+Full form of SIOP Model is
+Ans
+A. Sheltered Intervention Observation Protocol
+B. Sheltered Instruction Observation Protocol
+C. Sheltered Instruction Objection Protocol
+D. Sheltered Intervention Objection Protocol
+Question Type : MCQ
+Question ID : 4335763843
+Option 1 ID : 43357615369
+Option 2 ID : 43357615370
+Option 3 ID : 43357615371
+Option 4 ID : 43357615372
+Status : Answered
+Chosen Option : B
+Q.13
+0
+Which one of the following is the most suitable to improve children's learning?
+Ans
+A. Regular assessment test should be conducted.
+B. Teacher should explain the content using different examples and illustrations.
+C. All types of learning material should be there in the class.
+D. Teacher should facilitate children to interact with each other on real-life situations.
+Question Type : MCQ
+Question ID : 4335763935
+Option 1 ID : 43357615737
+Option 2 ID : 43357615738
+Option 3 ID : 43357615739
+Option 4 ID : 43357615740
+Status : Answered
+Chosen Option : B
+Q.13
+1
+Which one among the following is NOT a major oil field located in Gujarat?
+Ans
+A. Ankaleshwar
+B. Kosamba
+C. Mehsana
+D. Moran
+Question Type : MCQ
+Question ID : 4335764402
+Option 1 ID : 43357617605
+Option 2 ID : 43357617606
+Option 3 ID : 43357617607
+Option 4 ID : 43357617608
+Status : Answered
+Chosen Option : C
+Section : Part III
+
+--- PAGE 48 ---
+Q.13
+2
+Who among the following is the author of the book 'The Indian Struggle 1920 - 1942' ?
+Ans
+A. Vinayak Damodar Savarkar
+B. Subhas Chandra Bose
+C. Vallabhbhai Patel
+D. Sarat Chandra Bose
+Question Type : MCQ
+Question ID : 4335764447
+Option 1 ID : 43357617785
+Option 2 ID : 43357617786
+Option 3 ID : 43357617787
+Option 4 ID : 43357617788
+Status : Answered
+Chosen Option : B
+Q.13
+3
+7 is to 34 as 5 is to ?
+Ans
+A. 33
+B. 24
+C. 54
+D. 41
+Question Type : MCQ
+Question ID : 4335764951
+Option 1 ID : 43357619801
+Option 2 ID : 43357619802
+Option 3 ID : 43357619803
+Option 4 ID : 43357619804
+Status : Answered
+Chosen Option : B
+Q.13
+4
+Chronologically arrange the following political events related to Indian National
+Movement beginning from the earliest :
+1. Formation of Swaraj Party
+2. Communal Award
+3. Lucknow Pact
+4. Simla Conference
+Select the correct answer from the given options:
+Ans
+A. 3, 1, 2, 4
+B. 1, 3, 2, 4
+C. 2, 1, 4, 3
+D. 1, 2, 3, 4
+Question Type : MCQ
+Question ID : 4335764343
+Option 1 ID : 43357617369
+Option 2 ID : 43357617370
+Option 3 ID : 43357617371
+Option 4 ID : 43357617372
+Status : Answered
+Chosen Option : A
+
+--- PAGE 49 ---
+Q.13
+5
+As per the Cabinet Resolution of 1st January 2015, the NITI Aayog consists of :
+1. Prime Minister of India
+2. Governing Council comprising of Chief Minister of all the States and Leiutenant
+Governors of Union Territories
+3. Rural Development Minister
+4. Chief Executive Officer to be appointed by the Prime Minister
+Select the correct answer from the given options :
+Ans
+A. 1, 2 and 3
+B. 1, 2 and 4
+C. 1 and 2 only
+D. 3 and 4 only
+Question Type : MCQ
+Question ID : 4335764474
+Option 1 ID : 43357617893
+Option 2 ID : 43357617894
+Option 3 ID : 43357617895
+Option 4 ID : 43357617896
+Status : Answered
+Chosen Option : B
+Q.13
+6
+Which nutrient protects us from diseases?
+Ans
+A. Vitamin and minerals
+B. Fats and carbohydrates
+C. Protein
+D. All of these
+Question Type : MCQ
+Question ID : 4335764553
+Option 1 ID : 43357618209
+Option 2 ID : 43357618210
+Option 3 ID : 43357618211
+Option 4 ID : 43357618212
+Status : Answered
+Chosen Option : A
+Q.13
+7
+In the given letter series what letter will come in place of the question Symbol.
+DIL, GLO, JOR, ?
+Ans
+A. MRV
+B. MRQ
+C. MRU
+D. NRO
+Question Type : MCQ
+Question ID : 4335764868
+Option 1 ID : 43357619469
+Option 2 ID : 43357619470
+Option 3 ID : 43357619471
+Option 4 ID : 43357619472
+Status : Answered
+Chosen Option : C
+
+--- PAGE 50 ---
+Q.13
+8
+B is the Aunt of C. A is the Husband of B. B is the sister of D. Tell how A is related to D?
+Ans
+A. Uncle
+B. Brother-in-Law
+C. Niece
+D. Son
+Question Type : MCQ
+Question ID : 4335764903
+Option 1 ID : 43357619609
+Option 2 ID : 43357619610
+Option 3 ID : 43357619611
+Option 4 ID : 43357619612
+Status : Answered
+Chosen Option : B
+Q.13
+9
+The joint between separate faces of a solid is called an…...............
+Ans
+A. edge
+B. face
+C. vertex
+D. None of these
+Question Type : MCQ
+Question ID : 4335764681
+Option 1 ID : 43357618721
+Option 2 ID : 43357618722
+Option 3 ID : 43357618723
+Option 4 ID : 43357618724
+Status : Answered
+Chosen Option : A
+Q.14
+0
+Which is the longest National Highway in India?
+Ans
+A. NH 5
+B. NH44
+C. NH10
+D. NH 15
+Question Type : MCQ
+Question ID : 4335764603
+Option 1 ID : 43357618409
+Option 2 ID : 43357618410
+Option 3 ID : 43357618411
+Option 4 ID : 43357618412
+Status : Answered
+Chosen Option : B
+
+--- PAGE 51 ---
+Q.14
+1
+Aaron weight 49 kg 357 g and Ron weights 32 kg 458 g. Who weighs less and by how
+much?
+Ans
+A. Ron weighs less by 16 kg 899 g
+B. Aaron weighs less by 16 kg 899 g
+C. Ron weighs more by 16 kg 899 g
+D. Aaron weighs more by 16 kg 899 g
+Question Type : MCQ
+Question ID : 4335764723
+Option 1 ID : 43357618889
+Option 2 ID : 43357618890
+Option 3 ID : 43357618891
+Option 4 ID : 43357618892
+Status : Answered
+Chosen Option : A
+Q.14
+2
+If we combine two consecutive triangular numbers, we get?
+Ans
+A. Rational Number
+B. Whole Number
+C. Perfect Square
+D. Prime Number
+Question Type : MCQ
+Question ID : 4335764751
+Option 1 ID : 43357619001
+Option 2 ID : 43357619002
+Option 3 ID : 43357619003
+Option 4 ID : 43357619004
+Status : Answered
+Chosen Option : C
+Q.14
+3
+Which of the following is a waterborne disease?
+Ans
+A. Measles
+B. malaria
+C. Lung disease
+D. Hepatitis
+Question Type : MCQ
+Question ID : 4335764649
+Option 1 ID : 43357618593
+Option 2 ID : 43357618594
+Option 3 ID : 43357618595
+Option 4 ID : 43357618596
+Status : Answered
+Chosen Option : B
+
+--- PAGE 52 ---
+Q.14
+4
+“Family is a unit consisting of a mother, father and their two children”. This statement
+is
+Ans
+A. incorrect, because the statement should specify that the children are biological
+B. incorrect, because there are many kinds of families and one cannot classify family as
+being of only one kind
+C. correct, since this is an ideal family size
+D. correct, because this is what all Indian families are like
+Question Type : MCQ
+Question ID : 4335764503
+Option 1 ID : 43357618009
+Option 2 ID : 43357618010
+Option 3 ID : 43357618011
+Option 4 ID : 43357618012
+Status : Answered
+Chosen Option : B
+Q.14
+5
+If the median of the data 30,8,7,3,17,15,21,24,29,23 is x and the median of the data
+obtained by replacing 3 by 33 and 8 by 18 in the above data is y, then what is the
+difference between y and x ?
+Ans
+A. 2
+B. 3
+C. 4
+D. 1
+Question Type : MCQ
+Question ID : 4335764770
+Option 1 ID : 43357619077
+Option 2 ID : 43357619078
+Option 3 ID : 43357619079
+Option 4 ID : 43357619080
+Status : Answered
+Chosen Option : B
+Q.14
+6
+Choose the correct option instead of the question mark in the given question.
+456 : 15 :: 627 : ?
+Ans
+A. 12
+B. 15
+C. 18
+D. 21
+Question Type : MCQ
+Question ID : 4335764838
+Option 1 ID : 43357619349
+Option 2 ID : 43357619350
+Option 3 ID : 43357619351
+Option 4 ID : 43357619352
+Status : Answered
+Chosen Option : B
+
+--- PAGE 53 ---
+Q.14
+7
+In English alphabet which Letter is in between the Letter s and the Letter G ?
+Ans
+A. N
+B. M
+C. L
+D. P
+Question Type : MCQ
+Question ID : 4335764921
+Option 1 ID : 43357619681
+Option 2 ID : 43357619682
+Option 3 ID : 43357619683
+Option 4 ID : 43357619684
+Status : Answered
+Chosen Option : B
+Q.14
+8
+Which of the following are macronutrients commonly found in soil?
+Ans
+A. Carbon, Hydrogen, Oxygen
+B. Nitrogen, Phosphorus, Potassium
+C. Iron, Manganese, Zinc
+D. Boron, Copper, Molybdenum
+Question Type : MCQ
+Question ID : 4335764576
+Option 1 ID : 43357618301
+Option 2 ID : 43357618302
+Option 3 ID : 43357618303
+Option 4 ID : 43357618304
+Status : Answered
+Chosen Option : B
+Q.14
+9
+ABCD is a rhombus in which ∠ADB = 25 Degree. Then, the value of ( 2∠BAD - ∠ABC ) is
+:
+Ans
+A. 230 Degree
+B. 240 Degree
+C. 210 Degree
+D. 260 Degree
+Question Type : MCQ
+Question ID : 4335764790
+Option 1 ID : 43357619157
+Option 2 ID : 43357619158
+Option 3 ID : 43357619159
+Option 4 ID : 43357619160
+Status : Answered
+Chosen Option : C
+
+--- PAGE 54 ---
+
+--- PAGE 55 ---
+
+--- PAGE 56 ---
+"
+Q.15
+0
+Globalization signifies which of the following :
+Ans
+A. Time-space compression
+B. The integration of the world economy
+C. The growth of supra- territorial relations between people
+D. All the above
+Question Type : MCQ
+Question ID : 4335764433
+Option 1 ID : 43357617729
+Option 2 ID : 43357617730
+Option 3 ID : 43357617731
+Option 4 ID : 43357617732
+Status : Answered
+Chosen Option : D

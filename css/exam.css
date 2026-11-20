@@ -1,0 +1,459 @@
+/**
+ * TCS iON CBT Exam Screen Styles - Bihar STET CBT Portal
+ * Strict authentic exam layout, split pane, high-visibility timer,
+ * 5-state TCS iON palette, mobile drawer, and keyboard navigation.
+ */
+
+/* 1. Exam Viewport Lock */
+#exam-view {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-app);
+  z-index: var(--z-modal);
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#exam-view.active {
+  display: flex;
+}
+
+/* 2. Sticky Exam Top Bar */
+.exam-top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  background-color: #1e293b;
+  color: #ffffff;
+  border-bottom: 1px solid #334155;
+  height: 52px;
+  flex-shrink: 0;
+}
+
+.exam-brand-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #f8fafc;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.exam-timer-box {
+  background-color: #0f172a;
+  border: 1px solid #475569;
+  border-radius: var(--radius-sm);
+  padding: 4px 12px;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 700;
+  color: #38bdf8;
+}
+
+.exam-timer-box.timer-urgent {
+  background-color: #7f1d1d;
+  color: #fecaca;
+  border-color: #dc2626;
+  animation: pulse-urgent 1s infinite alternate;
+}
+
+@keyframes pulse-urgent {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.04); }
+}
+
+.exam-top-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+/* 3. Section Switcher Bar */
+.sections-bar {
+  display: flex;
+  background-color: var(--bg-surface-elevated);
+  border-bottom: 1px solid var(--border-subtle);
+  overflow-x: auto;
+  flex-shrink: 0;
+}
+
+.section-tab {
+  background: none;
+  border: none;
+  padding: 10px 18px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  white-space: nowrap;
+  transition: all var(--dur-fast) ease;
+}
+
+.section-tab:hover {
+  color: var(--text-primary);
+  background-color: var(--bg-inset);
+}
+
+.section-tab.active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+  background-color: var(--bg-surface);
+  font-weight: 700;
+}
+
+/* 4. Split Work Area */
+.exam-main {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.question-pane {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: var(--space-6);
+  background-color: var(--bg-surface);
+}
+
+.q-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: var(--space-3);
+  margin-bottom: var(--space-4);
+  border-bottom: 1px solid var(--border-subtle);
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.q-info-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.q-number-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.q-topic-tag {
+  background-color: var(--bg-inset);
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+}
+
+.q-marks-pill {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--success);
+}
+
+/* Question Statement & Code */
+.q-statement {
+  font-size: var(--font-size-q);
+  color: var(--text-primary);
+  line-height: 1.6;
+  margin-bottom: var(--space-6);
+  font-weight: 500;
+}
+
+.q-code-snippet {
+  margin: var(--space-3) 0;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  background: var(--bg-inset);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-strong);
+  overflow-x: auto;
+}
+
+/* Options Container */
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
+}
+
+.option-btn {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  background-color: var(--bg-surface);
+  border: 1.5px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  font-size: var(--font-size-opt);
+  color: var(--text-primary);
+  transition: all var(--dur-fast) ease;
+  min-height: 48px;
+}
+
+.option-btn:hover {
+  background-color: var(--bg-inset);
+  border-color: var(--primary);
+}
+
+.option-btn.selected {
+  background-color: var(--primary-light);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 1px var(--primary);
+}
+
+.option-key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-full);
+  background-color: var(--bg-inset);
+  border: 1px solid var(--border-strong);
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+
+.option-btn.selected .option-key {
+  background-color: var(--primary);
+  color: #ffffff;
+  border-color: var(--primary);
+}
+
+.option-text {
+  flex: 1;
+  line-height: 1.45;
+  padding-top: 3px;
+}
+
+/* Practice Mode Explanation Box */
+.practice-box {
+  background-color: var(--bg-inset);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  margin-top: var(--space-4);
+  display: none;
+}
+
+.practice-box.active {
+  display: block;
+}
+
+/* 5. Sticky Bottom Action Controls */
+.exam-footer-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background-color: var(--bg-surface-elevated);
+  border-top: 1px solid var(--border-subtle);
+  flex-shrink: 0;
+  gap: var(--space-2);
+}
+
+.exam-btn-group {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+/* 6. Candidate & Palette Sidebar */
+.palette-pane {
+  width: 320px;
+  background-color: var(--bg-surface);
+  border-left: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  overflow-y: auto;
+}
+
+.candidate-card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border-bottom: 1px solid var(--border-subtle);
+  background-color: var(--bg-inset);
+}
+
+.candidate-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-full);
+  background-color: #e2e8f0;
+  border: 2px solid var(--primary);
+  object-fit: cover;
+}
+
+.candidate-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.candidate-role {
+  font-size: 12px;
+  color: var(--text-tertiary);
+}
+
+/* TCS iON 5-State Legend */
+.legend-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-2);
+  padding: var(--space-3);
+  border-bottom: 1px solid var(--border-subtle);
+  font-size: 12px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* TCS iON Palette Grid & 5 Authentic Statuses */
+.palette-grid-wrapper {
+  padding: var(--space-3);
+  flex: 1;
+  overflow-y: auto;
+}
+
+.palette-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.palette-btn {
+  width: 100%;
+  min-height: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: transform var(--dur-fast) ease;
+  user-select: none;
+}
+
+.palette-btn:hover {
+  transform: scale(1.06);
+}
+
+.palette-btn.current-active {
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px var(--primary);
+  font-weight: 900;
+}
+
+/* Authentic TCS iON Colors */
+.status-answered {
+  background-color: var(--cbt-answered) !important;
+  color: #ffffff !important;
+}
+
+.status-not-answered {
+  background-color: var(--cbt-not-answered) !important;
+  color: #ffffff !important;
+}
+
+.status-not-visited {
+  background-color: var(--cbt-not-visited) !important;
+  color: #ffffff !important;
+}
+
+.status-marked {
+  background-color: var(--cbt-marked) !important;
+  color: #ffffff !important;
+  border-radius: var(--radius-full) !important;
+}
+
+.status-ans-marked {
+  background-color: var(--cbt-ans-marked) !important;
+  color: #ffffff !important;
+  position: relative;
+  border-radius: var(--radius-full) !important;
+}
+
+.status-ans-marked::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 8px;
+  height: 8px;
+  background-color: #22c55e;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+}
+
+/* 7. Mobile Palette Drawer */
+.mobile-palette-toggle {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .palette-pane {
+    position: fixed;
+    right: 0;
+    top: 52px;
+    bottom: 54px;
+    width: 280px;
+    z-index: var(--z-drawer);
+    transform: translateX(100%);
+    transition: transform var(--dur-normal) var(--ease-standard);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .palette-pane.open {
+    transform: translateX(0);
+  }
+
+  .mobile-palette-toggle {
+    display: flex;
+  }
+}

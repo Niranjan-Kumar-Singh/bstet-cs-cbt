@@ -14,35 +14,12 @@ vm.runInContext(catalogCode, context);
 const catalog = context.window.PAPERS_CATALOG;
 console.log(`Loaded catalog with ${catalog.length} papers.`);
 
-// Load all data files
-const dataFiles = [
-  'official-shift1.js',
-  'official-shift2.js',
-  'official-shift3.js',
-  'official-shift4.js',
-  'official-2023.js',
-  'sachin-art-of-teaching.js',
-  'predicted-set1.js',
-  'predicted-set2.js',
-  'predicted-set3.js',
-  'predicted-set4.js',
-  'predicted-set5.js',
-  'predicted-set6.js',
-  'predicted-set7.js',
-  'predicted-set8.js',
-  'predicted-set9.js',
-  'predicted-set10.js',
-  'predicted-set11.js',
-  'predicted-set12.js',
-  'predicted-set13.js',
-  'predicted-set14.js',
-  'topical-drills.js',
-  'specialized-drills.js',
-  'specialist-mastery-drills.js'
-];
+// Load all data files dynamically
+const dataDir = path.join(__dirname, '../js/data');
+const dataFiles = fs.readdirAll ? fs.readdirAll(dataDir) : fs.readdirSync(dataDir).filter(f => f.endsWith('.js') && f !== 'papers-index.js');
 
 for (const file of dataFiles) {
-  const filePath = path.join(__dirname, '../js/data', file);
+  const filePath = path.join(dataDir, file);
   if (fs.existsSync(filePath)) {
     const code = fs.readFileSync(filePath, 'utf-8');
     try {
@@ -50,8 +27,6 @@ for (const file of dataFiles) {
     } catch (e) {
       console.error(`Error loading ${file}:`, e.message);
     }
-  } else {
-    console.warn(`File not found: ${file}`);
   }
 }
 
@@ -202,11 +177,13 @@ for (const [pId, info] of Object.entries(paperDupMap)) {
   console.log(`${pId.padEnd(28)} [${info.category.padEnd(15)}]: ${String(info.dupsWithOtherPapers).padStart(3)} / ${String(info.totalQ).padStart(3)} repeated (${pct}%)`);
 }
 
-// Write full report to JSON file for processing
-fs.writeFileSync(path.join(__dirname, 'duplicate_audit_report.json'), JSON.stringify({
+// Write full report to JSON file in reports/ directory
+const reportsDir = path.join(__dirname, '../reports');
+if (!fs.existsSync(reportsDir)) fs.mkdirSync(reportsDir, { recursive: true });
+fs.writeFileSync(path.join(reportsDir, 'duplicate_audit_report.json'), JSON.stringify({
   totalQuestions: totalQ,
   crossDupCount: crossDupCount,
   dupGroups: dupGroups,
   paperDupMap: paperDupMap
 }, null, 2));
-console.log('\nWrote full audit to scripts/duplicate_audit_report.json');
+console.log('\nWrote full audit to reports/duplicate_audit_report.json');

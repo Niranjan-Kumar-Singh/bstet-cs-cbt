@@ -1,0 +1,23 @@
+{
+  "name": "bihar-stet-cs-cbt",
+  "version": "2.5.0",
+  "description": "Bihar STET Paper II (Computer Science) & BPSC TRE PGT CBT Portal",
+  "private": true,
+  "scripts": {
+    "serve": "npx serve . -l 3000",
+    "audit": "node scripts/audit_duplicates.js",
+    "test": "python scripts/pro_test_suite.py",
+    "build:stamp": "node scripts/tools/stamp_build.js",
+    "format:check": "npx prettier --check \"**/*.{html,css,js,json}\""
+  },
+  "keywords": [
+    "bihar-stet",
+    "stet-paper-2",
+    "computer-science",
+    "bpsc-tre",
+    "pgt-computer-science",
+    "cbt-simulator"
+  ],
+  "author": "Niranjan Kumar Singh",
+  "license": "MIT"
+}

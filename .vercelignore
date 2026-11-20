@@ -1,0 +1,28 @@
+# Vercel Deployment Ignore Rules
+# Only deploy runtime web assets: HTML, CSS, JS, images, fonts, sitemap, robots, manifest, ads.txt
+
+# Source reference documents & raw PDFs (~100 MB)
+sources/
+incoming/
+reports/
+docs/
+.gsd/
+.agent/
+.agents/
+.gemini/
+
+# Development & extraction scripts
+scripts/
+
+# Local build & cache artifacts
+*.py
+*.pyc
+__pycache__/
+*.tmp
+*.log
+.git/
+.gitignore
+
+# OS files
+.DS_Store
+Thumbs.db

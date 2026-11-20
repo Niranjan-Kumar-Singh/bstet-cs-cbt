@@ -1,0 +1,2485 @@
+
+--- PAGE 1 ---
+QUESTION PAPER
+Uchcha Madhyamic Computer Science [SHIFT - 1]
+Exam Date : 12/09/2023
+Time : 10:00 AM - 12:30 PM
+Subject Question
+Question 1
+Question Id : 1
+What is the simplified expression for the Boolean function F(A, B, C, D) = Σ(0, 1, 2, 4, 5, 6, 8, 9, 10, 12, 13, 14) using the K-map method?
+Answer :
+Option Id
+(A) A'B'C'D' + A'B'C'D + A'BC'D + AB'C'D + ABCD
+1001
+(B) A'B'C'D' + A'BC'D + AB'C'D + ABC'D + ABCD
+1002
+(C) A'B'C'D' + A'BC'D + ABC'D + ABCD
+1003
+(D) A'B'C'D' + A'BC'D' + A'BCD + ABCD
+1004
+Right Answer :
+A'B'C'D' + A'B'C'D + A'BC'D + AB'C'D + ABCD
+Right Option Id : 1001
+Question 2
+Question Id : 55
+In a PLA, what components are used to implement the combinational logic functions?
+Answer :
+Option Id
+(A) AND gates and OR gates
+55001
+(B) NAND gates and XOR gates
+55002
+(C) NOR gates and XNOR gates
+55003
+(D) NOT gates and multiplexers
+55004
+Right Answer :
+AND gates and OR gates
+Right Option Id : 55001
+Question 3
+Question Id : 54
+Which type of register is primarily used to temporarily hold data during arithmetic and logical operations in a microprocessor?
+Answer :
+Option Id
+(A) Shift register
+54001
+(B) Parallel register
+54002
+(C) Accumulator register
+54003
+(D) Counter register
+54004
+Right Answer :
+Accumulator register
+Right Option Id : 54003
+Question 4
+Question Id : 53
+Which logic family uses both depletion and enhancement mode MOSFETs for its operation?
+Answer :
+Option Id
+(A) TTL
+53001
+(B) ECL
+53002
+(C) PMOS
+53003
+(D) CMOS
+53004
+Right Answer :
+CMOS
+Right Option Id : 53004
+Subject Name : Computer Science
+Subject Code : 226
+
+--- PAGE 2 ---
+Question 5
+Question Id : 52
+What is the primary difference between ROM and RAM?
+Answer :
+Option Id
+(A) ROM is faster than RAM
+52001
+(B) ROM is volatile, while RAM is non-volatile
+52002
+(C) ROM is used for data storage, while RAM is used for program execution
+52003
+(D) ROM stores permanent data that cannot be changed, while RAM stores temporary data that can be read and written
+52004
+Right Answer :
+ROM stores permanent data that cannot be changed, while RAM stores
+temporary data that can be read and written
+Right Option Id : 52004
+Question 6
+Question Id : 51
+Given a Boolean function F(A, B, C) = Σ(0, 1, 2, 3, 5), what is the expression in SOP form?
+Answer :
+Option Id
+(A) A'B' + AB' + AB + AC
+51001
+(B) A + B + C
+51002
+(C) AB' + C'
+51003
+(D) A'B'C'
+51004
+Right Answer :
+A'B' + AB' + AB + AC
+Right Option Id : 51001
+Question 7
+Question Id : 50
+If the sum of two positive binary numbers is 11010 and there is a carry-out from the MSB, what should be done to obtain the correct result?
+Answer :
+Option Id
+(A) Discard the carry
+50001
+(B) Add the carry to the least significant bit (LSB)
+50002
+(C) Add the carry to the most significant bit (MSB)
+50003
+(D) Subtract the carry from the MSB
+50004
+Right Answer :
+Add the carry to the least significant bit (LSB)
+Right Option Id : 50002
+Question 8
+Question Id : 49
+In binary multiplication using the simple method, what is the first step after aligning the digits and preparing for multiplication?
+Answer :
+Option Id
+(A) Multiply the least significant bit (LSB) by the multiplier
+49001
+(B) Multiply the most significant bit (MSB) by the multiplier
+49002
+(C) Multiply the least significant bit (LSB) by the multiplicand
+49003
+(D) Multiply the most significant bit (MSB) by the multiplicand
+49004
+Right Answer :
+Multiply the least significant bit (LSB) by the multiplier
+Right Option Id : 49001
+Question 9
+Question Id : 48
+What is the relationship between the distance between parity bits and their error detection and correction capability in Hamming Code?
+
+--- PAGE 3 ---
+Answer :
+Option Id
+(A) Closer parity bits provide higher error correction capability
+48001
+(B) Closer parity bits provide lower error correction capability
+48002
+(C) Distance between parity bits has no impact on error correction capability
+48003
+(D) The position of parity bits is irrelevant in Hamming Code
+48004
+Right Answer :
+Closer parity bits provide lower error correction capability
+Right Option Id : 48002
+Question 10
+Question Id : 47
+To convert a Gray Code to its binary equivalent, which technique is commonly used?
+Answer :
+Option Id
+(A) Subtraction method
+47001
+(B) Addition method
+47002
+(C) Exclusive OR (XOR) operation
+47003
+(D) Division method
+47004
+Right Answer :
+Exclusive OR (XOR) operation
+Right Option Id : 47003
+Question 11
+Question Id : 46
+Which component of an ideal microcomputer is responsible for temporarily holding data and instructions during processing?
+Answer :
+Option Id
+(A) CPU
+46001
+(B) ALU
+46002
+(C) Memory
+46003
+(D) Output devices
+46004
+Right Answer :
+Memory
+Right Option Id : 46003
+Question 12
+Question Id : 45
+How is the width of the data bus typically measured in a microcomputer system?
+Answer :
+Option Id
+(A) In kilobytes (KB)
+45001
+(B) In megahertz (MHz)
+45002
+(C) In bits
+45003
+(D) In address lines
+45004
+Right Answer :
+In bits
+Right Option Id : 45003
+Question 13
+Question Id : 44
+Microcontrollers find application in various fields. What is a typical application of microcontrollers in the automotive industry?
+Answer :
+Option Id
+(A) Operating systems for computers
+44001
+(B) Entertainment systems in airplanes
+44002
+(C) Engine control in cars
+
+--- PAGE 4 ---
+44003
+(D) Weather forecasting systems
+44004
+Right Answer :
+Engine control in cars
+Right Option Id : 44003
+Question 14
+Question Id : 43
+Which data structure often results in a time-space tradeoff by using extra memory to speed up operations?
+Answer :
+Option Id
+(A) Arrays
+43001
+(B) Linked lists
+43002
+(C) Hash tables
+43003
+(D) Stacks
+43004
+Right Answer :
+Hash tables
+Right Option Id : 43003
+Question 15
+Question Id : 42
+Which term refers to the strategy of optimizing an algorithm's use of resources, often by making sacrifices in one aspect for improvements in another?
+Answer :
+Option Id
+(A) Greedy algorithm
+42001
+(B) Divide and conquer
+42002
+(C) Dynamic programming
+42003
+(D) Tradeoff
+42004
+Right Answer :
+Tradeoff
+Right Option Id : 42004
+Question 16
+Question Id : 41
+Conditional asymptotic notation allows for a more nuanced analysis of algorithm behavior under specific conditions. This is particularly useful when:
+Answer :
+Option Id
+(A) Analyzing algorithms with constant time complexity
+41001
+(B) The input size is fixed
+41002
+(C) The input data is random
+41003
+(D) Algorithm behavior varies based on certain input characteristics
+41004
+Right Answer :
+Algorithm behavior varies based on certain input characteristics
+Right Option Id : 41004
+Question 17
+Question Id : 56
+.If an algorithm's behavior is bounded by "o(f(n)) if g(n)", what notation does it become when the condition is removed?
+Answer :
+Option Id
+(A) o(f(n))
+56001
+(B) o(g(n))
+56002
+(C) o(f(n) + g(n))
+56003
+(D) o(f(n) * g(n))
+56004
+Right Answer :
+o(f(n))
+Right Option Id : 56001
+
+--- PAGE 5 ---
+Question 18
+Question Id : 57
+The recurrence equation T(n) = T(n/2) + 1 represents the time complexity of which algorithmic paradigm?
+Answer :
+Option Id
+(A) Divide and Conquer
+57001
+(B) Greedy Algorithms
+57002
+(C) Dynamic Programming
+57003
+(D) Brute Force
+57004
+Right Answer :
+Divide and Conquer
+Right Option Id : 57001
+Question 19
+Question Id : 58
+Divide and Conquer is an algorithmic paradigm that solves problems by:
+Answer :
+Option Id
+(A) Iteratively solving subproblems
+58001
+(B) Recursively solving subproblems
+58002
+(C) Using heuristics to find solutions
+58003
+(D) Greedily combining solutions
+58004
+Right Answer :
+Recursively solving subproblems
+Right Option Id : 58002
+Question 20
+Question Id : 67
+A threaded binary tree is a binary tree in which:
+Answer :
+Option Id
+(A) Each node has two children
+67001
+(B) Each node has at most one child
+67002
+(C) Each node is connected to its parent
+67003
+(D) Each node has a thread connecting it to its predecessor or successor
+67004
+Right Answer :
+Each node has a thread connecting it to its predecessor or successor
+Right Option Id : 67004
+Question 21
+Question Id : 73
+Which traversal algorithm is typically implemented using a stack data structure?
+Answer :
+Option Id
+(A) DFS
+73001
+(B) BFS
+73002
+(C) Both DFS and BFS
+73003
+(D) Neither DFS nor BFS
+73004
+Right Answer :
+DFS
+Right Option Id : 73001
+Question 22
+Question Id : 72
+In a directed graph, an edge that points from vertex A to vertex B is denoted as:
+Answer :
+Option Id
+
+--- PAGE 6 ---
+(A) (A, B)
+72001
+(B) [A, B]
+72002
+(C) <A, B>
+72003
+(D) {A, B}
+72004
+Right Answer :
+(A, B)
+Right Option Id : 72001
+Question 23
+Question Id : 71
+Separate chaining involves storing collided elements in separate data structures, typically in:
+Answer :
+Option Id
+(A) Linked lists
+71001
+(B) Arrays
+71002
+(C) Stacks
+71003
+(D) Queues
+71004
+Right Answer :
+Linked lists
+Right Option Id : 71001
+Question 24
+Question Id : 70
+Which collision resolution technique involves placing collided elements in the next available empty slot in the hash table?
+Answer :
+Option Id
+(A) Linear probing
+70001
+(B) Quadratic probing
+70002
+(C) Separate chaining
+70003
+(D) Double hashing
+70004
+Right Answer :
+Linear probing
+Right Option Id : 70001
+Question 25
+Question Id : 69
+In the Tower of Hanoi problem with "n" disks, how many moves are required to solve the problem?
+Answer :
+Option Id
+(A) n
+69001
+(B) 2n
+69002
+(C) 2^n - 1
+69003
+(D) 2^n
+69004
+Right Answer :
+2^n - 1
+Right Option Id : 69003
+Question 26
+Question Id : 68
+The process of removing recursion involves replacing recursive function calls with:
+Answer :
+Option Id
+(A) More recursive function calls
+68001
+(B) Loops
+68002
+(C) Additional memory allocation
+68003
+
+--- PAGE 7 ---
+(D) Non-recursive function calls
+68004
+Right Answer :
+Loops
+Right Option Id : 68002
+Question 27
+Question Id : 66
+A formal model of protection in an operating system provides:
+Answer :
+Option Id
+(A) A mathematical framework for analyzing resource allocation
+66001
+(B) Guidelines for designing user interfaces
+66002
+(C) Methods for optimizing memory management
+66003
+(D) Techniques for improving CPU utilization
+66004
+Right Answer :
+A mathematical framework for analyzing resource allocation
+Right Option Id : 66001
+Question 28
+Question Id : 59
+In an operating system, a "buffer cache" is used to:
+Answer :
+Option Id
+(A) Store files in memory
+59001
+(B) Store copies of frequently used files in memory
+59002
+(C) Store the operating system kernel
+59003
+(D) Store input/output devices
+59004
+Right Answer :
+Store copies of frequently used files in memory
+Right Option Id : 59002
+Question 29
+Question Id : 65
+File manipulation operations in an operating system include:
+Answer :
+Option Id
+(A) Allocating memory to files
+65001
+(B) Assigning file names to processes
+65002
+(C) Loading files into CPU registers
+65003
+(D) Reading, writing, and modifying file content
+65004
+Right Answer :
+Reading, writing, and modifying file content
+Right Option Id : 65004
+Question 30
+Question Id : 64
+The I/O subsystem in an operating system is responsible for:
+Answer :
+Option Id
+(A) Allocating memory for processes
+64001
+(B) Managing the file system
+64002
+(C) Managing input/output operations between processes and input/output devices
+64003
+(D) Allocating CPU time to processes
+64004
+Right Answer :
+Managing input/output operations between processes and input/output
+devices
+Right Option Id : 64003
+
+--- PAGE 8 ---
+Question 31
+Question Id : 63
+The primary goal of load control is to:
+Answer :
+Option Id
+(A) Prevent processes from running concurrently
+63001
+(B) Avoid context switching between processes
+63002
+(C) Ensure that CPU time is evenly distributed among processes
+63003
+(D) Maximize the usage of virtual memory
+63004
+Right Answer :
+Ensure that CPU time is evenly distributed among processes
+Right Option Id : 63003
+Question 32
+Question Id : 62
+The purpose of a page table in a paging system is to:
+Answer :
+Option Id
+(A) Store pages of memory
+62001
+(B) Manage input/output operations
+62002
+(C) Translate virtual addresses to physical addresses
+62003
+(D) Store program instructions
+62004
+Right Answer :
+Translate virtual addresses to physical addresses
+Right Option Id : 62003
+Question 33
+Question Id : 61
+In multiprogramming with fixed partitions, if a process requires more memory than is available in a partition, it may lead to:
+Answer :
+Option Id
+(A) Fragmentation
+61001
+(B) Deadlock
+61002
+(C) Priority inversion
+61003
+(D) Starvation
+61004
+Right Answer :
+Fragmentation
+Right Option Id : 61001
+Question 34
+Question Id : 60
+What is DBMS?
+Answer :
+Option Id
+(A) DBMS is a collection of queries
+60001
+(B) ) DBMS is a high-level language
+60002
+(C) DBMS is a programming language
+60003
+(D) DBMS stores, modifies and retrieves data
+60004
+Right Answer :
+DBMS stores, modifies and retrieves data
+Right Option Id : 60004
+Question 35
+Question Id : 40
+Which of the following is correct according to the technology deployed by DBMS?
+
+--- PAGE 9 ---
+Answer :
+Option Id
+(A) Pointers are used to maintain transactional integrity and consistency
+40001
+(B) Cursors are used to maintain transactional integrity and consistency
+40002
+(C) Locks are used to maintain transactional integrity and consistency
+40003
+(D) Triggers are used to maintain transactional integrity and consistency
+40004
+Right Answer :
+Locks are used to maintain transactional integrity and consistency
+Right Option Id : 40003
+Question 36
+Question Id : 39
+The term "NTFS" refers to which one of the following?
+Answer :
+Option Id
+(A) New Technology File System
+39001
+(B) New Tree File System
+39002
+(C)   New Table type File System
+39003
+(D) Both A and C
+39004
+Right Answer :
+New Technology File System
+Right Option Id : 39001
+Question 37
+Question Id : 38
+Which of the following is a top-down approach in which the entity's higher level can be divided into two lower sub-entities?
+Answer :
+Option Id
+(A) Aggregation
+38001
+(B) Generalization
+38002
+(C) Specialization
+38003
+(D) All of the above
+38004
+Right Answer :
+Specialization
+Right Option Id : 38003
+Question 38
+Question Id : 37
+The term "DFD" stands for?
+Answer :
+Option Id
+(A) Data file diagram
+37001
+(B) Data flow document
+37002
+(C) Data flow diagram
+37003
+(D) None of the above
+37004
+Right Answer :
+Data flow diagram
+Right Option Id : 37003
+Question 39
+Question Id : 17
+The term "FAT" is stands for_____
+Answer :
+Option Id
+(A) File Allocation Tree
+17001
+(B) File Allocation Table
+17002
+(C) File Allocation Graph
+17003
+
+--- PAGE 10 ---
+(D) All of the above
+17004
+Right Answer :
+File Allocation Table
+Right Option Id : 17002
+Question 40
+Question Id : 16
+The term "Data" refers to:
+Answer :
+Option Id
+(A) The electronic representation of the information(or data)
+16001
+(B) Basic information
+16002
+(C) Row Facts and figures
+16003
+(D) Both A and C
+16004
+Right Answer :
+Row Facts and figures
+Right Option Id : 16003
+Question 41
+Question Id : 15
+What is the primary function of routing in the network layer?
+Answer :
+Option Id
+(A)   Data framing
+15001
+(B) Error correction
+15002
+(C)    Finding the best path for data
+15003
+(D)     Flow control
+15004
+Right Answer :
+   Finding the best path for data
+Right Option Id : 15003
+Question 42
+Question Id : 14
+What is a socket in the context of process-to-process communication?
+Answer :
+Option Id
+(A) A hardware device for data transmission
+14001
+(B) A software interface for network communication
+14002
+(C) A type of cable used for high-speed data transmission
+14003
+(D) type of network topology
+14004
+Right Answer :
+A software interface for network communication
+Right Option Id : 14002
+Question 43
+Question Id : 13
+Data transmission using multiple pathways simultaneously is known as:
+Answer :
+Option Id
+(A)   Parallel Transmission
+13001
+(B)   Serial Transmission
+13002
+(C)    Duplex Transmission
+13003
+(D)   Half-duplex Transmission
+13004
+Right Answer :
+  Parallel Transmission
+Right Option Id : 13001
+
+--- PAGE 11 ---
+Question 44
+Question Id : 12
+Which of the following is NOT a network topology?
+Answer :
+Option Id
+(A) Star
+12001
+(B)   Ring
+12002
+(C) Disk
+12003
+(D) Mesh
+12004
+Right Answer :
+Disk
+Right Option Id : 12003
+Question 45
+Question Id : 11
+Contention-based MAC protocols are commonly used in:
+Answer :
+Option Id
+(A)    Ethernet networks
+11001
+(B) Token Ring networks
+11002
+(C)     ATM networks
+11003
+(D)     Point-to-Point networks
+11004
+Right Answer :
+   Ethernet networks
+Right Option Id : 11001
+Question 46
+Question Id : 10
+Routing involves:
+Answer :
+Option Id
+(A) Dividing data into frames
+10001
+(B)   Managing flow control
+10002
+(C)    Determining the best path for data packets
+10003
+(D)     Correcting errors in data transmission
+10004
+Right Answer :
+   Determining the best path for data packets
+Right Option Id : 10003
+Question 47
+Question Id : 9
+What is the purpose of ARP (Address Resolution Protocol)?
+Answer :
+Option Id
+(A)   To assign IP addresses to devices
+9001
+(B)    To resolve domain names to IP addresses
+9002
+(C) To map MAC addresses to IP addresses
+9003
+(D)   To manage network congestion
+9004
+Right Answer :
+To map MAC addresses to IP addresses
+Right Option Id : 9003
+Question 48
+Question Id : 8
+Which software life cycle model allows for iterative development and incorporates risk analysis?
+Answer :
+Option Id
+
+--- PAGE 12 ---
+(A) Waterfall model
+8001
+(B) Prototype model
+8002
+(C) Spiral model
+8003
+(D) Agile model
+8004
+Right Answer :
+Spiral model
+Right Option Id : 8003
+Question 49
+Question Id : 7
+What is the main goal of software quality assurance?
+Answer :
+Option Id
+(A) To eliminate all defects from the software
+7001
+(B) To ensure the software is defect-free before release
+7002
+(C) To establish and enforce standards and processes to improve software quality
+7003
+(D) To test software under different conditions
+7004
+Right Answer :
+To establish and enforce standards and processes to improve software
+quality
+Right Option Id : 7003
+Question 50
+Question Id : 6
+Reverse engineering is primarily used for:
+Answer :
+Option Id
+(A) Creating new software from scratch
+6001
+(B) Improving software performance
+6002
+(C) Understanding and documenting existing software
+6003
+(D) Testing software components
+6004
+Right Answer :
+Understanding and documenting existing software
+Right Option Id : 6003
+Question 51
+Question Id : 5
+Which testing approach involves testing individual components or units of code?
+Answer :
+Option Id
+(A) Integration Testing
+5001
+(B) System Testing
+5002
+(C) Unit Testing
+5003
+(D) Acceptance Testing
+5004
+Right Answer :
+Unit Testing
+Right Option Id : 5003
+Question 52
+Question Id : 4
+What is the main goal of System Testing?
+Answer :
+Option Id
+(A) Testing individual components in isolation
+4001
+(B) Testing the integration between different software components
+4002
+(C) Testing software functionality from the user's perspective
+4003
+
+--- PAGE 13 ---
+(D) Identifying defects in the source code
+4004
+Right Answer :
+Testing software functionality from the user's perspective
+Right Option Id : 4003
+Question 53
+Question Id : 3
+Which metric is used for estimating the size of a software project?
+Answer :
+Option Id
+(A) Cyclomatic Complexity
+3001
+(B) Function Points (FP)
+3002
+(C) Defect Density
+3003
+(D) Software Reliability Index
+3004
+Right Answer :
+Function Points (FP)
+Right Option Id : 3002
+Question 54
+Question Id : 18
+What is the purpose of staffing level estimation in software project management?
+Answer :
+Option Id
+(A) To determine the number of hardware components required
+18001
+(B) To identify potential risks in the project
+18002
+(C) To allocate appropriate resources to the project
+18003
+(D) To estimate the maintenance costs of the software
+18004
+Right Answer :
+To identify potential risks in the project
+Right Option Id : 18002
+Question 55
+Question Id : 2
+Which keyword is used to create an instance of a class in most programming languages?
+Answer :
+Option Id
+(A) alloc
+2001
+(B) new
+2002
+(C) create
+2003
+(D) instance
+2004
+Right Answer :
+new
+Right Option Id : 2002
+Question 56
+Question Id : 19
+What is an abstract class in OOP?
+Answer :
+Option Id
+(A) A class with no methods
+19001
+(B) A class that cannot be instantiated
+19002
+(C) A class that can only have private members
+19003
+(D) A class that cannot have methods with parameters
+19004
+Right Answer :
+A class that cannot be instantiated
+Right Option Id : 19002
+
+--- PAGE 14 ---
+Question 57
+Question Id : 21
+What is the purpose of the "super" keyword in Java and other similar languages?
+Answer :
+Option Id
+(A) It refers to the superclass in inheritance
+21001
+(B) It creates a new object instance
+21002
+(C) It defines a new class
+21003
+(D) It handles exceptions
+21004
+Right Answer :
+It refers to the superclass in inheritance
+Right Option Id : 21001
+Question 58
+Question Id : 36
+Which of the following best defines a class?
+Answer :
+Option Id
+(A) An instance of an object
+36001
+(B) A blueprint for creating objects
+36002
+(C) A variable holding data
+36003
+(D) A function with a return value
+36004
+Right Answer :
+A blueprint for creating objects
+Right Option Id : 36002
+Question 59
+Question Id : 35
+Which principle ensures that only essential information is visible to the outside world?
+Answer :
+Option Id
+(A) Polymorphism
+35001
+(B) Information hiding
+35002
+(C) Encapsulation
+35003
+(D) Abstraction
+35004
+Right Answer :
+Information hiding
+Right Option Id : 35002
+Question 60
+Question Id : 34
+What is the main purpose of inheritance in OOP?
+Answer :
+Option Id
+(A) To create instances of classes
+34001
+(B) To prevent data abstraction
+34002
+(C) To establish a parent-child relationship between classes
+34003
+(D) To define exceptions
+34004
+Right Answer :
+To establish a parent-child relationship between classes
+Right Option Id : 34003
+Question 61
+Question Id : 33
+What are abstract methods?
+Answer :
+Option Id
+
+--- PAGE 15 ---
+(A) Methods that are inaccessible to the outside world
+33001
+(B) Methods that have implementation details
+33002
+(C) Methods without a body, defined in an abstract class
+33003
+(D) Methods that cannot be inherited
+33004
+Right Answer :
+Methods without a body, defined in an abstract class
+Right Option Id : 33003
+Question 62
+Question Id : 32
+Which protocol is commonly used for sending emails?
+Answer :
+Option Id
+(A) .HTTPS
+32001
+(B) FTP
+32002
+(C) SMTP
+32003
+(D) TCP
+32004
+Right Answer :
+SMTP
+Right Option Id : 32003
+Question 63
+Question Id : 31
+What does CSS stand for?
+Answer :
+Option Id
+(A) Cascading Style System
+31001
+(B) Creative Styling Script
+31002
+(C) Computer Style Sheets
+31003
+(D) Cascading Style Sheets
+31004
+Right Answer :
+Cascading Style Sheets
+Right Option Id : 31004
+Question 64
+Question Id : 30
+Which library simplifies JavaScript tasks like HTML document traversal and manipulation?
+Answer :
+Option Id
+(A) JavaFX
+30001
+(B) Bootstrap
+30002
+(C) React
+30003
+(D) jQuery
+30004
+Right Answer :
+jQuery
+Right Option Id : 30004
+Question 65
+Question Id : 29
+What does AJAX stand for?
+Answer :
+Option Id
+(A) Asynchronous JavaScript and XML
+29001
+(B) Automated JavaScript and XHTML
+29002
+(C) Advanced JavaScript and XML
+29003
+
+--- PAGE 16 ---
+(D) Asynchronous JSON and XHTML
+29004
+Right Answer :
+Asynchronous JavaScript and XML
+Right Option Id : 29001
+Question 66
+Question Id : 28
+How does the DOM tree structure reflect the hierarchy of HTML elements?
+Answer :
+Option Id
+(A) In alphabetical order
+28001
+(B)   Based on the element's size
+28002
+(C) In a parent-child relationship
+28003
+(D) According to the element's color
+28004
+Right Answer :
+In a parent-child relationship
+Right Option Id : 28003
+Question 67
+Question Id : 27
+In XML, which attribute is used to uniquely identify an element?
+Answer :
+Option Id
+(A) id
+27001
+(B) class
+27002
+(C) name
+27003
+(D) tag
+27004
+Right Answer :
+id
+Right Option Id : 27001
+Question 68
+Question Id : 26
+The Kleene Star operation accepts the following string of finite length over set A = {0,1} | where string s contains even number of 0 and 1.
+Answer :
+Option Id
+(A) 01, 0011,010101
+26001
+(B) 0011, 11001100
+26002
+(C) ε, 0011, 11001101
+26003
+(D) ε, 0011, 11001100
+26004
+Right Answer :
+ε, 0011, 11001100
+Right Option Id : 26004
+Question 69
+Question Id : 25
+A Language for which DFA exist is a________
+Answer :
+Option Id
+(A) Regular Language
+25001
+(B) Non-Regular Language
+25002
+(C) Any language
+25003
+(D) Cannot be said
+25004
+Right Answer :
+Regular Language
+Right Option Id : 25001
+
+--- PAGE 17 ---
+Question 70
+Question Id : 24
+Let u=’1101’, v=’0001’, then uv=11010001 and vu= 00011101.Using the given information what is the identity element for the string?
+Answer :
+Option Id
+(A) u-1
+24001
+(B) v-1
+24002
+(C) u-1v-1
+24003
+(D) ε
+24004
+Right Answer :
+ε
+Right Option Id : 24004
+Question 71
+Question Id : 23
+For a DFA accepting binary numbers whose decimal equivalent is divisible by 3, what are all the possible remainders?
+Answer :
+Option Id
+(A) 0
+23001
+(B) 0,2
+23002
+(C) 0,1,2
+23003
+(D) 0,1,2,3
+23004
+Right Answer :
+0,1,2
+Right Option Id : 23003
+Question 72
+Question Id : 22
+Minimum Number of states require to accept string ends with 101.
+Answer :
+Option Id
+(A) 3
+22001
+(B) 2
+22002
+(C) 1
+22003
+(D) can’t be represented
+22004
+Right Answer :
+2
+Right Option Id : 22002
+Question 73
+Question Id : 74
+If NFA of 5 states excluding the initial state is converted into DFA, maximum possible number of states for the DFA is?
+Answer :
+Option Id
+(A) 64
+74001
+(B) 32
+74002
+(C) 128
+74003
+(D) 187
+74004
+Right Answer :
+64
+Right Option Id : 74001
+Question 74
+Question Id : 20
+The class of CFG is not closed under
+Answer :
+Option Id
+(A) Concatenation
+
+--- PAGE 18 ---
+20001
+(B) Intersection
+20002
+(C) Union
+20003
+(D) Repeated Concatenation.
+20004
+Right Answer :
+Repeated Concatenation.
+Right Option Id : 20004
+Question 75
+Question Id : 75
+Which among the following is not true about IoT?
+Answer :
+Option Id
+(A) IoT uses Micro Controllers
+75001
+(B) IoT is fully safe
+75002
+(C) IoT uses Sensors and Actuators
+75003
+(D) IoT uses wireless technology
+75004
+Right Answer :
+IoT is fully safe
+Right Option Id : 75002
+Question 76
+Question Id : 78
+About IoT, which among the followings isnot correct?
+Answer :
+Option Id
+(A) Light sensor is analog
+78001
+(B) microphone is a digital sensor
+78002
+(C) Keyboard is a digital sensor
+78003
+(D) Push button is a digital Sensor
+78004
+Right Answer :
+microphone is a digital sensor
+Right Option Id : 78002
+Question 77
+Question Id : 92
+BLE stands for
+Answer :
+Option Id
+(A) Bluetooth large energy
+92001
+(B) Bluetooth low energy
+92002
+(C) Bluetooth light energy
+92003
+(D) Bluetooth long energy
+92004
+Right Answer :
+Bluetooth low energy
+Right Option Id : 92002
+Question 78
+Question Id : 93
+WSN stands for?
+Answer :
+Option Id
+(A) Wireless Standard Protocol
+93001
+(B) Wireless Sensor Protocol
+93002
+(C) Wireless Serial Protocol
+93003
+(D) Wireless Single Protocol
+93004
+
+--- PAGE 19 ---
+Right Answer :
+Wireless Sensor Protocol
+Right Option Id : 93002
+Question 79
+Question Id : 94
+A complex SCADA system has _______levels?
+Answer :
+Option Id
+(A) 6
+94001
+(B) 5
+94002
+(C) 3
+94003
+(D) 4
+94004
+Right Answer :
+4
+Right Option Id : 94004
+Question 80
+Question Id : 97
+What is the role of the MISO pin in the RFID Module?
+Answer :
+Option Id
+(A) Master In Slave Out
+97001
+(B) Manage Internal Slave Output
+97002
+(C) Master Internal Search Optimization
+97003
+(D) Manage Input Slave Op
+97004
+Right Answer :
+Master In Slave Out
+Right Option Id : 97001
+Question 81
+Question Id : 96
+Who is known as the father of AI?
+Answer :
+Option Id
+(A) Fisher Ada
+96001
+(B) Alan Turing
+96002
+(C) John McCarthy
+96003
+(D) Allen Newell
+96004
+Right Answer :
+John McCarthy
+Right Option Id : 96003
+Question 82
+Question Id : 91
+Programming language commonly used for AI is___?
+Answer :
+Option Id
+(A) Lisp
+91001
+(B) Perl
+91002
+(C) Prolog
+91003
+(D) C++
+91004
+Right Answer :
+Perl
+Right Option Id : 91002
+
+--- PAGE 20 ---
+Question 83
+Question Id : 98
+The algorithm used in the Game tree to make decisions of Win/Lose is ________________?
+Answer :
+Option Id
+(A) Heuristic Search Algorithm
+98001
+(B) DFS/ BFL algorithm
+98002
+(C) Greedy Search algorithm
+98003
+(D) Min/Max algorithm
+98004
+Right Answer :
+Min/Max algorithm
+Right Option Id : 98004
+Question 84
+Question Id : 99
+Uniform-cost search expands the node n with the __________
+Answer :
+Option Id
+(A) Lowest path cost
+99001
+(B) Heuristic cost
+99002
+(C) Highest path cost
+99003
+(D) Average path cost
+99004
+Right Answer :
+Lowest path cost
+Right Option Id : 99001
+Question 85
+Question Id : 100
+The process of removing detail from a given state representation is called ______
+Answer :
+Option Id
+(A) Extraction
+100001
+(B) Abstraction
+100002
+(C) Data Mining
+100003
+(D) Information Retrieval
+100004
+Right Answer :
+Abstraction
+Right Option Id : 100002
+Question 86
+Question Id : 95
+What does a first order predicate logic contain?
+Answer :
+Option Id
+(A) Predicate and a subject
+95001
+(B) Predicate and a Preposition
+95002
+(C) Subject and an object
+95003
+(D) None of the above
+95004
+Right Answer :
+Predicate and a subject
+Right Option Id : 95001
+Question 87
+Question Id : 90
+Which of the following can improve the performance of AI agent?
+Answer :
+Option Id
+(A) Precision
+90001
+
+--- PAGE 21 ---
+(B) Learning
+90002
+(C) Observing
+90003
+(D) All of the above
+90004
+Right Answer :
+Learning
+Right Option Id : 90002
+Question 88
+Question Id : 77
+Which of the following is part of the four main types for e‐commerce?
+Answer :
+Option Id
+(A) B2B
+77001
+(B) B2C
+77002
+(C) C2B
+77003
+(D) All of the above
+77004
+Right Answer :
+All of the above
+Right Option Id : 77004
+Question 89
+Question Id : 88
+What is the process in which a buyer posts its interest in buying a certain quantity of items, and sellers compete for the business by submitting successively
+lower bids until there is only one seller left?
+Answer :
+Option Id
+(A) B2B Marketplace
+88001
+(B) Auction
+88002
+(C) Reverse Auction
+88003
+(D) Intranet
+88004
+Right Answer :
+Reverse Auction
+Right Option Id : 88003
+Question 90
+Question Id : 87
+If it is easy for competitors to enter the market, the threat of new entrants is considered:
+Answer :
+Option Id
+(A) Low
+87001
+(B) High
+87002
+(C) Moderate
+87003
+(D) Negligible
+87004
+Right Answer :
+High
+Right Option Id : 87002
+Question 91
+Question Id : 89
+Which of the following refers to creating products tailored to individual customers?
+Answer :
+Option Id
+(A) Customization
+89001
+(B) Adaptation
+89002
+(C) Direct material
+89003
+(D) Auction
+
+--- PAGE 22 ---
+89004
+Right Answer :
+Customization
+Right Option Id : 89001
+Question 92
+Question Id : 86
+Which form of e‐marketplace brings together buyers and sellers from the same industry?
+Answer :
+Option Id
+(A) Horizontal
+86001
+(B) Vertical
+86002
+(C) integrated
+86003
+(D) isolated
+86004
+Right Answer :
+Vertical
+Right Option Id : 86002
+Question 93
+Question Id : 85
+Which of the following is done by Secure Sockets Layers?
+Answer :
+Option Id
+(A) creates a secure, private connection to a web server
+85001
+(B) Encrypts information
+85002
+(C) Sends information over the internet
+85003
+(D) All of the above
+85004
+Right Answer :
+All of the above
+Right Option Id : 85004
+Question 94
+Question Id : 84
+The delay that occur during the playback of a stream is called ___________
+Answer :
+Option Id
+(A) Stream delay
+84001
+(B) Playback delay
+84002
+(C) Jitter
+84003
+(D) Event delay
+84004
+Right Answer :
+Jitter
+Right Option Id : 84003
+Question 95
+Question Id : 76
+In teardown state of real time streaming protocol is ___________
+Answer :
+Option Id
+(A) the server resources for client
+76001
+(B) server delivers the stream to client
+76002
+(C) server suspends delivery of stream
+76003
+(D) server breaks down the connection
+76004
+Right Answer :
+server breaks down the connection
+Right Option Id : 76004
+
+--- PAGE 23 ---
+Question 96
+Question Id : 83
+In Real Time Interactive Audio Video, Jitter is introduced in real-time data by delay between____
+Answer :
+Option Id
+(A) pixels
+83001
+(B) layers
+83002
+(C) frames
+83003
+(D) packets
+83004
+Right Answer :
+packets
+Right Option Id : 83004
+Question 97
+Question Id : 82
+In Audio and Video Compression, voice is sampled at 8000 samples per second with_____________
+Answer :
+Option Id
+(A) 8 bits per sample
+82001
+(B) 5 bits per sample
+82002
+(C) 7 bits per sample
+82003
+(D) 6 bits per sample
+82004
+Right Answer :
+8 bits per sample
+Right Option Id : 82001
+Question 98
+Question Id : 81
+Audio compression can be used for____________
+Answer :
+Option Id
+(A) voice and data
+81001
+(B) video and voice
+81002
+(C) speech or music
+81003
+(D) picture and colors
+81004
+Right Answer :
+speech or music
+Right Option Id : 81003
+Question 99
+Question Id : 80
+Each ___ represents a particular colour.
+Answer :
+Option Id
+(A) Frame
+80001
+(B) Character
+80002
+(C) Pixel value
+80003
+(D) None of the above
+80004
+Right Answer :
+Pixel value
+Right Option Id : 80003
+Question 100
+Question Id : 79
+___________ is basically a form of pictorial presentation.
+Answer :
+Option Id
+(A) Photography
+79001
+
+--- PAGE 24 ---
+(B) Animations
+79002
+(C) Drawing
+79003
+(D) Creativity
+79004
+Right Answer :
+Animations
+Right Option Id : 79002
+Art Of Teaching
+Question 101
+Question Id : 120
+The main aim of classroom teaching is
+Answer :
+Option Id
+(A) to give information
+120001
+(B) help to pass examination
+120002
+(C) syllabus coverage
+120003
+(D) to develop personality
+120004
+Right Answer :
+to develop personality
+Right Option Id : 120004
+Question 102
+Question Id : 121
+To ensure participation of students we use
+Answer :
+Option Id
+(A) demonstration
+121001
+(B) little man's lecture
+121002
+(C) discussion
+121003
+(D) illustration
+121004
+Right Answer :
+discussion
+Right Option Id : 121003
+Question 103
+Question Id : 125
+learning through independent effort is
+Answer :
+Option Id
+(A) autonomous learning
+125001
+(B) autocratic learning
+125002
+(C) democratic learning
+125003
+(D) all the above
+125004
+Right Answer :
+autonomous learning
+Right Option Id : 125001
+Question 104
+Question Id : 123
+Aims
+Answer :
+Option Id
+(A) may include abstract concepts
+123001
+(B) difficult to measure
+123002
+(C) may include appreciation
+123003
+
+--- PAGE 25 ---
+(D) All the above
+123004
+Right Answer :
+All the above
+Right Option Id : 123004
+Question 105
+Question Id : 124
+psychomotor domain relates to
+Answer :
+Option Id
+(A) map making
+124001
+(B) project making
+124002
+(C) playing
+124003
+(D) all the above
+124004
+Right Answer :
+all the above
+Right Option Id : 124004
+Question 106
+Question Id : 119
+Heuristic means
+Answer :
+Option Id
+(A) to invertigate
+119001
+(B) to show
+119002
+(C) to do
+119003
+(D) to act
+119004
+Right Answer :
+to invertigate
+Right Option Id : 119001
+Question 107
+Question Id : 117
+Armstrong gifted teaching with
+Answer :
+Option Id
+(A) Project method
+117001
+(B) heuristic method
+117002
+(C) team teaching
+117003
+(D) blended method
+117004
+Right Answer :
+heuristic method
+Right Option Id : 117002
+Question 108
+Question Id : 126
+Set induction relates to
+Answer :
+Option Id
+(A) previous knowledge
+126001
+(B) new knowledge
+126002
+(C) specific objectives
+126003
+(D) statement of aim
+126004
+Right Answer :
+previous knowledge
+Right Option Id : 126001
+
+--- PAGE 26 ---
+Question 109
+Question Id : 127
+Diadactic teaching materials was introduced by
+Answer :
+Option Id
+(A) Pestalozzi
+127001
+(B) froebel
+127002
+(C) Montessori
+127003
+(D) Dewey
+127004
+Right Answer :
+Montessori
+Right Option Id : 127003
+Question 110
+Question Id : 128
+The centre point of a lesson plan is
+Answer :
+Option Id
+(A) principal
+128001
+(B) teacher
+128002
+(C) student
+128003
+(D) none of the above
+128004
+Right Answer :
+student
+Right Option Id : 128003
+Question 111
+Question Id : 129
+According to Howard Gardner, a philosopher has …………. Type of intelligence and a sculptor has more ………… type of intelligence.
+Answer :
+Option Id
+(A) interpersonal; linguistic
+129001
+(B) linguistic; interpersonal
+129002
+(C) spatial; intrapersonal
+129003
+(D) intrapersonal; spatial
+129004
+Right Answer :
+intrapersonal; spatial
+Right Option Id : 129004
+Question 112
+Question Id : 108
+Which of the following is an example of an internal attribution for failure?
+Answer :
+Option Id
+(A) I failed the test because my friends were distracting me.
+108001
+(B) I received a low grade because the teacher is a tough grader.
+108002
+(C) I failed the test because I didn't study enough.
+108003
+(D) I didn't get good marks because the teacher was biased.
+108004
+Right Answer :
+I failed the test because I didn't study enough.
+Right Option Id : 108003
+Question 113
+Question Id : 130
+Which of the following is an example of a question that requires students to reflect on their own thinking?
+Answer :
+Option Id
+(A) how has your thinking about the use of verbs changed since the beginning of the class ?
+
+--- PAGE 27 ---
+130001
+(B) what is the relationship between nouns and verbs in a sentence?
+130002
+(C) what is the definition of a verb?
+130003
+(D) how do you change a verb to the present tense?
+130004
+Right Answer :
+how has your thinking about the use of verbs changed since the beginning
+of the class ?
+Right Option Id : 130001
+Question 114
+Question Id : 122
+Micro teaching is more effective
+Answer :
+Option Id
+(A) always
+122001
+(B) after the teaching-practice
+122002
+(C) during the teaching-practice
+122003
+(D) during the preparation for teaching-practice
+122004
+Right Answer :
+during the teaching-practice
+Right Option Id : 122003
+Question 115
+Question Id : 118
+Which of the following are the characteristics of a person with scientific attitude?
+Answer :
+Option Id
+(A) Brevity
+118001
+(B) Objectivity
+118002
+(C) Adventure
+118003
+(D) Sharp memory
+118004
+Right Answer :
+Objectivity
+Right Option Id : 118002
+Question 116
+Question Id : 115
+Library man Provide
+Answer :
+Option Id
+(A) Physical mateial
+115001
+(B) Digital material
+115002
+(C) Both A & B
+115003
+(D) None of these
+115004
+Right Answer :
+Both A & B
+Right Option Id : 115003
+Question 117
+Question Id : 116
+Which of the following components are essential for library?
+Answer :
+Option Id
+(A) Learning
+116001
+(B) Walking
+116002
+(C) Playing
+116003
+
+--- PAGE 28 ---
+(D) None of these
+116004
+Right Answer :
+Learning
+Right Option Id : 116001
+Question 118
+Question Id : 101
+A teacher should ask-
+Answer :
+Option Id
+(A) meaningful question
+101001
+(B) maximum number of question in a fixed time
+101002
+(C) as many question as possible
+101003
+(D) None of these
+101004
+Right Answer :
+meaningful question
+Right Option Id : 101001
+Question 119
+Question Id : 102
+Which of the following important cause of failure for teacher?
+Answer :
+Option Id
+(A) interpersonal relationship
+102001
+(B) verbal ability
+102002
+(C) lack of command over the knowledge of subject
+102003
+(D) None of the above
+102004
+Right Answer :
+lack of command over the knowledge of subject
+Right Option Id : 102003
+Question 120
+Question Id : 104
+Teacher should master during his teaching period
+Answer :
+Option Id
+(A) in one of the teaching method
+104001
+(B) equally acros all teaching method
+104002
+(C) Both A & B
+104003
+(D) None of these
+104004
+Right Answer :
+equally acros all teaching method
+Right Option Id : 104002
+Question 121
+Question Id : 105
+Knowledge is-
+Answer :
+Option Id
+(A) Information
+105001
+(B) Application
+105002
+(C) Analysis
+105003
+(D) Understanding
+105004
+Right Answer :
+Information
+Right Option Id : 105001
+
+--- PAGE 29 ---
+Question 122
+Question Id : 106
+Formative evaluation is conducted
+Answer :
+Option Id
+(A) After the teaching learning process
+106001
+(B) Before the teaching learning process
+106002
+(C) During the teaching learning process
+106003
+(D) All of the above
+106004
+Right Answer :
+During the teaching learning process
+Right Option Id : 106003
+Question 123
+Question Id : 107
+Which technique is used for evaluation of interest?
+Answer :
+Option Id
+(A) Observation technique
+107001
+(B) Check list
+107002
+(C) Rating scale
+107003
+(D) Projective Technique
+107004
+Right Answer :
+Rating scale
+Right Option Id : 107003
+Question 124
+Question Id : 103
+Which of the following is not a type of curriculum design?
+Answer :
+Option Id
+(A) Subject-centered
+103001
+(B) Problem Centered
+103002
+(C) Learner-Centered
+103003
+(D) Teacher-Centered
+103004
+Right Answer :
+Teacher-Centered
+Right Option Id : 103004
+Question 125
+Question Id : 109
+Which of the following is not the nature of curriculum?
+Answer :
+Option Id
+(A) Critical
+109001
+(B) Creative
+109002
+(C) Conservative
+109003
+(D) Active
+109004
+Right Answer :
+Active
+Right Option Id : 109004
+Question 126
+Question Id : 110
+The biggest challenge before democracy is -
+Answer :
+Option Id
+(A) Fundamentalism
+
+--- PAGE 30 ---
+110001
+(B) Castism
+110002
+(C) Regionalism
+110003
+(D) All the above
+110004
+Right Answer :
+Fundamentalism
+Right Option Id : 110001
+Question 127
+Question Id : 111
+A teacher shoul behave with all the student as -
+Answer :
+Option Id
+(A) as a friend
+111001
+(B) as a master
+111002
+(C) equally
+111003
+(D) personally
+111004
+Right Answer :
+as a friend
+Right Option Id : 111001
+Question 128
+Question Id : 112
+Failure can be our best teacher if-
+Answer :
+Option Id
+(A) we work harder than before
+112001
+(B) we know the reasons of failure
+112002
+(C) we know the reasons of failure and then being encouraged we work harder than before
+112003
+(D) none of the above
+112004
+Right Answer :
+we know the reasons of failure and then being encouraged we work harder
+than before
+Right Option Id : 112003
+Question 129
+Question Id : 113
+Chal-Board is a kind of teaching aid-
+Answer :
+Option Id
+(A) Visual
+113001
+(B) Audio
+113002
+(C) Audio-Visual
+113003
+(D) All of the above
+113004
+Right Answer :
+Visual
+Right Option Id : 113001
+Question 130
+Question Id : 114
+Television is
+Answer :
+Option Id
+(A) Visual aid
+114001
+(B) Audio-visual aid
+114002
+(C) Audio aid
+114003
+
+--- PAGE 31 ---
+(D) None of the above
+114004
+Right Answer :
+Audio-visual aid
+Right Option Id : 114002
+Other Skills
+Question 131
+Question Id : 149
+There were widespread rises against the British in the 1820s. Which one of the following did not revolt in the 1820s?
+Answer :
+Option Id
+(A) Santhals
+149001
+(B) Ahoms
+149002
+(C) Pagal Panthis
+149003
+(D) Ramosi
+149004
+Right Answer :
+Santhals
+Right Option Id : 149001
+Question 132
+Question Id : 148
+If the Sun rises at Tirap in Arunachal Pradesh at 5.00 am (IST), then when (IST) the Sun will rise in Kandla, Gujarat?
+Answer :
+Option Id
+(A) About 5.00 a.m.
+148001
+(B) About 6.20 a.m.
+148002
+(C) About 7.30 a.m.
+148003
+(D) About 7.00 a.m.
+148004
+Right Answer :
+About 7.00 a.m.
+Right Option Id : 148004
+Question 133
+Question Id : 147
+What is the maximum investment by any single investor in an Indian company?
+Answer :
+Option Id
+(A) 10%
+147001
+(B) 15%
+147002
+(C) 20%
+147003
+(D) 25%
+147004
+Right Answer :
+10%
+Right Option Id : 147001
+Question 134
+Question Id : 146
+Who among the following was not related to Champaran Satyagraha?
+Answer :
+Option Id
+(A) Dr. Rajendra Prasad
+146001
+(B) Anugrah Narayan Singh
+146002
+(C) JB Kriplani
+146003
+(D) Jai Prakash Narayan
+146004
+Right Answer :
+Jai Prakash Narayan
+Right Option Id : 146004
+
+--- PAGE 32 ---
+Question 135
+Question Id : 145
+Visva-Bharati University, which was seen in the news recently, is located in which state?
+Answer :
+Option Id
+(A) Uttar Pradesh
+145001
+(B) Bihar
+145002
+(C) West Bengal
+145003
+(D) Odisha
+145004
+Right Answer :
+West Bengal
+Right Option Id : 145003
+Question 136
+Question Id : 144
+Rama plays cricket with his friends every evening. Which energy does he use to play cricket?
+Answer :
+Option Id
+(A) Sound energy
+144001
+(B) Light energy
+144002
+(C) Chemical energy
+144003
+(D) Muscular energy
+144004
+Right Answer :
+Muscular energy
+Right Option Id : 144004
+Question 137
+Question Id : 143
+Which one of the following is 'sticky rice' and is a common variety of rice in Assam?
+Answer :
+Option Id
+(A) Ponni rice
+143001
+(B) Bora rice
+143002
+(C) Arborio rice
+143003
+(D) Bomba rice
+143004
+Right Answer :
+Bora rice
+Right Option Id : 143002
+Question 138
+Question Id : 142
+When we burn fuels, we get :
+Answer :
+Option Id
+(A) Light and sound energy
+142001
+(B) Only light energy
+142002
+(C) Heat and light energy
+142003
+(D) Mechanical and Light energy
+142004
+Right Answer :
+Heat and light energy
+Right Option Id : 142003
+Question 139
+Question Id : 141
+Consider the following statements about snakes and identify the Incorrect one from the following:
+
+--- PAGE 33 ---
+Answer :
+Option Id
+(A) They chew up their prey
+141001
+(B) They swallow their food whole
+141002
+(C) Snakes have sharp teeth
+141003
+(D) Poisonous snakes have fangs.
+141004
+Right Answer :
+They chew up their prey
+Right Option Id : 141001
+Question 140
+Question Id : 131
+With respect to Gujarat, the locations of Uttar Pradesh and Andhra Pradesh, respectively, are:
+Answer :
+Option Id
+(A) North-West; Saouth-East
+131001
+(B) North-West; South-West
+131002
+(C) North-East; South-West
+131003
+(D) North-East; South-East
+131004
+Right Answer :
+North-East; South-East
+Right Option Id : 131004
+Question 141
+Question Id : 139
+Which one of the following groups have all 3-dimensional shapes?
+Answer :
+Option Id
+(A) Cube, Cuboid, Sphere, Cylinder
+139001
+(B) Cube, Cuboid, Semi-Circle, Cone
+139002
+(C) Cube, Cuboid, Circle, Cone
+139003
+(D) Cube, Cuboid, Circle, Triangle
+139004
+Right Answer :
+Cube, Cuboid, Sphere, Cylinder
+Right Option Id : 139001
+Question 142
+Question Id : 138
+What is the missing number in the pattern given below? 1, 6, 15, -------45, 66, 91
+Answer :
+Option Id
+(A) 25
+138001
+(B) 36
+138002
+(C) 28
+138003
+(D) 32
+138004
+Right Answer :
+28
+Right Option Id : 138003
+Question 143
+Question Id : 137
+A whole number is added to 100 and the same number is subtracted from 100. the sum of the two resulting numbers so obtained is :
+Answer :
+Option Id
+(A) 100
+137001
+(B) 200
+137002
+(C) 0
+137003
+
+--- PAGE 34 ---
+(D) 50
+137004
+Right Answer :
+200
+Right Option Id : 137002
+Question 144
+Question Id : 136
+The sum of 5 - 5 + 5 - 5 + 5 - 5 …………… , to odd number of terms is :
+Answer :
+Option Id
+(A) 5
+136001
+(B) 15
+136002
+(C) 0
+136003
+(D) -5
+136004
+Right Answer :
+5
+Right Option Id : 136001
+Question 145
+Question Id : 135
+Which of the following arrangements represents a descending order of numbers?
+Answer :
+Option Id
+(A) 10.5, 1.50, 1.05, 1.055, 1.005, 0.155
+135001
+(B) 10.5, 1.50, 1.055, 1.05, 1.005, 0.155
+135002
+(C) 1.05, 1.005, 1.50, 1.055, 10.5, 0.155
+135003
+(D) 10.5, 1.05, 1.055, 1.50, 1.005, 0.155
+135004
+Right Answer :
+10.5, 1.50, 1.055, 1.05, 1.005, 0.155
+Right Option Id : 135002
+Question 146
+Question Id : 134
+Monday : April : : Friday : ?
+Answer :
+Option Id
+(A) July
+134001
+(B) Saturday
+134002
+(C) August
+134003
+(D) Tuesday
+134004
+Right Answer :
+August
+Right Option Id : 134003
+Question 147
+Question Id : 133
+Choose the word which is least like the other words in the group.
+Answer :
+Option Id
+(A) Kidney
+133001
+(B) Heart
+133002
+(C) Lung
+133003
+(D) Ear
+133004
+Right Answer :
+Heart
+Right Option Id : 133002
+
+--- PAGE 35 ---
+Question 148
+Question Id : 132
+60,30,120,15,240?
+Answer :
+Option Id
+(A) 30
+132001
+(B) 120
+132002
+(C) 140
+132003
+(D) 71/2
+132004
+Right Answer :
+71/2
+Right Option Id : 132004
+Question 149
+Question Id : 140
+In a certain code, if BAD is written as YZW and SAID is written as HZRW, then LIFE will be written as:
+Answer :
+Option Id
+(A) ORUV
+140001
+(B) OSUV
+140002
+(C) OQVU
+140003
+(D) ORVW
+140004
+Right Answer :
+ORUV
+Right Option Id : 140001
+Question 150
+Question Id : 150
+Pointing towards Sita, Nikhil said, "I am the only son of her mother's son". How is Sita related to Nikhil?
+Answer :
+Option Id
+(A) Aunt
+150001
+(B) Niece
+150002
+(C) Mother
+150003
+(D) Cousin
+150004
+Right Answer :
+Aunt
+Right Option Id : 150001

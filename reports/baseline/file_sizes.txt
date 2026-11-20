@@ -1,0 +1,15 @@
+﻿==================================================
+BASELINE CORE FILE SIZES
+==================================================
+index.html                     :    91.59 KB (     93786 bytes)
+js\app.js                      :    98.75 KB (    101125 bytes)
+js\exam-engine.js              :    13.29 KB (     13613 bytes)
+js\analytics.js                :     8.39 KB (      8588 bytes)
+js\i18n.js                     :    35.03 KB (     35872 bytes)
+js\data\papers-index.js        :    16.99 KB (     17393 bytes)
+css\styles.css                 :    21.22 KB (     21733 bytes)
+css\cbt-theme.css              :    51.86 KB (     53103 bytes)
+vercel.json                    :     1.22 KB (      1248 bytes)
+--------------------------------------------------
+Total js\data\ (24 files)       :  6561.62 KB ( 6.41 MB)
+Root PDFs (8 files)              :    42.38 MB

@@ -1,0 +1,70 @@
+{
+  "unclassifiedOfficialCSQuestions": [
+    {
+      "paper": "official_shift1",
+      "qNum": 31,
+      "text": "The term \"Data\" refers to:"
+    },
+    {
+      "paper": "official_shift1",
+      "qNum": 100,
+      "text": "What does I stands for in CIA"
+    },
+    {
+      "paper": "official_shift2",
+      "qNum": 47,
+      "text": "Open System ________ tends to evolve more quickly than proprietary systems?"
+    },
+    {
+      "paper": "official_shift3",
+      "qNum": 40,
+      "text": "When using the parity bit method, how does the receiver determine if an error occurred dur"
+    },
+    {
+      "paper": "official_shift3",
+      "qNum": 51,
+      "text": "The software developed to detect and remove viruses only is called ______________."
+    },
+    {
+      "paper": "official_shift4",
+      "qNum": 71,
+      "text": "A Database Management System is a type of _________software."
+    },
+    {
+      "paper": "official_2023",
+      "qNum": 40,
+      "text": "The term \"Data\" refers to:"
+    },
+    {
+      "paper": "official_2023",
+      "qNum": 72,
+      "text": "Minimum Number of states require to accept string ends with 101."
+    },
+    {
+      "paper": "official_2023",
+      "qNum": 81,
+      "text": "Who is known as the father of AI?"
+    }
+  ],
+  "official2023AnswerKeyDisagreements": [],
+  "official2023SubstitutedQuestions": [
+    {
+      "qNum": 34,
+      "qId": 60,
+      "jsText": "What is DBMS?",
+      "pdfText": "What is DBMS?",
+      "jsAnswer": "D",
+      "pdfAnswer": "D",
+      "rightOptId": "60004"
+    },
+    {
+      "qNum": 104,
+      "qId": 123,
+      "jsText": "Aims",
+      "pdfText": "Aims",
+      "jsAnswer": "D",
+      "pdfAnswer": "D",
+      "rightOptId": "123004"
+    }
+  ]
+}

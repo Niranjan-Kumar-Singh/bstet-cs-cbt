@@ -1,0 +1,20 @@
+{
+  "name": "Bihar STET Paper II Computer Science CBT Portal",
+  "short_name": "BSTET CBT",
+  "description": "Authentic Computer Based Test (CBT) simulator for Bihar STET Paper II Computer Science (Class 11-12 Code 226) and BPSC TRE PGT.",
+  "start_url": "/#/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "categories": ["education", "exams"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

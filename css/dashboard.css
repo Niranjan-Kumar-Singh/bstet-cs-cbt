@@ -1,0 +1,220 @@
+/**
+ * Dashboard & Topic Practice Views - Bihar STET CBT Portal
+ * Analytics KPIs, SVG Accuracy Trend Line Graph, Attempt History Table,
+ * Local JSON Backup/Restore, and Practice by Topic Configurator.
+ */
+
+/* 1. Dashboard View Container */
+#dashboard-view,
+#topic-practice-view {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: var(--space-8) var(--space-4) var(--space-16);
+  width: 100%;
+}
+
+.view-header {
+  margin-bottom: var(--space-6);
+}
+
+.view-header h2 {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: var(--space-2);
+}
+
+.view-header p {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+/* 2. Overview Stats Cards Grid */
+.dashboard-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+
+.dash-stat-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dash-stat-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  margin-bottom: var(--space-2);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.dash-stat-val {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1.1;
+}
+
+.dash-stat-sub {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-top: var(--space-2);
+}
+
+/* 3. SVG Accuracy Trend Line Chart */
+.trend-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: var(--space-8);
+}
+
+.trend-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-4);
+}
+
+.trend-card-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.trend-svg-container {
+  width: 100%;
+  height: 220px;
+  position: relative;
+}
+
+.trend-svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+/* 4. Historical Attempts Data Table */
+.history-section {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: var(--space-8);
+}
+
+.history-table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 14px;
+}
+
+.history-table th {
+  background-color: var(--bg-inset);
+  padding: 12px 16px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  border-bottom: 2px solid var(--border-strong);
+}
+
+.history-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+}
+
+.history-table tr:hover td {
+  background-color: var(--bg-inset);
+}
+
+/* 5. Local Data Backup & Restore Panel */
+.backup-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+.backup-info h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.backup-info p {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.backup-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+/* 6. Topic Practice Configurator */
+.topic-config-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-sm);
+}
+
+.unit-selection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-3);
+  margin: var(--space-4) 0 var(--space-6);
+}
+
+.unit-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  background: var(--bg-inset);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  transition: all var(--dur-fast) ease;
+}
+
+.unit-checkbox-label:hover {
+  border-color: var(--primary);
+}
+
+.unit-checkbox-label input[type="checkbox"]:checked + span {
+  color: var(--primary);
+  font-weight: 700;
+}

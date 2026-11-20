@@ -31,11 +31,27 @@ class App {
     this.lobbyView = document.getElementById('lobby-view');
     this.examView = document.getElementById('exam-view');
     this.resultView = document.getElementById('result-view');
+    this.dashboardView = document.getElementById('dashboard-view');
+    this.topicPracticeView = document.getElementById('topic-practice-view');
 
     // Lobby Elements
     this.papersGrid = document.getElementById('papers-grid');
     this.filterTabs = document.querySelectorAll('.filter-tab');
     this.historyTableBody = document.getElementById('history-table-body');
+    this.activeAttemptContainer = document.getElementById('active-attempt-container');
+    this.searchPapersInput = document.getElementById('search-papers-input');
+    this.syllabusToggle = document.getElementById('syllabus-accordion-toggle');
+    this.syllabusBody = document.getElementById('syllabus-accordion-body');
+
+    // Shortcuts & Controls
+    this.shortcutsModal = document.getElementById('shortcuts-modal');
+    this.shortcutsHelpBtn = document.getElementById('shortcuts-help-btn');
+    this.closeShortcutsModalBtn = document.getElementById('close-shortcuts-modal-btn');
+    this.shortcutsModalOkBtn = document.getElementById('shortcuts-modal-ok-btn');
+    this.bookmarkQBtn = document.getElementById('bookmark-q-btn');
+    this.retryWrongBtn = document.getElementById('retry-wrong-btn');
+    this.cutoffCategorySelect = document.getElementById('cutoff-category-select');
+    this.categoryQualStatus = document.getElementById('category-qualification-status');
 
     // Language Toggles
     this.langToggleBtn = document.getElementById('lang-toggle-btn');
@@ -156,6 +172,12 @@ class App {
     this.legalModalBody = document.getElementById('legal-modal-body');
     this.closeLegalModalBtn = document.getElementById('close-legal-modal-btn');
     this.legalModalOkBtn = document.getElementById('legal-modal-ok-btn');
+    
+    // Retired Paper Notice Modal
+    this.retiredModal = document.getElementById('retired-modal');
+    this.retiredModalTitle = document.getElementById('retired-modal-title');
+    this.retiredModalMsg = document.getElementById('retired-modal-msg');
+    this.retiredModalBtn = document.getElementById('retired-modal-btn');
     this.legalTabs = document.querySelectorAll('.legal-tab-btn');
   }
 
@@ -169,6 +191,110 @@ class App {
         this.renderLobby();
       });
     });
+
+    // Real-Time Search in Lobby
+    if (this.searchPapersInput) {
+      this.searchPapersInput.addEventListener('input', (e) => {
+        this.searchQuery = e.target.value.trim().toLowerCase();
+        this.renderLobby();
+      });
+    }
+
+    // Dynamic Syllabus Map Accordion Toggle
+    if (this.syllabusToggle && this.syllabusBody) {
+      this.syllabusToggle.addEventListener('click', () => {
+        const isExpanded = this.syllabusBody.classList.toggle('active');
+        this.syllabusToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+        const icon = document.getElementById('syllabus-toggle-icon');
+        if (icon) icon.textContent = isExpanded ? '▲' : '▼';
+      });
+    }
+
+    // Shortcuts Modal Bindings
+    if (this.shortcutsHelpBtn && this.shortcutsModal) {
+      this.shortcutsHelpBtn.addEventListener('click', () => {
+        this.shortcutsModal.classList.add('active');
+      });
+    }
+    if (this.closeShortcutsModalBtn && this.shortcutsModal) {
+      this.closeShortcutsModalBtn.addEventListener('click', () => {
+        this.shortcutsModal.classList.remove('active');
+      });
+    }
+    if (this.shortcutsModalOkBtn && this.shortcutsModal) {
+      this.shortcutsModalOkBtn.addEventListener('click', () => {
+        this.shortcutsModal.classList.remove('active');
+      });
+    }
+
+    // Question Bookmark Toggle
+    if (this.bookmarkQBtn) {
+      this.bookmarkQBtn.addEventListener('click', () => {
+        const currQ = this.engine.getCurrentQuestion();
+        if (currQ) {
+          const isNowBookmarked = this.engine.toggleBookmark(currQ.id);
+          this.updateBookmarkButton(isNowBookmarked);
+        }
+      });
+    }
+
+    // Result Screen Cutoff Selector
+    if (this.cutoffCategorySelect) {
+      this.cutoffCategorySelect.addEventListener('change', () => {
+        this.updateCategoryCutoffStatus();
+      });
+    }
+
+    // Result Screen Retry Wrong Questions
+    if (this.retryWrongBtn) {
+      this.retryWrongBtn.addEventListener('click', () => {
+        this.retryWrongQuestions();
+      });
+    }
+
+    // Dashboard Actions
+    const dashClearBtn = document.getElementById('dash-clear-history-btn');
+    if (dashClearBtn) {
+      dashClearBtn.addEventListener('click', () => {
+        const msg = (window.BSTET_I18N && window.BSTET_I18N.currentLang === 'hi')
+          ? 'क्या आप पूरा परीक्षा इतिहास साफ़ करना चाहते हैं?'
+          : 'Are you sure you want to clear your test attempt history?';
+        if (confirm(msg)) {
+          ExamAnalytics.clearHistory();
+          this.renderDashboard();
+        }
+      });
+    }
+    const exportBtn = document.getElementById('export-history-json-btn');
+    if (exportBtn) {
+      exportBtn.addEventListener('click', () => this.exportHistoryJson());
+    }
+    const importBtn = document.getElementById('import-history-json-btn');
+    const importInput = document.getElementById('import-history-file-input');
+    if (importBtn && importInput) {
+      importBtn.addEventListener('click', () => importInput.click());
+      importInput.addEventListener('change', (e) => this.importHistoryJson(e));
+    }
+
+    // Topic Practice Configurator Actions
+    const selectAllUnitsBtn = document.getElementById('select-all-units-btn');
+    const clearAllUnitsBtn = document.getElementById('clear-all-units-btn');
+    if (selectAllUnitsBtn) {
+      selectAllUnitsBtn.addEventListener('click', () => {
+        document.querySelectorAll('#topic-units-grid input[type="checkbox"]').forEach(cb => cb.checked = true);
+      });
+    }
+    if (clearAllUnitsBtn) {
+      clearAllUnitsBtn.addEventListener('click', () => {
+        document.querySelectorAll('#topic-units-grid input[type="checkbox"]').forEach(cb => cb.checked = false);
+      });
+    }
+    const startCustomTopicBtn = document.getElementById('start-custom-topic-practice-btn');
+    if (startCustomTopicBtn) {
+      startCustomTopicBtn.addEventListener('click', () => this.startCustomTopicPractice());
+    }
+
+    this.bindKeyboardShortcuts();
 
     // Event delegation on Papers Grid (supports pre-rendered static cards with zero CLS)
     if (this.papersGrid) {
@@ -397,6 +523,20 @@ class App {
     if (this.closeLegalModalBtn) {
       this.closeLegalModalBtn.addEventListener('click', () => this.legalModal.classList.remove('active'));
     }
+    if (this.retiredModalBtn) {
+      this.retiredModalBtn.addEventListener('click', () => {
+        if (this.retiredModal) this.retiredModal.classList.remove('active');
+        if (window.history && window.history.replaceState) {
+          const cleanUrl = window.location.pathname + (window.BSTET_I18N && window.BSTET_I18N.currentLang === 'hi' ? '?lang=hi' : '');
+          window.history.replaceState({}, '', cleanUrl);
+        }
+        if (this.lobbyView) this.lobbyView.classList.add('active');
+        if (this.examView) this.examView.classList.remove('active');
+        if (this.resultView) this.resultView.classList.remove('active');
+        document.body.classList.remove('in-exam-mode');
+        window.scrollTo({ top: 0, behavior: 'instant' });
+      });
+    }
     if (this.legalModalOkBtn) {
       this.legalModalOkBtn.addEventListener('click', () => this.legalModal.classList.remove('active'));
     }
@@ -407,6 +547,7 @@ class App {
           this.legalTabs.forEach(t => t.classList.remove('active'));
           tab.classList.add('active');
           this.renderLegalTabContent(tab.dataset.tab);
+          if (this.legalModalBody) this.legalModalBody.scrollTop = 0;
         });
       });
     }
@@ -915,18 +1056,21 @@ class App {
     // Dynamically update filter tab badge counts
     const allCount = catalog.length;
     const officialCount = catalog.filter(p => p.category === 'Official PYQ').length;
-    const predictedCount = catalog.filter(p => p.category === 'Predicted Mock').length;
-    const drillCount = catalog.filter(p => p.category === 'Sectional Drill').length;
+    const drillCount = catalog.filter(p => p.category !== 'Official PYQ').length;
 
     const tabAll = document.getElementById('tab-filter-all');
     const tabOfficial = document.getElementById('tab-filter-official');
-    const tabPredicted = document.getElementById('tab-filter-predicted');
     const tabDrill = document.getElementById('tab-filter-drill');
 
     if (tabAll) tabAll.innerText = isHi ? `सभी मॉक टेस्ट (${allCount})` : `All Mock Tests (${allCount})`;
     if (tabOfficial) tabOfficial.innerText = isHi ? `आधिकारिक PYQ प्रश्न पत्र (${officialCount})` : `Official PYQ Papers (${officialCount})`;
-    if (tabPredicted) tabPredicted.innerText = isHi ? `2026 संभावित मॉक सेट (${predictedCount})` : `2026 Predicted Mock Sets (${predictedCount})`;
     if (tabDrill) tabDrill.innerText = isHi ? `सेक्शनल एवं टॉपिक अभ्यास (${drillCount})` : `Sectional & Topic Drills (${drillCount})`;
+
+    // Check and render active ongoing attempt banner
+    this.renderActiveAttemptBanner();
+
+    // Render Dynamic Syllabus Map
+    this.renderSyllabusMap();
 
     if (!this.papersGrid) return;
 
@@ -984,16 +1128,24 @@ class App {
       this.papersGrid.appendChild(card);
     });
 
-    // Toggle card visibility based on active filter
+    // Toggle card visibility based on active filter AND search query
     const activeCards = this.papersGrid.querySelectorAll('.paper-card');
+    const query = (this.searchQuery || '').trim().toLowerCase();
+
     activeCards.forEach(card => {
       const cat = card.dataset.category;
-      let show = false;
-      if (this.currentFilter === 'all') show = true;
-      else if (this.currentFilter === 'official') show = (cat === 'Official PYQ');
-      else if (this.currentFilter === 'predicted') show = (cat === 'Predicted Mock');
-      else if (this.currentFilter === 'drill') show = (cat === 'Sectional Drill');
-      card.style.display = show ? 'flex' : 'none';
+      let categoryMatch = false;
+      if (this.currentFilter === 'all') categoryMatch = true;
+      else if (this.currentFilter === 'official') categoryMatch = (cat === 'Official PYQ');
+      else if (this.currentFilter === 'drill') categoryMatch = (cat !== 'Official PYQ');
+
+      let searchMatch = true;
+      if (query) {
+        const text = card.textContent.toLowerCase();
+        searchMatch = text.includes(query);
+      }
+
+      card.style.display = (categoryMatch && searchMatch) ? 'flex' : 'none';
     });
   }
 
@@ -1132,7 +1284,7 @@ class App {
       }
 
       const script = document.createElement('script');
-      script.src = `js/data/${meta.jsFile}?v=20261028_sachin_v2`;
+      script.src = `js/data/${meta.jsFile}?v=20261120_pedagogy_v3`;
       script.async = true;
       script.dataset.paperFile = meta.jsFile;
       script.onload = () => {
@@ -1220,9 +1372,24 @@ class App {
   /* ================= EXAM LAUNCH & SCREEN ================= */
   async launchPaperById(paperId, mode = 'cbt') {
     if (!window.PAPERS_CATALOG) return false;
+    const aliasMap = {
+      'sachin_shift_set1': 'pedagogy_shift_set1',
+      'sachin_shift_set2': 'pedagogy_shift_set2',
+      'sachin_shift_set3': 'pedagogy_shift_set3',
+      'sachin_shift_set4': 'pedagogy_shift_set4',
+      'sachin_shift_set5': 'pedagogy_shift_set5',
+      'sachin_pedagogy_master': 'pedagogy_master_100',
+      'sachin_curated_recent_50': 'pedagogy_recent_50'
+    };
+    const resolvedId = aliasMap[paperId] || paperId;
     const norm = (s) => (s || '').toLowerCase().replace(/[-_\s]/g, '');
-    const meta = window.PAPERS_CATALOG.find(p => norm(p.id) === norm(paperId));
-    if (!meta) return false;
+    const meta = window.PAPERS_CATALOG.find(p => norm(p.id) === norm(resolvedId));
+    if (!meta) {
+      if (this.retiredModal) {
+        this.retiredModal.classList.add('active');
+      }
+      return false;
+    }
 
     this.selectedPaperMeta = meta;
     try {
@@ -1251,9 +1418,9 @@ class App {
         }
       }
 
-      // 2. Filter deep-linking: ?filter=official, ?filter=predicted, ?filter=drill, ?filter=all
+      // 2. Filter deep-linking: ?filter=official, ?filter=drill, ?filter=all
       const filterParam = params.get('filter');
-      if (filterParam && ['all', 'official', 'predicted', 'drill'].includes(filterParam)) {
+      if (filterParam && ['all', 'official', 'drill'].includes(filterParam)) {
         this.currentFilter = filterParam;
         if (this.filterTabs) {
           this.filterTabs.forEach(t => {
@@ -1366,7 +1533,8 @@ class App {
     this.optionsContainer.innerHTML = '';
     const currentResp = this.engine.responses[q.id];
 
-    ['A', 'B', 'C', 'D'].forEach(letter => {
+    const optLetters = (q.options && q.options.E !== undefined) ? ['A', 'B', 'C', 'D', 'E'] : ['A', 'B', 'C', 'D'];
+    optLetters.forEach(letter => {
       const optText = this.engine.getOptionText(q, letter);
       if (!optText) return;
 
@@ -1520,10 +1688,11 @@ class App {
     if (!this.currentPaper) return;
     this.qpModalBody.innerHTML = this.currentPaper.questions.map((q, idx) => {
       const statement = this.engine.getQuestionStatement(q);
-      const optA = this.engine.getOptionText(q, 'A');
-      const optB = this.engine.getOptionText(q, 'B');
-      const optC = this.engine.getOptionText(q, 'C');
-      const optD = this.engine.getOptionText(q, 'D');
+      const optLetters = (q.options && q.options.E !== undefined) ? ['A', 'B', 'C', 'D', 'E'] : ['A', 'B', 'C', 'D'];
+      const optsHtml = optLetters.map(l => {
+        const t = this.engine.getOptionText(q, l);
+        return t ? `<div>(${l}) ${t}</div>` : '';
+      }).join('');
 
       return `
         <div style="padding: 16px 0; border-bottom: 1px solid var(--border-subtle);">
@@ -1531,10 +1700,7 @@ class App {
             Q.${idx + 1} ${statement}
           </p>
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 13px; color: var(--text-secondary);">
-            <div>(A) ${optA}</div>
-            <div>(B) ${optB}</div>
-            <div>(C) ${optC}</div>
-            <div>(D) ${optD}</div>
+            ${optsHtml}
           </div>
         </div>
       `;
@@ -1758,7 +1924,8 @@ class App {
       const topicName = (isHindi && (q.topic_hi || (i18n && i18n.translateTopic(q.topic)))) || q.topic;
       const explanation = isHindi && q.explanation_hi ? q.explanation_hi : q.explanation;
 
-      const optionsHtml = ['A', 'B', 'C', 'D'].map(letter => {
+      const optLetters = (q.options && q.options.E !== undefined) ? ['A', 'B', 'C', 'D', 'E'] : ['A', 'B', 'C', 'D'];
+      const optionsHtml = optLetters.map(letter => {
         const text = (isHindi && q.options_hi && q.options_hi[letter]) ? q.options_hi[letter] : (q.options ? q.options[letter] : '');
         if (!text) return '';
         const isOfficialCorrect = q.correctAnswer === letter;
@@ -1836,6 +2003,7 @@ class App {
       this.legalTabs.forEach(t => t.classList.toggle('active', t.dataset.tab === tabName));
     }
     this.renderLegalTabContent(tabName);
+    if (this.legalModalBody) this.legalModalBody.scrollTop = 0;
     this.legalModal.classList.add('active');
   }
 
@@ -1896,7 +2064,7 @@ class App {
         <div class="legal-section-card">
           <strong style="color:var(--text-primary); font-size:13.5px; display:block; margin-bottom:4px;">2. Free Unrestricted Access</strong>
           <p style="font-size:12.5px; color:var(--text-secondary); margin:0; line-height:1.55;">
-            All 35 full-length test papers and 3,650 questions are provided without any paywalls, premium tiers, or registration barriers. Commercial redistribution or selling access to this portal is strictly prohibited.
+            All 23 verified mock papers and 1,950+ questions are provided without any paywalls, premium tiers, or registration barriers. Commercial redistribution or selling access to this portal is strictly prohibited.
           </p>
         </div>
 
@@ -2021,7 +2189,7 @@ class App {
                 <strong style="color:var(--text-primary); font-size:13.5px;">Neural Bilingual Engine</strong>
               </div>
               <span style="font-size:12px; color:var(--text-secondary); line-height:1.55; display:block;">
-                Instant zero-lag toggle between English, Hindi, and Dual mode with 100% conceptual explanations in both languages across all 3,650 questions.
+                Instant zero-lag toggle between English, Hindi, and Dual mode with 100% conceptual explanations in both languages across all 1,950+ verified questions.
               </span>
             </div>
             <div class="dev-stat-card">
@@ -2039,7 +2207,7 @@ class App {
                 <strong style="color:var(--text-primary); font-size:13.5px;">Exhaustive Syllabus Coverage</strong>
               </div>
               <span style="font-size:12px; color:var(--text-secondary); line-height:1.55; display:block;">
-                35 Full-Length Mock Papers (3,650 questions) covering Computer Science (100Q), Sachin Academy Art of Teaching (30Q), and General Skills (20Q).
+                23 Verified Mock Papers & Drills (1,950+ questions) covering Computer Science (100Q), Art of Teaching Pedagogy (30Q), and General Skills (20Q).
               </span>
             </div>
           </div>
@@ -2079,6 +2247,648 @@ class App {
         </div>
       `;
     }
+  }
+
+  /* ================= PHASE 5 ENHANCEMENTS & MULTI-VIEW ENGINE ================= */
+  showView(viewName) {
+    const views = {
+      lobby: this.lobbyView,
+      exam: this.examView,
+      result: this.resultView,
+      dashboard: this.dashboardView,
+      'topic-practice': this.topicPracticeView
+    };
+
+    Object.entries(views).forEach(([name, el]) => {
+      if (el) {
+        if (name === viewName) {
+          el.classList.add('active');
+          el.removeAttribute('hidden');
+        } else {
+          el.classList.remove('active');
+          el.setAttribute('hidden', '');
+        }
+      }
+    });
+
+    const navbar = document.getElementById('global-navbar');
+    if (navbar) {
+      navbar.style.display = (viewName === 'exam') ? 'none' : 'flex';
+    }
+
+    if (viewName === 'exam') {
+      document.body.classList.add('in-exam-mode');
+    } else {
+      document.body.classList.remove('in-exam-mode');
+    }
+
+    const navMap = {
+      lobby: 'nav-link-lobby',
+      dashboard: 'nav-link-dashboard',
+      'topic-practice': 'nav-link-topic-practice'
+    };
+    document.querySelectorAll('.nav-link').forEach(l => {
+      l.classList.remove('active');
+      l.removeAttribute('aria-current');
+    });
+    if (navMap[viewName]) {
+      const activeLink = document.getElementById(navMap[viewName]);
+      if (activeLink) {
+        activeLink.classList.add('active');
+        activeLink.setAttribute('aria-current', 'page');
+      }
+    }
+
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }
+
+  selectPaper(paperId) {
+    const catalog = window.PAPERS_CATALOG || [];
+    const paper = catalog.find(p => p.id === paperId);
+    if (paper) {
+      this.openModeModal(paper, 'cbt');
+    } else {
+      this.showRetiredPaperNotice(paperId);
+    }
+  }
+
+  showRetiredPaperNotice(paperId) {
+    if (this.retiredModal) {
+      this.retiredModal.classList.add('active');
+    } else {
+      alert(`The requested paper (${paperId}) is no longer in the active catalog.`);
+      window.location.hash = '#/lobby';
+    }
+  }
+
+  renderActiveAttemptBanner() {
+    const container = document.getElementById('active-attempt-container');
+    if (!container) return;
+
+    const activeRaw = localStorage.getItem('BSTET_ACTIVE_ATTEMPT');
+    if (!activeRaw) {
+      container.innerHTML = '';
+      return;
+    }
+
+    try {
+      const attempt = JSON.parse(activeRaw);
+      if (!attempt || !attempt.paperId) {
+        container.innerHTML = '';
+        return;
+      }
+
+      const now = Date.now();
+      let remainingText = '';
+      if (attempt.mode === 'cbt' && attempt.endTime) {
+        const remSec = Math.max(0, Math.floor((attempt.endTime - now) / 1000));
+        if (remSec <= 0) {
+          localStorage.removeItem('BSTET_ACTIVE_ATTEMPT');
+          container.innerHTML = '';
+          return;
+        }
+        const mins = Math.floor(remSec / 60);
+        const secs = remSec % 60;
+        remainingText = `${mins}m ${secs}s remaining`;
+      } else {
+        remainingText = 'Untimed Practice Mode';
+      }
+
+      const isHi = window.BSTET_I18N && window.BSTET_I18N.currentLang === 'hi';
+      const currentQ = (attempt.currentIndex || 0) + 1;
+
+      container.innerHTML = `
+        <div class="active-attempt-banner">
+          <div class="attempt-banner-info">
+            <h4>${isHi ? '⚠️ चालू परीक्षा जारी रखें (Active Exam in Progress)' : '⚠️ Active Exam in Progress'}</h4>
+            <p>
+              <strong>${attempt.paperTitle || attempt.paperId}</strong> • 
+              ${isHi ? `वर्तमान प्रश्न: ${currentQ}` : `Current Question: ${currentQ}`} • 
+              <span style="color: var(--primary); font-weight: 700;">${remainingText}</span>
+            </p>
+          </div>
+          <div class="attempt-banner-actions">
+            <button class="btn btn-primary btn-sm" id="resume-active-attempt-btn">
+              ${isHi ? '▶ परीक्षा जारी रखें' : '▶ Resume Exam'}
+            </button>
+            <button class="btn btn-secondary btn-sm" id="discard-active-attempt-btn">
+              ${isHi ? '✕ रद्द करें' : '✕ Discard'}
+            </button>
+          </div>
+        </div>
+      `;
+
+      document.getElementById('resume-active-attempt-btn')?.addEventListener('click', () => {
+        this.launchPaperById(attempt.paperId, attempt.mode || 'cbt');
+      });
+
+      document.getElementById('discard-active-attempt-btn')?.addEventListener('click', () => {
+        const confirmMsg = isHi
+          ? 'क्या आप इस चालू परीक्षा को रद्द करना चाहते हैं?'
+          : 'Discard this in-progress test attempt?';
+        if (confirm(confirmMsg)) {
+          localStorage.removeItem('BSTET_ACTIVE_ATTEMPT');
+          localStorage.removeItem(`BSTET_EXAM_SESSION_${attempt.paperId}`);
+          container.innerHTML = '';
+        }
+      });
+    } catch (e) {
+      container.innerHTML = '';
+    }
+  }
+
+  renderSyllabusMap() {
+    const grid = document.getElementById('syllabus-grid');
+    if (!grid || grid.children.length > 0) return; // already rendered
+
+    const units = [
+      { id: "unit1", name: "Unit 1: Digital Logic & Number Systems", name_hi: "यूनिट 1: डिजिटल लॉजिक और नंबर सिस्टम", desc: "Boolean algebra, logic gates, K-maps, flip-flops, multiplexers, counters", count: "10-12 Qs" },
+      { id: "unit2", name: "Unit 2: Computer Organization & Architecture", name_hi: "यूनिट 2: कंप्यूटर संगठन और वास्तुकला", desc: "CPU architecture, memory hierarchy, cache, pipelining, instruction cycles", count: "10-12 Qs" },
+      { id: "unit3", name: "Unit 3: Programming in C & C++", name_hi: "यूनिट 3: सी एवं सी++ प्रोग्रामिंग", desc: "Control structures, pointers, functions, arrays, OOP, classes, inheritance", count: "12-14 Qs" },
+      { id: "unit4", name: "Unit 4: Data Structures", name_hi: "यूनिट 4: डेटा संरचनाएं", desc: "Arrays, stacks, queues, linked lists, trees, BST, heaps, graphs", count: "12-15 Qs" },
+      { id: "unit5", name: "Unit 5: Algorithms & Complexity", name_hi: "यूनिट 5: एल्गोरिदम और जटिलता", desc: "Asymptotic notation, sorting, searching, greedy, dynamic programming", count: "8-10 Qs" },
+      { id: "unit6", name: "Unit 6: Operating Systems", name_hi: "यूनिट 6: ऑपरेटिंग सिस्टम", desc: "Processes, threads, CPU scheduling, semaphores, deadlocks, paging", count: "10-12 Qs" },
+      { id: "unit7", name: "Unit 7: Database Management Systems", name_hi: "यूनिट 7: डेटाबेस प्रबंधन प्रणाली (DBMS)", desc: "ER modeling, relational model, SQL queries, normalization (1NF-BCNF), ACID", count: "12-14 Qs" },
+      { id: "unit8", name: "Unit 8: Computer Networks", name_hi: "यूनिट 8: कंप्यूटर नेटवर्क", desc: "OSI & TCP/IP layers, IPv4/IPv6, routing protocols, TCP/UDP, DNS, HTTP", count: "10-12 Qs" },
+      { id: "unit9", name: "Unit 9: Software Engineering", name_hi: "यूनिट 9: सॉफ्टवेयर इंजीनियरिंग", desc: "SDLC models, Agile/Scrum, requirement engineering, testing, UML", count: "6-8 Qs" },
+      { id: "unit10", name: "Unit 10: Web Technologies", name_hi: "यूनिट 10: वेब टेक्नोलॉजीज", desc: "HTML5 semantic markup, CSS3 styling, JavaScript fundamentals, DOM", count: "6-8 Qs" },
+      { id: "unit11", name: "Unit 11: Python Programming", name_hi: "यूनिट 11: पायथन प्रोग्रामिंग", desc: "Syntax, lists, tuples, dicts, functions, OOP in Python, exception handling", count: "6-8 Qs" },
+      { id: "unit12", name: "Unit 12: Artificial Intelligence & ML Basics", name_hi: "यूनिट 12: आर्टिफिशियल इंटेलिजेंस एवं एमएल", desc: "Search algorithms, knowledge representation, expert systems, ML basics", count: "4-6 Qs" },
+      { id: "unit13", name: "Unit 13: Cyber Security & Cryptography", name_hi: "यूनिट 13: साइबर सुरक्षा एवं क्रिप्टोग्राफी", desc: "Symmetric/asymmetric ciphers, RSA, hash functions, firewalls, attacks", count: "4-6 Qs" },
+      { id: "unit14", name: "Unit 14: Theory of Computation & Automata", name_hi: "यूनिट 14: ऑटोमेटा सिद्धांत", desc: "DFA, NFA, regular languages, context-free grammar, Turing machines", count: "4-6 Qs" },
+      { id: "unit15", name: "Unit 15: Emerging Technologies & Cloud", name_hi: "यूनिट 15: उभरती प्रौद्योगिकियां एवं क्लाउड", desc: "Cloud computing (IaaS/PaaS/SaaS), virtualization, IoT fundamentals", count: "4-6 Qs" },
+      { id: "pedagogy", name: "Art of Teaching (Pedagogy)", name_hi: "शिक्षण कला (Pedagogy)", desc: "Teaching maxims, lesson planning, micro-teaching, Bloom's taxonomy, evaluation", count: "30 Marks" },
+      { id: "general", name: "General Skills (GK, Math, Reasoning)", name_hi: "सामान्य दक्षता (GK, गणित, रीजनिंग)", desc: "Bihar GK, environmental science, numerical ability, logical deduction", count: "20 Marks" }
+    ];
+
+    const isHi = window.BSTET_I18N && window.BSTET_I18N.currentLang === 'hi';
+
+    grid.innerHTML = units.map(u => `
+      <div class="unit-card">
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+            <span class="badge badge-official" style="font-size: 11px;">${u.count}</span>
+          </div>
+          <h4 class="unit-card-title">${isHi ? u.name_hi : u.name}</h4>
+          <p class="unit-card-desc">${u.desc}</p>
+        </div>
+        <button class="btn btn-sm btn-outline practice-unit-btn" data-unit="${u.id}" style="width: 100%; margin-top: 8px;">
+          ${isHi ? 'अभ्यास शुरू करें &rarr;' : 'Practice Unit &rarr;'}
+        </button>
+      </div>
+    `).join('');
+
+    grid.querySelectorAll('.practice-unit-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const unitId = btn.dataset.unit;
+        window.location.hash = `#/topic-practice?unit=${encodeURIComponent(unitId)}`;
+      });
+    });
+  }
+
+  bindKeyboardShortcuts() {
+    window.addEventListener('keydown', (e) => {
+      if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT')) {
+        return;
+      }
+
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.modal-overlay.active').forEach(m => m.classList.remove('active'));
+        return;
+      }
+
+      if (e.key === '?' || (e.shiftKey && e.key === '?') || (e.key === 'h' && !e.ctrlKey && !e.metaKey)) {
+        e.preventDefault();
+        if (this.shortcutsModal) {
+          this.shortcutsModal.classList.toggle('active');
+        }
+        return;
+      }
+
+      if (this.examView && this.examView.classList.contains('active')) {
+        const key = e.key.toUpperCase();
+        if (['1', '2', '3', '4'].includes(e.key)) {
+          const map = { '1': 'A', '2': 'B', '3': 'C', '4': 'D' };
+          this.engine.selectOption(map[e.key]);
+          this.renderQuestionView();
+          this.renderPalette();
+        } else if (['A', 'B', 'C', 'D'].includes(key) && !e.ctrlKey && !e.metaKey) {
+          this.engine.selectOption(key);
+          this.renderQuestionView();
+          this.renderPalette();
+        } else if (key === 'N') {
+          e.preventDefault();
+          this.engine.saveAndNext();
+        } else if (key === 'P') {
+          e.preventDefault();
+          this.engine.prevQuestion();
+        } else if (key === 'M') {
+          e.preventDefault();
+          this.engine.markForReview();
+        } else if (key === 'C') {
+          e.preventDefault();
+          this.engine.clearResponse();
+          this.renderQuestionView();
+          this.renderPalette();
+        } else if (key === 'L') {
+          e.preventDefault();
+          this.toggleExamLanguage();
+        }
+      }
+    });
+  }
+
+  updateBookmarkButton(isBookmarked) {
+    if (!this.bookmarkQBtn) return;
+    const txt = document.getElementById('bookmark-btn-text');
+    if (isBookmarked) {
+      this.bookmarkQBtn.style.color = 'var(--primary)';
+      this.bookmarkQBtn.style.borderColor = 'var(--primary)';
+      if (txt) txt.textContent = 'Bookmarked';
+    } else {
+      this.bookmarkQBtn.style.color = '';
+      this.bookmarkQBtn.style.borderColor = '';
+      if (txt) txt.textContent = 'Bookmark';
+    }
+  }
+
+  updateCategoryCutoffStatus(report) {
+    const reportData = report || this.lastAnalyticsReport;
+    if (!reportData || !this.categoryQualStatus) return;
+
+    const select = document.getElementById('cutoff-category-select');
+    const categoryKey = select ? select.value : 'UR';
+
+    const cutoffs = {
+      UR: { name: "General (UR)", pct: 50, marks: (reportData.maxMarks * 0.50) },
+      BC: { name: "Backward Class (BC)", pct: 45.5, marks: (reportData.maxMarks * 0.455) },
+      EBC: { name: "Extremely Backward Class (EBC)", pct: 42.5, marks: (reportData.maxMarks * 0.425) },
+      SC_ST_FEMALE: { name: "SC / ST / Divyang / Female", pct: 40, marks: (reportData.maxMarks * 0.40) }
+    };
+
+    const target = cutoffs[categoryKey] || cutoffs.UR;
+    const margin = (reportData.totalScore - target.marks).toFixed(2);
+    const isQual = reportData.totalScore >= target.marks;
+    const isHi = window.BSTET_I18N && window.BSTET_I18N.currentLang === 'hi';
+
+    if (isQual) {
+      this.categoryQualStatus.className = 'qualification-badge qualified';
+      this.categoryQualStatus.innerHTML = isHi
+        ? `🎉 उत्तीर्ण (QUALIFIED) • कट-ऑफ से +${margin} अंक अधिक`
+        : `🎉 QUALIFIED • +${margin} Marks above ${target.name} Cutoff (${target.marks})`;
+    } else {
+      this.categoryQualStatus.className = 'qualification-badge not-qualified';
+      this.categoryQualStatus.innerHTML = isHi
+        ? `⚠️ अनुत्तीर्ण (NOT QUALIFIED) • कट-ऑफ से ${margin} अंक कम`
+        : `⚠️ NOT QUALIFIED • ${margin} Marks below ${target.name} Cutoff (${target.marks})`;
+    }
+  }
+
+  retryWrongQuestions() {
+    if (!this.lastAnalyticsReport || !this.lastAnalyticsReport.questionReviews) {
+      alert('No evaluation report found to retry wrong questions.');
+      return;
+    }
+
+    const wrongQs = this.lastAnalyticsReport.questionReviews.filter(q => !q.isCorrect);
+    if (wrongQs.length === 0) {
+      alert('🎉 Outstanding! You scored 100% on this test — zero incorrect questions to retry!');
+      return;
+    }
+
+    const retryPaper = {
+      id: `${this.currentPaper ? this.currentPaper.id : 'test'}_wrong_retry`,
+      title: `Retry Incorrect Questions: ${this.currentPaper ? this.currentPaper.title : 'Review Set'}`,
+      subtitle: `Targeted conceptual mastery drill of ${wrongQs.length} questions missed in your last attempt`,
+      category: 'Sectional Drill',
+      badge: 'Targeted Review',
+      badgeClass: 'badge-drill',
+      difficulty: 'Targeted',
+      totalQuestions: wrongQs.length,
+      totalMarks: wrongQs.length,
+      durationMinutes: Math.max(10, Math.ceil(wrongQs.length * 1.5)),
+      questions: wrongQs.map((q, idx) => ({ ...q, questionNumber: idx + 1 })),
+      sections: [{
+        id: 'wrong_review',
+        name: 'Incorrect Questions Review',
+        startQ: 1,
+        endQ: wrongQs.length,
+        total: wrongQs.length
+      }]
+    };
+
+    this.launchPaper(retryPaper, 'practice');
+  }
+
+  renderDashboard() {
+    const history = (window.ExamAnalytics && ExamAnalytics.getHistory) ? ExamAnalytics.getHistory() : [];
+    const totalTests = history.length;
+    const avgScore = totalTests > 0 ? (history.reduce((a, b) => a + (parseFloat(b.percentage) || 0), 0) / totalTests).toFixed(1) : 0;
+    const bestScore = totalTests > 0 ? Math.max(...history.map(b => parseFloat(b.percentage) || 0)).toFixed(1) : 0;
+
+    // Compute study streak
+    let streak = 0;
+    if (totalTests > 0) {
+      const dates = history.map(h => new Date(h.timestamp).toDateString());
+      const uniqueDays = [...new Set(dates)];
+      streak = uniqueDays.length;
+    }
+
+    const elTotal = document.getElementById('dash-total-tests');
+    const elAvg = document.getElementById('dash-avg-score');
+    const elBest = document.getElementById('dash-best-score');
+    const elStreak = document.getElementById('dash-study-streak');
+
+    if (elTotal) elTotal.textContent = String(totalTests);
+    if (elAvg) elAvg.textContent = `${avgScore}%`;
+    if (elBest) elBest.textContent = `${bestScore}%`;
+    if (elStreak) elStreak.textContent = `${streak} ${streak === 1 ? 'Day' : 'Days'}`;
+
+    // Render SVG Trend Chart
+    const trendContainer = document.getElementById('trend-svg-container');
+    if (trendContainer) {
+      if (totalTests === 0) {
+        trendContainer.innerHTML = `<p style="text-align: center; color: var(--text-tertiary); padding-top: 80px;">No test attempts recorded yet. Complete a mock test to see your accuracy trend!</p>`;
+      } else {
+        const recent = history.slice(0, 10).reverse();
+        const pts = recent.map((h, i) => {
+          const x = 40 + i * (520 / Math.max(1, recent.length - 1));
+          const y = 180 - (parseFloat(h.percentage || 0) / 100) * 150;
+          return { x, y, pct: h.percentage, title: h.paperTitle || `Test ${i+1}` };
+        });
+
+        const pointsStr = pts.map(p => `${p.x},${p.y}`).join(' ');
+
+        trendContainer.innerHTML = `
+          <svg viewBox="0 0 600 220" class="trend-svg">
+            <line x1="40" y1="30" x2="560" y2="30" stroke="var(--border-subtle)" stroke-dasharray="4" />
+            <text x="15" y="34" fill="var(--text-tertiary)" font-size="11">100%</text>
+            <line x1="40" y1="105" x2="560" y2="105" stroke="var(--border-subtle)" stroke-dasharray="4" />
+            <text x="20" y="109" fill="var(--text-tertiary)" font-size="11">50%</text>
+            <line x1="40" y1="180" x2="560" y2="180" stroke="var(--border-strong)" />
+            <text x="25" y="184" fill="var(--text-tertiary)" font-size="11">0%</text>
+
+            <polyline fill="none" stroke="var(--primary)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="${pointsStr}" />
+            ${pts.map(p => `
+              <circle cx="${p.x}" cy="${p.y}" r="5" fill="#ffffff" stroke="var(--primary)" stroke-width="2.5" />
+              <text x="${p.x}" y="${p.y - 10}" fill="var(--text-primary)" font-size="11" font-weight="700" text-anchor="middle">${p.pct}%</text>
+            `).join('')}
+          </svg>
+        `;
+      }
+    }
+
+    // Render Table
+    const tbody = document.getElementById('dash-history-table-body');
+    if (tbody) {
+      if (totalTests === 0) {
+        tbody.innerHTML = `<tr><td colspan="6" style="text-align: center; padding: 24px; color: var(--text-tertiary);">No historical tests found. Start your first CBT mock test from the home screen!</td></tr>`;
+      } else {
+        tbody.innerHTML = history.map(h => {
+          const dateStr = new Date(h.timestamp).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+          const statusBadge = h.isQualified
+            ? `<span class="badge badge-shift" style="font-size: 11px;">🎉 Qualified</span>`
+            : `<span class="badge badge-drill" style="font-size: 11px;">⚠️ Missed</span>`;
+
+          return `
+            <tr>
+              <td>${dateStr}</td>
+              <td><strong>${h.paperTitle || h.paperId}</strong></td>
+              <td><span style="font-weight: 700; color: var(--primary);">${h.score}</span> / ${h.maxMarks}</td>
+              <td>${h.accuracy}%</td>
+              <td>${statusBadge}</td>
+              <td>
+                <button class="btn btn-sm btn-outline view-hist-btn" data-id="${h.id}">Review</button>
+                <button class="btn btn-sm btn-secondary del-hist-btn" data-id="${h.id}" style="color: var(--danger); margin-left: 4px;">✕</button>
+              </td>
+            </tr>
+          `;
+        }).join('');
+
+        tbody.querySelectorAll('.view-hist-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const id = btn.dataset.id;
+            const item = history.find(h => String(h.id) === String(id));
+            if (item) this.displayHistoricalResult(item);
+          });
+        });
+
+        tbody.querySelectorAll('.del-hist-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const id = btn.dataset.id;
+            if (confirm('Delete this test attempt from history?')) {
+              localStorage.removeItem(`BSTET_REPORT_${id}`);
+              const updated = history.filter(h => String(h.id) !== String(id));
+              localStorage.setItem('BSTET_EXAM_HISTORY', JSON.stringify(updated));
+              this.renderDashboard();
+            }
+          });
+        });
+      }
+    }
+  }
+
+  exportHistoryJson() {
+    try {
+      const historyRaw = localStorage.getItem('BSTET_EXAM_HISTORY') || '[]';
+      const history = JSON.parse(historyRaw);
+      const reports = {};
+      history.forEach(h => {
+        const rep = localStorage.getItem(`BSTET_REPORT_${h.id}`);
+        if (rep) reports[h.id] = JSON.parse(rep);
+      });
+
+      const exportPayload = {
+        app: "Bihar STET Paper II CS CBT Portal",
+        version: "2.5.0",
+        exportedAt: new Date().toISOString(),
+        history,
+        reports
+      };
+
+      const blob = new Blob([JSON.stringify(exportPayload, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `bstet_cbt_history_${new Date().toISOString().slice(0, 10)}.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch (e) {
+      alert('Could not export test history: ' + e.message);
+    }
+  }
+
+  importHistoryJson(event) {
+    const file = event.target.files && event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const data = JSON.parse(e.target.result);
+        if (!data || !Array.isArray(data.history)) {
+          throw new Error('Invalid backup file schema. Expected a valid history array.');
+        }
+
+        const currentHistoryRaw = localStorage.getItem('BSTET_EXAM_HISTORY');
+        const currentHistory = currentHistoryRaw ? JSON.parse(currentHistoryRaw) : [];
+        const existingIds = new Set(currentHistory.map(h => String(h.id)));
+
+        let mergedCount = 0;
+        data.history.forEach(h => {
+          if (!existingIds.has(String(h.id))) {
+            currentHistory.push(h);
+            existingIds.add(String(h.id));
+            mergedCount++;
+          }
+        });
+
+        // Import reports if present
+        if (data.reports) {
+          Object.entries(data.reports).forEach(([id, rep]) => {
+            localStorage.setItem(`BSTET_REPORT_${id}`, JSON.stringify(rep));
+          });
+        }
+
+        currentHistory.sort((a, b) => b.timestamp - a.timestamp);
+        localStorage.setItem('BSTET_EXAM_HISTORY', JSON.stringify(currentHistory));
+
+        alert(`Successfully imported ${mergedCount} historical test attempts!`);
+        this.renderDashboard();
+      } catch (err) {
+        alert('Failed to import backup: ' + err.message);
+      }
+    };
+    reader.readAsText(file);
+  }
+
+  displayHistoricalResult(attempt) {
+    const report = ExamAnalytics.getAttempt(attempt.id);
+    if (report) {
+      this.lastAnalyticsReport = report;
+      this.showResultView(report);
+      window.location.hash = '#/result';
+    } else {
+      alert('Detailed scorecard record not found for this attempt.');
+    }
+  }
+
+  renderTopicPractice(unitParam) {
+    const grid = document.getElementById('topic-units-grid');
+    if (!grid) return;
+
+    const units = [
+      { id: "unit1", name: "Unit 1: Digital Logic & Number Systems", name_hi: "डिजिटल लॉजिक और नंबर सिस्टम" },
+      { id: "unit2", name: "Unit 2: Computer Organization & Architecture", name_hi: "कंप्यूटर संगठन और वास्तुकला" },
+      { id: "unit3", name: "Unit 3: Programming in C & C++", name_hi: "सी एवं सी++ प्रोग्रामिंग" },
+      { id: "unit4", name: "Unit 4: Data Structures", name_hi: "डेटा संरचनाएं" },
+      { id: "unit5", name: "Unit 5: Algorithms & Complexity", name_hi: "एल्गोरिदम और जटिलता" },
+      { id: "unit6", name: "Unit 6: Operating Systems", name_hi: "ऑपरेटिंग सिस्टम" },
+      { id: "unit7", name: "Unit 7: Database Management Systems", name_hi: "डेटाबेस प्रबंधन प्रणाली" },
+      { id: "unit8", name: "Unit 8: Computer Networks", name_hi: "कंप्यूटर नेटवर्क" },
+      { id: "unit9", name: "Unit 9: Software Engineering", name_hi: "सॉफ्टवेयर इंजीनियरिंग" },
+      { id: "unit10", name: "Unit 10: Web Technologies", name_hi: "वेब टेक्नोलॉजीज" },
+      { id: "unit11", name: "Unit 11: Python Programming", name_hi: "पायथन प्रोग्रामिंग" },
+      { id: "unit12", name: "Unit 12: Artificial Intelligence & ML Basics", name_hi: "आर्टिफिशियल इंटेलिजेंस एवं एमएल" },
+      { id: "unit13", name: "Unit 13: Cyber Security & Cryptography", name_hi: "साइबर सुरक्षा एवं क्रिप्टोग्राफी" },
+      { id: "unit14", name: "Unit 14: Theory of Computation & Automata", name_hi: "ऑटोमेटा सिद्धांत" },
+      { id: "unit15", name: "Unit 15: Emerging Technologies & Cloud", name_hi: "क्लाउड एवं उभरती प्रौद्योगिकियां" },
+      { id: "pedagogy", name: "Art of Teaching (Pedagogy)", name_hi: "शिक्षण कला (Pedagogy)" },
+      { id: "general", name: "General Skills (GK, Math, Reasoning)", name_hi: "सामान्य दक्षता (GK, गणित, रीजनिंग)" }
+    ];
+
+    const isHi = window.BSTET_I18N && window.BSTET_I18N.currentLang === 'hi';
+
+    grid.innerHTML = units.map(u => {
+      const isChecked = unitParam ? (u.id === unitParam) : true;
+      return `
+        <label class="unit-checkbox-label">
+          <input type="checkbox" value="${u.id}" ${isChecked ? 'checked' : ''}>
+          <span>${isHi ? u.name_hi : u.name}</span>
+        </label>
+      `;
+    }).join('');
+  }
+
+  async startCustomTopicPractice() {
+    const checkedBoxes = Array.from(document.querySelectorAll('#topic-units-grid input[type="checkbox"]:checked'));
+    if (checkedBoxes.length === 0) {
+      alert('Please select at least one syllabus unit to practice.');
+      return;
+    }
+
+    const selectedUnits = checkedBoxes.map(cb => cb.value);
+    const countSelect = document.getElementById('topic-q-count');
+    const targetCount = countSelect ? parseInt(countSelect.value, 10) : 25;
+    const modeSelect = document.getElementById('topic-mode-select');
+    const mode = modeSelect ? modeSelect.value : 'practice';
+
+    // Collect questions from available loaded papers or drills
+    const catalog = window.PAPERS_CATALOG || [];
+    let pool = [];
+
+    for (const p of catalog) {
+      const data = await this.loadPaperData(p);
+      if (data && Array.isArray(data.questions)) {
+        data.questions.forEach(q => {
+          const qTopic = (q.topic || '').toLowerCase();
+          const match = selectedUnits.some(u => {
+            if (u === 'pedagogy') return qTopic.includes('teaching') || qTopic.includes('pedagogy') || qTopic.includes('art of teaching');
+            if (u === 'general') return qTopic.includes('math') || qTopic.includes('reasoning') || qTopic.includes('gk') || qTopic.includes('general');
+            if (u === 'unit1') return qTopic.includes('logic') || qTopic.includes('boolean') || qTopic.includes('circuit');
+            if (u === 'unit2') return qTopic.includes('organization') || qTopic.includes('architecture') || qTopic.includes('cpu');
+            if (u === 'unit3') return qTopic.includes('c++') || qTopic.includes('programming in c');
+            if (u === 'unit4') return qTopic.includes('data structure') || qTopic.includes('tree') || qTopic.includes('stack') || qTopic.includes('queue');
+            if (u === 'unit5') return qTopic.includes('algorithm') || qTopic.includes('sorting') || qTopic.includes('complexity');
+            if (u === 'unit6') return qTopic.includes('operating') || qTopic.includes('process') || qTopic.includes('deadlock');
+            if (u === 'unit7') return qTopic.includes('database') || qTopic.includes('sql') || qTopic.includes('dbms');
+            if (u === 'unit8') return qTopic.includes('network') || qTopic.includes('tcp') || qTopic.includes('osi');
+            if (u === 'unit9') return qTopic.includes('software') || qTopic.includes('sdlc') || qTopic.includes('testing');
+            if (u === 'unit10') return qTopic.includes('web') || qTopic.includes('html') || qTopic.includes('css');
+            if (u === 'unit11') return qTopic.includes('python');
+            if (u === 'unit12') return qTopic.includes('intelligence') || qTopic.includes('machine learning') || qTopic.includes('ai');
+            if (u === 'unit13') return qTopic.includes('security') || qTopic.includes('cryptography');
+            if (u === 'unit14') return qTopic.includes('theory') || qTopic.includes('automata') || qTopic.includes('compiler');
+            if (u === 'unit15') return qTopic.includes('cloud') || qTopic.includes('emerging');
+            return true;
+          });
+          if (match) pool.push(q);
+        });
+      }
+      if (pool.length >= targetCount * 3) break;
+    }
+
+    if (pool.length === 0 && catalog[0]) {
+      const fallbackData = await this.loadPaperData(catalog[0]);
+      if (fallbackData) pool = fallbackData.questions;
+    }
+
+    const sampled = pool.sort(() => 0.5 - Math.random()).slice(0, targetCount);
+
+    const customPaper = {
+      id: `custom_topic_${Date.now()}`,
+      title: `Topic Practice (${selectedUnits.length} Units)`,
+      subtitle: `Focused practice drill of ${sampled.length} authentic questions`,
+      category: 'Sectional Drill',
+      badge: 'Custom Practice',
+      badgeClass: 'badge-drill',
+      difficulty: 'Targeted',
+      totalQuestions: sampled.length,
+      totalMarks: sampled.length,
+      durationMinutes: Math.max(10, Math.ceil(sampled.length * 1.5)),
+      questions: sampled.map((q, idx) => ({ ...q, questionNumber: idx + 1 })),
+      sections: [{
+        id: 'topic_practice',
+        name: 'Selected Topic Questions',
+        startQ: 1,
+        endQ: sampled.length,
+        total: sampled.length
+      }]
+    };
+
+    this.launchPaper(customPaper, mode);
   }
 }
 
