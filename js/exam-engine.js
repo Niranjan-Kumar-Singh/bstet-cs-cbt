@@ -145,6 +145,12 @@ class ExamEngine {
     return newLang;
   }
 
+  toggleCurrentQuestionLanguage(qId) {
+    const current = (this.questionLangOverrides && this.questionLangOverrides[qId]) || this.baseLang || 'en';
+    const nextLang = current === 'hi' ? 'en' : 'hi';
+    return this.setQuestionLanguage(qId, nextLang);
+  }
+
   getQuestionActiveLang(q) {
     if (!q) return this.baseLang || 'en';
     if (this.questionLangOverrides && this.questionLangOverrides[q.id]) {
@@ -181,6 +187,10 @@ class ExamEngine {
       return `<div class="dual-opt-container"><div class="dual-en">${enOpt}</div><div class="dual-hi" style="font-size:0.95em; margin-top:3px;"><span class="dual-tag">हिन्दी:</span> ${hiOpt}</div></div>`;
     }
     return enOpt;
+  }
+
+  getOptionText(q, optKey) {
+    return this.getQuestionOption(q, optKey);
   }
 
   getQuestionTopic(q) {

@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "skills": {
+    "google-agents-cli-adk-code": {
+      "source": "google/agents-cli",
+      "commit": "2fa159a803aceec3b4df808901e53a08a6f1fb2a",
+      "sourceType": "github",
+      "skillPath": "skills/google-agents-cli-adk-code/SKILL.md",
+      "computedHash": "551a2d5f66e9e4edb6db73edbd72fd576f052f710a7d9a5b3bd015e8076f4769"
+    },
+    "google-agents-cli-deploy": {
+      "source": "google/agents-cli",
+      "commit": "2fa159a803aceec3b4df808901e53a08a6f1fb2a",
+      "sourceType": "github",
+      "skillPath": "skills/google-agents-cli-deploy/SKILL.md",
+      "computedHash": "2fd82645bbc39d5552aac85825b0757c929eff863081fbf95859fc7b17821c93"
+    },
+    "google-agents-cli-eval": {
+      "source": "google/agents-cli",
+      "commit": "2fa159a803aceec3b4df808901e53a08a6f1fb2a",
+      "sourceType": "github",
+      "skillPath": "skills/google-agents-cli-eval/SKILL.md",
+      "computedHash": "c383e28474abf741201cef15860f1709123930f0bbadb231c7e273236583ca7f"
+    },
+    "google-agents-cli-observability": {
+      "source": "google/agents-cli",
+      "commit": "2fa159a803aceec3b4df808901e53a08a6f1fb2a",
+      "sourceType": "github",
+      "skillPath": "skills/google-agents-cli-observability/SKILL.md",
+      "computedHash": "703d48cacb1aa808ef76079ae000e2458449c523019d783e0cac2a9110ed6aef"
+    },
+    "google-agents-cli-publish": {
+      "source": "google/agents-cli",
+      "commit": "2fa159a803aceec3b4df808901e53a08a6f1fb2a",
+      "sourceType": "github",
+      "skillPath": "skills/google-agents-cli-publish/SKILL.md",
+      "computedHash": "b36000ea39f16c3beac83901bc3b683052c72231b4d743c905dad1821de05a20"
+    },
+    "google-agents-cli-scaffold": {
+      "source": "google/agents-cli",
+      "commit": "2fa159a803aceec3b4df808901e53a08a6f1fb2a",
+      "sourceType": "github",
+      "skillPath": "skills/google-agents-cli-scaffold/SKILL.md",
+      "computedHash": "4a48ba36f72c6fd6a0aba4525876ebbfc52397a4624f807c192097e52b7cc128"
+    },
+    "google-agents-cli-workflow": {
+      "source": "google/agents-cli",
+      "commit": "2fa159a803aceec3b4df808901e53a08a6f1fb2a",
+      "sourceType": "github",
+      "skillPath": "skills/google-agents-cli-workflow/SKILL.md",
+      "computedHash": "e77ed2b7d7fbb9a87615d020ddf351149eea2f7ad4648c3741809ebffb96ec74"
+    }
+  }
+}

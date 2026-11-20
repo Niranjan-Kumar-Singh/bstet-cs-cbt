@@ -1284,7 +1284,10 @@ class App {
       }
 
       const script = document.createElement('script');
-      script.src = `js/data/${meta.jsFile}?v=20261120_pedagogy_v3`;
+      const basePath = (window.location.pathname.endsWith('/') 
+        ? window.location.pathname 
+        : window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1)) || './';
+      script.src = `${basePath}js/data/${meta.jsFile}?v=20261120_pedagogy_v3`;
       script.async = true;
       script.dataset.paperFile = meta.jsFile;
       script.onload = () => {
@@ -1351,16 +1354,33 @@ class App {
       this.startExamBtn.innerText = 'Loading Paper...';
     }
 
+    let paperData = null;
     try {
-      const paperData = await this.loadPaperData(this.selectedPaperMeta);
-      if (!paperData) {
-        alert('Error loading question paper data.');
-        return;
+      paperData = await this.loadPaperData(this.selectedPaperMeta);
+    } catch (err) {
+      console.error('Network/Script load error:', err);
+      alert('Failed to load examination paper. Please check your internet connection.');
+      if (this.startExamBtn) {
+        this.startExamBtn.disabled = false;
+        this.startExamBtn.innerText = originalText;
       }
+      return;
+    }
+
+    if (!paperData) {
+      alert('Error loading question paper data.');
+      if (this.startExamBtn) {
+        this.startExamBtn.disabled = false;
+        this.startExamBtn.innerText = originalText;
+      }
+      return;
+    }
+
+    try {
       this.launchPaper(paperData, mode);
     } catch (err) {
-      console.error(err);
-      alert('Failed to load examination paper. Please check your internet connection.');
+      console.error('Launch paper error:', err);
+      alert('Error initializing examination session: ' + (err.message || 'Unknown error'));
     } finally {
       if (this.startExamBtn) {
         this.startExamBtn.disabled = false;
@@ -1529,17 +1549,41 @@ class App {
     // Sync language control buttons for this specific question
     this.updateExamLanguageControls(q);
 
-    // Options (Bilingual)
+    // Options (Bilingual & Practice Mode Reactive Feedback)
     this.optionsContainer.innerHTML = '';
     const currentResp = this.engine.responses[q.id];
+    const isPractice = this.engine.mode === 'practice';
 
     const optLetters = (q.options && q.options.E !== undefined) ? ['A', 'B', 'C', 'D', 'E'] : ['A', 'B', 'C', 'D'];
     optLetters.forEach(letter => {
-      const optText = this.engine.getOptionText(q, letter);
+      let optText = '';
+      if (typeof this.engine.getOptionText === 'function') {
+        optText = this.engine.getOptionText(q, letter);
+      } else if (typeof this.engine.getQuestionOption === 'function') {
+        optText = this.engine.getQuestionOption(q, letter);
+      } else if (q.options && q.options[letter]) {
+        optText = q.options[letter];
+      }
       if (!optText) return;
 
       const card = document.createElement('div');
-      card.className = `option-card ${currentResp === letter ? 'selected' : ''}`;
+      let statusClasses = [];
+      if (currentResp === letter) {
+        statusClasses.push('selected');
+      }
+
+      // Interactive immediate feedback in Practice Mode:
+      if (isPractice && currentResp) {
+        if (q.correctAnswer === 'Deleted' || q.isDeleted) {
+          statusClasses.push('practice-correct');
+        } else if (letter === q.correctAnswer) {
+          statusClasses.push('practice-correct');
+        } else if (currentResp === letter && letter !== q.correctAnswer) {
+          statusClasses.push('practice-incorrect');
+        }
+      }
+
+      card.className = `option-card ${statusClasses.join(' ')}`.trim();
       card.innerHTML = `
         <div class="option-indicator">${letter}</div>
         <div class="option-text">${optText}</div>
@@ -1567,8 +1611,18 @@ class App {
       });
     }
 
-    // Practice explanation box reset
-    this.practiceBox.classList.remove('active');
+    // Practice explanation box update
+    if (isPractice && currentResp) {
+      const expl = this.engine.getQuestionExplanation(q);
+      if (expl && this.practiceContent && this.practiceBox) {
+        this.practiceContent.innerHTML = expl.replace(/\n/g, '<br>');
+        this.practiceBox.classList.add('active');
+      } else if (this.practiceBox) {
+        this.practiceBox.classList.remove('active');
+      }
+    } else if (this.practiceBox) {
+      this.practiceBox.classList.remove('active');
+    }
 
     // Update mobile palette button text
     if (this.mobilePaletteToggle) {
@@ -1690,7 +1744,14 @@ class App {
       const statement = this.engine.getQuestionStatement(q);
       const optLetters = (q.options && q.options.E !== undefined) ? ['A', 'B', 'C', 'D', 'E'] : ['A', 'B', 'C', 'D'];
       const optsHtml = optLetters.map(l => {
-        const t = this.engine.getOptionText(q, l);
+        let t = '';
+        if (typeof this.engine.getOptionText === 'function') {
+          t = this.engine.getOptionText(q, l);
+        } else if (typeof this.engine.getQuestionOption === 'function') {
+          t = this.engine.getQuestionOption(q, l);
+        } else if (q.options && q.options[l]) {
+          t = q.options[l];
+        }
         return t ? `<div>(${l}) ${t}</div>` : '';
       }).join('');
 
@@ -1727,17 +1788,18 @@ class App {
     this.resScore.innerText = report.totalScore;
     this.resMaxScore.innerText = `/ ${report.maxMarks}`;
 
+    const genCutoffMarks = (report.cutoffs && report.cutoffs.General && report.cutoffs.General.minMarks) || Math.round(report.maxMarks * 0.5);
     // Verdict Badge
     if (report.isQualified) {
       this.resVerdictBadge.className = 'verdict-badge qualified';
       this.resVerdictBadge.innerHTML = isHindi
-        ? `🎉 उत्तीर्ण (QUALIFIED) • स्कोर: ${report.totalScore} (सामान्य कट-ऑफ 75 अंक)`
-        : `🎉 QUALIFIED • Score: ${report.totalScore} (Gen Cutoff 75 Marks)`;
+        ? `🎉 उत्तीर्ण (QUALIFIED) • स्कोर: ${report.totalScore} (सामान्य कट-ऑफ ${genCutoffMarks} अंक)`
+        : `🎉 QUALIFIED • Score: ${report.totalScore} (Gen Cutoff ${genCutoffMarks} Marks)`;
     } else {
       this.resVerdictBadge.className = 'verdict-badge not-qualified';
       this.resVerdictBadge.innerHTML = isHindi
-        ? `⚠️ अनुत्तीर्ण (NOT QUALIFIED) • स्कोर: ${report.totalScore} (सामान्य कट-ऑफ 75 अंक आवश्यक)`
-        : `⚠️ NOT QUALIFIED • Score: ${report.totalScore} (75 Marks Needed for Gen Cutoff)`;
+        ? `⚠️ अनुत्तीर्ण (NOT QUALIFIED) • स्कोर: ${report.totalScore} (सामान्य कट-ऑफ ${genCutoffMarks} अंक आवश्यक)`
+        : `⚠️ NOT QUALIFIED • Score: ${report.totalScore} (${genCutoffMarks} Marks Needed for Gen Cutoff)`;
     }
 
     // Animate Circular Gauges
@@ -1915,10 +1977,13 @@ class App {
     }
 
     this.solutionsList.innerHTML = filtered.map(q => {
-      const statusClass = q.isCorrect ? 'correct' : (q.isAttempted ? 'incorrect' : 'unattempted');
-      const statusText = q.isCorrect 
-        ? '<span style="color: #16a34a; font-weight: 700;">✔ Correct</span>' 
-        : (q.isAttempted ? '<span style="color: #dc2626; font-weight: 700;">✘ Incorrect</span>' : '<span style="color: #64748b; font-weight: 700;">○ Unattempted</span>');
+      const isDel = q.isDeleted || q.correctAnswer === 'Deleted';
+      const statusClass = isDel ? 'correct' : (q.isCorrect ? 'correct' : (q.isAttempted ? 'incorrect' : 'unattempted'));
+      const statusText = isDel
+        ? '<span style="color: #2563eb; font-weight: 700;">★ Full Credit (Question Cancelled by Commission)</span>'
+        : (q.isCorrect 
+            ? '<span style="color: #16a34a; font-weight: 700;">✔ Correct</span>' 
+            : (q.isAttempted ? '<span style="color: #dc2626; font-weight: 700;">✘ Incorrect</span>' : '<span style="color: #64748b; font-weight: 700;">○ Unattempted</span>'));
 
       const questionStatement = isHindi && q.question_hi ? q.question_hi : q.question;
       const topicName = (isHindi && (q.topic_hi || (i18n && i18n.translateTopic(q.topic)))) || q.topic;
@@ -2618,20 +2683,34 @@ class App {
         });
 
         const pointsStr = pts.map(p => `${p.x},${p.y}`).join(' ');
+        const firstX = pts[0].x;
+        const lastX = pts[pts.length - 1].x;
+        const areaPointsStr = `${firstX},180 ${pointsStr} ${lastX},180`;
 
         trendContainer.innerHTML = `
-          <svg viewBox="0 0 600 220" class="trend-svg">
+          <svg viewBox="0 0 600 220" class="trend-svg" style="overflow: visible;">
+            <defs>
+              <linearGradient id="trendAreaGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.32"/>
+                <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.01"/>
+              </linearGradient>
+              <filter id="pointShadow" x="-20%" y="-20%" width="140%" height="140%">
+                <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.25"/>
+              </filter>
+            </defs>
             <line x1="40" y1="30" x2="560" y2="30" stroke="var(--border-subtle)" stroke-dasharray="4" />
-            <text x="15" y="34" fill="var(--text-tertiary)" font-size="11">100%</text>
+            <text x="15" y="34" fill="var(--text-tertiary)" font-size="11" font-weight="600">100%</text>
             <line x1="40" y1="105" x2="560" y2="105" stroke="var(--border-subtle)" stroke-dasharray="4" />
-            <text x="20" y="109" fill="var(--text-tertiary)" font-size="11">50%</text>
+            <text x="20" y="109" fill="var(--text-tertiary)" font-size="11" font-weight="600">50%</text>
             <line x1="40" y1="180" x2="560" y2="180" stroke="var(--border-strong)" />
-            <text x="25" y="184" fill="var(--text-tertiary)" font-size="11">0%</text>
+            <text x="25" y="184" fill="var(--text-tertiary)" font-size="11" font-weight="600">0%</text>
 
-            <polyline fill="none" stroke="var(--primary)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="${pointsStr}" />
+            <polygon fill="url(#trendAreaGrad)" points="${areaPointsStr}" />
+            <polyline fill="none" stroke="var(--primary)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" points="${pointsStr}" />
             ${pts.map(p => `
-              <circle cx="${p.x}" cy="${p.y}" r="5" fill="#ffffff" stroke="var(--primary)" stroke-width="2.5" />
-              <text x="${p.x}" y="${p.y - 10}" fill="var(--text-primary)" font-size="11" font-weight="700" text-anchor="middle">${p.pct}%</text>
+              <circle cx="${p.x}" cy="${p.y}" r="6" fill="var(--bg-surface)" stroke="var(--primary)" stroke-width="2.5" filter="url(#pointShadow)" />
+              <rect x="${p.x - 18}" y="${p.y - 28}" width="36" height="18" rx="4" fill="var(--bg-surface)" stroke="var(--border-subtle)" stroke-width="1" />
+              <text x="${p.x}" y="${p.y - 15}" fill="var(--text-primary)" font-size="11" font-weight="700" text-anchor="middle">${p.pct}%</text>
             `).join('')}
           </svg>
         `;

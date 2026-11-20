@@ -33,8 +33,9 @@ class ExamAnalytics {
     paper.questions.forEach((q, idx) => {
       const qNum = idx + 1;
       const userChoice = responses[q.id];
-      const isCorrect = userChoice === q.correctAnswer;
-      const isAttempted = !!userChoice;
+      const isDeleted = q.correctAnswer === 'Deleted' || q.isDeleted === true || q.isBonus === true;
+      const isAttempted = isDeleted ? true : !!userChoice;
+      const isCorrect = isDeleted ? true : (userChoice === q.correctAnswer);
       const timeSpent = timeSpentPerQ[q.id] || 0;
       totalTimeSpent += timeSpent;
 
@@ -92,7 +93,8 @@ class ExamAnalytics {
       questionReviews.push({
         ...q,
         questionNumber: qNum,
-        userResponse: userChoice || null,
+        userResponse: userChoice || (isDeleted ? 'Full Credit (Question Deleted by Commission)' : null),
+        isDeleted: isDeleted,
         isCorrect: isCorrect,
         isAttempted: isAttempted,
         timeSpent: timeSpent
@@ -116,46 +118,53 @@ class ExamAnalytics {
       paceDescription = "Pace needs acceleration to avoid missing final questions";
     }
 
-    // Official Bihar STET Qualifying Cutoffs
+    // Official Bihar STET Qualifying Cutoffs (Proportional to paper maxMarks)
+    const genMin = parseFloat(((maxMarks * 50.0) / 100).toFixed(2));
+    const bcMin = parseFloat(((maxMarks * 45.5) / 100).toFixed(2));
+    const ebcMin = parseFloat(((maxMarks * 42.5) / 100).toFixed(2));
+    const scMin = parseFloat(((maxMarks * 40.0) / 100).toFixed(2));
+
     const cutoffs = {
       General: {
         category: "General (UR)",
         category_hi: "सामान्य (अनारक्षित)",
         minPct: 50.0,
-        minMarks: 75.0,
-        qualified: totalScore >= 75.0,
-        margin: (totalScore - 75.0).toFixed(1)
+        minMarks: genMin,
+        qualified: totalScore >= genMin,
+        margin: (totalScore - genMin).toFixed(1)
       },
       BC: {
         category: "Backward Class (BC)",
         category_hi: "पिछड़ा वर्ग (BC)",
         minPct: 45.5,
-        minMarks: 68.25,
-        qualified: totalScore >= 68.25,
-        margin: (totalScore - 68.25).toFixed(2)
+        minMarks: bcMin,
+        qualified: totalScore >= bcMin,
+        margin: (totalScore - bcMin).toFixed(2)
       },
       EBC: {
         category: "Extremely Backward Class (EBC)",
         category_hi: "अत्यंत पिछड़ा वर्ग (EBC)",
         minPct: 42.5,
-        minMarks: 63.75,
-        qualified: totalScore >= 63.75,
-        margin: (totalScore - 63.75).toFixed(2)
+        minMarks: ebcMin,
+        qualified: totalScore >= ebcMin,
+        margin: (totalScore - ebcMin).toFixed(2)
       },
       SC_ST_Women_PwD: {
         category: "SC / ST / Divyang / Women",
         category_hi: "अ.जा. / अ.ज.जा. / दिव्यांग / महिला",
         minPct: 40.0,
-        minMarks: 60.0,
-        qualified: totalScore >= 60.0,
-        margin: (totalScore - 60.0).toFixed(1)
+        minMarks: scMin,
+        qualified: totalScore >= scMin,
+        margin: (totalScore - scMin).toFixed(1)
       }
     };
 
     const isQualified = cutoffs.General.qualified;
 
     // Percentile Projection Model (Normal Distribution mean 68, SD 18 for 150 Qs)
-    const z = (totalScore - 68) / 18.0;
+    const meanScore = maxMarks * 0.453;
+    const stdDev = Math.max(1, maxMarks * 0.12);
+    const z = (totalScore - meanScore) / stdDev;
     let estPercentile = 50.0;
     // Standard normal CDF approximation
     const cdf = 1.0 / (1.0 + Math.exp(-1.7 * z));

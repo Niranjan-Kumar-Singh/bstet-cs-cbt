@@ -440,22 +440,58 @@
   gap: 14px;
   background-color: var(--bg-surface);
   border: 2px solid var(--border-subtle);
-  padding: 14px 18px;
+  padding: 16px 20px;
   border-radius: var(--radius-md);
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   user-select: none;
+  min-height: 54px;
 }
 
 .option-card:hover {
   border-color: var(--primary-border);
   background-color: var(--primary-subtle);
+  transform: translateY(-1px);
 }
 
 .option-card.selected {
   border-color: var(--primary);
   background-color: var(--primary-subtle);
-  box-shadow: 0 0 0 1px var(--primary);
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+
+.option-card.practice-correct {
+  border-color: #16a34a !important;
+  background-color: rgba(22, 163, 74, 0.12) !important;
+}
+
+.option-card.practice-correct .option-indicator {
+  background-color: #16a34a !important;
+  border-color: #16a34a !important;
+  color: #ffffff !important;
+}
+
+[data-theme="dark"] .option-card.practice-correct {
+  border-color: #22c55e !important;
+  background-color: rgba(34, 197, 94, 0.18) !important;
+  box-shadow: 0 0 0 1px rgba(34, 197, 94, 0.4);
+}
+
+.option-card.practice-incorrect {
+  border-color: #dc2626 !important;
+  background-color: rgba(220, 38, 38, 0.12) !important;
+}
+
+.option-card.practice-incorrect .option-indicator {
+  background-color: #dc2626 !important;
+  border-color: #dc2626 !important;
+  color: #ffffff !important;
+}
+
+[data-theme="dark"] .option-card.practice-incorrect {
+  border-color: #ef4444 !important;
+  background-color: rgba(239, 68, 68, 0.18) !important;
+  box-shadow: 0 0 0 1px rgba(239, 68, 68, 0.4);
 }
 
 .option-card input[type="radio"] {
@@ -463,14 +499,14 @@
 }
 
 .option-indicator {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
   border: 2px solid var(--border-strong);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   flex-shrink: 0;
   color: var(--text-secondary);

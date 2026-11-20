@@ -10,6 +10,7 @@ docs/
 .agent/
 .agents/
 .gemini/
+bstet-qa-agent/
 
 # Development & extraction scripts
 scripts/
@@ -22,6 +23,7 @@ __pycache__/
 *.log
 .git/
 .gitignore
+skills-lock.json
 
 # OS files
 .DS_Store

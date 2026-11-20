@@ -49,31 +49,44 @@
 .nav-links {
   display: flex;
   align-items: center;
-  gap: var(--space-4);
-  margin-left: var(--space-6);
+  gap: 6px;
+  margin: 0 16px;
+  background: var(--bg-inset);
+  padding: 4px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
 }
 
 .nav-link {
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 600;
   color: var(--text-secondary);
   text-decoration: none;
-  padding: 6px 12px;
+  padding: 7px 16px;
   border-radius: var(--radius-sm);
   transition: all var(--dur-fast) ease;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid transparent;
 }
 
-.nav-link:hover,
+.nav-link:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.05);
+}
+
 .nav-link.active {
-  color: var(--primary);
-  background: var(--primary-light);
+  color: #ffffff !important;
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.35);
   text-decoration: none;
 }
 
 .nav-actions {
   display: flex;
   align-items: center;
-  gap: var(--space-2);
+  gap: 10px;
 }
 
 /* 2. Lobby Layout & Hero Banner */

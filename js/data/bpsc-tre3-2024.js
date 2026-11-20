@@ -917,9 +917,9 @@ window.bpsc_tre3_2024 = {
       "topic_hi": "सामान्य अध्ययन एवं समसामयिकी",
       "question": "By what number should 81 be divided to get a perfect cube ?",
       "options": {
-        "A": "",
-        "B": "",
-        "C": "",
+        "A": "3",
+        "B": "6",
+        "C": "7",
         "D": "More than one of the above",
         "E": "None of the above"
       },
@@ -929,7 +929,14 @@ window.bpsc_tre3_2024 = {
       "marks": 1,
       "negativeMarks": 0,
       "explanation": "**Official Answer: (A)**\n\n**General Studies & Current Affairs**: Official BPSC TRE 3.0 Answer Key (Advt 22/2024, Series E).",
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A)**\n\n**सामान्य अध्ययन एवं समसामयिकी**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A)**\n\n**सामान्य अध्ययन एवं समसामयिकी**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।",
+      "options_hi": {
+        "A": "3",
+        "B": "6",
+        "C": "7",
+        "D": "उपर्युक्त में से एक से अधिक",
+        "E": "उपर्युक्त में से कोई नहीं"
+      }
     },
     {
       "qnum": 34,
@@ -1001,9 +1008,9 @@ window.bpsc_tre3_2024 = {
       "topic_hi": "सामान्य अध्ययन एवं समसामयिकी",
       "question": "If (–3)m+1 × (–3)5 = (–3)7, then the value of m is :",
       "options": {
-        "A": "",
-        "B": "",
-        "C": "",
+        "A": "5",
+        "B": "7",
+        "C": "1",
         "D": "More than one of the above",
         "E": "None of the above"
       },
@@ -1013,7 +1020,14 @@ window.bpsc_tre3_2024 = {
       "marks": 1,
       "negativeMarks": 0,
       "explanation": "**Official Answer: (C)**\n\n**General Studies & Current Affairs**: Official BPSC TRE 3.0 Answer Key (Advt 22/2024, Series E).",
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C)**\n\n**सामान्य अध्ययन एवं समसामयिकी**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C)**\n\n**सामान्य अध्ययन एवं समसामयिकी**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।",
+      "options_hi": {
+        "A": "5",
+        "B": "7",
+        "C": "1",
+        "D": "उपर्युक्त में से एक से अधिक",
+        "E": "उपर्युक्त में से कोई नहीं"
+      }
     },
     {
       "qnum": 38,
@@ -1045,7 +1059,7 @@ window.bpsc_tre3_2024 = {
       "options": {
         "A": "1/25",
         "B": "1/5",
-        "C": "",
+        "C": "25",
         "D": "More than one of the above",
         "E": "None of the above"
       },
@@ -1055,7 +1069,14 @@ window.bpsc_tre3_2024 = {
       "marks": 1,
       "negativeMarks": 0,
       "explanation": "**Official Answer: (C)**\n\n**Elementary Mathematics**: Official BPSC TRE 3.0 Answer Key (Advt 22/2024, Series E).",
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C)**\n\n**प्रारंभिक गणित**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C)**\n\n**प्रारंभिक गणित**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।",
+      "options_hi": {
+        "A": "1/25",
+        "B": "1/5",
+        "C": "25",
+        "D": "उपर्युक्त में से एक से अधिक",
+        "E": "उपर्युक्त में से कोई नहीं"
+      }
     },
     {
       "qnum": 40,
@@ -1327,8 +1348,9 @@ window.bpsc_tre3_2024 = {
       "questionNumber": 52,
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "**Official Answer: (Deleted)**\n\n**Elementary Mathematics**: Official BPSC TRE 3.0 Answer Key (Advt 22/2024, Series E).",
-      "explanation_hi": "**आधिकारिक सही उत्तर: (Deleted)**\n\n**प्रारंभिक गणित**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।"
+      "explanation": "**Official Status: Question Cancelled / Deleted by BPSC**\n\nClerical erratum in examination booklet ('revise' printed instead of 'revive'). In the official final answer key published by BPSC (Advt. 22/2024), this question was formally deleted and full credit is awarded to all candidates.",
+      "explanation_hi": "**आधिकारिक स्थिति: प्रश्न निरस्त (BPSC द्वारा रद्द)**\n\nपरीक्षा पुस्तिका में लिपिकीय त्रुटि ('revise' मुद्रित हो गया था) के कारण BPSC ने अंतिम उत्तर कुंजी में इस प्रश्न को निरस्त (Deleted) कर दिया है और सभी परीक्षार्थियों को इसका पूरा अंक दिया गया है।",
+      "isDeleted": true
     },
     {
       "qnum": 53,
@@ -1684,8 +1706,9 @@ window.bpsc_tre3_2024 = {
       "questionNumber": 69,
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "**Official Answer: (Deleted)**\n\n**Indian National Movement**: Official BPSC TRE 3.0 Answer Key (Advt 22/2024, Series E).",
-      "explanation_hi": "**आधिकारिक सही उत्तर: (Deleted)**\n\n**भारतीय राष्ट्रीय आंदोलन**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।"
+      "explanation": "**Official Status: Question Cancelled / Deleted by BPSC**\n\nHistorical question erratum (Bihar Provincial Congress Committee was established in 1908, not 1920). As per BPSC official final revised key, this question was formally deleted and full credit is awarded to all candidates.",
+      "explanation_hi": "**आधिकारिक स्थिति: प्रश्न निरस्त (BPSC द्वारा रद्द)**\n\nबिहार प्रांतीय कांग्रेस कमेटी की स्थापना वर्ष 1908 में हुई थी (1920 में नहीं)। अतः प्रश्न में ऐतिहासिक वर्ष की त्रुटि के कारण BPSC ने इसे अंतिम उत्तर कुंजी में निरस्त (Deleted) घोषित किया है और सभी अभ्यर्थियों को पूर्ण अंक दिया गया है।",
+      "isDeleted": true
     },
     {
       "qnum": 70,
@@ -1778,9 +1801,9 @@ window.bpsc_tre3_2024 = {
       "topic_hi": "डिजिटल लॉजिक और सर्किट",
       "question": "An OR gate has 4 inputs. The number of words in truth table will be _______.",
       "options": {
-        "A": "",
-        "B": "",
-        "C": "",
+        "A": "4",
+        "B": "8",
+        "C": "16",
         "D": "More than one of the above",
         "E": "None of the above"
       },
@@ -1790,7 +1813,14 @@ window.bpsc_tre3_2024 = {
       "marks": 1,
       "negativeMarks": 0,
       "explanation": "**Official Answer: (C)**\n\n**Digital Logic & Circuits**: Official BPSC TRE 3.0 Answer Key (Advt 22/2024, Series E).",
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C)**\n\n**डिजिटल लॉजिक और सर्किट**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C)**\n\n**डिजिटल लॉजिक और सर्किट**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।",
+      "options_hi": {
+        "A": "4",
+        "B": "8",
+        "C": "16",
+        "D": "उपर्युक्त में से एक से अधिक",
+        "E": "उपर्युक्त में से कोई नहीं"
+      }
     },
     {
       "qnum": 75,
@@ -1822,7 +1852,7 @@ window.bpsc_tre3_2024 = {
       "options": {
         "A": "1000",
         "B": "1110",
-        "C": "",
+        "C": "100",
         "D": "More than one of the above",
         "E": "None of the above"
       },
@@ -1832,7 +1862,14 @@ window.bpsc_tre3_2024 = {
       "marks": 1,
       "negativeMarks": 0,
       "explanation": "**Official Answer: (A)**\n\n**Computer Science Concepts**: Official BPSC TRE 3.0 Answer Key (Advt 22/2024, Series E).",
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A)**\n\n**कंप्यूटर विज्ञान अवधारणाएं**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A)**\n\n**कंप्यूटर विज्ञान अवधारणाएं**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।",
+      "options_hi": {
+        "A": "1000",
+        "B": "1110",
+        "C": "100",
+        "D": "उपर्युक्त में से एक से अधिक",
+        "E": "उपर्युक्त में से कोई नहीं"
+      }
     },
     {
       "qnum": 77,
@@ -1904,9 +1941,9 @@ window.bpsc_tre3_2024 = {
       "topic_hi": "डिजिटल लॉजिक और सर्किट",
       "question": "How many select lines are required for an 8-to-1 multiplexer?",
       "options": {
-        "A": "",
-        "B": "",
-        "C": "",
+        "A": "2",
+        "B": "3",
+        "C": "4",
         "D": "More than one of the above",
         "E": "None of the above"
       },
@@ -1916,7 +1953,14 @@ window.bpsc_tre3_2024 = {
       "marks": 1,
       "negativeMarks": 0,
       "explanation": "**Official Answer: (B)**\n\n**Digital Logic & Circuits**: Official BPSC TRE 3.0 Answer Key (Advt 22/2024, Series E).",
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B)**\n\n**डिजिटल लॉजिक और सर्किट**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B)**\n\n**डिजिटल लॉजिक और सर्किट**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।",
+      "options_hi": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "उपर्युक्त में से एक से अधिक",
+        "E": "उपर्युक्त में से कोई नहीं"
+      }
     },
     {
       "qnum": 81,
@@ -1988,9 +2032,9 @@ window.bpsc_tre3_2024 = {
       "topic_hi": "कंप्यूटर आर्किटेक्चर एवं संगठन",
       "question": "When performing BCD addition, what is the maximum value that can be represented in a single BCD digit?",
       "options": {
-        "A": "",
-        "B": "",
-        "C": "",
+        "A": "2",
+        "B": "10",
+        "C": "15",
         "D": "More than one of the above",
         "E": "None of the above"
       },
@@ -2000,7 +2044,14 @@ window.bpsc_tre3_2024 = {
       "marks": 1,
       "negativeMarks": 0,
       "explanation": "**Official Answer: (E)**\n\n**Computer Architecture & Organization**: Official BPSC TRE 3.0 Answer Key (Advt 22/2024, Series E).",
-      "explanation_hi": "**आधिकारिक सही उत्तर: (E)**\n\n**कंप्यूटर आर्किटेक्चर एवं संगठन**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (E)**\n\n**कंप्यूटर आर्किटेक्चर एवं संगठन**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।",
+      "options_hi": {
+        "A": "2",
+        "B": "10",
+        "C": "15",
+        "D": "उपर्युक्त में से एक से अधिक",
+        "E": "उपर्युक्त में से कोई नहीं"
+      }
     },
     {
       "qnum": 85,
@@ -2135,9 +2186,9 @@ window.bpsc_tre3_2024 = {
       "topic_hi": "कंप्यूटर आर्किटेक्चर एवं संगठन",
       "question": "The result evaluating the postfix expression 10 5 + 60 6/ * 8",
       "options": {
-        "A": "",
-        "B": "",
-        "C": "",
+        "A": "142",
+        "B": "213",
+        "C": "284",
         "D": "More than one of the above",
         "E": "None of the above"
       },
@@ -2147,7 +2198,14 @@ window.bpsc_tre3_2024 = {
       "marks": 1,
       "negativeMarks": 0,
       "explanation": "**Official Answer: (E)**\n\n**Computer Architecture & Organization**: Official BPSC TRE 3.0 Answer Key (Advt 22/2024, Series E).",
-      "explanation_hi": "**आधिकारिक सही उत्तर: (E)**\n\n**कंप्यूटर आर्किटेक्चर एवं संगठन**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (E)**\n\n**कंप्यूटर आर्किटेक्चर एवं संगठन**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।",
+      "options_hi": {
+        "A": "142",
+        "B": "213",
+        "C": "284",
+        "D": "उपर्युक्त में से एक से अधिक",
+        "E": "उपर्युक्त में से कोई नहीं"
+      }
     },
     {
       "qnum": 92,
@@ -2156,9 +2214,9 @@ window.bpsc_tre3_2024 = {
       "topic_hi": "डेटा संरचनाएं और एल्गोरिदम",
       "question": "In a balanced binary tree, the height of two sub-trees of every node can not differ by more than",
       "options": {
-        "A": "",
-        "B": "",
-        "C": "",
+        "A": "2",
+        "B": "1",
+        "C": "0",
         "D": "More than one of the above",
         "E": "None of the above"
       },
@@ -2168,7 +2226,14 @@ window.bpsc_tre3_2024 = {
       "marks": 1,
       "negativeMarks": 0,
       "explanation": "**Official Answer: (B)**\n\n**Data Structures & Algorithms**: Official BPSC TRE 3.0 Answer Key (Advt 22/2024, Series E).",
-      "explanation_hi": "**आधिकारिक सही उत्तर: (B)**\n\n**डेटा संरचनाएं और एल्गोरिदम**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (B)**\n\n**डेटा संरचनाएं और एल्गोरिदम**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।",
+      "options_hi": {
+        "A": "2",
+        "B": "1",
+        "C": "0",
+        "D": "उपर्युक्त में से एक से अधिक",
+        "E": "उपर्युक्त में से कोई नहीं"
+      }
     },
     {
       "qnum": 93,
@@ -2178,7 +2243,7 @@ window.bpsc_tre3_2024 = {
       "question": "Write the output of the following program: int a[ ] = {1,2,3,} *p;",
       "options": {
         "A": "Junk value",
-        "B": "",
+        "B": "3",
         "C": "Runtime error",
         "D": "More than one of the above",
         "E": "None of the above"
@@ -2189,7 +2254,14 @@ window.bpsc_tre3_2024 = {
       "marks": 1,
       "negativeMarks": 0,
       "explanation": "**Official Answer: (E)**\n\n**Computer Science Concepts**: Official BPSC TRE 3.0 Answer Key (Advt 22/2024, Series E).",
-      "explanation_hi": "**आधिकारिक सही उत्तर: (E)**\n\n**कंप्यूटर विज्ञान अवधारणाएं**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (E)**\n\n**कंप्यूटर विज्ञान अवधारणाएं**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।",
+      "options_hi": {
+        "A": "Junk value",
+        "B": "3",
+        "C": "Runtime error",
+        "D": "उपर्युक्त में से एक से अधिक",
+        "E": "उपर्युक्त में से कोई नहीं"
+      }
     },
     {
       "qnum": 94,
@@ -2261,9 +2333,9 @@ window.bpsc_tre3_2024 = {
       "topic_hi": "डेटा संरचनाएं और एल्गोरिदम",
       "question": "How many distinct binary search trees can be created out of 4 distinct keys?",
       "options": {
-        "A": "",
-        "B": "",
-        "C": "",
+        "A": "8",
+        "B": "24",
+        "C": "14",
         "D": "More than one of the above",
         "E": "None of the above"
       },
@@ -2273,7 +2345,14 @@ window.bpsc_tre3_2024 = {
       "marks": 1,
       "negativeMarks": 0,
       "explanation": "**Official Answer: (C)**\n\n**Data Structures & Algorithms**: Official BPSC TRE 3.0 Answer Key (Advt 22/2024, Series E).",
-      "explanation_hi": "**आधिकारिक सही उत्तर: (C)**\n\n**डेटा संरचनाएं और एल्गोरिदम**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (C)**\n\n**डेटा संरचनाएं और एल्गोरिदम**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।",
+      "options_hi": {
+        "A": "8",
+        "B": "24",
+        "C": "14",
+        "D": "उपर्युक्त में से एक से अधिक",
+        "E": "उपर्युक्त में से कोई नहीं"
+      }
     },
     {
       "qnum": 98,
@@ -2702,9 +2781,9 @@ window.bpsc_tre3_2024 = {
       "topic_hi": "डेटा संरचनाएं और एल्गोरिदम",
       "question": "Consider a disk queue with requests for I/O to blocks on cylinders. 98 183 37 122 14 124 65 67 considering FCFS (First Come First Served) scheduling, the total number of head movements is, if the disk head is initially at 53 is?",
       "options": {
-        "A": "",
-        "B": "",
-        "C": "",
+        "A": "640",
+        "B": "620",
+        "C": "630",
         "D": "More than one of the above",
         "E": "None of the above"
       },
@@ -2714,7 +2793,14 @@ window.bpsc_tre3_2024 = {
       "marks": 1,
       "negativeMarks": 0,
       "explanation": "**Official Answer: (A)**\n\n**Data Structures & Algorithms**: Official BPSC TRE 3.0 Answer Key (Advt 22/2024, Series E).",
-      "explanation_hi": "**आधिकारिक सही उत्तर: (A)**\n\n**डेटा संरचनाएं और एल्गोरिदम**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।"
+      "explanation_hi": "**आधिकारिक सही उत्तर: (A)**\n\n**डेटा संरचनाएं और एल्गोरिदम**: बिहार लोक सेवा आयोग (BPSC TRE 3.0) द्वारा जारी अंतिम आधिकारिक उत्तर कुंजी के अनुसार।",
+      "options_hi": {
+        "A": "640",
+        "B": "620",
+        "C": "630",
+        "D": "उपर्युक्त में से एक से अधिक",
+        "E": "उपर्युक्त में से कोई नहीं"
+      }
     },
     {
       "qnum": 119,

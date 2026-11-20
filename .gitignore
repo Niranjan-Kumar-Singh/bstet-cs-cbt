@@ -13,6 +13,18 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# Environments & Secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+.venv/
+venv/
+env/
 
 # Local scratch / temporary artifacts
 scratch_img_*.*
@@ -51,5 +63,3 @@ scripts/apply_devanagari_enrichment.py
 scripts/batch_translate_cache.py
 scripts/translate_all_devanagari.py
 scripts/translate_papers.py
-
-
