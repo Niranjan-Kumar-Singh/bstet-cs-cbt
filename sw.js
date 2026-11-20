@@ -3,7 +3,7 @@
  * Cache-first offline capability with network fallback and versioned cache management.
  */
 
-const CACHE_NAME = 'bstet-cbt-20261120_4fd212';
+const CACHE_NAME = 'bstet-cbt-20261120_52a26e';
 
 const PRECACHE_ASSETS = [
   '/',
@@ -80,14 +80,19 @@ self.addEventListener('fetch', event => {
         return cachedResponse;
       }
       return fetch(event.request).then(networkResponse => {
-        if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
+        if (!networkResponse || networkResponse.status !== 200) {
           return networkResponse;
         }
         const responseToCache = networkResponse.clone();
         caches.open(CACHE_NAME).then(cache => {
           cache.put(event.request, responseToCache);
-        });
+        }).catch(() => {});
         return networkResponse;
+      }).catch(err => {
+        return caches.match(event.request, { ignoreSearch: true }).then(match => {
+          if (match) return match;
+          throw err;
+        });
       });
     })
   );

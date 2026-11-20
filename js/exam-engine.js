@@ -48,7 +48,21 @@ class ExamEngine {
     // Auto-normalize paper sections startQ and endQ to guarantee consistency
     this.normalizeSections();
 
-    const saved = resume ? this.loadSession(this.paper.id) : null;
+    let saved = resume ? this.loadSession(this.paper.id) : null;
+    
+    // Strict session validation: if an old/expired session exists, purge it to prevent instant "Time Over"
+    if (saved) {
+      const now = Date.now();
+      const isExpired = (this.mode === 'cbt' || saved.mode === 'cbt') && (
+        (saved.endTime && saved.endTime <= now + 5000) ||
+        (saved.timeRemaining !== undefined && saved.timeRemaining <= 5)
+      );
+      if (isExpired) {
+        console.warn(`[ExamEngine] Discarding expired session for ${this.paper.id} (ended: ${saved.endTime}, now: ${now})`);
+        this.clearSession(this.paper.id);
+        saved = null;
+      }
+    }
     
     if (saved) {
       const savedIdx = saved.currentIndex || 0;
@@ -62,6 +76,12 @@ class ExamEngine {
       // Resilient timestamp-derived remaining time (prevents clock drifting or sleep cheats)
       if (this.mode === 'cbt' && this.endTime) {
         this.timeRemaining = Math.max(0, Math.floor((this.endTime - Date.now()) / 1000));
+        // Defensive: if remaining is <= 5s, start fresh instead of auto-submitting
+        if (this.timeRemaining <= 5) {
+          this.timeRemaining = this.totalDuration;
+          this.startTime = Date.now();
+          this.endTime = this.startTime + (this.totalDuration * 1000);
+        }
       } else {
         this.timeRemaining = saved.timeRemaining !== undefined ? saved.timeRemaining : this.totalDuration;
       }
@@ -221,6 +241,14 @@ class ExamEngine {
   startTimer() {
     if (this.timerInterval) clearInterval(this.timerInterval);
     if (this.mode === 'practice') return; // Untimed practice mode
+
+    // Strict safeguard: if remaining time is 0 or negative upon launch, reset to full duration
+    if (this.mode === 'cbt') {
+      if (!this.timeRemaining || this.timeRemaining <= 0) {
+        this.timeRemaining = this.totalDuration;
+        this.endTime = Date.now() + (this.totalDuration * 1000);
+      }
+    }
 
     this.lastTickTime = Date.now();
     this.timerInterval = setInterval(() => {
@@ -441,11 +469,13 @@ class ExamEngine {
     }
   }
 
-  clearSession() {
-    if (!this.paper) return;
+  clearSession(paperId) {
+    const id = paperId || (this.paper && this.paper.id);
     this.stopTimer();
     try {
-      localStorage.removeItem(`BSTET_EXAM_SESSION_${this.paper.id}`);
+      if (id) {
+        localStorage.removeItem(`BSTET_EXAM_SESSION_${id}`);
+      }
       localStorage.removeItem('BSTET_ACTIVE_ATTEMPT');
     } catch (e) {}
   }

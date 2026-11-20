@@ -947,8 +947,8 @@ class App {
 
   updateThemeButton(theme) {
     const isDark = theme === 'dark';
-    const text = isDark ? '☀️ Light' : '🌙 Dark';
-    const icon = isDark ? '☀️' : '🌙';
+    const text = isDark ? 'Light' : 'Dark';
+    const icon = isDark ? '☀' : '☾';
     if (this.themeToggleBtn) this.themeToggleBtn.innerHTML = text;
     if (this.examThemeToggleBtn) this.examThemeToggleBtn.innerHTML = icon;
   }
@@ -1228,8 +1228,8 @@ class App {
   }
 
   /* ================= PAPER DATA LOADER & JUST-IN-TIME PRELOADER ================= */
-  loadPaperData(meta) {
-    if (!meta) return Promise.resolve(null);
+  async loadPaperData(meta) {
+    if (!meta) return null;
     const varName = meta.varName;
     const resolveData = () => {
       if (!varName) return null;
@@ -1241,64 +1241,100 @@ class App {
     };
 
     const existing = resolveData();
-    if (existing) return Promise.resolve(existing);
+    if (existing) return existing;
 
     if (!this._paperLoadPromises) this._paperLoadPromises = {};
     if (this._paperLoadPromises[meta.jsFile]) {
-      return this._paperLoadPromises[meta.jsFile].then(() => resolveData());
+      try {
+        await this._paperLoadPromises[meta.jsFile];
+        const res = resolveData();
+        if (res) return res;
+      } catch (e) {
+        delete this._paperLoadPromises[meta.jsFile];
+      }
     }
 
     this._paperLoadPromises[meta.jsFile] = new Promise((resolve, reject) => {
-      // Immediate check in case window variable appeared
-      const immediate = resolveData();
-      if (immediate) {
-        resolve(immediate);
-        return;
-      }
-
-      const existingScript = document.querySelector(`script[data-paper-file="${meta.jsFile}"]`);
-      if (existingScript) {
-        if (existingScript.dataset.loaded === 'true') {
-          resolve(resolveData());
-          return;
+      const checkAndResolve = () => {
+        const d = resolveData();
+        if (d) {
+          resolve(d);
+          return true;
         }
-        existingScript.addEventListener('load', () => {
-          existingScript.dataset.loaded = 'true';
-          resolve(resolveData());
-        });
-        existingScript.addEventListener('error', (e) => reject(e));
+        return false;
+      };
 
-        // Fallback polling in case the script completed loading before listener was attached
-        let pollCount = 0;
-        const pollTimer = setInterval(() => {
-          const d = resolveData();
-          if (d) {
-            clearInterval(pollTimer);
-            existingScript.dataset.loaded = 'true';
-            resolve(d);
-          } else if (++pollCount > 50) { // 2.5s timeout
-            clearInterval(pollTimer);
-          }
-        }, 50);
-        return;
+      if (checkAndResolve()) return;
+
+      const cacheBust = window.BSTET_VERSION || '20261121_v1';
+      const originPath = window.location.pathname.endsWith('/') 
+        ? window.location.pathname 
+        : window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1) || '/';
+      const scriptUrl = `${window.location.origin}${originPath}js/data/${meta.jsFile}?v=${cacheBust}`;
+
+      // Clean up any stale or errored script tags for this file
+      const staleScript = document.querySelector(`script[data-paper-file="${meta.jsFile}"]`);
+      if (staleScript && staleScript.dataset.loaded !== 'true') {
+        staleScript.remove();
       }
 
       const script = document.createElement('script');
-      const basePath = (window.location.pathname.endsWith('/') 
-        ? window.location.pathname 
-        : window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1)) || './';
-      script.src = `${basePath}js/data/${meta.jsFile}?v=20261120_pedagogy_v3`;
       script.async = true;
       script.dataset.paperFile = meta.jsFile;
+      script.src = scriptUrl;
+
+      const cleanupAndReject = (errMsg) => {
+        delete this._paperLoadPromises[meta.jsFile];
+        reject(new Error(errMsg));
+      };
+
       script.onload = () => {
         script.dataset.loaded = 'true';
-        resolve(resolveData());
+        setTimeout(() => {
+          if (!checkAndResolve()) {
+            const d = resolveData();
+            if (d) resolve(d);
+            else cleanupAndReject(`Paper data ${varName} was not found after loading ${meta.jsFile}`);
+          }
+        }, 10);
       };
-      script.onerror = (err) => {
-        delete this._paperLoadPromises[meta.jsFile];
-        reject(new Error(`Failed to load paper file: ${meta.jsFile}`));
+
+      script.onerror = () => {
+        console.warn(`[PaperLoader] Script tag failed for ${meta.jsFile}. Attempting fallback fetch...`);
+        fetch(scriptUrl)
+          .then(res => {
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            return res.text();
+          })
+          .then(sourceCode => {
+            const runner = new Function(sourceCode);
+            runner();
+            if (!checkAndResolve()) {
+              const d = resolveData();
+              if (d) resolve(d);
+              else cleanupAndReject(`Dataset ${varName} missing after fallback evaluation`);
+            }
+          })
+          .catch(fetchErr => {
+            cleanupAndReject(`Failed to load paper file ${meta.jsFile}: ${fetchErr.message}`);
+          });
       };
+
       document.head.appendChild(script);
+
+      // Polling fallback in case script executed before listeners attached
+      let pollCount = 0;
+      const pollTimer = setInterval(() => {
+        if (checkAndResolve()) {
+          clearInterval(pollTimer);
+          script.dataset.loaded = 'true';
+        } else if (++pollCount > 60) {
+          clearInterval(pollTimer);
+          if (!checkAndResolve()) {
+            script.onerror();
+          }
+        }
+      }, 50);
     });
 
     return this._paperLoadPromises[meta.jsFile].then(() => resolveData());
@@ -1377,7 +1413,11 @@ class App {
     }
 
     try {
-      this.launchPaper(paperData, mode);
+      // Clear obsolete attempt state for this paper to guarantee a clean launch
+      if (this.selectedPaperMeta && this.selectedPaperMeta.id) {
+        this.engine.clearSession(this.selectedPaperMeta.id);
+      }
+      this.launchPaper(paperData, mode, false);
     } catch (err) {
       console.error('Launch paper error:', err);
       alert('Error initializing examination session: ' + (err.message || 'Unknown error'));
@@ -1390,7 +1430,7 @@ class App {
   }
 
   /* ================= EXAM LAUNCH & SCREEN ================= */
-  async launchPaperById(paperId, mode = 'cbt') {
+  async launchPaperById(paperId, mode = 'cbt', resume = false) {
     if (!window.PAPERS_CATALOG) return false;
     const aliasMap = {
       'sachin_shift_set1': 'pedagogy_shift_set1',
@@ -1418,7 +1458,7 @@ class App {
         console.warn('Could not locate paper dataset for', paperId, meta);
         return false;
       }
-      this.launchPaper(paperData, mode);
+      this.launchPaper(paperData, mode, resume);
       return true;
     } catch (e) {
       console.error('Error launching paper by ID:', e);
@@ -1455,18 +1495,18 @@ class App {
       const paperParam = params.get('paper') || params.get('paperId') || params.get('test');
       if (paperParam) {
         const modeParam = (params.get('mode') === 'practice' || params.get('mode') === 'study') ? 'practice' : 'cbt';
-        this.launchPaperById(paperParam, modeParam);
+        this.launchPaperById(paperParam, modeParam, false);
       }
     } catch (e) {
       console.warn('Could not process URL query parameters', e);
     }
   }
 
-  launchPaper(paperData, mode = 'cbt') {
+  launchPaper(paperData, mode = 'cbt', resume = false) {
     this.currentPaper = paperData;
-    this.engine.init(paperData, mode, true);
+    this.engine.init(paperData, mode, resume);
     // Respect saved exam language if available, else match candidate preference
-    const saved = this.engine.loadSession(paperData.id);
+    const saved = resume ? this.engine.loadSession(paperData.id) : null;
     const activeLang = (saved && (saved.baseLang || saved.lang)) || ((window.BSTET_I18N && window.BSTET_I18N.currentLang === 'hi') ? 'hi' : 'en');
     this.engine.setBaseLanguage(activeLang, !saved);
     this.updateExamLanguageControls();
@@ -1793,13 +1833,13 @@ class App {
     if (report.isQualified) {
       this.resVerdictBadge.className = 'verdict-badge qualified';
       this.resVerdictBadge.innerHTML = isHindi
-        ? `🎉 उत्तीर्ण (QUALIFIED) • स्कोर: ${report.totalScore} (सामान्य कट-ऑफ ${genCutoffMarks} अंक)`
-        : `🎉 QUALIFIED • Score: ${report.totalScore} (Gen Cutoff ${genCutoffMarks} Marks)`;
+        ? `उत्तीर्ण (QUALIFIED) • स्कोर: ${report.totalScore} (सामान्य कट-ऑफ ${genCutoffMarks} अंक)`
+        : `QUALIFIED • Score: ${report.totalScore} (Gen Cutoff ${genCutoffMarks} Marks)`;
     } else {
       this.resVerdictBadge.className = 'verdict-badge not-qualified';
       this.resVerdictBadge.innerHTML = isHindi
-        ? `⚠️ अनुत्तीर्ण (NOT QUALIFIED) • स्कोर: ${report.totalScore} (सामान्य कट-ऑफ ${genCutoffMarks} अंक आवश्यक)`
-        : `⚠️ NOT QUALIFIED • Score: ${report.totalScore} (${genCutoffMarks} Marks Needed for Gen Cutoff)`;
+        ? `अनुत्तीर्ण (NOT QUALIFIED) • स्कोर: ${report.totalScore} (सामान्य कट-ऑफ ${genCutoffMarks} अंक आवश्यक)`
+        : `NOT QUALIFIED • Score: ${report.totalScore} (${genCutoffMarks} Marks Needed for Gen Cutoff)`;
     }
 
     // Animate Circular Gauges
@@ -1819,7 +1859,7 @@ class App {
     this.resAccuracy.innerText = `${report.accuracy}%`;
     this.resPaceValue.innerText = `${report.avgTimePerAttempt}s / Q`;
     if (this.resPaceIcon) {
-      this.resPaceIcon.innerText = report.paceCategory === 'Rapid' ? '🚀' : (report.paceCategory === 'Slow' ? '⏳' : '⚡');
+      this.resPaceIcon.innerText = report.paceCategory === 'Rapid' ? '⚡' : '⏱';
     }
     this.resPercentile.innerText = `${report.estPercentile}th`;
 
@@ -1828,8 +1868,8 @@ class App {
       this.cutoffTableBody.innerHTML = Object.entries(report.cutoffs).map(([key, cat]) => {
         const catName = isHindi ? cat.category_hi : cat.category;
         const statusBadge = cat.qualified
-          ? `<span class="status-badge-qual">🎉 ${isHindi ? 'उत्तीर्ण (Qualified)' : 'Qualified'}</span>`
-          : `<span class="status-badge-miss">⚠️ ${isHindi ? 'कम रह गए (Missed)' : 'Missed'}</span>`;
+          ? `<span class="status-badge-qual">${isHindi ? 'उत्तीर्ण (Qualified)' : 'Qualified'}</span>`
+          : `<span class="status-badge-miss">${isHindi ? 'कम रह गए (Missed)' : 'Missed'}</span>`;
         const marginColor = parseFloat(cat.margin) >= 0 ? '#16a34a' : '#dc2626';
         const sign = parseFloat(cat.margin) >= 0 ? '+' : '';
 
@@ -2425,7 +2465,7 @@ class App {
       container.innerHTML = `
         <div class="active-attempt-banner">
           <div class="attempt-banner-info">
-            <h4>${isHi ? '⚠️ चालू परीक्षा जारी रखें (Active Exam in Progress)' : '⚠️ Active Exam in Progress'}</h4>
+            <h4>${isHi ? 'चालू परीक्षा जारी रखें (Active Exam in Progress)' : 'Active Exam in Progress'}</h4>
             <p>
               <strong>${attempt.paperTitle || attempt.paperId}</strong> • 
               ${isHi ? `वर्तमान प्रश्न: ${currentQ}` : `Current Question: ${currentQ}`} • 
@@ -2434,17 +2474,17 @@ class App {
           </div>
           <div class="attempt-banner-actions">
             <button class="btn btn-primary btn-sm" id="resume-active-attempt-btn">
-              ${isHi ? '▶ परीक्षा जारी रखें' : '▶ Resume Exam'}
+              ${isHi ? 'परीक्षा जारी रखें' : 'Resume Exam'}
             </button>
             <button class="btn btn-secondary btn-sm" id="discard-active-attempt-btn">
-              ${isHi ? '✕ रद्द करें' : '✕ Discard'}
+              ${isHi ? 'रद्द करें' : 'Discard'}
             </button>
           </div>
         </div>
       `;
 
       document.getElementById('resume-active-attempt-btn')?.addEventListener('click', () => {
-        this.launchPaperById(attempt.paperId, attempt.mode || 'cbt');
+        this.launchPaperById(attempt.paperId, attempt.mode || 'cbt', true);
       });
 
       document.getElementById('discard-active-attempt-btn')?.addEventListener('click', () => {
@@ -2726,8 +2766,8 @@ class App {
         tbody.innerHTML = history.map(h => {
           const dateStr = new Date(h.timestamp).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
           const statusBadge = h.isQualified
-            ? `<span class="badge badge-shift" style="font-size: 11px;">🎉 Qualified</span>`
-            : `<span class="badge badge-drill" style="font-size: 11px;">⚠️ Missed</span>`;
+            ? `<span class="status-badge-qual" style="display:inline-flex; align-items:center; gap:4px; padding:3px 10px; border-radius:12px; font-size:11px; font-weight:700; background:rgba(22,163,74,0.12); color:#16a34a; border:1px solid rgba(22,163,74,0.3);"><span style="width:6px; height:6px; border-radius:50%; background:#16a34a;"></span> Qualified</span>`
+            : `<span class="status-badge-miss" style="display:inline-flex; align-items:center; gap:4px; padding:3px 10px; border-radius:12px; font-size:11px; font-weight:700; background:rgba(239,68,68,0.12); color:#ef4444; border:1px solid rgba(239,68,68,0.3);"><span style="width:6px; height:6px; border-radius:50%; background:#ef4444;"></span> Missed</span>`;
 
           return `
             <tr>

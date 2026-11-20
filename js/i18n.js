@@ -39,8 +39,8 @@ window.BSTET_I18N = {
             filter_drill: "Sectional & Topic Drills",
 
       // Test Cards
-      start_cbt: "⚡ Start CBT Mock",
-      practice_mode: "📖 Practice Mode",
+      start_cbt: "Start CBT Mock",
+      practice_mode: "Practice Mode",
       questions_label: "Questions",
       marks_label: "Total Marks",
       duration_label: "Duration",
@@ -50,14 +50,14 @@ window.BSTET_I18N = {
       // Test History Section
       my_history: "My Test History & Solutions Review",
       history_desc: "All completed mock attempts are stored directly in your browser. Review detailed solutions and scorecards anytime!",
-      clear_history: "🗑 Clear History",
+      clear_history: "Clear History",
       table_paper: "Mock Paper",
       table_date: "Date & Time",
       table_score: "Score & %",
       table_accuracy: "Accuracy",
       table_status: "Status",
       table_action: "Action",
-      review_solutions: "📖 Review Solutions",
+      review_solutions: "Review Solutions",
       no_history: "No test records found yet. Start any mock test above to see your scorecard and performance analytics here!",
 
       // In-Exam Header
@@ -173,8 +173,8 @@ window.BSTET_I18N = {
             filter_drill: "विषयवार अभ्यास ड्रिल्स",
 
       // Test Cards
-      start_cbt: "⚡ CBT टेस्ट शुरू करें",
-      practice_mode: "📖 अभ्यास मोड",
+      start_cbt: "CBT मॉक टेस्ट शुरू करें",
+      practice_mode: "अभ्यास मोड",
       questions_label: "प्रश्न",
       marks_label: "कुल अंक",
       duration_label: "अवधि",
@@ -184,14 +184,14 @@ window.BSTET_I18N = {
       // Test History Section
       my_history: "मेरा टेस्ट इतिहास एवं समाधान समीक्षा",
       history_desc: "आपके सभी पूर्ण किए गए टेस्ट आपके ब्राउज़र में सुरक्षित हैं। अपनी गलतियों का विश्लेषण करने और विस्तृत समाधान पढ़ने के लिए 'समाधान देखें' पर क्लिक करें!",
-      clear_history: "🗑 इतिहास साफ़ करें",
+      clear_history: "इतिहास साफ़ करें",
       table_paper: "मॉक पेपर",
       table_date: "दिनांक एवं समय",
       table_score: "प्राप्तांक एवं %",
       table_accuracy: "सटीकता (Accuracy)",
       table_status: "परिणाम",
       table_action: "कार्य",
-      review_solutions: "📖 समाधान देखें",
+      review_solutions: "समाधान देखें",
       no_history: "अभी तक कोई टेस्ट रिकॉर्ड नहीं है। अपना स्कोरकार्ड देखने के लिए ऊपर दिए गए किसी भी मॉक टेस्ट को शुरू करें!",
 
       // In-Exam Header

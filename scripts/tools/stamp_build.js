@@ -29,6 +29,13 @@ html = html.replace(/(<link[^>]+href=["'](manifest\.webmanifest))(?:\?v=[^"']*)?
   return `${prefix}?v=${versionStamp}${suffix}`;
 });
 
+// Update or inject window.BSTET_VERSION in index.html
+if (html.includes('window.BSTET_VERSION =')) {
+  html = html.replace(/window\.BSTET_VERSION\s*=\s*['"][^'"]+['"];/, `window.BSTET_VERSION = '${versionStamp}';`);
+} else {
+  html = html.replace('<!-- Internationalization & Localization Engine -->', `<script>window.BSTET_VERSION = '${versionStamp}';</script>\n  <!-- Internationalization & Localization Engine -->`);
+}
+
 fs.writeFileSync(indexPath, html, 'utf8');
 console.log(`[Cache Busting] Stamped all CSS, JS, and manifest asset tags in index.html with ?v=${versionStamp}`);
 

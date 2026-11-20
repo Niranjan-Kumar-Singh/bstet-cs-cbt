@@ -437,32 +437,39 @@
 .option-card {
   display: flex;
   align-items: flex-start;
-  gap: 14px;
+  gap: 16px;
   background-color: var(--bg-surface);
-  border: 2px solid var(--border-subtle);
+  border: 1.5px solid var(--border-subtle);
   padding: 16px 20px;
-  border-radius: var(--radius-md);
+  border-radius: 12px;
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   user-select: none;
-  min-height: 54px;
+  min-height: 58px;
+  position: relative;
+}
+
+[data-theme="dark"] .option-card {
+  background-color: var(--bg-surface);
+  border-color: rgba(255, 255, 255, 0.08);
 }
 
 .option-card:hover {
-  border-color: var(--primary-border);
-  background-color: var(--primary-subtle);
+  border-color: var(--primary);
+  background-color: var(--primary-light);
   transform: translateY(-1px);
 }
 
 .option-card.selected {
-  border-color: var(--primary);
-  background-color: var(--primary-subtle);
-  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+  border-color: var(--primary) !important;
+  background-color: var(--primary-light) !important;
+  box-shadow: 0 0 0 1px var(--primary), 0 4px 12px rgba(37, 99, 235, 0.15) !important;
 }
 
 .option-card.practice-correct {
   border-color: #16a34a !important;
   background-color: rgba(22, 163, 74, 0.12) !important;
+  box-shadow: 0 0 0 1px #16a34a !important;
 }
 
 .option-card.practice-correct .option-indicator {
@@ -480,6 +487,7 @@
 .option-card.practice-incorrect {
   border-color: #dc2626 !important;
   background-color: rgba(220, 38, 38, 0.12) !important;
+  box-shadow: 0 0 0 1px #dc2626 !important;
 }
 
 .option-card.practice-incorrect .option-indicator {
@@ -499,19 +507,24 @@
 }
 
 .option-indicator {
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   border: 2px solid var(--border-strong);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   flex-shrink: 0;
   color: var(--text-secondary);
   background-color: var(--bg-surface);
   transition: all 0.2s;
+}
+
+[data-theme="dark"] .option-indicator {
+  border-color: rgba(255, 255, 255, 0.18);
+  background-color: rgba(255, 255, 255, 0.04);
 }
 
 .option-card:hover .option-indicator {
@@ -523,13 +536,15 @@
   background-color: var(--primary);
   border-color: var(--primary);
   color: white;
+  box-shadow: 0 2px 6px rgba(37, 99, 235, 0.4);
 }
 
 .option-text {
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 1.55;
   color: var(--text-primary);
   flex: 1;
+  padding-top: 4px;
 }
 
 /* Practice Mode Explanation Box */
@@ -578,6 +593,61 @@
   cursor: pointer !important;
   pointer-events: auto !important;
   user-select: none;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 9px 18px;
+  font-size: 13.5px;
+  transition: all 0.18s ease;
+}
+
+#mark-review-btn {
+  background-color: #7c3aed !important;
+  color: #ffffff !important;
+  border: 1px solid #6d28d9 !important;
+  box-shadow: 0 2px 6px rgba(124, 58, 237, 0.25);
+}
+
+#mark-review-btn:hover {
+  background-color: #6d28d9 !important;
+  transform: translateY(-1px);
+}
+
+#save-next-btn {
+  background-color: #059669 !important;
+  color: #ffffff !important;
+  border: 1px solid #047857 !important;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(5, 150, 105, 0.3);
+}
+
+#save-next-btn:hover {
+  background-color: #047857 !important;
+  transform: translateY(-1px);
+}
+
+#submit-exam-btn {
+  background-color: #dc2626 !important;
+  color: #ffffff !important;
+  border: 1px solid #b91c1c !important;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(220, 38, 38, 0.25);
+}
+
+#submit-exam-btn:hover {
+  background-color: #b91c1c !important;
+  transform: translateY(-1px);
+}
+
+#clear-btn, #prev-btn, #next-btn {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-strong);
+  color: var(--text-secondary);
+}
+
+#clear-btn:hover, #prev-btn:hover, #next-btn:hover {
+  background-color: var(--bg-subtle);
+  color: var(--text-primary);
+  border-color: var(--primary);
 }
 
 /* Right Pane: Candidate & Palette Sidebar */
