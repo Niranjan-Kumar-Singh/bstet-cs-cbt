@@ -82,8 +82,8 @@ paper_matches = re.findall(r'"?id"?\s*:\s*["\']([^"\']+)["\']', cat_code)
 total_qs_matches = [int(q) for q in re.findall(r'"?totalQuestions"?\s*:\s*(\d+)', cat_code)]
 sum_qs = sum(total_qs_matches)
 
-test("Catalog has 23 papers", len(paper_matches) == 23, f"Found {len(paper_matches)} papers")
-test("Catalog has exactly 1,950 questions", sum_qs == 1950, f"Found {sum_qs} questions")
+test("Catalog has 27 papers", len(paper_matches) == 27, f"Found {len(paper_matches)} papers")
+test("Catalog has exactly 2,470 questions", sum_qs == 2470, f"Found {sum_qs} questions")
 
 # TEST 4: Bilingual Engine Integrity
 print("\n[Suite 4: Internationalization (i18n.js)]")

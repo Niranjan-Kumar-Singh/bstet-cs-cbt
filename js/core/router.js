@@ -55,6 +55,15 @@ export class Router {
       return;
     }
 
+    if (path === '/cheatsheets') {
+      this.app.showView('cheatsheets');
+      this.updateActiveNavLink('nav-link-cheatsheets');
+      if (this.app.renderCheatsheets) {
+        this.app.renderCheatsheets();
+      }
+      return;
+    }
+
     if (path.startsWith('/test/')) {
       const paperId = path.replace('/test/', '');
       this.handlePaperParam(paperId);
@@ -84,8 +93,8 @@ export class Router {
       return;
     }
 
-    // Default fallback
-    this.app.showView('lobby');
+    // Default fallback: show dedicated not-found view for unrecognized routes
+    this.app.showView('not-found');
   }
 
   handlePaperParam(paperId) {

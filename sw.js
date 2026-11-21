@@ -3,7 +3,7 @@
  * Cache-first offline capability with network fallback and versioned cache management.
  */
 
-const CACHE_NAME = 'bstet-cbt-20261120_52a26e';
+const CACHE_NAME = 'bstet-cbt-20261121_aa9df2';
 
 const PRECACHE_ASSETS = [
   '/',
@@ -35,7 +35,8 @@ const PRECACHE_ASSETS = [
   '/js/components/palette.js',
   '/js/components/timer.js',
   '/js/components/charts.js',
-  '/js/data/papers-index.js'
+  '/js/data/papers-index.js',
+  '/js/data/cheatsheets-data.js'
 ];
 
 self.addEventListener('install', event => {

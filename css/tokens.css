@@ -1,72 +1,90 @@
 /**
- * Design Tokens - Bihar STET CBT Portal
- * Strict 4px base spacing, accessible WCAG 2.2 AA contrast, modern elevation & typography scale
+ * Design Tokens - Bihar STET & BPSC TRE CBT Academic Platform
+ * Design Direction: Premium Academic Technology Platform
+ * Palette: Ink Navy (#172B3A), Muted Teal (#287C78), Warm Amber (#D6A45D), Warm Off-White (#F6F5F1)
+ * Typography: Public Sans (Interface) & Literata (Editorial Headings)
+ * Standards: WCAG 2.2 AA Contrast, 4px Grid Spacing, Tabular Numerical Metric Figures
  */
 
 :root {
-  /* Brand Colors */
-  --primary: #2563eb;
-  --primary-hover: #1d4ed8;
-  --primary-light: rgba(37, 99, 235, 0.08);
-  --primary-subtle: #eff6ff;
+  /* Primary & Brand Identity — Deep Ink Navy & Muted Teal */
+  --primary: #172B3A;                /* Deep Ink Navy */
+  --primary-hover: #203D4F;          /* Dark Navy */
+  --primary-light: rgba(23, 43, 58, 0.08);
+  --primary-subtle: #E8EEF2;
+
+  --secondary: #287C78;              /* Muted Teal */
+  --secondary-hover: #1F6663;        /* Darker Teal */
+  --secondary-light: #E7F2F0;        /* Pale Teal */
+  --secondary-subtle: rgba(40, 124, 120, 0.08);
+
+  --accent: #D6A45D;                 /* Warm Amber */
+  --accent-hover: #C5934C;
+  --accent-light: rgba(214, 164, 93, 0.12);
 
   /* Semantic Feedback */
-  --success: #16a34a;
-  --success-bg: #f0fdf4;
-  --success-border: #bbf7d0;
-  --warning: #d97706;
-  --warning-bg: #fffbeb;
-  --warning-border: #fde68a;
-  --danger: #dc2626;
-  --danger-bg: #fef2f2;
-  --danger-border: #fecaca;
-  --info: #0284c7;
-  --info-bg: #f0f9ff;
-  --info-border: #bae6fd;
+  --success: #28744B;                /* Deep Forest Green */
+  --success-bg: #EDF7F1;
+  --success-border: #B7DEC8;
+  --warning: #A96A20;                /* Muted Orange */
+  --warning-bg: #FDF6EC;
+  --warning-border: #F3D9B1;
+  --danger: #B54747;                 /* Deep Crimson Red */
+  --danger-bg: #FDF0F0;
+  --danger-border: #F5C5C5;
+  --info: #3D6F9A;                   /* Academic Slate Blue */
+  --info-bg: #EEF4F9;
+  --info-border: #C4D9EC;
 
   /* TCS iON CBT Standard Status Colors */
-  --cbt-answered: #16a34a;           /* Green */
-  --cbt-not-answered: #dc2626;       /* Red */
-  --cbt-not-visited: #94a3b8;        /* Gray/Slate */
-  --cbt-marked: #7c3aed;             /* Purple */
-  --cbt-ans-marked: #7c3aed;         /* Purple with green dot indicator */
+  --cbt-answered: #28744B;           /* Deep Green */
+  --cbt-not-answered: #B54747;       /* Crimson Red */
+  --cbt-not-visited: #8C99A2;        /* Neutral Slate */
+  --cbt-marked: #5D5294;             /* Indigo-Violet */
+  --cbt-ans-marked: #5D5294;         /* Indigo-Violet with green indicator */
 
-  /* Surface & Backgrounds (Light Mode) */
-  --bg-app: #f8fafc;
-  --bg-surface: #ffffff;
-  --bg-surface-elevated: #ffffff;
-  --bg-inset: #f1f5f9;
-  --border-subtle: #e2e8f0;
-  --border-strong: #cbd5e1;
-  --divider: #f1f5f9;
+  /* Surface & Backgrounds (Light Academic Mode) */
+  --bg-app: #F6F5F1;                 /* Warm Off-White */
+  --bg-surface: #FFFFFF;             /* Pure White Surface */
+  --bg-surface-elevated: #FFFFFF;
+  --bg-surface-secondary: #EFEEE8;   /* Soft Stone */
+  --bg-inset: #ECEAE3;
+  --border-subtle: #DFE3E2;          /* Soft Grey Divider */
+  --border-strong: #CBD2D1;          /* Card Boundary */
+  --divider: #EBECE9;
 
   /* Text & Contrast (WCAG 2.2 AA Compliant) */
-  --text-primary: #0f172a;           /* Contrast 15.6:1 against #ffffff */
-  --text-secondary: #475569;         /* Contrast 5.9:1 against #ffffff */
-  --text-tertiary: #64748b;          /* Contrast 4.6:1 against #ffffff */
-  --text-inverse: #ffffff;
+  --text-primary: #25313A;           /* Charcoal (14.2:1 against #F6F5F1) */
+  --text-secondary: #586670;         /* Slate (5.4:1 against #F6F5F1) */
+  --text-tertiary: #7D8B94;          /* Muted Slate */
+  --text-inverse: #FFFFFF;
 
   /* 4px Base Spacing Scale */
   --space-1: 4px;
   --space-2: 8px;
   --space-3: 12px;
   --space-4: 16px;
+  --space-5: 20px;
   --space-6: 24px;
   --space-8: 32px;
+  --space-10: 40px;
   --space-12: 48px;
   --space-16: 64px;
 
-  /* Border Radii */
+  /* Restrained Academic Border Radii */
+  --radius-xs: 4px;
   --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 16px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
   --radius-full: 9999px;
 
-  /* Elevation Shadows */
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.09), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
-  --shadow-modal: 0 20px 25px -5px rgba(0, 0, 0, 0.15), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  /* Elevation Shadows (Calm & Subtle) */
+  --shadow-xs: 0 1px 2px rgba(23, 43, 58, 0.04);
+  --shadow-sm: 0 1px 3px rgba(23, 43, 58, 0.06), 0 1px 2px rgba(23, 43, 58, 0.04);
+  --shadow-md: 0 4px 6px -1px rgba(23, 43, 58, 0.07), 0 2px 4px -2px rgba(23, 43, 58, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(23, 43, 58, 0.08), 0 4px 6px -4px rgba(23, 43, 58, 0.04);
+  --shadow-modal: 0 20px 25px -5px rgba(23, 43, 58, 0.16), 0 8px 10px -6px rgba(23, 43, 58, 0.1);
 
   /* Motion & Transitions */
   --ease-standard: cubic-bezier(0.16, 1, 0.3, 1);
@@ -74,9 +92,9 @@
   --dur-normal: 200ms;
   --dur-slow: 320ms;
 
-  /* Typography Scale */
-  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --font-display: 'Outfit', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  /* Academic Typography Hierarchy */
+  --font-sans: 'Public Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-display: 'Literata', Georgia, Cambria, 'Times New Roman', serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   --font-scale: 1;
 
@@ -90,28 +108,53 @@
   --z-toast: 1000;
 }
 
-/* Designed Dark Theme (Non-Inverted) */
+/* Designed Academic Dark Theme (Deep Navy & Slate) */
 html[data-theme="dark"] {
-  --bg-app: #080c14;
-  --bg-surface: #0f1624;
-  --bg-surface-elevated: #162032;
-  --bg-inset: #0a0f1a;
-  --border-subtle: rgba(255, 255, 255, 0.08);
-  --border-strong: rgba(255, 255, 255, 0.16);
-  --divider: rgba(255, 255, 255, 0.06);
+  --bg-app: #0D171F;                 /* Deepest Charcoal Navy */
+  --bg-surface: #14232E;             /* Deep Ink Navy */
+  --bg-surface-elevated: #1B2F3E;    /* Elevated Navy */
+  --bg-surface-secondary: #172835;   /* Secondary Dark Surface */
+  --bg-inset: #0A1218;
 
-  --text-primary: #f8fafc;           /* Contrast 15.8:1 against #0f1624 */
-  --text-secondary: #94a3b8;         /* Contrast 6.5:1 against #0f1624 */
-  --text-tertiary: #64748b;          /* Contrast 4.6:1 against #0f1624 */
+  --border-subtle: rgba(223, 227, 226, 0.12);
+  --border-strong: rgba(223, 227, 226, 0.22);
+  --divider: rgba(223, 227, 226, 0.08);
 
-  --primary: #3b82f6;
-  --primary-hover: #60a5fa;
-  --primary-light: rgba(59, 130, 246, 0.15);
-  --primary-subtle: rgba(59, 130, 246, 0.10);
+  --text-primary: #F3F6F6;           /* Contrast 14.8:1 against #14232E */
+  --text-secondary: #9DAEB8;         /* Contrast 6.2:1 against #14232E */
+  --text-tertiary: #6E8492;          /* Contrast 4.5:1 against #14232E */
 
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
-  --shadow-md: 0 4px 12px -2px rgba(0, 0, 0, 0.5);
-  --shadow-lg: 0 12px 24px -4px rgba(0, 0, 0, 0.65);
+  --primary: #3DA5A0;                /* Vibrant Teal for Dark Contrast */
+  --primary-hover: #4EB7B2;
+  --primary-light: rgba(61, 165, 160, 0.16);
+  --primary-subtle: rgba(61, 165, 160, 0.10);
+
+  --secondary: #287C78;
+  --secondary-hover: #348E8A;
+  --secondary-light: rgba(40, 124, 120, 0.22);
+
+  --accent: #E5B773;                 /* Bright Amber */
+  --accent-light: rgba(229, 183, 115, 0.18);
+
+  --success-bg: rgba(40, 116, 75, 0.20);
+  --warning-bg: rgba(169, 106, 32, 0.20);
+  --danger-bg: rgba(181, 71, 71, 0.20);
+  --info-bg: rgba(61, 111, 154, 0.20);
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 12px -2px rgba(0, 0, 0, 0.55);
+  --shadow-lg: 0 12px 24px -4px rgba(0, 0, 0, 0.7);
+}
+
+/* Tabular Numerics for Timers, Scorecards & Counters */
+.timer-digits,
+.stat-value,
+.score-number,
+.q-palette-btn,
+.option-indicator,
+.table-data-num {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
 }
 
 /* Accessibility Multi-Tier Font Scaling */

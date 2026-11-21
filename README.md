@@ -141,7 +141,7 @@ npm test
 
 **Niranjan Kumar Singh**  
 - Role: Platform Architect & Lead Developer  
-- Location: Patna, Bihar, India  
+- Location: Bihar, India  
 - Email: [niranjansingh1419@gmail.com](mailto:niranjansingh1419@gmail.com)  
 - Instagram: [@niranjan.ks.in](https://www.instagram.com/niranjan.ks.in)  
 

@@ -33,6 +33,8 @@ class App {
     this.resultView = document.getElementById('result-view');
     this.dashboardView = document.getElementById('dashboard-view');
     this.topicPracticeView = document.getElementById('topic-practice-view');
+    this.cheatsheetsView = document.getElementById('cheatsheets-view');
+    this.notFoundView = document.getElementById('not-found-view');
 
     // Lobby Elements
     this.papersGrid = document.getElementById('papers-grid');
@@ -166,6 +168,16 @@ class App {
     this.backToLobbyBtn = document.getElementById('back-to-lobby-btn');
     this.printScorecardBtn = document.getElementById('print-scorecard-btn');
     this.shareScorecardBtn = document.getElementById('share-scorecard-btn');
+    this.whatsappShareBtn = document.getElementById('whatsapp-share-btn');
+    this.telegramShareBtn = document.getElementById('telegram-share-btn');
+    this.copyTestLinkBtn = document.getElementById('copy-test-link-btn');
+    this.downloadScorecardImgBtn = document.getElementById('download-scorecard-img-btn');
+    this.scorecardCanvas = document.getElementById('scorecard-export-canvas');
+
+    // Cheatsheets Elements
+    this.cheatsheetGrid = document.getElementById('cheatsheet-grid');
+    this.cheatsheetSearchInput = document.getElementById('cheatsheet-search-input');
+    this.printCheatsheetBtn = document.getElementById('print-cheatsheet-btn');
 
     // Legal & Privacy Policy Modal (Google AdSense Compliance)
     this.legalModal = document.getElementById('legal-modal');
@@ -600,10 +612,45 @@ class App {
       this.printScorecardBtn.addEventListener('click', () => window.print());
     }
 
-    // Share Scorecard Summary
+    // Share Scorecard Summary & Social Challenge
     if (this.shareScorecardBtn) {
       this.shareScorecardBtn.addEventListener('click', () => this.shareScorecard());
     }
+    if (this.whatsappShareBtn) {
+      this.whatsappShareBtn.addEventListener('click', () => this.shareOnWhatsApp());
+    }
+    if (this.telegramShareBtn) {
+      this.telegramShareBtn.addEventListener('click', () => this.shareOnTelegram());
+    }
+    if (this.copyTestLinkBtn) {
+      this.copyTestLinkBtn.addEventListener('click', () => this.copyTestLink());
+    }
+    if (this.downloadScorecardImgBtn) {
+      this.downloadScorecardImgBtn.addEventListener('click', () => this.downloadScorecardBadge());
+    }
+
+    // Cheatsheets Filters, Search & Print
+    if (this.cheatsheetSearchInput) {
+      this.cheatsheetSearchInput.addEventListener('input', (e) => {
+        this.cheatsheetSearchQuery = e.target.value.trim();
+        this.renderCheatsheets();
+      });
+    }
+    if (this.printCheatsheetBtn) {
+      this.printCheatsheetBtn.addEventListener('click', () => window.print());
+    }
+    document.querySelectorAll('.cheatsheet-tab-btn').forEach(tab => {
+      tab.addEventListener('click', (e) => {
+        document.querySelectorAll('.cheatsheet-tab-btn').forEach(t => {
+          t.classList.remove('active');
+          t.setAttribute('aria-selected', 'false');
+        });
+        e.currentTarget.classList.add('active');
+        e.currentTarget.setAttribute('aria-selected', 'true');
+        this.activeCheatsheetCategory = e.currentTarget.dataset.category;
+        this.renderCheatsheets();
+      });
+    });
 
     // Engine Callbacks
     this.engine.onTick = (secs) => this.updateTimerDisplay(secs);
@@ -1055,15 +1102,18 @@ class App {
 
     // Dynamically update filter tab badge counts
     const allCount = catalog.length;
-    const officialCount = catalog.filter(p => p.category === 'Official PYQ').length;
-    const drillCount = catalog.filter(p => p.category !== 'Official PYQ').length;
+    const stetCount = catalog.filter(p => p.category === 'Bihar STET PYQ' || (p.category === 'Official PYQ' && !p.id.startsWith('bpsc'))).length;
+    const bpscCount = catalog.filter(p => p.category === 'BPSC TRE PYQ' || p.id.startsWith('bpsc')).length;
+    const drillCount = catalog.filter(p => p.category === 'Sectional Drill' || (p.category !== 'Bihar STET PYQ' && p.category !== 'BPSC TRE PYQ' && p.category !== 'Official PYQ')).length;
 
     const tabAll = document.getElementById('tab-filter-all');
-    const tabOfficial = document.getElementById('tab-filter-official');
+    const tabStet = document.getElementById('tab-filter-stet') || document.getElementById('tab-filter-official');
+    const tabBpsc = document.getElementById('tab-filter-bpsc');
     const tabDrill = document.getElementById('tab-filter-drill');
 
     if (tabAll) tabAll.innerText = isHi ? `सभी मॉक टेस्ट (${allCount})` : `All Mock Tests (${allCount})`;
-    if (tabOfficial) tabOfficial.innerText = isHi ? `आधिकारिक PYQ प्रश्न पत्र (${officialCount})` : `Official PYQ Papers (${officialCount})`;
+    if (tabStet) tabStet.innerText = isHi ? `बिहार STET पात्रता (${stetCount})` : `Bihar STET (Eligibility) (${stetCount})`;
+    if (tabBpsc) tabBpsc.innerText = isHi ? `BPSC TRE PGT भर्ती (${bpscCount})` : `BPSC TRE PGT (Recruitment) (${bpscCount})`;
     if (tabDrill) tabDrill.innerText = isHi ? `सेक्शनल एवं टॉपिक अभ्यास (${drillCount})` : `Sectional & Topic Drills (${drillCount})`;
 
     // Check and render active ongoing attempt banner
@@ -1086,8 +1136,8 @@ class App {
       const badge = i18n ? i18n.translateBadge(paper.badge) : paper.badge;
       const difficulty = i18n ? i18n.translateDifficulty(paper.difficulty) : paper.difficulty;
 
-      const cbtLabel = i18n ? i18n.t('start_cbt') : '⚡ Start CBT Mock';
-      const practiceLabel = i18n ? i18n.t('practice_mode') : '📖 Practice Mode';
+      const cbtLabel = i18n ? i18n.t('start_cbt') : 'Start CBT Mock';
+      const practiceLabel = i18n ? i18n.t('practice_mode') : 'Practice Mode';
       const qLabel = i18n ? i18n.t('questions_label') : 'Questions';
       const mLabel = i18n ? i18n.t('marks_label') : 'Total Marks';
       const dLabel = i18n ? i18n.t('duration_label') : 'Duration';
@@ -1134,10 +1184,12 @@ class App {
 
     activeCards.forEach(card => {
       const cat = card.dataset.category;
+      const pid = card.dataset.id;
       let categoryMatch = false;
       if (this.currentFilter === 'all') categoryMatch = true;
-      else if (this.currentFilter === 'official') categoryMatch = (cat === 'Official PYQ');
-      else if (this.currentFilter === 'drill') categoryMatch = (cat !== 'Official PYQ');
+      else if (this.currentFilter === 'stet' || this.currentFilter === 'official') categoryMatch = (cat === 'Bihar STET PYQ' || (cat === 'Official PYQ' && !pid.startsWith('bpsc')));
+      else if (this.currentFilter === 'bpsc') categoryMatch = (cat === 'BPSC TRE PYQ' || pid.startsWith('bpsc'));
+      else if (this.currentFilter === 'drill') categoryMatch = (cat === 'Sectional Drill' || (!cat.includes('PYQ') && !pid.startsWith('bpsc')));
 
       let searchMatch = true;
       if (query) {
@@ -1288,19 +1340,12 @@ class App {
         reject(new Error(errMsg));
       };
 
-      script.onload = () => {
-        script.dataset.loaded = 'true';
-        setTimeout(() => {
-          if (!checkAndResolve()) {
-            const d = resolveData();
-            if (d) resolve(d);
-            else cleanupAndReject(`Paper data ${varName} was not found after loading ${meta.jsFile}`);
-          }
-        }, 10);
-      };
-
-      script.onerror = () => {
-        console.warn(`[PaperLoader] Script tag failed for ${meta.jsFile}. Attempting fallback fetch...`);
+      let fetchAttempted = false;
+      const tryFetch = () => {
+        if (fetchAttempted) return;
+        fetchAttempted = true;
+        clearInterval(pollTimer);
+        clearTimeout(loadTimeout);
         fetch(scriptUrl)
           .then(res => {
             if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -1320,19 +1365,44 @@ class App {
           });
       };
 
+      script.onload = () => {
+        script.dataset.loaded = 'true';
+        clearInterval(pollTimer);
+        clearTimeout(loadTimeout);
+        setTimeout(() => {
+          if (!checkAndResolve()) {
+            const d = resolveData();
+            if (d) resolve(d);
+            else cleanupAndReject(`Paper data ${varName} was not found after loading ${meta.jsFile}`);
+          }
+        }, 10);
+      };
+
+      script.onerror = () => {
+        console.warn(`[PaperLoader] Script tag failed for ${meta.jsFile}. Falling back to fetch...`);
+        tryFetch();
+      };
+
       document.head.appendChild(script);
 
-      // Polling fallback in case script executed before listeners attached
+      // Generous safety timeout: 25 seconds for mobile 3G/4G connections
+      const loadTimeout = setTimeout(() => {
+        if (!checkAndResolve()) {
+          console.warn(`[PaperLoader] Timeout loading ${meta.jsFile} via script tag, attempting fetch...`);
+          tryFetch();
+        }
+      }, 25000);
+
+      // Fast polling to resolve immediately if script ran synchronously or was in browser cache
       let pollCount = 0;
       const pollTimer = setInterval(() => {
         if (checkAndResolve()) {
           clearInterval(pollTimer);
+          clearTimeout(loadTimeout);
           script.dataset.loaded = 'true';
-        } else if (++pollCount > 60) {
+        } else if (++pollCount > 100) {
+          // After 5 seconds stop polling, but DO NOT abort script tag! Let browser continue downloading
           clearInterval(pollTimer);
-          if (!checkAndResolve()) {
-            script.onerror();
-          }
         }
       }, 50);
     });
@@ -1395,20 +1465,20 @@ class App {
       paperData = await this.loadPaperData(this.selectedPaperMeta);
     } catch (err) {
       console.error('Network/Script load error:', err);
-      alert('Failed to load examination paper. Please check your internet connection.');
       if (this.startExamBtn) {
         this.startExamBtn.disabled = false;
-        this.startExamBtn.innerText = originalText;
+        this.startExamBtn.innerText = 'Retry Loading';
       }
+      alert('Unable to load question paper data. Please check your internet connection and try again.');
       return;
     }
 
     if (!paperData) {
-      alert('Error loading question paper data.');
       if (this.startExamBtn) {
         this.startExamBtn.disabled = false;
-        this.startExamBtn.innerText = originalText;
+        this.startExamBtn.innerText = 'Retry Loading';
       }
+      alert('Question paper data could not be verified. Please try again.');
       return;
     }
 
@@ -1478,9 +1548,9 @@ class App {
         }
       }
 
-      // 2. Filter deep-linking: ?filter=official, ?filter=drill, ?filter=all
+      // 2. Filter deep-linking: ?filter=stet, ?filter=bpsc, ?filter=drill, ?filter=official, ?filter=all
       const filterParam = params.get('filter');
-      if (filterParam && ['all', 'official', 'drill'].includes(filterParam)) {
+      if (filterParam && ['all', 'stet', 'bpsc', 'drill', 'official'].includes(filterParam)) {
         this.currentFilter = filterParam;
         if (this.filterTabs) {
           this.filterTabs.forEach(t => {
@@ -1971,6 +2041,7 @@ class App {
     }
 
     this.renderSolutions();
+    this.updateScorecardShareHub(report);
   }
 
   shareScorecard() {
@@ -1993,6 +2064,399 @@ class App {
     } else {
       prompt('Copy your scorecard summary below:', summary);
     }
+  }
+
+  updateScorecardShareHub(report) {
+    if (!report) return;
+    const paperNameEl = document.getElementById('graphic-paper-name');
+    const scoreNumEl = document.getElementById('graphic-score-num');
+    const pctSubEl = document.getElementById('graphic-pct-sub');
+    const verdictPillEl = document.getElementById('graphic-verdict-pill');
+    const csScoreEl = document.getElementById('graphic-cs-score');
+    const pedScoreEl = document.getElementById('graphic-pedagogy-score');
+    const paceEl = document.getElementById('graphic-pace-value');
+    const pctileEl = document.getElementById('graphic-percentile-value');
+    const footerLinkEl = document.getElementById('graphic-footer-link');
+    const metaRowEl = document.getElementById('graphic-meta-row');
+
+    if (paperNameEl) paperNameEl.innerText = report.paperTitle || 'Bihar STET / BPSC TRE CBT';
+    if (scoreNumEl) {
+      scoreNumEl.innerHTML = `${report.totalScore} <span class="graphic-score-denom">/ ${report.maxMarks}</span>`;
+    }
+    if (pctSubEl) {
+      pctSubEl.innerText = `${report.accuracy}% Accuracy • ${report.percentage}% Marks`;
+    }
+    if (verdictPillEl) {
+      verdictPillEl.innerText = report.isQualified ? 'QUALIFIED' : 'NEEDS PRACTICE';
+      if (report.isQualified) {
+        verdictPillEl.classList.remove('unqualified');
+      } else {
+        verdictPillEl.classList.add('unqualified');
+      }
+    }
+
+    // Extract section scores if present
+    let csScore = '--';
+    let pedScore = '--';
+    if (report.sectionStats) {
+      const stats = Object.values(report.sectionStats);
+      const csSec = stats.find(s => s.name && s.name.toLowerCase().includes('subject')) || stats[0];
+      const pedSec = stats.find(s => s.name && (s.name.toLowerCase().includes('teaching') || s.name.toLowerCase().includes('pedagogy'))) || stats[1];
+      if (csSec) csScore = `${csSec.score} / ${csSec.total}`;
+      if (pedSec) pedScore = `${pedSec.score} / ${pedSec.total}`;
+    }
+
+    if (csScoreEl) csScoreEl.innerText = csScore;
+    if (pedScoreEl) pedScoreEl.innerText = pedScore;
+    if (paceEl) paceEl.innerText = `${report.avgTimePerAttempt}s / Q`;
+    if (pctileEl) pctileEl.innerText = `${report.estPercentile}th`;
+    if (metaRowEl) {
+      metaRowEl.innerText = `TCS iON CBT Exam Simulator • ${report.difficulty || 'Real Exam Standard'}`;
+    }
+    if (footerLinkEl) {
+      const testUrl = `https://bstet-cs-cbt.vercel.app/?paper=${report.paperId || ''}&mode=cbt`;
+      footerLinkEl.innerText = testUrl;
+    }
+  }
+
+  shareOnWhatsApp() {
+    if (!this.lastAnalyticsReport) return;
+    const r = this.lastAnalyticsReport;
+    const testUrl = `https://bstet-cs-cbt.vercel.app/?paper=${r.paperId || ''}&mode=cbt`;
+    const verdict = r.isQualified ? 'QUALIFIED 🎉' : 'Needs Practice (75 Cutoff)';
+    const text = `🎯 *Bihar STET & BPSC TRE Computer Science CBT Simulator*\n\n` +
+      `📝 *Paper:* ${r.paperTitle}\n` +
+      `📊 *My Score:* ${r.totalScore} / ${r.maxMarks} (${r.percentage}%)\n` +
+      `🎯 *Accuracy:* ${r.accuracy}%\n` +
+      `⚡ *Pace:* ${r.avgTimePerAttempt}s / question\n` +
+      `🏆 *Status:* ${verdict}\n\n` +
+      `🔥 *Can you beat my score? Take this official CBT test free:* 👇\n` +
+      `${testUrl}`;
+    window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`, '_blank');
+  }
+
+  shareOnTelegram() {
+    if (!this.lastAnalyticsReport) return;
+    const r = this.lastAnalyticsReport;
+    const testUrl = `https://bstet-cs-cbt.vercel.app/?paper=${r.paperId || ''}&mode=cbt`;
+    const verdict = r.isQualified ? 'QUALIFIED 🎉' : 'Needs Practice (75 Cutoff)';
+    const text = `🎯 Bihar STET & BPSC TRE CBT Mock Result\n` +
+      `📝 Paper: ${r.paperTitle}\n` +
+      `📊 Score: ${r.totalScore}/${r.maxMarks} (${r.percentage}%)\n` +
+      `🎯 Accuracy: ${r.accuracy}% | Status: ${verdict}\n` +
+      `🔥 Can you beat my score? Attempt this paper here:`;
+    window.open(`https://t.me/share/url?url=${encodeURIComponent(testUrl)}&text=${encodeURIComponent(text)}`, '_blank');
+  }
+
+  copyTestLink() {
+    if (!this.lastAnalyticsReport) return;
+    const r = this.lastAnalyticsReport;
+    const testUrl = `https://bstet-cs-cbt.vercel.app/?paper=${r.paperId || ''}&mode=cbt`;
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(testUrl).then(() => {
+        alert('Official Test link copied to clipboard!\nShare this with your study group: ' + testUrl);
+      }).catch(() => {
+        prompt('Copy your official test link below:', testUrl);
+      });
+    } else {
+      prompt('Copy your official test link below:', testUrl);
+    }
+  }
+
+  downloadScorecardBadge() {
+    if (!this.lastAnalyticsReport) return;
+    const r = this.lastAnalyticsReport;
+
+    const canvas = this.scorecardCanvas || document.createElement('canvas');
+    canvas.width = 800;
+    canvas.height = 420;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+
+    // Background Gradient (Deep Navy Ink)
+    const bgGrad = ctx.createLinearGradient(0, 0, 800, 420);
+    bgGrad.addColorStop(0, '#090d16');
+    bgGrad.addColorStop(1, '#1e293b');
+    ctx.fillStyle = bgGrad;
+    if (ctx.roundRect) {
+      ctx.beginPath();
+      ctx.roundRect(0, 0, 800, 420, 20);
+      ctx.fill();
+    } else {
+      ctx.fillRect(0, 0, 800, 420);
+    }
+
+    // Outer Border
+    ctx.strokeStyle = 'rgba(255, 255, 255, 0.15)';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+
+    // Top Accent Rainbow Stripe
+    const stripeGrad = ctx.createLinearGradient(0, 0, 800, 0);
+    stripeGrad.addColorStop(0, '#3b82f6');
+    stripeGrad.addColorStop(0.5, '#10b981');
+    stripeGrad.addColorStop(1, '#f59e0b');
+    ctx.fillStyle = stripeGrad;
+    ctx.fillRect(0, 0, 800, 6);
+
+    // Brand Header
+    ctx.font = '28px sans-serif';
+    ctx.fillText('🎓', 36, 48);
+
+    ctx.fillStyle = '#FFFFFF';
+    ctx.font = 'bold 18px sans-serif';
+    ctx.fillText('Bihar STET & BPSC TRE CBT Simulator', 78, 38);
+
+    ctx.fillStyle = '#94a3b8';
+    ctx.font = '13px sans-serif';
+    ctx.fillText('Class 11-12 Computer Science (Code 226) • Official Candidate Scorecard', 78, 58);
+
+    // Status Tag (Top Right)
+    const isQual = r.isQualified;
+    const tagText = isQual ? 'QUALIFIED' : 'NEEDS PRACTICE';
+    ctx.fillStyle = isQual ? '#10b981' : '#ef4444';
+    ctx.beginPath();
+    if (ctx.roundRect) {
+      ctx.roundRect(620, 28, 144, 34, 17);
+    } else {
+      ctx.rect(620, 28, 144, 34);
+    }
+    ctx.fill();
+
+    ctx.fillStyle = '#FFFFFF';
+    ctx.font = 'bold 13px sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillText(tagText, 692, 50);
+    ctx.textAlign = 'left';
+
+    // Divider Line
+    ctx.strokeStyle = 'rgba(255, 255, 255, 0.1)';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(36, 80);
+    ctx.lineTo(764, 80);
+    ctx.stroke();
+
+    // Paper Title
+    ctx.fillStyle = '#F8FAFC';
+    ctx.font = 'bold 24px serif';
+    const cleanTitle = (r.paperTitle || 'Bihar STET Examination').slice(0, 42);
+    ctx.fillText(cleanTitle, 36, 120);
+
+    ctx.fillStyle = '#94A3B8';
+    ctx.font = '13px sans-serif';
+    ctx.fillText('TCS iON CBT Simulator Environment • Verified Answer Key & Negative Marking Evaluation', 36, 144);
+
+    // Big Score Cluster
+    ctx.fillStyle = '#38BDF8';
+    ctx.font = '900 52px monospace';
+    ctx.fillText(String(r.totalScore), 36, 215);
+
+    ctx.fillStyle = '#94A3B8';
+    ctx.font = 'bold 22px monospace';
+    const scoreWidth = ctx.measureText(String(r.totalScore)).width;
+    ctx.fillText(`/ ${r.maxMarks}`, 48 + scoreWidth, 215);
+
+    ctx.fillStyle = '#34D399';
+    ctx.font = 'bold 15px sans-serif';
+    ctx.fillText(`${r.accuracy}% Accuracy Rate • ${r.percentage}% Marks`, 36, 244);
+
+    // Stats Grid Boxes (4 cells)
+    const stats = [
+      { label: 'ACCURACY', val: `${r.accuracy}%` },
+      { label: 'EST. PERCENTILE', val: `${r.estPercentile}th` },
+      { label: 'AVG PACE', val: `${r.avgTimePerAttempt}s / Q` },
+      { label: 'ATTEMPTED', val: `${r.attempted} / ${r.totalQuestions}` }
+    ];
+
+    const boxY = 270;
+    const boxW = 168;
+    const boxH = 68;
+    stats.forEach((st, idx) => {
+      const bx = 36 + idx * (boxW + 16);
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
+      ctx.beginPath();
+      if (ctx.roundRect) {
+        ctx.roundRect(bx, boxY, boxW, boxH, 8);
+      } else {
+        ctx.rect(bx, boxY, boxW, boxH);
+      }
+      ctx.fill();
+      ctx.strokeStyle = 'rgba(255, 255, 255, 0.08)';
+      ctx.stroke();
+
+      ctx.fillStyle = '#94A3B8';
+      ctx.font = '11px sans-serif';
+      ctx.fillText(st.label, bx + 12, boxY + 24);
+
+      ctx.fillStyle = '#F1F5F9';
+      ctx.font = 'bold 18px monospace';
+      ctx.fillText(st.val, bx + 12, boxY + 52);
+    });
+
+    // Footer Bar
+    ctx.strokeStyle = 'rgba(255, 255, 255, 0.1)';
+    ctx.beginPath();
+    ctx.moveTo(36, 360);
+    ctx.lineTo(764, 360);
+    ctx.stroke();
+
+    ctx.fillStyle = '#38BDF8';
+    ctx.font = 'bold 13px sans-serif';
+    const testUrl = `https://bstet-cs-cbt.vercel.app/?paper=${r.paperId || ''}`;
+    ctx.fillText(`🚀 Take This Test Free: ${testUrl}`, 36, 390);
+
+    ctx.fillStyle = '#34D399';
+    ctx.font = '600 12px sans-serif';
+    ctx.textAlign = 'right';
+    ctx.fillText('✓ Verified Client-Side Attempt • 100% Free Forever', 764, 390);
+    ctx.textAlign = 'left';
+
+    // Trigger PNG Download
+    try {
+      const dataUrl = canvas.toDataURL('image/png');
+      const dlLink = document.createElement('a');
+      dlLink.download = `Scorecard_${r.paperId || 'test'}.png`;
+      dlLink.href = dataUrl;
+      document.body.appendChild(dlLink);
+      dlLink.click();
+      document.body.removeChild(dlLink);
+    } catch (err) {
+      console.error('Error generating scorecard image:', err);
+      alert('Unable to export scorecard image. You can use the Share Summary button instead.');
+    }
+  }
+
+  renderCheatsheets() {
+    if (!this.cheatsheetGrid) return;
+    const data = window.CHEATSHEETS_DATA || [];
+    const query = this.cheatsheetSearchQuery ? this.cheatsheetSearchQuery.toLowerCase() : '';
+    const activeCat = this.activeCheatsheetCategory || 'all';
+
+    const filtered = data.filter(item => {
+      if (activeCat !== 'all' && item.category !== activeCat) return false;
+      if (query) {
+        const textToSearch = [
+          item.title,
+          item.titleHindi,
+          item.summary,
+          item.categoryName,
+          JSON.stringify(item.tables || []),
+          (item.tips || []).join(' ')
+        ].join(' ').toLowerCase();
+        if (!textToSearch.includes(query)) return false;
+      }
+      return true;
+    });
+
+    if (filtered.length === 0) {
+      this.cheatsheetGrid.innerHTML = `
+        <div style="text-align: center; padding: 48px 20px; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg);">
+          <div style="font-size: 36px; margin-bottom: 12px;">🔍</div>
+          <h4 style="font-size: 18px; font-weight: 700; color: var(--text-primary); margin-bottom: 6px;">No Cheatsheets Match Your Search</h4>
+          <p style="font-size: 14px; color: var(--text-secondary); margin: 0;">Try searching for different keywords like "BCNF", "QuickSort", "Bloom", "Subnet", or select "All".</p>
+        </div>
+      `;
+      return;
+    }
+
+    const isHindi = window.BSTET_I18N && window.BSTET_I18N.currentLang === 'hi';
+
+    this.cheatsheetGrid.innerHTML = filtered.map(card => {
+      const cardTitle = isHindi && card.titleHindi ? card.titleHindi : card.title;
+      const catTitle = isHindi && card.categoryHindi ? card.categoryHindi : card.categoryName;
+
+      const tablesHtml = (card.tables || []).map(t => {
+        const headerCols = t.headers.map(h => `<th>${h}</th>`).join('');
+        const rowCols = t.rows.map(row => {
+          const cells = row.map((c, i) => {
+            const isCode = i === 1 && (c.includes('O(') || c.includes('2^') || c.includes('log') || c.includes('∑'));
+            return isCode ? `<td><span class="formula-code">${c}</span></td>` : `<td>${c}</td>`;
+          }).join('');
+          return `<tr>${cells}</tr>`;
+        }).join('');
+
+        return `
+          <div class="cheatsheet-table-wrap">
+            <h5 class="cheatsheet-table-title">📊 ${t.title}</h5>
+            <table class="cheatsheet-table">
+              <thead><tr>${headerCols}</tr></thead>
+              <tbody>${rowCols}</tbody>
+            </table>
+          </div>
+        `;
+      }).join('');
+
+      const tipsHtml = (card.tips && card.tips.length > 0) ? `
+        <div class="cheatsheet-tips-section">
+          <div class="cheatsheet-tips-header">
+            <span>💡</span>
+            <span>High-Yield Examination Tips &amp; Traps</span>
+          </div>
+          <ul class="cheatsheet-tips-list">
+            ${card.tips.map(tip => `<li>${tip}</li>`).join('')}
+          </ul>
+        </div>
+      ` : '';
+
+      return `
+        <article class="cheatsheet-card" id="card-${card.id}">
+          <div class="cheatsheet-card-header">
+            <div>
+              <span class="cheatsheet-domain-pill">
+                ${card.icon || ''}
+                <span>${catTitle}</span>
+              </span>
+              <h3 class="cheatsheet-card-title">${cardTitle}</h3>
+              <p class="cheatsheet-card-subtitle">${card.title !== cardTitle ? card.title : ''}</p>
+            </div>
+            <button class="btn btn-sm btn-secondary copy-card-notes-btn" data-card-id="${card.id}" title="Copy formulas and notes to clipboard">
+              📋 Copy Notes
+            </button>
+          </div>
+
+          <div class="cheatsheet-summary">
+            ${card.summary}
+          </div>
+
+          ${tablesHtml}
+          ${tipsHtml}
+        </article>
+      `;
+    }).join('');
+
+    // Attach copy button listeners
+    this.cheatsheetGrid.querySelectorAll('.copy-card-notes-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const cardId = e.currentTarget.dataset.cardId;
+        const cardObj = (window.CHEATSHEETS_DATA || []).find(c => c.id === cardId);
+        if (!cardObj) return;
+
+        let copyText = `📚 ${cardObj.title} (${cardObj.categoryName})\n\n${cardObj.summary}\n\n`;
+        (cardObj.tables || []).forEach(t => {
+          copyText += `--- ${t.title} ---\n`;
+          t.rows.forEach(r => {
+            copyText += `• ${r[0]}: ${r[1]} ${r[2] ? '(' + r[2] + ')' : ''}\n`;
+          });
+          copyText += '\n';
+        });
+        if (cardObj.tips && cardObj.tips.length > 0) {
+          copyText += `💡 High-Yield Tips:\n`;
+          cardObj.tips.forEach(tip => {
+            copyText += `• ${tip}\n`;
+          });
+        }
+        copyText += `\nBihar STET & BPSC TRE CBT Simulator: https://bstet-cs-cbt.vercel.app/#/cheatsheets`;
+
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(copyText).then(() => {
+            const originalText = e.currentTarget.innerHTML;
+            e.currentTarget.innerHTML = '✓ Copied!';
+            setTimeout(() => { e.currentTarget.innerHTML = originalText; }, 2000);
+          });
+        }
+      });
+    });
   }
 
   renderSolutions() {
@@ -2257,7 +2721,7 @@ class App {
                 <span>💻 Lead Software Engineer &amp; CBT Systems Architect</span>
               </p>
               <p style="font-size:12.5px; color:var(--text-muted); margin:0; line-height:1.5;">
-                📍 Patna, Bihar, India • Dedicated to Free, High-Caliber Teaching Exam Preparation
+                📍 Bihar, India • Dedicated to Free, High-Caliber Teaching Exam Preparation
               </p>
             </div>
           </div>
@@ -2269,7 +2733,7 @@ class App {
             <h5 style="font-size:16px; font-weight:800; color:var(--text-primary); margin:0;">The Developer's Story &amp; Vision</h5>
           </div>
           <div class="quote-box">
-            "Growing up in Bihar, I have seen first-hand how hardworking our teachers and students are. Yet, when preparing for competitive exams like <strong>Bihar STET Paper II</strong> and <strong>BPSC TRE</strong>, candidates are forced to pay hefty subscriptions for substandard test series with incorrect answer keys and lagging servers. I engineered this portal completely from scratch with a single promise: <strong>100% free forever, authentic TCS iON CBT parity, zero tracking, and zero latency</strong>. Every teacher in Bihar deserves access to the finest preparation tools without barriers."
+            "Born in Bihar and having pursued my education in Siliguri, I have seen first-hand how hardworking our teachers and students are. Yet, when preparing for competitive exams like <strong>Bihar STET Paper II</strong> and <strong>BPSC TRE</strong>, candidates are forced to pay hefty subscriptions for substandard test series with incorrect answer keys and lagging servers. I engineered this portal completely from scratch with a single promise: <strong>100% free forever, authentic TCS iON CBT parity, zero tracking, and zero latency</strong>. Every teacher in Bihar deserves access to the finest preparation tools without barriers."
           </div>
         </div>
 
@@ -2361,7 +2825,9 @@ class App {
       exam: this.examView,
       result: this.resultView,
       dashboard: this.dashboardView,
-      'topic-practice': this.topicPracticeView
+      'topic-practice': this.topicPracticeView,
+      cheatsheets: this.cheatsheetsView,
+      'not-found': this.notFoundView
     };
 
     Object.entries(views).forEach(([name, el]) => {
@@ -2390,7 +2856,8 @@ class App {
     const navMap = {
       lobby: 'nav-link-lobby',
       dashboard: 'nav-link-dashboard',
-      'topic-practice': 'nav-link-topic-practice'
+      'topic-practice': 'nav-link-topic-practice',
+      cheatsheets: 'nav-link-cheatsheets'
     };
     document.querySelectorAll('.nav-link').forEach(l => {
       l.classList.remove('active');
@@ -2572,12 +3039,12 @@ class App {
 
       if (this.examView && this.examView.classList.contains('active')) {
         const key = e.key.toUpperCase();
-        if (['1', '2', '3', '4'].includes(e.key)) {
-          const map = { '1': 'A', '2': 'B', '3': 'C', '4': 'D' };
+        if (['1', '2', '3', '4', '5'].includes(e.key)) {
+          const map = { '1': 'A', '2': 'B', '3': 'C', '4': 'D', '5': 'E' };
           this.engine.selectOption(map[e.key]);
           this.renderQuestionView();
           this.renderPalette();
-        } else if (['A', 'B', 'C', 'D'].includes(key) && !e.ctrlKey && !e.metaKey) {
+        } else if (['A', 'B', 'C', 'D', 'E'].includes(key) && !e.ctrlKey && !e.metaKey) {
           this.engine.selectOption(key);
           this.renderQuestionView();
           this.renderPalette();

@@ -1,6 +1,6 @@
 {
-  "totalQuestions": 1950,
-  "crossDupCount": 45,
+  "totalQuestions": 2220,
+  "crossDupCount": 47,
   "dupGroups": [
     {
       "shortNorm": "what is the main purpose of inheritance in oop",
@@ -90,6 +90,21 @@
       "occurrences": [
         "official_shift1(Q10)",
         "official_2023(Q91)"
+      ]
+    },
+    {
+      "shortNorm": "the length of an ipv6 address is",
+      "text": "The length of an IPv6 address is:",
+      "section": "Computer Science",
+      "topic": "Computer Science",
+      "count": 2,
+      "papers": [
+        "official_shift1",
+        "bpsc_tre1_2023"
+      ],
+      "occurrences": [
+        "official_shift1(Q11)",
+        "bpsc_tre1_2023(Q105)"
       ]
     },
     {
@@ -676,98 +691,127 @@
         "official_2020(Q1)",
         "official_2019(Q21)"
       ]
+    },
+    {
+      "shortNorm": "which of the following statements is not true",
+      "text": "Which of the following statements is not true?",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Mathematics",
+      "count": 2,
+      "papers": [
+        "bpsc_tre2_2023",
+        "pedagogy_master_100"
+      ],
+      "occurrences": [
+        "bpsc_tre2_2023(Q32)",
+        "pedagogy_master_100(Q77)"
+      ]
     }
   ],
   "paperDupMap": {
     "official_shift1": {
       "title": "BSTET Official 2025 - Shift 1",
-      "category": "Official PYQ",
+      "category": "Bihar STET PYQ",
       "totalQ": 150,
-      "dupsWithOtherPapers": 16,
+      "dupsWithOtherPapers": 17,
       "details": []
     },
     "official_shift2": {
       "title": "BSTET Official 2025 - Shift 2",
-      "category": "Official PYQ",
+      "category": "Bihar STET PYQ",
       "totalQ": 150,
       "dupsWithOtherPapers": 12,
       "details": []
     },
     "official_shift3": {
       "title": "BSTET Official 2025 - Shift 3",
-      "category": "Official PYQ",
+      "category": "Bihar STET PYQ",
       "totalQ": 150,
       "dupsWithOtherPapers": 6,
       "details": []
     },
     "official_shift4": {
       "title": "BSTET Official 2025 - Shift 4",
-      "category": "Official PYQ",
+      "category": "Bihar STET PYQ",
       "totalQ": 150,
       "dupsWithOtherPapers": 10,
       "details": []
     },
     "official_2023": {
       "title": "BSTET Official 2023 - Paper II",
-      "category": "Official PYQ",
+      "category": "Bihar STET PYQ",
       "totalQ": 150,
       "dupsWithOtherPapers": 43,
       "details": []
     },
-    "bpsc_tre3_2024": {
-      "title": "BPSC TRE 3.0 PGT Computer Science (Class 11-12)",
-      "category": "Official PYQ",
-      "totalQ": 150,
-      "dupsWithOtherPapers": 1,
-      "details": []
-    },
     "official_2020": {
       "title": "BSTET Official 2020 Re-Exam - Paper II (CS)",
-      "category": "Official PYQ",
+      "category": "Bihar STET PYQ",
       "totalQ": 150,
       "dupsWithOtherPapers": 1,
       "details": []
     },
     "official_2019": {
       "title": "BSTET Official 2019 - Paper II (CS)",
-      "category": "Official PYQ",
+      "category": "Bihar STET PYQ",
       "totalQ": 150,
       "dupsWithOtherPapers": 1,
       "details": []
     },
     "pedagogy_shift_set1": {
       "title": "BSTET Art of Teaching 2023 - Shift 1 (Set 01)",
-      "category": "Official PYQ",
+      "category": "Bihar STET PYQ",
       "totalQ": 30,
       "dupsWithOtherPapers": 0,
       "details": []
     },
     "pedagogy_shift_set2": {
       "title": "BSTET Art of Teaching 2023 - Shift 1 (Set 02)",
-      "category": "Official PYQ",
+      "category": "Bihar STET PYQ",
       "totalQ": 30,
       "dupsWithOtherPapers": 0,
       "details": []
     },
     "pedagogy_shift_set3": {
-      "title": "BSTET Art of Teaching 2023 - Shift 1 (Set 03)",
-      "category": "Official PYQ",
+      "title": "BSTET Art of Teaching 2023 - Shift 2 (Set 03)",
+      "category": "Bihar STET PYQ",
       "totalQ": 30,
       "dupsWithOtherPapers": 0,
       "details": []
     },
     "pedagogy_shift_set4": {
       "title": "BSTET Art of Teaching 2023 - Shift 1 (Set 04)",
-      "category": "Official PYQ",
+      "category": "Bihar STET PYQ",
       "totalQ": 30,
       "dupsWithOtherPapers": 0,
       "details": []
     },
     "pedagogy_shift_set5": {
-      "title": "BSTET Art of Teaching 2023 - Shift 1 (Set 05)",
-      "category": "Official PYQ",
+      "title": "BSTET Art of Teaching 2023 - Shift 2 (Set 05)",
+      "category": "Bihar STET PYQ",
       "totalQ": 30,
       "dupsWithOtherPapers": 0,
+      "details": []
+    },
+    "bpsc_tre1_2023": {
+      "title": "BPSC TRE 1.0 PGT Computer Science (Class 11-12)",
+      "category": "BPSC TRE PYQ",
+      "totalQ": 120,
+      "dupsWithOtherPapers": 1,
+      "details": []
+    },
+    "bpsc_tre2_2023": {
+      "title": "BPSC TRE 2.0 PGT Computer Science (Class 11-12)",
+      "category": "BPSC TRE PYQ",
+      "totalQ": 150,
+      "dupsWithOtherPapers": 1,
+      "details": []
+    },
+    "bpsc_tre3_2024": {
+      "title": "BPSC TRE 3.0 PGT Computer Science (Class 11-12)",
+      "category": "BPSC TRE PYQ",
+      "totalQ": 150,
+      "dupsWithOtherPapers": 1,
       "details": []
     },
     "drill_cs_100": {
@@ -809,7 +853,7 @@
       "title": "BSTET Art of Teaching 100Q PYQ Master Drill",
       "category": "Sectional Drill",
       "totalQ": 100,
-      "dupsWithOtherPapers": 0,
+      "dupsWithOtherPapers": 1,
       "details": []
     },
     "pedagogy_recent_50": {

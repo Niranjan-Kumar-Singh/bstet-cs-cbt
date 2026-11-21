@@ -16,10 +16,10 @@ window.BSTET_I18N = {
       toggle_to_lang: "हिन्दी",
 
       // Hero Section
-      mission_pill: "🔥 MISSION BSTET 2026",
+      mission_pill: "MISSION BSTET & BPSC TRE 2026",
       motivational_quote: '"Work hard in silence, let your success make the noise!"',
       hero_title: "BSTET Paper II (Computer Science) CBT Portal",
-      hero_subtitle: "Official Examination Simulator for Higher Secondary Teachers (Class 11-12 Code 226). Practice with 23 authentic mock papers (1,950+ verified questions including Art of Teaching Pedagogy PYQs) under authentic TCS iON CBT conditions with in-depth conceptual explanations.",
+      hero_subtitle: "Official Examination Simulator for Higher Secondary Teachers (Class 11–12). Practice with 27 authentic papers (2,470+ verified questions across BPSC TRE 1.0/2.0/3.0/4.0 & Bihar STET) under authentic TCS iON CBT conditions with in-depth conceptual explanations.",
       
       // Meta Metrics Grid
       meta_subject: "Subject Knowledge",
@@ -150,10 +150,10 @@ window.BSTET_I18N = {
       toggle_to_lang: "English",
 
       // Hero Section
-      mission_pill: "🔥 मिशन BSTET 2026",
+      mission_pill: "मिशन BSTET & BPSC TRE 2026",
       motivational_quote: '"मेहनत इतनी खामोशी से करो कि तुम्हारी सफलता शोर मचा दे!"',
       hero_title: "BSTET पेपर II (कंप्यूटर साइंस) CBT पोर्टल",
-      hero_subtitle: "उच्च माध्यमिक शिक्षक भर्ती (कक्षा 11-12, विषय कोड 226) हेतु आधिकारिक परीक्षा सिमुलेटर। 23 प्रामाणिक मॉक पेपर्स (1,950+ सत्यापित प्रश्न जिसमें शिक्षण कला एवं शिक्षाशास्त्र PYQ संग्रह शामिल है) के साथ वास्तविक TCS iON CBT इंटरफ़ेस पर विस्तृत व्याख्या सहित अभ्यास करें।",
+      hero_subtitle: "उच्च माध्यमिक कंप्यूटर साइंस शिक्षक भर्ती (कक्षा 11-12) हेतु आधिकारिक परीक्षा सिमुलेटर। 27 प्रामाणिक पेपर्स (2,470+ सत्यापित प्रश्न: BPSC TRE 1.0/2.0/3.0/4.0 और बिहार STET) के साथ वास्तविक TCS iON CBT इंटरफ़ेस पर विस्तृत व्याख्या सहित अभ्यास करें।",
 
       // Meta Metrics Grid
       meta_subject: "विषय ज्ञान (कंप्यूटर साइंस)",
