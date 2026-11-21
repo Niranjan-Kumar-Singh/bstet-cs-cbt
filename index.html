@@ -169,19 +169,19 @@
     href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,500;0,7..72,600;0,7..72,700;1,7..72,400&family=Public+Sans:wght@400;500;600;700;800&display=swap">
 
   <!-- Progressive Web App Manifest -->
-  <link rel="manifest" href="manifest.webmanifest?v=20261121_104616">
+  <link rel="manifest" href="manifest.webmanifest?v=20261121_cb1301">
 
   <!-- Core Modular Stylesheets -->
-  <link rel="stylesheet" href="css/tokens.css?v=20261121_104616">
-  <link rel="stylesheet" href="css/base.css?v=20261121_104616">
-  <link rel="stylesheet" href="css/components.css?v=20261121_104616">
-  <link rel="stylesheet" href="css/lobby.css?v=20261121_104616">
-  <link rel="stylesheet" href="css/exam.css?v=20261121_104616">
-  <link rel="stylesheet" href="css/result.css?v=20261121_104616">
-  <link rel="stylesheet" href="css/dashboard.css?v=20261121_104616">
-  <link rel="stylesheet" href="css/print.css?v=20261121_104616" media="print">
-  <link rel="stylesheet" href="css/styles.css?v=20261121_104616">
-  <link rel="stylesheet" href="css/cbt-theme.css?v=20261121_104616">
+  <link rel="stylesheet" href="css/tokens.css?v=20261121_cb1301">
+  <link rel="stylesheet" href="css/base.css?v=20261121_cb1301">
+  <link rel="stylesheet" href="css/components.css?v=20261121_cb1301">
+  <link rel="stylesheet" href="css/lobby.css?v=20261121_cb1301">
+  <link rel="stylesheet" href="css/exam.css?v=20261121_cb1301">
+  <link rel="stylesheet" href="css/result.css?v=20261121_cb1301">
+  <link rel="stylesheet" href="css/dashboard.css?v=20261121_cb1301">
+  <link rel="stylesheet" href="css/print.css?v=20261121_cb1301" media="print">
+  <link rel="stylesheet" href="css/styles.css?v=20261121_cb1301">
+  <link rel="stylesheet" href="css/cbt-theme.css?v=20261121_cb1301">
 </head>
 
 <body>
@@ -1967,6 +1967,34 @@
     </section>
   </main>
 
+  <!-- Native Mobile Bottom Navigation Bar (Hidden during active CBT examination) -->
+  <nav class="mobile-bottom-nav" id="mobile-bottom-nav" aria-label="Mobile Navigation">
+    <a href="#/" class="mobile-nav-item active" id="mob-nav-lobby" title="Mock Papers / होम">
+      <span class="mob-nav-icon" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      </span>
+      <span class="mob-nav-label">Home</span>
+    </a>
+    <a href="#/topic-practice" class="mobile-nav-item" id="mob-nav-topic" title="Topic Practice / अभ्यास">
+      <span class="mob-nav-icon" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/></svg>
+      </span>
+      <span class="mob-nav-label">Practice</span>
+    </a>
+    <a href="#/cheatsheets" class="mobile-nav-item" id="mob-nav-cheatsheets" title="Cheatsheets / फॉर्मूला">
+      <span class="mob-nav-icon" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10"/><path d="M6 10h10"/></svg>
+      </span>
+      <span class="mob-nav-label">Formula</span>
+    </a>
+    <a href="#/dashboard" class="mobile-nav-item" id="mob-nav-dashboard" title="Dashboard / विश्लेषण">
+      <span class="mob-nav-icon" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+      </span>
+      <span class="mob-nav-label">Analysis</span>
+    </a>
+  </nav>
+
   <!-- =========================================================================
        MODALS
        ========================================================================= -->
@@ -2144,21 +2172,21 @@
   <!-- =========================================================================
        DATA & APPLICATION SCRIPTS (High-Performance Deferred Loading)
        ========================================================================= -->
-  <script>window.BSTET_VERSION = '20261121_104616';</script>
+  <script>window.BSTET_VERSION = '20261121_cb1301';</script>
   <!-- Internationalization & Localization Engine -->
-  <script defer src="js/i18n.js?v=20261121_104616"></script>
+  <script defer src="js/i18n.js?v=20261121_cb1301"></script>
 
   <!-- Master Paper Directory Catalog (Only 2.3 KiB) -->
-  <script defer src="js/data/papers-index.js?v=20261121_104616"></script>
+  <script defer src="js/data/papers-index.js?v=20261121_cb1301"></script>
 
   <!-- High-Yield Quick-Revision Cheatsheets & Formula Cards Data -->
-  <script defer src="js/data/cheatsheets-data.js?v=20261121_104616"></script>
+  <script defer src="js/data/cheatsheets-data.js?v=20261121_cb1301"></script>
 
   <!-- Core Exam Platform Engines (Deferred to eliminate parser blocking) -->
-  <script defer src="js/exam-engine.js?v=20261121_104616"></script>
-  <script defer src="js/analytics.js?v=20261121_104616"></script>
-  <script defer src="js/app.js?v=20261121_104616"></script>
-  <script type="module" src="js/main.js?v=20261121_104616"></script>
+  <script defer src="js/exam-engine.js?v=20261121_cb1301"></script>
+  <script defer src="js/analytics.js?v=20261121_cb1301"></script>
+  <script defer src="js/app.js?v=20261121_cb1301"></script>
+  <script type="module" src="js/main.js?v=20261121_cb1301"></script>
 
   <!-- Google AdSense Script (Safe Resilient Loader) -->
   <script>

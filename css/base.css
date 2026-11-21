@@ -20,6 +20,9 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  max-width: 100%;
+  width: 100%;
 }
 
 body {
@@ -29,6 +32,9 @@ body {
   background-color: var(--bg-app);
   color: var(--text-primary);
   overflow-x: hidden;
+  max-width: 100%;
+  width: 100%;
+  position: relative;
 }
 
 /* 2. Accessible Skip Link */

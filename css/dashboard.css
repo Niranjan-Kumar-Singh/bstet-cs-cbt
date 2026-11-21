@@ -486,3 +486,145 @@ html[data-theme="dark"] .history-section {
 .cheatsheet-tips-list li:last-child {
   margin-bottom: 0;
 }
+
+
+/* ==========================================================================
+   MOBILE RESPONSIVE ADAPTATIONS (Dashboard, Topic Practice & Cheatsheets)
+   ========================================================================== */
+@media (max-width: 768px) {
+  #dashboard-view,
+  #topic-practice-view,
+  #cheatsheets-view {
+    padding: 16px 12px 64px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .view-header h2 {
+    font-size: clamp(20px, 5vw, 24px);
+    line-height: 1.25;
+  }
+
+  .view-header p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .dashboard-stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .dash-stat-card {
+    padding: 14px 10px;
+    border-radius: 12px;
+  }
+
+  .dash-stat-label {
+    font-size: 11px;
+    margin-bottom: 6px;
+  }
+
+  .dash-stat-val {
+    font-size: 24px;
+  }
+
+  .dash-stat-sub {
+    font-size: 11px;
+    margin-top: 4px;
+  }
+
+  .trend-card {
+    padding: 16px 12px;
+    margin-bottom: 20px;
+    border-radius: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .history-table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .history-table th,
+  .history-table td {
+    padding: 10px 8px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .backup-card {
+    padding: 16px 12px;
+    border-radius: 14px;
+  }
+
+  .backup-card-actions {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .backup-card-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cheatsheet-category-tabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 4px 0 8px;
+    gap: 6px;
+    scrollbar-width: none;
+  }
+
+  .cheatsheet-category-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .cheatsheet-cat-tab {
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .cheatsheet-table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .cheatsheet-table th,
+  .cheatsheet-table td {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 6px;
+  }
+
+  .dash-stat-card {
+    padding: 12px 8px;
+  }
+
+  .dash-stat-val {
+    font-size: 22px;
+  }
+
+  .view-header h2 {
+    font-size: 19px;
+  }
+}

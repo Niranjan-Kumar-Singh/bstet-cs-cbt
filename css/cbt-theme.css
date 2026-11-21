@@ -1112,17 +1112,18 @@
   .palette-pane {
     position: fixed;
     top: 0;
-    right: -340px;
+    right: 0;
     bottom: 0;
-    width: 300px;
-    z-index: 100;
+    width: min(300px, 85vw);
+    z-index: 1000;
     background-color: var(--bg-surface);
     box-shadow: -6px 0 25px rgba(0, 0, 0, 0.25);
-    transition: right 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    transform: translateX(100%);
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
   .palette-pane.open {
-    right: 0;
+    transform: translateX(0);
   }
 
   .mobile-palette-header {
@@ -2506,3 +2507,157 @@ html[data-font-size='xlarge'] .filter-tab-btn { font-size: 16.5px !important; }
   border-color: var(--border-strong) !important;
 }
 
+
+
+/* ==========================================================================
+   MOBILE CBT EXAM & PALETTE PERFECTION (320px - 480px)
+   ========================================================================== */
+@media (max-width: 480px) {
+  .exam-header {
+    height: 48px !important;
+    padding: 0 6px !important;
+    gap: 4px !important;
+  }
+
+  .exam-title-badge {
+    max-width: 90px !important;
+    font-size: 11px !important;
+  }
+
+  .exam-title-badge .badge {
+    display: none !important;
+  }
+
+  #view-qp-btn,
+  #exam-fullscreen-btn,
+  #exam-font-controls {
+    display: none !important;
+  }
+
+  .timer-container {
+    padding: 3px 6px !important;
+    font-size: 12.5px !important;
+    font-weight: 800 !important;
+    gap: 3px !important;
+  }
+
+  .exam-ctrl-btn {
+    padding: 4px 6px !important;
+    min-height: 28px !important;
+    font-size: 11px !important;
+  }
+
+  .sections-bar {
+    padding: 3px 6px !important;
+    gap: 4px !important;
+  }
+
+  .section-tab-btn {
+    padding: 5px 8px !important;
+    font-size: 10.5px !important;
+  }
+
+  .question-pane {
+    padding: 10px 8px 120px !important;
+  }
+
+  .q-badge {
+    font-size: 13px !important;
+  }
+
+  .topic-tag {
+    font-size: 9.5px !important;
+  }
+
+  .question-statement {
+    font-size: 13.5px !important;
+    line-height: 1.45 !important;
+    margin-bottom: 12px !important;
+  }
+
+  .options-container {
+    gap: 6px !important;
+    margin-bottom: 18px !important;
+  }
+
+  .option-card {
+    padding: 10px !important;
+    gap: 8px !important;
+    min-height: 44px !important;
+    border-radius: 10px !important;
+  }
+
+  .option-indicator {
+    width: 22px !important;
+    height: 22px !important;
+    font-size: 11px !important;
+  }
+
+  .option-text {
+    font-size: 12.5px !important;
+    line-height: 1.35 !important;
+  }
+
+  .exam-footer-bar {
+    padding: 6px 8px calc(6px + env(safe-area-inset-bottom, 0px)) !important;
+    gap: 4px !important;
+  }
+
+  .exam-footer-bar .btn {
+    padding: 7px 4px !important;
+    font-size: 11px !important;
+    min-height: 36px !important;
+  }
+
+  .palette-pane {
+    width: min(290px, 86vw) !important;
+  }
+
+  .palette-grid {
+    grid-template-columns: repeat(5, 1fr) !important;
+    gap: 5px !important;
+    padding: 8px !important;
+  }
+
+  .palette-grid .q-btn,
+  .palette-btn {
+    width: 34px !important;
+    height: 34px !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+  }
+
+  .palette-legend {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 4px !important;
+    padding: 8px !important;
+  }
+
+  .legend-item {
+    font-size: 10px !important;
+  }
+
+  /* Modals on small mobile */
+  .modal-overlay {
+    padding: 8px !important;
+  }
+
+  .modal-card {
+    max-width: calc(100vw - 16px) !important;
+    margin: 0 auto !important;
+    border-radius: 14px !important;
+  }
+
+  .mode-option {
+    padding: 10px !important;
+    margin-bottom: 8px !important;
+  }
+
+  .mode-title {
+    font-size: 13px !important;
+  }
+
+  .mode-desc {
+    font-size: 11px !important;
+  }
+}

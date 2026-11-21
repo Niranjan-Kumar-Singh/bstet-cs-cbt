@@ -2853,6 +2853,11 @@ class App {
       document.body.classList.remove('in-exam-mode');
     }
 
+    const mobNav = document.getElementById('mobile-bottom-nav');
+    if (mobNav) {
+      mobNav.style.display = (viewName === 'exam') ? 'none' : '';
+    }
+
     const navMap = {
       lobby: 'nav-link-lobby',
       dashboard: 'nav-link-dashboard',
@@ -2868,6 +2873,24 @@ class App {
       if (activeLink) {
         activeLink.classList.add('active');
         activeLink.setAttribute('aria-current', 'page');
+      }
+    }
+
+    const mobNavMap = {
+      lobby: 'mob-nav-lobby',
+      dashboard: 'mob-nav-dashboard',
+      'topic-practice': 'mob-nav-topic',
+      cheatsheets: 'mob-nav-cheatsheets'
+    };
+    document.querySelectorAll('.mobile-nav-item').forEach(m => {
+      m.classList.remove('active');
+      m.removeAttribute('aria-current');
+    });
+    if (mobNavMap[viewName]) {
+      const activeMobLink = document.getElementById(mobNavMap[viewName]);
+      if (activeMobLink) {
+        activeMobLink.classList.add('active');
+        activeMobLink.setAttribute('aria-current', 'page');
       }
     }
 

@@ -118,6 +118,25 @@ export class Router {
       el.classList.add('active');
       el.setAttribute('aria-current', 'page');
     }
+
+    const mobNavMap = {
+      'nav-link-lobby': 'mob-nav-lobby',
+      'nav-link-dashboard': 'mob-nav-dashboard',
+      'nav-link-topic-practice': 'mob-nav-topic',
+      'nav-link-cheatsheets': 'mob-nav-cheatsheets'
+    };
+    document.querySelectorAll('.mobile-nav-item').forEach(m => {
+      m.classList.remove('active');
+      m.removeAttribute('aria-current');
+    });
+    const mobId = mobNavMap[activeId];
+    if (mobId) {
+      const mobEl = document.getElementById(mobId);
+      if (mobEl) {
+        mobEl.classList.add('active');
+        mobEl.setAttribute('aria-current', 'page');
+      }
+    }
   }
 
   navigate(route) {

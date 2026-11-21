@@ -585,3 +585,165 @@
   color: #34D399;
   font-weight: 600;
 }
+
+
+/* ==========================================================================
+   MOBILE RESPONSIVE ADAPTATIONS (Result & Scorecard View)
+   ========================================================================== */
+@media (max-width: 768px) {
+  #result-view,
+  .result-content {
+    padding: 16px 12px 64px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .result-hero {
+    padding: 20px 14px;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    border-radius: 14px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .result-gauge-wrap {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+  }
+
+  .gauge-pct {
+    font-size: 24px;
+  }
+
+  .kpi-grid {
+    width: 100%;
+    max-width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .kpi-item {
+    padding: 10px 8px;
+    border-radius: 10px;
+  }
+
+  .kpi-val {
+    font-size: 18px;
+  }
+
+  .kpi-label {
+    font-size: 11px;
+  }
+
+  .scorecard-share-hub {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .share-hub-card {
+    padding: 16px 12px;
+    border-radius: 14px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .share-hub-meta {
+    min-width: 0 !important;
+    width: 100%;
+  }
+
+  .share-hub-title {
+    font-size: 16px;
+  }
+
+  .share-hub-buttons {
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .share-hub-buttons .btn {
+    width: 100%;
+    justify-content: center;
+    min-height: 42px;
+    font-size: 13px;
+  }
+
+  .scorecard-graphic-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .scorecard-graphic-card {
+    padding: 16px 12px;
+    border-radius: 14px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .graphic-card-body {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .graphic-paper-details {
+    min-width: 0 !important;
+    width: 100%;
+  }
+
+  .graphic-paper-name {
+    font-size: 17px;
+  }
+
+  .graphic-score-bubble {
+    text-align: center;
+  }
+
+  .graphic-stats-bar {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px;
+  }
+
+  .solution-review-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .solution-filter-tabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    scrollbar-width: none;
+    padding-bottom: 4px;
+  }
+
+  .solution-filter-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sol-filter-tab {
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .result-actions-bar {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .result-actions-bar .btn {
+    width: 100%;
+    justify-content: center;
+    min-height: 44px;
+  }
+}
