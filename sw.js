@@ -3,7 +3,7 @@
  * Cache-first offline capability with network fallback and versioned cache management.
  */
 
-const CACHE_NAME = 'bstet-cbt-20261121_aa9df2';
+const CACHE_NAME = 'bstet-cbt-20261121_104616';
 
 const PRECACHE_ASSETS = [
   '/',

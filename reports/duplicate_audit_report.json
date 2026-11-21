@@ -1,7 +1,24 @@
 {
-  "totalQuestions": 2220,
-  "crossDupCount": 47,
+  "totalQuestions": 2470,
+  "crossDupCount": 173,
   "dupGroups": [
+    {
+      "shortNorm": "in a relational database what is a primary key",
+      "text": "In a relational database, what is a primary key?",
+      "section": "Computer Science",
+      "topic": "Database Management Systems",
+      "count": 3,
+      "papers": [
+        "official_shift4",
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "official_shift4(Q42)",
+        "bpsc_tre3_2024(Q121)",
+        "bpsc_tre4_model_2026(Q121)"
+      ]
+    },
     {
       "shortNorm": "what is the main purpose of inheritance in oop",
       "text": "What is the main purpose of inheritance in OOP?",
@@ -558,21 +575,6 @@
       ]
     },
     {
-      "shortNorm": "in a relational database what is a primary key",
-      "text": "In a relational database, what is a primary key?",
-      "section": "Computer Science",
-      "topic": "Database Management Systems",
-      "count": 2,
-      "papers": [
-        "official_shift4",
-        "bpsc_tre3_2024"
-      ],
-      "occurrences": [
-        "official_shift4(Q42)",
-        "bpsc_tre3_2024(Q121)"
-      ]
-    },
-    {
       "shortNorm": "a formal model of protection in an operating system provides",
       "text": "A formal model of protection in an operating system provides:",
       "section": "Computer Science",
@@ -706,6 +708,1896 @@
         "bpsc_tre2_2023(Q32)",
         "pedagogy_master_100(Q77)"
       ]
+    },
+    {
+      "shortNorm": "why is kerala just the place for you if you love variety",
+      "text": "Why is Kerala just the place for you if you love variety ?",
+      "section": "Part I: Language (English & Hindi)",
+      "topic": "English Comprehension & Grammar",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q1)",
+        "bpsc_tre4_model_2026(Q1)"
+      ]
+    },
+    {
+      "shortNorm": "why should you take a trip to the spice gardens in the hills",
+      "text": "Why should you take a trip to the spice gardens in the hills ?",
+      "section": "Part I: Language (English & Hindi)",
+      "topic": "English Comprehension & Grammar",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q2)",
+        "bpsc_tre4_model_2026(Q2)"
+      ]
+    },
+    {
+      "shortNorm": "what is keralas cuisine known for",
+      "text": "What is Kerala's cuisine known for ?",
+      "section": "Part I: Language (English & Hindi)",
+      "topic": "English Comprehension & Grammar",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q3)",
+        "bpsc_tre4_model_2026(Q3)"
+      ]
+    },
+    {
+      "shortNorm": "what gives sea food its pungency",
+      "text": "What gives sea food its pungency?",
+      "section": "Part I: Language (English & Hindi)",
+      "topic": "English Comprehension & Grammar",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q4)",
+        "bpsc_tre4_model_2026(Q4)"
+      ]
+    },
+    {
+      "shortNorm": "why would foreign bargainhunter visitors never face a problem in kerala",
+      "text": "Why would foreign bargain-hunter visitors never face a problem in Kerala ?",
+      "section": "Part I: Language (English & Hindi)",
+      "topic": "English Comprehension & Grammar",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q5)",
+        "bpsc_tre4_model_2026(Q5)"
+      ]
+    },
+    {
+      "shortNorm": "if you reach _____ airport on time you will catch the flight",
+      "text": "If you reach _____ Airport on time, you will catch the flight.",
+      "section": "Part I: Language (English & Hindi)",
+      "topic": "English Comprehension & Grammar",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q6)",
+        "bpsc_tre4_model_2026(Q6)"
+      ]
+    },
+    {
+      "shortNorm": "you should go for ____ early morning walk",
+      "text": "You should go for ____ early morning walk.",
+      "section": "Part I: Language (English & Hindi)",
+      "topic": "English Comprehension & Grammar",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q7)",
+        "bpsc_tre4_model_2026(Q7)"
+      ]
+    },
+    {
+      "shortNorm": "if 30th april is tuesday what day of the week would be 10th may",
+      "text": "If 30th April is Tuesday, what day of the week would be 10th May?",
+      "section": "Part I: Language (English & Hindi)",
+      "topic": "English Comprehension & Grammar",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q8)",
+        "bpsc_tre4_model_2026(Q8)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is the value of x1x2",
+      "text": "Which of the following is the value of (x+1/x)2 ?",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q31)",
+        "bpsc_tre4_model_2026(Q31)"
+      ]
+    },
+    {
+      "shortNorm": "an article is at 10 more than the cp if discount of 10 is allowed then whic",
+      "text": "An article is at 10% more than the CP. If discount of 10% is allowed then which of the fol",
+      "section": "Part II: General Studies",
+      "topic": "Elementary Mathematics",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q32)",
+        "bpsc_tre4_model_2026(Q32)"
+      ]
+    },
+    {
+      "shortNorm": "by what number should 81 be divided to get a perfect cube",
+      "text": "By what number should 81 be divided to get a perfect cube ?",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q33)",
+        "bpsc_tre4_model_2026(Q33)"
+      ]
+    },
+    {
+      "shortNorm": "the difference between two whole numbers is 66 the ratio of the two numbers",
+      "text": "The difference between two whole numbers is 66. The ratio of the two numbers is 2:5. The t",
+      "section": "Part II: General Studies",
+      "topic": "Elementary Mathematics",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q34)",
+        "bpsc_tre4_model_2026(Q34)"
+      ]
+    },
+    {
+      "shortNorm": "in a parallelogram abcd angle a and angle b are in the ratio 12 find the an",
+      "text": "In a parallelogram ABCD, angle A and angle B are in the ratio 1:2. Find the angle A.",
+      "section": "Part II: General Studies",
+      "topic": "Elementary Mathematics",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q35)",
+        "bpsc_tre4_model_2026(Q35)"
+      ]
+    },
+    {
+      "shortNorm": "the height of a cylinder whose radius is 7 cm and the total surface area is",
+      "text": "The height of a cylinder whose radius is 7 cm and the total surface area is 968 cm2 is :",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q36)",
+        "bpsc_tre4_model_2026(Q36)"
+      ]
+    },
+    {
+      "shortNorm": "if 3m1 35 37 then the value of m is",
+      "text": "If (–3)m+1 × (–3)5 = (–3)7, then the value of m is :",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q37)",
+        "bpsc_tre4_model_2026(Q37)"
+      ]
+    },
+    {
+      "shortNorm": "if x and y are inversely proportional then",
+      "text": "If x and y are inversely proportional, then:",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q38)",
+        "bpsc_tre4_model_2026(Q38)"
+      ]
+    },
+    {
+      "shortNorm": "a piece of wire of resistance r is cut into 5 equal parts these parts are t",
+      "text": "A piece of wire of resistance R is cut into 5 equal parts. These parts are then connected ",
+      "section": "Part II: General Studies",
+      "topic": "Elementary Mathematics",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q39)",
+        "bpsc_tre4_model_2026(Q39)"
+      ]
+    },
+    {
+      "shortNorm": "an electric heater of resistance 8 draws 15a current from a service mains f",
+      "text": "An electric heater of resistance 8  draws 15A current from a service mains for 2 Hrs. Wha",
+      "section": "Part II: General Studies",
+      "topic": "General Science",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q40)",
+        "bpsc_tre4_model_2026(Q40)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following lenses would you prefer to use while reading small l",
+      "text": "Which of the following lenses would you prefer to use while reading small letters found in",
+      "section": "Part II: General Studies",
+      "topic": "General Science",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q41)",
+        "bpsc_tre4_model_2026(Q41)"
+      ]
+    },
+    {
+      "shortNorm": "the human eye forms the image of an object at its ________",
+      "text": "The human eye forms the image of an object at its ________",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q42)",
+        "bpsc_tre4_model_2026(Q42)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is not a part of the female reproductive system in h",
+      "text": "Which of the following is not a part of the female reproductive system in human beings ?",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q43)",
+        "bpsc_tre4_model_2026(Q43)"
+      ]
+    },
+    {
+      "shortNorm": "the anther contains _________",
+      "text": "The anther contains _________",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q44)",
+        "bpsc_tre4_model_2026(Q44)"
+      ]
+    },
+    {
+      "shortNorm": "asexual reproduction takes place through budding in ______",
+      "text": "Asexual reproduction takes place through budding in ______",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q45)",
+        "bpsc_tre4_model_2026(Q45)"
+      ]
+    },
+    {
+      "shortNorm": "which one of the following types of medicines used for treating indigestion",
+      "text": "Which one of the following types of medicines used for treating indigestion ?",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q46)",
+        "bpsc_tre4_model_2026(Q46)"
+      ]
+    },
+    {
+      "shortNorm": "the task of processing citizenship applications under the caa will be under",
+      "text": "The task of processing citizenship applications under the CAA will be undertaken by",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q47)",
+        "bpsc_tre4_model_2026(Q47)"
+      ]
+    },
+    {
+      "shortNorm": "in which of the following country india launched its upi",
+      "text": "In which of the following country India launched its UPI ?",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q48)",
+        "bpsc_tre4_model_2026(Q48)"
+      ]
+    },
+    {
+      "shortNorm": "what is the name of space craft to be launched by isro in 2024 to carry ast",
+      "text": "What is the name of space craft to be launched by ISRO in 2024 to carry astronauts ?",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q49)",
+        "bpsc_tre4_model_2026(Q49)"
+      ]
+    },
+    {
+      "shortNorm": "which country is not a member of g 7",
+      "text": "Which country is not a member of G 7 ?",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q50)",
+        "bpsc_tre4_model_2026(Q50)"
+      ]
+    },
+    {
+      "shortNorm": "the process involved in achieving green hydrogen is",
+      "text": "The process involved in achieving Green hydrogen is",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q51)",
+        "bpsc_tre4_model_2026(Q51)"
+      ]
+    },
+    {
+      "shortNorm": "which technology can be used to revise deceased individuals",
+      "text": "Which technology can be used to revise deceased individuals ?",
+      "section": "Part II: General Studies",
+      "topic": "Elementary Mathematics",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q52)",
+        "bpsc_tre4_model_2026(Q52)"
+      ]
+    },
+    {
+      "shortNorm": "in cost of living index parameter 2024 which country is better than india",
+      "text": "In cost of living index parameter 2024 which country is better than India ?",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q53)",
+        "bpsc_tre4_model_2026(Q53)"
+      ]
+    },
+    {
+      "shortNorm": "who supported gandhiji in champaran satyagraha in 1917 in support of farmer",
+      "text": "Who supported Gandhiji in Champaran Satyagraha in 1917 in support of farmers ?",
+      "section": "Part II: General Studies",
+      "topic": "Indian National Movement",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q54)",
+        "bpsc_tre4_model_2026(Q54)"
+      ]
+    },
+    {
+      "shortNorm": "which is the moonlike planet",
+      "text": "Which is the moon-like planet ?",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q55)",
+        "bpsc_tre4_model_2026(Q55)"
+      ]
+    },
+    {
+      "shortNorm": "on the basis of fossils which is the origin place of man",
+      "text": "On the basis of fossils which is the origin place of man ?",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q56)",
+        "bpsc_tre4_model_2026(Q56)"
+      ]
+    },
+    {
+      "shortNorm": "in india dry point settlement is found in",
+      "text": "In India dry point settlement is found in",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q57)",
+        "bpsc_tre4_model_2026(Q57)"
+      ]
+    },
+    {
+      "shortNorm": "in which district of bihar paddy crop production is maximum",
+      "text": "In which district of Bihar Paddy crop production is maximum ?",
+      "section": "Part II: General Studies",
+      "topic": "Geography & Environment",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q58)",
+        "bpsc_tre4_model_2026(Q58)"
+      ]
+    },
+    {
+      "shortNorm": "on which mountain is tehran situated",
+      "text": "On which mountain is Tehran situated ?",
+      "section": "Part II: General Studies",
+      "topic": "Geography & Environment",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q59)",
+        "bpsc_tre4_model_2026(Q59)"
+      ]
+    },
+    {
+      "shortNorm": "the highest peak in the eastern ghats of india is",
+      "text": "The highest peak in the Eastern Ghats of India is :",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q60)",
+        "bpsc_tre4_model_2026(Q60)"
+      ]
+    },
+    {
+      "shortNorm": "which of these statements is not a valid reason for the depletion of flora ",
+      "text": "Which of these statements is not a valid reason for the depletion of flora and fauna ?",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q61)",
+        "bpsc_tre4_model_2026(Q61)"
+      ]
+    },
+    {
+      "shortNorm": "in which district of bihar silk textile production is maximum",
+      "text": "In which district of Bihar silk textile production is maximum ?",
+      "section": "Part II: General Studies",
+      "topic": "Geography & Environment",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q62)",
+        "bpsc_tre4_model_2026(Q62)"
+      ]
+    },
+    {
+      "shortNorm": "who was the viceroy of india during the jallianwala bagh massacre",
+      "text": "Who was the viceroy of India during the Jallianwala Bagh massacre ?",
+      "section": "Part II: General Studies",
+      "topic": "Indian National Movement",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q63)",
+        "bpsc_tre4_model_2026(Q63)"
+      ]
+    },
+    {
+      "shortNorm": "the first president of the indian national congress was",
+      "text": "The first President of the Indian National Congress was:",
+      "section": "Part II: General Studies",
+      "topic": "Indian National Movement",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q64)",
+        "bpsc_tre4_model_2026(Q64)"
+      ]
+    },
+    {
+      "shortNorm": "who among the following is also known as the grand old man of india",
+      "text": "Who among the following is also known as the Grand old man of India ?",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q65)",
+        "bpsc_tre4_model_2026(Q65)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following movements was started by m k gandhi",
+      "text": "Which of the following movements was started by M. K. Gandhi ?",
+      "section": "Part II: General Studies",
+      "topic": "Indian National Movement",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q66)",
+        "bpsc_tre4_model_2026(Q66)"
+      ]
+    },
+    {
+      "shortNorm": "who was the leader of the bardoli satyagraha",
+      "text": "Who was the leader of the Bardoli Satyagraha ?",
+      "section": "Part II: General Studies",
+      "topic": "General Studies & Current Affairs",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q67)",
+        "bpsc_tre4_model_2026(Q67)"
+      ]
+    },
+    {
+      "shortNorm": "who among the following is not associated with home rule movement",
+      "text": "Who among the following is not associated with Home rule movement ?",
+      "section": "Part II: General Studies",
+      "topic": "Indian National Movement",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q68)",
+        "bpsc_tre4_model_2026(Q68)"
+      ]
+    },
+    {
+      "shortNorm": "who founded the bihar provincial congress committee in 1920",
+      "text": "Who founded the Bihar provincial congress committee in 1920 ?",
+      "section": "Part II: General Studies",
+      "topic": "Indian National Movement",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q69)",
+        "bpsc_tre4_model_2026(Q69)"
+      ]
+    },
+    {
+      "shortNorm": "the all india kisan sabha aiks was founded in 1936 in bihar under the leade",
+      "text": "The All India Kisan Sabha (AIKS) was founded in 1936 in Bihar under the leadership of :",
+      "section": "Part II: General Studies",
+      "topic": "Geography & Environment",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q70)",
+        "bpsc_tre4_model_2026(Q70)"
+      ]
+    },
+    {
+      "shortNorm": "digital circuit can be made by the repeated use of the _________",
+      "text": "Digital circuit can be made by the repeated use of the _________.",
+      "section": "Part III: Computer Science",
+      "topic": "Digital Logic & Circuits",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q71)",
+        "bpsc_tre4_model_2026(Q71)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is correct for digital circuits",
+      "text": "Which of the following is correct for Digital Circuits?",
+      "section": "Part III: Computer Science",
+      "topic": "Digital Logic & Circuits",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q72)",
+        "bpsc_tre4_model_2026(Q72)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is an example of a digital electronic",
+      "text": "Which of the following is an example of a digital Electronic?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q73)",
+        "bpsc_tre4_model_2026(Q73)"
+      ]
+    },
+    {
+      "shortNorm": "an or gate has 4 inputs the number of words in truth table will be _______",
+      "text": "An OR gate has 4 inputs. The number of words in truth table will be _______.",
+      "section": "Part III: Computer Science",
+      "topic": "Digital Logic & Circuits",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q74)",
+        "bpsc_tre4_model_2026(Q74)"
+      ]
+    },
+    {
+      "shortNorm": "when does a negative level triggered flipflop in digital electronics change",
+      "text": "When does a negative level triggered flip-flop in Digital Electronics changes its state?",
+      "section": "Part III: Computer Science",
+      "topic": "Digital Logic & Circuits",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q75)",
+        "bpsc_tre4_model_2026(Q75)"
+      ]
+    },
+    {
+      "shortNorm": "what is the result of the operation 1010 and 1100 in binary",
+      "text": "What is the result of the operation 1010 AND 1100 in binary?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q76)",
+        "bpsc_tre4_model_2026(Q76)"
+      ]
+    },
+    {
+      "shortNorm": "in a halfadder circuit what are the outputs",
+      "text": "In a half-adder circuit, what are the outputs?",
+      "section": "Part III: Computer Science",
+      "topic": "Digital Logic & Circuits",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q77)",
+        "bpsc_tre4_model_2026(Q77)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is the type of read only memory rom",
+      "text": "Which of the following is the type of Read Only Memory (ROM)?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q78)",
+        "bpsc_tre4_model_2026(Q78)"
+      ]
+    },
+    {
+      "shortNorm": "how many select lines are required for an 8to1 multiplexer",
+      "text": "How many select lines are required for an 8-to-1 multiplexer?",
+      "section": "Part III: Computer Science",
+      "topic": "Digital Logic & Circuits",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q80)",
+        "bpsc_tre4_model_2026(Q80)"
+      ]
+    },
+    {
+      "shortNorm": "convert the decimal number 1234 to binary octal and hexadecimal which of th",
+      "text": "Convert the decimal number 1234 to binary, octal, and hexadecimal. Which of the following ",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q81)",
+        "bpsc_tre4_model_2026(Q81)"
+      ]
+    },
+    {
+      "shortNorm": "what is booths algorithm used for",
+      "text": "What is Booth’s algorithm used for?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q82)",
+        "bpsc_tre4_model_2026(Q82)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is error detection code used in digital logic",
+      "text": "Which of the following is error detection code used in digital logic?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q83)",
+        "bpsc_tre4_model_2026(Q83)"
+      ]
+    },
+    {
+      "shortNorm": "when performing bcd addition what is the maximum value that can be represen",
+      "text": "When performing BCD addition, what is the maximum value that can be represented in a singl",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Architecture & Organization",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q84)",
+        "bpsc_tre4_model_2026(Q84)"
+      ]
+    },
+    {
+      "shortNorm": "convert the binary number 10111101 to its decimal equivalent which of the f",
+      "text": "Convert the binary number 1011.1101 to its decimal equivalent. Which of the following is t",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Architecture & Organization",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q85)",
+        "bpsc_tre4_model_2026(Q85)"
+      ]
+    },
+    {
+      "shortNorm": "what is de morgans theorem used for in digital logic",
+      "text": "What is De Morgan’s theorem used for in digital logic?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q86)",
+        "bpsc_tre4_model_2026(Q86)"
+      ]
+    },
+    {
+      "shortNorm": "what is the purpose of the dont care condition in digital logic",
+      "text": "What is the purpose of the “don’t care” condition in digital logic?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q87)",
+        "bpsc_tre4_model_2026(Q87)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following data structures stores elements in a nonlinear relat",
+      "text": "Which of the following data structures stores elements in a non-linear relationship?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q88)",
+        "bpsc_tre4_model_2026(Q88)"
+      ]
+    },
+    {
+      "shortNorm": "which data structure is used for efficient searching insertion and deletion",
+      "text": "Which data structure is used for efficient searching, insertion, and deletion of elements?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q89)",
+        "bpsc_tre4_model_2026(Q89)"
+      ]
+    },
+    {
+      "shortNorm": "in a binary search tree which subtree of a node contains elements that are ",
+      "text": "In a binary search tree, which subtree of a node contains elements that are greater than t",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Architecture & Organization",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q90)",
+        "bpsc_tre4_model_2026(Q90)"
+      ]
+    },
+    {
+      "shortNorm": "the result evaluating the postfix expression 10 5 60 6 8",
+      "text": "The result evaluating the postfix expression 10 5 + 60 6/ * 8",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Architecture & Organization",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q91)",
+        "bpsc_tre4_model_2026(Q91)"
+      ]
+    },
+    {
+      "shortNorm": "in a balanced binary tree the height of two subtrees of every node can not ",
+      "text": "In a balanced binary tree, the height of two sub-trees of every node can not differ by mor",
+      "section": "Part III: Computer Science",
+      "topic": "Data Structures & Algorithms",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q92)",
+        "bpsc_tre4_model_2026(Q92)"
+      ]
+    },
+    {
+      "shortNorm": "write the output of the following program int a 123 p",
+      "text": "Write the output of the following program: int a[ ] = {1,2,3,} *p;",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q93)",
+        "bpsc_tre4_model_2026(Q93)"
+      ]
+    },
+    {
+      "shortNorm": "a queue has configuration a b c d if you want to get the configuration d c ",
+      "text": "A queue has configuration a, b, c, d. If you want to get the configuration d, c, b, a, you",
+      "section": "Part III: Computer Science",
+      "topic": "Data Structures & Algorithms",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q94)",
+        "bpsc_tre4_model_2026(Q94)"
+      ]
+    },
+    {
+      "shortNorm": "the order of the binary search algorithm is _______",
+      "text": "The order of the binary search algorithm is _______.",
+      "section": "Part III: Computer Science",
+      "topic": "Data Structures & Algorithms",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q95)",
+        "bpsc_tre4_model_2026(Q95)"
+      ]
+    },
+    {
+      "shortNorm": "the preorder traversal of a binary search tree is 15 10 12 1120 18 16 19 wh",
+      "text": "The preorder traversal of a binary search tree is 15, 10, 12, 11,20, 18, 16, 19. Which one",
+      "section": "Part III: Computer Science",
+      "topic": "Data Structures & Algorithms",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q96)",
+        "bpsc_tre4_model_2026(Q96)"
+      ]
+    },
+    {
+      "shortNorm": "how many distinct binary search trees can be created out of 4 distinct keys",
+      "text": "How many distinct binary search trees can be created out of 4 distinct keys?",
+      "section": "Part III: Computer Science",
+      "topic": "Data Structures & Algorithms",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q97)",
+        "bpsc_tre4_model_2026(Q97)"
+      ]
+    },
+    {
+      "shortNorm": "include int main int i 5 j 10 k 15 printfd sizeofk ij printfd k return 0 as",
+      "text": "#include <stdio.h> int main() { int i = 5, j = 10, k = 15; printf(\\\"%d \\\", sizeof(k /=i+j)",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q98)",
+        "bpsc_tre4_model_2026(Q98)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following statements is true about bigo notation",
+      "text": "Which of the following statements is true about Big-O notation?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q99)",
+        "bpsc_tre4_model_2026(Q99)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is not a step in the divide and conquer algorithm",
+      "text": "Which of the following is NOT a step in the Divide and Conquer algorithm?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q100)",
+        "bpsc_tre4_model_2026(Q100)"
+      ]
+    },
+    {
+      "shortNorm": "merge sort is an example of which algorithm design paradigm",
+      "text": "Merge Sort is an example of which algorithm design paradigm?",
+      "section": "Part III: Computer Science",
+      "topic": "Data Structures & Algorithms",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q101)",
+        "bpsc_tre4_model_2026(Q101)"
+      ]
+    },
+    {
+      "shortNorm": "how many edges does a spanning tree of a graph with n vertices have",
+      "text": "How many edges does a spanning tree of a graph with N vertices have?",
+      "section": "Part III: Computer Science",
+      "topic": "Data Structures & Algorithms",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q102)",
+        "bpsc_tre4_model_2026(Q102)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is not a graph traversal algorithm",
+      "text": "Which of the following is NOT a graph traversal algorithm?",
+      "section": "Part III: Computer Science",
+      "topic": "Data Structures & Algorithms",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q103)",
+        "bpsc_tre4_model_2026(Q103)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is not an np complete problem",
+      "text": "Which of the following is NOT an NP- Complete problem?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q104)",
+        "bpsc_tre4_model_2026(Q104)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is an advantage of using arrays",
+      "text": "Which of the following is an advantage of using arrays?",
+      "section": "Part III: Computer Science",
+      "topic": "Data Structures & Algorithms",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q105)",
+        "bpsc_tre4_model_2026(Q105)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is not a basic operation performed on a data structu",
+      "text": "Which of the following is NOT a basic operation performed on a data structure?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q106)",
+        "bpsc_tre4_model_2026(Q106)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is a type of operating system",
+      "text": "Which of the following is a type of operating system?",
+      "section": "Part III: Computer Science",
+      "topic": "Operating Systems",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q107)",
+        "bpsc_tre4_model_2026(Q107)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is not a memory management technique used by operati",
+      "text": "Which of the following is NOT a memory management technique used by operating systems?",
+      "section": "Part III: Computer Science",
+      "topic": "Operating Systems",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q108)",
+        "bpsc_tre4_model_2026(Q108)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is a file system commonly used in operating systems",
+      "text": "Which of the following is a file system commonly used in operating systems?",
+      "section": "Part III: Computer Science",
+      "topic": "Operating Systems",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q109)",
+        "bpsc_tre4_model_2026(Q109)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is not a type of interrupt",
+      "text": "Which of the following is NOT a type of interrupt?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Architecture & Organization",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q110)",
+        "bpsc_tre4_model_2026(Q110)"
+      ]
+    },
+    {
+      "shortNorm": "what is a page in paging",
+      "text": "What is a page in paging?",
+      "section": "Part III: Computer Science",
+      "topic": "Operating Systems",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q111)",
+        "bpsc_tre4_model_2026(Q111)"
+      ]
+    },
+    {
+      "shortNorm": "in a system with a page size of 4 kb and a physical address space of 64 gb ",
+      "text": "In a system with a page size of 4 KB and a physical address space of 64 GB, what is the nu",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q112)",
+        "bpsc_tre4_model_2026(Q112)"
+      ]
+    },
+    {
+      "shortNorm": "what is a segment base in segmentation",
+      "text": "What is a segment base in segmentation?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q113)",
+        "bpsc_tre4_model_2026(Q113)"
+      ]
+    },
+    {
+      "shortNorm": "what causes thrashing to occur",
+      "text": "What causes thrashing to occur?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q114)",
+        "bpsc_tre4_model_2026(Q114)"
+      ]
+    },
+    {
+      "shortNorm": "consider a system with a total physical memory of 8 gb and total virtual me",
+      "text": "Consider a system with a total physical memory of 8 GB and total virtual memory of 16 GB. ",
+      "section": "Part III: Computer Science",
+      "topic": "Operating Systems",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q115)",
+        "bpsc_tre4_model_2026(Q115)"
+      ]
+    },
+    {
+      "shortNorm": "how is the tlb typically organized",
+      "text": "How is the TLB typically organized?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q116)",
+        "bpsc_tre4_model_2026(Q116)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is a common file operation",
+      "text": "Which of the following is a common file operation?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q117)",
+        "bpsc_tre4_model_2026(Q117)"
+      ]
+    },
+    {
+      "shortNorm": "consider a disk queue with requests for io to blocks on cylinders 98 183 37",
+      "text": "Consider a disk queue with requests for I/O to blocks on cylinders. 98 183 37 122 14 124 6",
+      "section": "Part III: Computer Science",
+      "topic": "Data Structures & Algorithms",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q118)",
+        "bpsc_tre4_model_2026(Q118)"
+      ]
+    },
+    {
+      "shortNorm": "thread shares with other threads belonging to the same process its",
+      "text": "Thread shares with other threads belonging to the same process its",
+      "section": "Part III: Computer Science",
+      "topic": "Operating Systems",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q119)",
+        "bpsc_tre4_model_2026(Q119)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is not a type of dbms",
+      "text": "Which of the following is NOT a type of DBMS?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q120)",
+        "bpsc_tre4_model_2026(Q120)"
+      ]
+    },
+    {
+      "shortNorm": "which normal form ensures that every nonprime attribute in a table is fully",
+      "text": "Which normal form ensures that every non-prime attribute in a table is fully functionally ",
+      "section": "Part III: Computer Science",
+      "topic": "Digital Logic & Circuits",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q122)",
+        "bpsc_tre4_model_2026(Q122)"
+      ]
+    },
+    {
+      "shortNorm": "which sql command is used to add new rows to a database table",
+      "text": "Which SQL command is used to add new rows to a database table?",
+      "section": "Part III: Computer Science",
+      "topic": "DBMS & SQL",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q123)",
+        "bpsc_tre4_model_2026(Q123)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is a disadvantage of using a distributed database sy",
+      "text": "Which of the following is a disadvantage of using a distributed database system?",
+      "section": "Part III: Computer Science",
+      "topic": "DBMS & SQL",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q124)",
+        "bpsc_tre4_model_2026(Q124)"
+      ]
+    },
+    {
+      "shortNorm": "what is the primary function of a router in a computer network",
+      "text": "What is the primary function of a router in a computer network?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Networks",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q125)",
+        "bpsc_tre4_model_2026(Q125)"
+      ]
+    },
+    {
+      "shortNorm": "in the osi model which layer is responsible for routing and forwarding data",
+      "text": "In the OSI model, which layer is responsible for routing and forwarding data packets?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Networks",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q126)",
+        "bpsc_tre4_model_2026(Q126)"
+      ]
+    },
+    {
+      "shortNorm": "which device is used to connect multiple devices within the same local area",
+      "text": "Which device is used to connect multiple devices within the same local area network (LAN)?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Networks",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q127)",
+        "bpsc_tre4_model_2026(Q127)"
+      ]
+    },
+    {
+      "shortNorm": "which protocol is used to send email over the internet",
+      "text": "Which protocol is used to send email over the Internet?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Networks",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q128)",
+        "bpsc_tre4_model_2026(Q128)"
+      ]
+    },
+    {
+      "shortNorm": "what is the purpose of a subnet mask in tcpip networking",
+      "text": "What is the purpose of a subnet mask in TCP/IP networking?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Networks",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q129)",
+        "bpsc_tre4_model_2026(Q129)"
+      ]
+    },
+    {
+      "shortNorm": "what is the maximum data rate of bluetooth version 50",
+      "text": "What is the maximum data rate of Bluetooth version 5.0?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Networks",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q130)",
+        "bpsc_tre4_model_2026(Q130)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is a software development life cycle model",
+      "text": "Which of the following is a software development life cycle model?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q131)",
+        "bpsc_tre4_model_2026(Q131)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is not a software development requirement",
+      "text": "Which of the following is NOT a software development requirement?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q132)",
+        "bpsc_tre4_model_2026(Q132)"
+      ]
+    },
+    {
+      "shortNorm": "what is the main difference between verification and validation in software",
+      "text": "What is the main difference between verification and validation in software testing?",
+      "section": "Part III: Computer Science",
+      "topic": "Software Engineering",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q133)",
+        "bpsc_tre4_model_2026(Q133)"
+      ]
+    },
+    {
+      "shortNorm": "what is the purpose of a software prototype",
+      "text": "What is the purpose of a software prototype?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q134)",
+        "bpsc_tre4_model_2026(Q134)"
+      ]
+    },
+    {
+      "shortNorm": "what is the primary goal of software engineering",
+      "text": "What is the primary goal of software engineering?",
+      "section": "Part III: Computer Science",
+      "topic": "Software Engineering",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q135)",
+        "bpsc_tre4_model_2026(Q135)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is a pillar of oop",
+      "text": "Which of the following is a pillar of OOP?",
+      "section": "Part III: Computer Science",
+      "topic": "C++ & OOP Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q136)",
+        "bpsc_tre4_model_2026(Q136)"
+      ]
+    },
+    {
+      "shortNorm": "which keyword is used in java to implement inheritance",
+      "text": "Which keyword is used in Java to implement inheritance?",
+      "section": "Part III: Computer Science",
+      "topic": "C++ & OOP Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q137)",
+        "bpsc_tre4_model_2026(Q137)"
+      ]
+    },
+    {
+      "shortNorm": "what is the access specifier used to make members of a class accessible onl",
+      "text": "What is the access specifier used to make members of a class accessible only within the sa",
+      "section": "Part III: Computer Science",
+      "topic": "C++ & OOP Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q138)",
+        "bpsc_tre4_model_2026(Q138)"
+      ]
+    },
+    {
+      "shortNorm": "inheritance in oop allows a class to",
+      "text": "Inheritance in OOP allows a class to:",
+      "section": "Part III: Computer Science",
+      "topic": "C++ & OOP Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q139)",
+        "bpsc_tre4_model_2026(Q139)"
+      ]
+    },
+    {
+      "shortNorm": "what is the purpose of html in a web application",
+      "text": "What is the purpose of HTML in a web application?",
+      "section": "Part III: Computer Science",
+      "topic": "Web Technology & Internet",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q140)",
+        "bpsc_tre4_model_2026(Q140)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is an example of a serverside scripting language com",
+      "text": "Which of the following is an example of a server-side scripting language commonly used in ",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Networks",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q141)",
+        "bpsc_tre4_model_2026(Q141)"
+      ]
+    },
+    {
+      "shortNorm": "what is the computational complexity of the halting problem",
+      "text": "What is the computational complexity of the halting problem?",
+      "section": "Part III: Computer Science",
+      "topic": "Data Structures & Algorithms",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q142)",
+        "bpsc_tre4_model_2026(Q142)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is not a component of a turing machine",
+      "text": "Which of the following is NOT a component of a Turing machine?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q143)",
+        "bpsc_tre4_model_2026(Q143)"
+      ]
+    },
+    {
+      "shortNorm": "which wireless communication technology is commonly used in iot devices for",
+      "text": "Which wireless communication technology is commonly used in IoT devices for short-range co",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q144)",
+        "bpsc_tre4_model_2026(Q144)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is an example of an iot protocol used for device com",
+      "text": "Which of the following is an example of an IoT protocol used for device communication?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Networks",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q145)",
+        "bpsc_tre4_model_2026(Q145)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is a subfield of ai",
+      "text": "Which of the following is a subfield of AI?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q146)",
+        "bpsc_tre4_model_2026(Q146)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is a supervised learning algorithm",
+      "text": "Which of the following is a supervised learning algorithm?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q147)",
+        "bpsc_tre4_model_2026(Q147)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is not a common type of ecommerce model",
+      "text": "Which of the following is NOT a common type of E-Commerce model?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q148)",
+        "bpsc_tre4_model_2026(Q148)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is an example of a b2c ecommerce website",
+      "text": "Which of the following is an example of a B2C E-Commerce website?",
+      "section": "Part III: Computer Science",
+      "topic": "Web Technology & Internet",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q149)",
+        "bpsc_tre4_model_2026(Q149)"
+      ]
+    },
+    {
+      "shortNorm": "which of the following is a multimedia authoring tool",
+      "text": "Which of the following is a multimedia authoring tool?",
+      "section": "Part III: Computer Science",
+      "topic": "Computer Science Concepts",
+      "count": 2,
+      "papers": [
+        "bpsc_tre3_2024",
+        "bpsc_tre4_model_2026"
+      ],
+      "occurrences": [
+        "bpsc_tre3_2024(Q150)",
+        "bpsc_tre4_model_2026(Q150)"
+      ]
     }
   ],
   "paperDupMap": {
@@ -811,7 +2703,21 @@
       "title": "BPSC TRE 3.0 PGT Computer Science (Class 11-12)",
       "category": "BPSC TRE PYQ",
       "totalQ": 150,
-      "dupsWithOtherPapers": 1,
+      "dupsWithOtherPapers": 127,
+      "details": []
+    },
+    "bpsc_tre1_lang_2023": {
+      "title": "BPSC TRE 1.0 Official Qualifying Language Paper",
+      "category": "BPSC TRE PYQ",
+      "totalQ": 100,
+      "dupsWithOtherPapers": 0,
+      "details": []
+    },
+    "bpsc_tre4_model_2026": {
+      "title": "BPSC TRE 4.0 Blueprint Mock Exam (Class 11-12 CS)",
+      "category": "BPSC TRE PYQ",
+      "totalQ": 150,
+      "dupsWithOtherPapers": 127,
       "details": []
     },
     "drill_cs_100": {

@@ -169,25 +169,29 @@ body {
 
 /* Top Global Navigation Bar */
 .navbar {
-  height: var(--header-height);
+  min-height: 64px;
+  height: auto;
   background-color: var(--bg-surface);
   border-bottom: 1px solid var(--border-subtle);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 28px;
+  padding: 8px 24px;
   position: sticky;
   top: 0;
   z-index: 50;
   box-shadow: var(--shadow-sm);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+  box-sizing: border-box;
+  gap: 16px;
 }
 
 .brand-container {
   display: flex;
   align-items: center;
   gap: 12px;
+  flex-shrink: 0;
 }
 
 .brand-logo {
@@ -204,46 +208,59 @@ body {
   font-size: 20px;
   box-shadow: var(--shadow-sm);
   border: 1px solid var(--border-subtle);
+  flex-shrink: 0;
+}
+
+.brand-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .brand-details h1 {
   font-family: var(--font-display);
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.25;
   color: var(--text-primary);
   margin: 0;
+  white-space: nowrap;
 }
 
 .brand-details p {
-  font-size: 12px;
+  font-size: 11.5px;
   color: var(--text-muted);
   font-weight: 500;
   margin: 0;
+  white-space: nowrap;
+  line-height: 1.2;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 6px;
-  margin: 0 16px;
+  gap: 4px;
+  margin: 0;
   background: var(--bg-subtle);
   padding: 4px;
   border-radius: var(--radius-md);
   border: 1px solid var(--border-subtle);
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 .nav-link {
-  font-size: 13.5px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--text-secondary);
   text-decoration: none;
-  padding: 7px 16px;
+  padding: 6px 12px;
   border-radius: var(--radius-sm);
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   display: inline-flex;
   align-items: center;
   border: 1px solid transparent;
+  white-space: nowrap;
 }
 
 .nav-link:hover {
@@ -256,6 +273,13 @@ body {
   background: var(--primary) !important;
   border-color: var(--primary) !important;
   box-shadow: 0 2px 8px rgba(37, 99, 235, 0.35);
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
 }
 
 .nav-actions {
@@ -915,11 +939,60 @@ body {
   min-height: 32px;
 }
 
-/* Responsiveness */
+/* Responsiveness & Navbar Adaptive Scaling */
+@media (max-width: 1280px) {
+  .brand-details p {
+    display: none;
+  }
+  .navbar {
+    padding: 8px 16px;
+    gap: 12px;
+  }
+  .nav-link {
+    padding: 6px 10px;
+    font-size: 12.5px;
+  }
+}
+
+@media (max-width: 1080px) {
+  #fullscreen-btn {
+    display: none;
+  }
+  .brand-details h1 {
+    font-size: 15px;
+  }
+  .nav-links {
+    gap: 2px;
+    padding: 3px;
+  }
+  .nav-link {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 860px) {
+  #font-smaller-btn, #font-larger-btn {
+    display: none;
+  }
+  .brand-details h1 {
+    font-size: 14.5px;
+  }
+  .nav-actions {
+    gap: 4px;
+  }
+}
+
 @media (max-width: 768px) {
   .navbar {
-    padding: 0 12px;
-    height: 56px;
+    padding: 8px 12px;
+    min-height: 56px;
+  }
+  .brand-details p {
+    display: none;
+  }
+  .nav-links {
+    display: none;
   }
   .brand-logo {
     width: 34px;
@@ -927,12 +1000,12 @@ body {
     font-size: 16px;
   }
   .brand-details h1 {
-    font-size: 15px;
+    font-size: 14px;
+    white-space: normal;
+    line-height: 1.25;
+    max-width: 220px;
   }
-  .brand-details p {
-    display: none;
-  }
-  #font-smaller-btn, #font-larger-btn, #fullscreen-btn {
+  #fullscreen-btn {
     display: none;
   }
   .nav-actions {
@@ -966,6 +1039,10 @@ body {
     font-size: 11px;
     padding: 4px 10px;
     min-height: 26px;
+    white-space: normal;
+    text-align: center;
+    max-width: 100%;
+    line-height: 1.3;
   }
   .exam-meta-grid {
     grid-template-columns: 1fr 1fr;
@@ -1031,6 +1108,38 @@ body {
   }
   .modal-footer {
     padding: 12px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 6px 10px;
+  }
+  .brand-details h1 {
+    font-size: 13px;
+    max-width: 175px;
+    line-height: 1.2;
+  }
+  .hero-banner {
+    padding: 16px 12px;
+    min-height: auto;
+  }
+  .hero-title {
+    font-size: 19px;
+    line-height: 1.3;
+    min-height: auto;
+    word-break: break-word;
+  }
+  .hero-subtitle {
+    font-size: 13px;
+    min-height: auto;
+  }
+  .motivational-pill {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+  .exam-meta-grid {
+    grid-template-columns: 1fr;
   }
 }
 
